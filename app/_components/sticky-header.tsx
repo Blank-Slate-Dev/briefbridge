@@ -1,0 +1,48 @@
+// app/_components/sticky-header.tsx
+'use client';
+
+import Image from 'next/image';
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
+
+export function StickyHeader() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 8);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  return (
+    <header className={`bb-header ${scrolled ? 'bb-header-scrolled' : ''}`}>
+      <nav className="bb-nav">
+        <Link href="/" className="bb-brand" aria-label="BriefBridge">
+          <Image
+            src="/logo.png"
+            alt="BriefBridge"
+            width={180}
+            height={42}
+            className="bb-brand-logo"
+            priority
+          />
+        </Link>
+        <div className="bb-nav-links">
+          <Link href="#how">How it works</Link>
+          <Link href="#coverage">Coverage</Link>
+          <Link href="#">Pricing</Link>
+          <Link href="#">FAQ</Link>
+        </div>
+        <div className="bb-nav-cta">
+          <Link href="#" className="bb-btn bb-btn-ghost">
+            Sign in
+          </Link>
+          <Link href="#waitlist" className="bb-btn bb-btn-primary">
+            Join waitlist
+          </Link>
+        </div>
+      </nav>
+    </header>
+  );
+}
