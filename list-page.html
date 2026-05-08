@@ -1,0 +1,3451 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html>
+
+	<head>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<link rel="stylesheet" href="/public/css/public.css?202505020137" />
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="robots" content="noindex, nofollow, noarchive">
+<link rel="icon" type="image/png" href="/public/img/icon.png">
+<link rel="apple-touch-icon" href="/public/img/icon-60@2x.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/public/img/icon-60@3x.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/public/img/icon-76.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/public/img/icon-76@2x.png" />
+<link rel="apple-touch-icon" sizes="58x58" href="/public/img/icon-58.png" />
+
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script type="text/javascript" src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="/public/js/lib/commonlibsnojq.min.js?202505020137"></script>
+<![endif]-->
+
+<!--[if lt IE 10]>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/history.js/1.8/native.history.min.js"></script>
+<![endif]-->
+
+
+
+<title>
+	
+
+	NSW Caselaw
+
+	
+		| Advanced Search
+	
+
+</title>
+
+
+	</head>	
+
+<!--[if lt IE 9]>
+   <body class="ie">
+<![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
+   <body>
+<!--<![endif]-->
+
+		<header>
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar" role="navigation">
+	<div class="container hidden-print">
+
+        <button type="button" class="navbar-toggle collapsed hamburger"
+       		data-toggle="collapse" data-target="#caselaw-menu">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+		<a href="/" class="navbar-brand">
+			<img src="/public/img/caselaw-logo-reverse.png" alt="Caselaw logo" />
+		</a>
+
+        <div class="collapse navbar-collapse" id="caselaw-menu">
+
+			<ul class="nav navbar-nav menu" style="">
+				<li >
+					<a href="/">Home</a>
+				</li>
+				<li >
+					<a href="/browse?display=all">Browse</a>
+				</li>
+				<li >
+					<a href="/about">About</a>
+				</li>
+				<li >
+					<a href="/contact">Contact us</a>
+				</li>
+			</ul>
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" class="visible-sm search-icon">
+  <span class="glyphicon glyphicon-search"></span>
+</a>
+
+<form id="queryForm" class="search-form hidden-print" action="/search" method="GET">
+  <div class="search-wrapper">
+    <label for="query" class="sr-only">Search query</label>
+    <input
+      type="text"
+      id="query"
+      name="query"
+      class="form-control"
+      placeholder="Enter a search term"
+      value=""
+    />
+    <button type="submit" class="btn btn-black">
+      Search
+    </button>
+  </div>
+
+  <input type="hidden" name="pagenumber" value="0" />
+</form>
+
+		
+             
+             <div class="advanced-search">
+                    	<a href="/search/advanced" class="advanced-search-link" >Advanced Search</a> 
+                    	&nbsp;|&nbsp;
+                        <a href="javascript:void(0);" id="searchTips" class="advanced-search-link" title="Search Tips" 
+                        	onclick="javascript:window.open('/search-tips', '_search_tips', 'height=800,width=850,toolbar=0,location=0,menubar=0;');">
+                        	Search Tips
+                        </a>
+            </div>
+
+		</div>
+
+
+	</div>
+
+</nav>
+
+<!-- CSS to change font color to white in mobile view -->
+<style>
+/* Mobile view: Change the font color to white for the Advanced Search link */
+@media only screen and (max-width: 768px) {
+	.advanced-search-link {
+		color: white !important;
+		text-decoration: none; /* Force the color change to white */
+	}
+}
+
+@media only screen and (min-width: 769px) {
+	.advanced-search-link {
+		color: #263238;
+		text-decoration: none;
+		line-height: 40px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.advanced-search {
+		width: 0;
+		right: 0;
+		opacity: 0;
+		position: absolute;
+		transition: 0.5s;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.advanced-search {
+		display: block !important;
+        clear: both !important;
+        transition: 0 !important;
+        margin-bottom: 15px !important;
+        margin-left: 10px !important;
+        margin-top: 0 !important;
+        opacity: 1 !important;
+        padding: 0 20px !important;
+        position: static !important;
+        width: auto !important;
+        float: none !important;
+	}
+}
+</style>
+		</header>
+		
+		
+
+		
+
+
+
+
+
+<div class="wrapper">
+ 
+	<div class="container">
+
+		
+			
+				<h1>
+					Advanced search
+					<small class="hidden-xs">
+					
+						
+							
+							
+							<span class="hidden-sm hidden-xs">
+								Displaying 1 - 20 of 434
+							</span>
+							results sorted by
+							<select name="order" class="form-control">
+								<option value="">Relevance</option>
+								<option
+									
+									value="decisionDate,asc">Decision date ascending</option>
+								<option
+									
+									value="decisionDate,desc">Decision date descending</option>
+								<option
+									
+									value="titleForSort,asc">Case name ascending</option>
+								<option
+									
+									value="titleForSort,desc">Case name descending</option>
+							</select>
+							<button name="orderUpdate" type="button" class="btn btn-white">Update</button>
+
+						
+						
+					
+					</small>
+				</h1>
+
+				<button type="button" class="btn btn-white advanced-form-trigger pull-right ">
+					 Refine search</button>
+
+			
+			
+		
+
+	</div>
+
+</div>
+
+
+<div class="filter advancedsearch" style="display:none">
+
+	<form id="queryForm" name="advancedsearch" action="/search/advanced?courts=54a634063004de94513d8281&amp;_courts=on&amp;startDate=01/01/2026&amp;endDate=31/12/2026" method="GET">
+
+		<input type="hidden" name="pagenumber" value="0" disabled/>
+		<input type="hidden" name="page" />
+		<input type="hidden" name="sort" value="" />
+
+		<div class="container">
+
+            <!-- <div class="boxblock">
+                <div class="row">
+                    <div class="advancedsearch-help col-md-12 hidden-xs">
+                        <a href="#" onclick="return false;" id="advancedsearch-popover" data-toggle="popover" title="Searching options" data-trigger="focus hover"><span class="glyphicon glyphicon-question-sign"></span>Help</a>
+                    </div>
+                    <div id="advancedsearch-popover-content" class="hide">
+                        If you enter multiple search words without operators or quotation marks, Caselaw Search by default will retrieve 
+                        decisions containing all the search words, whether they appear together as a phrase or separately throughout the decision.
+                   		<h4>Search operators</h4>
+                        The most commonly used and supported operators are AND and OR.<br/>
+                        <ul>
+                            <li>To retrieve decisions containing multiple search words use the AND operator in uppercase.<br/>
+                                For example:&nbsp;&nbsp;trade AND mark AND registration</li>
+                            <li>To retrieve decisions containing one or more search words use the OR operator in uppercase.<br/>
+                                For example:&nbsp;&nbsp;gun OR pistol</li>
+                        </ul>
+                        <h4>Phrase Searching</h4>
+                        Exact phrases can be searched for using double quotation marks.<br/>
+						For example: &ldquo;domestic violence&rdquo;
+                    </div>
+                </div>
+            </div> -->
+
+			<div class="boxblock">
+				<div class="row">
+					<div class="col-md-6">
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		<div class="form-vertical 
+
+
+
+
+	
+ ">
+			<label for="body" class="control-label">
+				Free text
+				
+			</label>
+			<span class="hint-block">searches the entire decision</span>
+			
+				
+				
+					<input id="body" name="body" class="form-control " type="text" value=""/>
+				
+			
+			<span class="help-block"></span>
+			
+
+
+
+
+	
+
+		</div>
+
+	
+
+
+					</div>
+					<div class="col-md-6">
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		<div class="form-vertical 
+
+
+
+
+	
+ ">
+			<label for="title" class="control-label">
+				Case name
+				
+			</label>
+			<span class="hint-block"></span>
+			
+				
+				
+					<input id="title" name="title" class="form-control " type="text" value=""/>
+				
+			
+			<span class="help-block"></span>
+			
+
+
+
+
+	
+
+		</div>
+
+	
+
+
+					</div>
+				</div>
+			</div>
+
+			<div class="boxblock">
+				<div class="row">
+					<div class="col-md-6">
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		<div class="form-vertical 
+
+
+
+
+	
+ ">
+			<label for="before" class="control-label">
+				Before
+				
+			</label>
+			<span class="hint-block">judge, commissioner, magistrate, member, registrar or assessor</span>
+			
+				
+				
+					<input id="before" name="before" class="form-control " type="text" value=""/>
+				
+			
+			<span class="help-block"></span>
+			
+
+
+
+
+	
+
+		</div>
+
+	
+
+
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		<div class="form-vertical 
+
+
+
+
+	
+ ">
+			<label for="catchwords" class="control-label">
+				Catchwords
+				
+			</label>
+			<span class="hint-block"></span>
+			
+				
+				
+					<input id="catchwords" name="catchwords" class="form-control " type="text" value=""/>
+				
+			
+			<span class="help-block"></span>
+			
+
+
+
+
+	
+
+		</div>
+
+	
+
+
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		<div class="form-vertical 
+
+
+
+
+	
+ ">
+			<label for="party" class="control-label">
+				Party names
+				
+			</label>
+			<span class="hint-block"></span>
+			
+				
+				
+					<input id="party" name="party" class="form-control " type="text" value=""/>
+				
+			
+			<span class="help-block"></span>
+			
+
+
+
+
+	
+
+		</div>
+
+	
+
+
+
+					</div>
+
+					<div class="col-md-6">
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		<div class="form-vertical 
+
+
+
+
+	
+ ">
+			<label for="mnc" class="control-label">
+				Medium Neutral Citation
+				
+			</label>
+			<span class="hint-block"> must include square brackets Eg: [2010] NSWCCA 333</span>
+			
+				
+				
+					<input id="mnc" name="mnc" class="form-control " type="text" value=""/>
+				
+			
+			<span class="help-block"></span>
+			
+
+
+
+
+	
+
+		</div>
+
+	
+
+
+
+						<div class="row">
+							<div class="col-xs-6">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		<div class="form-vertical 
+
+
+
+
+	
+ ">
+			<label for="startDate" class="control-label">
+				Decision date from
+				
+			</label>
+			<span class="hint-block">dd/mm/yyyy</span>
+			
+				
+				
+					<input id="startDate" name="startDate" class="form-control " type="text" value="01/01/2026"/>
+				
+			
+			<span class="help-block"></span>
+			
+
+
+
+
+	
+
+		</div>
+
+	
+
+
+							</div>
+							<div class="col-xs-6">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		<div class="form-vertical 
+
+
+
+
+	
+ ">
+			<label for="endDate" class="control-label">
+				to
+				
+			</label>
+			<span class="hint-block">dd/mm/yyyy</span>
+			
+				
+				
+					<input id="endDate" name="endDate" class="form-control " type="text" value="31/12/2026"/>
+				
+			
+			<span class="help-block"></span>
+			
+
+
+
+
+	
+
+		</div>
+
+	
+
+
+							</div>
+						</div>
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		<div class="form-vertical 
+
+
+
+
+	
+ ">
+			<label for="fileNumber" class="control-label">
+				File number
+				
+			</label>
+			<span class="hint-block"></span>
+			
+				
+				
+					<input id="fileNumber" name="fileNumber" class="form-control " type="text" value=""/>
+				
+			
+			<span class="help-block"></span>
+			
+
+
+
+
+	
+
+		</div>
+
+	
+
+
+
+					</div>
+				</div>
+			</div>
+
+			<div class="boxblock">
+				<div class="row">
+					<div class="col-md-6">
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		<div class="form-vertical 
+
+
+
+
+	
+ ">
+			<label for="legislationCited" class="control-label">
+				Legislation cited
+				
+			</label>
+			<span class="hint-block"></span>
+			
+				
+				
+					<input id="legislationCited" name="legislationCited" class="form-control " type="text" value=""/>
+				
+			
+			<span class="help-block"></span>
+			
+
+
+
+
+	
+
+		</div>
+
+	
+
+
+					</div>
+					<div class="col-md-6">
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		<div class="form-vertical 
+
+
+
+
+	
+ ">
+			<label for="casesCited" class="control-label">
+				Cases cited
+				
+			</label>
+			<span class="hint-block"></span>
+			
+				
+				
+					<input id="casesCited" name="casesCited" class="form-control " type="text" value=""/>
+				
+			
+			<span class="help-block"></span>
+			
+
+
+
+
+	
+
+		</div>
+
+	
+
+
+					</div>
+				</div>
+			</div>
+
+
+			<div class="group">
+
+				<label class="checkbox head">
+					<input type="checkbox" checked />
+					<em></em>
+					<strong>Courts and Tribunals</strong> (<span>select all</span>)
+				</label>
+
+				<div class="columngroup">
+
+					<div class="column heading">
+						<span>Courts</span>
+					</div>
+
+					
+
+					<div class="column">
+						
+							<label class="checkbox">
+								<input id="courts1" name="courts" type="checkbox" value="54a634063004de94513d827a"/><input type="hidden" name="_courts" value="on"/>
+								<em></em>
+								Children's Court
+							</label>
+						
+							<label class="checkbox">
+								<input id="courts2" name="courts" type="checkbox" value="54a634063004de94513d827b"/><input type="hidden" name="_courts" value="on"/>
+								<em></em>
+								Compensation Court
+							</label>
+						
+							<label class="checkbox">
+								<input id="courts3" name="courts" type="checkbox" value="54a634063004de94513d8278"/><input type="hidden" name="_courts" value="on"/>
+								<em></em>
+								Court of Appeal
+							</label>
+						
+							<label class="checkbox">
+								<input id="courts4" name="courts" type="checkbox" value="54a634063004de94513d8279"/><input type="hidden" name="_courts" value="on"/>
+								<em></em>
+								Court of Criminal Appeal
+							</label>
+						
+							<label class="checkbox">
+								<input id="courts5" name="courts" type="checkbox" value="54a634063004de94513d827c"/><input type="hidden" name="_courts" value="on"/>
+								<em></em>
+								District Court
+							</label>
+						
+							<label class="checkbox">
+								<input id="courts6" name="courts" type="checkbox" value="54a634063004de94513d827d"/><input type="hidden" name="_courts" value="on"/>
+								<em></em>
+								Drug Court
+							</label>
+						
+					</div>
+
+					<div class="column">
+						
+							<label class="checkbox">
+								<input id="courts7" name="courts" type="checkbox" value="54a634063004de94513d828e"/><input type="hidden" name="_courts" value="on"/>
+								<em></em>
+								Industrial Court
+							</label>
+						
+							<label class="checkbox">
+								<input id="courts8" name="courts" type="checkbox" value="54a634063004de94513d8285"/><input type="hidden" name="_courts" value="on"/>
+								<em></em>
+								Industrial Relations Commission (Commissioners)
+							</label>
+						
+							<label class="checkbox">
+								<input id="courts9" name="courts" type="checkbox" value="54a634063004de94513d827e"/><input type="hidden" name="_courts" value="on"/>
+								<em></em>
+								Industrial Relations Commission (Judges)
+							</label>
+						
+							<label class="checkbox">
+								<input id="courts10" name="courts" type="checkbox" value="54a634063004de94513d827f"/><input type="hidden" name="_courts" value="on"/>
+								<em></em>
+								Land and Environment Court (Commissioners)
+							</label>
+						
+							<label class="checkbox">
+								<input id="courts11" name="courts" type="checkbox" value="54a634063004de94513d8286"/><input type="hidden" name="_courts" value="on"/>
+								<em></em>
+								Land and Environment Court (Judges)
+							</label>
+						
+							<label class="checkbox">
+								<input id="courts12" name="courts" type="checkbox" value="54a634063004de94513d8280"/><input type="hidden" name="_courts" value="on"/>
+								<em></em>
+								Local Court
+							</label>
+						
+							<label class="checkbox">
+								<input id="courts13" name="courts" type="checkbox" value="54a634063004de94513d8281" checked="checked"/><input type="hidden" name="_courts" value="on"/>
+								<em></em>
+								Supreme Court
+							</label>
+						
+					</div>
+
+				</div>
+
+				<div class="columngroup">
+
+					<div class="column heading">
+						<span>Tribunals</span>
+					</div>
+
+					
+
+					<div class="column">
+						
+							<label class="checkbox">
+								<input id="tribunals1" name="tribunals" type="checkbox" value="54a634063004de94513d8282"/><input type="hidden" name="_tribunals" value="on"/>
+								<em></em>
+								Administrative Decisions Tribunal (Appeal Panel)
+							</label>
+						
+							<label class="checkbox">
+								<input id="tribunals2" name="tribunals" type="checkbox" value="54a634063004de94513d8287"/><input type="hidden" name="_tribunals" value="on"/>
+								<em></em>
+								Administrative Decisions Tribunal (Divisions)
+							</label>
+						
+							<label class="checkbox">
+								<input id="tribunals3" name="tribunals" type="checkbox" value="54a634063004de94513d8289"/><input type="hidden" name="_tribunals" value="on"/>
+								<em></em>
+								Civil and Administrative Tribunal (Administrative and Equal Opportunity Division)
+							</label>
+						
+							<label class="checkbox">
+								<input id="tribunals4" name="tribunals" type="checkbox" value="54a634063004de94513d828d"/><input type="hidden" name="_tribunals" value="on"/>
+								<em></em>
+								Civil and Administrative Tribunal (Appeal Panel)
+							</label>
+						
+							<label class="checkbox">
+								<input id="tribunals5" name="tribunals" type="checkbox" value="54a634063004de94513d828b"/><input type="hidden" name="_tribunals" value="on"/>
+								<em></em>
+								Civil and Administrative Tribunal (Consumer and Commercial Division)
+							</label>
+						
+							<label class="checkbox">
+								<input id="tribunals6" name="tribunals" type="checkbox" value="173b71a8beab2951cc1fab8d"/><input type="hidden" name="_tribunals" value="on"/>
+								<em></em>
+								Civil and Administrative Tribunal (Enforcement)
+							</label>
+						
+							<label class="checkbox">
+								<input id="tribunals7" name="tribunals" type="checkbox" value="54a634063004de94513d828c"/><input type="hidden" name="_tribunals" value="on"/>
+								<em></em>
+								Civil and Administrative Tribunal (Guardianship Division)
+							</label>
+						
+					</div>
+
+					<div class="column">
+						
+							<label class="checkbox">
+								<input id="tribunals8" name="tribunals" type="checkbox" value="54a634063004de94513d828a"/><input type="hidden" name="_tribunals" value="on"/>
+								<em></em>
+								Civil and Administrative Tribunal (Occupational Division)
+							</label>
+						
+							<label class="checkbox">
+								<input id="tribunals9" name="tribunals" type="checkbox" value="54a634063004de94513d8283"/><input type="hidden" name="_tribunals" value="on"/>
+								<em></em>
+								Dust Diseases Tribunal
+							</label>
+						
+							<label class="checkbox">
+								<input id="tribunals10" name="tribunals" type="checkbox" value="1723173e41f6b6d63f2105d3"/><input type="hidden" name="_tribunals" value="on"/>
+								<em></em>
+								Equal Opportunity Tribunal
+							</label>
+						
+							<label class="checkbox">
+								<input id="tribunals11" name="tribunals" type="checkbox" value="5e5c92e1e4b0c8604babc749"/><input type="hidden" name="_tribunals" value="on"/>
+								<em></em>
+								Fair Trading Tribunal
+							</label>
+						
+							<label class="checkbox">
+								<input id="tribunals12" name="tribunals" type="checkbox" value="5e5c92c5e4b0c8604babc748"/><input type="hidden" name="_tribunals" value="on"/>
+								<em></em>
+								Legal Services Tribunal
+							</label>
+						
+							<label class="checkbox">
+								<input id="tribunals13" name="tribunals" type="checkbox" value="54a634063004de94513d8284"/><input type="hidden" name="_tribunals" value="on"/>
+								<em></em>
+								Medical Tribunal
+							</label>
+						
+							<label class="checkbox">
+								<input id="tribunals14" name="tribunals" type="checkbox" value="54a634063004de94513d8288"/><input type="hidden" name="_tribunals" value="on"/>
+								<em></em>
+								Transport Appeal Boards
+							</label>
+						
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="searchbuttonwrapper">
+			<div class="searchbutton">
+				<div class="container">
+					<button type="submit" class="btn btn-block">
+						Search
+					</button>
+				</div>
+			</div>
+		</div>
+
+	</form>
+
+</div>
+
+
+	
+		
+
+			<div class="container searchresults">
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19e011648d46054f9b818ab9">Kerry v NSW Ice Skating Association Incorporated [2026] NSWSC 479</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					DEFAMATION – practice and procedure – interrogatories – connection between interrogatories and pleadings – need for temporal and physical bounds to interrogatories
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Campbell J
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		24 April 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19e007ae5bb9b65ced2fd815">Richard v Richard [2026] NSWSC 478</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					EQUITY – equitable estoppel – claim for a constructive trust and other equitable relief – the plaintiff farms a property held in the name of his father and mother, the defendants – all three conducted a three-way farming partnership on the property – the son alleges that the father and the mother made representations to the son, or caused the son to assume, that the son would have the benefit of the property upon the father’s retirement from farming the properties, or alternatively upon the father’s death – the son claims he acted upon the representations to his detriment or that he acted upon assumptions the father induced him to hold – the son claims that the father and mother now hold the properties on constructive trust for him to make good either the promises made or the assumptions – whether the representations were made or the assumptions held – whether the father and mother were aware that the son was relying upon the representations, or was acting on the assumptions – whether the son suffered detriment as a result of the representations or the assumptions – whether it would be inequitable if the father and the mother did not make good the representations relied upon or the assumptions made by the son – whether the son’s claim is statute barred – whether any discretionary defences apply – what if any is the appropriate remedy and how should it be moulded.
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Slattery J
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		07 May 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19dffa6432c645fbf145d0ed">Zacharatos v Western Agricultural Co Pty Ltd (No 2) [2026] NSWSC 474</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					COSTS – costs inter partes – general rule that costs follow the event – competing interlocutory applications determined in plaintiff's favour – remaining claim in proceedings undetermined whether costs of entirety of proceedings should be determined – held: costs of entirety of proceedings not appropriate for determination prior to final disposition – interlocutory costs order made for competing applications only – costs to run from date applications foreshadowed to Court – order not assessable or enforceable until final disposition of proceedings COSTS – costs out of estate – executor seeking indemnity from estate on indemnity basis – identity of beneficiaries not yet determined pending separate probate proceedings – whether beneficiaries should have opportunity to be heard – held: no order at this stage; question of indemnity deferred until remaining proceedings completed
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Parker J
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		07 May 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19dfc0e005a3e66a00ff1d10">R v Reen [2026] NSWSC 473</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					CRIME – bail – release application – applicant on remand following plea of guilty to serious offence – requisite level of satisfaction as to the likelihood of a full-time custodial sentence for purposes of section 22B of the Bail Act 2013 (NSW)
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Campbell J
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		17 April 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19dfac57c33c4210bd1f66f9">Youssef v Youssef [2026] NSWSC 472</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					CIVIL PROCEDURE — Parties — Persons under legal incapacity — Where plaintiff presently lacks legal capacity — Proceedings stayed pending the appointment of a tutor or further order
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Griffiths AJ
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		06 May 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19df6bd7c40216b100e88a7e">Warren v Whittaker [2026] NSWSC 470</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					REAL PROPERTY — co-ownership — application for appointment of trustees for sale under s 66G of the Conveyancing Act 1919 (NSW) — partnership to be wound up — whether plaintiff’s costs should be paid from proceeds of sale — whether defendants conduct justified departure from usual costs order — no basis for departure
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Pike J
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		05 May 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19df539fd9c2941160c90661">Giezekamp v Kogan [2026] NSWSC 468</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					CIVIL PROCEDURE — Adjournment application to allow gathering of evidence on stultification and allow all plaintiffs to acquire representation — overriding purpose — application refused as already sufficient evidence and plaintiffs’ interests in alignment COSTS — Where directors of two companies purport to exercise their residual authority to bring claims against receivers — whether directors be required to indemnify the companies — whether directors required to give security in addition to the indemnity — principles to be applied — alternate claim for security for costs
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Elkaim AJ
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		30 April 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19df537a56ecb3dc18f1e1c8">Frisken v Bitar Pty Ltd (No 3) [2026] NSWSC 467</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					COSTS — apportionment of costs referrable to before and after 5 May 2021
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Elkaim AJ
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		05 May 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19df5256b3fb6267e2424e01">Longhurst v Gow [2026] NSWSC 466</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					CIVIL PROCEDURE — Parties — Persons under legal incapacity — Whether plaintiff’s estate in relation to proceedings should be committed to NSW Trustee
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Kunc J
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		30 April 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19df50ff615b60729ef9157e">Fraser v Gorilla Rush Pty Ltd [2026] NSWSC 465</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					CIVIL PROCEDURE — Notice to Produce for inspection — requirement for “specific document clearly identified” — requirement for relevance
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	McGuire J
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		29 April 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19df5003a3c84b3ab052018a">Mohmmad Khazma v State of New South Wales [2026] NSWSC 464</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					CIVIL PROCEDURE – Commencement of proceedings – leave to commence action – plaintiff in custody serving a sentence for the commission of a serious indictable offence — leave may be granted where there is no abuse of process and there is a prima facie ground for the proceedings — leave granted
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Yehia J
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		04 May 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19df1e40ae15ee5609880aeb">Diamond Conway Lawyers v Hale [2026] NSWSC 463</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					COSTS — Review of decision of Manager, Costs Assessment to extend time to make a costs assessment application — Legal Profession Uniform Law Application Act 2014 (NSW), s 93B(3) and Uniform Civil Procedure Rules 2005 (NSW), r 49.19(1) — Where Manager, Costs Assessment allowed extension — Exercise of Court’s discretion CIVIL PROCEDURE — Extension of time for r 49.19 application — Uniform Civil Procedure Rules 2005, r 49.20(4) — Where alternative application made within time pursuant to Supreme Court Act 1970 (NSW), s 69
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	McHugh JA
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		05 May 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19df1e1d46e588122c0aa573">Goldsworthy v Goldsworthy [2026] NSWSC 462</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					LAND LAW — Caveats — Extension of operation of caveat — Constructive trust alleged by reason of failed joint endeavour — No issue of principle
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Kunc J
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		01 May 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19df1310e43691826756d24f">Corey Delevante v State of New South Wales [2026] NSWSC 458</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					CIVIL PROCEDURE – Commencement of proceedings – leave to commence action – plaintiff in custody serving a sentence for the commission of a serious indictable offence — leave may be granted where there is no abuse of process and there is a prima facie ground for the proceedings — leave granted
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Yehia J
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		04 May 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19df1293dba1b99eca9853f0">Ronald Collins v State of New South Wales [2026] NSWSC 457</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					CIVIL PROCEDURE – Commencement of proceedings – leave to commence action – plaintiff in custody serving a sentence for the commission of a serious indictable offence — leave may be granted where there is no abuse of process and there is a prima facie ground for the proceedings — leave granted
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Yehia J
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		04 May 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19df080b95e7307e14620eb0">Bahnik v Budimir (No 2) [2026] NSWSC 456</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					ESTOPPEL — Proprietary estoppel — Encouragement — Testamentary promise — Relief — Proportionality — Whether relief ought to be confined to successful plaintiff’s estimate of the size of the estate — Whether relief ought to take into account existing liabilities and expenses of the estate — Principles to be applied COSTS — Party/Party — Payable out of a fund — Deceased estate — Where defendant administrator was the sole beneficiary of the estate under the rules of intestacy — Where substantive proceedings, if successful, would result in the plaintiff becoming entitled to the overwhelming majority of the estate —Whether defendant administrator’s running of proceedings was in substance for her own benefit — Whether defendant administrator therefore disentitled to an indemnity costs order payable out of the estate — Principles to be applied
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Richmond J
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		04 May 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19df01ee26cdee121934a221">Prakash v Commonwealth Securities Ltd (No 2) [2026] NSWSC 455</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					COURTS AND JUDGES – bias – application for disqualification for apprehended bias – where application founded on complaints of matters determined against the applicant in previous hearing – application refused JUDGMENTS AND ORDERS – application to set aside orders dismissing claim – where applicant seeks to relitigate proceedings already determined – application refused
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Sirtes J
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		04 May 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19df01466bfab3b9949e7a59">Yu v Perpetual Corporate Trust Limited [2026] NSWSC 454</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					MORTGAGES – application for restraining order/injunction to stop mortgagee in possession selling property – substantial sum owed under mortgage – writ of possession executed in August 2025 – no repayments at all made to the mortgage for over 12 months – application refused – Summons dismissed
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Lonergan J
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		22 April 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+					<a href="/decision/19de26ea121e5c86397f592a">In the matter of Qube Holdings Limited [2026] NSWSC 453</a>
+				
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					CORPORATIONS – arrangements and reconstructions – schemes of arrangement – application under s 411 Corporations Act 2001 (Cth) for orders convening meeting of members to consider and, if thought fit, to agree to proposed scheme of arrangement – whether requirements to order scheme meeting satisfied – orders convening scheme meeting and ancillary orders made
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Brereton J
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		01 May 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+					
+
+
+
+
+<div class="row result">
+
+	<div class="col-sm-8 cntn">
+
+		
+
+
+
+
+
+
+		<h4>
+			
+				
+				
+					<a href="/decision/19de2417fcb29174571611a7">Decision restricted [2026] NSWSC 452</a>
+				
+			
+		</h4>
+
+		
+			<div class="hidden-xs hidden-sm">
+				<p><strong>Catchwords:</strong></p>
+				<p>
+					[RESTRICTED]
+				</p>
+			</div>
+		
+
+	</div>
+	<div class="info col-sm-4 hidden-xs">
+
+		<ul class="list-group">
+			
+				<li class="list-group-item head">
+					<strong>Judgment of</strong>
+				</li>
+				<li class="list-group-item">
+					
+
+
+
+
+
+
+
+
+
+	
+
+	Williams J
+
+	
+
+
+				</li>
+			
+			<li class="list-group-item head">
+				<strong>Decision date</strong>
+			</li>
+			<li class="list-group-item">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		04 May 2026
+	
+
+
+			</li>
+		</ul>
+
+	</div>
+
+</div>
+
+				
+			</div>
+
+			
+
+<nav id="paginationwrapper" class="hidden-print">
+	<div id="paginationcontainer">
+		<div class="container">
+			<div class="row">
+				<ul id="pagination" class="pagination fullpage"></ul>
+				
+				
+				<p>Displaying 1 - 20 of 434 results</p>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<script type="text/javascript">
+
+	var paginationConfig = {
+		totalElements: 434,
+		pageNumber: 1,
+		pageSize: 20
+	}
+
+</script>
+
+
+		
+		
+	
+
+
+		
+		<footer>
+			
+
+
+<div class="container hidden-print">
+
+	<div class="logo">
+		<img src="/public/img/footer-crest.png" />
+	</div>
+
+	<ul class="list-unstyled pull-left">
+		<li>
+			<a href="/policy">Policy and Procedures</a>
+		</li>
+		<li>
+			<a href="/accessibility">Accessibility</a>
+		</li>
+		<li>
+			<a href="/contact">Contact Us</a>
+		</li>
+		<li>
+			
+			Website last updated:
+			02 May 2025
+		</li>
+	</ul>
+
+	<!--
+	Build created: 02 May 2025 at 11:37 AM
+	 -->
+
+</div>
+
+
+<script type="text/x-handlebars" id="hb-ie">
+<header class="browser">
+	<div class="container">
+		<div class="row hidden-print">
+			<div class="col-xs-2">
+				<span class="glyphicon glyphicon-warning-sign"></span>
+			</div>
+			<div class="col-xs-7 col-lg-8">
+				<h2>The browser you are using is out of date</h2>
+				<p>
+				This service has been designed for modern browsers. <br />
+				For your security, and to ensure all features of this site work correctly, please update your browser.<br />
+				Modern browsers supported by this site include: Firefox, Chrome, Safari & Internet Explorer 11 or greater.
+				</p>
+			</div>
+			<div class="col-xs-3 col-lg-2 text-right">
+				<form>
+					<a href="#" class="btn btn-default close">Hide this message</a>
+					<br />
+					<br />
+					<label class="checkbox">
+						<input type="checkbox" name="hide" value="true" />
+						<em></em>
+						Hide for 30 days
+					</label>
+				</form>
+			</div>
+		</div>
+	</div>
+</header>
+</script>
+
+		</footer>
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="/public/js/lib/commonlibs.min.js?202505020137"></script>
+
+
+
+
+
+	<script defer src="/public/js/public.min.js?202505020137"></script>
+
+
+
+	<!--
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-2581955-5', 'auto');
+		ga('send', 'pageview');
+	</script>
+	-->
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YES48VN6R4"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-YES48VN6R4');
+	</script>
+
+
+
+	</body>
+
+</html>

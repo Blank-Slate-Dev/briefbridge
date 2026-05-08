@@ -1,13 +1,93 @@
 // lib/queries.ts
 import { db, schema } from './db';
-import { desc, eq } from 'drizzle-orm';
+import { desc, eq, sql, and, gte, lt } from 'drizzle-orm';
+
+const DEFAULT_PAGE_SIZE = 50;
+const MAX_PAGE_SIZE = 200;
+
+export interface ListJudgmentsOptions {
+  /** 1-indexed page number. Defaults to 1. */
+  page?: number;
+  /** Number of judgments per page. Defaults to 50, capped at 200. */
+  pageSize?: number;
+  /** Free-text search across case_name, citation, catchwords, and full_text. */
+  query?: string;
+  /** Filter by decision year, e.g. 2024. */
+  year?: number;
+}
 
 /**
- * Get a list of all judgments, most recent first.
- * For now we just return all of them. When we have thousands we'll add pagination.
+ * The tsvector expression we search against. Must match the GIN index in
+ * schema.ts (judgments_search_vector_idx) so Postgres uses the index.
+ *
+ * Weights (A > B > C > D, A is most relevant):
+ *   - A: case_name and citation (most specific identifiers)
+ *   - B: catchwords (curated topical summary)
+ *   - C: full_text (the body of the judgment)
+ *
+ * If you change this expression, you MUST also update the index in schema.ts
+ * and re-generate/run the migration.
  */
-export async function listJudgments() {
-  return db
+function buildSearchVector() {
+  return sql`(
+    setweight(to_tsvector('english', coalesce(${schema.judgments.caseName}, '')), 'A') ||
+    setweight(to_tsvector('english', coalesce(${schema.judgments.citation}, '')), 'A') ||
+    setweight(to_tsvector('english', coalesce(${schema.judgments.catchwords}, '')), 'B') ||
+    setweight(to_tsvector('english', coalesce(${schema.judgments.fullText}, '')), 'C')
+  )`;
+}
+
+/**
+ * Build the WHERE clauses common to listJudgments and countJudgments.
+ * Returns an array of conditions to AND together (or undefined if no filters).
+ *
+ * Centralised here so list and count queries stay in sync — if a search returns
+ * 47 results in listJudgments, countJudgments must say 47 too.
+ */
+function buildFilters(options: ListJudgmentsOptions) {
+  const conditions = [];
+
+  if (options.query && options.query.trim().length > 0) {
+    // plainto_tsquery handles user-typed input forgivingly: it strips operators
+    // (so users can't accidentally break it with "&" or "!"), tokenises words,
+    // and ANDs them together. "negligent driving" → "negligent" & "driving".
+    conditions.push(
+      sql`${buildSearchVector()} @@ plainto_tsquery('english', ${options.query.trim()})`,
+    );
+  }
+
+  if (options.year && Number.isFinite(options.year)) {
+    // decision_date is a date column. Comparing against a year range is faster
+    // than EXTRACT(YEAR ...) because it can use the existing decision_date_idx.
+    const start = `${options.year}-01-01`;
+    const end = `${options.year + 1}-01-01`;
+    conditions.push(
+      and(
+        gte(schema.judgments.decisionDate, start),
+        lt(schema.judgments.decisionDate, end),
+      ),
+    );
+  }
+
+  return conditions.length > 0 ? and(...conditions) : undefined;
+}
+
+/**
+ * Get a paginated list of judgments.
+ *
+ * Default ordering is most recent first. If a search query is provided, results
+ * are instead ordered by relevance (ts_rank), then by recency as a tiebreak.
+ *
+ * Pagination is 1-indexed. pageSize is capped at MAX_PAGE_SIZE.
+ */
+export async function listJudgments(options: ListJudgmentsOptions = {}) {
+  const page = Math.max(1, options.page ?? 1);
+  const pageSize = Math.min(MAX_PAGE_SIZE, Math.max(1, options.pageSize ?? DEFAULT_PAGE_SIZE));
+  const offset = (page - 1) * pageSize;
+  const filters = buildFilters(options);
+  const hasQuery = !!options.query && options.query.trim().length > 0;
+
+  const queryBuilder = db
     .select({
       id: schema.judgments.id,
       citation: schema.judgments.citation,
@@ -16,9 +96,59 @@ export async function listJudgments() {
       decisionDate: schema.judgments.decisionDate,
       catchwords: schema.judgments.catchwords,
     })
+    .from(schema.judgments);
+
+  // When searching, order by ts_rank desc (most relevant first) then by date.
+  // Without a query, just order by date.
+  const ordered = filters
+    ? hasQuery
+      ? queryBuilder
+          .where(filters)
+          .orderBy(
+            sql`ts_rank(${buildSearchVector()}, plainto_tsquery('english', ${options.query!.trim()})) desc`,
+            desc(schema.judgments.decisionDate),
+          )
+      : queryBuilder.where(filters).orderBy(desc(schema.judgments.decisionDate))
+    : queryBuilder.orderBy(desc(schema.judgments.decisionDate));
+
+  return ordered.limit(pageSize).offset(offset);
+}
+
+/**
+ * Count judgments matching the given filters.
+ *
+ * Mirror of listJudgments() but returns just the count, used to compute total
+ * pages and the "Showing X of Y" UI text.
+ */
+export async function countJudgments(options: ListJudgmentsOptions = {}): Promise<number> {
+  const filters = buildFilters(options);
+
+  const queryBuilder = db
+    .select({ count: sql<number>`count(*)::int` })
+    .from(schema.judgments);
+
+  const rows = await (filters ? queryBuilder.where(filters) : queryBuilder);
+  return rows[0]?.count ?? 0;
+}
+
+/**
+ * Get the list of distinct years present in the judgments table, descending.
+ * Used to populate the year-filter dropdown in the UI.
+ *
+ * Cached for a minute via Next.js's request-level dedup; the underlying query
+ * uses the decision_date_idx so it's quick even on millions of rows.
+ */
+export async function getDistinctYears(): Promise<number[]> {
+  const rows = await db
+    .select({
+      year: sql<number>`extract(year from ${schema.judgments.decisionDate})::int`,
+    })
     .from(schema.judgments)
-    .orderBy(desc(schema.judgments.decisionDate))
-    .limit(100);
+    .where(sql`${schema.judgments.decisionDate} is not null`)
+    .groupBy(sql`extract(year from ${schema.judgments.decisionDate})`)
+    .orderBy(sql`extract(year from ${schema.judgments.decisionDate}) desc`);
+
+  return rows.map((r) => r.year).filter((y): y is number => Number.isFinite(y));
 }
 
 /**
