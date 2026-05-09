@@ -8,6 +8,7 @@
 //   npm run embed:bulk -- --limit 100         # for smoke testing
 //   npm run embed:bulk -- --judgment-id <uuid> # for re-embedding one case
 //   npm run embed:bulk -- --since 2026-05-01   # for incremental (e.g. nightly)
+//   npm run embed:bulk -- --fast               # disable throttling (use cautiously)
 //
 // Resumability:
 //   The script SKIPS judgments that already have embeddings for the current
@@ -17,10 +18,11 @@
 //   Re-running on already-embedded judgments is a no-op (cheap DB query, no
 //   API call, no insert).
 //
-// Cost & rate:
-//   Voyage's free tier is generous for our scale (~$10 of usage to embed
-//   20,000 judgments). We send 64 paragraphs per request to balance throughput
-//   with not flooding their API.
+// Throttling:
+//   By default the script paces itself to be friendly to Supabase's IO budget
+//   on the smallest Pro tier. Insert chunks are smaller (50 rows) with a brief
+//   delay between chunks, and a longer delay between judgments. Pass --fast
+//   to disable this if you're on a bigger compute tier.
 
 import 'dotenv/config';
 import { eq, sql, gte, and, isNull, notExists } from 'drizzle-orm';
@@ -45,6 +47,46 @@ const PARAGRAPHS_PER_BATCH = 64;
 const MIN_PARAGRAPH_CHARS = 50;
 
 // =============================================================================
+// Throttling — gentle on Supabase's IO budget
+// =============================================================================
+//
+// Supabase's smallest Pro tier ("Nano") has a 43 Mbps baseline disk IO and
+// only 30 minutes of burst-above-baseline per day. Vector inserts are
+// IO-heavy because every INSERT touches the HNSW index. Without throttling,
+// a sustained embed run will exhaust the burst budget within an hour and
+// throttle the entire database.
+//
+// These values keep us under burst and let the Nano tier handle the load.
+
+interface ThrottleConfig {
+  /** Rows per database INSERT statement. */
+  insertChunkSize: number;
+  /** Pause between INSERT chunks within one judgment. */
+  delayBetweenInsertChunksMs: number;
+  /** Pause between judgments. */
+  delayBetweenJudgmentsMs: number;
+  /** Pause between Voyage API calls within one judgment (multi-batch cases). */
+  delayBetweenVoyageBatchesMs: number;
+}
+
+const THROTTLE_DEFAULT: ThrottleConfig = {
+  insertChunkSize: 50,
+  delayBetweenInsertChunksMs: 300,
+  delayBetweenJudgmentsMs: 1500,
+  delayBetweenVoyageBatchesMs: 250,
+};
+
+const THROTTLE_FAST: ThrottleConfig = {
+  insertChunkSize: 100,
+  delayBetweenInsertChunksMs: 0,
+  delayBetweenJudgmentsMs: 0,
+  delayBetweenVoyageBatchesMs: 0,
+};
+
+const sleep = (ms: number) =>
+  ms > 0 ? new Promise((r) => setTimeout(r, ms)) : Promise.resolve();
+
+// =============================================================================
 // CLI argument parsing
 // =============================================================================
 
@@ -52,10 +94,11 @@ interface CliArgs {
   limit: number | null;
   judgmentId: string | null;
   since: string | null;
+  fast: boolean;
 }
 
 function parseArgs(argv: string[]): CliArgs {
-  const args: CliArgs = { limit: null, judgmentId: null, since: null };
+  const args: CliArgs = { limit: null, judgmentId: null, since: null, fast: false };
   for (let i = 0; i < argv.length; i++) {
     switch (argv[i]) {
       case '--limit':
@@ -66,6 +109,9 @@ function parseArgs(argv: string[]): CliArgs {
         break;
       case '--since':
         args.since = argv[++i];
+        break;
+      case '--fast':
+        args.fast = true;
         break;
       case '--help':
       case '-h':
@@ -88,6 +134,7 @@ Flags:
   --limit <n>           Process at most N judgments (smoke testing).
   --judgment-id <uuid>  Embed only this one judgment (e.g. for re-embedding).
   --since <iso-date>    Only embed judgments ingested since this date.
+  --fast                Disable throttling. Use only on larger compute tiers.
 
 Examples:
   npm run embed:bulk
@@ -113,6 +160,7 @@ interface ParagraphFromDB {
 
 async function main(): Promise<void> {
   const args = parseArgs(process.argv.slice(2));
+  const throttle = args.fast ? THROTTLE_FAST : THROTTLE_DEFAULT;
 
   console.log('========================================');
   console.log('BriefBridge embedding pipeline');
@@ -120,6 +168,12 @@ async function main(): Promise<void> {
   console.log(`Model:    ${MODEL}`);
   console.log(`Batch:    ${PARAGRAPHS_PER_BATCH} paragraphs per Voyage request`);
   console.log(`Min len:  ${MIN_PARAGRAPH_CHARS} chars (shorter paragraphs skipped)`);
+  console.log(`Mode:     ${args.fast ? 'FAST (no throttling)' : 'GENTLE (throttled for Nano tier)'}`);
+  if (!args.fast) {
+    console.log(`          insert chunk: ${throttle.insertChunkSize} rows`);
+    console.log(`          delay between chunks: ${throttle.delayBetweenInsertChunksMs}ms`);
+    console.log(`          delay between judgments: ${throttle.delayBetweenJudgmentsMs}ms`);
+  }
   if (args.limit) console.log(`Limit:    ${args.limit} judgments`);
   if (args.judgmentId) console.log(`Target:   judgment ${args.judgmentId}`);
   if (args.since) console.log(`Since:    ${args.since}`);
@@ -188,6 +242,7 @@ async function main(): Promise<void> {
   let totalSkipped = 0;
   let totalTokens = 0;
   let totalApiCalls = 0;
+  let consecutiveFailures = 0; // circuit-breaker
   const startTime = Date.now();
 
   for (let i = 0; i < judgments.length; i++) {
@@ -196,18 +251,36 @@ async function main(): Promise<void> {
     const label = judgment.citation ?? judgment.id.slice(0, 8);
 
     try {
-      const result = await embedOneJudgment(judgment);
+      const result = await embedOneJudgment(judgment, throttle);
       totalEmbedded += result.embedded;
       totalSkipped += result.skipped;
       totalTokens += result.tokens;
       totalApiCalls += result.apiCalls;
+      consecutiveFailures = 0; // reset on any success
       console.log(
         `  ${progress} ${label} — ${result.embedded} embedded, ${result.skipped} skipped`,
       );
     } catch (err) {
-      const message = err instanceof Error ? err.message : String(err);
+      // CRUCIAL: log only the message, never the full error object.
+      // Postgres errors include the row being inserted, which would dump the
+      // entire embedding vector (1024 floats) to the terminal. We don't want that.
+      const message = compactErrorMessage(err);
       console.error(`  ${progress} ${label} — ERROR: ${message}`);
-      // Continue on error rather than aborting the whole run.
+      consecutiveFailures++;
+
+      // Circuit-breaker: if 5 judgments fail in a row, the database is probably
+      // throttled or down. Abort cleanly rather than dump 100 errors to the log.
+      if (consecutiveFailures >= 5) {
+        console.error('\n[circuit-breaker] 5 consecutive failures — aborting.');
+        console.error('  This usually means Supabase has throttled IO or the connection is unhealthy.');
+        console.error('  Wait a few minutes for the IO budget to recover, then re-run.');
+        console.error(`  Progress saved: ${totalEmbedded.toLocaleString()} paragraphs from ${i + 1 - consecutiveFailures} judgments.\n`);
+        break;
+      }
+
+      // After a failure, pause longer than the normal cadence to give the DB
+      // a chance to recover.
+      await sleep(5000);
     }
 
     // Progress summary every 25 judgments.
@@ -227,6 +300,11 @@ async function main(): Promise<void> {
         `~${Math.ceil(etaMin)} min remaining ---\n`,
       );
     }
+
+    // Throttle between judgments.
+    if (i < judgments.length - 1) {
+      await sleep(throttle.delayBetweenJudgmentsMs);
+    }
   }
 
   // -------- Done --------
@@ -239,9 +317,9 @@ async function main(): Promise<void> {
   console.log(`API calls:  ${totalApiCalls.toLocaleString()}`);
   console.log(`Tokens:     ${totalTokens.toLocaleString()}`);
   console.log(`Time:       ${totalMin.toFixed(1)} minutes`);
-  // Voyage's voyage-law-2 is ~$0.12 per million tokens.
+  // Voyage's voyage-law-2 is ~$0.12 per million tokens (after free tier).
   const cost = (totalTokens / 1_000_000) * 0.12;
-  console.log(`Est. cost:  ~$${cost.toFixed(2)} USD`);
+  console.log(`Est. cost:  ~$${cost.toFixed(2)} USD (only billed past free allowance)`);
   console.log('========================================\n');
 }
 
@@ -256,12 +334,15 @@ interface EmbedJudgmentResult {
   apiCalls: number;
 }
 
-async function embedOneJudgment(judgment: {
-  id: string;
-  citation: string | null;
-  paragraphs: unknown;
-  paragraphCount: number | null;
-}): Promise<EmbedJudgmentResult> {
+async function embedOneJudgment(
+  judgment: {
+    id: string;
+    citation: string | null;
+    paragraphs: unknown;
+    paragraphCount: number | null;
+  },
+  throttle: ThrottleConfig,
+): Promise<EmbedJudgmentResult> {
   const paragraphs = judgment.paragraphs as ParagraphFromDB[];
   if (!Array.isArray(paragraphs)) {
     throw new Error(`Judgment ${judgment.id} has invalid paragraphs (not an array).`);
@@ -293,7 +374,8 @@ async function embedOneJudgment(judgment: {
   let apiCalls = 0;
   const rowsToInsert: Array<typeof schema.judgmentEmbeddings.$inferInsert> = [];
 
-  for (const batch of batches) {
+  for (let batchIdx = 0; batchIdx < batches.length; batchIdx++) {
+    const batch = batches[batchIdx];
     const result = await embed({ texts: batch, model: MODEL, inputType: 'document' });
     apiCalls++;
     totalTokens += result.totalTokens;
@@ -311,13 +393,25 @@ async function embedOneJudgment(judgment: {
     }
 
     cursor += batch.length;
+
+    // Tiny pause between Voyage API calls within one judgment (only for
+    // multi-batch cases, e.g. 200+ paragraph judgments).
+    if (batchIdx < batches.length - 1) {
+      await sleep(throttle.delayBetweenVoyageBatchesMs);
+    }
   }
 
-  // Insert all rows in chunks of 100 to avoid huge single inserts.
-  const INSERT_CHUNK = 100;
-  for (let i = 0; i < rowsToInsert.length; i += INSERT_CHUNK) {
-    const chunk = rowsToInsert.slice(i, i + INSERT_CHUNK);
+  // Insert in chunks to avoid huge single inserts AND to spread out the IO load
+  // across multiple smaller writes (gentler on the HNSW index).
+  for (let i = 0; i < rowsToInsert.length; i += throttle.insertChunkSize) {
+    const chunk = rowsToInsert.slice(i, i + throttle.insertChunkSize);
     await db.insert(schema.judgmentEmbeddings).values(chunk);
+
+    // Pause between insert chunks. This is the most important throttle:
+    // every INSERT triggers HNSW index updates which is the IO-heavy part.
+    if (i + throttle.insertChunkSize < rowsToInsert.length) {
+      await sleep(throttle.delayBetweenInsertChunksMs);
+    }
   }
 
   return { embedded: rowsToInsert.length, skipped, tokens: totalTokens, apiCalls };
@@ -349,6 +443,24 @@ function buildEmbeddableText(p: ParagraphFromDB): string {
   return parts.join('\n').trim();
 }
 
+/**
+ * Build a SHORT, terminal-friendly error description.
+ *
+ * We deliberately do NOT pass the raw error object to console.error because
+ * Postgres errors carry the full row being inserted as a "parameters" field —
+ * and our rows include 1024-dimensional embedding vectors. Logging the raw
+ * error would dump tens of thousands of floats to the terminal per error,
+ * making the log unreadable and the terminal unresponsive.
+ */
+function compactErrorMessage(err: unknown): string {
+  if (err instanceof Error) {
+    // Trim very long messages (some Postgres errors are paragraphs long).
+    const msg = err.message.length > 300 ? err.message.slice(0, 300) + '…' : err.message;
+    return msg;
+  }
+  return String(err).slice(0, 300);
+}
+
 // =============================================================================
 // Run it
 // =============================================================================
@@ -356,6 +468,7 @@ function buildEmbeddableText(p: ParagraphFromDB): string {
 main()
   .then(() => process.exit(0))
   .catch((err) => {
-    console.error('\n[fatal error]', err);
+    // Same compact-message principle here: never dump the full error object.
+    console.error('\n[fatal error]', compactErrorMessage(err));
     process.exit(1);
   });
