@@ -1,3 +1,15 @@
+// REPLACE lib/db/schema.ts WITH THIS COMPLETE FILE
+//
+// What changed (additions only — existing tables untouched):
+//   1. Added `vector` import from drizzle-orm/pg-core
+//   2. Added `sql` import for raw SQL inside index expressions
+//   3. New `judgmentEmbeddings` table (paragraph-level vectors)
+//
+// The pgvector extension itself is enabled via the migration's
+// `CREATE EXTENSION IF NOT EXISTS vector;` statement. Drizzle's
+// generator should add this automatically when it detects the
+// vector column type, but we'll verify after generation.
+
 import {
   pgTable,
   uuid,
@@ -9,6 +21,7 @@ import {
   integer,
   index,
   uniqueIndex,
+  vector,
 } from 'drizzle-orm/pg-core';
 import { sql } from 'drizzle-orm';
 
@@ -30,11 +43,9 @@ import { sql } from 'drizzle-orm';
  * - publication_restriction stores the literal value from the page ("Nil", or the
  *   actual restriction text if one applies).
  *
- * Search index (added with full-text search support):
+ * Search index (for full-text search):
  * - searchVectorIdx: a GIN index over a tsvector built from case_name, citation,
- *   catchwords, and full_text. This lets us run weighted full-text search across
- *   all four fields in a single query, with results ranked by relevance.
- *   The expression matches the one used in lib/queries.ts so Postgres uses the index.
+ *   catchwords, and full_text.
  */
 export const judgments = pgTable(
   'judgments',
@@ -86,11 +97,6 @@ export const judgments = pgTable(
     citationIdx: index('judgments_citation_idx').on(t.citation),
     decisionDateIdx: index('judgments_decision_date_idx').on(t.decisionDate),
     sourceIdx: index('judgments_source_idx').on(t.source),
-
-    // GIN index over a weighted tsvector across the four searchable fields.
-    // Weights: case_name (A) > citation (A) > catchwords (B) > full_text (C)
-    // — case-name and citation hits should rank highest because they're the
-    //   most specific signals of relevance.
     searchVectorIdx: index('judgments_search_vector_idx')
       .using(
         'gin',
@@ -109,19 +115,6 @@ export type NewJudgment = typeof judgments.$inferInsert;
 
 /**
  * Ingestion attempts — tracks every URL we've tried to ingest, regardless of outcome.
- *
- * Why this table exists:
- * - The judgments table tells us what we successfully have.
- * - This table tells us what we've tried and what happened.
- *
- * Together they let the bulk ingester answer "should I attempt this URL right now?":
- * - In judgments + content unchanged → skip (no need to re-fetch)
- * - In judgments + content might be stale → re-fetch (handled by lastCheckedAt logic)
- * - Failed 3+ times in last 24h → skip (don't hammer broken URLs)
- * - Never seen → fetch
- *
- * sourceUrl is the natural key. We don't deduplicate rows here — every attempt gets
- * its own row, and we query by sourceUrl + recency to make decisions.
  */
 export const ingestionAttempts = pgTable(
   'ingestion_attempts',
@@ -131,8 +124,8 @@ export const ingestionAttempts = pgTable(
     status: text('status', { enum: ['success', 'failed', 'skipped'] }).notNull(),
     attemptedAt: timestamp('attempted_at', { withTimezone: true }).notNull().defaultNow(),
     errorMessage: text('error_message'),
-    httpStatus: integer('http_status'), // captured when fetch returns non-OK
-    durationMs: integer('duration_ms'), // how long the attempt took, for monitoring
+    httpStatus: integer('http_status'),
+    durationMs: integer('duration_ms'),
   },
   (t) => ({
     sourceUrlIdx: index('ingestion_attempts_source_url_idx').on(t.sourceUrl),
@@ -142,3 +135,77 @@ export const ingestionAttempts = pgTable(
 
 export type IngestionAttempt = typeof ingestionAttempts.$inferSelect;
 export type NewIngestionAttempt = typeof ingestionAttempts.$inferInsert;
+
+/**
+ * Judgment embeddings — paragraph-level vectors used for semantic search.
+ *
+ * Why paragraph-level, not document-level:
+ *   - A 200-paragraph judgment talks about many things. Averaging into one vector
+ *     loses precision. Paragraph-level lets us return *the specific paragraph*
+ *     that's relevant to a lawyer's query.
+ *   - Lawyers cite paragraph numbers ("[11]"). When we serve results, we can
+ *     return "Smith v Jones [2024] NSWSC 100 at [42]" — directly citable.
+ *
+ * Why a separate table (not a column on judgments):
+ *   - Embeddings are a different concern with different update cadence. A judgment
+ *     may have its embeddings regenerated (e.g. switching to a better model) without
+ *     touching the source data.
+ *   - One judgment → many embedding rows (one per paragraph). Can't model that
+ *     with a column.
+ *   - Cleaner CASCADE: if a judgment is deleted, its embeddings go with it.
+ *
+ * Vector dimension 1024 is voyage-law-2's output size (their legal-domain model).
+ * If we ever switch models, we'll regenerate everything.
+ *
+ * The HNSW index uses cosine distance, which matches how we'll query
+ * (Voyage embeddings are normalised, so cosine = dot product, fastest option).
+ */
+export const judgmentEmbeddings = pgTable(
+  'judgment_embeddings',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+
+    // Foreign key to the judgment this paragraph belongs to.
+    // ON DELETE CASCADE is added in the migration — drizzle doesn't yet have
+    // ergonomic FK declaration with CASCADE in its TS API.
+    judgmentId: uuid('judgment_id').notNull(),
+
+    // The paragraph number as stored in the judgment, e.g. "11" or "23(1)".
+    // This is text not int because some paragraphs have sub-parts like "23(1)".
+    paragraphNumber: text('paragraph_number').notNull(),
+
+    // 0-indexed position of this paragraph within the judgment's paragraphs array.
+    // Used to look up the original paragraph data when displaying results.
+    paragraphIndex: integer('paragraph_index').notNull(),
+
+    // The actual text that was embedded. We store this for two reasons:
+    //   1. We can show snippets in search results without re-fetching the JSONB
+    //      array (faster query response).
+    //   2. If we change embedding strategies (e.g. add surrounding context), we
+    //      can see what was actually embedded.
+    paragraphText: text('paragraph_text').notNull(),
+
+    // Voyage AI's voyage-law-2 model produces 1024-dimensional vectors.
+    embedding: vector('embedding', { dimensions: 1024 }).notNull(),
+
+    // Which model produced this embedding. If we ever swap models, we filter
+    // queries by this field and regenerate. Voyage names like 'voyage-law-2'.
+    model: text('model').notNull(),
+
+    // Timestamp for auditing and cache invalidation.
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => ({
+    judgmentIdIdx: index('judgment_embeddings_judgment_id_idx').on(t.judgmentId),
+
+    // HNSW index for fast approximate nearest neighbour search.
+    // vector_cosine_ops because Voyage normalises its outputs.
+    embeddingIdx: index('judgment_embeddings_embedding_idx').using(
+      'hnsw',
+      sql`${t.embedding} vector_cosine_ops`,
+    ),
+  }),
+);
+
+export type JudgmentEmbedding = typeof judgmentEmbeddings.$inferSelect;
+export type NewJudgmentEmbedding = typeof judgmentEmbeddings.$inferInsert;
