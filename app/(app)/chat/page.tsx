@@ -1,4 +1,13 @@
-// app/chat/page.tsx
+// app/(app)/chat/page.tsx
+//
+// Streaming chat UI for standalone Q&A (not within a matter).
+// Functionality unchanged from the original /chat page.
+//
+// Visual change from previous version: the page-level sticky header has been
+// removed because the (app) layout's sidebar now provides navigation.
+// Otherwise the chat behaviour, citation display, and streaming logic are
+// preserved exactly as before.
+
 'use client';
 
 import { useState, useRef, useEffect, type FormEvent, type KeyboardEvent } from 'react';
@@ -19,15 +28,11 @@ interface Citation {
 }
 
 interface ChatMessage {
-  /** Stable client-side id for React keys; not sent to server. */
   id: string;
   role: 'user' | 'assistant';
   content: string;
-  /** Citations are attached to assistant messages once retrieval completes. */
   citations?: Citation[];
-  /** True while this assistant message is still streaming. */
   streaming?: boolean;
-  /** If something failed mid-stream. */
   error?: string;
 }
 
@@ -44,12 +49,10 @@ export default function ChatPage() {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const abortControllerRef = useRef<AbortController | null>(null);
 
-  // Auto-scroll to bottom whenever messages change.
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
   }, [messages]);
 
-  // Auto-resize the textarea as the user types.
   useEffect(() => {
     const ta = textareaRef.current;
     if (!ta) return;
@@ -57,7 +60,6 @@ export default function ChatPage() {
     ta.style.height = Math.min(ta.scrollHeight, 200) + 'px';
   }, [input]);
 
-  // Cancel any in-flight request when component unmounts.
   useEffect(() => {
     return () => {
       abortControllerRef.current?.abort();
@@ -82,9 +84,6 @@ export default function ChatPage() {
       streaming: true,
     };
 
-    // Snapshot the conversation including the new user message — this is what
-    // we send to the API. We want to capture this BEFORE setting state because
-    // setState is async and we'd otherwise risk a race.
     const conversationForAPI = [...messages, userMessage].map((m) => ({
       role: m.role,
       content: m.content,
@@ -94,7 +93,6 @@ export default function ChatPage() {
     setInput('');
     setIsStreaming(true);
 
-    // Set up abortable fetch.
     const controller = new AbortController();
     abortControllerRef.current = controller;
 
@@ -121,8 +119,6 @@ export default function ChatPage() {
         throw new Error('No response body received.');
       }
 
-      // Parse SSE stream manually. EventSource doesn't support POST so we
-      // can't use the browser's built-in parser; this is the standard pattern.
       const reader = response.body.getReader();
       const decoder = new TextDecoder();
       let buffer = '';
@@ -133,8 +129,6 @@ export default function ChatPage() {
 
         buffer += decoder.decode(value, { stream: true });
 
-        // SSE messages are separated by \n\n. Process complete messages and
-        // keep the trailing partial in the buffer.
         const parts = buffer.split('\n\n');
         buffer = parts.pop() ?? '';
 
@@ -206,7 +200,6 @@ export default function ChatPage() {
   }
 
   function handleKeyDown(e: KeyboardEvent<HTMLTextAreaElement>) {
-    // Enter to send, Shift+Enter for newline (standard chat UX).
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
       handleSubmit();
@@ -223,27 +216,20 @@ export default function ChatPage() {
 
   return (
     <div className="flex h-screen flex-col bg-slate-50">
-      {/* Header */}
+      {/* Top-bar — just a title and "New conversation" action.
+          Workspace navigation lives in the (app) sidebar. */}
       <header className="flex items-center justify-between border-b border-slate-200 bg-white px-6 py-3">
-        <Link href="/" className="font-semibold tracking-tight text-slate-900">
-          BriefBridge
-        </Link>
-        <div className="flex items-center gap-4 text-sm">
-          <Link href="/cases" className="text-slate-600 hover:text-slate-900">
-            Cases
-          </Link>
-          {messages.length > 0 && (
-            <button
-              onClick={handleNewConversation}
-              className="rounded-md border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 transition hover:bg-slate-50"
-            >
-              New conversation
-            </button>
-          )}
-        </div>
+        <div className="text-sm font-medium text-slate-900">Chat</div>
+        {messages.length > 0 && (
+          <button
+            onClick={handleNewConversation}
+            className="rounded-md border border-slate-200 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 transition hover:bg-slate-50"
+          >
+            New conversation
+          </button>
+        )}
       </header>
 
-      {/* Messages area */}
       <div className="flex-1 overflow-y-auto">
         <div className="mx-auto max-w-3xl px-6 py-10">
           {showWelcome ? (
@@ -266,12 +252,8 @@ export default function ChatPage() {
         </div>
       </div>
 
-      {/* Input bar */}
       <div className="border-t border-slate-200 bg-white">
-        <form
-          onSubmit={handleSubmit}
-          className="mx-auto max-w-3xl px-6 py-4"
-        >
+        <form onSubmit={handleSubmit} className="mx-auto max-w-3xl px-6 py-4">
           <div className="flex items-end gap-3 rounded-xl border border-slate-200 bg-white p-2 shadow-sm focus-within:border-slate-400">
             <textarea
               ref={textareaRef}
@@ -302,7 +284,7 @@ export default function ChatPage() {
 }
 
 // =============================================================================
-// Sub-components
+// Sub-components (unchanged from original /chat page)
 // =============================================================================
 
 function Welcome({ onExampleClick }: { onExampleClick: (text: string) => void }) {
@@ -388,17 +370,7 @@ function ThinkingIndicator() {
   );
 }
 
-/**
- * Renders the assistant's text content with light formatting:
- *   - Markdown-ish bold (**text**) becomes <strong>
- *   - Citation references like [1] or [1][3] become subtle highlighted spans
- *   - Newlines preserve paragraph breaks
- *
- * We intentionally don't pull in a full markdown renderer. Light touches
- * keep the rendering predictable and fast for streamed output.
- */
 function FormattedAnswer({ content, streaming }: { content: string; streaming: boolean }) {
-  // Split on double-newlines for paragraphs.
   const paragraphs = content.split(/\n\n+/);
 
   return (
@@ -418,13 +390,8 @@ function FormattedAnswer({ content, streaming }: { content: string; streaming: b
   );
 }
 
-/**
- * Inline formatting: handle **bold** and [N] citation refs.
- * Returns an array of strings/JSX elements to be rendered as React children.
- */
 function renderInline(text: string): React.ReactNode[] {
   const out: React.ReactNode[] = [];
-  // Combined regex: matches **bold** OR [N] OR [N][M]... citation chains.
   const regex = /\*\*([^*]+)\*\*|((?:\[\d+\])+)/g;
   let lastIndex = 0;
   let match: RegExpExecArray | null;
@@ -436,10 +403,8 @@ function renderInline(text: string): React.ReactNode[] {
     }
 
     if (match[1] !== undefined) {
-      // **bold**
       out.push(<strong key={`b-${key++}`}>{match[1]}</strong>);
     } else if (match[2] !== undefined) {
-      // citation chain like [1][3]
       out.push(
         <span
           key={`c-${key++}`}

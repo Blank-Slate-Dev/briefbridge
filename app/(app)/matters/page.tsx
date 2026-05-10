@@ -1,11 +1,13 @@
-// app/matters/page.tsx
+// app/(app)/matters/page.tsx
 //
 // Layout-only matter list. Uses MOCK_MATTERS until auth + database land.
 // When that lands, replace MOCK_MATTERS with a real DB query and the rest
 // of this file should not need to change.
+//
+// Note: StickyHeader is no longer rendered here. The (app) layout's sidebar
+// provides navigation across all workspace pages.
 
 import Link from 'next/link';
-import { StickyHeader } from '../_components/sticky-header';
 import { MOCK_MATTERS, type MockMatter } from './_data/mock-matters';
 
 // =============================================================================
@@ -14,39 +16,34 @@ import { MOCK_MATTERS, type MockMatter } from './_data/mock-matters';
 
 export default function MattersPage() {
   return (
-    <>
-      <StickyHeader />
+    <main className="bb-matters-main">
+      <header className="bb-matters-head">
+        <div className="bb-section-eyebrow">Your workspace</div>
+        <h1 className="bb-matters-title">
+          Cases <em>and matters</em>
+        </h1>
+        <p className="bb-matters-sub">
+          Each case keeps your research, files, and conversations in one place.
+          Ask BriefBridge anything in context — your facts, your authorities.
+        </p>
+      </header>
 
-      <main className="bb-matters-main">
-        <header className="bb-matters-head">
-          <div className="bb-section-eyebrow">Your workspace</div>
-          <h1 className="bb-matters-title">
-            Cases <em>and matters</em>
-          </h1>
-          <p className="bb-matters-sub">
-            Each case keeps your research, files, and conversations in one
-            place. Ask BriefBridge anything in context — your facts, your
-            authorities.
-          </p>
-        </header>
+      <section className="bb-matters-grid">
+        <NewMatterCard />
+        {MOCK_MATTERS.map((m) => (
+          <MatterCard key={m.id} matter={m} />
+        ))}
+      </section>
 
-        <section className="bb-matters-grid">
-          <NewMatterCard />
-          {MOCK_MATTERS.map((m) => (
-            <MatterCard key={m.id} matter={m} />
-          ))}
-        </section>
-
-        <div className="bb-matters-mock-banner">
-          <span>Preview UI</span>
-          <p>
-            These cases are placeholder examples. Authentication and persistent
-            storage are coming soon — once those land, your real cases will
-            appear here.
-          </p>
-        </div>
-      </main>
-    </>
+      <div className="bb-matters-mock-banner">
+        <span>Preview UI</span>
+        <p>
+          These cases are placeholder examples. Authentication and persistent
+          storage are coming soon — once those land, your real cases will
+          appear here.
+        </p>
+      </div>
+    </main>
   );
 }
 

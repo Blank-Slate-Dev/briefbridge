@@ -1,4 +1,4 @@
-// app/matters/_data/mock-matters.ts
+// app/(app)/matters/_data/mock-matters.ts
 //
 // PLACEHOLDER DATA — DELETE ME WHEN AUTH + MATTERS TABLE GO LIVE.
 //

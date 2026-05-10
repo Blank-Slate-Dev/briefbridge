@@ -1,0 +1,667 @@
+/* app/(app)/_components/shell.css
+ *
+ * App shell: collapsed-by-default sidebar that expands on hover/focus.
+ * Mobile: slide-out drawer triggered by a hamburger button.
+ *
+ * Brand area uses a single wide logo. The sidebar's overflow clips the
+ * wordmark when collapsed, leaving only the briefcase mark visible.
+ *
+ * Logo math (logo.png is 1024×237, briefcase is leftmost 332×237 = 32.4%):
+ *   - Render height: 40px
+ *   - Render width:  ~173px (preserves 4.32:1 aspect ratio)
+ *   - Briefcase visible width at 40px height: ~56px
+ *   - Sidebar collapsed: 64px wide
+ *   - Logo left padding: 4px
+ *   - Visible window when collapsed: 4px → 60px = 56px = briefcase
+ *
+ * Collapsed-state design philosophy (Claude-style):
+ *   - Every visible row reduces to a single 40px-square icon at left
+ *   - Section headers vanish entirely (zero height, not just opacity 0)
+ *   - New chat button shrinks to a 40×40 square (not full-width bar)
+ *   - "View all cases" hides entirely (redundant when expanded label is hidden)
+ *   - Recent chats: MessageSquare icon
+ *   - Cases: Briefcase icon with corner status badge
+ *
+ * Expansion is driven entirely by CSS :hover and :focus-within. No React
+ * state for desktop hover.
+ */
+
+/* =============================================================================
+ * Layout primitives
+ * =========================================================================== */
+
+.bb-shell {
+  display: flex;
+  min-height: 100vh;
+  background: var(--bb-bg);
+}
+
+.bb-shell-main {
+  flex: 1;
+  min-width: 0;
+  padding-left: 64px;
+}
+
+@media (max-width: 768px) {
+  .bb-shell-main {
+    padding-left: 0;
+    padding-top: 56px;
+  }
+}
+
+/* =============================================================================
+ * Sidebar — collapsed default
+ * =========================================================================== */
+
+.bb-shell-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 64px;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  background: var(--bb-features-bg);
+  border-right: 1px solid var(--bb-border);
+  padding: 12px 12px 16px;
+  gap: 6px;
+  transition:
+    width 180ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 180ms ease,
+    transform 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  overflow: hidden;
+}
+
+.bb-shell-sidebar:hover,
+.bb-shell-sidebar:focus-within {
+  width: 280px;
+  box-shadow:
+    0 1px 2px rgba(26, 31, 46, 0.04),
+    0 16px 40px rgba(26, 31, 46, 0.12);
+}
+
+/* =============================================================================
+ * Brand area — single wide logo, ALWAYS rendered at full size.
+ *
+ * The logo is rendered at fixed 40 × 173 px regardless of sidebar state.
+ * The brand-link container is also fixed 173px wide. Neither the logo nor
+ * the link ever change size or position — the sidebar's own width and
+ * overflow:hidden do all the masking work.
+ * =========================================================================== */
+
+.bb-shell-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0;
+  margin-bottom: 4px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.bb-shell-brand-link {
+  position: relative;
+  display: block;
+  width: 173px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  transition: background 0.15s ease;
+}
+.bb-shell-brand-link:hover {
+  background: var(--bb-bg);
+}
+.bb-shell-brand-logo {
+  display: block;
+  height: 40px;
+  width: 173px;
+  object-fit: contain;
+  object-position: left center;
+  position: absolute;
+  top: 0;
+  left: -7;
+  pointer-events: none;
+}
+
+/* Mobile-only close button */
+.bb-shell-mobile-close {
+  display: none;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: var(--bb-muted);
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 6px;
+  transition: background 0.15s ease;
+  margin-right: 4px;
+}
+.bb-shell-mobile-close:hover {
+  background: var(--bb-bg);
+  color: var(--bb-ink);
+}
+
+/* =============================================================================
+ * New chat button
+ *
+ * Collapsed: 40×40 square, dark, just the icon
+ * Expanded:  full-width pill, icon + label
+ * =========================================================================== */
+
+.bb-shell-new-chat {
+  display: flex;
+  align-items: center;
+  /* Collapsed: tight square. Width animates to full when sidebar expands. */
+  width: 40px;
+  padding: 0;
+  background: var(--bb-ink);
+  color: var(--bb-bg);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  transition:
+    background 0.15s ease,
+    width 180ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    padding 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  text-align: left;
+  margin-bottom: 8px;
+  height: 40px;
+  flex-shrink: 0;
+  /* Center the icon inside the collapsed square */
+  justify-content: center;
+  gap: 0;
+  overflow: hidden;
+}
+.bb-shell-sidebar:hover .bb-shell-new-chat,
+.bb-shell-sidebar:focus-within .bb-shell-new-chat {
+  width: 100%;
+  padding: 0 12px;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.bb-shell-new-chat:hover {
+  background: var(--bb-accent-hover);
+}
+.bb-shell-new-chat-icon {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  line-height: 1;
+}
+.bb-shell-new-chat-label {
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+.bb-shell-sidebar:hover .bb-shell-new-chat-label,
+.bb-shell-sidebar:focus-within .bb-shell-new-chat-label {
+  opacity: 1;
+}
+
+/* =============================================================================
+ * Sections (Recent chats, Cases)
+ *
+ * Section headers ("Recent chats", "Cases") VANISH entirely when collapsed.
+ * They use grid-template-rows trick: collapsed = 0fr (zero height),
+ * expanded = auto. This avoids the 20px gap that opacity-only would leave.
+ * =========================================================================== */
+
+.bb-shell-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
+}
+
+.bb-shell-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+  /* Collapsed: zero height (no gap). Expanded: 20px tall. */
+  height: 0;
+  margin-bottom: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    height 180ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    margin-bottom 180ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    opacity 120ms ease;
+}
+.bb-shell-sidebar:hover .bb-shell-section-head,
+.bb-shell-sidebar:focus-within .bb-shell-section-head {
+  height: 28px;
+  margin-bottom: 4px;
+  opacity: 1;
+  /* Add small top padding when expanded so it has breathing room from the
+     row above. */
+  padding-top: 8px;
+}
+.bb-shell-section-label {
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+  color: var(--bb-muted);
+}
+.bb-shell-section-action {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bb-muted);
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.bb-shell-section-action:hover {
+  background: var(--bb-bg);
+  color: var(--bb-ink);
+}
+
+/* =============================================================================
+ * List items (chats + cases)
+ *
+ * Layout: 40-square icon at left, body (title + meta) to the right.
+ * Body is hidden via opacity when collapsed.
+ * Icon stays anchored at left and visible in both states.
+ * =========================================================================== */
+
+.bb-shell-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.bb-shell-list-empty {
+  padding: 8px 12px;
+  font-size: 12px;
+  color: var(--bb-muted-soft);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+.bb-shell-sidebar:hover .bb-shell-list-empty,
+.bb-shell-sidebar:focus-within .bb-shell-list-empty {
+  opacity: 1;
+}
+
+.bb-shell-list-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* Padding: 4px on left so the 40×40 icon sits flush in the visible
+     window (sidebar is 64px wide, padding 12 each side = 40 inside).
+     The 40-square icon then occupies the full available width. */
+  padding: 4px 4px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--bb-ink);
+  transition: background 0.12s ease;
+  position: relative;
+  min-height: 40px;
+}
+.bb-shell-list-item:hover {
+  background: var(--bb-bg);
+}
+.bb-shell-list-item-active {
+  background: var(--bb-bg);
+}
+.bb-shell-list-item-active::before {
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 18px;
+  background: var(--bb-ink);
+  border-radius: 0 2px 2px 0;
+}
+
+/* The icon container — fixed 32×32 box centering the 16px icon inside.
+   This is what's visible when the sidebar is collapsed. */
+.bb-shell-list-item-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--bb-muted);
+  border-radius: 6px;
+  transition: color 0.12s ease;
+  position: relative;
+}
+.bb-shell-list-item:hover .bb-shell-list-item-icon,
+.bb-shell-list-item-active .bb-shell-list-item-icon {
+  color: var(--bb-ink);
+}
+
+/* Case icon special: gets a small status dot in the corner like a badge */
+.bb-shell-case-icon {
+  position: relative;
+}
+.bb-shell-case-status-badge {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  /* Background ring matches sidebar bg so the dot looks "punched out" of
+     the icon. */
+  box-shadow: 0 0 0 1.5px var(--bb-features-bg);
+}
+/* When the row is hovered/active, the bg ring should match the hover bg */
+.bb-shell-list-item:hover .bb-shell-case-status-badge,
+.bb-shell-list-item-active .bb-shell-case-status-badge {
+  box-shadow: 0 0 0 1.5px var(--bb-bg);
+}
+
+.bb-shell-list-item-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  flex: 1;
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+.bb-shell-sidebar:hover .bb-shell-list-item-body,
+.bb-shell-sidebar:focus-within .bb-shell-list-item-body {
+  opacity: 1;
+}
+.bb-shell-list-item-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--bb-ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bb-shell-list-item-meta {
+  font-size: 11px;
+  color: var(--bb-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Status dot color variants (used by case-status-badge) */
+.bb-shell-status-active {
+  background: #4ade80;
+}
+.bb-shell-status-on-hold {
+  background: var(--bb-highlight);
+}
+.bb-shell-status-archived {
+  background: var(--bb-border-strong);
+}
+
+/* "View all cases" — visible only when expanded */
+.bb-shell-see-all {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  color: var(--bb-muted);
+  text-decoration: none;
+  border-radius: 6px;
+  transition:
+    color 0.15s ease,
+    background 0.15s ease,
+    opacity 120ms ease,
+    height 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  /* Collapsed defaults: zero height, hidden */
+  height: 0;
+  margin-top: 0;
+  padding: 0 12px;
+  opacity: 0;
+  overflow: hidden;
+}
+.bb-shell-sidebar:hover .bb-shell-see-all,
+.bb-shell-sidebar:focus-within .bb-shell-see-all {
+  height: 28px;
+  margin-top: 4px;
+  padding: 6px 12px;
+  opacity: 1;
+}
+.bb-shell-see-all:hover {
+  color: var(--bb-ink);
+  background: var(--bb-bg);
+}
+.bb-shell-see-all-icon {
+  width: 16px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bb-shell-see-all-label {
+  white-space: nowrap;
+}
+
+/* =============================================================================
+ * Bottom area
+ * =========================================================================== */
+
+.bb-shell-bottom {
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid var(--bb-border);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.bb-shell-secondary-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 4px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--bb-ink);
+  transition: background 0.12s ease;
+  min-height: 40px;
+}
+.bb-shell-secondary-link:hover {
+  background: var(--bb-bg);
+}
+.bb-shell-secondary-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--bb-muted);
+}
+.bb-shell-secondary-link:hover .bb-shell-secondary-icon {
+  color: var(--bb-ink);
+}
+.bb-shell-secondary-label {
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+.bb-shell-sidebar:hover .bb-shell-secondary-label,
+.bb-shell-sidebar:focus-within .bb-shell-secondary-label {
+  opacity: 1;
+}
+
+.bb-shell-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 4px;
+  width: 100%;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: left;
+  transition: background 0.12s ease, border-color 0.12s ease;
+  min-height: 40px;
+}
+.bb-shell-user:hover {
+  background: var(--bb-bg);
+  border-color: var(--bb-border);
+}
+.bb-shell-user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--bb-highlight);
+  color: var(--bb-ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 14px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.bb-shell-user-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  min-width: 0;
+  flex: 1;
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+.bb-shell-sidebar:hover .bb-shell-user-body,
+.bb-shell-sidebar:focus-within .bb-shell-user-body {
+  opacity: 1;
+}
+.bb-shell-user-name {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--bb-ink);
+  white-space: nowrap;
+}
+.bb-shell-user-meta {
+  font-size: 11px;
+  color: var(--bb-muted);
+  white-space: nowrap;
+}
+
+/* =============================================================================
+ * Mobile hamburger + drawer
+ * =========================================================================== */
+
+.bb-shell-hamburger {
+  display: none;
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 30;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  background: var(--bb-bg-elevated);
+  border: 1px solid var(--bb-border);
+  border-radius: 10px;
+  font-size: 18px;
+  color: var(--bb-ink);
+  cursor: pointer;
+}
+.bb-shell-hamburger:hover {
+  background: var(--bb-bg);
+}
+
+.bb-shell-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(26, 31, 46, 0.4);
+  z-index: 35;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 200ms ease;
+}
+
+@media (max-width: 768px) {
+  .bb-shell-hamburger {
+    display: flex;
+  }
+  body:has(.bb-shell-sidebar-mobile-open) .bb-shell-hamburger {
+    display: none;
+  }
+
+  .bb-shell-backdrop {
+    display: block;
+  }
+  .bb-shell-backdrop-open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .bb-shell-sidebar {
+    width: 280px;
+    transform: translateX(-100%);
+    box-shadow: 0 16px 40px rgba(26, 31, 46, 0.18);
+  }
+  .bb-shell-sidebar:hover,
+  .bb-shell-sidebar:focus-within {
+    width: 280px;
+  }
+  .bb-shell-sidebar-mobile-open {
+    transform: translateX(0);
+  }
+  /* When mobile-open, force expanded styles for everything */
+  .bb-shell-sidebar-mobile-open .bb-shell-new-chat {
+    width: 100%;
+    padding: 0 12px;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .bb-shell-sidebar-mobile-open .bb-shell-new-chat-label,
+  .bb-shell-sidebar-mobile-open .bb-shell-list-item-body,
+  .bb-shell-sidebar-mobile-open .bb-shell-secondary-label,
+  .bb-shell-sidebar-mobile-open .bb-shell-user-body,
+  .bb-shell-sidebar-mobile-open .bb-shell-list-empty {
+    opacity: 1;
+  }
+  .bb-shell-sidebar-mobile-open .bb-shell-section-head {
+    height: 28px;
+    padding-top: 8px;
+    margin-bottom: 4px;
+    opacity: 1;
+  }
+  .bb-shell-sidebar-mobile-open .bb-shell-see-all {
+    height: 28px;
+    margin-top: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    opacity: 1;
+  }
+  .bb-shell-mobile-close {
+    display: flex;
+  }
+}
+
+/* =============================================================================
+ * Reduced motion
+ * =========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .bb-shell-sidebar,
+  .bb-shell-sidebar *,
+  .bb-shell-backdrop {
+    transition-duration: 0.01ms !important;
+  }
+}
