@@ -1,20 +1,33 @@
 // app/(app)/matters/page.tsx
 //
-// Layout-only matter list. Uses MOCK_MATTERS until auth + database land.
-// When that lands, replace MOCK_MATTERS with a real DB query and the rest
-// of this file should not need to change.
+// Layout-only matter list. Reads from the MattersProvider context so
+// status changes made via the StatusMenu component update the cards
+// (and the sidebar's case icons) in real time.
+//
+// Why this is now a Client Component:
+//   The matters list needs to read from React Context (MattersProvider)
+//   so status changes propagate everywhere live. Server Components can't
+//   subscribe to client context. Once auth + a real DB land, the matters
+//   array will be seeded from a server query (passed as initial state to
+//   the provider) — but the live editing UX still requires client state.
 //
 // Note: StickyHeader is no longer rendered here. The (app) layout's sidebar
 // provides navigation across all workspace pages.
 
+'use client';
+
 import Link from 'next/link';
-import { MOCK_MATTERS, type MockMatter } from './_data/mock-matters';
+import { useMatters } from './_components/matters-provider';
+import { StatusMenu } from './_components/status-menu';
+import type { MockMatter } from './_data/mock-matters';
 
 // =============================================================================
 // Page
 // =============================================================================
 
 export default function MattersPage() {
+  const { matters } = useMatters();
+
   return (
     <main className="bb-matters-main">
       <header className="bb-matters-head">
@@ -30,7 +43,7 @@ export default function MattersPage() {
 
       <section className="bb-matters-grid">
         <NewMatterCard />
-        {MOCK_MATTERS.map((m) => (
+        {matters.map((m) => (
           <MatterCard key={m.id} matter={m} />
         ))}
       </section>
@@ -59,7 +72,7 @@ function MatterCard({ matter }: { matter: MockMatter }) {
           <h3 className="bb-matter-card-name">{matter.name}</h3>
           <p className="bb-matter-card-client">{matter.client}</p>
         </div>
-        <StatusBadge status={matter.status} />
+        <StatusMenu matterId={matter.id} size="card" />
       </div>
 
       <p className="bb-matter-card-desc">{matter.description}</p>
@@ -88,20 +101,6 @@ function NewMatterCard() {
         Start a workspace for a client matter
       </div>
     </button>
-  );
-}
-
-function StatusBadge({ status }: { status: MockMatter['status'] }) {
-  const labels: Record<MockMatter['status'], string> = {
-    active: 'Active',
-    'on-hold': 'On hold',
-    archived: 'Archived',
-  };
-  return (
-    <span className={`bb-status-badge bb-status-${status}`}>
-      <span className="bb-status-dot" />
-      {labels[status]}
-    </span>
   );
 }
 

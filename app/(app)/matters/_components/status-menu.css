@@ -1,0 +1,360 @@
+/* app/(app)/matters/_components/status-menu.css
+ *
+ * Styles for the StatusMenu component (the morphing status pill + dropdown)
+ * AND the 4 new status colour variants for the sidebar's case-icon badge.
+ *
+ * Imported from app/layout.tsx alongside matters.css.
+ *
+ * Why a separate file: matters.css is large and stable. Keeping the new
+ * status colours here means we can iterate on the menu styling without
+ * scrolling through 1000 lines of existing CSS.
+ */
+
+/* =============================================================================
+ * NEW STATUS COLOUR VARIANTS — used by the sidebar's case-icon status badge
+ *
+ * The sidebar's status dots already had: active / on-hold / archived.
+ * We're adding: awaiting-client / in-hearing / settled / closed.
+ * (closed replaces the old 'archived' for new cases.)
+ *
+ * These selectors target the dot element used in the sidebar
+ * (.bb-shell-case-status-badge gets .bb-shell-status-{name} as a class).
+ * =========================================================================== */
+
+.bb-shell-status-awaiting-client {
+  background: #3b82f6; /* blue */
+}
+.bb-shell-status-in-hearing {
+  background: #8b5cf6; /* purple */
+}
+.bb-shell-status-settled {
+  background: #0ea5e9; /* teal */
+}
+.bb-shell-status-closed {
+  background: var(--bb-muted-soft); /* grey */
+}
+
+/* =============================================================================
+ * STATUS MENU — the morphing pill that replaces the old StatusBadge
+ *
+ * Default state: pill with [● Label]
+ * Hover state:   pill brightens, ⋯ icon fades in
+ * Open state:    same hover style, dropdown opens below
+ * =========================================================================== */
+
+.bb-status-menu {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  /* Pull above the parent <Link> so the dropdown z-index is contained */
+  z-index: 1;
+}
+
+/* Trigger button — looks like a status pill */
+.bb-status-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: inherit;
+  font-size: 11.5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    transform 0.1s ease;
+  position: relative;
+}
+.bb-status-trigger:hover {
+  /* Subtle lift to telegraph interactivity */
+  transform: translateY(-1px);
+}
+.bb-status-trigger:focus-visible {
+  outline: 2px solid var(--bb-ink);
+  outline-offset: 2px;
+}
+
+/* Header-size variant — slightly bigger pill on the matter detail page */
+.bb-status-menu-header .bb-status-trigger {
+  font-size: 12px;
+  padding: 6px 12px;
+  gap: 7px;
+}
+
+.bb-status-trigger .bb-status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  /* Slide left when ⋯ appears so dot stays visible but de-emphasised */
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+.bb-status-trigger .bb-status-label {
+  transition: opacity 0.12s ease;
+}
+
+/* The ⋯ icon — hidden by default, fades in on hover */
+.bb-status-trigger .bb-status-dots {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 0;
+  opacity: 0;
+  margin-left: 0;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 600;
+  color: currentColor;
+  letter-spacing: 0;
+  transform: translateY(-1px);
+  transition:
+    opacity 0.15s ease,
+    width 0.15s ease,
+    margin-left 0.15s ease;
+  pointer-events: none;
+}
+.bb-status-trigger:hover .bb-status-dots,
+.bb-status-trigger[aria-expanded='true'] .bb-status-dots {
+  opacity: 1;
+  width: 12px;
+  margin-left: 2px;
+}
+
+/* Touch devices have no real hover — show the dropdown indicator
+ * permanently so users don't have to "discover" it via two-tap. */
+@media (hover: none) {
+  .bb-status-trigger .bb-status-dots {
+    opacity: 1;
+    width: 12px;
+    margin-left: 2px;
+  }
+}
+
+/* =============================================================================
+ * Status colour variants (apply to the trigger pill)
+ *
+ * Each colour set defines: background, text colour, and the dot colour.
+ * The same .bb-status-{name} class names are used elsewhere (e.g. on the
+ * sidebar's badge), so we scope these to .bb-status-trigger to avoid leaking.
+ * =========================================================================== */
+
+/* active — green */
+.bb-status-trigger.bb-status-active {
+  background: rgba(74, 222, 128, 0.12);
+  color: #2a7a4a;
+}
+.bb-status-trigger.bb-status-active:hover,
+.bb-status-trigger.bb-status-active[aria-expanded='true'] {
+  background: rgba(74, 222, 128, 0.2);
+}
+.bb-status-trigger.bb-status-active .bb-status-dot {
+  background: #4ade80;
+  box-shadow: 0 0 0 3px rgba(74, 222, 128, 0.2);
+}
+
+/* on-hold — gold */
+.bb-status-trigger.bb-status-on-hold {
+  background: rgba(201, 184, 138, 0.18);
+  color: #7a6432;
+}
+.bb-status-trigger.bb-status-on-hold:hover,
+.bb-status-trigger.bb-status-on-hold[aria-expanded='true'] {
+  background: rgba(201, 184, 138, 0.3);
+}
+.bb-status-trigger.bb-status-on-hold .bb-status-dot {
+  background: var(--bb-highlight);
+}
+
+/* awaiting-client — blue */
+.bb-status-trigger.bb-status-awaiting-client {
+  background: rgba(59, 130, 246, 0.1);
+  color: #1e40af;
+}
+.bb-status-trigger.bb-status-awaiting-client:hover,
+.bb-status-trigger.bb-status-awaiting-client[aria-expanded='true'] {
+  background: rgba(59, 130, 246, 0.18);
+}
+.bb-status-trigger.bb-status-awaiting-client .bb-status-dot {
+  background: #3b82f6;
+}
+
+/* in-hearing — purple */
+.bb-status-trigger.bb-status-in-hearing {
+  background: rgba(139, 92, 246, 0.1);
+  color: #5b21b6;
+}
+.bb-status-trigger.bb-status-in-hearing:hover,
+.bb-status-trigger.bb-status-in-hearing[aria-expanded='true'] {
+  background: rgba(139, 92, 246, 0.18);
+}
+.bb-status-trigger.bb-status-in-hearing .bb-status-dot {
+  background: #8b5cf6;
+}
+
+/* settled — teal */
+.bb-status-trigger.bb-status-settled {
+  background: rgba(14, 165, 233, 0.1);
+  color: #075985;
+}
+.bb-status-trigger.bb-status-settled:hover,
+.bb-status-trigger.bb-status-settled[aria-expanded='true'] {
+  background: rgba(14, 165, 233, 0.18);
+}
+.bb-status-trigger.bb-status-settled .bb-status-dot {
+  background: #0ea5e9;
+}
+
+/* closed — grey */
+.bb-status-trigger.bb-status-closed {
+  background: var(--bb-bg-elevated);
+  color: var(--bb-muted);
+  border-color: var(--bb-border);
+}
+.bb-status-trigger.bb-status-closed:hover,
+.bb-status-trigger.bb-status-closed[aria-expanded='true'] {
+  background: var(--bb-bg);
+  border-color: var(--bb-border-strong);
+}
+.bb-status-trigger.bb-status-closed .bb-status-dot {
+  background: var(--bb-muted-soft);
+}
+
+/* =============================================================================
+ * Dropdown menu
+ * =========================================================================== */
+
+.bb-status-menu-list {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 240px;
+  list-style: none;
+  margin: 0;
+  padding: 6px;
+  background: var(--bb-bg-elevated);
+  border: 1px solid var(--bb-border);
+  border-radius: 12px;
+  box-shadow:
+    0 1px 2px rgba(26, 31, 46, 0.04),
+    0 12px 32px rgba(26, 31, 46, 0.14);
+  /* Above the sidebar (which is z-index: 40) and the matter card hover state */
+  z-index: 50;
+  /* Reset the inherited uppercase letter-spacing from the trigger context */
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 400;
+  /* Subtle entrance */
+  animation: bb-status-menu-in 0.12s ease;
+}
+
+@keyframes bb-status-menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.bb-status-menu-list li {
+  margin: 0;
+  padding: 0;
+}
+
+.bb-status-option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 8px 10px;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: left;
+  color: var(--bb-ink);
+  transition: background 0.12s ease;
+}
+.bb-status-option:hover {
+  background: var(--bb-bg);
+}
+.bb-status-option:focus-visible {
+  outline: 2px solid var(--bb-ink);
+  outline-offset: -2px;
+}
+.bb-status-option-active {
+  background: var(--bb-bg);
+}
+
+.bb-status-option-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+/* Per-status dot colours for the dropdown options.
+   Separate selectors from the trigger so we can keep them simple
+   (no nested compound selectors). */
+.bb-status-active-dot {
+  background: #4ade80;
+}
+.bb-status-on-hold-dot {
+  background: var(--bb-highlight);
+}
+.bb-status-awaiting-client-dot {
+  background: #3b82f6;
+}
+.bb-status-in-hearing-dot {
+  background: #8b5cf6;
+}
+.bb-status-settled-dot {
+  background: #0ea5e9;
+}
+.bb-status-closed-dot {
+  background: var(--bb-muted-soft);
+}
+
+.bb-status-option-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  flex: 1;
+  min-width: 0;
+}
+.bb-status-option-label {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--bb-ink);
+  line-height: 1.3;
+}
+.bb-status-option-desc {
+  font-size: 11.5px;
+  color: var(--bb-muted);
+  line-height: 1.3;
+}
+.bb-status-option-check {
+  font-size: 13px;
+  color: var(--bb-ink);
+  flex-shrink: 0;
+}
+
+/* =============================================================================
+ * Mobile — drop the right-anchored menu so it stays in viewport
+ * =========================================================================== */
+
+@media (max-width: 480px) {
+  .bb-status-menu-list {
+    right: auto;
+    left: 0;
+    min-width: 220px;
+  }
+}

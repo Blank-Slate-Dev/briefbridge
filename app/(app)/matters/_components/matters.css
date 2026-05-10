@@ -393,6 +393,11 @@ body:has(.bb-matter-main) {
   cursor: pointer;
   transition: color 0.15s ease, border-color 0.15s ease;
   white-space: nowrap;
+  /* iOS Safari: tablist is overflow-x: auto so iOS may treat taps inside it
+   * as potential swipe gestures and delay/cancel the click. manipulation
+   * disables double-tap-to-zoom and tells the browser this is a tap target. */
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(26, 31, 46, 0.1);
 }
 .bb-matter-tab:hover {
   color: var(--bb-ink);

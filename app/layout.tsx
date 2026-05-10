@@ -4,6 +4,7 @@ import { Geist, Geist_Mono, Fraunces } from 'next/font/google';
 import './globals.css';
 import './_components/homepage.css';
 import './(app)/matters/_components/matters.css';
+import './(app)/matters/_components/status-menu.css';
 import './(app)/_components/shell.css';
 
 const geistSans = Geist({

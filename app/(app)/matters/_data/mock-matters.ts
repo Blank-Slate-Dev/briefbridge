@@ -7,12 +7,64 @@
 // replaced by a real DB query helper and the rest of the UI doesn't need to
 // know the difference.
 
+// =============================================================================
+// Status — 6 NSW/Australian-practice statuses
+// =============================================================================
+//
+// Order matters for the dropdown menu (most-active to least-active).
+// Each status has a CSS class suffix (used in matters.css) and a label.
+//
+// Old 3-status union ('archived') is replaced by 'closed'. There is no
+// 'archived' status anymore — anything previously archived should be 'closed'.
+
+export type MatterStatus =
+  | 'active'
+  | 'on-hold'
+  | 'awaiting-client'
+  | 'in-hearing'
+  | 'settled'
+  | 'closed';
+
+/** Ordered list for the status dropdown menu. */
+export const MATTER_STATUSES: MatterStatus[] = [
+  'active',
+  'on-hold',
+  'awaiting-client',
+  'in-hearing',
+  'settled',
+  'closed',
+];
+
+/** Human-readable label for each status. */
+export const STATUS_LABELS: Record<MatterStatus, string> = {
+  'active': 'Active',
+  'on-hold': 'On hold',
+  'awaiting-client': 'Awaiting client',
+  'in-hearing': 'In hearing',
+  'settled': 'Settled',
+  'closed': 'Closed',
+};
+
+/** Brief description shown in the dropdown to help users pick. */
+export const STATUS_DESCRIPTIONS: Record<MatterStatus, string> = {
+  'active': 'Actively working on it',
+  'on-hold': 'Paused for some reason',
+  'awaiting-client': 'Waiting on client instructions',
+  'in-hearing': 'Listed for hearing',
+  'settled': 'Resolved by settlement',
+  'closed': 'Finalised, no further work',
+};
+
+// =============================================================================
+// Types
+// =============================================================================
+
 export interface MockMatter {
   id: string;
   name: string;
   client: string;
   description: string;
-  status: 'active' | 'on-hold' | 'archived';
+  status: MatterStatus;
   /** Human-readable, e.g. "2 hours ago". */
   lastActivity: string;
   fileCount: number;
@@ -339,6 +391,203 @@ export const MOCK_MATTERS: MockMatter[] = [
     ],
     notes:
       'Awaiting client decision on whether to settle on disclosed assets only or push for full trust production. Hold-on-file pending instructions due 14 May.',
+  },
+  // -------------------------------------------------------------------------
+  // 2 new demo cases — one 'in-hearing', one 'settled' — to showcase the
+  // expanded status options.
+  // -------------------------------------------------------------------------
+  {
+    id: 'patel-injunction',
+    name: 'Patel v Coastal Builders',
+    client: 'Anand Patel',
+    description:
+      'Urgent interlocutory injunction restraining demolition pending hearing of dispute over boundary encroachment. Hearing listed for next week.',
+    status: 'in-hearing',
+    lastActivity: '4 hours ago',
+    fileCount: 6,
+    conversationCount: 5,
+    citedAuthorities: 9,
+    recentActivity: 'Filed reply submissions on balance of convenience',
+    openedOn: '22 April 2026',
+    overview:
+      'Client owns a residential property adjoining a development site. The developer is alleged to have encroached approximately 1.2m onto the client\'s land while excavating foundations. Demolition of the structure is the orthodox remedy if encroachment is established. Client seeks an interlocutory injunction restraining the developer from completing the structure pending final determination.',
+    files: [
+      {
+        id: 'f1',
+        name: 'Notice of Motion — interlocutory injunction.pdf',
+        category: 'Pleading',
+        size: '240 KB',
+        uploadedAt: '22 Apr 2026',
+      },
+      {
+        id: 'f2',
+        name: 'Affidavit — Patel.pdf',
+        category: 'Evidence',
+        size: '680 KB',
+        uploadedAt: '22 Apr 2026',
+      },
+      {
+        id: 'f3',
+        name: 'Survey report — boundary encroachment.pdf',
+        category: 'Evidence',
+        size: '1.8 MB',
+        uploadedAt: '24 Apr 2026',
+      },
+      {
+        id: 'f4',
+        name: 'Submissions on balance of convenience.docx',
+        category: 'Submissions',
+        size: '180 KB',
+        uploadedAt: '6 May 2026',
+      },
+      {
+        id: 'f5',
+        name: 'Reply submissions.docx',
+        category: 'Submissions',
+        size: '145 KB',
+        uploadedAt: '10 May 2026',
+      },
+      {
+        id: 'f6',
+        name: 'Hearing bundle index.pdf',
+        category: 'Pleading',
+        size: '60 KB',
+        uploadedAt: '10 May 2026',
+      },
+    ],
+    conversations: [
+      {
+        id: 'c1',
+        title: 'Test for interlocutory injunctions — Australian principles',
+        updatedAt: '4 hours ago',
+        preview:
+          'Beecham, Castlemaine Tooheys, and the modern formulation in O\'Neill v Australian Broadcasting Corporation...',
+        messageCount: 11,
+      },
+      {
+        id: 'c2',
+        title: 'Damages as adequate remedy for boundary encroachment',
+        updatedAt: 'Yesterday',
+        preview:
+          'When will damages adequately compensate? Considering the Lord Cairns\' Act jurisdiction...',
+        messageCount: 7,
+      },
+    ],
+    authorities: [
+      {
+        name: 'Australian Broadcasting Corporation v O\'Neill',
+        citation: '(2006) 227 CLR 57',
+        proposition: 'Modern formulation of test for interlocutory injunctions — serious question to be tried plus balance of convenience.',
+        citedTimes: 6,
+      },
+      {
+        name: 'Beecham Group Ltd v Bristol Laboratories Pty Ltd',
+        citation: '(1968) 118 CLR 618',
+        proposition: 'Foundational case on prima facie case standard for interlocutory relief.',
+        citedTimes: 4,
+      },
+      {
+        name: 'Castlemaine Tooheys Ltd v South Australia',
+        citation: '(1986) 161 CLR 148',
+        proposition: 'Balance of convenience and adequacy of damages.',
+        citedTimes: 3,
+      },
+    ],
+    notes:
+      'Hearing listed Thursday 14 May, before McDougall J. Brief sent to D Wilkins SC. Reply submissions filed; awaiting transcript of opposing affidavit cross-examination. Counter-balance argument: developer\'s loss is purely commercial; client\'s loss is permanent encroachment on land.',
+  },
+  {
+    id: 'meridian-shareholder',
+    name: 'Meridian Holdings — Shareholder Buyout',
+    client: 'Meridian Holdings Pty Ltd',
+    description:
+      'Section 233 oppression proceedings settled at mediation. Buy-out of minority shareholder at agreed valuation. Documenting completion.',
+    status: 'settled',
+    lastActivity: '1 week ago',
+    fileCount: 14,
+    conversationCount: 9,
+    citedAuthorities: 17,
+    recentActivity: 'Heads of agreement signed; deed under preparation',
+    openedOn: '3 December 2025',
+    overview:
+      'Minority shareholder (15%) commenced oppression proceedings under section 233 of the Corporations Act alleging exclusion from management decisions and improper dividend policy. Mediation in late April resulted in a buy-out at $4.2m, payable in three tranches over 12 months. Heads of agreement signed; deed of release and share transfer documents under preparation.',
+    files: [
+      {
+        id: 'f1',
+        name: 'Originating Process — s233 oppression.pdf',
+        category: 'Pleading',
+        size: '510 KB',
+        uploadedAt: '3 Dec 2025',
+      },
+      {
+        id: 'f2',
+        name: 'Defence and cross-claim.pdf',
+        category: 'Pleading',
+        size: '420 KB',
+        uploadedAt: '20 Jan 2026',
+      },
+      {
+        id: 'f3',
+        name: 'Independent valuation — Meridian shares.pdf',
+        category: 'Evidence',
+        size: '2.8 MB',
+        uploadedAt: '12 Mar 2026',
+      },
+      {
+        id: 'f4',
+        name: 'Mediation position paper.docx',
+        category: 'Submissions',
+        size: '210 KB',
+        uploadedAt: '18 Apr 2026',
+      },
+      {
+        id: 'f5',
+        name: 'Heads of Agreement — executed.pdf',
+        category: 'Settlement',
+        size: '180 KB',
+        uploadedAt: '24 Apr 2026',
+      },
+    ],
+    conversations: [
+      {
+        id: 'c1',
+        title: 'Valuation methodology in oppression buy-outs',
+        updatedAt: '1 week ago',
+        preview:
+          'Whether minority discount applies; consideration of Re Cumberland Holdings and the post-Wayde line...',
+        messageCount: 14,
+      },
+      {
+        id: 'c2',
+        title: 'Drafting deed of release — scope of release',
+        updatedAt: '1 week ago',
+        preview:
+          'Mutual release including derivative claims; consideration of statutory derivative actions under s236...',
+        messageCount: 8,
+      },
+    ],
+    authorities: [
+      {
+        name: 'Wayde v New South Wales Rugby League Ltd',
+        citation: '(1985) 180 CLR 459',
+        proposition: 'Foundational High Court authority on oppressive conduct under predecessor of s233.',
+        citedTimes: 7,
+      },
+      {
+        name: 'Re Cumberland Holdings Ltd',
+        citation: '(1976) 1 ACLR 361',
+        proposition: 'Minority discount in compulsory buy-outs — when applicable, when not.',
+        citedTimes: 5,
+      },
+      {
+        name: 'Campbell v Backoffice Investments Pty Ltd',
+        citation: '(2009) 238 CLR 304',
+        proposition: 'Modern High Court restatement of the oppression remedy framework.',
+        citedTimes: 4,
+      },
+    ],
+    notes:
+      'Settlement quantum approved by client. Tranche 1 payment due on completion (estimated 30 May). Watch: deed must release derivative claims as well as direct claims to avoid future s236 application by the minority. Cross-claim resolved as part of settlement.',
   },
 ];
 

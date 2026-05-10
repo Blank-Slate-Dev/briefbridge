@@ -17,7 +17,7 @@
  * Collapsed-state design philosophy (Claude-style):
  *   - Every visible row reduces to a single 40px-square icon at left
  *   - Section headers vanish entirely (zero height, not just opacity 0)
- *   - New chat button shrinks to a 40×40 square (not full-width bar)
+ *   - New chat button is transparent by default, fills on hover
  *   - "View all cases" hides entirely (redundant when expanded label is hidden)
  *   - Recent chats: MessageSquare icon
  *   - Cases: Briefcase icon with corner status badge
@@ -95,9 +95,17 @@
   align-items: center;
   justify-content: space-between;
   padding: 4px 0;
-  margin-bottom: 4px;
+  /* Collapsed: no margin-bottom, rely on sidebar's `gap: 6px` for even
+     spacing with the icon column below. Expanded: 4px breathing room
+     before the new-chat pill. */
+  margin-bottom: 0;
   height: 48px;
   flex-shrink: 0;
+  transition: margin-bottom 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.bb-shell-sidebar:hover .bb-shell-brand,
+.bb-shell-sidebar:focus-within .bb-shell-brand {
+  margin-bottom: 4px;
 }
 .bb-shell-brand-link {
   position: relative;
@@ -142,10 +150,18 @@
 }
 
 /* =============================================================================
- * New chat button
+ * New chat button — Claude-style
  *
- * Collapsed: 40×40 square, dark, just the icon
+ * Default: transparent, dark-ink icon, no border. Reads as a peer to the
+ *          other icon-column rows when collapsed; not a billboard.
+ * Hover:   fills with --bb-ink (#1a1f2e), icon flips to cream. The fill
+ *          is the affordance — "this is the action you click to start".
+ *
+ * Collapsed: 40×40 square, icon centred
  * Expanded:  full-width pill, icon + label
+ *
+ * IMPORTANT: the label has width:0 when collapsed so it doesn't take
+ * flex space and shove the icon out of centre.
  * =========================================================================== */
 
 .bb-shell-new-chat {
@@ -154,8 +170,10 @@
   /* Collapsed: tight square. Width animates to full when sidebar expands. */
   width: 40px;
   padding: 0;
-  background: var(--bb-ink);
-  color: var(--bb-bg);
+  /* Default: transparent, ink-coloured icon. Matches the rest of the
+     icon column when collapsed. */
+  background: transparent;
+  color: var(--bb-ink);
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -164,10 +182,17 @@
   font-weight: 500;
   transition:
     background 0.15s ease,
+    color 0.15s ease,
     width 180ms cubic-bezier(0.2, 0.8, 0.2, 1),
-    padding 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
+    padding 180ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    margin-bottom 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
   text-align: left;
-  margin-bottom: 8px;
+  /* Collapsed: no margin so the button matches the 6px gap used between
+     the other icon-column rows. Expanded: 8px breathing room below so the
+     full-width pill has separation from the section header. The transition
+     for margin-bottom is driven by the same width/padding transition curve
+     so it animates with the sidebar opening. */
+  margin-bottom: 0;
   height: 40px;
   flex-shrink: 0;
   /* Center the icon inside the collapsed square */
@@ -175,15 +200,20 @@
   gap: 0;
   overflow: hidden;
 }
+/* Hover: fill with ink (#1a1f2e), icon flips to cream so it stays legible
+   on the dark background. Same effect on both collapsed and expanded
+   states for consistency as the sidebar animates open. */
+.bb-shell-new-chat:hover {
+  background: var(--bb-ink);
+  color: var(--bb-bg);
+}
 .bb-shell-sidebar:hover .bb-shell-new-chat,
 .bb-shell-sidebar:focus-within .bb-shell-new-chat {
   width: 100%;
   padding: 0 12px;
+  margin-bottom: 8px;
   justify-content: flex-start;
   gap: 12px;
-}
-.bb-shell-new-chat:hover {
-  background: var(--bb-accent-hover);
 }
 .bb-shell-new-chat-icon {
   width: 16px;
@@ -194,13 +224,21 @@
   flex-shrink: 0;
   line-height: 1;
 }
+/* Collapsed: zero width so it consumes no flex space and the icon
+   stays perfectly centred in the 40×40 square. Expanded: auto width
+   reveals the label. */
 .bb-shell-new-chat-label {
   white-space: nowrap;
+  width: 0;
+  overflow: hidden;
   opacity: 0;
-  transition: opacity 120ms ease;
+  transition:
+    opacity 120ms ease,
+    width 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 .bb-shell-sidebar:hover .bb-shell-new-chat-label,
 .bb-shell-sidebar:focus-within .bb-shell-new-chat-label {
+  width: auto;
   opacity: 1;
 }
 
@@ -215,6 +253,14 @@
 .bb-shell-section {
   display: flex;
   flex-direction: column;
+  /* Collapsed: no margin-top so all icon rows share the sidebar's 6px gap
+     evenly. Expanded: 4px additional breathing room since section headers
+     are now visible and benefit from the separation. */
+  margin-top: 0;
+  transition: margin-top 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.bb-shell-sidebar:hover .bb-shell-section,
+.bb-shell-sidebar:focus-within .bb-shell-section {
   margin-top: 4px;
 }
 
@@ -567,7 +613,7 @@
   position: fixed;
   top: 12px;
   left: 12px;
-  z-index: 30;
+  z-index: 50;
   width: 40px;
   height: 40px;
   align-items: center;
@@ -578,6 +624,9 @@
   font-size: 18px;
   color: var(--bb-ink);
   cursor: pointer;
+  pointer-events: auto;
+  -webkit-tap-highlight-color: rgba(26, 31, 46, 0.1);
+  touch-action: manipulation;
 }
 .bb-shell-hamburger:hover {
   background: var(--bb-bg);
@@ -597,6 +646,9 @@
 @media (max-width: 768px) {
   .bb-shell-hamburger {
     display: flex;
+    z-index: 1001;
+    width: 44px;
+    height: 44px;
   }
   body:has(.bb-shell-sidebar-mobile-open) .bb-shell-hamburger {
     display: none;
@@ -604,6 +656,7 @@
 
   .bb-shell-backdrop {
     display: block;
+    z-index: 999;
   }
   .bb-shell-backdrop-open {
     opacity: 1;
@@ -612,20 +665,30 @@
 
   .bb-shell-sidebar {
     width: 280px;
+    left: 0;
+    right: auto;
     transform: translateX(-100%);
+    z-index: 1000;
+    /* Inherit top: 0 + bottom: 0 from the base rule — these together produce
+     * a reliably full-height drawer on iOS Safari without the 100dvh bugs that
+     * leave a gap at the bottom. */
     box-shadow: 0 16px 40px rgba(26, 31, 46, 0.18);
+    transition:
+      transform 220ms cubic-bezier(0.2, 0.8, 0.2, 1),
+      box-shadow 180ms ease;
   }
   .bb-shell-sidebar:hover,
   .bb-shell-sidebar:focus-within {
     width: 280px;
   }
   .bb-shell-sidebar-mobile-open {
-    transform: translateX(0);
+    transform: translateX(0) !important;
   }
   /* When mobile-open, force expanded styles for everything */
   .bb-shell-sidebar-mobile-open .bb-shell-new-chat {
     width: 100%;
     padding: 0 12px;
+    margin-bottom: 8px;
     justify-content: flex-start;
     gap: 12px;
   }
@@ -636,11 +699,20 @@
   .bb-shell-sidebar-mobile-open .bb-shell-list-empty {
     opacity: 1;
   }
+  .bb-shell-sidebar-mobile-open .bb-shell-new-chat-label {
+    width: auto;
+  }
   .bb-shell-sidebar-mobile-open .bb-shell-section-head {
     height: 28px;
     padding-top: 8px;
     margin-bottom: 4px;
     opacity: 1;
+  }
+  .bb-shell-sidebar-mobile-open .bb-shell-section {
+    margin-top: 4px;
+  }
+  .bb-shell-sidebar-mobile-open .bb-shell-brand {
+    margin-bottom: 4px;
   }
   .bb-shell-sidebar-mobile-open .bb-shell-see-all {
     height: 28px;

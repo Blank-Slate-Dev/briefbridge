@@ -4,7 +4,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import { useEffect, useId, useRef, useState, type ReactNode } from 'react';
+import {
+  useEffect,
+  useId,
+  useRef,
+  useState,
+  type MouseEvent as ReactMouseEvent,
+  type PointerEvent as ReactPointerEvent,
+  type ReactNode,
+} from 'react';
 import {
   ArrowRight,
   Briefcase,
@@ -13,7 +21,8 @@ import {
   PenSquare,
   Scale,
 } from 'lucide-react';
-import { MOCK_MATTERS, type MockMatter } from '../matters/_data/mock-matters';
+import { useMatters } from '../matters/_components/matters-provider';
+import type { MatterStatus } from '../matters/_data/mock-matters';
 
 // =============================================================================
 // Types — placeholder until conversation persistence ships
@@ -46,9 +55,33 @@ const PLACEHOLDER_RECENT_CHATS: RecentChat[] = [
 export function AppSidebar() {
   const pathname = usePathname();
   const router = useRouter();
+  // Pull matters from the provider so status changes update the case icons.
+  const { matters } = useMatters();
 
   // Mobile drawer open/closed.
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  // Ghost-click protection: iOS fires a synthetic click ~300ms after a tap
+  // on the same coordinates. If the hamburger triggers the drawer open and
+  // then disappears (display: none), the ghost click falls through to the
+  // backdrop and closes the drawer immediately. Track the open timestamp
+  // and ignore backdrop clicks that arrive within that window.
+  const openedAtRef = useRef(0);
+
+  function openDrawer(
+    e?: ReactMouseEvent<HTMLButtonElement> | ReactPointerEvent<HTMLButtonElement>,
+  ) {
+    e?.preventDefault();
+    e?.stopPropagation();
+    openedAtRef.current = Date.now();
+    setMobileOpen(true);
+  }
+
+  function closeDrawer() {
+    // Ignore the first close attempt within 400ms of opening (ghost click).
+    if (Date.now() - openedAtRef.current < 400) return;
+    setMobileOpen(false);
+  }
 
   // Reference to the sidebar element so we can blur focus that's inside it
   // after navigation. The CSS uses :focus-within to drive the expanded state,
@@ -114,7 +147,8 @@ export function AppSidebar() {
         aria-label="Open navigation"
         aria-expanded={mobileOpen}
         aria-controls={navId}
-        onClick={() => setMobileOpen(true)}
+        onPointerUp={openDrawer}
+        onClick={openDrawer}
       >
         <span aria-hidden>☰</span>
       </button>
@@ -122,7 +156,7 @@ export function AppSidebar() {
       {/* Backdrop for mobile drawer */}
       <div
         className={`bb-shell-backdrop ${mobileOpen ? 'bb-shell-backdrop-open' : ''}`}
-        onClick={() => setMobileOpen(false)}
+        onClick={closeDrawer}
         aria-hidden
       />
 
@@ -205,7 +239,7 @@ export function AppSidebar() {
           }}
         >
           <ul className="bb-shell-list">
-            {MOCK_MATTERS.map((m) => {
+            {matters.map((m) => {
               const active = pathname === `/matters/${m.id}`;
               return (
                 <li key={m.id}>
@@ -276,7 +310,7 @@ export function AppSidebar() {
  * Renders the briefcase icon for a case with a small status dot in the
  * top-right corner like a notification badge.
  */
-function CaseIcon({ status }: { status: MockMatter['status'] }) {
+function CaseIcon({ status }: { status: MatterStatus }) {
   return (
     <span className="bb-shell-list-item-icon bb-shell-case-icon" aria-hidden>
       <Briefcase size={16} strokeWidth={1.5} />
