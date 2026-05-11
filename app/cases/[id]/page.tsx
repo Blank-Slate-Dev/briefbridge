@@ -1,4 +1,19 @@
 // app/cases/[id]/page.tsx
+//
+// Single judgment view. Refactored from Tailwind to the bb-* design system
+// so it matches /matters and homepage visually. No behavioural changes.
+//
+// IMPORTANT: every paragraph in the judgment body is rendered with
+//   <li id="para-{N}" class="bb-case-para">
+// because the chat citation chips (in /chat) link to /cases/{id}#para-{N}.
+// The `.bb-case-para` rule sets scroll-margin-top so anchored navigation
+// lands the paragraph below any sticky chrome. Don't change the id format
+// or you'll break verification deep-links.
+//
+// The `:target` style highlights the cited paragraph with a soft gold
+// background — gives the lawyer immediate visual confirmation that they
+// landed on the right paragraph.
+
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getJudgment } from '@/lib/queries';
@@ -31,10 +46,6 @@ interface Paragraph {
 }
 
 interface PartyBlock {
-  // The shape varies; we render whatever's there as JSON-friendly text.
-  // Common shapes seen:
-  //   { plaintiffs: ["..."], defendants: ["..."] }
-  //   { applicants: ["..."], respondents: ["..."] }
   [role: string]: string[] | string | undefined;
 }
 
@@ -74,135 +85,111 @@ export default async function CasePage({
     }
   }
 
-  // Build a flat list of section headings for the sidebar nav.
+  // Flat list of section headings for sidebar nav.
   const navSections = sections
     .filter((s) => s.heading && s.paragraphs.length > 0)
     .map((s) => ({
       heading: s.heading!,
-      // Anchor to the first paragraph in this section.
       firstParaNumber: s.paragraphs[0].number,
     }));
 
   return (
-    <main className="mx-auto max-w-7xl px-6 py-8">
-      <Link
-        href="/cases"
-        className="mb-6 inline-block text-sm text-slate-500 hover:text-slate-900"
-      >
+    <main className="bb-case-main">
+      <Link href="/cases" className="bb-case-back">
         ← All cases
       </Link>
 
-      <div className="grid gap-12 lg:grid-cols-[1fr_280px]">
-        {/* Main content column */}
-        <article className="min-w-0">
-          <header className="mb-10 border-b border-slate-200 pb-8">
-            <p className="font-mono text-sm text-slate-500">{judgment.citation}</p>
-
-            <h1 className="mt-2 text-3xl font-semibold tracking-tight text-slate-900">
-              {judgment.caseName}
-            </h1>
-
+      <div className="bb-case-layout">
+        {/* Main column */}
+        <article className="bb-case-content">
+          <header className="bb-case-head">
+            <p className="bb-case-cite">{judgment.citation}</p>
+            <h1 className="bb-case-name">{judgment.caseName}</h1>
             {judgment.decisionSummary && (
-              <p className="mt-4 text-base text-slate-700">
-                {judgment.decisionSummary}
-              </p>
+              <p className="bb-case-summary">{judgment.decisionSummary}</p>
             )}
           </header>
 
           {judgment.catchwords && (
-            <section className="mb-10">
-              <h2 className="mb-3 text-sm font-medium uppercase tracking-wide text-slate-500">
-                Catchwords
-              </h2>
-              <p className="whitespace-pre-line text-sm leading-relaxed text-slate-700">
-                {judgment.catchwords}
-              </p>
+            <section className="bb-case-section">
+              <h2 className="bb-case-section-heading">Catchwords</h2>
+              <p className="bb-case-catchwords">{judgment.catchwords}</p>
             </section>
           )}
 
           {(casesCited.length > 0 || legislationCited.length > 0) && (
-            <section className="mb-10 grid gap-8 md:grid-cols-2">
-              {casesCited.length > 0 && (
-                <div>
-                  <h2 className="mb-3 text-sm font-medium uppercase tracking-wide text-slate-500">
-                    Cases cited
-                  </h2>
-                  <ul className="space-y-2 text-sm">
-                    {casesCited.map((c, i) => (
-                      <li key={i}>
-                        <span className="italic text-slate-900">{c.name}</span>{' '}
-                        <span className="font-mono text-xs text-slate-600">
-                          {c.citation}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+            <section className="bb-case-section">
+              <div className="bb-case-cited-grid">
+                {casesCited.length > 0 && (
+                  <div>
+                    <h2 className="bb-case-section-heading">Cases cited</h2>
+                    <ul className="bb-case-cited-list">
+                      {casesCited.map((c, i) => (
+                        <li key={i}>
+                          <span className="bb-case-cited-name">{c.name}</span>
+                          <span className="bb-case-cited-cite">{c.citation}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
 
-              {legislationCited.length > 0 && (
-                <div>
-                  <h2 className="mb-3 text-sm font-medium uppercase tracking-wide text-slate-500">
-                    Legislation cited
-                  </h2>
-                  <ul className="space-y-2 text-sm">
-                    {legislationCited.map((l, i) => (
-                      <li key={i} className="text-slate-900">
-                        {l.title}
-                        {l.sections && (
-                          <span className="text-slate-600"> § {l.sections}</span>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+                {legislationCited.length > 0 && (
+                  <div>
+                    <h2 className="bb-case-section-heading">Legislation cited</h2>
+                    <ul className="bb-case-cited-list">
+                      {legislationCited.map((l, i) => (
+                        <li key={i} className="bb-case-cited-leg">
+                          {l.title}
+                          {l.sections && (
+                            <span className="bb-case-cited-leg-sections">
+                              {' '}§ {l.sections}
+                            </span>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
             </section>
           )}
 
-          <section>
-            <h2 className="mb-6 text-sm font-medium uppercase tracking-wide text-slate-500">
-              Judgment
-            </h2>
+          <section className="bb-case-section">
+            <h2 className="bb-case-section-heading">Judgment</h2>
 
-            <div className="space-y-8">
+            <div className="bb-case-judgment">
               {sections.map((section, i) => (
                 <div key={i}>
                   {section.heading && (
-                    <h3
-                      id={`section-${i}`}
-                      className="mb-3 text-base font-semibold text-slate-900"
-                    >
+                    <h3 className="bb-case-judgment-section-heading">
                       {section.heading}
                     </h3>
                   )}
 
-                  <ol className="space-y-6">
+                  <ol className="bb-case-paras">
                     {section.paragraphs.map((p) => (
                       <li
                         key={p.number}
                         id={`para-${p.number}`}
-                        className="text-sm leading-relaxed text-slate-800 scroll-mt-20"
+                        className="bb-case-para"
                       >
-                        <div className="flex gap-4">
+                        <div className="bb-case-para-row">
                           <a
                             href={`#para-${p.number}`}
-                            className="shrink-0 font-mono text-xs text-slate-400 hover:text-slate-700"
+                            className="bb-case-para-num"
                             aria-label={`Link to paragraph ${p.number}`}
                           >
                             [{p.number}]
                           </a>
-                          <p>{p.text}</p>
+                          <p className="bb-case-para-body">{p.text}</p>
                         </div>
 
                         {p.subItems && p.subItems.length > 0 && (
-                          <ol className="mt-3 ml-12 space-y-2 border-l-2 border-slate-200 pl-4">
+                          <ol className="bb-case-subitems">
                             {p.subItems.map((s) => (
-                              <li
-                                key={s.number}
-                                className="flex gap-3 text-slate-700"
-                              >
-                                <span className="shrink-0 font-mono text-xs text-slate-400">
+                              <li key={s.number} className="bb-case-subitem">
+                                <span className="bb-case-subitem-num">
                                   ({s.number})
                                 </span>
                                 <p>{s.text}</p>
@@ -218,35 +205,32 @@ export default async function CasePage({
             </div>
           </section>
 
-          <footer className="mt-16 border-t border-slate-200 pt-6 text-xs text-slate-500">
-            <p>
-              Unofficial copy. Source:{' '}
-              <a
-                href={judgment.sourceUrl}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="underline hover:text-slate-900"
-              >
-                NSW Caselaw
-              </a>
-              . Refer to the official version for authoritative text.
-            </p>
-          </footer>
-        </article>
-
-        {/* Sidebar — sticky on desktop, inline on mobile (after main content) */}
-        <aside className="lg:sticky lg:top-8 lg:self-start lg:max-h-[calc(100vh-4rem)] lg:overflow-y-auto">
-          <div className="space-y-6 rounded-lg border border-slate-200 bg-white p-5">
+          <footer className="bb-case-footer">
+            Unofficial copy. Source:{' '}
             <a
               href={judgment.sourceUrl}
               target="_blank"
               rel="noreferrer noopener"
-              className="block w-full rounded-md bg-slate-900 px-3 py-2 text-center text-sm font-medium text-white transition hover:bg-slate-700"
+            >
+              NSW Caselaw
+            </a>
+            . Refer to the official version for authoritative text.
+          </footer>
+        </article>
+
+        {/* Sidebar */}
+        <aside className="bb-case-sidebar">
+          <div className="bb-case-sidebar-card">
+            <a
+              href={judgment.sourceUrl}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="bb-case-source-btn"
             >
               View on NSW Caselaw ↗
             </a>
 
-            <dl className="space-y-3 text-sm">
+            <dl className="bb-case-fields" style={{ marginTop: 20 }}>
               <Field label="Court" value={judgment.court} />
               <Field label="Jurisdiction" value={judgment.jurisdiction} />
               {judgment.judges && judgment.judges.length > 0 && (
@@ -271,36 +255,38 @@ export default async function CasePage({
                   />
                 )}
             </dl>
+          </div>
 
-            {parties && Object.keys(parties).length > 0 && (
+          {parties && Object.keys(parties).length > 0 && (
+            <div className="bb-case-sidebar-card">
+              <h3 className="bb-case-sidebar-heading">Parties</h3>
               <PartiesBlock parties={parties} />
-            )}
+            </div>
+          )}
 
-            {representation && Object.keys(representation).length > 0 && (
+          {representation && Object.keys(representation).length > 0 && (
+            <div className="bb-case-sidebar-card">
+              <h3 className="bb-case-sidebar-heading">Representation</h3>
               <RepresentationBlock representation={representation} />
-            )}
+            </div>
+          )}
 
-            {navSections.length > 0 && (
-              <nav>
-                <h3 className="mb-2 text-xs font-medium uppercase tracking-wide text-slate-500">
-                  Sections
-                </h3>
-                <ul className="space-y-1.5 text-sm">
+          {navSections.length > 0 && (
+            <div className="bb-case-sidebar-card">
+              <h3 className="bb-case-sidebar-heading">Sections</h3>
+              <nav className="bb-case-nav">
+                <ul className="bb-case-nav-list">
                   {navSections.map((s, i) => (
                     <li key={i}>
-                      <a
-                        href={`#para-${s.firstParaNumber}`}
-                        className="block truncate text-slate-700 hover:text-slate-900"
-                        title={s.heading}
-                      >
+                      <a href={`#para-${s.firstParaNumber}`} title={s.heading}>
                         {s.heading}
                       </a>
                     </li>
                   ))}
                 </ul>
               </nav>
-            )}
-          </div>
+            </div>
+          )}
         </aside>
       </div>
     </main>
@@ -320,59 +306,55 @@ function Field({
 }) {
   if (!value) return null;
   return (
-    <div>
-      <dt className="text-xs uppercase tracking-wide text-slate-500">{label}</dt>
-      <dd className="mt-0.5 text-slate-900">{value}</dd>
+    <div className="bb-case-field">
+      <dt>{label}</dt>
+      <dd>{value}</dd>
     </div>
   );
 }
 
 function PartiesBlock({ parties }: { parties: PartyBlock }) {
-  const entries = Object.entries(parties).filter(([, v]) => v && (
-    Array.isArray(v) ? v.length > 0 : v.trim() !== ''
-  ));
+  const entries = Object.entries(parties).filter(
+    ([, v]) => v && (Array.isArray(v) ? v.length > 0 : v.trim() !== ''),
+  );
   if (entries.length === 0) return null;
 
   return (
-    <div>
-      <h3 className="mb-2 text-xs font-medium uppercase tracking-wide text-slate-500">
-        Parties
-      </h3>
-      <dl className="space-y-2 text-xs">
-        {entries.map(([role, value]) => (
-          <div key={role}>
-            <dt className="capitalize text-slate-500">{role}</dt>
-            <dd className="text-slate-900">
-              {Array.isArray(value) ? value.join('; ') : value}
-            </dd>
-          </div>
-        ))}
-      </dl>
-    </div>
+    <dl className="bb-case-mini-dl">
+      {entries.map(([role, value]) => (
+        <div key={role}>
+          <dt>{role}</dt>
+          <dd>{Array.isArray(value) ? value.join('; ') : value}</dd>
+        </div>
+      ))}
+    </dl>
   );
 }
 
-function RepresentationBlock({ representation }: { representation: Representation }) {
-  const entries = Object.entries(representation).filter(([, v]) => v && (
-    Array.isArray(v) ? v.length > 0 : (typeof v === 'string' ? v.trim() !== '' : false)
-  ));
+function RepresentationBlock({
+  representation,
+}: {
+  representation: Representation;
+}) {
+  const entries = Object.entries(representation).filter(
+    ([, v]) =>
+      v &&
+      (Array.isArray(v)
+        ? v.length > 0
+        : typeof v === 'string'
+          ? v.trim() !== ''
+          : false),
+  );
   if (entries.length === 0) return null;
 
   return (
-    <div>
-      <h3 className="mb-2 text-xs font-medium uppercase tracking-wide text-slate-500">
-        Representation
-      </h3>
-      <dl className="space-y-2 text-xs">
-        {entries.map(([role, value]) => (
-          <div key={role}>
-            <dt className="capitalize text-slate-500">{role}</dt>
-            <dd className="text-slate-900">
-              {Array.isArray(value) ? value.join('; ') : value}
-            </dd>
-          </div>
-        ))}
-      </dl>
-    </div>
+    <dl className="bb-case-mini-dl">
+      {entries.map(([role, value]) => (
+        <div key={role}>
+          <dt>{role}</dt>
+          <dd>{Array.isArray(value) ? value.join('; ') : value}</dd>
+        </div>
+      ))}
+    </dl>
   );
 }

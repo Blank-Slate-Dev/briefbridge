@@ -6,6 +6,7 @@ import './_components/homepage.css';
 import './(app)/matters/_components/matters.css';
 import './(app)/matters/_components/status-menu.css';
 import './(app)/_components/shell.css';
+import './cases/_components/cases.css';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',

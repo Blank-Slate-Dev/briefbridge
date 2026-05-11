@@ -1,4 +1,12 @@
 // app/cases/page.tsx
+//
+// Public judgment-database list view. Refactored from Tailwind to the
+// bb-* design system. No behavioural changes — same SSR pagination,
+// same search params, same SearchBar component (which keeps its own
+// styling for now since the user didn't share it).
+//
+// If SearchBar later needs to be themed too, replace the import here.
+
 import Link from 'next/link';
 import { listJudgments, countJudgments, getDistinctYears } from '@/lib/queries';
 import SearchBar from './_components/SearchBar';
@@ -8,7 +16,6 @@ export const dynamic = 'force-dynamic';
 const PAGE_SIZE = 50;
 
 interface CasesPageProps {
-  // Next.js 15 passes searchParams as a Promise; we await it below.
   searchParams: Promise<{
     page?: string;
     q?: string;
@@ -21,7 +28,8 @@ export default async function CasesPage({ searchParams }: CasesPageProps) {
 
   // Parse and validate URL params.
   const requestedPage = parseInt(params.page ?? '1', 10);
-  const currentPage = Number.isFinite(requestedPage) && requestedPage > 0 ? requestedPage : 1;
+  const currentPage =
+    Number.isFinite(requestedPage) && requestedPage > 0 ? requestedPage : 1;
 
   const query = params.q?.trim() ?? '';
   const hasQuery = query.length > 0;
@@ -31,8 +39,7 @@ export default async function CasesPage({ searchParams }: CasesPageProps) {
 
   const hasFilters = hasQuery || year !== undefined;
 
-  // Fetch the page of results, the total count, and the year list — all in parallel.
-  // Year list is independent of filters (always show every available year).
+  // Fetch in parallel.
   const [judgments, totalCount, availableYears] = await Promise.all([
     listJudgments({ page: currentPage, pageSize: PAGE_SIZE, query, year }),
     countJudgments({ query, year }),
@@ -58,149 +65,153 @@ export default async function CasesPage({ searchParams }: CasesPageProps) {
   };
 
   return (
-    <main className="mx-auto max-w-5xl px-6 py-12">
-      <header className="mb-8">
-        <h1 className="text-3xl font-semibold tracking-tight text-slate-900">
-          Cases
+    <main className="bb-cases-main">
+      <header className="bb-cases-head">
+        <div className="bb-cases-eyebrow">NSW judgment database</div>
+        <h1 className="bb-cases-title">
+          Cases <em>and authorities</em>
         </h1>
+        <p className="bb-cases-sub">
+          Search and browse the full text of NSW Supreme Court judgments
+          ingested into BriefBridge. Click a result to read the judgment, or
+          ask a research question in chat.
+        </p>
       </header>
 
-      <SearchBar availableYears={availableYears} />
+      <div className="bb-cases-toolbar">
+        <SearchBar availableYears={availableYears} />
+      </div>
 
-      {/* Results summary: changes based on filters */}
-      <div className="mb-6">
-        <p className="text-sm text-slate-600">
-          {totalCount === 0 && hasFilters ? (
-            <>
-              No judgments match{hasQuery && <> &ldquo;<span className="font-medium text-slate-900">{query}</span>&rdquo;</>}
-              {year !== undefined && <> in <span className="font-medium text-slate-900">{year}</span></>}.
-            </>
-          ) : totalCount === 0 ? (
-            'No judgments ingested yet.'
-          ) : isOutOfRange ? (
-            `No results on page ${currentPage}. Found ${totalCount.toLocaleString()} judgments across ${totalPages} pages.`
-          ) : hasFilters ? (
-            <>
-              Found <span className="font-medium text-slate-900">{totalCount.toLocaleString()}</span> judgment{totalCount === 1 ? '' : 's'}
-              {hasQuery && <> matching &ldquo;<span className="font-medium text-slate-900">{query}</span>&rdquo;</>}
-              {year !== undefined && <> in <span className="font-medium text-slate-900">{year}</span></>}
-              {' '}— showing {firstItemNumber.toLocaleString()}–{lastItemNumber.toLocaleString()}
-              {hasQuery ? ', ranked by relevance' : ', most recent first'}
-            </>
-          ) : (
-            <>
-              Showing <span className="font-medium text-slate-900">{firstItemNumber.toLocaleString()}–{lastItemNumber.toLocaleString()}</span> of{' '}
-              <span className="font-medium text-slate-900">{totalCount.toLocaleString()}</span> judgments — most recent first
-            </>
-          )}
-        </p>
+      <div className="bb-cases-summary">
+        {totalCount === 0 && hasFilters ? (
+          <>
+            No judgments match
+            {hasQuery && (
+              <>
+                {' '}&ldquo;<strong>{query}</strong>&rdquo;
+              </>
+            )}
+            {year !== undefined && (
+              <>
+                {' '}in <strong>{year}</strong>
+              </>
+            )}
+            .
+          </>
+        ) : totalCount === 0 ? (
+          'No judgments ingested yet.'
+        ) : isOutOfRange ? (
+          `No results on page ${currentPage}. Found ${totalCount.toLocaleString()} judgments across ${totalPages} pages.`
+        ) : hasFilters ? (
+          <>
+            Found <strong>{totalCount.toLocaleString()}</strong> judgment
+            {totalCount === 1 ? '' : 's'}
+            {hasQuery && (
+              <>
+                {' '}matching &ldquo;<strong>{query}</strong>&rdquo;
+              </>
+            )}
+            {year !== undefined && (
+              <>
+                {' '}in <strong>{year}</strong>
+              </>
+            )}
+            {' '}— showing {firstItemNumber.toLocaleString()}–
+            {lastItemNumber.toLocaleString()}
+            {hasQuery ? ', ranked by relevance' : ', most recent first'}
+          </>
+        ) : (
+          <>
+            Showing{' '}
+            <strong>
+              {firstItemNumber.toLocaleString()}–{lastItemNumber.toLocaleString()}
+            </strong>{' '}
+            of <strong>{totalCount.toLocaleString()}</strong> judgments — most
+            recent first
+          </>
+        )}
       </div>
 
       {totalCount === 0 && !hasFilters ? (
-        <div className="rounded-lg border border-dashed border-slate-300 p-12 text-center">
-          <p className="text-sm text-slate-500">
-            Run{' '}
-            <code className="rounded bg-slate-100 px-1.5 py-0.5 font-mono text-xs">
-              npm run ingest:nsw -- &lt;url&gt;
-            </code>{' '}
-            to add a judgment.
+        <div className="bb-cases-empty">
+          <p>
+            Run <code>npm run ingest:nsw -- &lt;url&gt;</code> to add a judgment.
           </p>
         </div>
       ) : totalCount === 0 ? (
-        <div className="rounded-lg border border-dashed border-slate-300 p-12 text-center">
-          <p className="text-sm text-slate-500">
-            Try a different search term or removing the year filter.
-          </p>
+        <div className="bb-cases-empty">
+          <p>Try a different search term or remove the year filter.</p>
         </div>
       ) : isOutOfRange ? (
-        <div className="rounded-lg border border-dashed border-slate-300 p-12 text-center">
-          <p className="text-sm text-slate-500">
-            Page {currentPage} is past the end of the results.
-          </p>
-          <Link
-            href={pageUrl(1)}
-            className="mt-4 inline-block rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-slate-700"
-          >
+        <div className="bb-cases-empty">
+          <p>Page {currentPage} is past the end of the results.</p>
+          <Link href={pageUrl(1)} className="bb-cases-empty-action">
             Go to page 1
           </Link>
         </div>
       ) : (
         <>
-          <ul className="divide-y divide-slate-200 rounded-lg border border-slate-200 bg-white">
+          <ul className="bb-cases-list">
             {judgments.map((j) => (
               <li key={j.id}>
-                <Link
-                  href={`/cases/${j.id}`}
-                  className="block px-6 py-4 transition hover:bg-slate-50"
-                >
-                  <div className="flex items-baseline justify-between gap-4">
-                    <h2 className="font-medium text-slate-900">
+                <Link href={`/cases/${j.id}`} className="bb-cases-row">
+                  <div className="bb-cases-row-head">
+                    <h2 className="bb-cases-row-name">
                       {j.caseName ?? 'Untitled judgment'}
                     </h2>
-                    <span className="shrink-0 font-mono text-xs text-slate-500">
-                      {j.citation}
-                    </span>
+                    <span className="bb-cases-row-cite">{j.citation}</span>
                   </div>
-                  <div className="mt-1 flex items-center gap-3 text-xs text-slate-500">
+                  <div className="bb-cases-row-meta">
                     <span>{j.court}</span>
                     {j.decisionDate && (
                       <>
-                        <span aria-hidden>·</span>
+                        <span aria-hidden className="bb-cases-row-meta-sep">
+                          ·
+                        </span>
                         <span>{j.decisionDate}</span>
                       </>
                     )}
                   </div>
                   {j.catchwords && (
-                    <p className="mt-2 line-clamp-2 text-sm text-slate-600">
-                      {j.catchwords}
-                    </p>
+                    <p className="bb-cases-row-catchwords">{j.catchwords}</p>
                   )}
                 </Link>
               </li>
             ))}
           </ul>
 
-          {/* Pagination controls — preserved from your previous implementation,
-              now using pageUrl() helper to keep search/filter state across pages. */}
           {totalPages > 1 && (
-            <nav
-              className="mt-8 flex items-center justify-between"
-              aria-label="Pagination"
-            >
-              <div className="flex-1">
-                {hasPrevious ? (
-                  <Link
-                    href={pageUrl(currentPage - 1)}
-                    className="inline-flex items-center gap-1.5 rounded-md border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-50"
-                  >
-                    <span aria-hidden>←</span> Previous
-                  </Link>
-                ) : (
-                  <span className="inline-flex items-center gap-1.5 rounded-md border border-slate-100 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-300">
-                    <span aria-hidden>←</span> Previous
-                  </span>
-                )}
+            <nav className="bb-cases-pagination" aria-label="Pagination">
+              {hasPrevious ? (
+                <Link
+                  href={pageUrl(currentPage - 1)}
+                  className="bb-cases-page-btn"
+                >
+                  <span aria-hidden>←</span> Previous
+                </Link>
+              ) : (
+                <span className="bb-cases-page-btn bb-cases-page-btn-disabled">
+                  <span aria-hidden>←</span> Previous
+                </span>
+              )}
+
+              <div className="bb-cases-page-info">
+                Page <strong>{currentPage.toLocaleString()}</strong> of{' '}
+                <strong>{totalPages.toLocaleString()}</strong>
               </div>
 
-              <div className="text-sm text-slate-600">
-                Page <span className="font-medium text-slate-900">{currentPage.toLocaleString()}</span>{' '}
-                of <span className="font-medium text-slate-900">{totalPages.toLocaleString()}</span>
-              </div>
-
-              <div className="flex flex-1 justify-end">
-                {hasNext ? (
-                  <Link
-                    href={pageUrl(currentPage + 1)}
-                    className="inline-flex items-center gap-1.5 rounded-md border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-50"
-                  >
-                    Next <span aria-hidden>→</span>
-                  </Link>
-                ) : (
-                  <span className="inline-flex items-center gap-1.5 rounded-md border border-slate-100 bg-slate-50 px-3 py-2 text-sm font-medium text-slate-300">
-                    Next <span aria-hidden>→</span>
-                  </span>
-                )}
-              </div>
+              {hasNext ? (
+                <Link
+                  href={pageUrl(currentPage + 1)}
+                  className="bb-cases-page-btn"
+                >
+                  Next <span aria-hidden>→</span>
+                </Link>
+              ) : (
+                <span className="bb-cases-page-btn bb-cases-page-btn-disabled">
+                  Next <span aria-hidden>→</span>
+                </span>
+              )}
             </nav>
           )}
         </>

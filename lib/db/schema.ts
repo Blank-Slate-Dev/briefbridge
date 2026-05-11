@@ -1,4 +1,4 @@
-// REPLACE lib/db/schema.ts WITH THIS COMPLETE FILE
+// lib/db/schema.ts
 //
 // What changed (additions only — existing tables untouched):
 //   1. Added `vector` import from drizzle-orm/pg-core

@@ -1,0 +1,633 @@
+/* app/cases/_components/cases.css
+ *
+ * Styles for the public /cases (judgment database) pages — both the list
+ * view and the single-judgment view. Mirrors the architectural patterns
+ * of matters.css and homepage.css (same `bb-*` naming, same design tokens,
+ * same responsive breakpoints).
+ *
+ * Loaded via app/layout.tsx alongside homepage.css and matters.css.
+ *
+ * IMPORTANT: the case detail page renders every paragraph with
+ *   <li id="para-{N}"> ... </li>
+ * which is the anchor target for inline citation chips on /chat. This file
+ * preserves the `scroll-mt` behaviour the original Tailwind page had —
+ * without it, the chip-link would land with the paragraph hidden under
+ * the sticky app header. Don't remove `.bb-case-para[id] { scroll-margin-top }`.
+ */
+
+/* =============================================================================
+ * Page-level overrides — apply background to /cases pages
+ * =========================================================================== */
+
+body:has(.bb-cases-main),
+body:has(.bb-case-main) {
+  background: var(--bb-bg);
+  color: var(--bb-ink);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* =============================================================================
+ * CASES LIST PAGE
+ * =========================================================================== */
+
+.bb-cases-main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 80px 32px 120px;
+}
+
+.bb-cases-head {
+  max-width: 720px;
+  margin-bottom: 32px;
+}
+.bb-cases-eyebrow {
+  font-size: 13px;
+  color: var(--bb-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.bb-cases-title {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: clamp(40px, 5.5vw, 64px);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  color: var(--bb-ink);
+  font-weight: 400;
+  margin: 0 0 20px;
+}
+.bb-cases-title em {
+  font-style: italic;
+  font-variation-settings: 'opsz' 144;
+  color: var(--bb-ink-soft);
+}
+.bb-cases-sub {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--bb-muted);
+  max-width: 640px;
+  margin: 0;
+}
+
+/* Search bar + summary */
+.bb-cases-toolbar {
+  margin-bottom: 24px;
+}
+.bb-cases-summary {
+  margin-bottom: 24px;
+  font-size: 14px;
+  color: var(--bb-muted);
+  line-height: 1.5;
+}
+.bb-cases-summary strong {
+  font-weight: 500;
+  color: var(--bb-ink);
+}
+
+/* List */
+.bb-cases-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--bb-border);
+  border-radius: 16px;
+  background: var(--bb-bg-elevated);
+  overflow: hidden;
+}
+.bb-cases-list li + li {
+  border-top: 1px solid var(--bb-border);
+}
+.bb-cases-row {
+  display: block;
+  padding: 20px 24px;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.15s ease;
+}
+.bb-cases-row:hover {
+  background: var(--bb-bg);
+}
+.bb-cases-row-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 6px;
+}
+.bb-cases-row-name {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--bb-ink);
+  margin: 0;
+  min-width: 0;
+  flex: 1;
+}
+.bb-cases-row-cite {
+  font-family: ui-monospace, 'SF Mono', monospace;
+  font-size: 12px;
+  color: var(--bb-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.bb-cases-row-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12.5px;
+  color: var(--bb-muted);
+  margin-bottom: 6px;
+}
+.bb-cases-row-meta-sep {
+  color: var(--bb-muted-soft);
+}
+.bb-cases-row-catchwords {
+  font-size: 13.5px;
+  color: var(--bb-muted);
+  line-height: 1.5;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Empty / out-of-range */
+.bb-cases-empty {
+  text-align: center;
+  padding: 60px 32px;
+  border: 1px dashed var(--bb-border);
+  border-radius: 12px;
+  background: var(--bb-bg-elevated);
+}
+.bb-cases-empty p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--bb-muted);
+  line-height: 1.5;
+}
+.bb-cases-empty code {
+  background: var(--bb-bg);
+  border: 1px solid var(--bb-border);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-family: ui-monospace, 'SF Mono', monospace;
+  font-size: 12px;
+  color: var(--bb-ink);
+}
+.bb-cases-empty-action {
+  display: inline-block;
+  margin-top: 20px;
+  background: var(--bb-ink);
+  color: var(--bb-bg);
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+.bb-cases-empty-action:hover {
+  background: var(--bb-accent-hover);
+}
+
+/* Pagination */
+.bb-cases-pagination {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.bb-cases-page-info {
+  font-size: 13.5px;
+  color: var(--bb-muted);
+}
+.bb-cases-page-info strong {
+  font-weight: 500;
+  color: var(--bb-ink);
+}
+.bb-cases-page-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--bb-border);
+  background: var(--bb-bg-elevated);
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--bb-ink);
+  text-decoration: none;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+.bb-cases-page-btn:hover {
+  background: var(--bb-bg);
+  border-color: var(--bb-border-strong);
+}
+.bb-cases-page-btn-disabled {
+  color: var(--bb-muted-soft);
+  background: transparent;
+  border-color: var(--bb-border);
+  cursor: not-allowed;
+}
+.bb-cases-page-btn-disabled:hover {
+  background: transparent;
+  border-color: var(--bb-border);
+}
+
+/* =============================================================================
+ * SINGLE JUDGMENT PAGE
+ * =========================================================================== */
+
+.bb-case-main {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 32px 32px 80px;
+}
+.bb-case-back {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--bb-muted);
+  text-decoration: none;
+  margin-bottom: 24px;
+  transition: color 0.15s ease;
+}
+.bb-case-back:hover {
+  color: var(--bb-ink);
+}
+
+.bb-case-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 48px;
+  align-items: flex-start;
+}
+.bb-case-content {
+  min-width: 0;
+}
+
+/* Header */
+.bb-case-head {
+  margin-bottom: 40px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--bb-border);
+}
+.bb-case-cite {
+  font-family: ui-monospace, 'SF Mono', monospace;
+  font-size: 13px;
+  color: var(--bb-muted);
+  margin: 0 0 8px;
+}
+.bb-case-name {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  color: var(--bb-ink);
+  margin: 0;
+}
+.bb-case-summary {
+  margin: 20px 0 0;
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--bb-ink-soft);
+}
+
+/* Section heading (Catchwords / Cases cited / Judgment) */
+.bb-case-section {
+  margin-bottom: 40px;
+}
+.bb-case-section-heading {
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+  color: var(--bb-muted);
+  margin: 0 0 14px;
+}
+
+.bb-case-catchwords {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--bb-ink-soft);
+  white-space: pre-line;
+  margin: 0;
+}
+
+/* Cited block grid (cases + legislation) */
+.bb-case-cited-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+.bb-case-cited-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13.5px;
+}
+.bb-case-cited-name {
+  font-style: italic;
+  color: var(--bb-ink);
+}
+.bb-case-cited-cite {
+  font-family: ui-monospace, 'SF Mono', monospace;
+  font-size: 12px;
+  color: var(--bb-muted);
+  margin-left: 6px;
+}
+.bb-case-cited-leg {
+  color: var(--bb-ink);
+}
+.bb-case-cited-leg-sections {
+  color: var(--bb-muted);
+}
+
+/* Judgment paragraphs */
+.bb-case-judgment {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.bb-case-judgment-section-heading {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--bb-ink);
+  margin: 0 0 16px;
+}
+.bb-case-paras {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bb-case-para {
+  /* scroll-margin-top so anchored links (e.g. from /chat citation chips)
+   * don't land hidden under the sticky app sidebar/header. Matches the
+   * old Tailwind scroll-mt-20 (5rem = 80px). */
+  scroll-margin-top: 96px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--bb-ink);
+}
+.bb-case-para-row {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+.bb-case-para-num {
+  flex-shrink: 0;
+  font-family: ui-monospace, 'SF Mono', monospace;
+  font-size: 12px;
+  color: var(--bb-muted-soft);
+  text-decoration: none;
+  padding-top: 3px; /* visually align with body text */
+  min-width: 36px;
+  transition: color 0.15s ease;
+}
+.bb-case-para-num:hover {
+  color: var(--bb-ink);
+}
+.bb-case-para-body {
+  margin: 0;
+  min-width: 0;
+}
+
+/* Highlight a paragraph when it's the URL target — gives the lawyer visual
+ * feedback that they've landed on the cited paragraph. */
+.bb-case-para:target {
+  background: rgba(201, 184, 138, 0.12);
+  border-left: 2px solid var(--bb-highlight);
+  margin-left: -16px;
+  padding-left: 14px;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Sub-items (orders, sub-clauses) */
+.bb-case-subitems {
+  list-style: none;
+  margin: 12px 0 0 50px;
+  padding: 0 0 0 14px;
+  border-left: 2px solid var(--bb-border);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.bb-case-subitem {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--bb-ink-soft);
+}
+.bb-case-subitem-num {
+  font-family: ui-monospace, 'SF Mono', monospace;
+  font-size: 12px;
+  color: var(--bb-muted-soft);
+  flex-shrink: 0;
+}
+.bb-case-subitem p {
+  margin: 0;
+}
+
+/* Footer */
+.bb-case-footer {
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid var(--bb-border);
+  font-size: 12.5px;
+  color: var(--bb-muted);
+  line-height: 1.5;
+}
+.bb-case-footer a {
+  color: var(--bb-ink);
+  text-decoration: underline;
+}
+.bb-case-footer a:hover {
+  color: var(--bb-accent-hover);
+}
+
+/* =============================================================================
+ * Sidebar (matches matters sidebar visually)
+ * =========================================================================== */
+
+.bb-case-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: sticky;
+  top: 32px;
+  align-self: flex-start;
+  max-height: calc(100vh - 64px);
+  overflow-y: auto;
+}
+.bb-case-sidebar-card {
+  padding: 20px 22px;
+  border: 1px solid var(--bb-border);
+  border-radius: 12px;
+  background: var(--bb-bg-elevated);
+}
+.bb-case-sidebar-heading {
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+  color: var(--bb-muted);
+  margin: 0 0 14px;
+}
+
+/* Source button — distinct accent so it stands out */
+.bb-case-source-btn {
+  display: block;
+  width: 100%;
+  padding: 11px 16px;
+  border-radius: 8px;
+  background: var(--bb-ink);
+  color: var(--bb-bg);
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.bb-case-source-btn:hover {
+  background: var(--bb-accent-hover);
+  transform: translateY(-1px);
+}
+
+/* Field list */
+.bb-case-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 0;
+}
+.bb-case-field {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.bb-case-field dt {
+  font-size: 11px;
+  color: var(--bb-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+}
+.bb-case-field dd {
+  font-size: 13.5px;
+  color: var(--bb-ink);
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Parties + Representation share the same compact dl pattern */
+.bb-case-mini-dl {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+}
+.bb-case-mini-dl > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.bb-case-mini-dl dt {
+  font-size: 10.5px;
+  color: var(--bb-muted);
+  text-transform: capitalize;
+  letter-spacing: 0.01em;
+}
+.bb-case-mini-dl dd {
+  font-size: 12.5px;
+  color: var(--bb-ink);
+  margin: 0;
+  line-height: 1.45;
+}
+
+/* Section nav */
+.bb-case-nav {
+  margin: 0;
+}
+.bb-case-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.bb-case-nav-list a {
+  display: block;
+  font-size: 13px;
+  color: var(--bb-ink-soft);
+  text-decoration: none;
+  padding: 4px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color 0.15s ease;
+}
+.bb-case-nav-list a:hover {
+  color: var(--bb-ink);
+}
+
+/* =============================================================================
+ * Responsive
+ * =========================================================================== */
+
+@media (max-width: 1024px) {
+  .bb-case-layout {
+    grid-template-columns: 1fr;
+  }
+  .bb-case-sidebar {
+    position: static;
+    max-height: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .bb-cases-main,
+  .bb-case-main {
+    padding: 40px 20px 80px;
+  }
+  .bb-case-cited-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .bb-cases-row {
+    padding: 16px 18px;
+  }
+  .bb-cases-row-head {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .bb-case-para-row {
+    gap: 10px;
+  }
+  .bb-case-para-num {
+    min-width: 28px;
+  }
+  .bb-case-subitems {
+    margin-left: 28px;
+  }
+  .bb-cases-pagination {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
