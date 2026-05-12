@@ -243,7 +243,7 @@ export function MattersProvider({
       } catch (err) {
         // Roll back the optimistic update.
         if (previousValues !== null) {
-          const rollback = previousValues;
+          const rollback: Partial<Matter> = previousValues;
           setMatters((prev) =>
             prev.map((m) => (m.id === id ? { ...m, ...rollback } : m)),
           );

@@ -331,28 +331,6 @@ body:has(.bb-matter-main) {
 
 /* =============================================================================
  * SINGLE MATTER WORKSPACE
- * =============================================================================
- *
- * The matter detail page is laid out as a two-column workspace:
- *
- *   ┌─────────────────────────────────┬──────────────────┐
- *   │ ← All cases                     │                  │
- *   │                                 │  Case details    │
- *   │ Client name                     │                  │
- *   │ MATTER TITLE                    │  At a glance     │
- *   │ Description...                  │                  │
- *   │                                 │  Quick actions   │
- *   │ [Tab list]                      │                  │
- *   │ ┌─────────────────────────────┐ │                  │
- *   │ │ Active tab content          │ │  (sticky)        │
- *   │ │                             │ │                  │
- *   │ └─────────────────────────────┘ │                  │
- *   └─────────────────────────────────┴──────────────────┘
- *
- * On mobile (<900px) the right column stacks underneath the main content.
- *
- * Visual hierarchy matches the matters list cards: 16px radius, 1px borders
- * in --bb-border, subtle hover lift, Fraunces serif for headings.
  * ============================================================================= */
 
 .bb-matter-main {
@@ -372,12 +350,13 @@ body:has(.bb-matter-main) {
   padding: 6px 12px 6px 8px;
   border-radius: 8px;
   margin-bottom: 28px;
-  margin-left: -8px; /* aligns the arrow flush-left with the title below */
+  margin-left: -8px;
   transition:
     background 0.15s ease,
     color 0.15s ease,
     transform 0.1s ease;
 }
+
 .bb-matter-back:hover {
   background: var(--bb-bg-elevated);
   color: var(--bb-ink);
@@ -393,7 +372,7 @@ body:has(.bb-matter-main) {
 }
 
 .bb-matter-content {
-  min-width: 0; /* allows flex/grid children to truncate properly */
+  min-width: 0;
 }
 
 .bb-matter-sidebar {
@@ -409,17 +388,19 @@ body:has(.bb-matter-main) {
     grid-template-columns: 1fr;
     gap: 32px;
   }
+
   .bb-matter-sidebar {
     position: static;
     order: 2;
   }
+
   .bb-matter-content {
     order: 1;
   }
 }
 
 /* -----------------------------------------------------------------------------
- * Header block (matter title, client, description, status pill)
+ * Header block
  * --------------------------------------------------------------------------- */
 
 .bb-matter-head {
@@ -494,6 +475,7 @@ body:has(.bb-matter-main) {
   flex-direction: column;
   gap: 2px;
 }
+
 .bb-matter-field dt {
   font-size: 11px;
   color: var(--bb-muted);
@@ -501,6 +483,7 @@ body:has(.bb-matter-main) {
   letter-spacing: 0.06em;
   font-weight: 500;
 }
+
 .bb-matter-field dd {
   font-size: 14px;
   color: var(--bb-ink);
@@ -517,6 +500,7 @@ body:has(.bb-matter-main) {
   flex-direction: column;
   gap: 10px;
 }
+
 .bb-matter-sidebar-stats li {
   display: flex;
   align-items: baseline;
@@ -524,6 +508,7 @@ body:has(.bb-matter-main) {
   font-size: 13px;
   color: var(--bb-muted);
 }
+
 .bb-matter-sidebar-stats li span {
   font-family: var(--font-fraunces), Georgia, serif;
   font-size: 22px;
@@ -539,6 +524,7 @@ body:has(.bb-matter-main) {
   flex-direction: column;
   gap: 6px;
 }
+
 .bb-matter-sidebar-action {
   display: flex;
   align-items: center;
@@ -558,10 +544,12 @@ body:has(.bb-matter-main) {
     border-color 0.12s ease,
     color 0.12s ease;
 }
+
 .bb-matter-sidebar-action:not(:disabled):hover {
   background: var(--bb-bg);
   border-color: var(--bb-border-strong);
 }
+
 .bb-matter-sidebar-action:disabled {
   color: var(--bb-muted-soft);
   cursor: not-allowed;
@@ -572,19 +560,15 @@ body:has(.bb-matter-main) {
  * Tabs
  * --------------------------------------------------------------------------- */
 
-.bb-matter-tabs {
-  /* container — no styling itself, just groups the tablist + panel */
-}
-
 .bb-matter-tablist {
   display: flex;
   gap: 4px;
   border-bottom: 1px solid var(--bb-border);
   margin-bottom: 28px;
-  /* Horizontal scroll on narrow screens rather than wrapping */
   overflow-x: auto;
   scrollbar-width: none;
 }
+
 .bb-matter-tablist::-webkit-scrollbar {
   display: none;
 }
@@ -597,7 +581,7 @@ body:has(.bb-matter-main) {
   background: transparent;
   border: none;
   border-bottom: 2px solid transparent;
-  margin-bottom: -1px; /* overlap parent border so active underline aligns */
+  margin-bottom: -1px;
   cursor: pointer;
   font-family: inherit;
   font-size: 14px;
@@ -606,9 +590,11 @@ body:has(.bb-matter-main) {
   transition: color 0.12s ease, border-color 0.12s ease;
   white-space: nowrap;
 }
+
 .bb-matter-tab:hover {
   color: var(--bb-ink);
 }
+
 .bb-matter-tab-active {
   color: var(--bb-ink);
   border-bottom-color: var(--bb-ink);
@@ -629,23 +615,15 @@ body:has(.bb-matter-main) {
   border-radius: 999px;
   line-height: 1;
 }
+
 .bb-matter-tab-active .bb-matter-tab-count {
   background: var(--bb-ink);
   color: var(--bb-bg);
   border-color: var(--bb-ink);
 }
 
-.bb-matter-tabpanel {
-  /* Panel itself has no chrome; child blocks provide their own */
-}
-
 /* -----------------------------------------------------------------------------
- * Section header pattern — shared across Files / Conversations / Authorities / Notes
- *
- *   ┌────────────────────────────────────────────────────────┐
- *   │ Title                                    [Action btn]  │
- *   │ Subtitle/description                                   │
- *   └────────────────────────────────────────────────────────┘
+ * Section header pattern
  * --------------------------------------------------------------------------- */
 
 .bb-matter-section-head {
@@ -655,6 +633,7 @@ body:has(.bb-matter-main) {
   gap: 20px;
   margin-bottom: 20px;
 }
+
 .bb-matter-section-head h2 {
   font-family: var(--font-fraunces), Georgia, serif;
   font-size: 26px;
@@ -664,6 +643,7 @@ body:has(.bb-matter-main) {
   color: var(--bb-ink);
   margin: 0 0 6px;
 }
+
 .bb-matter-section-head p {
   font-size: 14px;
   color: var(--bb-muted);
@@ -673,7 +653,7 @@ body:has(.bb-matter-main) {
 }
 
 /* -----------------------------------------------------------------------------
- * Empty state pattern — used by every tab when its list is empty
+ * Empty state pattern
  * --------------------------------------------------------------------------- */
 
 .bb-matter-empty {
@@ -683,6 +663,7 @@ body:has(.bb-matter-main) {
   border-radius: 14px;
   background: rgba(201, 184, 138, 0.05);
 }
+
 .bb-matter-empty h3 {
   font-family: var(--font-fraunces), Georgia, serif;
   font-size: 20px;
@@ -691,6 +672,7 @@ body:has(.bb-matter-main) {
   margin: 0 0 8px;
   letter-spacing: -0.015em;
 }
+
 .bb-matter-empty p {
   font-size: 14px;
   color: var(--bb-muted);
@@ -701,9 +683,6 @@ body:has(.bb-matter-main) {
 
 /* -----------------------------------------------------------------------------
  * Chat tab
- *
- * Used by matter-tabs.tsx's ChatTab. Renders a stylised in-matter chat panel
- * with a "context banner" up top showing which case is in context.
  * --------------------------------------------------------------------------- */
 
 .bb-matter-chat {
@@ -712,7 +691,7 @@ body:has(.bb-matter-main) {
   gap: 20px;
 }
 
-/* Context banner — "In context  Smith v Jones  8 files · 23 authorities" */
+/* Context banner */
 .bb-matter-chat-context {
   display: flex;
   align-items: center;
@@ -724,6 +703,7 @@ body:has(.bb-matter-main) {
   font-size: 13px;
   flex-wrap: wrap;
 }
+
 .bb-matter-chat-context-label {
   font-size: 11px;
   font-weight: 500;
@@ -735,6 +715,7 @@ body:has(.bb-matter-main) {
   border-radius: 999px;
   border: 1px solid var(--bb-border);
 }
+
 .bb-matter-chat-context-name {
   font-family: var(--font-fraunces), Georgia, serif;
   font-weight: 500;
@@ -742,13 +723,14 @@ body:has(.bb-matter-main) {
   color: var(--bb-ink);
   letter-spacing: -0.01em;
 }
+
 .bb-matter-chat-context-meta {
   margin-left: auto;
   font-size: 12.5px;
   color: var(--bb-muted);
 }
 
-/* Empty-state for chat tab — used when there's no conversation yet */
+/* Empty-state for chat tab */
 .bb-matter-chat-empty {
   padding: 56px 28px;
   text-align: center;
@@ -756,6 +738,7 @@ body:has(.bb-matter-main) {
   border-radius: 14px;
   background: rgba(201, 184, 138, 0.05);
 }
+
 .bb-matter-chat-empty h3 {
   font-family: var(--font-fraunces), Georgia, serif;
   font-size: 22px;
@@ -764,6 +747,7 @@ body:has(.bb-matter-main) {
   margin: 0 0 10px;
   letter-spacing: -0.015em;
 }
+
 .bb-matter-chat-empty p {
   font-size: 14.5px;
   color: var(--bb-muted);
@@ -783,9 +767,11 @@ body:has(.bb-matter-main) {
 .bb-matter-msg {
   display: flex;
 }
+
 .bb-matter-msg-user {
   justify-content: flex-end;
 }
+
 .bb-matter-msg-assistant {
   flex-direction: column;
   gap: 12px;
@@ -803,12 +789,13 @@ body:has(.bb-matter-main) {
   line-height: 1.5;
 }
 
-/* Assistant prose — no bubble, just clean type */
+/* Assistant prose */
 .bb-matter-msg-prose {
   font-size: 14.5px;
   line-height: 1.6;
   color: var(--bb-ink);
 }
+
 .bb-matter-msg-prose h3 {
   font-family: var(--font-fraunces), Georgia, serif;
   font-size: 18px;
@@ -817,27 +804,32 @@ body:has(.bb-matter-main) {
   color: var(--bb-ink);
   margin: 0 0 12px;
 }
+
 .bb-matter-msg-prose p {
   margin: 0 0 12px;
 }
+
 .bb-matter-msg-prose p:last-child {
   margin-bottom: 0;
 }
+
 .bb-matter-msg-prose strong {
   font-weight: 600;
   color: var(--bb-ink);
 }
+
 .bb-matter-msg-prose em {
   font-style: italic;
 }
 
-/* Citations panel — collapsible <details> with bracket-numbered sources */
+/* Citations panel */
 .bb-matter-citations {
   background: var(--bb-bg-elevated);
   border: 1px solid var(--bb-border);
   border-radius: 12px;
   overflow: hidden;
 }
+
 .bb-matter-citations summary {
   list-style: none;
   cursor: pointer;
@@ -852,18 +844,22 @@ body:has(.bb-matter-main) {
   gap: 8px;
   transition: color 0.12s ease;
 }
+
 .bb-matter-citations summary::-webkit-details-marker {
   display: none;
 }
+
 .bb-matter-citations summary:hover {
   color: var(--bb-ink);
 }
+
 .bb-matter-citations-arrow {
   display: inline-block;
   font-size: 14px;
   line-height: 1;
   transition: transform 0.15s ease;
 }
+
 .bb-matter-citations[open] .bb-matter-citations-arrow {
   transform: rotate(90deg);
 }
@@ -874,14 +870,17 @@ body:has(.bb-matter-main) {
   padding: 0;
   border-top: 1px solid var(--bb-border);
 }
+
 .bb-matter-citations-list li {
   padding: 12px 16px;
   border-bottom: 1px solid var(--bb-border);
   font-size: 13px;
 }
+
 .bb-matter-citations-list li:last-child {
   border-bottom: none;
 }
+
 .bb-matter-citations-num {
   display: inline-block;
   font-family: ui-monospace, 'SF Mono', monospace;
@@ -893,6 +892,7 @@ body:has(.bb-matter-main) {
   margin-right: 8px;
   vertical-align: 1px;
 }
+
 .bb-matter-citations-name {
   font-family: var(--font-fraunces), Georgia, serif;
   font-weight: 500;
@@ -900,12 +900,14 @@ body:has(.bb-matter-main) {
   color: var(--bb-ink);
   letter-spacing: -0.005em;
 }
+
 .bb-matter-citations-cite {
   font-family: ui-monospace, 'SF Mono', monospace;
   font-size: 11.5px;
   color: var(--bb-muted);
   margin-left: 8px;
 }
+
 .bb-matter-citations-prop {
   margin: 4px 0 0 24px;
   font-size: 12.5px;
@@ -924,9 +926,11 @@ body:has(.bb-matter-main) {
   border-radius: 14px;
   transition: border-color 0.15s ease;
 }
+
 .bb-matter-chat-input:focus-within {
   border-color: var(--bb-border-strong);
 }
+
 .bb-matter-chat-input textarea {
   flex: 1;
   border: none;
@@ -939,9 +943,11 @@ body:has(.bb-matter-main) {
   padding: 6px 4px;
   min-height: 24px;
 }
+
 .bb-matter-chat-input textarea:focus {
   outline: none;
 }
+
 .bb-matter-chat-input textarea::placeholder {
   color: var(--bb-muted-soft);
 }
@@ -983,6 +989,7 @@ body:has(.bb-matter-main) {
   border-radius: 12px;
   transition: border-color 0.12s ease, transform 0.1s ease;
 }
+
 .bb-matter-file:hover {
   border-color: var(--bb-border-strong);
 }
@@ -1008,6 +1015,7 @@ body:has(.bb-matter-main) {
   flex: 1;
   min-width: 0;
 }
+
 .bb-matter-file-name {
   font-size: 14px;
   font-weight: 500;
@@ -1017,12 +1025,14 @@ body:has(.bb-matter-main) {
   text-overflow: ellipsis;
   margin-bottom: 4px;
 }
+
 .bb-matter-file-meta {
   display: flex;
   gap: 12px;
   font-size: 12px;
   color: var(--bb-muted);
 }
+
 .bb-matter-file-cat {
   font-size: 11px;
   font-weight: 500;
@@ -1049,6 +1059,7 @@ body:has(.bb-matter-main) {
   border-radius: 8px;
   transition: background 0.12s ease, color 0.12s ease;
 }
+
 .bb-matter-file-action:hover {
   background: var(--bb-bg);
   color: var(--bb-ink);
@@ -1103,6 +1114,7 @@ body:has(.bb-matter-main) {
   flex: 1;
   min-width: 0;
 }
+
 .bb-matter-auth-head {
   display: flex;
   align-items: baseline;
@@ -1110,6 +1122,7 @@ body:has(.bb-matter-main) {
   flex-wrap: wrap;
   margin-bottom: 6px;
 }
+
 .bb-matter-auth-name {
   font-family: var(--font-fraunces), Georgia, serif;
   font-size: 16px;
@@ -1119,11 +1132,13 @@ body:has(.bb-matter-main) {
   color: var(--bb-ink);
   margin: 0;
 }
+
 .bb-matter-auth-cite {
   font-family: ui-monospace, 'SF Mono', monospace;
   font-size: 12px;
   color: var(--bb-muted);
 }
+
 .bb-matter-auth-prop {
   margin: 0;
   font-size: 13.5px;
@@ -1140,6 +1155,7 @@ body:has(.bb-matter-main) {
   padding: 4px 10px;
   border-left: 1px solid var(--bb-border);
 }
+
 .bb-matter-auth-stat span:first-child {
   font-family: var(--font-fraunces), Georgia, serif;
   font-size: 18px;
@@ -1147,6 +1163,7 @@ body:has(.bb-matter-main) {
   color: var(--bb-ink);
   line-height: 1;
 }
+
 .bb-matter-auth-stat span:last-child {
   font-size: 10.5px;
   text-transform: uppercase;
@@ -1174,6 +1191,7 @@ body:has(.bb-matter-main) {
   line-height: 1.65;
   color: var(--bb-ink-soft);
 }
+
 .bb-matter-note-body p {
   margin: 0;
   white-space: pre-wrap;
@@ -1208,6 +1226,7 @@ body:has(.bb-matter-main) {
   transition: border-color 0.12s ease, transform 0.1s ease;
   cursor: pointer;
 }
+
 .bb-matter-conv:hover {
   border-color: var(--bb-border-strong);
   transform: translateY(-1px);
@@ -1220,6 +1239,7 @@ body:has(.bb-matter-main) {
   gap: 16px;
   margin-bottom: 6px;
 }
+
 .bb-matter-conv-title {
   font-family: var(--font-fraunces), Georgia, serif;
   font-size: 16px;
@@ -1230,6 +1250,7 @@ body:has(.bb-matter-main) {
   flex: 1;
   min-width: 0;
 }
+
 .bb-matter-conv-time {
   font-size: 12px;
   color: var(--bb-muted-soft);
@@ -1262,33 +1283,10 @@ body:has(.bb-matter-main) {
 }
 
 /* =============================================================================
- * INLINE-EDITABLE FIELDS (CHUNK 4)
- * =============================================================================
- *
- * Three editable fields in the matter detail header (name, client,
- * description) plus a wrapper for the text block beside the StatusMenu.
- *
- * Design intent: at rest, the inputs look exactly like the rendered text
- * they replace. On hover, a subtle warm-cream tint and pencil-icon hint
- * telegraph "this is editable". On focus, a stronger background and a
- * 1px focus ring make the active edit state obvious.
- *
- * The .bb-matter-editable base class handles default/hover/focus chrome.
- * The .bb-matter-editable-{name,client,desc} variants set per-field
- * typography to match the static text they replace.
- *
- * Saving state: while a server roundtrip is in-flight, opacity drops to
- * ~0.6. Brief but felt — telegraphs "we're persisting your change".
- *
- * Empty-state placeholder text uses --bb-muted-soft so empty client and
- * description fields don't read as "this field is broken" — they read
- * as "you could fill this in if you want".
+ * INLINE-EDITABLE FIELDS
  * =========================================================================== */
 
-/* Wraps the client + name pair so the StatusMenu can sit beside them
-   inside .bb-matter-head-row. Without this wrapper, head-row would
-   distribute three flex children (client, name, status) horizontally,
-   which is not what we want. */
+/* Wraps the client + name pair so the StatusMenu can sit beside them */
 .bb-matter-head-text {
   flex: 1;
   min-width: 0;
@@ -1301,15 +1299,10 @@ body:has(.bb-matter-main) {
   background: transparent;
   border: 1px solid transparent;
   border-radius: 8px;
-  /* Negative margin to keep the visual baseline aligned with the
-     non-editable text it visually mimics. We add equivalent padding
-     to compensate so the touch target is comfortable. */
   margin: -4px -10px;
   padding: 4px 10px;
   font-family: inherit;
   color: inherit;
-  /* Remove the default :focus outline — we provide our own focus chrome
-     via background + border below. */
   outline: none;
   resize: none;
   transition:
@@ -1319,38 +1312,31 @@ body:has(.bb-matter-main) {
   cursor: text;
 }
 
-/* Hover (only when NOT focused) — subtle warm-cream tint */
+/* Hover */
 .bb-matter-editable:hover:not(:focus) {
   background: var(--bb-bg-elevated);
 }
 
-/* Focus — stronger background + 1px ring */
+/* Focus */
 .bb-matter-editable:focus {
   background: var(--bb-bg-elevated);
   border-color: var(--bb-border-strong);
 }
 
-/* Saving — opacity drop telegraphs in-flight server write */
+/* Saving */
 .bb-matter-editable-saving {
   opacity: 0.6;
   pointer-events: none;
 }
 
-/* Placeholder colour (browsers' default is too dark) */
+/* Placeholder colour */
 .bb-matter-editable::placeholder {
   color: var(--bb-muted-soft);
-  /* Slightly italicised placeholder so it reads as a prompt, not as
-     real content. */
   font-style: italic;
-  opacity: 1; /* Firefox defaults to 0.54 */
+  opacity: 1;
 }
 
-/* -----------------------------------------------------------------------------
- * Name variant — Fraunces serif, big editorial heading
- *
- * Must match the typography of the (now-removed) .bb-matter-name h1.
- * --------------------------------------------------------------------------- */
-
+/* Name variant */
 .bb-matter-editable-name {
   font-family: var(--font-fraunces), Georgia, serif;
   font-size: clamp(32px, 4vw, 44px);
@@ -1358,21 +1344,12 @@ body:has(.bb-matter-main) {
   line-height: 1.1;
   letter-spacing: -0.025em;
   color: var(--bb-ink);
-  /* Slightly tighter margin top — the client label sits above it with
-     its own bottom margin. */
   margin-top: 0;
-  /* Slightly more breathing room left/right so the focus background
-     doesn't feel cramped against the title text. */
   padding-left: 10px;
   padding-right: 14px;
 }
 
-/* -----------------------------------------------------------------------------
- * Client variant — small uppercase muted label
- *
- * Must match .bb-matter-client styling.
- * --------------------------------------------------------------------------- */
-
+/* Client variant */
 .bb-matter-editable-client {
   font-size: 13px;
   color: var(--bb-muted);
@@ -1384,8 +1361,6 @@ body:has(.bb-matter-main) {
   padding-bottom: 3px;
 }
 
-/* The client placeholder should NOT be uppercase — that's harsh when
-   empty. Override to look like a friendly prompt. */
 .bb-matter-editable-client::placeholder {
   text-transform: none;
   letter-spacing: normal;
@@ -1393,23 +1368,13 @@ body:has(.bb-matter-main) {
   font-style: italic;
 }
 
-/* -----------------------------------------------------------------------------
- * Description variant — paragraph-y body copy
- *
- * Must match .bb-matter-desc styling. Uses textarea so it can grow with
- * multi-line content.
- * --------------------------------------------------------------------------- */
-
+/* Description variant */
 .bb-matter-editable-desc {
   margin-top: 16px;
   font-size: 15.5px;
   line-height: 1.55;
   color: var(--bb-muted);
   max-width: 720px;
-  /* The textarea's min-height matches a single line of text so empty
-     fields don't take up vertical space — but they grow as content
-     is added. The autosize() helper sets explicit heights at runtime. */
   min-height: calc(15.5px * 1.55);
   overflow: hidden;
 }
-
