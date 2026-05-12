@@ -1,0 +1,114 @@
+/* app/(app)/_components/sidebar-user-menu.css
+ *
+ * Supplemental styles for the SidebarUserButton dropdown menu.
+ *
+ * Loaded via app/layout.tsx alongside the other (app) styles. We keep these
+ * here rather than appending to shell.css because shell.css is large and
+ * stable — additions to the user menu can iterate without touching that file.
+ *
+ * Visual rules:
+ *   - Menu is anchored to the user button at the BOTTOM of the sidebar
+ *   - Pops UP (not down) because there's no room below
+ *   - Sized to the sidebar's expanded width (280px - 24px padding ≈ 256px)
+ *   - Matches the bb-status-menu-list aesthetic for consistency
+ */
+
+.bb-shell-user-wrap {
+  position: relative;
+  display: block;
+}
+
+/* Override .bb-shell-user when it lives inside the wrap, so the menu can
+   anchor relative to the wrap (otherwise the button itself would need
+   position: relative). No actual visual change. */
+.bb-shell-user-wrap .bb-shell-user {
+  position: relative;
+}
+
+/* =============================================================================
+ * The popup menu — pops upward from the user button
+ * =========================================================================== */
+
+.bb-shell-user-menu {
+  position: absolute;
+  bottom: calc(100% + 8px); /* sit 8px above the button */
+  left: 0;
+  right: 0;
+  min-width: 240px;
+  padding: 6px;
+  background: var(--bb-bg-elevated);
+  border: 1px solid var(--bb-border);
+  border-radius: 12px;
+  box-shadow:
+    0 1px 2px rgba(26, 31, 46, 0.04),
+    0 12px 32px rgba(26, 31, 46, 0.14);
+  z-index: 50;
+  /* Subtle entrance */
+  animation: bb-user-menu-in 0.12s ease;
+}
+
+@keyframes bb-user-menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.bb-shell-user-menu-header {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 12px;
+}
+.bb-shell-user-menu-name {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--bb-ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bb-shell-user-menu-email {
+  font-size: 12px;
+  color: var(--bb-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bb-shell-user-menu-divider {
+  height: 1px;
+  background: var(--bb-border);
+  margin: 4px 0;
+}
+
+.bb-shell-user-menu-form {
+  margin: 0;
+  padding: 0;
+}
+
+.bb-shell-user-menu-item {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 13.5px;
+  color: var(--bb-ink);
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+.bb-shell-user-menu-item:hover {
+  background: var(--bb-bg);
+}
+.bb-shell-user-menu-item:focus-visible {
+  outline: 2px solid var(--bb-ink);
+  outline-offset: -2px;
+}

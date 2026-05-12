@@ -35,9 +35,14 @@ export function StickyHeader() {
           <Link href="#">FAQ</Link>
         </div>
         <div className="bb-nav-cta">
-          <Link href="#" className="bb-btn bb-btn-ghost">
+          {/* Sign in routes straight to /login (signed-in users get
+              redirected away by the middleware automatically). */}
+          <Link href="/login" className="bb-btn bb-btn-ghost">
             Sign in
           </Link>
+          {/* "Join waitlist" stays as a hash anchor for the in-page waitlist
+              section. When we ship a real waitlist or open up signup, we
+              can swap this to /login?mode=signup. */}
           <Link href="#waitlist" className="bb-btn bb-btn-primary">
             Join waitlist
           </Link>

@@ -1,0 +1,397 @@
+/* app/login/login.css
+ *
+ * Login page styling. Centered card on the cream background, following the
+ * bb-* design system (cream + navy + gold, Fraunces serif headings, Geist
+ * sans body).
+ *
+ * Tokens used: --bb-bg, --bb-bg-elevated, --bb-ink, --bb-muted, --bb-border,
+ * --bb-highlight. These come from homepage.css which is imported at the
+ * root layout level, so they're available here.
+ *
+ * Loaded via app/login/page.tsx via `import './login.css'`.
+ *
+ * Height stability (the "flick between sign in / sign up smoothly" goal):
+ *   1. Hint row under password field is always rendered, just with
+ *      different content per mode — same height in both states.
+ *   2. Submit button has min-height locked so label changes can't shift it.
+ *   3. CARD ITSELF has a min-height set to the taller of the two modes,
+ *      so any remaining sub-pixel font-metric differences between modes
+ *      can't compound into a visible shift. This is the belt-and-braces
+ *      fix that catches anything 1 and 2 missed.
+ *
+ *      If you add new content to either mode later, update --bb-login-card-min-h
+ *      to be at least the new content's natural height.
+ */
+
+/* Page background — match the cream homepage theme */
+body:has(.bb-login-page) {
+  background: var(--bb-bg);
+  color: var(--bb-ink);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* =============================================================================
+ * Page wrapper — centers the card vertically + horizontally
+ * =========================================================================== */
+
+.bb-login-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+  background: var(--bb-bg);
+}
+
+/* =============================================================================
+ * The card itself
+ *
+ * --bb-login-card-min-h is the locked minimum height for the card content.
+ * If either mode's natural height exceeds this value, the card will grow
+ * to fit (min-height doesn't cap, just floors). The value below is sized
+ * to comfortably exceed both modes' natural heights as of Chunk 2 + fixes.
+ * =========================================================================== */
+
+.bb-login-card {
+  --bb-login-card-min-h: 610px;
+  width: 100%;
+  max-width: 440px;
+  /* min-height locks the card against per-mode font-metric shifts. */
+  min-height: var(--bb-login-card-min-h);
+  padding: 40px 36px 36px;
+  background: var(--bb-bg-elevated);
+  border: 1px solid var(--bb-border);
+  border-radius: 16px;
+  box-shadow:
+    0 1px 2px rgba(26, 31, 46, 0.04),
+    0 12px 32px rgba(26, 31, 46, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 480px) {
+  .bb-login-card {
+    padding: 32px 24px 28px;
+    /* On phones, the natural content height is taller because some lines
+       wrap to 2 lines. Bump the lock to match. */
+    --bb-login-card-min-h: 660px;
+  }
+}
+
+/* =============================================================================
+ * Brand area
+ * =========================================================================== */
+
+.bb-login-brand {
+  align-self: center;
+  display: inline-flex;
+  text-decoration: none;
+  margin-bottom: 4px;
+}
+.bb-login-logo {
+  display: block;
+  height: 40px;
+  width: 173px;
+  object-fit: contain;
+}
+
+/* =============================================================================
+ * Title + subtitle
+ * =========================================================================== */
+
+.bb-login-title {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  color: var(--bb-ink);
+  margin: 0;
+  text-align: center;
+}
+.bb-login-title em {
+  font-style: italic;
+  font-variation-settings: 'opsz' 144;
+  color: var(--bb-ink-soft);
+}
+.bb-login-sub {
+  font-size: 14.5px;
+  color: var(--bb-muted);
+  text-align: center;
+  margin: 0 0 8px;
+  line-height: 1.5;
+}
+
+/* =============================================================================
+ * Google button
+ * =========================================================================== */
+
+.bb-login-google-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bb-login-google {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  padding: 11px 16px;
+  background: var(--bb-bg);
+  border: 1px solid var(--bb-border-strong);
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 14.5px;
+  font-weight: 500;
+  color: var(--bb-ink);
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+}
+.bb-login-google:hover:not(:disabled) {
+  background: var(--bb-bg-elevated);
+  border-color: var(--bb-ink);
+  transform: translateY(-1px);
+}
+.bb-login-google:focus-visible {
+  outline: 2px solid var(--bb-ink);
+  outline-offset: 2px;
+}
+.bb-login-google:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+/* =============================================================================
+ * Divider with text
+ * =========================================================================== */
+
+.bb-login-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 4px 0;
+  font-size: 12px;
+  color: var(--bb-muted);
+  text-transform: lowercase;
+  letter-spacing: 0.04em;
+}
+.bb-login-divider::before,
+.bb-login-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--bb-border);
+}
+.bb-login-divider span {
+  padding: 0 4px;
+}
+
+/* =============================================================================
+ * Form fields
+ * =========================================================================== */
+
+.bb-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.bb-login-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.bb-login-label {
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--bb-ink);
+  letter-spacing: 0.005em;
+}
+
+.bb-login-input {
+  width: 100%;
+  padding: 10px 14px;
+  background: var(--bb-bg);
+  border: 1px solid var(--bb-border);
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 14.5px;
+  color: var(--bb-ink);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.bb-login-input::placeholder {
+  color: var(--bb-muted-soft);
+}
+.bb-login-input:focus {
+  outline: none;
+  border-color: var(--bb-ink);
+  box-shadow: 0 0 0 3px rgba(26, 31, 46, 0.08);
+}
+.bb-login-input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* =============================================================================
+ * Hint row under the password field
+ *
+ * Always rendered (in both sign-in and sign-up modes) so the card height
+ * stays identical between states. Content swaps:
+ *   sign in: "Forgot password?" link, right-aligned
+ *   sign up: "At least 8 characters" hint, left-aligned
+ *
+ * The min-height anchors the row at exactly its content height so even
+ * if a future browser renders text slightly differently, the row can't
+ * vary in size between modes.
+ * =========================================================================== */
+
+.bb-login-hint-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2px;
+  min-height: 18px;
+  font-size: 12.5px;
+}
+
+/* Sign-in's Forgot Password link — sticks to the right. */
+.bb-login-hint-row > .bb-login-link {
+  margin-left: auto;
+}
+
+/* Sign-up's password rules hint — left-aligned, muted styling. */
+.bb-login-hint-text {
+  color: var(--bb-muted);
+  font-size: 12.5px;
+  line-height: 1.4;
+}
+
+/* =============================================================================
+ * Submit button
+ *
+ * min-height locks the button against label changes ("Sign in" → "Create
+ * account" → "Signing in…" → "Creating account…") so the button stays
+ * the same height regardless of which label is rendered.
+ * =========================================================================== */
+
+.bb-login-submit {
+  width: 100%;
+  min-height: 44px;
+  padding: 12px 16px;
+  margin-top: 4px;
+  background: var(--bb-ink);
+  color: var(--bb-bg);
+  border: none;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 14.5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+.bb-login-submit:hover:not(:disabled) {
+  background: var(--bb-accent-hover);
+  transform: translateY(-1px);
+}
+.bb-login-submit:focus-visible {
+  outline: 2px solid var(--bb-ink);
+  outline-offset: 2px;
+}
+.bb-login-submit:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+/* Anchor element styled as a submit button — used on the auth-error page
+   to make the "Back to sign in" link look like the primary action. */
+.bb-login-submit-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+.bb-login-submit-link:hover {
+  text-decoration: none;
+}
+
+/* =============================================================================
+ * Inline error + success messages
+ * =========================================================================== */
+
+.bb-login-error,
+.bb-login-success {
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+.bb-login-error {
+  background: rgba(220, 38, 38, 0.08);
+  color: #991b1b;
+  border: 1px solid rgba(220, 38, 38, 0.2);
+}
+.bb-login-success {
+  background: rgba(74, 222, 128, 0.1);
+  color: #166534;
+  border: 1px solid rgba(74, 222, 128, 0.25);
+}
+
+/* =============================================================================
+ * Inline links + the "Don't have an account? Create one" toggle
+ * =========================================================================== */
+
+.bb-login-link {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: var(--bb-ink);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--bb-border-strong);
+  cursor: pointer;
+  transition: text-decoration-color 0.15s ease;
+}
+.bb-login-link:hover:not(:disabled) {
+  text-decoration-color: var(--bb-ink);
+}
+.bb-login-link:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.bb-login-toggle {
+  text-align: center;
+  font-size: 13.5px;
+  color: var(--bb-muted);
+  margin: 4px 0 0;
+}
+
+/* =============================================================================
+ * Below-the-card terms & privacy note
+ * =========================================================================== */
+
+.bb-login-footer-note {
+  margin-top: 24px;
+  font-size: 12.5px;
+  color: var(--bb-muted);
+  text-align: center;
+  max-width: 440px;
+  line-height: 1.5;
+}
+.bb-login-footer-note a {
+  color: var(--bb-ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--bb-border-strong);
+}
+.bb-login-footer-note a:hover {
+  text-decoration-color: var(--bb-ink);
+}

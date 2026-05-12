@@ -23,6 +23,10 @@ import {
 } from 'lucide-react';
 import { useMatters } from '../matters/_components/matters-provider';
 import type { MatterStatus } from '../matters/_data/mock-matters';
+import {
+  SidebarUserButton,
+  SidebarSignInButton,
+} from './sidebar-user-button';
 
 // =============================================================================
 // Types — placeholder until conversation persistence ships
@@ -49,10 +53,30 @@ const PLACEHOLDER_RECENT_CHATS: RecentChat[] = [
 ];
 
 // =============================================================================
+// Props
+// =============================================================================
+//
+// The layout (Server Component) fetches the user on the server and passes
+// their email + display name in. If the user is null, we render the
+// signed-out variant of the user button at the bottom of the sidebar.
+//
+// (In practice the middleware redirects unauthenticated users away from
+// (app) routes, so `user` should always be non-null here — but we render
+// defensively in case of edge cases like a logged-out user briefly seeing
+// a cached client render.)
+
+export interface AppSidebarProps {
+  user: {
+    email: string;
+    displayName: string | null;
+  } | null;
+}
+
+// =============================================================================
 // AppSidebar
 // =============================================================================
 
-export function AppSidebar() {
+export function AppSidebar({ user }: AppSidebarProps) {
   const pathname = usePathname();
   const router = useRouter();
   // Pull matters from the provider so status changes update the case icons.
@@ -285,17 +309,16 @@ export function AppSidebar() {
             </span>
             <span className="bb-shell-secondary-label">Judgments</span>
           </Link>
-          <button
-            type="button"
-            className="bb-shell-user"
-            title="Sign in"
-          >
-            <span className="bb-shell-user-avatar" aria-hidden>O</span>
-            <span className="bb-shell-user-body">
-              <span className="bb-shell-user-name">Sign in</span>
-              <span className="bb-shell-user-meta">No account yet</span>
-            </span>
-          </button>
+
+          {/* Render the signed-in user button or the signed-out variant. */}
+          {user ? (
+            <SidebarUserButton
+              email={user.email}
+              displayName={user.displayName}
+            />
+          ) : (
+            <SidebarSignInButton />
+          )}
         </div>
       </aside>
     </>
