@@ -3,30 +3,26 @@
 // This layout wraps every page inside the (app) route group: /chat, /matters,
 // /matters/[id], and (later) any other authenticated workspace pages.
 //
-// It does NOT wrap marketing pages like the homepage. The route group's
-// parentheses mean "no URL segment added" — /chat is still /chat.
+// What changed in Chunk 3:
+//   - We now fetch the user's matters server-side and seed the
+//     MattersProvider with them. The sidebar's case list, the matters
+//     page cards, and the matter detail page all read from the same
+//     provider state — so a status change on the detail page reflects
+//     instantly in the sidebar without a full page refresh.
 //
-// The sidebar is collapsed by default and expands on hover/focus on desktop.
-// On mobile it becomes a slide-out drawer triggered by a hamburger button
-// (rendered inside the AppSidebar component itself).
-//
-// MattersProvider wraps children so the sidebar's case list, the matters
-// list, and the matter detail page all read from the same client-side
-// state and reflect status changes live. State is in-memory only until the
-// real DB lands.
-//
-// AUTH (Chunk 2):
-// We fetch the authenticated user here on the server, derive the email +
-// display name, and pass them to the AppSidebar so the user button can
-// render the right state. The middleware already gates this whole route
-// group behind authentication, so by the time we render this layout the
-// user is guaranteed to exist — but we still pass `null` defensively if
-// the call returns no user, and AppSidebar handles that by rendering the
-// "Sign in" link variant.
+// AUTH (unchanged from Chunk 2):
+//   We fetch the authenticated user here on the server, derive email +
+//   display name, and pass them to the AppSidebar so the user button
+//   renders the right state. Middleware gates this whole route group
+//   behind authentication.
 
 import { createClient } from '@/lib/supabase/server';
+import { listMattersForUser } from '@/lib/db/queries/matters';
 import { AppSidebar } from './_components/app-sidebar';
 import { MattersProvider } from './matters/_components/matters-provider';
+
+// Force dynamic — this layout is per-user.
+export const dynamic = 'force-dynamic';
 
 export default async function AppLayout({
   children,
@@ -34,16 +30,13 @@ export default async function AppLayout({
   children: React.ReactNode;
 }) {
   // Authoritative user lookup. getUser() validates the JWT against the
-  // Supabase auth server (NOT just decoding the cookie locally) — same
-  // pattern as the middleware. This is the trusted source of identity.
+  // Supabase auth server (NOT just decoding the cookie locally).
   const supabase = await createClient();
   const {
     data: { user },
   } = await supabase.auth.getUser();
 
-  // Pull out a clean shape for the sidebar — email + display name only.
-  // Google OAuth users have user_metadata.full_name or .name; password
-  // users typically have neither and we fall back to the email's local part.
+  // Shape the user for the sidebar.
   const sidebarUser = user
     ? {
         email: user.email ?? '',
@@ -54,8 +47,23 @@ export default async function AppLayout({
       }
     : null;
 
+  // Fetch the user's matters for the provider. If unauthenticated (which
+  // shouldn't happen here, but defensively) just hand an empty array — the
+  // provider tolerates that.
+  //
+  // Performance note: this runs on every (app)-group navigation. Two
+  // mitigations make it cheap:
+  //   1. We have a (user_id, archived_at) index, so the filter is fast.
+  //   2. We're inside a server component, so the result is fetched at
+  //      navigation time without a client round-trip.
+  // If this ever shows up in a profile, the answer is to move the matters
+  // fetch into a parallel route segment with its own caching. For now,
+  // the cost is negligible compared to the auth round-trip we're already
+  // doing above.
+  const initialMatters = user ? await listMattersForUser(user.id) : [];
+
   return (
-    <MattersProvider>
+    <MattersProvider initialMatters={initialMatters}>
       <div className="bb-shell">
         <AppSidebar user={sidebarUser} />
         <div className="bb-shell-main">{children}</div>

@@ -5,13 +5,57 @@
 //   2. Added `sql` import for raw SQL inside index expressions
 //   3. New `judgmentEmbeddings` table (paragraph-level vectors)
 //
+// CHUNK 3 ADDITIONS (auth + persistence):
+//   4. `pgSchema` import to reference auth.users for type-safety
+//   5. Type-only reference to auth.users (NOT a real Drizzle table — see below)
+//   6. profiles, matters, conversations, messages tables
+//
+// CHUNK 3 POST-LANDING FIX (TS narrowing for status):
+//   7. MatterStatus union defined here as the single source of truth.
+//      mock-matters.ts re-exports it. lib/db/queries/matters.ts imports it
+//      from here too.
+//   8. matters.status column uses $type<MatterStatus>() to override Drizzle's
+//      default `string` inference. Runtime is unchanged (still text + CHECK
+//      constraint in the DB); only the TS-level type narrows.
+//
 // The pgvector extension itself is enabled via the migration's
 // `CREATE EXTENSION IF NOT EXISTS vector;` statement. Drizzle's
 // generator should add this automatically when it detects the
 // vector column type, but we'll verify after generation.
+//
+// =============================================================================
+// IMPORTANT — Why the new tables have NO references() in this file
+// =============================================================================
+//
+// The new tables (matters, conversations, messages) all have foreign keys
+// in the database — to auth.users, to matters, to conversations. BUT, none
+// of those FKs are declared via Drizzle's `references()` helper here. They
+// exist purely as raw SQL in the migration (0004_auth_persistence.sql).
+//
+// Why? Two reasons:
+//
+//   1. Drizzle 0.45 + drizzle-kit 0.31 don't ergonomically support FKs into
+//      a schema that's also being excluded via `schemaFilter` (which we use
+//      to keep drizzle-kit away from the Supabase-owned `auth` schema). If
+//      we declared `references(authUsers.id, { onDelete: 'cascade' })`,
+//      drizzle-kit would either:
+//        (a) error during `db:generate` because auth is filtered out, or
+//        (b) silently drop the FK from the snapshot, leading to spurious
+//            ALTER TABLE statements on future generates.
+//
+//   2. The migration is hand-written anyway (we needed raw SQL for the
+//      trigger and RLS policies). Putting the FKs in the same raw SQL
+//      keeps all DB constraints in one source-of-truth file.
+//
+// The tradeoff: app code can't use Drizzle's auto-join via .with() for these
+// relationships. We just write explicit `where(eq(x.user_id, userId))`
+// clauses, which we'd do anyway for safety.
+//
+// =============================================================================
 
 import {
   pgTable,
+  pgSchema,
   uuid,
   text,
   date,
@@ -24,6 +68,32 @@ import {
   vector,
 } from 'drizzle-orm/pg-core';
 import { sql } from 'drizzle-orm';
+
+// -----------------------------------------------------------------------------
+// auth.users — TYPE-ONLY REFERENCE
+// -----------------------------------------------------------------------------
+//
+// This is NOT a table we create or own — it's owned by Supabase Auth.
+// Declaring it here gives us a typed handle for IDE autocomplete in case
+// we ever want to read from it via Drizzle (e.g. for an admin tool).
+//
+// drizzle-kit will IGNORE this declaration because:
+//   - schemaFilter: ['public'] in drizzle.config.ts filters out non-public schemas
+//   - even if it weren't filtered, the table already exists in Supabase's
+//     auth schema and we never want to generate migrations for it
+//
+// CRITICAL: never remove `schemaFilter: ['public']` from drizzle.config.ts
+// without also removing this declaration. The combination is what keeps
+// drizzle-kit from trying to manage Supabase's auth schema.
+//
+const authSchema = pgSchema('auth');
+export const authUsers = authSchema.table('users', {
+  id: uuid('id').primaryKey(),
+  // Other columns exist in auth.users (email, encrypted_password, etc.) but
+  // we don't need them for type safety in the app layer. The middleware
+  // and server actions read user data via supabase.auth.getUser(), not via
+  // Drizzle queries against this table.
+});
 
 /**
  * Judgments table — the core data store.
@@ -209,3 +279,204 @@ export const judgmentEmbeddings = pgTable(
 
 export type JudgmentEmbedding = typeof judgmentEmbeddings.$inferSelect;
 export type NewJudgmentEmbedding = typeof judgmentEmbeddings.$inferInsert;
+
+// =============================================================================
+// === CHUNK 3 ADDITIONS — AUTH + PERSISTENCE ==================================
+// =============================================================================
+//
+// Everything below this line was added in Chunk 3. The tables above are
+// unchanged from Chunk 2.
+//
+// All four tables use raw-SQL FK constraints (see the migration file).
+// drizzle-kit will see them as standalone tables with no foreign keys.
+// The DB still enforces the FKs at the constraint level — Drizzle just
+// doesn't know about them at the TS-type level.
+
+// -----------------------------------------------------------------------------
+// MatterStatus — single source of truth
+// -----------------------------------------------------------------------------
+//
+// The 6 allowed values for matters.status. This union is the canonical
+// type definition used in three places:
+//
+//   1. Here — narrows the inferred type of matters.status (via $type<>).
+//   2. mock-matters.ts re-exports this type so all UI imports keep working.
+//   3. lib/db/queries/matters.ts imports it for the public API.
+//
+// If you change this list, you MUST also update:
+//   a) MATTER_STATUSES / STATUS_LABELS / STATUS_DESCRIPTIONS in mock-matters.ts
+//   b) The CHECK constraint in 0004_auth_persistence.sql (or a follow-on migration)
+//   c) The VALID_STATUSES array in app/(app)/matters/_actions.ts
+//
+// Three sources, all must agree. Lint would catch the queries/actions; only
+// runtime DB writes catch the CHECK; only humans catch the mock-matters
+// constants. Hence the long comment.
+
+export type MatterStatus =
+  | 'active'
+  | 'on-hold'
+  | 'awaiting-client'
+  | 'in-hearing'
+  | 'settled'
+  | 'closed';
+
+/**
+ * profiles — application-level user profile.
+ *
+ * One row per auth.users row. Auto-created via the on_auth_user_created
+ * trigger in the migration; we never INSERT directly from the app.
+ *
+ * The id is BOTH the primary key AND a foreign key to auth.users(id).
+ * The FK has ON DELETE CASCADE so deleting an auth user cascades through
+ * everything they own.
+ */
+export const profiles = pgTable('profiles', {
+  // id is both PK and FK to auth.users.id (FK declared in raw SQL).
+  // No defaultRandom() — the id comes from auth.users.
+  id: uuid('id').primaryKey(),
+  fullName: text('full_name'),
+  firmName: text('firm_name'),
+  role: text('role'),
+  createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
+});
+
+export type Profile = typeof profiles.$inferSelect;
+export type NewProfile = typeof profiles.$inferInsert;
+
+/**
+ * matters — a user's case workspace.
+ *
+ * Soft-deleted via archived_at (NULL = active, non-NULL = archived).
+ * The app's listMattersForUser() defaults to excluding archived matters
+ * via `where(isNull(archived_at))`.
+ *
+ * status uses $type<MatterStatus>() to narrow Drizzle's inferred string
+ * type to our 6-value union. The DB column is still text; the CHECK
+ * constraint enforces validity at the DB level. This $type override is
+ * purely a TS-side improvement — no runtime effect.
+ */
+export const matters = pgTable(
+  'matters',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    // FK to auth.users(id) with ON DELETE CASCADE — declared in raw SQL.
+    userId: uuid('user_id').notNull(),
+    name: text('name').notNull(),
+    client: text('client'),
+    description: text('description'),
+    // $type<MatterStatus>() tells TS this is the narrow union; CHECK
+    // constraint in the migration enforces validity at the DB level.
+    status: text('status').$type<MatterStatus>().notNull().default('active'),
+    notes: text('notes'),
+    archivedAt: timestamp('archived_at', { withTimezone: true }),
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+    updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => ({
+    userIdIdx: index('matters_user_id_idx').on(t.userId),
+    userIdStatusIdx: index('matters_user_id_status_idx').on(t.userId, t.status),
+    userIdArchivedAtIdx: index('matters_user_id_archived_at_idx').on(
+      t.userId,
+      t.archivedAt,
+    ),
+  }),
+);
+
+export type Matter = typeof matters.$inferSelect;
+export type NewMatter = typeof matters.$inferInsert;
+
+/**
+ * conversations — chat threads.
+ *
+ * matter_id is NULLABLE:
+ *   - NULL → standalone conversation (lives at /chat?conversationId=...)
+ *   - non-NULL → conversation belongs to a matter, lives inside that matter's workspace
+ *
+ * user_id is duplicated here (rather than computed via matter.user_id) for:
+ *   1. Standalone conversations have no matter, so we need user_id directly
+ *   2. Simpler/faster RLS policies (no join needed)
+ *   3. Direct "list all my conversations" queries
+ */
+export const conversations = pgTable(
+  'conversations',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    // FK to auth.users(id) with ON DELETE CASCADE — declared in raw SQL.
+    userId: uuid('user_id').notNull(),
+    // FK to matters(id) with ON DELETE CASCADE — declared in raw SQL.
+    // Nullable: NULL for standalone conversations.
+    matterId: uuid('matter_id'),
+    title: text('title'),
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+    updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => ({
+    userIdIdx: index('conversations_user_id_idx').on(t.userId),
+    matterIdIdx: index('conversations_matter_id_idx').on(t.matterId),
+  }),
+);
+
+export type Conversation = typeof conversations.$inferSelect;
+export type NewConversation = typeof conversations.$inferInsert;
+
+/**
+ * messages — one row per chat message.
+ *
+ * No user_id column — access is mediated through the parent conversation.
+ *
+ * citations stores the FULL hit shape from semanticSearch():
+ *   [{ index, judgmentId, caseName, citation, paragraphNumber, paragraphText, similarity }, ...]
+ *
+ * Why store the full hit (not just refs):
+ *   - Hot path optimisation: loading a past conversation should be ONE query
+ *   - Snapshot semantics: a 6-month-old research note should show what was
+ *     true at the time it was written, not silently update if the judgment
+ *     gets amended. This is a feature for a legal product, not a bug.
+ *
+ * The Citation interface here matches what /api/chat emits in its SSE
+ * 'citations' event AND what app/(app)/chat/page.tsx renders. Keep them
+ * in sync if any of those change.
+ *
+ * role uses $type to narrow Drizzle's string inference to the 2-value union
+ * matching the DB CHECK constraint.
+ */
+export const messages = pgTable(
+  'messages',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    // FK to conversations(id) with ON DELETE CASCADE — declared in raw SQL.
+    conversationId: uuid('conversation_id').notNull(),
+    // CHECK constraint in raw SQL restricts to 'user' | 'assistant'.
+    role: text('role').$type<'user' | 'assistant'>().notNull(),
+    content: text('content').notNull(),
+    // Nullable JSONB. Only assistant messages typically have citations;
+    // user messages leave this as NULL.
+    // $type narrows the inferred type to StoredCitation[].
+    citations: jsonb('citations').$type<StoredCitation[]>(),
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => ({
+    conversationIdIdx: index('messages_conversation_id_idx').on(t.conversationId),
+  }),
+);
+
+export type Message = typeof messages.$inferSelect;
+export type NewMessage = typeof messages.$inferInsert;
+
+/**
+ * Citation — the shape stored in messages.citations[].
+ *
+ * Exported here so query helpers and API code share one definition.
+ * Mirrors the SemanticSearchHit shape used in /api/chat, lifted from
+ * lib/search/semantic.ts.
+ */
+export interface StoredCitation {
+  index: number;
+  judgmentId: string;
+  caseName: string | null;
+  citation: string | null;
+  paragraphNumber: string;
+  paragraphText: string;
+  similarity: number;
+}

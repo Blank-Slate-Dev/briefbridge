@@ -1,34 +1,48 @@
 // app/api/chat/route.ts
 //
-// Streaming chat endpoint backing /chat.
+// Streaming chat endpoint backing /chat and /matters/[id]/chat.
+//
+// What changed in Chunk 3:
+//   - Authenticates the user via the Supabase server client. Anonymous
+//     callers get 401.
+//   - Accepts an OPTIONAL `conversationId` in the request body. If absent,
+//     a new conversation is created and its id returned to the client via
+//     a new SSE event type 'conversation'.
+//   - Also accepts an OPTIONAL `matterId` for in-matter conversations.
+//     Only used when creating a new conversation (ignored if conversationId
+//     is already provided).
+//   - Persists the user message BEFORE streaming, and the assistant
+//     message AFTER streaming completes (with the citation hits stored
+//     in messages.citations).
 //
 // Request shape:
 //   POST /api/chat
-//   { messages: [{ role: 'user' | 'assistant', content: string }, ...] }
+//   {
+//     messages: [{ role, content }, ...],
+//     conversationId?: string,   // optional — provide to continue an existing conversation
+//     matterId?: string          // optional — only used when creating a new conversation
+//   }
 //
-// Response: text/event-stream (Server-Sent Events) with three event types:
-//   data: { "type": "citations", "hits": [...] }   ← sent once, before text
-//   data: { "type": "delta", "text": "..." }       ← streamed many times
-//   data: { "type": "done" }                       ← sent once, at the end
-//   data: { "type": "error", "message": "..." }    ← if anything blows up
-//
-// Why SSE over WebSockets:
-//   - One-way (server→client) is all we need
-//   - Works through any proxy, including Vercel's
-//   - Native browser support via EventSource
-//   - Simpler error handling
+// SSE event types emitted (in order):
+//   data: { "type": "conversation", "conversationId": "..." }  ← FIRST, always
+//   data: { "type": "citations", "hits": [...] }
+//   data: { "type": "delta", "text": "..." }                   ← repeated
+//   data: { "type": "done" }
+//   data: { "type": "error", "message": "..." }                ← on error
 
 import Anthropic from '@anthropic-ai/sdk';
+import { createClient } from '@/lib/supabase/server';
 import { semanticSearch, type SemanticSearchHit } from '@/lib/search/semantic';
+import {
+  createConversation,
+  getConversation,
+  appendMessage,
+} from '@/lib/db/queries/conversations';
+import { getMatter } from '@/lib/db/queries/matters';
+import type { StoredCitation } from '@/lib/db/schema';
 
-// Edge runtime would be slightly faster but pgvector queries need the
-// node-postgres pool, which uses TCP and isn't supported on edge.
 export const runtime = 'nodejs';
-
-// Don't cache responses — every conversation is unique.
 export const dynamic = 'force-dynamic';
-
-// Cap maximum body size + processing time.
 export const maxDuration = 60;
 
 // =============================================================================
@@ -42,6 +56,8 @@ interface ChatMessage {
 
 interface ChatRequest {
   messages: ChatMessage[];
+  conversationId?: string;
+  matterId?: string;
 }
 
 function validateRequest(body: unknown): ChatRequest | { error: string } {
@@ -49,6 +65,7 @@ function validateRequest(body: unknown): ChatRequest | { error: string } {
     return { error: 'Body must be an object.' };
   }
   const b = body as Record<string, unknown>;
+
   if (!Array.isArray(b.messages)) {
     return { error: 'messages must be an array.' };
   }
@@ -77,45 +94,57 @@ function validateRequest(body: unknown): ChatRequest | { error: string } {
     cleaned.push({ role: mm.role, content: mm.content });
   }
 
-  // Conversation must end with a user message — otherwise Claude has nothing
-  // new to respond to.
   if (cleaned[cleaned.length - 1].role !== 'user') {
     return { error: 'Last message must be from user.' };
   }
 
-  return { messages: cleaned };
+  // Optional conversationId — UUID-ish format check (Postgres will reject
+  // anything that's not a valid UUID at INSERT time, but we shortcut the
+  // round trip).
+  let conversationId: string | undefined;
+  if (typeof b.conversationId === 'string') {
+    const trimmed = b.conversationId.trim();
+    if (trimmed.length > 0) {
+      if (!UUID_RE.test(trimmed)) {
+        return { error: 'Invalid conversationId.' };
+      }
+      conversationId = trimmed;
+    }
+  }
+
+  let matterId: string | undefined;
+  if (typeof b.matterId === 'string') {
+    const trimmed = b.matterId.trim();
+    if (trimmed.length > 0) {
+      if (!UUID_RE.test(trimmed)) {
+        return { error: 'Invalid matterId.' };
+      }
+      matterId = trimmed;
+    }
+  }
+
+  return { messages: cleaned, conversationId, matterId };
 }
 
+const UUID_RE =
+  /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+
 // =============================================================================
-// Prompt construction
+// System prompt construction (unchanged from Chunk 2)
 // =============================================================================
 
-/**
- * Build the system prompt that grounds Claude in the retrieved cases.
- *
- * Design notes:
- *   - We're explicit about "ONLY cite cases I provide" because hallucinated
- *     citations are the #1 reason lawyers don't trust AI legal tools.
- *   - We give Claude a structured citation format `[CASE_INDEX]` so we can
- *     parse them later if needed for rendering. Citations are referenced by
- *     index into the hits array.
- *   - We let Claude use general legal reasoning to interpret the cases —
- *     e.g. "this principle applies because..." — but anchored to the cases.
- *   - We tell Claude to be honest about gaps. "I don't have a case on that"
- *     is a valid answer that builds trust.
- */
 function buildSystemPrompt(hits: SemanticSearchHit[]): string {
-  const sourcesBlock = hits.length === 0
-    ? 'No relevant cases were found in the database for this query.'
-    : hits
-        .map((hit, i) => {
-          const caseLabel = [
-            hit.judgment.caseName,
-            hit.judgment.citation,
-          ].filter(Boolean).join(' ');
-          return `[${i + 1}] ${caseLabel} at [${hit.paragraphNumber}]\n${hit.paragraphText}`;
-        })
-        .join('\n\n---\n\n');
+  const sourcesBlock =
+    hits.length === 0
+      ? 'No relevant cases were found in the database for this query.'
+      : hits
+          .map((hit, i) => {
+            const caseLabel = [hit.judgment.caseName, hit.judgment.citation]
+              .filter(Boolean)
+              .join(' ');
+            return `[${i + 1}] ${caseLabel} at [${hit.paragraphNumber}]\n${hit.paragraphText}`;
+          })
+          .join('\n\n---\n\n');
 
   return `You are BriefBridge, a legal research assistant for Australian lawyers.
 
@@ -159,6 +188,16 @@ Ask one clarifying question rather than guessing. Lawyers prefer precision.`;
 // =============================================================================
 
 export async function POST(request: Request) {
+  // Auth check. Anonymous users can't use chat — this endpoint is a
+  // protected feature.
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) {
+    return jsonError('Not authenticated.', 401);
+  }
+
   // Parse and validate body.
   let body: unknown;
   try {
@@ -171,7 +210,7 @@ export async function POST(request: Request) {
   if ('error' in validation) {
     return jsonError(validation.error, 400);
   }
-  const { messages } = validation;
+  const { messages, conversationId: providedConversationId, matterId } = validation;
 
   // Verify env config.
   if (!process.env.ANTHROPIC_API_KEY) {
@@ -181,11 +220,78 @@ export async function POST(request: Request) {
     return jsonError('Server misconfigured: VOYAGE_API_KEY missing.', 500);
   }
 
-  // Run semantic search using the LATEST user message.
-  // Future improvement: compose a search query from the whole conversation
-  // (e.g. "given the user previously asked X, the new question Y likely means
-  // Z"). For now, single-turn retrieval keeps it simple and predictable.
+  // --------------------------------------------------------------------------
+  // Conversation resolution — find existing or create new
+  // --------------------------------------------------------------------------
+  //
+  // Three cases:
+  //   1. conversationId provided → verify it's owned by this user
+  //   2. no conversationId, matterId provided → verify matter ownership,
+  //      create a new conversation under that matter
+  //   3. neither → create a new standalone conversation
+  //
+  // We do this BEFORE we start streaming because we need to emit the
+  // conversationId as the very first SSE event.
+
+  let conversationId: string;
+
+  if (providedConversationId) {
+    const existing = await getConversation(user.id, providedConversationId);
+    if (!existing) {
+      return jsonError('Conversation not found.', 404);
+    }
+    conversationId = existing.id;
+  } else {
+    // Verify matter ownership if matterId was provided.
+    let resolvedMatterId: string | null = null;
+    if (matterId) {
+      const matter = await getMatter(user.id, matterId);
+      if (!matter) {
+        return jsonError('Matter not found.', 404);
+      }
+      resolvedMatterId = matter.id;
+    }
+
+    // Create a new conversation. Use the first ~60 chars of the user
+    // message as a working title — better than NULL, replaceable later.
+    const firstUserMessage = messages[messages.length - 1].content;
+    const title = firstUserMessage.slice(0, 60).trim();
+
+    const newConv = await createConversation(user.id, {
+      matterId: resolvedMatterId,
+      title: title || null,
+    });
+    conversationId = newConv.id;
+  }
+
+  // --------------------------------------------------------------------------
+  // Persist the user message BEFORE streaming
+  // --------------------------------------------------------------------------
+  //
+  // We persist the user message synchronously, before streaming starts,
+  // so if Claude errors out we still have a record of what the user asked.
+  //
+  // For an EXISTING conversation, we only persist the LAST message in the
+  // request payload — the earlier messages are already in the DB (the
+  // client sends them as conversation history for Claude's context, not
+  // for us to re-persist). For a NEW conversation, same logic still
+  // applies because the messages array has length 1 in that case.
+
   const latestUserMessage = messages[messages.length - 1].content;
+  try {
+    await appendMessage(user.id, {
+      conversationId,
+      role: 'user',
+      content: latestUserMessage,
+    });
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : 'Persist failed.';
+    return jsonError(`Failed to persist message: ${msg}`, 500);
+  }
+
+  // --------------------------------------------------------------------------
+  // Semantic search (unchanged)
+  // --------------------------------------------------------------------------
 
   let hits: SemanticSearchHit[];
   try {
@@ -195,38 +301,48 @@ export async function POST(request: Request) {
     return jsonError(`Semantic search error: ${message}`, 500);
   }
 
-  // Stream Claude's response back as SSE.
-  const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+  // Build the StoredCitation shape that matches both what we'll persist
+  // AND what we'll emit over SSE. Keeping a single shape avoids drift.
+  const storedCitations: StoredCitation[] = hits.map((hit, i) => ({
+    index: i + 1,
+    judgmentId: hit.judgment.id,
+    caseName: hit.judgment.caseName,
+    citation: hit.judgment.citation,
+    paragraphNumber: hit.paragraphNumber,
+    paragraphText: hit.paragraphText,
+    similarity: hit.similarity,
+  }));
 
+  // --------------------------------------------------------------------------
+  // Stream Claude's response + persist assistant message at the end
+  // --------------------------------------------------------------------------
+
+  const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
   const encoder = new TextEncoder();
+
   const stream = new ReadableStream({
     async start(controller) {
-      // Helper to send an SSE event.
       const send = (data: object) => {
         controller.enqueue(encoder.encode(`data: ${JSON.stringify(data)}\n\n`));
       };
 
-      try {
-        // 1. Send citations first so the UI can render placeholder cards
-        //    before the answer text starts streaming.
-        send({
-          type: 'citations',
-          hits: hits.map((hit, i) => ({
-            index: i + 1,
-            judgmentId: hit.judgment.id,
-            caseName: hit.judgment.caseName,
-            citation: hit.judgment.citation,
-            paragraphNumber: hit.paragraphNumber,
-            paragraphText: hit.paragraphText,
-            similarity: hit.similarity,
-          })),
-        });
+      // Buffer Claude's full response so we can persist it at the end.
+      let fullAssistantContent = '';
 
-        // 2. Build prompt and stream Claude response.
+      try {
+        // 1. Conversation event first — let the client capture the id
+        //    immediately. This is what makes "new conversation gets a URL"
+        //    work — the client receives the id before any text starts
+        //    streaming and can update its URL state.
+        send({ type: 'conversation', conversationId });
+
+        // 2. Citations.
+        send({ type: 'citations', hits: storedCitations });
+
+        // 3. Build prompt + stream Claude.
         const systemPrompt = buildSystemPrompt(hits);
 
         const claudeStream = await anthropic.messages.stream({
-          // Sonnet 4.6 — best balance of quality + cost for grounded RAG.
           model: 'claude-sonnet-4-6',
           max_tokens: 2048,
           system: systemPrompt,
@@ -236,13 +352,39 @@ export async function POST(request: Request) {
           })),
         });
 
-        // 3. Forward each text delta to the client.
         for await (const event of claudeStream) {
           if (
             event.type === 'content_block_delta' &&
             event.delta.type === 'text_delta'
           ) {
-            send({ type: 'delta', text: event.delta.text });
+            const text = event.delta.text;
+            fullAssistantContent += text;
+            send({ type: 'delta', text });
+          }
+        }
+
+        // 4. Persist the assistant message with citations.
+        // We do this AFTER streaming completes — if persistence fails,
+        // the user has already seen the streamed answer, so we don't
+        // surface an error. We just log it.
+        if (fullAssistantContent.length > 0) {
+          try {
+            await appendMessage(user.id, {
+              conversationId,
+              role: 'assistant',
+              content: fullAssistantContent,
+              citations: storedCitations,
+            });
+          } catch (persistErr) {
+            // Non-fatal — the user has the answer in their browser even
+            // if it didn't save. Log for monitoring.
+            // eslint-disable-next-line no-console
+            console.error(
+              '[chat] failed to persist assistant message:',
+              persistErr instanceof Error
+                ? persistErr.message
+                : String(persistErr),
+            );
           }
         }
 
@@ -260,8 +402,8 @@ export async function POST(request: Request) {
     headers: {
       'Content-Type': 'text/event-stream',
       'Cache-Control': 'no-cache, no-transform',
-      'Connection': 'keep-alive',
-      'X-Accel-Buffering': 'no', // disable proxy buffering for streaming
+      Connection: 'keep-alive',
+      'X-Accel-Buffering': 'no',
     },
   });
 }

@@ -1,4 +1,4 @@
-// app/matters/[id]/_components/matter-tabs.tsx
+// app/(app)/matters/[id]/_components/matter-tabs.tsx
 //
 // Client component for the tabbed view inside a matter workspace.
 // Tabs: Chat | Files | Conversations | Authorities | Notes

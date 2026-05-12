@@ -6,6 +6,16 @@
 // sync. Once authentication and the matters table are added, this file gets
 // replaced by a real DB query helper and the rest of the UI doesn't need to
 // know the difference.
+//
+// CHUNK 3 NOTE: most of this file is now legacy — MOCK_MATTERS itself is
+// no longer used. We keep the UI constants (MATTER_STATUSES, STATUS_LABELS,
+// STATUS_DESCRIPTIONS, MockMatter shape) because the matter detail page's
+// MatterTabs component still consumes the MockMatter shape (via an adapter
+// in matter-view.tsx) until Files / Conversations / Authorities chunks ship.
+//
+// CHUNK 3 POST-LANDING FIX: MatterStatus is now defined in lib/db/schema.ts
+// as the single source of truth, and re-exported from here so every existing
+// `import { MatterStatus } from '...mock-matters'` keeps working unchanged.
 
 // =============================================================================
 // Status — 6 NSW/Australian-practice statuses
@@ -14,16 +24,11 @@
 // Order matters for the dropdown menu (most-active to least-active).
 // Each status has a CSS class suffix (used in matters.css) and a label.
 //
-// Old 3-status union ('archived') is replaced by 'closed'. There is no
-// 'archived' status anymore — anything previously archived should be 'closed'.
+// MatterStatus is defined in lib/db/schema.ts and re-exported here for
+// backwards compatibility with existing UI imports.
 
-export type MatterStatus =
-  | 'active'
-  | 'on-hold'
-  | 'awaiting-client'
-  | 'in-hearing'
-  | 'settled'
-  | 'closed';
+export type { MatterStatus } from '@/lib/db/schema';
+import type { MatterStatus } from '@/lib/db/schema';
 
 /** Ordered list for the status dropdown menu. */
 export const MATTER_STATUSES: MatterStatus[] = [

@@ -1,114 +1,43 @@
 // app/(app)/matters/page.tsx
 //
-// Layout-only matter list. Reads from the MattersProvider context so
-// status changes made via the StatusMenu component update the cards
-// (and the sidebar's case icons) in real time.
+// Real matters list. Server-fetches matters via lib/db/queries/matters.ts
+// and hands them to a Client Component for live editing.
 //
-// Why this is now a Client Component:
-//   The matters list needs to read from React Context (MattersProvider)
-//   so status changes propagate everywhere live. Server Components can't
-//   subscribe to client context. Once auth + a real DB land, the matters
-//   array will be seeded from a server query (passed as initial state to
-//   the provider) — but the live editing UX still requires client state.
+// What changed in Chunk 3:
+//   - This is now a Server Component (no 'use client'). It fetches the
+//     current user's matters via Drizzle and passes them down.
+//   - The "Preview UI" mock banner is gone.
+//   - A real empty state ("No cases yet — create your first") replaces
+//     the mock data flow when the user has no matters.
+//   - The "+ New case" button now invokes a server action.
 //
-// Note: StickyHeader is no longer rendered here. The (app) layout's sidebar
-// provides navigation across all workspace pages.
+// The MattersProvider lives in the (app) layout, not here — that's because
+// the sidebar (which also reads matters) is in the layout. The layout now
+// also server-fetches the matters list to seed the provider.
 
-'use client';
+import { redirect } from 'next/navigation';
+import { createClient } from '@/lib/supabase/server';
+import { listMattersForUser } from '@/lib/db/queries/matters';
+import { MattersPageClient } from './_components/matters-page-client';
 
-import Link from 'next/link';
-import { useMatters } from './_components/matters-provider';
-import { StatusMenu } from './_components/status-menu';
-import type { MockMatter } from './_data/mock-matters';
+// Force dynamic rendering — this page is per-user, can't be statically
+// cached. Without this, Next.js might attempt to prerender it during build
+// and fail because there's no authenticated user at build time.
+export const dynamic = 'force-dynamic';
 
-// =============================================================================
-// Page
-// =============================================================================
+export default async function MattersPage() {
+  // Authentication. The middleware should have already gated this route,
+  // but we defensively redirect if somehow we got here unauthenticated.
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) {
+    redirect('/login?next=/matters');
+  }
 
-export default function MattersPage() {
-  const { matters } = useMatters();
+  // Fetch the user's matters. Excludes archived (the default).
+  const matters = await listMattersForUser(user.id);
 
-  return (
-    <main className="bb-matters-main">
-      <header className="bb-matters-head">
-        <div className="bb-section-eyebrow">Your workspace</div>
-        <h1 className="bb-matters-title">
-          Cases <em>and matters</em>
-        </h1>
-        <p className="bb-matters-sub">
-          Each case keeps your research, files, and conversations in one place.
-          Ask BriefBridge anything in context — your facts, your authorities.
-        </p>
-      </header>
-
-      <section className="bb-matters-grid">
-        <NewMatterCard />
-        {matters.map((m) => (
-          <MatterCard key={m.id} matter={m} />
-        ))}
-      </section>
-
-      <div className="bb-matters-mock-banner">
-        <span>Preview UI</span>
-        <p>
-          These cases are placeholder examples. Authentication and persistent
-          storage are coming soon — once those land, your real cases will
-          appear here.
-        </p>
-      </div>
-    </main>
-  );
-}
-
-// =============================================================================
-// Components
-// =============================================================================
-
-function MatterCard({ matter }: { matter: MockMatter }) {
-  return (
-    <Link href={`/matters/${matter.id}`} className="bb-matter-card">
-      <div className="bb-matter-card-head">
-        <div className="bb-matter-card-name-block">
-          <h3 className="bb-matter-card-name">{matter.name}</h3>
-          <p className="bb-matter-card-client">{matter.client}</p>
-        </div>
-        <StatusMenu matterId={matter.id} size="card" />
-      </div>
-
-      <p className="bb-matter-card-desc">{matter.description}</p>
-
-      <div className="bb-matter-card-recent">
-        <span className="bb-matter-card-recent-dot" />
-        <span>{matter.recentActivity}</span>
-      </div>
-
-      <div className="bb-matter-card-stats">
-        <Stat label="Files" value={matter.fileCount} />
-        <Stat label="Conversations" value={matter.conversationCount} />
-        <Stat label="Authorities" value={matter.citedAuthorities} />
-        <span className="bb-matter-card-time">{matter.lastActivity}</span>
-      </div>
-    </Link>
-  );
-}
-
-function NewMatterCard() {
-  return (
-    <button type="button" className="bb-matter-new" aria-label="Create new case">
-      <div className="bb-matter-new-icon">+</div>
-      <div className="bb-matter-new-title">New case</div>
-      <div className="bb-matter-new-sub">
-        Start a workspace for a client matter
-      </div>
-    </button>
-  );
-}
-
-function Stat({ label, value }: { label: string; value: number }) {
-  return (
-    <span className="bb-matter-stat">
-      <span className="bb-matter-stat-value">{value}</span>
-      <span className="bb-matter-stat-label">{label}</span>
-    </span>
-  );
+  return <MattersPageClient matters={matters} />;
 }
