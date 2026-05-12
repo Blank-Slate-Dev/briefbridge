@@ -1,0 +1,535 @@
+// app/(app)/_components/streaming-chat.tsx
+//
+// Shared chat surface for BOTH the standalone /chat page AND the in-matter
+// Research tab. Owns all the streaming/state logic:
+//   - Message list rendering
+//   - SSE parsing (conversation, citations, delta, done, error events)
+//   - URL update via history.replaceState when a conversation id arrives
+//   - Citation panel rendering
+//   - Auto-scroll on new messages
+//   - Auto-resize textarea
+//   - Cancel-on-unmount of in-flight streams
+//
+// What it DOESN'T own:
+//   - Outer page shell (full-viewport vs inline scroll — wrappers decide)
+//   - Welcome screen with example prompts (only standalone wants this)
+//   - Page headers / "New research" buttons (wrappers decide what to show)
+//   - Empty-state copy (matter wants in-context language; standalone wants
+//     generic — wrappers pass their own empty-state node)
+//
+// Styling: uses the bb-msg-* / bb-chat-* / bb-citations-* CSS classes
+// defined in matters.css. Cream palette, Fraunces serif. Reusable across
+// both surfaces.
+
+'use client';
+
+import {
+  useState,
+  useRef,
+  useEffect,
+  useCallback,
+  type FormEvent,
+  type KeyboardEvent,
+  type ReactNode,
+} from 'react';
+import Link from 'next/link';
+import type { StoredCitation } from '@/lib/db/schema';
+
+// =============================================================================
+// Types
+// =============================================================================
+
+type Citation = StoredCitation;
+
+interface ChatMessage {
+  id: string;
+  role: 'user' | 'assistant';
+  content: string;
+  citations?: Citation[];
+  streaming?: boolean;
+  error?: string;
+}
+
+/** Initial-state message shape (from server-loaded history). */
+export interface InitialMessage {
+  id: string;
+  role: 'user' | 'assistant';
+  content: string;
+  citations?: Citation[];
+}
+
+export interface StreamingChatProps {
+  /** Messages to seed the state with (from server-side hydration). */
+  initialMessages: InitialMessage[];
+  /** Conversation id from URL or server, if any. */
+  initialConversationId: string | null;
+  /**
+   * Matter scope for new conversations. If set, the /api/chat endpoint will
+   * bind newly-created conversations to this matter.
+   */
+  matterId?: string;
+  /**
+   * Called when a brand-new conversation gets an id back from the SSE
+   * stream. Used by wrappers to update their URL state. Optional —
+   * default behaviour is to update window.location's `?conversationId=`
+   * via history.replaceState.
+   */
+  onConversationCreated?: (conversationId: string) => void;
+  /**
+   * Rendered above the message list when there are NO messages. Lets
+   * each wrapper provide its own empty-state UI (standalone shows
+   * "How can I help with your research?" + example prompts; matter shows
+   * "Ask a question in this case's context").
+   */
+  emptyState: ReactNode;
+  /**
+   * Placeholder text for the input textarea. Wrappers can customise:
+   * "Ask a question about Australian case law…" for standalone,
+   * "Ask anything about this case…" for in-matter.
+   */
+  inputPlaceholder?: string;
+}
+
+// =============================================================================
+// Component
+// =============================================================================
+
+export function StreamingChat({
+  initialMessages,
+  initialConversationId,
+  matterId,
+  onConversationCreated,
+  emptyState,
+  inputPlaceholder = 'Ask a question…',
+}: StreamingChatProps) {
+  // Seed with server-provided initial messages. After mount all mutations
+  // happen client-side.
+  const [messages, setMessages] = useState<ChatMessage[]>(() =>
+    initialMessages.map((m) => ({
+      id: m.id,
+      role: m.role,
+      content: m.content,
+      citations: m.citations,
+    })),
+  );
+
+  // Current conversation id. NULL = next send creates a new conversation.
+  // Once /api/chat emits 'conversation', we capture the id here.
+  const [conversationId, setConversationId] = useState<string | null>(
+    initialConversationId,
+  );
+
+  const [input, setInput] = useState('');
+  const [isStreaming, setIsStreaming] = useState(false);
+
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
+  const messagesEndRef = useRef<HTMLDivElement>(null);
+  const abortControllerRef = useRef<AbortController | null>(null);
+
+  // Sync local state when server-provided initialMessages or initialConversationId
+  // change (e.g. when a wrapper swaps between conversations via URL change without
+  // unmounting the component). Without this, the component would render the wrong
+  // messages on conversation switch.
+  useEffect(() => {
+    setMessages(
+      initialMessages.map((m) => ({
+        id: m.id,
+        role: m.role,
+        content: m.content,
+        citations: m.citations,
+      })),
+    );
+  }, [initialMessages]);
+
+  useEffect(() => {
+    setConversationId(initialConversationId);
+  }, [initialConversationId]);
+
+  // Scroll-to-bottom on new messages.
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
+  }, [messages]);
+
+  // Auto-resize textarea up to 200px.
+  useEffect(() => {
+    const ta = textareaRef.current;
+    if (!ta) return;
+    ta.style.height = 'auto';
+    ta.style.height = Math.min(ta.scrollHeight, 200) + 'px';
+  }, [input]);
+
+  // Cancel any in-flight stream when the component unmounts.
+  useEffect(() => {
+    return () => {
+      abortControllerRef.current?.abort();
+    };
+  }, []);
+
+  const handleSubmit = useCallback(
+    async (e?: FormEvent) => {
+      e?.preventDefault();
+
+      const trimmed = input.trim();
+      if (!trimmed || isStreaming) return;
+
+      const userMessage: ChatMessage = {
+        id: crypto.randomUUID(),
+        role: 'user',
+        content: trimmed,
+      };
+      const assistantMessage: ChatMessage = {
+        id: crypto.randomUUID(),
+        role: 'assistant',
+        content: '',
+        streaming: true,
+      };
+
+      // Build the message history we send to the API. We include client-side
+      // history so Claude has context. The API only persists the LAST user
+      // message — earlier ones are already in the DB (for existing
+      // conversations) or absent (for new ones).
+      const conversationForAPI = [...messages, userMessage].map((m) => ({
+        role: m.role,
+        content: m.content,
+      }));
+
+      setMessages((prev) => [...prev, userMessage, assistantMessage]);
+      setInput('');
+      setIsStreaming(true);
+
+      const controller = new AbortController();
+      abortControllerRef.current = controller;
+
+      try {
+        const response = await fetch('/api/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            messages: conversationForAPI,
+            conversationId: conversationId ?? undefined,
+            // matterId is sent on EVERY send when set (defensive — the API
+            // ignores it if conversationId is also set, so this can't
+            // create stray new conversations).
+            matterId: matterId ?? undefined,
+          }),
+          signal: controller.signal,
+        });
+
+        if (!response.ok) {
+          let errorText = `HTTP ${response.status}`;
+          try {
+            const errBody = await response.json();
+            if (errBody?.error) errorText = errBody.error;
+          } catch {
+            // ignore
+          }
+          throw new Error(errorText);
+        }
+
+        if (!response.body) {
+          throw new Error('No response body received.');
+        }
+
+        const reader = response.body.getReader();
+        const decoder = new TextDecoder();
+        let buffer = '';
+
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+
+          buffer += decoder.decode(value, { stream: true });
+
+          const parts = buffer.split('\n\n');
+          buffer = parts.pop() ?? '';
+
+          for (const part of parts) {
+            const line = part.trim();
+            if (!line.startsWith('data:')) continue;
+            const json = line.slice(5).trim();
+            if (!json) continue;
+
+            let event: { type: string; [k: string]: unknown };
+            try {
+              event = JSON.parse(json);
+            } catch {
+              continue;
+            }
+
+            if (event.type === 'conversation') {
+              const newId = event.conversationId as string;
+              if (newId && newId !== conversationId) {
+                setConversationId(newId);
+                // Wrappers can override URL update behaviour. Default is
+                // history.replaceState — silent, no navigation. The
+                // alternative (router.push) would unmount React mid-stream.
+                if (onConversationCreated) {
+                  onConversationCreated(newId);
+                } else if (typeof window !== 'undefined') {
+                  const url = new URL(window.location.href);
+                  url.searchParams.set('conversationId', newId);
+                  window.history.replaceState({}, '', url.toString());
+                }
+              }
+            } else if (event.type === 'citations') {
+              const hits = event.hits as Citation[];
+              setMessages((prev) =>
+                prev.map((m) =>
+                  m.id === assistantMessage.id ? { ...m, citations: hits } : m,
+                ),
+              );
+            } else if (event.type === 'delta') {
+              const delta = event.text as string;
+              setMessages((prev) =>
+                prev.map((m) =>
+                  m.id === assistantMessage.id
+                    ? { ...m, content: m.content + delta }
+                    : m,
+                ),
+              );
+            } else if (event.type === 'error') {
+              const message = event.message as string;
+              setMessages((prev) =>
+                prev.map((m) =>
+                  m.id === assistantMessage.id
+                    ? { ...m, error: message, streaming: false }
+                    : m,
+                ),
+              );
+            } else if (event.type === 'done') {
+              setMessages((prev) =>
+                prev.map((m) =>
+                  m.id === assistantMessage.id ? { ...m, streaming: false } : m,
+                ),
+              );
+            }
+          }
+        }
+      } catch (err) {
+        const wasAborted =
+          err instanceof DOMException && err.name === 'AbortError';
+        const message = wasAborted
+          ? 'Cancelled.'
+          : err instanceof Error
+            ? err.message
+            : 'Unknown error.';
+        setMessages((prev) =>
+          prev.map((m) =>
+            m.id === assistantMessage.id
+              ? { ...m, error: message, streaming: false }
+              : m,
+          ),
+        );
+      } finally {
+        setIsStreaming(false);
+        abortControllerRef.current = null;
+      }
+    },
+    [input, isStreaming, messages, conversationId, matterId, onConversationCreated],
+  );
+
+  function handleKeyDown(e: KeyboardEvent<HTMLTextAreaElement>) {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      handleSubmit();
+    }
+  }
+
+  // Exposed via prop so wrappers can set the input from external sources
+  // (e.g. example-prompt buttons on the welcome screen).
+  // For now, we just hold this internally; wrappers can wire up examples
+  // by passing them inside the emptyState node.
+  const showWelcome = messages.length === 0;
+
+  return (
+    <div className="bb-chat">
+      <div className="bb-chat-scroll">
+        {showWelcome ? (
+          emptyState
+        ) : (
+          <ul className="bb-chat-messages">
+            {messages.map((m) => (
+              <li key={m.id}>
+                {m.role === 'user' ? (
+                  <UserMessage content={m.content} />
+                ) : (
+                  <AssistantMessage message={m} />
+                )}
+              </li>
+            ))}
+          </ul>
+        )}
+        <div ref={messagesEndRef} />
+      </div>
+
+      <form className="bb-chat-input" onSubmit={handleSubmit}>
+        <textarea
+          ref={textareaRef}
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onKeyDown={handleKeyDown}
+          placeholder={inputPlaceholder}
+          rows={1}
+          disabled={isStreaming}
+          aria-label="Your question"
+        />
+        <button
+          type="submit"
+          disabled={!input.trim() || isStreaming}
+          className="bb-btn bb-btn-primary"
+        >
+          {isStreaming ? '…' : 'Send'}
+        </button>
+      </form>
+      <p className="bb-chat-disclaimer">
+        BriefBridge can make mistakes. Verify citations against the official
+        source. Not legal advice.
+      </p>
+    </div>
+  );
+}
+
+// =============================================================================
+// Sub-components — all use bb-msg-* / bb-citations-* CSS from matters.css
+// =============================================================================
+
+function UserMessage({ content }: { content: string }) {
+  return (
+    <div className="bb-msg bb-msg-user">
+      <div className="bb-msg-bubble">
+        <p style={{ whiteSpace: 'pre-wrap', margin: 0 }}>{content}</p>
+      </div>
+    </div>
+  );
+}
+
+function AssistantMessage({ message }: { message: ChatMessage }) {
+  const showThinking =
+    message.streaming && message.content.length === 0 && !message.error;
+
+  return (
+    <div className="bb-msg bb-msg-assistant">
+      {showThinking && <ThinkingIndicator />}
+
+      {message.error && (
+        <div className="bb-chat-error">
+          <p className="bb-chat-error-title">Something went wrong</p>
+          <p className="bb-chat-error-body">{message.error}</p>
+        </div>
+      )}
+
+      {message.content.length > 0 && (
+        <div className="bb-msg-prose">
+          <FormattedAnswer
+            content={message.content}
+            streaming={message.streaming ?? false}
+          />
+        </div>
+      )}
+
+      {message.citations &&
+        message.citations.length > 0 &&
+        !message.error && <CitationsPanel citations={message.citations} />}
+    </div>
+  );
+}
+
+function ThinkingIndicator() {
+  return (
+    <div className="bb-chat-thinking">
+      <span className="bb-chat-thinking-dots" aria-hidden>
+        <span />
+        <span />
+        <span />
+      </span>
+      <span>Researching across cases…</span>
+    </div>
+  );
+}
+
+function FormattedAnswer({
+  content,
+  streaming,
+}: {
+  content: string;
+  streaming: boolean;
+}) {
+  const paragraphs = content.split(/\n\n+/);
+  return (
+    <>
+      {paragraphs.map((para, i) => (
+        <p key={i}>{renderInline(para)}</p>
+      ))}
+      {streaming && <span className="bb-chat-cursor" aria-hidden />}
+    </>
+  );
+}
+
+function renderInline(text: string): React.ReactNode[] {
+  const out: React.ReactNode[] = [];
+  const regex = /\*\*([^*]+)\*\*|((?:\[\d+\])+)/g;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let key = 0;
+
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      out.push(text.slice(lastIndex, match.index));
+    }
+
+    if (match[1] !== undefined) {
+      out.push(<strong key={`b-${key++}`}>{match[1]}</strong>);
+    } else if (match[2] !== undefined) {
+      out.push(
+        <span key={`c-${key++}`} className="bb-cite-ref">
+          {match[2]}
+        </span>,
+      );
+    }
+    lastIndex = match.index + match[0].length;
+  }
+
+  if (lastIndex < text.length) {
+    out.push(text.slice(lastIndex));
+  }
+
+  return out;
+}
+
+function CitationsPanel({ citations }: { citations: Citation[] }) {
+  return (
+    <details className="bb-citations">
+      <summary>
+        <span className="bb-citations-arrow" aria-hidden>
+          ›
+        </span>
+        {citations.length} source{citations.length === 1 ? '' : 's'} found
+      </summary>
+      <ul className="bb-citations-list">
+        {citations.map((c) => (
+          <li key={c.index}>
+            <Link
+              href={`/cases/${c.judgmentId}#para-${c.paragraphNumber}`}
+              className="bb-citations-link"
+            >
+              <div className="bb-citations-head">
+                <span className="bb-citations-num">[{c.index}]</span>
+                <span className="bb-citations-name">
+                  {c.caseName ?? 'Untitled'}
+                </span>
+                <span className="bb-citations-cite">{c.citation}</span>
+                <span className="bb-citations-para">
+                  at [{c.paragraphNumber}]
+                </span>
+                <span className="bb-citations-sim">
+                  {(c.similarity * 100).toFixed(0)}%
+                </span>
+              </div>
+              <p className="bb-citations-snippet">{c.paragraphText}</p>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </details>
+  );
+}

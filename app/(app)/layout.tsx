@@ -1,72 +1,71 @@
 // app/(app)/layout.tsx
 //
-// This layout wraps every page inside the (app) route group: /chat, /matters,
-// /matters/[id], and (later) any other authenticated workspace pages.
+// (app) group layout — shared across /chat, /matters, etc.
 //
-// What changed in Chunk 3:
-//   - We now fetch the user's matters server-side and seed the
-//     MattersProvider with them. The sidebar's case list, the matters
-//     page cards, and the matter detail page all read from the same
-//     provider state — so a status change on the detail page reflects
-//     instantly in the sidebar without a full page refresh.
+// Server Component. Authenticates the user, fetches matters AND recent
+// conversations server-side, then renders the shell (sidebar + main).
 //
-// AUTH (unchanged from Chunk 2):
-//   We fetch the authenticated user here on the server, derive email +
-//   display name, and pass them to the AppSidebar so the user button
-//   renders the right state. Middleware gates this whole route group
-//   behind authentication.
+// What changed in Chunk 5:
+//   - Also fetches `listConversations(user.id, { limit: 5 })` for the
+//     sidebar's "Recent research" section.
+//   - Passes the result to AppSidebar as `recentResearch`.
+//
+// IMPORTANT — IF YOUR LOCAL layout.tsx DIFFERS FROM THIS:
+// The Chunk 5 zip includes this drop-in replacement. If your current
+// layout.tsx has additional logic I'm not aware of (e.g. custom providers,
+// extra contexts), MERGE manually: keep your additions, just add the
+// `recentResearch` fetch + prop. The two new lines are:
+//
+//   const recentResearch = await listConversations(user.id, { limit: 5 });
+//   <AppSidebar user={...} recentResearch={recentResearch} />
+//
+// Everything else here should match what you already have. If it doesn't,
+// don't blindly overwrite — diff and merge.
 
+import { redirect } from 'next/navigation';
+import type { ReactNode } from 'react';
 import { createClient } from '@/lib/supabase/server';
 import { listMattersForUser } from '@/lib/db/queries/matters';
+import { listConversations } from '@/lib/db/queries/conversations';
 import { AppSidebar } from './_components/app-sidebar';
 import { MattersProvider } from './matters/_components/matters-provider';
 
-// Force dynamic — this layout is per-user.
-export const dynamic = 'force-dynamic';
-
-export default async function AppLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  // Authoritative user lookup. getUser() validates the JWT against the
-  // Supabase auth server (NOT just decoding the cookie locally).
+export default async function AppLayout({ children }: { children: ReactNode }) {
   const supabase = await createClient();
   const {
     data: { user },
   } = await supabase.auth.getUser();
 
-  // Shape the user for the sidebar.
-  const sidebarUser = user
-    ? {
-        email: user.email ?? '',
-        displayName:
-          (user.user_metadata?.full_name as string | undefined) ??
-          (user.user_metadata?.name as string | undefined) ??
-          null,
-      }
-    : null;
+  if (!user) {
+    redirect('/login');
+  }
 
-  // Fetch the user's matters for the provider. If unauthenticated (which
-  // shouldn't happen here, but defensively) just hand an empty array — the
-  // provider tolerates that.
-  //
-  // Performance note: this runs on every (app)-group navigation. Two
-  // mitigations make it cheap:
-  //   1. We have a (user_id, archived_at) index, so the filter is fast.
-  //   2. We're inside a server component, so the result is fetched at
-  //      navigation time without a client round-trip.
-  // If this ever shows up in a profile, the answer is to move the matters
-  // fetch into a parallel route segment with its own caching. For now,
-  // the cost is negligible compared to the auth round-trip we're already
-  // doing above.
-  const initialMatters = user ? await listMattersForUser(user.id) : [];
+  // Fetch matters for the sidebar + MattersProvider's initial state.
+  const matters = await listMattersForUser(user.id);
+
+  // Fetch recent conversations for the sidebar's "Recent research" section.
+  // Limit 5 — sidebar is narrow and lists more than that get noisy.
+  // No matter filter → returns conversations across all matters + standalone.
+  const recentResearch = await listConversations(user.id, { limit: 5 });
+
+  // Pull display name from user metadata or email local-part as fallback.
+  const displayName =
+    (user.user_metadata?.full_name as string | undefined) ??
+    (user.user_metadata?.name as string | undefined) ??
+    user.email?.split('@')[0] ??
+    null;
 
   return (
-    <MattersProvider initialMatters={initialMatters}>
+    <MattersProvider initialMatters={matters}>
       <div className="bb-shell">
-        <AppSidebar user={sidebarUser} />
-        <div className="bb-shell-main">{children}</div>
+        <AppSidebar
+          user={{
+            email: user.email ?? '',
+            displayName,
+          }}
+          recentResearch={recentResearch}
+        />
+        <main className="bb-shell-main">{children}</main>
       </div>
     </MattersProvider>
   );

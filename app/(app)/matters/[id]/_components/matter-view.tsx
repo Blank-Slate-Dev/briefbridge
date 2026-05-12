@@ -47,7 +47,8 @@ import {
   type MockMatter,
 } from '../../_data/mock-matters';
 import { MatterTabs } from './matter-tabs';
-import type { Matter } from '@/lib/db/schema';
+import type { Matter, Conversation } from '@/lib/db/schema';
+import type { InitialMessage } from '../../../_components/streaming-chat';
 
 // =============================================================================
 // Length caps — kept in sync with the server action + DB query
@@ -61,7 +62,18 @@ const DESCRIPTION_MAX = 2000;
 // MatterView
 // =============================================================================
 
-export function MatterView({ matter: serverMatter }: { matter: Matter }) {
+export function MatterView({
+  matter: serverMatter,
+  matterConversations,
+  activeConversation,
+}: {
+  matter: Matter;
+  matterConversations: Conversation[];
+  activeConversation: {
+    conversation: Conversation;
+    messages: InitialMessage[];
+  } | null;
+}) {
   // Prefer the provider's copy of this matter so status changes AND inline
   // edits (made anywhere in the app) reflect immediately. Fall back to the
   // server-fetched matter if the provider hasn't initialised yet.
@@ -146,7 +158,13 @@ export function MatterView({ matter: serverMatter }: { matter: Matter }) {
             />
           </header>
 
-          <MatterTabs matter={adapted} />
+          <MatterTabs
+            matter={adapted}
+            matterId={liveMatter.id}
+            matterName={liveMatter.name}
+            conversations={matterConversations}
+            activeConversation={activeConversation}
+          />
         </div>
 
         {/* Sidebar — metadata, sticky on desktop */}
@@ -176,7 +194,7 @@ export function MatterView({ matter: serverMatter }: { matter: Matter }) {
                 <span>0</span> Files
               </li>
               <li>
-                <span>0</span> Conversations
+                <span>{matterConversations.length}</span> Research sessions
               </li>
               <li>
                 <span>0</span> Authorities cited
@@ -190,8 +208,12 @@ export function MatterView({ matter: serverMatter }: { matter: Matter }) {
               <button type="button" className="bb-matter-sidebar-action" disabled>
                 + Upload file
               </button>
-              <button type="button" className="bb-matter-sidebar-action" disabled>
-                + New conversation
+              <button
+                type="button"
+                className="bb-matter-sidebar-action"
+                onClick={() => router.push(`/matters/${liveMatter.id}?compose=1`)}
+              >
+                + New research
               </button>
               {/* Wired to focus the name input — discoverability hint */}
               <button

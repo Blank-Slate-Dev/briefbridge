@@ -1,4 +1,27 @@
 // app/(app)/_components/app-sidebar.tsx
+//
+// What changed in Chunk 5:
+//   - PLACEHOLDER_RECENT_CHATS replaced with a `recentResearch` prop fetched
+//     server-side by layout.tsx (real conversation rows from the DB).
+//   - "New chat" button → "New research" (user-facing rename; "Research" is
+//     the lawyer↔AI vocabulary; "Conversations" is reserved for future
+//     lawyer↔lawyer collaboration).
+//   - "Recent chats" section → "Recent research".
+//   - Each recent-research item shows:
+//       title (or "Untitled research" if null)
+//       matter name · relative time   (if conversation has a matter_id)
+//       relative time                 (if standalone /chat conversation)
+//     Matter names are looked up from the existing `matters` prop via a
+//     Map — no extra DB query needed.
+//   - Click navigates to /matters/<matterId>?conversationId=X (in-matter) or
+//     /chat?conversationId=X (standalone).
+//
+// What DIDN'T change:
+//   - Mobile hamburger / drawer / backdrop logic
+//   - Cases list rendering
+//   - User button at the bottom
+//   - All the focus-management and route-change effects
+
 'use client';
 
 import Image from 'next/image';
@@ -7,6 +30,7 @@ import { usePathname, useRouter } from 'next/navigation';
 import {
   useEffect,
   useId,
+  useMemo,
   useRef,
   useState,
   type MouseEvent as ReactMouseEvent,
@@ -23,73 +47,55 @@ import {
 } from 'lucide-react';
 import { useMatters } from '../matters/_components/matters-provider';
 import type { MatterStatus } from '../matters/_data/mock-matters';
+import type { Conversation } from '@/lib/db/schema';
 import {
   SidebarUserButton,
   SidebarSignInButton,
 } from './sidebar-user-button';
 
 // =============================================================================
-// Types — placeholder until conversation persistence ships
-// =============================================================================
-
-interface RecentChat {
-  id: string;
-  title: string;
-  /** Human-readable timestamp like "2 hours ago". */
-  updatedAt: string;
-}
-
-const PLACEHOLDER_RECENT_CHATS: RecentChat[] = [
-  {
-    id: 'rc1',
-    title: 'Costs apportionment when one claim is undetermined',
-    updatedAt: '2 hours ago',
-  },
-  {
-    id: 'rc2',
-    title: 'Setting aside default judgments',
-    updatedAt: 'Yesterday',
-  },
-];
-
-// =============================================================================
 // Props
 // =============================================================================
-//
-// The layout (Server Component) fetches the user on the server and passes
-// their email + display name in. If the user is null, we render the
-// signed-out variant of the user button at the bottom of the sidebar.
-//
-// (In practice the middleware redirects unauthenticated users away from
-// (app) routes, so `user` should always be non-null here — but we render
-// defensively in case of edge cases like a logged-out user briefly seeing
-// a cached client render.)
 
 export interface AppSidebarProps {
   user: {
     email: string;
     displayName: string | null;
   } | null;
+  /**
+   * Recent conversations (research sessions) across all matters + standalone,
+   * most-recently-updated first. Fetched server-side in layout.tsx via
+   * listConversations(userId, { limit: 5 }).
+   *
+   * This data is server-fetched on each navigation. Conversations created
+   * mid-session via SSE WON'T appear in the sidebar until next navigation.
+   * Conscious tradeoff for Chunk 5 — see chunk handoff notes.
+   */
+  recentResearch: Conversation[];
 }
 
 // =============================================================================
 // AppSidebar
 // =============================================================================
 
-export function AppSidebar({ user }: AppSidebarProps) {
+export function AppSidebar({ user, recentResearch }: AppSidebarProps) {
   const pathname = usePathname();
   const router = useRouter();
-  // Pull matters from the provider so status changes update the case icons.
   const { matters } = useMatters();
 
-  // Mobile drawer open/closed.
-  const [mobileOpen, setMobileOpen] = useState(false);
+  // Build a Map<matterId, matterName> for fast lookup when rendering
+  // recent-research items. The matters prop is already client-state from
+  // MattersProvider, so this Map updates live when names change (Chunk 4
+  // inline edits).
+  const matterNameById = useMemo(() => {
+    const map = new Map<string, string>();
+    for (const m of matters) {
+      map.set(m.id, m.name);
+    }
+    return map;
+  }, [matters]);
 
-  // Ghost-click protection: iOS fires a synthetic click ~300ms after a tap
-  // on the same coordinates. If the hamburger triggers the drawer open and
-  // then disappears (display: none), the ghost click falls through to the
-  // backdrop and closes the drawer immediately. Track the open timestamp
-  // and ignore backdrop clicks that arrive within that window.
+  const [mobileOpen, setMobileOpen] = useState(false);
   const openedAtRef = useRef(0);
 
   function openDrawer(
@@ -100,28 +106,17 @@ export function AppSidebar({ user }: AppSidebarProps) {
     openedAtRef.current = Date.now();
     setMobileOpen(true);
   }
-
   function closeDrawer() {
-    // Ignore the first close attempt within 400ms of opening (ghost click).
     if (Date.now() - openedAtRef.current < 400) return;
     setMobileOpen(false);
   }
 
-  // Reference to the sidebar element so we can blur focus that's inside it
-  // after navigation. The CSS uses :focus-within to drive the expanded state,
-  // so when a user clicks a sidebar link, focus stays on that link and the
-  // sidebar refuses to collapse on mouse-out. By blurring after navigation
-  // we let the sidebar collapse normally as soon as the cursor leaves.
   const sidebarRef = useRef<HTMLElement | null>(null);
 
-  // Close mobile drawer on route change.
   useEffect(() => {
     setMobileOpen(false);
   }, [pathname]);
 
-  // After every navigation: if the focused element is inside the sidebar,
-  // blur it. This kills the lingering :focus-within state without affecting
-  // keyboard users who Tab through the sidebar.
   useEffect(() => {
     if (typeof document === 'undefined') return;
     const active = document.activeElement;
@@ -133,7 +128,6 @@ export function AppSidebar({ user }: AppSidebarProps) {
     }
   }, [pathname]);
 
-  // Lock body scroll while mobile drawer is open.
   useEffect(() => {
     if (typeof document === 'undefined') return;
     if (mobileOpen) {
@@ -145,7 +139,6 @@ export function AppSidebar({ user }: AppSidebarProps) {
     }
   }, [mobileOpen]);
 
-  // Close on Escape key while mobile drawer is open.
   useEffect(() => {
     if (!mobileOpen) return;
     function onKey(e: KeyboardEvent) {
@@ -157,14 +150,13 @@ export function AppSidebar({ user }: AppSidebarProps) {
 
   const navId = useId();
 
-  function handleNewChat() {
+  function handleNewResearch() {
     router.push('/chat');
     setMobileOpen(false);
   }
 
   return (
     <>
-      {/* Mobile hamburger button (only visible on small screens) */}
       <button
         type="button"
         className="bb-shell-hamburger"
@@ -177,7 +169,6 @@ export function AppSidebar({ user }: AppSidebarProps) {
         <span aria-hidden>☰</span>
       </button>
 
-      {/* Backdrop for mobile drawer */}
       <div
         className={`bb-shell-backdrop ${mobileOpen ? 'bb-shell-backdrop-open' : ''}`}
         onClick={closeDrawer}
@@ -214,42 +205,46 @@ export function AppSidebar({ user }: AppSidebarProps) {
         <button
           type="button"
           className="bb-shell-new-chat"
-          onClick={handleNewChat}
-          title="Start a new chat"
-          aria-label="Start a new chat"
+          onClick={handleNewResearch}
+          title="Start a new research session"
+          aria-label="Start a new research session"
         >
           <span className="bb-shell-new-chat-icon" aria-hidden>
             <PenSquare size={16} strokeWidth={1.75} />
           </span>
-          <span className="bb-shell-new-chat-label">New chat</span>
+          <span className="bb-shell-new-chat-label">New research</span>
         </button>
 
-        <SidebarSection label="Recent chats">
+        <SidebarSection label="Recent research">
           <ul className="bb-shell-list">
-            {PLACEHOLDER_RECENT_CHATS.length === 0 ? (
-              <li className="bb-shell-list-empty">No recent chats</li>
+            {recentResearch.length === 0 ? (
+              <li className="bb-shell-list-empty">No recent research</li>
             ) : (
-              PLACEHOLDER_RECENT_CHATS.map((c) => (
-                <li key={c.id}>
-                  <Link
-                    href="/chat"
-                    className="bb-shell-list-item"
-                    title={c.title}
-                  >
-                    <span className="bb-shell-list-item-icon" aria-hidden>
-                      <MessageSquare size={16} strokeWidth={1.5} />
-                    </span>
-                    <span className="bb-shell-list-item-body">
-                      <span className="bb-shell-list-item-title">
-                        {c.title}
+              recentResearch.map((c) => {
+                const matterName =
+                  c.matterId ? matterNameById.get(c.matterId) : null;
+                const href = c.matterId
+                  ? `/matters/${c.matterId}?conversationId=${c.id}`
+                  : `/chat?conversationId=${c.id}`;
+                const title = c.title ?? 'Untitled research';
+                const time = formatRelative(c.updatedAt);
+                const meta = matterName ? `${matterName} · ${time}` : time;
+                return (
+                  <li key={c.id}>
+                    <Link href={href} className="bb-shell-list-item" title={title}>
+                      <span className="bb-shell-list-item-icon" aria-hidden>
+                        <MessageSquare size={16} strokeWidth={1.5} />
                       </span>
-                      <span className="bb-shell-list-item-meta">
-                        {c.updatedAt}
+                      <span className="bb-shell-list-item-body">
+                        <span className="bb-shell-list-item-title">
+                          {title}
+                        </span>
+                        <span className="bb-shell-list-item-meta">{meta}</span>
                       </span>
-                    </span>
-                  </Link>
-                </li>
-              ))
+                    </Link>
+                  </li>
+                );
+              })
             )}
           </ul>
         </SidebarSection>
@@ -274,11 +269,9 @@ export function AppSidebar({ user }: AppSidebarProps) {
                   >
                     <CaseIcon status={m.status} />
                     <span className="bb-shell-list-item-body">
-                      <span className="bb-shell-list-item-title">
-                        {m.name}
-                      </span>
+                      <span className="bb-shell-list-item-title">{m.name}</span>
                       <span className="bb-shell-list-item-meta">
-                        {m.client}
+                        {m.client ?? ''}
                       </span>
                     </span>
                   </Link>
@@ -310,7 +303,6 @@ export function AppSidebar({ user }: AppSidebarProps) {
             <span className="bb-shell-secondary-label">Judgments</span>
           </Link>
 
-          {/* Render the signed-in user button or the signed-out variant. */}
           {user ? (
             <SidebarUserButton
               email={user.email}
@@ -326,13 +318,9 @@ export function AppSidebar({ user }: AppSidebarProps) {
 }
 
 // =============================================================================
-// CaseIcon — briefcase + status dot badge
+// CaseIcon — unchanged
 // =============================================================================
 
-/**
- * Renders the briefcase icon for a case with a small status dot in the
- * top-right corner like a notification badge.
- */
 function CaseIcon({ status }: { status: MatterStatus }) {
   return (
     <span className="bb-shell-list-item-icon bb-shell-case-icon" aria-hidden>
@@ -346,7 +334,7 @@ function CaseIcon({ status }: { status: MatterStatus }) {
 }
 
 // =============================================================================
-// SidebarSection
+// SidebarSection — unchanged
 // =============================================================================
 
 function SidebarSection({
@@ -376,4 +364,22 @@ function SidebarSection({
       {children}
     </section>
   );
+}
+
+// =============================================================================
+// Utilities
+// =============================================================================
+
+function formatRelative(date: Date | string): string {
+  const d = typeof date === 'string' ? new Date(date) : date;
+  const diffMs = Date.now() - d.getTime();
+  const diffMin = Math.floor(diffMs / 60_000);
+  const diffHr = Math.floor(diffMin / 60);
+  const diffDay = Math.floor(diffHr / 24);
+
+  if (diffMin < 1) return 'just now';
+  if (diffMin < 60) return `${diffMin}m ago`;
+  if (diffHr < 24) return `${diffHr}h ago`;
+  if (diffDay < 7) return `${diffDay}d ago`;
+  return d.toLocaleDateString('en-AU', { day: 'numeric', month: 'short' });
 }
