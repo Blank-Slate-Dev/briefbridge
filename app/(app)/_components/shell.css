@@ -121,13 +121,13 @@
 }
 .bb-shell-brand-logo {
   display: block;
-  height: 40px;
-  width: 173px;
+  height: 52px;
+  width: 200px;
   object-fit: contain;
   object-position: left center;
   position: absolute;
   top: 0;
-  left: -7;
+  left: -4;
   pointer-events: none;
 }
 
@@ -669,9 +669,8 @@
     right: auto;
     transform: translateX(-100%);
     z-index: 1000;
-    /* Inherit top: 0 + bottom: 0 from the base rule — these together produce
-     * a reliably full-height drawer on iOS Safari without the 100dvh bugs that
-     * leave a gap at the bottom. */
+    height: 100dvh;
+    bottom: auto;
     box-shadow: 0 16px 40px rgba(26, 31, 46, 0.18);
     transition:
       transform 220ms cubic-bezier(0.2, 0.8, 0.2, 1),
@@ -724,6 +723,39 @@
   .bb-shell-mobile-close {
     display: flex;
   }
+}
+
+/* =============================================================================
+ * DEBUG BADGE — visible only when DEBUG_MOBILE flag is set in the component.
+ * Shows mobileOpen state in real-time so we can tell if taps are reaching React.
+ * REMOVE THIS BLOCK once the mobile drawer is confirmed working.
+ * =========================================================================== */
+.bb-shell-debug-badge {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 9999;
+  padding: 8px 14px;
+  background: #ff0066;
+  color: #ffffff;
+  border-radius: 8px;
+  font-family: ui-monospace, 'SF Mono', monospace;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  box-shadow: 0 4px 12px rgba(255, 0, 102, 0.4);
+  pointer-events: none;
+  user-select: none;
+}
+.bb-shell-debug-badge-open {
+  background: #00aa44;
+  box-shadow: 0 4px 12px rgba(0, 170, 68, 0.4);
+}
+.bb-shell-debug-counter {
+  display: block;
+  font-size: 10px;
+  font-weight: 500;
+  opacity: 0.85;
 }
 
 /* =============================================================================

@@ -18,6 +18,11 @@
 //      default `string` inference. Runtime is unchanged (still text + CHECK
 //      constraint in the DB); only the TS-level type narrows.
 //
+// CHUNK 6 ADDITIONS (files foundation):
+//   9. `primaryKey` import for the composite PK on file_tags
+//  10. files table — per-matter user file storage, soft-delete via deleted_at
+//  11. fileTags table — many-to-many tags on files, composite PK (file_id, tag)
+//
 // The pgvector extension itself is enabled via the migration's
 // `CREATE EXTENSION IF NOT EXISTS vector;` statement. Drizzle's
 // generator should add this automatically when it detects the
@@ -27,10 +32,11 @@
 // IMPORTANT — Why the new tables have NO references() in this file
 // =============================================================================
 //
-// The new tables (matters, conversations, messages) all have foreign keys
-// in the database — to auth.users, to matters, to conversations. BUT, none
-// of those FKs are declared via Drizzle's `references()` helper here. They
-// exist purely as raw SQL in the migration (0004_auth_persistence.sql).
+// The new tables (matters, conversations, messages, files, file_tags) all
+// have foreign keys in the database — to auth.users, to matters, to
+// conversations, to files. BUT, none of those FKs are declared via
+// Drizzle's `references()` helper here. They exist purely as raw SQL in
+// the migration (0004_auth_persistence.sql, 0005_files.sql).
 //
 // Why? Two reasons:
 //
@@ -66,6 +72,7 @@ import {
   index,
   uniqueIndex,
   vector,
+  primaryKey,
 } from 'drizzle-orm/pg-core';
 import { sql } from 'drizzle-orm';
 
@@ -480,3 +487,135 @@ export interface StoredCitation {
   paragraphText: string;
   similarity: number;
 }
+
+// =============================================================================
+// === CHUNK 6 ADDITIONS — FILES FOUNDATION ====================================
+// =============================================================================
+//
+// Everything below this line was added in Chunk 6. The tables above are
+// unchanged from Chunk 3.
+//
+// Same raw-SQL FK pattern as Chunk 3 — see 0005_files.sql for the actual
+// FK constraints (files.user_id → auth.users.id, files.matter_id → matters.id,
+// file_tags.file_id → files.id, all ON DELETE CASCADE).
+//
+// Sanitisation of filename and tag normalisation happen in the queries
+// layer (lib/db/queries/files.ts), not in column definitions.
+
+/**
+ * files — uploaded user files attached to a matter.
+ *
+ * Soft-deleted via deleted_at (NULL = active, non-NULL = soft-deleted).
+ * The active-file list queries filter on `deleted_at IS NULL`.
+ *
+ * user_id is denormalised onto this table (rather than derived from
+ * matter_id) for the same reasons as conversations.user_id: simpler RLS,
+ * faster direct queries.
+ *
+ * storage_path follows the convention {user_id}/{matter_id}/{file_id}{extension}.
+ * The user_id prefix is what the storage RLS policy keys on (see
+ * 0005_files.sql for storage.foldername(name)[1] = auth.uid()::text).
+ *
+ * anthropic_file_id is set lazily on first read (Chunk 7), NULL until then,
+ * and cleared on soft-delete (with a matching DELETE call to Anthropic's
+ * Files API). For Chunk 6 this column exists but stays NULL — the lazy-
+ * upload-on-first-read flow is Chunk 7 territory.
+ *
+ * ai_readable is computed ONCE at upload time (in completeUpload) and
+ * stored. Doesn't get recomputed per-read. Reasoning:
+ *   - page_count doesn't change after upload
+ *   - MIME type doesn't change after upload
+ *   - The answer is stable; recomputing would be wasteful
+ *
+ * Default true for ai_readable: optimistic — if page count extraction
+ * fails (corrupted PDF), we set it true anyway and let Chunk 7's actual
+ * read attempt fail-and-surface a friendly error rather than blocking
+ * upload over a maybe-fake reason.
+ */
+export const files = pgTable(
+  'files',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    // FK to auth.users(id) with ON DELETE CASCADE — declared in raw SQL.
+    userId: uuid('user_id').notNull(),
+    // FK to matters(id) with ON DELETE CASCADE — declared in raw SQL.
+    matterId: uuid('matter_id').notNull(),
+    // The lawyer's original filename, sanitised at the queries layer
+    // (control-char strip, 255-char cap). Preserves spaces, unicode,
+    // parens, em-dashes. Never used as a storage path.
+    filename: text('filename').notNull(),
+    // {user_id}/{matter_id}/{file_id}{extension}.
+    storagePath: text('storage_path').notNull(),
+    mimeType: text('mime_type').notNull(),
+    // Bytes. Used for quota math (SUM(file_size) WHERE deleted_at IS NULL).
+    fileSize: integer('file_size').notNull(),
+    // PDFs only. NULL for non-PDFs (TXT, DOCX). NULL also if extraction
+    // failed on a corrupted/encrypted PDF — see completeUpload comments.
+    pageCount: integer('page_count'),
+    // Whether Claude can read this file (Chunk 7). Computed at upload.
+    // Default optimistic: if we couldn't extract page count, assume yes.
+    aiReadable: boolean('ai_readable').notNull().default(true),
+    // Human-readable reason for ai_readable = false (e.g. "PDF exceeds 100 pages").
+    aiReadableReason: text('ai_readable_reason'),
+    // Set by Chunk 7's read flow on first read. NULL pre-Chunk-7.
+    anthropicFileId: text('anthropic_file_id'),
+    // NULL = active, non-NULL = soft-deleted.
+    deletedAt: timestamp('deleted_at', { withTimezone: true }),
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+    // Bumped by the touch_files_updated_at trigger on every UPDATE.
+    updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => ({
+    // Hot path — "list non-deleted files in this matter".
+    matterIdDeletedAtIdx: index('files_matter_id_deleted_at_idx').on(
+      t.matterId,
+      t.deletedAt,
+    ),
+    userIdDeletedAtIdx: index('files_user_id_deleted_at_idx').on(
+      t.userId,
+      t.deletedAt,
+    ),
+    // For quota SUM(file_size) WHERE user_id = ? AND matter_id = ?.
+    userIdMatterIdIdx: index('files_user_id_matter_id_idx').on(
+      t.userId,
+      t.matterId,
+    ),
+  }),
+);
+
+export type File = typeof files.$inferSelect;
+export type NewFile = typeof files.$inferInsert;
+
+/**
+ * file_tags — many-to-many tags on files.
+ *
+ * Composite PK (file_id, tag) ensures a tag can only be applied once per
+ * file. No separate "tags" master table — see the design doc rationale.
+ *
+ * `tag` is the normalised form (lowercase, trimmed) used for matching/deduping.
+ * `tag_label` is the display form preserving how the lawyer typed it.
+ *
+ * No update policy — tags are delete-and-insert, not in-place editable.
+ * The updateFileTags query truncates and re-inserts the file's tag set.
+ */
+export const fileTags = pgTable(
+  'file_tags',
+  {
+    // FK to files(id) with ON DELETE CASCADE — declared in raw SQL.
+    fileId: uuid('file_id').notNull(),
+    // Normalised: lowercase, trimmed. The deduplication key.
+    tag: text('tag').notNull(),
+    // Display form: preserves the lawyer's chosen capitalisation.
+    tagLabel: text('tag_label').notNull(),
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => ({
+    // Composite PK enforces tag-per-file uniqueness.
+    pk: primaryKey({ columns: [t.fileId, t.tag] }),
+    // For filter-by-tag queries and DISTINCT autocomplete lookups.
+    tagIdx: index('file_tags_tag_idx').on(t.tag),
+  }),
+);
+
+export type FileTag = typeof fileTags.$inferSelect;
+export type NewFileTag = typeof fileTags.$inferInsert;
