@@ -6,25 +6,27 @@
 //   - A sidebar with case details, glance stats, quick actions
 //   - The tabbed workspace below
 //
-// What changed in Chunk 4:
-//   - Name / Client / Description are now click-to-edit. Hover → subtle
-//     warm-cream tint + pencil hint. Click → field becomes editable.
-//     Blur → saves. Enter (on name/client) → commits. Escape → restores.
-//   - If the URL has `?new=1`, the name input is auto-focused on mount
-//     and the existing text is selected, so a freshly-created "Untitled
-//     case" can be renamed immediately by typing. The `?new=1` is then
-//     stripped from the URL so a refresh doesn't re-trigger the focus.
-//   - The "Edit case details" Quick Action button now focuses the name
-//     input (discoverability hint for users who haven't realised the
-//     title is clickable).
-//   - Optimistic updates flow through the MattersProvider's updateDetails
-//     method, so changes propagate live to the sidebar case row and the
-//     matters list page.
+// What changed in Chunk 6:
+//   - Accepts `initialFiles` (with tags pre-joined) and `personalTagHistory`
+//     from the server-side page fetch
+//   - Wraps everything inside <FilesProvider> so both the Files tab AND the
+//     sidebar's "At a glance" + quota indicator see the same files state
+//   - The "0 Files" stat in "At a glance" is now live — derived from the
+//     provider via <FilesStatLive />
+//   - The compact <QuotaIndicator variant="compact" /> renders inside the
+//     "At a glance" card, below the existing stats list
+//   - Threads `matterId`, `initialFiles`, and `personalTagHistory` through
+//     to MatterTabs so the Files tab can wire them into FilesTab
+//   - Sidebar's "+ Upload file" quick-action button stays disabled. The
+//     real upload affordance lives inside the Files tab (+ Upload files
+//     button + drag-anywhere drop zone). A future refactor could lift
+//     MatterTabs' activeTab state up here and have the sidebar button
+//     switch to the Files tab, but that's not scope for Chunk 6.
 //
-// What's still the same as Chunk 3:
-//   - Consults MattersProvider for live state (status changes, edits)
-//   - Adapts the real Matter into MockMatter shape for MatterTabs
-//   - Quick action buttons (other than Edit) are still disabled stubs
+// What changed in Chunk 4 (unchanged in Chunk 6):
+//   - Name / Client / Description are click-to-edit
+//   - ?new=1 URL param auto-focuses the name input
+//   - "Edit case details" Quick Action focuses the name input
 
 'use client';
 
@@ -47,8 +49,11 @@ import {
   type MockMatter,
 } from '../../_data/mock-matters';
 import { MatterTabs } from './matter-tabs';
+import { FilesProvider, useFiles } from './files-provider';
+import { QuotaIndicator } from './quota-indicator';
 import type { Matter, Conversation } from '@/lib/db/schema';
 import type { InitialMessage } from '../../../_components/streaming-chat';
+import type { FileWithTags } from '@/lib/db/queries/files';
 
 // =============================================================================
 // Length caps — kept in sync with the server action + DB query
@@ -66,6 +71,8 @@ export function MatterView({
   matter: serverMatter,
   matterConversations,
   activeConversation,
+  initialFiles,
+  personalTagHistory,
 }: {
   matter: Matter;
   matterConversations: Conversation[];
@@ -73,6 +80,8 @@ export function MatterView({
     conversation: Conversation;
     messages: InitialMessage[];
   } | null;
+  initialFiles: FileWithTags[];
+  personalTagHistory: string[];
 }) {
   // Prefer the provider's copy of this matter so status changes AND inline
   // edits (made anywhere in the app) reflect immediately. Fall back to the
@@ -94,22 +103,17 @@ export function MatterView({
   const isNew = searchParams.get('new') === '1';
   useEffect(() => {
     if (!isNew) return;
-    // Defer to next frame so the input is mounted and visible.
     const handle = requestAnimationFrame(() => {
       const input = nameInputRef.current;
       if (input) {
         input.focus();
         input.select();
       }
-      // Strip the ?new=1 from the URL without triggering a navigation.
-      // router.replace with `scroll: false` preserves scroll position and
-      // avoids any visual jolt.
       const url = new URL(window.location.href);
       url.searchParams.delete('new');
       router.replace(url.pathname + url.search, { scroll: false });
     });
     return () => cancelAnimationFrame(handle);
-    // Only run on mount — `isNew` derived from initial searchParams.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -126,108 +130,125 @@ export function MatterView({
   const adapted = adaptMatter(liveMatter);
 
   return (
-    <main className="bb-matter-main">
-      <Link href="/matters" className="bb-matter-back">
-        ← All cases
-      </Link>
+    <FilesProvider matterId={liveMatter.id} initialFiles={initialFiles}>
+      <main className="bb-matter-main">
+        <Link href="/matters" className="bb-matter-back">
+          ← All cases
+        </Link>
 
-      <div className="bb-matter-layout">
-        {/* Main column — title + tabs */}
-        <div className="bb-matter-content">
-          <header className="bb-matter-head">
-            <div className="bb-matter-head-row">
-              <div className="bb-matter-head-text">
-                <EditableClient
-                  initialValue={liveMatter.client}
-                  matterId={liveMatter.id}
-                  updateDetails={updateDetails}
-                />
-                <EditableName
-                  initialValue={liveMatter.name}
-                  matterId={liveMatter.id}
-                  updateDetails={updateDetails}
-                  inputRef={nameInputRef}
-                />
+        <div className="bb-matter-layout">
+          {/* Main column — title + tabs */}
+          <div className="bb-matter-content">
+            <header className="bb-matter-head">
+              <div className="bb-matter-head-row">
+                <div className="bb-matter-head-text">
+                  <EditableClient
+                    initialValue={liveMatter.client}
+                    matterId={liveMatter.id}
+                    updateDetails={updateDetails}
+                  />
+                  <EditableName
+                    initialValue={liveMatter.name}
+                    matterId={liveMatter.id}
+                    updateDetails={updateDetails}
+                    inputRef={nameInputRef}
+                  />
+                </div>
+                <StatusMenu matterId={liveMatter.id} size="header" />
               </div>
-              <StatusMenu matterId={liveMatter.id} size="header" />
-            </div>
-            <EditableDescription
-              initialValue={liveMatter.description}
+              <EditableDescription
+                initialValue={liveMatter.description}
+                matterId={liveMatter.id}
+                updateDetails={updateDetails}
+              />
+            </header>
+
+            <MatterTabs
+              matter={adapted}
               matterId={liveMatter.id}
-              updateDetails={updateDetails}
+              matterName={liveMatter.name}
+              conversations={matterConversations}
+              activeConversation={activeConversation}
+              personalTagHistory={personalTagHistory}
             />
-          </header>
-
-          <MatterTabs
-            matter={adapted}
-            matterId={liveMatter.id}
-            matterName={liveMatter.name}
-            conversations={matterConversations}
-            activeConversation={activeConversation}
-          />
-        </div>
-
-        {/* Sidebar — metadata, sticky on desktop */}
-        <aside className="bb-matter-sidebar">
-          <div className="bb-matter-sidebar-card">
-            <h3 className="bb-matter-sidebar-heading">Case details</h3>
-            <dl className="bb-matter-sidebar-fields">
-              {liveMatter.client && (
-                <Field label="Client" value={liveMatter.client} />
-              )}
-              <Field label="Opened" value={formatDate(liveMatter.createdAt)} />
-              <Field
-                label="Last activity"
-                value={formatRelative(liveMatter.updatedAt)}
-              />
-              <Field
-                label="Status"
-                value={STATUS_LABELS[liveMatter.status as MatterStatus]}
-              />
-            </dl>
           </div>
 
-          <div className="bb-matter-sidebar-card">
-            <h3 className="bb-matter-sidebar-heading">At a glance</h3>
-            <ul className="bb-matter-sidebar-stats">
-              <li>
-                <span>0</span> Files
-              </li>
-              <li>
-                <span>{matterConversations.length}</span> Research sessions
-              </li>
-              <li>
-                <span>0</span> Authorities cited
-              </li>
-            </ul>
-          </div>
-
-          <div className="bb-matter-sidebar-card">
-            <h3 className="bb-matter-sidebar-heading">Quick actions</h3>
-            <div className="bb-matter-sidebar-actions">
-              <button type="button" className="bb-matter-sidebar-action" disabled>
-                + Upload file
-              </button>
-              <button
-                type="button"
-                className="bb-matter-sidebar-action"
-                onClick={() => router.push(`/matters/${liveMatter.id}?compose=1`)}
-              >
-                + New research
-              </button>
-              {/* Wired to focus the name input — discoverability hint */}
-              <button
-                type="button"
-                className="bb-matter-sidebar-action"
-                onClick={focusNameInput}
-              >
-                Edit case details
-              </button>
+          {/* Sidebar — metadata, sticky on desktop */}
+          <aside className="bb-matter-sidebar">
+            <div className="bb-matter-sidebar-card">
+              <h3 className="bb-matter-sidebar-heading">Case details</h3>
+              <dl className="bb-matter-sidebar-fields">
+                {liveMatter.client && (
+                  <Field label="Client" value={liveMatter.client} />
+                )}
+                <Field label="Opened" value={formatDate(liveMatter.createdAt)} />
+                <Field
+                  label="Last activity"
+                  value={formatRelative(liveMatter.updatedAt)}
+                />
+                <Field
+                  label="Status"
+                  value={STATUS_LABELS[liveMatter.status as MatterStatus]}
+                />
+              </dl>
             </div>
-          </div>
-        </aside>
-      </div>
-    </main>
+
+            <div className="bb-matter-sidebar-card">
+              <h3 className="bb-matter-sidebar-heading">At a glance</h3>
+              <ul className="bb-matter-sidebar-stats">
+                <li>
+                  <FilesStatLive />
+                </li>
+                <li>
+                  <span>{matterConversations.length}</span> Research sessions
+                </li>
+                <li>
+                  <span>0</span> Authorities cited
+                </li>
+              </ul>
+              {/* Compact storage indicator — must live inside FilesProvider */}
+              <div className="bb-matter-sidebar-quota">
+                <QuotaIndicator variant="compact" />
+              </div>
+            </div>
+
+            <div className="bb-matter-sidebar-card">
+              <h3 className="bb-matter-sidebar-heading">Quick actions</h3>
+              <div className="bb-matter-sidebar-actions">
+                {/*
+                  Disabled for now. Real upload affordance is inside the
+                  Files tab (+ Upload files + drag-anywhere drop zone).
+                  Wiring this to switch tabs would require lifting
+                  MatterTabs' activeTab state up to this component, which
+                  is a bigger refactor than Chunk 6 wants to take on.
+                */}
+                <button
+                  type="button"
+                  className="bb-matter-sidebar-action"
+                  disabled
+                >
+                  + Upload file
+                </button>
+                <button
+                  type="button"
+                  className="bb-matter-sidebar-action"
+                  onClick={() => router.push(`/matters/${liveMatter.id}?compose=1`)}
+                >
+                  + New research
+                </button>
+                <button
+                  type="button"
+                  className="bb-matter-sidebar-action"
+                  onClick={focusNameInput}
+                >
+                  Edit case details
+                </button>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </main>
+    </FilesProvider>
   );
 }
 
@@ -237,6 +258,24 @@ function Field({ label, value }: { label: string; value: string }) {
       <dt>{label}</dt>
       <dd>{value}</dd>
     </div>
+  );
+}
+
+// =============================================================================
+// FilesStatLive — small consumer of FilesProvider for the sidebar stat row
+// =============================================================================
+//
+// Reads the live file count from FilesProvider so the "At a glance" Files
+// stat updates instantly on upload/delete. Must be rendered inside the
+// provider (which all sidebar content is, by virtue of MatterView wrapping
+// everything in FilesProvider).
+
+function FilesStatLive() {
+  const { files } = useFiles();
+  return (
+    <>
+      <span>{files.length}</span> Files
+    </>
   );
 }
 
@@ -280,9 +319,6 @@ function EditableName({
   const [value, setValue] = useState(initialValue);
   const [isSaving, setIsSaving] = useState(false);
 
-  // Keep local state synced when the server value changes from elsewhere
-  // (e.g. another tab made an edit). We only overwrite if the user isn't
-  // actively focused on the input.
   useEffect(() => {
     if (document.activeElement !== inputRef.current) {
       setValue(initialValue);
@@ -290,7 +326,6 @@ function EditableName({
   }, [initialValue, inputRef]);
 
   function handleChange(e: ChangeEvent<HTMLInputElement>) {
-    // Hard cap at NAME_MAX to give the user a clear stop point.
     const next = e.target.value.slice(0, NAME_MAX);
     setValue(next);
   }
@@ -298,17 +333,12 @@ function EditableName({
   async function handleBlur(_e: FocusEvent<HTMLInputElement>) {
     const trimmed = value.trim();
 
-    // Silent snap-back on empty name. The user's intent was "make this
-    // blank" but blank names aren't allowed; the kindest UX is to restore
-    // the prior value without showing an error.
     if (trimmed.length === 0) {
       setValue(initialValue);
       return;
     }
 
-    // Nothing changed — no-op.
     if (trimmed === initialValue) {
-      // Normalise (user may have typed trailing spaces).
       if (trimmed !== value) setValue(trimmed);
       return;
     }
@@ -318,11 +348,8 @@ function EditableName({
     setIsSaving(false);
 
     if (!result.ok) {
-      // Server rejected — provider has already rolled back its state, but
-      // our local input still shows the bad value. Restore.
       setValue(initialValue);
     } else {
-      // Success — make sure our local matches the server-normalised value.
       setValue(trimmed);
     }
   }
@@ -330,13 +357,10 @@ function EditableName({
   function handleKeyDown(e: KeyboardEvent<HTMLInputElement>) {
     if (e.key === 'Enter') {
       e.preventDefault();
-      // Blur fires handleBlur, which saves.
       inputRef.current?.blur();
     } else if (e.key === 'Escape') {
       e.preventDefault();
-      // Restore the prior value and blur (without saving).
       setValue(initialValue);
-      // Defer blur so the value reset has flushed first.
       requestAnimationFrame(() => inputRef.current?.blur());
     }
   }
@@ -394,11 +418,9 @@ function EditableClient({
 
   async function handleBlur() {
     const trimmed = value.trim();
-    // Empty becomes null (clears the field).
     const next = trimmed.length === 0 ? null : trimmed;
     const prev = initialValue;
 
-    // No change — bail.
     if (next === prev) {
       if (trimmed !== value) setValue(trimmed);
       return;
@@ -473,8 +495,6 @@ function EditableDescription({
     }
   }, [initialValue]);
 
-  // Auto-grow the textarea to fit content. We measure on every keystroke
-  // AND on initial mount (in case the initial value is multi-line).
   useEffect(() => {
     autosize(ref.current);
   }, [value]);
@@ -505,8 +525,6 @@ function EditableDescription({
   }
 
   function handleKeyDown(e: KeyboardEvent<HTMLTextAreaElement>) {
-    // Enter inserts a newline (default behaviour — don't prevent).
-    // Escape restores and blurs.
     if (e.key === 'Escape') {
       e.preventDefault();
       setValue(initialValue ?? '');
@@ -532,7 +550,6 @@ function EditableDescription({
   );
 }
 
-// Resizes a textarea to fit its content. Used by EditableDescription.
 function autosize(el: HTMLTextAreaElement | null) {
   if (!el) return;
   el.style.height = 'auto';

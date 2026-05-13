@@ -2,14 +2,25 @@
 //
 // Tabbed view inside a matter workspace.
 //
-// What changed in Chunk 5:
+// What changed in Chunk 6:
+//   - The internal FilesTab placeholder (mock data, disabled upload button)
+//     has been REMOVED. The real FilesTab from ./files-tab is rendered
+//     instead, with full upload/tag/delete functionality.
+//   - Accepts `personalTagHistory: string[]` as a new prop, threaded down
+//     to FilesTab for the tag editor autocomplete.
+//   - The files count badge on the tab AND the fileCount prop passed to
+//     MatterResearchTab are now LIVE — both come from useFiles() so they
+//     reflect uploads and deletes instantly without a page refresh.
+//   - Mojibake characters in comments / JSX strings have been corrected
+//     (· ↔ ⋯ × etc.) — the previous file encoded as Windows-1252 at some
+//     point in its history.
+//
+// What changed in Chunk 5 (unchanged in Chunk 6):
 //   - "Chat" tab and "Conversations" tab merged into a single "Research" tab.
 //     Rationale: under the BriefBridge vocabulary, "Research" is the
 //     lawyer↔AI feature and "Conversations" is reserved for the future
-//     lawyer↔lawyer collaboration feature. The old "Conversations" tab
-//     was an empty placeholder gesturing at something we hadn't built.
-//   - Count badges hidden when 0. Same rule applied to Files and Authorities
-//     for consistency (matches Notes which never had one).
+//     lawyer↔lawyer collaboration feature.
+//   - Count badges hidden when 0.
 //   - The Research tab pulls real DB data via props (conversations +
 //     activeConversation) instead of the old MockMatter.conversations.
 //
@@ -21,6 +32,8 @@ import { useState } from 'react';
 import type { Conversation } from '@/lib/db/schema';
 import type { MockMatter } from '../../_data/mock-matters';
 import { MatterResearchTab } from './matter-research-tab';
+import { FilesTab } from './files-tab';
+import { useFiles } from './files-provider';
 import type { InitialMessage } from '../../../_components/streaming-chat';
 
 type TabKey = 'research' | 'files' | 'authorities' | 'notes';
@@ -33,11 +46,11 @@ const TABS: { key: TabKey; label: string }[] = [
 ];
 
 export interface MatterTabsProps {
-  /** Adapter view-model for Files/Authorities/Notes (still mock data). */
+  /** Adapter view-model for Authorities/Notes (still mock data). */
   matter: MockMatter;
-  /** Real matter id, for the Research tab. */
+  /** Real matter id, for the Research and Files tabs. */
   matterId: string;
-  /** Real matter name (Adapter's `matter.name` would also work). */
+  /** Real matter name. */
   matterName: string;
   /** Past in-matter conversations from the DB. */
   conversations: Conversation[];
@@ -46,6 +59,8 @@ export interface MatterTabsProps {
     conversation: Conversation;
     messages: InitialMessage[];
   } | null;
+  /** This user's previously-used tag labels, for the tag editor autocomplete. */
+  personalTagHistory: string[];
 }
 
 export function MatterTabs({
@@ -54,18 +69,23 @@ export function MatterTabs({
   matterName,
   conversations,
   activeConversation,
+  personalTagHistory,
 }: MatterTabsProps) {
-  // If there's an active conversation OR a ?compose=1 in the URL, start on
-  // the Research tab. Otherwise default to Research anyway — it's the most
-  // useful entry point.
+  // Default to the Research tab — most useful entry point.
   const [active, setActive] = useState<TabKey>('research');
+
+  // Live file count from the FilesProvider (which wraps MatterView, so
+  // we're inside its scope here). Used for both the tab count badge and
+  // the fileCount prop on the Research tab.
+  const { files } = useFiles();
+  const liveFileCount = files.length;
 
   // Count badge logic: hide entirely when the count is 0. When non-zero,
   // show as a small pill next to the tab label. Same rule for all tabs
   // that have counts; Notes never has one.
   const counts: Record<TabKey, number | null> = {
     research: conversations.length,
-    files: matter.files.length,
+    files: liveFileCount,
     authorities: matter.authorities.length,
     notes: null,
   };
@@ -106,77 +126,21 @@ export function MatterTabs({
             matterName={matterName}
             conversations={conversations}
             activeConversation={activeConversation}
-            fileCount={matter.files.length}
+            fileCount={liveFileCount}
             authorityCount={matter.authorities.length}
           />
         )}
-        {active === 'files' && <FilesTab matter={matter} />}
+        {active === 'files' && (
+          <FilesTab
+            matterId={matterId}
+            personalTagHistory={personalTagHistory}
+          />
+        )}
         {active === 'authorities' && <AuthoritiesTab matter={matter} />}
         {active === 'notes' && <NotesTab matter={matter} />}
       </div>
     </div>
   );
-}
-
-// =============================================================================
-// Files tab (unchanged from Chunk 2 — still mock data until Chunk 6)
-// =============================================================================
-
-function FilesTab({ matter }: { matter: MockMatter }) {
-  return (
-    <div className="bb-matter-files">
-      <div className="bb-matter-section-head">
-        <div>
-          <h2>Files</h2>
-          <p>Upload pleadings, evidence, advices, and correspondence.</p>
-        </div>
-        <button type="button" className="bb-btn bb-btn-primary" disabled>
-          + Upload file
-        </button>
-      </div>
-
-      {matter.files.length === 0 ? (
-        <div className="bb-matter-empty">
-          <h3>No files yet</h3>
-          <p>Add the first document to this case to get started.</p>
-        </div>
-      ) : (
-        <ul className="bb-matter-file-list">
-          {matter.files.map((f) => (
-            <li key={f.id} className="bb-matter-file">
-              <div className="bb-matter-file-icon" aria-hidden>
-                {fileGlyph(f.name)}
-              </div>
-              <div className="bb-matter-file-body">
-                <div className="bb-matter-file-name">{f.name}</div>
-                <div className="bb-matter-file-meta">
-                  <span className="bb-matter-file-cat">{f.category}</span>
-                  <span>{f.size}</span>
-                  <span>Uploaded {f.uploadedAt}</span>
-                </div>
-              </div>
-              <button
-                type="button"
-                className="bb-matter-file-action"
-                aria-label="More actions"
-              >
-                ⋯
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
-  );
-}
-
-function fileGlyph(name: string): string {
-  const ext = name.split('.').pop()?.toLowerCase() ?? '';
-  if (ext === 'pdf') return 'PDF';
-  if (ext === 'docx' || ext === 'doc') return 'DOC';
-  if (ext === 'xlsx' || ext === 'xls') return 'XLS';
-  if (ext === 'pptx' || ext === 'ppt') return 'PPT';
-  return 'FILE';
 }
 
 // =============================================================================

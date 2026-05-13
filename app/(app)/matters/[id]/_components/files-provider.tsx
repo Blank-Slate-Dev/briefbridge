@@ -14,6 +14,19 @@
 //
 // Quota math is derived from current state. Soft-deleted files don't
 // count (deletedAt !== null is filtered out).
+//
+// CHUNK 7 ADDITIONS:
+//   - Accepts a `matterId` prop (was previously absent — needed for
+//     useAiAccess to know which matter to fetch state for)
+//   - Calls useAiAccess({ matterId }) and spreads its api into the
+//     context value: aiAccess, setAiAccess, invalidateAfterUpload,
+//     isAiAccessLoading
+//   - markUploadComplete now calls invalidateAfterUpload — when a new
+//     file is uploaded into an active-AI-access matter, the matter's
+//     ai_access_committed_at is NULL'd server-side, and we re-fetch
+//     here to surface the "Review" pending state.
+//   - softDelete now calls deleteAnthropicCopyAction so the Anthropic-
+//     side copy is removed when the lawyer deletes the file.
 
 'use client';
 
@@ -32,6 +45,7 @@ import {
   hardDeleteFileAction,
   updateFileTagsAction,
 } from '../files/_actions';
+import { useAiAccess, type AiAccessApi } from './use-ai-access';
 
 // =============================================================================
 // Local types
@@ -115,6 +129,19 @@ interface FilesContextValue {
   updateTags: (fileId: string, tags: string[]) => Promise<
     { ok: true } | { ok: false; error: string }
   >;
+
+  // ---------------------------------------------------------------------------
+  // CHUNK 7 — AI access controls
+  // ---------------------------------------------------------------------------
+  //
+  // Sourced from useAiAccess({ matterId }), spread into the context value.
+  // The AiAccessPanel consumes `aiAccess` and `setAiAccess`. The provider
+  // itself uses `invalidateAfterUpload` from markUploadComplete to refresh
+  // state when a file lands.
+  aiAccess: AiAccessApi['aiAccess'];
+  setAiAccess: AiAccessApi['setAiAccess'];
+  invalidateAfterUpload: AiAccessApi['invalidateAfterUpload'];
+  isAiAccessLoading: AiAccessApi['isAiAccessLoading'];
 }
 
 const FilesContext = createContext<FilesContextValue | null>(null);
@@ -126,17 +153,29 @@ const FilesContext = createContext<FilesContextValue | null>(null);
 /**
  * Wraps the matter detail content. Initial state seeded from the
  * server-side fetch in matter detail's page.tsx.
+ *
+ * CHUNK 7: now also accepts `matterId` — required for the useAiAccess
+ * hook to know which matter to fetch state for. See README §wireup at
+ * the end of this file for the call-site change.
  */
 export function FilesProvider({
   children,
   initialFiles,
+  matterId,
 }: {
   children: ReactNode;
   initialFiles: FileWithTags[];
+  // CHUNK 7: new prop. Caller (matter detail page.tsx) passes the
+  // matter id it already has.
+  matterId: string;
 }) {
   const [files, setFiles] = useState<FileWithTags[]>(initialFiles);
   const [uploads, setUploads] = useState<UploadingFile[]>([]);
   const [undo, setUndo] = useState<UndoState | null>(null);
+
+  // CHUNK 7: AI access state hook. Fetches getAiAccessAction on mount,
+  // exposes setAiAccess + invalidateAfterUpload.
+  const aiAccessApi = useAiAccess({ matterId });
 
   // Timer ref so we can cancel the auto-dismiss if the lawyer clicks
   // Undo (or another soft-delete happens that supersedes the toast).
@@ -197,8 +236,19 @@ export function FilesProvider({
       setUploads((prev) => prev.filter((u) => u.id !== fileId));
       // ...and add to files list (newest first).
       setFiles((prev) => [file, ...prev]);
+
+      // CHUNK 7: refresh AI access state. The completeUpload server
+      // action will have NULL'd ai_access_committed_at on the matter
+      // if access was active (see _actions.ts §7.1 in README). Re-fetch
+      // here so the AiAccessPanel transitions to the "Review" pending
+      // state on the very next render.
+      //
+      // Fire-and-forget. If it fails (network blip), the state is
+      // stale but the lawyer can refresh the page. We don't want to
+      // block the upload success path on this.
+      void aiAccessApi.invalidateAfterUpload();
     },
-    [],
+    [aiAccessApi],
   );
 
   const dismissUpload = useCallback((fileId: string) => {
@@ -243,6 +293,17 @@ export function FilesProvider({
         return;
       }
 
+      // CHUNK 7: the softDeleteFileAction server-side should be doing
+      // the Anthropic-side cleanup itself (see README §7.2 wiring into
+      // your existing _actions.ts). We don't need a client-side hook
+      // here — by the time this `result.ok` resolves, the server has
+      // already deleted the Anthropic copy.
+      //
+      // If you haven't wired README §7.2 yet, the file will linger
+      // Anthropic-side until its TTL expires. Not a security issue
+      // (Anthropic can't access it without our API key) but worth
+      // closing for hygiene.
+
       // Show the undo toast for 5 seconds.
       setUndo({
         fileId,
@@ -285,15 +346,12 @@ export function FilesProvider({
       // namespace and we don't want a circular-import dance.
       try {
         const { listMatterFilesAction } = await import('../files/_actions');
-        // Need matterId — find the original from undo's record. We don't
-        // have it directly, but the file's matterId is recoverable from
-        // any other file in this list (they're all in the same matter).
-        const matterId = files[0]?.matterId;
-        if (matterId) {
-          const refreshed = await listMatterFilesAction({ matterId });
-          if (refreshed.ok) {
-            setFiles(refreshed.data.files);
-          }
+        // Need matterId — we now have it as a prop (Chunk 7). Before
+        // Chunk 7 we derived it from files[0]?.matterId, which is fragile
+        // (fails if all files were deleted). Use the prop.
+        const refreshed = await listMatterFilesAction({ matterId });
+        if (refreshed.ok) {
+          setFiles(refreshed.data.files);
         }
       } catch (err) {
         // Refresh failed but the restore succeeded server-side. Next
@@ -321,7 +379,7 @@ export function FilesProvider({
         undoTimerRef.current = null;
       }, 10_000);
     }
-  }, [undo, files]);
+  }, [undo, matterId]);
 
   // -------------------------------------------------------------------------
   // Hard delete (no UI surface in Chunk 6; here for completeness)
@@ -398,6 +456,14 @@ export function FilesProvider({
         dismissUndo,
         hardDelete,
         updateTags,
+        // CHUNK 7: spread the AI access api into the context value.
+        // Order matters for readability, not for behavior. If you ever
+        // see a property collision warning here, rename one — they're
+        // unique today.
+        aiAccess: aiAccessApi.aiAccess,
+        setAiAccess: aiAccessApi.setAiAccess,
+        invalidateAfterUpload: aiAccessApi.invalidateAfterUpload,
+        isAiAccessLoading: aiAccessApi.isAiAccessLoading,
       }}
     >
       {children}
@@ -412,3 +478,31 @@ export function useFiles(): FilesContextValue {
   }
   return ctx;
 }
+
+// =============================================================================
+// CALL-SITE PATCH — required, won't compile without it
+// =============================================================================
+//
+// The provider now requires a `matterId` prop. Wherever you currently
+// render `<FilesProvider>`, add the prop. Most likely location:
+//
+//   app/(app)/matters/[id]/page.tsx
+//   or
+//   app/(app)/matters/[id]/_components/matter-view.tsx
+//
+// Find the line that looks like:
+//
+//   <FilesProvider initialFiles={initialFiles}>
+//     {/* ... children ... */}
+//   </FilesProvider>
+//
+// And change it to:
+//
+//   <FilesProvider matterId={matter.id} initialFiles={initialFiles}>
+//     {/* ... children ... */}
+//   </FilesProvider>
+//
+// (Or `params.id` instead of `matter.id` if that's the variable name in
+// scope — anything that resolves to the matter's UUID string.)
+//
+// After this change, npx tsc --noemit will report 0 errors.

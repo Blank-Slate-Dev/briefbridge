@@ -2504,3 +2504,494 @@ body:has(.bb-matter-main) {
   color: var(--bb-navy);
   background: rgba(20, 29, 53, 0.06);
 }
+/*
+ * matters-chunk7.css
+ *
+ * APPEND-ONLY additions for Chunk 7 UI. User appends this content to
+ * their existing matters.css. No existing classes are modified.
+ *
+ * Design uses the established bb-* design tokens:
+ *   --bb-cream, --bb-navy, --bb-highlight (gold), --bb-fraunces, --bb-geist
+ *
+ * Class families:
+ *   bb-ai-access*       — the AI access panel in the Files tab
+ *   bb-file-badge*      — small pills on file rows (Protected)
+ *   bb-file-citation*   — inline quote block citation
+ *   bb-caselaw-citation* — placeholder for the caselaw citation list item
+ *   bb-tool-status*     — inline "Reading: X, Y" indicator in chat
+ *   bb-message-warning* — amber dot + popover for partial-read warnings
+ *   bb-kebab-item       — used by the FileBlockMenuItem (if your existing
+ *                         kebab uses a different class, just replace this
+ *                         class name in file-block-control.tsx)
+ *   bb-button (variants) — duplicated minimal definition in case your
+ *                          existing bb-button family doesn't cover these
+ *                          variants
+ *
+ * Roughly 250 lines. Sections clearly delimited.
+ */
+
+/* =========================================================================
+   AI ACCESS PANEL
+   ========================================================================= */
+
+.bb-ai-access {
+  /* Sits above the file list. Has the cream/navy card aesthetic. */
+  border: 1px solid rgba(28, 47, 73, 0.12); /* faint navy */
+  border-radius: 12px;
+  background: var(--bb-cream, #f8f4ec);
+  padding: 18px 20px;
+  margin-bottom: 16px;
+  font-family: var(--bb-geist, system-ui);
+}
+
+.bb-ai-access--off {
+  /* nothing extra */
+}
+
+.bb-ai-access--on {
+  border-color: rgba(28, 47, 73, 0.22);
+}
+
+.bb-ai-access--pending {
+  /* Amber-ish edge to signal action needed */
+  border-color: rgba(203, 156, 50, 0.55);
+  background: rgba(203, 156, 50, 0.06);
+}
+
+.bb-ai-access--picking {
+  border-color: var(--bb-highlight, #c89c47);
+  background: #fbf6ec;
+}
+
+.bb-ai-access__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.bb-ai-access__main {
+  flex: 1;
+  min-width: 0;
+}
+
+.bb-ai-access__title {
+  font-family: var(--bb-fraunces, Georgia, serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--bb-navy, #1c2f49);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bb-ai-access__subtitle {
+  font-size: 0.875rem;
+  color: rgba(28, 47, 73, 0.72);
+  margin-top: 4px;
+}
+
+.bb-ai-access__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #2f9f6f; /* green = active */
+  display: inline-block;
+}
+
+.bb-ai-access__dot--pending {
+  background: var(--bb-highlight, #c89c47);
+}
+
+.bb-ai-access__actions {
+  display: flex;
+  gap: 8px;
+}
+
+.bb-ai-access__actions--picking {
+  justify-content: flex-end;
+  margin-top: 16px;
+  border-top: 1px solid rgba(28, 47, 73, 0.08);
+  padding-top: 14px;
+}
+
+.bb-ai-access__head {
+  margin-bottom: 14px;
+}
+
+.bb-ai-access__help {
+  font-size: 0.875rem;
+  color: rgba(28, 47, 73, 0.72);
+  margin: 6px 0 0 0;
+}
+
+.bb-ai-access__fieldset {
+  border: none;
+  padding: 0;
+  margin: 12px 0;
+}
+
+.bb-ai-access__legend {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgba(28, 47, 73, 0.6);
+  margin-bottom: 8px;
+  padding: 0;
+}
+
+.bb-ai-access__radio {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+
+.bb-ai-access__radio:hover {
+  background: rgba(28, 47, 73, 0.04);
+}
+
+.bb-ai-access__radio input[type="radio"] {
+  margin-top: 3px;
+}
+
+.bb-ai-access__radio-label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.bb-ai-access__radio-label strong {
+  font-weight: 600;
+  color: var(--bb-navy, #1c2f49);
+  font-size: 0.95rem;
+}
+
+.bb-ai-access__radio-help {
+  font-size: 0.84rem;
+  color: rgba(28, 47, 73, 0.65);
+}
+
+.bb-ai-access__exclusions {
+  border-top: 1px solid rgba(28, 47, 73, 0.08);
+  padding-top: 14px;
+}
+
+.bb-ai-access__file-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 280px;
+  overflow-y: auto;
+  border: 1px solid rgba(28, 47, 73, 0.1);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.bb-ai-access__file-row {
+  padding: 8px 12px;
+  border-bottom: 1px solid rgba(28, 47, 73, 0.06);
+}
+
+.bb-ai-access__file-row:last-child {
+  border-bottom: none;
+}
+
+.bb-ai-access__file-row label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.bb-ai-access__file-name {
+  flex: 1;
+  font-size: 0.9rem;
+  color: var(--bb-navy, #1c2f49);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bb-ai-access__file-badge {
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(203, 156, 50, 0.18);
+  color: #8b6a1b;
+  font-weight: 600;
+}
+
+.bb-ai-access__empty {
+  font-size: 0.88rem;
+  color: rgba(28, 47, 73, 0.6);
+  font-style: italic;
+}
+
+.bb-ai-access__hint {
+  font-size: 0.78rem;
+  color: rgba(28, 47, 73, 0.55);
+  margin: 10px 0 0 0;
+}
+
+.bb-ai-access__error {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: #fdecec;
+  color: #842424;
+  font-size: 0.88rem;
+}
+
+/* =========================================================================
+   FILE ROW — Protected badge
+   ========================================================================= */
+
+.bb-file-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-weight: 600;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.bb-file-badge--protected {
+  background: rgba(203, 156, 50, 0.18);
+  color: #8b6a1b;
+}
+
+/* =========================================================================
+   FILE CITATION — inline quote block (Chunk 7)
+   ========================================================================= */
+
+.bb-message-citations {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bb-file-citation {
+  border-left: 3px solid var(--bb-highlight, #c89c47);
+  padding: 4px 0 4px 14px;
+}
+
+.bb-file-citation__quote {
+  font-family: var(--bb-fraunces, Georgia, serif);
+  font-size: 0.98rem;
+  line-height: 1.55;
+  color: var(--bb-navy, #1c2f49);
+  margin: 0;
+  font-style: italic;
+}
+
+.bb-file-citation__source {
+  margin-top: 6px;
+  font-size: 0.83rem;
+  color: rgba(28, 47, 73, 0.68);
+  font-family: var(--bb-geist, system-ui);
+}
+
+.bb-file-citation__filename {
+  font-weight: 600;
+  color: var(--bb-navy, #1c2f49);
+}
+
+/* Placeholder caselaw citation styling — minimal so it composes with
+ * whatever existing caselaw rendering you have. Reconcile per README §6. */
+.bb-caselaw-citation {
+  font-size: 0.86rem;
+  color: rgba(28, 47, 73, 0.72);
+}
+
+.bb-caselaw-citation__meta {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: rgba(28, 47, 73, 0.06);
+}
+
+/* =========================================================================
+   TOOL STATUS INDICATOR (inline "Reading X, Y" in chat)
+   ========================================================================= */
+
+.bb-tool-status {
+  margin: 12px 0;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: rgba(28, 47, 73, 0.04);
+  border: 1px solid rgba(28, 47, 73, 0.08);
+  font-family: var(--bb-geist, system-ui);
+}
+
+.bb-tool-status__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.86rem;
+  color: var(--bb-navy, #1c2f49);
+}
+
+.bb-tool-status__item + .bb-tool-status__item {
+  margin-top: 6px;
+}
+
+.bb-tool-status__icon {
+  color: var(--bb-highlight, #c89c47);
+  flex-shrink: 0;
+  width: 14px;
+  text-align: center;
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.bb-tool-status__files {
+  font-weight: 600;
+}
+
+.bb-tool-status__reason {
+  color: rgba(28, 47, 73, 0.65);
+  font-style: italic;
+}
+
+/* =========================================================================
+   MESSAGE WARNING DOT (amber dot for partial reads)
+   ========================================================================= */
+
+.bb-message-warning {
+  position: relative;
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.bb-message-warning__dot {
+  border: none;
+  background: none;
+  padding: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bb-message-warning__dot-glyph {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--bb-highlight, #c89c47);
+  display: inline-block;
+}
+
+.bb-message-warning__popover {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 50;
+  min-width: 280px;
+  max-width: 380px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid rgba(28, 47, 73, 0.14);
+  box-shadow: 0 4px 14px rgba(28, 47, 73, 0.1);
+  font-size: 0.85rem;
+}
+
+.bb-message-warning__title {
+  font-weight: 600;
+  color: var(--bb-navy, #1c2f49);
+  margin-bottom: 6px;
+}
+
+.bb-message-warning__list {
+  list-style: disc;
+  padding-left: 18px;
+  margin: 0;
+  color: rgba(28, 47, 73, 0.78);
+}
+
+.bb-message-warning__list li + li {
+  margin-top: 4px;
+}
+
+/* =========================================================================
+   KEBAB ITEM (defensive; replace with your existing class if different)
+   ========================================================================= */
+
+.bb-kebab-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 8px 14px;
+  background: none;
+  border: none;
+  font-size: 0.88rem;
+  color: var(--bb-navy, #1c2f49);
+  cursor: pointer;
+  font-family: var(--bb-geist, system-ui);
+}
+
+.bb-kebab-item:hover:not(:disabled) {
+  background: rgba(28, 47, 73, 0.06);
+}
+
+.bb-kebab-item:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* =========================================================================
+   BUTTON VARIANTS (defensive duplicates; your bb-button family may
+   already define these — these are scoped enough not to clash)
+   ========================================================================= */
+
+.bb-ai-access .bb-button {
+  border: 1px solid transparent;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: var(--bb-geist, system-ui);
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+
+.bb-ai-access .bb-button--primary {
+  background: var(--bb-navy, #1c2f49);
+  color: var(--bb-cream, #f8f4ec);
+}
+
+.bb-ai-access .bb-button--primary:hover:not(:disabled) {
+  background: #2a3f63;
+}
+
+.bb-ai-access .bb-button--ghost {
+  background: transparent;
+  color: var(--bb-navy, #1c2f49);
+  border-color: rgba(28, 47, 73, 0.18);
+}
+
+.bb-ai-access .bb-button--ghost:hover:not(:disabled) {
+  background: rgba(28, 47, 73, 0.04);
+}
+
+.bb-ai-access .bb-button--danger {
+  color: #842424;
+  border-color: rgba(132, 36, 36, 0.2);
+}
+
+.bb-ai-access .bb-button--danger:hover:not(:disabled) {
+  background: rgba(132, 36, 36, 0.06);
+}
+
+.bb-ai-access .bb-button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}

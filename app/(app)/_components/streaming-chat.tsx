@@ -10,6 +10,10 @@
 //   - Auto-resize textarea
 //   - Cancel-on-unmount of in-flight streams
 //
+// CHUNK 7 CHANGE: StoredCitation is now a discriminated union (caselaw |
+// file). The CitationsPanel below narrows on `kind` (with caselaw as the
+// default for back-compat with pre-Chunk-7 rows that have no kind field).
+//
 // What it DOESN'T own:
 //   - Outer page shell (full-viewport vs inline scroll — wrappers decide)
 //   - Welcome screen with example prompts (only standalone wants this)
@@ -33,7 +37,11 @@ import {
   type ReactNode,
 } from 'react';
 import Link from 'next/link';
-import type { StoredCitation } from '@/lib/db/schema';
+import type {
+  StoredCitation,
+  CaselawCitation,
+  FileCitation,
+} from '@/lib/db/schema';
 
 // =============================================================================
 // Types
@@ -496,40 +504,107 @@ function renderInline(text: string): React.ReactNode[] {
   return out;
 }
 
+// =============================================================================
+// CITATION PANEL — Chunk 7: handles BOTH caselaw and file citations
+// =============================================================================
+//
+// StoredCitation is now a discriminated union:
+//   - kind: 'caselaw' (or undefined for pre-Chunk-7 rows) — judgmentId,
+//     caseName, paragraphNumber, paragraphText, similarity, citation
+//   - kind: 'file' — fileId, filename, page, quote
+//
+// We narrow on `kind` for each citation before accessing kind-specific
+// fields. Caselaw citations render inside the existing
+// <Link to /cases/...> shape. File citations render as a smaller item
+// without a link (no per-file-page route yet — see TODO in
+// message-citations.tsx).
+//
+// Helper: isCaselawCitation. We treat missing `kind` as caselaw for
+// backwards compatibility — pre-Chunk-7 rows in the DB don't have a
+// kind field but ARE caselaw shape.
+
+function isCaselawCitation(c: Citation): c is CaselawCitation {
+  return c.kind === undefined || c.kind === 'caselaw';
+}
+
+function isFileCitation(c: Citation): c is FileCitation {
+  return c.kind === 'file';
+}
+
 function CitationsPanel({ citations }: { citations: Citation[] }) {
+  // Split into the two kinds so we can present them in distinct sections.
+  // Caselaw is the established pattern; file citations are new in Chunk 7.
+  const caselawCitations = citations.filter(isCaselawCitation);
+  const fileCitations = citations.filter(isFileCitation);
+
+  const total = caselawCitations.length + fileCitations.length;
+  if (total === 0) return null;
+
   return (
     <details className="bb-citations">
       <summary>
         <span className="bb-citations-arrow" aria-hidden>
           ›
         </span>
-        {citations.length} source{citations.length === 1 ? '' : 's'} found
+        {total} source{total === 1 ? '' : 's'} found
+        {fileCitations.length > 0 && caselawCitations.length > 0 && (
+          <span className="bb-citations-breakdown">
+            {' '}
+            ({caselawCitations.length} case
+            {caselawCitations.length === 1 ? '' : 's'}, {fileCitations.length}{' '}
+            file{fileCitations.length === 1 ? '' : 's'})
+          </span>
+        )}
       </summary>
       <ul className="bb-citations-list">
-        {citations.map((c) => (
-          <li key={c.index}>
-            <Link
-              href={`/cases/${c.judgmentId}#para-${c.paragraphNumber}`}
-              className="bb-citations-link"
-            >
-              <div className="bb-citations-head">
-                <span className="bb-citations-num">[{c.index}]</span>
-                <span className="bb-citations-name">
-                  {c.caseName ?? 'Untitled'}
-                </span>
-                <span className="bb-citations-cite">{c.citation}</span>
-                <span className="bb-citations-para">
-                  at [{c.paragraphNumber}]
-                </span>
-                <span className="bb-citations-sim">
-                  {(c.similarity * 100).toFixed(0)}%
-                </span>
-              </div>
-              <p className="bb-citations-snippet">{c.paragraphText}</p>
-            </Link>
-          </li>
+        {caselawCitations.map((c) => (
+          <CaselawCitationRow key={`cl-${c.index}`} c={c} />
+        ))}
+        {fileCitations.map((c) => (
+          <FileCitationRow key={`fc-${c.index}-${c.fileId}`} c={c} />
         ))}
       </ul>
     </details>
+  );
+}
+
+function CaselawCitationRow({ c }: { c: CaselawCitation }) {
+  return (
+    <li>
+      <Link
+        href={`/cases/${c.judgmentId}#para-${c.paragraphNumber}`}
+        className="bb-citations-link"
+      >
+        <div className="bb-citations-head">
+          <span className="bb-citations-num">[{c.index}]</span>
+          <span className="bb-citations-name">
+            {c.caseName ?? 'Untitled'}
+          </span>
+          <span className="bb-citations-cite">{c.citation}</span>
+          <span className="bb-citations-para">at [{c.paragraphNumber}]</span>
+          <span className="bb-citations-sim">
+            {(c.similarity * 100).toFixed(0)}%
+          </span>
+        </div>
+        <p className="bb-citations-snippet">{c.paragraphText}</p>
+      </Link>
+    </li>
+  );
+}
+
+function FileCitationRow({ c }: { c: FileCitation }) {
+  // No per-file-page route yet — render as a plain div, not a Link.
+  // Future: a /files/[id]?page=N route would make these clickable.
+  return (
+    <li>
+      <div className="bb-citations-link bb-citations-link--file">
+        <div className="bb-citations-head">
+          <span className="bb-citations-num">[{c.index}]</span>
+          <span className="bb-citations-name">{c.filename}</span>
+          <span className="bb-citations-para">p. {c.page}</span>
+        </div>
+        <p className="bb-citations-snippet">&ldquo;{c.quote}&rdquo;</p>
+      </div>
+    </li>
   );
 }

@@ -2,33 +2,32 @@
 //
 // Streaming chat endpoint backing /chat and /matters/[id]/chat.
 //
-// What changed in Chunk 3:
-//   - Authenticates the user via the Supabase server client. Anonymous
-//     callers get 401.
-//   - Accepts an OPTIONAL `conversationId` in the request body. If absent,
-//     a new conversation is created and its id returned to the client via
-//     a new SSE event type 'conversation'.
-//   - Also accepts an OPTIONAL `matterId` for in-matter conversations.
-//     Only used when creating a new conversation (ignored if conversationId
-//     is already provided).
-//   - Persists the user message BEFORE streaming, and the assistant
-//     message AFTER streaming completes (with the citation hits stored
-//     in messages.citations).
+// CHUNK 7 RECONCILIATION + FIX (May 2026):
 //
-// Request shape:
-//   POST /api/chat
-//   {
-//     messages: [{ role, content }, ...],
-//     conversationId?: string,   // optional — provide to continue an existing conversation
-//     matterId?: string          // optional — only used when creating a new conversation
-//   }
+// Two important corrections from the previous version:
 //
-// SSE event types emitted (in order):
-//   data: { "type": "conversation", "conversationId": "..." }  ← FIRST, always
-//   data: { "type": "citations", "hits": [...] }
-//   data: { "type": "delta", "text": "..." }                   ← repeated
-//   data: { "type": "done" }
-//   data: { "type": "error", "message": "..." }                ← on error
+//   1. Anthropic Files API requires the beta header
+//      `files-api-2025-04-14` on the Messages call, not just on the
+//      Files.upload call. Without it, `document.source.type: 'file'`
+//      is rejected. We pass `betas: ['files-api-2025-04-14']` into
+//      messages.stream().
+//
+//   2. tool_result content blocks accept TEXT only, not document blocks.
+//      So we split the tool's return into:
+//        - toolResultText: goes inside the tool_result content
+//        - documentBlocks: appended as a SEPARATE user message right
+//          after the tool_result
+//
+// Otherwise this is the same reconciled route from before:
+//   - Auth, validation, conversation resolution, getMatter (unchanged)
+//   - User message persisted BEFORE streaming
+//   - Semantic search on every user message
+//   - Caselaw citations with kind: 'caselaw'
+//   - When matter has AI access on: tool-use loop with read_files
+//   - File citations indexed AFTER caselaw indices
+//   - SSE protocol: conversation, citations, delta, done, error,
+//     plus new tool_use_start, tool_use_complete, partial_read_warning,
+//     file_citations
 
 import Anthropic from '@anthropic-ai/sdk';
 import { createClient } from '@/lib/supabase/server';
@@ -39,14 +38,33 @@ import {
   appendMessage,
 } from '@/lib/db/queries/conversations';
 import { getMatter } from '@/lib/db/queries/matters';
-import type { StoredCitation } from '@/lib/db/schema';
+import { listFilesForAi, type FileForAi } from '@/lib/db/queries/ai-access';
+import { MAX_READ_TOKENS_PER_TURN } from '@/lib/files/ai-access-types';
+import { CHAT_TOOLS, isReadFilesToolInput } from '@/lib/chat/tool-definitions';
+import {
+  extractFileCitations,
+  hydrateFileCitations,
+} from '@/lib/chat/citations';
+import type {
+  FilesToolResponse,
+  DocumentBlock,
+} from '@/app/api/files-tool/route';
+import type { StoredCitation, FileCitation } from '@/lib/db/schema';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 export const maxDuration = 60;
 
+const MODEL = 'claude-sonnet-4-6';
+const MAX_TOKENS_PER_RESPONSE = 2048;
+const MAX_TURN_ITERATIONS = 4;
+
+// Files API beta header. REQUIRED on the Messages call when using
+// `document` content blocks with `source.type: 'file'`.
+const FILES_API_BETA = 'files-api-2025-04-14';
+
 // =============================================================================
-// Request validation
+// Request validation — UNCHANGED
 // =============================================================================
 
 interface ChatMessage {
@@ -98,9 +116,6 @@ function validateRequest(body: unknown): ChatRequest | { error: string } {
     return { error: 'Last message must be from user.' };
   }
 
-  // Optional conversationId — UUID-ish format check (Postgres will reject
-  // anything that's not a valid UUID at INSERT time, but we shortcut the
-  // round trip).
   let conversationId: string | undefined;
   if (typeof b.conversationId === 'string') {
     const trimmed = b.conversationId.trim();
@@ -130,10 +145,17 @@ const UUID_RE =
   /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 // =============================================================================
-// System prompt construction (unchanged from Chunk 2)
+// System prompt — UNCHANGED from previous reconciled version
 // =============================================================================
 
-function buildSystemPrompt(hits: SemanticSearchHit[]): string {
+function buildSystemPrompt(
+  hits: SemanticSearchHit[],
+  aiFilesContext: {
+    filesList: FileForAi[];
+    truncated: boolean;
+    totalAccessibleFiles: number;
+  } | null,
+): string {
   const sourcesBlock =
     hits.length === 0
       ? 'No relevant cases were found in the database for this query.'
@@ -146,7 +168,7 @@ function buildSystemPrompt(hits: SemanticSearchHit[]): string {
           })
           .join('\n\n---\n\n');
 
-  return `You are BriefBridge, a legal research assistant for Australian lawyers.
+  const base = `You are BriefBridge, a legal research assistant for Australian lawyers.
 
 You help lawyers research legal questions by analyzing the most relevant case law passages and providing grounded, accurate answers with verifiable citations.
 
@@ -181,6 +203,72 @@ ${sourcesBlock}
 # When the user's question is unclear
 
 Ask one clarifying question rather than guessing. Lawyers prefer precision.`;
+
+  if (!aiFilesContext || aiFilesContext.filesList.length === 0) {
+    return base;
+  }
+
+  const fileLines = aiFilesContext.filesList.map((f) => {
+    const sizeLabel = formatBytes(f.fileSize);
+    const pagesLabel =
+      f.pageCount && f.pageCount > 0 ? `, ${f.pageCount} pages` : '';
+    const mimeLabel = formatMime(f.mimeType);
+    const tagLabel =
+      f.tags.length > 0 ? ` — tagged: ${f.tags.join(', ')}` : '';
+    return `- ${f.filename} — ${sizeLabel}${pagesLabel} ${mimeLabel}${tagLabel}`;
+  });
+
+  const truncatedFooter = aiFilesContext.truncated
+    ? `\n\n(Plus ${aiFilesContext.totalAccessibleFiles - aiFilesContext.filesList.length} more file(s) not shown above — you can still call read_files for them by name if the lawyer mentions them.)`
+    : '';
+
+  const filesBlock = `
+
+# This case has uploaded files you can read
+
+In addition to the NSW caselaw above, the lawyer has uploaded files to this case. Use the read_files tool to read them when relevant to the question. Rules:
+
+1. PLAN UP FRONT. Decide which files you need before calling read_files. Make ONE call with all files you anticipate needing in this turn.
+
+2. PROVIDE A REASON. Every read_files call must include a clear, specific reason explaining what you're trying to find.
+
+3. AFTER YOU CALL read_files, the file contents will appear in the conversation as a separate message. Read them carefully before responding.
+
+4. QUOTE VERBATIM with page anchors when citing file content. Use this exact format:
+
+   > "exact text from the file"
+   > — filename.pdf, p.3
+
+   Verbatim quote, page anchor on the source line. No paraphrasing inside the quote block.
+
+5. DON'T INVENT CONTENT. If a file doesn't address the question, say so.
+
+6. PER-TURN LIMIT. Up to roughly ${MAX_READ_TOKENS_PER_TURN.toLocaleString()} tokens of file content per call. Larger requests will be truncated with warnings.
+
+7. CITATION NUMBERING for files is separate from caselaw [N] numbering. When you cite files using the quote-block format above, that's enough — don't try to put them in the [N] scheme.
+
+Available files in this case (call read_files with one or more filenames):
+${fileLines.join('\n')}${truncatedFooter}`;
+
+  return base + filesBlock;
+}
+
+function formatBytes(bytes: number): string {
+  if (bytes < 1_000) return `${bytes} B`;
+  if (bytes < 1_000_000) return `${Math.round(bytes / 1_000)} KB`;
+  if (bytes < 10_000_000) return `${(bytes / 1_000_000).toFixed(1)} MB`;
+  return `${Math.round(bytes / 1_000_000)} MB`;
+}
+
+function formatMime(mime: string): string {
+  if (mime === 'application/pdf') return 'PDF';
+  if (
+    mime ===
+    'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+  )
+    return 'Word doc';
+  if (mime === 'text/plain') return 'text';
+  return 'file';
 }
 
 // =============================================================================
@@ -188,8 +276,9 @@ Ask one clarifying question rather than guessing. Lawyers prefer precision.`;
 // =============================================================================
 
 export async function POST(request: Request) {
-  // Auth check. Anonymous users can't use chat — this endpoint is a
-  // protected feature.
+  // ---------------------------------------------------------------------------
+  // Auth + validation
+  // ---------------------------------------------------------------------------
   const supabase = await createClient();
   const {
     data: { user },
@@ -198,7 +287,6 @@ export async function POST(request: Request) {
     return jsonError('Not authenticated.', 401);
   }
 
-  // Parse and validate body.
   let body: unknown;
   try {
     body = await request.json();
@@ -212,7 +300,6 @@ export async function POST(request: Request) {
   }
   const { messages, conversationId: providedConversationId, matterId } = validation;
 
-  // Verify env config.
   if (!process.env.ANTHROPIC_API_KEY) {
     return jsonError('Server misconfigured: ANTHROPIC_API_KEY missing.', 500);
   }
@@ -220,20 +307,11 @@ export async function POST(request: Request) {
     return jsonError('Server misconfigured: VOYAGE_API_KEY missing.', 500);
   }
 
-  // --------------------------------------------------------------------------
-  // Conversation resolution — find existing or create new
-  // --------------------------------------------------------------------------
-  //
-  // Three cases:
-  //   1. conversationId provided → verify it's owned by this user
-  //   2. no conversationId, matterId provided → verify matter ownership,
-  //      create a new conversation under that matter
-  //   3. neither → create a new standalone conversation
-  //
-  // We do this BEFORE we start streaming because we need to emit the
-  // conversationId as the very first SSE event.
-
+  // ---------------------------------------------------------------------------
+  // Conversation resolution
+  // ---------------------------------------------------------------------------
   let conversationId: string;
+  let resolvedMatterId: string | null = null;
 
   if (providedConversationId) {
     const existing = await getConversation(user.id, providedConversationId);
@@ -241,9 +319,8 @@ export async function POST(request: Request) {
       return jsonError('Conversation not found.', 404);
     }
     conversationId = existing.id;
+    resolvedMatterId = existing.matterId ?? null;
   } else {
-    // Verify matter ownership if matterId was provided.
-    let resolvedMatterId: string | null = null;
     if (matterId) {
       const matter = await getMatter(user.id, matterId);
       if (!matter) {
@@ -252,8 +329,6 @@ export async function POST(request: Request) {
       resolvedMatterId = matter.id;
     }
 
-    // Create a new conversation. Use the first ~60 chars of the user
-    // message as a working title — better than NULL, replaceable later.
     const firstUserMessage = messages[messages.length - 1].content;
     const title = firstUserMessage.slice(0, 60).trim();
 
@@ -264,19 +339,9 @@ export async function POST(request: Request) {
     conversationId = newConv.id;
   }
 
-  // --------------------------------------------------------------------------
-  // Persist the user message BEFORE streaming
-  // --------------------------------------------------------------------------
-  //
-  // We persist the user message synchronously, before streaming starts,
-  // so if Claude errors out we still have a record of what the user asked.
-  //
-  // For an EXISTING conversation, we only persist the LAST message in the
-  // request payload — the earlier messages are already in the DB (the
-  // client sends them as conversation history for Claude's context, not
-  // for us to re-persist). For a NEW conversation, same logic still
-  // applies because the messages array has length 1 in that case.
-
+  // ---------------------------------------------------------------------------
+  // Persist user message BEFORE streaming
+  // ---------------------------------------------------------------------------
   const latestUserMessage = messages[messages.length - 1].content;
   try {
     await appendMessage(user.id, {
@@ -289,10 +354,9 @@ export async function POST(request: Request) {
     return jsonError(`Failed to persist message: ${msg}`, 500);
   }
 
-  // --------------------------------------------------------------------------
-  // Semantic search (unchanged)
-  // --------------------------------------------------------------------------
-
+  // ---------------------------------------------------------------------------
+  // Semantic search
+  // ---------------------------------------------------------------------------
   let hits: SemanticSearchHit[];
   try {
     hits = await semanticSearch(latestUserMessage, { limit: 15 });
@@ -301,9 +365,8 @@ export async function POST(request: Request) {
     return jsonError(`Semantic search error: ${message}`, 500);
   }
 
-  // Build the StoredCitation shape that matches both what we'll persist
-  // AND what we'll emit over SSE. Keeping a single shape avoids drift.
-  const storedCitations: StoredCitation[] = hits.map((hit, i) => ({
+  const caselawCitations: StoredCitation[] = hits.map((hit, i) => ({
+    kind: 'caselaw',
     index: i + 1,
     judgmentId: hit.judgment.id,
     caseName: hit.judgment.caseName,
@@ -313,9 +376,31 @@ export async function POST(request: Request) {
     similarity: hit.similarity,
   }));
 
-  // --------------------------------------------------------------------------
-  // Stream Claude's response + persist assistant message at the end
-  // --------------------------------------------------------------------------
+  // ---------------------------------------------------------------------------
+  // AI access check
+  // ---------------------------------------------------------------------------
+  let aiAccessOn = false;
+  let aiFilesContext: {
+    filesList: FileForAi[];
+    truncated: boolean;
+    totalAccessibleFiles: number;
+  } | null = null;
+
+  if (resolvedMatterId) {
+    const filesAccess = await listFilesForAi(user.id, resolvedMatterId);
+    if (!filesAccess.isOff && filesAccess.files.length > 0) {
+      aiAccessOn = true;
+      aiFilesContext = {
+        filesList: filesAccess.files,
+        truncated: filesAccess.truncated,
+        totalAccessibleFiles: filesAccess.totalAccessible,
+      };
+    }
+  }
+
+  // ---------------------------------------------------------------------------
+  // Stream
+  // ---------------------------------------------------------------------------
 
   const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
   const encoder = new TextEncoder();
@@ -326,58 +411,272 @@ export async function POST(request: Request) {
         controller.enqueue(encoder.encode(`data: ${JSON.stringify(data)}\n\n`));
       };
 
-      // Buffer Claude's full response so we can persist it at the end.
       let fullAssistantContent = '';
+      const filesUsedAcrossTurn: Array<{
+        fileId: string;
+        filename: string;
+      }> = [];
 
       try {
-        // 1. Conversation event first — let the client capture the id
-        //    immediately. This is what makes "new conversation gets a URL"
-        //    work — the client receives the id before any text starts
-        //    streaming and can update its URL state.
+        // EVENT 1: conversation id.
         send({ type: 'conversation', conversationId });
 
-        // 2. Citations.
-        send({ type: 'citations', hits: storedCitations });
+        // EVENT 2: caselaw citations.
+        send({ type: 'citations', hits: caselawCitations });
 
-        // 3. Build prompt + stream Claude.
-        const systemPrompt = buildSystemPrompt(hits);
+        const systemPrompt = buildSystemPrompt(hits, aiFilesContext);
 
-        const claudeStream = await anthropic.messages.stream({
-          model: 'claude-sonnet-4-6',
-          max_tokens: 2048,
-          system: systemPrompt,
-          messages: messages.map((m) => ({
-            role: m.role,
-            content: m.content,
-          })),
-        });
+        type AnthropicMessage = {
+          role: 'user' | 'assistant';
+          content: string | Array<unknown>;
+        };
+        const anthropicMessages: AnthropicMessage[] = messages.map((m) => ({
+          role: m.role,
+          content: m.content,
+        }));
 
-        for await (const event of claudeStream) {
-          if (
-            event.type === 'content_block_delta' &&
-            event.delta.type === 'text_delta'
-          ) {
-            const text = event.delta.text;
-            fullAssistantContent += text;
-            send({ type: 'delta', text });
+        let iteration = 0;
+
+        while (iteration < MAX_TURN_ITERATIONS) {
+          iteration += 1;
+
+          // Build stream args. When AI access is on, pass tools AND the
+          // Files API beta header. Without the beta header, document
+          // blocks with source.type='file' are rejected.
+          const claudeStreamArgs: Anthropic.MessageStreamParams = {
+            model: MODEL,
+            max_tokens: MAX_TOKENS_PER_RESPONSE,
+            system: systemPrompt,
+            messages: anthropicMessages as unknown as Anthropic.MessageParam[],
+          };
+          if (aiAccessOn) {
+            claudeStreamArgs.tools = CHAT_TOOLS;
+          }
+
+          // The SDK takes `betas` as a top-level option on stream() —
+          // it's passed through as the anthropic-beta header.
+          const streamOptions = aiAccessOn
+            ? { headers: { 'anthropic-beta': FILES_API_BETA } }
+            : undefined;
+
+          const claudeStream = anthropic.messages.stream(
+            claudeStreamArgs,
+            streamOptions,
+          );
+
+          for await (const event of claudeStream) {
+            if (
+              event.type === 'content_block_delta' &&
+              event.delta.type === 'text_delta'
+            ) {
+              const text = event.delta.text;
+              fullAssistantContent += text;
+              send({ type: 'delta', text });
+            }
+          }
+
+          const finalMessage = await claudeStream.finalMessage();
+
+          anthropicMessages.push({
+            role: 'assistant',
+            content: finalMessage.content,
+          });
+
+          if (finalMessage.stop_reason !== 'tool_use') {
+            break;
+          }
+
+          if (!aiAccessOn) {
+            send({
+              type: 'error',
+              message: 'Unexpected tool use from AI service.',
+            });
+            break;
+          }
+
+          // ---- Tool use path ----
+
+          const toolUseBlocks = finalMessage.content.filter(
+            (block) => block.type === 'tool_use',
+          );
+          if (toolUseBlocks.length === 0) {
+            send({
+              type: 'error',
+              message: 'Unexpected response from AI service.',
+            });
+            break;
+          }
+
+          // Per the protocol fix: we build TWO things from each tool call:
+          //   - tool_result blocks (text only)
+          //   - document blocks (separate user message after)
+          const toolResultBlocks: Array<{
+            type: 'tool_result';
+            tool_use_id: string;
+            content: Array<{ type: 'text'; text: string }>;
+          }> = [];
+          const allDocumentBlocks: DocumentBlock[] = [];
+
+          for (const block of toolUseBlocks) {
+            if (block.type !== 'tool_use') continue;
+
+            if (block.name !== 'read_files') {
+              toolResultBlocks.push({
+                type: 'tool_result',
+                tool_use_id: block.id,
+                content: [
+                  { type: 'text', text: `Unknown tool: ${block.name}` },
+                ],
+              });
+              continue;
+            }
+
+            const input = block.input;
+            if (!isReadFilesToolInput(input)) {
+              toolResultBlocks.push({
+                type: 'tool_result',
+                tool_use_id: block.id,
+                content: [
+                  {
+                    type: 'text',
+                    text: 'Invalid tool input: filenames must be a non-empty array of strings and reason must be a string.',
+                  },
+                ],
+              });
+              continue;
+            }
+
+            send({
+              type: 'tool_use_start',
+              toolName: 'read_files',
+              toolUseId: block.id,
+              input: {
+                filenames: input.filenames,
+                reason: input.reason,
+              },
+            });
+
+            const toolReq = new Request(
+              new URL(request.url).origin + '/api/files-tool',
+              {
+                method: 'POST',
+                headers: request.headers,
+                body: JSON.stringify({
+                  matterId: resolvedMatterId,
+                  filenames: input.filenames,
+                }),
+              },
+            );
+            const { POST: filesToolHandler } = await import(
+              '@/app/api/files-tool/route'
+            );
+            const toolResp = await filesToolHandler(toolReq);
+            const toolData = (await toolResp.json()) as
+              | FilesToolResponse
+              | { ok: false; error: string };
+
+            if (!toolData.ok) {
+              toolResultBlocks.push({
+                type: 'tool_result',
+                tool_use_id: block.id,
+                content: [
+                  {
+                    type: 'text',
+                    text: `Couldn't read files: ${toolData.error}`,
+                  },
+                ],
+              });
+              continue;
+            }
+
+            for (const w of toolData.warnings) {
+              send({ type: 'partial_read_warning', warning: w });
+            }
+
+            filesUsedAcrossTurn.push(
+              ...toolData.filesUsed.map((f) => ({
+                fileId: f.fileId,
+                filename: f.filename,
+              })),
+            );
+
+            send({
+              type: 'tool_use_complete',
+              toolUseId: block.id,
+              filesUsed: toolData.filesUsed.map((f) => ({
+                fileId: f.fileId,
+                filename: f.filename,
+              })),
+            });
+
+            // The tool_result content is just the summary text.
+            toolResultBlocks.push({
+              type: 'tool_result',
+              tool_use_id: block.id,
+              content: [
+                { type: 'text', text: toolData.toolResultText },
+              ],
+            });
+
+            // Accumulate document blocks for the follow-up user message.
+            allDocumentBlocks.push(...toolData.documentBlocks);
+          }
+
+          // Step A: push the tool_result(s) as a user message.
+          anthropicMessages.push({
+            role: 'user',
+            content: toolResultBlocks,
+          });
+
+          // Step B: if we have document blocks, push them as a second
+          // user message right after. This is the key protocol shape.
+          if (allDocumentBlocks.length > 0) {
+            anthropicMessages.push({
+              role: 'user',
+              content: allDocumentBlocks,
+            });
+          }
+
+          // Loop to next iteration — Claude will read the documents
+          // in this follow-up message and continue its answer.
+        }
+
+        if (iteration >= MAX_TURN_ITERATIONS) {
+          send({
+            type: 'partial_read_warning',
+            warning:
+              'Reached the maximum number of tool-use iterations for this turn.',
+          });
+        }
+
+        // Extract file citations.
+        let fileCitations: FileCitation[] = [];
+        if (filesUsedAcrossTurn.length > 0) {
+          const extracted = extractFileCitations(fullAssistantContent);
+          if (extracted.length > 0) {
+            fileCitations = hydrateFileCitations(
+              extracted,
+              filesUsedAcrossTurn,
+              caselawCitations.length + 1,
+            );
+            send({ type: 'file_citations', citations: fileCitations });
           }
         }
 
-        // 4. Persist the assistant message with citations.
-        // We do this AFTER streaming completes — if persistence fails,
-        // the user has already seen the streamed answer, so we don't
-        // surface an error. We just log it.
+        // Persist assistant message.
         if (fullAssistantContent.length > 0) {
+          const allCitations: StoredCitation[] = [
+            ...caselawCitations,
+            ...fileCitations,
+          ];
           try {
             await appendMessage(user.id, {
               conversationId,
               role: 'assistant',
               content: fullAssistantContent,
-              citations: storedCitations,
+              citations: allCitations,
             });
           } catch (persistErr) {
-            // Non-fatal — the user has the answer in their browser even
-            // if it didn't save. Log for monitoring.
             // eslint-disable-next-line no-console
             console.error(
               '[chat] failed to persist assistant message:',

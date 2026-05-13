@@ -2,15 +2,20 @@
 //
 // Server Component for a single matter's detail page.
 //
-// What changed in Chunk 5:
-//   - Also server-fetches the matter's conversations via listConversations()
+// What changed in Chunk 6:
+//   - Also server-fetches the matter's files via listFiles()
+//   - Server-fetches the user's tag history via listUserTagHistory() for
+//     the tag editor autocomplete
+//   - Passes both through to MatterView, which plumbs to MatterTabs →
+//     FilesTab
+//
+// What's still the same as Chunk 5:
+//   - Server-fetches the matter's conversations via listConversations()
 //   - If ?conversationId=X is set AND the conversation is owned by the user
 //     AND belongs to this matter, also fetches that conversation's messages
 //     via getConversationWithMessages()
-//   - Passes both through to MatterView, which plumbs to MatterTabs →
-//     MatterResearchTab
 //
-// What's still the same as Chunk 3-4:
+// What's still the same as Chunks 3-4:
 //   - Reads `params.id` as `Promise<{id:string}>` (Next 16 idiom)
 //   - Authenticates via createClient(), redirects to /login if unauth
 //   - Calls notFound() if matter doesn't exist OR isn't owned by user
@@ -23,6 +28,7 @@ import {
   listConversations,
   getConversationWithMessages,
 } from '@/lib/db/queries/conversations';
+import { listFiles, listUserTagHistory } from '@/lib/db/queries/files';
 import { MatterView } from './_components/matter-view';
 import type { InitialMessage } from '../../_components/streaming-chat';
 import type { Conversation } from '@/lib/db/schema';
@@ -57,12 +63,23 @@ export default async function MatterDetailPage({
     notFound();
   }
 
-  // Fetch the matter's conversations (most-recently-updated first).
-  // Limit: 50 covers the realistic case for now; pagination can come later.
-  const matterConversations = await listConversations(user.id, {
-    matterId: matter.id,
-    limit: 50,
-  });
+  // Parallel fetches for everything else this page needs:
+  //   - the matter's conversations
+  //   - the matter's files (with tags pre-joined)
+  //   - the user's tag history (for autocomplete on the file tag editor)
+  //
+  // Promise.all keeps these in parallel so the page's TTFB doesn't grow
+  // linearly with the number of subdomains we read from. listConversations,
+  // listFiles, and listUserTagHistory are all independent queries against
+  // different tables.
+  const [matterConversations, initialFiles, personalTagHistory] = await Promise.all([
+    listConversations(user.id, {
+      matterId: matter.id,
+      limit: 50,
+    }),
+    listFiles(user.id, { matterId: matter.id }),
+    listUserTagHistory(user.id),
+  ]);
 
   // If ?conversationId=X is set, fetch that conversation's messages
   // (with ownership + matter-scope check). We pass the resolved data
@@ -96,6 +113,8 @@ export default async function MatterDetailPage({
       matter={matter}
       matterConversations={matterConversations}
       activeConversation={activeConversation}
+      initialFiles={initialFiles}
+      personalTagHistory={personalTagHistory}
     />
   );
 }

@@ -3,6 +3,7 @@
 // The Files tab of the matter detail view.
 //
 // Replaces the Chunk-5 placeholder stub. Wires together:
+//   - AI access panel (Chunk 7) at the top
 //   - Header with "+ Upload files" button + QuotaIndicator
 //   - Drag-anywhere drop zone covering the tab content
 //   - File list (active files + in-flight uploads, newest first)
@@ -20,6 +21,11 @@
 // Drag-anywhere: dragover anywhere in the tab content highlights the drop
 // zone. Drop accepts the files. This is per the design doc — lawyers
 // shouldn't have to aim for a specific button.
+//
+// CHUNK 7: AiAccessPanel sits at the very top of the tab content,
+// before the header. Logic for "is this case AI-accessible" is
+// deliberately separate from the upload affordance — the lawyer sets
+// the policy once, then uploads files freely below.
 
 'use client';
 
@@ -36,6 +42,8 @@ import { requestUploadUrls, completeUpload } from '../files/_actions';
 import { useFiles } from './files-provider';
 import { QuotaIndicator } from './quota-indicator';
 import { FileRow, UploadRow } from './file-row';
+// CHUNK 7: AI access panel
+import { AiAccessPanel } from './ai-access-panel';
 
 const STORAGE_BUCKET = 'case-files';
 
@@ -277,6 +285,17 @@ export function FilesTab({ matterId, personalTagHistory }: FilesTabProps) {
       onDragOver={onDragOver}
       onDrop={onDrop}
     >
+      {/*
+        CHUNK 7: AI access panel sits at the very top.
+        - When AI access is OFF: collapsed single-row panel with "Turn on" button
+        - When ON + committed: collapsed summary row with Edit/Turn off
+        - When ON + pending (after new upload): amber panel prompting Review
+        - When picking: expanded form with mode radios + exclusion list
+        Lives inside the FilesProvider (already wrapping this whole tab),
+        which feeds it aiAccess state via useFiles().
+      */}
+      <AiAccessPanel />
+
       <header className="bb-files-tab__header">
         <div className="bb-files-tab__header-titles">
           <h2 className="bb-files-tab__title">Case files</h2>
