@@ -12,6 +12,7 @@
     "db:studio": "drizzle-kit studio",
     "ingest:nsw": "tsx --env-file=.env.local scripts/ingest-nsw-single.ts",
     "ingest:bulk": "tsx --env-file=.env.local scripts/ingest-nsw-bulk.ts",
+    "ingest:legislation": "tsx --env-file=.env.local scripts/ingest-legislation.ts",
     "embed:bulk": "tsx --env-file=.env.local scripts/embed-judgments.ts"
   },
   "dependencies": {

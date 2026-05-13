@@ -1,5 +1,22 @@
 // lib/db/schema.ts
 //
+// CHUNK 8 ADDITIONS (legislation corpus):
+//   - LegislationJurisdiction union: 'commonwealth' | 'nsw' | 'vic' | ...
+//   - LegislationKind union: 'act' | 'regulation' | 'legislative_instrument' | 'constitution'
+//   - LegislationSectionLevel union (chapter/part/division/.../subsection/schedule/schedule_part/schedule_clause)
+//   - legislation table
+//   - legislation_sections table (hierarchical, self-referencing)
+//   - legislation_section_embeddings table (voyage-law-2 1024-dim, HNSW + cosine)
+//   - NO RLS — legislation is public reference data, every user reads same corpus
+//
+// CHUNK 8 FOLLOW-UP (migration 0008):
+//   - 'schedule_clause' added to LegislationSectionLevel union and to the
+//     DB CHECK constraint. Required for AGLC4-correct citation of clauses
+//     within a schedule (e.g. APP 11 in the Privacy Act, cited as
+//     'sch 1 cl 11', not 's 11'). The parser + citation builders treat
+//     schedule descendants distinctly from Act-level Parts/Sections to
+//     prevent path collisions (part_1 vs sch_1.pt_1).
+//
 // CHUNK 7 ADDITIONS (AI access controls + file reading):
 //   - AiAccessMode union: 'off' | 'all' | 'subset'
 //   - matters.aiAccessMode + matters.aiAccessCommittedAt
@@ -17,13 +34,18 @@
 // CHUNK 2 (judgments / embeddings) — unchanged.
 //
 // =============================================================================
-// FK & RLS patterns — same as Chunks 3, 5, 6
+// FK & RLS patterns — same as Chunks 3, 5, 6, 7
 // =============================================================================
 //
 // New columns added in Chunk 7 don't introduce new FKs. They're scalar
 // columns on existing tables. RLS is already enabled on matters and files;
 // the new columns are protected by the same row-level policies (auth.uid()
 // = user_id). No policy changes needed.
+//
+// Chunk 8 tables (legislation, legislation_sections, legislation_section_embeddings)
+// have NO user_id and NO RLS — legislation is public reference data shared
+// across every user. Reads are uniform; writes are restricted at the
+// application layer (only the ingestion script writes, via service role).
 
 import {
   pgTable,
@@ -422,3 +444,281 @@ export const fileTags = pgTable(
 
 export type FileTag = typeof fileTags.$inferSelect;
 export type NewFileTag = typeof fileTags.$inferInsert;
+
+// =============================================================================
+// === CHUNK 8 — LEGISLATION CORPUS  ===========================================
+// =============================================================================
+//
+// Three new tables. NO RLS — legislation is public reference data,
+// every user reads the same corpus. No user_id columns.
+//
+// Discriminator pattern:
+//   - jurisdiction: 'commonwealth' | 'nsw' | 'vic' | ...   (Cth first)
+//   - kind: 'act' | 'regulation' | 'legislative_instrument' | 'constitution'
+//   - section.level: 'chapter' | 'part' | 'division' | 'subdivision'
+//                  | 'section' | 'subsection'
+//                  | 'schedule' | 'schedule_part' | 'schedule_clause'
+//
+// Migrations:
+//   - lib/db/migrations/0007_legislation.sql (initial schema)
+//   - lib/db/migrations/0008_schedule_clause_level.sql (adds schedule_clause
+//     to the level CHECK; required for AGLC4-correct citation of APPs etc.)
+
+// -----------------------------------------------------------------------------
+// Discriminator unions
+// -----------------------------------------------------------------------------
+//
+// $type<...>() casts on columns below pin the TS layer; DB stores TEXT
+// with CHECK constraints for runtime safety. Same pattern as
+// MatterStatus and AiAccessMode.
+
+export type LegislationJurisdiction =
+  | 'commonwealth'
+  | 'nsw'
+  | 'vic'
+  | 'qld'
+  | 'wa'
+  | 'sa'
+  | 'tas'
+  | 'act'
+  | 'nt';
+
+export type LegislationKind =
+  | 'act'
+  | 'regulation'
+  | 'legislative_instrument'
+  | 'constitution';
+
+// Section level discriminator.
+//
+// Act-level hierarchy:
+//   chapter > part > division > subdivision > section > subsection
+//
+// Schedule-level hierarchy (used for content within a Schedule, distinct
+// from Act-level rows so paths don't collide):
+//   schedule > schedule_part > schedule_clause
+//
+// AGLC4 citation forms produced by lib/legislation/citations.ts:
+//   section          → 'Privacy Act 1988 (Cth) s 6'
+//   part             → 'Privacy Act 1988 (Cth) pt II'
+//   schedule         → 'Privacy Act 1988 (Cth) sch 1'
+//   schedule_part    → 'Privacy Act 1988 (Cth) sch 1 pt 4'
+//   schedule_clause  → 'Privacy Act 1988 (Cth) sch 1 cl 11'   ← e.g. APP 11
+//
+// 'schedule_clause' was added in migration 0008 because the initial
+// schema lacked a distinct level for clauses inside a schedule. Without
+// it, the Privacy Act's APPs were stored as level='section', producing
+// the harmful citation 'Privacy Act 1988 (Cth) s 11' (which is actually
+// "File number recipients", not APP 11).
+export type LegislationSectionLevel =
+  | 'chapter'
+  | 'part'
+  | 'division'
+  | 'subdivision'
+  | 'section'
+  | 'subsection'
+  | 'schedule'
+  | 'schedule_part'
+  | 'schedule_clause';
+
+// -----------------------------------------------------------------------------
+// legislation — one row per Act / Regulation / Constitution
+// -----------------------------------------------------------------------------
+
+export const legislation = pgTable(
+  'legislation',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+
+    // Natural key from the Federal Register (e.g. 'C2004A03712').
+    registrationId: text('registration_id').notNull(),
+
+    jurisdiction: text('jurisdiction').$type<LegislationJurisdiction>().notNull(),
+    kind: text('kind').$type<LegislationKind>().notNull(),
+
+    shortTitle: text('short_title').notNull(),
+    longTitle: text('long_title'),
+    year: integer('year'),
+    number: integer('number'),
+
+    // Pre-computed AGLC4 citation, e.g. 'Privacy Act 1988 (Cth)'.
+    citation: text('citation').notNull(),
+
+    // Current compilation we have. For v1, no point-in-time —
+    // this is "the version we're serving".
+    compilationDate: date('compilation_date').notNull(),
+    compilationNumber: integer('compilation_number'),
+
+    // If a future amendment is registered but not yet commenced.
+    nextAmendmentDate: date('next_amendment_date'),
+
+    // Where we fetched the content + the licence-required attribution.
+    sourceUrl: text('source_url').notNull(),
+    attributionText: text('attribution_text').notNull(),
+
+    retrievedAt: timestamp('retrieved_at', { withTimezone: true })
+      .notNull()
+      .defaultNow(),
+
+    // Currency. Acts can be repealed; we keep the row + sections for
+    // citation resolution but flag status.
+    inForce: boolean('in_force').notNull().default(true),
+    repealedAt: date('repealed_at'),
+
+    createdAt: timestamp('created_at', { withTimezone: true })
+      .notNull()
+      .defaultNow(),
+    updatedAt: timestamp('updated_at', { withTimezone: true })
+      .notNull()
+      .defaultNow(),
+  },
+  (t) => ({
+    // Natural key for idempotent re-ingestion.
+    jurisdictionRegistrationIdx: uniqueIndex(
+      'legislation_jurisdiction_registration_idx',
+    ).on(t.jurisdiction, t.registrationId),
+
+    // Hot read: "show me all in-force Acts in this jurisdiction".
+    jurisdictionKindIdx: index('legislation_jurisdiction_kind_idx')
+      .on(t.jurisdiction, t.kind)
+      .where(sql`${t.inForce} = true`),
+
+    // Fuzzy title search ("find Acts with 'privacy' in the name").
+    shortTitleTrgmIdx: index('legislation_short_title_trgm_idx')
+      .using('gin', sql`${t.shortTitle} gin_trgm_ops`),
+  }),
+);
+
+export type Legislation = typeof legislation.$inferSelect;
+export type NewLegislation = typeof legislation.$inferInsert;
+
+// -----------------------------------------------------------------------------
+// legislation_sections — hierarchical content tree
+// -----------------------------------------------------------------------------
+//
+// One row per Part / Division / Subdivision / Section / Subsection /
+// Schedule / Schedule Part / Schedule Clause. Self-references via
+// parent_section_id. Materialized `path` column for fast subtree
+// queries without recursive CTEs.
+
+export const legislationSections = pgTable(
+  'legislation_sections',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+
+    legislationId: uuid('legislation_id').notNull(),
+    parentSectionId: uuid('parent_section_id'),
+
+    level: text('level').$type<LegislationSectionLevel>().notNull(),
+
+    // The number/letter. TEXT not INT — '6AA', '20ZA', '(1)(a)(ii)' are
+    // all real identifiers.
+    number: text('number').notNull(),
+
+    // Heading text. NULL for subsection-level rows that have no heading.
+    heading: text('heading'),
+
+    // Body text. Empty for structural rows (Parts, Divisions usually have
+    // no body). NOT NULL with default '' avoids null-coalescing downstream.
+    text: text('text').notNull().default(''),
+
+    // Pre-computed AGLC4 citation for THIS row.
+    // e.g. 'Privacy Act 1988 (Cth) s 6'
+    // e.g. 'Privacy Act 1988 (Cth) s 6(1)(a)'
+    // e.g. 'Privacy Act 1988 (Cth) sch 1 cl 11'
+    citation: text('citation').notNull(),
+
+    // Human-readable breadcrumb from root for UI display.
+    // e.g. 'Part II > Division 1 > s 6'
+    // e.g. 'Sch 1 > Pt 4 > Cl 11'
+    breadcrumb: text('breadcrumb').notNull(),
+
+    // Materialized path for fast subtree queries.
+    // e.g. 'part_II.division_1.section_6'
+    // e.g. 'sch_1.pt_4.cl_11'
+    path: text('path').notNull(),
+
+    // Sort within this parent. The parser assigns sequentially while
+    // reading top-to-bottom. Display always uses this, never `number`.
+    sortOrder: integer('sort_order').notNull(),
+
+    // Mirrors judgment_embeddings pattern from Chunk 2.
+    embeddedAt: timestamp('embedded_at', { withTimezone: true }),
+
+    createdAt: timestamp('created_at', { withTimezone: true })
+      .notNull()
+      .defaultNow(),
+    updatedAt: timestamp('updated_at', { withTimezone: true })
+      .notNull()
+      .defaultNow(),
+  },
+  (t) => ({
+    // "All sections of this Act, in order."
+    legislationSortIdx: index('legislation_sections_legislation_sort_idx').on(
+      t.legislationId,
+      t.sortOrder,
+    ),
+
+    // "Children of this Part / Division."
+    parentIdx: index('legislation_sections_parent_idx')
+      .on(t.parentSectionId)
+      .where(sql`${t.parentSectionId} IS NOT NULL`),
+
+    // Subtree queries via materialized path.
+    pathIdx: index('legislation_sections_path_idx').on(
+      t.legislationId,
+      t.path,
+    ),
+
+    // Direct citation lookup: "find 'Privacy Act 1988 (Cth) s 6'".
+    citationIdx: index('legislation_sections_citation_idx').on(t.citation),
+
+    // Embedding worker finds unembedded rows.
+    unembeddedIdx: index('legislation_sections_unembedded_idx')
+      .on(t.id)
+      .where(sql`${t.embeddedAt} IS NULL`),
+  }),
+);
+
+export type LegislationSection = typeof legislationSections.$inferSelect;
+export type NewLegislationSection = typeof legislationSections.$inferInsert;
+
+// -----------------------------------------------------------------------------
+// legislation_section_embeddings — voyage-law-2 1024-dim vectors
+// -----------------------------------------------------------------------------
+//
+// Mirrors judgment_embeddings from Chunk 2. Same model (voyage-law-2),
+// same dimensions (1024), same HNSW + cosine_ops setup. Separate from
+// legislation_sections so scans on the sections table stay cheap.
+
+export const legislationSectionEmbeddings = pgTable(
+  'legislation_section_embeddings',
+  {
+    sectionId: uuid('section_id').primaryKey(),
+
+    // The actual text fed to Voyage. Often includes breadcrumb prefix
+    // for semantic richness — see migration comments.
+    embeddedText: text('embedded_text').notNull(),
+
+    // Lets us migrate to newer Voyage models without confusion.
+    // Mirrors judgment_embeddings.model.
+    model: text('model').notNull(),
+
+    embedding: vector('embedding', { dimensions: 1024 }).notNull(),
+
+    embeddedAt: timestamp('embedded_at', { withTimezone: true })
+      .notNull()
+      .defaultNow(),
+  },
+  (t) => ({
+    embeddingIdx: index('legislation_section_embeddings_embedding_idx').using(
+      'hnsw',
+      sql`${t.embedding} vector_cosine_ops`,
+    ),
+  }),
+);
+
+export type LegislationSectionEmbedding =
+  typeof legislationSectionEmbeddings.$inferSelect;
+export type NewLegislationSectionEmbedding =
+  typeof legislationSectionEmbeddings.$inferInsert;
