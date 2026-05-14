@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# legislation ingest artifacts
+.legislation-cache/
+aia-act-from-db.txt
+aic-act-from-db.txt
+privacy-act-from-db*.txt
+parser-debug.log
+parser-diag.log
