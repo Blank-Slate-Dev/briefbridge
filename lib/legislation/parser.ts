@@ -1,4 +1,4 @@
-// lib/legislation/parser.ts
+﻿// lib/legislation/parser.ts
 //
 // HTML → hierarchical section tree parser for legislation.gov.au content.
 //
@@ -6,23 +6,24 @@
 // STRATEGY
 // =============================================================================
 //
-// The Federal Register HTML uses SEMANTIC CSS class names that map directly
-// to legal hierarchy:
+// The Federal Register HTML uses SEMANTIC CSS class names that map to
+// structural depth. The MEANING of each level depends on the Act's text:
 //
-//   ActHead1  → Schedule heading    (e.g. "Schedule 1—Australian Privacy Principles")
-//   ActHead2  → Part heading        (e.g. "Part II—Interpretation")
-//                OR Schedule Part   (when inside a schedule)
+//   ActHead1  → Chapter heading (e.g. Fair Work Act "Chapter 1—Introduction")
+//                OR Schedule heading (e.g. Privacy Act "Schedule 1—APPs")
+//                Dispatched by the leading word of the heading text.
+//   ActHead2  → Part heading (e.g. "Part II—Interpretation")
+//                OR Schedule Part (when inside a schedule)
 //   ActHead3  → Division heading
 //   ActHead4  → Subdivision heading
-//   ActHead5  → Section heading     (e.g. "6 Interpretation")
+//   ActHead5  → Section heading (e.g. "6 Interpretation")
 //                OR Schedule Clause (when inside a schedule)
 //
 //   Inside each ActHead, child <span>s name the components:
-//     CharPartNo / CharPartText  → Part number + text
+//     CharPartNo / CharPartText  → Part/Chapter/Schedule number + text
 //     CharDivNo / CharDivText    → Division number + text
 //     CharSubdNo / CharSubdText  → Subdivision number + text
 //     CharSectno                 → Section number (heading text is the rest)
-//     (ActHead1 uses similar CharPartNo spans but for the schedule number.)
 //
 //   Body content (under each section or clause):
 //     <p class="subsection">     → "(1) ... body ..."
@@ -43,12 +44,6 @@
 //   Schedule 1 — Australian Privacy Principles      [ActHead1]
 //     Part 1 — Consideration of personal info...    [ActHead2 inside schedule]
 //       APP 1 — open and transparent management...  [ActHead5 inside schedule]
-//         1.1 The object of this principle...       [body text]
-//         1.2 An APP entity must take...            [body text]
-//       APP 2 — anonymity and pseudonymity          [ActHead5]
-//         2.1 Individuals must have the option...   [body text]
-//     Part 2 — Collection of personal info...       [ActHead2 inside schedule]
-//       APP 3 ...
 //
 // Key insight: the SAME CSS classes (ActHead2, ActHead5) are reused for
 // different conceptual levels when inside a schedule. The parser tracks
@@ -59,10 +54,17 @@
 //   ActHead5 outside schedule → 'section'
 //   ActHead5 inside schedule  → 'schedule_clause'
 //
-// The sub-clauses 11.1, 11.2 etc. are body text within the clause row;
-// they're NOT broken out as separate rows. Lawyers cite them informally
-// (`APP 11.1`) and the full text is searchable from within the clause's
-// body anyway. Future work could parse them as subsections if needed.
+// =============================================================================
+// CHAPTER HANDLING
+// =============================================================================
+//
+// Acts like the Fair Work Act 2009 use Chapters as their top-level
+// structural division. In the HTML, these appear as ActHead1 elements
+// with text starting "Chapter N—...", not "Schedule N—...". The parser
+// distinguishes them by text content and emits a `chapter` row that
+// behaves as a parent for Parts beneath it, WITHOUT setting
+// insideSchedule. This keeps real Sections as `section` rows rather
+// than misclassified `schedule_clause` rows.
 //
 // =============================================================================
 
@@ -194,7 +196,8 @@ export function parseLegislationHtml(
  *
  * Inside BODY, an additional `insideSchedule` flag controls whether
  * ActHead2 / ActHead5 emit 'part'/'section' (false) or
- * 'schedule_part'/'schedule_clause' (true).
+ * 'schedule_part'/'schedule_clause' (true). Chapter rows do NOT set
+ * insideSchedule — they're a top-level Act-structural concept.
  */
 class ParserState {
   phase: 'PRE_BODY' | 'BODY' | 'ENDNOTES' = 'PRE_BODY';
@@ -205,10 +208,11 @@ class ParserState {
   // section. Each entry is the INDEX into `this.sections`.
   hierarchyStack: number[] = [];
 
-  // True once we've entered Schedule 1. Stays true until either another
-  // ActHead1 (a new schedule) or end-of-document. The Privacy Act 1988
-  // has only one schedule; multi-schedule Acts will switch this flag
-  // each time an ActHead1 is encountered (which is correct).
+  // True once we've entered a Schedule. Flipped on by ActHead1 whose
+  // text starts "Schedule"; flipped off by ActHead1 whose text starts
+  // "Chapter" (Acts can interleave Chapters and Schedules at the top
+  // level — Fair Work is Chapter-only; most Cth Acts are
+  // Part/Schedule-only; some have both).
   insideSchedule = false;
 
   // Track whether we've seen body content. Currently unused but kept
@@ -279,8 +283,8 @@ class ParserState {
       return;
     }
 
-    // ActHead1 = Schedule. Switches us out of PRE_BODY and sets
-    // insideSchedule=true.
+    // ActHead1 = Chapter OR Schedule, dispatched by leading word.
+    // Either way, switches us out of PRE_BODY.
     if (cls === 'ActHead1') {
       this.phase = 'BODY';
       this.handleActHead1($, $el);
@@ -325,6 +329,7 @@ class ParserState {
       case 'BoxText':            // Guide-to-this-Part box paragraphs
       case 'BoxPara':            // Guide bullets inside a Box
       case 'BoxHeadItalic':      // italic subheading inside a Box
+      case 'BoxList':            // Box bullet/list items
       case 'TableHeading':       // headings above body-content tables
       case 'Tablea':             // table-cell variant
       case 'Tablei':             // italic table-cell variant
@@ -332,10 +337,12 @@ class ParserState {
       case 'SOText':             // schedule-of-... formatting (multi-schedule Acts)
       case 'SOPara':
       case 'SOBullet':
+      case 'SOHeadItalic':       // italic heading inside an SO block
+      case 'SOTextNote':         // notes within SO blocks
+      case 'noteToPara':         // notes attached to a specific paragraph
         // All body-text classes append verbatim to the current section.
         // Tables flatten into prose; not pretty for display, but preserves
-        // every word for retrieval. A future enhancement could reconstruct
-        // table structure into markdown, but that's not blocking v1.
+        // every word for retrieval.
         this.appendToCurrentSection(text);
         return;
       default:
@@ -352,40 +359,95 @@ class ParserState {
   // ---------------------------------------------------------------------------
 
   /**
-   * ActHead1 = Schedule heading.
+   * ActHead1 = Chapter (Fair Work-style) or Schedule (Privacy Act-style).
+   *
+   * Dispatches on the leading word of the heading text. If the text
+   * starts with "Chapter", emit a chapter row and DO NOT set
+   * insideSchedule — Chapters contain real Parts and Sections. If the
+   * text starts with "Schedule", emit a schedule row and set
+   * insideSchedule = true so subsequent Parts/Sections become
+   * schedule_parts/schedule_clauses.
    *
    * Markup (Privacy Act 1988 Schedule 1):
    *   <p class="ActHead1">
    *     <span class="CharPartNo">Schedule</span>
    *     <span class="CharPartNo">&nbsp;</span>
-   *     <span class="CharPartNo">1</span>                ← the number
+   *     <span class="CharPartNo">1</span>             ← the number
    *     <span>—</span>
    *     <span class="CharPartText">Australian Privacy Principles</span>
    *   </p>
    *
-   * Some Acts may use slightly different markup for ActHead1. Fall
-   * back to regex on the full text if span extraction fails.
+   * Markup (Fair Work Act 2009 Chapter 1):
+   *   <p class="ActHead1">
+   *     <span class="CharPartNo">Chapter</span>
+   *     <span class="CharPartNo">&nbsp;</span>
+   *     <span class="CharPartNo">1</span>
+   *     <span>—</span>
+   *     <span class="CharPartText">Introduction</span>
+   *   </p>
    */
   private handleActHead1(
     $: cheerio.CheerioAPI,
     $el: cheerio.Cheerio<any>,
   ): void {
-    const noSpans = $el.find('.CharPartNo').toArray();
-    const noText = extractNumberFromSpans($, noSpans, /^(part|schedule)$/i);
-    const textSpan = $el.find('.CharPartText').first().text().trim();
     const fullText = $el.text().trim();
 
+    if (/^Chapter\b/i.test(fullText)) {
+      const noSpans = $el.find('.CharPartNo').toArray();
+      const noText = extractNumberFromSpans($, noSpans, /^chapter$/i);
+      const textSpan = $el.find('.CharPartText').first().text().trim();
+      const chapterNumber = noText || extractChapterNumberFromText(fullText);
+      const chapterHeading =
+        textSpan || chapterHeadingFromText(fullText, chapterNumber);
+
+      this.popHierarchyTo([]);
+      this.insideSchedule = false;
+      this.addSection('chapter', chapterNumber, chapterHeading || null);
+      this.hasSeenBodySection = true;
+      debug(`[ActHead1/Chapter] ${chapterNumber}: "${chapterHeading}"`);
+      return;
+    }
+
+    if (/^Schedule\b/i.test(fullText)) {
+      const noSpans = $el.find('.CharPartNo').toArray();
+      const noText = extractNumberFromSpans($, noSpans, /^schedule$/i);
+      const textSpan = $el.find('.CharPartText').first().text().trim();
+      const scheduleNumber = noText || extractScheduleNumberFromText(fullText);
+      const scheduleHeading =
+        textSpan || scheduleHeadingFromText(fullText, scheduleNumber);
+
+      this.popHierarchyTo([]);
+      this.insideSchedule = true;
+      this.addSection('schedule', scheduleNumber, scheduleHeading || null);
+      debug(`[ActHead1/Schedule] ${scheduleNumber}: "${scheduleHeading}"`);
+      return;
+    }
+
+    // Unrecognised ActHead1 shape. Warn but capture as schedule (legacy
+    // fallback) so content isn't lost. Review the parser if this fires
+    // on a real Act — it almost certainly means a new top-level concept
+    // (e.g. "Part X" appearing at ActHead1) the parser should handle
+    // explicitly.
+    this.warnings.push(
+      `ActHead1 with unexpected leading word: "${truncate(fullText, 80)}". ` +
+        `Captured as 'schedule' as fallback.`,
+    );
+    const noSpans = $el.find('.CharPartNo').toArray();
+    const noText = extractNumberFromSpans(
+      $,
+      noSpans,
+      /^(part|schedule|chapter)$/i,
+    );
+    const textSpan = $el.find('.CharPartText').first().text().trim();
     const scheduleNumber = noText || extractScheduleNumberFromText(fullText);
     const scheduleHeading =
       textSpan || scheduleHeadingFromText(fullText, scheduleNumber);
-
-    // Entering a schedule. Reset hierarchy to root level (a schedule is
-    // a top-level child of the Act, not nested under any Part) and flip
-    // the insideSchedule flag.
     this.popHierarchyTo([]);
     this.insideSchedule = true;
     this.addSection('schedule', scheduleNumber, scheduleHeading || null);
-    debug(`[ActHead1/Schedule] ${scheduleNumber}: "${scheduleHeading}"`);
+    debug(
+      `[ActHead1/Unknown->Schedule fallback] ${scheduleNumber}: "${scheduleHeading}"`,
+    );
   }
 
   /**
@@ -437,8 +499,8 @@ class ParserState {
       this.addSection('schedule_part', partNumber, partHeading || null);
       debug(`[ActHead2/SchedulePart] ${partNumber}: "${partHeading}"`);
     } else {
-      // Top-level Act Part.
-      this.popHierarchyTo([]);
+      // Top-level Act Part. May sit under a Chapter if one exists.
+      this.popHierarchyTo(['chapter']);
       this.addSection('part', partNumber, partHeading || null);
       this.hasSeenBodySection = true;
       debug(`[ActHead2/Part] ${partNumber}: "${partHeading}"`);
@@ -457,8 +519,8 @@ class ParserState {
     const divNumber = divNoText || extractDivisionNumberFromText(fullText);
     const divHeading = divText || divisionHeadingFromText(fullText, divNumber);
 
-    // Divisions can live under Parts or under schedule_parts.
-    this.popHierarchyTo(['part', 'schedule_part']);
+    // Divisions can live under Chapters, Parts, or schedule_parts.
+    this.popHierarchyTo(['chapter', 'part', 'schedule_part']);
     this.addSection('division', divNumber, divHeading || null);
     debug(`[ActHead3/Division] ${divNumber}: "${divHeading}"`);
   }
@@ -477,7 +539,7 @@ class ParserState {
     const subHeading =
       subdText || subdivisionHeadingFromText(fullText, subNumber);
 
-    this.popHierarchyTo(['part', 'schedule_part', 'division']);
+    this.popHierarchyTo(['chapter', 'part', 'schedule_part', 'division']);
     this.addSection('subdivision', subNumber, subHeading || null);
     debug(`[ActHead4/Subdivision] ${subNumber}: "${subHeading}"`);
   }
@@ -518,8 +580,8 @@ class ParserState {
       this.hasSeenBodySection = true;
       debug(`[ActHead5/ScheduleClause] ${sectNumber}: "${sectHeading}"`);
     } else {
-      // Top-level Act Section.
-      this.popHierarchyTo(['part', 'division', 'subdivision']);
+      // Top-level Act Section. May sit under chapter/part/division/subdivision.
+      this.popHierarchyTo(['chapter', 'part', 'division', 'subdivision']);
       this.addSection('section', sectNumber, sectHeading || null);
       this.hasSeenBodySection = true;
       debug(`[ActHead5/Section] ${sectNumber}: "${sectHeading}"`);
@@ -699,7 +761,9 @@ function extractNumberFromSpans(
 }
 
 function extractPartNumberFromText(text: string): string {
-  const match = text.match(/^Part\s+([IVXLCDM\d]+[A-Z]?)/i);
+  // Matches Part numbers like "II", "1", "3A", and Fair Work-style
+  // "1-1", "2-4A" etc. (dash-separated Chapter-Part numbering).
+  const match = text.match(/^Part\s+([IVXLCDM\d]+(?:[-‑–][0-9A-Z]+)?[A-Z]?)/i);
   return match?.[1] ?? '';
 }
 
@@ -735,6 +799,20 @@ function subdivisionHeadingFromText(text: string, subNumber: string): string {
   if (!subNumber) return text.trim();
   const pattern = new RegExp(
     `^Subdivision\\s+${escapeRegex(subNumber)}\\s*[—–-]?\\s*`,
+    'i',
+  );
+  return text.replace(pattern, '').trim();
+}
+
+function extractChapterNumberFromText(text: string): string {
+  const match = text.match(/^Chapter\s+(\S+)/i);
+  return match?.[1]?.replace(/[—–-].*$/, '').trim() ?? '';
+}
+
+function chapterHeadingFromText(text: string, chapterNumber: string): string {
+  if (!chapterNumber) return text.trim();
+  const pattern = new RegExp(
+    `^Chapter\\s+${escapeRegex(chapterNumber)}\\s*[—–-]?\\s*`,
     'i',
   );
   return text.replace(pattern, '').trim();
