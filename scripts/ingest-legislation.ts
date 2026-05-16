@@ -16,8 +16,10 @@
 // FLOW
 // =============================================================================
 //
-// 1. Resolve the source URL from the registration ID + optional date.
-// 2. Fetch the HTML.
+// 1. Resolve the source URL(s) from the registration ID + compilation date.
+//    Large Acts span multiple document_N.html files; fetchActHtml() walks
+//    them all and returns combined HTML.
+// 2. Optionally cache the combined HTML to disk.
 // 3. Parse it via lib/legislation/parser.ts.
 // 4. If --dry-run, print the parsed tree and exit.
 // 5. Otherwise, insert/update the legislation row.
@@ -28,6 +30,16 @@
 // Idempotency: the legislation row uses (jurisdiction, registration_id) as
 // natural key. Re-running this script for the same Act REPLACES its sections
 // (drops + re-inserts) — useful when the compilation has updated.
+//
+// =============================================================================
+// MULTI-DOCUMENT FETCH NOTE
+// =============================================================================
+//
+// Prior to May 2026 this script fetched only document_1.html, silently
+// truncating large Acts like Fair Work Act 2009 (which spans 4 documents).
+// fetchActHtml() in lib/legislation/fetch.ts now probes documents in order
+// until a 404, concatenates their bodies, and returns combined HTML. The
+// --save-html cache file reflects the COMBINED HTML, not the first doc only.
 
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'node:fs';
 import path from 'node:path';
@@ -43,6 +55,7 @@ import {
 import { parseLegislationHtml } from '@/lib/legislation/parser';
 import { buildActCitation } from '@/lib/legislation/citations';
 import { buildAttribution } from '@/lib/legislation/attribution';
+import { fetchActHtml, buildActUrl } from '@/lib/legislation/fetch';
 
 // =============================================================================
 // Argument parsing
@@ -102,53 +115,12 @@ Usage: npm run ingest:legislation -- \\
 }
 
 // =============================================================================
-// URL resolution
+// HTML loading
 // =============================================================================
 
 /**
- * Build the EPUB-internal HTML URL for an Act compilation.
- *
- * Pattern:
- *   https://www.legislation.gov.au/{registrationId}/{date}/{date}/text/original/epub/OEBPS/document_1/document_1.html
- *
- * If `compilationDate` is omitted, we attempt the /latest redirect.
+ * Load HTML from disk. Used by the --from-file flag for offline debugging.
  */
-function buildSourceUrl(
-  registrationId: string,
-  compilationDate?: string,
-): string {
-  if (compilationDate) {
-    return `https://www.legislation.gov.au/${registrationId}/${compilationDate}/${compilationDate}/text/original/epub/OEBPS/document_1/document_1.html`;
-  }
-  // /latest redirects through to the current compilation. We can't easily
-  // resolve that without following redirects + parsing the destination,
-  // so require an explicit date for now.
-  throw new Error(
-    `--compilation-date is required (the /latest redirect resolution isn't implemented yet). ` +
-      `Look up the current compilation date at https://www.legislation.gov.au/${registrationId}/latest`,
-  );
-}
-
-// =============================================================================
-// HTML fetching
-// =============================================================================
-
-async function fetchHtml(url: string): Promise<string> {
-  console.log(`[fetch] ${url}`);
-  const res = await fetch(url, {
-    headers: {
-      'User-Agent':
-        'Mozilla/5.0 (compatible; BriefBridge legislation ingest; +https://briefbridge.com)',
-    },
-  });
-  if (!res.ok) {
-    throw new Error(`Fetch failed: HTTP ${res.status} ${res.statusText}`);
-  }
-  const html = await res.text();
-  console.log(`[fetch] received ${html.length.toLocaleString()} bytes`);
-  return html;
-}
-
 function loadHtmlFromFile(filepath: string): string {
   console.log(`[fetch] reading from local file ${filepath}`);
   if (!existsSync(filepath)) {
@@ -166,22 +138,49 @@ function loadHtmlFromFile(filepath: string): string {
 async function main(): Promise<void> {
   const args = parseArgs();
 
-  // Resolve source URL + HTML.
-  const sourceUrl = buildSourceUrl(args.registrationId, args.compilationDate);
-  let html: string;
-  if (args.fromFile) {
-    html = loadHtmlFromFile(args.fromFile);
-  } else {
-    html = await fetchHtml(sourceUrl);
+  // Compilation date is required for live fetches (the /latest redirect
+  // resolution isn't implemented yet — look it up at
+  // https://www.legislation.gov.au/{registrationId}/latest if you don't
+  // have it).
+  if (!args.fromFile && !args.compilationDate) {
+    throw new Error(
+      `--compilation-date is required (the /latest redirect resolution isn't implemented yet). ` +
+        `Look up the current compilation date at ` +
+        `https://www.legislation.gov.au/${args.registrationId}/latest`,
+    );
   }
 
-  // Optionally save the HTML for re-runs without re-fetching.
+  // Resolve HTML — either from a local file or by fetching all document_N
+  // files from legislation.gov.au.
+  let html: string;
+  let sourceUrl: string;
+
+  if (args.fromFile) {
+    html = loadHtmlFromFile(args.fromFile);
+    // For the legislation row's source_url we still record the canonical
+    // document_1 URL when the date is known, otherwise leave it as the file.
+    sourceUrl = args.compilationDate
+      ? buildActUrl(args.registrationId, args.compilationDate, 1)
+      : args.fromFile;
+  } else {
+    const compilationDate = args.compilationDate!; // guarded above
+    const fetchResult = await fetchActHtml(args.registrationId, compilationDate);
+    html = fetchResult.html;
+    // Record document_1's URL as the canonical source_url in the DB. The
+    // existence of additional documents is implicit — the fetcher rediscovers
+    // them on re-ingest.
+    sourceUrl = buildActUrl(args.registrationId, compilationDate, 1);
+  }
+
+  // Optionally save the combined HTML for re-runs without re-fetching.
+  // Note: this is the COMBINED HTML (all documents merged), which is what
+  // the parser actually sees — useful for offline reproduction of bugs.
   if (args.saveHtml) {
     const debugDir = path.join(process.cwd(), '.legislation-cache');
     if (!existsSync(debugDir)) mkdirSync(debugDir, { recursive: true });
     const cachePath = path.join(debugDir, `${args.registrationId}.html`);
     writeFileSync(cachePath, html, 'utf-8');
-    console.log(`[cache] saved HTML to ${cachePath}`);
+    console.log(`[cache] saved combined HTML to ${cachePath}`);
   }
 
   // Build the act-level citation.
@@ -302,7 +301,7 @@ async function main(): Promise<void> {
         .where(eq(legislation.id, legislationId));
 
       // Drop existing sections — we're going to re-insert.
-      const deletedCount = await db
+      await db
         .delete(legislationSections)
         .where(eq(legislationSections.legislationId, legislationId));
       console.log(`[db] dropped existing sections`);

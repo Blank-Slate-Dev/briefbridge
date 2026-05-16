@@ -26,22 +26,38 @@
 //             content shows up as a multiset difference.
 //
 // =============================================================================
-// LESSON LEARNED (Fair Work Act 2009, May 2026)
+// LESSONS LEARNED (codified here)
 // =============================================================================
 //
-// The original verifier had only Stage 2. When Fair Work was first ingested,
-// the parser misclassified every Chapter as a Schedule and consequently every
-// Part as schedule_part and every Section as schedule_clause. All the words
-// were present, just attached to wrong-typed parents. The multiset comparison
-// passed cleanly — and would have shipped a structurally broken Act, where
-// "find me section 117" returned nothing because s 117 was filed as
-// schedule_clause 117 of a fictitious Schedule.
+// Fair Work Act 2009 — parser misclassification (May 2026)
+// --------------------------------------------------------
+// The original verifier had only Stage 2. When Fair Work was first
+// ingested, the parser misclassified every Chapter as a Schedule and
+// consequently every Part as schedule_part and every Section as
+// schedule_clause. All the words were present, just attached to
+// wrong-typed parents. The multiset comparison passed cleanly. Stage 1
+// check #2 (zero leaves) and #3 (schedule rows without source "Schedule
+// N" element) now catch that class of bug at first ingest.
 //
-// The structural checks below codify that lesson:
+// Fair Work Act 2009 — multi-document truncation (May 2026)
+// ---------------------------------------------------------
+// legislation.gov.au splits large Acts across multiple document_N.html
+// files. The pipeline originally fetched only document_1, silently
+// truncating Fair Work (4 documents) to its first chapter or two. The
+// verifier passed because the DB matched the truncated source.
+// lib/legislation/fetch.ts now probes all documents in order; this
+// script uses it, so the verifier compares the DB against the full Act.
 //
-//   Check 1: source has ActHead1 elements → DB must have chapter or schedule rows
-//   Check 2: DB must contain leaf-content rows (section or schedule_clause)
-//   Check 3: schedule-mode rows imply source must have "Schedule N" text
+// Fair Work Act 2009 — endnote false-trigger / missing Schedules (May 2026)
+// ------------------------------------------------------------------------
+// The parser's original ENDNOTES trigger was text-based — any <p> whose
+// text matched "Endnotes" or "Endnote N". legislation.gov.au reprints a
+// volume-contents list at the start of each volume that includes
+// "Endnotes" as a literal entry — the parser tripped on that and
+// skipped Fair Work's 5 Schedules at the end of the Act. The trigger is
+// now structural (only fires on <p class="ENotesHeading1">). Stage 1
+// check #4 (ActHead1 count parity) is the verifier's safety net for
+// "parser silently dropped top-level structure".
 //
 // =============================================================================
 //
@@ -56,6 +72,7 @@ import * as cheerio from 'cheerio';
 import postgres from 'postgres';
 import { parseLegislationHtml } from '@/lib/legislation/parser';
 import { buildActCitation } from '@/lib/legislation/citations';
+import { fetchActHtml } from '@/lib/legislation/fetch';
 
 // ---------------------------------------------------------------------------
 // Args
@@ -136,28 +153,70 @@ function diffMultisets(
 }
 
 // ---------------------------------------------------------------------------
+// Source-side structural counting
+// ---------------------------------------------------------------------------
+
+/**
+ * Count UNIQUE top-level ActHead1 anchors in the source HTML.
+ *
+ * "Unique" matters for multi-volume Acts: legislation.gov.au re-prints
+ * the containing Chapter heading at the start of each volume. Naively
+ * counting every <p class="ActHead1"> would over-count by exactly the
+ * number of volume boundaries, and we'd fail the parity check even on a
+ * correctly-parsed Act.
+ *
+ * We deduplicate by (leading-word, number). For Chapter 2 — Terms and
+ * conditions of employment — the key is "Chapter:2". The same Chapter
+ * 2 heading reprinted in volume 2 has the same key and counts once.
+ */
+function countUniqueActHead1s($: cheerio.CheerioAPI): {
+  totalCount: number;
+  uniqueCount: number;
+  uniqueKeys: string[];
+} {
+  const total = $('p.ActHead1').length;
+  const keys = new Set<string>();
+  $('p.ActHead1').each((_, el) => {
+    const text = $(el).text().trim();
+    const match = text.match(/^(Chapter|Schedule|Part)\s+(\S+)/i);
+    if (match) {
+      // Strip trailing em-dash etc. from the number (e.g. "1—Introduction" → "1").
+      const word = match[1].toLowerCase();
+      const num = match[2].replace(/[—–-].*$/, '').trim();
+      keys.add(`${word}:${num}`);
+    } else {
+      // Unrecognised shape — count it as unique by its full text so we
+      // don't accidentally collapse multiple distinct headings.
+      keys.add(`raw:${text.slice(0, 80)}`);
+    }
+  });
+  return {
+    totalCount: total,
+    uniqueCount: keys.size,
+    uniqueKeys: [...keys].sort(),
+  };
+}
+
+// ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
 
 async function main() {
-  // 1. Fetch the SAME raw HTML the parser/ingest uses.
-  const sourceUrl = `https://www.legislation.gov.au/${registrationId}/${compilationDate}/${compilationDate}/text/original/epub/OEBPS/document_1/document_1.html`;
-  console.log(`[verify] fetching ${sourceUrl}`);
-  const res = await fetch(sourceUrl, {
-    headers: {
-      'User-Agent':
-        'Mozilla/5.0 (compatible; BriefBridge legislation verify; +https://briefbridge.com)',
-    },
-  });
-  if (!res.ok) {
-    console.error(`[verify] fetch failed: HTTP ${res.status} ${res.statusText}`);
-    process.exit(1);
-  }
-  const html = await res.text();
-  console.log(`[verify] received ${html.length.toLocaleString()} bytes`);
+  // 1. Fetch the SAME multi-document HTML the ingest pipeline uses.
+  console.log(
+    `[verify] fetching ${registrationId} compilation ${compilationDate}`,
+  );
+  const fetchResult = await fetchActHtml(registrationId, compilationDate);
+  const html = fetchResult.html;
+  console.log(
+    `[verify] ${fetchResult.documents.length} document(s), ` +
+      `${fetchResult.totalSourceBytes.toLocaleString()} source bytes, ` +
+      `${html.length.toLocaleString()} combined bytes`,
+  );
 
-  // 2. Run the parser fresh. This is our source of truth for "what the
-  //    source says". (Citation arg doesn't affect text content.)
+  // 2. Run the parser fresh on the combined HTML. This is our source of
+  //    truth for "what the source says". (Citation arg doesn't affect
+  //    text content.)
   const actCitation = buildActCitation('Verification Run', 'commonwealth');
   const parsed = parseLegislationHtml(html, {
     actCitation,
@@ -201,7 +260,7 @@ async function main() {
   const $verify = cheerio.load(html);
 
   // Count source-document structural signals.
-  const sourceActHead1Count = $verify('p.ActHead1').length;
+  const actHead1 = countUniqueActHead1s($verify);
 
   let sourceHasScheduleElement = false;
   $verify('p').each((_, el) => {
@@ -226,8 +285,12 @@ async function main() {
 
   console.log(
     `[verify] structural summary: chapters=${nChapters} schedules=${nSchedules} ` +
-      `sections=${nSections} schedule_clauses=${nScheduleClauses} ` +
-      `sourceActHead1=${sourceActHead1Count} sourceHasSchedule=${sourceHasScheduleElement}`,
+      `sections=${nSections} schedule_clauses=${nScheduleClauses}`,
+  );
+  console.log(
+    `[verify] source ActHead1: total=${actHead1.totalCount} ` +
+      `unique=${actHead1.uniqueCount} ` +
+      `sourceHasSchedule=${sourceHasScheduleElement}`,
   );
 
   let hardFail = false;
@@ -236,9 +299,9 @@ async function main() {
   // rows in parsed output. If the source has ActHead1 elements but the
   // parser produced zero chapters AND zero schedules, top-level
   // structure is lost.
-  if (sourceActHead1Count > 0 && nChapters === 0 && nSchedules === 0) {
+  if (actHead1.totalCount > 0 && nChapters === 0 && nSchedules === 0) {
     console.error(
-      `[verify] STRUCTURAL FAIL: source contains ${sourceActHead1Count} ` +
+      `[verify] STRUCTURAL FAIL: source contains ${actHead1.totalCount} ` +
         `<p class="ActHead1"> elements but parser produced 0 chapters and 0 schedules. ` +
         `Top-level structure lost.`,
     );
@@ -248,7 +311,7 @@ async function main() {
   // Sanity check 2: leaf-content rows must exist. An Act with zero
   // sections AND zero schedule_clauses has no leaves — no content is
   // retrievable by citation. This is the direct catch for the original
-  // Fair Work bug.
+  // Fair Work Chapter-as-Schedule misclassification bug.
   if (nSections === 0 && nScheduleClauses === 0) {
     console.error(
       `[verify] STRUCTURAL FAIL: parser produced 0 'section' rows and ` +
@@ -271,6 +334,34 @@ async function main() {
         `schedule_clauses=${nScheduleClauses}) but source HTML contains no ` +
         `"Schedule N" element. Schedule mode entered erroneously.`,
     );
+    hardFail = true;
+  }
+
+  // Sanity check 4: ActHead1 count parity. The number of UNIQUE
+  // top-level anchors (chapters + schedules) in source must equal the
+  // number of chapter + schedule rows in the parser output. Catches
+  // partial-loss bugs: source has 14 ActHead1s representing 9 chapters
+  // and 5 schedules, but parser only produced 9 — the 5 Schedules got
+  // silently dropped (which is what Fair Work's endnote false-trigger
+  // caused).
+  //
+  // We use the UNIQUE count rather than total count to account for
+  // multi-volume Acts that re-print their containing heading at volume
+  // boundaries. The parser de-duplicates those re-prints; the verifier
+  // matches that semantic.
+  const parsedTopLevel = nChapters + nSchedules;
+  if (actHead1.uniqueCount !== parsedTopLevel) {
+    console.error(
+      `[verify] STRUCTURAL FAIL: source has ${actHead1.uniqueCount} unique ActHead1 ` +
+        `anchors (chapters + schedules), but parser produced ${parsedTopLevel} ` +
+        `(${nChapters} chapter(s) + ${nSchedules} schedule(s)). ` +
+        `${Math.abs(actHead1.uniqueCount - parsedTopLevel)} top-level node(s) ` +
+        `${actHead1.uniqueCount > parsedTopLevel ? 'lost' : 'over-emitted'}.`,
+    );
+    console.error(`  Unique ActHead1 keys in source:`);
+    for (const key of actHead1.uniqueKeys) {
+      console.error(`    ${key}`);
+    }
     hardFail = true;
   }
 

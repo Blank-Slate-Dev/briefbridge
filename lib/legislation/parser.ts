@@ -67,6 +67,21 @@
 // than misclassified `schedule_clause` rows.
 //
 // =============================================================================
+// ENDNOTE DETECTION
+// =============================================================================
+//
+// Real endnotes in legislation.gov.au HTML are tagged with the class
+// "ENotesHeading1". We trigger ENDNOTES phase ONLY when we see that
+// class. We deliberately do NOT use text-based detection (e.g. "<p>
+// whose text is 'Endnotes'"), because the legislation.gov.au document
+// template embeds the word "Endnotes" in a volume-contents list at the
+// boundary of each volume of multi-volume Acts — false-triggering
+// text-based detection would (and did) cause the parser to skip
+// legitimate Schedules at the end of multi-volume Acts. The Fair Work
+// Act 2009 case taught us this; the lesson is codified here as a
+// structural check, not a heuristic.
+//
+// =============================================================================
 
 import * as cheerio from 'cheerio';
 import type {
@@ -192,7 +207,7 @@ export function parseLegislationHtml(
  *
  * The phase transitions:
  *   - PRE_BODY → BODY  when we see the first ActHead1 or ActHead2.
- *   - BODY → ENDNOTES  when we see an "Endnotes" / "Endnote N" heading.
+ *   - BODY → ENDNOTES  when we see <p class="ENotesHeading1">.
  *
  * Inside BODY, an additional `insideSchedule` flag controls whether
  * ActHead2 / ActHead5 emit 'part'/'section' (false) or
@@ -238,14 +253,15 @@ class ParserState {
   ): void {
     const text = $el.text().trim();
 
-    // Endnote detection: ONLY match "Endnotes" / "Endnote N" headings,
-    // and only when we're already in BODY. Plain "Note 1" is body
-    // annotation text, not an endnotes section heading.
-    if (
-      this.phase === 'BODY' &&
-      (/^endnotes?$/i.test(text) || /^endnote\s+\d+/i.test(text))
-    ) {
-      debug(`[endnotes detected] heading: "${text}"`);
+    // Endnote detection: structural, not text-based. The real endnotes
+    // section starts with <p class="ENotesHeading1">. Text-based
+    // detection false-triggered on document compilation headers that
+    // contain the word "Endnotes" as one item in a list of volume
+    // contents (e.g. Fair Work Act's volume header reads "Volume 1:
+    // ... | Volume 4: Schedules | Endnotes"). That false trigger
+    // swallowed Schedules at the end of multi-volume Acts.
+    if (this.phase === 'BODY' && cls === 'ENotesHeading1') {
+      debug(`[endnotes detected] ENotesHeading1: "${text}"`);
       this.phase = 'ENDNOTES';
       return;
     }
@@ -274,6 +290,7 @@ class ParserState {
 
     // Skip TOC and chrome regardless of phase.
     if (
+      cls === 'TOC1' ||
       cls === 'TOC2' ||
       cls === 'TOC3' ||
       cls === 'TOC4' ||
@@ -340,6 +357,9 @@ class ParserState {
       case 'SOHeadItalic':       // italic heading inside an SO block
       case 'SOTextNote':         // notes within SO blocks
       case 'noteToPara':         // notes attached to a specific paragraph
+      case 'ShortT':             // document-header short-title (appears at volume boundaries; harmless)
+      case 'CompiledActNo':      // document-header act number (appears at volume boundaries; harmless)
+      case 'LongT':              // document-header long-title
         // All body-text classes append verbatim to the current section.
         // Tables flatten into prose; not pretty for display, but preserves
         // every word for retrieval.
@@ -385,6 +405,12 @@ class ParserState {
    *     <span>—</span>
    *     <span class="CharPartText">Introduction</span>
    *   </p>
+   *
+   * Volume re-print de-duplication: multi-volume Acts re-print the
+   * containing Chapter heading at the start of each new volume. If we
+   * see an ActHead1 with the same level+number as the most recently
+   * emitted top-level node, treat it as a volume boundary marker rather
+   * than emitting a duplicate row.
    */
   private handleActHead1(
     $: cheerio.CheerioAPI,
@@ -399,6 +425,13 @@ class ParserState {
       const chapterNumber = noText || extractChapterNumberFromText(fullText);
       const chapterHeading =
         textSpan || chapterHeadingFromText(fullText, chapterNumber);
+
+      // Volume re-print check: is this the same chapter we most
+      // recently emitted at the top level?
+      if (this.isVolumeRePrint('chapter', chapterNumber)) {
+        debug(`[ActHead1/Chapter volume re-print, skipped] ${chapterNumber}`);
+        return;
+      }
 
       this.popHierarchyTo([]);
       this.insideSchedule = false;
@@ -415,6 +448,12 @@ class ParserState {
       const scheduleNumber = noText || extractScheduleNumberFromText(fullText);
       const scheduleHeading =
         textSpan || scheduleHeadingFromText(fullText, scheduleNumber);
+
+      // Volume re-print check (same as for chapters).
+      if (this.isVolumeRePrint('schedule', scheduleNumber)) {
+        debug(`[ActHead1/Schedule volume re-print, skipped] ${scheduleNumber}`);
+        return;
+      }
 
       this.popHierarchyTo([]);
       this.insideSchedule = true;
@@ -448,6 +487,46 @@ class ParserState {
     debug(
       `[ActHead1/Unknown->Schedule fallback] ${scheduleNumber}: "${scheduleHeading}"`,
     );
+  }
+
+  /**
+   * Detect a volume re-print: an ActHead1 whose level + number matches a
+   * top-level node we've already emitted. This happens at the start of
+   * volumes 2+ in multi-volume Acts (the volume re-prints its containing
+   * Chapter or Schedule heading for navigational clarity, then continues
+   * with Parts/Sections of that container).
+   *
+   * Returns true if we should skip emitting a new row for this heading
+   * and instead resume the previously-emitted container's hierarchy.
+   *
+   * Side effect on a match: pops the hierarchy stack to make the matching
+   * container the current top-of-stack, so subsequent Parts/Sections
+   * become its children.
+   */
+  private isVolumeRePrint(
+    level: 'chapter' | 'schedule',
+    number: string,
+  ): boolean {
+    if (number === '') return false;
+    // Search the existing sections list (newest first) for a same-level
+    // row with the same number. If found within the last N top-level
+    // additions, treat it as a volume re-print.
+    for (let i = this.sections.length - 1; i >= 0; i--) {
+      const s = this.sections[i];
+      // Only top-level rows count (parentIndex === -1).
+      if (s.parentIndex !== -1) continue;
+      if (s.level === level && s.number === number) {
+        // Match — pop hierarchy back to make this row the new top.
+        this.hierarchyStack = [i];
+        // Restore insideSchedule based on the container we're returning to.
+        this.insideSchedule = level === 'schedule';
+        return true;
+      }
+      // Stop searching once we hit a different top-level row — only the
+      // MOST RECENT top-level node can be the volume re-print target.
+      break;
+    }
+    return false;
   }
 
   /**
