@@ -77,9 +77,23 @@
 // template embeds the word "Endnotes" in a volume-contents list at the
 // boundary of each volume of multi-volume Acts — false-triggering
 // text-based detection would (and did) cause the parser to skip
-// legitimate Schedules at the end of multi-volume Acts. The Fair Work
-// Act 2009 case taught us this; the lesson is codified here as a
-// structural check, not a heuristic.
+// legitimate Schedules at the end of multi-volume Acts.
+//
+// =============================================================================
+// CONTAINER TEXT (no current section)
+// =============================================================================
+//
+// Body text encountered before the first ActHead5/section row (i.e.
+// inside a Chapter/Part/Division but before its first numbered section)
+// used to be dropped on the floor with a warning. This happens a lot in
+// Acts that have "Guide to this Chapter" or "Guide to this Part"
+// introductory prose. The Corporations Act 2001's small business guide
+// is the canonical case: ~1,800 such paragraphs.
+//
+// Body text is now attached to the nearest STRUCTURAL ANCESTOR (chapter,
+// part, division, subdivision, schedule, schedule_part) when no section
+// is current. This keeps content retrievable rather than silently
+// dropping it.
 //
 // =============================================================================
 
@@ -334,40 +348,49 @@ class ParserState {
         return;
       case 'subsection':
       case 'subsection2':
+      case 'subsection3':         // even deeper nested subsection
       case 'paragraph':
       case 'paragraphsub':
-      case 'paragraphsub-sub':   // deeper-indent paragraph variant
+      case 'paragraphsub-sub':    // deeper-indent paragraph variant
       case 'Definition':
       case 'Penalty':
       case 'notetext':
-      case 'notepara':           // note continuation paragraphs
-      case 'notemargin':         // marginal note text
-      case 'SubsectionHead':     // in-section subheadings ("Agencies", "What is X?")
-      case 'BoxText':            // Guide-to-this-Part box paragraphs
-      case 'BoxPara':            // Guide bullets inside a Box
-      case 'BoxHeadItalic':      // italic subheading inside a Box
-      case 'BoxList':            // Box bullet/list items
-      case 'TableHeading':       // headings above body-content tables
-      case 'Tablea':             // table-cell variant
-      case 'Tablei':             // italic table-cell variant
-      case 'Formula':            // formula blocks (e.g. in tax / GST Acts)
-      case 'SOText':             // schedule-of-... formatting (multi-schedule Acts)
+      case 'notepara':            // note continuation paragraphs
+      case 'notemargin':          // marginal note text
+      case 'noteToPara':          // notes attached to a specific paragraph
+      case 'NoteToSubpara':       // notes attached to a sub-paragraph
+      case 'SubsectionHead':      // in-section subheadings ("Agencies", "What is X?")
+      case 'BoxText':             // Guide-to-this-Part box paragraphs
+      case 'BoxPara':             // Guide bullets inside a Box
+      case 'BoxHeadItalic':       // italic subheading inside a Box
+      case 'BoxList':             // Box bullet/list items
+      case 'Body':                // Corporations Act bullet/list text (esp. in Guide chapters)
+      case 'TLPnoteright':        // "the laws" plain-language right-margin cross-references in guides
+      case 'TLPTableBullet':      // table bullets in guides
+      case 'TableHeading':        // headings above body-content tables
+      case 'Tablea':              // table-cell variant
+      case 'Tablei':              // italic table-cell variant
+      case 'Formula':             // formula blocks (e.g. in tax / GST Acts)
+      case 'SOText':              // schedule-of-... formatting (multi-schedule Acts)
+      case 'SOText2':             // deeper SO text
       case 'SOPara':
       case 'SOBullet':
-      case 'SOHeadItalic':       // italic heading inside an SO block
-      case 'SOTextNote':         // notes within SO blocks
-      case 'noteToPara':         // notes attached to a specific paragraph
-      case 'ShortT':             // document-header short-title (appears at volume boundaries; harmless)
-      case 'CompiledActNo':      // document-header act number (appears at volume boundaries; harmless)
-      case 'LongT':              // document-header long-title
-        // All body-text classes append verbatim to the current section.
-        // Tables flatten into prose; not pretty for display, but preserves
-        // every word for retrieval.
+      case 'SOHeadItalic':        // italic heading inside an SO block
+      case 'SOTextNote':          // notes within SO blocks
+      case 'ShortT':              // document-header short-title (appears at volume boundaries)
+      case 'CompiledActNo':       // document-header act number (appears at volume boundaries)
+      case 'LongT':               // document-header long-title
+      case 'Item':                // numbered or labelled item within a definition or schedule
+        // All body-text classes append verbatim to the current container
+        // (section/clause if one exists; otherwise nearest structural
+        // ancestor like chapter/part/division). Tables flatten into
+        // prose; not pretty for display, but preserves every word for
+        // retrieval.
         this.appendToCurrentSection(text);
         return;
       default:
-        // Unknown class. Append to current section text as a safety net.
-        if (this.currentSectionIndex !== null && text.length > 0) {
+        // Unknown class. Append to current container as a safety net.
+        if (this.hierarchyStack.length > 0 && text.length > 0) {
           this.appendToCurrentSection(text);
         }
         console.error(`[parser-unknown-class] "${cls}", text="${truncate(text, 100)}"`);
@@ -387,24 +410,6 @@ class ParserState {
    * text starts with "Schedule", emit a schedule row and set
    * insideSchedule = true so subsequent Parts/Sections become
    * schedule_parts/schedule_clauses.
-   *
-   * Markup (Privacy Act 1988 Schedule 1):
-   *   <p class="ActHead1">
-   *     <span class="CharPartNo">Schedule</span>
-   *     <span class="CharPartNo">&nbsp;</span>
-   *     <span class="CharPartNo">1</span>             ← the number
-   *     <span>—</span>
-   *     <span class="CharPartText">Australian Privacy Principles</span>
-   *   </p>
-   *
-   * Markup (Fair Work Act 2009 Chapter 1):
-   *   <p class="ActHead1">
-   *     <span class="CharPartNo">Chapter</span>
-   *     <span class="CharPartNo">&nbsp;</span>
-   *     <span class="CharPartNo">1</span>
-   *     <span>—</span>
-   *     <span class="CharPartText">Introduction</span>
-   *   </p>
    *
    * Volume re-print de-duplication: multi-volume Acts re-print the
    * containing Chapter heading at the start of each new volume. If we
@@ -463,10 +468,7 @@ class ParserState {
     }
 
     // Unrecognised ActHead1 shape. Warn but capture as schedule (legacy
-    // fallback) so content isn't lost. Review the parser if this fires
-    // on a real Act — it almost certainly means a new top-level concept
-    // (e.g. "Part X" appearing at ActHead1) the parser should handle
-    // explicitly.
+    // fallback) so content isn't lost.
     this.warnings.push(
       `ActHead1 with unexpected leading word: "${truncate(fullText, 80)}". ` +
         `Captured as 'schedule' as fallback.`,
@@ -491,39 +493,21 @@ class ParserState {
 
   /**
    * Detect a volume re-print: an ActHead1 whose level + number matches a
-   * top-level node we've already emitted. This happens at the start of
-   * volumes 2+ in multi-volume Acts (the volume re-prints its containing
-   * Chapter or Schedule heading for navigational clarity, then continues
-   * with Parts/Sections of that container).
-   *
-   * Returns true if we should skip emitting a new row for this heading
-   * and instead resume the previously-emitted container's hierarchy.
-   *
-   * Side effect on a match: pops the hierarchy stack to make the matching
-   * container the current top-of-stack, so subsequent Parts/Sections
-   * become its children.
+   * top-level node we've already emitted.
    */
   private isVolumeRePrint(
     level: 'chapter' | 'schedule',
     number: string,
   ): boolean {
     if (number === '') return false;
-    // Search the existing sections list (newest first) for a same-level
-    // row with the same number. If found within the last N top-level
-    // additions, treat it as a volume re-print.
     for (let i = this.sections.length - 1; i >= 0; i--) {
       const s = this.sections[i];
-      // Only top-level rows count (parentIndex === -1).
       if (s.parentIndex !== -1) continue;
       if (s.level === level && s.number === number) {
-        // Match — pop hierarchy back to make this row the new top.
         this.hierarchyStack = [i];
-        // Restore insideSchedule based on the container we're returning to.
         this.insideSchedule = level === 'schedule';
         return true;
       }
-      // Stop searching once we hit a different top-level row — only the
-      // MOST RECENT top-level node can be the volume re-print target.
       break;
     }
     return false;
@@ -531,15 +515,6 @@ class ParserState {
 
   /**
    * ActHead2 = Part (outside schedule) or Schedule Part (inside schedule).
-   *
-   * Real markup (Privacy Act Part I):
-   *   <p class="ActHead2">
-   *     <span class="CharPartNo">Part</span>
-   *     <span class="CharPartNo">&nbsp;</span>
-   *     <span class="CharPartNo">I</span>      ← the actual number
-   *     <span>—</span>
-   *     <span class="CharPartText">Preliminary</span>
-   *   </p>
    */
   private handleActHead2(
     $: cheerio.CheerioAPI,
@@ -554,12 +529,8 @@ class ParserState {
     const partText = $el.find('.CharPartText').first().text().trim();
     const fullText = $el.text().trim();
 
-    // Defensive: some Acts encode their schedules using ActHead2 with
-    // the leading word "Schedule" rather than a distinct ActHead1.
-    // Detect that case and re-dispatch as a schedule.
     const isScheduleStyle = /^Schedule\b/i.test(fullText);
     if (isScheduleStyle && !this.insideSchedule) {
-      // Treat this as a schedule heading. Same flow as ActHead1.
       const schNum = partNoText || extractScheduleNumberFromText(fullText);
       const schHeading = partText || scheduleHeadingFromText(fullText, schNum);
       this.popHierarchyTo([]);
@@ -573,12 +544,10 @@ class ParserState {
     const partHeading = partText || partHeadingFromText(fullText, partNumber);
 
     if (this.insideSchedule) {
-      // Schedule Part. Parent must be the schedule.
       this.popHierarchyTo(['schedule']);
       this.addSection('schedule_part', partNumber, partHeading || null);
       debug(`[ActHead2/SchedulePart] ${partNumber}: "${partHeading}"`);
     } else {
-      // Top-level Act Part. May sit under a Chapter if one exists.
       this.popHierarchyTo(['chapter']);
       this.addSection('part', partNumber, partHeading || null);
       this.hasSeenBodySection = true;
@@ -598,7 +567,6 @@ class ParserState {
     const divNumber = divNoText || extractDivisionNumberFromText(fullText);
     const divHeading = divText || divisionHeadingFromText(fullText, divNumber);
 
-    // Divisions can live under Chapters, Parts, or schedule_parts.
     this.popHierarchyTo(['chapter', 'part', 'schedule_part']);
     this.addSection('division', divNumber, divHeading || null);
     debug(`[ActHead3/Division] ${divNumber}: "${divHeading}"`);
@@ -625,13 +593,6 @@ class ParserState {
 
   /**
    * ActHead5 = Section (outside schedule) or Schedule Clause (inside schedule).
-   *
-   * Markup:
-   *   <p class="ActHead5">
-   *     <span class="CharSectno">1</span>
-   *     <span>&nbsp; </span>
-   *     <span>Short title</span>
-   *   </p>
    */
   private handleActHead5(
     $: cheerio.CheerioAPI,
@@ -640,7 +601,6 @@ class ParserState {
     const sectNumber = $el.find('.CharSectno').first().text().trim();
     const fullText = $el.text().trim();
 
-    // Strip the section number from the start of the full text.
     let sectHeading = fullText;
     if (sectNumber) {
       const pattern = new RegExp(`^${escapeRegex(sectNumber)}\\s*`, '');
@@ -648,8 +608,6 @@ class ParserState {
     }
 
     if (this.insideSchedule) {
-      // Schedule Clause. Parent must be a schedule_part (or, if the
-      // schedule has no Parts, the schedule itself).
       this.popHierarchyTo(['schedule', 'schedule_part']);
       this.addSection(
         'schedule_clause',
@@ -659,7 +617,6 @@ class ParserState {
       this.hasSeenBodySection = true;
       debug(`[ActHead5/ScheduleClause] ${sectNumber}: "${sectHeading}"`);
     } else {
-      // Top-level Act Section. May sit under chapter/part/division/subdivision.
       this.popHierarchyTo(['chapter', 'part', 'division', 'subdivision']);
       this.addSection('section', sectNumber, sectHeading || null);
       this.hasSeenBodySection = true;
@@ -672,11 +629,20 @@ class ParserState {
   // ---------------------------------------------------------------------------
 
   /**
-   * The "current section" is the most recent leaf-level entry in the
-   * hierarchy. For Acts that's a `section`; for schedules it's a
-   * `schedule_clause`. Body paragraphs append to whichever is on top.
+   * The "current container" for body text. Prefers the deepest leaf
+   * (section or schedule_clause). If no leaf section is on the stack,
+   * falls back to the deepest structural container (chapter, part,
+   * division, subdivision, schedule, schedule_part). This stops body
+   * text being dropped on the floor in chapter/part-level prose that
+   * appears before any numbered section is introduced.
+   *
+   * The DOM-by-document-order property of legislation.gov.au HTML means
+   * the deepest item on the hierarchy stack is always the most
+   * specific container we know about; appending there is correct.
    */
-  private get currentSectionIndex(): number | null {
+  private get currentContainerIndex(): number | null {
+    if (this.hierarchyStack.length === 0) return null;
+    // Prefer the deepest leaf section/clause if any.
     for (let i = this.hierarchyStack.length - 1; i >= 0; i--) {
       const sec = this.sections[this.hierarchyStack[i]];
       if (
@@ -686,15 +652,16 @@ class ParserState {
         return this.hierarchyStack[i];
       }
     }
-    return null;
+    // Fallback: deepest structural ancestor on the stack.
+    return this.hierarchyStack[this.hierarchyStack.length - 1];
   }
 
   private appendToCurrentSection(text: string): void {
     if (text.length === 0) return;
-    const idx = this.currentSectionIndex;
+    const idx = this.currentContainerIndex;
     if (idx === null) {
       this.warnings.push(
-        `Body text encountered with no current section: "${truncate(text, 80)}"`,
+        `Body text encountered with no current container: "${truncate(text, 80)}"`,
       );
       return;
     }
@@ -733,7 +700,6 @@ class ParserState {
         ? this.hierarchyStack[this.hierarchyStack.length - 1]
         : -1;
 
-    // Build the segment chain: ancestors + this new section.
     const ancestorSegments: CitationSegment[] = this.hierarchyStack.map((idx) => ({
       level: this.sections[idx].level,
       number: this.sections[idx].number,
@@ -820,11 +786,6 @@ function findCompilationNumber($: cheerio.CheerioAPI): number | null {
 // Text extraction helpers
 // =============================================================================
 
-/**
- * Given a list of CharPartNo/CharDivNo spans, return the LAST one whose
- * text isn't (a) the literal heading word like "Part"/"Division" and
- * (b) just whitespace/nbsp. That's the actual number.
- */
 function extractNumberFromSpans(
   $: cheerio.CheerioAPI,
   spans: any[],
@@ -840,8 +801,6 @@ function extractNumberFromSpans(
 }
 
 function extractPartNumberFromText(text: string): string {
-  // Matches Part numbers like "II", "1", "3A", and Fair Work-style
-  // "1-1", "2-4A" etc. (dash-separated Chapter-Part numbering).
   const match = text.match(/^Part\s+([IVXLCDM\d]+(?:[-‑–][0-9A-Z]+)?[A-Z]?)/i);
   return match?.[1] ?? '';
 }

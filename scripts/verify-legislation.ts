@@ -13,7 +13,8 @@
 //   STAGE 1 — Structural sanity checks. These run before the content
 //             comparison because they catch failure modes the multiset
 //             comparison can't see: systematic parser misclassification
-//             (words all present but attached to wrong section types).
+//             (words all present but attached to wrong section types), or
+//             body text dropped on the floor.
 //             A failure here exits before the content stage runs, because
 //             a structurally-broken result would almost certainly "pass"
 //             the multiset check — both sides would be wrong identically.
@@ -31,33 +32,30 @@
 //
 // Fair Work Act 2009 — parser misclassification (May 2026)
 // --------------------------------------------------------
-// The original verifier had only Stage 2. When Fair Work was first
-// ingested, the parser misclassified every Chapter as a Schedule and
-// consequently every Part as schedule_part and every Section as
-// schedule_clause. All the words were present, just attached to
-// wrong-typed parents. The multiset comparison passed cleanly. Stage 1
-// check #2 (zero leaves) and #3 (schedule rows without source "Schedule
-// N" element) now catch that class of bug at first ingest.
+// Parser misclassified every Chapter as a Schedule. Stage 1 check #2
+// (zero leaves) and #3 (schedule rows without source "Schedule N"
+// element) now catch that class of bug at first ingest.
 //
 // Fair Work Act 2009 — multi-document truncation (May 2026)
 // ---------------------------------------------------------
 // legislation.gov.au splits large Acts across multiple document_N.html
-// files. The pipeline originally fetched only document_1, silently
-// truncating Fair Work (4 documents) to its first chapter or two. The
-// verifier passed because the DB matched the truncated source.
-// lib/legislation/fetch.ts now probes all documents in order; this
-// script uses it, so the verifier compares the DB against the full Act.
+// files. lib/legislation/fetch.ts now probes all documents in order.
 //
-// Fair Work Act 2009 — endnote false-trigger / missing Schedules (May 2026)
-// ------------------------------------------------------------------------
-// The parser's original ENDNOTES trigger was text-based — any <p> whose
-// text matched "Endnotes" or "Endnote N". legislation.gov.au reprints a
-// volume-contents list at the start of each volume that includes
-// "Endnotes" as a literal entry — the parser tripped on that and
-// skipped Fair Work's 5 Schedules at the end of the Act. The trigger is
-// now structural (only fires on <p class="ENotesHeading1">). Stage 1
-// check #4 (ActHead1 count parity) is the verifier's safety net for
-// "parser silently dropped top-level structure".
+// Fair Work Act 2009 — endnote false-trigger (May 2026)
+// -----------------------------------------------------
+// Parser tripped on the word "Endnotes" appearing in a volume-contents
+// list and skipped legitimate Schedules. Trigger is now structural
+// (ENotesHeading1 class). Stage 1 check #4 (ActHead1 parity) is the
+// safety net.
+//
+// Corporations Act 2001 — orphan body text (May 2026)
+// ---------------------------------------------------
+// Parser dropped 1,863 "Body" and "TLPnoteright" paragraphs on the
+// floor because they appeared inside Guide chapters that had no
+// numbered section yet. Parser now attaches body text to the nearest
+// structural ancestor (chapter/part/division) when no section is
+// current. Stage 1 check #5 (orphan-warning count must be zero) is the
+// verifier safety net.
 //
 // =============================================================================
 //
@@ -106,17 +104,13 @@ const compilationDate: string = compilationDateRaw;
 // Word-multiset helpers
 // ---------------------------------------------------------------------------
 
-// Normalise text into a word multiset (a Map of word -> count).
-// We lowercase, normalise unicode dashes/quotes/spaces, and split on
-// whitespace. Punctuation attached to words is kept (so "(1)" stays "(1)")
-// because in legislation those tokens carry meaning.
 function toWordMultiset(text: string): Map<string, number> {
   const normalised = text
     .normalize('NFKC')
-    .replace(/\u00a0/g, ' ')          // non-breaking space -> space
-    .replace(/[\u2010-\u2015]/g, '-') // unicode dashes -> hyphen
-    .replace(/[\u2018\u2019]/g, "'")  // curly single quotes -> straight
-    .replace(/[\u201c\u201d]/g, '"')  // curly double quotes -> straight
+    .replace(/\u00a0/g, ' ')
+    .replace(/[\u2010-\u2015]/g, '-')
+    .replace(/[\u2018\u2019]/g, "'")
+    .replace(/[\u201c\u201d]/g, '"')
     .toLowerCase();
 
   const words = normalised.split(/\s+/).filter((w) => w.length > 0);
@@ -127,9 +121,6 @@ function toWordMultiset(text: string): Map<string, number> {
   return m;
 }
 
-// Compare two multisets. Returns { missing, extra } where:
-//   missing = words in `expected` (parser) but short/absent in `actual` (db)
-//   extra   = words in `actual` (db) but not accounted for in `expected`
 function diffMultisets(
   expected: Map<string, number>,
   actual: Map<string, number>,
@@ -160,14 +151,8 @@ function diffMultisets(
  * Count UNIQUE top-level ActHead1 anchors in the source HTML.
  *
  * "Unique" matters for multi-volume Acts: legislation.gov.au re-prints
- * the containing Chapter heading at the start of each volume. Naively
- * counting every <p class="ActHead1"> would over-count by exactly the
- * number of volume boundaries, and we'd fail the parity check even on a
- * correctly-parsed Act.
- *
- * We deduplicate by (leading-word, number). For Chapter 2 — Terms and
- * conditions of employment — the key is "Chapter:2". The same Chapter
- * 2 heading reprinted in volume 2 has the same key and counts once.
+ * the containing Chapter heading at the start of each volume. We
+ * deduplicate by (leading-word, number).
  */
 function countUniqueActHead1s($: cheerio.CheerioAPI): {
   totalCount: number;
@@ -180,13 +165,10 @@ function countUniqueActHead1s($: cheerio.CheerioAPI): {
     const text = $(el).text().trim();
     const match = text.match(/^(Chapter|Schedule|Part)\s+(\S+)/i);
     if (match) {
-      // Strip trailing em-dash etc. from the number (e.g. "1—Introduction" → "1").
       const word = match[1].toLowerCase();
       const num = match[2].replace(/[—–-].*$/, '').trim();
       keys.add(`${word}:${num}`);
     } else {
-      // Unrecognised shape — count it as unique by its full text so we
-      // don't accidentally collapse multiple distinct headings.
       keys.add(`raw:${text.slice(0, 80)}`);
     }
   });
@@ -202,7 +184,6 @@ function countUniqueActHead1s($: cheerio.CheerioAPI): {
 // ---------------------------------------------------------------------------
 
 async function main() {
-  // 1. Fetch the SAME multi-document HTML the ingest pipeline uses.
   console.log(
     `[verify] fetching ${registrationId} compilation ${compilationDate}`,
   );
@@ -214,17 +195,14 @@ async function main() {
       `${html.length.toLocaleString()} combined bytes`,
   );
 
-  // 2. Run the parser fresh on the combined HTML. This is our source of
-  //    truth for "what the source says". (Citation arg doesn't affect
-  //    text content.)
   const actCitation = buildActCitation('Verification Run', 'commonwealth');
   const parsed = parseLegislationHtml(html, {
     actCitation,
     jurisdiction: 'commonwealth',
   });
   console.log(`[verify] parser produced ${parsed.sections.length} sections`);
+  console.log(`[verify] parser warnings: ${parsed.warnings.length}`);
 
-  // 3. Load what's actually in the DB for this Act.
   const sql = postgres(process.env.DATABASE_URL!, { prepare: false });
   const [act] = await sql`
     SELECT id, short_title FROM legislation
@@ -251,15 +229,9 @@ async function main() {
   // =========================================================================
   // STAGE 1: Structural sanity checks
   // =========================================================================
-  //
-  // These check that the parser produced a structurally sensible result,
-  // independent of whether the text content is correct. They run first
-  // because a structurally broken result would likely pass the content
-  // check (both sides wrong identically) and silently ship.
 
   const $verify = cheerio.load(html);
 
-  // Count source-document structural signals.
   const actHead1 = countUniqueActHead1s($verify);
 
   let sourceHasScheduleElement = false;
@@ -267,12 +239,11 @@ async function main() {
     const text = $verify(el).text().trim();
     if (/^Schedule\s+\d/i.test(text)) {
       sourceHasScheduleElement = true;
-      return false; // stop iteration
+      return false;
     }
     return;
   });
 
-  // Count parser-output level distribution.
   const levelCounts = new Map<string, number>();
   for (const s of parsed.sections) {
     levelCounts.set(s.level, (levelCounts.get(s.level) ?? 0) + 1);
@@ -295,10 +266,7 @@ async function main() {
 
   let hardFail = false;
 
-  // Sanity check 1: ActHead1 elements in source → top-level structural
-  // rows in parsed output. If the source has ActHead1 elements but the
-  // parser produced zero chapters AND zero schedules, top-level
-  // structure is lost.
+  // Check 1: ActHead1 → top-level rows
   if (actHead1.totalCount > 0 && nChapters === 0 && nSchedules === 0) {
     console.error(
       `[verify] STRUCTURAL FAIL: source contains ${actHead1.totalCount} ` +
@@ -308,10 +276,7 @@ async function main() {
     hardFail = true;
   }
 
-  // Sanity check 2: leaf-content rows must exist. An Act with zero
-  // sections AND zero schedule_clauses has no leaves — no content is
-  // retrievable by citation. This is the direct catch for the original
-  // Fair Work Chapter-as-Schedule misclassification bug.
+  // Check 2: leaf content must exist
   if (nSections === 0 && nScheduleClauses === 0) {
     console.error(
       `[verify] STRUCTURAL FAIL: parser produced 0 'section' rows and ` +
@@ -321,11 +286,7 @@ async function main() {
     hardFail = true;
   }
 
-  // Sanity check 3: schedule-mode rows imply source must have "Schedule N"
-  // text. If the parser emitted schedule-family rows (schedule,
-  // schedule_part, or schedule_clause) but the source HTML contains no
-  // element whose text starts with "Schedule N", schedule mode was
-  // entered erroneously.
+  // Check 3: schedule rows imply source has "Schedule N"
   const sawScheduleRows = nSchedules > 0 || nSchedulePart > 0 || nScheduleClauses > 0;
   if (sawScheduleRows && !sourceHasScheduleElement) {
     console.error(
@@ -337,18 +298,7 @@ async function main() {
     hardFail = true;
   }
 
-  // Sanity check 4: ActHead1 count parity. The number of UNIQUE
-  // top-level anchors (chapters + schedules) in source must equal the
-  // number of chapter + schedule rows in the parser output. Catches
-  // partial-loss bugs: source has 14 ActHead1s representing 9 chapters
-  // and 5 schedules, but parser only produced 9 — the 5 Schedules got
-  // silently dropped (which is what Fair Work's endnote false-trigger
-  // caused).
-  //
-  // We use the UNIQUE count rather than total count to account for
-  // multi-volume Acts that re-print their containing heading at volume
-  // boundaries. The parser de-duplicates those re-prints; the verifier
-  // matches that semantic.
+  // Check 4: ActHead1 parity
   const parsedTopLevel = nChapters + nSchedules;
   if (actHead1.uniqueCount !== parsedTopLevel) {
     console.error(
@@ -365,8 +315,25 @@ async function main() {
     hardFail = true;
   }
 
-  // If any structural check failed, stop here. The content comparison
-  // would be misleading on a structurally broken result.
+  // Check 5: parser warnings must be zero. The parser only emits a
+  // warning when content is genuinely lost (body text that couldn't be
+  // attached to any container). A non-zero count means the parser
+  // dropped text on the floor — exactly the bug that hid behind the
+  // Corporations Act's apparent PASS.
+  if (parsed.warnings.length > 0) {
+    console.error(
+      `[verify] STRUCTURAL FAIL: parser emitted ${parsed.warnings.length} ` +
+        `warning(s). Content was dropped during parsing. First 10:`,
+    );
+    for (const w of parsed.warnings.slice(0, 10)) {
+      console.error(`    ${w}`);
+    }
+    if (parsed.warnings.length > 10) {
+      console.error(`    ... and ${parsed.warnings.length - 10} more`);
+    }
+    hardFail = true;
+  }
+
   if (hardFail) {
     console.log('');
     console.log('='.repeat(60));
@@ -379,8 +346,6 @@ async function main() {
   // STAGE 2: Content comparison
   // =========================================================================
 
-  // Section-count check. Different from "alignment" — this is just the
-  // total number of rows on each side.
   if (parsed.sections.length !== dbSections.length) {
     console.error(
       `[verify] SECTION COUNT MISMATCH: parser=${parsed.sections.length} db=${dbSections.length}`,
@@ -388,8 +353,6 @@ async function main() {
     hardFail = true;
   }
 
-  // Per-section word-multiset comparison. We pair by sort_order index.
-  // For each section we compare heading+text words.
   const n = Math.min(parsed.sections.length, dbSections.length);
   let mismatchCount = 0;
 
@@ -397,8 +360,6 @@ async function main() {
     const p = parsed.sections[i];
     const d = dbSections[i];
 
-    // Identity sanity: level + number should line up. If they don't, the
-    // two lists have drifted out of alignment — report and keep going.
     if (p.level !== d.level || p.number !== d.number) {
       console.error(
         `[verify] ALIGNMENT MISMATCH at index ${i}: ` +
@@ -434,10 +395,6 @@ async function main() {
       }
     }
   }
-
-  // =========================================================================
-  // Verdict
-  // =========================================================================
 
   console.log('');
   console.log('='.repeat(60));
