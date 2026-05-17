@@ -17,6 +17,14 @@
 //     schedule descendants distinctly from Act-level Parts/Sections to
 //     prevent path collisions (part_1 vs sch_1.pt_1).
 //
+// CHUNK 8 FOLLOW-UP 2 (chat retrieval):
+//   - LegislationCitation variant added to StoredCitation discriminated
+//     union. Emitted by the chat route when Claude cites a section
+//     retrieved via legislation semantic search. Numbering shares the
+//     same [N] sequence as caselaw, allocated AFTER caselaw citations.
+//     No schema change required — messages.citations is JSONB so the
+//     new variant just lands.
+//
 // CHUNK 7 ADDITIONS (AI access controls + file reading):
 //   - AiAccessMode union: 'off' | 'all' | 'subset'
 //   - matters.aiAccessMode + matters.aiAccessCommittedAt
@@ -306,23 +314,36 @@ export type NewMessage = typeof messages.$inferInsert;
 /**
  * Citation — what gets stored in messages.citations[].
  *
- * CHUNK 7 CHANGE: this is now a discriminated union of two kinds:
+ * Discriminated union of three kinds:
  *
- *   - 'caselaw' (Chunk 3 shape): NSW caselaw hit from semantic search
- *   - 'file' (Chunk 7 new): a quote from a user-uploaded file in the matter
+ *   - 'caselaw'      (Chunk 3 shape): NSW caselaw hit from semantic search
+ *                    over judgment_embeddings
+ *   - 'file'         (Chunk 7): a quote from a user-uploaded file in the matter
+ *   - 'legislation'  (Chunk 8 retrieval): a section hit from semantic search
+ *                    over legislation_section_embeddings
  *
- * Both kinds live in the same column. The renderer (message-citations.tsx)
+ * All three live in the same JSONB column. The renderer (message-citations.tsx)
  * switches on `kind` and renders accordingly.
  *
- * Why one column not two: simpler queries, simpler types, and a single
- * citation can't be "both" — the kind is mutually exclusive.
+ * Why one column not three: simpler queries, simpler types, and a single
+ * citation has exactly one kind — they're mutually exclusive.
  *
- * The Chunk 3 'caselaw' shape is preserved exactly so old messages
- * stored before Chunk 7 still render. The `kind: 'caselaw'` discriminator
- * is the only new field on that variant; older rows without `kind` are
+ * The Chunk 3 'caselaw' shape is preserved exactly so old messages stored
+ * before Chunk 7 still render. The `kind: 'caselaw'` discriminator is
+ * the only new field on that variant; older rows without `kind` are
  * treated as caselaw by default in the renderer.
+ *
+ * Numbering across kinds (used by /api/chat/route.ts):
+ *   The chat route builds the citations array in this fixed order
+ *     [caselaw[0..N-1], legislation[0..M-1], file[0..K-1]]
+ *   with `index` values 1..N+M+K assigned in that order. So in a system
+ *   with 10 caselaw hits + 7 legislation hits, caselaw citations are
+ *   emitted by Claude as [1]..[10] and legislation citations as [11]..[17].
+ *   File citations don't use the [N] format (see lib/chat/citations.ts);
+ *   they're parsed out of quote blocks after streaming and indexed
+ *   after the [N] citations.
  */
-export type StoredCitation = CaselawCitation | FileCitation;
+export type StoredCitation = CaselawCitation | FileCitation | LegislationCitation;
 
 export interface CaselawCitation {
   // 'kind' is optional for back-compat with pre-Chunk-7 rows that don't
@@ -353,6 +374,42 @@ export interface FileCitation {
   // The verbatim quoted text. Up to ~1000 chars; we don't render
   // anything longer than that inline.
   quote: string;
+}
+
+/**
+ * LegislationCitation — Chunk 8 retrieval addition.
+ *
+ * Emitted when Claude cites a legislation_sections row that was
+ * retrieved via semantic search and supplied in the system prompt.
+ *
+ * Numbering shares the same [N] sequence as caselaw citations and is
+ * assigned by the chat route AFTER caselaw indices. See the
+ * StoredCitation docstring above for the full numbering scheme.
+ *
+ * Stored fields mirror what the legislation semantic search returns:
+ *   - legislationId / sectionId  — for future deep-linking back to
+ *     the source row in the DB
+ *   - citation                   — pre-computed AGLC4 string
+ *     (e.g. 'Privacy Act 1988 (Cth) s 16A')
+ *   - breadcrumb                 — UI-friendly path
+ *     (e.g. 'Part III > Division 1 > s 16A')
+ *   - heading                    — section title for display
+ *   - text                       — the actual section body content
+ *     that Claude reasoned over. Kept verbatim so the lawyer can
+ *     verify the citation matches what Claude was shown.
+ *   - similarity                 — cosine similarity score for the
+ *     hit, useful for downstream relevance display / debugging.
+ */
+export interface LegislationCitation {
+  kind: 'legislation';
+  index: number;
+  legislationId: string;
+  sectionId: string;
+  citation: string;
+  breadcrumb: string;
+  heading: string | null;
+  text: string;
+  similarity: number;
 }
 
 // =============================================================================

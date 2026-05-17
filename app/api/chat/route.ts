@@ -2,36 +2,44 @@
 //
 // Streaming chat endpoint backing /chat and /matters/[id]/chat.
 //
-// CHUNK 7 RECONCILIATION + FIX (May 2026):
+// CHUNK 8 ADDITION (Path A — always retrieve):
 //
-// Two important corrections from the previous version:
+// Every user message now triggers TWO semantic searches in parallel:
+//   1. semanticSearch (caselaw) — existing, returns 10 hits (was 15)
+//   2. semanticSearchLegislation (statutes) — new, returns 7 hits
 //
-//   1. Anthropic Files API requires the beta header
-//      `files-api-2025-04-14` on the Messages call, not just on the
-//      Files.upload call. Without it, `document.source.type: 'file'`
-//      is rejected. We pass `betas: ['files-api-2025-04-14']` into
-//      messages.stream().
+// Both result sets get rendered into the system prompt with shared
+// [N] numbering: caselaw [1]..[10], legislation [11]..[17]. Claude is
+// instructed (via system-prompt.ts) on how to use each.
 //
-//   2. tool_result content blocks accept TEXT only, not document blocks.
-//      So we split the tool's return into:
-//        - toolResultText: goes inside the tool_result content
-//        - documentBlocks: appended as a SEPARATE user message right
-//          after the tool_result
+// Citations sent to the client in one merged SSE event. The renderer
+// (message-citations.tsx) discriminates on `kind` and renders each
+// variant distinctly. File citations continue to be parsed out of
+// the streamed text after Claude responds and indexed after these.
 //
-// Otherwise this is the same reconciled route from before:
+// CHUNK 7 RECONCILIATION + FIX (May 2026) — unchanged:
+//   - Files API beta header on the Messages call
+//   - tool_result content blocks accept TEXT only; documents go as a
+//     separate user message after the tool_result
+//
+// Otherwise this is the same reconciled route:
 //   - Auth, validation, conversation resolution, getMatter (unchanged)
 //   - User message persisted BEFORE streaming
-//   - Semantic search on every user message
 //   - Caselaw citations with kind: 'caselaw'
+//   - Legislation citations with kind: 'legislation' (NEW)
 //   - When matter has AI access on: tool-use loop with read_files
-//   - File citations indexed AFTER caselaw indices
+//   - File citations indexed AFTER caselaw + legislation indices
 //   - SSE protocol: conversation, citations, delta, done, error,
-//     plus new tool_use_start, tool_use_complete, partial_read_warning,
+//     plus tool_use_start, tool_use_complete, partial_read_warning,
 //     file_citations
 
 import Anthropic from '@anthropic-ai/sdk';
 import { createClient } from '@/lib/supabase/server';
 import { semanticSearch, type SemanticSearchHit } from '@/lib/search/semantic';
+import {
+  semanticSearchLegislation,
+  type LegislationSearchHit,
+} from '@/lib/search/semantic-legislation';
 import {
   createConversation,
   getConversation,
@@ -49,7 +57,12 @@ import type {
   FilesToolResponse,
   DocumentBlock,
 } from '@/app/api/files-tool/route';
-import type { StoredCitation, FileCitation } from '@/lib/db/schema';
+import type {
+  StoredCitation,
+  CaselawCitation,
+  FileCitation,
+  LegislationCitation,
+} from '@/lib/db/schema';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -62,6 +75,10 @@ const MAX_TURN_ITERATIONS = 4;
 // Files API beta header. REQUIRED on the Messages call when using
 // `document` content blocks with `source.type: 'file'`.
 const FILES_API_BETA = 'files-api-2025-04-14';
+
+// Retrieval limits — see CHUNK 8 design notes above.
+const CASELAW_HIT_LIMIT = 10;
+const LEGISLATION_HIT_LIMIT = 7;
 
 // =============================================================================
 // Request validation — UNCHANGED
@@ -145,21 +162,27 @@ const UUID_RE =
   /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 // =============================================================================
-// System prompt — UNCHANGED from previous reconciled version
+// System prompt — Chunk 8 extended to render legislation hits
 // =============================================================================
+//
+// Mirror of lib/chat/system-prompt.ts (which is kept for testability).
+// Both should stay in sync. The route uses this inline version because
+// it has additional context (the AI files block, retrieval results)
+// that the testable version handles via its more generic interface.
 
 function buildSystemPrompt(
-  hits: SemanticSearchHit[],
+  caselawHits: SemanticSearchHit[],
+  legislationHits: LegislationSearchHit[],
   aiFilesContext: {
     filesList: FileForAi[];
     truncated: boolean;
     totalAccessibleFiles: number;
   } | null,
 ): string {
-  const sourcesBlock =
-    hits.length === 0
+  const caselawBlock =
+    caselawHits.length === 0
       ? 'No relevant cases were found in the database for this query.'
-      : hits
+      : caselawHits
           .map((hit, i) => {
             const caseLabel = [hit.judgment.caseName, hit.judgment.citation]
               .filter(Boolean)
@@ -168,35 +191,62 @@ function buildSystemPrompt(
           })
           .join('\n\n---\n\n');
 
+  const legislationStartIndex = caselawHits.length + 1;
+  const legislationBlock =
+    legislationHits.length === 0
+      ? 'No relevant legislation sections were found in the database for this query.'
+      : legislationHits
+          .map((hit, i) => {
+            const idx = legislationStartIndex + i;
+            const headingLine = hit.heading
+              ? `${hit.citation} — ${hit.heading}`
+              : hit.citation;
+            return `[${idx}] ${headingLine}\n(${hit.breadcrumb})\n${hit.text}`;
+          })
+          .join('\n\n---\n\n');
+
   const base = `You are BriefBridge, a legal research assistant for Australian lawyers.
 
-You help lawyers research legal questions by analyzing the most relevant case law passages and providing grounded, accurate answers with verifiable citations.
+You help lawyers research legal questions by analyzing the most relevant case law passages and legislation sections, providing grounded, accurate answers with verifiable citations.
 
 # Your knowledge sources
 
-You have been provided with ${hits.length} relevant paragraphs from NSW Supreme Court judgments (and other Australian courts as the database expands), retrieved via semantic search against the user's question:
+You have been provided with relevant content from two sources, retrieved via semantic search against the user's question.
 
-${sourcesBlock}
+## NSW caselaw — ${caselawHits.length} paragraphs
+
+Indexed [1] through [${caselawHits.length}]:
+
+${caselawBlock}
+
+## Commonwealth legislation — ${legislationHits.length} sections
+
+Indexed [${legislationStartIndex}] through [${legislationStartIndex + legislationHits.length - 1}]:
+
+${legislationBlock}
 
 # How to respond
 
-1. **Cite using the format [N] where N is the source number above.** Every legal proposition you assert must be backed by a citation from these sources. Multiple citations for one point are fine: [1][3].
+1. **Cite using the format [N] where N is the source number above.** Every legal proposition you assert must be backed by a citation from these sources. Multiple citations for one point are fine: [1][3]. Citations from BOTH caselaw and legislation use the same [N] numbering scheme.
 
-2. **Quote sparingly and accurately.** Use direct quotes only when the exact wording matters (e.g. statutory text, key tests). Otherwise paraphrase.
+2. **Surface statute first when both apply.** Legislation is the source of law; caselaw interprets it. If a section directly answers the question, cite it first, then show how courts have interpreted it.
 
-3. **Be candid about gaps.** If the retrieved sources don't actually support a proposition the user is asking about, say so directly: "The retrieved cases don't address this directly, but [related point]." Don't invent citations to fill gaps. Don't cite cases for propositions they don't actually support.
+3. **Quote sparingly and accurately.** Use direct quotes for statutory text (where wording is the law) and for key tests articulated by courts. Otherwise paraphrase. If a section's text appears truncated in the retrieved snippet, note that the full section may contain additional content not shown.
 
-4. **Structure for lawyers.** Use brief headings, numbered points, and clean prose. Match the register of a junior solicitor briefing a senior — accurate, concise, no fluff.
+4. **Be candid about gaps.** If the retrieved sources don't actually support a proposition the user is asking about, say so directly: "The retrieved sources don't address this directly, but [related point]." Don't invent citations to fill gaps. Don't cite cases or sections for propositions they don't actually support.
 
-5. **Surface the most relevant cases up top.** If two of the retrieved cases are leading authorities and others are tangential, focus on the leading ones first.
+5. **Structure for lawyers.** Use brief headings, numbered points, and clean prose. Match the register of a junior solicitor briefing a senior — accurate, concise, no fluff.
 
-6. **End with practical considerations** when appropriate — what the lawyer should think about, what additional research might be needed, what the user's specific facts (if mentioned) might change.
+6. **Surface the most relevant authorities up top.** If two cases or sections are leading authorities and others are tangential, focus on the leading ones first.
 
-7. **You are not giving legal advice.** End substantive responses with a brief reminder that the lawyer should verify citations against the official version and that this is research assistance, not legal advice.
+7. **End with practical considerations** when appropriate — what the lawyer should think about, what additional research might be needed, what the user's specific facts (if mentioned) might change.
+
+8. **You are not giving legal advice.** End substantive responses with a brief reminder that the lawyer should verify citations against the official version and that this is research assistance, not legal advice.
 
 # Limitations to acknowledge
 
-- Your case database currently covers NSW Supreme Court judgments from 2015 onward. Earlier cases or other jurisdictions may not be retrievable.
+- Your caselaw database currently covers NSW Supreme Court judgments from 2015 onward. Earlier cases or other jurisdictions may not be retrievable.
+- Your legislation database currently covers the Acts Interpretation Act 1901, Privacy Act 1988, Fair Work Act 2009, Australian Information Commissioner Act 2010, and Corporations Act 2001 — all Commonwealth. Other Acts and Regulations, and State legislation, may not be retrievable.
 - Some judgments have known parsing gaps (block quotes, annexures, subheadings may be missing). Always recommend the lawyer verify against the source.
 - You cannot answer based on the user's specific facts unless those facts are described in the question.
 
@@ -226,7 +276,7 @@ Ask one clarifying question rather than guessing. Lawyers prefer precision.`;
 
 # This case has uploaded files you can read
 
-In addition to the NSW caselaw above, the lawyer has uploaded files to this case. Use the read_files tool to read them when relevant to the question. Rules:
+In addition to the caselaw and legislation above, the lawyer has uploaded files to this case. Use the read_files tool to read them when relevant to the question. Rules:
 
 1. PLAN UP FRONT. Decide which files you need before calling read_files. Make ONE call with all files you anticipate needing in this turn.
 
@@ -245,7 +295,7 @@ In addition to the NSW caselaw above, the lawyer has uploaded files to this case
 
 6. PER-TURN LIMIT. Up to roughly ${MAX_READ_TOKENS_PER_TURN.toLocaleString()} tokens of file content per call. Larger requests will be truncated with warnings.
 
-7. CITATION NUMBERING for files is separate from caselaw [N] numbering. When you cite files using the quote-block format above, that's enough — don't try to put them in the [N] scheme.
+7. CITATION NUMBERING for files is separate from the caselaw + legislation [N] numbering above. When you cite files using the quote-block format above, that's enough — don't try to put them in the [N] scheme.
 
 Available files in this case (call read_files with one or more filenames):
 ${fileLines.join('\n')}${truncatedFooter}`;
@@ -355,17 +405,63 @@ export async function POST(request: Request) {
   }
 
   // ---------------------------------------------------------------------------
-  // Semantic search
+  // Semantic searches — caselaw + legislation in parallel
   // ---------------------------------------------------------------------------
-  let hits: SemanticSearchHit[];
-  try {
-    hits = await semanticSearch(latestUserMessage, { limit: 15 });
-  } catch (err) {
-    const message = err instanceof Error ? err.message : 'Search failed.';
-    return jsonError(`Semantic search error: ${message}`, 500);
+  //
+  // Both searches embed the same query string (once each) and run their
+  // pgvector lookups in parallel. Total wall time is the slower of the
+  // two (~150-400ms each) rather than the sum.
+  //
+  // We catch errors per-search rather than failing the whole request if
+  // one search fails. A legislation outage shouldn't kill caselaw
+  // retrieval. The other search proceeds with an empty result set.
+
+  const [caselawResult, legislationResult] = await Promise.allSettled([
+    semanticSearch(latestUserMessage, { limit: CASELAW_HIT_LIMIT }),
+    semanticSearchLegislation(latestUserMessage, { limit: LEGISLATION_HIT_LIMIT }),
+  ]);
+
+  let caselawHits: SemanticSearchHit[] = [];
+  if (caselawResult.status === 'fulfilled') {
+    caselawHits = caselawResult.value;
+  } else {
+    // eslint-disable-next-line no-console
+    console.error(
+      '[chat] caselaw search failed:',
+      caselawResult.reason instanceof Error
+        ? caselawResult.reason.message
+        : String(caselawResult.reason),
+    );
   }
 
-  const caselawCitations: StoredCitation[] = hits.map((hit, i) => ({
+  let legislationHits: LegislationSearchHit[] = [];
+  if (legislationResult.status === 'fulfilled') {
+    legislationHits = legislationResult.value;
+  } else {
+    // eslint-disable-next-line no-console
+    console.error(
+      '[chat] legislation search failed:',
+      legislationResult.reason instanceof Error
+        ? legislationResult.reason.message
+        : String(legislationResult.reason),
+    );
+  }
+
+  // If BOTH searches failed, that's an unusual condition — surface it as
+  // a server error rather than silently giving Claude no context.
+  if (
+    caselawResult.status === 'rejected' &&
+    legislationResult.status === 'rejected'
+  ) {
+    return jsonError(
+      'Semantic search unavailable: both caselaw and legislation indices failed.',
+      500,
+    );
+  }
+
+  // Build the citations array. Caselaw first (indices 1..N), then
+  // legislation (N+1..N+M). File citations come later, indexed after both.
+  const caselawCitations: CaselawCitation[] = caselawHits.map((hit, i) => ({
     kind: 'caselaw',
     index: i + 1,
     judgmentId: hit.judgment.id,
@@ -375,6 +471,25 @@ export async function POST(request: Request) {
     paragraphText: hit.paragraphText,
     similarity: hit.similarity,
   }));
+
+  const legislationCitations: LegislationCitation[] = legislationHits.map(
+    (hit, i) => ({
+      kind: 'legislation',
+      index: caselawCitations.length + i + 1,
+      legislationId: hit.section.legislationId,
+      sectionId: hit.section.id,
+      citation: hit.citation,
+      breadcrumb: hit.breadcrumb,
+      heading: hit.heading,
+      text: hit.text,
+      similarity: hit.similarity,
+    }),
+  );
+
+  const preStreamCitations: StoredCitation[] = [
+    ...caselawCitations,
+    ...legislationCitations,
+  ];
 
   // ---------------------------------------------------------------------------
   // AI access check
@@ -421,10 +536,16 @@ export async function POST(request: Request) {
         // EVENT 1: conversation id.
         send({ type: 'conversation', conversationId });
 
-        // EVENT 2: caselaw citations.
-        send({ type: 'citations', hits: caselawCitations });
+        // EVENT 2: pre-stream citations (caselaw + legislation merged).
+        // File citations come in a later event after they're parsed
+        // out of the streamed text.
+        send({ type: 'citations', hits: preStreamCitations });
 
-        const systemPrompt = buildSystemPrompt(hits, aiFilesContext);
+        const systemPrompt = buildSystemPrompt(
+          caselawHits,
+          legislationHits,
+          aiFilesContext,
+        );
 
         type AnthropicMessage = {
           role: 'user' | 'assistant';
@@ -440,9 +561,6 @@ export async function POST(request: Request) {
         while (iteration < MAX_TURN_ITERATIONS) {
           iteration += 1;
 
-          // Build stream args. When AI access is on, pass tools AND the
-          // Files API beta header. Without the beta header, document
-          // blocks with source.type='file' are rejected.
           const claudeStreamArgs: Anthropic.MessageStreamParams = {
             model: MODEL,
             max_tokens: MAX_TOKENS_PER_RESPONSE,
@@ -453,8 +571,6 @@ export async function POST(request: Request) {
             claudeStreamArgs.tools = CHAT_TOOLS;
           }
 
-          // The SDK takes `betas` as a top-level option on stream() —
-          // it's passed through as the anthropic-beta header.
           const streamOptions = aiAccessOn
             ? { headers: { 'anthropic-beta': FILES_API_BETA } }
             : undefined;
@@ -507,9 +623,6 @@ export async function POST(request: Request) {
             break;
           }
 
-          // Per the protocol fix: we build TWO things from each tool call:
-          //   - tool_result blocks (text only)
-          //   - document blocks (separate user message after)
           const toolResultBlocks: Array<{
             type: 'tool_result';
             tool_use_id: string;
@@ -609,7 +722,6 @@ export async function POST(request: Request) {
               })),
             });
 
-            // The tool_result content is just the summary text.
             toolResultBlocks.push({
               type: 'tool_result',
               tool_use_id: block.id,
@@ -618,27 +730,20 @@ export async function POST(request: Request) {
               ],
             });
 
-            // Accumulate document blocks for the follow-up user message.
             allDocumentBlocks.push(...toolData.documentBlocks);
           }
 
-          // Step A: push the tool_result(s) as a user message.
           anthropicMessages.push({
             role: 'user',
             content: toolResultBlocks,
           });
 
-          // Step B: if we have document blocks, push them as a second
-          // user message right after. This is the key protocol shape.
           if (allDocumentBlocks.length > 0) {
             anthropicMessages.push({
               role: 'user',
               content: allDocumentBlocks,
             });
           }
-
-          // Loop to next iteration — Claude will read the documents
-          // in this follow-up message and continue its answer.
         }
 
         if (iteration >= MAX_TURN_ITERATIONS) {
@@ -649,7 +754,8 @@ export async function POST(request: Request) {
           });
         }
 
-        // Extract file citations.
+        // Extract file citations from streamed text.
+        // File citations get indexed AFTER caselaw + legislation indices.
         let fileCitations: FileCitation[] = [];
         if (filesUsedAcrossTurn.length > 0) {
           const extracted = extractFileCitations(fullAssistantContent);
@@ -657,16 +763,16 @@ export async function POST(request: Request) {
             fileCitations = hydrateFileCitations(
               extracted,
               filesUsedAcrossTurn,
-              caselawCitations.length + 1,
+              preStreamCitations.length + 1,
             );
             send({ type: 'file_citations', citations: fileCitations });
           }
         }
 
-        // Persist assistant message.
+        // Persist assistant message with all citations of all kinds.
         if (fullAssistantContent.length > 0) {
           const allCitations: StoredCitation[] = [
-            ...caselawCitations,
+            ...preStreamCitations,
             ...fileCitations,
           ];
           try {

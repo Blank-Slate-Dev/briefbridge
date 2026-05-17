@@ -1,0 +1,135 @@
+/*
+ * matters-legislation.css
+ *
+ * Append-only additions for Chunk 8 UI — legislation citation rendering
+ * inside the chat citations panel.
+ *
+ * Same pattern as matters-chunk7.css: a separate file that loads alongside
+ * matters.css without modifying any existing classes.
+ *
+ * Design uses the established bb-* design tokens:
+ *   --bb-bg, --bb-bg-elevated, --bb-ink, --bb-ink-soft
+ *   --bb-muted, --bb-muted-soft
+ *   --bb-border, --bb-border-strong
+ *   --bb-highlight (gold), --font-fraunces, --font-geist
+ *
+ * Class families introduced here:
+ *   bb-citations-link--legislation  — modifier on existing .bb-citations-link
+ *                                      for the legislation row variant
+ *   bb-citations-kind               — tiny "Statute" tag in the row header
+ *   bb-citations-breadcrumb         — the Part > Division > s path
+ *   bb-citations-heading            — the section heading line
+ *
+ * Compatible with the existing caselaw row styling — legislation rows sit
+ * inside the same .bb-citations-list as caselaw rows and share padding,
+ * borders, hover behaviour. The variant modifier only changes things that
+ * actually differ semantically.
+ *
+ * Step 2 (clickable inline pills + scroll-to-card highlight) will land in
+ * a follow-up commit; the highlight target class is reserved here so we
+ * don't have to come back and add it.
+ */
+
+/* =========================================================================
+   LEGISLATION CITATION ROW — variant on the existing .bb-citations-link
+   ========================================================================= */
+
+/* The modifier class. Currently no chrome difference at rest, but we keep
+   it as a hook for future styling (e.g. a subtle accent stripe) and so
+   the row's purpose is self-documenting in the DOM. */
+.bb-citations-link--legislation {
+  /* Reserved for future variant styling. Inherits all base
+     .bb-citations-link behaviour (display, padding, hover background). */
+}
+
+/* The small "Statute" pill that sits next to the [N] index, marking the
+   row as legislation rather than caselaw. Same shape as .bb-citations-num
+   but with a gold accent so it reads at a glance. */
+.bb-citations-kind {
+  display: inline-block;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 1px 7px;
+  border-radius: 4px;
+  background: rgba(201, 184, 138, 0.18); /* matches --bb-highlight at low opacity */
+  color: #7a6432; /* same family as .bb-status-on-hold text colour */
+  border: 1px solid rgba(201, 184, 138, 0.45);
+  flex-shrink: 0;
+  line-height: 1.4;
+}
+
+/* The section heading line — e.g. "When an APP entity must take steps".
+   Sits between the header row and the breadcrumb. Uses Fraunces serif
+   like .bb-citations-name so the visual register matches caselaw, but
+   only when a heading is actually present (some subsection-level rows
+   have no heading). */
+.bb-citations-heading {
+  margin: 4px 0 0;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 13.5px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  color: var(--bb-ink);
+  line-height: 1.35;
+}
+
+/* Hierarchy breadcrumb — e.g. "Schedule 1 > Part 4 > Clause 11".
+   Small monospace line, same colour as .bb-citations-para so it sits
+   visually below the heading without competing for attention. */
+.bb-citations-breadcrumb {
+  margin: 4px 0 0;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-size: 11.5px;
+  color: var(--bb-muted);
+  line-height: 1.4;
+}
+
+/* The legislation row's body uses the same .bb-citations-snippet class
+   as caselaw, so it picks up the 2-line clamp, font size, and colour for
+   free. If we later want statute snippets to render differently (e.g.
+   serif quote-style), we'd add a .bb-citations-snippet--legislation
+   modifier here. */
+
+/* =========================================================================
+   STEP 2 HOOK — reserved for clickable inline [N] pills
+   =========================================================================
+   These classes aren't applied yet — they'll be added in the second pass
+   when we wire up scroll-to-card behaviour. Defining them now so the CSS
+   change in step 2 is purely visual, no class rename ripple.
+   ========================================================================= */
+
+/* The .bb-cite-ref pill, when made clickable, will get this modifier.
+   Hover background matches .bb-citations-link:hover for consistency. */
+.bb-cite-ref--clickable {
+  cursor: pointer;
+  transition:
+    background 0.12s ease,
+    border-color 0.12s ease,
+    color 0.12s ease;
+}
+.bb-cite-ref--clickable:hover {
+  background: var(--bb-bg);
+  border-color: var(--bb-border-strong);
+  color: var(--bb-ink);
+}
+
+/* Citation card highlight state — applied via JS after a pill is clicked.
+   Briefly tints the matching row so the lawyer can see exactly where the
+   citation landed when the panel scrolls into view. The animation fades
+   the highlight out over ~1.6 seconds. */
+@keyframes bb-citation-flash {
+  0% {
+    background: rgba(201, 184, 138, 0.22);
+    box-shadow: inset 3px 0 0 var(--bb-highlight);
+  }
+  100% {
+    background: transparent;
+    box-shadow: inset 3px 0 0 transparent;
+  }
+}
+.bb-citations-link--highlight {
+  animation: bb-citation-flash 1.6s ease-out forwards;
+}

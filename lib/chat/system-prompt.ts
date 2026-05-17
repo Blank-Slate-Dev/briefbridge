@@ -1,10 +1,11 @@
 // lib/chat/system-prompt.ts
 //
-// Builds the system prompt for /api/chat. Composes three pieces:
+// Builds the system prompt for /api/chat. Composes four pieces:
 //
 //   1. Base role + tone instructions (BriefBridge's "voice")
-//   2. The NSW caselaw research rules (carried forward from earlier chunks)
-//   3. The read_files instructions + available_files block (NEW in Chunk 7)
+//   2. The NSW caselaw research rules (Chunk 3+)
+//   3. The legislation research rules (Chunk 8 — NEW)
+//   4. The read_files instructions + available_files block (Chunk 7)
 //
 // Why one file: the system prompt is the contract between us and Claude.
 // Splitting it across multiple modules makes it hard to reason about
@@ -14,46 +15,39 @@
 // want to be able to assert "given this set of files, the prompt looks
 // like X" without booting the full chat pipeline.
 //
-// NOTE on what the chat route DID before Chunk 7:
-// Earlier chunks had their own (probably inline) system prompt for NSW
-// caselaw research. We don't have that file in current context. The
-// `BASE_INSTRUCTIONS` and `CASELAW_INSTRUCTIONS` sections below are
-// reasonable defaults for BriefBridge but may need to be reconciled with
-// what /api/chat was already sending. See the README integration notes.
+// NOTE on the parallel implementation in the chat route:
+// /api/chat/route.ts has its own inline buildSystemPrompt. Both should
+// stay in sync. Any new section added here should be added there too.
 
 import type { FileForAi } from '@/lib/db/queries/ai-access';
 import { MAX_READ_TOKENS_PER_TURN } from '@/lib/files/ai-access-types';
+import type { SemanticSearchHit } from '@/lib/search/semantic';
+import type { LegislationSearchHit } from '@/lib/search/semantic-legislation';
 
 // =============================================================================
 // Static sections
 // =============================================================================
 
-const BASE_INSTRUCTIONS = `You are BriefBridge, a legal research assistant for Australian lawyers. You help with NSW Supreme Court case research and analysis of the lawyer's own case files.
+const BASE_INSTRUCTIONS = `You are BriefBridge, a legal research assistant for Australian lawyers. You help with NSW Supreme Court case research, Commonwealth statute research, and analysis of the lawyer's own case files.
 
 Tone: precise, neutral, professional. Australian English spelling.
 
 Citation conventions:
 - NSW caselaw: "Smith v Jones [2024] NSWSC 100 at [42]" with paragraph numbers in square brackets.
-- Statutes: full title with year and jurisdiction, e.g. "Civil Procedure Act 2005 (NSW)".
+- Statutes: full title with year and jurisdiction, e.g. "Privacy Act 1988 (Cth) s 16A" or "Civil Procedure Act 2005 (NSW)".
 - Never invent citations. If unsure, say so.
 
 You can decline. You can ask clarifying questions. You are not a lawyer giving legal advice — you are a research and analysis tool that the lawyer uses to inform their own work.`;
 
-const CASELAW_INSTRUCTIONS = `When NSW caselaw search results are provided as context, treat them as the primary source for case-law answers. Refer to results by their citation and paragraph number. Distinguish clearly between text quoted from a case and your own paraphrasing.`;
+const CASELAW_INSTRUCTIONS = `When NSW caselaw search results are provided as context, treat them as the primary source for case-law answers. Refer to results by their citation and paragraph number, using the [N] index of each retrieved passage. Distinguish clearly between text quoted from a case and your own paraphrasing.`;
+
+const LEGISLATION_INSTRUCTIONS = `When legislation search results are provided as context, treat them as the authoritative text of the law. Refer to results by their AGLC4 citation (e.g. "Privacy Act 1988 (Cth) s 16A") and the [N] index of each retrieved section. Quote the actual statutory wording where the precise text matters; paraphrase otherwise. If a section's text appears truncated in the retrieved snippet, note that the full section may contain additional content not shown.
+
+When both caselaw and legislation are relevant to a question, surface the statute first (it's the source of law) followed by how the courts have interpreted it.`;
 
 // =============================================================================
-// Tool instructions (Chunk 7)
+// Tool instructions (Chunk 7) — unchanged
 // =============================================================================
-//
-// These instructions are the contract Claude has to use the read_files
-// tool well. We're strict about a few things that matter for trust and
-// quality:
-//
-//   1. Plan up front. One tool call per turn when possible.
-//   2. State a reason. The lawyer sees it.
-//   3. Quote verbatim with page anchors. No paraphrasing inside quote blocks.
-//   4. Don't invent file content. If the file doesn't say it, don't claim it.
-//   5. Acknowledge limits explicitly. If you couldn't read a file, say so.
 
 const READ_FILES_INSTRUCTIONS = `You have access to a read_files tool for reading user-uploaded case files. Rules:
 
@@ -77,15 +71,52 @@ const READ_FILES_INSTRUCTIONS = `You have access to a read_files tool for readin
 7. SINGLE-FILE LOOKUPS. Even when reading just one file, call read_files with an array of one filename. The schema requires an array.`;
 
 // =============================================================================
+// Caselaw hits → prompt section
+// =============================================================================
+
+function formatCaselawHits(hits: SemanticSearchHit[], startIndex: number): string {
+  if (hits.length === 0) {
+    return 'No relevant cases were found in the database for this query.';
+  }
+  return hits
+    .map((hit, i) => {
+      const label = [hit.judgment.caseName, hit.judgment.citation]
+        .filter(Boolean)
+        .join(' ');
+      return `[${startIndex + i}] ${label} at [${hit.paragraphNumber}]\n${hit.paragraphText}`;
+    })
+    .join('\n\n---\n\n');
+}
+
+// =============================================================================
+// Legislation hits → prompt section
+// =============================================================================
+
+function formatLegislationHits(
+  hits: LegislationSearchHit[],
+  startIndex: number,
+): string {
+  if (hits.length === 0) {
+    return 'No relevant legislation sections were found in the database for this query.';
+  }
+  return hits
+    .map((hit, i) => {
+      // Format: [11] Privacy Act 1988 (Cth) s 16A — When an APP entity must take steps
+      //         (Part III > Division 1 > s 16A)
+      //         (section body)
+      const idx = startIndex + i;
+      const headingLine = hit.heading
+        ? `${hit.citation} — ${hit.heading}`
+        : hit.citation;
+      return `[${idx}] ${headingLine}\n(${hit.breadcrumb})\n${hit.text}`;
+    })
+    .join('\n\n---\n\n');
+}
+
+// =============================================================================
 // Available files block
 // =============================================================================
 
-/**
- * Formats the list of files Claude can see, with metadata.
- *
- * Per the design (Q1 of the system prompt section): filename + size +
- * pages + MIME type + tags. No recency.
- */
 function formatAvailableFiles(filesList: FileForAi[]): string {
   if (filesList.length === 0) return '';
 
@@ -135,6 +166,10 @@ export interface BuildSystemPromptArgs {
   filesList: FileForAi[];
   /** Whether the chat route is also injecting NSW caselaw search results. */
   hasCaselaw: boolean;
+  /** Caselaw hits to format into the prompt. Numbered starting at index 1. */
+  caselawHits?: SemanticSearchHit[];
+  /** Legislation hits to format into the prompt. Numbered AFTER caselaw. */
+  legislationHits?: LegislationSearchHit[];
   /** If files are limited by the system prompt cap, the total count. */
   truncated: boolean;
   totalAccessibleFiles: number;
@@ -154,26 +189,36 @@ export function buildSystemPrompt(args: BuildSystemPromptArgs): string {
     `You are currently working within the case: "${args.matter.name}"${clientPart}.${descPart}`,
   );
 
-  // Caselaw rules if relevant.
-  if (args.hasCaselaw) {
+  // Caselaw rules + hits if any.
+  const caselawHits = args.caselawHits ?? [];
+  if (args.hasCaselaw || caselawHits.length > 0) {
     sections.push(CASELAW_INSTRUCTIONS);
+    if (caselawHits.length > 0) {
+      sections.push(
+        `# Retrieved caselaw\n\n${formatCaselawHits(caselawHits, 1)}`,
+      );
+    }
+  }
+
+  // Legislation rules + hits if any. Indexed AFTER caselaw.
+  const legislationHits = args.legislationHits ?? [];
+  if (legislationHits.length > 0) {
+    sections.push(LEGISLATION_INSTRUCTIONS);
+    sections.push(
+      `# Retrieved legislation\n\n${formatLegislationHits(legislationHits, caselawHits.length + 1)}`,
+    );
   }
 
   // File access section.
   if (args.aiAccessOffReason) {
-    // AI access is off. Tell Claude the reason so it can answer without
-    // hallucinating file content and direct the lawyer to enable access.
     sections.push(
       `FILE ACCESS: ${args.aiAccessOffReason}\nYou cannot read files in this case right now. If the lawyer asks about file contents, explain that file access is off and where they can enable it.`,
     );
   } else if (args.filesList.length === 0) {
-    // Access is on, but no files. Probably an empty matter or every file
-    // was excluded. Mention it but don't dwell.
     sections.push(
       `FILE ACCESS: AI access is on for this case, but no files are currently available (the case may be empty or all files may be excluded).`,
     );
   } else {
-    // Normal case: files are available.
     sections.push(READ_FILES_INSTRUCTIONS);
     sections.push(formatAvailableFiles(args.filesList));
     if (args.truncated) {

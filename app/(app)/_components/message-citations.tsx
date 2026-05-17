@@ -1,16 +1,16 @@
 // app/(app)/_components/message-citations.tsx
 //
-// Renders citations inside assistant messages. NEW in Chunk 7.
+// Renders citations inside assistant messages. NEW in Chunk 7,
+// extended in Chunk 8 to handle legislation citations.
 //
 // Three exports:
 //
 //   1. <MessageCitations citations /> — renders a list of StoredCitation
 //      objects, dispatching on `kind`:
-//        - 'file' (Chunk 7): gold-bordered quote block with filename + page
-//        - 'caselaw' / missing kind (Chunk 3+): the existing caselaw style
-//      The caselaw branch is a PLACEHOLDER — it just renders as a small
-//      pill with the citation + paragraph. The user should reconcile with
-//      whatever existing caselaw citation component they have.
+//        - 'file'        (Chunk 7): gold-bordered quote block with filename + page
+//        - 'legislation' (Chunk 8): legislation citation card with breadcrumb
+//                        + citation + body snippet
+//        - 'caselaw' / missing kind (Chunk 3+): caselaw pill with citation + paragraph
 //
 //   2. <ToolStatusIndicator activity /> — inline "Reading X, Y — because Z"
 //      pill for an in-flight or completed read_files call.
@@ -23,7 +23,12 @@
 'use client';
 
 import { useState } from 'react';
-import type { StoredCitation, FileCitation } from '@/lib/db/schema';
+import type {
+  StoredCitation,
+  CaselawCitation,
+  FileCitation,
+  LegislationCitation,
+} from '@/lib/db/schema';
 import type { MessageToolActivity } from './streaming-chat-sse-events';
 
 // =============================================================================
@@ -40,18 +45,25 @@ export function MessageCitations({ citations }: MessageCitationsProps) {
   return (
     <ul className="bb-message-citations">
       {citations.map((c, idx) => {
-        // Discriminate on 'kind' (with default for pre-Chunk-7 rows).
+        // Discriminate on 'kind'. Older 'caselaw' rows may have undefined
+        // kind, so we treat anything that isn't explicitly 'file' or
+        // 'legislation' as caselaw for back-compat.
         if (c.kind === 'file') {
           return <FileCitationItem key={`f-${c.fileId}-${idx}`} citation={c} />;
         }
-        // 'caselaw' or undefined kind
-        return (
-          <CaselawCitationItem
-            key={`c-${idx}`}
-            // The caselaw shape — narrow type for this branch
-            citation={c}
-          />
-        );
+        if (c.kind === 'legislation') {
+          return (
+            <LegislationCitationItem
+              key={`l-${c.sectionId}-${idx}`}
+              citation={c}
+            />
+          );
+        }
+        // 'caselaw' or undefined kind — treat as caselaw.
+        // TypeScript narrowing: c is now CaselawCitation by elimination
+        // since the only remaining union members are CaselawCitation
+        // (kind?: 'caselaw' | undefined).
+        return <CaselawCitationItem key={`c-${idx}`} citation={c} />;
       })}
     </ul>
   );
@@ -89,17 +101,67 @@ function FileCitationItem({ citation }: { citation: FileCitation }) {
 // it renders SOMETHING when called, without conflicting with whatever
 // you have. See README §6 for reconciliation notes.
 
-function CaselawCitationItem({
-  citation,
-}: {
-  citation: Extract<StoredCitation, { kind?: 'caselaw' }>;
-}) {
+function CaselawCitationItem({ citation }: { citation: CaselawCitation }) {
   return (
     <li className="bb-caselaw-citation">
       <div className="bb-caselaw-citation__meta">
+        [{citation.index}]{' '}
         {citation.caseName ?? citation.citation ?? 'Unknown case'}
         {' '}at [{citation.paragraphNumber}]
       </div>
+    </li>
+  );
+}
+
+// =============================================================================
+// LegislationCitationItem — Chunk 8 retrieval addition
+// =============================================================================
+//
+// Renders a single legislation citation. Same visual register as caselaw
+// for now (a structured meta line) but kept as a separate component so
+// it can evolve independently — for example, when we add deep-linking
+// to legislation.gov.au we'll wire that into this component without
+// affecting caselaw rendering.
+//
+// Display priority:
+//   1. The AGLC4 citation is the most important line — that's what
+//      survives copy-paste into a brief.
+//   2. The breadcrumb is supplementary context (which Part / Division
+//      the section sits under).
+//   3. A short snippet of the section text. We deliberately don't
+//      render the full body — sections can be huge. The lawyer can
+//      expand or follow the citation to read the rest.
+
+function LegislationCitationItem({
+  citation,
+}: {
+  citation: LegislationCitation;
+}) {
+  // Short preview — first ~200 chars of the body, with ellipsis if longer.
+  const SNIPPET_CHARS = 200;
+  const snippet =
+    citation.text.length > SNIPPET_CHARS
+      ? citation.text.slice(0, SNIPPET_CHARS).trimEnd() + '\u2026'
+      : citation.text;
+
+  return (
+    <li className="bb-legislation-citation">
+      <div className="bb-legislation-citation__citation">
+        [{citation.index}] {citation.citation}
+      </div>
+      {citation.heading && (
+        <div className="bb-legislation-citation__heading">
+          {citation.heading}
+        </div>
+      )}
+      <div className="bb-legislation-citation__breadcrumb">
+        {citation.breadcrumb}
+      </div>
+      {snippet.length > 0 && (
+        <blockquote className="bb-legislation-citation__snippet">
+          {snippet}
+        </blockquote>
+      )}
     </li>
   );
 }

@@ -10,11 +10,16 @@
 //   - Auto-resize textarea
 //   - Cancel-on-unmount of in-flight streams
 //
-// CHUNK 7 CHANGE: StoredCitation is now a discriminated union (caselaw |
-// file). The CitationsPanel below narrows on `kind` (with caselaw as the
-// default for back-compat with pre-Chunk-7 rows that have no kind field).
+// CHUNK 7 CHANGE: StoredCitation became a discriminated union with two
+// variants (caselaw | file).
 //
-// What it DOESN'T own:
+// CHUNK 8 CHANGE (visibility pass): StoredCitation now has THREE variants
+// (caselaw | file | legislation). The CitationsPanel below filters into
+// THREE buckets and renders a dedicated LegislationCitationRow for the
+// new variant. Without this change, legislation citations sent by the
+// /api/chat endpoint would be silently dropped by the renderer.
+//
+// What this file DOESN'T own:
 //   - Outer page shell (full-viewport vs inline scroll — wrappers decide)
 //   - Welcome screen with example prompts (only standalone wants this)
 //   - Page headers / "New research" buttons (wrappers decide what to show)
@@ -22,8 +27,8 @@
 //     generic — wrappers pass their own empty-state node)
 //
 // Styling: uses the bb-msg-* / bb-chat-* / bb-citations-* CSS classes
-// defined in matters.css. Cream palette, Fraunces serif. Reusable across
-// both surfaces.
+// defined in matters.css, plus the legislation-specific extensions in
+// matters-legislation.css.
 
 'use client';
 
@@ -41,6 +46,7 @@ import type {
   StoredCitation,
   CaselawCitation,
   FileCitation,
+  LegislationCitation,
 } from '@/lib/db/schema';
 
 // =============================================================================
@@ -505,19 +511,23 @@ function renderInline(text: string): React.ReactNode[] {
 }
 
 // =============================================================================
-// CITATION PANEL — Chunk 7: handles BOTH caselaw and file citations
+// CITATION PANEL — Chunk 8: handles caselaw, legislation, AND file citations
 // =============================================================================
 //
-// StoredCitation is now a discriminated union:
+// StoredCitation is a three-variant discriminated union:
 //   - kind: 'caselaw' (or undefined for pre-Chunk-7 rows) — judgmentId,
 //     caseName, paragraphNumber, paragraphText, similarity, citation
+//   - kind: 'legislation' — legislationId, sectionId, citation,
+//     breadcrumb, heading, text, similarity
 //   - kind: 'file' — fileId, filename, page, quote
 //
 // We narrow on `kind` for each citation before accessing kind-specific
-// fields. Caselaw citations render inside the existing
-// <Link to /cases/...> shape. File citations render as a smaller item
-// without a link (no per-file-page route yet — see TODO in
-// message-citations.tsx).
+// fields. Caselaw citations render inside the existing <Link> shape (link
+// to /cases/...). Legislation citations render as a non-link card (no
+// deep-link target yet — flagged for a future pass, possibly to a
+// /legislation/[id]/section/[sectionId] route or to the official source
+// at legislation.gov.au). File citations render as a smaller item without
+// a link (no per-file-page route yet).
 //
 // Helper: isCaselawCitation. We treat missing `kind` as caselaw for
 // backwards compatibility — pre-Chunk-7 rows in the DB don't have a
@@ -527,18 +537,36 @@ function isCaselawCitation(c: Citation): c is CaselawCitation {
   return c.kind === undefined || c.kind === 'caselaw';
 }
 
+function isLegislationCitation(c: Citation): c is LegislationCitation {
+  return c.kind === 'legislation';
+}
+
 function isFileCitation(c: Citation): c is FileCitation {
   return c.kind === 'file';
 }
 
 function CitationsPanel({ citations }: { citations: Citation[] }) {
-  // Split into the two kinds so we can present them in distinct sections.
-  // Caselaw is the established pattern; file citations are new in Chunk 7.
+  // Split into the three kinds so we can present them in distinct sections.
+  // Caselaw is the established pattern. Legislation is new in Chunk 8.
+  // File citations were new in Chunk 7.
   const caselawCitations = citations.filter(isCaselawCitation);
+  const legislationCitations = citations.filter(isLegislationCitation);
   const fileCitations = citations.filter(isFileCitation);
 
-  const total = caselawCitations.length + fileCitations.length;
+  const total =
+    caselawCitations.length +
+    legislationCitations.length +
+    fileCitations.length;
   if (total === 0) return null;
+
+  // Build the summary breakdown text. Only show breakdown if there's a
+  // mix of kinds — single-kind sets don't need the parenthetical.
+  const kindsPresent = [
+    caselawCitations.length > 0,
+    legislationCitations.length > 0,
+    fileCitations.length > 0,
+  ].filter(Boolean).length;
+  const showBreakdown = kindsPresent > 1;
 
   return (
     <details className="bb-citations">
@@ -547,18 +575,29 @@ function CitationsPanel({ citations }: { citations: Citation[] }) {
           ›
         </span>
         {total} source{total === 1 ? '' : 's'} found
-        {fileCitations.length > 0 && caselawCitations.length > 0 && (
+        {showBreakdown && (
           <span className="bb-citations-breakdown">
-            {' '}
-            ({caselawCitations.length} case
-            {caselawCitations.length === 1 ? '' : 's'}, {fileCitations.length}{' '}
-            file{fileCitations.length === 1 ? '' : 's'})
+            {' ('}
+            {[
+              caselawCitations.length > 0 &&
+                `${caselawCitations.length} case${caselawCitations.length === 1 ? '' : 's'}`,
+              legislationCitations.length > 0 &&
+                `${legislationCitations.length} statute${legislationCitations.length === 1 ? '' : 's'}`,
+              fileCitations.length > 0 &&
+                `${fileCitations.length} file${fileCitations.length === 1 ? '' : 's'}`,
+            ]
+              .filter(Boolean)
+              .join(', ')}
+            {')'}
           </span>
         )}
       </summary>
       <ul className="bb-citations-list">
         {caselawCitations.map((c) => (
           <CaselawCitationRow key={`cl-${c.index}`} c={c} />
+        ))}
+        {legislationCitations.map((c) => (
+          <LegislationCitationRow key={`lg-${c.index}`} c={c} />
         ))}
         {fileCitations.map((c) => (
           <FileCitationRow key={`fc-${c.index}-${c.fileId}`} c={c} />
@@ -588,6 +627,34 @@ function CaselawCitationRow({ c }: { c: CaselawCitation }) {
         </div>
         <p className="bb-citations-snippet">{c.paragraphText}</p>
       </Link>
+    </li>
+  );
+}
+
+function LegislationCitationRow({ c }: { c: LegislationCitation }) {
+  // No deep-link target yet — render as a div, not a Link. Future passes
+  // could route to /legislation/[id]/section/[sectionId] or to the
+  // official version on legislation.gov.au. The sectionId is
+  // captured in the citation so future-us can wire the link in.
+  return (
+    <li>
+      <div className="bb-citations-link bb-citations-link--legislation">
+        <div className="bb-citations-head">
+          <span className="bb-citations-num">[{c.index}]</span>
+          <span className="bb-citations-kind">Statute</span>
+          <span className="bb-citations-cite">{c.citation}</span>
+          <span className="bb-citations-sim">
+            {(c.similarity * 100).toFixed(0)}%
+          </span>
+        </div>
+        {c.heading && (
+          <p className="bb-citations-heading">{c.heading}</p>
+        )}
+        <p className="bb-citations-breadcrumb">{c.breadcrumb}</p>
+        {c.text.length > 0 && (
+          <p className="bb-citations-snippet">{c.text}</p>
+        )}
+      </div>
     </li>
   );
 }
