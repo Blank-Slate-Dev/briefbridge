@@ -60,6 +60,17 @@
 // HEAD requests on this server can return misleading 405 codes, so we
 // always use GET. This means each probe fetches the full document, which
 // is fine — we'd need the body anyway if it exists.
+//
+// =============================================================================
+// TIMEOUT (added during the 1,259-Act probe)
+// =============================================================================
+//
+// During a bulk probe of all in-force Cth principal Acts, node's built-in
+// fetch() was observed to hang indefinitely on a specific URL even though
+// the same URL responded fine to curl. Likely cause: undici connection
+// pool issue or slow response trickle that doesn't trigger a default
+// timeout. To prevent the whole probe from deadlocking on a single Act,
+// we now enforce a per-request timeout via AbortSignal.timeout().
 
 import * as cheerio from 'cheerio';
 
@@ -74,6 +85,12 @@ const USER_AGENT =
 // documents, we bail rather than risk an infinite loop. Tax Acts and
 // Corporations Act are large but not THAT large.
 const MAX_DOCUMENTS = 50;
+
+// Per-request timeout. 20 seconds is generous for a single HTML document
+// — even the largest documents (Corporations Act parts) come back in
+// under 5s normally. Anything longer almost certainly means the
+// connection has hung.
+const FETCH_TIMEOUT_MS = 20_000;
 
 // =============================================================================
 // URL building
@@ -104,9 +121,33 @@ export function buildActUrl(
 /**
  * Fetch a single document's HTML. Returns null if the document doesn't
  * exist (any non-200 response). Returns the body text otherwise.
+ *
+ * Throws a descriptive error on timeout or network failure — the caller
+ * can decide whether to retry, skip, or stop. We don't swallow these
+ * because a timeout is a real condition the caller needs to know about
+ * (vs. a clean 404 which means "no more documents to fetch").
  */
 async function fetchOneDocument(url: string): Promise<string | null> {
-  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
+  let res: Response;
+  try {
+    res = await fetch(url, {
+      headers: { 'User-Agent': USER_AGENT },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+    });
+  } catch (err) {
+    // AbortSignal.timeout() rejects with a DOMException whose name is
+    // 'TimeoutError'. Anything else (DNS failure, connection reset,
+    // etc.) we surface with context too.
+    if (err instanceof Error && err.name === 'TimeoutError') {
+      throw new Error(
+        `Timeout (${FETCH_TIMEOUT_MS}ms) fetching ${url}. ` +
+          `Server may be slow, hung, or rate-limiting.`,
+      );
+    }
+    const msg = err instanceof Error ? err.message : String(err);
+    throw new Error(`Network error fetching ${url}: ${msg}`);
+  }
+
   if (!res.ok) {
     return null;
   }
@@ -168,7 +209,7 @@ export interface FetchResult {
  *
  * Throws if document_1 doesn't exist (an Act must have at least one
  * document — a missing document_1 is a real error worth surfacing) or
- * if the probe hits the MAX_DOCUMENTS hard cap.
+ * if the probe hits the MAX_DOCUMENTS hard cap or if any fetch times out.
  */
 export async function fetchActHtml(
   registrationId: string,
