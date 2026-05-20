@@ -25,6 +25,14 @@
 //     No schema change required — messages.citations is JSONB so the
 //     new variant just lands.
 //
+// CHUNK 8 FOLLOW-UP 3 (bulk Cth ingest — migration 0009):
+//   - LegislationParseStatus union: 'ok' | 'zero_sections' | 'partial'
+//   - legislation.parseStatus column added (nullable for back-compat
+//     with the 5 Acts ingested before bulk).
+//   - Used by the bulk ingester to flag Acts whose HTML parses to zero
+//     sections (mostly Appropriation Acts, amendment Acts, and pre-modern
+//     OPC formatting), so retrieval can exclude them.
+//
 // CHUNK 7 ADDITIONS (AI access controls + file reading):
 //   - AiAccessMode union: 'off' | 'all' | 'subset'
 //   - matters.aiAccessMode + matters.aiAccessCommittedAt
@@ -520,6 +528,8 @@ export type NewFileTag = typeof fileTags.$inferInsert;
 //   - lib/db/migrations/0007_legislation.sql (initial schema)
 //   - lib/db/migrations/0008_schedule_clause_level.sql (adds schedule_clause
 //     to the level CHECK; required for AGLC4-correct citation of APPs etc.)
+//   - lib/db/migrations/0009_*.sql (adds legislation.parse_status,
+//     populated by the bulk Cth ingest)
 
 // -----------------------------------------------------------------------------
 // Discriminator unions
@@ -545,6 +555,32 @@ export type LegislationKind =
   | 'regulation'
   | 'legislative_instrument'
   | 'constitution';
+
+// LegislationParseStatus — added during the bulk Cth ingest of all 1,259
+// in-force principal Acts.
+//
+// Tracks how the parser handled this Act's HTML so we can filter out
+// noise from retrieval and surface ingestion quality issues:
+//
+//   'ok'            Parser ran and produced sections we expect to be useful.
+//   'zero_sections' Parser ran without errors but produced no sections.
+//                   Typical for Appropriation Acts, amendment Acts, and
+//                   Acts using pre-modern OPC formatting our parser
+//                   doesn't recognise. The Act row exists for citation
+//                   resolution but its sections will not appear in
+//                   semantic search.
+//   'partial'       Reserved for future use — Act parsed but the
+//                   parser emitted warnings indicating likely missed
+//                   structural content (e.g. unknown class names in
+//                   the body). Not yet emitted by the ingest pipeline.
+//
+// NULL is allowed for pre-existing rows (the 5 Acts ingested before
+// this column existed). New ingests always populate it.
+//
+// Used by lib/search/semantic-legislation.ts to exclude 'zero_sections'
+// rows from retrieval results (no point matching against an Act with
+// no embedded content).
+export type LegislationParseStatus = 'ok' | 'zero_sections' | 'partial';
 
 // Section level discriminator.
 //
@@ -621,6 +657,11 @@ export const legislation = pgTable(
     // citation resolution but flag status.
     inForce: boolean('in_force').notNull().default(true),
     repealedAt: date('repealed_at'),
+
+    // Parse status — populated by the ingest pipeline. See
+    // LegislationParseStatus type above for the value meanings.
+    // Nullable for back-compat with pre-bulk-ingest rows.
+    parseStatus: text('parse_status').$type<LegislationParseStatus>(),
 
     createdAt: timestamp('created_at', { withTimezone: true })
       .notNull()
