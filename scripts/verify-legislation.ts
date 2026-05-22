@@ -2,13 +2,23 @@
 //
 // Verifies that what is stored in the database for an Act matches what the
 // parser produces from the live source HTML — word-for-word, per section,
-// PLUS structural sanity.
+// PLUS structural sanity, PLUS coverage of source content.
 //
 // =============================================================================
 // METHOD
 // =============================================================================
 //
-// Two stages of verification, in this order:
+// Three stages of verification, in this order:
+//
+//   STAGE 0 — Source-vs-parser coverage check. Diffs the word-multiset of
+//             the raw source HTML's plain text against the word-multiset of
+//             the parser's output (all section headings + body text, all
+//             concatenated). Surfaces content the parser is silently
+//             dropping. Informational only — does NOT fail the run, because
+//             we expect some gap (tables outside <p>, etc.) and want to see
+//             its size and shape before deciding what to fix.
+//             Added May 2026 after discovering that Stage 1+2 alone proves
+//             only "DB matches parser", not "DB matches source".
 //
 //   STAGE 1 — Structural sanity checks. These run before the content
 //             comparison because they catch failure modes the multiset
@@ -57,12 +67,23 @@
 // current. Stage 1 check #5 (orphan-warning count must be zero) is the
 // verifier safety net.
 //
+// Privacy Act 1988 — invisible content gap (May 2026)
+// ----------------------------------------------------
+// Stages 1 and 2 only prove "DB matches parser", not "DB matches
+// source". Privacy Act s 16A's table (NDB Scheme exceptions) was
+// silently absent from BOTH the parser output and the DB because the
+// parser walks <p> elements only — table cells in <td> outside <p>
+// were invisible. Both sides agreed, both sides were wrong, verifier
+// said PASS. Stage 0 added to detect this class of bug by comparing
+// against the raw source plain text.
+//
 // =============================================================================
 //
 // Usage:
 //   npx tsx scripts/verify-legislation.ts --registration-id=C1901A00002 --compilation-date=2024-12-11
 //
 // Exit code 0 = every check passes. Exit code 1 = at least one failure.
+// Stage 0 output does not affect exit code (informational only).
 
 import { config } from 'dotenv';
 config({ path: '.env.local' });
@@ -144,16 +165,200 @@ function diffMultisets(
 }
 
 // ---------------------------------------------------------------------------
+// STAGE 0 helpers — source-vs-parser coverage
+// ---------------------------------------------------------------------------
+
+interface SourceExtraction {
+  text: string;
+  excludedClassCounts: Map<string, number>;
+}
+
+function extractSourceTextLenient(
+  $: cheerio.CheerioAPI,
+): SourceExtraction {
+  let endnotesAnchor: cheerio.Cheerio<any> | null = null;
+  const eNotes = $('p.ENotesHeading1').first();
+  if (eNotes.length > 0) {
+    endnotesAnchor = eNotes;
+  }
+
+  const SKIP_CLASSES = new Set([
+    'TOC1', 'TOC2', 'TOC3', 'TOC4', 'TOC5',
+    'Header',
+    'ShortT', 'LongT', 'CompiledActNo',
+  ]);
+
+  const excludedClassCounts = new Map<string, number>();
+
+  const $clone = cheerio.load($.html());
+
+  if (endnotesAnchor && endnotesAnchor.length > 0) {
+    const eClass = endnotesAnchor.attr('class') || '';
+    const cloneENotes = $clone(`p.${eClass.split(/\s+/).join('.')}`).first();
+    if (cloneENotes.length > 0) {
+      cloneENotes.nextAll().remove();
+      cloneENotes.remove();
+    }
+  }
+
+  for (const cls of SKIP_CLASSES) {
+    const matches = $clone(`p.${cls}`);
+    if (matches.length > 0) {
+      excludedClassCounts.set(cls, matches.length);
+      matches.remove();
+    }
+  }
+
+  const body = $clone('body');
+  const text = body.length > 0 ? body.text() : $clone.html() ?? '';
+
+  return { text, excludedClassCounts };
+}
+
+interface ParserTextExtraction {
+  text: string;
+}
+
+function extractParserText(
+  sections: { heading: string | null; text: string }[],
+): ParserTextExtraction {
+  const parts: string[] = [];
+  for (const s of sections) {
+    if (s.heading) parts.push(s.heading);
+    if (s.text) parts.push(s.text);
+  }
+  return { text: parts.join('\n') };
+}
+
+interface Stage0Report {
+  sourceWordCount: number;
+  parserWordCount: number;
+  coveragePct: number;
+  missingWordCount: number;
+  extraWordCount: number;
+  topMissingWords: Array<{ word: string; count: number }>;
+  topExtraWords: Array<{ word: string; count: number }>;
+  excludedFromSource: Map<string, number>;
+}
+
+function runStage0(
+  $: cheerio.CheerioAPI,
+  parsedSections: { heading: string | null; text: string }[],
+): Stage0Report {
+  const sourceExtraction = extractSourceTextLenient($);
+  const parserExtraction = extractParserText(parsedSections);
+
+  const sourceWords = toWordMultiset(sourceExtraction.text);
+  const parserWords = toWordMultiset(parserExtraction.text);
+
+  const sourceTotal = [...sourceWords.values()].reduce((a, b) => a + b, 0);
+  const parserTotal = [...parserWords.values()].reduce((a, b) => a + b, 0);
+
+  const { missing, extra } = diffMultisets(sourceWords, parserWords);
+
+  const missingFreq = new Map<string, number>();
+  for (const w of missing) {
+    missingFreq.set(w, (missingFreq.get(w) ?? 0) + 1);
+  }
+  const topMissing = [...missingFreq.entries()]
+    .map(([word, count]) => ({ word, count }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 50);
+
+  const extraFreq = new Map<string, number>();
+  for (const w of extra) {
+    extraFreq.set(w, (extraFreq.get(w) ?? 0) + 1);
+  }
+  const topExtra = [...extraFreq.entries()]
+    .map(([word, count]) => ({ word, count }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 20);
+
+  return {
+    sourceWordCount: sourceTotal,
+    parserWordCount: parserTotal,
+    coveragePct: sourceTotal === 0 ? 100 : (parserTotal / sourceTotal) * 100,
+    missingWordCount: missing.length,
+    extraWordCount: extra.length,
+    topMissingWords: topMissing,
+    topExtraWords: topExtra,
+    excludedFromSource: sourceExtraction.excludedClassCounts,
+  };
+}
+
+function printStage0Report(report: Stage0Report): void {
+  console.log('');
+  console.log('='.repeat(60));
+  console.log(`[verify] STAGE 0 — source-vs-parser coverage (informational)`);
+  console.log('='.repeat(60));
+  console.log(
+    `  Source word count (after lenient filter): ${report.sourceWordCount.toLocaleString()}`,
+  );
+  console.log(
+    `  Parser word count (headings + body):      ${report.parserWordCount.toLocaleString()}`,
+  );
+  console.log(
+    `  Coverage:                                 ${report.coveragePct.toFixed(2)}%`,
+  );
+  console.log(
+    `  Missing words (in source, not parser):    ${report.missingWordCount.toLocaleString()}`,
+  );
+  console.log(
+    `  Extra words (in parser, not source):      ${report.extraWordCount.toLocaleString()}`,
+  );
+
+  if (report.excludedFromSource.size > 0) {
+    console.log('');
+    console.log(`  Source content classes EXCLUDED from this diff:`);
+    const sorted = [...report.excludedFromSource.entries()].sort(
+      (a, b) => b[1] - a[1],
+    );
+    for (const [cls, count] of sorted) {
+      console.log(`    ${cls.padEnd(20)} ${count.toString().padStart(5)} <p> elements`);
+    }
+  }
+
+  if (report.topMissingWords.length > 0) {
+    console.log('');
+    console.log(
+      `  Top 50 words present in source but missing from parser output:`,
+    );
+    console.log(`  (these point to where the parser is dropping content)`);
+    console.log('');
+    for (const { word, count } of report.topMissingWords) {
+      console.log(`    ${count.toString().padStart(6)}  ${word}`);
+    }
+  }
+
+  if (report.topExtraWords.length > 0) {
+    console.log('');
+    console.log(
+      `  Top 20 words present in parser output but not in source:`,
+    );
+    console.log(`  (these are usually parser-introduced glue text or normalisation artefacts)`);
+    console.log('');
+    for (const { word, count } of report.topExtraWords) {
+      console.log(`    ${count.toString().padStart(6)}  ${word}`);
+    }
+  }
+
+  console.log('');
+  console.log(
+    `  NOTE: Stage 0 is informational — it does not fail the run. A low`,
+  );
+  console.log(
+    `  coverage % or many missing words indicates the parser is dropping`,
+  );
+  console.log(
+    `  content (commonly: tables outside <p>, or unrecognised OPC classes).`,
+  );
+  console.log('='.repeat(60));
+}
+
+// ---------------------------------------------------------------------------
 // Source-side structural counting
 // ---------------------------------------------------------------------------
 
-/**
- * Count UNIQUE top-level ActHead1 anchors in the source HTML.
- *
- * "Unique" matters for multi-volume Acts: legislation.gov.au re-prints
- * the containing Chapter heading at the start of each volume. We
- * deduplicate by (leading-word, number).
- */
 function countUniqueActHead1s($: cheerio.CheerioAPI): {
   totalCount: number;
   uniqueCount: number;
@@ -227,6 +432,17 @@ async function main() {
   await sql.end();
 
   // =========================================================================
+  // STAGE 0: Source-vs-parser coverage (informational)
+  // =========================================================================
+
+  const $stage0 = cheerio.load(html);
+  const stage0 = runStage0(
+    $stage0,
+    parsed.sections.map((s) => ({ heading: s.heading, text: s.text })),
+  );
+  printStage0Report(stage0);
+
+  // =========================================================================
   // STAGE 1: Structural sanity checks
   // =========================================================================
 
@@ -254,6 +470,7 @@ async function main() {
   const nSchedulePart = levelCounts.get('schedule_part') ?? 0;
   const nScheduleClauses = levelCounts.get('schedule_clause') ?? 0;
 
+  console.log('');
   console.log(
     `[verify] structural summary: chapters=${nChapters} schedules=${nSchedules} ` +
       `sections=${nSections} schedule_clauses=${nScheduleClauses}`,
@@ -266,7 +483,6 @@ async function main() {
 
   let hardFail = false;
 
-  // Check 1: ActHead1 → top-level rows
   if (actHead1.totalCount > 0 && nChapters === 0 && nSchedules === 0) {
     console.error(
       `[verify] STRUCTURAL FAIL: source contains ${actHead1.totalCount} ` +
@@ -276,7 +492,6 @@ async function main() {
     hardFail = true;
   }
 
-  // Check 2: leaf content must exist
   if (nSections === 0 && nScheduleClauses === 0) {
     console.error(
       `[verify] STRUCTURAL FAIL: parser produced 0 'section' rows and ` +
@@ -286,7 +501,6 @@ async function main() {
     hardFail = true;
   }
 
-  // Check 3: schedule rows imply source has "Schedule N"
   const sawScheduleRows = nSchedules > 0 || nSchedulePart > 0 || nScheduleClauses > 0;
   if (sawScheduleRows && !sourceHasScheduleElement) {
     console.error(
@@ -298,7 +512,6 @@ async function main() {
     hardFail = true;
   }
 
-  // Check 4: ActHead1 parity
   const parsedTopLevel = nChapters + nSchedules;
   if (actHead1.uniqueCount !== parsedTopLevel) {
     console.error(
@@ -315,11 +528,6 @@ async function main() {
     hardFail = true;
   }
 
-  // Check 5: parser warnings must be zero. The parser only emits a
-  // warning when content is genuinely lost (body text that couldn't be
-  // attached to any container). A non-zero count means the parser
-  // dropped text on the floor — exactly the bug that hid behind the
-  // Corporations Act's apparent PASS.
   if (parsed.warnings.length > 0) {
     console.error(
       `[verify] STRUCTURAL FAIL: parser emitted ${parsed.warnings.length} ` +
@@ -410,6 +618,7 @@ async function main() {
     `[verify] PASS — all ${n} sections match word-for-word (multiset) ` +
       `+ structural sanity checks`,
   );
+  console.log(`         Stage 0 coverage was informational — see report above`);
   console.log('='.repeat(60));
   process.exit(0);
 }
