@@ -1,0 +1,34 @@
+[fetch] document_1: https://www.legislation.gov.au/C2009A00130/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,569,258 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2009A00130/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,569,258 source bytes → 1,566,370 combined bytes
+[citation] Personal (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 5667
+[parser-diag] processed 5667 <p> elements
+[parse] sections: 446
+[parse] compilation: date=2024-10-14 no=22
+[parser-diag] last section was added at element index: 4918
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         chapter      9
+         part         49
+         section      343
+         division     37
+         subdivision  2
+         schedule     1
+         schedule_part 2
+         schedule_clause 3
+[db] inserted new legislation row: 741d6b5c-4255-48b7-9280-ac5ead03ef8e
+[db] inserting 446 sections (pass 1)
+[db] inserted 446 sections
+[db] linking parent FKs (pass 2)
+[db] linked 436 parent references
+
+[done] ingested Personal
+       legislation_id: 741d6b5c-4255-48b7-9280-ac5ead03ef8e
+       sections: 446
+       compilation: 2024-10-14

@@ -1,0 +1,35 @@
+[fetch] document_1: https://www.legislation.gov.au/C1958A00062/2026-03-14/2026-03-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 2,660,925 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1958A00062/2026-03-14/2026-03-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2: 3,577,092 bytes
+[fetch] document_3: https://www.legislation.gov.au/C1958A00062/2026-03-14/2026-03-14/text/original/epub/OEBPS/document_3/document_3.html
+[fetch] document_3 not found — stopping. Fetched 2 document(s).
+[fetch] combined 2 document(s), 6,238,017 source bytes → 6,220,138 combined bytes
+[citation] Migration (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 22884
+[parser-diag] processed 22884 <p> elements
+[parse] sections: 1087
+[parse] compilation: date=2026-03-14 no=169
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule—Acts relating to immigration and deportation repealed". Captured as 'schedule' as fallback.
+[parser-diag] last section was added at element index: 13674
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         part         14
+         section      946
+         division     59
+         subdivision  67
+         schedule     1
+[db] inserted new legislation row: 4b5902f2-f4cd-471e-a0c1-e0a26ad7f7d3
+[db] inserting 1087 sections (pass 1)
+[db] inserted 1087 sections
+[db] linking parent FKs (pass 2)
+[db] linked 1072 parent references
+
+[done] ingested Migration
+       legislation_id: 4b5902f2-f4cd-471e-a0c1-e0a26ad7f7d3
+       sections: 1087
+       compilation: 2026-03-14

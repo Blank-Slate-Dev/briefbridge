@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01232/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 612,480 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01232/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 612,480 source bytes → 610,350 combined bytes
+[citation] Designs (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2347
+[parser-diag] processed 2347 <p> elements
+[parse] sections: 228
+[parse] compilation: date=2024-10-14 no=25
+[parser-diag] last section was added at element index: 1825
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         chapter      12
+         part         39
+         section      168
+         division     9
+[db] inserted new legislation row: 1aa81200-b63a-4c95-b724-138cbe45ef1b
+[db] inserting 228 sections (pass 1)
+[db] inserted 228 sections
+[db] linking parent FKs (pass 2)
+[db] linked 216 parent references
+
+[done] ingested Designs
+       legislation_id: 1aa81200-b63a-4c95-b724-138cbe45ef1b
+       sections: 228
+       compilation: 2024-10-14

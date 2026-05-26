@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03952/2025-09-05/2025-09-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,848,276 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03952/2025-09-05/2025-09-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2: 2,508,328 bytes
+[fetch] document_3: https://www.legislation.gov.au/C2004A03952/2025-09-05/2025-09-05/text/original/epub/OEBPS/document_3/document_3.html
+[fetch] document_3 not found — stopping. Fetched 2 document(s).
+[fetch] combined 2 document(s), 4,356,604 source bytes → 4,349,364 combined bytes
+[citation] Therapeutic (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 15555
+[parser-diag] processed 15555 <p> elements
+[parse] sections: 774
+[parse] compilation: date=2025-09-05 no=89
+[parser-diag] last section was added at element index: 12396
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         chapter      11
+         section      638
+         part         35
+         division     66
+         subdivision  24
+[db] inserted new legislation row: 5c5cfc9b-18fd-4d1a-b54e-821dcf292fbc
+[db] inserting 774 sections (pass 1)
+[db] inserted 774 sections
+[db] linking parent FKs (pass 2)
+[db] linked 763 parent references
+
+[done] ingested Therapeutic
+       legislation_id: 5c5cfc9b-18fd-4d1a-b54e-821dcf292fbc
+       sections: 774
+       compilation: 2025-09-05

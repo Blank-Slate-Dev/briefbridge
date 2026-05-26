@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C1959A00006/2026-03-31/2026-03-31/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,607,491 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1959A00006/2026-03-31/2026-03-31/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,607,491 source bytes → 1,603,694 combined bytes
+[citation] Banking (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 5901
+[parser-diag] processed 5901 <p> elements
+[parse] sections: 304
+[parse] compilation: date=2026-03-31 no=69
+[parser-diag] last section was added at element index: 3984
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         part         12
+         section      240
+         division     22
+         subdivision  17
+         schedule     2
+         schedule_part 2
+         schedule_clause 9
+[db] inserted new legislation row: 44389e9f-6e82-4473-9021-38ed35273e99
+[db] inserting 304 sections (pass 1)
+[db] inserted 304 sections
+[db] linking parent FKs (pass 2)
+[db] linked 290 parent references
+
+[done] ingested Banking
+       legislation_id: 44389e9f-6e82-4473-9021-38ed35273e99
+       sections: 304
+       compilation: 2026-03-31

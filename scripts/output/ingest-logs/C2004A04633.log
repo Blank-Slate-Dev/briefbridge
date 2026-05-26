@@ -1,0 +1,35 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04633/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,807,702 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04633/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2: 2,189,304 bytes
+[fetch] document_3: https://www.legislation.gov.au/C2004A04633/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_3/document_3.html
+[fetch] document_3 not found — stopping. Fetched 2 document(s).
+[fetch] combined 2 document(s), 3,997,006 source bytes → 3,987,861 combined bytes
+[citation] Superannuation (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 14006
+[parser-unknown-class] "SOBulletNote", text="Note 1: If the trustee is a constitutional corporation, the trustee obtaining an RSE licence may ..."
+[parser-unknown-class] "SOBulletNote", text="Note 2: If the trustee or group of individual trustees makes an election under section 19, the fu..."
+[parser-unknown-class] "SOBulletNote", text="Note: A failure to register the fund or trust may also lead to a breach of an RSE licence conditi..."
+[parser-diag] processed 14006 <p> elements
+[parser-diag] last section was added at element index: 10511
+[parse] sections: 802
+[parse] compilation: date=2025-02-21 no=127
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         41
+         division     92
+         section      644
+         subdivision  25
+[db] inserted new legislation row: c77a40bf-66c4-40b4-bdd3-cffad1d6dc40
+[db] inserting 802 sections (pass 1)
+[db] inserted 802 sections
+[db] linking parent FKs (pass 2)
+[db] linked 761 parent references
+
+[done] ingested Superannuation
+       legislation_id: c77a40bf-66c4-40b4-bdd3-cffad1d6dc40
+       sections: 802
+       compilation: 2025-02-21

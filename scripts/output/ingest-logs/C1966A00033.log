@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C1966A00033/2026-03-28/2026-03-28/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 3,715,749 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1966A00033/2026-03-28/2026-03-28/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 3,715,749 source bytes → 3,703,346 combined bytes
+[citation] Bankruptcy (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 13483
+[parser-diag] processed 13483 <p> elements
+[parser-diag] last section was added at element index: 9296
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] sections: 823
+[parse] compilation: date=2026-03-28 no=96
+[parse] by level:
+         part         19
+         section      522
+         division     63
+         subdivision  53
+         schedule     2
+         schedule_part 4
+         schedule_clause 160
+[db] inserted new legislation row: f9c2c95b-6432-49fe-a312-061cd7ec4754
+[db] inserting 823 sections (pass 1)
+[db] inserted 823 sections
+[db] linking parent FKs (pass 2)
+[db] linked 802 parent references
+
+[done] ingested Bankruptcy
+       legislation_id: f9c2c95b-6432-49fe-a312-061cd7ec4754
+       sections: 823
+       compilation: 2026-03-28

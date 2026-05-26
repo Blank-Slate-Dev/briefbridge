@@ -1,0 +1,34 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01022/2026-03-31/2026-03-31/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 2,386,929 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01022/2026-03-31/2026-03-31/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 2,386,929 source bytes → 2,382,346 combined bytes
+[citation] Proceeds (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 7713
+[parser-diag] processed 7713 <p> elements
+[parse] sections: 593
+[parse] compilation: date=2026-03-31 no=60
+[parser-diag] last section was added at element index: 6251
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         chapter      6
+         part         24
+         section      441
+         division     68
+         subdivision  17
+         schedule     2
+         schedule_part 6
+         schedule_clause 29
+[db] inserted new legislation row: 32ef79df-7739-4b52-bec8-f288772e04f1
+[db] inserting 593 sections (pass 1)
+[db] inserted 593 sections
+[db] linking parent FKs (pass 2)
+[db] linked 585 parent references
+
+[done] ingested Proceeds
+       legislation_id: 32ef79df-7739-4b52-bec8-f288772e04f1
+       sections: 593
+       compilation: 2026-03-31

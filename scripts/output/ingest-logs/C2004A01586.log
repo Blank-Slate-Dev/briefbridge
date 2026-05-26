@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01586/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,571,687 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01586/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,571,687 source bytes → 1,568,518 combined bytes
+[citation] Federal (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 5998
+[parser-diag] processed 5998 <p> elements
+[parse] sections: 431
+[parse] compilation: date=2024-12-11 no=59
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule". Captured as 'schedule' as fallback.
+[parser-diag] last section was added at element index: 4162
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         part         16
+         section      363
+         division     35
+         subdivision  16
+         schedule     1
+[db] inserted new legislation row: 2f8643b0-292a-40f7-9183-ef71db43dc46
+[db] inserting 431 sections (pass 1)
+[db] inserted 431 sections
+[db] linking parent FKs (pass 2)
+[db] linked 414 parent references
+
+[done] ingested Federal
+       legislation_id: 2f8643b0-292a-40f7-9183-ef71db43dc46
+       sections: 431
+       compilation: 2024-12-11
