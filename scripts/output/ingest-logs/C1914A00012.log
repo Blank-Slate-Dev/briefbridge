@@ -7,7 +7,7 @@
 [fetch] document_4: https://www.legislation.gov.au/C1914A00012/2026-02-18/2026-02-18/text/original/epub/OEBPS/document_4/document_4.html
 [fetch] document_4 not found — stopping. Fetched 3 document(s).
 [fetch] combined 3 document(s), 5,433,093 source bytes → 5,422,057 combined bytes
-[citation] Crimes (Cth)
+[citation] Crimes Act 1914 (Cth)
 [parse] starting
 [parser-diag] total <p> elements found: 19055
 [parser-unknown-class] "BoxHeadBold", text="Simplified outline of operation of Part"
@@ -15,23 +15,22 @@
 [parser-diag] last section was added at element index: 13525
 [parser-diag] state phase at end: ENDNOTES
 [parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
 [parse] sections: 1055
 [parse] compilation: date=2026-02-18 no=165
-[parser-diag] insideSchedule at end: true
 [parse] by level:
          part         24
          section      851
          division     115
          subdivision  64
          schedule     1
-[db] inserted new legislation row: 104befcf-5d06-4e5d-b6b7-2d70ccfccbbd
+[db] inserted new legislation row: 3e01ceec-c367-466d-8588-925fbd9bd1bf
 [db] inserting 1055 sections (pass 1)
 [db] inserted 1055 sections
 [db] linking parent FKs (pass 2)
-[error] Failed query: update "legislation_sections" set "parent_section_id" = $1 where "legislation_sections"."id" = $2
-params: a707d570-41e4-4598-9690-9329978937b4,985a1926-dd05-4e0b-a568-2bfb273eecb7
-Error: Failed query: update "legislation_sections" set "parent_section_id" = $1 where "legislation_sections"."id" = $2
-params: a707d570-41e4-4598-9690-9329978937b4,985a1926-dd05-4e0b-a568-2bfb273eecb7
-    at PostgresJsPreparedQuery.queryWithCache (C:\Users\osr99\OneDrive\Documents\GitHub\local\briefbridge\node_modules\src\pg-core\session.ts:73:11)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-    at async main (C:\Users\osr99\OneDrive\Documents\GitHub\local\briefbridge\scripts\ingest-legislation.ts:362:7)
+[db] linked 1030 parent references
+
+[done] ingested Crimes Act 1914
+       legislation_id: 3e01ceec-c367-466d-8588-925fbd9bd1bf
+       sections: 1055
+       compilation: 2026-02-18

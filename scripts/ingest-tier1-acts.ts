@@ -181,8 +181,24 @@ function runOneIngest(row: TierActRow): Promise<IngestOutcome> {
     const logPath = path.join(LOG_DIR, `${row.registration_id}.log`);
     const logStream = createWriteStream(logPath, { flags: 'w' });
 
-    const args = [
+    // Spawn `node` directly with tsx's CLI script. This is the only
+    // reliable cross-platform approach:
+    //   - npx + shell: true → Windows cmd.exe strips quotes around
+    //     multi-word args, truncating "Crimes Act 1914" → "Crimes"
+    //   - .cmd binary + shell: false → Node throws EINVAL since v18
+    //   - node + tsx CLI .mjs + shell: false → works
+    // With shell: false, Node passes args as discrete argv entries.
+    // Spaces inside individual args (like the title) are preserved.
+    const tsxCli = path.join(
+      process.cwd(),
+      'node_modules',
       'tsx',
+      'dist',
+      'cli.mjs',
+    );
+
+    const args = [
+      tsxCli,
       '--env-file=.env.local',
       'scripts/ingest-legislation.ts',
       `--registration-id=${row.registration_id}`,
@@ -190,11 +206,9 @@ function runOneIngest(row: TierActRow): Promise<IngestOutcome> {
       `--compilation-date=${row.compilation_date}`,
     ];
 
-    // Spawn via npx for cross-platform compatibility (Windows resolves
-    // 'tsx' via npx, then 'tsx' invokes ts-node-like execution).
-    const proc = spawn('npx', args, {
+    const proc = spawn(process.execPath, args, {
       stdio: ['ignore', 'pipe', 'pipe'],
-      shell: true, // Windows requires shell:true to resolve 'npx'
+      shell: false,
       env: process.env,
     });
 
@@ -236,7 +250,7 @@ async function runWithConcurrency(
   const total = rows.length;
   const failures: IngestOutcome[] = [];
 
-  return new Promise((resolve) => {
+  return new Promise<void>((resolve) => {
     const tryStartMore = () => {
       while (inFlight < CONCURRENCY && nextIdx < rows.length) {
         const row = rows[nextIdx++];
@@ -287,7 +301,7 @@ async function runWithConcurrency(
           if (status !== 'ok') failures.push(outcome);
 
           if (completed === total) {
-            resolve(undefined);
+            resolve();
           } else {
             tryStartMore();
           }
