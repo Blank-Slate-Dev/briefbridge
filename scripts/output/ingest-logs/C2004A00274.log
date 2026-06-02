@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00274/2022-12-13/2022-12-13/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 290,618 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00274/2022-12-13/2022-12-13/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 290,618 source bytes → 288,256 combined bytes
+[citation] Racial Discrimination Act 1975 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1108
+[parser-diag] processed 1108 <p> elements
+[parser-diag] last section was added at element index: 390
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 54
+[parse] compilation: date=2022-12-13 no=19
+[parse] by level:
+         part         7
+         section      45
+         division     1
+         schedule     1
+[db] inserted new legislation row: 2402c630-e099-4c27-aea2-9800a6619c69
+[db] inserting 54 sections (pass 1)
+[db] inserted 54 sections
+[db] linking parent FKs (pass 2)
+[db] linked 46 parent references
+
+[done] ingested Racial Discrimination Act 1975
+       legislation_id: 2402c630-e099-4c27-aea2-9800a6619c69
+       sections: 54
+       compilation: 2022-12-13

@@ -67,6 +67,26 @@
 // than misclassified `schedule_clause` rows.
 //
 // =============================================================================
+// FLAT-SECTION ACTS (no Chapter / Part wrapper)
+// =============================================================================
+//
+// Some Acts have no Chapters and no Parts — their operative body is a
+// flat list of sections. The Administrative Decisions (Judicial Review)
+// Act 1977 is the canonical case (ss 3, 3A, 5, 6, 7 … 21, then Schedules).
+//
+// In the HTML, such an Act's body begins directly with ActHead5 section
+// headings. The PRE_BODY→BODY transition therefore must fire on
+// ActHead3/4/5 as well as ActHead1/2 — otherwise those leading sections
+// arrive while still in PRE_BODY and are silently dropped, and the first
+// heading the parser acts on is the Schedule (an ActHead1), which both
+// enters BODY and sets insideSchedule=true. The visible symptom was the
+// ADJR Act parsing to 5 schedule-only rows with insideSchedule=true at end.
+// Section/Division/Subdivision headings only ever occur in the body (TOC
+// uses TOC1–TOC5; cover uses ShortT/LongT/Header), so promoting on them is
+// safe — Acts with a Part/Chapter wrapper have already transitioned before
+// any ActHead5 is reached, making it a no-op for them.
+//
+// =============================================================================
 // ENDNOTE DETECTION
 // =============================================================================
 //
@@ -220,7 +240,7 @@ export function parseLegislationHtml(
  *   3. ENDNOTES  — after the body. Skip.
  *
  * The phase transitions:
- *   - PRE_BODY → BODY  when we see the first ActHead1 or ActHead2.
+ *   - PRE_BODY → BODY  when we see the first ActHead1–ActHead5.
  *   - BODY → ENDNOTES  when we see <p class="ENotesHeading1">.
  *
  * Inside BODY, an additional `insideSchedule` flag controls whether
@@ -330,7 +350,30 @@ class ParserState {
       return;
     }
 
-    // Inside PRE_BODY, ignore everything except ActHead1/ActHead2.
+    // ActHead3/4/5 (Division / Subdivision / Section headings) ALSO mark the
+    // start of the body. An Act with no Chapter or Part wrapper — a flat
+    // section list, e.g. the Administrative Decisions (Judicial Review) Act
+    // 1977 — begins its operative content directly with section headings
+    // (ActHead5). Because the PRE_BODY→BODY transition previously fired only
+    // on ActHead1/ActHead2, every such leading section arrived while still in
+    // PRE_BODY and was silently skipped: the Act parsed to 0 body sections,
+    // and the first structural heading the parser acted on was the Schedule
+    // (an ActHead1), which is why the ADJR Act came out as 5 schedule-only
+    // rows with insideSchedule=true. Section/Division/Subdivision headings
+    // only ever appear in the body (the TOC uses TOC1–TOC5; the cover uses
+    // ShortT / LongT / Header), so promoting to BODY here is safe for every
+    // Act — Acts that DO have a Part/Chapter wrapper have already transitioned
+    // via ActHead1/ActHead2 before any ActHead3–5 is seen, making this a
+    // no-op for them.
+    if (
+      this.phase === 'PRE_BODY' &&
+      (cls === 'ActHead3' || cls === 'ActHead4' || cls === 'ActHead5')
+    ) {
+      this.phase = 'BODY';
+    }
+
+    // Inside PRE_BODY, ignore everything except structural headings (handled
+    // above). Body-text classes before the body proper are TOC/metadata noise.
     if (this.phase === 'PRE_BODY') {
       return;
     }

@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02868/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 645,365 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02868/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 645,365 source bytes → 642,903 combined bytes
+[citation] Sex Discrimination Act 1984 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2340
+[parser-diag] processed 2340 <p> elements
+[parser-diag] last section was added at element index: 1250
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 115
+[parse] compilation: date=2025-11-01 no=47
+[parse] by level:
+         part         7
+         section      101
+         division     6
+         schedule     1
+[db] inserted new legislation row: 2b19c64c-5527-4897-9f9a-55e3b8e90e8f
+[db] inserting 115 sections (pass 1)
+[db] inserted 115 sections
+[db] linking parent FKs (pass 2)
+[db] linked 107 parent references
+
+[done] ingested Sex Discrimination Act 1984
+       legislation_id: 2b19c64c-5527-4897-9f9a-55e3b8e90e8f
+       sections: 115
+       compilation: 2025-11-01

@@ -1,0 +1,38 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04868/2026-03-14/2026-03-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 3,060,555 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04868/2026-03-14/2026-03-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2: 1,769,200 bytes
+[fetch] document_3: https://www.legislation.gov.au/C2004A04868/2026-03-14/2026-03-14/text/original/epub/OEBPS/document_3/document_3.html
+[fetch] document_3: 2,361,881 bytes
+[fetch] document_4: https://www.legislation.gov.au/C2004A04868/2026-03-14/2026-03-14/text/original/epub/OEBPS/document_4/document_4.html
+[fetch] document_4 not found — stopping. Fetched 3 document(s).
+[fetch] combined 3 document(s), 7,191,636 source bytes → 7,180,202 combined bytes
+[citation] Criminal Code Act 1995 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 25916
+[parser-diag] processed 25916 <p> elements
+[parser-diag] last section was added at element index: 20251
+[parser-diag] state phase at end: ENDNOTES
+[parse] sections: 1505
+[parse] compilation: date=2026-03-14 no=173
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "Dictionary". Captured as 'schedule' as fallback.
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         section      7
+         schedule     4
+         schedule_part 8
+         subdivision  239
+         schedule_clause 1210
+         division     37
+[db] inserted new legislation row: 5bbaf7b0-b3da-4fee-9414-24029a7a2324
+[db] inserting 1505 sections (pass 1)
+[db] inserted 1505 sections
+[db] linking parent FKs (pass 2)
+[db] linked 1494 parent references
+
+[done] ingested Criminal Code Act 1995
+       legislation_id: 5bbaf7b0-b3da-4fee-9414-24029a7a2324
+       sections: 1505
+       compilation: 2026-03-14

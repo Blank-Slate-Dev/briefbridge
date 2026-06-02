@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2021A00012/2025-06-10/2025-06-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 996,642 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2021A00012/2025-06-10/2025-06-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 996,642 source bytes → 994,148 combined bytes
+[citation] Federal Circuit and Family Court of Australia Act 2021 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3471
+[parser-diag] processed 3471 <p> elements
+[parser-diag] last section was added at element index: 3180
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: false
+[parse] sections: 380
+[parse] compilation: date=2025-06-10 no=12
+[parse] by level:
+         chapter      5
+         part         21
+         division     60
+         section      286
+         subdivision  8
+[db] inserted new legislation row: 0422751a-00ce-4126-be73-f3bdaa3323a7
+[db] inserting 380 sections (pass 1)
+[db] inserted 380 sections
+[db] linking parent FKs (pass 2)
+[db] linked 375 parent references
+
+[done] ingested Federal Circuit and Family Court of Australia Act 2021
+       legislation_id: 0422751a-00ce-4126-be73-f3bdaa3323a7
+       sections: 380
+       compilation: 2025-06-10

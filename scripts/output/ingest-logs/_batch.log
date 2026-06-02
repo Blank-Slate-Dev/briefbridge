@@ -67,3 +67,31 @@ FAILURES (1):
 [2026-05-27T13:52:53.501Z] OK     C1914A00012 (1055 sections, 4.1min, exit=0) [1/1]
 
 === BATCH END 2026-05-27T13:52:53.502Z ===
+
+=== BATCH START 2026-06-02T12:20:52.746Z — 8 Acts, concurrency=2 ===
+[2026-06-02T12:20:52.747Z] START C2004A04868 Criminal Code Act 1995
+[2026-06-02T12:20:52.752Z] START C2004A01697 Administrative Decisions (Judicial Review) Act 1977
+[2026-06-02T12:20:57.380Z] OK     C2004A01697 (5 sections, 0.1min, exit=0) [1/8]
+[2026-06-02T12:20:57.380Z] START C2004A00274 Racial Discrimination Act 1975
+[2026-06-02T12:21:11.892Z] OK     C2004A00274 (54 sections, 0.2min, exit=0) [2/8]
+[2026-06-02T12:21:11.892Z] START C2004A02868 Sex Discrimination Act 1984
+[2026-06-02T12:21:41.065Z] OK     C2004A02868 (115 sections, 0.5min, exit=0) [3/8]
+[2026-06-02T12:21:41.065Z] START C2004A04426 Disability Discrimination Act 1992
+[2026-06-02T12:22:06.973Z] OK     C2004A04426 (102 sections, 0.4min, exit=0) [4/8]
+[2026-06-02T12:22:06.974Z] START C2004A01302 Age Discrimination Act 2004
+[2026-06-02T12:22:29.798Z] OK     C2004A01302 (89 sections, 0.4min, exit=0) [5/8]
+[2026-06-02T12:22:29.798Z] START C2004A03366 Australian Human Rights Commission Act 1986
+[2026-06-02T12:23:09.308Z] OK     C2004A03366 (163 sections, 0.7min, exit=0) [6/8]
+[2026-06-02T12:23:09.308Z] START C2021A00012 Federal Circuit and Family Court of Australia Act 2021
+[2026-06-02T12:24:42.413Z] OK     C2021A00012 (380 sections, 1.5min, exit=0) [7/8]
+[2026-06-02T12:26:42.439Z] OK     C2004A04868 (1498 sections, 5.8min, exit=0) [8/8]
+
+=== BATCH END 2026-06-02T12:26:42.439Z ===
+
+=== BATCH START 2026-06-02T12:57:22.937Z — 2 Acts, concurrency=2 ===
+[2026-06-02T12:57:22.938Z] START C2004A04868 Criminal Code Act 1995
+[2026-06-02T12:57:22.943Z] START C2004A01697 Administrative Decisions (Judicial Review) Act 1977
+[2026-06-02T12:57:27.781Z] OK     C2004A01697 (33 sections, 0.1min, exit=0) [1/2]
+[2026-06-02T13:03:09.022Z] OK     C2004A04868 (1505 sections, 5.8min, exit=0) [2/2]
+
+=== BATCH END 2026-06-02T13:03:09.022Z ===

@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01697/2026-01-22/2026-01-22/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 527,449 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01697/2026-01-22/2026-01-22/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 527,449 source bytes → 524,871 combined bytes
+[citation] Administrative Decisions (Judicial Review) Act 1977 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1875
+[parser-diag] processed 1875 <p> elements
+[parser-diag] last section was added at element index: 640
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parse] sections: 33
+[parser-diag] insideSchedule at end: true
+[parse] compilation: date=2026-01-22 no=131
+[parse] by level:
+         section      28
+         schedule     3
+         schedule_clause 2
+[db] inserted new legislation row: 2ad96140-1584-488f-8386-19790f707086
+[db] inserting 33 sections (pass 1)
+[db] inserted 33 sections
+[db] linking parent FKs (pass 2)
+[db] linked 2 parent references
+
+[done] ingested Administrative Decisions (Judicial Review) Act 1977
+       legislation_id: 2ad96140-1584-488f-8386-19790f707086
+       sections: 33
+       compilation: 2026-01-22

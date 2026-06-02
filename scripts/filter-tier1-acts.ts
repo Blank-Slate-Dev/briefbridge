@@ -23,7 +23,7 @@ const INPUT_CSV = join(process.cwd(), 'scripts', 'output', 'cth-acts-in-force.cs
 const OUTPUT_CSV = join(process.cwd(), 'scripts', 'output', 'tier-1-acts.csv');
 
 // =============================================================================
-// Tier-1 list — 35 Acts
+// Tier-1 list — 41 Acts
 // =============================================================================
 //
 // Match strings are designed to match the official Federal Register title.
@@ -78,6 +78,26 @@ const TIER_1_TITLES: string[] = [
   'Proceeds of Crime Act 2002',
   'Customs Act 1901',
   'Marriage Act 1961',
+
+  // ===========================================================================
+  // Batch 2 — federal crime, administrative law, anti-discrimination, courts
+  // ===========================================================================
+
+  // Federal criminal (the large one — the Code itself lives in Schedule 1)
+  'Criminal Code Act 1995',
+
+  // Administrative law
+  'Administrative Decisions (Judicial Review) Act 1977',
+
+  // Anti-discrimination suite
+  'Racial Discrimination Act 1975',
+  'Sex Discrimination Act 1984',
+  'Disability Discrimination Act 1992',
+  'Age Discrimination Act 2004',
+  'Australian Human Rights Commission Act 1986',
+
+  // Court framework (merged FCFCA)
+  'Federal Circuit and Family Court of Australia Act 2021',
 ];
 
 // =============================================================================

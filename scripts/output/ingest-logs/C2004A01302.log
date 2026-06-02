@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01302/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 432,431 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01302/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 432,431 source bytes → 430,129 combined bytes
+[citation] Age Discrimination Act 2004 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1629
+[parser-diag] processed 1629 <p> elements
+[parser-diag] last section was added at element index: 1070
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 89
+[parse] compilation: date=2024-12-11 no=56
+[parse] by level:
+         part         8
+         section      71
+         division     8
+         schedule     2
+[db] inserted new legislation row: b0f11e42-9561-4811-8503-7952e350698c
+[db] inserting 89 sections (pass 1)
+[db] inserted 89 sections
+[db] linking parent FKs (pass 2)
+[db] linked 79 parent references
+
+[done] ingested Age Discrimination Act 2004
+       legislation_id: b0f11e42-9561-4811-8503-7952e350698c
+       sections: 89
+       compilation: 2024-12-11
