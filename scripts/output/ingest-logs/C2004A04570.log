@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04570/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 13,970 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04570/2008-11-26/2008-11-26/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 13,970 source bytes → 13,015 combined bytes
+[citation] Great Barrier Reef Marine Park (Environmental Management Charge—General) Act 1993 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 53
+[parser-unknown-class] "TableColHead", text="Act"
+[parser-unknown-class] "TableColHead", text="Number and year"
+[parser-unknown-class] "TableColHead", text="Date of Assent"
+[parser-unknown-class] "TableColHead", text="Date of commencement"
+[parser-unknown-class] "TableColHead", text="Application, saving or transitional provisions"
+[parser-diag] processed 53 <p> elements
+[parser-diag] last section was added at element index: 24
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 4
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      4
+[db] inserted new legislation row: 1b061219-a2e4-4243-af5a-bea580beb1b9
+[db] inserting 4 sections (pass 1)
+[db] inserted 4 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Great Barrier Reef Marine Park (Environmental Management Charge—General) Act 1993
+       legislation_id: 1b061219-a2e4-4243-af5a-bea580beb1b9
+       sections: 4
+       compilation: 2008-11-26

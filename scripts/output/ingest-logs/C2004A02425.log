@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02425/2016-07-01/2016-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 41,254 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02425/2016-07-01/2016-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 41,254 source bytes → 39,362 combined bytes
+[citation] Customs Undertakings (Penalties) Act 1981 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 190
+[parser-diag] processed 190 <p> elements
+[parser-diag] last section was added at element index: 53
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 6
+[parse] compilation: date=2016-07-01 no=4
+[parse] by level:
+         section      6
+[db] inserted new legislation row: bd00220d-e652-4372-98f9-5047d4ce8ff0
+[db] inserting 6 sections (pass 1)
+[db] inserted 6 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Customs Undertakings (Penalties) Act 1981
+       legislation_id: bd00220d-e652-4372-98f9-5047d4ce8ff0
+       sections: 6
+       compilation: 2016-07-01

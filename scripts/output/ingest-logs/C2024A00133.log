@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2024A00133/2024-12-10/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 11,151 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2024A00133/2024-12-10/2024-12-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 11,151 source bytes → 8,537 combined bytes
+[citation] Taxation (Multinational—Global and Domestic Minimum Tax) Imposition Act 2024 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 60
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 4 July 2024"
+[parser-unknown-class] "2ndRd", text="Senate on 22 August 2024]"
+[parser-diag] processed 60 <p> elements
+[parser-diag] last section was added at element index: 52
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: 22960cae-3dee-4a9d-a904-defe6d88d146
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Taxation (Multinational—Global and Domestic Minimum Tax) Imposition Act 2024
+       legislation_id: 22960cae-3dee-4a9d-a904-defe6d88d146
+       sections: 3
+       compilation: 2024-12-10

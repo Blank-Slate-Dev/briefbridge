@@ -1,0 +1,87 @@
+[fetch] document_1: https://www.legislation.gov.au/C2011A00183/2011-12-06/2011-12-06/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 29,027 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2011A00183/2011-12-06/2011-12-06/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 29,027 source bytes → 27,837 combined bytes
+[citation] Defence Legislation Amendment Act 2011 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 226
+[parser-unknown-class] "ActHead6", text="Schedule 1—Amendments relating to cadets"
+[parser-unknown-class] "ActHead9", text="Air Force Act 1923"
+[parser-unknown-class] "ItemHead", text="1  Subsection 4G(1)"
+[parser-unknown-class] "ItemHead", text="2  Before subsection 8(2)"
+[parser-unknown-class] "ItemHead", text="3  Before subsection 8(3)"
+[parser-unknown-class] "ItemHead", text="4  Before subsection 8(5)"
+[parser-unknown-class] "ItemHead", text="5  Subsections 8(5) and (6)"
+[parser-unknown-class] "ItemHead", text="6  Before subsection 8(7)"
+[parser-unknown-class] "ItemHead", text="7  Before subsection 8(9)"
+[parser-unknown-class] "ItemHead", text="8  Subsection 8(9)"
+[parser-unknown-class] "ItemHead", text="9  At the end of section 8"
+[parser-unknown-class] "ItemHead", text="10  Before subsection 8A(1)"
+[parser-unknown-class] "ItemHead", text="11  Subsection 8A(1)"
+[parser-unknown-class] "ItemHead", text="12  After subsection 8A(1)"
+[parser-unknown-class] "ItemHead", text="13  Before subsection 8A(2)"
+[parser-unknown-class] "ItemHead", text="14  Subsections 8A(3), (3A) and (4)"
+[parser-unknown-class] "ItemHead", text="15  Subsection 8A(5)"
+[parser-unknown-class] "ItemHead", text="16  Subsection 8A(6)"
+[parser-unknown-class] "ActHead9", text="Defence Act 1903"
+[parser-unknown-class] "ItemHead", text="17  Paragraphs 4(2)(a) to (h)"
+[parser-unknown-class] "ItemHead", text="18  Before subsection 62(2)"
+[parser-unknown-class] "ItemHead", text="19  Before subsection 62(3)"
+[parser-unknown-class] "ItemHead", text="20  Before subsection 62(5)"
+[parser-unknown-class] "ItemHead", text="21  Subsections 62(5) and (6)"
+[parser-unknown-class] "ItemHead", text="22  Before subsection 62(7)"
+[parser-unknown-class] "ItemHead", text="23  Before subsection 62(9)"
+[parser-unknown-class] "ItemHead", text="24  Subsection 62(9)"
+[parser-unknown-class] "ItemHead", text="25  At the end of section 62"
+[parser-unknown-class] "ItemHead", text="26  Before subsection 120A(2)"
+[parser-unknown-class] "ItemHead", text="27  Before subsection 120A(3A)"
+[parser-unknown-class] "ItemHead", text="28  After subsection 120A(3D)"
+[parser-unknown-class] "ItemHead", text="29  Before subsection 120A(4)"
+[parser-unknown-class] "ItemHead", text="30  Subsection 120A(4)"
+[parser-unknown-class] "ItemHead", text="31  Before subsection 120A(4A)"
+[parser-unknown-class] "ItemHead", text="32  Subsection 120A(4A)"
+[parser-unknown-class] "ItemHead", text="33  Before subsection 120A(4B)"
+[parser-unknown-class] "ItemHead", text="34  Subsection 120A(4B)"
+[parser-unknown-class] "ItemHead", text="35  Before subsection 120A(5)"
+[parser-unknown-class] "ActHead9", text="Naval Defence Act 1910"
+[parser-unknown-class] "ItemHead", text="36  Before subsection 38(2)"
+[parser-unknown-class] "ItemHead", text="37  Before subsection 38(3)"
+[parser-unknown-class] "ItemHead", text="38  Subsection 38(4)"
+[parser-unknown-class] "ItemHead", text="39  Before subsection 38(5)"
+[parser-unknown-class] "ItemHead", text="40  Subsections 38(5) and (6)"
+[parser-unknown-class] "ItemHead", text="41  Subsection 38(7)"
+[parser-unknown-class] "ItemHead", text="42  Saving provision—regulations"
+[parser-unknown-class] "ItemHead", text="43  Section 39"
+[parser-unknown-class] "ItemHead", text="44  Section 39"
+[parser-unknown-class] "ItemHead", text="45  At the end of section 39"
+[parser-unknown-class] "ItemHead", text="46  Before subsection 44B(3)"
+[parser-unknown-class] "ItemHead", text="47  Subsection 44B(3)"
+[parser-unknown-class] "ItemHead", text="48  After subsection 44B(3)"
+[parser-unknown-class] "ItemHead", text="49  Before subsection 44B(4)"
+[parser-unknown-class] "ItemHead", text="50  Subsection 44B(4)"
+[parser-unknown-class] "ItemHead", text="51  Before subsection 44B(5)"
+[parser-unknown-class] "ItemHead", text="52  Before subsection 44B(10)"
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 18 August 2011"
+[parser-unknown-class] "2ndRd", text="Senate on 15 September 2011]"
+[parser-diag] processed 226 <p> elements
+[parser-diag] last section was added at element index: 59
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: b0aecaea-1381-4f0a-a481-e4169987a20d
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Defence Legislation Amendment Act 2011
+       legislation_id: b0aecaea-1381-4f0a-a481-e4169987a20d
+       sections: 3
+       compilation: 2011-12-06

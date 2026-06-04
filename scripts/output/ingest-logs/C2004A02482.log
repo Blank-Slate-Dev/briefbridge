@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02482/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 53,922 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02482/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 53,922 source bytes → 52,036 combined bytes
+[citation] Lands Acquisition (Northern Territory Pastoral Leases) Act 1981 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 223
+[parser-unknown-class] "ENotesHeading2", text="Endnote 1—About the endnotes"
+[parser-unknown-class] "ENotesHeading2", text="Endnote 2—Abbreviation key"
+[parser-unknown-class] "ENotesHeading2", text="Endnote 3—Legislation history"
+[parser-unknown-class] "ENotesHeading2", text="Endnote 4—Amendment history"
+[parser-diag] processed 223 <p> elements
+[parser-diag] last section was added at element index: 112
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 18
+[parse] compilation: date=2023-10-18 no=3
+[parse] by level:
+         section      15
+         schedule     1
+         schedule_clause 2
+[db] inserted new legislation row: bfa349f1-b80a-48bd-a468-6965a233a3ce
+[db] inserting 18 sections (pass 1)
+[db] inserted 18 sections
+[db] linking parent FKs (pass 2)
+[db] linked 2 parent references
+
+[done] ingested Lands Acquisition (Northern Territory Pastoral Leases) Act 1981
+       legislation_id: bfa349f1-b80a-48bd-a468-6965a233a3ce
+       sections: 18
+       compilation: 2023-10-18

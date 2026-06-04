@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00536/2019-03-01/2019-03-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 598,114 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00536/2019-03-01/2019-03-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 598,114 source bytes → 595,532 combined bytes
+[citation] Parliamentary Service Act 1999 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2079
+[parser-diag] processed 2079 <p> elements
+[parser-diag] last section was added at element index: 1560
+[parser-diag] state phase at end: ENDNOTES
+[parse] sections: 162
+[parse] compilation: date=2019-03-01 no=19
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         10
+         section      140
+         division     10
+         subdivision  2
+[db] inserted new legislation row: ba2d6462-558d-45fb-8bbc-cbd6c49493e7
+[db] inserting 162 sections (pass 1)
+[db] inserted 162 sections
+[db] linking parent FKs (pass 2)
+[db] linked 152 parent references
+
+[done] ingested Parliamentary Service Act 1999
+       legislation_id: ba2d6462-558d-45fb-8bbc-cbd6c49493e7
+       sections: 162
+       compilation: 2019-03-01

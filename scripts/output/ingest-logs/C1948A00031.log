@@ -1,0 +1,41 @@
+[fetch] document_1: https://www.legislation.gov.au/C1948A00031/2022-09-28/2022-09-28/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 871,203 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1948A00031/2022-09-28/2022-09-28/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 871,203 source bytes → 867,621 combined bytes
+[citation] Defence Forces Retirement Benefits Act 1948 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3058
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the prescribed percentage for the prescribed half‑year."
+[parser-unknown-class] "BoxStep", text="Step 2. Use section 84K to work out the LCI percentage for the prescribed half‑year."
+[parser-unknown-class] "BoxStep", text="Step 3. Take the higher of the percentages worked out in steps 1 and 2. (If they are the same, us..."
+[parser-unknown-class] "BoxStep", text="Step 4. Take the indicative pension amount for the prescribed half‑year immediately before the re..."
+[parser-unknown-class] "BoxStep", text="Step 5. Work out the amount that is the CPI/LCI percentage of the current indicative pension amou..."
+[parser-unknown-class] "BoxStep", text="Step 6. Use section 84L to work out the MTAWE result."
+[parser-unknown-class] "BoxStep", text="Step 7. If the CPI/LCI result is the same as or higher than the MTAWE result, the 55‑plus percent..."
+[parser-diag] processed 3058 <p> elements
+[parser-diag] last section was added at element index: 1510
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 127
+[parse] compilation: date=2022-09-28 no=24
+[parse] warnings: 3
+  - ActHead1 with unexpected leading word: "The Schedules". Captured as 'schedule' as fallback.
+  - ActHead1 with unexpected leading word: "Second Schedule—Pension factors". Captured as 'schedule' as fallback.
+  - ActHead1 with unexpected leading word: "Fourth Schedule—Period of service for pension referred to in paragraph 39(2)(c)". Captured as 'schedule' as fallback.
+[parse] by level:
+         part         7
+         section      104
+         division     13
+         schedule     3
+[db] inserted new legislation row: 30634fb7-ec34-486b-9ffd-9fe5e245730a
+[db] inserting 127 sections (pass 1)
+[db] inserted 127 sections
+[db] linking parent FKs (pass 2)
+[db] linked 117 parent references
+
+[done] ingested Defence Forces Retirement Benefits Act 1948
+       legislation_id: 30634fb7-ec34-486b-9ffd-9fe5e245730a
+       sections: 127
+       compilation: 2022-09-28

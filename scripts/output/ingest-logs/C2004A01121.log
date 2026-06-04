@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01121/2023-10-20/2023-10-20/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 266,372 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01121/2023-10-20/2023-10-20/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 266,372 source bytes → 264,155 combined bytes
+[citation] Medical Indemnity (Prudential Supervision and Product Standards) Act 2003 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 990
+[parser-diag] processed 990 <p> elements
+[parser-diag] last section was added at element index: 782
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 50
+[parse] compilation: date=2023-10-20 no=7
+[parse] by level:
+         part         5
+         division     7
+         section      36
+         subdivision  2
+[db] inserted new legislation row: 684daa50-0755-454b-bf4d-4d71fc89dc1b
+[db] inserting 50 sections (pass 1)
+[db] inserted 50 sections
+[db] linking parent FKs (pass 2)
+[db] linked 45 parent references
+
+[done] ingested Medical Indemnity (Prudential Supervision and Product Standards) Act 2003
+       legislation_id: 684daa50-0755-454b-bf4d-4d71fc89dc1b
+       sections: 50
+       compilation: 2023-10-20

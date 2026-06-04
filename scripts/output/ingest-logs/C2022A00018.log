@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2022A00018/2022-04-01/2022-04-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 36,704 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2022A00018/2022-04-01/2022-04-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 36,704 source bytes → 34,030 combined bytes
+[citation] Offshore Petroleum (Laminaria and Corallina Decommissioning Cost Recovery Levy) Act 2022 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 157
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 20 October 2021"
+[parser-unknown-class] "2ndRd", text="Senate on 30 March 2022]"
+[parser-diag] processed 157 <p> elements
+[parser-diag] last section was added at element index: 144
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 13
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      13
+[db] inserted new legislation row: 580b1b10-918e-45c5-8f20-d13312cc4633
+[db] inserting 13 sections (pass 1)
+[db] inserted 13 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Offshore Petroleum (Laminaria and Corallina Decommissioning Cost Recovery Levy) Act 2022
+       legislation_id: 580b1b10-918e-45c5-8f20-d13312cc4633
+       sections: 13
+       compilation: 2022-04-01

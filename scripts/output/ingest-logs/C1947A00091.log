@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C1947A00091/1947-12-11/1947-12-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 144,770 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1947A00091/1947-12-11/1947-12-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 144,770 source bytes → 143,291 combined bytes
+[citation] International Labour Organisation Act 1947 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 155
+[parser-diag] processed 155 <p> elements
+[parser-diag] last section was added at element index: 42
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parser-diag] insideSchedule at end: true
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule—The Constitution Of The International Labour Organisation". Captured as 'schedule' as fallback.
+[parse] by level:
+         section      2
+         schedule     1
+[db] inserted new legislation row: 2ad14573-a829-4d2d-9f76-8ae95cdb1c2e
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested International Labour Organisation Act 1947
+       legislation_id: 2ad14573-a829-4d2d-9f76-8ae95cdb1c2e
+       sections: 3
+       compilation: 1947-12-11

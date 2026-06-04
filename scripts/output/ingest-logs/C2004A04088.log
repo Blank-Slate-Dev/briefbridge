@@ -1,0 +1,39 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04088/2012-09-22/2012-09-22/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 115,360 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04088/2012-09-22/2012-09-22/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 115,360 source bytes → 114,327 combined bytes
+[citation] Commonwealth Funds Management Limited Act 1990 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 388
+[parser-unknown-class] "ActNotesa", text="(a) The Commonwealth Funds Management Limited Act 1990 was amended by Schedule 1 (items 1–11) onl..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act commences on the day on which it receives the Royal Assent."
+[parser-unknown-class] "ActNotes1", text="(2) Items 3 and 4 of Schedule 1 are taken to have commenced immediately after the commencement of..."
+[parser-unknown-class] "ActNotesa", text="Part 2 commenced on 1 March 1991."
+[parser-unknown-class] "ActNotes1", text="(3) Subject to subsection (4), items 1, 2, 5, 6, 7, 8, 9 and 11 of Schedule 1 commence on a day o..."
+[parser-unknown-class] "ActNotesa", text="(b) The Income Tax (Consequential Amendments) Act 1997 was amended by Schedule 2 (items 13 and 14..."
+[parser-unknown-class] "ActNotesa", text="(c) The Commonwealth Funds Management Limited Act 1990 was amended by Schedule 3 (item 10) only o..."
+[parser-unknown-class] "ActNotes1a", text="(e) the amendment of the Commonwealth Funds Management Limited Act 1990 commences, or is taken to..."
+[parser-unknown-class] "ActNotesa", text="The sale day occurred on 23 December 1996 (see Gazette 1997, No. S8)."
+[parser-unknown-class] "ActNotesa", text="(d) The Commonwealth Funds Management Limited Act 1990 was amended by Schedule 3 (items 127–130) ..."
+[parser-unknown-class] "ActNotes1", text="(3) Subject to subsections (4) to (10), Schedule 3 commences, or is taken to have commenced, at t..."
+[parser-diag] processed 388 <p> elements
+[parser-diag] last section was added at element index: 204
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 27
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         5
+         section      22
+[db] inserted new legislation row: 6adf6cec-af7b-40f5-b14e-3ce5ddc461c2
+[db] inserting 27 sections (pass 1)
+[db] inserted 27 sections
+[db] linking parent FKs (pass 2)
+[db] linked 22 parent references
+
+[done] ingested Commonwealth Funds Management Limited Act 1990
+       legislation_id: 6adf6cec-af7b-40f5-b14e-3ce5ddc461c2
+       sections: 27
+       compilation: 2012-09-22

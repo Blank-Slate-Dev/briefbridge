@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01897/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 65,507 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01897/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 65,507 source bytes → 63,683 combined bytes
+[citation] Diplomatic and Consular Missions Act 1978 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 251
+[parser-diag] processed 251 <p> elements
+[parser-diag] last section was added at element index: 127
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 8
+[parse] compilation: date=2016-10-21 no=5
+[parse] by level:
+         section      8
+[db] inserted new legislation row: 6696bcea-2bde-4802-81c5-4fb4b6cf795f
+[db] inserting 8 sections (pass 1)
+[db] inserted 8 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Diplomatic and Consular Missions Act 1978
+       legislation_id: 6696bcea-2bde-4802-81c5-4fb4b6cf795f
+       sections: 8
+       compilation: 2016-10-21

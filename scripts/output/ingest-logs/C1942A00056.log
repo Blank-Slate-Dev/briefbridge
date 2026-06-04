@@ -1,0 +1,34 @@
+[fetch] document_1: https://www.legislation.gov.au/C1942A00056/1986-03-03/1986-03-03/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 34,194 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1942A00056/1986-03-03/1986-03-03/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 34,194 source bytes → 33,214 combined bytes
+[citation] Statute of Westminster Adoption Act 1942 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 128
+[parser-unknown-class] "ActNotesa", text="(a) Subsection 17(2) of the Australia Act 1986 provides as follows:"
+[parser-unknown-class] "ActNotes1", text="(2) This Act shall come into operation on a day and at a time to be fixed by Proclamation."
+[parser-unknown-class] "ActNotesa", text="This Act came into operation on 3 March 1986 at 5.00 am Greenwich Mean Time (see Gazette 1986, No..."
+[parser-diag] processed 128 <p> elements
+[parser-diag] last section was added at element index: 83
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 14
+[parse] compilation: date=(none) no=(none)
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule". Captured as 'schedule' as fallback.
+[parse] by level:
+         section      3
+         schedule     1
+         schedule_clause 10
+[db] inserted new legislation row: c89e2c9c-b17a-4ce4-b612-f029a43cfe46
+[db] inserting 14 sections (pass 1)
+[db] inserted 14 sections
+[db] linking parent FKs (pass 2)
+[db] linked 10 parent references
+
+[done] ingested Statute of Westminster Adoption Act 1942
+       legislation_id: c89e2c9c-b17a-4ce4-b612-f029a43cfe46
+       sections: 14
+       compilation: 1986-03-03

@@ -1,0 +1,50 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03381/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 209,470 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03381/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 209,470 source bytes → 207,310 combined bytes
+[citation] South Pacific Nuclear Free Zone Treaty Act 1986 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 725
+[parser-unknown-class] "Article", text="ARTICLE 1"
+[parser-unknown-class] "Article", text="ARTICLE 2"
+[parser-unknown-class] "Article", text="ARTICLE 3"
+[parser-unknown-class] "Article", text="ARTICLE 4"
+[parser-unknown-class] "Article", text="ARTICLE 5"
+[parser-unknown-class] "Article", text="ARTICLE 6"
+[parser-unknown-class] "Article", text="ARTICLE 7"
+[parser-unknown-class] "Article", text="ARTICLE 8"
+[parser-unknown-class] "Article", text="ARTICLE 9"
+[parser-unknown-class] "Article", text="ARTICLE 10"
+[parser-unknown-class] "Article", text="ARTICLE 11"
+[parser-unknown-class] "Article", text="ARTICLE 12"
+[parser-unknown-class] "Article", text="ARTICLE 13"
+[parser-unknown-class] "Article", text="ARTICLE 14"
+[parser-unknown-class] "Article", text="ARTICLE 15"
+[parser-unknown-class] "Article", text="ARTICLE 16"
+[parser-unknown-class] "Article", text="ANNEX 1"
+[parser-unknown-class] "Article", text="ANNEX 2"
+[parser-unknown-class] "Article", text="ANNEX 3"
+[parser-unknown-class] "Article", text="ANNEX 4"
+[parser-diag] processed 725 <p> elements
+[parser-diag] last section was added at element index: 386
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 44
+[parse] compilation: date=2016-10-21 no=9
+[parse] by level:
+         part         5
+         section      36
+         division     2
+         schedule     1
+[db] inserted new legislation row: 027a07ee-322c-4c45-9139-61f11ea4275a
+[db] inserting 44 sections (pass 1)
+[db] inserted 44 sections
+[db] linking parent FKs (pass 2)
+[db] linked 38 parent references
+
+[done] ingested South Pacific Nuclear Free Zone Treaty Act 1986
+       legislation_id: 027a07ee-322c-4c45-9139-61f11ea4275a
+       sections: 44
+       compilation: 2016-10-21

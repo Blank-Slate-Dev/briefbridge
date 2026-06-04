@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02401/2025-06-10/2025-06-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 114,715 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02401/2025-06-10/2025-06-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 114,715 source bytes → 112,633 combined bytes
+[citation] Federal Proceedings (Costs) Act 1981 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 435
+[parser-diag] processed 435 <p> elements
+[parser-diag] last section was added at element index: 213
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 25
+[parse] compilation: date=2025-06-10 no=15
+[parse] by level:
+         section      24
+         schedule     1
+[db] inserted new legislation row: 393d0ea5-6ef4-405e-be32-024d3af33bcc
+[db] inserting 25 sections (pass 1)
+[db] inserted 25 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Federal Proceedings (Costs) Act 1981
+       legislation_id: 393d0ea5-6ef4-405e-be32-024d3af33bcc
+       sections: 25
+       compilation: 2025-06-10

@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01395/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,179,664 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01395/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,179,664 source bytes → 1,176,719 combined bytes
+[citation] Great Barrier Reef Marine Park Act 1975 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 4531
+[parser-diag] processed 4531 <p> elements
+[parser-diag] last section was added at element index: 3021
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 279
+[parse] compilation: date=2025-02-21 no=38
+[parse] by level:
+         part         12
+         section      222
+         division     28
+         subdivision  16
+         schedule     1
+[db] inserted new legislation row: 88e71953-28d4-4291-b760-35a6a041c186
+[db] inserting 279 sections (pass 1)
+[db] inserted 279 sections
+[db] linking parent FKs (pass 2)
+[db] linked 266 parent references
+
+[done] ingested Great Barrier Reef Marine Park Act 1975
+       legislation_id: 88e71953-28d4-4291-b760-35a6a041c186
+       sections: 279
+       compilation: 2025-02-21

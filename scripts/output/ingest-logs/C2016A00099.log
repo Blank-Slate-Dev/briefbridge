@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2016A00099/2016-12-07/2016-12-07/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 15,079 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2016A00099/2016-12-07/2016-12-07/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 15,079 source bytes → 13,632 combined bytes
+[citation] VET Student Loans (Charges) Act 2016 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 90
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 13 October 2016"
+[parser-unknown-class] "2ndRd", text="Senate on 7 November 2016]"
+[parser-diag] processed 90 <p> elements
+[parser-diag] last section was added at element index: 76
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 9
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      9
+[db] inserted new legislation row: d8fe47ef-cdc1-4ae7-bbe9-47e714a9f5ea
+[db] inserting 9 sections (pass 1)
+[db] inserted 9 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested VET Student Loans (Charges) Act 2016
+       legislation_id: d8fe47ef-cdc1-4ae7-bbe9-47e714a9f5ea
+       sections: 9
+       compilation: 2016-12-07

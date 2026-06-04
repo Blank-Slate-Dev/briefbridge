@@ -1,0 +1,56 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01048/2002-12-02/2002-12-02/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 23,505 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01048/2002-12-02/2002-12-02/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 23,505 source bytes → 22,567 combined bytes
+[citation] Medical Indemnity Agreement (Financial Assistance—Binding Commonwealth Obligations) Act 2002 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 103
+[parser-unknown-class] "indenta", text="(a) a liquidator or provisional liquidator of the company;"
+[parser-unknown-class] "indenta", text="(b) a receiver, or receiver and manager, of property of the company;"
+[parser-unknown-class] "indenta", text="(c) an administrator of the company;"
+[parser-unknown-class] "indenta", text="(d) an administrator of a deed of company arrangement executed by the company;"
+[parser-unknown-class] "indenta", text="(e) a trustee or other person administering a compromise or arrangement made between the company ..."
+[parser-unknown-class] "indenta", text="(a) an agreement, known as an Indemnity Agreement, that is between:"
+[parser-unknown-class] "indentii", text="(i) the Commonwealth; and"
+[parser-unknown-class] "indentii", text="(ii) Australasian Medical Insurance Limited; and"
+[parser-unknown-class] "indentii", text="(iii) United Medical Protection Limited; and"
+[parser-unknown-class] "indentii", text="(iv) an insolvency representative of both of those companies; or"
+[parser-unknown-class] "indenta", text="(b) if the agreement has been amended—the agreement as amended."
+[parser-unknown-class] "indenta", text="(a) Australasian Medical Insurance Limited; or"
+[parser-unknown-class] "indenta", text="(b) an insolvency representative of Australasian Medical Insurance Limited; or"
+[parser-unknown-class] "indenta", text="(c) United Medical Protection Limited; or"
+[parser-unknown-class] "indenta", text="(d) an insolvency representative of United Medical Protection Limited;"
+[parser-unknown-class] "indenta", text="(a) Australasian Medical Insurance Limited; or"
+[parser-unknown-class] "indenta", text="(b) an insolvency representative of Australasian Medical Insurance Limited; or"
+[parser-unknown-class] "indenta", text="(c) United Medical Protection Limited; or"
+[parser-unknown-class] "indenta", text="(d) an insolvency representative of United Medical Protection Limited; or"
+[parser-unknown-class] "indenta", text="(e) any other person;"
+[parser-unknown-class] "indenta", text="(a) the commencement of this section; or"
+[parser-unknown-class] "indenta", text="(b) the agreement is entered into;"
+[parser-unknown-class] "indenta", text="(a) the commencement of this section; or"
+[parser-unknown-class] "indenta", text="(b) the amending agreement is entered into;"
+[parser-unknown-class] "2ndRd", text=""
+[parse] sections: 8
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      8
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 26 June 2002"
+[parser-unknown-class] "2ndRd", text="Senate on 21 October 2002]"
+[parser-diag] processed 103 <p> elements
+[parser-diag] last section was added at element index: 94
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[db] inserted new legislation row: cecdedad-1fd3-4c7b-9d66-37a09ed2b561
+[db] inserting 8 sections (pass 1)
+[db] inserted 8 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Medical Indemnity Agreement (Financial Assistance—Binding Commonwealth Obligations) Act 2002
+       legislation_id: cecdedad-1fd3-4c7b-9d66-37a09ed2b561
+       sections: 8
+       compilation: 2002-12-02

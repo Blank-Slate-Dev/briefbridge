@@ -1,0 +1,67 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03602/2004-07-01/2004-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 41,468 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03602/2004-07-01/2004-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 41,468 source bytes → 40,472 combined bytes
+[citation] Parliamentary Precincts Act 1988 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 163
+[parser-unknown-class] "subsectionChar", text="This Act may be cited as the Parliamentary Precincts Act 1988."
+[parser-unknown-class] "subsectionChar", text="(1) Sections 1, 2, 3, 4 and 7, and the amendment of the Parliament House Construction Authority A..."
+[parser-unknown-class] "subsectionChar", text="(2) The remaining provisions of this Act commence on a day or days to be fixed by Proclamation."
+[parser-unknown-class] "subsectionChar", text="(1) In this Act, unless the contrary intention appears:"
+[parser-unknown-class] "subsectionChar", text="(2) A reference in this Act to a Presiding Officer includes a reference to a person for the time ..."
+[parser-unknown-class] "subsectionChar", text="(3) A reference in this Act to the Presiding Officers is a reference to those Officers acting joi..."
+[parser-unknown-class] "subsectionChar", text="(1) The Parliamentary precincts consist of the land on the inner side of the boundary defined by ..."
+[parser-unknown-class] "subsectionChar", text="(2) The boundary of the Parliamentary precincts is the approximately circular line comprising:"
+[parser-unknown-class] "subsectionChar", text="(3) In this section:"
+[parser-unknown-class] "subsectionChar", text="(4) The location of the Parliamentary precincts defined by this section is indicated by shading o..."
+[parser-unknown-class] "subsectionChar", text="(1) This section applies to property that is owned or held under lease by the Commonwealth and is..."
+[parser-unknown-class] "subsectionChar", text="(2) If the Presiding Officers certify in writing that specified property is required for purposes..."
+[parser-unknown-class] "subsectionChar", text="(1) The precincts are under the control and management of the Presiding Officers."
+[parser-unknown-class] "subsectionChar", text="(2) The Presiding Officers may, subject to any order of either House, take any action they consid..."
+[parser-unknown-class] "subsectionChar", text="(3) In respect of the Ministerial Wing in Parliament House, the powers and functions given to the..."
+[parser-unknown-class] "subsectionChar", text="(1) The Presiding Officers may, on behalf of the Commonwealth:"
+[parser-unknown-class] "subsectionChar", text="(2) Leases and licences shall be on such terms and conditions, and subject to payment of such con..."
+[parser-unknown-class] "subsectionChar", text="(4) In this section:"
+[parser-unknown-class] "subsectionChar", text="(1) Where, under an order of either House relating to the powers, privileges and immunities of th..."
+[parser-unknown-class] "subsectionChar", text="(2) Subsection (1) has effect notwithstanding the Australian Federal Police Act 1979."
+[parser-unknown-class] "subsectionChar", text="The functions of protective service officers in relation to the precincts shall be performed in a..."
+[parser-unknown-class] "subsectionChar", text="The functions of the Director of Public Prosecutions in respect of offences committed in the prec..."
+[parser-unknown-class] "subsectionChar", text="The Public Order (Protection of Persons and Property) Act 1971 applies to the precincts as if the..."
+[parser-unknown-class] "subsectionChar", text="Nothing in this Act shall be taken to derogate from the powers, privileges and immunities of each..."
+[parser-unknown-class] "subsectionChar", text="The Governor-General may make regulations for the purposes of subsection 5(2)."
+[parser-unknown-class] "subsectionChar", text="The Acts specified in Schedule 2 are amended as set out in that Schedule."
+[parser-unknown-class] "ActHead9", text="Parliament Act 1974"
+[parser-unknown-class] "ItemHead", text="Section 3:"
+[parser-unknown-class] "subsectionChar", text="‘(1) For the purposes of this Act, the Parliamentary zone is the area of land bounded by a line c..."
+[parser-unknown-class] "subsectionChar", text="‘(2) The location of the Parliamentary zone is indicated by shading on the plan set out in the Sc..."
+[parser-unknown-class] "ItemHead", text="Section 5:"
+[parser-unknown-class] "subsectionChar", text="‘(1) No building or other work is to be erected on land within the Parliamentary zone unless:"
+[parser-unknown-class] "ItemHead", text="Schedule:"
+[parser-unknown-class] "ActHead9", text="Parliament House Construction Authority Act 1979"
+[parser-unknown-class] "ItemHead", text="Section 10:"
+[parser-unknown-class] "subsectionChar", text="‘(2A) The consent of the Authority is not required for a lease or licence to be granted under sec..."
+[parser-unknown-class] "ActHead9", text="Parliamentary Privileges Act 1987"
+[parser-unknown-class] "ItemHead", text="Section 15:"
+[parser-unknown-class] "subsectionChar", text=""
+[parser-diag] processed 163 <p> elements
+[parser-diag] last section was added at element index: 127
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 17
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      14
+         schedule     3
+[db] inserted new legislation row: 6f7beb47-effa-4677-8fd0-7f67fe51132c
+[db] inserting 17 sections (pass 1)
+[db] inserted 17 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Parliamentary Precincts Act 1988
+       legislation_id: 6f7beb47-effa-4677-8fd0-7f67fe51132c
+       sections: 17
+       compilation: 2004-07-01

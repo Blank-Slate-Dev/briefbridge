@@ -1,0 +1,36 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05168/2023-10-20/2023-10-20/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 341,068 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05168/2023-10-20/2023-10-20/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 341,068 source bytes → 338,558 combined bytes
+[citation] Superannuation Contributions Tax (Assessment and Collection) Act 1997 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1276
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the amount that would have been the taxed element of the retained amount of the ..."
+[parser-unknown-class] "BoxStep", text="Step 2. Work out the taxed element of the retained amount of the post‑June 83 component of the el..."
+[parser-unknown-class] "BoxStep", text="Step 3. Subtract the result of step 2 from the result of step 1."
+[parser-unknown-class] "BoxStep", text="Step 4. Divide the result of step 3 by 0.85."
+[parser-unknown-class] "BoxStep", text="Step 5. Subtract the result of step 3 from the result of step 4."
+[parser-unknown-class] "BoxStep", text="Step 6. Add the result of step 5 to the excessive component of the eligible termination payment."
+[parser-unknown-class] "BoxStep", text="Step 7. Identify the amount of the surchargeable contributions (apart from subsection (8)) of the..."
+[parser-unknown-class] "BoxStep", text="Step 8. Identify the lesser of the results of steps 6 and 7 (or either result if they are the same)."
+[parser-diag] processed 1276 <p> elements
+[parser-diag] last section was added at element index: 765
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parse] sections: 53
+[parse] compilation: date=2023-10-20 no=28
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         7
+         section      46
+[db] inserted new legislation row: d6a66aa2-22db-43b8-bfd1-180082b194cb
+[db] inserting 53 sections (pass 1)
+[db] inserted 53 sections
+[db] linking parent FKs (pass 2)
+[db] linked 46 parent references
+
+[done] ingested Superannuation Contributions Tax (Assessment and Collection) Act 1997
+       legislation_id: d6a66aa2-22db-43b8-bfd1-180082b194cb
+       sections: 53
+       compilation: 2023-10-20

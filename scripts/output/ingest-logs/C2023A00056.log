@@ -1,0 +1,51 @@
+[fetch] document_1: https://www.legislation.gov.au/C2023A00056/2023-08-17/2023-08-17/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 24,579 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2023A00056/2023-08-17/2023-08-17/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 24,579 source bytes → 21,939 combined bytes
+[citation] Inspector-General of Aged Care (Consequential and Transitional Provisions) Act 2023 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 123
+[parser-unknown-class] "ActHead6", text="Schedule 1—Consequential amendments"
+[parser-unknown-class] "ActHead9", text="Aged Care Act 1997"
+[parser-unknown-class] "ItemHead", text="1  After paragraph 86‑3(1)(b)"
+[parser-unknown-class] "ItemHead", text="2  Clause 1 of Schedule 1"
+[parser-unknown-class] "ActHead9", text="Aged Care Quality and Safety Commission Act 2018"
+[parser-unknown-class] "ItemHead", text="3  Section 7"
+[parser-unknown-class] "ItemHead", text="4  After paragraph 61(1)(b)"
+[parser-unknown-class] "ActHead9", text="National Anti‑Corruption Commission Act 2022"
+[parser-unknown-class] "ItemHead", text="5  Section 7"
+[parser-unknown-class] "ItemHead", text="6  After paragraph 15(p)"
+[parser-unknown-class] "ActHead6", text="Schedule 2—Application, saving and transitional provisions"
+[parser-unknown-class] "Transitional", text="1  Definitions"
+[parser-unknown-class] "Transitional", text="2  Transfer of records"
+[parser-unknown-class] "Subitem", text="(1) This item applies to any records or documents that were in the possession of the following im..."
+[parser-unknown-class] "Subitem", text="(2) The records and documents are to be transferred to the Inspector‑General after the transition..."
+[parser-unknown-class] "Transitional", text="3  Review may relate to matters occurring before or after transition time"
+[parser-unknown-class] "Transitional", text="4  Rules"
+[parser-unknown-class] "Subitem", text="(1) The Minister may, by legislative instrument, make rules prescribing matters:"
+[parser-unknown-class] "Subitem", text="(2) Without limiting subitem (1), the rules may prescribe matters of a transitional nature (inclu..."
+[parser-unknown-class] "Subitem", text="(3) To avoid doubt, the rules may not do the following:"
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 22 March 2023"
+[parser-unknown-class] "2ndRd", text="Senate on 10 May 2023]"
+[parser-diag] processed 123 <p> elements
+[parser-diag] last section was added at element index: 57
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: e7909c42-67dd-45bd-9135-a62c52a335e3
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Inspector-General of Aged Care (Consequential and Transitional Provisions) Act 2023
+       legislation_id: e7909c42-67dd-45bd-9135-a62c52a335e3
+       sections: 3
+       compilation: 2023-08-17

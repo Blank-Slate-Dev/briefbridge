@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2020A00052/2024-07-10/2024-07-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 43,457 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2020A00052/2024-07-10/2024-07-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 43,457 source bytes → 41,322 combined bytes
+[citation] Official Development Assistance Multilateral Replenishment Obligations (Special Appropriation) Act 2020 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 198
+[parser-diag] processed 198 <p> elements
+[parser-diag] last section was added at element index: 99
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 6
+[parse] compilation: date=2024-07-10 no=1
+[parse] by level:
+         section      6
+[db] inserted new legislation row: 092dc4e1-1a21-4595-826f-5b86edf2c679
+[db] inserting 6 sections (pass 1)
+[db] inserted 6 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Official Development Assistance Multilateral Replenishment Obligations (Special Appropriation) Act 2020
+       legislation_id: 092dc4e1-1a21-4595-826f-5b86edf2c679
+       sections: 6
+       compilation: 2024-07-10

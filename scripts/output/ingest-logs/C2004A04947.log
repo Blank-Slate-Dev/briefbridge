@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04947/2012-12-03/2012-12-03/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 24,061 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04947/2012-12-03/2012-12-03/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 24,061 source bytes → 23,071 combined bytes
+[citation] Aircraft Noise Levy Act 1995 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 89
+[parser-diag] processed 89 <p> elements
+[parser-diag] last section was added at element index: 56
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 8
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      8
+[db] inserted new legislation row: a1c8f68a-378c-485b-be65-e36952baeff3
+[db] inserting 8 sections (pass 1)
+[db] inserted 8 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Aircraft Noise Levy Act 1995
+       legislation_id: a1c8f68a-378c-485b-be65-e36952baeff3
+       sections: 8
+       compilation: 2012-12-03

@@ -1,0 +1,81 @@
+[fetch] document_1: https://www.legislation.gov.au/C1967A00016/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 179,067 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1967A00016/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 179,067 source bytes → 177,046 combined bytes
+[citation] Diplomatic Privileges and Immunities Act 1967 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 624
+[parser-unknown-class] "Article", text="Article 1"
+[parser-unknown-class] "Article", text="Article 2"
+[parser-unknown-class] "Article", text="Article 3"
+[parser-unknown-class] "Article", text="Article 4"
+[parser-unknown-class] "Article", text="Article 5"
+[parser-unknown-class] "Article", text="Article 6"
+[parser-unknown-class] "Article", text="Article 7"
+[parser-unknown-class] "Article", text="Article 8"
+[parser-unknown-class] "Article", text="Article 9"
+[parser-unknown-class] "Article", text="Article 10"
+[parser-unknown-class] "Article", text="Article 11"
+[parser-unknown-class] "Article", text="Article 12"
+[parser-unknown-class] "Article", text="Article 13"
+[parser-unknown-class] "Article", text="Article 14"
+[parser-unknown-class] "Article", text="Article 15"
+[parser-unknown-class] "Article", text="Article 16"
+[parser-unknown-class] "Article", text="Article 17"
+[parser-unknown-class] "Article", text="Article 18"
+[parser-unknown-class] "Article", text="Article 19"
+[parser-unknown-class] "Article", text="Article 20"
+[parser-unknown-class] "Article", text="Article 21"
+[parser-unknown-class] "Article", text="Article 22"
+[parser-unknown-class] "Article", text="Article 23"
+[parser-unknown-class] "Article", text="Article 24"
+[parser-unknown-class] "Article", text="Article 25"
+[parser-unknown-class] "Article", text="Article 26"
+[parser-unknown-class] "Article", text="Article 27"
+[parser-unknown-class] "Article", text="Article 28"
+[parser-unknown-class] "Article", text="Article 29"
+[parser-unknown-class] "Article", text="Article 30"
+[parser-unknown-class] "Article", text="Article 31"
+[parser-unknown-class] "Article", text="Article 32"
+[parser-unknown-class] "Article", text="Article 33"
+[parser-unknown-class] "Article", text="Article 34"
+[parser-unknown-class] "Article", text="Article 35"
+[parser-unknown-class] "Article", text="Article 36"
+[parser-unknown-class] "Article", text="Article 37"
+[parser-unknown-class] "Article", text="Article 38"
+[parser-unknown-class] "Article", text="Article 39"
+[parser-unknown-class] "Article", text="Article 40"
+[parser-unknown-class] "Article", text="Article 41"
+[parser-unknown-class] "Article", text="Article 42"
+[parser-unknown-class] "Article", text="Article 43"
+[parser-unknown-class] "Article", text="Article 44"
+[parser-unknown-class] "Article", text="Article 45"
+[parser-unknown-class] "Article", text="Article 46"
+[parser-unknown-class] "Article", text="Article 47"
+[parser-unknown-class] "Article", text="Article 48"
+[parser-unknown-class] "Article", text="Article 49"
+[parser-unknown-class] "Article", text="Article 50"
+[parser-unknown-class] "Article", text="Article 51"
+[parser-unknown-class] "Article", text="Article 52"
+[parser-unknown-class] "Article", text="Article 53"
+[parser-diag] processed 624 <p> elements
+[parser-diag] last section was added at element index: 171
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 17
+[parse] compilation: date=2016-10-21 no=15
+[parse] by level:
+         section      16
+         schedule     1
+[db] inserted new legislation row: ab017dc9-0cfe-4101-9ac2-acef67767cb0
+[db] inserting 17 sections (pass 1)
+[db] inserted 17 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Diplomatic Privileges and Immunities Act 1967
+       legislation_id: ab017dc9-0cfe-4101-9ac2-acef67767cb0
+       sections: 17
+       compilation: 2016-10-21

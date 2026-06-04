@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01728/1977-09-08/1977-09-08/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 260,359 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01728/1977-09-08/1977-09-08/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 260,359 source bytes → 259,090 combined bytes
+[citation] International Fund for Agricultural Development Act 1977 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 925
+[parser-diag] processed 925 <p> elements
+[parser-diag] last section was added at element index: 58
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 7
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      6
+         schedule     1
+[db] inserted new legislation row: 86214f82-efb8-4256-8274-11c81e2c25fd
+[db] inserting 7 sections (pass 1)
+[db] inserted 7 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested International Fund for Agricultural Development Act 1977
+       legislation_id: 86214f82-efb8-4256-8274-11c81e2c25fd
+       sections: 7
+       compilation: 1977-09-08

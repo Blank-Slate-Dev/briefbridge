@@ -1,0 +1,26 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05189/1997-06-30/1997-06-30/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 297,379 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05189/1997-06-30/1997-06-30/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 297,379 source bytes → 296,352 combined bytes
+[citation] Australian National Railways Commission Sale Act 1997 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 682
+[parser-diag] processed 682 <p> elements
+[parse] sections: 0
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+[parser-diag] last section was added at element index: -1
+[parser-diag] state phase at end: PRE_BODY
+[parser-diag] hierarchy stack depth at end: 0
+[parser-diag] insideSchedule at end: false
+[db] inserted new legislation row: 1e66ed9d-56b2-458c-9655-39565b6e8ced
+[db] inserting 0 sections (pass 1)
+[db] inserted 0 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Australian National Railways Commission Sale Act 1997
+       legislation_id: 1e66ed9d-56b2-458c-9655-39565b6e8ced
+       sections: 0
+       compilation: 1997-06-30

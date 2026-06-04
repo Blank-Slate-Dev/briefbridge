@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04214/2018-05-11/2018-05-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 368,216 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04214/2018-05-11/2018-05-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 368,216 source bytes → 366,164 combined bytes
+[citation] Crimes (Aviation) Act 1991 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1339
+[parser-diag] processed 1339 <p> elements
+[parser-diag] last section was added at element index: 881
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 76
+[parse] compilation: date=2018-05-11 no=25
+[parse] by level:
+         part         5
+         division     9
+         section      58
+         schedule     4
+[db] inserted new legislation row: d113b535-e6c8-4ac9-8b95-6d830db951a5
+[db] inserting 76 sections (pass 1)
+[db] inserted 76 sections
+[db] linking parent FKs (pass 2)
+[db] linked 67 parent references
+
+[done] ingested Crimes (Aviation) Act 1991
+       legislation_id: d113b535-e6c8-4ac9-8b95-6d830db951a5
+       sections: 76
+       compilation: 2018-05-11

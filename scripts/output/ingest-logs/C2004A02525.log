@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02525/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 59,081 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02525/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 59,081 source bytes → 57,230 combined bytes
+[citation] Epidemiological Studies (Confidentiality) Act 1981 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 247
+[parser-diag] processed 247 <p> elements
+[parser-diag] last section was added at element index: 119
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 14
+[parse] compilation: date=2016-10-21 no=4
+[parse] by level:
+         section      14
+[db] inserted new legislation row: b2e1fe94-174c-4caa-9133-be18fab1cec3
+[db] inserting 14 sections (pass 1)
+[db] inserted 14 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Epidemiological Studies (Confidentiality) Act 1981
+       legislation_id: b2e1fe94-174c-4caa-9133-be18fab1cec3
+       sections: 14
+       compilation: 2016-10-21

@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02905/2026-01-22/2026-01-22/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,101,783 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02905/2026-01-22/2026-01-22/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,101,783 source bytes → 1,098,442 combined bytes
+[citation] Australian Crime Commission Act 2002 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3855
+[parser-diag] processed 3855 <p> elements
+[parser-diag] last section was added at element index: 2500
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 161
+[parse] compilation: date=2026-01-22 no=77
+[parse] by level:
+         part         4
+         section      139
+         division     9
+         subdivision  7
+         schedule     2
+[db] inserted new legislation row: 6ca93897-cc7b-4163-93bb-4195926e134c
+[db] inserting 161 sections (pass 1)
+[db] inserted 161 sections
+[db] linking parent FKs (pass 2)
+[db] linked 155 parent references
+
+[done] ingested Australian Crime Commission Act 2002
+       legislation_id: 6ca93897-cc7b-4163-93bb-4195926e134c
+       sections: 161
+       compilation: 2026-01-22

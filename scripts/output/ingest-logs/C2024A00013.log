@@ -1,0 +1,63 @@
+[fetch] document_1: https://www.legislation.gov.au/C2024A00013/2024-04-08/2024-04-08/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 874,888 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2024A00013/2024-04-08/2024-04-08/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 874,888 source bytes → 868,673 combined bytes
+[citation] Appropriation Act (No. 4) 2023-2024 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3288
+[parser-unknown-class] "Sched1-Normal", text="Column 1"
+[parser-unknown-class] "Sched1-Normal", text="Column 2"
+[parser-unknown-class] "Sched1-Normal", text="Column 3"
+[parser-unknown-class] "Sched1-Normal", text="Column 4"
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text="Minister"
+[parser-unknown-class] "Sched1-Normal", text="Minister"
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text="determining"
+[parser-unknown-class] "Sched1-Normal", text="determining"
+[parser-unknown-class] "Sched1-Normal", text="Entity"
+[parser-unknown-class] "Sched1-Normal", text="Outcome"
+[parser-unknown-class] "Sched1-Normal", text="conditions"
+[parser-unknown-class] "Sched1-Normal", text="payments"
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text="Department of Infrastructure, Transport, Regional Development, Communications and the Arts"
+[parser-unknown-class] "Sched1-Normal", text="Strengthening the sustainability, capacity and diversity of Australia's cities and regions includ..."
+[parser-unknown-class] "Sched1-Normal", text="Minister for Infrastructure, Transport, Regional Development and Local Government"
+[parser-unknown-class] "Sched1-Normal", text="Minister for Northern Australia"
+[parser-unknown-class] "Sched1-Normal", text="Minister for Infrastructure, Transport, Regional Development and Local Government"
+[parser-unknown-class] "Sched1-Normal", text="Minister for Northern Australia"
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 7 February 2024"
+[parser-unknown-class] "2ndRd", text="Senate on 26 February 2024]"
+[parser-diag] processed 3288 <p> elements
+[parser-diag] last section was added at element index: 198
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 22
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         4
+         section      16
+         schedule     2
+[db] inserted new legislation row: 77007798-3a1f-4424-8361-9ea268a3450a
+[db] inserting 22 sections (pass 1)
+[db] inserted 22 sections
+[db] linking parent FKs (pass 2)
+[db] linked 16 parent references
+
+[done] ingested Appropriation Act (No. 4) 2023-2024
+       legislation_id: 77007798-3a1f-4424-8361-9ea268a3450a
+       sections: 22
+       compilation: 2024-04-08

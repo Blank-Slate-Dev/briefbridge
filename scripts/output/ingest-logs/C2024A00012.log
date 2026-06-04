@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2024A00012/2024-04-08/2024-04-08/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,796,721 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2024A00012/2024-04-08/2024-04-08/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,796,721 source bytes → 1,789,664 combined bytes
+[citation] Appropriation Act (No. 3) 2023-2024 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 6971
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 7 February 2024"
+[parser-unknown-class] "2ndRd", text="Senate on 26 February 2024]"
+[parser-diag] processed 6971 <p> elements
+[parser-diag] last section was added at element index: 134
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 18
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         4
+         section      13
+         schedule     1
+[db] inserted new legislation row: 2ba83c4f-e420-4be7-82c1-3d421d0f3102
+[db] inserting 18 sections (pass 1)
+[db] inserted 18 sections
+[db] linking parent FKs (pass 2)
+[db] linked 13 parent references
+
+[done] ingested Appropriation Act (No. 3) 2023-2024
+       legislation_id: 2ba83c4f-e420-4be7-82c1-3d421d0f3102
+       sections: 18
+       compilation: 2024-04-08

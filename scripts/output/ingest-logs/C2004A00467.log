@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00467/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 274,807 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00467/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 274,807 source bytes → 272,524 combined bytes
+[citation] A New Tax System (Australian Business Number) Act 1999 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1044
+[parser-diag] processed 1044 <p> elements
+[parse] sections: 57
+[parse] compilation: date=2024-10-14 no=31
+[parse] by level:
+         part         4
+         division     13
+         section      40
+[parser-diag] last section was added at element index: 518
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: false
+[db] inserted new legislation row: 6ab9daf1-f151-46a1-800a-83399b0e8213
+[db] inserting 57 sections (pass 1)
+[db] inserted 57 sections
+[db] linking parent FKs (pass 2)
+[db] linked 53 parent references
+
+[done] ingested A New Tax System (Australian Business Number) Act 1999
+       legislation_id: 6ab9daf1-f151-46a1-800a-83399b0e8213
+       sections: 57
+       compilation: 2024-10-14

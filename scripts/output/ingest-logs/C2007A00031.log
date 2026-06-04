@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2007A00031/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,172,148 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2007A00031/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,172,148 source bytes → 1,159,683 combined bytes
+[citation] Private Health Insurance Act 2007 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 4109
+[parser-diag] processed 4109 <p> elements
+[parser-diag] last section was added at element index: 2528
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 338
+[parse] compilation: date=2026-04-01 no=41
+[parse] by level:
+         chapter      6
+         part         22
+         division     57
+         section      242
+         subdivision  9
+         schedule     1
+         schedule_clause 1
+[db] inserted new legislation row: 6a983fb3-a00a-405e-82a8-6d52738b699f
+[db] inserting 338 sections (pass 1)
+[db] inserted 338 sections
+[db] linking parent FKs (pass 2)
+[db] linked 331 parent references
+
+[done] ingested Private Health Insurance Act 2007
+       legislation_id: 6a983fb3-a00a-405e-82a8-6d52738b699f
+       sections: 338
+       compilation: 2026-04-01

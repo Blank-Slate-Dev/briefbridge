@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2012A00104/2023-06-24/2023-06-24/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 251,144 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2012A00104/2023-06-24/2023-06-24/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 251,144 source bytes → 248,441 combined bytes
+[citation] Clean Energy Finance Corporation Act 2012 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1000
+[parser-diag] processed 1000 <p> elements
+[parser-diag] last section was added at element index: 826
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 102
+[parse] compilation: date=2023-06-24 no=3
+[parse] by level:
+         part         7
+         section      82
+         division     10
+         subdivision  3
+[db] inserted new legislation row: b555ed87-e421-48cf-8f3a-9d1c529b98ef
+[db] inserting 102 sections (pass 1)
+[db] inserted 102 sections
+[db] linking parent FKs (pass 2)
+[db] linked 95 parent references
+
+[done] ingested Clean Energy Finance Corporation Act 2012
+       legislation_id: b555ed87-e421-48cf-8f3a-9d1c529b98ef
+       sections: 102
+       compilation: 2023-06-24

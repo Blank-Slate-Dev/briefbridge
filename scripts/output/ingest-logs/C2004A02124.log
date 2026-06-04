@@ -1,0 +1,36 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02124/2026-01-22/2026-01-22/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,839,135 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02124/2026-01-22/2026-01-22/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2: 2,008,487 bytes
+[fetch] document_3: https://www.legislation.gov.au/C2004A02124/2026-01-22/2026-01-22/text/original/epub/OEBPS/document_3/document_3.html
+[fetch] document_3 not found — stopping. Fetched 2 document(s).
+[fetch] combined 2 document(s), 3,847,622 source bytes → 3,834,933 combined bytes
+[citation] Telecommunications (Interception and Access) Act 1979 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 13450
+[parser-diag] processed 13450 <p> elements
+[parser-diag] last section was added at element index: 10111
+[parser-diag] state phase at end: ENDNOTES
+[parse] sections: 706
+[parse] compilation: date=2026-01-22 no=132
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         chapter      7
+         part         31
+         section      380
+         division     59
+         subdivision  25
+         schedule     1
+         schedule_part 14
+         schedule_clause 189
+[db] inserted new legislation row: e3161567-9dbc-4856-ab7d-34e4fb879c8b
+[db] inserting 706 sections (pass 1)
+[db] inserted 706 sections
+[db] linking parent FKs (pass 2)
+[db] linked 698 parent references
+
+[done] ingested Telecommunications (Interception and Access) Act 1979
+       legislation_id: e3161567-9dbc-4856-ab7d-34e4fb879c8b
+       sections: 706
+       compilation: 2026-01-22

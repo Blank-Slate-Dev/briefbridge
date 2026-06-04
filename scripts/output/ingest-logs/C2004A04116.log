@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04116/2016-07-01/2016-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 63,587 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04116/2016-07-01/2016-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 63,587 source bytes → 61,610 combined bytes
+[citation] Marine Navigation (Regulatory Functions) Levy Collection Act 1991 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 284
+[parser-unknown-class] "ActHead6", text="Schedule—Consequential amendments of other Acts"
+[parser-unknown-class] "ActHead9", text="Australian Maritime Safety Authority Act 1990"
+[parser-unknown-class] "ItemHead", text="Subsection 48(1):"
+[parser-unknown-class] "ActHead9", text="Marine Navigation Levy Collection Act 1989"
+[parser-unknown-class] "ItemHead", text="Section 8:"
+[parser-diag] processed 284 <p> elements
+[parser-diag] last section was added at element index: 141
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 13
+[parse] compilation: date=2016-07-01 no=6
+[parse] by level:
+         section      13
+[db] inserted new legislation row: 1948b557-4f11-4b8e-bfd6-cd6d42a5f83f
+[db] inserting 13 sections (pass 1)
+[db] inserted 13 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Marine Navigation (Regulatory Functions) Levy Collection Act 1991
+       legislation_id: 1948b557-4f11-4b8e-bfd6-cd6d42a5f83f
+       sections: 13
+       compilation: 2016-07-01

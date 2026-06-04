@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04946/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 23,579 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04946/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 23,579 source bytes → 22,535 combined bytes
+[citation] Commonwealth Authorities (Australian Capital Territory Pay-roll Tax) Act 1995 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 85
+[parser-diag] processed 85 <p> elements
+[parser-diag] last section was added at element index: 55
+[parser-diag] state phase at end: BODY
+[parse] sections: 8
+[parse] compilation: date=(none) no=(none)
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         2
+         section      6
+[db] inserted new legislation row: a6ba8c1f-402e-4da6-a438-19568dd5307b
+[db] inserting 8 sections (pass 1)
+[db] inserted 8 sections
+[db] linking parent FKs (pass 2)
+[db] linked 6 parent references
+
+[done] ingested Commonwealth Authorities (Australian Capital Territory Pay-roll Tax) Act 1995
+       legislation_id: a6ba8c1f-402e-4da6-a438-19568dd5307b
+       sections: 8
+       compilation: 2007-03-15

@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2023A00095/2026-01-01/2026-01-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 179,373 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2023A00095/2026-01-01/2026-01-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 179,373 source bytes → 175,507 combined bytes
+[citation] National Occupational Respiratory Disease Registry Act 2023 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 668
+[parser-diag] processed 668 <p> elements
+[parser-diag] last section was added at element index: 494
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 43
+[parse] compilation: date=2026-01-01 no=1
+[parse] by level:
+         part         4
+         division     6
+         section      33
+[db] inserted new legislation row: 0bdd7bbc-a8d8-4411-a1a8-150faccae788
+[db] inserting 43 sections (pass 1)
+[db] inserted 43 sections
+[db] linking parent FKs (pass 2)
+[db] linked 39 parent references
+
+[done] ingested National Occupational Respiratory Disease Registry Act 2023
+       legislation_id: 0bdd7bbc-a8d8-4411-a1a8-150faccae788
+       sections: 43
+       compilation: 2026-01-01

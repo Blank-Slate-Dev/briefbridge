@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2012A00161/2018-06-29/2018-06-29/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 30,927 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2012A00161/2018-06-29/2018-06-29/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 30,927 source bytes → 29,021 combined bytes
+[citation] Superannuation Auditor Registration Imposition Act 2012 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 148
+[parser-diag] processed 148 <p> elements
+[parser-diag] last section was added at element index: 51
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 5
+[parse] compilation: date=2018-06-29 no=1
+[parse] by level:
+         section      5
+[db] inserted new legislation row: 2ac7b087-4d25-4895-a355-ed92671f8fae
+[db] inserting 5 sections (pass 1)
+[db] inserted 5 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Superannuation Auditor Registration Imposition Act 2012
+       legislation_id: 2ac7b087-4d25-4895-a355-ed92671f8fae
+       sections: 5
+       compilation: 2018-06-29

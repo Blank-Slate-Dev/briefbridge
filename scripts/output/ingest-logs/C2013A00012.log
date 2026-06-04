@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2013A00012/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 106,289 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2013A00012/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 106,289 source bytes → 104,369 combined bytes
+[citation] Protection of Cultural Objects on Loan Act 2013 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 425
+[parser-diag] processed 425 <p> elements
+[parser-diag] last section was added at element index: 302
+[parser-diag] state phase at end: ENDNOTES
+[parse] sections: 28
+[parse] compilation: date=2024-10-14 no=2
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         4
+         section      21
+         division     3
+[db] inserted new legislation row: 5ccdb2dc-cfd0-4e8e-a0f6-b5ed067b40d3
+[db] inserting 28 sections (pass 1)
+[db] inserted 28 sections
+[db] linking parent FKs (pass 2)
+[db] linked 24 parent references
+
+[done] ingested Protection of Cultural Objects on Loan Act 2013
+       legislation_id: 5ccdb2dc-cfd0-4e8e-a0f6-b5ed067b40d3
+       sections: 28
+       compilation: 2024-10-14

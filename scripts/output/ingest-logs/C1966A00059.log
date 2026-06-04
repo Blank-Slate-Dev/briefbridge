@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C1966A00059/2017-12-09/2017-12-09/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 39,756 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1966A00059/2017-12-09/2017-12-09/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 39,756 source bytes → 37,867 combined bytes
+[citation] Maintenance Orders (Commonwealth Officers) Act 1966 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 171
+[parser-diag] processed 171 <p> elements
+[parser-diag] last section was added at element index: 66
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 8
+[parse] compilation: date=2017-12-09 no=4
+[parse] by level:
+         section      8
+[db] inserted new legislation row: 14143930-1390-4839-ac24-adc1cab9027a
+[db] inserting 8 sections (pass 1)
+[db] inserted 8 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Maintenance Orders (Commonwealth Officers) Act 1966
+       legislation_id: 14143930-1390-4839-ac24-adc1cab9027a
+       sections: 8
+       compilation: 2017-12-09

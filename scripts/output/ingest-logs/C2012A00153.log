@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2012A00153/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 672,594 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2012A00153/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 672,594 source bytes → 669,801 combined bytes
+[citation] Defence Trade Controls Act 2012 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2500
+[parser-diag] processed 2500 <p> elements
+[parser-diag] last section was added at element index: 2184
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 119
+[parse] compilation: date=2024-10-14 no=9
+[parse] by level:
+         part         8
+         section      95
+         division     16
+[db] inserted new legislation row: e8bba9d7-1f94-4e06-a9e4-a08d04d99a91
+[db] inserting 119 sections (pass 1)
+[db] inserted 119 sections
+[db] linking parent FKs (pass 2)
+[db] linked 111 parent references
+
+[done] ingested Defence Trade Controls Act 2012
+       legislation_id: e8bba9d7-1f94-4e06-a9e4-a08d04d99a91
+       sections: 119
+       compilation: 2024-10-14

@@ -1,0 +1,59 @@
+[fetch] document_1: https://www.legislation.gov.au/C2024A00082/2024-09-05/2024-09-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 26,404 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2024A00082/2024-09-05/2024-09-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 26,404 source bytes → 24,000 combined bytes
+[citation] Net Zero Economy Authority (Transitional Provisions) Act 2024 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 120
+[parser-unknown-class] "ActHead6", text="Schedule 1—Application, saving and transitional provisions"
+[parser-unknown-class] "ActHead7", text="Part 1—Preliminary"
+[parser-unknown-class] "Transitional", text="1  Definitions"
+[parser-unknown-class] "Subitem", text="(1) In this Schedule:"
+[parser-unknown-class] "Subitem", text="(2) Expressions used in this Schedule that are defined for the purposes of the Net Zero Economy A..."
+[parser-unknown-class] "ActHead7", text="Part 2—Application and transitional provisions"
+[parser-unknown-class] "Transitional", text="2  Energy industry jobs plan"
+[parser-unknown-class] "Subitem", text="(1) Subsections 9(1) and (2) of the Net Zero Economy Authority Act 2024 apply in relation to a no..."
+[parser-unknown-class] "Subitem", text="(2) In relation to a notice covered by subsection 9(1) or (2) of the Net Zero Economy Authority A..."
+[parser-unknown-class] "Transitional", text="3  Appointment of first CEO"
+[parser-unknown-class] "Transitional", text="4  Meetings of the Board"
+[parser-unknown-class] "Transitional", text="5  Transfer of documents to the Authority"
+[parser-unknown-class] "Subitem", text="(1) This item applies to any documents that were, immediately before the commencement day, in the..."
+[parser-unknown-class] "Subitem", text="(2) The documents are to be transferred to the Net Zero Economy Authority on or after the commenc..."
+[parser-unknown-class] "Transitional", text="6  Enterprise Agreement"
+[parser-unknown-class] "Subitem", text="(1) The Department of the Prime Minister and Cabinet Enterprise Agreement:"
+[parser-unknown-class] "Subitem", text="(2) On and after the commencement day, the Department of the Prime Minister and Cabinet Enterpris..."
+[parser-unknown-class] "Subitem", text="(3) This item does not prevent the variation or termination of the Department of the Prime Minist..."
+[parser-unknown-class] "Subitem", text="(4) This item does not prevent the terms and conditions of employment of APS employees in the Aut..."
+[parser-unknown-class] "Subitem", text="(5) This item does not affect the operation of section 58 of the Fair Work Act 2009."
+[parser-unknown-class] "Transitional", text="7  References in Enterprise Agreement"
+[parser-unknown-class] "Subitem", text="(1) On and from the commencement day, the Department of the Prime Minister and Cabinet Enterprise..."
+[parser-unknown-class] "Subitem", text="(2) To avoid doubt, this item does not prevent the Department of the Prime Minister and Cabinet E..."
+[parser-unknown-class] "ActHead7", text="Part 3—Transitional rules"
+[parser-unknown-class] "Transitional", text="8  Transitional rules"
+[parser-unknown-class] "Subitem", text="(1) The Minister may, by legislative instrument, make rules prescribing matters:"
+[parser-unknown-class] "Subitem", text="(2) Without limiting subitem (1), the rules may prescribe matters of a transitional nature (inclu..."
+[parser-unknown-class] "Subitem", text="(3) To avoid doubt, the rules may not do the following:"
+[parser-unknown-class] "Subitem", text="(4) This Schedule (other than subitem (3)) does not limit the rules that may be made for the purp..."
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 27 March 2024"
+[parser-unknown-class] "2ndRd", text="Senate on 24 June 2024]"
+[parser-diag] processed 120 <p> elements
+[parser-diag] last section was added at element index: 55
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: b565523e-b39b-4ff0-9a13-39428c75b279
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Net Zero Economy Authority (Transitional Provisions) Act 2024
+       legislation_id: b565523e-b39b-4ff0-9a13-39428c75b279
+       sections: 3
+       compilation: 2024-09-05

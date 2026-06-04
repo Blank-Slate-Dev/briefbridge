@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2010A00071/2018-06-19/2018-06-19/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 36,462 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2010A00071/2018-06-19/2018-06-19/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 36,462 source bytes → 34,521 combined bytes
+[citation] Renewable Energy (Electricity) (Small-scale Technology Shortfall Charge) Act 2010 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 167
+[parser-diag] processed 167 <p> elements
+[parser-diag] last section was added at element index: 68
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 7
+[parse] compilation: date=2018-06-19 no=1
+[parse] by level:
+         section      7
+[db] inserted new legislation row: 1fd7de86-5ff5-4aa8-8f26-537162c0a146
+[db] inserting 7 sections (pass 1)
+[db] inserted 7 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Renewable Energy (Electricity) (Small-scale Technology Shortfall Charge) Act 2010
+       legislation_id: 1fd7de86-5ff5-4aa8-8f26-537162c0a146
+       sections: 7
+       compilation: 2018-06-19

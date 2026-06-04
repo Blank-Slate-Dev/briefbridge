@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C1952A00006/1952-03-13/1952-03-13/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 17,231 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1952A00006/1952-03-13/1952-03-13/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 17,231 source bytes → 16,201 combined bytes
+[citation] Security Treaty (Australia, New Zealand and the United States of America) Act 1952 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 90
+[parser-diag] processed 90 <p> elements
+[parser-diag] last section was added at element index: 41
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule—Security Treaty between Australia, New Zealand, and the United S...". Captured as 'schedule' as fallback.
+[parse] by level:
+         section      2
+         schedule     1
+[db] inserted new legislation row: 14334f85-1148-4e1f-b2d2-518dde47cccc
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Security Treaty (Australia, New Zealand and the United States of America) Act 1952
+       legislation_id: 14334f85-1148-4e1f-b2d2-518dde47cccc
+       sections: 3
+       compilation: 1952-03-13

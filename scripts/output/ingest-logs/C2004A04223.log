@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04223/2026-04-02/2026-04-02/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 430,998 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04223/2026-04-02/2026-04-02/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 430,998 source bytes → 428,880 combined bytes
+[citation] Export Finance and Insurance Corporation Act 1991 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1578
+[parser-diag] processed 1578 <p> elements
+[parser-diag] last section was added at element index: 1114
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 112
+[parse] compilation: date=2026-04-02 no=26
+[parse] by level:
+         part         10
+         section      102
+[db] inserted new legislation row: 884796ed-9748-478a-9bb6-752a223da2e7
+[db] inserting 112 sections (pass 1)
+[db] inserted 112 sections
+[db] linking parent FKs (pass 2)
+[db] linked 102 parent references
+
+[done] ingested Export Finance and Insurance Corporation Act 1991
+       legislation_id: 884796ed-9748-478a-9bb6-752a223da2e7
+       sections: 112
+       compilation: 2026-04-02

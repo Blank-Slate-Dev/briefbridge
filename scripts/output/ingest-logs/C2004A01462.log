@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01462/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,006,885 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01462/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2: 1,718,598 bytes
+[fetch] document_3: https://www.legislation.gov.au/C2004A01462/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_3/document_3.html
+[fetch] document_3 not found — stopping. Fetched 2 document(s).
+[fetch] combined 2 document(s), 2,725,483 source bytes → 2,719,010 combined bytes
+[citation] Superannuation Act 1976 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 9172
+[parser-diag] processed 9172 <p> elements
+[parser-diag] last section was added at element index: 6362
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 441
+[parse] compilation: date=2026-04-01 no=65
+[parse] by level:
+         part         25
+         section      365
+         division     40
+         subdivision  2
+         schedule     9
+[db] inserted new legislation row: 8a40dee5-f477-4a5a-9aef-e70c35bd6ac7
+[db] inserting 441 sections (pass 1)
+[db] inserted 441 sections
+[db] linking parent FKs (pass 2)
+[db] linked 407 parent references
+
+[done] ingested Superannuation Act 1976
+       legislation_id: 8a40dee5-f477-4a5a-9aef-e70c35bd6ac7
+       sections: 441
+       compilation: 2026-04-01

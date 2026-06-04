@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2026A00023/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 322,968 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2026A00023/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 322,968 source bytes → 319,164 combined bytes
+[citation] Appropriation (Fuel Security Response) Act (No. 1) 2025-2026 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1268
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 30 March 2026"
+[parser-unknown-class] "2ndRd", text="Senate on 1 April 2026]"
+[parser-diag] processed 1268 <p> elements
+[parser-diag] last section was added at element index: 135
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 18
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         4
+         section      13
+         schedule     1
+[db] inserted new legislation row: fa65fc08-504d-4a64-a044-b3f6b3bf74b6
+[db] inserting 18 sections (pass 1)
+[db] inserted 18 sections
+[db] linking parent FKs (pass 2)
+[db] linked 13 parent references
+
+[done] ingested Appropriation (Fuel Security Response) Act (No. 1) 2025-2026
+       legislation_id: fa65fc08-504d-4a64-a044-b3f6b3bf74b6
+       sections: 18
+       compilation: 2026-04-01

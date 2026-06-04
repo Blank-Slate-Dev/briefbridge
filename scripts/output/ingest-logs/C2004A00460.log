@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00460/2005-07-01/2005-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 15,800 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00460/2005-07-01/2005-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 15,800 source bytes → 14,822 combined bytes
+[citation] A New Tax System (Goods and Services Tax Imposition—Customs) Act 1999 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 61
+[parser-diag] processed 61 <p> elements
+[parser-diag] last section was added at element index: 30
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 5
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      5
+[db] inserted new legislation row: 1e3268c4-fe00-4c97-82bd-d149d46579c9
+[db] inserting 5 sections (pass 1)
+[db] inserted 5 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested A New Tax System (Goods and Services Tax Imposition—Customs) Act 1999
+       legislation_id: 1e3268c4-fe00-4c97-82bd-d149d46579c9
+       sections: 5
+       compilation: 2005-07-01

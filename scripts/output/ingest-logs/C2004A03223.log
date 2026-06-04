@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03223/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 168,862 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03223/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 168,862 source bytes → 166,787 combined bytes
+[citation] Home and Community Care Act 1985 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 535
+[parser-diag] processed 535 <p> elements
+[parser-diag] last section was added at element index: 54
+[parse] sections: 6
+[parse] compilation: date=2025-11-01 no=4
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         section      5
+         schedule     1
+[db] inserted new legislation row: 3096dd9d-6c65-4db5-95e3-ec6f0df12b66
+[db] inserting 6 sections (pass 1)
+[db] inserted 6 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Home and Community Care Act 1985
+       legislation_id: 3096dd9d-6c65-4db5-95e3-ec6f0df12b66
+       sections: 6
+       compilation: 2025-11-01

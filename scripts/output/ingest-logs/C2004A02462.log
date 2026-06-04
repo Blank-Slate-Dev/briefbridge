@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02462/1994-02-25/1994-02-25/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 27,878 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02462/1994-02-25/1994-02-25/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 27,878 source bytes → 26,875 combined bytes
+[citation] Offshore Minerals (Works Licence Fees) Act 1981 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 99
+[parser-unknown-class] "ActNotesa", text="(a) Section 2 of the Offshore Minerals (Consequential Provisions) Act 1994 provides as follows:"
+[parser-unknown-class] "ActNotes1", text="2. This Act commences immediately after the Offshore Minerals Act 1994 commences."
+[parser-unknown-class] "ActNotesa", text="The Offshore Minerals Act 1994 came into operation on 25 February 1994."
+[parser-unknown-class] "ActNotes1", text=""
+[parser-diag] processed 99 <p> elements
+[parser-diag] last section was added at element index: 53
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 9
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      9
+[db] inserted new legislation row: b8c9b232-4e92-46a5-8acc-2cf39d2ed5b6
+[db] inserting 9 sections (pass 1)
+[db] inserted 9 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Offshore Minerals (Works Licence Fees) Act 1981
+       legislation_id: b8c9b232-4e92-46a5-8acc-2cf39d2ed5b6
+       sections: 9
+       compilation: 1994-02-25

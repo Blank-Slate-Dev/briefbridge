@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2017A00106/2017-09-14/2017-09-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 14,634 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2017A00106/2017-09-14/2017-09-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 14,634 source bytes → 13,532 combined bytes
+[citation] Product Emissions Standards (Excise) Charges Act 2017 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 89
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 10 August 2017"
+[parser-unknown-class] "2ndRd", text="Senate on 7 September 2017]"
+[parser-diag] processed 89 <p> elements
+[parser-diag] last section was added at element index: 73
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 8
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      8
+[db] inserted new legislation row: 3c34b484-5db4-45c7-b593-d96e4675bb13
+[db] inserting 8 sections (pass 1)
+[db] inserted 8 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Product Emissions Standards (Excise) Charges Act 2017
+       legislation_id: 3c34b484-5db4-45c7-b593-d96e4675bb13
+       sections: 8
+       compilation: 2017-09-14

@@ -1,0 +1,36 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03248/2009-07-01/2009-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 70,928 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03248/2009-07-01/2009-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 70,928 source bytes → 69,892 combined bytes
+[citation] Builders Labourers' Federation (Cancellation of Registration—Consequential Provisions) Act 1986 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 191
+[parser-unknown-class] "ActNotesa", text="(a) Sections 3(a), (b), 4(2) and 6 of the Builders Labourers’ Federation Legislation Amendment Ac..."
+[parser-unknown-class] "ActNotesa", text="Subsections 2(3) and (4) provide as follows:"
+[parser-unknown-class] "ActNotes1", text="(3) If the commencement of a provision referred to in subsection (2) is not fixed by a Proclamati..."
+[parser-unknown-class] "ActNotes1", text="(4) If paragraph 4(1)(b) commences under subsection (2) and subsection 4(2) does not commence at ..."
+[parser-unknown-class] "ActNotesa", text="(b) The Builders Labourers’ Federation (Cancellation of Registration—Consequential Provisions) Ac..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act commences on the day on which it receives the Royal Assent."
+[parser-unknown-class] "ActNotesa", text="(c) The Builders Labourers’ Federation (Cancellation of Registration—Consequential Provisions) Ac..."
+[parser-unknown-class] "ActNotes1", text="(1) Each provision of this Act specified in column 1 of the table commences, or is taken to have ..."
+[parser-unknown-class] "ActNotes1", text=""
+[parser-diag] processed 191 <p> elements
+[parser-diag] last section was added at element index: 87
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 8
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      8
+[db] inserted new legislation row: 58f8a025-52c0-4de2-84c1-245c02186a49
+[db] inserting 8 sections (pass 1)
+[db] inserted 8 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Builders Labourers' Federation (Cancellation of Registration—Consequential Provisions) Act 1986
+       legislation_id: 58f8a025-52c0-4de2-84c1-245c02186a49
+       sections: 8
+       compilation: 2009-07-01

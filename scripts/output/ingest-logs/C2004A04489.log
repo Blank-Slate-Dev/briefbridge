@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04489/2025-05-01/2025-05-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 298,191 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04489/2025-05-01/2025-05-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 298,191 source bytes → 296,337 combined bytes
+[citation] Mutual Recognition Act 1992 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1090
+[parser-diag] processed 1090 <p> elements
+[parser-diag] last section was added at element index: 746
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 86
+[parse] compilation: date=2025-05-01 no=10
+[parse] by level:
+         part         5
+         section      71
+         division     8
+         schedule     2
+[db] inserted new legislation row: 0ba957c2-56f1-4ae6-8746-cd5d80e4f375
+[db] inserting 86 sections (pass 1)
+[db] inserted 86 sections
+[db] linking parent FKs (pass 2)
+[db] linked 79 parent references
+
+[done] ingested Mutual Recognition Act 1992
+       legislation_id: 0ba957c2-56f1-4ae6-8746-cd5d80e4f375
+       sections: 86
+       compilation: 2025-05-01

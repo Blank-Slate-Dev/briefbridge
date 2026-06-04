@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04512/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 415,466 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04512/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 415,466 source bytes → 413,287 combined bytes
+[citation] Imported Food Control Act 1992 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1568
+[parser-diag] processed 1568 <p> elements
+[parser-diag] last section was added at element index: 1112
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 73
+[parse] compilation: date=2024-10-14 no=29
+[parse] by level:
+         part         5
+         section      57
+         division     11
+[db] inserted new legislation row: dd22e69c-38ae-41cd-8921-88f71598b4ad
+[db] inserting 73 sections (pass 1)
+[db] inserted 73 sections
+[db] linking parent FKs (pass 2)
+[db] linked 68 parent references
+
+[done] ingested Imported Food Control Act 1992
+       legislation_id: dd22e69c-38ae-41cd-8921-88f71598b4ad
+       sections: 73
+       compilation: 2024-10-14

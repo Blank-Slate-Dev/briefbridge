@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2025A00026/2025-03-27/2025-03-27/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 38,407 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2025A00026/2025-03-27/2025-03-27/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 38,407 source bytes → 35,770 combined bytes
+[citation] Free TAFE Act 2025 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 167
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 7 November 2024"
+[parser-unknown-class] "2ndRd", text="Senate on 6 February 2025]"
+[parser-diag] processed 167 <p> elements
+[parser-diag] last section was added at element index: 149
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 15
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         4
+         section      11
+[db] inserted new legislation row: 7e52c8cc-cb7b-4f88-b493-c928394f79ef
+[db] inserting 15 sections (pass 1)
+[db] inserted 15 sections
+[db] linking parent FKs (pass 2)
+[db] linked 11 parent references
+
+[done] ingested Free TAFE Act 2025
+       legislation_id: 7e52c8cc-cb7b-4f88-b493-c928394f79ef
+       sections: 15
+       compilation: 2025-03-27

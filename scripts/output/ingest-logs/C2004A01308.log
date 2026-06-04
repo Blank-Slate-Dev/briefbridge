@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01308/2006-03-27/2006-03-27/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 169,001 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01308/2006-03-27/2006-03-27/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 169,001 source bytes → 168,094 combined bytes
+[citation] Tourism Australia (Repeal and Transitional Provisions) Act 2004 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 522
+[parser-diag] processed 522 <p> elements
+[parser-diag] last section was added at element index: 492
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 58
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         7
+         section      51
+[db] inserted new legislation row: b6a50ca8-39cb-48dc-9d74-47fba3a47d8a
+[db] inserting 58 sections (pass 1)
+[db] inserted 58 sections
+[db] linking parent FKs (pass 2)
+[db] linked 51 parent references
+
+[done] ingested Tourism Australia (Repeal and Transitional Provisions) Act 2004
+       legislation_id: b6a50ca8-39cb-48dc-9d74-47fba3a47d8a
+       sections: 58
+       compilation: 2006-03-27

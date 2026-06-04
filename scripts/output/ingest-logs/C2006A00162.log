@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2006A00162/2024-08-26/2024-08-26/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 161,385 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2006A00162/2024-08-26/2024-08-26/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 161,385 source bytes → 159,103 combined bytes
+[citation] Independent Contractors Act 2006 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 599
+[parser-diag] processed 599 <p> elements
+[parser-diag] last section was added at element index: 427
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 38
+[parse] compilation: date=2024-08-26 no=10
+[parse] by level:
+         part         5
+         section      31
+         division     2
+[db] inserted new legislation row: 315f5853-64c3-4a12-bf97-273a37cd3ddc
+[db] inserting 38 sections (pass 1)
+[db] inserted 38 sections
+[db] linking parent FKs (pass 2)
+[db] linked 33 parent references
+
+[done] ingested Independent Contractors Act 2006
+       legislation_id: 315f5853-64c3-4a12-bf97-273a37cd3ddc
+       sections: 38
+       compilation: 2024-08-26

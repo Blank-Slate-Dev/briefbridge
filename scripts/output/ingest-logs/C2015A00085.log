@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2015A00085/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 637,616 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2015A00085/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 637,616 source bytes → 635,504 combined bytes
+[citation] Private Health Insurance (Prudential Supervision) Act 2015 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2316
+[parser-diag] processed 2316 <p> elements
+[parser-diag] last section was added at element index: 2083
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parse] sections: 223
+[parse] compilation: date=2025-02-21 no=9
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         9
+         division     25
+         section      175
+         subdivision  14
+[db] inserted new legislation row: 6423d95c-6b9f-46a5-be1f-28d4b9553cf8
+[db] inserting 223 sections (pass 1)
+[db] inserted 223 sections
+[db] linking parent FKs (pass 2)
+[db] linked 214 parent references
+
+[done] ingested Private Health Insurance (Prudential Supervision) Act 2015
+       legislation_id: 6423d95c-6b9f-46a5-be1f-28d4b9553cf8
+       sections: 223
+       compilation: 2025-02-21

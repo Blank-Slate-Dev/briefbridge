@@ -1,0 +1,35 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04844/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 14,345 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04844/2007-03-15/2007-03-15/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 14,345 source bytes → 13,376 combined bytes
+[citation] Income Tax (Former Complying Superannuation Funds) Act 1994 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 61
+[parser-unknown-class] "ActNotesa", text="(a) Section 2 of the Income Tax (Former Complying Superannuation Funds) Amendment Act 2007 provid..."
+[parser-unknown-class] "ActNotes1", text="2 This Act commences immediately after the commencement of Schedule 1 to the Tax Laws Amendment (..."
+[parser-unknown-class] "ActNotesa", text="Schedule 1 commenced on 15 March 2007."
+[parser-unknown-class] "TableA0", text="Table A"
+[parser-unknown-class] "TableAHead", text="Application, saving or transitional provisions"
+[parser-unknown-class] "TableAHeadItal", text="Income Tax (Former Complying Superannuation Funds) Amendment Act 2007 (No. 17, 2007)"
+[parser-unknown-class] "ItemHead", text="Schedule 1"
+[parser-unknown-class] "ItemHead", text="3  Application"
+[parser-diag] processed 61 <p> elements
+[parser-diag] last section was added at element index: 21
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: bc4a3ab1-93b1-4a50-b7e5-fcba452faa86
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Income Tax (Former Complying Superannuation Funds) Act 1994
+       legislation_id: bc4a3ab1-93b1-4a50-b7e5-fcba452faa86
+       sections: 3
+       compilation: 2007-03-15

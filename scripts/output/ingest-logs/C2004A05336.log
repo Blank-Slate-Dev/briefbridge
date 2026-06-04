@@ -1,0 +1,64 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05336/1997-10-06/1997-10-06/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 37,236 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05336/1997-10-06/1997-10-06/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 37,236 source bytes → 36,206 combined bytes
+[citation] Commonwealth Places Windfall Tax (Collection) Act 1998 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 136
+[parser-unknown-class] "Subsection", text="This Act may be cited as the Commonwealth Places Windfall Tax (Collection) Act 1998."
+[parser-unknown-class] "Subsection", text="This Act is taken to have commenced on 6 October 1997."
+[parser-unknown-class] "Subsection", text="This Act binds the Crown in each of its capacities."
+[parser-unknown-class] "Subsection", text="(1) In this Act, unless the contrary intention appears:"
+[parser-unknown-class] "Subsection", text="(2) For the purposes of this Act, a State is liable to repay an amount to a person if:"
+[parser-unknown-class] "indenta", text="(a) the State is liable to repay the amount to the person; or"
+[parser-unknown-class] "indenta", text="(b) the State is required or permitted to offset the amount against other amounts that are owing,..."
+[parser-unknown-class] "indenta", text="(c) the State is required or permitted to apply the amount for the benefit of the person in any o..."
+[parser-unknown-class] "Subsection", text="The Commissioner has the general administration of this Act."
+[parser-unknown-class] "Subsection", text="(1) A taxable amount is any amount that meets all the following conditions:"
+[parser-unknown-class] "indenta", text="(a) a State is liable to repay the amount to a person (the taxpayer) because a State taxing law i..."
+[parser-unknown-class] "indenta", text="(b) the amount is by way of repayment of an amount paid under the State taxing law before 6 Octob..."
+[parser-unknown-class] "indenta", text="(c) the amount is claimed by the taxpayer from the State, or a court orders the State to pay the ..."
+[parser-unknown-class] "Subsection", text="(2) A taxable amount is reduced by deducting any part of it that a State would have been liable t..."
+[parser-unknown-class] "Subsection", text="(1) The taxpayer in respect of a taxable amount is the person to whom the State was liable to rep..."
+[parser-unknown-class] "Subsection", text="(2) The person who is the taxpayer in respect of a taxable amount is liable to pay windfall tax o..."
+[parser-unknown-class] "Subsection", text="(1) A State that is liable to repay a taxable amount must not repay or otherwise apply the taxabl..."
+[parser-unknown-class] "Subsection", text="(2) As soon as practicable after making a deduction under subsection (1), the State must notify t..."
+[parser-unknown-class] "Subsection", text="(3) An amount deducted under subsection (1) is payable by the State to the Commonwealth."
+[parser-unknown-class] "Subsection", text="(4) When a State makes a deduction from a taxable amount under subsection (1) (or purportedly und..."
+[parser-unknown-class] "Subsection", text="(1) When a State makes a deduction from a taxable amount under section 8 (or purportedly under se..."
+[parser-unknown-class] "Subsection", text="(2) However, the taxpayer is not entitled to a credit for any amount purportedly deducted under s..."
+[parser-unknown-class] "Subsection", text="(3) The credit is a debt due to the taxpayer by the Commissioner on behalf of the Commonwealth."
+[parser-unknown-class] "Subsection", text="(4) The Commissioner may apply some or all of the credit against the taxpayer’s liability to wind..."
+[parser-unknown-class] "Subsection", text="After the end of each financial year, the Commissioner must give a report to the Minister, for pr..."
+[parser-unknown-class] "Subsection", text="(1) The Commissioner may make an arrangement with an appropriate officer or authority of a State ..."
+[parser-unknown-class] "Subsection", text="(2) In particular, an arrangement may relate to the Commissioner’s delegation of powers or functi..."
+[parser-unknown-class] "Subsection", text="(1) Whenever a State becomes liable to make a payment to the Commonwealth under section 8, the Co..."
+[parser-unknown-class] "Subsection", text="(2) Amounts payable by the Commonwealth under subsection (1) are to be reduced by amounts that th..."
+[parser-unknown-class] "Subsection", text="(3) The Consolidated Revenue Fund is appropriated for the purposes of this section."
+[parser-unknown-class] "Subsection", text="(1) The Governor‑General may make regulations prescribing matters:"
+[parser-unknown-class] "indenta", text="(a) required or permitted by this Act to be prescribed; or"
+[parser-unknown-class] "indenta", text="(b) necessary or convenient to be prescribed for carrying out or giving effect to this Act."
+[parser-unknown-class] "Subsection", text="(2) In particular, the regulations may prescribe penalties for offences against the regulations b..."
+[parser-unknown-class] "Subsection", text=""
+[parser-unknown-class] "Subsection", text=""
+[parser-diag] processed 136 <p> elements
+[parser-diag] last section was added at element index: 121
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 17
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         4
+         section      13
+[db] inserted new legislation row: 9733c42c-03d2-4e83-a51a-4add1ac398e4
+[db] inserting 17 sections (pass 1)
+[db] inserted 17 sections
+[db] linking parent FKs (pass 2)
+[db] linked 13 parent references
+
+[done] ingested Commonwealth Places Windfall Tax (Collection) Act 1998
+       legislation_id: 9733c42c-03d2-4e83-a51a-4add1ac398e4
+       sections: 17
+       compilation: 1997-10-06

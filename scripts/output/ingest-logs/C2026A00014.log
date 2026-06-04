@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2026A00014/2026-03-26/2026-03-26/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 182,739 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2026A00014/2026-03-26/2026-03-26/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 182,739 source bytes → 179,957 combined bytes
+[citation] National Commission for Aboriginal and Torres Strait Islander Children and Young People Act 2026 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 699
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 5 February 2026"
+[parser-unknown-class] "2ndRd", text="Senate on 3 March 2026]"
+[parser-diag] processed 699 <p> elements
+[parser-diag] last section was added at element index: 677
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 82
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         6
+         division     11
+         section      65
+[db] inserted new legislation row: cf3cc388-c784-48e7-afa3-3189217af471
+[db] inserting 82 sections (pass 1)
+[db] inserted 82 sections
+[db] linking parent FKs (pass 2)
+[db] linked 76 parent references
+
+[done] ingested National Commission for Aboriginal and Torres Strait Islander Children and Young People Act 2026
+       legislation_id: cf3cc388-c784-48e7-afa3-3189217af471
+       sections: 82
+       compilation: 2026-03-26

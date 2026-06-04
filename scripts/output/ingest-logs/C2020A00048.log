@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2020A00048/2020-05-25/2020-05-25/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 87,810 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2020A00048/2020-05-25/2020-05-25/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 87,810 source bytes → 86,348 combined bytes
+[citation] Telecommunications (Regional Broadband Scheme) Charge Act 2020 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 350
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 28 November 2019"
+[parser-unknown-class] "2ndRd", text="Senate on 13 February 2020]"
+[parser-diag] processed 350 <p> elements
+[parser-diag] last section was added at element index: 288
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 21
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      21
+[db] inserted new legislation row: 9fd5ffe7-8ce8-4a9a-b3bf-5a35c7acc786
+[db] inserting 21 sections (pass 1)
+[db] inserted 21 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Telecommunications (Regional Broadband Scheme) Charge Act 2020
+       legislation_id: 9fd5ffe7-8ce8-4a9a-b3bf-5a35c7acc786
+       sections: 21
+       compilation: 2020-05-25

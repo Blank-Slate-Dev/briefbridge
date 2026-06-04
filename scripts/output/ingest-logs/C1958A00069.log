@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C1958A00069/1983-12-21/1983-12-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 64,621 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1958A00069/1983-12-21/1983-12-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 64,621 source bytes → 63,594 combined bytes
+[citation] Christmas Island Agreement Act 1958 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 221
+[parser-diag] processed 221 <p> elements
+[parser-diag] last section was added at element index: 136
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 10
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      8
+         schedule     2
+[db] inserted new legislation row: 52219673-f712-4685-ac4d-d39b6e71511d
+[db] inserting 10 sections (pass 1)
+[db] inserted 10 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Christmas Island Agreement Act 1958
+       legislation_id: 52219673-f712-4685-ac4d-d39b6e71511d
+       sections: 10
+       compilation: 1983-12-21

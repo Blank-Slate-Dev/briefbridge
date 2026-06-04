@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C1965A00095/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 122,960 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1965A00095/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 122,960 source bytes → 121,092 combined bytes
+[citation] Currency Act 1965 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 488
+[parser-diag] processed 488 <p> elements
+[parser-diag] last section was added at element index: 253
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 34
+[parse] compilation: date=2016-10-21 no=6
+[parse] by level:
+         part         6
+         section      27
+         schedule     1
+[db] inserted new legislation row: 96e1719b-fc95-4218-aaf0-583cdfe1d1c2
+[db] inserting 34 sections (pass 1)
+[db] inserted 34 sections
+[db] linking parent FKs (pass 2)
+[db] linked 27 parent references
+
+[done] ingested Currency Act 1965
+       legislation_id: 96e1719b-fc95-4218-aaf0-583cdfe1d1c2
+       sections: 34
+       compilation: 2016-10-21

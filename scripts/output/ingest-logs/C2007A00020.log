@@ -1,0 +1,36 @@
+[fetch] document_1: https://www.legislation.gov.au/C2007A00020/2026-01-22/2026-01-22/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 543,894 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2007A00020/2026-01-22/2026-01-22/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 543,894 source bytes → 541,491 combined bytes
+[citation] Australian Citizenship Act 2007 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2040
+[parser-unknown-class] "SOHeadBold", text="What this Act covers"
+[parser-unknown-class] "SOHeadBold", text="Becoming an Australian citizen"
+[parser-unknown-class] "SOHeadBold", text="Ceasing to be an Australian citizen"
+[parser-unknown-class] "SOHeadBold", text="Evidence that a person is an Australian citizen"
+[parser-diag] processed 2040 <p> elements
+[parser-diag] last section was added at element index: 1564
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 106
+[parse] compilation: date=2026-01-22 no=36
+[parse] by level:
+         part         3
+         section      84
+         division     7
+         subdivision  9
+         schedule     1
+         schedule_clause 2
+[db] inserted new legislation row: 3db0487c-e571-4430-80ee-b31f0aaeadd9
+[db] inserting 106 sections (pass 1)
+[db] inserted 106 sections
+[db] linking parent FKs (pass 2)
+[db] linked 102 parent references
+
+[done] ingested Australian Citizenship Act 2007
+       legislation_id: 3db0487c-e571-4430-80ee-b31f0aaeadd9
+       sections: 106
+       compilation: 2026-01-22

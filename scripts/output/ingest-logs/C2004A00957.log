@@ -1,0 +1,37 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00957/2001-12-31/2001-12-31/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 22,317 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00957/2001-12-31/2001-12-31/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 22,317 source bytes → 21,372 combined bytes
+[citation] Coal Industry Repeal (Validation of Proclamation) Act 2002 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 89
+[parser-unknown-class] "indenta", text="(a) the Coal Industry Repeal Act 2001 commences on 1 January 2002; and"
+[parser-unknown-class] "indenta", text="(b) as a result, all actions taken on the assumption that 1 January 2002 was the commencement dat..."
+[parser-unknown-class] "indenta", text="(a) fixed 1 January 2002 as the day on which the Coal Industry Repeal Act 2001 commences; and"
+[parser-unknown-class] "indenta", text="(b) was signed by the Governor‑General on 20 December 2001; and"
+[parser-unknown-class] "indenta", text="(c) was not published in the Gazette before 31 December 2001."
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 20 February 2002"
+[parser-unknown-class] "2ndRd", text="Senate on 13 March 2002]"
+[parser-diag] processed 89 <p> elements
+[parser-diag] last section was added at element index: 72
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 6
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      6
+[db] inserted new legislation row: 538d7c7f-5b4b-4397-94e5-be9ec7cd6683
+[db] inserting 6 sections (pass 1)
+[db] inserted 6 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Coal Industry Repeal (Validation of Proclamation) Act 2002
+       legislation_id: 538d7c7f-5b4b-4397-94e5-be9ec7cd6683
+       sections: 6
+       compilation: 2001-12-31

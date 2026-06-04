@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2006A00124/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 2,915,629 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2006A00124/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 2,915,629 source bytes → 2,891,267 combined bytes
+[citation] Corporations (Aboriginal and Torres Strait Islander) Act 2006 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 10246
+[parser-diag] processed 10246 <p> elements
+[parser-diag] last section was added at element index: 9124
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 4
+[parser-diag] insideSchedule at end: false
+[parse] sections: 975
+[parse] compilation: date=2025-12-05 no=27
+[parse] by level:
+         chapter      17
+         part         84
+         division     161
+         section      684
+         subdivision  29
+[db] inserted new legislation row: 20f853f6-1beb-4f88-a9cd-6884906e7a50
+[db] inserting 975 sections (pass 1)
+[db] inserted 975 sections
+[db] linking parent FKs (pass 2)
+[db] linked 958 parent references
+
+[done] ingested Corporations (Aboriginal and Torres Strait Islander) Act 2006
+       legislation_id: 20f853f6-1beb-4f88-a9cd-6884906e7a50
+       sections: 975
+       compilation: 2025-12-05

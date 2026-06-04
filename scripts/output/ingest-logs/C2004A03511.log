@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03511/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 305,155 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03511/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 305,155 source bytes → 303,092 combined bytes
+[citation] Sea Installations Act 1987 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1164
+[parser-diag] processed 1164 <p> elements
+[parser-diag] last section was added at element index: 591
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 41
+[parse] compilation: date=2024-10-14 no=40
+[parse] by level:
+         part         5
+         section      35
+         schedule     1
+[db] inserted new legislation row: b935f01e-ce45-4708-91b6-584eb551cb7f
+[db] inserting 41 sections (pass 1)
+[db] inserted 41 sections
+[db] linking parent FKs (pass 2)
+[db] linked 35 parent references
+
+[done] ingested Sea Installations Act 1987
+       legislation_id: b935f01e-ce45-4708-91b6-584eb551cb7f
+       sections: 41
+       compilation: 2024-10-14

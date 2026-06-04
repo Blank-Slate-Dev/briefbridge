@@ -1,0 +1,37 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00605/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 146,049 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00605/2019-08-30/2019-08-30/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 146,049 source bytes → 143,999 combined bytes
+[citation] Crimes at Sea Act 2000 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 570
+[parser-unknown-class] "ItemHead", text="11  Application of amendments"
+[parser-unknown-class] "Subitem", text="(1) The amendments made by this Schedule apply to acts and omissions that take place after this S..."
+[parser-unknown-class] "Subitem", text="(2) Although this Schedule repeals the Crimes at Sea Act 1979, that Act continues to apply, in re..."
+[parser-unknown-class] "Subitem", text="(3) For the purposes of this item, if an act or omission is alleged to have taken place between t..."
+[parser-diag] processed 570 <p> elements
+[parser-diag] last section was added at element index: 385
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 41
+[parse] compilation: date=2019-08-30 no=8
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "Appendix 1—Indicative map". Captured as 'schedule' as fallback.
+[parse] by level:
+         part         5
+         section      12
+         schedule     3
+         schedule_part 6
+         schedule_clause 15
+[db] inserted new legislation row: 37722c23-b613-4b26-a373-e68983fc582e
+[db] inserting 41 sections (pass 1)
+[db] inserted 41 sections
+[db] linking parent FKs (pass 2)
+[db] linked 33 parent references
+
+[done] ingested Crimes at Sea Act 2000
+       legislation_id: 37722c23-b613-4b26-a373-e68983fc582e
+       sections: 41
+       compilation: 2019-08-30

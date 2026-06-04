@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03898/2025-02-15/2025-02-15/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,228,729 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03898/2025-02-15/2025-02-15/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,228,729 source bytes → 1,225,492 combined bytes
+[citation] Aboriginal and Torres Strait Islander Act 2005 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 4973
+[parser-diag] processed 4973 <p> elements
+[parse] sections: 307
+[parse] compilation: date=2025-02-15 no=56
+[parser-diag] last section was added at element index: 2718
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         part         6
+         section      226
+         division     36
+         schedule     3
+         schedule_clause 32
+         schedule_part 4
+[db] inserted new legislation row: 3e82da66-3c9d-479f-9b39-0020c019a823
+[db] inserting 307 sections (pass 1)
+[db] inserted 307 sections
+[db] linking parent FKs (pass 2)
+[db] linked 298 parent references
+
+[done] ingested Aboriginal and Torres Strait Islander Act 2005
+       legislation_id: 3e82da66-3c9d-479f-9b39-0020c019a823
+       sections: 307
+       compilation: 2025-02-15

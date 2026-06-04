@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2020A00065/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 102,425 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2020A00065/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 102,425 source bytes → 100,569 combined bytes
+[citation] Commonwealth Registers Act 2020 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 415
+[parser-diag] processed 415 <p> elements
+[parser-diag] last section was added at element index: 287
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 30
+[parse] compilation: date=2024-10-14 no=3
+[parse] by level:
+         part         5
+         section      25
+[db] inserted new legislation row: 3a14b2e6-b38d-4c2f-b84a-234a150ea192
+[db] inserting 30 sections (pass 1)
+[db] inserted 30 sections
+[db] linking parent FKs (pass 2)
+[db] linked 25 parent references
+
+[done] ingested Commonwealth Registers Act 2020
+       legislation_id: 3a14b2e6-b38d-4c2f-b84a-234a150ea192
+       sections: 30
+       compilation: 2024-10-14

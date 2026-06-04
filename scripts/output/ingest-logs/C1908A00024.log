@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C1908A00024/1973-12-31/1973-12-31/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 15,201 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1908A00024/1973-12-31/1973-12-31/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 15,201 source bytes → 14,238 combined bytes
+[citation] Seat of Government Act 1908 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 63
+[parser-diag] processed 63 <p> elements
+[parser-diag] last section was added at element index: 23
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 4
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      4
+[db] inserted new legislation row: 793a1bcb-91dd-467d-a47c-0fc554afb5f2
+[db] inserting 4 sections (pass 1)
+[db] inserted 4 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Seat of Government Act 1908
+       legislation_id: 793a1bcb-91dd-467d-a47c-0fc554afb5f2
+       sections: 4
+       compilation: 1973-12-31

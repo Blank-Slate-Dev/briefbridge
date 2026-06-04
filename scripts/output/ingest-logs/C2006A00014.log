@@ -1,0 +1,40 @@
+[fetch] document_1: https://www.legislation.gov.au/C2006A00014/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 2,136,902 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2006A00014/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2: 1,985,669 bytes
+[fetch] document_3: https://www.legislation.gov.au/C2006A00014/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_3/document_3.html
+[fetch] document_3: 1,974,258 bytes
+[fetch] document_4: https://www.legislation.gov.au/C2006A00014/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_4/document_4.html
+[fetch] document_4: 3,093,084 bytes
+[fetch] document_5: https://www.legislation.gov.au/C2006A00014/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_5/document_5.html
+[fetch] document_5 not found — stopping. Fetched 4 document(s).
+[fetch] combined 4 document(s), 9,189,913 source bytes → 9,166,920 combined bytes
+[citation] Offshore Petroleum and Greenhouse Gas Storage Act 2006 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 34495
+[parser-diag] processed 34495 <p> elements
+[parser-diag] last section was added at element index: 27373
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parse] sections: 1618
+[parse] compilation: date=2025-12-05 no=60
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         chapter      10
+         part         92
+         section      1042
+         division     171
+         subdivision  44
+         schedule     10
+         schedule_clause 231
+         schedule_part 18
+[db] inserted new legislation row: f2997073-aee9-4bd9-ac57-4233579935bd
+[db] inserting 1618 sections (pass 1)
+[db] inserted 1618 sections
+[db] linking parent FKs (pass 2)
+[db] linked 1598 parent references
+
+[done] ingested Offshore Petroleum and Greenhouse Gas Storage Act 2006
+       legislation_id: f2997073-aee9-4bd9-ac57-4233579935bd
+       sections: 1618
+       compilation: 2025-12-05

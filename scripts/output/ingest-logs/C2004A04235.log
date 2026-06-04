@@ -1,0 +1,55 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04235/2017-08-23/2017-08-23/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 222,781 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04235/2017-08-23/2017-08-23/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 222,781 source bytes → 220,684 combined bytes
+[citation] Carriage of Goods by Sea Act 1991 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 659
+[parser-unknown-class] "Article", text="ARTICLE 1"
+[parser-unknown-class] "Article", text="ARTICLE 2"
+[parser-unknown-class] "Article", text="ARTICLE 3"
+[parser-unknown-class] "Article", text="ARTICLE 4"
+[parser-unknown-class] "Article", text="ARTICLE 4bis"
+[parser-unknown-class] "Article", text="ARTICLE 5"
+[parser-unknown-class] "Article", text="ARTICLE 6"
+[parser-unknown-class] "Article", text="ARTICLE 7"
+[parser-unknown-class] "Article", text="ARTICLE 8"
+[parser-unknown-class] "Article", text="ARTICLE 9"
+[parser-unknown-class] "Article", text="ARTICLE 10"
+[parser-unknown-class] "Article", text="ARTICLE 1"
+[parser-unknown-class] "Article", text="ARTICLE 1A"
+[parser-unknown-class] "Article", text="ARTICLE 2"
+[parser-unknown-class] "Article", text="ARTICLE 3"
+[parser-unknown-class] "Article", text="ARTICLE 4"
+[parser-unknown-class] "Article", text="Article 4A"
+[parser-unknown-class] "Article", text="ARTICLE 4bis"
+[parser-unknown-class] "Article", text="ARTICLE 5"
+[parser-unknown-class] "Article", text="ARTICLE 6"
+[parser-unknown-class] "Article", text="ARTICLE 6A"
+[parser-unknown-class] "Article", text="ARTICLE 7"
+[parser-unknown-class] "Article", text="ARTICLE 8"
+[parser-unknown-class] "Article", text="ARTICLE 9"
+[parser-unknown-class] "Article", text="ARTICLE 10"
+[parser-diag] processed 659 <p> elements
+[parser-diag] last section was added at element index: 274
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 24
+[parse] compilation: date=2017-08-23 no=11
+[parse] by level:
+         part         3
+         section      18
+         schedule     2
+         schedule_clause 1
+[db] inserted new legislation row: 27a74a74-3d3e-4c50-b0e3-0ae457befd04
+[db] inserting 24 sections (pass 1)
+[db] inserted 24 sections
+[db] linking parent FKs (pass 2)
+[db] linked 19 parent references
+
+[done] ingested Carriage of Goods by Sea Act 1991
+       legislation_id: 27a74a74-3d3e-4c50-b0e3-0ae457befd04
+       sections: 24
+       compilation: 2017-08-23

@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2024A00091/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 566,156 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2024A00091/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 566,156 source bytes → 561,732 combined bytes
+[citation] Australian Naval Nuclear Power Safety Act 2024 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2124
+[parser-diag] processed 2124 <p> elements
+[parser-diag] last section was added at element index: 2013
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: false
+[parse] sections: 208
+[parse] compilation: date=2025-11-01 no=1
+[parse] by level:
+         part         6
+         division     25
+         section      151
+         subdivision  26
+[db] inserted new legislation row: 90cd970c-2669-4131-9807-4447c0c485cf
+[db] inserting 208 sections (pass 1)
+[db] inserted 208 sections
+[db] linking parent FKs (pass 2)
+[db] linked 202 parent references
+
+[done] ingested Australian Naval Nuclear Power Safety Act 2024
+       legislation_id: 90cd970c-2669-4131-9807-4447c0c485cf
+       sections: 208
+       compilation: 2025-11-01

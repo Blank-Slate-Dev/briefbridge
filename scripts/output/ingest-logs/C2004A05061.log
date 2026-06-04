@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05061/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,379,157 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05061/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,379,157 source bytes → 1,373,622 combined bytes
+[citation] Airports Act 1996 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 5096
+[parser-diag] processed 5096 <p> elements
+[parse] sections: 390
+[parse] compilation: date=2025-11-01 no=39
+[parser-diag] last section was added at element index: 4085
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         part         19
+         section      284
+         division     58
+         subdivision  14
+         schedule     1
+         schedule_clause 14
+[db] inserted new legislation row: a5f1b0bf-1571-4de5-bbdc-2cd10e58c179
+[db] inserting 390 sections (pass 1)
+[db] inserted 390 sections
+[db] linking parent FKs (pass 2)
+[db] linked 370 parent references
+
+[done] ingested Airports Act 1996
+       legislation_id: a5f1b0bf-1571-4de5-bbdc-2cd10e58c179
+       sections: 390
+       compilation: 2025-11-01

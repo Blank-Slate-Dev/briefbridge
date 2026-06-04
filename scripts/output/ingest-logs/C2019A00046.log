@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2019A00046/2019-04-05/2019-04-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 54,483 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2019A00046/2019-04-05/2019-04-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 54,483 source bytes → 52,999 combined bytes
+[citation] Australian Business Securitisation Fund Act 2019 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 234
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parse] sections: 25
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         3
+         section      22
+[parser-unknown-class] "2ndRd", text="House of Representatives on 13 February 2019"
+[parser-unknown-class] "2ndRd", text="Senate on 3 April 2019]"
+[parser-diag] processed 234 <p> elements
+[parser-diag] last section was added at element index: 212
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[db] inserted new legislation row: bc8dab63-2a77-4499-8c10-43ea8d78e1d7
+[db] inserting 25 sections (pass 1)
+[db] inserted 25 sections
+[db] linking parent FKs (pass 2)
+[db] linked 22 parent references
+
+[done] ingested Australian Business Securitisation Fund Act 2019
+       legislation_id: bc8dab63-2a77-4499-8c10-43ea8d78e1d7
+       sections: 25
+       compilation: 2019-04-05

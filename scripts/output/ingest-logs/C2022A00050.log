@@ -1,0 +1,72 @@
+[fetch] document_1: https://www.legislation.gov.au/C2022A00050/2022-11-09/2022-11-09/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 67,783 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2022A00050/2022-11-09/2022-11-09/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 67,783 source bytes → 65,154 combined bytes
+[citation] Fair Work Amendment (Paid Family and Domestic Violence Leave) Act 2022 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 309
+[parser-unknown-class] "ActHead6", text="Schedule 1—Main amendments"
+[parser-unknown-class] "ActHead9", text="Fair Work Act 2009"
+[parser-unknown-class] "ItemHead", text="1  Section 12"
+[parser-unknown-class] "ItemHead", text="2  Section 12 (definition of unpaid family and domestic violence leave)"
+[parser-unknown-class] "ItemHead", text="3  Section 17 (note)"
+[parser-unknown-class] "ItemHead", text="4  Paragraph 61(2)(e)"
+[parser-unknown-class] "ItemHead", text="5  Division 7 of Part 2‑2 (heading)"
+[parser-unknown-class] "ItemHead", text="6  Section 98"
+[parser-unknown-class] "ItemHead", text="7  Subdivision CA of Division 7 of Part 2‑2 (heading)"
+[parser-unknown-class] "ItemHead", text="8  Section 106A (heading)"
+[parser-unknown-class] "ItemHead", text="9  Subsection 106A(1)"
+[parser-unknown-class] "ItemHead", text="10  Subsection 106A(2)"
+[parser-unknown-class] "ItemHead", text="11  Subsection 106A(4)"
+[parser-unknown-class] "ItemHead", text="12  Paragraph 106A(4)(a)"
+[parser-unknown-class] "ItemHead", text="13  Subsection 106A(5)"
+[parser-unknown-class] "ItemHead", text="14  Section 106B (heading)"
+[parser-unknown-class] "ItemHead", text="15  Subsection 106B(1)"
+[parser-unknown-class] "ItemHead", text="16  Paragraph 106B(1)(c)"
+[parser-unknown-class] "ItemHead", text="17  Subsection 106B(1) (note 1)"
+[parser-unknown-class] "ItemHead", text="18  Subsection 106B(2)"
+[parser-unknown-class] "ItemHead", text="19  After section 106B"
+[parser-unknown-class] "ItemHead", text="19A  Subsection 106C(2)"
+[parser-unknown-class] "ItemHead", text="20  Section 106D (heading)"
+[parser-unknown-class] "ItemHead", text="21  Paragraph 107(3)(d)"
+[parser-unknown-class] "ItemHead", text="21A  After paragraph 536(2)(b)"
+[parser-unknown-class] "ItemHead", text="22  In the appropriate position in Schedule 1"
+[parser-unknown-class] "ActHead6", text="Schedule 2—Amendments relating to ILO Convention (No. 190)"
+[parser-unknown-class] "ActHead9", text="Fair Work Act 2009"
+[parser-unknown-class] "ItemHead", text="1  Subsection 9(4)"
+[parser-unknown-class] "ItemHead", text="2  Section 12"
+[parser-unknown-class] "ItemHead", text="3  Section 59"
+[parser-unknown-class] "ItemHead", text="4  At the end of subsection 106D(1)"
+[parser-unknown-class] "ItemHead", text="5  Section 106D (note)"
+[parser-unknown-class] "ItemHead", text="6  Subsection 539(2) (after table item 34)"
+[parser-unknown-class] "ItemHead", text="7  After paragraph 557(2)(p)"
+[parser-unknown-class] "ItemHead", text="8  Section 741"
+[parser-unknown-class] "ItemHead", text="9  After Division 2 of Part 6‑3"
+[parser-unknown-class] "ItemHead", text="10  Clause 51 of Schedule 1"
+[parser-unknown-class] "ItemHead", text="11  At the end of Part 12 of Schedule 1"
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 28 July 2022"
+[parser-unknown-class] "2ndRd", text="Senate on 8 September 2022]"
+[parser-diag] processed 309 <p> elements
+[parser-diag] last section was added at element index: 289
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 4
+[parser-diag] insideSchedule at end: false
+[parse] sections: 25
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      21
+         part         1
+         division     1
+         subdivision  2
+[db] inserted new legislation row: b708f2b3-da5e-473d-839a-1851b3fff19c
+[db] inserting 25 sections (pass 1)
+[db] inserted 25 sections
+[db] linking parent FKs (pass 2)
+[db] linked 18 parent references
+
+[done] ingested Fair Work Amendment (Paid Family and Domestic Violence Leave) Act 2022
+       legislation_id: b708f2b3-da5e-473d-839a-1851b3fff19c
+       sections: 25
+       compilation: 2022-11-09

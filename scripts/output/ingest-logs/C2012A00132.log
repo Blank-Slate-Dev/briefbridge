@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2012A00132/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 593,493 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2012A00132/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 593,493 source bytes → 591,517 combined bytes
+[citation] Greenhouse and Energy Minimum Standards Act 2012 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2234
+[parser-diag] processed 2234 <p> elements
+[parser-diag] last section was added at element index: 1740
+[parse] sections: 178
+[parse] compilation: date=2025-12-05 no=8
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         11
+         division     46
+         section      114
+         subdivision  7
+[db] inserted new legislation row: b28fd31e-11d3-4089-85ab-e818d7de79cd
+[db] inserting 178 sections (pass 1)
+[db] inserted 178 sections
+[db] linking parent FKs (pass 2)
+[db] linked 167 parent references
+
+[done] ingested Greenhouse and Energy Minimum Standards Act 2012
+       legislation_id: b28fd31e-11d3-4089-85ab-e818d7de79cd
+       sections: 178
+       compilation: 2025-12-05

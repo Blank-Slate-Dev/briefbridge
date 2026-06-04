@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03647/2013-12-01/2013-12-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 53,700 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03647/2013-12-01/2013-12-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 53,700 source bytes → 52,191 combined bytes
+[citation] Aviation Fuel Revenues (Special Appropriation) Act 1988 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 258
+[parser-diag] processed 258 <p> elements
+[parser-diag] last section was added at element index: 63
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 5
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      5
+[db] inserted new legislation row: 990713a7-5ef8-411b-8570-b13fff4d4a9f
+[db] inserting 5 sections (pass 1)
+[db] inserted 5 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Aviation Fuel Revenues (Special Appropriation) Act 1988
+       legislation_id: 990713a7-5ef8-411b-8570-b13fff4d4a9f
+       sections: 5
+       compilation: 2013-12-01

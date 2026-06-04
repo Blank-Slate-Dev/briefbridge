@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C1967A00090/2011-09-16/2011-09-16/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 47,103 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1967A00090/2011-09-16/2011-09-16/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 47,103 source bytes → 45,835 combined bytes
+[citation] Superannuation (Pension Increases) Act 1967 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 125
+[parser-diag] processed 125 <p> elements
+[parser-diag] last section was added at element index: 87
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 6
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      6
+[db] inserted new legislation row: 7369f884-ede3-42ab-bcb9-f7d879a5d53e
+[db] inserting 6 sections (pass 1)
+[db] inserted 6 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Superannuation (Pension Increases) Act 1967
+       legislation_id: 7369f884-ede3-42ab-bcb9-f7d879a5d53e
+       sections: 6
+       compilation: 2011-09-16

@@ -1,0 +1,26 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00031/1973-05-24/1973-05-24/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 15,155 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00031/1973-05-24/1973-05-24/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 15,155 source bytes → 14,107 combined bytes
+[citation] Papua New Guinea Loan Guarantee Act 1973 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 64
+[parser-diag] processed 64 <p> elements
+[parser-diag] last section was added at element index: -1
+[parser-diag] state phase at end: PRE_BODY
+[parser-diag] hierarchy stack depth at end: 0
+[parser-diag] insideSchedule at end: false
+[parse] sections: 0
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+[db] inserted new legislation row: 7a178717-94e5-47c2-b775-e5eb4dda263d
+[db] inserting 0 sections (pass 1)
+[db] inserted 0 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Papua New Guinea Loan Guarantee Act 1973
+       legislation_id: 7a178717-94e5-47c2-b775-e5eb4dda263d
+       sections: 0
+       compilation: 1973-05-24

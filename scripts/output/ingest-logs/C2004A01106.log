@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01106/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 184,431 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01106/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 184,431 source bytes → 181,623 combined bytes
+[citation] Inspector-General of Taxation Act 2003 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 761
+[parser-diag] processed 761 <p> elements
+[parser-diag] last section was added at element index: 468
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 42
+[parse] compilation: date=2025-12-05 no=8
+[parse] by level:
+         part         5
+         section      32
+         division     5
+[db] inserted new legislation row: 8ee039ed-befe-4068-a259-12869963e907
+[db] inserting 42 sections (pass 1)
+[db] inserted 42 sections
+[db] linking parent FKs (pass 2)
+[db] linked 37 parent references
+
+[done] ingested Inspector-General of Taxation Act 2003
+       legislation_id: 8ee039ed-befe-4068-a259-12869963e907
+       sections: 42
+       compilation: 2025-12-05

@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C1958A00041/2020-12-18/2020-12-18/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 290,303 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1958A00041/2020-12-18/2020-12-18/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 290,303 source bytes → 288,252 combined bytes
+[citation] Christmas Island Act 1958 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1111
+[parser-diag] processed 1111 <p> elements
+[parser-diag] last section was added at element index: 652
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 62
+[parse] compilation: date=2020-12-18 no=13
+[parse] by level:
+         part         6
+         section      53
+         division     2
+         schedule     1
+[db] inserted new legislation row: 38c1c3ba-0e50-43c9-ae49-a9ce293365f4
+[db] inserting 62 sections (pass 1)
+[db] inserted 62 sections
+[db] linking parent FKs (pass 2)
+[db] linked 55 parent references
+
+[done] ingested Christmas Island Act 1958
+       legislation_id: 38c1c3ba-0e50-43c9-ae49-a9ce293365f4
+       sections: 62
+       compilation: 2020-12-18

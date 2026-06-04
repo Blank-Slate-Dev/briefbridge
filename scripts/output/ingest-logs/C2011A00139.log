@@ -1,0 +1,68 @@
+[fetch] document_1: https://www.legislation.gov.au/C2011A00139/2011-11-29/2011-11-29/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 262,105 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2011A00139/2011-11-29/2011-11-29/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 262,105 source bytes → 260,657 combined bytes
+[citation] National Health Reform Amendment (Independent Hospital Pricing Authority) Act 2011 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1016
+[parser-unknown-class] "ActHead6", text="Schedule 1—General amendments"
+[parser-unknown-class] "ActHead7", text="Part 1—Amendments"
+[parser-unknown-class] "ActHead9", text="National Health Reform Act 2011"
+[parser-unknown-class] "ItemHead", text="1  At the end of section 3"
+[parser-unknown-class] "ItemHead", text="2  Section 4"
+[parser-unknown-class] "ItemHead", text="3  Section 5"
+[parser-unknown-class] "ItemHead", text="4  Section 5"
+[parser-unknown-class] "ItemHead", text="5  Section 5"
+[parser-unknown-class] "ItemHead", text="6  Section 5"
+[parser-unknown-class] "ItemHead", text="7  section 5"
+[parser-unknown-class] "ItemHead", text="8  Section 5"
+[parser-unknown-class] "ItemHead", text="9  Section 5"
+[parser-unknown-class] "ItemHead", text="10  Section 5"
+[parser-unknown-class] "ItemHead", text="11  Section 5"
+[parser-unknown-class] "ItemHead", text="12  Section 5"
+[parser-unknown-class] "ItemHead", text="13  Section 5"
+[parser-unknown-class] "ItemHead", text="14  Section 5"
+[parser-unknown-class] "ItemHead", text="15  Section 5"
+[parser-unknown-class] "ItemHead", text="16  Section 5"
+[parser-unknown-class] "ItemHead", text="17  Section 5 (definition of vacancy)"
+[parser-unknown-class] "ItemHead", text="18  At the end of section 6"
+[parser-unknown-class] "ItemHead", text="19  After paragraph 54H(1)(a)"
+[parser-unknown-class] "ItemHead", text="20  After paragraph 120(1)(a)"
+[parser-unknown-class] "ItemHead", text="21  Chapter 4"
+[parser-unknown-class] "ActHead7", text="Part 2—Transitional provisions"
+[parser-unknown-class] "ItemHead", text="22  Appointment of acting Pricing Authority CEO"
+[parser-unknown-class] "Subitem", text="(1) The Minister may, before the end of the 6‑month period beginning at the commencement of this ..."
+[parser-unknown-class] "Subitem", text="(2) Before making an appointment under subitem (1), the Minister must consult the Standing Counci..."
+[parser-unknown-class] "Subitem", text="(3) An appointment under subitem (1) is to be made by written instrument."
+[parser-unknown-class] "Subitem", text="(4) Anything done by or in relation to a person purporting to act under an appointment under subi..."
+[parser-unknown-class] "Subitem", text="(5) If a person is acting as the Pricing Authority CEO in accordance with an appointment under su..."
+[parser-unknown-class] "Subitem", text="(6) If, immediately before the end of the 6‑month period beginning at the commencement of this it..."
+[parser-unknown-class] "Subitem", text="(7) Subitem (6) does not prevent the person from being appointed by the Pricing Authority, under ..."
+[parser-unknown-class] "ItemHead", text="23  Appointment of Clinical Advisory Committee members"
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 24 August 2011"
+[parser-unknown-class] "2ndRd", text="Senate on 2 November 2011]"
+[parser-diag] processed 1016 <p> elements
+[parser-diag] last section was added at element index: 963
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 130
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      108
+         chapter      2
+         part         15
+         division     5
+[db] inserted new legislation row: 7ef88d3c-cd19-498d-8cce-69787baf61e8
+[db] inserting 130 sections (pass 1)
+[db] inserted 130 sections
+[db] linking parent FKs (pass 2)
+[db] linked 124 parent references
+
+[done] ingested National Health Reform Amendment (Independent Hospital Pricing Authority) Act 2011
+       legislation_id: 7ef88d3c-cd19-498d-8cce-69787baf61e8
+       sections: 130
+       compilation: 2011-11-29

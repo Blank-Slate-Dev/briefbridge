@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05172/2023-09-14/2023-09-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 257,401 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05172/2023-09-14/2023-09-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 257,401 source bytes → 254,433 combined bytes
+[citation] International Transfer of Prisoners Act 1997 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 898
+[parser-diag] processed 898 <p> elements
+[parser-diag] last section was added at element index: 668
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 71
+[parse] compilation: date=2023-09-14 no=10
+[parse] by level:
+         part         7
+         section      64
+[db] inserted new legislation row: f0212623-f619-413a-9fe0-437b5ae99fbb
+[db] inserting 71 sections (pass 1)
+[db] inserted 71 sections
+[db] linking parent FKs (pass 2)
+[db] linked 64 parent references
+
+[done] ingested International Transfer of Prisoners Act 1997
+       legislation_id: f0212623-f619-413a-9fe0-437b5ae99fbb
+       sections: 71
+       compilation: 2023-09-14

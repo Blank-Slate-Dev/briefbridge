@@ -1,0 +1,48 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02409/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 291,811 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02409/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 291,811 source bytes → 289,733 combined bytes
+[citation] Protection of the Sea (Civil Liability) Act 1981 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1144
+[parser-unknown-class] "agreementhead", text="RESOLUTION LEG.1(82)"
+[parser-unknown-class] "agreementhead", text="adopted on 18 October 2000"
+[parser-unknown-class] "agreementhead", text="AMENDMENTS OF THE LIMITATION AMOUNTS IN THE PROTOCOL OF 1992 TO AMEND THE INTERNATIONAL CONVENTIO..."
+[parser-unknown-class] "agreementtext", text="THE LEGAL COMMITTEE at its eighty‑second session:"
+[parser-unknown-class] "agreementtext", text="RECALLING Article 33(b) of the Convention on the International Maritime Organization (hereinafter..."
+[parser-unknown-class] "agreementtext", text="MINDFUL of Article 36 of the IMO Convention concerning rules governing the procedures to be follo..."
+[parser-unknown-class] "agreementtext", text="RECALLING FURTHER article 15 of the Protocol of 1992 to amend the International Convention on Civ..."
+[parser-unknown-class] "agreementtext", text="HAVING CONSIDERED amendments to the limitation amounts proposed and circulated in accordance with..."
+[parser-unknown-class] "agreementtext", text="1. ADOPTS, in accordance with article 15(4) of the 1992 CLC Protocol, amendments to the limitatio..."
+[parser-unknown-class] "agreementtext", text="2. DETERMINES, in accordance with article 15(7) of the 1992 CLC Protocol, that these amendments s..."
+[parser-unknown-class] "agreementtext", text="3. FURTHER DETERMINES that, in accordance with article 15(8) of the 1992 CLC Protocol, these amen..."
+[parser-unknown-class] "agreementtext", text="4. REQUESTS the Secretary‑General, in accordance with articles 15(7) and 17(2)(v) of the 1992 CLC..."
+[parser-unknown-class] "agreementtext", text="5. FURTHER REQUESTS the Secretary‑General to transmit copies of the present resolution and its An..."
+[parser-unknown-class] "agreementhead", text="ANNEX"
+[parser-unknown-class] "agreementhead", text="AMENDMENTS OF THE LIMITATION AMOUNTS IN THE PROTOCOL OF 1992 TO AMEND THE INTERNATIONAL CONVENTIO..."
+[parser-unknown-class] "agreementtext", text="Article 6(1) of the 1992 CLC Protocol is amended as follows:"
+[parser-unknown-class] "agreementtext", text="the reference to “3 million units of account” shall read “4,510,000 units               of account”;"
+[parser-unknown-class] "agreementtext", text="the reference to “420 units of account” shall read “631 units of  account”; and"
+[parser-unknown-class] "agreementtext", text="the reference to “59.7 million units of account” shall read “89,770,000               units of ac..."
+[parser-diag] processed 1144 <p> elements
+[parser-diag] last section was added at element index: 822
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 42
+[parse] compilation: date=2024-10-14 no=21
+[parse] by level:
+         part         7
+         section      32
+         schedule     3
+[db] inserted new legislation row: 543220af-36a5-4793-b124-de3d22a17baf
+[db] inserting 42 sections (pass 1)
+[db] inserted 42 sections
+[db] linking parent FKs (pass 2)
+[db] linked 32 parent references
+
+[done] ingested Protection of the Sea (Civil Liability) Act 1981
+       legislation_id: 543220af-36a5-4793-b124-de3d22a17baf
+       sections: 42
+       compilation: 2024-10-14

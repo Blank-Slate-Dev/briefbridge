@@ -1,0 +1,52 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02304/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 634,520 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02304/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 634,520 source bytes → 632,066 combined bytes
+[citation] Antarctic Treaty (Environment Protection) Act 1980 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2302
+[parser-unknown-class] "ArticleHeading", text="ANNEX II TO THE PROTOCOL ON ENVIRONMENTAL PROTECTION TO THE ANTARCTIC TREATY"
+[parser-unknown-class] "ArticleHeading", text="CONSERVATION OF ANTARCTIC FAUNA AND FLORA"
+[parser-unknown-class] "ArticleHeading", text="ARTICLE 1"
+[parser-unknown-class] "ArticleTitle", text="DEFINITIONS"
+[parser-unknown-class] "ArticleHeading", text="ARTICLE 2"
+[parser-unknown-class] "ArticleTitle", text="CASES OF EMERGENCY"
+[parser-unknown-class] "ArticleHeading", text="ARTICLE 3"
+[parser-unknown-class] "ArticleTitle", text="PROTECTION OF NATIVE FAUNA AND FLORA"
+[parser-unknown-class] "ArticleHeading", text="ARTICLE 4"
+[parser-unknown-class] "ArticleTitle", text="INTRODUCTION OF NON‑NATIVE SPECIES AND DISEASES"
+[parser-unknown-class] "ArticleHeading", text="ARTICLE 5"
+[parser-unknown-class] "ArticleTitle", text="INFORMATION"
+[parser-unknown-class] "ArticleHeading", text="ARTICLE 6"
+[parser-unknown-class] "ArticleTitle", text="EXCHANGE OF INFORMATION"
+[parser-unknown-class] "ArticleHeading", text="ARTICLE 7"
+[parser-unknown-class] "ArticleTitle", text="RELATIONSHIP WITH OTHER AGREEMENTS OUTSIDE THE ANTARCTIC TREATY SYSTEM"
+[parser-unknown-class] "ArticleHeading", text="ARTICLE 8"
+[parser-unknown-class] "ArticleHeading", text="ARTICLE 9"
+[parser-unknown-class] "ArticleTitle", text="AMENDMENT OR MODIFICATION"
+[parser-unknown-class] "ArticleHeading", text="APPENDICES TO THE ANNEX"
+[parser-unknown-class] "ArticleHeading", text="APPENDIX A:"
+[parser-unknown-class] "ArticleTitle", text="SPECIALLY PROTECTED SPECIES"
+[parser-diag] processed 2302 <p> elements
+[parser-diag] last section was added at element index: 1112
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 86
+[parse] compilation: date=2024-10-14 no=21
+[parse] by level:
+         part         7
+         section      73
+         division     3
+         schedule     3
+[db] inserted new legislation row: c47f6a51-1fe3-4f3b-86d0-0ceb370e8489
+[db] inserting 86 sections (pass 1)
+[db] inserted 86 sections
+[db] linking parent FKs (pass 2)
+[db] linked 76 parent references
+
+[done] ingested Antarctic Treaty (Environment Protection) Act 1980
+       legislation_id: c47f6a51-1fe3-4f3b-86d0-0ceb370e8489
+       sections: 86
+       compilation: 2024-10-14

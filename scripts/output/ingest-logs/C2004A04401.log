@@ -1,0 +1,35 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04401/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 2,659,646 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04401/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2: 2,112,149 bytes
+[fetch] document_3: https://www.legislation.gov.au/C2004A04401/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_3/document_3.html
+[fetch] document_3 not found — stopping. Fetched 2 document(s).
+[fetch] combined 2 document(s), 4,771,795 source bytes → 4,760,782 combined bytes
+[citation] Broadcasting Services Act 1992 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 17693
+[parser-diag] processed 17693 <p> elements
+[parser-diag] last section was added at element index: 12012
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] sections: 939
+[parse] compilation: date=2025-12-05 no=113
+[parse] by level:
+         part         31
+         section      603
+         division     86
+         subdivision  29
+         schedule     6
+         schedule_part 29
+         schedule_clause 155
+[db] inserted new legislation row: a5e9a3ec-66bd-4a00-999c-884cc985463d
+[db] inserting 939 sections (pass 1)
+[db] inserted 939 sections
+[db] linking parent FKs (pass 2)
+[db] linked 902 parent references
+
+[done] ingested Broadcasting Services Act 1992
+       legislation_id: a5e9a3ec-66bd-4a00-999c-884cc985463d
+       sections: 939
+       compilation: 2025-12-05

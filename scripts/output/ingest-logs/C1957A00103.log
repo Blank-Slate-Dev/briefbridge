@@ -1,0 +1,61 @@
+[fetch] document_1: https://www.legislation.gov.au/C1957A00103/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,149,715 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1957A00103/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,149,715 source bytes → 1,146,522 combined bytes
+[citation] Geneva Conventions Act 1957 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3164
+[parser-unknown-class] "ArticleNo", text="1. The High Contracting Parties undertake to respect and to ensure respect for this Protocol in a..."
+[parser-unknown-class] "ArticleNo", text="2. This Protocol reaffirms and supplements the provisions of the four Geneva Conventions of 12 Au..."
+[parser-unknown-class] "ArticleNo", text="1. This Protocol recognizes an additional distinctive emblem in addition to, and for the same pur..."
+[parser-unknown-class] "ArticleNo", text="2. This additional distinctive emblem, composed of a red frame in the shape of a square on edge o..."
+[parser-unknown-class] "ArticleNo", text="3. The conditions for use of and respect for the third Protocol emblem are identical to those for..."
+[parser-unknown-class] "ArticleNo", text="4. The medical services and religious personnel of armed forces of High Contracting Parties may, ..."
+[parser-unknown-class] "ArticleNo", text="1. National Societies of those High Contracting Parties which decide to use the third Protocol em..."
+[parser-unknown-class] "ArticleNo", text="a) a distinctive emblem recognized by the Geneva Conventions or a combination of these emblems; or"
+[parser-unknown-class] "ArticleNo", text="b) another emblem which has been in effective use by a High Contracting Party and was the subject..."
+[parser-unknown-class] "ArticleNo", text="2. A National Society which chooses to incorporate within the third Protocol emblem another emble..."
+[parser-unknown-class] "ArticleNo", text="3. National Societies may, in accordance with national legislation and in exceptional circumstanc..."
+[parser-unknown-class] "ArticleNo", text="4. This Article does not affect the legal status of the distinctive emblems recognized in the Gen..."
+[parser-unknown-class] "ArticleNo", text="1. The provisions of the Geneva Conventions and, where applicable, the 1977 Additional Protocols,..."
+[parser-unknown-class] "ArticleNo", text="2. Notwithstanding paragraph 1 above, High Contracting Parties may permit prior users of the thir..."
+[parser-unknown-class] "ArticleNo", text="1. This Protocol shall enter into force six months after two instruments of ratification or acces..."
+[parser-unknown-class] "ArticleNo", text="2. For each Party to the Geneva Conventions thereafter ratifying or acceding to this Protocol, it..."
+[parser-unknown-class] "ArticleNo", text="1. When the Parties to the Geneva Conventions are also Parties to this Protocol, the Conventions ..."
+[parser-unknown-class] "ArticleNo", text="2. When one of the Parties to the conflict is not bound by this Protocol, the Parties to the Prot..."
+[parser-unknown-class] "ArticleNo", text="1. Any High Contracting Party may propose amendments to this Protocol. The text of any proposed a..."
+[parser-unknown-class] "ArticleNo", text="2. The depositary shall invite to that conference all the High Contracting Parties as well as the..."
+[parser-unknown-class] "ArticleNo", text="1. In case a High Contracting Party should denounce this Protocol, the denunciation shall only ta..."
+[parser-unknown-class] "ArticleNo", text="2. The denunciation shall be notified in writing to the depositary, which shall transmit it to al..."
+[parser-unknown-class] "ArticleNo", text="3. The denunciation shall have effect only in respect of the denouncing Party."
+[parser-unknown-class] "ArticleNo", text="4. Any denunciation under paragraph 1 shall not affect the obligations already incurred, by reaso..."
+[parser-unknown-class] "ArticleNo", text="a) signatures affixed to this Protocol and the deposit of instruments of ratification and accessi..."
+[parser-unknown-class] "ArticleNo", text="b) the date of entry into force of this Protocol under Article 11 within ten days of said entry i..."
+[parser-unknown-class] "ArticleNo", text="c) communications received under Article 13;"
+[parser-unknown-class] "ArticleNo", text="d) denunciations under Article 14."
+[parser-unknown-class] "ArticleNo", text="1. After its entry into force, this Protocol shall be transmitted by the depositary to the Secret..."
+[parser-unknown-class] "ArticleNo", text="2. The depositary shall also inform the Secretariat of the United Nations of all ratifications, a..."
+[parser-diag] processed 3164 <p> elements
+[parser-diag] last section was added at element index: 2772
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 23
+[parse] compilation: date=2016-10-21 no=10
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedules". Captured as 'schedule' as fallback.
+[parse] by level:
+         part         4
+         section      12
+         schedule     7
+[db] inserted new legislation row: b4cf02d3-f718-4b5c-87d8-10ea86b9d978
+[db] inserting 23 sections (pass 1)
+[db] inserted 23 sections
+[db] linking parent FKs (pass 2)
+[db] linked 12 parent references
+
+[done] ingested Geneva Conventions Act 1957
+       legislation_id: b4cf02d3-f718-4b5c-87d8-10ea86b9d978
+       sections: 23
+       compilation: 2016-10-21

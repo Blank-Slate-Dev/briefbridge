@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00463/2025-04-01/2025-04-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 363,343 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00463/2025-04-01/2025-04-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 363,343 source bytes → 358,908 combined bytes
+[citation] A New Tax System (Luxury Car Tax) Act 1999 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1183
+[parser-diag] processed 1183 <p> elements
+[parser-diag] last section was added at element index: 660
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: false
+[parse] sections: 102
+[parse] compilation: date=2025-04-01 no=27
+[parse] by level:
+         part         5
+         division     16
+         section      74
+         subdivision  7
+[db] inserted new legislation row: b73afd7a-5f68-43d5-a718-6e1e03cf5f09
+[db] inserting 102 sections (pass 1)
+[db] inserted 102 sections
+[db] linking parent FKs (pass 2)
+[db] linked 97 parent references
+
+[done] ingested A New Tax System (Luxury Car Tax) Act 1999
+       legislation_id: b73afd7a-5f68-43d5-a718-6e1e03cf5f09
+       sections: 102
+       compilation: 2025-04-01

@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04852/2009-08-05/2009-08-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 13,492 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04852/2009-08-05/2009-08-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 13,492 source bytes → 12,434 combined bytes
+[citation] Human Rights (Sexual Conduct) Act 1994 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 54
+[parser-diag] processed 54 <p> elements
+[parser-diag] last section was added at element index: 24
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 4
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      4
+[db] inserted new legislation row: e1b79159-637a-4af3-a1c8-5d29b7f0c428
+[db] inserting 4 sections (pass 1)
+[db] inserted 4 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Human Rights (Sexual Conduct) Act 1994
+       legislation_id: e1b79159-637a-4af3-a1c8-5d29b7f0c428
+       sections: 4
+       compilation: 2009-08-05

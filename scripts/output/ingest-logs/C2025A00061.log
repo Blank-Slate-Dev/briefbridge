@@ -1,0 +1,34 @@
+[fetch] document_1: https://www.legislation.gov.au/C2025A00061/2025-11-10/2025-11-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 287,930 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2025A00061/2025-11-10/2025-11-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 287,930 source bytes → 283,789 combined bytes
+[citation] Australian Centre for Disease Control Act 2025 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1028
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 3 September 2025"
+[parser-unknown-class] "2ndRd", text="Senate on 27 October 2025]"
+[parser-diag] processed 1028 <p> elements
+[parser-diag] last section was added at element index: 1006
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 107
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         6
+         section      81
+         division     18
+         subdivision  2
+[db] inserted new legislation row: 9936ca35-9d1b-45c2-af1f-95a03eb93c26
+[db] inserting 107 sections (pass 1)
+[db] inserted 107 sections
+[db] linking parent FKs (pass 2)
+[db] linked 101 parent references
+
+[done] ingested Australian Centre for Disease Control Act 2025
+       legislation_id: 9936ca35-9d1b-45c2-af1f-95a03eb93c26
+       sections: 107
+       compilation: 2025-11-10

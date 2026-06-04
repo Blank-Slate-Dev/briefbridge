@@ -1,0 +1,66 @@
+[fetch] document_1: https://www.legislation.gov.au/C2026A00015/2026-03-26/2026-03-26/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 32,705 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2026A00015/2026-03-26/2026-03-26/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 32,705 source bytes → 30,087 combined bytes
+[citation] National Commission for Aboriginal and Torres Strait Islander Children and Young People (Transitional Provisions) Act 2026 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 142
+[parser-unknown-class] "ActHead6", text="Schedule 1—Application, saving and transitional provisions"
+[parser-unknown-class] "ActHead7", text="Part 1—Preliminary"
+[parser-unknown-class] "Transitional", text="1  Definitions"
+[parser-unknown-class] "Subitem", text="(1) In this Schedule:"
+[parser-unknown-class] "Subitem", text="(2) Expressions used in this Schedule that are defined for the purposes of the principal Act have..."
+[parser-unknown-class] "ActHead7", text="Part 2—Application and transitional provisions"
+[parser-unknown-class] "Transitional", text="2  Continuity of appointment of National Commissioner"
+[parser-unknown-class] "Subitem", text="(1) Subitem (2) applies if:"
+[parser-unknown-class] "Subitem", text="(2) The appointment continues in force (and may be dealt with) after that time as if the person h..."
+[parser-unknown-class] "Subitem", text="(3) Subitem (2) has effect despite subsection 65(4) of the Public Service Act 1999."
+[parser-unknown-class] "SubitemHead", text="Previous appointment period counts towards limit"
+[parser-unknown-class] "Subitem", text="(4) For the purposes of subsection 24(4) of the principal Act (reappointment as National Commissi..."
+[parser-unknown-class] "Transitional", text="3  Continuity of listed entity"
+[parser-unknown-class] "Subitem", text="(1) The listed entity mentioned in clause 12AA of Schedule 1 to the Public Governance, Performanc..."
+[parser-unknown-class] "Subitem", text="(2) To avoid doubt, neither the principal Act nor this Act affect:"
+[parser-unknown-class] "Transitional", text="4  Statutory Agency taken to be continuation of NC Executive Agency"
+[parser-unknown-class] "Subitem", text="(1) For the purposes of the Public Service Act 1999, the Statutory Agency mentioned in subsection..."
+[parser-unknown-class] "Subitem", text="(2) To avoid doubt, for the purposes of the Public Service Act 1999, neither the principal Act no..."
+[parser-unknown-class] "Transitional", text="5  APS employees"
+[parser-unknown-class] "Subitem", text="(1) A person who is an APS employee in the NC Executive Agency immediately before the commencemen..."
+[parser-unknown-class] "Subitem", text="(2) To avoid doubt, section 72 of the Public Service Act 1999 does not apply in relation to such ..."
+[parser-unknown-class] "Transitional", text="6  Consultants"
+[parser-unknown-class] "Subitem", text="(1) This item applies to the engagement of a person if:"
+[parser-unknown-class] "Subitem", text="(2) The engagement continues in force (and may be dealt with) after that time as if it were an en..."
+[parser-unknown-class] "Transitional", text="7  Information"
+[parser-unknown-class] "Subitem", text="(1) This item applies to information that:"
+[parser-unknown-class] "Subitem", text="(2) The information is taken, on and after that commencement, to be relevant information (within ..."
+[parser-unknown-class] "Transitional", text="8  Documents"
+[parser-unknown-class] "Subitem", text="(1) This item applies to any documents that were, immediately before the commencement day, in the..."
+[parser-unknown-class] "Subitem", text="(2) The documents are to remain, on or after the commencement day, in the possession of the Natio..."
+[parser-unknown-class] "ActHead7", text="Part 3—Transitional rules"
+[parser-unknown-class] "Transitional", text="9  Transitional rules"
+[parser-unknown-class] "Subitem", text="(1) The Minister may, by legislative instrument, make rules prescribing matters:"
+[parser-unknown-class] "Subitem", text="(2) Without limiting subitem (1), the rules may prescribe matters of a transitional nature (inclu..."
+[parser-unknown-class] "Subitem", text="(3) To avoid doubt, the rules may not do the following:"
+[parser-unknown-class] "Subitem", text="(4) This Schedule (other than subitem (3)) does not limit the rules that may be made for the purp..."
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 5 February 2026"
+[parser-unknown-class] "2ndRd", text="Senate on 3 March 2026]"
+[parser-diag] processed 142 <p> elements
+[parser-diag] last section was added at element index: 55
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: e80e420b-ac4c-4746-b211-6a73179c44ce
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested National Commission for Aboriginal and Torres Strait Islander Children and Young People (Transitional Provisions) Act 2026
+       legislation_id: e80e420b-ac4c-4746-b211-6a73179c44ce
+       sections: 3
+       compilation: 2026-03-26

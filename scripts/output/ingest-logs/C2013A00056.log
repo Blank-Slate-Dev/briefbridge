@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2013A00056/2013-06-13/2013-06-13/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 17,935 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2013A00056/2013-06-13/2013-06-13/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 17,935 source bytes → 16,420 combined bytes
+[citation] Not-for-profit Sector Freedom to Advocate Act 2013 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 86
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="Senate on 13 March 2013"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 28 May 2013]"
+[parser-diag] processed 86 <p> elements
+[parser-diag] last section was added at element index: 71
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 7
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      7
+[db] inserted new legislation row: 8b6bbcd7-a80a-40fa-b053-f55260edb458
+[db] inserting 7 sections (pass 1)
+[db] inserted 7 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Not-for-profit Sector Freedom to Advocate Act 2013
+       legislation_id: 8b6bbcd7-a80a-40fa-b053-f55260edb458
+       sections: 7
+       compilation: 2013-06-13

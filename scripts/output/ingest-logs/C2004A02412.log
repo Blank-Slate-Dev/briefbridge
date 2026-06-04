@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02412/2005-10-05/2005-10-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 22,745 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02412/2005-10-05/2005-10-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 22,745 source bytes → 21,797 combined bytes
+[citation] Protection of the Sea (Shipping Levy) Act 1981 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 84
+[parser-diag] processed 84 <p> elements
+[parser-diag] last section was added at element index: 44
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 9
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      9
+[db] inserted new legislation row: f456d160-61f7-4995-b122-2863696c4fd0
+[db] inserting 9 sections (pass 1)
+[db] inserted 9 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Protection of the Sea (Shipping Levy) Act 1981
+       legislation_id: f456d160-61f7-4995-b122-2863696c4fd0
+       sections: 9
+       compilation: 2005-10-05

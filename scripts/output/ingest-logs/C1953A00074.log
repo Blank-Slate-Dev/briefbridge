@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C1953A00074/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 29,710 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1953A00074/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 29,710 source bytes → 27,943 combined bytes
+[citation] Royal Powers Act 1953 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 142
+[parser-diag] processed 142 <p> elements
+[parser-diag] last section was added at element index: 35
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 2
+[parse] compilation: date=2024-12-11 no=2
+[parse] by level:
+         section      2
+[db] inserted new legislation row: 39a7e5d3-669c-4c43-961f-9b87a46fe4bb
+[db] inserting 2 sections (pass 1)
+[db] inserted 2 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Royal Powers Act 1953
+       legislation_id: 39a7e5d3-669c-4c43-961f-9b87a46fe4bb
+       sections: 2
+       compilation: 2024-12-11

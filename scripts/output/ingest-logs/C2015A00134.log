@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2015A00134/2026-04-09/2026-04-09/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 59,708 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2015A00134/2026-04-09/2026-04-09/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 59,708 source bytes → 58,039 combined bytes
+[citation] Asian Infrastructure Investment Bank Act 2015 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 260
+[parser-diag] processed 260 <p> elements
+[parser-diag] last section was added at element index: 149
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 10
+[parse] compilation: date=2026-04-09 no=1
+[parse] by level:
+         section      10
+[db] inserted new legislation row: 69edc82d-1eea-42d2-a66d-ff4026ff777a
+[db] inserting 10 sections (pass 1)
+[db] inserted 10 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Asian Infrastructure Investment Bank Act 2015
+       legislation_id: 69edc82d-1eea-42d2-a66d-ff4026ff777a
+       sections: 10
+       compilation: 2026-04-09

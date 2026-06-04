@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C1968A00036/1973-12-31/1973-12-31/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 17,610 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1968A00036/1973-12-31/1973-12-31/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 17,610 source bytes → 16,753 combined bytes
+[citation] Privy Council (Limitation of Appeals) Act 1968 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 63
+[parser-unknown-class] "ActNotesa", text="(a) Act No. 36, 1968; reserved for Her Majesty’s pleasure, 17 May 1968; Queen’s Assent, 10 June 1..."
+[parser-diag] processed 63 <p> elements
+[parser-diag] last section was added at element index: 30
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 4
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      4
+[db] inserted new legislation row: 72744a81-4f8c-47ce-9e59-324f49eac8cb
+[db] inserting 4 sections (pass 1)
+[db] inserted 4 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Privy Council (Limitation of Appeals) Act 1968
+       legislation_id: 72744a81-4f8c-47ce-9e59-324f49eac8cb
+       sections: 4
+       compilation: 1973-12-31

@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C1910A00025/2017-03-22/2017-03-22/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 162,044 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1910A00025/2017-03-22/2017-03-22/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 162,044 source bytes → 160,035 combined bytes
+[citation] Seat of Government (Administration) Act 1910 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 613
+[parser-diag] processed 613 <p> elements
+[parser-diag] last section was added at element index: 190
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 25
+[parse] compilation: date=2017-03-22 no=11
+[parse] by level:
+         part         6
+         section      18
+         schedule     1
+[db] inserted new legislation row: 104dcfe5-fb2a-424e-9513-200621f1eb13
+[db] inserting 25 sections (pass 1)
+[db] inserted 25 sections
+[db] linking parent FKs (pass 2)
+[db] linked 18 parent references
+
+[done] ingested Seat of Government (Administration) Act 1910
+       legislation_id: 104dcfe5-fb2a-424e-9513-200621f1eb13
+       sections: 25
+       compilation: 2017-03-22

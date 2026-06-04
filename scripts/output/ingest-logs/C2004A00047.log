@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00047/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 59,906 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00047/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 59,906 source bytes → 59,029 combined bytes
+[citation] Sewerage Agreements Act 1973 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 202
+[parser-diag] processed 202 <p> elements
+[parser-diag] last section was added at element index: 36
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 8
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      7
+         schedule     1
+[db] inserted new legislation row: 1e412248-128a-4b63-8632-af521bedab10
+[db] inserting 8 sections (pass 1)
+[db] inserted 8 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Sewerage Agreements Act 1973
+       legislation_id: 1e412248-128a-4b63-8632-af521bedab10
+       sections: 8
+       compilation: 2005-02-22

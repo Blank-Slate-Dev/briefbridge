@@ -1,0 +1,26 @@
+[fetch] document_1: https://www.legislation.gov.au/C1949A00027/1949-07-12/1949-07-12/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 24,046 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1949A00027/1949-07-12/1949-07-12/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 24,046 source bytes → 22,410 combined bytes
+[citation] Genocide Convention Act 1949 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 118
+[parser-diag] processed 118 <p> elements
+[parser-diag] last section was added at element index: -1
+[parser-diag] state phase at end: PRE_BODY
+[parser-diag] hierarchy stack depth at end: 0
+[parser-diag] insideSchedule at end: false
+[parse] sections: 0
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+[db] inserted new legislation row: f6185a8a-7297-4408-8788-92e3c5ce79a6
+[db] inserting 0 sections (pass 1)
+[db] inserted 0 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Genocide Convention Act 1949
+       legislation_id: f6185a8a-7297-4408-8788-92e3c5ce79a6
+       sections: 0
+       compilation: 1949-07-12

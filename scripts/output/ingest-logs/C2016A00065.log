@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2016A00065/2024-05-31/2024-05-31/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 149,691 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2016A00065/2024-05-31/2024-05-31/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 149,691 source bytes → 147,804 combined bytes
+[citation] National Cancer Screening Register Act 2016 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 582
+[parser-diag] processed 582 <p> elements
+[parser-diag] last section was added at element index: 444
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parse] sections: 40
+[parse] compilation: date=2024-05-31 no=4
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         4
+         section      31
+         division     5
+[db] inserted new legislation row: 6793a672-c1f2-4f1c-a99d-cd5caf1bb2e1
+[db] inserting 40 sections (pass 1)
+[db] inserted 40 sections
+[db] linking parent FKs (pass 2)
+[db] linked 36 parent references
+
+[done] ingested National Cancer Screening Register Act 2016
+       legislation_id: 6793a672-c1f2-4f1c-a99d-cd5caf1bb2e1
+       sections: 40
+       compilation: 2024-05-31

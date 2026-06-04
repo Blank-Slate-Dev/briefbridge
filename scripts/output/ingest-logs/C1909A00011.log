@@ -1,0 +1,37 @@
+[fetch] document_1: https://www.legislation.gov.au/C1909A00011/2008-07-04/2008-07-04/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 248,872 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1909A00011/2008-07-04/2008-07-04/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 248,872 source bytes → 248,032 combined bytes
+[citation] Marine Insurance Act 1909 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 757
+[parser-unknown-class] "ActNotesa", text="(a) The Marine Insurance Act 1909 was amended by Schedule 1 (item 259) only of the Financial Serv..."
+[parser-unknown-class] "ActNotes1", text="(1) In this section:"
+[parser-unknown-class] "ActNotes1", text="FSR commencement means the commencement of item 1 of Schedule 1 to the Financial Services Reform ..."
+[parser-unknown-class] "ActNotes1", text="(6) Subject to subsections (7) to (17), the other items of Schedule 1 commence on the FSR commenc..."
+[parser-diag] processed 757 <p> elements
+[parser-diag] last section was added at element index: 559
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 115
+[parse] compilation: date=(none) no=(none)
+[parse] warnings: 2
+  - ActHead1 with unexpected leading word: "Schedules—The First Schedule". Captured as 'schedule' as fallback.
+  - ActHead1 with unexpected leading word: "The Second Schedule". Captured as 'schedule' as fallback.
+[parse] by level:
+         part         9
+         section      92
+         division     12
+         schedule     2
+[db] inserted new legislation row: 9cb34107-dcca-4afb-bb7a-6a9b3a0f94ba
+[db] inserting 115 sections (pass 1)
+[db] inserted 115 sections
+[db] linking parent FKs (pass 2)
+[db] linked 104 parent references
+
+[done] ingested Marine Insurance Act 1909
+       legislation_id: 9cb34107-dcca-4afb-bb7a-6a9b3a0f94ba
+       sections: 115
+       compilation: 2008-07-04

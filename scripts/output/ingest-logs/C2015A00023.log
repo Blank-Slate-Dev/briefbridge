@@ -1,0 +1,48 @@
+[fetch] document_1: https://www.legislation.gov.au/C2015A00023/2015-03-24/2015-03-24/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 31,079 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2015A00023/2015-03-24/2015-03-24/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 31,079 source bytes → 30,046 combined bytes
+[citation] Succession to the Crown Act 2015 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 162
+[parser-unknown-class] "ActHead6", text="Schedule 1—Further provisions relating to marriage and succession to the Crown"
+[parser-unknown-class] "ActHead7", text="Part 1—Amendments relating to marriage to a Roman Catholic"
+[parser-unknown-class] "ActHead9", text="Act of Settlement"
+[parser-unknown-class] "ItemHead", text="1  Preamble"
+[parser-unknown-class] "ItemHead", text="2  Preamble"
+[parser-unknown-class] "ItemHead", text="3  Section 2"
+[parser-unknown-class] "ActHead9", text="Bill of Rights"
+[parser-unknown-class] "ItemHead", text="4  Section 1"
+[parser-unknown-class] "ItemHead", text="5  Section 1"
+[parser-unknown-class] "ItemHead", text="6  Section 1"
+[parser-unknown-class] "ItemHead", text="7  Application of amendments"
+[parser-unknown-class] "ActHead7", text="Part 2—Repeal of the Royal Marriages Act 1772"
+[parser-unknown-class] "ItemHead", text="8  The whole of the Act"
+[parser-unknown-class] "ItemHead", text="9  Validation of some marriages voided by the Royal Marriages Act 1772"
+[parser-unknown-class] "Subitem", text="(1) A marriage that was void under the Royal Marriages Act 1772 of Great Britain, so far as that ..."
+[parser-unknown-class] "Subitem", text="(2) Subitem (1) applies for all purposes except those relating to succession to the Crown."
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 5 March 2015"
+[parser-unknown-class] "2ndRd", text="Senate on 18 March 2015]"
+[parser-diag] processed 162 <p> elements
+[parser-diag] last section was added at element index: 123
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 17
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         5
+         section      12
+[db] inserted new legislation row: e248e36a-775c-418f-8a3c-d6ce2ea33513
+[db] inserting 17 sections (pass 1)
+[db] inserted 17 sections
+[db] linking parent FKs (pass 2)
+[db] linked 12 parent references
+
+[done] ingested Succession to the Crown Act 2015
+       legislation_id: e248e36a-775c-418f-8a3c-d6ce2ea33513
+       sections: 17
+       compilation: 2015-03-24

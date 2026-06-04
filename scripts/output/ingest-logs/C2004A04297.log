@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04297/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 315,136 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04297/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 315,136 source bytes → 312,513 combined bytes
+[citation] Insurance Acquisitions and Takeovers Act 1991 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1155
+[parser-unknown-class] "SOHeadBold", text="Objects of Act"
+[parser-unknown-class] "SOHeadBold", text="Simplified outline of Act"
+[parser-diag] processed 1155 <p> elements
+[parser-diag] last section was added at element index: 742
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 75
+[parse] compilation: date=2025-02-21 no=25
+[parse] by level:
+         part         7
+         section      60
+         division     8
+[db] inserted new legislation row: 64563b0c-79e5-4010-98b2-e5bda8b28a06
+[db] inserting 75 sections (pass 1)
+[db] inserted 75 sections
+[db] linking parent FKs (pass 2)
+[db] linked 68 parent references
+
+[done] ingested Insurance Acquisitions and Takeovers Act 1991
+       legislation_id: 64563b0c-79e5-4010-98b2-e5bda8b28a06
+       sections: 75
+       compilation: 2025-02-21

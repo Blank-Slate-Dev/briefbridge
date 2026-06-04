@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2021A00027/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 251,667 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2021A00027/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 251,667 source bytes → 249,388 combined bytes
+[citation] Industrial Chemicals Environmental Management (Register) Act 2021 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 968
+[parser-diag] processed 968 <p> elements
+[parser-diag] last section was added at element index: 829
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 95
+[parse] compilation: date=2024-10-14 no=3
+[parse] by level:
+         part         6
+         section      76
+         division     13
+[db] inserted new legislation row: d6535f60-a628-45f5-895a-a2882a5cddd4
+[db] inserting 95 sections (pass 1)
+[db] inserted 95 sections
+[db] linking parent FKs (pass 2)
+[db] linked 89 parent references
+
+[done] ingested Industrial Chemicals Environmental Management (Register) Act 2021
+       legislation_id: d6535f60-a628-45f5-895a-a2882a5cddd4
+       sections: 95
+       compilation: 2024-10-14

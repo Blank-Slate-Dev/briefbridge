@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02729/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 357,347 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02729/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 357,347 source bytes → 354,804 combined bytes
+[citation] Taxation (Interest on Overpayments and Early Payments) Act 1983 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1375
+[parser-diag] processed 1375 <p> elements
+[parser-diag] last section was added at element index: 598
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 63
+[parse] compilation: date=2024-10-14 no=58
+[parse] by level:
+         part         13
+         section      50
+[db] inserted new legislation row: 6de81d4d-1cd9-4fe9-8779-166dd31d1285
+[db] inserting 63 sections (pass 1)
+[db] inserted 63 sections
+[db] linking parent FKs (pass 2)
+[db] linked 50 parent references
+
+[done] ingested Taxation (Interest on Overpayments and Early Payments) Act 1983
+       legislation_id: 6de81d4d-1cd9-4fe9-8779-166dd31d1285
+       sections: 63
+       compilation: 2024-10-14

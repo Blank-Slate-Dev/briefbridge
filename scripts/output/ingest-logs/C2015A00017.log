@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2015A00017/2015-03-19/2015-03-19/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 8,175 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2015A00017/2015-03-19/2015-03-19/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 8,175 source bytes → 7,111 combined bytes
+[citation] Excess Exploration Credit Tax Act 2015 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 60
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 4 December 2014"
+[parser-unknown-class] "2ndRd", text="Senate on 2 March 2015]"
+[parser-diag] processed 60 <p> elements
+[parser-diag] last section was added at element index: 47
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 5
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      5
+[db] inserted new legislation row: 85b8fc26-cc22-4f8b-ba9d-fa01d57d8f2e
+[db] inserting 5 sections (pass 1)
+[db] inserted 5 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Excess Exploration Credit Tax Act 2015
+       legislation_id: 85b8fc26-cc22-4f8b-ba9d-fa01d57d8f2e
+       sections: 5
+       compilation: 2015-03-19

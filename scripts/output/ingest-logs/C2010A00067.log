@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2010A00067/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 330,398 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2010A00067/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 330,398 source bytes → 328,355 combined bytes
+[citation] Building Energy Efficiency Disclosure Act 2010 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1241
+[parser-diag] processed 1241 <p> elements
+[parser-diag] last section was added at element index: 964
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 82
+[parse] compilation: date=2024-10-14 no=8
+[parse] by level:
+         part         6
+         section      63
+         division     13
+[db] inserted new legislation row: 2bc98574-13fa-4a83-9cf7-ede6fbf33823
+[db] inserting 82 sections (pass 1)
+[db] inserted 82 sections
+[db] linking parent FKs (pass 2)
+[db] linked 76 parent references
+
+[done] ingested Building Energy Efficiency Disclosure Act 2010
+       legislation_id: 2bc98574-13fa-4a83-9cf7-ede6fbf33823
+       sections: 82
+       compilation: 2024-10-14

@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2007A00110/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 7,968 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2007A00110/2007-06-28/2007-06-28/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 7,968 source bytes → 6,924 combined bytes
+[citation] Migration (Sponsorship Fees) Act 2007 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 53
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 30 May 2007"
+[parser-unknown-class] "2ndRd", text="Senate on 14 June 2007]"
+[parser-diag] processed 53 <p> elements
+[parser-diag] last section was added at element index: 39
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: 68ec9e35-c626-454f-8177-4007d42faed3
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Migration (Sponsorship Fees) Act 2007
+       legislation_id: 68ec9e35-c626-454f-8177-4007d42faed3
+       sections: 3
+       compilation: 2007-06-28

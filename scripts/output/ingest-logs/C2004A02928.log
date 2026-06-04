@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02928/2026-03-14/2026-03-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 185,169 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02928/2026-03-14/2026-03-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 185,169 source bytes → 182,936 combined bytes
+[citation] Members of Parliament (Staff) Act 1984 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 755
+[parser-diag] processed 755 <p> elements
+[parser-diag] last section was added at element index: 398
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 34
+[parse] compilation: date=2026-03-14 no=9
+[parse] by level:
+         part         4
+         section      30
+[db] inserted new legislation row: 572d71fc-564e-44d9-9341-eb7ae6e22530
+[db] inserting 34 sections (pass 1)
+[db] inserted 34 sections
+[db] linking parent FKs (pass 2)
+[db] linked 30 parent references
+
+[done] ingested Members of Parliament (Staff) Act 1984
+       legislation_id: 572d71fc-564e-44d9-9341-eb7ae6e22530
+       sections: 34
+       compilation: 2026-03-14

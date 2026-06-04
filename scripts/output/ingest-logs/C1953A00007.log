@@ -1,0 +1,46 @@
+[fetch] document_1: https://www.legislation.gov.au/C1953A00007/2008-07-04/2008-07-04/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 76,003 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1953A00007/2008-07-04/2008-07-04/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 76,003 source bytes → 74,893 combined bytes
+[citation] Heard Island and McDonald Islands Act 1953 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 260
+[parser-unknown-class] "ActNotesa", text="(a) The Heard Island and McDonald Islands Act 1953 was amended by Part XXIV (sections 156 and 157..."
+[parser-unknown-class] "ActNotes1", text="(12) The remaining provisions of this Act shall come into operation on the twenty‑eighth day afte..."
+[parser-unknown-class] "ActNotesa", text="(b) The Statute Law (Miscellaneous Amendments) Act (No. 1) 1982 was amended by Part LXXI (section..."
+[parser-unknown-class] "ActNotes1", text="(11) Part XLIX and LXXI shall be deemed to have come into operation on 4 June 1982."
+[parser-unknown-class] "ActNotesa", text="(c) The Heard Island and McDonald Islands Act 1953 was amended by section 3 only of the Statute L..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act shall come into operation on the twenty‑eighth day after th..."
+[parser-unknown-class] "ActNotesa", text="(d) The Heard Island and McDonald Islands Act 1953 was amended by section 3 only of the Statute L..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act shall come into operation on the day on which it receives R..."
+[parser-unknown-class] "ActNotesa", text="(e) The Heard Island and McDonald Islands Act 1953 was amended by section 32 only of the A.C.T. S..."
+[parser-unknown-class] "ActNotes1", text="(3) The remaining provisions of this Act (including the amendments made by Schedule 5) commence o..."
+[parser-unknown-class] "ActNotesa", text="(f) The Heard Island and McDonald Islands Act 1953 was amended by subsection 74(1) only of the Cr..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act commences on the day on which it receives the Royal Assent."
+[parser-unknown-class] "TableA0", text="Table A"
+[parser-unknown-class] "TableAHead", text="Application, saving or transitional provisions"
+[parser-unknown-class] "TableAHeadItal", text="Transport and Regional Services Legislation Amendment (Application of Criminal Code) Act 2001 (No..."
+[parser-diag] processed 260 <p> elements
+[parser-diag] last section was added at element index: 255
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 18
+[parse] compilation: date=(none) no=(none)
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule—Heard Island and McDonald Islands". Captured as 'schedule' as fallback.
+[parse] by level:
+         section      16
+         schedule     1
+         schedule_clause 1
+[db] inserted new legislation row: c8f850ba-812d-4bc5-be7b-1f59ae08ed57
+[db] inserting 18 sections (pass 1)
+[db] inserted 18 sections
+[db] linking parent FKs (pass 2)
+[db] linked 1 parent references
+
+[done] ingested Heard Island and McDonald Islands Act 1953
+       legislation_id: c8f850ba-812d-4bc5-be7b-1f59ae08ed57
+       sections: 18
+       compilation: 2008-07-04

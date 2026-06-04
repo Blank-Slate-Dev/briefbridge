@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00044/1973-10-19/1973-10-19/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 7,845 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00044/1973-10-19/1973-10-19/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 7,845 source bytes → 6,743 combined bytes
+[citation] Royal Style and Titles Act 1973 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 44
+[parser-diag] processed 44 <p> elements
+[parser-diag] last section was added at element index: 40
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      2
+         schedule     1
+[db] inserted new legislation row: f2752f4f-c662-4c8c-9f4f-4299ff976444
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Royal Style and Titles Act 1973
+       legislation_id: f2752f4f-c662-4c8c-9f4f-4299ff976444
+       sections: 3
+       compilation: 1973-10-19

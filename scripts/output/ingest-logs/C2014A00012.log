@@ -1,0 +1,34 @@
+[fetch] document_1: https://www.legislation.gov.au/C2014A00012/2022-04-08/2022-04-08/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 464,171 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2014A00012/2022-04-08/2022-04-08/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 464,171 source bytes → 462,015 combined bytes
+[citation] Farm Household Support Act 2014 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1763
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the dollar amount that is waived."
+[parser-unknown-class] "BoxStep", text="Step 2. Divide the amount at step 1 by $45."
+[parser-unknown-class] "BoxStep", text="Step 3. Round the result at step 2 down to the nearest whole number."
+[parser-unknown-class] "BoxStep", text="Step 4. The result at step 3 is the number of days."
+[parser-diag] processed 1763 <p> elements
+[parser-diag] last section was added at element index: 1376
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 141
+[parse] compilation: date=2022-04-08 no=23
+[parse] by level:
+         part         8
+         section      108
+         division     15
+         subdivision  10
+[db] inserted new legislation row: 13d2d7b1-8039-42b0-b908-69de5a672f4c
+[db] inserting 141 sections (pass 1)
+[db] inserted 141 sections
+[db] linking parent FKs (pass 2)
+[db] linked 133 parent references
+
+[done] ingested Farm Household Support Act 2014
+       legislation_id: 13d2d7b1-8039-42b0-b908-69de5a672f4c
+       sections: 141
+       compilation: 2022-04-08

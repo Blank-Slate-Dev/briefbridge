@@ -1,0 +1,49 @@
+[fetch] document_1: https://www.legislation.gov.au/C2016A00066/2016-10-20/2016-10-20/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 17,332 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2016A00066/2016-10-20/2016-10-20/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 17,332 source bytes → 16,262 combined bytes
+[citation] National Cancer Screening Register (Consequential and Transitional Provisions) Act 2016 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 96
+[parser-unknown-class] "ActHead6", text="Schedule 1—Amendments"
+[parser-unknown-class] "ActHead7", text="Part 1—Amendments"
+[parser-unknown-class] "ActHead9", text="Australian Immunisation Register Act 2015"
+[parser-unknown-class] "ItemHead", text="1  After paragraph 22(2)(c)"
+[parser-unknown-class] "ActHead9", text="Freedom of Information Act 1982"
+[parser-unknown-class] "ItemHead", text="2  Schedule 3"
+[parser-unknown-class] "ActHead9", text="Health Insurance Act 1973"
+[parser-unknown-class] "ItemHead", text="3  After subsection 130(5G)"
+[parser-unknown-class] "ActHead7", text="Part 2—Application and transitional provisions"
+[parser-unknown-class] "ItemHead", text="4  Definitions"
+[parser-unknown-class] "Subitem", text="(1) In this Part:"
+[parser-unknown-class] "Subitem", text="(2) An expression used in this Part has the same meaning as in the National Cancer Screening Regi..."
+[parser-unknown-class] "ItemHead", text="5  Transfer of information from State and Territory databases"
+[parser-unknown-class] "Subitem", text="(1) A State or Territory authority is authorised to use and disclose information in a prescribed ..."
+[parser-unknown-class] "Subitem", text="(2) For the purposes of the National Cancer Screening Register Act 2016, information disclosed to..."
+[parser-unknown-class] "Subitem", text="(3) The Minister administering the National Cancer Screening Register Act 2016 may, by legislativ..."
+[parser-unknown-class] "Subitem", text="(4) This item applies despite any law of the Commonwealth, a State or a Territory."
+[parser-unknown-class] "ItemHead", text="6  Application of civil penalty for reporting requirement"
+[parser-unknown-class] "Subitem", text="Subsection 13(2) of the National Cancer Screening Register Act 2016 does not apply before 1 May 2..."
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 31 August 2016"
+[parser-unknown-class] "2ndRd", text="Senate on 12 October 2016]"
+[parser-diag] processed 96 <p> elements
+[parser-diag] last section was added at element index: 62
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: 06fe3593-8326-41a2-bc48-88a1a020d479
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested National Cancer Screening Register (Consequential and Transitional Provisions) Act 2016
+       legislation_id: 06fe3593-8326-41a2-bc48-88a1a020d479
+       sections: 3
+       compilation: 2016-10-20

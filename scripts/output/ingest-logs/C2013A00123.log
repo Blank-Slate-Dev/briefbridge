@@ -1,0 +1,46 @@
+[fetch] document_1: https://www.legislation.gov.au/C2013A00123/2017-08-23/2017-08-23/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 498,376 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2013A00123/2017-08-23/2017-08-23/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 498,376 source bytes → 494,805 combined bytes
+[citation] Public Governance, Performance and Accountability Act 2013 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1794
+[parser-unknown-class] "BoxHeadBold", text="Overview"
+[parser-unknown-class] "BoxHeadBold", text="Chapter 2—Commonwealth entities and the Commonwealth"
+[parser-unknown-class] "BoxHeadBold", text="Part 2‑1—Core provisions for Chapter 2"
+[parser-unknown-class] "BoxHeadBold", text="Part 2‑2—Accountable authorities and officials"
+[parser-unknown-class] "BoxHeadBold", text="Part 2‑3—Planning, performance and accountability"
+[parser-unknown-class] "BoxHeadBold", text="Part 2‑4—Use and management of public resources"
+[parser-unknown-class] "BoxHeadBold", text="Part 2‑5—Appropriations"
+[parser-unknown-class] "BoxHeadBold", text="Part 2‑6—Cooperating with other jurisdictions"
+[parser-unknown-class] "BoxHeadBold", text="Part 2‑7—Companies, subsidiaries and new corporate Commonwealth entities"
+[parser-unknown-class] "BoxHeadBold", text="Chapter 3—Commonwealth companies"
+[parser-unknown-class] "BoxHeadBold", text="Part 3‑1—General"
+[parser-unknown-class] "BoxHeadBold", text="Part 3‑2—Planning and accountability"
+[parser-unknown-class] "BoxHeadBold", text="Chapter 4—Rules, delegations and independent review"
+[parser-unknown-class] "BoxHeadBold", text="Part 4‑1—The rules"
+[parser-unknown-class] "BoxHeadBold", text="Part 4‑2—Delegations"
+[parser-diag] processed 1794 <p> elements
+[parser-diag] last section was added at element index: 1427
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 4
+[parser-diag] insideSchedule at end: false
+[parse] sections: 199
+[parse] compilation: date=2017-08-23 no=4
+[parse] by level:
+         chapter      4
+         part         15
+         division     50
+         section      118
+         subdivision  12
+[db] inserted new legislation row: 9a2382ed-a533-4d39-afef-9241c631e729
+[db] inserting 199 sections (pass 1)
+[db] inserted 199 sections
+[db] linking parent FKs (pass 2)
+[db] linked 195 parent references
+
+[done] ingested Public Governance, Performance and Accountability Act 2013
+       legislation_id: 9a2382ed-a533-4d39-afef-9241c631e729
+       sections: 199
+       compilation: 2017-08-23

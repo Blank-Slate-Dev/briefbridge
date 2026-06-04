@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03774/2016-03-10/2016-03-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 103,000 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03774/2016-03-10/2016-03-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 103,000 source bytes → 100,891 combined bytes
+[citation] Crimes (Hostages) Act 1989 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 399
+[parser-diag] processed 399 <p> elements
+[parser-diag] last section was added at element index: 164
+[parser-diag] state phase at end: ENDNOTES
+[parse] sections: 17
+[parse] compilation: date=2016-03-10 no=6
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         section      16
+         schedule     1
+[db] inserted new legislation row: 44e0d091-1d0b-4e5e-a4fe-eb6c08af7a93
+[db] inserting 17 sections (pass 1)
+[db] inserted 17 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Crimes (Hostages) Act 1989
+       legislation_id: 44e0d091-1d0b-4e5e-a4fe-eb6c08af7a93
+       sections: 17
+       compilation: 2016-03-10

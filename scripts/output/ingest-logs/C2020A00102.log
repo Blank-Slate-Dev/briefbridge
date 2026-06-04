@@ -1,0 +1,38 @@
+[fetch] document_1: https://www.legislation.gov.au/C2020A00102/2020-11-20/2020-11-20/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 49,352 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2020A00102/2020-11-20/2020-11-20/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 49,352 source bytes → 47,668 combined bytes
+[citation] Higher Education (Up-front Payments Tuition Protection Levy) Act 2020 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 202
+[parser-unknown-class] "BoxStep", text="Step 1: Multiply the total up‑front fee paying students (as reduced under subsection (3)) for the..."
+[parser-unknown-class] "BoxStep", text="Step 2: Multiply the amount equal to the sum of each up‑front payment received, directly or indir..."
+[parser-unknown-class] "BoxStep", text="Step 3: Add up the results of steps 1 and 2."
+[parser-unknown-class] "BoxStep", text="Step 4: For each risk factor determined in an instrument under section 13 for the purposes of thi..."
+[parser-unknown-class] "BoxStep", text="Step 5: Add up the results of step 4 and add 1."
+[parser-unknown-class] "BoxStep", text="Step 6: Multiply the results of step 3 by the results of step 5. The result is the provider’s ris..."
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 26 August 2020"
+[parser-unknown-class] "2ndRd", text="Senate on 10 November 2020]"
+[parser-diag] processed 202 <p> elements
+[parser-diag] last section was added at element index: 188
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 18
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         3
+         section      15
+[db] inserted new legislation row: 4bc52d66-876c-4aac-90e1-fe9401544bc5
+[db] inserting 18 sections (pass 1)
+[db] inserted 18 sections
+[db] linking parent FKs (pass 2)
+[db] linked 15 parent references
+
+[done] ingested Higher Education (Up-front Payments Tuition Protection Levy) Act 2020
+       legislation_id: 4bc52d66-876c-4aac-90e1-fe9401544bc5
+       sections: 18
+       compilation: 2020-11-20

@@ -229,6 +229,43 @@ export function parseLegislationHtml(
 }
 
 // =============================================================================
+// Non-operative noise classes (skip outright)
+// =============================================================================
+//
+// Across the full Cth corpus (1,259 Acts, multiple legislation.gov.au template
+// eras) the document body is littered with classes that are NEVER operative
+// law: compilation amendment tables, tables-of-sections / alternate TOCs,
+// endnote-metadata headers, and page chrome. The parser's default behaviour
+// appends unknown classes to the nearest section, which would pollute that
+// section's text and bloat its embedding with amendment codes and
+// contents-listings. We skip them outright.
+//
+// IMPORTANT: this is a POSITION-INDEPENDENT, class-based skip — not an
+// ENDNOTES-phase trigger. These classes are non-substantive wherever they
+// appear, so dropping them cannot truncate real content (unlike a phase
+// trigger, which risked swallowing Schedules in multi-volume Acts). Classes
+// that carry actual content under non-standard names (treaty Articles,
+// agreement text, scheduled conventions, body-text variants) are deliberately
+// NOT listed here — they continue to be captured via append.
+const NOISE_CLASSES = new Set<string>([
+  // Compilation amendment tables (endnotes)
+  'TableOfActs1', 'TableOfActs2', 'TableOfActsHead',
+  'TableOfAmend', 'TableOfAmendHead', 'TableOfAmend0pt', 'TableOfAmendOpt',
+  'CTA-', 'CTA--', 'CTA---', 'CTA----', 'CTACAPS', 'CTA3a', 'CTA4a', 'CTA3ai',
+  // Endnote metadata / notes-section headers / amendment annotations
+  'NotesSection', 'EndNote', 'EndnoteText',
+  'ENoteNo', 'ENoteTableText', 'ENoteTableHeading', 'ENoteTTi',
+  'ENoteTTIndentHeading', 'asamended', 'asamendedital',
+  // Tables-of-sections (navigational)
+  'TofSectsSection', 'TofSectsHeading', 'TofSectsSubdiv', 'TofSectsGroupHeading',
+  // Alternate / special TOC variants
+  'TOC1A', 'TOC2A', 'TOC3A', 'TOC4A',
+  'SpecialTOC1', 'SpecialTOC2', 'SpecialTOC3', 'SpecialTOC4', 'SpecialTOC5',
+  // Page chrome
+  'PageBreak', 'Footer', 'FootnoteText', 'AssentBk',
+]);
+
+// =============================================================================
 // Parser state machine
 // =============================================================================
 
@@ -331,6 +368,13 @@ class ParserState {
       cls === 'TOC5' ||
       cls === 'Header'
     ) {
+      return;
+    }
+
+    // Skip Bucket-1 noise (compilation tables, tables-of-sections, endnote
+    // metadata, page chrome). Position-independent and non-substantive, so
+    // this never drops operative law — see NOISE_CLASSES above.
+    if (NOISE_CLASSES.has(cls)) {
       return;
     }
 

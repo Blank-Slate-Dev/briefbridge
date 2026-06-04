@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C1947A00023/2014-07-01/2014-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 84,230 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1947A00023/2014-07-01/2014-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 84,230 source bytes → 82,737 combined bytes
+[citation] Services Trust Funds Act 1947 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 380
+[parser-diag] processed 380 <p> elements
+[parser-diag] last section was added at element index: 132
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 27
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         6
+         section      21
+[db] inserted new legislation row: bcd0832a-9074-4586-bbfc-43b00bd1bac7
+[db] inserting 27 sections (pass 1)
+[db] inserted 27 sections
+[db] linking parent FKs (pass 2)
+[db] linked 21 parent references
+
+[done] ingested Services Trust Funds Act 1947
+       legislation_id: bcd0832a-9074-4586-bbfc-43b00bd1bac7
+       sections: 27
+       compilation: 2014-07-01

@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2006A00088/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 375,367 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2006A00088/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 375,367 source bytes → 372,888 combined bytes
+[citation] Do Not Call Register Act 2006 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1472
+[parser-diag] processed 1472 <p> elements
+[parser-diag] last section was added at element index: 1162
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parse] sections: 90
+[parse] compilation: date=2021-09-01 no=16
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         part         7
+         section      50
+         schedule     4
+         schedule_clause 29
+[db] inserted new legislation row: 3ef8d193-8d92-4af1-bb10-e8e33931ba38
+[db] inserting 90 sections (pass 1)
+[db] inserted 90 sections
+[db] linking parent FKs (pass 2)
+[db] linked 79 parent references
+
+[done] ingested Do Not Call Register Act 2006
+       legislation_id: 3ef8d193-8d92-4af1-bb10-e8e33931ba38
+       sections: 90
+       compilation: 2021-09-01

@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03627/2022-02-18/2022-02-18/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 195,922 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03627/2022-02-18/2022-02-18/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 195,922 source bytes → 193,927 combined bytes
+[citation] Admiralty Act 1988 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 737
+[parser-diag] processed 737 <p> elements
+[parser-diag] last section was added at element index: 493
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 54
+[parse] compilation: date=2022-02-18 no=22
+[parse] by level:
+         part         6
+         section      48
+[db] inserted new legislation row: 4f8fd12c-1b6a-4eb4-a554-e9218d5ed1b3
+[db] inserting 54 sections (pass 1)
+[db] inserted 54 sections
+[db] linking parent FKs (pass 2)
+[db] linked 48 parent references
+
+[done] ingested Admiralty Act 1988
+       legislation_id: 4f8fd12c-1b6a-4eb4-a554-e9218d5ed1b3
+       sections: 54
+       compilation: 2022-02-18

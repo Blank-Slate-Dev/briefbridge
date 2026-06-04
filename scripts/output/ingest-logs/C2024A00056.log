@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2024A00056/2024-07-09/2024-07-09/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 75,740 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2024A00056/2024-07-09/2024-07-09/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 75,740 source bytes → 73,067 combined bytes
+[citation] Primary Industries (Excise) Levies Act 2024 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 320
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 18 October 2023"
+[parser-unknown-class] "2ndRd", text="Senate on 16 November 2023]"
+[parser-diag] processed 320 <p> elements
+[parser-diag] last section was added at element index: 287
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 34
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         7
+         section      27
+[db] inserted new legislation row: 6bceeeec-8b5a-4203-baa2-fbb94918c047
+[db] inserting 34 sections (pass 1)
+[db] inserted 34 sections
+[db] linking parent FKs (pass 2)
+[db] linked 27 parent references
+
+[done] ingested Primary Industries (Excise) Levies Act 2024
+       legislation_id: 6bceeeec-8b5a-4203-baa2-fbb94918c047
+       sections: 34
+       compilation: 2024-07-09

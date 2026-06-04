@@ -1,0 +1,37 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01387/2026-01-22/2026-01-22/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,310,875 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01387/2026-01-22/2026-01-22/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,310,875 source bytes → 1,307,902 combined bytes
+[citation] Surveillance Devices Act 2004 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 4437
+[parser-unknown-class] "ActHead9", text="Australian Federal Police Act 1979"
+[parser-unknown-class] "ItemHead", text="1  Division 2 of Part II"
+[parser-unknown-class] "ItemHead", text="2  Transitional and saving provision"
+[parser-unknown-class] "ItemHead", text="3  Operation of Division 2 of Part II of the Australian Federal Police Act 1979 preserved for lim..."
+[parser-unknown-class] "ActHead9", text="Customs Act 1901"
+[parser-unknown-class] "ItemHead", text="5  Division 1A of Part XII"
+[parser-unknown-class] "ItemHead", text="6  Transitional and saving provision"
+[parser-diag] processed 4437 <p> elements
+[parser-diag] last section was added at element index: 3568
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 150
+[parse] compilation: date=2026-01-22 no=60
+[parse] by level:
+         part         7
+         section      132
+         division     10
+         schedule     1
+[db] inserted new legislation row: b18380d5-1aae-4e1b-81b7-f0ffb3d37216
+[db] inserting 150 sections (pass 1)
+[db] inserted 150 sections
+[db] linking parent FKs (pass 2)
+[db] linked 142 parent references
+
+[done] ingested Surveillance Devices Act 2004
+       legislation_id: b18380d5-1aae-4e1b-81b7-f0ffb3d37216
+       sections: 150
+       compilation: 2026-01-22

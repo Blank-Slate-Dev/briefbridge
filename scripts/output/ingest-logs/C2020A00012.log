@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2020A00012/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 2,223,242 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2020A00012/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 2,223,242 source bytes → 2,219,978 combined bytes
+[citation] Export Control Act 2020 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 8225
+[parser-diag] processed 8225 <p> elements
+[parser-diag] last section was added at element index: 7788
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 4
+[parser-diag] insideSchedule at end: false
+[parse] sections: 679
+[parse] compilation: date=2025-01-01 no=9
+[parse] by level:
+         chapter      11
+         part         68
+         section      465
+         division     125
+         subdivision  10
+[db] inserted new legislation row: a2fa7f4a-968a-47b7-85ee-696bc7a35e0a
+[db] inserting 679 sections (pass 1)
+[db] inserted 679 sections
+[db] linking parent FKs (pass 2)
+[db] linked 668 parent references
+
+[done] ingested Export Control Act 2020
+       legislation_id: a2fa7f4a-968a-47b7-85ee-696bc7a35e0a
+       sections: 679
+       compilation: 2025-01-01

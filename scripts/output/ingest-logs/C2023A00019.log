@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2023A00019/2023-06-15/2023-06-15/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 22,088 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2023A00019/2023-06-15/2023-06-15/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 22,088 source bytes → 17,634 combined bytes
+[citation] Home Affairs Act 2023 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 96
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 15 June 2023"
+[parser-unknown-class] "2ndRd", text="Senate on 15 June 2023]"
+[parser-diag] processed 96 <p> elements
+[parser-diag] last section was added at element index: 70
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 7
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      7
+[db] inserted new legislation row: 59186ae5-0773-4571-9113-345114c42fb1
+[db] inserting 7 sections (pass 1)
+[db] inserted 7 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Home Affairs Act 2023
+       legislation_id: 59186ae5-0773-4571-9113-345114c42fb1
+       sections: 7
+       compilation: 2023-06-15

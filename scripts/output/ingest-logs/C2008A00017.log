@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2008A00017/2024-04-15/2024-04-15/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 217,339 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2008A00017/2024-04-15/2024-04-15/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 217,339 source bytes → 215,342 combined bytes
+[citation] Infrastructure Australia Act 2008 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 916
+[parser-diag] processed 916 <p> elements
+[parser-diag] last section was added at element index: 527
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 74
+[parse] compilation: date=2024-04-15 no=9
+[parse] by level:
+         part         7
+         section      62
+         division     5
+[db] inserted new legislation row: d649f47d-5925-4f17-ae94-f98043a737d4
+[db] inserting 74 sections (pass 1)
+[db] inserted 74 sections
+[db] linking parent FKs (pass 2)
+[db] linked 67 parent references
+
+[done] ingested Infrastructure Australia Act 2008
+       legislation_id: d649f47d-5925-4f17-ae94-f98043a737d4
+       sections: 74
+       compilation: 2024-04-15

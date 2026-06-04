@@ -1,0 +1,52 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04910/2013-06-29/2013-06-29/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 57,296 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04910/2013-06-29/2013-06-29/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 57,296 source bytes → 55,714 combined bytes
+[citation] Overseas Missions (Privileges and Immunities) Act 1995 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 226
+[parser-unknown-class] "PlainText", text="1. Inviolability of premises of, or occupied by, the mission."
+[parser-unknown-class] "PlainText", text="2. Inviolability of property and assets of, or in the custody of, or administered by, the mission."
+[parser-unknown-class] "PlainText", text="3. Exemption of property and assets of, or in the custody of, or administered by, the mission fro..."
+[parser-unknown-class] "PlainText", text="4. Inviolability of official documents and archives of the mission."
+[parser-unknown-class] "PlainText", text="5. Freedom of communication for all official purposes of the mission."
+[parser-unknown-class] "PlainText", text="6. Absence of censorship of official communications of the mission."
+[parser-unknown-class] "PlainText", text="7. The right to use codes and to send and receive official documents by courier or in a sealed ba..."
+[parser-unknown-class] "PlainText", text="8. Exemption from taxation of fees and charges imposed by the mission in the course of its offici..."
+[parser-unknown-class] "PlainText", text="9. Exemption from taxation of premises of, or occupied by, the mission, where the taxation is imp..."
+[parser-unknown-class] "PlainText", text="10. Exemption from taxation of the head of mission's residence, where the taxation is imposed dir..."
+[parser-unknown-class] "PlainText", text="11. Exemption from taxation of the residence of a member of the staff of the mission, where the t..."
+[parser-unknown-class] "PlainText", text="12. Exemption from taxation of articles for the official use of the mission."
+[parser-unknown-class] "PlainText", text=""
+[parser-unknown-class] "PlainText", text="1. Inviolability of private residences."
+[parser-unknown-class] "PlainText", text="2. Exemption from taxation."
+[parser-unknown-class] "PlainText", text="3. Exemption from the application of laws relating to immigration or work permits."
+[parser-unknown-class] "PlainText", text="4. Exemption from obligations under social security laws."
+[parser-unknown-class] "PlainText", text="5. Exemption from inspection of personal baggage accompanying persons entering or leaving Austral..."
+[parser-unknown-class] "PlainText", text="6. Immunity from arrest, search or detention."
+[parser-unknown-class] "PlainText", text="7. Immunity from criminal, civil and administrative jurisdiction."
+[parser-unknown-class] "PlainText", text="8. Exemption from obligations to give evidence in judicial or"
+[parser-unknown-class] "PlainText", text="administrative proceedings."
+[parser-unknown-class] "PlainText", text="9. Exemption from restrictions on the export of movable property"
+[parser-unknown-class] "PlainText", text="of a deceased person."
+[parser-diag] processed 226 <p> elements
+[parser-diag] last section was added at element index: 154
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 16
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      14
+         schedule     2
+[db] inserted new legislation row: 4d1a1b49-a93f-4c89-bf3a-fb4ad56c47fc
+[db] inserting 16 sections (pass 1)
+[db] inserted 16 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Overseas Missions (Privileges and Immunities) Act 1995
+       legislation_id: 4d1a1b49-a93f-4c89-bf3a-fb4ad56c47fc
+       sections: 16
+       compilation: 2013-06-29

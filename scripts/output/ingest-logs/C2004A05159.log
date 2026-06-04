@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05159/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 946,191 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05159/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 946,191 source bytes → 943,793 combined bytes
+[citation] Retirement Savings Accounts Act 1997 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3458
+[parser-unknown-class] "BoxHeadBold", text="Brief summary of the Act"
+[parser-diag] processed 3458 <p> elements
+[parser-diag] last section was added at element index: 2372
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 248
+[parse] compilation: date=2025-02-21 no=50
+[parse] by level:
+         part         16
+         division     29
+         section      201
+         subdivision  2
+[db] inserted new legislation row: eeef777e-52af-43bd-9b40-5f23ccc91a1e
+[db] inserting 248 sections (pass 1)
+[db] inserted 248 sections
+[db] linking parent FKs (pass 2)
+[db] linked 232 parent references
+
+[done] ingested Retirement Savings Accounts Act 1997
+       legislation_id: eeef777e-52af-43bd-9b40-5f23ccc91a1e
+       sections: 248
+       compilation: 2025-02-21

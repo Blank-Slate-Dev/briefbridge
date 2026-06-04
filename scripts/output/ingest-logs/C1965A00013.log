@@ -1,0 +1,55 @@
+[fetch] document_1: https://www.legislation.gov.au/C1965A00013/2013-01-01/2013-01-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 42,876 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1965A00013/2013-01-01/2013-01-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 42,876 source bytes → 41,802 combined bytes
+[citation] Jury Exemption Act 1965 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 158
+[parser-unknown-class] "ActNotesa", text="(a) The Jury Exemption Act 1965 was amended by section 116 only of the Statute Law Revision Act 1..."
+[parser-unknown-class] "ActNotes1", text="(2) Parts III, X and XV and section 116 shall come into operation on a date to be fixed by Procla..."
+[parser-unknown-class] "ActNotesa", text="(b) The Jury Exemption Act 1965 was amended by Schedule 5 (item 75) only of the Statute Law Revis..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to subsections (2) and (3), this Act commences on the day on which it receives the Ro..."
+[parser-unknown-class] "ActNotesa", text="(c) The Jury Exemption Act 1965 was amended by Schedule 11 only of the Law and Justice Legislatio..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act commences on the day on which it receives the Royal Assent."
+[parser-unknown-class] "ActNotesa", text="(d) The Jury Exemption Act 1965 was amended by Schedule 2 (item 63) only of the Defence Legislati..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act commences on the 28th day after the day on which it receive..."
+[parser-unknown-class] "ActNotesa", text="(e) Subsection 2(1) (items 13 and 21) of the Fair Work (State Referral and Consequential and Othe..."
+[parser-unknown-class] "ActNotes1", text="(1) Each provision of this Act specified in column 1 of the table commences, or is taken to have ..."
+[parser-unknown-class] "ActNotesa", text=""
+[parser-unknown-class] "TableA0", text="Table A"
+[parser-unknown-class] "TableAHead", text="Application, saving or transitional provisions"
+[parser-unknown-class] "TableAHeadItal", text="Defence Legislation Amendment (Enhancement of the Reserves and Modernisation) Act 2001 (No. 10, 2..."
+[parser-unknown-class] "ItemHead", text="Schedule 2"
+[parser-unknown-class] "ItemHead", text="94  Saving—old regulations"
+[parser-unknown-class] "Subitem", text="(1) Regulations that were in effect under any Act immediately before the commencement of this ite..."
+[parser-unknown-class] "Subitem", text="(2) However, regulations that continue in effect under this item do so only to the extent that th..."
+[parser-unknown-class] "ItemHead", text="95  Regulations about transitional matters"
+[parser-unknown-class] "Subitem", text="(1) The regulations may make provision in relation to other saving and transitional matters in co..."
+[parser-unknown-class] "Subitem", text="(2) In particular, such regulations may deal with the status, after the commencement of the amend..."
+[parser-unknown-class] "Subitem", text="(3) Subitem (2) does not limit the scope of subitem (1)."
+[parser-unknown-class] "TableAHeadItal", text="Fair Work (State Referral and Consequential and Other Amendments) Act 2009 (No. 54, 2009)"
+[parser-unknown-class] "ItemHead", text="Schedule 5"
+[parser-unknown-class] "ItemHead", text="86  Application of items 40 and 41"
+[parser-diag] processed 158 <p> elements
+[parser-diag] last section was added at element index: 37
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 5
+[parse] compilation: date=(none) no=(none)
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule". Captured as 'schedule' as fallback.
+[parse] by level:
+         section      4
+         schedule     1
+[db] inserted new legislation row: 30d17bba-e0cf-4eec-9a49-7120ddda0e26
+[db] inserting 5 sections (pass 1)
+[db] inserted 5 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Jury Exemption Act 1965
+       legislation_id: 30d17bba-e0cf-4eec-9a49-7120ddda0e26
+       sections: 5
+       compilation: 2013-01-01

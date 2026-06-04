@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2020A00123/2020-12-15/2020-12-15/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 20,333 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2020A00123/2020-12-15/2020-12-15/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 20,333 source bytes → 18,860 combined bytes
+[citation] Recycling and Waste Reduction Charges (General) Act 2020 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 112
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 27 August 2020"
+[parser-unknown-class] "2ndRd", text="Senate on 9 November 2020]"
+[parser-diag] processed 112 <p> elements
+[parser-diag] last section was added at element index: 98
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 14
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         3
+         section      11
+[db] inserted new legislation row: 032f3d22-f44b-42ca-bbfd-dcecd6f5f35e
+[db] inserting 14 sections (pass 1)
+[db] inserted 14 sections
+[db] linking parent FKs (pass 2)
+[db] linked 11 parent references
+
+[done] ingested Recycling and Waste Reduction Charges (General) Act 2020
+       legislation_id: 032f3d22-f44b-42ca-bbfd-dcecd6f5f35e
+       sections: 14
+       compilation: 2020-12-15

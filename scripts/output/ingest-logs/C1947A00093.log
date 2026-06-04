@@ -1,0 +1,35 @@
+[fetch] document_1: https://www.legislation.gov.au/C1947A00093/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 249,309 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1947A00093/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 249,309 source bytes → 246,891 combined bytes
+[citation] World Health Organization Act 1947 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 922
+[parser-unknown-class] "ENotesText", text="(a) The World Health Assembly (herein called the Health Assembly);"
+[parser-unknown-class] "ENotesText", text="(b) The Executive Board (hereinafter called the Board);"
+[parser-unknown-class] "ENotesText", text="(c) The Secretariat."
+[parser-unknown-class] "ENotesText", text="Article 80"
+[parser-diag] processed 922 <p> elements
+[parser-diag] last section was added at element index: 558
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 8
+[parse] compilation: date=2016-10-21 no=3
+[parse] warnings: 2
+  - ActHead1 with unexpected leading word: "First Schedule—Constitution of the World Health Organization". Captured as 'schedule' as fallback.
+  - ActHead1 with unexpected leading word: "Second Schedule—Arrangement concluded by the Governments represented at the I...". Captured as 'schedule' as fallback.
+[parse] by level:
+         section      6
+         schedule     2
+[db] inserted new legislation row: 3ff13d7c-e1f2-4e8f-9ba8-2876de42d1b2
+[db] inserting 8 sections (pass 1)
+[db] inserted 8 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested World Health Organization Act 1947
+       legislation_id: 3ff13d7c-e1f2-4e8f-9ba8-2876de42d1b2
+       sections: 8
+       compilation: 2016-10-21

@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C1961A00086/2012-09-25/2012-09-25/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 41,325 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1961A00086/2012-09-25/2012-09-25/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 41,325 source bytes → 40,087 combined bytes
+[citation] Superannuation (Pension Increases) Act 1961 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 114
+[parser-diag] processed 114 <p> elements
+[parser-diag] last section was added at element index: 75
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 6
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      6
+[db] inserted new legislation row: 935aa6a3-6045-4c72-b8ff-0ac1cb2c752f
+[db] inserting 6 sections (pass 1)
+[db] inserted 6 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Superannuation (Pension Increases) Act 1961
+       legislation_id: 935aa6a3-6045-4c72-b8ff-0ac1cb2c752f
+       sections: 6
+       compilation: 2012-09-25

@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2008A00103/2008-10-17/2008-10-17/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 22,034 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2008A00103/2008-10-17/2008-10-17/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 22,034 source bytes → 21,063 combined bytes
+[citation] Financial Claims Scheme (ADIs) Levy Act 2008 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 97
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 15 October 2008"
+[parser-unknown-class] "2ndRd", text="Senate on 16 October 2008]"
+[parser-diag] processed 97 <p> elements
+[parser-diag] last section was added at element index: 84
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 6
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      6
+[db] inserted new legislation row: 9b4e8d8f-f7c7-4225-9b4e-4445096a99e9
+[db] inserting 6 sections (pass 1)
+[db] inserted 6 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Financial Claims Scheme (ADIs) Levy Act 2008
+       legislation_id: 9b4e8d8f-f7c7-4225-9b4e-4445096a99e9
+       sections: 6
+       compilation: 2008-10-17

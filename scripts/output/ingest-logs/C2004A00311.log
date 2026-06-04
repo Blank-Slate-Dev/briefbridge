@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00311/2020-06-20/2020-06-20/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 56,293 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00311/2020-06-20/2020-06-20/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 56,293 source bytes → 54,234 combined bytes
+[citation] Authorised Deposit-taking Institutions Supervisory Levy Imposition Act 1998 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 232
+[parser-diag] processed 232 <p> elements
+[parser-diag] last section was added at element index: 100
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 9
+[parse] compilation: date=2020-06-20 no=8
+[parse] by level:
+         section      9
+[db] inserted new legislation row: aab24439-3e44-4aa1-b47b-2db2f1510fe8
+[db] inserting 9 sections (pass 1)
+[db] inserted 9 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Authorised Deposit-taking Institutions Supervisory Levy Imposition Act 1998
+       legislation_id: aab24439-3e44-4aa1-b47b-2db2f1510fe8
+       sections: 9
+       compilation: 2020-06-20

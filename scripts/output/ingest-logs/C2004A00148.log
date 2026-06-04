@@ -1,0 +1,26 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00148/1974-10-31/1974-10-31/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 135,957 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00148/1974-10-31/1974-10-31/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 135,957 source bytes → 135,029 combined bytes
+[citation] Repatriation Acts Amendment Act 1974 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 429
+[parser-diag] processed 429 <p> elements
+[parser-diag] last section was added at element index: -1
+[parser-diag] state phase at end: PRE_BODY
+[parser-diag] hierarchy stack depth at end: 0
+[parser-diag] insideSchedule at end: false
+[parse] sections: 0
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+[db] inserted new legislation row: 2808228b-fc59-426c-950d-2159d2be646e
+[db] inserting 0 sections (pass 1)
+[db] inserted 0 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Repatriation Acts Amendment Act 1974
+       legislation_id: 2808228b-fc59-426c-950d-2159d2be646e
+       sections: 0
+       compilation: 1974-10-31

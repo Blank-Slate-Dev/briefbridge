@@ -1,0 +1,39 @@
+[fetch] document_1: https://www.legislation.gov.au/C2012A00047/2012-04-16/2012-04-16/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 10,656 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2012A00047/2012-04-16/2012-04-16/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 10,656 source bytes → 8,744 combined bytes
+[citation] Road Safety Remuneration (Consequential Amendments and Related Provisions) Act 2012 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 64
+[parser-unknown-class] "ActHead6", text="Schedule 1—Amendments"
+[parser-unknown-class] "ActHead9", text="Administrative Decisions (Judicial Review) Act 1977"
+[parser-unknown-class] "ItemHead", text="1  Paragraph (a) of Schedule 1"
+[parser-unknown-class] "ActHead6", text="Schedule 2—Application provisions"
+[parser-unknown-class] "ItemHead", text="1A  Application of Part 4 of the Road Safety Remuneration Act 2012"
+[parser-unknown-class] "Subitem", text="(1) The Tribunal must not deal with a dispute under Part 4 of the Road Safety Remuneration Act 20..."
+[parser-unknown-class] "Subitem", text="(2) A person who is entitled to make an application in relation to a dispute under paragraph 40(1..."
+[parser-unknown-class] "ItemHead", text="1  Disputes involving employee road transport drivers"
+[parser-unknown-class] "ItemHead", text="2  Disputes involving independent contractor road transport drivers"
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 23 November 2011"
+[parser-unknown-class] "2ndRd", text="Senate on 20 March 2012]"
+[parser-diag] processed 64 <p> elements
+[parser-diag] last section was added at element index: 41
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: d389922b-34d8-46bc-af40-f4bf9b668359
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Road Safety Remuneration (Consequential Amendments and Related Provisions) Act 2012
+       legislation_id: d389922b-34d8-46bc-af40-f4bf9b668359
+       sections: 3
+       compilation: 2012-04-16

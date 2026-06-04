@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2018A00029/2025-04-04/2025-04-04/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,259,833 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2018A00029/2025-04-04/2025-04-04/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,259,833 source bytes → 1,257,245 combined bytes
+[citation] Security of Critical Infrastructure Act 2018 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 4830
+[parser-diag] processed 4830 <p> elements
+[parse] sections: 282
+[parse] compilation: date=2025-04-04 no=8
+[parser-diag] last section was added at element index: 4101
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         14
+         division     40
+         section      222
+         subdivision  6
+[db] inserted new legislation row: de31fb4d-d960-4a5f-a5b4-9aa2b39e5093
+[db] inserting 282 sections (pass 1)
+[db] inserted 282 sections
+[db] linking parent FKs (pass 2)
+[db] linked 268 parent references
+
+[done] ingested Security of Critical Infrastructure Act 2018
+       legislation_id: de31fb4d-d960-4a5f-a5b4-9aa2b39e5093
+       sections: 282
+       compilation: 2025-04-04

@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C1914A00033/2011-04-19/2011-04-19/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 39,862 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1914A00033/2011-04-19/2011-04-19/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 39,862 source bytes → 38,768 combined bytes
+[citation] Treasury Bills Act 1914 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 167
+[parser-unknown-class] "ActNotesa", text="(a) The Crimes (Currency) Act 1981 was amended by section 3 only of the Statute Law (Miscellaneou..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act shall come into operation on the day on which it receives t..."
+[parser-unknown-class] "ActNotes1", text="(7) The amendments of the Crimes (Currency) Act 1981 made by this Act (other than the amendment o..."
+[parser-diag] processed 167 <p> elements
+[parser-diag] last section was added at element index: 66
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 13
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      13
+[db] inserted new legislation row: 72eb6207-e7d6-44c1-98ea-65f67fc84197
+[db] inserting 13 sections (pass 1)
+[db] inserted 13 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Treasury Bills Act 1914
+       legislation_id: 72eb6207-e7d6-44c1-98ea-65f67fc84197
+       sections: 13
+       compilation: 2011-04-19

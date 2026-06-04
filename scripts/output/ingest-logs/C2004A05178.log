@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05178/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 177,354 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05178/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 177,354 source bytes → 175,402 combined bytes
+[citation] Hearing Services Administration Act 1997 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 704
+[parser-diag] processed 704 <p> elements
+[parser-diag] last section was added at element index: 505
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 64
+[parse] compilation: date=2024-10-14 no=13
+[parse] by level:
+         part         8
+         section      50
+         division     6
+[db] inserted new legislation row: fea7c501-5869-40c1-af1d-9c62a5d844c0
+[db] inserting 64 sections (pass 1)
+[db] inserted 64 sections
+[db] linking parent FKs (pass 2)
+[db] linked 56 parent references
+
+[done] ingested Hearing Services Administration Act 1997
+       legislation_id: fea7c501-5869-40c1-af1d-9c62a5d844c0
+       sections: 64
+       compilation: 2024-10-14

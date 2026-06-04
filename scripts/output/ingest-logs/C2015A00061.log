@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2015A00061/2026-01-01/2026-01-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,802,605 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2015A00061/2026-01-01/2026-01-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2: 1,422,987 bytes
+[fetch] document_3: https://www.legislation.gov.au/C2015A00061/2026-01-01/2026-01-01/text/original/epub/OEBPS/document_3/document_3.html
+[fetch] document_3 not found — stopping. Fetched 2 document(s).
+[fetch] combined 2 document(s), 3,225,592 source bytes → 3,219,100 combined bytes
+[citation] Biosecurity Act 2015 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 11712
+[parser-diag] processed 11712 <p> elements
+[parser-diag] last section was added at element index: 10585
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 4
+[parse] sections: 1001
+[parse] compilation: date=2026-01-01 no=20
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         chapter      11
+         part         65
+         section      699
+         division     179
+         subdivision  47
+[db] inserted new legislation row: 15b67138-8c09-4314-9ca2-87e518972e0a
+[db] inserting 1001 sections (pass 1)
+[db] inserted 1001 sections
+[db] linking parent FKs (pass 2)
+[db] linked 990 parent references
+
+[done] ingested Biosecurity Act 2015
+       legislation_id: 15b67138-8c09-4314-9ca2-87e518972e0a
+       sections: 1001
+       compilation: 2026-01-01

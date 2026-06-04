@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03330/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 487,166 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03330/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 487,166 source bytes → 484,949 combined bytes
+[citation] Industry Research and Development Act 1986 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1945
+[parser-diag] processed 1945 <p> elements
+[parser-diag] last section was added at element index: 1096
+[parser-diag] state phase at end: ENDNOTES
+[parse] sections: 116
+[parse] compilation: date=2025-02-21 no=34
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         5
+         section      89
+         division     8
+         subdivision  14
+[db] inserted new legislation row: 38c839bf-6716-43f3-927e-e133a6f831d7
+[db] inserting 116 sections (pass 1)
+[db] inserted 116 sections
+[db] linking parent FKs (pass 2)
+[db] linked 111 parent references
+
+[done] ingested Industry Research and Development Act 1986
+       legislation_id: 38c839bf-6716-43f3-927e-e133a6f831d7
+       sections: 116
+       compilation: 2025-02-21

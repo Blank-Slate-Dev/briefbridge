@@ -1,0 +1,35 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00465/2008-10-03/2008-10-03/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 21,000 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00465/2008-10-03/2008-10-03/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 21,000 source bytes → 20,070 combined bytes
+[citation] A New Tax System (Luxury Car Tax Imposition—Excise) Act 1999 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 78
+[parser-unknown-class] "ActNotesa", text="(a) Subsection 2(1) (item 2) of the A New Tax System (Luxury Car Tax Imposition—Excise) Amendment..."
+[parser-unknown-class] "ActNotes1", text="(1) Each provision of this Act specified in column 1 of the table commences, or is taken to have ..."
+[parser-unknown-class] "ActNotes1", text=""
+[parser-unknown-class] "TableA0", text="Table A"
+[parser-unknown-class] "TableAHead", text="Application, saving or transitional provisions"
+[parser-unknown-class] "TableAHeadItal", text="A New Tax System (Luxury Car Tax Imposition—Excise) Amendment Act 2008 (No. 99, 2008)"
+[parse] sections: 5
+[parse] compilation: date=(none) no=(none)
+[parser-unknown-class] "ItemHead", text="Schedule 1"
+[parser-unknown-class] "ItemHead", text="2  Application"
+[parser-diag] processed 78 <p> elements
+[parser-diag] last section was added at element index: 29
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         section      5
+[db] inserted new legislation row: acfe9fa8-c776-4c80-b398-cc5b838b22ad
+[db] inserting 5 sections (pass 1)
+[db] inserted 5 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested A New Tax System (Luxury Car Tax Imposition—Excise) Act 1999
+       legislation_id: acfe9fa8-c776-4c80-b398-cc5b838b22ad
+       sections: 5
+       compilation: 2008-10-03

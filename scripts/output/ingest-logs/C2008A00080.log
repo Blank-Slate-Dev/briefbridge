@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2008A00080/2008-07-12/2008-07-12/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 27,334 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2008A00080/2008-07-12/2008-07-12/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 27,334 source bytes → 26,270 combined bytes
+[citation] Military Memorials of National Significance Act 2008 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 119
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 19 March 2008"
+[parser-unknown-class] "2ndRd", text="Senate on 24 June 2008]"
+[parser-diag] processed 119 <p> elements
+[parser-diag] last section was added at element index: 106
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 13
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         3
+         section      10
+[db] inserted new legislation row: 1193e47e-39f5-4ec0-ac13-86205c3851c6
+[db] inserting 13 sections (pass 1)
+[db] inserted 13 sections
+[db] linking parent FKs (pass 2)
+[db] linked 10 parent references
+
+[done] ingested Military Memorials of National Significance Act 2008
+       legislation_id: 1193e47e-39f5-4ec0-ac13-86205c3851c6
+       sections: 13
+       compilation: 2008-07-12

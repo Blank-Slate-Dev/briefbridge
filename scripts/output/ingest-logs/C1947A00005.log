@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C1947A00005/2026-04-09/2026-04-09/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 147,354 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1947A00005/2026-04-09/2026-04-09/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 147,354 source bytes → 145,441 combined bytes
+[citation] International Monetary Agreements Act 1947 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 593
+[parser-diag] processed 593 <p> elements
+[parser-diag] last section was added at element index: 229
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 24
+[parse] compilation: date=2026-04-09 no=26
+[parse] by level:
+         section      24
+[db] inserted new legislation row: 8d77aa7a-0544-4c79-b311-db6b560c8242
+[db] inserting 24 sections (pass 1)
+[db] inserted 24 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested International Monetary Agreements Act 1947
+       legislation_id: 8d77aa7a-0544-4c79-b311-db6b560c8242
+       sections: 24
+       compilation: 2026-04-09

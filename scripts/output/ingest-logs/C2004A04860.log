@@ -1,0 +1,36 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04860/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,915,990 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04860/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,915,990 source bytes → 1,913,046 combined bytes
+[citation] Life Insurance Act 1995 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 6949
+[parser-unknown-class] "Speciald", text="Division 6—Distribution of surplus in approved benefit fund"
+[parser-unknown-class] "Specials", text="56  Distribution of surplus"
+[parser-unknown-class] "Specials", text="75  Financial records—friendly societies"
+[parser-diag] processed 6949 <p> elements
+[parser-diag] last section was added at element index: 5140
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] sections: 436
+[parse] compilation: date=2025-02-21 no=69
+[parse] by level:
+         part         14
+         section      369
+         division     40
+         subdivision  7
+         schedule     2
+         schedule_part 2
+         schedule_clause 2
+[db] inserted new legislation row: 79abd49f-a9fb-4044-8aca-5c3d5e39e30e
+[db] inserting 436 sections (pass 1)
+[db] inserted 436 sections
+[db] linking parent FKs (pass 2)
+[db] linked 420 parent references
+
+[done] ingested Life Insurance Act 1995
+       legislation_id: 79abd49f-a9fb-4044-8aca-5c3d5e39e30e
+       sections: 436
+       compilation: 2025-02-21

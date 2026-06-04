@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00779/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 281,450 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00779/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 281,450 source bytes → 279,576 combined bytes
+[citation] Sydney Harbour Federation Trust Act 2001 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1136
+[parser-diag] processed 1136 <p> elements
+[parser-diag] last section was added at element index: 856
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 101
+[parse] compilation: date=2024-10-14 no=12
+[parse] by level:
+         part         11
+         section      88
+         schedule     2
+[db] inserted new legislation row: 5011a03c-04bc-4e90-8579-02e9846eb6e6
+[db] inserting 101 sections (pass 1)
+[db] inserted 101 sections
+[db] linking parent FKs (pass 2)
+[db] linked 88 parent references
+
+[done] ingested Sydney Harbour Federation Trust Act 2001
+       legislation_id: 5011a03c-04bc-4e90-8579-02e9846eb6e6
+       sections: 101
+       compilation: 2024-10-14

@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2022A00011/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 695,173 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2022A00011/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 695,173 source bytes → 691,343 combined bytes
+[citation] Data Availability and Transparency Act 2022 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2463
+[parser-diag] processed 2463 <p> elements
+[parser-diag] last section was added at element index: 2297
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: false
+[parse] sections: 204
+[parse] compilation: date=2024-12-11 no=4
+[parse] by level:
+         chapter      6
+         part         26
+         section      163
+         division     9
+[db] inserted new legislation row: fcbf8366-33b9-4744-9cd4-e24aeb127236
+[db] inserting 204 sections (pass 1)
+[db] inserted 204 sections
+[db] linking parent FKs (pass 2)
+[db] linked 198 parent references
+
+[done] ingested Data Availability and Transparency Act 2022
+       legislation_id: fcbf8366-33b9-4744-9cd4-e24aeb127236
+       sections: 204
+       compilation: 2024-12-11

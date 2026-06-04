@@ -1,0 +1,34 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04704/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,383,414 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04704/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,383,414 source bytes → 1,380,746 combined bytes
+[citation] Offshore Minerals Act 1994 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 5224
+[parser-diag] processed 5224 <p> elements
+[parser-diag] last section was added at element index: 4850
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] sections: 522
+[parse] compilation: date=2024-10-14 no=16
+[parse] by level:
+         chapter      5
+         part         20
+         section      442
+         division     42
+         subdivision  2
+         schedule     1
+         schedule_part 2
+         schedule_clause 8
+[db] inserted new legislation row: 162b59d6-0277-4eeb-a1a8-c6a01d2067f5
+[db] inserting 522 sections (pass 1)
+[db] inserted 522 sections
+[db] linking parent FKs (pass 2)
+[db] linked 516 parent references
+
+[done] ingested Offshore Minerals Act 1994
+       legislation_id: 162b59d6-0277-4eeb-a1a8-c6a01d2067f5
+       sections: 522
+       compilation: 2024-10-14

@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05130/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 151,969 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05130/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 151,969 source bytes → 150,037 combined bytes
+[citation] Human Services (Centrelink) Act 1997 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 639
+[parser-diag] processed 639 <p> elements
+[parser-diag] last section was added at element index: 270
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 23
+[parse] compilation: date=2025-11-01 no=15
+[parse] by level:
+         part         3
+         section      20
+[db] inserted new legislation row: 11fa4933-f5d0-4414-a182-8ce5e91babf7
+[db] inserting 23 sections (pass 1)
+[db] inserted 23 sections
+[db] linking parent FKs (pass 2)
+[db] linked 20 parent references
+
+[done] ingested Human Services (Centrelink) Act 1997
+       legislation_id: 11fa4933-f5d0-4414-a182-8ce5e91babf7
+       sections: 23
+       compilation: 2025-11-01

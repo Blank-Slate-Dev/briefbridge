@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2011A00143/2022-09-14/2022-09-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 254,243 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2011A00143/2022-09-14/2022-09-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 254,243 source bytes → 252,135 combined bytes
+[citation] Climate Change Authority Act 2011 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1041
+[parser-diag] processed 1041 <p> elements
+[parser-diag] last section was added at element index: 821
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 100
+[parse] compilation: date=2022-09-14 no=4
+[parse] by level:
+         part         5
+         section      79
+         division     14
+         subdivision  2
+[db] inserted new legislation row: 0e94dce7-aa37-4b42-9629-7d212c616e7a
+[db] inserting 100 sections (pass 1)
+[db] inserted 100 sections
+[db] linking parent FKs (pass 2)
+[db] linked 95 parent references
+
+[done] ingested Climate Change Authority Act 2011
+       legislation_id: 0e94dce7-aa37-4b42-9629-7d212c616e7a
+       sections: 100
+       compilation: 2022-09-14

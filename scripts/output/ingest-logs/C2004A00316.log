@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00316/2020-06-20/2020-06-20/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 63,190 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00316/2020-06-20/2020-06-20/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 63,190 source bytes → 61,257 combined bytes
+[citation] General Insurance Supervisory Levy Imposition Act 1998 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 250
+[parser-diag] processed 250 <p> elements
+[parser-diag] last section was added at element index: 123
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 10
+[parse] compilation: date=2020-06-20 no=6
+[parse] by level:
+         section      10
+[db] inserted new legislation row: 837514ca-6e90-4c1c-9ee2-a95f5fe0970e
+[db] inserting 10 sections (pass 1)
+[db] inserted 10 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested General Insurance Supervisory Levy Imposition Act 1998
+       legislation_id: 837514ca-6e90-4c1c-9ee2-a95f5fe0970e
+       sections: 10
+       compilation: 2020-06-20

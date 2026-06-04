@@ -1,0 +1,35 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04708/2000-07-16/2000-07-16/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 30,884 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04708/2000-07-16/2000-07-16/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 30,884 source bytes → 29,893 combined bytes
+[citation] Wet Tropics of Queensland World Heritage Area Conservation Act 1994 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 106
+[parser-unknown-class] "ActNotesa", text="(a) Section 2(4) of the Environment, Sport and Territories Legislation Amendment Act 1997 provide..."
+[parser-unknown-class] "ActNotes1", text="(4) Item 60 of Schedule 1 is taken to have commenced immediately after the commencement of the We..."
+[parser-unknown-class] "ActNotesa", text="The Wet Tropics of Queensland World Heritage Area Conservation Act 1994 came into operation on 15..."
+[parser-unknown-class] "ActNotesa", text="(b) The Wet Tropics of Queensland World Heritage Area Conservation Act 1994 was amended by Schedu..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act commences when the Environment Protection and Biodiversity ..."
+[parser-unknown-class] "ActNotesa", text="(c) The Wet Tropics of Queensland World Heritage Area Conservation Act 1994 was amended by Schedu..."
+[parser-unknown-class] "ActNotes1", text="(1) In this Act, commencing time means the time when the Public Service Act 1999 commences."
+[parser-unknown-class] "ActNotes1", text="(2) Subject to this section, this Act commences at the commencing time."
+[parser-diag] processed 106 <p> elements
+[parser-diag] last section was added at element index: 54
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 10
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      10
+[db] inserted new legislation row: a11bd849-5194-47fa-9f31-368d1f03e8e8
+[db] inserting 10 sections (pass 1)
+[db] inserted 10 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Wet Tropics of Queensland World Heritage Area Conservation Act 1994
+       legislation_id: a11bd849-5194-47fa-9f31-368d1f03e8e8
+       sections: 10
+       compilation: 2000-07-16

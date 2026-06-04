@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2016A00080/2016-11-29/2016-11-29/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 13,880 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2016A00080/2016-11-29/2016-11-29/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 13,880 source bytes → 12,803 combined bytes
+[citation] Superannuation (Excess Transfer Balance Tax) Imposition Act 2016 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 81
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 9 November 2016"
+[parser-unknown-class] "2ndRd", text="Senate on 23 November 2016]"
+[parser-diag] processed 81 <p> elements
+[parser-diag] last section was added at element index: 69
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 6
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      6
+[db] inserted new legislation row: 39961d55-89af-49cd-90a3-90f3c4476865
+[db] inserting 6 sections (pass 1)
+[db] inserted 6 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Superannuation (Excess Transfer Balance Tax) Imposition Act 2016
+       legislation_id: 39961d55-89af-49cd-90a3-90f3c4476865
+       sections: 6
+       compilation: 2016-11-29

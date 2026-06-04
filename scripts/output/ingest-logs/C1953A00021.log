@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C1953A00021/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 19,655 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1953A00021/2005-02-22/2005-02-22/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 19,655 source bytes → 18,601 combined bytes
+[citation] Loan (Temporary Revenue Deficits) Act 1953 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 82
+[parser-unknown-class] "ActNotesa", text="(a) The Loan (Temporary Revenue Deficits) Act 1953 was amended by Schedule 2 (item 902) only of t..."
+[parser-unknown-class] "ActNotes1", text="(2) Schedules 1, 2 and 4 commence on the same day as the Financial Management and Accountability ..."
+[parser-diag] processed 82 <p> elements
+[parser-diag] last section was added at element index: 27
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 5
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      5
+[db] inserted new legislation row: c594e064-2116-444d-8258-6f9c8da0cdb5
+[db] inserting 5 sections (pass 1)
+[db] inserted 5 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Loan (Temporary Revenue Deficits) Act 1953
+       legislation_id: c594e064-2116-444d-8258-6f9c8da0cdb5
+       sections: 5
+       compilation: 2005-02-22

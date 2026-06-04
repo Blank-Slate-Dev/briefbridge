@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2023A00012/2023-10-17/2023-10-17/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 291,882 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2023A00012/2023-10-17/2023-10-17/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 291,882 source bytes → 288,559 combined bytes
+[citation] National Reconstruction Fund Corporation Act 2023 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1139
+[parser-diag] processed 1139 <p> elements
+[parser-diag] last section was added at element index: 1031
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 116
+[parse] compilation: date=2023-10-17 no=1
+[parse] by level:
+         part         7
+         section      92
+         division     14
+         subdivision  3
+[db] inserted new legislation row: 232c1965-b6ea-46c6-b931-1cacf6d8785e
+[db] inserting 116 sections (pass 1)
+[db] inserted 116 sections
+[db] linking parent FKs (pass 2)
+[db] linked 109 parent references
+
+[done] ingested National Reconstruction Fund Corporation Act 2023
+       legislation_id: 232c1965-b6ea-46c6-b931-1cacf6d8785e
+       sections: 116
+       compilation: 2023-10-17

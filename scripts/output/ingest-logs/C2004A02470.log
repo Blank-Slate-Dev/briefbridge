@@ -1,0 +1,48 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02470/2006-09-14/2006-09-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 44,366 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02470/2006-09-14/2006-09-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 44,366 source bytes → 43,320 combined bytes
+[citation] Crown Debts (Priority) Act 1981 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 159
+[parser-unknown-class] "ActNotesa", text="(a) The Crown Debts (Priority) Act 1981 was amended by subsection 18(2) only of the Corporations ..."
+[parser-unknown-class] "ActNotes1", text="(2) The remaining provisions of this Act commence on a day or days to be fixed by Proclamation."
+[parser-unknown-class] "ActNotesa", text="(b) The Crown Debts (Priority) Act 1981 was amended by Part 5 (sections 12 and 13) only of the Co..."
+[parser-unknown-class] "ActNotes1", text="(9) Part 5 is taken to have commenced on 1 January 1991."
+[parser-unknown-class] "ActNotesa", text="(c) The Insolvency (Tax Priorities) Legislation Amendment Act 1993 was amended by Schedule 3 (ite..."
+[parser-unknown-class] "ActNotes1", text="(3) Each item in Schedule 3 is taken to have commenced when the Act containing the provision amen..."
+[parser-unknown-class] "ActNotesa", text="(d) The Crown Debts (Priority) Act 1981 was amended by the Taxation Laws Amendment Act (No. 3) 19..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to subsection (2), this Act commences on the day on which it receives the Royal Assent."
+[parser-unknown-class] "ActNotesa", text="(e) The Crown Debts (Priority) Act 1981 was amended by Schedule 3 (item 151) only of the Corporat..."
+[parser-unknown-class] "ActNotes1", text="(3) Subject to subsections (4) to (10), Schedule 3 commences, or is taken to have commenced, at t..."
+[parser-unknown-class] "TableA0", text="Table A"
+[parser-unknown-class] "TableAHead", text="Application, saving or transitional provisions"
+[parser-unknown-class] "TableAHeadItal", text="Tax Laws Amendment (Repeal of Inoperative Provisions) Act 2006 (No. 101, 2006)"
+[parser-unknown-class] "ItemHead", text="Schedule 6"
+[parser-unknown-class] "ItemHead", text="1  Application of Schedule 1 and 2 amendments"
+[parser-unknown-class] "ItemHead", text="6  Object"
+[parser-unknown-class] "ItemHead", text="7  Making and amending assessments, and doing other things, in relation to past matters"
+[parser-unknown-class] "ItemHead", text="8  Saving of provisions about effect of assessments"
+[parser-unknown-class] "ItemHead", text="9  Saving of provisions about general interest charge, failure to notify penalty or late reconcil..."
+[parser-unknown-class] "ItemHead", text="10  Repeals disregarded for the purposes of dependent provisions"
+[parser-unknown-class] "ItemHead", text="11  Schedule does not limit operation of section 8 of the Acts Interpretation Act 1901"
+[parser-diag] processed 159 <p> elements
+[parser-diag] last section was added at element index: 27
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 4
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      4
+[db] inserted new legislation row: dcc18e8a-f8ea-4d57-bd7d-49d53ce7c7eb
+[db] inserting 4 sections (pass 1)
+[db] inserted 4 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Crown Debts (Priority) Act 1981
+       legislation_id: dcc18e8a-f8ea-4d57-bd7d-49d53ce7c7eb
+       sections: 4
+       compilation: 2006-09-14

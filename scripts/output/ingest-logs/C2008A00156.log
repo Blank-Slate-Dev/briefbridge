@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2008A00156/2024-07-06/2024-07-06/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 72,843 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2008A00156/2024-07-06/2024-07-06/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 72,843 source bytes → 70,945 combined bytes
+[citation] Federation Reform Fund Act 2008 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 309
+[parser-diag] processed 309 <p> elements
+[parser-diag] last section was added at element index: 98
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 11
+[parse] compilation: date=2024-07-06 no=15
+[parse] by level:
+         part         3
+         section      8
+[db] inserted new legislation row: 201de83b-c6aa-48af-bb02-64747275e50c
+[db] inserting 11 sections (pass 1)
+[db] inserted 11 sections
+[db] linking parent FKs (pass 2)
+[db] linked 8 parent references
+
+[done] ingested Federation Reform Fund Act 2008
+       legislation_id: 201de83b-c6aa-48af-bb02-64747275e50c
+       sections: 11
+       compilation: 2024-07-06

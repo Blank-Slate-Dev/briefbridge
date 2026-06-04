@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00033/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 149,333 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00033/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 149,333 source bytes → 147,409 combined bytes
+[citation] Papua New Guinea (Staffing Assistance) Act 1973 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 624
+[parser-diag] processed 624 <p> elements
+[parser-diag] last section was added at element index: 219
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: false
+[parse] sections: 32
+[parse] compilation: date=2024-10-14 no=9
+[parse] by level:
+         part         4
+         section      24
+         division     4
+[db] inserted new legislation row: e0bbb20b-fbfc-49f1-ab32-05ab083ba530
+[db] inserting 32 sections (pass 1)
+[db] inserted 32 sections
+[db] linking parent FKs (pass 2)
+[db] linked 28 parent references
+
+[done] ingested Papua New Guinea (Staffing Assistance) Act 1973
+       legislation_id: e0bbb20b-fbfc-49f1-ab32-05ab083ba530
+       sections: 32
+       compilation: 2024-10-14

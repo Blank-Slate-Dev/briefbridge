@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03033/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 152,604 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03033/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 152,604 source bytes → 150,770 combined bytes
+[citation] Registration of Deaths Abroad Act 1984 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 585
+[parser-diag] processed 585 <p> elements
+[parser-diag] last section was added at element index: 354
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 32
+[parse] compilation: date=2024-10-14 no=13
+[parse] by level:
+         part         3
+         section      29
+[db] inserted new legislation row: 437868e3-8bd6-40da-a797-de62ea011b40
+[db] inserting 32 sections (pass 1)
+[db] inserted 32 sections
+[db] linking parent FKs (pass 2)
+[db] linked 29 parent references
+
+[done] ingested Registration of Deaths Abroad Act 1984
+       legislation_id: 437868e3-8bd6-40da-a797-de62ea011b40
+       sections: 32
+       compilation: 2024-10-14

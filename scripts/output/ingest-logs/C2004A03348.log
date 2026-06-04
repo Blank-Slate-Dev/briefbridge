@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03348/2025-03-28/2025-03-28/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 483,116 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03348/2025-03-28/2025-03-28/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 483,116 source bytes → 479,959 combined bytes
+[citation] Income Tax Rates Act 1986 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1801
+[parser-diag] processed 1801 <p> elements
+[parser-diag] last section was added at element index: 766
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 57
+[parse] compilation: date=2025-03-28 no=65
+[parse] by level:
+         part         3
+         section      27
+         division     7
+         subdivision  3
+         schedule     6
+         schedule_part 11
+[db] inserted new legislation row: beae6c58-8b3d-4138-8c80-27ef39637c16
+[db] inserting 57 sections (pass 1)
+[db] inserted 57 sections
+[db] linking parent FKs (pass 2)
+[db] linked 48 parent references
+
+[done] ingested Income Tax Rates Act 1986
+       legislation_id: beae6c58-8b3d-4138-8c80-27ef39637c16
+       sections: 57
+       compilation: 2025-03-28

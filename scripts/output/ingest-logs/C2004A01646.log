@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01646/2016-03-10/2016-03-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 136,631 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01646/2016-03-10/2016-03-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 136,631 source bytes → 134,532 combined bytes
+[citation] Crimes (Internationally Protected Persons) Act 1976 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 476
+[parser-diag] processed 476 <p> elements
+[parser-diag] last section was added at element index: 197
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 18
+[parse] compilation: date=2016-03-10 no=9
+[parse] by level:
+         section      17
+         schedule     1
+[db] inserted new legislation row: d895621d-b076-4c9d-be14-e911972a7ec8
+[db] inserting 18 sections (pass 1)
+[db] inserted 18 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Crimes (Internationally Protected Persons) Act 1976
+       legislation_id: d895621d-b076-4c9d-be14-e911972a7ec8
+       sections: 18
+       compilation: 2016-03-10

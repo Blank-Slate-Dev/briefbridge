@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C1970A00008/2026-04-09/2026-04-09/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 112,383 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1970A00008/2026-04-09/2026-04-09/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 112,383 source bytes → 110,547 combined bytes
+[citation] Parliamentary Counsel Act 1970 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 472
+[parser-diag] processed 472 <p> elements
+[parser-diag] last section was added at element index: 188
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 21
+[parse] compilation: date=2026-04-09 no=13
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule". Captured as 'schedule' as fallback.
+[parse] by level:
+         section      18
+         schedule     1
+         subdivision  2
+[db] inserted new legislation row: e2881787-3524-42e3-b6f0-f368f3054cb7
+[db] inserting 21 sections (pass 1)
+[db] inserted 21 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Parliamentary Counsel Act 1970
+       legislation_id: e2881787-3524-42e3-b6f0-f368f3054cb7
+       sections: 21
+       compilation: 2026-04-09

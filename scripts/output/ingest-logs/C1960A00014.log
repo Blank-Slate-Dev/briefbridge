@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C1960A00014/2026-04-09/2026-04-09/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 35,993 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1960A00014/2026-04-09/2026-04-09/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 35,993 source bytes → 34,121 combined bytes
+[citation] International Monetary Agreements Act 1960 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 162
+[parser-diag] processed 162 <p> elements
+[parser-diag] last section was added at element index: 58
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 8
+[parse] compilation: date=2026-04-09 no=1
+[parse] warnings: 3
+  - ActHead1 with unexpected leading word: "The Schedules". Captured as 'schedule' as fallback.
+  - ActHead1 with unexpected leading word: "First Schedule—Resolution of the Board of Governors of the International Mone...". Captured as 'schedule' as fallback.
+  - ActHead1 with unexpected leading word: "Second Schedule—Resolution of the Board of Governors of the International Ban...". Captured as 'schedule' as fallback.
+[parse] by level:
+         section      5
+         schedule     3
+[db] inserted new legislation row: d2eaf751-3231-4f39-91bf-b6548252bc26
+[db] inserting 8 sections (pass 1)
+[db] inserted 8 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested International Monetary Agreements Act 1960
+       legislation_id: d2eaf751-3231-4f39-91bf-b6548252bc26
+       sections: 8
+       compilation: 2026-04-09

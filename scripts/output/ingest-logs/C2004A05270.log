@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05270/2014-07-01/2014-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 241,105 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05270/2014-07-01/2014-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 241,105 source bytes → 238,742 combined bytes
+[citation] Snowy Hydro Corporatisation Act 1997 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 865
+[parser-diag] processed 865 <p> elements
+[parser-diag] last section was added at element index: 645
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] sections: 96
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         5
+         section      63
+         division     8
+         subdivision  3
+         schedule     2
+         schedule_clause 13
+         schedule_part 2
+[db] inserted new legislation row: b19fdee8-d396-42f9-9c39-81ef11661b09
+[db] inserting 96 sections (pass 1)
+[db] inserted 96 sections
+[db] linking parent FKs (pass 2)
+[db] linked 89 parent references
+
+[done] ingested Snowy Hydro Corporatisation Act 1997
+       legislation_id: b19fdee8-d396-42f9-9c39-81ef11661b09
+       sections: 96
+       compilation: 2014-07-01

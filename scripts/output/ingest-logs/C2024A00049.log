@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2024A00049/2024-06-26/2024-06-26/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 134,053 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2024A00049/2024-06-26/2024-06-26/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 134,053 source bytes → 131,410 combined bytes
+[citation] Appropriation (Parliamentary Departments) Act (No. 1) 2024-2025 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 547
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 14 May 2024"
+[parser-unknown-class] "2ndRd", text="Senate on 24 June 2024]"
+[parser-diag] processed 547 <p> elements
+[parser-diag] last section was added at element index: 148
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 19
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         4
+         section      14
+         schedule     1
+[db] inserted new legislation row: 90d86ab6-86a1-4c2f-a0ec-aa40cd311c5d
+[db] inserting 19 sections (pass 1)
+[db] inserted 19 sections
+[db] linking parent FKs (pass 2)
+[db] linked 14 parent references
+
+[done] ingested Appropriation (Parliamentary Departments) Act (No. 1) 2024-2025
+       legislation_id: 90d86ab6-86a1-4c2f-a0ec-aa40cd311c5d
+       sections: 19
+       compilation: 2024-06-26

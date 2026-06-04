@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03551/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,076,984 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03551/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,076,984 source bytes → 1,073,270 combined bytes
+[citation] Petroleum Resource Rent Tax Assessment Act 1987 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3783
+[parser-diag] processed 3783 <p> elements
+[parse] sections: 205
+[parse] compilation: date=2024-12-11 no=51
+[parser-diag] last section was added at element index: 2697
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         part         8
+         section      133
+         division     13
+         subdivision  2
+         schedule     1
+         schedule_part 8
+         schedule_clause 40
+[db] inserted new legislation row: 9671637e-8bf9-4d47-8937-cc87852953d8
+[db] inserting 205 sections (pass 1)
+[db] inserted 205 sections
+[db] linking parent FKs (pass 2)
+[db] linked 196 parent references
+
+[done] ingested Petroleum Resource Rent Tax Assessment Act 1987
+       legislation_id: 9671637e-8bf9-4d47-8937-cc87852953d8
+       sections: 205
+       compilation: 2024-12-11

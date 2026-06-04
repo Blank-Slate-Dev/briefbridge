@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C1971A00026/2018-05-11/2018-05-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 202,111 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1971A00026/2018-05-11/2018-05-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 202,111 source bytes → 200,151 combined bytes
+[citation] Public Order (Protection of Persons and Property) Act 1971 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 774
+[parser-diag] processed 774 <p> elements
+[parser-diag] last section was added at element index: 443
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 41
+[parse] compilation: date=2018-05-11 no=18
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule". Captured as 'schedule' as fallback.
+[parse] by level:
+         part         5
+         section      33
+         schedule     1
+         schedule_part 2
+[db] inserted new legislation row: 0e49d117-6407-47d9-9df6-0c329dbf4029
+[db] inserting 41 sections (pass 1)
+[db] inserted 41 sections
+[db] linking parent FKs (pass 2)
+[db] linked 35 parent references
+
+[done] ingested Public Order (Protection of Persons and Property) Act 1971
+       legislation_id: 0e49d117-6407-47d9-9df6-0c329dbf4029
+       sections: 41
+       compilation: 2018-05-11

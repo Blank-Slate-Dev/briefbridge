@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C1952A00019/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 130,236 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1952A00019/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 130,236 source bytes → 128,336 combined bytes
+[citation] Defence (Special Undertakings) Act 1952 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 540
+[parser-diag] processed 540 <p> elements
+[parser-diag] last section was added at element index: 236
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 31
+[parse] compilation: date=2024-12-11 no=14
+[parse] by level:
+         section      31
+[db] inserted new legislation row: e3ef1da7-9230-47bb-a20d-6d0ebaffa252
+[db] inserting 31 sections (pass 1)
+[db] inserted 31 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Defence (Special Undertakings) Act 1952
+       legislation_id: e3ef1da7-9230-47bb-a20d-6d0ebaffa252
+       sections: 31
+       compilation: 2024-12-11

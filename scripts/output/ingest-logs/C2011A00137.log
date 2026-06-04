@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2011A00137/2024-07-01/2024-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,085,754 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2011A00137/2024-07-01/2024-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,085,754 source bytes → 1,082,860 combined bytes
+[citation] Work Health and Safety Act 2011 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 4112
+[parser-diag] processed 4112 <p> elements
+[parser-diag] last section was added at element index: 3530
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 442
+[parse] compilation: date=2024-07-01 no=16
+[parse] by level:
+         part         14
+         division     57
+         section      307
+         subdivision  14
+         schedule     4
+         schedule_part 5
+         schedule_clause 41
+[db] inserted new legislation row: 681d9ec6-da4d-4466-8609-81dffbbfc7d3
+[db] inserting 442 sections (pass 1)
+[db] inserted 442 sections
+[db] linking parent FKs (pass 2)
+[db] linked 424 parent references
+
+[done] ingested Work Health and Safety Act 2011
+       legislation_id: 681d9ec6-da4d-4466-8609-81dffbbfc7d3
+       sections: 442
+       compilation: 2024-07-01

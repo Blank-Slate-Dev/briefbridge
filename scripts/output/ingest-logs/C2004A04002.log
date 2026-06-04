@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04002/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 158,965 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04002/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 158,965 source bytes → 156,989 combined bytes
+[citation] Remuneration and Allowances Act 1990 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 692
+[parser-diag] processed 692 <p> elements
+[parser-diag] last section was added at element index: 274
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 20
+[parse] compilation: date=2021-09-01 no=24
+[parse] by level:
+         part         2
+         section      8
+         schedule     2
+         schedule_part 8
+[db] inserted new legislation row: 1ed8ecf7-c5de-47ae-94c6-260d44b0700d
+[db] inserting 20 sections (pass 1)
+[db] inserted 20 sections
+[db] linking parent FKs (pass 2)
+[db] linked 16 parent references
+
+[done] ingested Remuneration and Allowances Act 1990
+       legislation_id: 1ed8ecf7-c5de-47ae-94c6-260d44b0700d
+       sections: 20
+       compilation: 2021-09-01

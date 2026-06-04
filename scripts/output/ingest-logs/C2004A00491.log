@@ -1,0 +1,41 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00491/2026-03-20/2026-03-20/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,383,364 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00491/2026-03-20/2026-03-20/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2: 1,629,527 bytes
+[fetch] document_3: https://www.legislation.gov.au/C2004A00491/2026-03-20/2026-03-20/text/original/epub/OEBPS/document_3/document_3.html
+[fetch] document_3 not found — stopping. Fetched 2 document(s).
+[fetch] combined 2 document(s), 3,012,891 source bytes → 3,007,104 combined bytes
+[citation] A New Tax System (Family Assistance) (Administration) Act 1999 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 11518
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the total amount of family tax benefit the claimant is or was entitled to be pai..."
+[parser-unknown-class] "BoxStep", text="Step 2. Work out the total amount of family tax benefit the claimant would have been entitled to ..."
+[parser-unknown-class] "BoxStep", text="Step 3. Take the amount worked out at step 2 away from the amount worked out at step 1."
+[parser-unknown-class] "BoxStep", text="Step 4. If the amount worked out at step 3 is greater than zero, work out the number of days duri..."
+[parser-unknown-class] "BoxStep", text="Step 5. Work out the daily overpayment rate by dividing the amount worked out at step 3 by the nu..."
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the total amount of the payments mentioned in subsection (1) that have been paid..."
+[parser-unknown-class] "BoxStep", text="Step 2. Subtract from the step 1 amount the total amount withdrawn from the account during the sa..."
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the total amount of the payments mentioned in subsection (1) that have been paid..."
+[parser-unknown-class] "BoxStep", text="Step 2. Subtract from the step 1 amount the total amount withdrawn from the account during the sa..."
+[parser-diag] processed 11518 <p> elements
+[parser-diag] last section was added at element index: 7068
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parse] sections: 592
+[parse] compilation: date=2026-03-20 no=130
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         13
+         section      489
+         division     56
+         subdivision  34
+[db] inserted new legislation row: fc8c401c-08aa-41ae-b0e9-e91ce4dc7bd7
+[db] inserting 592 sections (pass 1)
+[db] inserted 592 sections
+[db] linking parent FKs (pass 2)
+[db] linked 579 parent references
+
+[done] ingested A New Tax System (Family Assistance) (Administration) Act 1999
+       legislation_id: fc8c401c-08aa-41ae-b0e9-e91ce4dc7bd7
+       sections: 592
+       compilation: 2026-03-20

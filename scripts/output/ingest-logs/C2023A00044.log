@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2023A00044/2023-10-20/2023-10-20/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 95,896 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2023A00044/2023-10-20/2023-10-20/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 95,896 source bytes → 92,166 combined bytes
+[citation] Financial Services Compensation Scheme of Last Resort Levy Act 2023 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 373
+[parser-diag] processed 373 <p> elements
+[parser-diag] last section was added at element index: 271
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 25
+[parse] compilation: date=2023-10-20 no=1
+[parse] by level:
+         part         3
+         section      19
+         division     3
+[db] inserted new legislation row: 150af6e2-3050-44d5-b2b2-2740d4b39884
+[db] inserting 25 sections (pass 1)
+[db] inserted 25 sections
+[db] linking parent FKs (pass 2)
+[db] linked 22 parent references
+
+[done] ingested Financial Services Compensation Scheme of Last Resort Levy Act 2023
+       legislation_id: 150af6e2-3050-44d5-b2b2-2740d4b39884
+       sections: 25
+       compilation: 2023-10-20

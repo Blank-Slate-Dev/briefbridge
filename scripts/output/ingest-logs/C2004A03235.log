@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03235/2025-11-08/2025-11-08/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 197,875 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03235/2025-11-08/2025-11-08/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 197,875 source bytes → 196,002 combined bytes
+[citation] Foreign States Immunities Act 1985 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 615
+[parser-diag] processed 615 <p> elements
+[parser-diag] last section was added at element index: 440
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 55
+[parse] compilation: date=2025-11-08 no=6
+[parse] by level:
+         part         5
+         section      47
+         schedule     1
+         schedule_part 2
+[db] inserted new legislation row: 7a4ae0c6-fc6c-45ce-a4a2-71ac73f9ee35
+[db] inserting 55 sections (pass 1)
+[db] inserted 55 sections
+[db] linking parent FKs (pass 2)
+[db] linked 49 parent references
+
+[done] ingested Foreign States Immunities Act 1985
+       legislation_id: 7a4ae0c6-fc6c-45ce-a4a2-71ac73f9ee35
+       sections: 55
+       compilation: 2025-11-08

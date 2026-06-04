@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2023A00085/2023-10-26/2023-10-26/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 24,992 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2023A00085/2023-10-26/2023-10-26/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 24,992 source bytes → 22,309 combined bytes
+[citation] Migration (Visa Pre-application Process) Charge Act 2023 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 122
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 16 February 2023"
+[parser-unknown-class] "2ndRd", text="Senate on 9 March 2023]"
+[parser-diag] processed 122 <p> elements
+[parser-diag] last section was added at element index: 108
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 14
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         3
+         section      11
+[db] inserted new legislation row: 8875677a-6f87-4df8-ac2c-0969dfd62ca4
+[db] inserting 14 sections (pass 1)
+[db] inserted 14 sections
+[db] linking parent FKs (pass 2)
+[db] linked 11 parent references
+
+[done] ingested Migration (Visa Pre-application Process) Charge Act 2023
+       legislation_id: 8875677a-6f87-4df8-ac2c-0969dfd62ca4
+       sections: 14
+       compilation: 2023-10-26

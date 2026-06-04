@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00621/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 120,661 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00621/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 120,661 source bytes → 118,390 combined bytes
+[citation] Adelaide Airport Curfew Act 2000 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 472
+[parser-diag] processed 472 <p> elements
+[parse] sections: 35
+[parse] compilation: date=2024-10-14 no=7
+[parser-diag] last section was added at element index: 311
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         5
+         section      25
+         division     5
+[db] inserted new legislation row: 00cc0f4b-8c6f-4d5d-837b-f3f7ec4e0571
+[db] inserting 35 sections (pass 1)
+[db] inserted 35 sections
+[db] linking parent FKs (pass 2)
+[db] linked 30 parent references
+
+[done] ingested Adelaide Airport Curfew Act 2000
+       legislation_id: 00cc0f4b-8c6f-4d5d-837b-f3f7ec4e0571
+       sections: 35
+       compilation: 2024-10-14

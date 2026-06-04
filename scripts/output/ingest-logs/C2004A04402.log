@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04402/2026-03-27/2026-03-27/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 771,698 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04402/2026-03-27/2026-03-27/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 771,698 source bytes → 769,520 combined bytes
+[citation] Superannuation Guarantee (Administration) Act 1992 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2681
+[parser-diag] processed 2681 <p> elements
+[parser-diag] last section was added at element index: 1493
+[parse] sections: 128
+[parse] compilation: date=2026-03-27 no=77
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         10
+         section      111
+         division     7
+[db] inserted new legislation row: 8bcd1954-9361-4e5c-bd64-dbee71a5aa3d
+[db] inserting 128 sections (pass 1)
+[db] inserted 128 sections
+[db] linking parent FKs (pass 2)
+[db] linked 118 parent references
+
+[done] ingested Superannuation Guarantee (Administration) Act 1992
+       legislation_id: 8bcd1954-9361-4e5c-bd64-dbee71a5aa3d
+       sections: 128
+       compilation: 2026-03-27

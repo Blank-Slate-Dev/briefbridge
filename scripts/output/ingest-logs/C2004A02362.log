@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02362/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,027,176 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02362/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,027,176 source bytes → 1,024,793 combined bytes
+[citation] Wine Australia Act 2013 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3855
+[parser-diag] processed 3855 <p> elements
+[parser-diag] last section was added at element index: 2368
+[parser-diag] state phase at end: ENDNOTES
+[parse] sections: 247
+[parse] compilation: date=2025-02-21 no=42
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         part         10
+         section      188
+         division     25
+         subdivision  11
+         schedule     1
+         schedule_clause 12
+[db] inserted new legislation row: c1593422-788f-45a0-b952-2aa637e6b493
+[db] inserting 247 sections (pass 1)
+[db] inserted 247 sections
+[db] linking parent FKs (pass 2)
+[db] linked 236 parent references
+
+[done] ingested Wine Australia Act 2013
+       legislation_id: c1593422-788f-45a0-b952-2aa637e6b493
+       sections: 247
+       compilation: 2025-02-21

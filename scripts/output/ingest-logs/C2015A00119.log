@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2015A00119/2022-09-28/2022-09-28/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 120,003 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2015A00119/2022-09-28/2022-09-28/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 120,003 source bytes → 117,826 combined bytes
+[citation] Australian Defence Force Superannuation Act 2015 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 488
+[parser-diag] processed 488 <p> elements
+[parser-diag] last section was added at element index: 323
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 38
+[parse] compilation: date=2022-09-28 no=6
+[parse] by level:
+         part         5
+         section      29
+         division     4
+[db] inserted new legislation row: efac6c28-ca23-4814-8d0b-03ff46c18e14
+[db] inserting 38 sections (pass 1)
+[db] inserted 38 sections
+[db] linking parent FKs (pass 2)
+[db] linked 33 parent references
+
+[done] ingested Australian Defence Force Superannuation Act 2015
+       legislation_id: efac6c28-ca23-4814-8d0b-03ff46c18e14
+       sections: 38
+       compilation: 2022-09-28

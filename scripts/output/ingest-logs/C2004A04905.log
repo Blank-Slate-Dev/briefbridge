@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04905/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 416,513 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04905/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 416,513 source bytes → 414,457 combined bytes
+[citation] Small Superannuation Accounts Act 1995 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1719
+[parser-diag] processed 1719 <p> elements
+[parse] sections: 156
+[parse] compilation: date=2025-02-21 no=29
+[parser-diag] last section was added at element index: 1229
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         part         15
+         section      109
+         division     22
+         schedule     1
+         schedule_clause 9
+[db] inserted new legislation row: 764d9cad-8f8d-4a3b-8ee9-5a7bc82d08b1
+[db] inserting 156 sections (pass 1)
+[db] inserted 156 sections
+[db] linking parent FKs (pass 2)
+[db] linked 140 parent references
+
+[done] ingested Small Superannuation Accounts Act 1995
+       legislation_id: 764d9cad-8f8d-4a3b-8ee9-5a7bc82d08b1
+       sections: 156
+       compilation: 2025-02-21

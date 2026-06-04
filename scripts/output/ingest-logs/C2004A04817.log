@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04817/2018-03-30/2018-03-30/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 85,977 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04817/2018-03-30/2018-03-30/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 85,977 source bytes → 84,149 combined bytes
+[citation] AeroSpace Technologies of Australia Limited Sale Act 1994 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 353
+[parser-diag] processed 353 <p> elements
+[parse] sections: 28
+[parse] compilation: date=2018-03-30 no=4
+[parser-diag] last section was added at element index: 209
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         6
+         section      19
+         division     3
+[db] inserted new legislation row: 1aae20df-1f5f-4ba9-8ff8-6c03eac33b7f
+[db] inserting 28 sections (pass 1)
+[db] inserted 28 sections
+[db] linking parent FKs (pass 2)
+[db] linked 22 parent references
+
+[done] ingested AeroSpace Technologies of Australia Limited Sale Act 1994
+       legislation_id: 1aae20df-1f5f-4ba9-8ff8-6c03eac33b7f
+       sections: 28
+       compilation: 2018-03-30

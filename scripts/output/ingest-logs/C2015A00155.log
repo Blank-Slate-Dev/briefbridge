@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2015A00155/2024-01-01/2024-01-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 35,833 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2015A00155/2024-01-01/2024-01-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 35,833 source bytes → 34,038 combined bytes
+[citation] Student Loans (Overseas Debtors Repayment Levy) Act 2015 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 171
+[parser-diag] processed 171 <p> elements
+[parser-diag] last section was added at element index: 63
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 5
+[parse] compilation: date=2024-01-01 no=2
+[parse] by level:
+         section      5
+[db] inserted new legislation row: 518bddee-daa9-4e7d-bd70-8b6d7c4e88b6
+[db] inserting 5 sections (pass 1)
+[db] inserted 5 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Student Loans (Overseas Debtors Repayment Levy) Act 2015
+       legislation_id: 518bddee-daa9-4e7d-bd70-8b6d7c4e88b6
+       sections: 5
+       compilation: 2024-01-01

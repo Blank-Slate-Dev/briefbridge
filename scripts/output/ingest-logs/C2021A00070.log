@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2021A00070/2021-06-30/2021-06-30/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 14,294 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2021A00070/2021-06-30/2021-06-30/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 14,294 source bytes → 12,774 combined bytes
+[citation] COVID-19 Disaster Payment (Funding Arrangements) Act 2021 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 84
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 16 June 2021"
+[parser-unknown-class] "2ndRd", text="Senate on 23 June 2021]"
+[parser-diag] processed 84 <p> elements
+[parser-diag] last section was added at element index: 72
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 8
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         3
+         section      5
+[db] inserted new legislation row: 2455f25c-2706-4546-be59-f814aebba09b
+[db] inserting 8 sections (pass 1)
+[db] inserted 8 sections
+[db] linking parent FKs (pass 2)
+[db] linked 5 parent references
+
+[done] ingested COVID-19 Disaster Payment (Funding Arrangements) Act 2021
+       legislation_id: 2455f25c-2706-4546-be59-f814aebba09b
+       sections: 8
+       compilation: 2021-06-30

@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04049/2018-06-19/2018-06-19/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 99,167 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04049/2018-06-19/2018-06-19/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 99,167 source bytes → 97,372 combined bytes
+[citation] Commonwealth Banks Restructuring Act 1990 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 428
+[parser-diag] processed 428 <p> elements
+[parser-diag] last section was added at element index: 178
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 24
+[parse] compilation: date=2018-06-19 no=4
+[parse] by level:
+         part         4
+         section      20
+[db] inserted new legislation row: 2dfee58f-0182-4a02-ba0e-4148c5c13b70
+[db] inserting 24 sections (pass 1)
+[db] inserted 24 sections
+[db] linking parent FKs (pass 2)
+[db] linked 20 parent references
+
+[done] ingested Commonwealth Banks Restructuring Act 1990
+       legislation_id: 2dfee58f-0182-4a02-ba0e-4148c5c13b70
+       sections: 24
+       compilation: 2018-06-19

@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2005A00076/2005-06-29/2005-06-29/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 7,059 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2005A00076/2005-06-29/2005-06-29/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 7,059 source bytes → 6,125 combined bytes
+[citation] Shortfall Interest Charge (Imposition) Act 2005 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 51
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 17 March 2005"
+[parser-unknown-class] "2ndRd", text="Senate on 12 May 2005]"
+[parser-diag] processed 51 <p> elements
+[parser-diag] last section was added at element index: 39
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: 93885b2a-d5ea-45cf-a420-414ff0a57aa8
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Shortfall Interest Charge (Imposition) Act 2005
+       legislation_id: 93885b2a-d5ea-45cf-a420-414ff0a57aa8
+       sections: 3
+       compilation: 2005-06-29

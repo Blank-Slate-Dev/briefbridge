@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2023A00024/2025-07-01/2025-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 302,881 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2023A00024/2025-07-01/2025-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 302,881 source bytes → 299,792 combined bytes
+[citation] Creative Australia Act 2023 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1211
+[parser-diag] processed 1211 <p> elements
+[parser-diag] last section was added at element index: 999
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 152
+[parse] compilation: date=2025-07-01 no=2
+[parse] by level:
+         part         11
+         section      115
+         division     26
+[db] inserted new legislation row: 2ec72d1e-706a-4b5b-83d8-99443eee8df5
+[db] inserting 152 sections (pass 1)
+[db] inserted 152 sections
+[db] linking parent FKs (pass 2)
+[db] linked 141 parent references
+
+[done] ingested Creative Australia Act 2023
+       legislation_id: 2ec72d1e-706a-4b5b-83d8-99443eee8df5
+       sections: 152
+       compilation: 2025-07-01

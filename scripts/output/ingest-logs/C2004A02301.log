@@ -1,0 +1,45 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02301/2011-12-27/2011-12-27/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 45,824 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02301/2011-12-27/2011-12-27/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 45,824 source bytes → 44,689 combined bytes
+[citation] War Graves Act 1980 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 179
+[parser-unknown-class] "ActNotesa", text="(a) The War Graves Act 1980 was amended by Part LXXVII (section 280) only of the Statute Law (Mis..."
+[parser-unknown-class] "ActNotes1", text="(1) Sections 1, 2, 166 and 195 and Parts III, VI, VII, XVI, XXXVI, XLIV, LI, LIII, LIV, LXI and L..."
+[parser-unknown-class] "ActNotesa", text="(b) The War Graves Act 1980 was amended by section 3 only of the Statute Law (Miscellaneous Provi..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act shall come into operation on the twenty‑eighth day after th..."
+[parser-unknown-class] "ActNotesa", text="(c) The War Graves Act 1980 was amended by Schedule 4 (items 1 and 151) only of the Statute Law R..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to subsections (2) and (3), this Act commences on the day on which it receives the Ro..."
+[parser-unknown-class] "ActNotesa", text="(d) The War Graves Act 1980 was amended by Schedule 1 (item 978) only of the Public Employment (C..."
+[parser-unknown-class] "ActNotes1", text="(1) In this Act, commencing time means the time when the Public Service Act 1999 commences."
+[parser-unknown-class] "ActNotes1", text="(2) Subject to this section, this Act commences at the commencing time."
+[parser-unknown-class] "TableA0", text="Table A"
+[parser-unknown-class] "TableAHead", text="Application, saving or transitional provisions"
+[parser-unknown-class] "TableAHeadItal", text="Abolition of Compulsory Age Retirement (Statutory Officeholders) Act 2001 (No. 159, 2001)"
+[parser-unknown-class] "ItemHead", text="Schedule 1"
+[parser-unknown-class] "ItemHead", text="97  Application of amendments"
+[parser-unknown-class] "TableAHeadItal", text="Acts Interpretation Amendment Act 2011 (No. 46, 2011)"
+[parser-unknown-class] "ItemHead", text="Schedule 3"
+[parser-unknown-class] "ItemHead", text="10  Saving—appointments"
+[parser-unknown-class] "ItemHead", text="11  Transitional regulations"
+[parser-diag] processed 179 <p> elements
+[parser-diag] last section was added at element index: 68
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 13
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      13
+[db] inserted new legislation row: 9980f2de-1120-4936-97eb-f82497de5729
+[db] inserting 13 sections (pass 1)
+[db] inserted 13 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested War Graves Act 1980
+       legislation_id: 9980f2de-1120-4936-97eb-f82497de5729
+       sections: 13
+       compilation: 2011-12-27

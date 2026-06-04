@@ -1,0 +1,66 @@
+[fetch] document_1: https://www.legislation.gov.au/C2023A00070/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 61,359 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2023A00070/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 61,359 source bytes → 58,218 combined bytes
+[citation] Parliamentary Workplace Support Service (Consequential Amendments and Transitional Provisions) Act 2023 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 266
+[parser-unknown-class] "ActHead6", text="Schedule 1—Consequential amendments"
+[parser-unknown-class] "ActHead9", text="Archives Act 1983"
+[parser-unknown-class] "ItemHead", text="1  Subsection 3(1) (paragraph (ba) of the definition of open access period)"
+[parser-unknown-class] "ItemHead", text="2  Subsection 3(1)"
+[parser-unknown-class] "ItemHead", text="3  Subsection 3(7) (note)"
+[parser-unknown-class] "ItemHead", text="4  Section 22C (at the end of the heading)"
+[parser-unknown-class] "ItemHead", text="5  Subsection 22C(1)"
+[parser-unknown-class] "ItemHead", text="6  After subsection 22C(2)"
+[parser-unknown-class] "ItemHead", text="7  Subsection 22C(3)"
+[parser-unknown-class] "ActHead9", text="Freedom of Information Act 1982"
+[parser-unknown-class] "ItemHead", text="8  After subsection 7(2AA)"
+[parser-unknown-class] "ItemHead", text="9  After subsection 7(2DB)"
+[parser-unknown-class] "ActHead9", text="Parliamentary Service Determination 2013"
+[parser-unknown-class] "ItemHead", text="10  Clause 112B"
+[parser-unknown-class] "ItemHead", text="11  Schedule 1"
+[parser-unknown-class] "ActHead6", text="Schedule 2—Application and transitional provisions"
+[parser-unknown-class] "Transitional", text="1  Definitions"
+[parser-unknown-class] "Subitem", text="(1) In this Schedule:"
+[parser-unknown-class] "Subitem", text="(2) A term used in this Schedule that is defined for the purposes of the PWSS Act has the same me..."
+[parser-unknown-class] "Transitional", text="2  PWSS may perform functions regardless of when alleged relevant conduct occurs"
+[parser-unknown-class] "Transitional", text="3  Transfer to the PWSS of complaints made before commencement under the existing PWSS mechanism"
+[parser-unknown-class] "Subitem", text="(1) This item applies if:"
+[parser-unknown-class] "Subitem", text="(2) The PWSS must deal with the complaint on and after that commencement as if the complaint had ..."
+[parser-unknown-class] "Subitem", text="(3) Any steps taken under the existing PWSS mechanism for the purposes of according a person proc..."
+[parser-unknown-class] "Subitem", text="(4) If, before that commencement:"
+[parser-unknown-class] "Subitem", text="(5) If a report to which subparagraph (4)(d)(i) applies includes a recommendation to a parliament..."
+[parser-unknown-class] "Subitem", text="(6) In this item:"
+[parser-unknown-class] "Transitional", text="4  Transfer of records"
+[parser-unknown-class] "Subitem", text="(1) Records and documents covered by subitem (2) or (3) are to be transferred to the PWSS after t..."
+[parser-unknown-class] "Subitem", text="(2) This subitem covers records or documents that were:"
+[parser-unknown-class] "Subitem", text="(3) This subitem covers records or documents that were:"
+[parser-unknown-class] "Subitem", text="(4) In this item:"
+[parser-unknown-class] "Transitional", text="5  Confidential information"
+[parser-unknown-class] "Subitem", text="(1) This item applies to any confidential information given to a person before the commencement o..."
+[parser-unknown-class] "Subitem", text="(2) The information is taken, immediately after that commencement, to have been given to the PWSS."
+[parser-unknown-class] "Transitional", text="6  Reports by the PWSS"
+[parser-unknown-class] "Subitem", text="(1) Subsection 22(2) of the PWSS Act applies in relation to financial years starting on or after ..."
+[parser-unknown-class] "Subitem", text="(2) Paragraph 22(2)(d) of the PWSS Act applies in relation to financial years starting on or afte..."
+[parser-unknown-class] "Transitional", text="7  Use and disclosure of information"
+[parser-diag] processed 266 <p> elements
+[parser-diag] last section was added at element index: 60
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=2024-10-14 no=1
+[parse] by level:
+         section      3
+[db] inserted new legislation row: 7609e1bc-2099-4128-955f-c74f259a36db
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Parliamentary Workplace Support Service (Consequential Amendments and Transitional Provisions) Act 2023
+       legislation_id: 7609e1bc-2099-4128-955f-c74f259a36db
+       sections: 3
+       compilation: 2024-10-14

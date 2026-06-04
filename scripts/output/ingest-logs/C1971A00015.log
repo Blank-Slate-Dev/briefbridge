@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C1971A00015/2023-10-11/2023-10-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 149,915 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1971A00015/2023-10-11/2023-10-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 149,915 source bytes → 148,135 combined bytes
+[citation] Criminology Research Act 1971 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 670
+[parser-diag] processed 670 <p> elements
+[parser-diag] last section was added at element index: 233
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 31
+[parse] compilation: date=2023-10-11 no=16
+[parse] by level:
+         part         5
+         section      24
+         division     2
+[db] inserted new legislation row: 7d427d99-5678-44cf-b790-fa9d06947401
+[db] inserting 31 sections (pass 1)
+[db] inserted 31 sections
+[db] linking parent FKs (pass 2)
+[db] linked 26 parent references
+
+[done] ingested Criminology Research Act 1971
+       legislation_id: 7d427d99-5678-44cf-b790-fa9d06947401
+       sections: 31
+       compilation: 2023-10-11

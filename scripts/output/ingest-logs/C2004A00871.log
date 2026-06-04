@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00871/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 262,951 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00871/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 262,951 source bytes → 260,850 combined bytes
+[citation] Financial Sector (Collection of Data) Act 2001 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 935
+[parser-diag] processed 935 <p> elements
+[parser-diag] last section was added at element index: 666
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 58
+[parse] compilation: date=2025-02-21 no=20
+[parse] by level:
+         part         6
+         section      48
+         division     4
+[db] inserted new legislation row: b1a59b87-2c35-4320-9d21-1ba6bf51d82c
+[db] inserting 58 sections (pass 1)
+[db] inserted 58 sections
+[db] linking parent FKs (pass 2)
+[db] linked 52 parent references
+
+[done] ingested Financial Sector (Collection of Data) Act 2001
+       legislation_id: b1a59b87-2c35-4320-9d21-1ba6bf51d82c
+       sections: 58
+       compilation: 2025-02-21

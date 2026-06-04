@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04463/2018-05-11/2018-05-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 544,747 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04463/2018-05-11/2018-05-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 544,747 source bytes → 542,416 combined bytes
+[citation] Service and Execution of Process Act 1992 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1967
+[parser-diag] processed 1967 <p> elements
+[parser-diag] last section was added at element index: 1636
+[parser-diag] state phase at end: ENDNOTES
+[parse] sections: 164
+[parse] compilation: date=2018-05-11 no=19
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         8
+         section      135
+         division     17
+         subdivision  4
+[db] inserted new legislation row: 89d52631-1d4f-47e6-86ce-3e1802b7bd40
+[db] inserting 164 sections (pass 1)
+[db] inserted 164 sections
+[db] linking parent FKs (pass 2)
+[db] linked 156 parent references
+
+[done] ingested Service and Execution of Process Act 1992
+       legislation_id: 89d52631-1d4f-47e6-86ce-3e1802b7bd40
+       sections: 164
+       compilation: 2018-05-11

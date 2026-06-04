@@ -1,0 +1,37 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05145/2025-10-31/2025-10-31/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,550,880 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05145/2025-10-31/2025-10-31/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2: 2,791,970 bytes
+[fetch] document_3: https://www.legislation.gov.au/C2004A05145/2025-10-31/2025-10-31/text/original/epub/OEBPS/document_3/document_3.html
+[fetch] document_3: 1,869,424 bytes
+[fetch] document_4: https://www.legislation.gov.au/C2004A05145/2025-10-31/2025-10-31/text/original/epub/OEBPS/document_4/document_4.html
+[fetch] document_4 not found — stopping. Fetched 3 document(s).
+[fetch] combined 3 document(s), 6,212,274 source bytes → 6,196,880 combined bytes
+[citation] Telecommunications Act 1997 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 22899
+[parser-diag] processed 22899 <p> elements
+[parser-diag] last section was added at element index: 18478
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parse] sections: 1374
+[parse] compilation: date=2025-10-31 no=116
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         part         37
+         section      889
+         division     146
+         subdivision  32
+         schedule     5
+         schedule_part 24
+         schedule_clause 241
+[db] inserted new legislation row: b0553d7c-5b86-454b-8fcd-d1c7663a2963
+[db] inserting 1374 sections (pass 1)
+[db] inserted 1374 sections
+[db] linking parent FKs (pass 2)
+[db] linked 1332 parent references
+
+[done] ingested Telecommunications Act 1997
+       legislation_id: b0553d7c-5b86-454b-8fcd-d1c7663a2963
+       sections: 1374
+       compilation: 2025-10-31

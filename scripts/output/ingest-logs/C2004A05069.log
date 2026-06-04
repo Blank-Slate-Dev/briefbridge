@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05069/2014-07-01/2014-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 143,310 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05069/2014-07-01/2014-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 143,310 source bytes → 141,149 combined bytes
+[citation] Australian Law Reform Commission Act 1996 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 596
+[parser-diag] processed 596 <p> elements
+[parse] sections: 45
+[parse] compilation: date=(none) no=(none)
+[parser-diag] last section was added at element index: 292
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         6
+         section      36
+         division     3
+[db] inserted new legislation row: b52103c7-465b-41be-96c6-4111a5924dea
+[db] inserting 45 sections (pass 1)
+[db] inserted 45 sections
+[db] linking parent FKs (pass 2)
+[db] linked 39 parent references
+
+[done] ingested Australian Law Reform Commission Act 1996
+       legislation_id: b52103c7-465b-41be-96c6-4111a5924dea
+       sections: 45
+       compilation: 2014-07-01

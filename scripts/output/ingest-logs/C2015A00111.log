@@ -1,0 +1,36 @@
+[fetch] document_1: https://www.legislation.gov.au/C2015A00111/2020-11-27/2020-11-27/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 342,054 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2015A00111/2020-11-27/2020-11-27/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 342,054 source bytes → 339,972 combined bytes
+[citation] Business Services Wage Assessment Tool Payment Scheme Act 2015 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1289
+[parser-unknown-class] "BoxStep", text="Step 1. Work out how much of the excess is attributable to wages in respect of eligible days for ..."
+[parser-unknown-class] "BoxStep", text="Step 2. Multiply the oldest annual portion by the indexation factor specified in subsection (2) f..."
+[parser-unknown-class] "BoxStep", text="Step 3. Take the result of step 2. Add to it any annual portion for the next financial year (unle..."
+[parser-unknown-class] "BoxStep", text="by the indexation factor specified in subsection (2) for that next financial year. If the result ..."
+[parser-unknown-class] "BoxStep", text="Reapply this step for each subsequent financial year up to and including the 2013‑2014 financial ..."
+[parser-unknown-class] "BoxStep", text="Step 4. Take the result of step 3. Add to it any annual portion for the 2014‑2015 financial year."
+[parser-unknown-class] "BoxStep", text="Step 5. If the result is not an amount of whole dollars, round the result up to the nearest whole..."
+[parser-diag] processed 1289 <p> elements
+[parser-diag] last section was added at element index: 1095
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 129
+[parse] compilation: date=2020-11-27 no=3
+[parse] by level:
+         part         6
+         section      106
+         division     17
+[db] inserted new legislation row: a822d45e-5752-48ad-98b8-9f27762b90e9
+[db] inserting 129 sections (pass 1)
+[db] inserted 129 sections
+[db] linking parent FKs (pass 2)
+[db] linked 123 parent references
+
+[done] ingested Business Services Wage Assessment Tool Payment Scheme Act 2015
+       legislation_id: a822d45e-5752-48ad-98b8-9f27762b90e9
+       sections: 129
+       compilation: 2020-11-27

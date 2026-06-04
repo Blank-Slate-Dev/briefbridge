@@ -1,0 +1,36 @@
+[fetch] document_1: https://www.legislation.gov.au/C1923A00014/2008-07-04/2008-07-04/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 97,036 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1923A00014/2008-07-04/2008-07-04/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 97,036 source bytes → 95,714 combined bytes
+[citation] Removal of Prisoners (Territories) Act 1923 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 306
+[parser-unknown-class] "ActNotesa", text="(a) The Removal of Prisoners (Territories) Act 1923 was amended by section 3 only of the Administ..."
+[parser-unknown-class] "ActNotes1", text="(7) The amendments of each other Act specified in the Schedule made by this Act shall be deemed t..."
+[parser-unknown-class] "ActNotesa", text="(b) The Removal of Prisoners (Territories) Act 1923 was amended by section 3 only of the Statute ..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act shall come into operation on the day on which it receives t..."
+[parser-unknown-class] "ActNotesa", text="(c) The Removal of Prisoners (Territories) Act 1923 was amended by section 3 only of the Statute ..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act shall come into operation on the day on which it receives t..."
+[parser-unknown-class] "ActNotesa", text="(d) The Removal of Prisoners (Territories) Act 1923 was amended by section 3 only of the Statute ..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act commences on the day on which it receives the Royal Assent."
+[parser-unknown-class] "ActNotesa", text="See, in connexion with the removal of prisoners from Christmas Island and the application of this..."
+[parser-diag] processed 306 <p> elements
+[parser-diag] last section was added at element index: 158
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 19
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      19
+[db] inserted new legislation row: e9b4adf7-842c-4308-b86a-e4ff70fd989d
+[db] inserting 19 sections (pass 1)
+[db] inserted 19 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Removal of Prisoners (Territories) Act 1923
+       legislation_id: e9b4adf7-842c-4308-b86a-e4ff70fd989d
+       sections: 19
+       compilation: 2008-07-04

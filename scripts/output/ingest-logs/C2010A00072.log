@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2010A00072/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 489,761 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2010A00072/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 489,761 source bytes → 487,557 combined bytes
+[citation] Healthcare Identifiers Act 2010 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2021
+[parser-diag] processed 2021 <p> elements
+[parser-diag] last section was added at element index: 1438
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: false
+[parse] sections: 99
+[parse] compilation: date=2025-12-05 no=21
+[parse] by level:
+         part         9
+         section      80
+         division     10
+[db] inserted new legislation row: 6ea136c5-be15-4a2d-a8d3-97f8e9858049
+[db] inserting 99 sections (pass 1)
+[db] inserted 99 sections
+[db] linking parent FKs (pass 2)
+[db] linked 90 parent references
+
+[done] ingested Healthcare Identifiers Act 2010
+       legislation_id: 6ea136c5-be15-4a2d-a8d3-97f8e9858049
+       sections: 99
+       compilation: 2025-12-05

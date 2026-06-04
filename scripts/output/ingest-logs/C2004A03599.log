@@ -1,0 +1,49 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03599/2012-09-22/2012-09-22/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 183,537 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03599/2012-09-22/2012-09-22/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 183,537 source bytes → 182,425 combined bytes
+[citation] Australian Airlines (Conversion to Public Company) Act 1988 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 591
+[parser-unknown-class] "ActNotes1", text="(a) (3) Subsection 52(1) shall come into operation on the day after subsection 11(3) is complied ..."
+[parser-unknown-class] "ActNotesa", text="Subsection 11(3) was complied with on 28 June 1988."
+[parser-unknown-class] "ActNotes1", text="(4) Subsection 52(3) shall come into operation immediately after the commencement of section 15."
+[parser-unknown-class] "ActNotesa", text="Section 15 commenced on 30 April 1988."
+[parser-unknown-class] "ActNotesa", text="(b) (2) The amendment of the Australian Airlines (Conversion to Public Company) Act 1988 made by ..."
+[parser-unknown-class] "ActNotesa", text="The Australian Airlines (Conversion to Public Company) Act 1988 came into operation on 9 March 1988."
+[parser-unknown-class] "ActNotesa", text="(c) The Australian Airlines (Conversion to Public Company) Act 1988 was amended by section 45 onl..."
+[parser-unknown-class] "ActNotes1", text="(13) The amendments made in the Schedule are taken to have commenced as follows:"
+[parser-unknown-class] "ActNotes1a", text="(a) the amendment of the Australian Airlines (Conversion to Public Company) Act 1988 is taken to ..."
+[parser-unknown-class] "ActNotesa", text="Subsection 69(2) commenced on 30 April 1988."
+[parser-unknown-class] "ActNotesa", text="(d) The Australian Airlines (Conversion to Public Company) Act 1988 was amended by the Qantas Sal..."
+[parser-unknown-class] "ActNotes1", text="(2) Subject to subsection (3), the remaining provisions of this Act commence on a day or days to ..."
+[parser-unknown-class] "ActNotes1", text="(3) A Proclamation may fix a day that is earlier than the day on which the Proclamation is publis..."
+[parser-unknown-class] "ActNotes1a", text="(a) in the case of sections 30, 31, 35, 37, 39, 43 and 50 and Parts 1 and 2 of the Schedule—the d..."
+[parser-unknown-class] "ActNotes1a", text="(b) in the case of sections 22, 23, 26, 27, 29, 32, 33, 34, 42, 45, 46, 47, 48 and 49 and Parts 3..."
+[parser-unknown-class] "ActNotes1a", text="(c) in the case of sections 25, 36, 38, 44 and 51 and Parts 5, 6 and 7 of the Schedule—the day is..."
+[parser-unknown-class] "ActNotes1", text="(6) If a provision of this Act has not commenced before 31 August 1995, the provision is taken to..."
+[parser-unknown-class] "ActNotesa", text="Schedule (Part 7) is taken to have been repealed on 31 August 1995."
+[parser-unknown-class] "ActNotesa", text="(e) The Qantas Sale Act 1992 was amended by section 3 (item 17) only of the Qantas Sale Amendment..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act commences on the day on which it receives the Royal Assent."
+[parser-diag] processed 591 <p> elements
+[parser-diag] last section was added at element index: 437
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 61
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         8
+         section      49
+         division     4
+[db] inserted new legislation row: d3c0e82a-91fb-4fa9-8b8e-4a186dc8947d
+[db] inserting 61 sections (pass 1)
+[db] inserted 61 sections
+[db] linking parent FKs (pass 2)
+[db] linked 53 parent references
+
+[done] ingested Australian Airlines (Conversion to Public Company) Act 1988
+       legislation_id: d3c0e82a-91fb-4fa9-8b8e-4a186dc8947d
+       sections: 61
+       compilation: 2012-09-22

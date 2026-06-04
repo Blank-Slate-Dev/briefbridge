@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2008A00153/2016-03-05/2016-03-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 590,913 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2008A00153/2016-03-05/2016-03-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 590,913 source bytes → 587,083 combined bytes
+[citation] Schools Assistance Act 2008 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2265
+[parser-diag] processed 2265 <p> elements
+[parser-diag] last section was added at element index: 1936
+[parse] sections: 261
+[parse] compilation: date=2016-03-05 no=4
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         part         10
+         section      174
+         division     53
+         subdivision  23
+         schedule     1
+[db] inserted new legislation row: 2ef83fd0-55bd-4813-a6a9-ac24340b8dfe
+[db] inserting 261 sections (pass 1)
+[db] inserted 261 sections
+[db] linking parent FKs (pass 2)
+[db] linked 250 parent references
+
+[done] ingested Schools Assistance Act 2008
+       legislation_id: 2ef83fd0-55bd-4813-a6a9-ac24340b8dfe
+       sections: 261
+       compilation: 2016-03-05

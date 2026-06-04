@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00441/2025-10-31/2025-10-31/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,431,547 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00441/2025-10-31/2025-10-31/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,431,547 source bytes → 1,428,842 combined bytes
+[citation] Telecommunications (Consumer Protection and Service Standards) Act 1999 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 5813
+[parser-diag] processed 5813 <p> elements
+[parser-diag] last section was added at element index: 3558
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 318
+[parse] compilation: date=2025-10-31 no=45
+[parse] by level:
+         part         10
+         section      257
+         division     28
+         subdivision  23
+[db] inserted new legislation row: 2d112e93-0fcc-4e11-9d8c-bc7df5642e28
+[db] inserting 318 sections (pass 1)
+[db] inserted 318 sections
+[db] linking parent FKs (pass 2)
+[db] linked 308 parent references
+
+[done] ingested Telecommunications (Consumer Protection and Service Standards) Act 1999
+       legislation_id: 2d112e93-0fcc-4e11-9d8c-bc7df5642e28
+       sections: 318
+       compilation: 2025-10-31

@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C1948A00089/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 843,587 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1948A00089/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 843,587 source bytes → 840,495 combined bytes
+[citation] Parliamentary Contributory Superannuation Act 1948 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2964
+[parser-diag] processed 2964 <p> elements
+[parser-diag] last section was added at element index: 1993
+[parse] sections: 130
+[parse] compilation: date=2026-04-01 no=46
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         part         9
+         section      90
+         division     9
+         schedule     1
+         schedule_part 3
+         schedule_clause 18
+[db] inserted new legislation row: e81dd2a9-e5be-4b19-b59e-f842171923d4
+[db] inserting 130 sections (pass 1)
+[db] inserted 130 sections
+[db] linking parent FKs (pass 2)
+[db] linked 120 parent references
+
+[done] ingested Parliamentary Contributory Superannuation Act 1948
+       legislation_id: e81dd2a9-e5be-4b19-b59e-f842171923d4
+       sections: 130
+       compilation: 2026-04-01

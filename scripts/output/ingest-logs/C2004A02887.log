@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02887/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,377,595 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02887/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,377,595 source bytes → 1,374,289 combined bytes
+[citation] Torres Strait Fisheries Act 1984 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 4737
+[parser-diag] processed 4737 <p> elements
+[parser-diag] last section was added at element index: 3998
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] sections: 227
+[parse] compilation: date=2024-10-14 no=32
+[parse] by level:
+         part         7
+         section      112
+         division     29
+         subdivision  12
+         schedule     2
+         schedule_part 6
+         schedule_clause 59
+[db] inserted new legislation row: bf14dd3e-b866-4f3d-96fe-be550e404bc3
+[db] inserting 227 sections (pass 1)
+[db] inserted 227 sections
+[db] linking parent FKs (pass 2)
+[db] linked 218 parent references
+
+[done] ingested Torres Strait Fisheries Act 1984
+       legislation_id: bf14dd3e-b866-4f3d-96fe-be550e404bc3
+       sections: 227
+       compilation: 2024-10-14

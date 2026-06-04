@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2020A00024/2020-03-24/2020-03-24/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 29,334 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2020A00024/2020-03-24/2020-03-24/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 29,334 source bytes → 27,773 combined bytes
+[citation] Assistance for Severely Affected Regions (Special Appropriation) (Coronavirus Economic Response Package) Act 2020 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 133
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 23 March 2020"
+[parser-unknown-class] "2ndRd", text="Senate on 23 March 2020]"
+[parser-diag] processed 133 <p> elements
+[parser-diag] last section was added at element index: 126
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 8
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      8
+[db] inserted new legislation row: 3b7f0377-e011-441f-bacb-a689f656dd5c
+[db] inserting 8 sections (pass 1)
+[db] inserted 8 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Assistance for Severely Affected Regions (Special Appropriation) (Coronavirus Economic Response Package) Act 2020
+       legislation_id: 3b7f0377-e011-441f-bacb-a689f656dd5c
+       sections: 8
+       compilation: 2020-03-24

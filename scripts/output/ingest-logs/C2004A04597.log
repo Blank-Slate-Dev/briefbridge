@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04597/2009-10-13/2009-10-13/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 17,041 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04597/2009-10-13/2009-10-13/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 17,041 source bytes → 16,050 combined bytes
+[citation] Protection of the Sea (Imposition of Contributions to Oil Pollution Compensation Funds—Customs) Act 1993 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 63
+[parser-diag] processed 63 <p> elements
+[parser-diag] last section was added at element index: 28
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 5
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      5
+[db] inserted new legislation row: c2bbfe7f-ec6e-407a-8097-dc6d28594522
+[db] inserting 5 sections (pass 1)
+[db] inserted 5 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Protection of the Sea (Imposition of Contributions to Oil Pollution Compensation Funds—Customs) Act 1993
+       legislation_id: c2bbfe7f-ec6e-407a-8097-dc6d28594522
+       sections: 5
+       compilation: 2009-10-13

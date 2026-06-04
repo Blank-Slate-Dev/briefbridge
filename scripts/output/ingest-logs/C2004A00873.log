@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00873/2023-10-20/2023-10-20/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 32,989 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00873/2023-10-20/2023-10-20/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 32,989 source bytes → 31,195 combined bytes
+[citation] Corporations (Compensation Arrangements Levies) Act 2001 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 149
+[parser-unknown-class] "indenta", text="(a) an amount of levy was payable to a securities exchange as agent for the Commonwealth under su..."
+[parser-unknown-class] "indenta", text="(b) an amount of levy was payable to a futures organisation as agent for the Commonwealth under s..."
+[parser-diag] processed 149 <p> elements
+[parser-diag] last section was added at element index: 49
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 6
+[parse] compilation: date=2023-10-20 no=1
+[parse] by level:
+         section      6
+[db] inserted new legislation row: 3cbc3f9f-c398-4afa-ac9e-9cc7a51dcff6
+[db] inserting 6 sections (pass 1)
+[db] inserted 6 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Corporations (Compensation Arrangements Levies) Act 2001
+       legislation_id: 3cbc3f9f-c398-4afa-ac9e-9cc7a51dcff6
+       sections: 6
+       compilation: 2023-10-20

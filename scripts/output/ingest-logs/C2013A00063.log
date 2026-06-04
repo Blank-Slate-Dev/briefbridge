@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2013A00063/2013-06-26/2013-06-26/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 14,993 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2013A00063/2013-06-26/2013-06-26/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 14,993 source bytes → 14,113 combined bytes
+[citation] Water Efficiency Labelling and Standards (Registration Fees) Act 2013 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 91
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 13 March 2013"
+[parser-unknown-class] "2ndRd", text="Senate on 20 March 2013]"
+[parser-diag] processed 91 <p> elements
+[parser-diag] last section was added at element index: 80
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 12
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         3
+         section      9
+[db] inserted new legislation row: 66c2b941-30b6-4922-b2ee-916493129ac5
+[db] inserting 12 sections (pass 1)
+[db] inserted 12 sections
+[db] linking parent FKs (pass 2)
+[db] linked 9 parent references
+
+[done] ingested Water Efficiency Labelling and Standards (Registration Fees) Act 2013
+       legislation_id: 66c2b941-30b6-4922-b2ee-916493129ac5
+       sections: 12
+       compilation: 2013-06-26

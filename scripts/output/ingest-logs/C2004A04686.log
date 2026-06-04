@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04686/2025-06-11/2025-06-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 391,662 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04686/2025-06-11/2025-06-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 391,662 source bytes → 389,602 combined bytes
+[citation] Occupational Health and Safety (Maritime Industry) Act 1993 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1371
+[parser-diag] processed 1371 <p> elements
+[parser-diag] last section was added at element index: 1103
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 143
+[parse] compilation: date=2025-06-11 no=23
+[parse] by level:
+         part         5
+         division     14
+         section      124
+[db] inserted new legislation row: 71bb2abb-e6fe-4612-98dc-cedc296cfed7
+[db] inserting 143 sections (pass 1)
+[db] inserted 143 sections
+[db] linking parent FKs (pass 2)
+[db] linked 138 parent references
+
+[done] ingested Occupational Health and Safety (Maritime Industry) Act 1993
+       legislation_id: 71bb2abb-e6fe-4612-98dc-cedc296cfed7
+       sections: 143
+       compilation: 2025-06-11

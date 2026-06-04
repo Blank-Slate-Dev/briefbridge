@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C1933A00008/1973-12-31/1973-12-31/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 13,259 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1933A00008/1973-12-31/1973-12-31/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 13,259 source bytes → 12,243 combined bytes
+[citation] Australian Antarctic Territory Acceptance Act 1933 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 56
+[parser-diag] processed 56 <p> elements
+[parser-diag] last section was added at element index: 18
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 2
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      2
+[db] inserted new legislation row: 7dd4cbf8-d8ad-4195-ad5f-6b87e56e4dfe
+[db] inserting 2 sections (pass 1)
+[db] inserted 2 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Australian Antarctic Territory Acceptance Act 1933
+       legislation_id: 7dd4cbf8-d8ad-4195-ad5f-6b87e56e4dfe
+       sections: 2
+       compilation: 1973-12-31

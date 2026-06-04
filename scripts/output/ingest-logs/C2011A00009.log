@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2011A00009/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 963,293 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2011A00009/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 963,293 source bytes → 960,803 combined bytes
+[citation] National Health Reform Act 2011 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3925
+[parser-diag] processed 3925 <p> elements
+[parser-diag] last section was added at element index: 2533
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 324
+[parse] compilation: date=2025-11-01 no=13
+[parse] by level:
+         chapter      5
+         section      260
+         part         29
+         division     30
+[db] inserted new legislation row: f1647fdd-9ae1-4a3c-9217-a2e35deb68e7
+[db] inserting 324 sections (pass 1)
+[db] inserted 324 sections
+[db] linking parent FKs (pass 2)
+[db] linked 319 parent references
+
+[done] ingested National Health Reform Act 2011
+       legislation_id: f1647fdd-9ae1-4a3c-9217-a2e35deb68e7
+       sections: 324
+       compilation: 2025-11-01

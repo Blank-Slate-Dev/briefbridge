@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02869/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 335,544 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02869/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 335,544 source bytes → 333,589 combined bytes
+[citation] Liquid Fuel Emergency Act 1984 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1236
+[parser-diag] processed 1236 <p> elements
+[parser-diag] last section was added at element index: 892
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 64
+[parse] compilation: date=2025-12-05 no=17
+[parse] by level:
+         part         6
+         section      58
+[db] inserted new legislation row: 7b3cd204-9efe-4538-a32e-9b2b908f5443
+[db] inserting 64 sections (pass 1)
+[db] inserted 64 sections
+[db] linking parent FKs (pass 2)
+[db] linked 58 parent references
+
+[done] ingested Liquid Fuel Emergency Act 1984
+       legislation_id: 7b3cd204-9efe-4538-a32e-9b2b908f5443
+       sections: 64
+       compilation: 2025-12-05

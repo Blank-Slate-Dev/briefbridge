@@ -1,0 +1,26 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04238/1993-12-16/1993-12-16/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 78,677 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04238/1993-12-16/1993-12-16/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 78,677 source bytes → 77,473 combined bytes
+[citation] Fisheries Legislation (Consequential Provisions) Act 1991 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 229
+[parser-diag] processed 229 <p> elements
+[parser-diag] last section was added at element index: -1
+[parser-diag] state phase at end: PRE_BODY
+[parser-diag] hierarchy stack depth at end: 0
+[parser-diag] insideSchedule at end: false
+[parse] sections: 0
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+[db] inserted new legislation row: 6ed5b4d7-9fdd-442c-9d7a-0cd338053988
+[db] inserting 0 sections (pass 1)
+[db] inserted 0 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Fisheries Legislation (Consequential Provisions) Act 1991
+       legislation_id: 6ed5b4d7-9fdd-442c-9d7a-0cd338053988
+       sections: 0
+       compilation: 1993-12-16

@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C1905A00016/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 118,737 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1905A00016/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 118,737 source bytes → 116,790 combined bytes
+[citation] Commerce (Trade Descriptions) Act 1905 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 492
+[parser-diag] processed 492 <p> elements
+[parser-diag] last section was added at element index: 177
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 26
+[parse] compilation: date=2024-10-14 no=15
+[parse] by level:
+         part         5
+         section      21
+[db] inserted new legislation row: fdfa2c33-fb0a-41da-9562-4b1421b2c275
+[db] inserting 26 sections (pass 1)
+[db] inserted 26 sections
+[db] linking parent FKs (pass 2)
+[db] linked 21 parent references
+
+[done] ingested Commerce (Trade Descriptions) Act 1905
+       legislation_id: fdfa2c33-fb0a-41da-9562-4b1421b2c275
+       sections: 26
+       compilation: 2024-10-14

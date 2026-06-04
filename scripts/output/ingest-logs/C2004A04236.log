@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04236/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 372,843 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04236/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 372,843 source bytes → 370,652 combined bytes
+[citation] Fisheries Administration Act 1991 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1436
+[parser-diag] processed 1436 <p> elements
+[parser-diag] last section was added at element index: 939
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 105
+[parse] compilation: date=2025-01-01 no=26
+[parse] by level:
+         part         4
+         section      88
+         division     13
+[db] inserted new legislation row: 06679b82-301c-487a-b2ac-187d75b5640c
+[db] inserting 105 sections (pass 1)
+[db] inserted 105 sections
+[db] linking parent FKs (pass 2)
+[db] linked 101 parent references
+
+[done] ingested Fisheries Administration Act 1991
+       legislation_id: 06679b82-301c-487a-b2ac-187d75b5640c
+       sections: 105
+       compilation: 2025-01-01

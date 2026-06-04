@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2012A00121/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 726,349 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2012A00121/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 726,349 source bytes → 724,002 combined bytes
+[citation] Marine Safety (Domestic Commercial Vessel) National Law Act 2012 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2686
+[parser-diag] processed 2686 <p> elements
+[parser-diag] last section was added at element index: 2418
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] sections: 225
+[parse] compilation: date=2024-10-14 no=6
+[parse] by level:
+         section      19
+         schedule     1
+         schedule_part 8
+         schedule_clause 165
+         division     29
+         subdivision  3
+[db] inserted new legislation row: dfb650d2-cdcd-450c-8cfa-98932b831d60
+[db] inserting 225 sections (pass 1)
+[db] inserted 225 sections
+[db] linking parent FKs (pass 2)
+[db] linked 205 parent references
+
+[done] ingested Marine Safety (Domestic Commercial Vessel) National Law Act 2012
+       legislation_id: dfb650d2-cdcd-450c-8cfa-98932b831d60
+       sections: 225
+       compilation: 2024-10-14

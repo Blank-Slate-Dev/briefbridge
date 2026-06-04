@@ -1,0 +1,68 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00767/2026-01-01/2026-01-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,058,965 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00767/2026-01-01/2026-01-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,058,965 source bytes → 1,054,131 combined bytes
+[citation] Renewable Energy (Electricity) Act 2000 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3952
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the total amount, in MWh, of electricity acquired by the liable entity during th..."
+[parser-unknown-class] "BoxStep", text="Step 2. Subtract from the total electricity acquired the amount of the liable entity’s exemption ..."
+[parser-unknown-class] "BoxStep", text="Step 3. Multiply the result of step 2 by the renewable power percentage for the year and round th..."
+[parser-unknown-class] "BoxStep", text="Step 4. Subtract the total value, in MWh, of large‑scale generation certificates surrendered for ..."
+[parser-unknown-class] "BoxStep", text="Result: If the result is greater than zero, the liable entity has a large‑scale generation shortf..."
+[parser-unknown-class] "BoxStep", text="If the result is zero, the liable entity does not have a large‑scale generation shortfall for the..."
+[parser-unknown-class] "BoxStep", text="If the result is less than zero, the liable entity has a carried forward surplus for the year equ..."
+[parser-unknown-class] "BoxStep", text="Step 1. Work out 35% of the previous year’s reduced acquisitions. Multiply this by the small‑scal..."
+[parser-unknown-class] "BoxStep", text="Step 2. Add together:"
+[parser-unknown-class] "BoxStep", text="The result is the surrendered amount."
+[parser-unknown-class] "BoxStep", text="Step 3. Subtract the surrendered amount from the required surrender amount."
+[parser-unknown-class] "BoxStep", text="Result: If the result is greater than zero, the liable entity has a quarterly shortfall for the f..."
+[parser-unknown-class] "BoxStep", text="If the result is zero, the liable entity does not have a quarterly shortfall for the first quarte..."
+[parser-unknown-class] "BoxStep", text="If the result is less than zero, the liable entity has a quarterly surplus for the first quarter ..."
+[parser-unknown-class] "BoxStep", text="Step 1. Work out 25% of the previous year’s reduced acquisitions. Multiply this by the small‑scal..."
+[parser-unknown-class] "BoxStep", text="Step 2. Add together:"
+[parser-unknown-class] "BoxStep", text="The result is the surrendered amount."
+[parser-unknown-class] "BoxStep", text="Step 3. Subtract the surrendered amount from the required surrender amount."
+[parser-unknown-class] "BoxStep", text="Result: If the result is greater than zero, the liable entity has a quarterly shortfall for the s..."
+[parser-unknown-class] "BoxStep", text="If the result is zero, the liable entity does not have a quarterly shortfall for the second quart..."
+[parser-unknown-class] "BoxStep", text="If the result is less than zero, the liable entity has a quarterly surplus for the second quarter..."
+[parser-unknown-class] "BoxStep", text="Step 1. Work out 25% of the previous year’s reduced acquisitions. Multiply this by the small‑scal..."
+[parser-unknown-class] "BoxStep", text="Step 2. Add together:"
+[parser-unknown-class] "BoxStep", text="The result is the surrendered amount."
+[parser-unknown-class] "BoxStep", text="Step 3. Subtract the surrendered amount from the required surrender amount."
+[parser-unknown-class] "BoxStep", text="Result: If the result is greater than zero, the liable entity has a quarterly shortfall for the t..."
+[parser-unknown-class] "BoxStep", text="If the result is zero, the liable entity does not have a quarterly shortfall for the third quarte..."
+[parser-unknown-class] "BoxStep", text="If the result is less than zero, the liable entity has a quarterly surplus for the third quarter ..."
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the assessment year’s reduced acquisitions. Multiply this by the small‑scale tec..."
+[parser-unknown-class] "BoxStep", text="Step 2. Subtract from the amount worked out under step 1 the total of the required surrender amou..."
+[parser-unknown-class] "BoxStep", text="Step 3. Add together:"
+[parser-unknown-class] "BoxStep", text="The result is the surrendered amount."
+[parser-unknown-class] "BoxStep", text="Step 4. If the required surrender amount is zero or greater, subtract the surrendered amount from..."
+[parser-unknown-class] "BoxStep", text="Result: If the result is greater than zero, the liable entity has a quarterly shortfall for the f..."
+[parser-unknown-class] "BoxStep", text="If the result is zero, the liable entity does not have a quarterly shortfall for the fourth quart..."
+[parser-unknown-class] "BoxStep", text="If the result is less than zero, the liable entity has a quarterly surplus for the fourth quarter..."
+[parser-unknown-class] "BoxStep", text="Step 5. If the required surrender amount is less than zero, add together that amount (expressed a..."
+[parser-unknown-class] "BoxStep", text="Result: The liable entity has a quarterly surplus for the fourth quarter of the assessment year e..."
+[parser-diag] processed 3952 <p> elements
+[parser-diag] last section was added at element index: 2940
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 342
+[parse] compilation: date=2026-01-01 no=34
+[parse] by level:
+         part         20
+         section      250
+         division     51
+         subdivision  21
+[db] inserted new legislation row: 36b8e69b-075a-4c11-b0f9-366dced672af
+[db] inserting 342 sections (pass 1)
+[db] inserted 342 sections
+[db] linking parent FKs (pass 2)
+[db] linked 322 parent references
+
+[done] ingested Renewable Energy (Electricity) Act 2000
+       legislation_id: 36b8e69b-075a-4c11-b0f9-366dced672af
+       sections: 342
+       compilation: 2026-01-01

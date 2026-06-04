@@ -1,0 +1,42 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05102/2012-09-22/2012-09-22/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 221,603 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05102/2012-09-22/2012-09-22/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 221,603 source bytes → 220,425 combined bytes
+[citation] CFM Sale Act 1996 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 731
+[parser-unknown-class] "ActNotesa", text="(a) Subsections 2(2) and (5) of the CFM Sale Act 1996 provide as follows:"
+[parser-unknown-class] "ActNotes1", text="(2) Items 3 and 4 of Schedule 1 are taken to have commenced immediately after the commencement of..."
+[parser-unknown-class] "ActNotes1", text="(5) If this Act commences before the commencement of the Legislative Instruments Act 1996, item 1..."
+[parser-unknown-class] "ActNotesa", text="Part 2 commenced on 1 March 1991."
+[parser-unknown-class] "ActNotesa", text="The Legislative Instruments Act 1996 did not commence."
+[parser-unknown-class] "ActNotesa", text="(b) The CFM Sale Act 1996 was amended by Schedule 3 (items 94 and 95) only of the Corporations (R..."
+[parser-unknown-class] "ActNotes1", text="(3) Subject to subsections (4) to (10), Schedule 3 commences, or is taken to have commenced, at t..."
+[parser-unknown-class] "TableA0", text="Table A"
+[parser-unknown-class] "TableAHead", text="Application, saving or transitional provisions"
+[parser-unknown-class] "TableAHeadItal", text="Financial Framework Legislation Amendment Act 2005 (No. 8, 2005)"
+[parser-unknown-class] "ItemHead", text="Schedule 1"
+[parser-unknown-class] "ItemHead", text="496  Saving provision—Finance Minister’s determinations"
+[parser-diag] processed 731 <p> elements
+[parser-diag] last section was added at element index: 720
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 112
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         5
+         section      82
+         division     19
+         subdivision  6
+[db] inserted new legislation row: 20b7dbbe-d0de-4a7a-9c56-8b95f2a6d703
+[db] inserting 112 sections (pass 1)
+[db] inserted 112 sections
+[db] linking parent FKs (pass 2)
+[db] linked 107 parent references
+
+[done] ingested CFM Sale Act 1996
+       legislation_id: 20b7dbbe-d0de-4a7a-9c56-8b95f2a6d703
+       sections: 112
+       compilation: 2012-09-22

@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C1933A00060/2008-07-04/2008-07-04/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 75,247 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1933A00060/2008-07-04/2008-07-04/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 75,247 source bytes → 74,046 combined bytes
+[citation] Ashmore and Cartier Islands Acceptance Act 1933 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 270
+[parser-unknown-class] "TableA0", text="Table A"
+[parser-unknown-class] "TableAHead", text="Application, saving or transitional provisions"
+[parser-unknown-class] "TableAHeadItal", text="Transport and Regional Services Legislation Amendment (Application of Criminal Code) Act 2001 (No..."
+[parser-diag] processed 270 <p> elements
+[parser-diag] last section was added at element index: 266
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 20
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      20
+[db] inserted new legislation row: c9b14931-9e20-468a-8f15-28cb5deffe43
+[db] inserting 20 sections (pass 1)
+[db] inserted 20 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Ashmore and Cartier Islands Acceptance Act 1933
+       legislation_id: c9b14931-9e20-468a-8f15-28cb5deffe43
+       sections: 20
+       compilation: 2008-07-04

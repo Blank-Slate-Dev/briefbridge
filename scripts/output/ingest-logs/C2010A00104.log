@@ -1,0 +1,45 @@
+[fetch] document_1: https://www.legislation.gov.au/C2010A00104/2026-03-20/2026-03-20/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,569,994 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2010A00104/2026-03-20/2026-03-20/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,569,994 source bytes → 1,566,401 combined bytes
+[citation] Paid Parental Leave Act 2010 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 6085
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the person’s work test period."
+[parser-unknown-class] "BoxNote", text="Note: Work test period is defined in sections 33 and 33A for PPL claimants and special PPL claima..."
+[parser-unknown-class] "BoxStep", text="Step 2. Work out the days in the work test period on which the person has and has not performed q..."
+[parser-unknown-class] "BoxNote", text="Note: Qualifying work is defined in section 34."
+[parser-unknown-class] "BoxStep", text="Step 3. Work out whether any days on which the person has not performed qualifying work during th..."
+[parser-unknown-class] "BoxNote", text="Note: Permissible break is defined in section 36."
+[parser-unknown-class] "BoxStep", text="Step 4. Work out whether there is a period (a qualifying period) of 295 consecutive days in the w..."
+[parser-unknown-class] "BoxStep", text="Step 5. If the person has performed at least 330 hours of qualifying work in a qualifying period,..."
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the amount (the previous amount) for the relevant income limit that applied on t..."
+[parser-unknown-class] "BoxStep", text="Step 2. Use section 43 to work out the indexation factor on the indexation day."
+[parser-unknown-class] "BoxStep", text="Step 3. Multiply the previous amount by the indexation factor: the result is the provisional inde..."
+[parser-unknown-class] "BoxStep", text="Step 4. Use section 44 to round off the provisional indexed amount: the result is the indexed amo..."
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the total amount of the instalments that have been paid to the credit of the acc..."
+[parser-unknown-class] "BoxStep", text="Step 2. Subtract from the step 1 amount the total amount withdrawn from the account during the sa..."
+[parser-diag] processed 6085 <p> elements
+[parser-diag] last section was added at element index: 4193
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 4
+[parser-diag] insideSchedule at end: false
+[parse] sections: 472
+[parse] compilation: date=2026-03-20 no=47
+[parse] by level:
+         chapter      7
+         part         24
+         division     89
+         section      340
+         subdivision  12
+[db] inserted new legislation row: e9366cb6-0a72-46bb-9f19-d2e84a29850b
+[db] inserting 472 sections (pass 1)
+[db] inserted 472 sections
+[db] linking parent FKs (pass 2)
+[db] linked 465 parent references
+
+[done] ingested Paid Parental Leave Act 2010
+       legislation_id: e9366cb6-0a72-46bb-9f19-d2e84a29850b
+       sections: 472
+       compilation: 2026-03-20

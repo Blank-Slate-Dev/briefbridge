@@ -1,0 +1,37 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00764/2000-12-21/2000-12-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 11,468 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00764/2000-12-21/2000-12-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 11,468 source bytes → 10,525 combined bytes
+[citation] Gene Technology (Licence Charges) Act 2000 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 67
+[parser-unknown-class] "indenta", text="(a) required or permitted by this Act to be prescribed; or"
+[parser-unknown-class] "indenta", text="(b) necessary or convenient to be prescribed for carrying out or giving effect to this Act."
+[parser-unknown-class] "indenta", text=""
+[parser-unknown-class] "indenta", text=""
+[parser-unknown-class] "indenta", text=""
+[parser-unknown-class] "indenta", text=""
+[parser-unknown-class] "indenta", text=""
+[parser-unknown-class] "indenta", text="(105/00)"
+[parser-unknown-class] "indenta", text=""
+[parser-unknown-class] "indenta", text=""
+[parser-diag] processed 67 <p> elements
+[parser-diag] last section was added at element index: 51
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 5
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      5
+[db] inserted new legislation row: 1c353743-831c-4dd8-95d3-47cdad576bde
+[db] inserting 5 sections (pass 1)
+[db] inserted 5 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Gene Technology (Licence Charges) Act 2000
+       legislation_id: 1c353743-831c-4dd8-95d3-47cdad576bde
+       sections: 5
+       compilation: 2000-12-21

@@ -1,0 +1,61 @@
+[fetch] document_1: https://www.legislation.gov.au/C2024A00019/2024-04-08/2024-04-08/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 30,369 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2024A00019/2024-04-08/2024-04-08/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 30,369 source bytes → 27,943 combined bytes
+[citation] Autonomous Sanctions Amendment Act 2024 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 134
+[parser-unknown-class] "ActHead6", text="Schedule 1—Amendments and validations"
+[parser-unknown-class] "ActHead7", text="Part 1—Amendments"
+[parser-unknown-class] "ActHead9", text="Autonomous Sanctions Act 2011"
+[parser-unknown-class] "ItemHead", text="1  After section 10"
+[parser-unknown-class] "ActHead7", text="Part 2—Validation provisions"
+[parser-unknown-class] "Transitional", text="2  Definitions"
+[parser-unknown-class] "Transitional", text="3  Validation of pre‑commencement regulations and related instruments—past circumstances, actions..."
+[parser-unknown-class] "SubitemHead", text="Effect of certain regulations"
+[parser-unknown-class] "Subitem", text="(1) Subitem (2) applies to regulations (whether or not still in force) that were made or purporte..."
+[parser-unknown-class] "Subitem", text="(2) The regulations are taken for all purposes to be, and to have always been, as valid and effec..."
+[parser-unknown-class] "SubitemHead", text="Effect of instruments made under those regulations"
+[parser-unknown-class] "Subitem", text="(3) Subitem (4) applies to an instrument (whether or not still in force) that was made or purport..."
+[parser-unknown-class] "Subitem", text="(4) The instrument is taken for all purposes to be, and to have always been, as valid and effecti..."
+[parser-unknown-class] "SubitemHead", text="Validity of things done"
+[parser-unknown-class] "Subitem", text="(5) Anything done, or anything purported to have been done, by a person that would have been whol..."
+[parser-unknown-class] "SubitemHead", text="Application of item to proceedings"
+[parser-unknown-class] "Subitem", text="(6) For the purposes of applying this item in relation to civil or criminal proceedings, this ite..."
+[parser-unknown-class] "Transitional", text="4  Validation of pre‑commencement instruments not authorised by regulations"
+[parser-unknown-class] "Subitem", text="(1) This item applies to an instrument (whether or not still in force) that:"
+[parser-unknown-class] "Subitem", text="(2) The instrument is taken for all purposes to be, and to have always been, valid and effective."
+[parser-unknown-class] "Subitem", text="(3) Anything done, or anything purported to have been done, by a person that would have been whol..."
+[parser-unknown-class] "Subitem", text="(4) For the purposes of applying this item in relation to civil or criminal proceedings, this ite..."
+[parser-unknown-class] "Transitional", text="5  Pre‑commencement instruments—exercise of discretion"
+[parser-unknown-class] "Subitem", text="(1) This item applies to an instrument (whether or not still in force), that was made or purporte..."
+[parser-unknown-class] "Subitem", text="(2) This item also applies to an instrument (whether or not still in force), that was made or pur..."
+[parser-unknown-class] "Subitem", text="(3) The instrument is taken for all purposes to be, and to have always been, valid and effective."
+[parser-unknown-class] "Subitem", text="(4) Anything done, or anything purported to have been done, by a person that would have been whol..."
+[parser-unknown-class] "Subitem", text="(5) For the purposes of applying this item in relation to civil or criminal proceedings, this ite..."
+[parser-unknown-class] "Transitional", text="6  Compensation for acquisition of property"
+[parser-unknown-class] "Subitem", text="(1) If:"
+[parser-unknown-class] "Subitem", text="(2) If the Commonwealth and the person do not agree on the amount of the compensation, the person..."
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 15 February 2024"
+[parser-unknown-class] "2ndRd", text="Senate on 29 February 2024]"
+[parser-diag] processed 134 <p> elements
+[parser-diag] last section was added at element index: 62
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 4
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      4
+[db] inserted new legislation row: 7c42d150-412e-435d-9db6-7bc5ab1a0d9e
+[db] inserting 4 sections (pass 1)
+[db] inserted 4 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Autonomous Sanctions Amendment Act 2024
+       legislation_id: 7c42d150-412e-435d-9db6-7bc5ab1a0d9e
+       sections: 4
+       compilation: 2024-04-08

@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04351/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 362,482 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04351/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 362,482 source bytes → 360,315 combined bytes
+[citation] Coal Mining Industry (Long Service Leave) Administration Act 1992 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1404
+[parser-diag] processed 1404 <p> elements
+[parser-diag] last section was added at element index: 848
+[parser-diag] state phase at end: ENDNOTES
+[parse] sections: 104
+[parse] compilation: date=2024-10-14 no=24
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         10
+         section      83
+         division     9
+         subdivision  2
+[db] inserted new legislation row: b4e49d2e-b8f8-492b-a0e4-6309dfb4009d
+[db] inserting 104 sections (pass 1)
+[db] inserted 104 sections
+[db] linking parent FKs (pass 2)
+[db] linked 94 parent references
+
+[done] ingested Coal Mining Industry (Long Service Leave) Administration Act 1992
+       legislation_id: b4e49d2e-b8f8-492b-a0e4-6309dfb4009d
+       sections: 104
+       compilation: 2024-10-14

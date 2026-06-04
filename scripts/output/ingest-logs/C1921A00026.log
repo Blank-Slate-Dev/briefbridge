@@ -1,0 +1,40 @@
+[fetch] document_1: https://www.legislation.gov.au/C1921A00026/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 609,402 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1921A00026/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 609,402 source bytes → 606,476 combined bytes
+[citation] Excise Tariff Act 1921 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2404
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the amount of duty that would, apart from this section, be payable on the blende..."
+[parser-unknown-class] "BoxStep", text="Step 2. Add up the amount of duty previously payable on each constituent that is classified to su..."
+[parser-unknown-class] "BoxStep", text="Step 3. Subtract the result of step 2 from the result of step 1."
+[parser-unknown-class] "BoxStep", text="Step 4. The duty payable on the blended tobacco goods is:"
+[parser-unknown-class] "BoxStep", text="Step 1. Add up the amount of duty that would, at the time the duty on the blended goods is payabl..."
+[parser-unknown-class] "BoxStep", text="Step 2. Work out the volume, in litres, of the blended goods that is not attributable to those co..."
+[parser-unknown-class] "BoxStep", text="Step 3. Multiply the result of step 2 by $0.386."
+[parser-unknown-class] "BoxNote", text="Note: The rate set out in this step is indexed under section 6A."
+[parser-unknown-class] "BoxStep", text="Step 4. Total the results of steps 1 and 3."
+[parser-unknown-class] "BoxStep", text="Step 5. Subtract from the total any duty paid on a constituent of the blended goods that is class..."
+[parser-diag] processed 2404 <p> elements
+[parser-diag] last section was added at element index: 835
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 27
+[parse] compilation: date=2026-04-01 no=57
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule". Captured as 'schedule' as fallback.
+[parse] by level:
+         section      26
+         schedule     1
+[db] inserted new legislation row: b056f0de-2c50-41ae-97e1-7ecb99aecb81
+[db] inserting 27 sections (pass 1)
+[db] inserted 27 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Excise Tariff Act 1921
+       legislation_id: b056f0de-2c50-41ae-97e1-7ecb99aecb81
+       sections: 27
+       compilation: 2026-04-01

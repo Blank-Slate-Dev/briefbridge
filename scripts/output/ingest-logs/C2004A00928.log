@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00928/2026-01-22/2026-01-22/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 774,059 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00928/2026-01-22/2026-01-22/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 774,059 source bytes → 769,538 combined bytes
+[citation] Intelligence Services Act 2001 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2779
+[parser-diag] processed 2779 <p> elements
+[parser-diag] last section was added at element index: 1975
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 160
+[parse] compilation: date=2026-01-22 no=52
+[parse] by level:
+         part         8
+         section      98
+         division     11
+         schedule     3
+         schedule_part 5
+         schedule_clause 35
+[db] inserted new legislation row: cd0b6c10-cb0e-4638-ae10-7876f93c8293
+[db] inserting 160 sections (pass 1)
+[db] inserted 160 sections
+[db] linking parent FKs (pass 2)
+[db] linked 149 parent references
+
+[done] ingested Intelligence Services Act 2001
+       legislation_id: cd0b6c10-cb0e-4638-ae10-7876f93c8293
+       sections: 160
+       compilation: 2026-01-22

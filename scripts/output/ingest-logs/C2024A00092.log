@@ -1,0 +1,44 @@
+[fetch] document_1: https://www.legislation.gov.au/C2024A00092/2024-10-24/2024-10-24/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 23,967 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2024A00092/2024-10-24/2024-10-24/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 23,967 source bytes → 21,531 combined bytes
+[citation] Australian Naval Nuclear Power Safety (Transitional Provisions) Act 2024 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 111
+[parser-unknown-class] "ActHead6", text="Schedule 1—Transitional provisions"
+[parser-unknown-class] "Transitional", text="1  Definitions"
+[parser-unknown-class] "Transitional", text="2  Transitioning certain facility licences under the ARPANS Act to licences under the ANNPS Act"
+[parser-unknown-class] "Subitem", text="(1) This item applies if:"
+[parser-unknown-class] "Subitem", text="(2) On and after commencement the licence:"
+[parser-unknown-class] "Transitional", text="3  Transitioning certain facility licences and source licences under the ARPANS Act to licences u..."
+[parser-unknown-class] "Subitem", text="(1) This item applies if:"
+[parser-unknown-class] "Subitem", text="(2) On and after commencement the licence continues in force (and may be dealt with) under the AR..."
+[parser-unknown-class] "Subitem", text="(3) On and after commencement the licence, only to the extent that it relates to a regulated acti..."
+[parser-unknown-class] "Transitional", text="4  Regulations"
+[parser-unknown-class] "Subitem", text="(1) The Governor‑General may make regulations prescribing matters:"
+[parser-unknown-class] "Subitem", text="(2) The regulations may prescribe matters of a transitional nature (including prescribing any sav..."
+[parser-unknown-class] "Subitem", text="(3) Items 2 and 3 do not limit the regulations that may be made for the purposes of this item."
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 16 November 2023"
+[parser-unknown-class] "2ndRd", text="Senate on 16 September 2024]"
+[parser-diag] processed 111 <p> elements
+[parser-diag] last section was added at element index: 52
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: 882d0c2d-38fb-4af4-abba-52e1a0c89625
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Australian Naval Nuclear Power Safety (Transitional Provisions) Act 2024
+       legislation_id: 882d0c2d-38fb-4af4-abba-52e1a0c89625
+       sections: 3
+       compilation: 2024-10-24

@@ -1,0 +1,46 @@
+[fetch] document_1: https://www.legislation.gov.au/C2011A00056/2012-09-22/2012-09-22/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 45,413 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2011A00056/2012-09-22/2012-09-22/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 45,413 source bytes → 44,069 combined bytes
+[citation] Australian Transaction Reports and Analysis Centre Supervisory Cost Recovery Levy (Consequential Amendments) Act 2011 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 177
+[parser-unknown-class] "ActHead6", text="Schedule 1—Amendment of the Anti‑Money Laundering and Counter‑Terrorism Financing Act 2006"
+[parser-unknown-class] "ItemHead", text="1  Section 5"
+[parser-unknown-class] "ItemHead", text="2  After Part 3"
+[parser-unknown-class] "ActHead6", text="Schedule 2—Infringement notice provisions"
+[parser-unknown-class] "ActHead7", text="Part 1—Amendments"
+[parser-unknown-class] "ActHead9", text="Anti‑Money Laundering and Counter‑Terrorism Financing Act 2006"
+[parser-unknown-class] "ItemHead", text="1  Before paragraph 184(1A)(a)"
+[parser-unknown-class] "ItemHead", text="2  Subsection 186A(1)"
+[parser-unknown-class] "ItemHead", text="3  Subsection 186A(2)"
+[parser-unknown-class] "ItemHead", text="4  Paragraphs 186A(3)(a) and (4)(a)"
+[parser-unknown-class] "ItemHead", text="5  Paragraph 186A(4)(b)"
+[parser-unknown-class] "ItemHead", text="6  Paragraph 186A(4)(b)"
+[parser-unknown-class] "ActHead7", text="Part 2—Transitional provision"
+[parser-unknown-class] "ItemHead", text="7  Transitional"
+[parser-unknown-class] "Subitem", text="(1) If this item commences before the commencement of Part 1 of this Schedule, Division 3 of Part..."
+[parser-unknown-class] "Subitem", text="(2) Treat a reference in that Division to “subsection 53(3) or 59(4)” as a reference to “subsecti..."
+[parser-unknown-class] "Subitem", text="(3) Assume the following subsection was added at the end of section 185 of that Act:"
+[parser-unknown-class] "Subitem", text="(4) Assume that the following section was inserted after section 186 of that Act:"
+[parser-diag] processed 177 <p> elements
+[parser-diag] last section was added at element index: 147
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 13
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      12
+         part         1
+[db] inserted new legislation row: 9c6e3074-4698-4fee-829f-93956f6451c2
+[db] inserting 13 sections (pass 1)
+[db] inserted 13 sections
+[db] linking parent FKs (pass 2)
+[db] linked 8 parent references
+
+[done] ingested Australian Transaction Reports and Analysis Centre Supervisory Cost Recovery Levy (Consequential Amendments) Act 2011
+       legislation_id: 9c6e3074-4698-4fee-829f-93956f6451c2
+       sections: 13
+       compilation: 2012-09-22

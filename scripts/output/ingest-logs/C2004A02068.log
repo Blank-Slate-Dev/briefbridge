@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02068/2025-11-08/2025-11-08/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,150,296 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02068/2025-11-08/2025-11-08/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,150,296 source bytes → 1,147,809 combined bytes
+[citation] Australian Federal Police Act 1979 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 4479
+[parser-diag] processed 4479 <p> elements
+[parser-diag] last section was added at element index: 2810
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 270
+[parse] compilation: date=2025-11-08 no=66
+[parse] by level:
+         part         8
+         section      217
+         division     31
+         subdivision  14
+[db] inserted new legislation row: 82a33001-1a09-418d-ba20-80e8c373320d
+[db] inserting 270 sections (pass 1)
+[db] inserted 270 sections
+[db] linking parent FKs (pass 2)
+[db] linked 262 parent references
+
+[done] ingested Australian Federal Police Act 1979
+       legislation_id: 82a33001-1a09-418d-ba20-80e8c373320d
+       sections: 270
+       compilation: 2025-11-08

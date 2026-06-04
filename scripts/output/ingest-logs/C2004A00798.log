@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 136,220 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00798/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 136,220 source bytes → 134,439 combined bytes
+[citation] Pig Industry Act 2001 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 549
+[parser-diag] processed 549 <p> elements
+[parser-diag] last section was added at element index: 374
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 55
+[parse] compilation: date=2025-01-01 no=9
+[parse] by level:
+         part         4
+         section      41
+         division     4
+         subdivision  6
+[db] inserted new legislation row: 7a276e8d-626f-4b5e-9f9e-39fc086aa762
+[db] inserting 55 sections (pass 1)
+[db] inserted 55 sections
+[db] linking parent FKs (pass 2)
+[db] linked 51 parent references
+
+[done] ingested Pig Industry Act 2001
+       legislation_id: 7a276e8d-626f-4b5e-9f9e-39fc086aa762
+       sections: 55
+       compilation: 2025-01-01

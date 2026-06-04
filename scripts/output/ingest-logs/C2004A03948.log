@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03948/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 428,778 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03948/2025-01-01/2025-01-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 428,778 source bytes → 426,690 combined bytes
+[citation] Primary Industries Research and Development Act 1989 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1667
+[parser-diag] processed 1667 <p> elements
+[parser-diag] last section was added at element index: 930
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 127
+[parse] compilation: date=2025-01-01 no=30
+[parse] by level:
+         part         4
+         section      108
+         division     15
+[db] inserted new legislation row: 95c161c3-603e-4cc6-a135-7023016cafe9
+[db] inserting 127 sections (pass 1)
+[db] inserted 127 sections
+[db] linking parent FKs (pass 2)
+[db] linked 123 parent references
+
+[done] ingested Primary Industries Research and Development Act 1989
+       legislation_id: 95c161c3-603e-4cc6-a135-7023016cafe9
+       sections: 127
+       compilation: 2025-01-01

@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00298/2016-07-01/2016-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 158,999 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00298/2016-07-01/2016-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 158,999 source bytes → 156,606 combined bytes
+[citation] Customs Tariff (Anti-Dumping) Act 1975 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 586
+[parser-diag] processed 586 <p> elements
+[parser-diag] last section was added at element index: 261
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 13
+[parse] compilation: date=2016-07-01 no=13
+[parse] by level:
+         section      13
+[db] inserted new legislation row: 6fdcda92-73a0-4e34-b7ad-3f6e2d90bdc2
+[db] inserting 13 sections (pass 1)
+[db] inserted 13 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Customs Tariff (Anti-Dumping) Act 1975
+       legislation_id: 6fdcda92-73a0-4e34-b7ad-3f6e2d90bdc2
+       sections: 13
+       compilation: 2016-07-01

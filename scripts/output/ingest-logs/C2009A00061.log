@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2009A00061/2009-06-29/2009-06-29/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 15,535 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2009A00061/2009-06-29/2009-06-29/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 15,535 source bytes → 14,405 combined bytes
+[citation] Guarantee of State and Territory Borrowing Appropriation Act 2009 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 86
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 27 May 2009"
+[parser-unknown-class] "2ndRd", text="Senate on 18 June 2009]"
+[parser-diag] processed 86 <p> elements
+[parser-diag] last section was added at element index: 73
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 8
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      8
+[db] inserted new legislation row: 77869bde-ee84-48cc-8cb4-20a6df6e5f04
+[db] inserting 8 sections (pass 1)
+[db] inserted 8 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Guarantee of State and Territory Borrowing Appropriation Act 2009
+       legislation_id: 77869bde-ee84-48cc-8cb4-20a6df6e5f04
+       sections: 8
+       compilation: 2009-06-29

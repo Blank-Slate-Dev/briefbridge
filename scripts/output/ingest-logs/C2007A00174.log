@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2007A00174/2026-01-01/2026-01-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 702,029 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2007A00174/2026-01-01/2026-01-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 702,029 source bytes → 695,841 combined bytes
+[citation] National Health Security Act 2007 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2527
+[parser-diag] processed 2527 <p> elements
+[parser-diag] last section was added at element index: 1922
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 196
+[parse] compilation: date=2026-01-01 no=20
+[parse] by level:
+         part         4
+         section      151
+         division     22
+         subdivision  19
+[db] inserted new legislation row: c0fbfb77-fb0b-4607-b424-39ce1581f199
+[db] inserting 196 sections (pass 1)
+[db] inserted 196 sections
+[db] linking parent FKs (pass 2)
+[db] linked 192 parent references
+
+[done] ingested National Health Security Act 2007
+       legislation_id: c0fbfb77-fb0b-4607-b424-39ce1581f199
+       sections: 196
+       compilation: 2026-01-01

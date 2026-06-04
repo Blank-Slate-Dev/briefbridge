@@ -1,0 +1,41 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05278/2005-08-12/2005-08-12/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 49,285 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05278/2005-08-12/2005-08-12/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 49,285 source bytes → 48,173 combined bytes
+[citation] Superannuation Contributions Tax (Members of Constitutionally Protected Superannuation Funds) Imposition Act 1997 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 173
+[parser-unknown-class] "TableA0", text="Table A"
+[parser-unknown-class] "TableAHead", text="Application, saving or transitional provisions"
+[parser-unknown-class] "TableAHeadItal", text="Taxation Laws Amendment (Superannuation) Act (No. 2) 2002 (No. 51, 2002)"
+[parser-unknown-class] "ItemHead", text="Schedule 1"
+[parser-unknown-class] "ItemHead", text="202  Application of amendments made by Part 2"
+[parser-unknown-class] "Subitem", text="(5) Subject to subitem (6), the amendments made by items 189 to 192 apply in relation to surcharg..."
+[parser-unknown-class] "Subitem", text="(6) However, for the 2003‑2004 year, the amount that is the previous charge percentage (which is ..."
+[parser-unknown-class] "TableAHeadItal", text="Superannuation (Surcharge Rate Reduction) Amendment Act 2003 (No. 112, 2003)"
+[parser-unknown-class] "ItemHead", text="Schedule 1"
+[parser-unknown-class] "ItemHead", text="32  Application of amendments made by Part 1"
+[parser-unknown-class] "TableAHeadItal", text="Superannuation Budget Measures Act 2004 (No. 106, 2004)"
+[parser-unknown-class] "ItemHead", text="Schedule 2"
+[parser-unknown-class] "ItemHead", text="11  Application of amendments"
+[parser-unknown-class] "Subitem", text="(1) The amendments made by Part 1 of this Schedule apply in relation to liability to surcharge in..."
+[parser-diag] processed 173 <p> elements
+[parser-diag] last section was added at element index: 73
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 7
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      7
+[db] inserted new legislation row: 13a53e12-ec54-49dd-b528-c91bb76f6712
+[db] inserting 7 sections (pass 1)
+[db] inserted 7 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Superannuation Contributions Tax (Members of Constitutionally Protected Superannuation Funds) Imposition Act 1997
+       legislation_id: 13a53e12-ec54-49dd-b528-c91bb76f6712
+       sections: 7
+       compilation: 2005-08-12

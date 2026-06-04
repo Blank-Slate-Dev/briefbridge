@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2009A00011/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 180,218 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2009A00011/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 180,218 source bytes → 178,107 combined bytes
+[citation] Federal Financial Relations Act 2009 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 729
+[parser-diag] processed 729 <p> elements
+[parser-diag] last section was added at element index: 454
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 39
+[parse] compilation: date=2024-12-11 no=14
+[parse] by level:
+         part         10
+         section      27
+         division     2
+[db] inserted new legislation row: 819a2c8a-485a-4b2c-992a-5f4c7cb5a10a
+[db] inserting 39 sections (pass 1)
+[db] inserted 39 sections
+[db] linking parent FKs (pass 2)
+[db] linked 29 parent references
+
+[done] ingested Federal Financial Relations Act 2009
+       legislation_id: 819a2c8a-485a-4b2c-992a-5f4c7cb5a10a
+       sections: 39
+       compilation: 2024-12-11

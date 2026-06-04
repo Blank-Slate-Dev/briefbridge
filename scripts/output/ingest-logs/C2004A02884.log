@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02884/2015-12-10/2015-12-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 81,368 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02884/2015-12-10/2015-12-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 81,368 source bytes → 79,526 combined bytes
+[citation] Advance Australia Logo Protection Act 1984 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 307
+[parser-diag] processed 307 <p> elements
+[parser-diag] last section was added at element index: 194
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 23
+[parse] compilation: date=2015-12-10 no=2
+[parse] by level:
+         section      21
+         schedule     2
+[db] inserted new legislation row: 7eff00a0-5e25-4e2b-aed6-6db46aa0c8c4
+[db] inserting 23 sections (pass 1)
+[db] inserted 23 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Advance Australia Logo Protection Act 1984
+       legislation_id: 7eff00a0-5e25-4e2b-aed6-6db46aa0c8c4
+       sections: 23
+       compilation: 2015-12-10

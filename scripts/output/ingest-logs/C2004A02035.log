@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02035/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 404,894 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02035/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 404,894 source bytes → 403,378 combined bytes
+[citation] Norfolk Island Act 1979 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1751
+[parser-diag] processed 1751 <p> elements
+[parser-diag] last section was added at element index: 615
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 71
+[parse] compilation: date=2024-12-11 no=21
+[parse] by level:
+         part         5
+         section      50
+         division     8
+         subdivision  3
+         schedule     3
+         schedule_clause 2
+[db] inserted new legislation row: 6cdbe1b7-3001-4e94-ab53-23edb46fb43f
+[db] inserting 71 sections (pass 1)
+[db] inserted 71 sections
+[db] linking parent FKs (pass 2)
+[db] linked 63 parent references
+
+[done] ingested Norfolk Island Act 1979
+       legislation_id: 6cdbe1b7-3001-4e94-ab53-23edb46fb43f
+       sections: 71
+       compilation: 2024-12-11

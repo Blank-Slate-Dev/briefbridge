@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01214/2016-03-10/2016-03-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 286,880 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01214/2016-03-10/2016-03-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 286,880 source bytes → 284,417 combined bytes
+[citation] Spam Act 2003 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1126
+[parser-diag] processed 1126 <p> elements
+[parser-diag] last section was added at element index: 948
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 77
+[parse] compilation: date=2016-03-10 no=10
+[parse] by level:
+         part         7
+         section      46
+         schedule     3
+         schedule_clause 21
+[db] inserted new legislation row: 60464e79-df1c-4d52-bc69-5a0bbec6a02c
+[db] inserting 77 sections (pass 1)
+[db] inserted 77 sections
+[db] linking parent FKs (pass 2)
+[db] linked 67 parent references
+
+[done] ingested Spam Act 2003
+       legislation_id: 60464e79-df1c-4d52-bc69-5a0bbec6a02c
+       sections: 77
+       compilation: 2016-03-10

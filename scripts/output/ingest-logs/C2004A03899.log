@@ -1,0 +1,86 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03899/2015-06-08/2015-06-08/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 150,049 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03899/2015-06-08/2015-06-08/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 150,049 source bytes → 147,800 combined bytes
+[citation] Limitation of Liability for Maritime Claims Act 1989 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 696
+[parser-unknown-class] "FreeForm", text="RESOLUTION LEG.5(99)"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="(Adopted on 19 April 2012)"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="ADOPTION OF AMENDMENTS OF THE LIMITATION AMOUNTS IN THE PROTOCOL OF 1996 TO THE CONVENTION ON LIM..."
+[parser-unknown-class] "FreeForm", text="OF LIABILITY FOR MARITIME CLAIMS, 1976"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="THE LEGAL COMMITTEE at its ninety‑ninth session,"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="RECALLING Article 33(b) of the Convention on the International Maritime Organization (hereinafter..."
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="MINDFUL of Article 36 of the IMO Convention concerning rules governing the procedures to be follo..."
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="TAKING INTO CONSIDERATION article 8 of the Protocol of 1996 to amend the Convention on Limitation..."
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="HAVING CONSIDERED amendments to the limitation amounts proposed and circulated in accordance with..."
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="1. ADOPTS, in accordance with article 8(4) of the 1996 LLMC Protocol, amendments to the limitatio..."
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="2. DETERMINES, in accordance with article 8(7) of the 1996 LLMC Protocol, that these amendments s..."
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="3. FURTHER DETERMINES that, in accordance with article 8(8) of the 1996 LLMC Protocol, these amen..."
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="4. REQUESTS the Secretary‑General, in accordance with article 14(2)(a)(v) of the 1996 LLMC Protoc..."
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="5. FURTHER REQUESTS the Secretary‑General to transmit copies of the present resolution and its an..."
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="ANNEX"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="AMENDMENTS OF THE LIMITS OF LIABILITY IN THE PROTOCOL OF 1996 TO AMEND THE CONVENTION ON LIMITATI..."
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="Article 3 of the 1996 LLMC Protocol is amended as follows:"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="in respect of claims for loss of life or personal injury,"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="the reference to:"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="‑ “2 million Units of Account” shall read “3.02 million Units of Account”;"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="‑ “800 Units of Account” shall read “1,208 Units of Account”;"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="‑ “600 Units of Account” shall read “906 Units of Account”;"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="‑ “400 Units of Account” shall read “604 Units of Account”;"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="in respect of any other claims,"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="the reference to:"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="‑ “1 million Units of Account” shall read “1.51 million Units of Account”;"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="‑ “400 Units of Account” shall read “604 Units of Account”;"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="‑ “300 Units of Account” shall read “453 Units of Account”;"
+[parser-unknown-class] "FreeForm", text=""
+[parser-unknown-class] "FreeForm", text="‑ “200 Units of Account” shall read “302 Units of Account”."
+[parser-diag] processed 696 <p> elements
+[parser-diag] last section was added at element index: 517
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 14
+[parse] compilation: date=2015-06-08 no=4
+[parse] by level:
+         section      11
+         schedule     3
+[db] inserted new legislation row: 3de283eb-5019-4b25-83d5-47ccce732ff5
+[db] inserting 14 sections (pass 1)
+[db] inserted 14 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Limitation of Liability for Maritime Claims Act 1989
+       legislation_id: 3de283eb-5019-4b25-83d5-47ccce732ff5
+       sections: 14
+       compilation: 2015-06-08

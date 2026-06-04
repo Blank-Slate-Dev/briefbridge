@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04285/2016-07-01/2016-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 134,678 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04285/2016-07-01/2016-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 134,678 source bytes → 132,867 combined bytes
+[citation] Bank Integration Act 1991 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 533
+[parser-diag] processed 533 <p> elements
+[parse] sections: 36
+[parse] compilation: date=2016-07-01 no=10
+[parse] by level:
+         part         5
+[parser-diag] last section was added at element index: 318
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+         section      29
+         schedule     2
+[db] inserted new legislation row: 2f50ed98-a0ed-4cb7-9958-12ff2e74e471
+[db] inserting 36 sections (pass 1)
+[db] inserted 36 sections
+[db] linking parent FKs (pass 2)
+[db] linked 29 parent references
+
+[done] ingested Bank Integration Act 1991
+       legislation_id: 2f50ed98-a0ed-4cb7-9958-12ff2e74e471
+       sections: 36
+       compilation: 2016-07-01

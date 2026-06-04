@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01385/2021-12-09/2021-12-09/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 514,608 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01385/2021-12-09/2021-12-09/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 514,608 source bytes → 510,486 combined bytes
+[citation] National Security Information (Criminal and Civil Proceedings) Act 2004 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1897
+[parser-diag] processed 1897 <p> elements
+[parser-diag] last section was added at element index: 1431
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 130
+[parse] compilation: date=2021-12-09 no=10
+[parse] by level:
+         part         7
+         section      93
+         division     21
+         subdivision  9
+[db] inserted new legislation row: e3b7ec4f-0401-4ba4-9d6b-1eefb9b945a4
+[db] inserting 130 sections (pass 1)
+[db] inserted 130 sections
+[db] linking parent FKs (pass 2)
+[db] linked 123 parent references
+
+[done] ingested National Security Information (Criminal and Civil Proceedings) Act 2004
+       legislation_id: e3b7ec4f-0401-4ba4-9d6b-1eefb9b945a4
+       sections: 130
+       compilation: 2021-12-09

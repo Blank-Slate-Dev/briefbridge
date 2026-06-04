@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04643/2018-03-30/2018-03-30/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 147,884 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04643/2018-03-30/2018-03-30/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 147,884 source bytes → 146,090 combined bytes
+[citation] CSL Sale Act 1993 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 572
+[parser-diag] processed 572 <p> elements
+[parser-diag] last section was added at element index: 356
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 50
+[parse] compilation: date=2018-03-30 no=7
+[parse] by level:
+         part         3
+         division     6
+         section      41
+[db] inserted new legislation row: 7975cb7b-9f32-4735-9492-58705c7e8be6
+[db] inserting 50 sections (pass 1)
+[db] inserted 50 sections
+[db] linking parent FKs (pass 2)
+[db] linked 47 parent references
+
+[done] ingested CSL Sale Act 1993
+       legislation_id: 7975cb7b-9f32-4735-9492-58705c7e8be6
+       sections: 50
+       compilation: 2018-03-30

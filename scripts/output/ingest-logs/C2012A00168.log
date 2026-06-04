@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2012A00168/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 889,890 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2012A00168/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 889,890 source bytes → 879,932 combined bytes
+[citation] Australian Charities and Not-for-profits Commission Act 2012 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3114
+[parser-diag] processed 3114 <p> elements
+[parser-diag] last section was added at element index: 2718
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 4
+[parser-diag] insideSchedule at end: false
+[parse] sections: 359
+[parse] compilation: date=2025-12-05 no=11
+[parse] by level:
+         chapter      8
+         part         21
+         division     42
+         section      247
+         subdivision  41
+[db] inserted new legislation row: 2fba7fc6-3829-4e63-b129-54d35d628e1c
+[db] inserting 359 sections (pass 1)
+[db] inserted 359 sections
+[db] linking parent FKs (pass 2)
+[db] linked 351 parent references
+
+[done] ingested Australian Charities and Not-for-profits Commission Act 2012
+       legislation_id: 2fba7fc6-3829-4e63-b129-54d35d628e1c
+       sections: 359
+       compilation: 2025-12-05

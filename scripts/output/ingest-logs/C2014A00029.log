@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2014A00029/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 261,127 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2014A00029/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 261,127 source bytes → 258,584 combined bytes
+[citation] Major Sporting Events (Indicia and Images) Protection Act 2014 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 978
+[parser-diag] processed 978 <p> elements
+[parser-diag] last section was added at element index: 763
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 86
+[parse] compilation: date=2024-10-14 no=5
+[parse] by level:
+         part         7
+         section      58
+         division     7
+         schedule     2
+         schedule_clause 12
+[db] inserted new legislation row: 6d53db12-1984-4e71-a762-25f5937cfd84
+[db] inserting 86 sections (pass 1)
+[db] inserted 86 sections
+[db] linking parent FKs (pass 2)
+[db] linked 77 parent references
+
+[done] ingested Major Sporting Events (Indicia and Images) Protection Act 2014
+       legislation_id: 6d53db12-1984-4e71-a762-25f5937cfd84
+       sections: 86
+       compilation: 2024-10-14

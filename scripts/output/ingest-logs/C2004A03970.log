@@ -1,0 +1,45 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03970/2005-07-01/2005-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 102,024 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03970/2005-07-01/2005-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 102,024 source bytes → 101,041 combined bytes
+[citation] Superannuation Benefits (Supervisory Mechanisms) Act 1990 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 304
+[parser-unknown-class] "ActNotesa", text="(a) The Superannuation Benefits (Supervisory Mechanisms) Act 1990 was amended by sections 79 and ..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act commences on the day on which it receives the Royal Assent."
+[parser-unknown-class] "ActNotesa", text="(b) The Superannuation Benefits (Supervisory Mechanisms) Act 1990 was amended by the Qantas Sale ..."
+[parser-unknown-class] "ActNotes1", text="(2) Subject to subsection (3), the remaining provisions of this Act commence on a day or days to ..."
+[parser-unknown-class] "ActNotes1", text="(5) If, on the 100% sale day, Part 3 of the Schedule has not commenced, then, on the day on which..."
+[parser-unknown-class] "ActNotes1", text="(6) If a provision of this Act has not commenced before 31 August 1995, the provision is taken to..."
+[parser-unknown-class] "ActNotesa", text="The Schedule (Parts 3 and 6) are taken to have been repealed on 31 August 1995."
+[parser-unknown-class] "ActNotesa", text="(c) The Qantas Sale Act 1992 was amended by section 3 (item 17) only of the Qantas Sale Amendment..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act commences on the day on which it receives the Royal Assent."
+[parser-unknown-class] "ActNotesa", text="(d) The Superannuation Benefits (Supervisory Mechanisms) Act 1990 was amended by Part 10 (section..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to subsection (2), this Act commences on 1 December 1993."
+[parser-unknown-class] "ActNotesa", text="(e) The Superannuation Legislation Amendment Act 1994 was amended by Schedule 3 (items 114 and 11..."
+[parser-unknown-class] "ActNotes1", text="(3) Each item in Schedule 3 is taken to have commenced when the Act containing the provision amen..."
+[parser-unknown-class] "ActNotesa", text="(f) The Superannuation Benefits (Supervisory Mechanisms) Act 1990 was amended by Schedule 1 (item..."
+[parser-unknown-class] "ActNotes1", text="(1) In this Act, commencing time means the time when the Public Service Act 1999 commences."
+[parser-unknown-class] "ActNotes1", text="(2) Subject to this section, this Act commences at the commencing time."
+[parser-unknown-class] "ActNotesa", text="(g) The Superannuation Benefits (Supervisory Mechanisms) Act 1990 was amended by Schedule 3 (item..."
+[parser-unknown-class] "ActNotes1", text="(3) Subject to subsections (4) to (10), Schedule 3 commences, or is taken to have commenced, at t..."
+[parser-diag] processed 304 <p> elements
+[parser-diag] last section was added at element index: 156
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 10
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      10
+[db] inserted new legislation row: 96995944-d4d9-4505-8b9a-becc8da9dbff
+[db] inserting 10 sections (pass 1)
+[db] inserted 10 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Superannuation Benefits (Supervisory Mechanisms) Act 1990
+       legislation_id: 96995944-d4d9-4505-8b9a-becc8da9dbff
+       sections: 10
+       compilation: 2005-07-01

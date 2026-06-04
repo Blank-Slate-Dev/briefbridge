@@ -1,0 +1,35 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01069/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,031,854 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01069/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,031,854 source bytes → 1,028,497 combined bytes
+[citation] Medical Indemnity Act 2002 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3942
+[parser-unknown-class] "BoxStep", text="Method statement"
+[parser-unknown-class] "BoxStep", text="Step 1. For the first financial year after 30 June 2004 in which a medical indemnity insurer prov..."
+[parser-unknown-class] "BoxStep", text="Step 2. For each subsequent financial year (if any) until the financial year in which the termina..."
+[parser-unknown-class] "BoxStep", text="Step 3. Add together:"
+[parser-unknown-class] "BoxStep", text="The result is the practitioner’s total run‑off cover credit."
+[parser-diag] processed 3942 <p> elements
+[parser-diag] last section was added at element index: 2962
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 240
+[parse] compilation: date=2024-10-14 no=23
+[parse] by level:
+         part         5
+         section      175
+         division     18
+         subdivision  42
+[db] inserted new legislation row: 1cd54f4f-7a0f-4a78-b3d0-61e883b7b3d0
+[db] inserting 240 sections (pass 1)
+[db] inserted 240 sections
+[db] linking parent FKs (pass 2)
+[db] linked 235 parent references
+
+[done] ingested Medical Indemnity Act 2002
+       legislation_id: 1cd54f4f-7a0f-4a78-b3d0-61e883b7b3d0
+       sections: 240
+       compilation: 2024-10-14

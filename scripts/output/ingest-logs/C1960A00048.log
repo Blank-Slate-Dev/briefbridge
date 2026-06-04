@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C1960A00048/2008-07-04/2008-07-04/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 45,527 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1960A00048/2008-07-04/2008-07-04/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 45,527 source bytes → 44,509 combined bytes
+[citation] Antarctic Treaty Act 1960 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 142
+[parser-diag] processed 142 <p> elements
+[parser-diag] last section was added at element index: 37
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 5
+[parse] compilation: date=(none) no=(none)
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule". Captured as 'schedule' as fallback.
+[parse] by level:
+         section      4
+         schedule     1
+[db] inserted new legislation row: fd4c8e0a-9b05-4877-96ad-b63c8a02d7ef
+[db] inserting 5 sections (pass 1)
+[db] inserted 5 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Antarctic Treaty Act 1960
+       legislation_id: fd4c8e0a-9b05-4877-96ad-b63c8a02d7ef
+       sections: 5
+       compilation: 2008-07-04

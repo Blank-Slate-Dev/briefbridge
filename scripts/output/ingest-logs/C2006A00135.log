@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2006A00135/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 232,038 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2006A00135/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 232,038 source bytes → 229,909 combined bytes
+[citation] Australian Participants in British Nuclear Tests and British Commonwealth Occupation Force (Treatment) Act 2006 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 893
+[parser-diag] processed 893 <p> elements
+[parser-diag] last section was added at element index: 645
+[parser-diag] state phase at end: ENDNOTES
+[parse] sections: 75
+[parse] compilation: date=2025-11-01 no=11
+[parse] by level:
+         part         7
+         section      58
+         division     10
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[db] inserted new legislation row: 394b7fb2-6900-4859-9cb4-f7002fc48706
+[db] inserting 75 sections (pass 1)
+[db] inserted 75 sections
+[db] linking parent FKs (pass 2)
+[db] linked 68 parent references
+
+[done] ingested Australian Participants in British Nuclear Tests and British Commonwealth Occupation Force (Treatment) Act 2006
+       legislation_id: 394b7fb2-6900-4859-9cb4-f7002fc48706
+       sections: 75
+       compilation: 2025-11-01

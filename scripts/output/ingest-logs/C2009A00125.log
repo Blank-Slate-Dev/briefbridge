@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2009A00125/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 169,137 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2009A00125/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 169,137 source bytes → 166,525 combined bytes
+[citation] Resale Royalty Right for Visual Artists Act 2009 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 668
+[parser-diag] processed 668 <p> elements
+[parser-diag] last section was added at element index: 539
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 66
+[parse] compilation: date=2024-10-14 no=3
+[parse] by level:
+         part         5
+         section      53
+         division     8
+[db] inserted new legislation row: 3424026d-71df-40be-ba72-436b165fa92e
+[db] inserting 66 sections (pass 1)
+[db] inserted 66 sections
+[db] linking parent FKs (pass 2)
+[db] linked 61 parent references
+
+[done] ingested Resale Royalty Right for Visual Artists Act 2009
+       legislation_id: 3424026d-71df-40be-ba72-436b165fa92e
+       sections: 66
+       compilation: 2024-10-14

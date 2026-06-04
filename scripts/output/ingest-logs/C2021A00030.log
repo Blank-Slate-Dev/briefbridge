@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2021A00030/2021-03-26/2021-03-26/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 18,961 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2021A00030/2021-03-26/2021-03-26/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 18,961 source bytes → 17,543 combined bytes
+[citation] Industrial Chemicals Environmental Management (Register) Charge (General) Act 2021 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 108
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 3 December 2020"
+[parser-unknown-class] "2ndRd", text="Senate on 18 March 2021]"
+[parser-diag] processed 108 <p> elements
+[parser-diag] last section was added at element index: 94
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 13
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         3
+         section      10
+[db] inserted new legislation row: a25050bd-9f46-4e73-93de-fca56a9e36fd
+[db] inserting 13 sections (pass 1)
+[db] inserted 13 sections
+[db] linking parent FKs (pass 2)
+[db] linked 10 parent references
+
+[done] ingested Industrial Chemicals Environmental Management (Register) Charge (General) Act 2021
+       legislation_id: a25050bd-9f46-4e73-93de-fca56a9e36fd
+       sections: 13
+       compilation: 2021-03-26

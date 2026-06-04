@@ -1,0 +1,34 @@
+[fetch] document_1: https://www.legislation.gov.au/C1972A00013/1989-05-11/1989-05-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 326,282 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1972A00013/1989-05-11/1989-05-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 326,282 source bytes → 323,311 combined bytes
+[citation] Commonwealth Teaching Service Act 1972 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1156
+[parser-diag] processed 1156 <p> elements
+[parser-diag] last section was added at element index: 706
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 65
+[parse] compilation: date=1988-12-06 no=(none)
+[parse] warnings: 2
+  - ActHead1 with unexpected leading word: "The Schedules". Captured as 'schedule' as fallback.
+  - ActHead1 with unexpected leading word: "The Schedules". Captured as 'schedule' as fallback.
+[parse] by level:
+         part         5
+         section      48
+         division     8
+         schedule     2
+         schedule_part 2
+[db] inserted new legislation row: 831f831b-52e2-4c62-b662-bcb16f260206
+[db] inserting 65 sections (pass 1)
+[db] inserted 65 sections
+[db] linking parent FKs (pass 2)
+[db] linked 58 parent references
+
+[done] ingested Commonwealth Teaching Service Act 1972
+       legislation_id: 831f831b-52e2-4c62-b662-bcb16f260206
+       sections: 65
+       compilation: 1988-12-06

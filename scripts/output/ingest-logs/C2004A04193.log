@@ -1,0 +1,60 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04193/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 802,358 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04193/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 802,358 source bytes → 800,107 combined bytes
+[citation] Food Standards Australia New Zealand Act 1991 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3196
+[parser-unknown-class] "BoxStep", text="Step 1. An application is made."
+[parser-unknown-class] "BoxStep", text="Step 2. The Authority decides whether to accept or reject the application. If the application is ..."
+[parser-unknown-class] "BoxStep", text="Step 3. The Authority notifies the applicant of acceptance."
+[parser-unknown-class] "BoxStep", text="Step 4. The Authority gives public notice of the application, indicating when the Authority propo..."
+[parser-unknown-class] "BoxStep", text="Step 5. The Authority assesses the application."
+[parser-unknown-class] "BoxStep", text="The Authority may, after assessing the application, either reject it or proceed to the next step."
+[parser-unknown-class] "BoxStep", text="If the application is for a new food regulatory measure or a major variation of a food regulatory..."
+[parser-unknown-class] "BoxStep", text="In any other case, it is step 7."
+[parser-unknown-class] "BoxStep", text="Step 6. The Authority calls for public submissions."
+[parser-unknown-class] "BoxStep", text="Step 7. The Authority prepares a draft food regulatory measure or a draft variation of a food reg..."
+[parser-unknown-class] "BoxStep", text="Step 8. If the application is for a minor variation, the Authority calls for submissions from the..."
+[parser-unknown-class] "BoxStep", text="In any other case, the Authority calls for public submissions."
+[parser-unknown-class] "BoxStep", text="Step 9. If the draft is a draft standard or a draft variation of a standard, the Authority must d..."
+[parser-unknown-class] "BoxStep", text="If the draft is a draft code of practice or a draft variation of a code of practice, the Authorit..."
+[parser-unknown-class] "BoxStep", text="Step 10. The standard or variation comes into effect after it has been considered by the Forum on..."
+[parser-unknown-class] "BoxStep", text="Step 1. A proposal is prepared."
+[parser-unknown-class] "BoxStep", text="Step 2. As the Authority prepares the proposal, there is no equivalent to step 2 of the applicati..."
+[parser-unknown-class] "BoxStep", text="Step 3. As the Authority prepares the proposal, there is no equivalent to step 3 of the applicati..."
+[parser-unknown-class] "BoxStep", text="Step 4. The Authority gives public notice of the proposal, indicating when the Authority proposes..."
+[parser-unknown-class] "BoxStep", text="Step 5. The Authority assesses the proposal."
+[parser-unknown-class] "BoxStep", text="The Authority may, after assessing the proposal, either abandon it or proceed to the next step."
+[parser-unknown-class] "BoxStep", text="If the proposal is for a new food regulatory measure or a major variation of a food regulatory me..."
+[parser-unknown-class] "BoxStep", text="In any other case, it is step 7."
+[parser-unknown-class] "BoxStep", text="Step 6. The Authority calls for public submissions."
+[parser-unknown-class] "BoxStep", text="Step 7. The Authority prepares a draft food regulatory measure or a draft variation of a food reg..."
+[parser-unknown-class] "BoxStep", text="Step 8. If the proposal is for a minor variation, the Authority calls for submissions from the ap..."
+[parser-unknown-class] "BoxStep", text="In any other case, the Authority calls for public submissions."
+[parser-unknown-class] "BoxStep", text="Step 9. If the draft is a draft standard or a draft variation of a standard, the Authority must d..."
+[parser-unknown-class] "BoxStep", text="If the draft is a draft code of practice or a draft variation of a code of practice, the Authorit..."
+[parser-unknown-class] "BoxStep", text="Step 10. The standard or variation comes into effect after it has been considered by the Forum on..."
+[parser-diag] processed 3196 <p> elements
+[parser-diag] last section was added at element index: 1878
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parse] sections: 187
+[parse] compilation: date=2024-10-14 no=29
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         6
+         section      152
+         division     13
+         subdivision  16
+[db] inserted new legislation row: df4330cc-2aee-4b52-919a-8d72a33d3eda
+[db] inserting 187 sections (pass 1)
+[db] inserted 187 sections
+[db] linking parent FKs (pass 2)
+[db] linked 181 parent references
+
+[done] ingested Food Standards Australia New Zealand Act 1991
+       legislation_id: df4330cc-2aee-4b52-919a-8d72a33d3eda
+       sections: 187
+       compilation: 2024-10-14

@@ -1,0 +1,48 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00808/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 46,839 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00808/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 46,839 source bytes → 45,052 combined bytes
+[citation] Compensation (Japanese Internment) Act 2001 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 221
+[parser-unknown-class] "indenta", text="(a) confined in a camp, building, prison or other place (including a vehicle); or"
+[parser-unknown-class] "indenta", text="(b) restricted to residing within specified limits."
+[parser-unknown-class] "indenta", text="(a) a person who is legally married to the veteran or civilian; or"
+[parser-unknown-class] "indenta", text="(b) a person who is a partner (within the meaning of the Veterans’ Entitlements Act) of the veter..."
+[parser-unknown-class] "indenta", text="(a) the Social Security Act 1991; and"
+[parser-unknown-class] "indenta", text="(b) the Social Security (Administration) Act 1999; and"
+[parser-unknown-class] "indenta", text="(c) any other Act that is expressed to form part of the social security law."
+[parser-unknown-class] "indenta", text="(a) the person was alive at the beginning of 1 January 2001;"
+[parser-unknown-class] "indenta", text="(b) the veteran died before 1 January 2001;"
+[parser-unknown-class] "indenta", text="(c) the person was a partner of the veteran immediately before the veteran’s death;"
+[parser-unknown-class] "indenta", text="(d) the veteran was interned by Japanese military forces at any time during the designated war pe..."
+[parser-unknown-class] "indenta", text="(a) the person was alive at the beginning of 1 January 2001;"
+[parser-unknown-class] "indenta", text="(b) the person was interned by Japanese military forces at any time during the designated war per..."
+[parser-unknown-class] "indenta", text="(c) the person was domiciled in Australia immediately before the commencement of that internment."
+[parser-unknown-class] "indenta", text="(a) the person was alive at the beginning of 1 January 2001;"
+[parser-unknown-class] "indenta", text="(b) the civilian died before 1 January 2001;"
+[parser-unknown-class] "indenta", text="(c) the person was a partner of the civilian immediately before the civilian’s death;"
+[parser-unknown-class] "indenta", text="(d) the civilian was interned by Japanese military forces at any time during the designated war p..."
+[parser-unknown-class] "indenta", text="(e) the civilian was domiciled in Australia immediately before the commencement of that internment."
+[parser-unknown-class] "indenta", text="(a) subsection 119(1) and sections 128, 208, 213 and 214;"
+[parser-unknown-class] "indenta", text="(b) any other provisions of that Act that are incidental to the provisions mentioned in paragraph..."
+[parser-diag] processed 221 <p> elements
+[parser-diag] last section was added at element index: 118
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 13
+[parse] compilation: date=2024-10-14 no=2
+[parse] by level:
+         section      13
+[db] inserted new legislation row: e11967d3-d9cd-4682-a687-f7ff10d9c15c
+[db] inserting 13 sections (pass 1)
+[db] inserted 13 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Compensation (Japanese Internment) Act 2001
+       legislation_id: e11967d3-d9cd-4682-a687-f7ff10d9c15c
+       sections: 13
+       compilation: 2024-10-14

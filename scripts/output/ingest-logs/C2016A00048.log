@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2016A00048/2016-05-05/2016-05-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 11,312 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2016A00048/2016-05-05/2016-05-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 11,312 source bytes → 10,218 combined bytes
+[citation] Income Tax (Attribution Managed Investment Trusts—Offsets) Act 2016 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 71
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 3 December 2015"
+[parser-unknown-class] "2ndRd", text="Senate on 4 May 2016]"
+[parser-diag] processed 71 <p> elements
+[parser-diag] last section was added at element index: 59
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 4
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      4
+[db] inserted new legislation row: 0f0cdece-c585-4b7f-926b-40e28df8328e
+[db] inserting 4 sections (pass 1)
+[db] inserted 4 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Income Tax (Attribution Managed Investment Trusts—Offsets) Act 2016
+       legislation_id: 0f0cdece-c585-4b7f-926b-40e28df8328e
+       sections: 4
+       compilation: 2016-05-05

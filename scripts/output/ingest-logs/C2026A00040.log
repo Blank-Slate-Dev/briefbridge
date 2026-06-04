@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2026A00040/2026-04-08/2026-04-08/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 36,950 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2026A00040/2026-04-08/2026-04-08/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 36,950 source bytes → 34,286 combined bytes
+[citation] Translating and Interpreting Services Act 2026 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 169
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 26 November 2025"
+[parser-unknown-class] "2ndRd", text="Senate on 5 February 2026]"
+[parser-diag] processed 169 <p> elements
+[parser-diag] last section was added at element index: 147
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 16
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         3
+         section      13
+[db] inserted new legislation row: 2d53881c-7b66-40fe-956e-12d833f0dba3
+[db] inserting 16 sections (pass 1)
+[db] inserted 16 sections
+[db] linking parent FKs (pass 2)
+[db] linked 13 parent references
+
+[done] ingested Translating and Interpreting Services Act 2026
+       legislation_id: 2d53881c-7b66-40fe-956e-12d833f0dba3
+       sections: 16
+       compilation: 2026-04-08

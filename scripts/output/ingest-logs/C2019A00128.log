@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2019A00128/2019-12-12/2019-12-12/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 31,974 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2019A00128/2019-12-12/2019-12-12/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 31,974 source bytes → 30,455 combined bytes
+[citation] National Self-exclusion Register (Cost Recovery Levy) Act 2019 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 141
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 27 November 2019"
+[parser-unknown-class] "2ndRd", text="Senate on 5 December 2019]"
+[parser-diag] processed 141 <p> elements
+[parser-diag] last section was added at element index: 123
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 12
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      12
+[db] inserted new legislation row: 997ae166-bd63-42db-9653-64059e9d82cb
+[db] inserting 12 sections (pass 1)
+[db] inserted 12 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested National Self-exclusion Register (Cost Recovery Levy) Act 2019
+       legislation_id: 997ae166-bd63-42db-9653-64059e9d82cb
+       sections: 12
+       compilation: 2019-12-12

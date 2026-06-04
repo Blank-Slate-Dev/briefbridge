@@ -1,0 +1,42 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01465/2015-12-10/2015-12-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 111,495 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01465/2015-12-10/2015-12-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 111,495 source bytes → 109,166 combined bytes
+[citation] Defence Force Retirement and Death Benefits (Pension Increases) Act 1976 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 344
+[parser-unknown-class] "indentA", text="(A) the amount (if any) by which the amount of the annual pension has been increased by virtue of..."
+[parser-unknown-class] "indentA", text="(B) an amount equal to two‑sevenths of the amount of the person’s contributory pension as ascerta..."
+[parser-unknown-class] "indentA", text="(A) in a case to which clause (B) does not apply—he had not died and, in a case where he had comm..."
+[parser-unknown-class] "indentA", text="(B) in a case where he died before retirement or where pension is, under subsection 57(3) of the ..."
+[parser-unknown-class] "indentA", text="(A) in a case to which clause (B) does not apply—one‑half of the amount that, if her husband had ..."
+[parser-unknown-class] "indentA", text="(B) in a case where her husband died before retirement or where pension is, under subsection 57(3..."
+[parser-unknown-class] "indentA", text="(A) in a case to which clause (B) does not apply—he had not died and, in a case where he had comm..."
+[parser-unknown-class] "indentA", text="(B) in a case where he died before retirement or where pension is, under subsection 57(3) of the ..."
+[parser-unknown-class] "indentA", text="(A) if a pension in accordance with that section was not payable to the husband of the person imm..."
+[parser-unknown-class] "indentA", text="(B) if a pension in accordance with that section was payable to the husband of the person immedia..."
+[parser-unknown-class] "indentA", text="(A) if a pension benefit in accordance with that section was not payable to the person’s husband ..."
+[parser-unknown-class] "indentA", text="(B) if a pension benefit in accordance with that section was payable to the person’s husband imme..."
+[parser-unknown-class] "indentA", text="(A) if a pension benefit in accordance with that section was not payable to the member of the sch..."
+[parser-unknown-class] "indentA", text="(B) if a pension benefit in accordance with that section was payable to a member of the scheme in..."
+[parser-diag] processed 344 <p> elements
+[parser-diag] last section was added at element index: 246
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 28
+[parse] compilation: date=2015-12-10 no=1
+[parse] by level:
+         part         3
+         section      25
+[db] inserted new legislation row: 828c9624-f2b8-4e0b-80a4-c9af63f5d951
+[db] inserting 28 sections (pass 1)
+[db] inserted 28 sections
+[db] linking parent FKs (pass 2)
+[db] linked 25 parent references
+
+[done] ingested Defence Force Retirement and Death Benefits (Pension Increases) Act 1976
+       legislation_id: 828c9624-f2b8-4e0b-80a4-c9af63f5d951
+       sections: 28
+       compilation: 2015-12-10

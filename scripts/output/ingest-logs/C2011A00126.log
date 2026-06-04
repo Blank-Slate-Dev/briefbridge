@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2011A00126/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 537,912 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2011A00126/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 537,912 source bytes → 535,942 combined bytes
+[citation] Business Names Registration Act 2011 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1998
+[parser-diag] processed 1998 <p> elements
+[parser-diag] last section was added at element index: 1621
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 139
+[parse] compilation: date=2024-10-14 no=8
+[parse] by level:
+         part         10
+         division     7
+         section      109
+         subdivision  4
+         schedule     1
+         schedule_clause 8
+[db] inserted new legislation row: 26dfa394-123b-47fe-9736-1a443f316749
+[db] inserting 139 sections (pass 1)
+[db] inserted 139 sections
+[db] linking parent FKs (pass 2)
+[db] linked 128 parent references
+
+[done] ingested Business Names Registration Act 2011
+       legislation_id: 26dfa394-123b-47fe-9736-1a443f316749
+       sections: 139
+       compilation: 2024-10-14

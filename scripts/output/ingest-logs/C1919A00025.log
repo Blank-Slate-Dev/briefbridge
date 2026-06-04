@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C1919A00025/2014-07-01/2014-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 79,277 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1919A00025/2014-07-01/2014-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 79,277 source bytes → 77,786 combined bytes
+[citation] Loans Securities Act 1919 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 334
+[parser-diag] processed 334 <p> elements
+[parser-diag] last section was added at element index: 152
+[parse] sections: 15
+[parse] compilation: date=(none) no=(none)
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         section      15
+[db] inserted new legislation row: 57d67f6d-8049-4a24-8bce-55e962207d00
+[db] inserting 15 sections (pass 1)
+[db] inserted 15 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Loans Securities Act 1919
+       legislation_id: 57d67f6d-8049-4a24-8bce-55e962207d00
+       sections: 15
+       compilation: 2014-07-01

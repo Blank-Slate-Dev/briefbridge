@@ -1,0 +1,53 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00580/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 2,190,308 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00580/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2: 1,456,686 bytes
+[fetch] document_3: https://www.legislation.gov.au/C2004A00580/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_3/document_3.html
+[fetch] document_3 not found — stopping. Fetched 2 document(s).
+[fetch] combined 2 document(s), 3,646,994 source bytes → 3,639,434 combined bytes
+[citation] Social Security (Administration) Act 1999 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 13660
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the total amount payable to the person in respect of the social security payment..."
+[parser-unknown-class] "BoxStep", text="Step 2. Subtract from that amount the total amount withdrawn from the account during the same 4 w..."
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the amount of maintenance income for a parent of the person for the income year ..."
+[parser-unknown-class] "BoxStep", text="This amount is the parent’s actual maintenance income for the income year."
+[parser-unknown-class] "BoxStep", text="Step 2. Work out the annualised maintenance income free area for the parent for the income year u..."
+[parser-unknown-class] "BoxStep", text="Step 3. Work out the annual amount of estimated maintenance income for the parent under section 1..."
+[parser-unknown-class] "BoxStep", text="Step 4. Go to subsection (2) if the actual maintenance income is equal to or more than the annual..."
+[parser-unknown-class] "BoxStep", text="Step 5. Go to subsection (3) in any other case."
+[parser-unknown-class] "BoxStep", text="Step 1. Using Submodule 4 of Module GA of the Youth Allowance Rate Calculator in section 1067G of..."
+[parser-unknown-class] "BoxStep", text="Step 2. If the MIFA for the parent was not the same on all days in the income year, work out for ..."
+[parser-unknown-class] "BoxStep", text="Step 3. Work out the MIFA share for each such period by using this formula:"
+[parser-unknown-class] "BoxStep", text=""
+[parser-unknown-class] "BoxStep", text="Step 4. Add up the MIFA share for each such period in the income year. The result is the annualis..."
+[parser-unknown-class] "BoxStep", text="Step 1. For each estimate of maintenance income of a parent of a person that applied in relation ..."
+[parser-unknown-class] "BoxStep", text=""
+[parser-unknown-class] "BoxStep", text="Step 2. For each annualised estimate worked out in step 1 for the income year, work out the perio..."
+[parser-unknown-class] "BoxStep", text=""
+[parser-unknown-class] "BoxStep", text="Step 3. Add up all the period estimates for periods that occurred in the income year. This is the..."
+[parser-diag] processed 13660 <p> elements
+[parser-diag] last section was added at element index: 9796
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parse] sections: 814
+[parse] compilation: date=2025-12-05 no=163
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         part         13
+         section      614
+         division     58
+         subdivision  92
+         schedule     3
+         schedule_clause 31
+         schedule_part 3
+[db] inserted new legislation row: 9144464e-2b06-49ff-b67d-649f38a07c24
+[db] inserting 814 sections (pass 1)
+[db] inserted 814 sections
+[db] linking parent FKs (pass 2)
+[db] linked 798 parent references
+
+[done] ingested Social Security (Administration) Act 1999
+       legislation_id: 9144464e-2b06-49ff-b67d-649f38a07c24
+       sections: 814
+       compilation: 2025-12-05

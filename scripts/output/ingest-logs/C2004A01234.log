@@ -1,0 +1,73 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01234/2026-04-29/2026-04-29/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 3,487,817 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01234/2026-04-29/2026-04-29/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 3,487,817 source bytes → 3,456,283 combined bytes
+[citation] Higher Education Support Act 2003 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 11697
+[parser-unknown-class] "BoxStep", text="Step 1. For each *funding cluster in which the provider has provided places in those courses in r..."
+[parser-unknown-class] "BoxStep", text="Step 2. For each *funding cluster (other than the *first funding cluster and the *second funding ..."
+[parser-unknown-class] "BoxStep", text="Step 3. For each *grandfathered funding cluster part in which the provider has provided places in..."
+[parser-unknown-class] "BoxStep", text="Step 4. Add together all of the amounts worked out under steps 1, 2 and 3."
+[parser-unknown-class] "BoxStep", text="Step 1. For each *funding cluster in which the provider has provided places in those courses, mul..."
+[parser-unknown-class] "BoxStep", text="Step 2. Add together all of the amounts worked out under step 1."
+[parser-unknown-class] "BoxStep", text="Step 1. For each *funding cluster in which the provider has provided places in those courses in r..."
+[parser-unknown-class] "BoxStep", text="Step 2. For each *funding cluster (other than the *first funding cluster and the *second funding ..."
+[parser-unknown-class] "BoxStep", text="Step 3. For each *grandfathered funding cluster part in which the provider has provided places in..."
+[parser-unknown-class] "BoxStep", text="Step 4. Add together all of the amounts worked out under steps 1, 2 and 3."
+[parser-unknown-class] "BoxStep", text="Step 1. For each *funding cluster in which the provider has provided places in respect of *non‑gr..."
+[parser-unknown-class] "BoxStep", text="Step 2. For each *funding cluster (other than the *first funding cluster and the *second funding ..."
+[parser-unknown-class] "BoxStep", text="Step 3. For each *grandfathered funding cluster part in which the provider has provided places in..."
+[parser-unknown-class] "BoxStep", text="Step 4. Add together all of the amounts worked out under steps 1, 2 and 3."
+[parser-unknown-class] "BoxStep", text="Step 1. For each unit of study (other than any unit that is an *ineligible work experience unit f..."
+[parser-unknown-class] "BoxStep", text="Step 2. Add together all of the amounts worked out under step 1."
+[parser-unknown-class] "BoxStep", text="Step 1. For each unit of study (other than any unit that is an *ineligible work experience unit f..."
+[parser-unknown-class] "BoxStep", text="Step 2. Add together all of the amounts worked out under step 1."
+[parser-unknown-class] "BoxStep", text="Step 1. Take the person’s *accumulated HELP debt for the immediately preceding financial year. (T..."
+[parser-unknown-class] "BoxStep", text="Step 2. Take the HELP debts (if any) that the person incurred during the last 6 months of the imm..."
+[parser-unknown-class] "BoxNote", text="Note: There will be more than one group of debts under paragraph (a) if the person incurred debts..."
+[parser-unknown-class] "BoxStep", text="Step 2A. Work out the total for each group of debts. If the total for a particular group is an am..."
+[parser-unknown-class] "BoxStep", text="Step 2B. If there is more than one group of debts for the person, add together the totals for all..."
+[parser-unknown-class] "BoxStep", text="Step 2C. Add the amount worked out under step 2A or 2B (as the case requires) to the amount refer..."
+[parser-unknown-class] "BoxStep", text="Step 3. Subtract the sum of the amounts by which the person’s debts referred to above are reduced..."
+[parser-unknown-class] "BoxStep", text="Step 4. Subtract the sum of all of the person’s *compulsory repayment amounts that:"
+[parser-unknown-class] "BoxStep", text="Step 5. Subtract the sum of the amounts by which any *compulsory repayment amount of the person i..."
+[parser-unknown-class] "BoxStep", text="Step 6. Add the sum of the amounts by which any *compulsory repayment amount of the person is red..."
+[parser-unknown-class] "BoxStep", text="Step 1. Add:"
+[parser-unknown-class] "BoxStep", text="Step 2. Add:"
+[parser-unknown-class] "BoxStep", text="Step 3. The CPI indexation factor for 1 June in the financial year is the amount under step 1 div..."
+[parser-unknown-class] "BoxStep", text="Step 1.  Add:"
+[parser-unknown-class] "BoxStep", text="Step 2.  Add:"
+[parser-unknown-class] "BoxStep", text="Step 3. The WPI indexation factor for 1 June in the financial year is the amount under step 1 div..."
+[parser-unknown-class] "BoxStep", text="Step 1. Take the HELP debts (if any) that the person incurred during the first 6 months of the fi..."
+[parser-unknown-class] "BoxNote", text="Note: There will be more than one group of debts under paragraph (a) if the person incurred debts..."
+[parser-unknown-class] "BoxStep", text="Step 2. Work out the total for each group of debts. If the total for a particular group is an amo..."
+[parser-unknown-class] "BoxStep", text="Step 3. If there is more than one group of debts for the person, add together the totals for all ..."
+[parser-unknown-class] "BoxStep", text="Step 7. Reduce the amount worked out under step 6 by 20%."
+[parser-diag] processed 11697 <p> elements
+[parser-diag] last section was added at element index: 8564
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 829
+[parse] compilation: date=2026-04-29 no=103
+[parse] by level:
+         chapter      6
+         division     97
+         section      490
+         part         25
+         subdivision  69
+         schedule     2
+         schedule_clause 136
+         schedule_part 4
+[db] inserted new legislation row: f13c4128-bef6-47e7-a309-9c854282a2bf
+[db] inserting 829 sections (pass 1)
+[db] inserted 829 sections
+[db] linking parent FKs (pass 2)
+[db] linked 821 parent references
+
+[done] ingested Higher Education Support Act 2003
+       legislation_id: f13c4128-bef6-47e7-a309-9c854282a2bf
+       sections: 829
+       compilation: 2026-04-29

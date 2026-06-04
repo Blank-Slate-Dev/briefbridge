@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00392/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 216,784 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00392/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 216,784 source bytes → 214,773 combined bytes
+[citation] National Environment Protection Measures (Implementation) Act 1998 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 806
+[parser-diag] processed 806 <p> elements
+[parser-diag] last section was added at element index: 626
+[parse] sections: 55
+[parse] compilation: date=2024-10-14 no=9
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         8
+         section      44
+         division     3
+[db] inserted new legislation row: 7f916b81-6818-4d11-a3b8-72649b89b2d7
+[db] inserting 55 sections (pass 1)
+[db] inserted 55 sections
+[db] linking parent FKs (pass 2)
+[db] linked 47 parent references
+
+[done] ingested National Environment Protection Measures (Implementation) Act 1998
+       legislation_id: 7f916b81-6818-4d11-a3b8-72649b89b2d7
+       sections: 55
+       compilation: 2024-10-14

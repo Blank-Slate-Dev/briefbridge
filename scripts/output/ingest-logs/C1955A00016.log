@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C1955A00016/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 245,933 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1955A00016/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 245,933 source bytes → 243,854 combined bytes
+[citation] Defence Force Discipline Appeals Act 1955 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 951
+[parser-diag] processed 951 <p> elements
+[parser-diag] last section was added at element index: 426
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 64
+[parse] compilation: date=2024-12-11 no=23
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule". Captured as 'schedule' as fallback.
+[parse] by level:
+         part         6
+         section      53
+         division     4
+         schedule     1
+[db] inserted new legislation row: 58e0c847-b208-4ba8-bcf4-f686a852a148
+[db] inserting 64 sections (pass 1)
+[db] inserted 64 sections
+[db] linking parent FKs (pass 2)
+[db] linked 57 parent references
+
+[done] ingested Defence Force Discipline Appeals Act 1955
+       legislation_id: 58e0c847-b208-4ba8-bcf4-f686a852a148
+       sections: 64
+       compilation: 2024-12-11

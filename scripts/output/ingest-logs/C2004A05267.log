@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05267/2025-10-26/2025-10-26/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 383,382 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05267/2025-10-26/2025-10-26/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 383,382 source bytes → 381,228 combined bytes
+[citation] Sydney Airport Demand Management Act 1997 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1509
+[parser-diag] processed 1509 <p> elements
+[parser-diag] last section was added at element index: 998
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 97
+[parse] compilation: date=2025-10-26 no=13
+[parse] by level:
+         part         9
+         section      74
+         division     12
+         schedule     1
+         schedule_clause 1
+[db] inserted new legislation row: c7384dc4-8a38-4daa-b7b8-b60868584e3c
+[db] inserting 97 sections (pass 1)
+[db] inserted 97 sections
+[db] linking parent FKs (pass 2)
+[db] linked 87 parent references
+
+[done] ingested Sydney Airport Demand Management Act 1997
+       legislation_id: c7384dc4-8a38-4daa-b7b8-b60868584e3c
+       sections: 97
+       compilation: 2025-10-26

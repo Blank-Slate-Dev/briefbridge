@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2005A00055/2018-06-19/2018-06-19/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 36,799 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2005A00055/2018-06-19/2018-06-19/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 36,799 source bytes → 34,674 combined bytes
+[citation] Social Security Legislation Amendment (One-off Payments for Carers) Act 2005 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 170
+[parser-unknown-class] "ActHead6", text="Schedule 2—Administrative scheme for 2005 one‑off payments to carers"
+[parser-unknown-class] "ItemHead", text="1  Administrative scheme for 2005 one‑off payments to carers"
+[parser-unknown-class] "Subitem", text="(1) Subject to this item, the Minister may, by legislative instrument, determine a scheme under w..."
+[parser-unknown-class] "Subitem", text="(2) The circumstances in which the scheme provides for payments must be circumstances:"
+[parser-unknown-class] "Subitem", text="(3) Without limiting the generality of subitem (1), the scheme may deal with the following:"
+[parser-unknown-class] "Subitem", text="(4) Payments under the scheme are to be made out of the Consolidated Revenue Fund, which is appro..."
+[parser-diag] processed 170 <p> elements
+[parser-diag] last section was added at element index: 41
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=2018-06-19 no=3
+[parse] by level:
+         section      3
+[db] inserted new legislation row: 4d6e767f-b412-4249-8797-934498ec6628
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Social Security Legislation Amendment (One-off Payments for Carers) Act 2005
+       legislation_id: 4d6e767f-b412-4249-8797-934498ec6628
+       sections: 3
+       compilation: 2018-06-19

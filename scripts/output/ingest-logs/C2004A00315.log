@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00315/2020-10-01/2020-10-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 296,954 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00315/2020-10-01/2020-10-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 296,954 source bytes → 294,830 combined bytes
+[citation] Financial Sector (Shareholdings) Act 1998 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1166
+[parser-diag] processed 1166 <p> elements
+[parser-diag] last section was added at element index: 863
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 82
+[parse] compilation: date=2020-10-01 no=14
+[parse] by level:
+         part         7
+         section      54
+         division     9
+         schedule     1
+         schedule_clause 11
+[db] inserted new legislation row: ba8516b1-a4d3-497c-88af-a9aaf2dd851d
+[db] inserting 82 sections (pass 1)
+[db] inserted 82 sections
+[db] linking parent FKs (pass 2)
+[db] linked 74 parent references
+
+[done] ingested Financial Sector (Shareholdings) Act 1998
+       legislation_id: ba8516b1-a4d3-497c-88af-a9aaf2dd851d
+       sections: 82
+       compilation: 2020-10-01

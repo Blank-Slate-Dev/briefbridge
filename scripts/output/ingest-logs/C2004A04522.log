@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04522/1994-01-18/1994-01-18/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 19,543 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04522/1994-01-18/1994-01-18/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 19,543 source bytes → 18,573 combined bytes
+[citation] Seafarers Rehabilitation and Compensation Levy Act 1992 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 69
+[parser-unknown-class] "ActNotesa", text="(a) The Seafarers Rehabilitation and Compensation Levy Act 1992 was amended by the Schedule (item..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to subsections (2) to (10) (inclusive), this Act commences on the day on which it rec..."
+[parser-diag] processed 69 <p> elements
+[parser-diag] last section was added at element index: 32
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 7
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      7
+[db] inserted new legislation row: 66416d48-dc22-4118-a5a0-c39527228029
+[db] inserting 7 sections (pass 1)
+[db] inserted 7 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Seafarers Rehabilitation and Compensation Levy Act 1992
+       legislation_id: 66416d48-dc22-4118-a5a0-c39527228029
+       sections: 7
+       compilation: 1994-01-18

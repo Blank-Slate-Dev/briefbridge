@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02499/2018-05-11/2018-05-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 194,666 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02499/2018-05-11/2018-05-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 194,666 source bytes → 192,532 combined bytes
+[citation] Crimes (Currency) Act 1981 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 764
+[parser-diag] processed 764 <p> elements
+[parser-diag] last section was added at element index: 355
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 36
+[parse] compilation: date=2018-05-11 no=10
+[parse] by level:
+         part         3
+         section      32
+         schedule     1
+[db] inserted new legislation row: 160dd03a-3e53-4888-99b3-f9ab6a97c48a
+[db] inserting 36 sections (pass 1)
+[db] inserted 36 sections
+[db] linking parent FKs (pass 2)
+[db] linked 32 parent references
+
+[done] ingested Crimes (Currency) Act 1981
+       legislation_id: 160dd03a-3e53-4888-99b3-f9ab6a97c48a
+       sections: 36
+       compilation: 2018-05-11

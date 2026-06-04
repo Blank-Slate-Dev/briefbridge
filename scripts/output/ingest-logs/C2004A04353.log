@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04353/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 17,592 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04353/2012-01-01/2012-01-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 17,592 source bytes → 16,588 combined bytes
+[citation] Coal Mining Industry (Long Service Leave) Payroll Levy Act 1992 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 70
+[parser-diag] processed 70 <p> elements
+[parser-diag] last section was added at element index: 34
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 7
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      7
+[db] inserted new legislation row: fe488367-3a75-45d7-90a2-51c49114f237
+[db] inserting 7 sections (pass 1)
+[db] inserted 7 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Coal Mining Industry (Long Service Leave) Payroll Levy Act 1992
+       legislation_id: fe488367-3a75-45d7-90a2-51c49114f237
+       sections: 7
+       compilation: 2012-01-01

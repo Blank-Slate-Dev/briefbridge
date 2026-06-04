@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01660/1977-04-14/1977-04-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 10,622 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01660/1977-04-14/1977-04-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 10,622 source bytes → 9,712 combined bytes
+[citation] Law Courts (Sydney) Act 1977 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 51
+[parser-diag] processed 51 <p> elements
+[parser-diag] last section was added at element index: 43
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 5
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      5
+[db] inserted new legislation row: 521975ff-0fa3-411a-af91-c5bc7eb37b28
+[db] inserting 5 sections (pass 1)
+[db] inserted 5 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Law Courts (Sydney) Act 1977
+       legislation_id: 521975ff-0fa3-411a-af91-c5bc7eb37b28
+       sections: 5
+       compilation: 1977-04-14

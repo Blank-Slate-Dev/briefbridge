@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C1953A00082/2026-03-27/2026-03-27/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 608,382 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1953A00082/2026-03-27/2026-03-27/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 608,382 source bytes → 606,320 combined bytes
+[citation] International Tax Agreements Act 1953 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2415
+[parser-diag] processed 2415 <p> elements
+[parser-diag] last section was added at element index: 844
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 48
+[parse] compilation: date=2026-03-27 no=46
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "Schedules". Captured as 'schedule' as fallback.
+[parse] by level:
+         section      46
+         schedule     2
+[db] inserted new legislation row: 8b584e48-fe8e-4f63-9284-62d08f98029a
+[db] inserting 48 sections (pass 1)
+[db] inserted 48 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested International Tax Agreements Act 1953
+       legislation_id: 8b584e48-fe8e-4f63-9284-62d08f98029a
+       sections: 48
+       compilation: 2026-03-27

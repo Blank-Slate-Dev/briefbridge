@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2025A00003/2025-02-14/2025-02-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 82,654 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2025A00003/2025-02-14/2025-02-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 82,654 source bytes → 79,978 combined bytes
+[citation] Appropriation (Parliamentary Departments) Act (No. 2) 2024-2025 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 340
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 4 February 2025"
+[parser-unknown-class] "2ndRd", text="Senate on 12 February 2025]"
+[parser-diag] processed 340 <p> elements
+[parser-diag] last section was added at element index: 147
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 19
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         4
+         section      14
+         schedule     1
+[db] inserted new legislation row: d230f682-4ac9-480d-853a-518b21f9d7c4
+[db] inserting 19 sections (pass 1)
+[db] inserted 19 sections
+[db] linking parent FKs (pass 2)
+[db] linked 14 parent references
+
+[done] ingested Appropriation (Parliamentary Departments) Act (No. 2) 2024-2025
+       legislation_id: d230f682-4ac9-480d-853a-518b21f9d7c4
+       sections: 19
+       compilation: 2025-02-14

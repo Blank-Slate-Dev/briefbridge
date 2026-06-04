@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01114/2016-07-01/2016-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 162,141 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01114/2016-07-01/2016-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 162,141 source bytes → 160,155 combined bytes
+[citation] National Blood Authority Act 2003 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 677
+[parser-diag] processed 677 <p> elements
+[parser-diag] last section was added at element index: 437
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 55
+[parse] compilation: date=2016-07-01 no=9
+[parse] by level:
+         part         6
+         section      44
+         division     3
+         subdivision  2
+[db] inserted new legislation row: 468fb72c-ceb0-4c52-a41a-27a51a20f374
+[db] inserting 55 sections (pass 1)
+[db] inserted 55 sections
+[db] linking parent FKs (pass 2)
+[db] linked 49 parent references
+
+[done] ingested National Blood Authority Act 2003
+       legislation_id: 468fb72c-ceb0-4c52-a41a-27a51a20f374
+       sections: 55
+       compilation: 2016-07-01

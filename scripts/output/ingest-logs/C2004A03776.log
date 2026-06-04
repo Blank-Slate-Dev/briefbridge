@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03776/2012-09-22/2012-09-22/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 117,178 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03776/2012-09-22/2012-09-22/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 117,178 source bytes → 116,078 combined bytes
+[citation] Circuit Layouts Act 1989 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 381
+[parser-unknown-class] "ActNotesa", text="(a) The Circuit Layouts Act 1989 was amended by Part 3 (sections 40–48) only of the Law and Justi..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act commences on the day on which it receives the Royal Assent."
+[parser-diag] processed 381 <p> elements
+[parser-diag] last section was added at element index: 321
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 60
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         4
+         section      48
+         division     8
+[db] inserted new legislation row: 267bf80c-a633-4644-b48c-9c172ccf3384
+[db] inserting 60 sections (pass 1)
+[db] inserted 60 sections
+[db] linking parent FKs (pass 2)
+[db] linked 56 parent references
+
+[done] ingested Circuit Layouts Act 1989
+       legislation_id: 267bf80c-a633-4644-b48c-9c172ccf3384
+       sections: 60
+       compilation: 2012-09-22

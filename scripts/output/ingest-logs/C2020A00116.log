@@ -1,0 +1,36 @@
+[fetch] document_1: https://www.legislation.gov.au/C2020A00116/2020-12-10/2020-12-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 340,742 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2020A00116/2020-12-10/2020-12-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 340,742 source bytes → 338,725 combined bytes
+[citation] Australia’s Foreign Relations (State and Territory Arrangements) Act 2020 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1275
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 3 September 2020"
+[parser-unknown-class] "2ndRd", text="Senate on 12 November 2020]"
+[parser-diag] processed 1275 <p> elements
+[parser-diag] last section was added at element index: 1242
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 116
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         5
+         division     22
+         section      66
+         subdivision  16
+         schedule     1
+         schedule_clause 6
+[db] inserted new legislation row: 446f6993-121b-41c6-a1f2-98d1c31f033b
+[db] inserting 116 sections (pass 1)
+[db] inserted 116 sections
+[db] linking parent FKs (pass 2)
+[db] linked 100 parent references
+
+[done] ingested Australia’s Foreign Relations (State and Territory Arrangements) Act 2020
+       legislation_id: 446f6993-121b-41c6-a1f2-98d1c31f033b
+       sections: 116
+       compilation: 2020-12-10

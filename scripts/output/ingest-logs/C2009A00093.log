@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2009A00093/2014-10-17/2014-10-17/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 103,429 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2009A00093/2014-10-17/2014-10-17/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 103,429 source bytes → 101,942 combined bytes
+[citation] Automotive Transformation Scheme Act 2009 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 460
+[parser-diag] processed 460 <p> elements
+[parser-diag] last section was added at element index: 342
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 46
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         3
+         section      30
+         division     3
+         subdivision  10
+[db] inserted new legislation row: 4d261f7e-72b2-48c7-a7a8-351d73df3dc5
+[db] inserting 46 sections (pass 1)
+[db] inserted 46 sections
+[db] linking parent FKs (pass 2)
+[db] linked 43 parent references
+
+[done] ingested Automotive Transformation Scheme Act 2009
+       legislation_id: 4d261f7e-72b2-48c7-a7a8-351d73df3dc5
+       sections: 46
+       compilation: 2014-10-17

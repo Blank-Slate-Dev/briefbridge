@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04464/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 165,210 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04464/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 165,210 source bytes → 163,003 combined bytes
+[citation] Crimes (Ships and Fixed Platforms) Act 1992 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 642
+[parser-diag] processed 642 <p> elements
+[parser-diag] last section was added at element index: 408
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 42
+[parse] compilation: date=2016-10-21 no=4
+[parse] by level:
+         part         4
+         section      34
+         division     2
+         schedule     2
+[db] inserted new legislation row: 6cd0c46f-3894-4442-9007-2d260c7a5382
+[db] inserting 42 sections (pass 1)
+[db] inserted 42 sections
+[db] linking parent FKs (pass 2)
+[db] linked 36 parent references
+
+[done] ingested Crimes (Ships and Fixed Platforms) Act 1992
+       legislation_id: 6cd0c46f-3894-4442-9007-2d260c7a5382
+       sections: 42
+       compilation: 2016-10-21

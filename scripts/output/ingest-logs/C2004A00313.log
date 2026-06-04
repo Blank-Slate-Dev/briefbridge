@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00313/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 155,499 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00313/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 155,499 source bytes → 153,515 combined bytes
+[citation] Financial Institutions Supervisory Levies Collection Act 1998 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 629
+[parser-diag] processed 629 <p> elements
+[parser-diag] last section was added at element index: 376
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 51
+[parse] compilation: date=2025-02-21 no=18
+[parse] by level:
+         part         6
+         section      45
+[db] inserted new legislation row: c72bc9d8-e970-42f0-87a3-e6f59397b320
+[db] inserting 51 sections (pass 1)
+[db] inserted 51 sections
+[db] linking parent FKs (pass 2)
+[db] linked 45 parent references
+
+[done] ingested Financial Institutions Supervisory Levies Collection Act 1998
+       legislation_id: c72bc9d8-e970-42f0-87a3-e6f59397b320
+       sections: 51
+       compilation: 2025-02-21

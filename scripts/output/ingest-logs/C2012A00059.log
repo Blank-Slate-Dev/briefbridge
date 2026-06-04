@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2012A00059/2022-07-01/2022-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 33,485 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2012A00059/2022-07-01/2022-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 33,485 source bytes → 31,526 combined bytes
+[citation] Income Tax (Labour Mobility Program Withholding Tax) Act 2012 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 157
+[parser-diag] processed 157 <p> elements
+[parser-diag] last section was added at element index: 58
+[parse] sections: 4
+[parse] compilation: date=2022-07-01 no=1
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         section      4
+[db] inserted new legislation row: 7bfa4a93-ae8a-4da1-b474-73d25025ebc4
+[db] inserting 4 sections (pass 1)
+[db] inserted 4 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Income Tax (Labour Mobility Program Withholding Tax) Act 2012
+       legislation_id: 7bfa4a93-ae8a-4da1-b474-73d25025ebc4
+       sections: 4
+       compilation: 2022-07-01

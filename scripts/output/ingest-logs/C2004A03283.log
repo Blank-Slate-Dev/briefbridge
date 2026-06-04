@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03283/2014-07-01/2014-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 70,422 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03283/2014-07-01/2014-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 70,422 source bytes → 68,865 combined bytes
+[citation] Fringe Benefits Tax (Application to the Commonwealth) Act 1986 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 304
+[parser-diag] processed 304 <p> elements
+[parser-diag] last section was added at element index: 109
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 15
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      15
+[db] inserted new legislation row: 25f2b521-b0bf-477c-af28-4fd558eaa8b7
+[db] inserting 15 sections (pass 1)
+[db] inserted 15 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Fringe Benefits Tax (Application to the Commonwealth) Act 1986
+       legislation_id: 25f2b521-b0bf-477c-af28-4fd558eaa8b7
+       sections: 15
+       compilation: 2014-07-01

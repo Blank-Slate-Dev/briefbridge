@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04712/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 106,367 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04712/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 106,367 source bytes → 104,420 combined bytes
+[citation] Agricultural and Veterinary Chemicals Act 1994 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 448
+[parser-diag] processed 448 <p> elements
+[parser-diag] last section was added at element index: 239
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 36
+[parse] compilation: date=2024-10-14 no=15
+[parse] by level:
+         part         8
+         section      28
+[db] inserted new legislation row: c484edc7-340c-4f58-89a7-619b919c74b1
+[db] inserting 36 sections (pass 1)
+[db] inserted 36 sections
+[db] linking parent FKs (pass 2)
+[db] linked 28 parent references
+
+[done] ingested Agricultural and Veterinary Chemicals Act 1994
+       legislation_id: c484edc7-340c-4f58-89a7-619b919c74b1
+       sections: 36
+       compilation: 2024-10-14

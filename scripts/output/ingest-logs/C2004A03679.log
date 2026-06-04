@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03679/2024-08-23/2024-08-23/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 4,548,897 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03679/2024-08-23/2024-08-23/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 4,548,897 source bytes → 4,545,211 combined bytes
+[citation] Fair Work (Registered Organisations) Act 2009 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 18183
+[parser-diag] processed 18183 <p> elements
+[parser-diag] last section was added at element index: 6614
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 649
+[parse] compilation: date=2024-08-23 no=88
+[parse] by level:
+         chapter      11
+         section      504
+         part         47
+         division     60
+         subdivision  8
+         schedule     3
+         schedule_clause 16
+[db] inserted new legislation row: 62844b2b-fcb1-46a2-b2b0-ee162b37bec4
+[db] inserting 649 sections (pass 1)
+[db] inserted 649 sections
+[db] linking parent FKs (pass 2)
+[db] linked 635 parent references
+
+[done] ingested Fair Work (Registered Organisations) Act 2009
+       legislation_id: 62844b2b-fcb1-46a2-b2b0-ee162b37bec4
+       sections: 649
+       compilation: 2024-08-23

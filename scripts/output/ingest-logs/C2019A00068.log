@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2019A00068/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 285,032 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2019A00068/2021-09-01/2021-09-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 285,032 source bytes → 282,555 combined bytes
+[citation] National Sports Tribunal Act 2019 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1141
+[parser-diag] processed 1141 <p> elements
+[parser-diag] last section was added at element index: 985
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 102
+[parse] compilation: date=2021-09-01 no=3
+[parse] by level:
+         part         5
+         section      75
+         division     17
+         subdivision  5
+[db] inserted new legislation row: 06e4e590-33f5-4f52-adcc-d0513bbc8358
+[db] inserting 102 sections (pass 1)
+[db] inserted 102 sections
+[db] linking parent FKs (pass 2)
+[db] linked 97 parent references
+
+[done] ingested National Sports Tribunal Act 2019
+       legislation_id: 06e4e590-33f5-4f52-adcc-d0513bbc8358
+       sections: 102
+       compilation: 2021-09-01

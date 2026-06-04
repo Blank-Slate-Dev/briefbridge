@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C1918A00028/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 78,657 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1918A00028/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 78,657 source bytes → 76,755 combined bytes
+[citation] Control of Naval Waters Act 1918 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 323
+[parser-diag] processed 323 <p> elements
+[parser-diag] last section was added at element index: 156
+[parse] sections: 15
+[parse] compilation: date=2016-10-21 no=6
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         section      15
+[db] inserted new legislation row: d0ae597d-861a-4e2c-9a9a-b92ae695c31b
+[db] inserting 15 sections (pass 1)
+[db] inserted 15 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Control of Naval Waters Act 1918
+       legislation_id: d0ae597d-861a-4e2c-9a9a-b92ae695c31b
+       sections: 15
+       compilation: 2016-10-21

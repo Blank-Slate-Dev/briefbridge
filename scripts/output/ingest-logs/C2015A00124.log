@@ -1,0 +1,42 @@
+[fetch] document_1: https://www.legislation.gov.au/C2015A00124/2015-09-10/2015-09-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 20,230 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2015A00124/2015-09-10/2015-09-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 20,230 source bytes → 19,116 combined bytes
+[citation] Australian Small Business and Family Enterprise Ombudsman (Consequential and Transitional Provisions) Act 2015 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 101
+[parser-unknown-class] "ActHead6", text="Schedule 1—Consequential amendments"
+[parser-unknown-class] "ActHead9", text="Ombudsman Act 1976"
+[parser-unknown-class] "ItemHead", text="1  After section 6D"
+[parser-unknown-class] "ActHead6", text="Schedule 2—Transitional provisions"
+[parser-unknown-class] "ItemHead", text="1  Disclosure, collection and use of information and documents held by the Australian Small Busin..."
+[parser-unknown-class] "SubitemHead", text="Information and documents relevant to the advocacy function"
+[parser-unknown-class] "Subitem", text="(1) The Australian Small Business Commissioner may disclose information and documents obtained by..."
+[parser-unknown-class] "Subitem", text="(2) The Ombudsman may collect and use the information or documents for the purposes of performing..."
+[parser-unknown-class] "SubitemHead", text="Information and documents relevant to the assistance function"
+[parser-unknown-class] "Subitem", text="(3) If a request for assistance to the Australian Small Business Commissioner has not finally bee..."
+[parser-unknown-class] "Subitem", text="(4) The Ombudsman may collect and use the information or documents for the purposes of performing..."
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 3 June 2015"
+[parser-unknown-class] "2ndRd", text="Senate on 17 June 2015]"
+[parser-diag] processed 101 <p> elements
+[parser-diag] last section was added at element index: 68
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 4
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      4
+[db] inserted new legislation row: cc25c3bb-523c-47ae-a885-67ce73e6f5cd
+[db] inserting 4 sections (pass 1)
+[db] inserted 4 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Australian Small Business and Family Enterprise Ombudsman (Consequential and Transitional Provisions) Act 2015
+       legislation_id: cc25c3bb-523c-47ae-a885-67ce73e6f5cd
+       sections: 4
+       compilation: 2015-09-10

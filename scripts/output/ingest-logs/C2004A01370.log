@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01370/2016-03-05/2016-03-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 840,899 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01370/2016-03-05/2016-03-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 840,899 source bytes → 836,795 combined bytes
+[citation] Schools Assistance (Learning Together—Achievement Through Choice and Opportunity) Act 2004 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3356
+[parser-diag] processed 3356 <p> elements
+[parser-diag] last section was added at element index: 3026
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 234
+[parse] compilation: date=2016-03-05 no=9
+[parse] by level:
+         part         12
+         section      155
+         division     36
+         subdivision  13
+         schedule     9
+         schedule_part 9
+[db] inserted new legislation row: 6099c50d-4374-4153-93b6-3a49e4e01dc8
+[db] inserting 234 sections (pass 1)
+[db] inserted 234 sections
+[db] linking parent FKs (pass 2)
+[db] linked 213 parent references
+
+[done] ingested Schools Assistance (Learning Together—Achievement Through Choice and Opportunity) Act 2004
+       legislation_id: 6099c50d-4374-4153-93b6-3a49e4e01dc8
+       sections: 234
+       compilation: 2016-03-05

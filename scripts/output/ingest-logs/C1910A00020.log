@@ -1,0 +1,42 @@
+[fetch] document_1: https://www.legislation.gov.au/C1910A00020/2011-12-27/2011-12-27/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 67,411 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1910A00020/2011-12-27/2011-12-27/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 67,411 source bytes → 66,199 combined bytes
+[citation] Northern Territory Acceptance Act 1910 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 211
+[parser-unknown-class] "ActNotesa", text="(a) The Northern Territory Acceptance Act 1910 was amended by Schedule 4 (item 8) only of the Aus..."
+[parser-unknown-class] "ActNotes1", text="(5) The remaining items of Schedule 3 and Schedule 4 commence on a day to be fixed by Proclamatio..."
+[parser-unknown-class] "TableA0", text="Table A"
+[parser-unknown-class] "TableAHead", text="Application, saving or transitional provisions"
+[parser-unknown-class] "TableAHeadItal", text="Australian National Railways Commission Sale Act 1997 (No. 96, 1997)"
+[parser-unknown-class] "ItemHead", text="Schedule 4"
+[parser-unknown-class] "ItemHead", text="9  Transitional—agreement"
+[parser-unknown-class] "TableAHeadItal", text="Acts Interpretation Amendment Act 2011 (No. 46, 2011)"
+[parser-unknown-class] "ItemHead", text="Schedule 3"
+[parser-unknown-class] "ItemHead", text="10  Saving—appointments"
+[parser-unknown-class] "ItemHead", text="11  Transitional regulations"
+[parser-diag] processed 211 <p> elements
+[parser-diag] last section was added at element index: 87
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 15
+[parse] compilation: date=(none) no=(none)
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule [see Note 2]". Captured as 'schedule' as fallback.
+[parse] by level:
+         part         3
+         section      11
+         schedule     1
+[db] inserted new legislation row: 3654885c-7623-4a1d-bfaf-bc02a320d345
+[db] inserting 15 sections (pass 1)
+[db] inserted 15 sections
+[db] linking parent FKs (pass 2)
+[db] linked 11 parent references
+
+[done] ingested Northern Territory Acceptance Act 1910
+       legislation_id: 3654885c-7623-4a1d-bfaf-bc02a320d345
+       sections: 15
+       compilation: 2011-12-27

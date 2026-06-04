@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C1945A00032/2021-09-14/2021-09-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 392,352 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1945A00032/2021-09-14/2021-09-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 392,352 source bytes → 389,848 combined bytes
+[citation] Charter of the United Nations Act 1945 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1563
+[parser-diag] processed 1563 <p> elements
+[parser-diag] last section was added at element index: 537
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 56
+[parse] compilation: date=2021-09-14 no=15
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule—Charter of the United Nations". Captured as 'schedule' as fallback.
+[parse] by level:
+         part         7
+         section      46
+         division     2
+         schedule     1
+[db] inserted new legislation row: b4bae1ec-9451-4303-896f-6b6f99614fe3
+[db] inserting 56 sections (pass 1)
+[db] inserted 56 sections
+[db] linking parent FKs (pass 2)
+[db] linked 48 parent references
+
+[done] ingested Charter of the United Nations Act 1945
+       legislation_id: b4bae1ec-9451-4303-896f-6b6f99614fe3
+       sections: 56
+       compilation: 2021-09-14

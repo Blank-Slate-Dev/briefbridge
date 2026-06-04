@@ -1,0 +1,50 @@
+[fetch] document_1: https://www.legislation.gov.au/C1969A00058/2022-06-02/2022-06-02/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 81,033 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1969A00058/2022-06-02/2022-06-02/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 81,033 source bytes → 79,121 combined bytes
+[citation] Coral Sea Islands Act 1969 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 328
+[parser-unknown-class] "Paragraph", text="(a) the notice has not been withdrawn and the motion has not been called on; or"
+[parser-unknown-class] "Paragraph", text="(b) the motion has been called on, moved and seconded and has not been withdrawn or otherwise dis..."
+[parser-unknown-class] "Paragraph", text="(a) the House of Representatives is dissolved or expires, or the Parliament is prorogued; and"
+[parser-unknown-class] "Paragraph", text="(b) at the time of the dissolution, expiry or prorogation, as the case may be:"
+[parser-unknown-class] "Paragraph", text="(a) an Ordinance (in this subsection referred to as the relevant Ordinance) is disallowed, or is ..."
+[parser-unknown-class] "Paragraph", text="(b) the relevant Ordinance repealed, in whole or in part, another Ordinance or any other law that..."
+[parser-unknown-class] "Paragraph", text="(a) if the original Ordinance has been laid, in accordance with subsection 7(1), before both Hous..."
+[parser-unknown-class] "Paragraph", text="(b) if the original Ordinance has been so laid before both Houses on different days—the later of ..."
+[parser-unknown-class] "Paragraph", text="(c) if the original Ordinance has not been so laid before both Houses—the last day on which subse..."
+[parser-unknown-class] "Paragraph", text="(a) the notice has been withdrawn;"
+[parser-unknown-class] "Paragraph", text="(b) the Ordinance is deemed to have been disallowed under subsection 7(3);"
+[parser-unknown-class] "Paragraph", text="(c) the motion has been withdrawn or otherwise disposed of; or"
+[parser-unknown-class] "Paragraph", text="(d) subsection 7(4) has applied in relation to the Ordinance."
+[parser-unknown-class] "Paragraph", text="(a) because of subsection 7(4), an Ordinance is deemed to have been laid before a House of the Pa..."
+[parser-unknown-class] "Paragraph", text="(b) notice of a motion to disallow the Ordinance has been given in that House within 15 sitting d..."
+[parser-unknown-class] "Paragraph", text="(c) the notice has been withdrawn;"
+[parser-unknown-class] "Paragraph", text="(d) the Ordinance is deemed to have been disallowed under subsection 7(3);"
+[parser-unknown-class] "Paragraph", text="(e) the motion has been withdrawn or otherwise disposed of; or"
+[parser-unknown-class] "Paragraph", text="(f) subsection 7(4) has applied again in relation to the Ordinance."
+[parser-unknown-class] "Paragraph", text="(a) in the case of an Ordinance, or a part of an Ordinance, disallowed by resolution—the resoluti..."
+[parser-unknown-class] "Paragraph", text="(b) in the case of an Ordinance, or a part of an Ordinance, deemed to have been disallowed—the Ho..."
+[parser-unknown-class] "Paragraph", text="(a) the Offshore Electricity Infrastructure Act 2021; or"
+[parser-unknown-class] "Paragraph", text="(b) the Offshore Petroleum and Greenhouse Gas Storage Act 2006."
+[parser-diag] processed 328 <p> elements
+[parser-diag] last section was added at element index: 132
+[parse] sections: 12
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] compilation: date=2022-06-02 no=8
+[parse] by level:
+         section      12
+[db] inserted new legislation row: c8513e7f-13e6-4cce-9eaa-9a569410194a
+[db] inserting 12 sections (pass 1)
+[db] inserted 12 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Coral Sea Islands Act 1969
+       legislation_id: c8513e7f-13e6-4cce-9eaa-9a569410194a
+       sections: 12
+       compilation: 2022-06-02

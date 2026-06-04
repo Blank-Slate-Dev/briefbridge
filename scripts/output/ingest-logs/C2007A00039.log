@@ -1,0 +1,50 @@
+[fetch] document_1: https://www.legislation.gov.au/C2007A00039/2007-03-30/2007-03-30/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 25,102 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2007A00039/2007-03-30/2007-03-30/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 25,102 source bytes → 24,038 combined bytes
+[citation] Airspace (Consequentials and Other Measures) Act 2007 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 118
+[parser-unknown-class] "ActHead6", text="Schedule 1—Consequential amendments"
+[parser-unknown-class] "ActHead9", text="Civil Aviation Act 1988"
+[parser-unknown-class] "ItemHead", text="1  After paragraph 9(3)(cb)"
+[parser-unknown-class] "ItemHead", text="2  After section 11"
+[parser-unknown-class] "ActHead6", text="Schedule 2—Technical amendments"
+[parser-unknown-class] "ActHead9", text="Air Services Act 1995"
+[parser-unknown-class] "ItemHead", text="1  Subsection 19(2)"
+[parser-unknown-class] "ItemHead", text="2  Subsection 77(3) (definition of AA service)"
+[parser-unknown-class] "ItemHead", text="3  Subsection 77(3) (definition of rescue and fire fighting operations)"
+[parser-unknown-class] "ActHead9", text="Civil Aviation Act 1988"
+[parser-unknown-class] "ItemHead", text="4  Subsection 3(1) (subparagraphs (e)(i) and (ii) of the definition of aviation safety standards)"
+[parser-unknown-class] "ItemHead", text="5  Subparagraphs 98(3)(s)(i) and (ii)"
+[parser-unknown-class] "ActHead6", text="Schedule 3—Transitional provision"
+[parser-unknown-class] "ItemHead", text="1  Transitional provision"
+[parser-unknown-class] "Subitem", text="(1) This item applies if regulations are made under the Air Services Act 1995 repealing Part 2 of..."
+[parser-unknown-class] "Subitem", text="(2) The Governor‑General may make regulations prescribing matters of a transitional nature (inclu..."
+[parser-unknown-class] "Subitem", text="(3) Regulations under subitem (2) may provide that specified things done by, or in relation to, A..."
+[parser-unknown-class] "Subitem", text="(4) Subitem (3) does not limit subitem (2)."
+[parser-unknown-class] "Subitem", text="(5) In this item:"
+[parser-unknown-class] "ItemHead", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 29 November 2006"
+[parser-unknown-class] "2ndRd", text="Senate on 6 February 2007]"
+[parser-diag] processed 118 <p> elements
+[parser-diag] last section was added at element index: 77
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 4
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      4
+[db] inserted new legislation row: 85593db5-34e7-43cf-805e-5ef2b787444a
+[db] inserting 4 sections (pass 1)
+[db] inserted 4 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Airspace (Consequentials and Other Measures) Act 2007
+       legislation_id: 85593db5-34e7-43cf-805e-5ef2b787444a
+       sections: 4
+       compilation: 2007-03-30

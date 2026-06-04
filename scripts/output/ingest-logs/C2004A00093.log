@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00093/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 117,225 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00093/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 117,225 source bytes → 115,280 combined bytes
+[citation] Canberra Water Supply (Googong Dam) Act 1974 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 445
+[parser-unknown-class] "ENotesHeading2", text="Endnote 1—About the endnotes"
+[parser-unknown-class] "ENotesHeading2", text="Endnote 2—Abbreviation key"
+[parser-unknown-class] "ENotesHeading2", text="Endnote 3—Legislation history"
+[parser-unknown-class] "ENotesHeading2", text="Endnote 4—Amendment history"
+[parser-diag] processed 445 <p> elements
+[parser-diag] last section was added at element index: 238
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 28
+[parse] compilation: date=2016-10-21 no=8
+[parse] by level:
+         section      28
+[db] inserted new legislation row: a2c9b048-76fe-4002-b980-144137e7f69f
+[db] inserting 28 sections (pass 1)
+[db] inserted 28 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Canberra Water Supply (Googong Dam) Act 1974
+       legislation_id: a2c9b048-76fe-4002-b980-144137e7f69f
+       sections: 28
+       compilation: 2016-10-21

@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04735/2025-11-08/2025-11-08/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 247,430 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04735/2025-11-08/2025-11-08/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 247,430 source bytes → 245,293 combined bytes
+[citation] Foreign Evidence Act 1994 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 968
+[parser-diag] processed 968 <p> elements
+[parser-diag] last section was added at element index: 568
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 76
+[parse] compilation: date=2025-11-08 no=22
+[parse] by level:
+         part         8
+         section      54
+         division     13
+         schedule     1
+[db] inserted new legislation row: df646363-f2c1-47cf-b994-332ff9fa3414
+[db] inserting 76 sections (pass 1)
+[db] inserted 76 sections
+[db] linking parent FKs (pass 2)
+[db] linked 67 parent references
+
+[done] ingested Foreign Evidence Act 1994
+       legislation_id: df646363-f2c1-47cf-b994-332ff9fa3414
+       sections: 76
+       compilation: 2025-11-08

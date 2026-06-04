@@ -1,0 +1,26 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00221/1988-08-01/1988-08-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 17,651 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00221/1988-08-01/1988-08-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 17,651 source bytes → 16,545 combined bytes
+[citation] Parliament Act 1974 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 64
+[parser-diag] processed 64 <p> elements
+[parser-diag] last section was added at element index: -1
+[parser-diag] state phase at end: PRE_BODY
+[parser-diag] hierarchy stack depth at end: 0
+[parser-diag] insideSchedule at end: false
+[parse] sections: 0
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+[db] inserted new legislation row: 385421c4-5a57-4f2b-8772-b2989c523658
+[db] inserting 0 sections (pass 1)
+[db] inserted 0 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Parliament Act 1974
+       legislation_id: 385421c4-5a57-4f2b-8772-b2989c523658
+       sections: 0
+       compilation: 1988-08-01

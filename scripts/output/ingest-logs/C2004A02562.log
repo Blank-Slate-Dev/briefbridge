@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02562/2026-01-01/2026-01-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,328,989 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02562/2026-01-01/2026-01-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,328,989 source bytes → 1,325,771 combined bytes
+[citation] Freedom of Information Act 1982 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 4893
+[parser-diag] processed 4893 <p> elements
+[parser-diag] last section was added at element index: 3017
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 264
+[parse] compilation: date=2026-01-01 no=121
+[parse] by level:
+         part         10
+         section      206
+         division     34
+         subdivision  7
+         schedule     4
+         schedule_part 3
+[db] inserted new legislation row: 8e2395d4-dcc2-4ee5-ac05-5c88e359f0fc
+[db] inserting 264 sections (pass 1)
+[db] inserted 264 sections
+[db] linking parent FKs (pass 2)
+[db] linked 250 parent references
+
+[done] ingested Freedom of Information Act 1982
+       legislation_id: 8e2395d4-dcc2-4ee5-ac05-5c88e359f0fc
+       sections: 264
+       compilation: 2026-01-01

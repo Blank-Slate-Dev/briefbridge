@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04009/2014-07-01/2014-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 266,835 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04009/2014-07-01/2014-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 266,835 source bytes → 265,176 combined bytes
+[citation] Australian Maritime Safety Authority Act 1990 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1027
+[parser-diag] processed 1027 <p> elements
+[parser-diag] last section was added at element index: 557
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 70
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         8
+         section      60
+         division     2
+[db] inserted new legislation row: 5d72d867-7c8b-4e7f-b320-7c3e57908d2b
+[db] inserting 70 sections (pass 1)
+[db] inserted 70 sections
+[db] linking parent FKs (pass 2)
+[db] linked 62 parent references
+
+[done] ingested Australian Maritime Safety Authority Act 1990
+       legislation_id: 5d72d867-7c8b-4e7f-b320-7c3e57908d2b
+       sections: 70
+       compilation: 2014-07-01

@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2012A00053/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 118,780 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2012A00053/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 118,780 source bytes → 116,140 combined bytes
+[citation] Shipping Reform (Tax Incentives) Act 2012 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 477
+[parser-diag] processed 477 <p> elements
+[parser-diag] last section was added at element index: 364
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 33
+[parse] compilation: date=2024-10-14 no=2
+[parse] by level:
+         part         5
+         section      28
+[db] inserted new legislation row: 180686e7-8af5-4dbc-b318-dfe93a035647
+[db] inserting 33 sections (pass 1)
+[db] inserted 33 sections
+[db] linking parent FKs (pass 2)
+[db] linked 28 parent references
+
+[done] ingested Shipping Reform (Tax Incentives) Act 2012
+       legislation_id: 180686e7-8af5-4dbc-b318-dfe93a035647
+       sections: 33
+       compilation: 2024-10-14

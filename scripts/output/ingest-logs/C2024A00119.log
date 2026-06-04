@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2024A00119/2024-12-10/2024-12-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 74,366 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2024A00119/2024-12-10/2024-12-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 74,366 source bytes → 71,930 combined bytes
+[citation] Future Made in Australia Act 2024 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 287
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 3 July 2024"
+[parser-unknown-class] "2ndRd", text="Senate on 11 September 2024]"
+[parser-diag] processed 287 <p> elements
+[parser-diag] last section was added at element index: 265
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 21
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         4
+         section      17
+[db] inserted new legislation row: 3af679f5-3663-4c06-9b3e-61873fa8bf8a
+[db] inserting 21 sections (pass 1)
+[db] inserted 21 sections
+[db] linking parent FKs (pass 2)
+[db] linked 17 parent references
+
+[done] ingested Future Made in Australia Act 2024
+       legislation_id: 3af679f5-3663-4c06-9b3e-61873fa8bf8a
+       sections: 21
+       compilation: 2024-12-10

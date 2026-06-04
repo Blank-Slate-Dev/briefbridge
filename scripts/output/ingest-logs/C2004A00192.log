@@ -1,0 +1,50 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00192/2022-02-18/2022-02-18/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 455,062 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00192/2022-02-18/2022-02-18/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 455,062 source bytes → 452,586 combined bytes
+[citation] International Arbitration Act 1974 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1656
+[parser-unknown-class] "NormalSubPara", text="(i) the place of arbitration if determined in, or pursuant to, the arbitration agreement;"
+[parser-unknown-class] "NormalSubPara", text="(ii) any place where a substantial part of the obligations of the commercial relationship is to b..."
+[parser-unknown-class] "NormalSubPara", text="(i) Such refusal is warranted on the grounds set forth in article 36(1)(a)(i), (ii), (iii) or (iv..."
+[parser-unknown-class] "NormalSubPara", text="(ii) The arbitral tribunal’s decision with respect to the provision of security in connection wit..."
+[parser-unknown-class] "NormalSubPara", text="(iii) The interim measure has been terminated or suspended by the arbitral tribunal or, where so ..."
+[parser-unknown-class] "NormalSubPara", text="(i) The interim measure is incompatible with the powers conferred upon the court unless the court..."
+[parser-unknown-class] "NormalSubPara", text="(ii) Any of the grounds set forth in article 36(1)(b)(i) or (ii), apply to the recognition and en..."
+[parser-unknown-class] "NormalSubPara", text="(i) a party to the arbitration agreement referred to in article 7 was under some incapacity; or t..."
+[parser-unknown-class] "NormalSubPara", text="(ii) the party making the application was not given proper notice of the appointment of an arbitr..."
+[parser-unknown-class] "NormalSubPara", text="(iii) the award deals with a dispute not contemplated by or not falling within the terms of the s..."
+[parser-unknown-class] "NormalSubPara", text="(iv) the composition of the arbitral tribunal or the arbitral procedure was not in accordance wit..."
+[parser-unknown-class] "NormalSubPara", text="(i) the subject‑matter of the dispute is not capable of settlement by arbitration under the law o..."
+[parser-unknown-class] "NormalSubPara", text="(ii) the award is in conflict with the public policy of this State."
+[parser-unknown-class] "NormalSubPara", text="(i) a party to the arbitration agreement referred to in article 7 was under some incapacity; or t..."
+[parser-unknown-class] "NormalSubPara", text="(ii) the party against whom the award is invoked was not given proper notice of the appointment o..."
+[parser-unknown-class] "NormalSubPara", text="(iii) the award deals with a dispute not contemplated by or not falling within the terms of the s..."
+[parser-unknown-class] "NormalSubPara", text="(iv) the composition of the arbitral tribunal or the arbitral procedure was not in accordance wit..."
+[parser-unknown-class] "NormalSubPara", text="(v) the award has not yet become binding on the parties or has been set aside or suspended by a c..."
+[parser-unknown-class] "NormalSubPara", text="(i) the subject‑matter of the dispute is not capable of settlement by arbitration under the law o..."
+[parser-unknown-class] "NormalSubPara", text="(ii) the recognition or enforcement of the award would be contrary to the public policy of this S..."
+[parser-diag] processed 1656 <p> elements
+[parser-diag] last section was added at element index: 957
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 70
+[parse] compilation: date=2022-02-18 no=14
+[parse] by level:
+         part         5
+         section      55
+         division     7
+         schedule     3
+[db] inserted new legislation row: e3ac5eb5-0743-4143-bc76-6c2c3c18f7a3
+[db] inserting 70 sections (pass 1)
+[db] inserted 70 sections
+[db] linking parent FKs (pass 2)
+[db] linked 62 parent references
+
+[done] ingested International Arbitration Act 1974
+       legislation_id: e3ac5eb5-0743-4143-bc76-6c2c3c18f7a3
+       sections: 70
+       compilation: 2022-02-18

@@ -1,0 +1,45 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02451/1990-01-17/1990-01-17/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 545,498 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02451/1990-01-17/1990-01-17/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 545,498 source bytes → 543,956 combined bytes
+[citation] Commonwealth Functions (Statutes Review) Act 1981 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1750
+[parser-unknown-class] "ActNotes1", text="(5) Section 225 shall come into operation on the day on which subsection 5(2) of the Navigation A..."
+[parser-unknown-class] "ActNotes1", text="(6) Sections 226, 227 and 230 shall come into operation on the day on which section 18 of the Nav..."
+[parser-unknown-class] "ActNotes1", text="(7) Section 228 shall come into operation on the day on which sections 61 and 62 of the Navigatio..."
+[parser-unknown-class] "ActNotesa", text="Sections 5(2), 18, 61 and 62 of the Navigation Amendment Act 1980 were repealed by section 25 of ..."
+[parser-unknown-class] "ActNotesa", text="(b) The Commonwealth Functions(Statutes Review) Act 1981 was amended by Part X (sections 36 and 3..."
+[parser-unknown-class] "ActNotes1", text="(6) Part X shall come into operation, or shall be deemed to have come into operation, as the case..."
+[parser-unknown-class] "ActNotes1", text="(12) The remaining provisions of this Act shall come into operation on the twenty‑eighth day afte..."
+[parser-unknown-class] "ActNotesa", text="(c) The Commonwealth Functions (Statutes Review) Act 1981 was amended by Part LXXVII (section 280..."
+[parser-unknown-class] "ActNotes1", text="(1) Sections 1, 2, 166 and 195 and Parts III, VI, VII, XVI, XXXVI, XLIV, LI, LIII, LIV, LXI and L..."
+[parser-unknown-class] "ActNotesa", text="(d) The Commonwealth Functions (Statutes Review) Act 1981 was amended by section 3 only of the Au..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to subsection (2), this Act shall come into operation, or shall be deemed to have com..."
+[parser-unknown-class] "ActNotesa", text="(e) The Commonwealth Functions (Statutes Review) Act 1981 was amended by section 3 only of the St..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act shall come into operation on the twenty‑eighth day after th..."
+[parser-unknown-class] "ActNotesa", text="(f) The Commonwealth Functions (Statutes Review) Act 1981 was amended by subsection 29(1) only of..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act commences on the day on which it receives the Royal Assent."
+[parser-diag] processed 1750 <p> elements
+[parser-diag] last section was added at element index: 1564
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 281
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         21
+         section      236
+         division     21
+         schedule     3
+[db] inserted new legislation row: 9a449d58-dd9b-4b65-a4dd-5300341f00dc
+[db] inserting 281 sections (pass 1)
+[db] inserted 281 sections
+[db] linking parent FKs (pass 2)
+[db] linked 257 parent references
+
+[done] ingested Commonwealth Functions (Statutes Review) Act 1981
+       legislation_id: 9a449d58-dd9b-4b65-a4dd-5300341f00dc
+       sections: 281
+       compilation: 1990-01-17

@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2006A00027/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 49,935 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2006A00027/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 49,935 source bytes → 48,028 combined bytes
+[citation] Aged Care (Accommodation Payment Security) Levy Act 2006 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 223
+[parser-diag] processed 223 <p> elements
+[parser-diag] last section was added at element index: 91
+[parse] sections: 10
+[parse] compilation: date=2025-11-01 no=6
+[parse] by level:
+         section      10
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[db] inserted new legislation row: 4bdac2d0-a27b-4197-a8b5-6ba9a3f3fd5e
+[db] inserting 10 sections (pass 1)
+[db] inserted 10 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Aged Care (Accommodation Payment Security) Levy Act 2006
+       legislation_id: 4bdac2d0-a27b-4197-a8b5-6ba9a3f3fd5e
+       sections: 10
+       compilation: 2025-11-01

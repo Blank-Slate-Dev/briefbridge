@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05333/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 145,077 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05333/2020-03-25/2020-03-25/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 145,077 source bytes → 143,016 combined bytes
+[citation] Charter of Budget Honesty Act 1998 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 570
+[parser-diag] processed 570 <p> elements
+[parser-diag] last section was added at element index: 377
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] sections: 50
+[parse] compilation: date=2020-03-25 no=4
+[parse] by level:
+         section      3
+         schedule     1
+         schedule_part 9
+         schedule_clause 34
+         division     3
+[db] inserted new legislation row: cca7c833-c4f7-4bcf-ad05-d556ae4e33c3
+[db] inserting 50 sections (pass 1)
+[db] inserted 50 sections
+[db] linking parent FKs (pass 2)
+[db] linked 46 parent references
+
+[done] ingested Charter of Budget Honesty Act 1998
+       legislation_id: cca7c833-c4f7-4bcf-ad05-d556ae4e33c3
+       sections: 50
+       compilation: 2020-03-25

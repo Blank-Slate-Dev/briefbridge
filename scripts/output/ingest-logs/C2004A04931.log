@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04931/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 298,903 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04931/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 298,903 source bytes → 296,912 combined bytes
+[citation] Air Services Act 1995 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1176
+[parser-diag] processed 1176 <p> elements
+[parser-diag] last section was added at element index: 776
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 100
+[parse] compilation: date=2024-10-14 no=32
+[parse] by level:
+         part         6
+         section      78
+         division     12
+         subdivision  4
+[db] inserted new legislation row: 443b939e-0e8c-4d90-8e21-5dcd53bc2e16
+[db] inserting 100 sections (pass 1)
+[db] inserted 100 sections
+[db] linking parent FKs (pass 2)
+[db] linked 94 parent references
+
+[done] ingested Air Services Act 1995
+       legislation_id: 443b939e-0e8c-4d90-8e21-5dcd53bc2e16
+       sections: 100
+       compilation: 2024-10-14

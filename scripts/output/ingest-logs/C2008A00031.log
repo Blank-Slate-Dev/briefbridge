@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2008A00031/2019-07-01/2019-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 36,926 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2008A00031/2019-07-01/2019-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 36,926 source bytes → 35,082 combined bytes
+[citation] Income Tax (Managed Investment Trust Withholding Tax) Act 2008 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 171
+[parser-diag] processed 171 <p> elements
+[parser-diag] last section was added at element index: 52
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 5
+[parse] compilation: date=2019-07-01 no=3
+[parse] by level:
+         section      5
+[db] inserted new legislation row: 27059577-d358-43bf-899b-2a975f55448c
+[db] inserting 5 sections (pass 1)
+[db] inserted 5 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Income Tax (Managed Investment Trust Withholding Tax) Act 2008
+       legislation_id: 27059577-d358-43bf-899b-2a975f55448c
+       sections: 5
+       compilation: 2019-07-01

@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00393/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 132,386 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00393/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 132,386 source bytes → 130,415 combined bytes
+[citation] National Transmission Network Sale Act 1998 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 541
+[parser-diag] processed 541 <p> elements
+[parser-diag] last section was added at element index: 362
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 32
+[parse] compilation: date=2024-10-14 no=8
+[parse] by level:
+         part         6
+         section      26
+[db] inserted new legislation row: 3aa59312-afa3-4710-81e7-7cf62f6aa90a
+[db] inserting 32 sections (pass 1)
+[db] inserted 32 sections
+[db] linking parent FKs (pass 2)
+[db] linked 26 parent references
+
+[done] ingested National Transmission Network Sale Act 1998
+       legislation_id: 3aa59312-afa3-4710-81e7-7cf62f6aa90a
+       sections: 32
+       compilation: 2024-10-14

@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C1920A00050/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 596,776 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1920A00050/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 596,776 source bytes → 594,061 combined bytes
+[citation] Air Navigation Act 1920 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2340
+[parser-diag] processed 2340 <p> elements
+[parse] sections: 54
+[parser-diag] last section was added at element index: 1300
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] compilation: date=2024-10-14 no=45
+[parse] by level:
+         part         3
+         section      38
+         schedule     13
+[db] inserted new legislation row: c4b9071d-44ea-40a2-8adb-f92957fc402f
+[db] inserting 54 sections (pass 1)
+[db] inserted 54 sections
+[db] linking parent FKs (pass 2)
+[db] linked 38 parent references
+
+[done] ingested Air Navigation Act 1920
+       legislation_id: c4b9071d-44ea-40a2-8adb-f92957fc402f
+       sections: 54
+       compilation: 2024-10-14

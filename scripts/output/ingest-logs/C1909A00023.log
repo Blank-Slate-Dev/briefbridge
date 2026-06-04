@@ -1,0 +1,34 @@
+[fetch] document_1: https://www.legislation.gov.au/C1909A00023/1973-12-31/1973-12-31/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 55,141 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1909A00023/1973-12-31/1973-12-31/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 55,141 source bytes → 53,689 combined bytes
+[citation] Seat of Government Acceptance Act 1909 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 158
+[parser-unknown-class] "ActNotesa", text="(a) This citation is provided for by the Amendments Incorporation Act 1905 and the Acts Citation ..."
+[parser-unknown-class] "ActNotesa", text="As to the application of some of the sections of this Act to the Jervis Bay Territory, see sectio..."
+[parser-diag] processed 158 <p> elements
+[parser-diag] last section was added at element index: 85
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 10
+[parse] compilation: date=(none) no=(none)
+[parse] warnings: 3
+  - ActHead1 with unexpected leading word: "The Schedules". Captured as 'schedule' as fallback.
+  - ActHead1 with unexpected leading word: "First Schedule [see Note 3]". Captured as 'schedule' as fallback.
+  - ActHead1 with unexpected leading word: "Second Schedule—Description of the territory". Captured as 'schedule' as fallback.
+[parse] by level:
+         section      7
+         schedule     3
+[db] inserted new legislation row: b548fa4d-7def-4287-b610-8a4e63f9fe43
+[db] inserting 10 sections (pass 1)
+[db] inserted 10 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Seat of Government Acceptance Act 1909
+       legislation_id: b548fa4d-7def-4287-b610-8a4e63f9fe43
+       sections: 10
+       compilation: 1973-12-31

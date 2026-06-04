@@ -1,0 +1,65 @@
+[fetch] document_1: https://www.legislation.gov.au/C2025A00005/2025-02-14/2025-02-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 832,447 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2025A00005/2025-02-14/2025-02-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 832,447 source bytes → 826,435 combined bytes
+[citation] Appropriation Act (No. 4) 2024-2025 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3116
+[parser-unknown-class] "Sched1-Normal", text="Column 1"
+[parser-unknown-class] "Sched1-Normal", text="Column 2"
+[parser-unknown-class] "Sched1-Normal", text="Column 3"
+[parser-unknown-class] "Sched1-Normal", text="Column 4"
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text="Minister"
+[parser-unknown-class] "Sched1-Normal", text="Minister"
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text="determining"
+[parser-unknown-class] "Sched1-Normal", text="determining"
+[parser-unknown-class] "Sched1-Normal", text="Entity"
+[parser-unknown-class] "Sched1-Normal", text="Outcome"
+[parser-unknown-class] "Sched1-Normal", text="conditions"
+[parser-unknown-class] "Sched1-Normal", text="payments"
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text="Department of Education"
+[parser-unknown-class] "Sched1-Normal", text="Improved early learning, schooling, student educational outcomes and transitions to and from scho..."
+[parser-unknown-class] "Sched1-Normal", text="Minister for Education"
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text="Minister for Education"
+[parser-unknown-class] "Sched1-Normal", text=""
+[parser-unknown-class] "Sched1-Normal", text="National Indigenous Australians Agency"
+[parser-unknown-class] "Sched1-Normal", text="Lead the development and implementation of the Australian Government's agenda to support the self..."
+[parser-unknown-class] "Sched1-Normal", text="Minister for Indigenous Australians"
+[parser-unknown-class] "Sched1-Normal", text="Minister for Indigenous Australians"
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 4 February 2025"
+[parser-diag] processed 3116 <p> elements
+[parser-diag] last section was added at element index: 200
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 22
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         4
+         section      16
+         schedule     2
+[db] inserted new legislation row: df8ecd64-8476-4aab-b239-5d3a614dfda6
+[db] inserting 22 sections (pass 1)
+[db] inserted 22 sections
+[db] linking parent FKs (pass 2)
+[db] linked 16 parent references
+
+[done] ingested Appropriation Act (No. 4) 2024-2025
+       legislation_id: df8ecd64-8476-4aab-b239-5d3a614dfda6
+       sections: 22
+       compilation: 2025-02-14

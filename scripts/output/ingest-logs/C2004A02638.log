@@ -1,0 +1,41 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02638/2011-12-27/2011-12-27/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 68,603 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02638/2011-12-27/2011-12-27/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 68,603 source bytes → 67,304 combined bytes
+[citation] Special Prosecutors Act 1982 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 233
+[parser-unknown-class] "ActNotesa", text="(a) The Special Prosecutors Act 1982 was amended by Schedule 4 (item 136) only of the Statute Law..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to subsections (2) and (3), this Act commences on the day on which it receives the Ro..."
+[parser-unknown-class] "ActNotesa", text="(b) The Special Prosecutors Act 1982 was amended by Schedule 1 (item 828) only of the Public Empl..."
+[parser-unknown-class] "ActNotes1", text="(1) In this Act, commencing time means the time when the Public Service Act 1999 commences."
+[parser-unknown-class] "ActNotes1", text="(2) Subject to this section, this Act commences at the commencing time."
+[parser-unknown-class] "TableA0", text="Table A"
+[parser-unknown-class] "TableAHead", text="Application, saving or transitional provisions"
+[parser-unknown-class] "TableAHeadItal", text="Abolition of Compulsory Age Retirement (Statutory Officeholders) Act 2001 (No. 159, 2001)"
+[parser-unknown-class] "ItemHead", text="Schedule 1"
+[parser-unknown-class] "ItemHead", text="97  Application of amendments"
+[parser-unknown-class] "TableAHeadItal", text="Acts Interpretation Amendment Act 2011 (No. 46, 2011)"
+[parser-unknown-class] "ItemHead", text="Schedule 3"
+[parser-unknown-class] "ItemHead", text="10  Saving—appointments"
+[parser-unknown-class] "ItemHead", text="11  Transitional regulations"
+[parser-diag] processed 233 <p> elements
+[parser-diag] last section was added at element index: 126
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 21
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      21
+[db] inserted new legislation row: e6e5d8c6-41ce-4d8a-94cd-4fb0389c17c2
+[db] inserting 21 sections (pass 1)
+[db] inserted 21 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Special Prosecutors Act 1982
+       legislation_id: e6e5d8c6-41ce-4d8a-94cd-4fb0389c17c2
+       sections: 21
+       compilation: 2011-12-27

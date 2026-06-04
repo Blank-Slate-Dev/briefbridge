@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00575/2016-07-01/2016-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 31,346 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00575/2016-07-01/2016-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 31,346 source bytes → 29,536 combined bytes
+[citation] Tradex Duty Imposition (Customs) Act 1999 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 148
+[parser-diag] processed 148 <p> elements
+[parser-diag] last section was added at element index: 50
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 6
+[parse] compilation: date=2016-07-01 no=1
+[parse] by level:
+         section      6
+[db] inserted new legislation row: ffb1b928-aa13-439c-bbc2-8c76e4331902
+[db] inserting 6 sections (pass 1)
+[db] inserted 6 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Tradex Duty Imposition (Customs) Act 1999
+       legislation_id: ffb1b928-aa13-439c-bbc2-8c76e4331902
+       sections: 6
+       compilation: 2016-07-01

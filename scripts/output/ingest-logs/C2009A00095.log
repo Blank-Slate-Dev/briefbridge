@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2009A00095/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 86,714 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2009A00095/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 86,714 source bytes → 84,873 combined bytes
+[citation] Uranium Royalty (Northern Territory) Act 2009 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 388
+[parser-diag] processed 388 <p> elements
+[parser-diag] last section was added at element index: 250
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 22
+[parse] compilation: date=2023-10-18 no=2
+[parse] by level:
+         part         3
+         section      19
+[db] inserted new legislation row: e17dc178-e520-40dd-8a07-5077d8804c9f
+[db] inserting 22 sections (pass 1)
+[db] inserted 22 sections
+[db] linking parent FKs (pass 2)
+[db] linked 19 parent references
+
+[done] ingested Uranium Royalty (Northern Territory) Act 2009
+       legislation_id: e17dc178-e520-40dd-8a07-5077d8804c9f
+       sections: 22
+       compilation: 2023-10-18

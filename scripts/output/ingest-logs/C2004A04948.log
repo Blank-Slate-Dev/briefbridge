@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04948/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 116,595 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04948/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 116,595 source bytes → 114,568 combined bytes
+[citation] Aircraft Noise Levy Collection Act 1995 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 472
+[parser-diag] processed 472 <p> elements
+[parser-diag] last section was added at element index: 259
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 27
+[parse] compilation: date=2024-10-14 no=15
+[parse] by level:
+         part         5
+         section      22
+[db] inserted new legislation row: 77a15a31-90fb-4ee8-9f4a-eea40167b891
+[db] inserting 27 sections (pass 1)
+[db] inserted 27 sections
+[db] linking parent FKs (pass 2)
+[db] linked 22 parent references
+
+[done] ingested Aircraft Noise Levy Collection Act 1995
+       legislation_id: 77a15a31-90fb-4ee8-9f4a-eea40167b891
+       sections: 27
+       compilation: 2024-10-14

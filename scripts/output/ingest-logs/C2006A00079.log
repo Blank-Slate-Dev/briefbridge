@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2006A00079/2006-06-30/2006-06-30/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 7,378 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2006A00079/2006-06-30/2006-06-30/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 7,378 source bytes → 6,444 combined bytes
+[citation] Petroleum Resource Rent Tax (Instalment Transfer Interest Charge Imposition) Act 2006 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 51
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 25 May 2006"
+[parser-unknown-class] "2ndRd", text="Senate on 15 June 2006]"
+[parser-diag] processed 51 <p> elements
+[parser-diag] last section was added at element index: 39
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: e622ed5d-ca4a-4b1a-a272-1bdf276ff751
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Petroleum Resource Rent Tax (Instalment Transfer Interest Charge Imposition) Act 2006
+       legislation_id: e622ed5d-ca4a-4b1a-a272-1bdf276ff751
+       sections: 3
+       compilation: 2006-06-30

@@ -1,0 +1,36 @@
+[fetch] document_1: https://www.legislation.gov.au/C1968A00054/2009-07-01/2009-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 50,195 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1968A00054/2009-07-01/2009-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 50,195 source bytes → 48,795 combined bytes
+[citation] United States Naval Communication Station (Civilian Employees) Act 1968 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 168
+[parser-unknown-class] "ActNotesa", text="(a) The United States Naval Communication Station (Civilian Employees) Act 1971 was repealed by s..."
+[parser-unknown-class] "ActNotesa", text="(b) The United States Naval Communication Station (Civilian Employees) Act 1968 was amended by Sc..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act commences on the day on which it receives the Royal Assent."
+[parser-unknown-class] "ActNotesa", text="(c) Subsection 2(1) (item 30) of the Fair Work (State Referral and Consequential and Other Amendm..."
+[parser-unknown-class] "ActNotes1", text="(1) Each provision of this Act specified in column 1 of the table commences, or is taken to have ..."
+[parser-unknown-class] "ActNotes1", text=""
+[parser-diag] processed 168 <p> elements
+[parser-diag] last section was added at element index: 50
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 7
+[parse] compilation: date=(none) no=(none)
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule—Modifications of Commonwealth Employees’ Compensation Act". Captured as 'schedule' as fallback.
+[parse] by level:
+         section      6
+         schedule     1
+[db] inserted new legislation row: 04316d0d-4a18-4f86-bba4-edf971562f06
+[db] inserting 7 sections (pass 1)
+[db] inserted 7 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested United States Naval Communication Station (Civilian Employees) Act 1968
+       legislation_id: 04316d0d-4a18-4f86-bba4-edf971562f06
+       sections: 7
+       compilation: 2009-07-01

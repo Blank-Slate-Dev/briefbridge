@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04095/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 224,068 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04095/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 224,068 source bytes → 221,955 combined bytes
+[citation] Data-matching Program (Assistance and Tax) Act 1990 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 822
+[parser-diag] processed 822 <p> elements
+[parser-diag] last section was added at element index: 373
+[parse] sections: 21
+[parse] compilation: date=2024-12-11 no=42
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         part         2
+         section      19
+[db] inserted new legislation row: 75da8f95-8b38-42ad-a74f-c9af6d303ac3
+[db] inserting 21 sections (pass 1)
+[db] inserted 21 sections
+[db] linking parent FKs (pass 2)
+[db] linked 19 parent references
+
+[done] ingested Data-matching Program (Assistance and Tax) Act 1990
+       legislation_id: 75da8f95-8b38-42ad-a74f-c9af6d303ac3
+       sections: 21
+       compilation: 2024-12-11

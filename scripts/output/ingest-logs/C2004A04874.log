@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04874/2026-03-28/2026-03-28/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 468,439 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04874/2026-03-28/2026-03-28/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 468,439 source bytes → 465,375 combined bytes
+[citation] International War Crimes Tribunals Act 1995 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1709
+[parser-diag] processed 1709 <p> elements
+[parser-diag] last section was added at element index: 1341
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 148
+[parse] compilation: date=2026-03-28 no=17
+[parse] by level:
+         part         8
+         section      115
+         division     19
+         subdivision  6
+[db] inserted new legislation row: 690eba79-8091-4e86-8b9a-c94a2c8cf900
+[db] inserting 148 sections (pass 1)
+[db] inserted 148 sections
+[db] linking parent FKs (pass 2)
+[db] linked 140 parent references
+
+[done] ingested International War Crimes Tribunals Act 1995
+       legislation_id: 690eba79-8091-4e86-8b9a-c94a2c8cf900
+       sections: 148
+       compilation: 2026-03-28

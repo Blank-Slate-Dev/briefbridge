@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2008A00024/2020-12-18/2020-12-18/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 138,443 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2008A00024/2020-12-18/2020-12-18/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 138,443 source bytes → 136,072 combined bytes
+[citation] Cross-Border Insolvency Act 2008 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 539
+[parser-unknown-class] "Ipar", text="(i) Any relief granted under article 19 or 21 must be consistent with the proceeding in this State;"
+[parser-unknown-class] "Ipar", text="(ii) If the foreign proceeding is recognized in this State as a foreign main proceeding, article ..."
+[parser-unknown-class] "Ipar", text="(i) Any relief in effect under article 19 or 21 shall be reviewed by the court and shall be modif..."
+[parser-unknown-class] "Ipar", text="(ii) If the foreign proceeding is a foreign main proceeding, the stay and suspension referred to ..."
+[parser-diag] processed 539 <p> elements
+[parser-diag] last section was added at element index: 197
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 27
+[parse] compilation: date=2020-12-18 no=7
+[parse] by level:
+         part         4
+         section      22
+         schedule     1
+[db] inserted new legislation row: 0b847a6b-fd82-4d39-8425-ae45039a5cdc
+[db] inserting 27 sections (pass 1)
+[db] inserted 27 sections
+[db] linking parent FKs (pass 2)
+[db] linked 22 parent references
+
+[done] ingested Cross-Border Insolvency Act 2008
+       legislation_id: 0b847a6b-fd82-4d39-8425-ae45039a5cdc
+       sections: 27
+       compilation: 2020-12-18

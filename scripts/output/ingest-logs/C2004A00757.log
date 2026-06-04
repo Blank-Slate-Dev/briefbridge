@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00757/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,119,205 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00757/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,119,205 source bytes → 1,116,843 combined bytes
+[citation] Education Services for Overseas Students Act 2000 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 4417
+[parser-diag] processed 4417 <p> elements
+[parser-diag] last section was added at element index: 2822
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 278
+[parse] compilation: date=2025-12-05 no=45
+[parse] by level:
+         part         10
+         division     34
+         section      216
+         subdivision  18
+[db] inserted new legislation row: e8d48d7b-351e-4d26-8342-182e8d11acfe
+[db] inserting 278 sections (pass 1)
+[db] inserted 278 sections
+[db] linking parent FKs (pass 2)
+[db] linked 268 parent references
+
+[done] ingested Education Services for Overseas Students Act 2000
+       legislation_id: e8d48d7b-351e-4d26-8342-182e8d11acfe
+       sections: 278
+       compilation: 2025-12-05

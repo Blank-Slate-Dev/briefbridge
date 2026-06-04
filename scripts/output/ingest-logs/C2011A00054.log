@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2011A00054/2016-03-05/2016-03-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 50,813 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2011A00054/2016-03-05/2016-03-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 50,813 source bytes → 48,771 combined bytes
+[citation] Australian Transaction Reports and Analysis Centre Industry Contribution Act 2011 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 219
+[parser-diag] processed 219 <p> elements
+[parser-diag] last section was added at element index: 96
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 10
+[parse] compilation: date=2016-03-05 no=2
+[parse] by level:
+         section      10
+[db] inserted new legislation row: 89025b3c-61cb-47f7-b004-666b5b860d2d
+[db] inserting 10 sections (pass 1)
+[db] inserted 10 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Australian Transaction Reports and Analysis Centre Industry Contribution Act 2011
+       legislation_id: 89025b3c-61cb-47f7-b004-666b5b860d2d
+       sections: 10
+       compilation: 2016-03-05

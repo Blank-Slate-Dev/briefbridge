@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04391/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 334,249 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04391/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 334,249 source bytes → 332,027 combined bytes
+[citation] Pooled Development Funds Act 1992 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1175
+[parser-diag] processed 1175 <p> elements
+[parser-diag] last section was added at element index: 796
+[parser-diag] state phase at end: ENDNOTES
+[parse] sections: 75
+[parse] compilation: date=2024-10-14 no=27
+[parse] by level:
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+         part         9
+         section      62
+         division     4
+[db] inserted new legislation row: 4d08caab-49f9-4e90-9efe-633e417d7c17
+[db] inserting 75 sections (pass 1)
+[db] inserted 75 sections
+[db] linking parent FKs (pass 2)
+[db] linked 66 parent references
+
+[done] ingested Pooled Development Funds Act 1992
+       legislation_id: 4d08caab-49f9-4e90-9efe-633e417d7c17
+       sections: 75
+       compilation: 2024-10-14

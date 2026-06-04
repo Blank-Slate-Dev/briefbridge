@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2006A00004/2024-07-06/2024-07-06/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 44,555 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2006A00004/2024-07-06/2024-07-06/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 44,555 source bytes → 42,728 combined bytes
+[citation] Defence (Road Transport Legislation Exemption) Act 2006 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 196
+[parser-diag] processed 196 <p> elements
+[parser-diag] last section was added at element index: 93
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 7
+[parse] compilation: date=2024-07-06 no=1
+[parse] by level:
+         section      7
+[db] inserted new legislation row: dcd4230b-5615-4981-89cd-6793c7a543cf
+[db] inserting 7 sections (pass 1)
+[db] inserted 7 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Defence (Road Transport Legislation Exemption) Act 2006
+       legislation_id: dcd4230b-5615-4981-89cd-6793c7a543cf
+       sections: 7
+       compilation: 2024-07-06

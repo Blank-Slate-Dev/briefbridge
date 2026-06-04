@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2024A00098/2024-11-29/2024-11-29/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 415,145 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2024A00098/2024-11-29/2024-11-29/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 415,145 source bytes → 412,300 combined bytes
+[citation] Cyber Security Act 2024 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1478
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 9 October 2024"
+[parser-unknown-class] "2ndRd", text="Senate on 25 November 2024]"
+[parser-diag] processed 1478 <p> elements
+[parser-diag] last section was added at element index: 1463
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 118
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         7
+         section      88
+         division     23
+[db] inserted new legislation row: 3361a081-f3e6-4da9-8ee2-d063ee2e5169
+[db] inserting 118 sections (pass 1)
+[db] inserted 118 sections
+[db] linking parent FKs (pass 2)
+[db] linked 111 parent references
+
+[done] ingested Cyber Security Act 2024
+       legislation_id: 3361a081-f3e6-4da9-8ee2-d063ee2e5169
+       sections: 118
+       compilation: 2024-11-29

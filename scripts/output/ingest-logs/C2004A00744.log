@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00744/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 461,075 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00744/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 461,075 source bytes → 459,151 combined bytes
+[citation] Fuel Quality Standards Act 2000 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1851
+[parser-diag] processed 1851 <p> elements
+[parser-diag] last section was added at element index: 1390
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 148
+[parse] compilation: date=2024-10-14 no=10
+[parse] by level:
+         part         5
+         section      114
+         division     22
+         subdivision  7
+[db] inserted new legislation row: e91964e8-a054-46ce-b669-e778464145fd
+[db] inserting 148 sections (pass 1)
+[db] inserted 148 sections
+[db] linking parent FKs (pass 2)
+[db] linked 143 parent references
+
+[done] ingested Fuel Quality Standards Act 2000
+       legislation_id: e91964e8-a054-46ce-b669-e778464145fd
+       sections: 148
+       compilation: 2024-10-14

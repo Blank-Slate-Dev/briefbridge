@@ -1,0 +1,38 @@
+[fetch] document_1: https://www.legislation.gov.au/C1918A00043/2025-02-15/2025-02-15/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,173,944 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1918A00043/2025-02-15/2025-02-15/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,173,944 source bytes → 1,169,724 combined bytes
+[citation] Defence Service Homes Act 1918 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 4235
+[parser-unknown-class] "BoxStep", text="Step 1. For each different rate of interest payable, multiply the rate by that part of the limit ..."
+[parser-unknown-class] "BoxNote", text="Note: However, if that limit is nil, see subsection (4)."
+[parser-unknown-class] "BoxStep", text="Step 2. Divide the total by the limit of the advance or amount."
+[parser-unknown-class] "BoxStep", text="Step 3. Express the result as a percentage rate per year and round the rate up or down to 2 decim..."
+[parser-unknown-class] "BoxStep", text="Step 4. If:"
+[parser-unknown-class] "BoxStep", text="the blended interest rate is instead 6.85% per year."
+[parser-unknown-class] "BoxStep", text="Step 5. If:"
+[parser-unknown-class] "BoxStep", text="the blended interest rate is instead 4.5% per year."
+[parser-unknown-class] "BoxNote", text="Note: Steps 4 and 5 are needed because the amortisation of the limit of the advance or amount ove..."
+[parser-diag] processed 4235 <p> elements
+[parser-diag] last section was added at element index: 2493
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 102
+[parse] compilation: date=2025-02-15 no=31
+[parse] by level:
+         part         10
+         section      89
+         schedule     3
+[db] inserted new legislation row: d42dbfc3-4603-4c7d-b475-99691e2d0be7
+[db] inserting 102 sections (pass 1)
+[db] inserted 102 sections
+[db] linking parent FKs (pass 2)
+[db] linked 89 parent references
+
+[done] ingested Defence Service Homes Act 1918
+       legislation_id: d42dbfc3-4603-4c7d-b475-99691e2d0be7
+       sections: 102
+       compilation: 2025-02-15

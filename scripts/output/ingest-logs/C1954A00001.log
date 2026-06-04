@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C1954A00001/2008-07-04/2008-07-04/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 44,841 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1954A00001/2008-07-04/2008-07-04/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 44,841 source bytes → 43,715 combined bytes
+[citation] Flags Act 1953 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 190
+[parser-unknown-class] "ActNotesa", text="(a) This Act was reserved for Her Majesty’s pleasure on 12 December 1953, the Queen’s Assent was ..."
+[parser-diag] processed 190 <p> elements
+[parser-diag] last section was added at element index: 113
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 12
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      8
+         schedule     2
+         division     2
+[db] inserted new legislation row: 818f0ad9-7274-4bb0-92b9-298d81fb838b
+[db] inserting 12 sections (pass 1)
+[db] inserted 12 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Flags Act 1953
+       legislation_id: 818f0ad9-7274-4bb0-92b9-298d81fb838b
+       sections: 12
+       compilation: 2008-07-04

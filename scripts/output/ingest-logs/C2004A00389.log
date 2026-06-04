@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00389/2016-03-10/2016-03-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 201,080 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00389/2016-03-10/2016-03-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 201,080 source bytes → 197,914 combined bytes
+[citation] Anti-Personnel Mines Convention Act 1998 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 866
+[parser-diag] processed 866 <p> elements
+[parser-diag] last section was added at element index: 379
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 40
+[parse] compilation: date=2016-03-10 no=7
+[parse] by level:
+         part         5
+         section      34
+         schedule     1
+[db] inserted new legislation row: b91c7ace-9bdb-43d8-89c1-d7347f04462e
+[db] inserting 40 sections (pass 1)
+[db] inserted 40 sections
+[db] linking parent FKs (pass 2)
+[db] linked 34 parent references
+
+[done] ingested Anti-Personnel Mines Convention Act 1998
+       legislation_id: b91c7ace-9bdb-43d8-89c1-d7347f04462e
+       sections: 40
+       compilation: 2016-03-10

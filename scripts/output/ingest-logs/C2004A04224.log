@@ -1,0 +1,37 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04224/1991-10-21/1991-10-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 112,258 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04224/1991-10-21/1991-10-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 112,258 source bytes → 111,129 combined bytes
+[citation] Export Finance and Insurance Corporation (Transitional Provisions and Consequential Amendments) Act 1991 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 329
+[parser-unknown-class] "Heading9", text="Administrative Decisions (Judicial Review) Act 1977"
+[parser-unknown-class] "ItemHead", text="Schedule 2:"
+[parser-unknown-class] "Heading9", text="Freedom of Information Act 1982"
+[parser-unknown-class] "NewItem", text="Schedule 2 (Part II):"
+[parser-unknown-class] "Heading9", text="Insurance Act 1973"
+[parser-unknown-class] "NewItem", text="Paragraph 5(2)(c):"
+[parser-unknown-class] "Heading9", text="Insurance (Agents and Brokers) Act 1984"
+[parser-unknown-class] "NewItem", text="Section 7:"
+[parser-unknown-class] "Heading9", text="Insurance Contracts Act 1984"
+[parser-unknown-class] "NewItem", text="Paragraph 9(1)(c):"
+[parser-diag] processed 329 <p> elements
+[parser-diag] last section was added at element index: 290
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 4
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      4
+[db] inserted new legislation row: 959489d7-59d0-4c55-9eed-2b72ddc598cb
+[db] inserting 4 sections (pass 1)
+[db] inserted 4 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Export Finance and Insurance Corporation (Transitional Provisions and Consequential Amendments) Act 1991
+       legislation_id: 959489d7-59d0-4c55-9eed-2b72ddc598cb
+       sections: 4
+       compilation: 1991-10-21

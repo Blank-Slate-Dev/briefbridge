@@ -1,0 +1,64 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05128/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 3,505,970 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05128/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 3,505,970 source bytes → 3,458,918 combined bytes
+[citation] Income Tax (Transitional Provisions) Act 1997 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 11896
+[parser-unknown-class] "BoxStep", text="Step 3A. Subtract your tax offsets from your basic income tax liability."
+[parser-unknown-class] "TLPBoxTextnote", text="For the list of tax offsets, see section 13‑1."
+[parser-unknown-class] "BoxStep", text="Step 3B. Add the extra income tax you must pay as mentioned in subsection 4‑11(1) of the Income T..."
+[parser-unknown-class] "BoxStep", text="Step 4. If an amount of your tax offset for foreign income tax under Division 770 remains after a..."
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the total of the taxable components of all the amounts (if any) of transitional ..."
+[parser-unknown-class] "BoxStep", text="Step 2. Work out the total of the taxable components of all the directed termination payments (if..."
+[parser-unknown-class] "BoxStep", text="Step 3. Work out the amount (the cap difference) by which $1,000,000 exceeds the ETP cap for the ..."
+[parser-unknown-class] "BoxStep", text="Step 4. The cap excess is the amount (not less than zero) by which the sum of the amounts in step..."
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the total amount of franking deficit tax that is covered by paragraph (1)(a)."
+[parser-unknown-class] "BoxStep", text="Step 2. Add to the step 1 result the excess that is covered by paragraph (1)(c)."
+[parser-unknown-class] "BoxStep", text="The result is the tax offset to which the entity is entitled under this section for the relevant ..."
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the total amount of franking deficit tax that is covered by paragraph (1)(a) and..."
+[parser-unknown-class] "BoxStep", text="Step 2. Work out the total amount of franking deficit tax that is covered by paragraph (1)(a) and..."
+[parser-unknown-class] "BoxStep", text="Then reduce it by 30% if it exceeds 10% of the total amount of franking credits that arose in the..."
+[parser-unknown-class] "BoxStep", text="Step 3. Work out the total amount of franking deficit tax that is covered by paragraph (1)(a) and..."
+[parser-unknown-class] "BoxStep", text="Then reduce it by 30% if it exceeds 10% of the total amount of franking credits that arose in the..."
+[parser-unknown-class] "BoxStep", text="Step 4. Work out the total amount of franking deficit tax that is covered by paragraph (1)(b) and..."
+[parser-unknown-class] "BoxStep", text="Step 5. Work out the excess that is covered by paragraph (1)(c)."
+[parser-unknown-class] "BoxStep", text="Step 6. Add up the results of steps 1, 2, 3, 4 and 5. The result is the tax offset to which the e..."
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the total amount of franking deficit tax that is covered by paragraph (1)(a) and..."
+[parser-unknown-class] "BoxStep", text="Then reduce it by 30% if it exceeds 10% of the total amount of franking credits that arose in the..."
+[parser-unknown-class] "BoxStep", text="Step 2. Work out the total amount of franking deficit tax that is covered by paragraph (1)(a) and..."
+[parser-unknown-class] "BoxStep", text="Then reduce it by 30% if it exceeds 10% of the total amount of franking credits that arose in the..."
+[parser-unknown-class] "BoxStep", text="Step 3. Work out the total amount of franking deficit tax that is covered by paragraph (1)(b) in ..."
+[parser-unknown-class] "BoxStep", text="Then reduce it by 30% if it exceeds 10% of the total amount of franking credits that arose in the..."
+[parser-unknown-class] "BoxStep", text="Step 4. Work out the total amount of franking deficit tax that is covered by paragraph (1)(b) in ..."
+[parser-unknown-class] "BoxStep", text="Then reduce it by 30% if it exceeds 10% of the total amount of franking credits that arose in the..."
+[parser-unknown-class] "BoxStep", text="Step 5. Add up the results of steps 3 and 4 for all the previous income years covered by paragrap..."
+[parser-unknown-class] "BoxStep", text="Step 6. Work out the excess that is covered by paragraph (1)(c)."
+[parser-unknown-class] "BoxStep", text="Step 7. Add up the results of steps 1, 2, 5 and 6. The result is the tax offset to which the enti..."
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the total amount incurred by the borrower under or in respect of the capital pro..."
+[parser-unknown-class] "BoxStep", text="Step 2. Work out the total interest that would have been incurred for the income year on a borrow..."
+[parser-unknown-class] "BoxStep", text="Step 3. If the step 1 amount exceeds the step 2 amount, the excess is reasonably attributable to ..."
+[parser-diag] processed 11896 <p> elements
+[parser-diag] last section was added at element index: 7640
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 5
+[parse] sections: 853
+[parse] compilation: date=2026-04-01 no=102
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         chapter      6
+         part         26
+         division     125
+         section      548
+         subdivision  148
+[db] inserted new legislation row: 8fcaaec3-0829-4664-a961-77a24480dc9e
+[db] inserting 853 sections (pass 1)
+[db] inserted 853 sections
+[db] linking parent FKs (pass 2)
+[db] linked 847 parent references
+
+[done] ingested Income Tax (Transitional Provisions) Act 1997
+       legislation_id: 8fcaaec3-0829-4664-a961-77a24480dc9e
+       sections: 853
+       compilation: 2026-04-01

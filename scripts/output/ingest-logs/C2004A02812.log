@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02812/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 242,658 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02812/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 242,658 source bytes → 240,093 combined bytes
+[citation] Transfer of Prisoners Act 1983 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 813
+[parser-diag] processed 813 <p> elements
+[parser-diag] last section was added at element index: 555
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 47
+[parse] compilation: date=2024-12-11 no=16
+[parse] by level:
+         part         6
+         section      39
+         division     2
+[db] inserted new legislation row: 685864e1-d36e-4352-8542-de578eab7015
+[db] inserting 47 sections (pass 1)
+[db] inserted 47 sections
+[db] linking parent FKs (pass 2)
+[db] linked 41 parent references
+
+[done] ingested Transfer of Prisoners Act 1983
+       legislation_id: 685864e1-d36e-4352-8542-de578eab7015
+       sections: 47
+       compilation: 2024-12-11

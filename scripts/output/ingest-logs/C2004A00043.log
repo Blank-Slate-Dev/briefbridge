@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00043/2019-02-01/2019-02-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 362,330 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00043/2019-02-01/2019-02-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 362,330 source bytes → 360,082 combined bytes
+[citation] Remuneration Tribunal Act 1973 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1255
+[parser-diag] processed 1255 <p> elements
+[parser-diag] last section was added at element index: 495
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 37
+[parse] compilation: date=2019-02-01 no=61
+[parse] by level:
+         part         3
+         section      30
+         division     4
+[db] inserted new legislation row: 030979a3-9750-4935-9e5f-5fdee0885d39
+[db] inserting 37 sections (pass 1)
+[db] inserted 37 sections
+[db] linking parent FKs (pass 2)
+[db] linked 34 parent references
+
+[done] ingested Remuneration Tribunal Act 1973
+       legislation_id: 030979a3-9750-4935-9e5f-5fdee0885d39
+       sections: 37
+       compilation: 2019-02-01

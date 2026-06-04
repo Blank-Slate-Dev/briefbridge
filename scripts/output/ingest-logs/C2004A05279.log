@@ -1,0 +1,36 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05279/2022-09-28/2022-09-28/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 243,952 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05279/2022-09-28/2022-09-28/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 243,952 source bytes → 241,341 combined bytes
+[citation] Superannuation Contributions Tax (Members of Constitutionally Protected Superannuation Funds) Assessment and Collection Act 1997 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 943
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the amount that would have been the taxed element of the retained amount of the ..."
+[parser-unknown-class] "BoxStep", text="Step 2. Work out the taxed element of the retained amount of the post‑June 83 component of the el..."
+[parser-unknown-class] "BoxStep", text="Step 3. Subtract the result of step 2 from the result of step 1."
+[parser-unknown-class] "BoxStep", text="Step 4. Divide the result of step 3 by 0.85."
+[parser-unknown-class] "BoxStep", text="Step 5. Subtract the result of step 3 from the result of step 4."
+[parser-unknown-class] "BoxStep", text="Step 6. Add the result of step 5 to the excessive component of the eligible termination payment."
+[parser-unknown-class] "BoxStep", text="Step 7. Identify the amount of the surchargeable contributions (apart from subsection (9)) of the..."
+[parser-unknown-class] "BoxStep", text="Step 8. Identify the lesser of the results of steps 6 and 7 (or either result if they are the same)."
+[parser-diag] processed 943 <p> elements
+[parser-diag] last section was added at element index: 497
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 36
+[parse] compilation: date=2022-09-28 no=23
+[parse] by level:
+         part         7
+         section      29
+[db] inserted new legislation row: 142e50bc-f926-4ce1-bf93-dd3a62bdc6db
+[db] inserting 36 sections (pass 1)
+[db] inserted 36 sections
+[db] linking parent FKs (pass 2)
+[db] linked 29 parent references
+
+[done] ingested Superannuation Contributions Tax (Members of Constitutionally Protected Superannuation Funds) Assessment and Collection Act 1997
+       legislation_id: 142e50bc-f926-4ce1-bf93-dd3a62bdc6db
+       sections: 36
+       compilation: 2022-09-28

@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C1961A00065/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 76,089 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1961A00065/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 76,089 source bytes → 74,288 combined bytes
+[citation] Explosives Act 1961 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 330
+[parser-diag] processed 330 <p> elements
+[parser-diag] last section was added at element index: 139
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 25
+[parse] compilation: date=2024-12-11 no=9
+[parse] by level:
+         part         4
+         section      21
+[db] inserted new legislation row: 87ce9f83-1910-47ee-9862-8948a0d52e2d
+[db] inserting 25 sections (pass 1)
+[db] inserted 25 sections
+[db] linking parent FKs (pass 2)
+[db] linked 21 parent references
+
+[done] ingested Explosives Act 1961
+       legislation_id: 87ce9f83-1910-47ee-9862-8948a0d52e2d
+       sections: 25
+       compilation: 2024-12-11

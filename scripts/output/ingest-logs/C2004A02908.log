@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02908/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,172,302 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02908/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,172,302 source bytes → 1,167,447 combined bytes
+[citation] Referendum (Machinery Provisions) Act 1984 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 4190
+[parser-diag] processed 4190 <p> elements
+[parser-diag] last section was added at element index: 2843
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 252
+[parse] compilation: date=2025-02-21 no=39
+[parse] by level:
+         part         13
+         section      218
+         division     14
+         subdivision  3
+         schedule     4
+[db] inserted new legislation row: 64047503-4820-4959-b825-47128ff3dc41
+[db] inserting 252 sections (pass 1)
+[db] inserted 252 sections
+[db] linking parent FKs (pass 2)
+[db] linked 235 parent references
+
+[done] ingested Referendum (Machinery Provisions) Act 1984
+       legislation_id: 64047503-4820-4959-b825-47128ff3dc41
+       sections: 252
+       compilation: 2025-02-21

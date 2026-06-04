@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2010A00031/2011-06-27/2011-06-27/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 27,868 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2010A00031/2011-06-27/2011-06-27/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 27,868 source bytes → 26,588 combined bytes
+[citation] Midwife Professional Indemnity (Run-off Cover Support Payment) Act 2010 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 110
+[parser-unknown-class] "TableA0", text="Table A"
+[parser-unknown-class] "TableAHead", text="Application, saving or transitional provisions"
+[parser-unknown-class] "TableAHeadItal", text="Midwife Professional Indemnity Legislation Amendment Act 2011(No. 47, 2011)"
+[parser-unknown-class] "ItemHead", text="Schedule 1"
+[parser-unknown-class] "ItemHead", text="4  Application of amendment made by item 3"
+[parser-diag] processed 110 <p> elements
+[parser-diag] last section was added at element index: 73
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 9
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      9
+[db] inserted new legislation row: b2993d2e-fb88-4f97-ba65-1ca6fa036253
+[db] inserting 9 sections (pass 1)
+[db] inserted 9 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Midwife Professional Indemnity (Run-off Cover Support Payment) Act 2010
+       legislation_id: b2993d2e-fb88-4f97-ba65-1ca6fa036253
+       sections: 9
+       compilation: 2011-06-27

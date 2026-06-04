@@ -1,0 +1,36 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00800/2001-04-28/2001-04-28/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 19,893 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00800/2001-04-28/2001-04-28/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 19,893 source bytes → 18,953 combined bytes
+[citation] Coal Industry Repeal Act 2001 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 94
+[parser-unknown-class] "indenta", text="(a) make provision for the transfer of the assets, rights and liabilities of the Joint Coal Board..."
+[parser-unknown-class] "indenta", text="(b) make provision for the transfer of the members of staff of the Joint Coal Board immediately b..."
+[parser-unknown-class] "indenta", text="(c) make provision for any other matter that is incidental to the dissolution of the Joint Coal B..."
+[parser-unknown-class] "indenta", text="(a) the Coal Industry Act 1946; and"
+[parser-unknown-class] "indenta", text="(b) the Coal Industry Act 1946 of New South Wales."
+[parser-unknown-class] "indenta", text="(a) apart from this section, the operation of this Act would result in the acquisition of propert..."
+[parser-unknown-class] "indenta", text="(b) the acquisition would be invalid because of paragraph 51(xxxi) of the Constitution;"
+[parser-unknown-class] "ActHead6", text="Schedule 1—Coal Industry Act 1946"
+[parser-unknown-class] "ItemHead", text="1  The whole of the Act"
+[parser-diag] processed 94 <p> elements
+[parser-diag] last section was added at element index: 68
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 7
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      7
+[db] inserted new legislation row: 559c4332-3592-4fe4-9a6d-9cbd39a5fb39
+[db] inserting 7 sections (pass 1)
+[db] inserted 7 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Coal Industry Repeal Act 2001
+       legislation_id: 559c4332-3592-4fe4-9a6d-9cbd39a5fb39
+       sections: 7
+       compilation: 2001-04-28

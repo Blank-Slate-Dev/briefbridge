@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2025A00066/2025-12-01/2025-12-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 20,556 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2025A00066/2025-12-01/2025-12-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 20,556 source bytes → 17,851 combined bytes
+[citation] Environment Protection and Biodiversity Conservation (General Charges Imposition) Act 2025 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 98
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 30 October 2025"
+[parser-unknown-class] "2ndRd", text="Senate on 24 November 2025]"
+[parser-diag] processed 98 <p> elements
+[parser-diag] last section was added at element index: 84
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 10
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      10
+[db] inserted new legislation row: 40c92592-c118-4f00-a847-fda14dc7a41a
+[db] inserting 10 sections (pass 1)
+[db] inserted 10 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Environment Protection and Biodiversity Conservation (General Charges Imposition) Act 2025
+       legislation_id: 40c92592-c118-4f00-a847-fda14dc7a41a
+       sections: 10
+       compilation: 2025-12-01

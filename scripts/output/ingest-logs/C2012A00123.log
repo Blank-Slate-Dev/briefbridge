@@ -1,0 +1,37 @@
+[fetch] document_1: https://www.legislation.gov.au/C2012A00123/2012-09-12/2012-09-12/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 19,116 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2012A00123/2012-09-12/2012-09-12/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 19,116 source bytes → 17,224 combined bytes
+[citation] Health Insurance Amendment (Extended Medicare Safety Net) Act 2012 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 98
+[parser-unknown-class] "ActHead6", text="Schedule 1—Amendments"
+[parser-unknown-class] "ActHead9", text="Health Insurance Act 1973"
+[parser-unknown-class] "ItemHead", text="1  After subsection 10ACA(7A)"
+[parser-unknown-class] "ItemHead", text="2  After subsection 10ADA(8A)"
+[parser-unknown-class] "ItemHead", text="3  Subsection 10AE(1)"
+[parser-unknown-class] "ItemHead", text="4  Application provision"
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 27 June 2012"
+[parser-unknown-class] "2ndRd", text="Senate on 20 August 2012]"
+[parser-diag] processed 98 <p> elements
+[parser-diag] last section was added at element index: 64
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: b4c80578-ef8d-452c-9e80-60351ccc1820
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Health Insurance Amendment (Extended Medicare Safety Net) Act 2012
+       legislation_id: b4c80578-ef8d-452c-9e80-60351ccc1820
+       sections: 3
+       compilation: 2012-09-12

@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C1967A00103/1967-11-10/1967-11-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 9,213 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1967A00103/1967-11-10/1967-11-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 9,213 source bytes → 8,171 combined bytes
+[citation] Nauru Independence Act 1967 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 51
+[parser-diag] processed 51 <p> elements
+[parser-diag] last section was added at element index: 44
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 4
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      4
+[db] inserted new legislation row: c89ef9bd-09f8-463a-b5e0-ae50d38da305
+[db] inserting 4 sections (pass 1)
+[db] inserted 4 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Nauru Independence Act 1967
+       legislation_id: c89ef9bd-09f8-463a-b5e0-ae50d38da305
+       sections: 4
+       compilation: 1967-11-10

@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C1969A00060/2016-07-01/2016-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 102,691 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1969A00060/2016-07-01/2016-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 102,691 source bytes → 100,474 combined bytes
+[citation] Defence (Parliamentary Candidates) Act 1969 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 390
+[parser-diag] processed 390 <p> elements
+[parser-diag] last section was added at element index: 182
+[parse] sections: 22
+[parse] compilation: date=2016-07-01 no=9
+[parse] by level:
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+         part         4
+         section      18
+[db] inserted new legislation row: f361af61-9393-46f8-9d88-8cfc0f097b4e
+[db] inserting 22 sections (pass 1)
+[db] inserted 22 sections
+[db] linking parent FKs (pass 2)
+[db] linked 18 parent references
+
+[done] ingested Defence (Parliamentary Candidates) Act 1969
+       legislation_id: f361af61-9393-46f8-9d88-8cfc0f097b4e
+       sections: 22
+       compilation: 2016-07-01

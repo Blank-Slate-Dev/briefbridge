@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2023A00045/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 132,569 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2023A00045/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 132,569 source bytes → 129,259 combined bytes
+[citation] Financial Services Compensation Scheme of Last Resort Levy (Collection) Act 2023 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 507
+[parser-diag] processed 507 <p> elements
+[parser-diag] last section was added at element index: 397
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 35
+[parse] compilation: date=2025-02-21 no=2
+[parse] by level:
+         part         4
+         section      31
+[db] inserted new legislation row: 1f83e07c-fec0-4fdb-adad-d05122a6db21
+[db] inserting 35 sections (pass 1)
+[db] inserted 35 sections
+[db] linking parent FKs (pass 2)
+[db] linked 31 parent references
+
+[done] ingested Financial Services Compensation Scheme of Last Resort Levy (Collection) Act 2023
+       legislation_id: 1f83e07c-fec0-4fdb-adad-d05122a6db21
+       sections: 35
+       compilation: 2025-02-21

@@ -1,0 +1,40 @@
+[fetch] document_1: https://www.legislation.gov.au/C2011A00172/2011-12-05/2011-12-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 19,435 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2011A00172/2011-12-05/2011-12-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 19,435 source bytes → 18,181 combined bytes
+[citation] Business Names Registration (Application of Consequential Amendments) Act 2011 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 95
+[parser-unknown-class] "ActHead6", text="Schedule 1—Application of consequential amendments"
+[parser-unknown-class] "ItemHead", text="1  Application of amendment to the A New Tax System (Australian Business Number) Act 1999"
+[parser-unknown-class] "ItemHead", text="2  Application of amendments to the ANL Act 1956 and the Bank Integration Act 1991"
+[parser-unknown-class] "ItemHead", text="3  Application of amendments to the Corporations (Aboriginal and Torres Strait Islander) Act 2006"
+[parser-unknown-class] "ItemHead", text="4  Application of amendments to the Corporations Act 2001"
+[parser-unknown-class] "Subitem", text="(1) The amendments made by items 15, 16, 17 and 19 of Schedule 2 to the Business Names Registrati..."
+[parser-unknown-class] "Subitem", text="(2) The amendments made by items 18 and 20 of Schedule 2 to the Business Names Registration Conse..."
+[parser-unknown-class] "ItemHead", text="5  Application of amendments to the Financial Transaction Reports Act 1988"
+[parser-unknown-class] "ItemHead", text="6  Application of amendments to the Defence Service Homes Act 1918, the Olympic Insignia Protecti..."
+[parser-unknown-class] "ItemHead", text="7  Application of amendment to the Qantas Sale Act 1992"
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="Senate on 3 November 2011"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 23 November 2011]"
+[parser-diag] processed 95 <p> elements
+[parser-diag] last section was added at element index: 61
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 4
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      4
+[db] inserted new legislation row: 0858b9b1-ec1f-4133-8906-8124528cddda
+[db] inserting 4 sections (pass 1)
+[db] inserted 4 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Business Names Registration (Application of Consequential Amendments) Act 2011
+       legislation_id: 0858b9b1-ec1f-4133-8906-8124528cddda
+       sections: 4
+       compilation: 2011-12-05

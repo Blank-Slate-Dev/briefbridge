@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2020A00037/2021-08-11/2021-08-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 106,499 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2020A00037/2021-08-11/2021-08-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 106,499 source bytes → 104,360 combined bytes
+[citation] Coronavirus Economic Response Package (Payments and Benefits) Act 2020 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 418
+[parser-diag] processed 418 <p> elements
+[parser-diag] last section was added at element index: 300
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 21
+[parse] compilation: date=2021-08-11 no=3
+[parse] by level:
+         section      21
+[db] inserted new legislation row: 39582f97-aabf-45e0-8a7a-6d473a51ad1d
+[db] inserting 21 sections (pass 1)
+[db] inserted 21 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Coronavirus Economic Response Package (Payments and Benefits) Act 2020
+       legislation_id: 39582f97-aabf-45e0-8a7a-6d473a51ad1d
+       sections: 21
+       compilation: 2021-08-11

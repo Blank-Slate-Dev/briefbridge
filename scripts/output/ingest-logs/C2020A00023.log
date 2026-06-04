@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2020A00023/2020-06-20/2020-06-20/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 105,024 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2020A00023/2020-06-20/2020-06-20/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 105,024 source bytes → 102,811 combined bytes
+[citation] Boosting Cash Flow for Employers (Coronavirus Economic Response Package) Act 2020 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 382
+[parser-diag] processed 382 <p> elements
+[parser-diag] last section was added at element index: 268
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 13
+[parse] compilation: date=2020-06-20 no=2
+[parse] by level:
+         section      13
+[db] inserted new legislation row: 3b73e780-2d26-481f-9373-d6d5cb360e12
+[db] inserting 13 sections (pass 1)
+[db] inserted 13 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Boosting Cash Flow for Employers (Coronavirus Economic Response Package) Act 2020
+       legislation_id: 3b73e780-2d26-481f-9373-d6d5cb360e12
+       sections: 13
+       compilation: 2020-06-20

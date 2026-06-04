@@ -1,0 +1,37 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00006/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,065,526 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00006/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,065,526 source bytes → 1,060,964 combined bytes
+[citation] Defence Force Retirement and Death Benefits Act 1973 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3588
+[parser-unknown-class] "BoxStep", text="Step 1. Work out the prescribed percentage for the prescribed half‑year."
+[parser-unknown-class] "BoxStep", text="Step 2. Use section 98GD to work out the LCI percentage for the prescribed half‑year."
+[parser-unknown-class] "BoxStep", text="Step 3. Take the higher of the percentages worked out in steps 1 and 2. (If they are the same, us..."
+[parser-unknown-class] "BoxStep", text="Step 4. Take the indicative pension amount for the prescribed half‑year immediately before the re..."
+[parser-unknown-class] "BoxStep", text="Step 5. Work out the amount that is the CPI/LCI percentage of the current indicative pension amou..."
+[parser-unknown-class] "BoxStep", text="Step 6. Use section 98GE to work out the MTAWE result."
+[parser-unknown-class] "BoxStep", text="Step 7. If the CPI/LCI result is the same as or higher than the MTAWE result, the 55‑plus percent..."
+[parser-diag] processed 3588 <p> elements
+[parser-diag] last section was added at element index: 2320
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 202
+[parse] compilation: date=2026-04-01 no=48
+[parse] by level:
+         part         16
+         section      165
+         division     18
+         schedule     3
+[db] inserted new legislation row: eff4e890-c80d-420f-ae05-bfd7e205555d
+[db] inserting 202 sections (pass 1)
+[db] inserted 202 sections
+[db] linking parent FKs (pass 2)
+[db] linked 183 parent references
+
+[done] ingested Defence Force Retirement and Death Benefits Act 1973
+       legislation_id: eff4e890-c80d-420f-ae05-bfd7e205555d
+       sections: 202
+       compilation: 2026-04-01

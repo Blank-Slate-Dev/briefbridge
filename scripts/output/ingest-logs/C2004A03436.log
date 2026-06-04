@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03436/2023-11-18/2023-11-18/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 364,548 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03436/2023-11-18/2023-11-18/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 364,548 source bytes → 362,210 combined bytes
+[citation] Olympic Insignia Protection Act 1987 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1432
+[parser-diag] processed 1432 <p> elements
+[parser-diag] last section was added at element index: 951
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 104
+[parse] compilation: date=2023-11-18 no=20
+[parse] by level:
+         chapter      4
+         part         12
+         section      82
+         division     5
+         schedule     1
+[db] inserted new legislation row: 7fafdc62-be0b-4b38-b420-62dbf2b186df
+[db] inserting 104 sections (pass 1)
+[db] inserted 104 sections
+[db] linking parent FKs (pass 2)
+[db] linked 99 parent references
+
+[done] ingested Olympic Insignia Protection Act 1987
+       legislation_id: 7fafdc62-be0b-4b38-b420-62dbf2b186df
+       sections: 104
+       compilation: 2023-11-18

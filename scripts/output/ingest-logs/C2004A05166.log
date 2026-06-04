@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05166/2009-09-18/2009-09-18/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 22,086 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05166/2009-09-18/2009-09-18/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 22,086 source bytes → 21,088 combined bytes
+[citation] Superannuation Contributions Tax (Application to the Commonwealth) Act 1997 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 82
+[parser-unknown-class] "ActNotesa", text="(a) The Superannuation Contributions Tax (Application to the Commonwealth) Act 1997 was amended b..."
+[parser-unknown-class] "ActNotes1", text="(2) Schedule 3 is taken to have commenced on 5 June 1997, immediately after the commencement of t..."
+[parser-diag] processed 82 <p> elements
+[parser-diag] last section was added at element index: 42
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 7
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      7
+[db] inserted new legislation row: 6824f7af-2647-4215-ab11-f176c5715bba
+[db] inserting 7 sections (pass 1)
+[db] inserted 7 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Superannuation Contributions Tax (Application to the Commonwealth) Act 1997
+       legislation_id: 6824f7af-2647-4215-ab11-f176c5715bba
+       sections: 7
+       compilation: 2009-09-18

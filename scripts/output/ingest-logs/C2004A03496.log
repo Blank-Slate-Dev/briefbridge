@@ -1,0 +1,54 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03496/2018-05-11/2018-05-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 737,091 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03496/2018-05-11/2018-05-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 737,091 source bytes → 734,974 combined bytes
+[citation] Proceeds of Crime Act 1987 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2482
+[parser-unknown-class] "indentA", text="(A) the person cannot be found; or"
+[parser-unknown-class] "indentA", text="(B) the person is, for any other reason, not amenable to justice and, if the person is outside Au..."
+[parser-unknown-class] "indentA", text="(A) the person is, by reason of being outside Australia, not amenable to justice; and"
+[parser-unknown-class] "indentA", text="(B) extradition proceedings are on foot;"
+[parser-unknown-class] "indentA", text="(A) for sufficient consideration; and"
+[parser-unknown-class] "indentA", text="(B) without knowing, and in circumstances such as not to arouse a reasonable suspicion, that the ..."
+[parser-unknown-class] "indentA", text="(A) the property is subject to the effective control of the defendant; and"
+[parser-unknown-class] "indentA", text="(B) the defendant derived a benefit, directly or indirectly, from the commission of the offence; and"
+[parser-unknown-class] "indentA", text="(A) the liabilities of the owner; or"
+[parser-unknown-class] "indentA", text="(B) the exercise of the powers, or the performance of the duties, of the Official Trustee;"
+[parser-unknown-class] "indentA", text="(A) a pecuniary penalty order cannot be made against the defendant; or"
+[parser-unknown-class] "indentA", text="(B) the applicant’s interest in the property is not subject to the effective control of the defen..."
+[parser-unknown-class] "indentA", text="(A) for sufficient consideration; and"
+[parser-unknown-class] "indentA", text="(B) without knowing, and in circumstances such as not to arouse a reasonable suspicion, that the ..."
+[parser-unknown-class] "indentA", text="(A) subject to a forfeiture order;"
+[parser-unknown-class] "indentA", text="(B) subject to section 30; or"
+[parser-unknown-class] "indentA", text="(C) required to satisfy a pecuniary penalty order."
+[parser-unknown-class] "indentA", text="(A) no application for another confiscation order made in reliance on the person’s conviction of ..."
+[parser-unknown-class] "indentA", text="(B) no other confiscation order made in reliance on the person’s conviction of the offence or a r..."
+[parser-unknown-class] "indentA", text="(A) no application for another confiscation order made in reliance on the person’s conviction of ..."
+[parser-unknown-class] "indentA", text="(B) no other confiscation order made in reliance on the person’s conviction of the offence or a r..."
+[parser-unknown-class] "indentA", text="(A) against which the restraining order was made by virtue of subparagraph 44(7)(a)(ii) or (7A)(a..."
+[parser-unknown-class] "indentA", text="(B) in relation to which an order under subsection 28(3) has been, or is likely to be, made;"
+[parser-unknown-class] "indentA", text="(A) for sufficient consideration; and"
+[parser-unknown-class] "indentA", text="(B) without knowing, and in circumstances such as not to arouse a reasonable suspicion, that the ..."
+[parser-diag] processed 2482 <p> elements
+[parser-diag] last section was added at element index: 1943
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 131
+[parse] compilation: date=2018-05-11 no=33
+[parse] by level:
+         part         8
+         section      108
+         division     15
+[db] inserted new legislation row: c497f18c-21ed-4e00-a333-fdc72d0b5e0e
+[db] inserting 131 sections (pass 1)
+[db] inserted 131 sections
+[db] linking parent FKs (pass 2)
+[db] linked 123 parent references
+
+[done] ingested Proceeds of Crime Act 1987
+       legislation_id: c497f18c-21ed-4e00-a333-fdc72d0b5e0e
+       sections: 131
+       compilation: 2018-05-11

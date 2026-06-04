@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2020A00142/2020-12-17/2020-12-17/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 18,642 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2020A00142/2020-12-17/2020-12-17/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 18,642 source bytes → 17,186 combined bytes
+[citation] Civil Aviation (Unmanned Aircraft Levy) Act 2020 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 104
+[parser-unknown-class] "2ndRd", text=""
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 27 August 2020"
+[parser-unknown-class] "2ndRd", text="Senate on 8 December 2020]"
+[parser-diag] processed 104 <p> elements
+[parser-diag] last section was added at element index: 89
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 11
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         3
+         section      8
+[db] inserted new legislation row: 3772280c-75c7-4f10-8072-370e5f18e68b
+[db] inserting 11 sections (pass 1)
+[db] inserted 11 sections
+[db] linking parent FKs (pass 2)
+[db] linked 8 parent references
+
+[done] ingested Civil Aviation (Unmanned Aircraft Levy) Act 2020
+       legislation_id: 3772280c-75c7-4f10-8072-370e5f18e68b
+       sections: 11
+       compilation: 2020-12-17

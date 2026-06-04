@@ -1,0 +1,34 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04465/2025-07-01/2025-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 2,351,526 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04465/2025-07-01/2025-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 2,351,526 source bytes → 2,346,667 combined bytes
+[citation] Radiocommunications Act 1992 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 8880
+[parser-diag] processed 8880 <p> elements
+[parser-diag] last section was added at element index: 6564
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] sections: 557
+[parse] compilation: date=2025-07-01 no=82
+[parse] by level:
+         chapter      6
+         part         26
+         section      432
+         division     49
+         subdivision  27
+         schedule     1
+         schedule_part 2
+         schedule_clause 14
+[db] inserted new legislation row: d65f7039-277d-4447-9e9e-67c7337e3e52
+[db] inserting 557 sections (pass 1)
+[db] inserted 557 sections
+[db] linking parent FKs (pass 2)
+[db] linked 550 parent references
+
+[done] ingested Radiocommunications Act 1992
+       legislation_id: d65f7039-277d-4447-9e9e-67c7337e3e52
+       sections: 557
+       compilation: 2025-07-01

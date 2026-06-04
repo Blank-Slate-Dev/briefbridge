@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2023A00067/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 489,607 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2023A00067/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 489,607 source bytes → 486,317 combined bytes
+[citation] Financial Accountability Regime Act 2023 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1850
+[parser-diag] processed 1850 <p> elements
+[parser-diag] last section was added at element index: 1718
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: false
+[parse] sections: 141
+[parse] compilation: date=2025-02-21 no=2
+[parse] by level:
+         chapter      3
+         part         14
+         section      105
+         division     15
+         subdivision  4
+[db] inserted new legislation row: aa884b94-9ef4-4ff5-8503-2f6e38c5d202
+[db] inserting 141 sections (pass 1)
+[db] inserted 141 sections
+[db] linking parent FKs (pass 2)
+[db] linked 138 parent references
+
+[done] ingested Financial Accountability Regime Act 2023
+       legislation_id: aa884b94-9ef4-4ff5-8503-2f6e38c5d202
+       sections: 141
+       compilation: 2025-02-21

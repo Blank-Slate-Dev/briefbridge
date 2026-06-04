@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01621/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 249,480 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01621/2023-10-18/2023-10-18/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 249,480 source bytes → 246,946 combined bytes
+[citation] Long Service Leave (Commonwealth Employees) Act 1976 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 800
+[parser-diag] processed 800 <p> elements
+[parser-diag] last section was added at element index: 448
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 26
+[parse] compilation: date=2023-10-18 no=21
+[parse] by level:
+         section      26
+[db] inserted new legislation row: d4591c53-5650-4189-89f9-792816634352
+[db] inserting 26 sections (pass 1)
+[db] inserted 26 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Long Service Leave (Commonwealth Employees) Act 1976
+       legislation_id: d4591c53-5650-4189-89f9-792816634352
+       sections: 26
+       compilation: 2023-10-18

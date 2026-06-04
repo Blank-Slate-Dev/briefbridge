@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04980/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 353,953 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04980/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 353,953 source bytes → 351,982 combined bytes
+[citation] Health and Other Services (Compensation) Act 1995 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1230
+[parser-diag] processed 1230 <p> elements
+[parser-diag] last section was added at element index: 855
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 72
+[parse] compilation: date=2025-11-01 no=24
+[parse] by level:
+         part         5
+         section      59
+         division     8
+[db] inserted new legislation row: 968fde7b-feab-40b0-92a1-88ef791fd939
+[db] inserting 72 sections (pass 1)
+[db] inserted 72 sections
+[db] linking parent FKs (pass 2)
+[db] linked 67 parent references
+
+[done] ingested Health and Other Services (Compensation) Act 1995
+       legislation_id: 968fde7b-feab-40b0-92a1-88ef791fd939
+       sections: 72
+       compilation: 2025-11-01

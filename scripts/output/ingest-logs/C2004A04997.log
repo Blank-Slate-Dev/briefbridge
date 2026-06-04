@@ -1,0 +1,45 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04997/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 968,902 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04997/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2: 1,400,557 bytes
+[fetch] document_3: https://www.legislation.gov.au/C2004A04997/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_3/document_3.html
+[fetch] document_3: 1,354,758 bytes
+[fetch] document_4: https://www.legislation.gov.au/C2004A04997/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_4/document_4.html
+[fetch] document_4: 943,866 bytes
+[fetch] document_5: https://www.legislation.gov.au/C2004A04997/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_5/document_5.html
+[fetch] document_5: 1,922,426 bytes
+[fetch] document_6: https://www.legislation.gov.au/C2004A04997/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_6/document_6.html
+[fetch] document_6: 4,273,355 bytes
+[fetch] document_7: https://www.legislation.gov.au/C2004A04997/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_7/document_7.html
+[fetch] document_7: 5,248,682 bytes
+[fetch] document_8: https://www.legislation.gov.au/C2004A04997/2026-04-01/2026-04-01/text/original/epub/OEBPS/document_8/document_8.html
+[fetch] document_8 not found — stopping. Fetched 7 document(s).
+[fetch] combined 7 document(s), 16,112,546 source bytes → 15,978,934 combined bytes
+[citation] Customs Tariff Act 1995 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 85156
+[parser-diag] processed 85156 <p> elements
+[parser-diag] last section was added at element index: 58802
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 399
+[parse] compilation: date=2026-04-01 no=98
+[parse] by level:
+         part         3
+         section      57
+         schedule     21
+         schedule_part 23
+         schedule_clause 166
+         division     96
+         subdivision  33
+[db] inserted new legislation row: 16b96aa5-a850-4b4b-815a-2734fb48a47d
+[db] inserting 399 sections (pass 1)
+[db] inserted 399 sections
+[db] linking parent FKs (pass 2)
+[db] linked 375 parent references
+
+[done] ingested Customs Tariff Act 1995
+       legislation_id: 16b96aa5-a850-4b4b-815a-2734fb48a47d
+       sections: 399
+       compilation: 2026-04-01

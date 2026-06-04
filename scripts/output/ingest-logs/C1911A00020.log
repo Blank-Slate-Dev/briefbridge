@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C1911A00020/2023-10-20/2023-10-20/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 260,538 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1911A00020/2023-10-20/2023-10-20/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 260,538 source bytes → 258,540 combined bytes
+[citation] Commonwealth Inscribed Stock Act 1911 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1070
+[parser-diag] processed 1070 <p> elements
+[parser-diag] last section was added at element index: 402
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 64
+[parse] compilation: date=2023-10-20 no=21
+[parse] by level:
+         part         7
+         section      53
+         division     4
+[db] inserted new legislation row: f52a62c9-2a45-4c6a-9d77-1b743979ef88
+[db] inserting 64 sections (pass 1)
+[db] inserted 64 sections
+[db] linking parent FKs (pass 2)
+[db] linked 57 parent references
+
+[done] ingested Commonwealth Inscribed Stock Act 1911
+       legislation_id: f52a62c9-2a45-4c6a-9d77-1b743979ef88
+       sections: 64
+       compilation: 2023-10-20

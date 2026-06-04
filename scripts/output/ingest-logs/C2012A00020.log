@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2012A00020/2012-03-29/2012-03-29/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 9,637 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2012A00020/2012-03-29/2012-03-29/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 9,637 source bytes → 7,757 combined bytes
+[citation] Petroleum Resource Rent Tax (Imposition—Excise) Act 2012 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 58
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 2 November 2011"
+[parser-unknown-class] "2ndRd", text="Senate on 7 February 2012]"
+[parser-diag] processed 58 <p> elements
+[parser-diag] last section was added at element index: 50
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 6
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      6
+[db] inserted new legislation row: 3e745160-3e31-4225-b415-7e9965089e5f
+[db] inserting 6 sections (pass 1)
+[db] inserted 6 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Petroleum Resource Rent Tax (Imposition—Excise) Act 2012
+       legislation_id: 3e745160-3e31-4225-b415-7e9965089e5f
+       sections: 6
+       compilation: 2012-03-29

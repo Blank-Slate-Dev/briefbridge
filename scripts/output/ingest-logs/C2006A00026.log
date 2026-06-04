@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2006A00026/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 157,107 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2006A00026/2025-11-01/2025-11-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 157,107 source bytes → 155,203 combined bytes
+[citation] Aged Care (Accommodation Payment Security) Act 2006 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 629
+[parser-diag] processed 629 <p> elements
+[parser-diag] last section was added at element index: 343
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 32
+[parse] compilation: date=2025-11-01 no=11
+[parse] by level:
+         part         8
+         section      24
+[db] inserted new legislation row: 45036525-209e-438a-b3af-53dad045b52d
+[db] inserting 32 sections (pass 1)
+[db] inserted 32 sections
+[db] linking parent FKs (pass 2)
+[db] linked 24 parent references
+
+[done] ingested Aged Care (Accommodation Payment Security) Act 2006
+       legislation_id: 45036525-209e-438a-b3af-53dad045b52d
+       sections: 32
+       compilation: 2025-11-01

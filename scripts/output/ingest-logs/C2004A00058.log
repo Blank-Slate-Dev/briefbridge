@@ -1,0 +1,37 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00058/2026-03-20/2026-03-20/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,438,552 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00058/2026-03-20/2026-03-20/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,438,552 source bytes → 1,435,620 combined bytes
+[citation] Student Assistance Act 1973 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 5904
+[parser-unknown-class] "BoxStep", text="Step 1. Take the person’s accumulated ABSTUDY SSL debt for the immediately preceding financial ye..."
+[parser-unknown-class] "BoxStep", text="Step 2. Add the sum of all of the ABSTUDY SSL debts (if any) that the person incurred during the ..."
+[parser-unknown-class] "BoxStep", text="Step 3. Subtract the sum of the amounts by which the person’s debts referred to in steps 1 and 2 ..."
+[parser-unknown-class] "BoxStep", text="Step 4. Subtract the sum of all of the person’s compulsory ABSTUDY SSL repayment amounts that:"
+[parser-unknown-class] "BoxStep", text="Step 5. Subtract the sum of the amounts by which any compulsory ABSTUDY SSL repayment amount of t..."
+[parser-unknown-class] "BoxStep", text="Step 6. Add the sum of the amounts by which any compulsory ABSTUDY SSL repayment amount of the pe..."
+[parser-unknown-class] "BoxStep", text="Step 7. Reduce the amount worked out under step 6 by 20%."
+[parser-diag] processed 5904 <p> elements
+[parser-diag] last section was added at element index: 2468
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: false
+[parse] sections: 278
+[parse] compilation: date=2026-03-20 no=69
+[parse] by level:
+         part         7
+         section      227
+         division     25
+         subdivision  19
+[db] inserted new legislation row: 947b27e4-c937-4ad1-932b-c35f71ca7401
+[db] inserting 278 sections (pass 1)
+[db] inserted 278 sections
+[db] linking parent FKs (pass 2)
+[db] linked 271 parent references
+
+[done] ingested Student Assistance Act 1973
+       legislation_id: 947b27e4-c937-4ad1-932b-c35f71ca7401
+       sections: 278
+       compilation: 2026-03-20

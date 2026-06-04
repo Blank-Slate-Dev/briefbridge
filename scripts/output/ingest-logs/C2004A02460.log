@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A02460/1994-02-25/1994-02-25/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 26,939 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A02460/1994-02-25/1994-02-25/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 26,939 source bytes → 25,856 combined bytes
+[citation] Offshore Minerals (Exploration Licence Fees) Act 1981 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 97
+[parser-unknown-class] "ActNotesa", text="(a) The Offshore Minerals (Exploration Licence Fees) Act 1981 was amended by the Offshore Mineral..."
+[parser-unknown-class] "ActNotesa", text="2. This Act commences immediately after the Offshore Minerals Act 1994 commences."
+[parser-unknown-class] "ActNotes1", text="The Offshore Minerals Act 1994 came into operation on 25 February 1994."
+[parser-diag] processed 97 <p> elements
+[parser-diag] last section was added at element index: 54
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parse] sections: 9
+[parse] compilation: date=(none) no=(none)
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         section      9
+[db] inserted new legislation row: 317c7db1-b0a2-4f5d-94c3-dadda6813831
+[db] inserting 9 sections (pass 1)
+[db] inserted 9 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Offshore Minerals (Exploration Licence Fees) Act 1981
+       legislation_id: 317c7db1-b0a2-4f5d-94c3-dadda6813831
+       sections: 9
+       compilation: 1994-02-25

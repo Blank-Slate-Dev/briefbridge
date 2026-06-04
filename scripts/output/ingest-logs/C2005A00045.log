@@ -1,0 +1,47 @@
+[fetch] document_1: https://www.legislation.gov.au/C2005A00045/2014-10-17/2014-10-17/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 73,777 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2005A00045/2014-10-17/2014-10-17/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 73,777 source bytes → 72,137 combined bytes
+[citation] Australian Communications and Media Authority (Consequential and Transitional Provisions) Act 2005 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 326
+[parser-unknown-class] "ActHead6", text="Schedule 4—Transitional provisions"
+[parser-unknown-class] "ActHead7", text="Part 1—Preliminary"
+[parser-unknown-class] "ItemHead", text="1  Definitions"
+[parser-unknown-class] "Subitem", text="(1) In this Schedule, unless the contrary intention appears:"
+[parser-unknown-class] "Subitem", text="(2) Subject to subitem (1), an expression used in this Schedule that is also used in the ACMA Act..."
+[parser-unknown-class] "ActHead7", text="Part 3—References to, and things done by or in relation to, ABA or ACA"
+[parser-unknown-class] "ItemHead", text="8  References in instruments to ABA or ACA"
+[parser-unknown-class] "Subitem", text="(1) This item applies to an instrument if it:"
+[parser-unknown-class] "Subitem", text="(2) Subject to subitem (3), an instrument to which this item applies continues to have effect fro..."
+[parser-unknown-class] "Subitem", text="(3) However, if:"
+[parser-unknown-class] "Subitem", text="(4) The regulations may determine that one of subitems (2) and (3), rather than the other of thos..."
+[parser-unknown-class] "Subitem", text="(5) For the purposes of this item, an instrument:"
+[parser-unknown-class] "ItemHead", text="10  Things done by, or in relation to, ABA or ACA etc."
+[parser-unknown-class] "Subitem", text="(1) This item applies to a thing done by, or in relation to, the ABA or the ACA under:"
+[parser-unknown-class] "Subitem", text="(2) Subject to subitem (3), the thing done has effect from the transition time as if it had been ..."
+[parser-unknown-class] "Subitem", text="(3) However if the thing done is a thing of a kind that, under the authorising provision as in fo..."
+[parser-unknown-class] "Subitem", text="(4) The regulations may:"
+[parser-unknown-class] "ItemHead", text="12  Continued effect of certain instruments made under the repealed provisions"
+[parser-unknown-class] "Subitem", text="(1) An instrument:"
+[parser-unknown-class] "Subitem", text="(2) A determination in force under clause 61 of Schedule 4 to the Broadcasting Services Act 1992 ..."
+[parser-diag] processed 326 <p> elements
+[parser-diag] last section was added at element index: 59
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: ce40a183-b479-47d0-81ff-928678039261
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Australian Communications and Media Authority (Consequential and Transitional Provisions) Act 2005
+       legislation_id: ce40a183-b479-47d0-81ff-928678039261
+       sections: 3
+       compilation: 2014-10-17

@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2005A00005/2025-11-08/2025-11-08/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 298,931 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2005A00005/2025-11-08/2025-11-08/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 298,931 source bytes → 296,717 combined bytes
+[citation] Australian Passports Act 2005 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1156
+[parser-diag] processed 1156 <p> elements
+[parser-diag] last section was added at element index: 823
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 86
+[parse] compilation: date=2025-11-08 no=21
+[parse] by level:
+         part         6
+         section      64
+         division     10
+         subdivision  6
+[db] inserted new legislation row: 0649e9cc-73e4-40bd-8652-8da6c834850d
+[db] inserting 86 sections (pass 1)
+[db] inserted 86 sections
+[db] linking parent FKs (pass 2)
+[db] linked 80 parent references
+
+[done] ingested Australian Passports Act 2005
+       legislation_id: 0649e9cc-73e4-40bd-8652-8da6c834850d
+       sections: 86
+       compilation: 2025-11-08

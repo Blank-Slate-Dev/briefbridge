@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2013A00037/2024-07-06/2024-07-06/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 218,294 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2013A00037/2024-07-06/2024-07-06/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 218,294 source bytes → 216,358 combined bytes
+[citation] DisabilityCare Australia Fund Act 2013 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 855
+[parser-diag] processed 855 <p> elements
+[parser-diag] last section was added at element index: 634
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 61
+[parse] compilation: date=2024-07-06 no=12
+[parse] by level:
+         part         5
+         section      51
+         division     5
+[db] inserted new legislation row: ff333abc-65be-4f86-9d5e-9de28e29de6a
+[db] inserting 61 sections (pass 1)
+[db] inserted 61 sections
+[db] linking parent FKs (pass 2)
+[db] linked 56 parent references
+
+[done] ingested DisabilityCare Australia Fund Act 2013
+       legislation_id: ff333abc-65be-4f86-9d5e-9de28e29de6a
+       sections: 61
+       compilation: 2024-07-06

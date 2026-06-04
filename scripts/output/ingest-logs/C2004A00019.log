@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00019/1973-06-18/1973-06-18/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 72,957 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00019/1973-06-18/1973-06-18/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 72,957 source bytes → 71,352 combined bytes
+[citation] International Labour Organisation Act 1973 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 170
+[parser-diag] processed 170 <p> elements
+[parser-diag] last section was added at element index: 45
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 4
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      4
+[db] inserted new legislation row: 618c4865-4279-4b7e-94f8-6e13e5849b9c
+[db] inserting 4 sections (pass 1)
+[db] inserted 4 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested International Labour Organisation Act 1973
+       legislation_id: 618c4865-4279-4b7e-94f8-6e13e5849b9c
+       sections: 4
+       compilation: 1973-06-18

@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2008A00014/2021-05-01/2021-05-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 159,194 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2008A00014/2021-05-01/2021-05-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 159,194 source bytes → 157,219 combined bytes
+[citation] National Film and Sound Archive of Australia Act 2008 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 650
+[parser-diag] processed 650 <p> elements
+[parser-diag] last section was added at element index: 409
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 51
+[parse] compilation: date=2021-05-01 no=7
+[parse] by level:
+         part         6
+         section      41
+         division     4
+[db] inserted new legislation row: ecb25203-e165-4365-adeb-a42f9843bcae
+[db] inserting 51 sections (pass 1)
+[db] inserted 51 sections
+[db] linking parent FKs (pass 2)
+[db] linked 45 parent references
+
+[done] ingested National Film and Sound Archive of Australia Act 2008
+       legislation_id: ecb25203-e165-4365-adeb-a42f9843bcae
+       sections: 51
+       compilation: 2021-05-01

@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01829/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 34,720 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01829/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 34,720 source bytes → 33,699 combined bytes
+[citation] Environment Protection (Northern Territory Supreme Court) Act 1978 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 111
+[parser-unknown-class] "ActNotesa", text="(a) The Environment Protection (Northern Territory Supreme Court) Act 1978 was amended by section..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act shall come into operation on the twenty‑eighth day after th..."
+[parser-unknown-class] "ActNotesa", text="(b) The Environment Protection (Northern Territory Supreme Court) Act 1978 was amended by Schedul..."
+[parser-unknown-class] "ActNotes1", text="(1) Subject to this section, this Act commences when the Environment Protection and Biodiversity ..."
+[parser-diag] processed 111 <p> elements
+[parser-diag] last section was added at element index: 65
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parse] sections: 6
+[parse] compilation: date=(none) no=(none)
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         section      6
+[db] inserted new legislation row: c4ac5a76-9212-4cdf-86ab-dae7f2a12625
+[db] inserting 6 sections (pass 1)
+[db] inserted 6 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Environment Protection (Northern Territory Supreme Court) Act 1978
+       legislation_id: c4ac5a76-9212-4cdf-86ab-dae7f2a12625
+       sections: 6
+       compilation: 2007-02-19

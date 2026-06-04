@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2017A00002/2024-05-31/2024-05-31/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 191,684 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2017A00002/2024-05-31/2024-05-31/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 191,684 source bytes → 189,595 combined bytes
+[citation] Independent Parliamentary Expenses Authority Act 2017 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 761
+[parser-diag] processed 761 <p> elements
+[parser-diag] last section was added at element index: 613
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 80
+[parse] compilation: date=2024-05-31 no=3
+[parse] by level:
+         part         6
+         section      64
+         division     10
+[db] inserted new legislation row: 1d4db713-e2d3-49c2-b52e-54cd3e9b0eb7
+[db] inserting 80 sections (pass 1)
+[db] inserted 80 sections
+[db] linking parent FKs (pass 2)
+[db] linked 74 parent references
+
+[done] ingested Independent Parliamentary Expenses Authority Act 2017
+       legislation_id: 1d4db713-e2d3-49c2-b52e-54cd3e9b0eb7
+       sections: 80
+       compilation: 2024-05-31

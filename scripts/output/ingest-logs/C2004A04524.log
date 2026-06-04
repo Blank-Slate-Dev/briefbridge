@@ -1,0 +1,26 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04524/1992-12-24/1992-12-24/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 37,509 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04524/1992-12-24/1992-12-24/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 37,509 source bytes → 36,440 combined bytes
+[citation] Seafarers Rehabilitation and Compensation (Transitional Provisions and Consequential Amendments) Act 1992 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 134
+[parser-diag] processed 134 <p> elements
+[parser-diag] last section was added at element index: -1
+[parser-diag] state phase at end: PRE_BODY
+[parser-diag] hierarchy stack depth at end: 0
+[parser-diag] insideSchedule at end: false
+[parse] sections: 0
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+[db] inserted new legislation row: 4da33860-896a-4a51-8f51-acfd25938c6d
+[db] inserting 0 sections (pass 1)
+[db] inserted 0 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Seafarers Rehabilitation and Compensation (Transitional Provisions and Consequential Amendments) Act 1992
+       legislation_id: 4da33860-896a-4a51-8f51-acfd25938c6d
+       sections: 0
+       compilation: 1992-12-24

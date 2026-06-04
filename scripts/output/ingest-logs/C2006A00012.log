@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2006A00012/2023-11-01/2023-11-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 532,941 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2006A00012/2023-11-01/2023-11-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 532,941 source bytes → 530,906 combined bytes
+[citation] Future Fund Act 2006 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2061
+[parser-diag] processed 2061 <p> elements
+[parser-diag] last section was added at element index: 1609
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 148
+[parse] compilation: date=2023-11-01 no=18
+[parse] by level:
+         part         6
+         section      96
+         division     13
+         subdivision  3
+         schedule     4
+         schedule_part 3
+         schedule_clause 23
+[db] inserted new legislation row: 135315a3-c983-440b-b090-efff65a455db
+[db] inserting 148 sections (pass 1)
+[db] inserted 148 sections
+[db] linking parent FKs (pass 2)
+[db] linked 138 parent references
+
+[done] ingested Future Fund Act 2006
+       legislation_id: 135315a3-c983-440b-b090-efff65a455db
+       sections: 148
+       compilation: 2023-11-01

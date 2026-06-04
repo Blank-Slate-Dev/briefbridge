@@ -1,0 +1,37 @@
+[fetch] document_1: https://www.legislation.gov.au/C2016A00098/2025-08-03/2025-08-03/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 702,607 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2016A00098/2025-08-03/2025-08-03/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 702,607 source bytes → 699,876 combined bytes
+[citation] VET Student Loans Act 2016 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2699
+[parser-unknown-class] "BoxStep", text="Step 1. Take the person’s accumulated VETSL debt for the immediately preceding financial year. (T..."
+[parser-unknown-class] "BoxStep", text="Step 2. Add the sum of all of the VETSL debts (if any) that the person incurred during the last 6..."
+[parser-unknown-class] "BoxStep", text="Step 3. Subtract the sum of the amounts by which the person’s debts referred to in steps 1 and 2 ..."
+[parser-unknown-class] "BoxStep", text="Step 4. Subtract the sum of all of the person’s compulsory VETSL repayment amounts that:"
+[parser-unknown-class] "BoxStep", text="Step 5. Subtract the sum of the amounts by which any compulsory VETSL repayment amount of the per..."
+[parser-unknown-class] "BoxStep", text="Step 6. Add the sum of the amounts by which any compulsory VETSL repayment amount of the person i..."
+[parser-unknown-class] "BoxStep", text="Step 7. Reduce the amount worked out under step 6 by 20%."
+[parser-diag] processed 2699 <p> elements
+[parser-diag] last section was added at element index: 2169
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 224
+[parse] compilation: date=2025-08-03 no=14
+[parse] by level:
+         part         13
+         section      171
+         division     37
+         subdivision  3
+[db] inserted new legislation row: 0b2c95df-f89f-4a10-acbb-9fb74e3021c3
+[db] inserting 224 sections (pass 1)
+[db] inserted 224 sections
+[db] linking parent FKs (pass 2)
+[db] linked 211 parent references
+
+[done] ingested VET Student Loans Act 2016
+       legislation_id: 0b2c95df-f89f-4a10-acbb-9fb74e3021c3
+       sections: 224
+       compilation: 2025-08-03

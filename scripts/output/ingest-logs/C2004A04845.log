@@ -1,0 +1,39 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04845/2007-09-24/2007-09-24/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 16,828 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04845/2007-09-24/2007-09-24/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 16,828 source bytes → 15,760 combined bytes
+[citation] Income Tax (Former Non-resident Superannuation Funds) Act 1994 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 71
+[parser-unknown-class] "ActNotesa", text="(a) Section 2 of the Income Tax (Former Non‑resident Superannuation Funds) Amendment Act 2007 pro..."
+[parser-unknown-class] "ActNotes1", text="2 This Act commences immediately after the commencement of Schedule 1 to the Tax Laws Amendment (..."
+[parser-unknown-class] "ActNotesa", text="Schedule 1 commenced on 15 March 2007."
+[parser-unknown-class] "TableA0", text="Table A"
+[parser-unknown-class] "TableAHead", text="Application, saving or transitional provisions"
+[parser-unknown-class] "TableAHeadItal", text="Income Tax (Former Non‑resident Superannuation Funds) Amendment Act 2007 (No. 18, 2007)"
+[parser-unknown-class] "ItemHead", text="Schedule 1"
+[parser-unknown-class] "ItemHead", text="2  Application"
+[parser-unknown-class] "TableAHeadItal", text="Tax Laws Amendment (2007 Measures No. 4) Act 2007 (No. 143, 2007)"
+[parser-unknown-class] "ItemHead", text="Schedule 5"
+[parser-unknown-class] "ItemHead", text="48  Application"
+[parser-unknown-class] "Subitem", text="(1) The amendments made by this Schedule apply to the 2007‑2008 income year and later years."
+[parser-diag] processed 71 <p> elements
+[parser-diag] last section was added at element index: 21
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: cf990ed7-bcc6-438e-9353-e137e3b2aba1
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Income Tax (Former Non-resident Superannuation Funds) Act 1994
+       legislation_id: cf990ed7-bcc6-438e-9353-e137e3b2aba1
+       sections: 3
+       compilation: 2007-09-24

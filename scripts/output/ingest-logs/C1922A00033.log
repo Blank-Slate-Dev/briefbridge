@@ -1,0 +1,37 @@
+[fetch] document_1: https://www.legislation.gov.au/C1922A00033/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 2,763,832 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1922A00033/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 2,763,832 source bytes → 2,757,898 combined bytes
+[citation] Superannuation Act 1922 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 11087
+[parser-diag] processed 11087 <p> elements
+[parser-diag] last section was added at element index: 8618
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 331
+[parse] compilation: date=2024-12-11 no=28
+[parse] warnings: 5
+  - ActHead1 with unexpected leading word: "Third Schedule—Rates of contribution". Captured as 'schedule' as fallback.
+  - ActHead1 with unexpected leading word: "Fourth Schedule". Captured as 'schedule' as fallback.
+  - ActHead1 with unexpected leading word: "Fifth Schedule". Captured as 'schedule' as fallback.
+  - ActHead1 with unexpected leading word: "Sixth Schedule—Reduction in rates of contribution". Captured as 'schedule' as fallback.
+  - ActHead1 with unexpected leading word: "Seventh Schedule—Factors applicable under section 44". Captured as 'schedule' as fallback.
+[parse] by level:
+         part         15
+         section      241
+         division     31
+         schedule     5
+         schedule_clause 39
+[db] inserted new legislation row: 6d5076fd-25ed-437d-bbc8-7b5b433b6ef3
+[db] inserting 331 sections (pass 1)
+[db] inserted 331 sections
+[db] linking parent FKs (pass 2)
+[db] linked 311 parent references
+
+[done] ingested Superannuation Act 1922
+       legislation_id: 6d5076fd-25ed-437d-bbc8-7b5b433b6ef3
+       sections: 331
+       compilation: 2024-12-11

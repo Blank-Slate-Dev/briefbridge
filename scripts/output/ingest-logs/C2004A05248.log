@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05248/2023-10-17/2023-10-17/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 292,058 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05248/2023-10-17/2023-10-17/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 292,058 source bytes → 288,313 combined bytes
+[citation] Auditor-General Act 1997 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1093
+[parser-diag] processed 1093 <p> elements
+[parser-diag] last section was added at element index: 725
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] sections: 94
+[parse] compilation: date=2023-10-17 no=18
+[parse] by level:
+         part         8
+         section      59
+         division     12
+         schedule     2
+         schedule_clause 13
+[db] inserted new legislation row: a933c58d-aa49-4830-bb22-9d5bd7acf2ce
+[db] inserting 94 sections (pass 1)
+[db] inserted 94 sections
+[db] linking parent FKs (pass 2)
+[db] linked 84 parent references
+
+[done] ingested Auditor-General Act 1997
+       legislation_id: a933c58d-aa49-4830-bb22-9d5bd7acf2ce
+       sections: 94
+       compilation: 2023-10-17

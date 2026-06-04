@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04089/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 570,307 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04089/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 570,307 source bytes → 567,392 combined bytes
+[citation] Defence Force (Home Loans Assistance) Act 1990 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 2006
+[parser-diag] processed 2006 <p> elements
+[parser-diag] last section was added at element index: 774
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 53
+[parse] compilation: date=2024-10-14 no=22
+[parse] by level:
+         part         4
+         section      45
+         division     3
+         schedule     1
+[db] inserted new legislation row: f1734de7-e8d9-44ef-8a1d-58600fa0cb8f
+[db] inserting 53 sections (pass 1)
+[db] inserted 53 sections
+[db] linking parent FKs (pass 2)
+[db] linked 48 parent references
+
+[done] ingested Defence Force (Home Loans Assistance) Act 1990
+       legislation_id: f1734de7-e8d9-44ef-8a1d-58600fa0cb8f
+       sections: 53
+       compilation: 2024-10-14

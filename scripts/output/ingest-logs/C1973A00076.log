@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C1973A00076/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,877,142 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1973A00076/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,877,142 source bytes → 1,874,613 combined bytes
+[citation] Insurance Act 1973 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 6984
+[parser-diag] processed 6984 <p> elements
+[parser-diag] last section was added at element index: 4735
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] sections: 390
+[parse] compilation: date=2025-02-21 no=73
+[parse] by level:
+         part         14
+         section      322
+         division     37
+         subdivision  5
+         schedule     1
+         schedule_part 2
+         schedule_clause 9
+[db] inserted new legislation row: 1080a847-5726-4308-885f-83a0a15a5423
+[db] inserting 390 sections (pass 1)
+[db] inserted 390 sections
+[db] linking parent FKs (pass 2)
+[db] linked 375 parent references
+
+[done] ingested Insurance Act 1973
+       legislation_id: 1080a847-5726-4308-885f-83a0a15a5423
+       sections: 390
+       compilation: 2025-02-21

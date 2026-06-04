@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05113/2021-08-02/2021-08-02/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 66,360 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05113/2021-08-02/2021-08-02/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 66,360 source bytes → 64,556 combined bytes
+[citation] Bankruptcy (Estate Charges) Act 1997 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 293
+[parser-diag] processed 293 <p> elements
+[parser-diag] last section was added at element index: 106
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 15
+[parse] compilation: date=2021-08-02 no=12
+[parse] by level:
+         part         4
+         section      11
+[db] inserted new legislation row: f6c2aeb9-45d1-4f2b-97b9-fc9e28d657e6
+[db] inserting 15 sections (pass 1)
+[db] inserted 15 sections
+[db] linking parent FKs (pass 2)
+[db] linked 11 parent references
+
+[done] ingested Bankruptcy (Estate Charges) Act 1997
+       legislation_id: f6c2aeb9-45d1-4f2b-97b9-fc9e28d657e6
+       sections: 15
+       compilation: 2021-08-02

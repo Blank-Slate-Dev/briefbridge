@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C1945A00016/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 128,482 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1945A00016/2016-10-21/2016-10-21/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 128,482 source bytes → 126,420 combined bytes
+[citation] War Gratuity Act 1945 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 469
+[parser-diag] processed 469 <p> elements
+[parser-diag] last section was added at element index: 241
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 33
+[parse] compilation: date=2016-10-21 no=4
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule—Classes of members disqualified for war gratuity". Captured as 'schedule' as fallback.
+[parse] by level:
+         section      32
+         schedule     1
+[db] inserted new legislation row: 351337fb-7db8-4e1b-8c66-408fe6c0e5ac
+[db] inserting 33 sections (pass 1)
+[db] inserted 33 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested War Gratuity Act 1945
+       legislation_id: 351337fb-7db8-4e1b-8c66-408fe6c0e5ac
+       sections: 33
+       compilation: 2016-10-21

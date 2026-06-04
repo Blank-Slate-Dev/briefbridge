@@ -1,0 +1,32 @@
+[fetch] document_1: https://www.legislation.gov.au/C2019A00096/2019-10-30/2019-10-30/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 26,345 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2019A00096/2019-10-30/2019-10-30/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 26,345 source bytes → 24,827 combined bytes
+[citation] Australian Veterans’ Recognition (Putting Veterans and Their Families First) Act 2019 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 127
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="Senate on 4 July 2019"
+[parse] sections: 16
+[parse] compilation: date=(none) no=(none)
+[parser-unknown-class] "2ndRd", text="House of Representatives on 21 October 2019]"
+[parser-diag] processed 127 <p> elements
+[parser-diag] last section was added at element index: 117
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         part         4
+         section      11
+         schedule     1
+[db] inserted new legislation row: d67d6ac3-1a9a-4c0b-b150-722f388cf993
+[db] inserting 16 sections (pass 1)
+[db] inserted 16 sections
+[db] linking parent FKs (pass 2)
+[db] linked 11 parent references
+
+[done] ingested Australian Veterans’ Recognition (Putting Veterans and Their Families First) Act 2019
+       legislation_id: d67d6ac3-1a9a-4c0b-b150-722f388cf993
+       sections: 16
+       compilation: 2019-10-30

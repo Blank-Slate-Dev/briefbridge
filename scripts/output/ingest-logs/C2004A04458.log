@@ -1,0 +1,53 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A04458/2014-10-17/2014-10-17/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 62,310 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A04458/2014-10-17/2014-10-17/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 62,310 source bytes → 60,564 combined bytes
+[citation] Radiocommunications (Transitional Provisions and Consequential Amendments) Act 1992 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 289
+[parser-unknown-class] "Subsection", text="This Act may be cited as the Radiocommunications (Transitional Provisions and Consequential Amend..."
+[parser-unknown-class] "Subsection", text="This Act commences on 1 July 1993."
+[parser-unknown-class] "Subsection", text="(1) In this Part, unless the contrary intention appears:"
+[parser-unknown-class] "Subsection", text="(2) Subject to subsection (3), terms and expressions used in this Part have the same meaning as t..."
+[parser-unknown-class] "Subsection", text="(3) Terms and expressions used in this Part that relate to the old Act or anything done under the..."
+[parser-unknown-class] "Subsection", text="Subject to section 5, if an instrument is made by the Minister that:"
+[parser-unknown-class] "Paragraph", text="(a) is an instrument of a kind referred to in column 2 of the following table; and"
+[parser-unknown-class] "Paragraph", text="(b) was in force immediately before the commencement of this Act;"
+[parser-unknown-class] "Paragraph", text="(c) continues in force immediately after that commencement as if, at the time it had been made, i..."
+[parser-unknown-class] "Paragraph", text="(d) is taken, for all purposes, to have been issued by the SMA as such an instrument."
+[parser-unknown-class] "Subsection", text="If, immediately before the commencement of this Act:"
+[parser-unknown-class] "Paragraph", text="(a) a compliance statement certificate issued under section 12 of the old Act is the subject of s..."
+[parser-unknown-class] "Paragraph", text="(b) a transmitter licence granted under section 24 or 24B of the old Act is the subject of suspen..."
+[parser-unknown-class] "Subsection", text="An authority given by a person, under section 26 of the old Act, that was in force immediately be..."
+[parser-unknown-class] "Subsection", text="(1) Subject to subsection (4), despite the repeal of the old Act by section 13 of this Act, a fre..."
+[parser-unknown-class] "Subsection", text="(2) If an unallocated frequency is reserved in the name of a person in accordance with a frequenc..."
+[parser-unknown-class] "Subsection", text="(3) For the purposes of subsection (2), issuing a permit or transmitter licence that authorises t..."
+[parser-unknown-class] "Subsection", text="(4) The SMA has the same power to cancel a frequency reservation certificate to which subsection ..."
+[parser-unknown-class] "Subsection", text="(1) Subject to subsection (3), any regulations made under the old Act and in force immediately be..."
+[parser-unknown-class] "Subsection", text="(2) A reference in a regulation so continued in force to a provision of the old Act is taken to b..."
+[parser-unknown-class] "Subsection", text="(3) This section does not apply to a regulation the making of which would not be authorised by th..."
+[parser-unknown-class] "Subsection", text="(2) References in subsection 362(4) of the Commonwealth Electoral Act 1918 as amended by this Act..."
+[parser-unknown-class] "Subsection", text="(3) Without limiting the application of section 4 of this Act:"
+[parser-unknown-class] "Paragraph", text="(a) a reference in subparagraphs 91(a)(iii) and (c)(iii) of the Copyright Act 1968, as amended by..."
+[parser-unknown-class] "Paragraph", text="(b) a reference to a transmitter licence or a temporary permit that, although not in force immedi..."
+[parser-diag] processed 289 <p> elements
+[parser-diag] last section was added at element index: 163
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 12
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         3
+         section      9
+[db] inserted new legislation row: 7d472b05-9b51-49a1-abb4-9b7e6096bec3
+[db] inserting 12 sections (pass 1)
+[db] inserted 12 sections
+[db] linking parent FKs (pass 2)
+[db] linked 9 parent references
+
+[done] ingested Radiocommunications (Transitional Provisions and Consequential Amendments) Act 1992
+       legislation_id: 7d472b05-9b51-49a1-abb4-9b7e6096bec3
+       sections: 12
+       compilation: 2014-10-17

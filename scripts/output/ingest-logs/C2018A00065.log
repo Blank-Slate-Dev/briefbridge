@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2018A00065/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 217,176 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2018A00065/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 217,176 source bytes → 215,169 combined bytes
+[citation] Housing Australia Act 2018 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 888
+[parser-diag] processed 888 <p> elements
+[parser-diag] last section was added at element index: 620
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 81
+[parse] compilation: date=2024-12-11 no=7
+[parse] by level:
+         part         6
+         section      65
+         division     10
+[db] inserted new legislation row: 432d42ff-48e4-4fe0-a7a9-aa3d3eac6e30
+[db] inserting 81 sections (pass 1)
+[db] inserted 81 sections
+[db] linking parent FKs (pass 2)
+[db] linked 75 parent references
+
+[done] ingested Housing Australia Act 2018
+       legislation_id: 432d42ff-48e4-4fe0-a7a9-aa3d3eac6e30
+       sections: 81
+       compilation: 2024-12-11

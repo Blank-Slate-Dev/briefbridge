@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C1971A00073/2014-07-01/2014-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 92,209 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1971A00073/2014-07-01/2014-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 92,209 source bytes → 90,379 combined bytes
+[citation] Superannuation (Pension Increases) Act 1971 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 338
+[parser-diag] processed 338 <p> elements
+[parser-diag] last section was added at element index: 143
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 14
+[parse] compilation: date=(none) no=(none)
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule". Captured as 'schedule' as fallback.
+[parse] by level:
+         section      13
+         schedule     1
+[db] inserted new legislation row: c004fa7f-4635-4364-8888-68666bdfc7b1
+[db] inserting 14 sections (pass 1)
+[db] inserted 14 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Superannuation (Pension Increases) Act 1971
+       legislation_id: c004fa7f-4635-4364-8888-68666bdfc7b1
+       sections: 14
+       compilation: 2014-07-01

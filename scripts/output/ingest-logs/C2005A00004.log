@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2005A00004/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 338,459 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2005A00004/2024-10-14/2024-10-14/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 338,459 source bytes → 336,033 combined bytes
+[citation] Water Efficiency Labelling and Standards Act 2005 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1356
+[parser-diag] processed 1356 <p> elements
+[parser-diag] last section was added at element index: 989
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 125
+[parse] compilation: date=2024-10-14 no=13
+[parse] by level:
+         part         13
+         section      92
+         division     20
+[db] inserted new legislation row: f123c6e1-49da-41e6-b10d-37d45693803a
+[db] inserting 125 sections (pass 1)
+[db] inserted 125 sections
+[db] linking parent FKs (pass 2)
+[db] linked 112 parent references
+
+[done] ingested Water Efficiency Labelling and Standards Act 2005
+       legislation_id: f123c6e1-49da-41e6-b10d-37d45693803a
+       sections: 125
+       compilation: 2024-10-14

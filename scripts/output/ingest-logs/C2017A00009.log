@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2017A00009/2017-02-22/2017-02-22/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 21,550 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2017A00009/2017-02-22/2017-02-22/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 21,550 source bytes → 20,144 combined bytes
+[citation] Hazardous Waste (Regulation of Exports and Imports) Levy Act 2017 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 115
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 24 November 2016"
+[parser-unknown-class] "2ndRd", text="Senate on 8 February 2017]"
+[parser-diag] processed 115 <p> elements
+[parser-diag] last section was added at element index: 108
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 12
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         2
+         section      10
+[db] inserted new legislation row: 5f3f0a6c-1e92-4d33-b253-f4622bcc7ba7
+[db] inserting 12 sections (pass 1)
+[db] inserted 12 sections
+[db] linking parent FKs (pass 2)
+[db] linked 10 parent references
+
+[done] ingested Hazardous Waste (Regulation of Exports and Imports) Levy Act 2017
+       legislation_id: 5f3f0a6c-1e92-4d33-b253-f4622bcc7ba7
+       sections: 12
+       compilation: 2017-02-22

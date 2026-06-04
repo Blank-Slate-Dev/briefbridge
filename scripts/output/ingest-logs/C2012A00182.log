@@ -1,0 +1,78 @@
+[fetch] document_1: https://www.legislation.gov.au/C2012A00182/2012-12-10/2012-12-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 81,837 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2012A00182/2012-12-10/2012-12-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 81,837 source bytes → 80,486 combined bytes
+[citation] National Health Security Amendment Act 2012 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 369
+[parser-unknown-class] "ActHead6", text="Schedule 1—Main amendments"
+[parser-unknown-class] "ActHead7", text="Part 1—Temporary handling of security‑sensitive biological agents"
+[parser-unknown-class] "ActHead9", text="National Health Security Act 2007"
+[parser-unknown-class] "ItemHead", text="1  Subsection 3(1)"
+[parser-unknown-class] "ItemHead", text="2  Subsection 3(1)"
+[parser-unknown-class] "ItemHead", text="3  Subsection 3(1)"
+[parser-unknown-class] "ItemHead", text="4  Subsection 3(1)"
+[parser-unknown-class] "ItemHead", text="5  At the end of subsection 39(1)"
+[parser-unknown-class] "ItemHead", text="6  After Division 5 of Part 3"
+[parser-unknown-class] "ItemHead", text="7  Division 5A of Part 3 (heading)"
+[parser-unknown-class] "ItemHead", text="8  Section 60A (heading)"
+[parser-unknown-class] "ItemHead", text="9  After subsection 60A(1)"
+[parser-unknown-class] "ItemHead", text="10  Subsections 60A(2), (4) and (6)"
+[parser-unknown-class] "ItemHead", text="11  Subsection 60B(1)"
+[parser-unknown-class] "ItemHead", text="12  Application of amendments"
+[parser-unknown-class] "ActHead7", text="Part 2—Emergency maintenance"
+[parser-unknown-class] "ActHead9", text="National Health Security Act 2007"
+[parser-unknown-class] "ItemHead", text="13  Subsection 3(1)"
+[parser-unknown-class] "ItemHead", text="14  Subsection 3(1)"
+[parser-unknown-class] "ItemHead", text="15  Subsection 3(1)"
+[parser-unknown-class] "ItemHead", text="16  After section 55"
+[parser-unknown-class] "ItemHead", text="17  Application of amendments"
+[parser-unknown-class] "ActHead7", text="Part 3—Compliance with standards relating to security‑sensitive biological agents"
+[parser-unknown-class] "ActHead9", text="National Health Security Act 2007"
+[parser-unknown-class] "ItemHead", text="18  Before subsection 57(1)"
+[parser-unknown-class] "ItemHead", text="19  Before subsection 57(2)"
+[parser-unknown-class] "ItemHead", text="20  After subsection 57(2)"
+[parser-unknown-class] "ItemHead", text="21  Before subsection 57(4)"
+[parser-unknown-class] "ItemHead", text="22  After subsection 57(4)"
+[parser-unknown-class] "ItemHead", text="23  Subsection 57(5)"
+[parser-unknown-class] "ItemHead", text="24  Paragraph 58(1)(a)"
+[parser-unknown-class] "ActHead7", text="Part 4—Confirmatory testing"
+[parser-unknown-class] "ActHead9", text="National Health Security Act 2007"
+[parser-unknown-class] "ItemHead", text="25  Subsection 38H(3)"
+[parser-unknown-class] "ItemHead", text="26  Application of amendment"
+[parser-unknown-class] "ActHead7", text="Part 5—Suspected security‑sensitive biological agents"
+[parser-unknown-class] "ActHead9", text="National Health Security Act 2007"
+[parser-unknown-class] "ItemHead", text="27  At the end of section 38A"
+[parser-unknown-class] "ActHead6", text="Schedule 2—Consequential amendments"
+[parser-unknown-class] "ActHead9", text="National Health Security Act 2007"
+[parser-unknown-class] "ItemHead", text="1  Paragraph 61(1)(a)"
+[parser-unknown-class] "ItemHead", text="2  Subsection 61(2)"
+[parser-unknown-class] "ItemHead", text="3  Paragraph 65(1)(d)"
+[parser-unknown-class] "ItemHead", text="4  Paragraph 69(2)(b)"
+[parser-unknown-class] "ItemHead", text="5  Section 80 (paragraph (a) of the definition of reviewable decision)"
+[parser-unknown-class] "ItemHead", text="6  Section 84 (subparagraph (b)(ii) of the definition of protected information)"
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 19 September 2012"
+[parser-unknown-class] "2ndRd", text="Senate on 11 October 2012]"
+[parser-diag] processed 369 <p> elements
+[parser-diag] last section was added at element index: 294
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 29
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      24
+         division     2
+         subdivision  3
+[db] inserted new legislation row: 37640492-3cb8-4370-98e0-caf54bcb54e4
+[db] inserting 29 sections (pass 1)
+[db] inserted 29 sections
+[db] linking parent FKs (pass 2)
+[db] linked 24 parent references
+
+[done] ingested National Health Security Amendment Act 2012
+       legislation_id: 37640492-3cb8-4370-98e0-caf54bcb54e4
+       sections: 29
+       compilation: 2012-12-10

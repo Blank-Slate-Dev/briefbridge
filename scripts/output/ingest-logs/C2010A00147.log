@@ -1,0 +1,67 @@
+[fetch] document_1: https://www.legislation.gov.au/C2010A00147/2013-04-12/2013-04-12/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 53,989 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2010A00147/2013-04-12/2013-04-12/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 53,989 source bytes → 51,778 combined bytes
+[citation] Family Law Amendment (Validation of Certain Parenting Orders and Other Measures) Act 2010 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 216
+[parser-unknown-class] "ActHead6", text="Schedule 1—Validation of certain parenting orders"
+[parser-unknown-class] "ItemHead", text="1  Interpretation"
+[parser-unknown-class] "Subitem", text="(1) In this Schedule:"
+[parser-unknown-class] "Subitem", text="(2) Any other expression has the same meaning in this Schedule as in the Family Law Act 1975."
+[parser-unknown-class] "ItemHead", text="2  Meaning of affected order etc."
+[parser-unknown-class] "Subitem", text="(1) An affected order is, subject to subitem (3), an order (including an interim order) in relati..."
+[parser-unknown-class] "Subitem", text="(2) The required matters for the order are:"
+[parser-unknown-class] "Subitem", text="(3) If a court or Registrar has:"
+[parser-unknown-class] "ItemHead", text="3  Rights and liabilities under affected orders"
+[parser-unknown-class] "Subitem", text="(1) Subject to item 5, the rights and liabilities of all persons are, by force of this item, decl..."
+[parser-unknown-class] "Subitem", text="(2) A right or liability conferred, imposed or affected by subitem (1):"
+[parser-unknown-class] "Subitem", text="(3) The rights and liabilities conferred, imposed or affected by subitem (1) include (but are not..."
+[parser-unknown-class] "Subitem", text="(4) Without limiting the grounds on which the person may appeal against the order or apply for re..."
+[parser-unknown-class] "Subitem", text="(5) To avoid doubt, this item does not affect the application of section 60CA of the Family Law A..."
+[parser-unknown-class] "ItemHead", text="4  Effect of things done etc. under or in relation to rights and liabilities"
+[parser-unknown-class] "Subitem", text="(1) Any act or thing done or omitted to be done before, at or after the commencement of this Sche..."
+[parser-unknown-class] "Subitem", text="(2) However, if, before the commencement of this Schedule, a court purported to convict a person ..."
+[parser-unknown-class] "Subitem", text="(3) An enforcement law is a provision of a law of the Commonwealth, other than a law relating to ..."
+[parser-unknown-class] "ItemHead", text="5  Circumstances in which item 3 ceases to have effect"
+[parser-unknown-class] "ItemHead", text="6  Powers in relation to declared rights and liabilities"
+[parser-unknown-class] "Subitem", text="(1) A court or Registrar may vary, revoke, set aside, revive or suspend a right or liability conf..."
+[parser-unknown-class] "Subitem", text="(2) In addition to the powers of a court or Registrar under subitem (1), the court or Registrar a..."
+[parser-unknown-class] "Subitem", text="(3) This item has effect, in relation to varying, revoking, setting aside, reviving or suspending..."
+[parser-unknown-class] "Subitem", text="(4) Despite subitem (3), if the affected order was made without the consent of the parties, the c..."
+[parser-unknown-class] "Subitem", text="(5) Any of the following:"
+[parser-unknown-class] "Subitem", text="(6) Any of the following:"
+[parser-unknown-class] "Subitem", text="(7) An order under this item by a court of summary jurisdiction of a State or Territory (other th..."
+[parser-unknown-class] "ItemHead", text="7  Proceedings for contempt etc."
+[parser-unknown-class] "ItemHead", text="8  Evidence"
+[parser-unknown-class] "ItemHead", text="9  Schedule does not apply to certain orders"
+[parser-unknown-class] "ItemHead", text="10  Jurisdiction of courts"
+[parser-unknown-class] "Subitem", text="(1) Subject to subitem (3), jurisdiction is conferred on the Family Court, the Federal Magistrate..."
+[parser-unknown-class] "Subitem", text="(2) Subject to subitem (3), each court of summary jurisdiction of each State is invested with fed..."
+[parser-unknown-class] "Subitem", text="(3) A court only has jurisdiction with respect to a matter arising under this Schedule if it has ..."
+[parser-unknown-class] "ItemHead", text="11  Effect of change of name of Federal Magistrates Court"
+[parser-unknown-class] "ActHead6", text="Schedule 2—Amendments"
+[parser-unknown-class] "ActHead9", text="Family Law Act 1975"
+[parser-unknown-class] "ItemHead", text="1  Subsections 65DAA(1) and (2)"
+[parser-unknown-class] "ItemHead", text="2  At the end of section 65DAA (after the notes)"
+[parser-unknown-class] "ItemHead", text="3  Application of amendments"
+[parser-diag] processed 216 <p> elements
+[parser-diag] last section was added at element index: 44
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: c3d519cb-a821-4223-b2cd-8da90727e4c7
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Family Law Amendment (Validation of Certain Parenting Orders and Other Measures) Act 2010
+       legislation_id: c3d519cb-a821-4223-b2cd-8da90727e4c7
+       sections: 3
+       compilation: 2013-04-12

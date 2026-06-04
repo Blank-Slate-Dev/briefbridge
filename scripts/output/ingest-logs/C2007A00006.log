@@ -1,0 +1,48 @@
+[fetch] document_1: https://www.legislation.gov.au/C2007A00006/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 19,982 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2007A00006/2007-02-19/2007-02-19/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 19,982 source bytes → 19,045 combined bytes
+[citation] Export Finance and Insurance Corporation Amendment Act 2007 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 102
+[parser-unknown-class] "ActHead6", text="Schedule 1—Amendments"
+[parser-unknown-class] "ActHead9", text="Export Finance and Insurance Corporation Act 1991"
+[parser-unknown-class] "ItemHead", text="1  Subsection 3(1) (definition of appointed member)"
+[parser-unknown-class] "ItemHead", text="2  Paragraph 34(1)(d)"
+[parser-unknown-class] "ItemHead", text="3  Paragraph 34(1)(f)"
+[parser-unknown-class] "ItemHead", text="4  Subsection 34(2)"
+[parser-unknown-class] "ItemHead", text="5  Subsection 34(4)"
+[parser-unknown-class] "ItemHead", text="6  Subsection 34(5)"
+[parser-unknown-class] "ItemHead", text="7  Subsection 35(1)"
+[parser-unknown-class] "ItemHead", text="8  Saving provision"
+[parser-unknown-class] "Subitem", text="(1) Despite the amendments to section 35 of the Export Finance and Insurance Corporation Act 1991..."
+[parser-unknown-class] "Subitem", text="(2) Subitem (1) does not prevent the Minister terminating the appointment under section 42 or 43 ..."
+[parser-unknown-class] "ItemHead", text="9  Subsection 38(6)"
+[parser-unknown-class] "ItemHead", text="10  Subsection 44(7)"
+[parser-unknown-class] "ItemHead", text="11  Subsections 71(2) and (3)"
+[parser-unknown-class] "ItemHead", text="12  Saving provision"
+[parser-unknown-class] "Subitem", text="(1) Despite the amendments to section 71 of the Export Finance and Insurance Corporation Act 1991..."
+[parser-unknown-class] "Subitem", text="(2) Subitem (1) does not prevent the Board from terminating the appointment under paragraph 72(b)..."
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="Senate on 16 August 2006"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 8 February 2007]"
+[parser-diag] processed 102 <p> elements
+[parser-diag] last section was added at element index: 58
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 3
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      3
+[db] inserted new legislation row: dba7401d-c09b-486f-adc9-fbfb93eaebe9
+[db] inserting 3 sections (pass 1)
+[db] inserted 3 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Export Finance and Insurance Corporation Amendment Act 2007
+       legislation_id: dba7401d-c09b-486f-adc9-fbfb93eaebe9
+       sections: 3
+       compilation: 2007-02-19

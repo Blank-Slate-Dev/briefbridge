@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01620/2024-11-30/2024-11-30/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 2,734,247 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01620/2024-11-30/2024-11-30/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 2,734,247 source bytes → 2,723,021 combined bytes
+[citation] Aboriginal Land Rights (Northern Territory) Act 1976 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 10154
+[parser-diag] processed 10154 <p> elements
+[parse] sections: 344
+[parse] compilation: date=2024-11-30 no=48
+[parser-diag] last section was added at element index: 8619
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         part         9
+         section      248
+         division     15
+         subdivision  7
+         schedule     6
+         schedule_part 5
+         schedule_clause 54
+[db] inserted new legislation row: 2e260886-2b94-4818-994a-c2acfb6088dd
+[db] inserting 344 sections (pass 1)
+[db] inserted 344 sections
+[db] linking parent FKs (pass 2)
+[db] linked 329 parent references
+
+[done] ingested Aboriginal Land Rights (Northern Territory) Act 1976
+       legislation_id: 2e260886-2b94-4818-994a-c2acfb6088dd
+       sections: 344
+       compilation: 2024-11-30

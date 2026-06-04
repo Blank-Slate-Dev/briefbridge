@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01123/2013-06-28/2013-06-28/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 22,914 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01123/2013-06-28/2013-06-28/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 22,914 source bytes → 21,293 combined bytes
+[citation] New Business Tax System (Venture Capital Deficit Tax) Act 2003 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 104
+[parser-diag] processed 104 <p> elements
+[parser-diag] last section was added at element index: 64
+[parse] sections: 5
+[parse] compilation: date=(none) no=(none)
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] by level:
+         section      5
+[db] inserted new legislation row: 170d2963-d8d0-44cf-8079-f4a6bb0c665f
+[db] inserting 5 sections (pass 1)
+[db] inserted 5 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested New Business Tax System (Venture Capital Deficit Tax) Act 2003
+       legislation_id: 170d2963-d8d0-44cf-8079-f4a6bb0c665f
+       sections: 5
+       compilation: 2013-06-28

@@ -1,0 +1,38 @@
+[fetch] document_1: https://www.legislation.gov.au/C2009A00134/2025-06-10/2025-06-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 2,133,563 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2009A00134/2025-06-10/2025-06-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2: 1,661,278 bytes
+[fetch] document_3: https://www.legislation.gov.au/C2009A00134/2025-06-10/2025-06-10/text/original/epub/OEBPS/document_3/document_3.html
+[fetch] document_3 not found — stopping. Fetched 2 document(s).
+[fetch] combined 2 document(s), 3,794,841 source bytes → 3,787,852 combined bytes
+[citation] National Consumer Credit Protection Act 2009 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 14080
+[parser-unknown-class] "Specials", text="3ZQU  Purposes for which things may be used and shared"
+[parser-unknown-class] "Specials", text="3ZQUA  Commonwealth law permitting access to things seized under this Part does not apply"
+[parser-diag] processed 14080 <p> elements
+[parser-diag] last section was added at element index: 11907
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: true
+[parse] sections: 1154
+[parse] compilation: date=2025-06-10 no=50
+[parse] by level:
+         chapter      7
+         part         46
+         section      543
+         division     195
+         subdivision  46
+         schedule     1
+         schedule_part 15
+         schedule_clause 301
+[db] inserted new legislation row: 829395a1-fd8e-49b8-bf51-240ba0a97189
+[db] inserting 1154 sections (pass 1)
+[db] inserted 1154 sections
+[db] linking parent FKs (pass 2)
+[db] linked 1146 parent references
+
+[done] ingested National Consumer Credit Protection Act 2009
+       legislation_id: 829395a1-fd8e-49b8-bf51-240ba0a97189
+       sections: 1154
+       compilation: 2025-06-10

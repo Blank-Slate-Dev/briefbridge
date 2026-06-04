@@ -1,0 +1,26 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00519/1997-06-02/1997-06-02/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 74,699 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00519/1997-06-02/1997-06-02/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 74,699 source bytes → 73,799 combined bytes
+[citation] Superannuation (Unclaimed Money and Lost Members) Consequential and Transitional Act 1999 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 335
+[parser-diag] processed 335 <p> elements
+[parser-diag] last section was added at element index: -1
+[parser-diag] state phase at end: PRE_BODY
+[parser-diag] hierarchy stack depth at end: 0
+[parser-diag] insideSchedule at end: false
+[parse] sections: 0
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+[db] inserted new legislation row: b18d9d38-e0d1-4f52-adea-59877ece7a14
+[db] inserting 0 sections (pass 1)
+[db] inserted 0 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Superannuation (Unclaimed Money and Lost Members) Consequential and Transitional Act 1999
+       legislation_id: b18d9d38-e0d1-4f52-adea-59877ece7a14
+       sections: 0
+       compilation: 1997-06-02

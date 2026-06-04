@@ -1,0 +1,31 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A00553/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 152,725 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A00553/2025-12-05/2025-12-05/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 152,725 source bytes → 151,028 combined bytes
+[citation] Electronic Transactions Act 1999 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 584
+[parser-diag] processed 584 <p> elements
+[parser-diag] last section was added at element index: 408
+[parser-diag] state phase at end: ENDNOTES
+[parse] sections: 37
+[parse] compilation: date=2025-12-05 no=4
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: true
+[parse] by level:
+         part         4
+         section      26
+         division     3
+         schedule     1
+         schedule_clause 3
+[db] inserted new legislation row: 871022d7-0d97-4f22-98ce-58bb14b4a5d0
+[db] inserting 37 sections (pass 1)
+[db] inserted 37 sections
+[db] linking parent FKs (pass 2)
+[db] linked 32 parent references
+
+[done] ingested Electronic Transactions Act 1999
+       legislation_id: 871022d7-0d97-4f22-98ce-58bb14b4a5d0
+       sections: 37
+       compilation: 2025-12-05

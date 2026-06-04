@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01242/2026-03-27/2026-03-27/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 934,909 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01242/2026-03-27/2026-03-27/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 934,909 source bytes → 932,649 combined bytes
+[citation] Aviation Transport Security Act 2004 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 3538
+[parser-diag] processed 3538 <p> elements
+[parser-diag] last section was added at element index: 2764
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 264
+[parse] compilation: date=2026-03-27 no=39
+[parse] by level:
+         part         10
+         division     55
+         section      199
+[db] inserted new legislation row: 6a25c6af-9e26-4fbf-867e-2322dab5efd8
+[db] inserting 264 sections (pass 1)
+[db] inserted 264 sections
+[db] linking parent FKs (pass 2)
+[db] linked 254 parent references
+
+[done] ingested Aviation Transport Security Act 2004
+       legislation_id: 6a25c6af-9e26-4fbf-867e-2322dab5efd8
+       sections: 264
+       compilation: 2026-03-27

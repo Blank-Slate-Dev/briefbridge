@@ -1,0 +1,27 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01918/2019-09-01/2019-09-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 122,390 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01918/2019-09-01/2019-09-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 122,390 source bytes → 120,429 combined bytes
+[citation] Passenger Movement Charge Collection Act 1978 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 496
+[parser-diag] processed 496 <p> elements
+[parser-diag] last section was added at element index: 211
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: false
+[parse] sections: 16
+[parse] compilation: date=2019-09-01 no=21
+[parse] by level:
+         section      16
+[db] inserted new legislation row: 23dd7256-a63d-4128-8b1e-c8d52b1632fa
+[db] inserting 16 sections (pass 1)
+[db] inserted 16 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Passenger Movement Charge Collection Act 1978
+       legislation_id: 23dd7256-a63d-4128-8b1e-c8d52b1632fa
+       sections: 16
+       compilation: 2019-09-01

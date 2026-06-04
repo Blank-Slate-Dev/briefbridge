@@ -1,0 +1,102 @@
+[fetch] document_1: https://www.legislation.gov.au/C1944A00042/1973-12-31/1973-12-31/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 88,488 bytes
+[fetch] document_2: https://www.legislation.gov.au/C1944A00042/1973-12-31/1973-12-31/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 88,488 source bytes → 87,629 combined bytes
+[citation] United Nations Food and Agriculture Organization Act 1944 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 340
+[parser-unknown-class] "Article", text="Article I (Functions of the Organization)"
+[parser-unknown-class] "Article", text="Article II (Membership)"
+[parser-unknown-class] "Article", text="Article III (The Conference)"
+[parser-unknown-class] "Article", text="Article IV (Functions of the Conference)"
+[parser-unknown-class] "Article", text="Article V (The Executive Committee)"
+[parser-unknown-class] "Article", text="Article VI (Other Committees and Conferences)"
+[parser-unknown-class] "Article", text="Article VII (The Director-General)"
+[parser-unknown-class] "Article", text="Article VIII (Staff)"
+[parser-unknown-class] "Article", text="Article IX (Seat)"
+[parser-unknown-class] "Article", text="Article X (Regional and Liaison Offices)"
+[parser-unknown-class] "Article", text="Article XI (Reports by Members)"
+[parser-unknown-class] "Article", text="Article XII (Co-operation with other Organizations)"
+[parser-unknown-class] "Article", text="Article XIII (Relation to Any General World Organization)"
+[parser-unknown-class] "Article", text="Article XIV (Supervision of Other Organizations)"
+[parser-unknown-class] "Article", text="Article XV (Legal Status)"
+[parser-unknown-class] "Article", text="Article XVI (Fish and Forest Products)"
+[parser-unknown-class] "Article", text="Article XVII (Interpretation of Constitution)"
+[parser-unknown-class] "Article", text="Article XVIII (Expenses)"
+[parser-unknown-class] "Article", text="Article XIX (Withdrawal)"
+[parser-unknown-class] "Article", text="Article XX (Amendment of Constitution)"
+[parser-unknown-class] "Article", text="Article XXI (Entry into Force of Constitution)"
+[parser-unknown-class] "Article", text="Article XXII (First Session of the Conference)"
+[parser-unknown-class] "Article", text="Article XXIV (Temporary Seat)"
+[parser-unknown-class] "Article", text="Article XXV (First Financial Year)"
+[parser-unknown-class] "Article", text="Article XXVI (Dissolution of the Interim Commission)"
+[parser-unknown-class] "Table", text="Australia."
+[parser-unknown-class] "Table", text="India."
+[parser-unknown-class] "Table", text="Belgium."
+[parser-unknown-class] "Table", text="Iran."
+[parser-unknown-class] "Table", text="Bolivia. ."
+[parser-unknown-class] "Table", text="Iraq"
+[parser-unknown-class] "Table", text="Brazil."
+[parser-unknown-class] "Table", text="Liberia."
+[parser-unknown-class] "Table", text="Canada."
+[parser-unknown-class] "Table", text="Luxembourg."
+[parser-unknown-class] "Table", text="Chile."
+[parser-unknown-class] "Table", text="Mexico."
+[parser-unknown-class] "Table", text="China."
+[parser-unknown-class] "Table", text="Netherlands."
+[parser-unknown-class] "Table", text="Colombia."
+[parser-unknown-class] "Table", text="New Zealand."
+[parser-unknown-class] "Table", text="Costa Rica."
+[parser-unknown-class] "Table", text="Nicaragua."
+[parser-unknown-class] "Table", text="Cuba."
+[parser-unknown-class] "Table", text="Norway."
+[parser-unknown-class] "Table", text="Czechoslovakia."
+[parser-unknown-class] "Table", text="Panama."
+[parser-unknown-class] "Table", text="Denmark."
+[parser-unknown-class] "Table", text="Paraguay."
+[parser-unknown-class] "Table", text="Dominican Republic."
+[parser-unknown-class] "Table", text="Peru."
+[parser-unknown-class] "Table", text="Ecuador."
+[parser-unknown-class] "Table", text="Philippine Commonwealth."
+[parser-unknown-class] "Table", text="Egypt."
+[parser-unknown-class] "Table", text="Poland."
+[parser-unknown-class] "Table", text="El Salvador."
+[parser-unknown-class] "Table", text="Union of South Africa."
+[parser-unknown-class] "Table", text="Ethiopia."
+[parser-unknown-class] "Table", text="Union of Soviet Socialist Republics."
+[parser-unknown-class] "Table", text="France."
+[parser-unknown-class] "Table", text="United Kingdom."
+[parser-unknown-class] "Table", text="Greece."
+[parser-unknown-class] "Table", text="United States of America."
+[parser-unknown-class] "Table", text="Guatemala."
+[parser-unknown-class] "Table", text="Uruguay."
+[parser-unknown-class] "Table", text="Haiti."
+[parser-unknown-class] "Table", text="Venezuela."
+[parser-unknown-class] "Table", text="Honduras."
+[parser-unknown-class] "Table", text="Yugoslavia."
+[parser-unknown-class] "Table", text="Iceland."
+[parser-unknown-class] "Table", text=""
+[parser-unknown-class] "ActNotesa", text=""
+[parser-diag] processed 340 <p> elements
+[parser-diag] last section was added at element index: 38
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 7
+[parse] compilation: date=(none) no=(none)
+[parse] warnings: 1
+  - ActHead1 with unexpected leading word: "The Schedule—Constitution Of The Food And Agriculture Organization Of The Uni...". Captured as 'schedule' as fallback.
+[parse] by level:
+         section      6
+         schedule     1
+[db] inserted new legislation row: 01d0f6c6-b59f-4f80-98fd-6c07f78d6830
+[db] inserting 7 sections (pass 1)
+[db] inserted 7 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested United Nations Food and Agriculture Organization Act 1944
+       legislation_id: 01d0f6c6-b59f-4f80-98fd-6c07f78d6830
+       sections: 7
+       compilation: 1973-12-31

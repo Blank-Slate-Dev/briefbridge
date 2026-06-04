@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2019A00055/2024-07-06/2024-07-06/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 280,671 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2019A00055/2024-07-06/2024-07-06/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 280,671 source bytes → 278,715 combined bytes
+[citation] Future Drought Fund Act 2019 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1066
+[parser-diag] processed 1066 <p> elements
+[parser-diag] last section was added at element index: 916
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 108
+[parse] compilation: date=2024-07-06 no=4
+[parse] by level:
+         part         6
+         section      87
+         division     11
+         subdivision  4
+[db] inserted new legislation row: 779f0c0f-8278-4a9e-88d0-a09b0cf8f7f0
+[db] inserting 108 sections (pass 1)
+[db] inserted 108 sections
+[db] linking parent FKs (pass 2)
+[db] linked 102 parent references
+
+[done] ingested Future Drought Fund Act 2019
+       legislation_id: 779f0c0f-8278-4a9e-88d0-a09b0cf8f7f0
+       sections: 108
+       compilation: 2024-07-06

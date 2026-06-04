@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2022A00088/2026-03-28/2026-03-28/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 1,124,104 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2022A00088/2026-03-28/2026-03-28/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 1,124,104 source bytes → 1,119,135 combined bytes
+[citation] National Anti-Corruption Commission Act 2022 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 4131
+[parser-diag] processed 4131 <p> elements
+[parser-diag] last section was added at element index: 3892
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: false
+[parse] sections: 365
+[parse] compilation: date=2026-03-28 no=11
+[parse] by level:
+         part         13
+         section      282
+         division     39
+         subdivision  31
+[db] inserted new legislation row: f2f882cb-7de8-451b-b2b9-fa04541fcf0d
+[db] inserting 365 sections (pass 1)
+[db] inserted 365 sections
+[db] linking parent FKs (pass 2)
+[db] linked 352 parent references
+
+[done] ingested National Anti-Corruption Commission Act 2022
+       legislation_id: f2f882cb-7de8-451b-b2b9-fa04541fcf0d
+       sections: 365
+       compilation: 2026-03-28

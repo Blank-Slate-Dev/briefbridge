@@ -1,0 +1,33 @@
+[fetch] document_1: https://www.legislation.gov.au/C2025A00069/2025-12-01/2025-12-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 141,417 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2025A00069/2025-12-01/2025-12-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 141,417 source bytes → 138,699 combined bytes
+[citation] National Environmental Protection Agency Act 2025 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 581
+[parser-unknown-class] "2ndRd", text="[Minister’s second reading speech made in—"
+[parser-unknown-class] "2ndRd", text="House of Representatives on 30 October 2025"
+[parser-unknown-class] "2ndRd", text="Senate on 24 November 2025]"
+[parser-diag] processed 581 <p> elements
+[parser-diag] last section was added at element index: 563
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 85
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         part         6
+         section      63
+         division     13
+         subdivision  3
+[db] inserted new legislation row: 7b59d371-35c8-41b1-873b-c7ef640bf181
+[db] inserting 85 sections (pass 1)
+[db] inserted 85 sections
+[db] linking parent FKs (pass 2)
+[db] linked 79 parent references
+
+[done] ingested National Environmental Protection Agency Act 2025
+       legislation_id: 7b59d371-35c8-41b1-873b-c7ef640bf181
+       sections: 85
+       compilation: 2025-12-01

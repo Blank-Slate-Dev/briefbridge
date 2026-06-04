@@ -1,0 +1,30 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A01102/2024-03-20/2024-03-20/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 418,589 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A01102/2024-03-20/2024-03-20/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 418,589 source bytes → 416,389 combined bytes
+[citation] Transport Safety Investigation Act 2003 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1648
+[parser-diag] processed 1648 <p> elements
+[parser-diag] last section was added at element index: 1246
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 126
+[parse] compilation: date=2024-03-20 no=10
+[parse] by level:
+         part         8
+         section      97
+         division     19
+         subdivision  2
+[db] inserted new legislation row: a9ed4304-50db-4598-a28b-29990e546fe0
+[db] inserting 126 sections (pass 1)
+[db] inserted 126 sections
+[db] linking parent FKs (pass 2)
+[db] linked 118 parent references
+
+[done] ingested Transport Safety Investigation Act 2003
+       legislation_id: a9ed4304-50db-4598-a28b-29990e546fe0
+       sections: 126
+       compilation: 2024-03-20

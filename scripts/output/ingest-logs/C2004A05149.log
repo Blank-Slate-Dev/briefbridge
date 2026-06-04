@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A05149/2019-12-12/2019-12-12/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 76,450 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A05149/2019-12-12/2019-12-12/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 76,450 source bytes → 74,470 combined bytes
+[citation] Telecommunications (Numbering Charges) Act 1997 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 349
+[parser-diag] processed 349 <p> elements
+[parser-diag] last section was added at element index: 170
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 28
+[parse] compilation: date=2019-12-12 no=10
+[parse] by level:
+         part         3
+         section      23
+         division     2
+[db] inserted new legislation row: a7527729-a51e-4895-914e-6f3104b6c6da
+[db] inserting 28 sections (pass 1)
+[db] inserted 28 sections
+[db] linking parent FKs (pass 2)
+[db] linked 25 parent references
+
+[done] ingested Telecommunications (Numbering Charges) Act 1997
+       legislation_id: a7527729-a51e-4895-914e-6f3104b6c6da
+       sections: 28
+       compilation: 2019-12-12

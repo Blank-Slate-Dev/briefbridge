@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03760/2020-08-10/2020-08-10/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 213,843 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03760/2020-08-10/2020-08-10/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 213,843 source bytes → 211,770 combined bytes
+[citation] Australian Sports Commission Act 1989 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 852
+[parser-diag] processed 852 <p> elements
+[parser-diag] last section was added at element index: 441
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 62
+[parse] compilation: date=2020-08-10 no=20
+[parse] by level:
+         part         8
+         section      54
+[db] inserted new legislation row: 59811991-680d-4504-be22-b04e6f884897
+[db] inserting 62 sections (pass 1)
+[db] inserted 62 sections
+[db] linking parent FKs (pass 2)
+[db] linked 54 parent references
+
+[done] ingested Australian Sports Commission Act 1989
+       legislation_id: 59811991-680d-4504-be22-b04e6f884897
+       sections: 62
+       compilation: 2020-08-10

@@ -1,0 +1,28 @@
+[fetch] document_1: https://www.legislation.gov.au/C2012A00011/2022-01-01/2022-01-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 83,565 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2012A00011/2022-01-01/2022-01-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 83,565 source bytes → 81,622 combined bytes
+[citation] Education Services for Overseas Students (TPS Levies) Act 2012 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 353
+[parser-diag] processed 353 <p> elements
+[parser-diag] last section was added at element index: 204
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 2
+[parser-diag] insideSchedule at end: false
+[parse] sections: 20
+[parse] compilation: date=2022-01-01 no=5
+[parse] by level:
+         part         3
+         section      17
+[db] inserted new legislation row: 8af446ee-7022-4c9e-98d6-2557e1e64166
+[db] inserting 20 sections (pass 1)
+[db] inserted 20 sections
+[db] linking parent FKs (pass 2)
+[db] linked 17 parent references
+
+[done] ingested Education Services for Overseas Students (TPS Levies) Act 2012
+       legislation_id: 8af446ee-7022-4c9e-98d6-2557e1e64166
+       sections: 20
+       compilation: 2022-01-01

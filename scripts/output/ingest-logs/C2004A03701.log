@@ -1,0 +1,29 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03701/2018-07-01/2018-07-01/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 255,719 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03701/2018-07-01/2018-07-01/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 255,719 source bytes → 253,266 combined bytes
+[citation] Australian Capital Territory (Planning and Land Management) Act 1988 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 1011
+[parser-diag] processed 1011 <p> elements
+[parse] sections: 102
+[parse] compilation: date=2018-07-01 no=19
+[parse] by level:
+[parser-diag] last section was added at element index: 700
+[parser-diag] state phase at end: ENDNOTES
+[parser-diag] hierarchy stack depth at end: 3
+[parser-diag] insideSchedule at end: false
+         part         9
+         section      84
+         division     9
+[db] inserted new legislation row: c6c99dd4-aeae-4ce2-a7dd-f86edf7125e1
+[db] inserting 102 sections (pass 1)
+[db] inserted 102 sections
+[db] linking parent FKs (pass 2)
+[db] linked 93 parent references
+
+[done] ingested Australian Capital Territory (Planning and Land Management) Act 1988
+       legislation_id: c6c99dd4-aeae-4ce2-a7dd-f86edf7125e1
+       sections: 102
+       compilation: 2018-07-01

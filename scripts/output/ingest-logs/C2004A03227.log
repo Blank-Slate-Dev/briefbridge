@@ -1,0 +1,35 @@
+[fetch] document_1: https://www.legislation.gov.au/C2004A03227/2008-10-18/2008-10-18/text/original/epub/OEBPS/document_1/document_1.html
+[fetch] document_1: 85,334 bytes
+[fetch] document_2: https://www.legislation.gov.au/C2004A03227/2008-10-18/2008-10-18/text/original/epub/OEBPS/document_2/document_2.html
+[fetch] document_2 not found — stopping. Fetched 1 document(s).
+[fetch] combined 1 document(s), 85,334 source bytes → 84,127 combined bytes
+[citation] Petroleum Revenue Act 1985 (Cth)
+[parse] starting
+[parser-diag] total <p> elements found: 242
+[parser-unknown-class] "TableA0", text="Table A"
+[parser-unknown-class] "TableAHead", text="Application, saving or transitional provisions"
+[parser-unknown-class] "TableAHeadItal", text="Excise Legislation Amendment (Condensate) Act 2008 (No. 108, 2008)"
+[parser-unknown-class] "ItemHead", text="Schedule 1"
+[parser-unknown-class] "ItemHead", text="13  Application"
+[parser-unknown-class] "SubitemHead", text="Application of Schedule"
+[parser-unknown-class] "Subitem", text="(1) The amendments made by this Schedule apply in relation to condensate produced after midnight ..."
+[parser-diag] processed 242 <p> elements
+[parser-diag] last section was added at element index: 178
+[parser-diag] state phase at end: BODY
+[parser-diag] hierarchy stack depth at end: 1
+[parser-diag] insideSchedule at end: true
+[parse] sections: 10
+[parse] compilation: date=(none) no=(none)
+[parse] by level:
+         section      8
+         schedule     2
+[db] inserted new legislation row: a4f1c16d-8964-4b8b-8368-b546c1f1598c
+[db] inserting 10 sections (pass 1)
+[db] inserted 10 sections
+[db] linking parent FKs (pass 2)
+[db] linked 0 parent references
+
+[done] ingested Petroleum Revenue Act 1985
+       legislation_id: a4f1c16d-8964-4b8b-8368-b546c1f1598c
+       sections: 10
+       compilation: 2008-10-18
