@@ -1,0 +1,3540 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2009-060"
+title="NSW Lotteries (Authorised Transaction) Act 2009"
+year="2009"
+number="60"
+enact.or.made.date="2009-09-16"
+first.valid.date="2021-07-01"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2009</metacontent>
+<metacontent class="year.assent">2009</metacontent>
+<metacontent class="publication.date">2021-07-01</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2018-070</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="introduction.date">2009-06-03</metacontent>
+<metacontent class="la.second.reading.date">2009-06-03</metacontent>
+<metacontent class="amended.in.committee">1</metacontent>
+<metacontent class="year.introduced">2009</metacontent>
+<metacontent class="amending">none</metacontent>
+<metacontent class="id">act-2009-060</metacontent>
+<metacontent
+class="version.desc.id">9bd3f161-00f3-49f7-8ce5-777415583f5f</metacontent>
+<metacontent
+class="version.series.id">1fb95688-af12-48be-9378-29cbc37dd3ec</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="NSW Lotteries (Authorised Transaction) Act
+2009"></attrib>
+<attrib name="year.passed" value="2009"></attrib>
+<attrib name="year.assent" value="2009"></attrib>
+<attrib name="no" value="60"></attrib>
+<attrib name="publication.date" value="2021-07-01"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2018-070"></attrib>
+<attrib name="first.valid.date" value="2021-07-01"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="introduction.date" value="2009-06-03"></attrib>
+<attrib name="la.second.reading.date" value="2009-06-03"></attrib>
+<attrib name="amended.in.committee" value="1"></attrib>
+<attrib name="assent.date" value="2009-09-16"></attrib>
+<attrib name="year.introduced" value="2009"></attrib>
+<attrib name="amending" value="none"></attrib>
+<attrib name="id" value="act-2009-060"></attrib>
+<attrib name="version.desc.id"
+value="9bd3f161-00f3-49f7-8ce5-777415583f5f"></attrib>
+<attrib name="version.series.id"
+value="1fb95688-af12-48be-9378-29cbc37dd3ec"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="id" value="cd-status"></attrib>
+<attrib name="guid"
+value="_efd607e3-649e-49d5-b428-d3898dfb5210"></attrib></parentattributes>
+
+<head><heading id="cd-status-he"
+guid="_65c78973-5aae-410f-be83-6f57b26b1978"><b>Editorial
+note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="id" value="frnt-lt"></attrib>
+<attrib name="guid"
+value="_7cd0cd41-77bb-4d14-bb09-264b002d29bb"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to provide for the transfer of the
+business of New South Wales Lotteries Corporation, and for other
+purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="id" value="pt.1"></attrib>
+<attrib name="guid" value="_ccf75427-0ba4-4c04-ba65-16d6e7f6f350"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading id="pt.1-he"
+guid="_fe3e31ee-045f-433e-9ce6-0ae71f69bb49"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="id" value="sec.1"></attrib>
+<attrib name="guid" value="_45c651bc-2272-4f38-a828-d8e32f6033bf"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading id="sec.1-he"
+guid="_23351893-1f67-4664-90a3-379b455bb9e4"><b>Name of
+Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref jurisd="NSW" type="act"
+refid="act-2009-060" check="unknown"><name emphasis="yes"><i>NSW Lotteries
+(Authorised Transaction) Act 2009</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="id" value="sec.2"></attrib>
+<attrib name="guid" value="_ce9792bd-c58f-4e9c-b7e3-b9855731187f"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading id="sec.2-he"
+guid="_c45a83d2-f1c2-46f4-a897-422d6d1ac1b4"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on a day or days to be
+appointed by proclamation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="id" value="sec.3"></attrib>
+<attrib name="guid" value="_04b8c722-dce8-4f19-ba86-81fb1ceeb9a2"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading id="sec.3-he"
+guid="_b626ee1c-f588-4495-91d2-f9a065e4eb06"><b>Interpretation</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.1"></attrib>
+<attrib name="guid" value="_c482c6ee-61d6-49cd-9ee7-128ea0d17a7d"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no><heading id="sec.3-ssec.1-he"
+guid="_4e3288a6-d28c-45c8-9687-ad735bc26857"><b>Key
+definitions</b></heading></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm id="sec.3-def.authorisedtransaction"
+guid="_0c7d0298-4ca7-41cf-894b-fc892ed79602"
+type="definition"><b><i>authorised transaction</i></b></defterm> means the
+transfer of NSW Lotteries assets authorised by Part 2.</txt></block>
+<block><txt break.before="1"><defterm id="sec.3-def.NSWLotteries"
+guid="_fa1b1d3b-8835-40de-9300-d9c0fbe1eb02" type="definition"><b><i>NSW
+Lotteries</i></b></defterm> means New South Wales Lotteries Corporation
+constituted by the <legref jurisd="NSW" type="act" refid="act-1996-085"
+check="unknown"><name emphasis="yes"><i>New South Wales Lotteries
+Corporatisation Act 1996</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm id="sec.3-def.NSWLotteriesassets"
+guid="_2b914117-090c-4b03-a542-192347679d3f" type="definition"><b><i>NSW
+Lotteries assets</i></b></defterm> means assets, rights and liabilities of NSW
+Lotteries.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.2"></attrib>
+<attrib name="guid" value="_abb9f15a-5aca-431b-991e-4c13d0887353"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no><heading id="sec.3-ssec.2-he"
+guid="_9078fbc9-4d5a-4f36-87be-08c59dcdcc9c"><b>Other interpretative
+provisions</b></heading></head>
+<block><txt break.before="1">Expressions used in this Act that are defined in
+Schedule 1 have the meanings set out in that Schedule.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="id" value="pt.2"></attrib>
+<attrib name="guid" value="_2a08541c-6ec4-42e9-a594-8f24e9fa1df6"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading id="pt.2-he"
+guid="_ebc0ca8a-30bf-4825-9a46-0c303e284aa8"><b>The authorised
+transaction</b></heading></head>
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="id" value="sec.4"></attrib>
+<attrib name="guid" value="_eec4402b-5889-4da1-8b2f-a0300ff2baed"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading id="sec.4-he"
+guid="_3b0db55b-5086-454d-901f-fa196282f12d"><b>Authority for transfer of NSW
+Lotteries assets to private sector</b></heading></head>
+<block><txt break.before="1">This Act authorises the transfer to the private
+sector of any NSW Lotteries assets.</txt></block></level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="id" value="sec.5"></attrib>
+<attrib name="guid" value="_f03e2f23-eb49-4faa-87ac-c8730a2dff75"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading id="sec.5-he"
+guid="_35f0e408-f87b-4535-87cc-2d997085e602"><b>Transfer of NSW Lotteries
+assets to public sector agencies</b></heading></head>
+<block><txt break.before="1">This Act authorises the transfer of any NSW
+Lotteries assets to one or more public sector agencies.</txt></block></level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="id" value="sec.6"></attrib>
+<attrib name="guid" value="_57837bea-d2b2-47e4-97e7-e1d7c1c71971"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading id="sec.6-he"
+guid="_41b6c16b-bebe-4bff-ad5b-67e9545efdef"><b>Proceeds of
+transaction</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.6-ssec.1"></attrib>
+<attrib name="guid" value="_91cfe152-8f9e-4534-aad8-5b002a771b08"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The proceeds of the transfer of NSW Lotteries
+assets to the private sector pursuant to the authorised transaction (<defterm
+id="sec.6-def.thetransactionproceeds"
+guid="_792e1074-9ffc-40da-9291-5cd32fc30a4c" type="definition"><b><i>the
+transaction proceeds</i></b></defterm>) belong to and are payable directly to
+the State.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.6-ssec.2"></attrib>
+<attrib name="guid" value="_e153f45e-d429-4ad4-8329-dfd8adabfe02"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The transaction proceeds paid to the State are to
+be paid into the Consolidated Fund.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.3">
+<parentattributes>
+<attrib name="id" value="sec.6-ssec.3"></attrib>
+<attrib name="guid" value="_576fe9cf-13ec-4812-b03f-f7212e1d682d"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The following deductions are authorised to be
+made from the transaction proceeds&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.6-ssec.3-para1.a" guid="_62e98d25-3244-4785-b0f1-069348bb7090"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">deduction of such amounts as the Treasurer
+approves to repay debt and satisfy other liabilities of a public sector agency
+in respect of NSW Lotteries assets transferred for the purposes of the
+authorised transaction,</txt></block></li>
+<li id="sec.6-ssec.3-para1.b" guid="_4d775cd8-adc7-4351-a407-12410cf0f07d"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">deduction of such amounts as the Treasurer
+approves to reimburse public sector agencies for payments made by them in
+respect of any tax, duty, fee or charge imposed by any Act or law of the State
+or any other jurisdiction in connection with a transaction
+arrangement,</txt></block></li>
+<li id="sec.6-ssec.3-para1.c" guid="_1db63d59-ccd0-4a99-8805-40728bf62d58"
+provision.type="other" affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">deduction of such amounts as the Treasurer
+approves to satisfy any liability of a public sector agency arising under or
+in connection with a transaction arrangement,</txt></block></li>
+<li id="sec.6-ssec.3-para1.d" guid="_8a15cd0e-dccc-49cc-88e0-63ed4f4ede58"
+provision.type="other" affected.by.uncommenced="0">
+<no>(d)</no>
+<block><txt break.before="1">deduction of such amounts as the Treasurer
+approves to meet expenses reasonably incurred by public sector agencies for
+the purposes of the authorised transaction.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.4">
+<parentattributes>
+<attrib name="id" value="sec.6-ssec.4"></attrib>
+<attrib name="guid" value="_f6a21dac-c276-4457-bcb6-8ef49dec2889"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The transaction proceeds do not include any
+amount certified by the Treasurer to have been paid to a public sector agency
+as a tax, duty, fee or charge imposed by any Act or law of the State in
+connection with a transaction arrangement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.5">
+<parentattributes>
+<attrib name="id" value="sec.6-ssec.5"></attrib>
+<attrib name="guid" value="_72939acb-a8b5-4bd9-960c-6a8122361a91"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The deductions authorised to be made from the
+transaction proceeds may be made before payment of the transaction proceeds
+into the Consolidated Fund or may be made by payment from the Consolidated
+Fund.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.6">
+<parentattributes>
+<attrib name="id" value="sec.6-ssec.6"></attrib>
+<attrib name="guid" value="_bb0672a7-5c05-46f6-bbc9-bae0b1ec3c2a"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">The requirements of this section do not affect
+the validity of a transaction arrangement.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="id" value="pt.3"></attrib>
+<attrib name="guid" value="_240ecd9e-2da4-4bf0-acc3-b84a978bbdc2"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading id="pt.3-he"
+guid="_e77684d3-6551-449a-a2b5-03806d1ae834"><b>Facilitating the authorised
+transaction</b></heading></head>
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="id" value="sec.7"></attrib>
+<attrib name="guid" value="_0f03503c-840c-4899-a1ed-4a377f8bb04f"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading id="sec.7-he"
+guid="_4bea6e94-7f74-4cfa-b04a-ca97fd079034"><b>Treasurer&#8217;s
+functions</b></heading></head>
+<block><txt break.before="1">The Treasurer has and may exercise all such
+functions as are necessary or convenient for the purposes of the authorised
+transaction. The functions conferred on the Treasurer by any other provision
+of this Act do not limit the Treasurer&#8217;s functions under this
+section.</txt></block></level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="id" value="sec.8"></attrib>
+<attrib name="guid" value="_4319f010-9ac1-48ce-9fb2-d953381b1e04"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading id="sec.8-he"
+guid="_2c291402-39c3-4c29-b6e3-ae2da7ebb7be"><b>Transaction
+companies</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.8-ssec.1"></attrib>
+<attrib name="guid" value="_d366c481-494f-4360-902b-4d6d177dcbe5"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Treasurer may for the purposes of the
+authorised transaction establish, or direct the establishment of, companies as
+<defterm id="sec.8-def.transactioncompanies"
+guid="_48fb51a6-e618-4a78-bd21-df00256d60cb"
+type="definition"><b><i>transaction companies</i></b></defterm> in any of the
+following ways&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.8-ssec.1-para1.a" guid="_a3496db5-32ab-4ee9-afb0-6c276ffabb76"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">the formation or acquisition by or on behalf of
+the State or a SOC of a company limited by shares, so that all the issued
+shares in the company are held by or on behalf of the State or a SOC (or
+both),</txt></block></li>
+<li id="sec.8-ssec.1-para1.b" guid="_63f65fe9-97b7-48b7-85aa-2bfddc117dd9"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">the formation or acquisition of a company as a
+wholly owned subsidiary company of a transaction company,</txt></block></li>
+<li id="sec.8-ssec.1-para1.c" guid="_5c46a3c0-b79b-4f7a-8a07-c33c5e299d39"
+provision.type="other" affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">the conversion of NSW Lotteries into a company
+limited by shares as provided by Schedule 2.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.8-ssec.2"></attrib>
+<attrib name="guid" value="_4c871920-f948-4181-9309-5f2f8b9f6c1c"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A transaction company that is a public sector
+agency may be converted from one kind of company to any other kind of
+company.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="id" value="sec.8-ssec.3"></attrib>
+<attrib name="guid" value="_797b64a3-8b59-48e3-a18d-2ff01280c784"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Except by express agreement with the
+Treasurer&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.8-ssec.3-para1.a" guid="_345f191f-1c57-4938-8a05-4487a72f7b6c"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">a transaction company is not and does not
+represent the State, and</txt></block></li>
+<li id="sec.8-ssec.3-para1.b" guid="_ef08a0bb-4a57-4511-abab-faa669eab354"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">the debts, liabilities and obligations of a
+transaction company are not guaranteed by the
+State.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.4">
+<parentattributes>
+<attrib name="id" value="sec.8-ssec.4"></attrib>
+<attrib name="guid" value="_54f9972a-5a6e-4669-9d6a-a2fcf5a55009"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Treasurer may act for or on behalf of the
+State, a SOC or a transaction company that is a public sector agency in
+connection with the rights, privileges and benefits, and the duties,
+liabilities and obligations of the State, the SOC or the transaction company
+as the holder of shares or other securities in a transaction
+company.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.5">
+<parentattributes>
+<attrib name="id" value="sec.8-ssec.5"></attrib>
+<attrib name="guid" value="_804a33c3-5424-42c4-a4bb-7078fd401181"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Shares and other securities in a transaction
+company that is a public sector agency may be issued, sold or transferred in
+accordance with the directions of the Treasurer.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.6">
+<parentattributes>
+<attrib name="id" value="sec.8-ssec.6"></attrib>
+<attrib name="guid" value="_fc330a77-b7a7-4858-a756-40274837caa9"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">The Treasurer may on behalf of the State, a SOC
+or a transaction company that is a public sector agency enter into and carry
+out transaction arrangements for the issue, sale or transfer of shares and
+other securities in a transaction company.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="id" value="sec.9"></attrib>
+<attrib name="guid" value="_4a19f7e8-31c0-4bfa-b5ca-9a4a2ce7806b"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading id="sec.9-he"
+guid="_8ea28b26-3a5c-4681-85f3-1477073357d0"><b>Functions of NSW Lotteries and
+transaction companies</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.9-ssec.1"></attrib>
+<attrib name="guid" value="_f2313784-b191-40b1-be32-e9d0cb7e09d1"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">NSW Lotteries and any transaction company have
+and may exercise all such functions as are necessary or convenient for the
+purposes of the authorised transaction.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.9-ssec.2"></attrib>
+<attrib name="guid" value="_b88b79e0-51be-4b89-85c5-9e74defacc92"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The functions conferred by this section are in
+addition to any other functions that NSW Lotteries or a transaction company
+has apart from this section and those other functions do not prevent or
+otherwise limit the exercise of the additional functions conferred by this
+section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.3">
+<parentattributes>
+<attrib name="id" value="sec.9-ssec.3"></attrib>
+<attrib name="guid" value="_8c86b9a2-1d7a-413b-a39d-110e305d781f"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Treasurer may act for and on behalf of and in
+the name of NSW Lotteries or any transaction company (while it is a public
+sector agency) in the exercise of any of its functions for the purposes of the
+authorised transaction.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="id" value="sec.10"></attrib>
+<attrib name="guid" value="_5d26858c-faf7-42db-90bf-11d505d14891"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading id="sec.10-he"
+guid="_bb9e67f5-26be-4a5d-be67-6bc3c83c39b4"><b>Direction and control of NSW
+Lotteries and transaction companies</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.10-ssec.1"></attrib>
+<attrib name="guid" value="_cba866ed-e100-42f3-9580-6b73886c67ad"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">NSW Lotteries and any transaction company (while
+it is a public sector agency) are subject to the direction and control of the
+Treasurer in the exercise of any of their functions for the purposes of the
+authorised transaction.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.10-ssec.2"></attrib>
+<attrib name="guid" value="_1f89f975-1a3b-4b06-a605-a4845d26aac9"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Treasurer may give directions for the
+purposes of the authorised transaction to NSW Lotteries and to any transaction
+company, and to the directors and other officers of NSW Lotteries or a
+transaction company. Any such directions must be complied with by NSW
+Lotteries, the transaction company or the directors or other officers
+concerned.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="id" value="sec.10-ssec.3"></attrib>
+<attrib name="guid" value="_89ed488c-e3e4-47e5-b463-91fecd79d213"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Directions to a transaction company (or its
+directors and other officers) can only be given and are only required to be
+complied with while the transaction company is a public sector
+agency.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.4">
+<parentattributes>
+<attrib name="id" value="sec.10-ssec.4"></attrib>
+<attrib name="guid" value="_4c95f5af-6dd1-4845-a9cf-ee12afb1b5e5"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The power to give directions under this section
+extends to directions with respect to the way in which NSW Lotteries or a
+transaction company is to conduct its business and other
+affairs.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.5">
+<parentattributes>
+<attrib name="id" value="sec.10-ssec.5"></attrib>
+<attrib name="guid" value="_66bd0d37-1cd7-4310-93cb-d51496bf2fa3"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Action taken by NSW Lotteries to comply with a
+direction of the Treasurer under this Act does not require the approval of the
+voting shareholders or portfolio Minister of NSW
+Lotteries.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.6">
+<parentattributes>
+<attrib name="id" value="sec.10-ssec.6"></attrib>
+<attrib name="guid" value="_6b507be4-f5c1-4d4e-8d7f-7659d4a479ac"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">Anything done or omitted to be done by a director
+or other officer of NSW Lotteries or a transaction company in complying with a
+direction given by the Treasurer under this Act does not subject the director
+or officer personally to any action, liability, claim or
+demand.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.7">
+<parentattributes>
+<attrib name="id" value="sec.10-ssec.7"></attrib>
+<attrib name="guid" value="_cc540080-8b8d-4476-b7cf-9885228f2885"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">The provisions of this section are declared to be
+Corporations legislation displacement provisions for the purposes of section
+5G of the Corporations Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.11" status="repealed">
+<parentattributes>
+<attrib name="id" value="sec.11"></attrib>
+<attrib name="guid" value="_bac913ab-95c6-46db-9c71-b7253c3aee8a"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>11</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Rep 2017 No 22,
+Sch 1.14 [1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="id" value="sec.12"></attrib>
+<attrib name="guid" value="_92510dc4-83df-4a5a-96bf-01ae765e1b74"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading id="sec.12-he"
+guid="_f77481f0-278f-4ff7-a43f-e2f1d8d3c2df"><b>Vesting
+orders</b></heading></head>
+<block><txt break.before="1">The Treasurer may make vesting orders under
+Schedule 3 for the purposes of the authorised
+transaction.</txt></block></level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="id" value="sec.13"></attrib>
+<attrib name="guid" value="_84671b03-f81e-42ff-a0dc-582a1ec2bb76"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading id="sec.13-he"
+guid="_fb59af35-e3e2-4429-a77f-8bbba0b4d4e7"><b>Employee
+protections</b></heading></head>
+<block><txt break.before="1">Schedule 4 contains provisions relating to the
+transfer of employees of NSW Lotteries for the purposes of the authorised
+transaction.</txt></block></level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="id" value="sec.14"></attrib>
+<attrib name="guid" value="_59f2a018-3f9b-4aaf-a32a-8589db0232fb"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading id="sec.14-he"
+guid="_8bbdf9a5-00dc-4cf0-b10a-dea2754aafa7"><b>State
+taxes</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.14-ssec.1"></attrib>
+<attrib name="guid" value="_49a74414-a607-4a62-ad2e-adba20e04cc2"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm id="sec.14-def.relevantmatter"
+guid="_93ab1d35-88a7-4e9d-9be7-6eba94c120aa" type="definition"><b><i>relevant
+matter</i></b></defterm> means any of the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.14-ssec.1-para1.a" guid="_b3a4696b-15ff-4f4f-a558-27ae36e361e0"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">the transfer of NSW Lotteries assets for the
+purposes of the authorised transaction,</txt></block></li>
+<li id="sec.14-ssec.1-para1.b" guid="_a7a90248-d565-4d32-89e2-ce2980445f06"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">a vesting of assets, rights or liabilities by
+operation of Schedule 3 (Vesting of assets, rights and liabilities) and
+anything certified by the Treasurer as having been done in consequence of such
+a vesting (for example, the transfer or registration of an interest in
+land),</txt></block></li>
+<li id="sec.14-ssec.1-para1.c" guid="_84c53342-381b-4026-bfa0-fbe64ae71290"
+provision.type="other" affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">the issue, disposal or purchase of shares or
+other securities in a company for the purposes of the authorised
+transaction,</txt></block></li>
+<li id="sec.14-ssec.1-para1.d" guid="_0da8338e-85a2-4381-ad09-7616290e4b13"
+provision.type="other" affected.by.uncommenced="0">
+<no>(d)</no>
+<block><txt break.before="1">any matter connected with the corporate
+conversion of NSW Lotteries for the purposes of the authorised
+transaction,</txt></block></li>
+<li id="sec.14-ssec.1-para1.e" guid="_09d8d839-3c14-48be-baa2-8dad83623931"
+provision.type="other" affected.by.uncommenced="0">
+<no>(e)</no>
+<block><txt break.before="1">such other matters for the purposes of the
+authorised transaction as may be prescribed by the
+regulations.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm id="sec.14-def.Statetax"
+guid="_93bcfceb-7240-4713-955e-a9baf0002ffe" type="definition"><b><i>State
+tax</i></b></defterm> means application or registration fees, duty under the
+<legref jurisd="NSW" type="act" refid="act-1997-123" check="unknown"><name
+emphasis="yes"><i>Duties Act 1997</i></name></legref> or any other tax, duty,
+fee or charge imposed by any Act or law of the State.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.14-ssec.2"></attrib>
+<attrib name="guid" value="_474c4d5e-18c3-4265-addc-b81b2520c3e7"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">State tax is not payable by a public sector
+agency in relation to a relevant matter.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.3">
+<parentattributes>
+<attrib name="id" value="sec.14-ssec.3"></attrib>
+<attrib name="guid" value="_ba2e09e3-7e21-4c53-bc83-cc39d0489854"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">State tax is not payable by a person or body
+(other than a public sector agency) in relation to a relevant matter to such
+extent (if any) as the Treasurer may direct by order in writing, either
+generally or in a particular case.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.4">
+<parentattributes>
+<attrib name="id" value="sec.14-ssec.4"></attrib>
+<attrib name="guid" value="_6a8ad670-3a57-445f-92a3-2d1234dd7ecc"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">An order may be made by the Treasurer under this
+section before or after the liability to pay the State tax concerned
+accrues.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.5">
+<parentattributes>
+<attrib name="id" value="sec.14-ssec.5"></attrib>
+<attrib name="guid" value="_7af126cd-afdb-423e-94d1-716bbfa93fa2"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The Treasurer must give a copy of an order under
+this section to the Chief Commissioner of State Revenue.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="id" value="sec.15"></attrib>
+<attrib name="guid" value="_93be1349-79d1-48c4-a214-43960d396050"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading id="sec.15-he"
+guid="_3652b5d9-26d5-46bb-a664-f9a960f52c8b"><b>Contracts for sale of
+land</b></heading></head>
+<block><txt break.before="1">Section 52A (Contracts for sale of land) of the
+<legref jurisd="NSW" type="act" refid="act-1919-006" check="unknown"><name
+emphasis="yes"><i>Conveyancing Act 1919</i></name></legref> does not apply to
+a contract for the sale of land that is entered into for the purposes of the
+authorised transaction.</txt></block></level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="id" value="pt.4"></attrib>
+<attrib name="guid" value="_6d7887f0-dc74-46a5-9d78-9de874eda537"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading id="pt.4-he"
+guid="_b945dfa7-8dac-4ccf-8e7b-5a6ac84cca64"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="id" value="sec.16"></attrib>
+<attrib name="guid" value="_9a75ce0c-fb0e-4145-bab3-468021ad8638"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading id="sec.16-he"
+guid="_08bf4af5-3f97-4ae9-99fa-5c1257fd1b4c"><b>Release of information by
+Auditor-General</b></heading></head>
+<block><txt break.before="1">Section 38 (Secrecy) of the <legref jurisd="NSW"
+type="act" refid="act-1983-152" check="unknown"><name
+emphasis="yes"><i>Government Sector Audit Act 1983</i></name></legref> does
+not apply to or in respect of a report or communication that the Treasurer
+authorises the Auditor-General to make to a person for the purposes of the
+authorised transaction.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 16:</b> Am 2018 No 70,
+Sch 4.75.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="id" value="sec.17"></attrib>
+<attrib name="guid" value="_c1dcf29d-b3e8-40da-be38-3cf2845de983"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading id="sec.17-he"
+guid="_2b616272-2716-4b9d-82f4-8d5cbf6be3af"><b>Delegation</b></heading></head>
+<block><txt break.before="1">The Treasurer may delegate to the Secretary of
+the Treasury, or to any other officer of the Government Service prescribed by
+the regulations, any function of the Treasurer under this Act except this
+power of delegation.</txt></block></level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="id" value="sec.18"></attrib>
+<attrib name="guid" value="_f57ec474-d69b-42aa-81e1-37a6246e9183"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading id="sec.18-he"
+guid="_8eab8e77-e8ef-48bd-8e7a-c30447afbfdb"><b>Act to bind State and other
+jurisdictions</b></heading></head>
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.18-ssec.1"></attrib>
+<attrib name="guid" value="_18ad7208-1d68-48d8-a593-6431d258ba6a"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This Act binds the State and, in so far as the
+legislative power of the Parliament of New South Wales permits, the other
+States, the Territories and the Commonwealth.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.18-ssec.2"></attrib>
+<attrib name="guid" value="_aa57b50a-eca1-4c07-b35e-d03862d268b3"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting subsection (1), this Act has
+effect despite any privilege or immunity of the Crown in any of its
+capacities.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.3">
+<parentattributes>
+<attrib name="id" value="sec.18-ssec.3"></attrib>
+<attrib name="guid" value="_fb6467a9-08d7-48d2-93b2-57cdd5b75c52"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This Act does not make any State or Territory,
+the Commonwealth, or the Crown in any of its capacities, liable to be
+prosecuted for an offence.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.4">
+<parentattributes>
+<attrib name="id" value="sec.18-ssec.4"></attrib>
+<attrib name="guid" value="_eb4d07e6-a6a3-462c-b79e-cd594d857f2e"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A reference in this section to a State, Territory
+or the Commonwealth includes a reference to the Government of the State,
+Territory or Commonwealth.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="id" value="sec.19"></attrib>
+<attrib name="guid" value="_e53790ae-ac19-440d-9c8c-0e39a779df4f"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading id="sec.19-he"
+guid="_5959200c-ffb3-4c16-a12f-e996cddb5076"><b>General relationship of Act
+with other State legislation</b></heading></head>
+
+<tier type="subclause" id="sec.19-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.19-ssec.1"></attrib>
+<attrib name="guid" value="_56d0a3b7-b4d0-4874-8f43-2e598aa950ac"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">None of the following provisions operate to
+prevent, restrict or otherwise limit the carrying out of the authorised
+transaction or the exercise of a function for the purposes of the authorised
+transaction&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.19-ssec.1-para1.a" guid="_0b3762af-2211-4519-84d7-5d6c3a20cb61"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">any provision of the <legref jurisd="NSW"
+type="act" refid="act-1989-134" check="unknown"><name emphasis="yes"><i>State
+Owned Corporations Act 1989</i></name></legref> or the <legref jurisd="NSW"
+type="act" refid="act-1996-085" check="unknown"><name emphasis="yes"><i>New
+South Wales Lotteries Corporatisation Act
+1996</i></name></legref>,</txt></block></li>
+<li id="sec.19-ssec.1-para1.b" guid="_176ac925-3a56-4bff-81d1-f9b20ba94413"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">any provision of the constitution of NSW
+Lotteries or a subsidiary of NSW Lotteries.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.19-ssec.2"></attrib>
+<attrib name="guid" value="_a9179677-80e1-481e-8873-2954cf8480f1"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In the event of any inconsistency between the
+provisions of this Act or the regulations and a provision of any other State
+legislation that is prescribed by the regulations as an inconsistent provision
+for the purposes of this section, the provisions of this Act or the
+regulations (as the case may be) prevail to the extent of the
+inconsistency.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="id" value="sec.20"></attrib>
+<attrib name="guid" value="_bf7a708b-644f-449e-8184-81944e7761f4"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading id="sec.20-he"
+guid="_22e1e05e-d16e-4999-96f6-67fb3b26d914"><b>Extraterritorial operation of
+Act</b></heading></head>
+
+<tier type="subclause" id="sec.20-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.20-ssec.1"></attrib>
+<attrib name="guid" value="_256d0de8-a2cc-423a-a7fb-6e7e9451df06"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">It is the intention of the Parliament of New
+South Wales that the operation of this Act should, as far as possible, include
+operation in relation to the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.20-ssec.1-para1.a" guid="_d1d73809-aac8-4621-8d37-dee59b313389"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">things situated in or outside the territorial
+limits of the State,</txt></block></li>
+<li id="sec.20-ssec.1-para1.b" guid="_4da380cf-5e64-4c96-b2a6-979978f7c977"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">acts, transactions and matters done, entered into
+or occurring in or outside the territorial limits of the
+State,</txt></block></li>
+<li id="sec.20-ssec.1-para1.c" guid="_fbce489b-f69f-4128-a585-4899885885d1"
+provision.type="other" affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">things, acts, transactions and matters (wherever
+situated, done, entered into or occurring) that would, apart from this Act, be
+governed or otherwise affected by the law of another State, a Territory, the
+Commonwealth or a foreign country.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.20-ssec.2"></attrib>
+<attrib name="guid" value="_675cffb2-2911-4c09-97c3-18bb1c5a1724"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting subsection (1), it is the
+intention of the Parliament of New South Wales that the provisions of this Act
+have an operation in relation to the things, acts, transactions and matters
+referred to in that subsection even if the rules of private international law
+(whether at general law or as provided by legislation) would require the
+application of a law other than this Act instead of the provisions of this
+Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.21">
+<parentattributes>
+<attrib name="id" value="sec.21"></attrib>
+<attrib name="guid" value="_ce27f864-4aa7-49a9-a3bf-54cd9e188a2b"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>21</no><heading id="sec.21-he"
+guid="_b5cbdfab-4779-461d-8f98-228ed8e82c0c"><b>Construction of Act and
+instruments so as not to exceed legislative power</b></heading></head>
+
+<tier type="subclause" id="sec.21-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.21-ssec.1"></attrib>
+<attrib name="guid" value="_bcab7142-1a04-42c3-9a58-39589801b2e9"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Unless a contrary intention appears, if a
+provision of this Act or an instrument made under this Act&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.21-ssec.1-para1.a" guid="_f43e4525-7c2c-4c5a-b795-3e06a53f85b2"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">would, apart from this section, have an invalid
+application, but</txt></block></li>
+<li id="sec.21-ssec.1-para1.b" guid="_e4ac7747-3d1b-4947-86a6-d2231cf1ba8a"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">also has at least one valid
+application,</txt></block></li></list>
+
+<txt break.before="1">it is the intention of the Parliament of New South Wales
+that the provision is not to have the invalid application, but is to have
+every valid application.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.21-ssec.2"></attrib>
+<attrib name="guid" value="_9e25618d-0849-4716-beec-62f21fa67e1c"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Despite subsection (1), the provision is not to
+have a particular valid application if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.21-ssec.2-para1.a" guid="_9a8a1db1-82bf-4884-8bc6-69867405b65b"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">apart from this section, it is clear, taking into
+account the provision&#8217;s context and the purposes or objects underlying
+this Act, that the provision was intended to have that valid application only
+if every invalid application, or a particular invalid application, of the
+provision had also been within the legislative power of the Parliament of New
+South Wales, or</txt></block></li>
+<li id="sec.21-ssec.2-para1.b" guid="_5b49f85a-8ef1-42cf-9f2a-fc5187377635"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">the provision&#8217;s operation in relation to
+that valid application would be different in a substantial respect from what
+would have been its operation in relation to that valid application if every
+invalid application, or a particular invalid application, of the provision had
+been within the legislative power of the Parliament of New South
+Wales.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.3">
+<parentattributes>
+<attrib name="id" value="sec.21-ssec.3"></attrib>
+<attrib name="guid" value="_39a74ccb-e65f-414e-9837-876cc90c1c50"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Subsection (2) does not limit the cases in which
+a contrary intention may be taken to appear for the purposes of subsection
+(1).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.4">
+<parentattributes>
+<attrib name="id" value="sec.21-ssec.4"></attrib>
+<attrib name="guid" value="_441b5995-7652-49f6-9673-346506541dfd"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">This section is in addition to, and not in
+derogation of, section 31 of the <legref jurisd="NSW" type="act"
+refid="act-1987-015" check="unknown"><name emphasis="yes"><i>Interpretation
+Act 1987</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.5">
+<parentattributes>
+<attrib name="id" value="sec.21-ssec.5"></attrib>
+<attrib name="guid" value="_13dc8734-ba9c-41e3-b28e-0ae68dacd354"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm id="sec.21-def.application"
+guid="_ea7b506b-a5bf-4d5b-b9b4-676ee0db50e5"
+type="definition"><b><i>application</i></b></defterm> means an application in
+relation to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.21-ssec.5-para1.a" guid="_c626a970-1945-4027-ac85-97f0d54c5f0e"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">one or more particular persons, things, matters,
+places, circumstances or cases, or</txt></block></li>
+<li id="sec.21-ssec.5-para1.b" guid="_0057438c-1b02-47a9-9dff-f0c61f41542d"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">one or more classes (however defined or
+determined) of persons, things, matters, places, circumstances or
+cases.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm id="sec.21-def.invalidapplication"
+guid="_097bf388-c9d3-4130-a5fd-a55a68ba4c8d" type="definition"><b><i>invalid
+application</i></b></defterm>, in relation to a provision, means an
+application because of which the provision exceeds the legislative power of
+the Parliament of New South Wales.</txt></block>
+<block><txt break.before="1"><defterm id="sec.21-def.validapplication"
+guid="_9e6a7afc-5bf9-4833-8217-bde859b80556" type="definition"><b><i>valid
+application</i></b></defterm>, in relation to a provision, means an
+application which, if it were the provision&#8217;s only application, would be
+within the legislative power of the Parliament of New South
+Wales.</txt></block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.22">
+<parentattributes>
+<attrib name="id" value="sec.22"></attrib>
+<attrib name="guid" value="_213afff5-5f1f-404a-a301-6380647ab2ef"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>22</no><heading id="sec.22-he"
+guid="_9a291c84-20e6-4907-b1dc-4e2c1eb550d5"><b>Protection of contractual and
+other obligations</b></heading></head>
+
+<tier type="subclause" id="sec.22-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.22-ssec.1"></attrib>
+<attrib name="guid" value="_7379f90a-32dc-46c5-8da4-ee0230bc1fa3"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This section applies to the
+following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.22-ssec.1-para1.a" guid="_226c0686-bd99-41fe-97b0-98414bb9379c"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">the operation of this Act (including any order
+under this Act and anything done or omitted to be done under or for the
+purposes of this Act),</txt></block></li>
+<li id="sec.22-ssec.1-para1.b" guid="_5429fc12-74be-4be7-84ce-cd7f517d80b6"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">the transfer of NSW Lotteries assets for the
+purposes of the authorised transaction,</txt></block></li>
+<li id="sec.22-ssec.1-para1.c" guid="_be2b5cc7-6548-4d3b-b605-b04671f07f7f"
+provision.type="other" affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">the entering into or performance of obligations
+under a transaction arrangement by a public sector agency,</txt></block></li>
+<li id="sec.22-ssec.1-para1.d" guid="_2cb67045-86c6-4456-914e-a59b526168bb"
+provision.type="other" affected.by.uncommenced="0">
+<no>(d)</no>
+<block><txt break.before="1">a disclosure of information by, on behalf of or
+with the consent of a public sector agency for the purposes of the authorised
+transaction.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.22-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.22-ssec.2"></attrib>
+<attrib name="guid" value="_63ac3b08-02d8-4213-bba2-78b41d111848"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">None of the matters or things to which this
+section applies are to be regarded as&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.22-ssec.2-para1.a" guid="_980aa82d-e9ac-4bc0-ada1-fb07929d99e2"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">a breach of contract or confidence or otherwise
+as a civil wrong, or</txt></block></li>
+<li id="sec.22-ssec.2-para1.b" guid="_66b8a24e-e299-487a-bf71-a43bdef75875"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">a breach of any instrument (including, without
+limitation, any provision prohibiting, restricting or regulating the
+assignment or transfer of assets, rights or liabilities) or as requiring any
+act to be done under an instrument, or</txt></block></li>
+<li id="sec.22-ssec.2-para1.c" guid="_59bb87e8-c177-47c3-a189-d3d0482ff0c9"
+provision.type="other" affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">giving rise to any right or remedy by a party to
+a contract or other instrument, or as causing or permitting the termination
+of, or exercise of rights under, any contract or other instrument,
+or</txt></block></li>
+<li id="sec.22-ssec.2-para1.d" guid="_56a1722a-f6d6-4a6a-a490-c618d3c82477"
+provision.type="other" affected.by.uncommenced="0">
+<no>(d)</no>
+<block><txt break.before="1">an event of default under any contract or other
+instrument, or</txt></block></li>
+<li id="sec.22-ssec.2-para1.e" guid="_57b59a6b-61ae-4fbf-b495-87c1a6d7b3ca"
+provision.type="other" affected.by.uncommenced="0">
+<no>(e)</no>
+<block><txt break.before="1">giving rise to a breach of or an offence against
+a provision of an Act that prohibits or restricts the disclosure of
+information, or</txt></block></li>
+<li id="sec.22-ssec.2-para1.f" guid="_8c324fb0-cd51-4946-b19a-fa5175fe9ecc"
+provision.type="other" affected.by.uncommenced="0">
+<no>(f)</no>
+<block><txt break.before="1">releasing a surety or other obligee wholly or in
+part from an obligation.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.22-ssec.3">
+<parentattributes>
+<attrib name="id" value="sec.22-ssec.3"></attrib>
+<attrib name="guid" value="_d98bff0e-c594-4287-805b-6fd89d013f90"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This section does not affect the rights and
+obligations of the parties to a transaction arrangement in respect of the
+performance of obligations under the transaction
+arrangement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.22-ssec.4">
+<parentattributes>
+<attrib name="id" value="sec.22-ssec.4"></attrib>
+<attrib name="guid" value="_bd401f30-9be1-4178-873a-1d179469cb1f"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm id="sec.22-def.instrument"
+guid="_1491fb07-f3e3-45d0-8efd-ab7512cba325"
+type="definition"><b><i>instrument</i></b></defterm> means an instrument
+(other than an instrument made under this Act) or any other document that
+creates, modifies or extinguishes rights or liabilities (or would do so if
+lodged, filed or registered in accordance with any law), and includes any
+judgment, order, process or other instrument issued by a court or
+tribunal.</txt></block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.23">
+<parentattributes>
+<attrib name="id" value="sec.23"></attrib>
+<attrib name="guid" value="_88d8196e-b2bc-40fc-ada5-fb288ab1c33f"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>23</no><heading id="sec.23-he"
+guid="_d306db27-ce8e-47d9-88c4-b47c96eb36c1"><b>Compensation not
+payable</b></heading></head>
+
+<tier type="subclause" id="sec.23-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.23-ssec.1"></attrib>
+<attrib name="guid" value="_ebca5f57-e516-4d7c-863d-a4ba3dc2ddcf"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Compensation is not payable by or on behalf of
+the State&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.23-ssec.1-para1.a" guid="_4ed0dd6c-7ad0-422c-83e8-da53542f0153"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">because of the enactment or operation of this
+Act, or for any consequence of that enactment or operation,
+or</txt></block></li>
+<li id="sec.23-ssec.1-para1.b" guid="_c0e30afa-08c5-4b6d-a6c1-041656a7256a"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">because of any statement or conduct relating to
+the enactment of this Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.23-ssec.2"></attrib>
+<attrib name="guid" value="_4d8d78dd-0bb4-48ce-bcc6-e024fdab98aa"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This section does not extend to compensation
+payable under a transaction arrangement to a party to the transaction
+arrangement in connection with the performance of obligations under the
+transaction arrangement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.3">
+<parentattributes>
+<attrib name="id" value="sec.23-ssec.3"></attrib>
+<attrib name="guid" value="_1a136eb1-71c0-4725-803b-70a93dd7a80e"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm id="sec.23-def.compensation"
+guid="_e044c27f-cfac-42d9-aedb-11562bad1950"
+type="definition"><b><i>compensation</i></b></defterm> includes damages or any
+other form of monetary compensation.</txt></block>
+<block><txt break.before="1"><defterm id="sec.23-def.conduct"
+guid="_eea5e120-e2a7-48ae-a76d-66fb839ce898"
+type="definition"><b><i>conduct</i></b></defterm> includes any act or
+omission, whether unconscionable, misleading, deceptive or
+otherwise.</txt></block>
+<block><txt break.before="1"><defterm id="sec.23-def.operationofthisAct"
+guid="_469ad78d-2a9f-4dd3-baee-4bb7b63dcc86" type="definition"><b><i>operation
+of this Act</i></b></defterm> includes the operation of any notice or order
+under this Act and any agreement entered into under or for the purposes of
+this Act.</txt></block>
+<block><txt break.before="1"><defterm id="sec.23-def.statement"
+guid="_0cff66c1-310c-47d4-8c26-7482b52acfa0"
+type="definition"><b><i>statement</i></b></defterm> includes a representation
+of any kind&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.23-ssec.3-para1.a" guid="_eb7d608e-e9c7-4df9-ad10-e9e47b59b69b"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">whether made verbally or in writing,
+and</txt></block></li>
+<li id="sec.23-ssec.3-para1.b" guid="_245f8a0c-6c34-4ab0-aa85-f667ae61ba9e"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">whether negligent, false, misleading or
+otherwise.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm id="sec.23-def.theState"
+guid="_a578a7fd-d039-47d4-80fd-a4ba76139de4" type="definition"><b><i>the
+State</i></b></defterm> means the Crown within the meaning of the <legref
+jurisd="NSW" type="act" refid="act-1988-070" check="unknown"><name
+emphasis="yes"><i>Crown Proceedings Act 1988</i></name></legref>, and includes
+a public sector agency and an officer, employee or agent of the Crown or a
+public sector agency.</txt></block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.24">
+<parentattributes>
+<attrib name="id" value="sec.24"></attrib>
+<attrib name="guid" value="_44b19a66-888d-49a3-bc8d-bc88c3b10de5"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>24</no><heading id="sec.24-he"
+guid="_bb7abd3a-8b68-4fbb-85fb-1c79260bc7ea"><b>Certificate
+evidence</b></heading></head>
+<block><txt break.before="1">A certificate purporting to be signed by the
+Treasurer or an officer prescribed by the regulations certifying that an order
+specified or referred to in the certificate is an order made by the Treasurer
+under a specified provision of this Act is admissible in evidence in any legal
+proceedings and is evidence of the matters certified.</txt></block></level>
+
+
+<level type="clause" id="sec.25">
+<parentattributes>
+<attrib name="id" value="sec.25"></attrib>
+<attrib name="guid" value="_04ba5771-1689-4f22-a5f9-49ab0f963dde"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>25</no><heading id="sec.25-he"
+guid="_02ce58a4-8ed1-402b-95d7-cdf44a1e6357"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.26">
+<parentattributes>
+<attrib name="id" value="sec.26"></attrib>
+<attrib name="guid" value="_03022d11-e37d-4f7b-b100-cc7d528d7084"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>26</no><heading id="sec.26-he"
+guid="_d7da442e-b688-4577-9c4e-bac146033d1b"><b>Savings and transitional
+regulations</b></heading></head>
+
+<tier type="subclause" id="sec.26-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.26-ssec.1"></attrib>
+<attrib name="guid" value="_1a0765d8-a602-4c17-8654-b329b19c361a"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.26-ssec.2"></attrib>
+<attrib name="guid" value="_73c81e73-9715-4ac8-8f0a-74347ca8276c"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the avoidance of doubt, any such provision
+may, if the regulations so provide, have effect despite any specified
+provision of this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.3">
+<parentattributes>
+<attrib name="id" value="sec.26-ssec.3"></attrib>
+<attrib name="guid" value="_56b5f5cc-ba4c-47c5-8fd6-e01c6b6cfaeb"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Any such provision may, if the regulations so
+provide, take effect from the date of assent to this Act or a later
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.4">
+<parentattributes>
+<attrib name="id" value="sec.26-ssec.4"></attrib>
+<attrib name="guid" value="_0ade9b53-f88d-4a33-becb-0ae6b5449c2c"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication on the NSW
+legislation website, the provision does not operate so as&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.26-ssec.4-para1.a" guid="_f02e2c5d-d8ec-42c3-8c79-38262691e48a"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li id="sec.26-ssec.4-para1.b" guid="_0d39a840-2168-4773-aceb-8592d15dc4d8"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.26A">
+<parentattributes>
+<attrib name="id" value="sec.26A"></attrib>
+<attrib name="guid" value="_ffe9c6b8-12a2-4f14-a6a6-4a2abb70a38c"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>26A</no><heading id="sec.26A-he"
+guid="_8688fc1e-3d80-4789-8709-94251880c584"><b>Provision consequent on
+enactment of <legref jurisd="NSW" type="act" refid="act-2017-022"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act 2017</i></name></legref></b></heading></head>
+<block><txt break.before="1">The Lotteries Assets Ministerial Holding
+Corporation (constituted under section 11 before its repeal by the <legref
+jurisd="NSW" type="act" refid="act-2017-022" check="unknown"><name
+emphasis="yes"><i>Statute Law (Miscellaneous Provisions) Act
+2017</i></name></legref>) is dissolved.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 26A:</b> Ins 2017 No
+22, Sch 1.14 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.27" status="repealed">
+<parentattributes>
+<attrib name="id" value="sec.27"></attrib>
+<attrib name="guid" value="_f22424c0-5f62-4c8e-93ff-de70f2bce6b2"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>27</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 27:</b> Rep 1987 No 15,
+sec 30C.</txt></content>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="id" value="sch.1"></attrib>
+<attrib name="guid" value="_6203629b-a530-40b8-8145-62894e3f9edf"></attrib>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading id="sch.1-he"
+guid="_45e2f06a-01f5-4b97-8618-9ab113d2eb46"><b>Interpretative
+provisions</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Section 3)</txt></block></pre>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.1"></attrib>
+<attrib name="guid" value="_989b3ad2-4a06-401e-9549-89f1184a42f6"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading id="sch.1-sec.1-he"
+guid="_34fa3c18-f44c-4c41-8661-5e933a0f5c59"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm id="sch.1-def.assets"
+guid="_a853015d-c63f-40bb-8715-ccaf6a7df295"
+type="definition"><b><i>assets</i></b></defterm> means any legal or equitable
+estate or interest (whether present or future, whether vested or contingent
+and whether personal or assignable) in real or personal property of any
+description (including money), and includes securities, choses in action and
+documents.</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-def.authorisedtransaction"
+guid="_556ce6da-5d39-4d36-8cab-ac0d0ce9f055"
+type="definition"><b><i>authorised transaction</i></b></defterm>&#8212;see
+section 3.</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-def.corporateconversion"
+guid="_e5080745-6436-4b68-876c-c751d4e4777a" type="definition"><b><i>corporate
+conversion</i></b></defterm>, in relation to NSW Lotteries, means the
+registration of NSW Lotteries as a company under the Corporations
+Act.</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-def.CorporationsAct"
+guid="_f6437c38-83ff-4a9e-81f4-c93434c798ba"
+type="definition"><b><i>Corporations Act</i></b></defterm> means the <legref
+jurisd="CTH" type="act" check="unknown"><name emphasis="yes"><i>Corporations
+Act 2001</i></name></legref> of the Commonwealth.</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-def.exercise"
+guid="_af4059c2-318f-446a-bac2-b0103204e764"
+type="definition"><b><i>exercise</i></b></defterm> a function includes perform
+a duty.</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-def.function"
+guid="_d9bfaedb-da5d-469b-8725-72aa66159ea7"
+type="definition"><b><i>function</i></b></defterm> includes a power, authority
+or duty.</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-def.generallaw"
+guid="_cd1e858a-6bdd-4005-87b0-b0ec511acfaa" type="definition"><b><i>general
+law</i></b></defterm> means the common law and equity (as modified from time
+to time by legislation).</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-def.legislation"
+guid="_45885bc6-ddaf-4c21-a703-aa97f12d3c58"
+type="definition"><b><i>legislation</i></b></defterm> includes&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sch.1-sec.1-para1.a" guid="_90cfa1da-f4d8-4e2d-992e-d8ceb94c6116"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">any statute of a legislature (whether enacted or
+made in Australia or elsewhere), and</txt></block></li>
+<li id="sch.1-sec.1-para1.b" guid="_14bb2dec-a152-47a7-b504-e3d7c1e911b3"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">any proclamation, regulation, rule, by-law, order
+or any other kind of subordinate legislation (however described) made under
+the authority of a statute (whether enacted or made in Australia or
+elsewhere).</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm id="sch.1-def.liabilities"
+guid="_048f9b79-4e26-4f29-9263-f9e62114ef98"
+type="definition"><b><i>liabilities</i></b></defterm> means any liabilities,
+debts or obligations (whether present or future, whether vested or contingent
+and whether personal or assignable).</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-def.NSWLotteries"
+guid="_aa791218-ff14-4fa1-a127-f7ebb839c9c5" type="definition"><b><i>NSW
+Lotteries</i></b></defterm>&#8212;see section 3.</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-def.NSWLotteriesassets"
+guid="_0d978cd6-dd2c-4663-8dc1-3007a6468b1c" type="definition"><b><i>NSW
+Lotteries assets</i></b></defterm>&#8212;see section 3.</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-def.privatesector"
+guid="_7f5cd4ed-eab1-4c75-a1b7-05f868bbeb13" type="definition"><b><i>private
+sector</i></b></defterm> means any person other than a public sector
+agency.</txt>
+<note id="sch.1-sec.1-note" guid="_91917abe-c246-4128-b0ac-5d341088d725"
+type="legtext"><heading id="sch.1-sec.1-note-he"
+guid="_53c6341a-933d-416d-91fc-50fdae52959a"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">A person who is a public sector agency of another
+jurisdiction is a private sector person for the purposes of this
+Act.</txt></block></note>
+</block>
+<block><txt break.before="1"><defterm id="sch.1-def.publicsectoragency"
+guid="_911e9ee4-108c-4179-aa48-af28c203d957" type="definition"><b><i>public
+sector agency</i></b></defterm> means any of the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sch.1-sec.1-para1.a-oc.2" guid="_53c265dd-629c-4338-aa98-32d5f27240ed"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">the State (including the Crown in right of the
+State),</txt></block></li>
+<li id="sch.1-sec.1-para1.b-oc.2" guid="_5d6f6f29-fccc-48ee-acde-a388ddb81ff8"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">a Minister,</txt></block></li>
+<li id="sch.1-sec.1-para1.c" guid="_ca5239b0-f4bc-4846-808b-7ca239ea7136"
+provision.type="other" affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">NSW Lotteries,</txt></block></li>
+<li id="sch.1-sec.1-para1.d" guid="_522fdb7e-39d4-4d3e-8a93-6028d55eb67f"
+provision.type="other" affected.by.uncommenced="0">
+<no>(d)</no>
+<block><txt break.before="1">the Ministerial Holding Corporation constituted
+by the <legref jurisd="NSW" type="act" refid="act-1989-134"
+check="unknown"><name emphasis="yes"><i>State Owned Corporations Act
+1989</i></name></legref>,</txt></block></li>
+<li id="sch.1-sec.1-para1.e" guid="_a97f722c-37e9-443d-afd0-1a914f8ae038"
+provision.type="other" affected.by.uncommenced="0" status="repealed">
+<no>(e)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li>
+<li id="sch.1-sec.1-para1.f" guid="_3bb03e3a-9d7e-4e7a-81df-7cd111e2270c"
+provision.type="other" affected.by.uncommenced="0">
+<no>(f)</no>
+<block><txt break.before="1">a public authority of the
+State,</txt></block></li>
+<li id="sch.1-sec.1-para1.g" guid="_c68c67ef-4335-4700-ad07-65808b7d6fc4"
+provision.type="other" affected.by.uncommenced="0">
+<no>(g)</no>
+<block><txt break.before="1">a SOC,</txt></block></li>
+<li id="sch.1-sec.1-para1.h" guid="_b7753c1c-6908-46fc-8285-abad7d393dfb"
+provision.type="other" affected.by.uncommenced="0">
+<no>(h)</no>
+<block><txt break.before="1">any other person acting on behalf of the State
+(or the Crown in right of the State),</txt></block></li>
+<li id="sch.1-sec.1-para1.i" guid="_ac185fc8-f9ff-47fd-9dab-9212f2953ac9"
+provision.type="other" affected.by.uncommenced="0">
+<no>(i)</no>
+<block><txt break.before="1">a transaction company, but only while all the
+shares in the transaction company are held by or on behalf of the State or a
+SOC or the transaction company is a subsidiary of another transaction company
+all the shares in which are held by or on behalf of the State or a
+SOC.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm id="sch.1-def.rights"
+guid="_80d1efbc-b567-4c4a-90b8-3f19fbc5bdc5"
+type="definition"><b><i>rights</i></b></defterm> means any rights, powers,
+privileges or immunities (whether present or future, whether vested or
+contingent and whether personal or assignable).</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-def.SOC"
+guid="_61652596-ebfb-4dc1-b797-981e06461037"
+type="definition"><b><i>SOC</i></b></defterm> means a State owned corporation
+within the meaning of the <legref jurisd="NSW" type="act" refid="act-1989-134"
+check="unknown"><name emphasis="yes"><i>State Owned Corporations Act
+1989</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-def.Statelegislation"
+guid="_6a4fab8f-7ecd-49c5-bf3b-3a17dbf4503e" type="definition"><b><i>State
+legislation</i></b></defterm> means any legislation of the
+State.</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-def.transactionarrangement"
+guid="_0a306c23-1153-4c2f-92f0-8f0940519420"
+type="definition"><b><i>transaction arrangement</i></b></defterm> means a
+transaction, agreement or other arrangement entered into by a public sector
+agency for the purposes of the authorised transaction.</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-def.transactioncompany"
+guid="_18e20a09-ba08-4283-9a37-abfdc6886f54"
+type="definition"><b><i>transaction company</i></b></defterm> means a company
+established as a transaction company pursuant to this
+Act.</txt></block></deflist>
+</block>
+<note id="sch.1-sec.1-note-oc.2" guid="_93576c5f-90a8-40e1-bd14-7ee5a15d37c1"
+type="legtext"><heading id="sch.1-sec.1-note-oc.2-he"
+guid="_cee90037-3fe9-4222-9e46-09c10d796ca3"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">The <legref jurisd="NSW" type="act"
+refid="act-1987-015" check="unknown"><name emphasis="yes"><i>Interpretation
+Act 1987</i></name></legref> contains definitions and other provisions that
+affect the interpretation and application of this Act.</txt></block></note>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.2">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.2"></attrib>
+<attrib name="guid" value="_4d2390a7-2673-4a92-afb8-e7ac05488ca4"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading id="sch.1-sec.2-he"
+guid="_15ccbfda-5cfa-4525-86e1-c0c58287bcf8"><b>Functions for the purposes of
+the authorised transaction</b></heading></head>
+<block><txt break.before="1">For the purposes of this Act, any act, matter or
+thing is done or has effect for the purposes of the authorised transaction if
+it is done or has effect for the purpose of effecting or facilitating the
+authorised transaction or is done or has effect for any purpose that is
+ancillary or incidental to or consequential on the authorised
+transaction.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.3">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.3"></attrib>
+<attrib name="guid" value="_1d2fc290-9fec-42ae-b960-63be2ef34e8f"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading id="sch.1-sec.3-he"
+guid="_012f7565-5635-4414-ace9-04cc5953ed89"><b>Transfer of NSW Lotteries
+assets&#8212;interpretation</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.3-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.3-ssec.1"></attrib>
+<attrib name="guid" value="_e036c71a-f8f3-46ff-be01-06d22d53d7e3"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">When this Act authorises the transfer of NSW
+Lotteries assets to the private sector it is authorising any transaction,
+arrangement or other action that results in NSW Lotteries assets becoming
+vested in one or more persons in the private sector.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.3-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.3-ssec.2"></attrib>
+<attrib name="guid" value="_486134f2-97de-44ce-ba6f-e431c03add9d"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The following are examples of the ways in which
+NSW Lotteries assets can be transferred to the private sector&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sch.1-sec.3-ssec.2-para1.a"
+guid="_92392d7c-dff1-43f8-958c-bc81c63dbf67" provision.type="other"
+affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">direct sale to the private
+sector,</txt></block></li>
+<li id="sch.1-sec.3-ssec.2-para1.b"
+guid="_7e19b15a-0380-4944-836b-663f68f9864f" provision.type="other"
+affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">sale to the private sector of a transaction
+entity,</txt></block></li>
+<li id="sch.1-sec.3-ssec.2-para1.c"
+guid="_07f91eb2-a112-44b7-8d96-35cc2d57f99d" provision.type="other"
+affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">any other transaction whereby any one or more
+persons in the private sector becomes an owner of NSW Lotteries
+assets.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.3-ssec.3">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.3-ssec.3"></attrib>
+<attrib name="guid" value="_f8f4f0e0-4490-445e-b390-98ab54c1f3b8"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The transfer of NSW Lotteries assets to the
+private sector does not require a transfer of NSW Lotteries assets by or from
+NSW Lotteries and could, for example, be effected by the corporate conversion
+of NSW Lotteries (to establish a transaction company) and the transfer of
+shares in the transaction company to the private sector.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.3-ssec.4">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.3-ssec.4"></attrib>
+<attrib name="guid" value="_bbc67d29-4f2e-4130-a964-5c8fe40ef809"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">In this clause&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm id="sch.1-sec.3-def.entity"
+guid="_fb872639-828b-470c-9f5e-ca0705c3279e"
+type="definition"><b><i>entity</i></b></defterm> includes a transaction
+company.</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-sec.3-def.sale"
+guid="_a9172d0a-a39a-4714-a336-c7180c3db1c2"
+type="definition"><b><i>sale</i></b></defterm> of an entity includes a sale of
+securities in the entity.</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-sec.3-def.transactionentity"
+guid="_7e4b9195-82cc-4210-8195-9753ed429c85"
+type="definition"><b><i>transaction entity</i></b></defterm>
+means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sch.1-sec.3-ssec.4-para1.a"
+guid="_706dda55-c503-476c-a262-a42f88cb74a0" provision.type="other"
+affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">an entity that holds NSW Lotteries assets or into
+which NSW Lotteries is converted, or</txt></block></li>
+<li id="sch.1-sec.3-ssec.4-para1.b"
+guid="_9e07d4fc-15be-4558-85bd-46c9db678c1a" provision.type="other"
+affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">an entity that is the holding company of an
+entity referred to in paragraph (a), or</txt></block></li>
+<li id="sch.1-sec.3-ssec.4-para1.c"
+guid="_f9e1c3bd-6c03-4a56-8224-546c855cfc4d" provision.type="other"
+affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">an entity that has control (within the meaning of
+the Corporations Act) of an entity referred to in paragraph (a),
+or</txt></block></li>
+<li id="sch.1-sec.3-ssec.4-para1.d"
+guid="_94c0d542-86b5-4e04-92e9-cf11531d30e8" provision.type="other"
+affected.by.uncommenced="0">
+<no>(d)</no>
+<block><txt break.before="1">any other entity the sale of which to the private
+sector results in NSW Lotteries assets being vested in the private
+sector.</txt></block></li></list>
+</block></deflist>
+</block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.4">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.4"></attrib>
+<attrib name="guid" value="_ada65206-886b-4783-b3b1-e9ea496c56da"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading id="sch.1-sec.4-he"
+guid="_da77187b-cad7-4eb6-a759-0780b74d9561"><b>Words and expressions defined
+in Corporations Act</b></heading></head>
+<block><txt break.before="1">Words and expressions used in this Act that are
+defined in section 9 of the Corporations Act have the same meanings as in that
+section, except in so far as they are defined differently in this Act or the
+context or subject-matter otherwise indicates or
+requires.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.5">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.5"></attrib>
+<attrib name="guid" value="_01c26654-6574-4fc4-9852-c4a7a0ca5e4a"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading id="sch.1-sec.5-he"
+guid="_cf307d21-842d-49ed-8f83-3ed8736a0ff2"><b>Notes</b></heading></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></level>
+</content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Am 2017 No 22,
+Sch 1.14 [3] [4].</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="id" value="sch.2"></attrib>
+<attrib name="guid" value="_eb558385-ccbe-468b-ac78-12cf1e15506d"></attrib>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading id="sch.2-he"
+guid="_070f99d5-961a-4958-ac37-146a8566a6fa"><b>Corporate conversion of NSW
+Lotteries</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 8)</txt></block>
+
+<level type="clause" id="sch.2-sec.1">
+<parentattributes>
+<attrib name="id" value="sch.2-sec.1"></attrib>
+<attrib name="guid" value="_f8708932-3588-4219-a6e2-4dfd150274e7"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading id="sch.2-sec.1-he"
+guid="_c172a39e-05c2-410b-9bc8-b2438ac3b8b0"><b>Direction for corporate
+conversion of NSW Lotteries</b></heading></head>
+<block><txt break.before="1">The Treasurer may direct by order in writing
+(<defterm id="sch.2-def.acorporateconversiondirection"
+guid="_cc9e8593-2b0c-4499-b0d8-7a47fe95060c" type="definition"><b><i>a
+corporate conversion direction</i></b></defterm>) that NSW Lotteries be
+converted into a company limited by shares of a specified
+type.</txt></block></level>
+
+
+<level type="clause" id="sch.2-sec.2">
+<parentattributes>
+<attrib name="id" value="sch.2-sec.2"></attrib>
+<attrib name="guid" value="_a03a9a4f-11ac-4757-9587-021fa5f387f6"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading id="sch.2-sec.2-he"
+guid="_5537ba58-a3ab-490c-8019-9b2b8d4511a0"><b>Application for conversion to
+company</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.2-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.2-sec.2-ssec.1"></attrib>
+<attrib name="guid" value="_d73e7092-03d8-4eed-b5cb-499994b46072"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If a corporate conversion direction is given, NSW
+Lotteries is authorised to apply to be registered under Part 5B.1 of the
+Corporations Act as a company limited by shares of the type specified in the
+direction.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.2-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.2-sec.2-ssec.2"></attrib>
+<attrib name="guid" value="_02e759de-bdb6-4be2-ba8a-ef1ef3cbf9d4"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Treasurer can certify that the provisions of
+this Act have been complied with concerning the transfer of the incorporation
+of NSW Lotteries to the Corporations Act, and such a certificate is conclusive
+evidence in any proceedings before a court or tribunal that all the
+requirements of this Act have been complied with concerning the transfer of
+the incorporation of NSW Lotteries to the Corporations
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.2-ssec.3">
+<parentattributes>
+<attrib name="id" value="sch.2-sec.2-ssec.3"></attrib>
+<attrib name="guid" value="_cf6fb626-4ea6-465e-92b1-54288e44d155"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Treasurer&#8217;s certificate under this
+clause cannot be challenged, reviewed or called into question in proceedings
+before any court or tribunal.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.2-sec.3">
+<parentattributes>
+<attrib name="id" value="sch.2-sec.3"></attrib>
+<attrib name="guid" value="_4d0c5393-36cb-409e-9513-b97db912595c"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading id="sch.2-sec.3-he"
+guid="_8b2cf46d-e817-4949-9150-46404140af98"><b>Effect of
+conversion</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.3-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.2-sec.3-ssec.1"></attrib>
+<attrib name="guid" value="_08c13c84-cba5-4a6c-b0db-b6a8f5191a9d"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The following provisions are taken to have had
+effect immediately before NSW Lotteries is registered as a company under the
+Corporations Act&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sch.2-sec.3-ssec.1-para1.a"
+guid="_fb8dbe2b-8bc8-4dd9-ac22-b43b238c228f" provision.type="other"
+affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">NSW Lotteries ceases to be a statutory State
+owned corporation for the purposes of the <legref jurisd="NSW" type="act"
+refid="act-1989-134" check="unknown"><name emphasis="yes"><i>State Owned
+Corporations Act 1989</i></name></legref> or any other State
+legislation,</txt></block></li>
+<li id="sch.2-sec.3-ssec.1-para1.b"
+guid="_6d487414-d9c4-484c-8787-aea3ccca53ec" provision.type="other"
+affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">the voting shareholders (within the meaning of
+the <legref jurisd="NSW" type="act" refid="act-1989-134" check="unknown"><name
+emphasis="yes"><i>State Owned Corporations Act 1989</i></name></legref>) of
+NSW Lotteries cease to be members of the corporation,</txt></block></li>
+<li id="sch.2-sec.3-ssec.1-para1.c"
+guid="_aad41e1f-ed3b-4b44-b538-d809dfc5b3b6" provision.type="other"
+affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">the board of directors of NSW Lotteries is
+dissolved and each member (including any acting member) of the board ceases to
+hold office as such,</txt></block></li>
+<li id="sch.2-sec.3-ssec.1-para1.d"
+guid="_2bca4578-7e39-4e12-afed-e882fb249e7e" provision.type="other"
+affected.by.uncommenced="0">
+<no>(d)</no>
+<block><txt break.before="1">any person who holds a statutory office of NSW
+Lotteries ceases to hold that office, subject to Schedule 4 (Employee
+protections),</txt></block></li>
+<li id="sch.2-sec.3-ssec.1-para1.e"
+guid="_5fe3dc1e-ac35-437f-a0ed-8193ea6c929e" provision.type="other"
+affected.by.uncommenced="0">
+<no>(e)</no>
+<block><txt break.before="1">any person who ceases to be a member of NSW
+Lotteries or to hold an office because of the operation of this subclause is
+not entitled to any compensation for the loss of that membership or
+office.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.3-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.2-sec.3-ssec.2"></attrib>
+<attrib name="guid" value="_a4022464-98d3-4cd6-9b75-c23ad1f16ab9"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Nothing in this clause prevents any person from
+becoming an officer of the company into which NSW Lotteries is being converted
+in accordance with its constitution and the provisions of the Corporations
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.3-ssec.3">
+<parentattributes>
+<attrib name="id" value="sch.2-sec.3-ssec.3"></attrib>
+<attrib name="guid" value="_c5fd0ff3-944d-4207-9c5a-5c008e9cfb97"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">NSW Lotteries becomes a transaction company for
+the purposes of this Act only when it is registered as a company under the
+Corporations Act.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="schedule" id="sch.3">
+<parentattributes>
+<attrib name="id" value="sch.3"></attrib>
+<attrib name="guid" value="_848fba2b-43fd-42d8-be8d-87f8568a6ee5"></attrib>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 3</b></no><heading id="sch.3-he"
+guid="_2cc78c2c-f443-454a-b2af-871116b2e89a"><b>Vesting of assets, rights and
+liabilities</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Section 12)</txt></block></pre>
+
+
+<level type="clause" id="sch.3-sec.1">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.1"></attrib>
+<attrib name="guid" value="_7cc3f11d-68b9-458d-b2d5-b1e72950cb0a"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading id="sch.3-sec.1-he"
+guid="_3bc185bf-838e-4453-97ee-81aaa8cfa0ba"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Schedule&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm id="sch.3-def.transferee"
+guid="_d11e8e01-2012-43ee-8892-b473a44ebfb9"
+type="definition"><b><i>transferee</i></b></defterm> means the person or body
+in whom any assets, rights or liabilities are vested by a vesting
+order.</txt></block>
+<block><txt break.before="1"><defterm id="sch.3-def.transferor"
+guid="_f5d84fa9-9472-4fe0-aa78-7a0e6197871d"
+type="definition"><b><i>transferor</i></b></defterm> means the person or body
+from whom any assets, rights or liabilities are divested by a vesting
+order.</txt></block>
+<block><txt break.before="1"><defterm id="sch.3-def.vestingorder"
+guid="_75b0078f-dfde-4826-a7a3-5f60cf10758e" type="definition"><b><i>vesting
+order</i></b></defterm>&#8212;see clause 2.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sch.3-sec.2">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.2"></attrib>
+<attrib name="guid" value="_d5005074-2f64-4bab-a00e-f021b9abeb93"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading id="sch.3-sec.2-he"
+guid="_b268fa84-f49f-4bf5-a99d-974e1360565e"><b>Making of vesting
+order</b></heading></head>
+<block><txt break.before="1">The Treasurer may, by order (<defterm
+id="sch.3-def.avestingorder" guid="_926394f2-7958-4972-8c18-0743ed3c9fd2"
+type="definition"><b><i>a vesting order</i></b></defterm>), vest assets,
+rights and liabilities of NSW Lotteries or a transaction company in a person
+specified in the order as the transferee.</txt></block></level>
+
+
+<level type="clause" id="sch.3-sec.3">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.3"></attrib>
+<attrib name="guid" value="_e41be5b7-e792-4524-9e6a-93c1a41326dd"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading id="sch.3-sec.3-he"
+guid="_bfdb6627-761d-451c-bc11-3431e541ebcc"><b>Vesting of assets, rights and
+liabilities in transferee</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.3-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.3-ssec.1"></attrib>
+<attrib name="guid" value="_05479178-6ec1-4fe5-9d0d-bf86a2f00c6b"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">When any assets, rights or liabilities are vested
+by a vesting order, the following provisions have effect (subject to the
+vesting order)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sch.3-sec.3-ssec.1-para1.a"
+guid="_3086451a-9dff-46d0-a2ef-4c144ef05a54" provision.type="other"
+affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">the assets vest in the transferee by virtue of
+this clause and without the need for any conveyance, transfer, assignment or
+assurance,</txt></block></li>
+<li id="sch.3-sec.3-ssec.1-para1.b"
+guid="_0b9e4a12-f7a8-4ad8-bf8e-6960f1bf9648" provision.type="other"
+affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">the rights and liabilities become, by virtue of
+this clause, the rights and liabilities of the transferee,</txt></block></li>
+<li id="sch.3-sec.3-ssec.1-para1.c"
+guid="_35820dea-e068-499f-b522-d79d7b7f72be" provision.type="other"
+affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">all proceedings relating to the assets, rights or
+liabilities pending by or against the transferor are taken to be proceedings
+pending by or against the transferee,</txt></block></li>
+<li id="sch.3-sec.3-ssec.1-para1.d"
+guid="_4c4b47e5-4906-4f40-8f26-a3d140727153" provision.type="other"
+affected.by.uncommenced="0">
+<no>(d)</no>
+<block><txt break.before="1">any act, matter or thing done or omitted to be
+done in relation to the assets, rights or liabilities by, to or in respect of
+the transferor is (to the extent that the act, matter or thing has any force
+or effect) taken to have been done or omitted by, to or in respect of the
+transferee,</txt></block></li>
+<li id="sch.3-sec.3-ssec.1-para1.e"
+guid="_5068f1cc-02a2-459f-9bd8-a196b89b7251" provision.type="other"
+affected.by.uncommenced="0">
+<no>(e)</no>
+<block><txt break.before="1">a reference in any Act, in any instrument made
+under any Act or in any document of any kind to the transferor or a
+predecessor of the transferor is (to the extent that it relates to those
+assets or liabilities but subject to the regulations), to be read as, or as
+including, a reference to the transferee.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.3-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.3-ssec.2"></attrib>
+<attrib name="guid" value="_db53a5e9-1cb4-461b-b5e3-e8071759481e"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">No attornment to the transferee by a lessee from
+the transferor is required.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.3-sec.4">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.4"></attrib>
+<attrib name="guid" value="_98d57a70-16c4-40cb-84d6-93b33ad0f069"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading id="sch.3-sec.4-he"
+guid="_f9420a0e-fb91-4c54-b1ea-4797e19be896"><b>Terms and conditions of
+vesting</b></heading></head>
+<block><txt break.before="1">A vesting order may be made on such terms and
+conditions as are specified in the order.</txt></block></level>
+
+
+<level type="clause" id="sch.3-sec.5">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.5"></attrib>
+<attrib name="guid" value="_2fcfb002-600b-4a54-9d4f-42db1263345e"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading id="sch.3-sec.5-he"
+guid="_4db7c6b4-2193-43f1-b7e6-cd3c4f77a393"><b>Consideration for
+vesting</b></heading></head>
+<block><txt break.before="1">A vesting order may specify the consideration for
+which a vesting to which it applies is made and the value or values at which
+assets, rights or liabilities are vested.</txt></block></level>
+
+
+<level type="clause" id="sch.3-sec.6">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.6"></attrib>
+<attrib name="guid" value="_3ceb16a3-aa07-4598-9cd3-f4474421b509"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading id="sch.3-sec.6-he"
+guid="_c499db63-b135-417c-a262-6591a052f60b"><b>Date of
+vesting</b></heading></head>
+<block><txt break.before="1">A vesting order takes effect on the date it is
+made or on such other date as may be specified in the
+order.</txt></block></level>
+
+
+<level type="clause" id="sch.3-sec.7">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.7"></attrib>
+<attrib name="guid" value="_e63b8e1b-4b2b-40e0-92aa-535902175376"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading id="sch.3-sec.7-he"
+guid="_54a8010f-34ca-473a-be62-2c6afb30b79c"><b>Vesting of interests in
+land</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.7-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.7-ssec.1"></attrib>
+<attrib name="guid" value="_1363e8b7-8e04-43ee-a5c7-164a4ac920ab"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A vesting order may vest an interest in respect
+of land vested in the transferor without vesting the whole of the interests of
+the transferor in that land.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.7-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.7-ssec.2"></attrib>
+<attrib name="guid" value="_3a138135-bbbb-4626-aac9-6470aefe12a7"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If the interest vested is not a separate
+interest, the order operates to create the interest vested in such terms as
+are specified in the order.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.7-ssec.3">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.7-ssec.3"></attrib>
+<attrib name="guid" value="_1f13e7cf-564e-44a7-8347-99daf329429b"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This clause does not limit any other provision of
+this Schedule.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.3-sec.8">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.8"></attrib>
+<attrib name="guid" value="_74dc0bc9-0d2c-4414-a0ca-dc2f54f58e54"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading id="sch.3-sec.8-he"
+guid="_46613992-cd13-432a-bd7f-20cbca982d0f"><b>Confirmation of
+vesting</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.8-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.8-ssec.1"></attrib>
+<attrib name="guid" value="_2cb8ce5d-c8d2-4206-847b-7fb3a224aaf6"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Treasurer may by order in writing confirm a
+vesting of particular assets, rights or liabilities by operation of this
+Schedule.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.8-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.8-ssec.2"></attrib>
+<attrib name="guid" value="_ae2c7de4-ba78-4092-8dd5-222ea4e98634"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Such an order is evidence of that
+vesting.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.3-sec.9">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.9"></attrib>
+<attrib name="guid" value="_10b966b8-2438-48fe-8e0f-98b0bb40ccbb"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading id="sch.3-sec.9-he"
+guid="_bc371c72-2aef-4609-8abf-f68d8e37f017"><b>Determinations by
+Treasurer</b></heading></head>
+<block><txt break.before="1">For the purposes of the making of a vesting
+order, the Treasurer may determine whether or not particular assets, rights or
+liabilities comprise assets, rights or liabilities of NSW Lotteries or a
+transaction company at a particular time, and such a determination is
+conclusive as to the matters determined.</txt></block></level>
+
+
+<level type="clause" id="sch.3-sec.10">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.10"></attrib>
+<attrib name="guid" value="_325f8109-7d1d-4e96-b9fc-9215c7035b93"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading id="sch.3-sec.10-he"
+guid="_71af37fc-1a11-4156-999c-61dcbb353e6c"><b>Certification to registration
+authorities</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.10-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.10-ssec.1"></attrib>
+<attrib name="guid" value="_5b901436-3f39-4523-afad-879d1f78f4aa"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this clause&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm
+id="sch.3-sec.10-def.registrationauthority"
+guid="_c402c9f4-3e7a-4d45-b7b1-73c2b2c74587"
+type="definition"><b><i>registration authority</i></b></defterm> means a
+person or body that has functions under any law in connection with the keeping
+of a register in respect of assets, rights or
+liabilities.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.10-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.10-ssec.2"></attrib>
+<attrib name="guid" value="_2eb9d053-b18b-4e7a-a224-77c30327edb2"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A public sector agency that is the transferee or
+transferor under a vesting order may lodge with a registration authority a
+certificate certifying as to such information as may reasonably be required by
+the registration authority to enable the registration authority to exercise
+any function of the authority arising in connection with the vesting of any
+asset, right or liability pursuant to the vesting order.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.10-ssec.3">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.10-ssec.3"></attrib>
+<attrib name="guid" value="_1e7f2273-b477-4461-ae9d-7d6bc485dc0e"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Such a certificate is to be accepted and acted
+upon by the registration authority and, despite any other law, the
+registration authority is not entitled to require that the information
+concerned be provided to it in any particular form or in any particular
+manner.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.10-ssec.4">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.10-ssec.4"></attrib>
+<attrib name="guid" value="_8c6a564c-0728-423b-b3e6-f98abbb08e42"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">No fee or charge is payable by the transferee to
+a registration authority for or in respect of the exercise of any function by
+the registration authority in connection with the vesting of an asset, right
+or liability by a vesting order.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.3-sec.11">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.11"></attrib>
+<attrib name="guid" value="_cc0da976-702c-49fc-beb5-6e446f9bb3ed"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading id="sch.3-sec.11-he"
+guid="_8386701e-b2fe-4180-8af5-2dc91b675ca6"><b>Evidence of orders and
+certificates</b></heading></head>
+<block><txt break.before="1">A document purporting to be a vesting order or an
+order or certificate given under a provision of this Schedule is, unless the
+contrary is established, taken to be such an order or certificate and to have
+been properly made or given.</txt></block></level>
+
+
+<level type="clause" id="sch.3-sec.12">
+<parentattributes>
+<attrib name="id" value="sch.3-sec.12"></attrib>
+<attrib name="guid" value="_4b0d8229-9e66-45c4-9f52-b7000aeae731"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading id="sch.3-sec.12-he"
+guid="_5291a389-3e4a-4bdd-a415-92e5e4d96536"><b>Public sector accounting
+policies</b></heading></head>
+<block><txt break.before="1">The Treasurer may give directions to public
+sector agencies for or with respect to accounting policies to be applied by
+public sector agencies in connection with the transfer between public sector
+agencies of assets, rights and liabilities of NSW Lotteries or a transaction
+company for the purposes of the authorised transaction (in place of public
+sector accounting policies that would otherwise be applicable in respect of
+any such transfer).</txt></block></level>
+</level>
+
+
+<level type="schedule" id="sch.4">
+<parentattributes>
+<attrib name="id" value="sch.4"></attrib>
+<attrib name="guid" value="_7844a62c-14db-4988-b38a-1d0e29de3115"></attrib>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 4</b></no><heading id="sch.4-he"
+guid="_d0c80b8b-0443-4f2e-8426-a203eca3e330"><b>Employee
+protections</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Section 13)</txt></block></pre>
+
+
+<level type="clause" id="sch.4-sec.1">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.1"></attrib>
+<attrib name="guid" value="_37ea165b-d41d-473a-a796-19753a5336fb"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading id="sch.4-sec.1-he"
+guid="_9d619191-f65c-4a3a-895a-e5d7b5079dae"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Schedule&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm id="sch.4-def.contractemployee"
+guid="_04a666ff-e523-43c5-8568-db09c0ddbd66" type="definition"><b><i>contract
+employee</i></b></defterm> means an employee of NSW Lotteries whose employment
+is under an individual contract of employment.</txt></block>
+<block><txt break.before="1"><defterm id="sch.4-def.permanentemployee"
+guid="_5056e980-2d89-4666-ac69-ba5b256847a5" type="definition"><b><i>permanent
+employee</i></b></defterm> means an employee of NSW Lotteries whose employment
+is in a category of employment that is described in the relevant award as
+permanent employment.</txt></block>
+<block><txt break.before="1"><defterm id="sch.4-def.relevantaward"
+guid="_9c14b83f-956b-4a41-bacb-c899195e5543" type="definition"><b><i>relevant
+award</i></b></defterm> means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sch.4-sec.1-para1.a" guid="_f0774658-0d68-4e4b-bf7d-b79b6a921302"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1"><extref type="other"><name emphasis="yes"><i>New
+South Wales Lotteries Corporation (Salaries, Allowances and Conditions of
+Employment) 2008 Award</i></name></extref> of the Industrial Relations
+Commission, or</txt></block></li>
+<li id="sch.4-sec.1-para1.b" guid="_83e1826b-332e-40b9-9da6-f8f15995b65c"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">any award, agreement or industrial instrument
+(under a law of the State or of the Commonwealth) to which NSW Lotteries is a
+party and that is expressed to cover employees of NSW Lotteries, to the extent
+that it replaces or supersedes the Award referred to in paragraph
+(a).</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm id="sch.4-def.temporaryemployee"
+guid="_13f9ac6d-7018-47e4-8e35-58b0834648a7" type="definition"><b><i>temporary
+employee</i></b></defterm> means an employee of NSW Lotteries whose employment
+is in a category of employment that is described in the relevant award as
+temporary employment.</txt></block>
+<block><txt break.before="1"><defterm id="sch.4-def.transactioncompletion"
+guid="_6f90e9b3-9661-4ae0-bef9-143fa2b25b39"
+type="definition"><b><i>transaction completion</i></b></defterm> means the day
+certified by the Treasurer by order in writing as the day on which the
+authorised transaction is completed.</txt></block>
+<block><txt break.before="1"><defterm id="sch.4-def.transferredemployee"
+guid="_8f3996a0-8817-453f-ab5e-1f967bd5c10b"
+type="definition"><b><i>transferred employee</i></b></defterm> means an
+employee of NSW Lotteries whose employment is transferred under this
+Schedule.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sch.4-sec.2">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.2"></attrib>
+<attrib name="guid" value="_89aa95e8-7a13-4b05-85b6-37b45eb3eab7"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading id="sch.4-sec.2-he"
+guid="_85d6057f-7178-4c76-baea-9f4c52ee5227"><b>Transfer of
+employees</b></heading></head>
+
+<tier type="subclause" id="sch.4-sec.2-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.2-ssec.1"></attrib>
+<attrib name="guid" value="_7f2228ba-1adc-4ae4-b79b-810f36e3a9b4"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Treasurer may by order in writing transfer
+the employment of an employee of NSW Lotteries to the employment of a
+Department of the Public Service or to the employment of an employer in the
+private sector.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.2-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.2-ssec.2"></attrib>
+<attrib name="guid" value="_928f0fd8-ab3b-4bc2-a829-8f64657ef384"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A transaction company is considered to be an
+employer in the private sector for the purposes of this Schedule even while it
+is a public sector agency.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.2-ssec.3">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.2-ssec.3"></attrib>
+<attrib name="guid" value="_b8b0b475-4042-4cfb-8189-364a611ac1ba"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A person who is a permanent employee or temporary
+employee of NSW Lotteries may decline to be transferred to employment in the
+private sector, in which case the employee may only be transferred under this
+Schedule to the employment of a Department of the Public
+Service.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.2-ssec.4">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.2-ssec.4"></attrib>
+<attrib name="guid" value="_92c86bc8-40e7-414a-8111-896aad8f3dbf"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The employer to whose employment an employee is
+transferred under this Schedule is the <defterm
+id="sch.4-sec.2-def.newemployer" guid="_048c9eae-927b-4c40-a47d-9a0947374561"
+type="definition"><b><i>new employer</i></b></defterm>.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.4-sec.3">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.3"></attrib>
+<attrib name="guid" value="_72f4cc13-595d-4a7a-8b3d-0385824e1267"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading id="sch.4-sec.3-he"
+guid="_6bb8adbb-4ecd-4dfb-806b-30789fe256aa"><b>Employment protection for
+employees transferred to private sector</b></heading></head>
+
+<tier type="subclause" id="sch.4-sec.3-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.3-ssec.1"></attrib>
+<attrib name="guid" value="_08ca1f02-7bf4-41d2-b09b-bcac2b8db12e"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The employment of a transferred employee with the
+new employer in the private sector is to be on the same terms and conditions
+as applied to the employee under the relevant award or the employee&#8217;s
+contract of employment immediately before the transfer of
+employment.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.3-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.3-ssec.2"></attrib>
+<attrib name="guid" value="_8686b92f-e544-4a5d-8e50-cac30ef90763"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Those terms and conditions cannot be varied
+during the employment guarantee period for the transferred employee except by
+agreement entered into by or on behalf of the transferred
+employee.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.3-ssec.3">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.3-ssec.3"></attrib>
+<attrib name="guid" value="_9652722a-171a-4b4d-b4a5-8f508c7b3b79"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The employment of a transferred employee with the
+new employer cannot be terminated by the new employer during the employment
+guarantee period, except&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sch.4-sec.3-ssec.3-para1.a"
+guid="_1cced189-adb4-4da6-a701-9627f770c0f0" provision.type="other"
+affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">for serious misconduct, or</txt></block></li>
+<li id="sch.4-sec.3-ssec.3-para1.b"
+guid="_69b28e95-1669-4c72-aee5-30c20093837a" provision.type="other"
+affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">pursuant to the proper application of reasonable
+disciplinary procedures, or</txt></block></li>
+<li id="sch.4-sec.3-ssec.3-para1.c"
+guid="_3c049828-76c8-4e6e-9831-c0d1ffebd3c9" provision.type="other"
+affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">pursuant to a direction in respect of which
+section 57 (Power to terminate employment of key employee at Minister&#8217;s
+direction) of the <legref jurisd="NSW" type="act" refid="act-1996-086"
+check="unknown"><name emphasis="yes"><i>Public Lotteries Act
+1996</i></name></legref> applies, or</txt></block></li>
+<li id="sch.4-sec.3-ssec.3-para1.d"
+guid="_1a622c41-34ca-4d3f-a48d-ccb33aa7ee37" provision.type="other"
+affected.by.uncommenced="0">
+<no>(d)</no>
+<block><txt break.before="1">by agreement with the
+employee.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.3-ssec.4">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.3-ssec.4"></attrib>
+<attrib name="guid" value="_6631782f-db52-4258-a5b8-600deaf3e457"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The <defterm
+id="sch.4-sec.3-def.employmentguaranteeperiod"
+guid="_461d8a4f-3d41-4805-a4ce-7c4c143c0152"
+type="definition"><b><i>employment guarantee period</i></b></defterm> for a
+transferred employee is&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sch.4-sec.3-ssec.4-para1.a"
+guid="_b81c8e40-1935-480c-98a2-75cb4b8fe889" provision.type="other"
+affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">for permanent employees&#8212;the period of 3
+years after the transaction completion, and</txt></block></li>
+<li id="sch.4-sec.3-ssec.4-para1.b"
+guid="_211b0fd3-3ac0-480f-ab7e-ffb2b6340344" provision.type="other"
+affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">for temporary employees&#8212;the remainder of
+the employee&#8217;s current term of employment (as specified in the contract
+under which the employee was engaged as a temporary employee) immediately
+before the transaction completion or the period of 3 years after the
+transaction completion, whichever period ends first, and</txt></block></li>
+<li id="sch.4-sec.3-ssec.4-para1.c"
+guid="_9656651d-bb68-47a5-b081-6ca8162437b1" provision.type="other"
+affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">for contract employees&#8212;there is no
+employment guarantee period for contract employees.</txt></block>
+<note id="sch.4-sec.3-ssec.4-para1.c-note"
+guid="_8c6eef40-37fb-4682-a985-c13d5136f57f" type="legtext"><heading
+id="sch.4-sec.3-ssec.4-para1.c-note-he"
+guid="_e1e4b886-9253-44e9-853b-c95a8b89932b"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">The employment of a transferred employee who is a
+contract employee remains governed by the contract of
+employment.</txt></block></note>
+</li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sch.4-sec.4">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.4"></attrib>
+<attrib name="guid" value="_006ea46f-282d-4a83-9dc6-df88a2c9df99"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading id="sch.4-sec.4-he"
+guid="_57596127-3f8e-472b-a6a0-1788a9fa8f01"><b>Employment protection for
+employees transferred to Public Service</b></heading></head>
+
+<tier type="subclause" id="sch.4-sec.4-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.4-ssec.1"></attrib>
+<attrib name="guid" value="_4cd4f7c3-89c4-4844-aa9f-62f887b3435a"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The employment of a person who is transferred to
+a Department under this Schedule is to be on the same terms and conditions as
+applied to the employee under the relevant award immediately before the
+transfer, subject to this clause.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.4-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.4-ssec.2"></attrib>
+<attrib name="guid" value="_43b00cda-a6cc-4297-88f0-da6ce372d793"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The employment of a transferred employee with the
+new employer is to be managed in accordance with any relevant public sector
+policy (an <defterm id="sch.4-sec.4-def.excessemployeepolicy"
+guid="_6826ef4d-da4a-40ed-8c7c-8e5b814356a6" type="definition"><b><i>excess
+employee policy</i></b></defterm>) applicable to excess employees of
+Departments, and for that purpose the employee is to be treated as an employee
+declared excess by the Department to which the employee is transferred on the
+basis that the employee&#8217;s substantive position in the Department has
+been deleted.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.4-ssec.3">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.4-ssec.3"></attrib>
+<attrib name="guid" value="_8e67dd3f-e820-4b61-9aae-7c76b7f0edd1"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The terms and conditions of employment of the
+transferred employee cannot be varied for 12 months after the employee becomes
+an employee of the new employer except by agreement with the employee or in
+accordance with an excess employee policy.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.4-ssec.4">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.4-ssec.4"></attrib>
+<attrib name="guid" value="_fdc7d527-e94b-45d8-9c84-788e7c8d7586"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">This clause does not operate to extend the period
+of engagement of a temporary employee of NSW Lotteries. A transferred employee
+who was a temporary employee of NSW Lotteries immediately before the transfer
+is not entitled to employment as a transferred employee beyond the finishing
+date of the person&#8217;s employment as a temporary employee of NSW Lotteries
+(as specified in the contract under which the employee was engaged as a
+temporary employee).</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.4-sec.5">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.5"></attrib>
+<attrib name="guid" value="_b9c4ca22-6da0-4889-8c6d-3ebae3aa6c13"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading id="sch.4-sec.5-he"
+guid="_ed374aca-e345-43fb-8b74-0234001f2abc"><b>Superannuation</b></heading></head>
+
+<tier type="subclause" id="sch.4-sec.5-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.5-ssec.1"></attrib>
+<attrib name="guid" value="_679f6e1f-4492-4f4d-a3db-fd1a030d019a"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A transferred employee is entitled to continue as
+a contributor, member or employee for the purposes of any superannuation
+scheme in respect of which he or she was a contributor, member or employee (as
+an employee of NSW Lotteries) immediately before the transfer of employment
+and remains so entitled subject to any variation to that entitlement made
+either by agreement or otherwise in accordance with law.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.5-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.5-ssec.2"></attrib>
+<attrib name="guid" value="_7290a4e9-e298-4370-9d41-58700c6470a5"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The new employer is taken to be an employer for
+the purposes of any superannuation scheme in respect of which the transferred
+employee continues as a contributor, member or employee pursuant to an
+entitlement under this clause.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.4-sec.6">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.6"></attrib>
+<attrib name="guid" value="_b8adc631-90ba-4efb-bf74-7a1f7ca540f4"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading id="sch.4-sec.6-he"
+guid="_4d673d4d-7650-4ed1-8eb3-1da8831e1f03"><b>Continuity of
+employment</b></heading></head>
+<block><txt break.before="1">The continuity of a transferred employee&#8217;s
+employment is taken not to have been broken by the transfer of employment, and
+service of the employee with NSW Lotteries (including service deemed to be
+service with NSW Lotteries) that is continuous service up to the time of
+transfer is deemed for all purposes to be service with the new
+employer.</txt></block></level>
+
+
+<level type="clause" id="sch.4-sec.7">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.7"></attrib>
+<attrib name="guid" value="_2dc69ed3-8736-4920-b03c-522c909c02cd"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading id="sch.4-sec.7-he"
+guid="_83f882ae-e560-4fbb-b345-862ab40421c0"><b>Accrued leave
+entitlements</b></heading></head>
+
+<tier type="subclause" id="sch.4-sec.7-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.7-ssec.1"></attrib>
+<attrib name="guid" value="_47039754-4be6-46c1-ab41-d4f1936dfbb0"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A transferred employee retains any rights to sick
+leave, annual leave or long service leave accrued or accruing immediately
+before the transfer of employment (except accrued leave for which the employee
+has, on ceasing to be an employee of NSW Lotteries, been paid the monetary
+value in pursuance of any other entitlement of the
+employee).</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.7-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.7-ssec.2"></attrib>
+<attrib name="guid" value="_894be1ed-5f6a-4fe6-aa2e-480c971a8a68"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Nothing in the <legref jurisd="NSW" type="act"
+refid="act-1996-017" check="unknown"><name emphasis="yes"><i>Industrial
+Relations Act 1996</i></name></legref>, the <legref jurisd="NSW" type="act"
+refid="act-1955-038" check="unknown"><name emphasis="yes"><i>Long Service
+Leave Act 1955</i></name></legref> or the <legref jurisd="NSW" type="act"
+refid="act-1944-031" check="unknown"><name emphasis="yes"><i>Annual Holidays
+Act 1944</i></name></legref> prevents payment in connection with the operation
+of this Act of the monetary value of annual leave or long service leave in
+lieu of an entitlement to that leave accrued by a person as an employee of a
+public sector agency before the transfer of the employee&#8217;s employment
+under this Schedule.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.4-sec.8">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.8"></attrib>
+<attrib name="guid" value="_f32f319b-5632-444f-8fa7-a4764c0b4192"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading id="sch.4-sec.8-he"
+guid="_c7544f9c-8687-4600-a161-2f16d1c96d00"><b>Transfer
+payments</b></heading></head>
+
+<tier type="subclause" id="sch.4-sec.8-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.8-ssec.1"></attrib>
+<attrib name="guid" value="_04b1ad14-b7e0-4de7-818b-f71be65ffeef"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A transferred employee is not entitled to receive
+any payment or other benefit (including in the nature of severance pay or
+redundancy or other compensation) merely because the employee ceased to be an
+employee of NSW Lotteries, or the employee&#8217;s contract of employment with
+NSW Lotteries was terminated, as a result of the transfer of employment (but
+without affecting any entitlement to a transfer payment under this
+clause).</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.8-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.8-ssec.2"></attrib>
+<attrib name="guid" value="_74b9980d-7c94-43f8-94f7-d54c12a5611c"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Treasurer or another public sector agency may
+enter into agreements or other arrangements with respect to the making of
+transfer payments to employees in connection with the transfer of employment
+of employees under this Schedule or otherwise in connection with the operation
+of this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.8-ssec.3">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.8-ssec.3"></attrib>
+<attrib name="guid" value="_3022bc93-c507-41b0-83a3-c22834f3ccdd"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Any such arrangements may provide for the payment
+of any such transfer payments to be payments on the occasion of the
+termination of employment with the current employer despite any provision of
+this Schedule.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.4-sec.9">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.9"></attrib>
+<attrib name="guid" value="_d6b86a3d-c42a-4903-b094-9afa958a7caa"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading id="sch.4-sec.9-he"
+guid="_5a28d869-1217-4553-b41c-011019ac9dca"><b>Workplace
+relations</b></heading></head>
+<block><txt break.before="1">The Treasurer may negotiate and enter into
+agreements or industrial instruments concerning workplace relations for or on
+behalf of the State or a public sector agency in connection with the operation
+of this Schedule.</txt></block></level>
+
+
+<level type="clause" id="sch.4-sec.10">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.10"></attrib>
+<attrib name="guid" value="_b2fa9eba-18a3-4130-9a8d-b6e8f8cd593d"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading id="sch.4-sec.10-he"
+guid="_e4a48fdc-fc2e-4a46-a884-442d9a10433c"><b>Operation of Commonwealth
+law</b></heading></head>
+
+<tier type="subclause" id="sch.4-sec.10-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.10-ssec.1"></attrib>
+<attrib name="guid" value="_aa803607-8e0d-4712-a426-5514c252e0e3"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A provision of this Schedule (including a
+provision to the extent that it imposes or continues a term or condition of
+employment) has no effect to the extent of any inconsistency with any
+provision of the <legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="yes"><i>Workplace Relations Act 1996</i></name></legref> or <legref
+jurisd="CTH" type="act" check="unknown"><name emphasis="yes"><i>Fair Work Act
+2009</i></name></legref> of the Commonwealth or of any instrument under either
+of those Acts.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.10-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.4-sec.10-ssec.2"></attrib>
+<attrib name="guid" value="_c4e1148f-25b9-4adf-880c-073ef746ff63"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This clause is not intended to limit the
+operation of section 21 (Construction of Act and instruments so as not to
+exceed legislative power) of this Act.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="schedule" id="sch.5" status="repealed">
+<parentattributes>
+<attrib name="id" value="sch.5"></attrib>
+<attrib name="guid" value="_9df005bd-3dec-4243-8f03-dac3b20433a9"></attrib>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 5</b></no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 5:</b> Rep 1987 No
+15, sec 30C.</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading id="ed-he"
+guid="_460bdf24-efd6-4284-8d5e-e5d920d7053f"><b>Historical
+notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading id="ed-he-oc.2"
+guid="_a5df1261-eb92-4478-871d-9a4cd3917d28"><b>Table of amending
+instruments</b></heading></head>
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+refid="act-2009-060" check="unknown"><name emphasis="yes"><i>NSW Lotteries
+(Authorised Transaction) Act 2009</i></name> No 60</legref>. Assented to
+16.9.2009. Date of commencement, sec 27 and Schs 5.1 [1]&#8211;[13] and
+[15]&#8211;[17] and 5.2 excepted, 2.10.2009, sec 2 and 2009 (491) LW
+2.10.2009; date of commencement of sec 27 and Sch 5.2, 29.4.2010, sec 2 and
+2010 (127) LW 23.4.2010; date of commencement of Sch 5.1 [1]&#8211;[13] and
+[15]&#8211;[17], 1.4.2010, sec 2 and 2010 (94) LW 19.3.2010. This Act has been
+amended as follows&#8212;</txt>
+
+<table frame="none" orient="port" id="ed-tbl"
+guid="_7a1ecbac-f784-41b8-8de5-ed902ed78fd1" heading.align="left"
+font.size="12.pt">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row id="ed-tbl-tblr" guid="_e42f2ef7-2c5b-425e-988b-79db98bb7f30">
+<entry colname="1" id="ed-tbl-tblr-tble1"
+guid="_9c8b8345-ff55-40e6-bc61-795cbae83d36"><txt
+break.before="1"><b></b><b>2017</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-tble2"
+guid="_28ff4e30-b848-407e-983c-2161a3f14dc5"><txt break.before="1">No
+22</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-tble3"
+guid="_34a6a6c4-706c-4476-b63b-2d0e7a5d591c">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+refid="act-2017-022" check="unknown"><name emphasis="yes"><i>Statute Law
+(Miscellaneous Provisions) Act 2017</i></name></legref>. Assented to
+1.6.2017.</txt>
+<txt break.before="1">Date of commencement of Sch 1.14, 30.6.2017, sec 2
+(2).</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.2" guid="_1183d8c7-0845-428a-93cf-da6e4e0fe86d">
+<entry colname="1" id="ed-tbl-tblr-oc.2-tble1"
+guid="_d8c731fd-3096-469f-8f93-7bf1872a2b67"><txt
+break.before="1"><b>2018</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.2-tble2"
+guid="_ae89461b-deb4-411d-9c61-db2b4523f4e9"><txt break.before="1">No
+70</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.2-tble3"
+guid="_34c44da2-01a7-444b-a20c-7c2249a24931">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+refid="act-2018-070" check="unknown"><name emphasis="yes"><i>Government Sector
+Finance Legislation (Repeal and Amendment) Act 2018</i></name></legref>.
+Assented to 22.11.2018.</txt>
+<txt break.before="1">Date of commencement of Sch 4.75, 1.7.2021, sec 2(1) and
+2021 (305) LW 25.6.2021.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">This Act has been amended by sec 30C of the
+<legref jurisd="NSW" type="act" refid="act-1987-015" check="unknown"><name
+emphasis="yes"><i>Interpretation Act 1987</i></name> No
+15</legref>.</txt></block></level>
+
+
+<level type="tableamends">
+<head><heading id="ed-he-oc.3"
+guid="_d1d7b1ae-1d5c-46cc-b6f4-511adfb570c4"><b>Table of
+amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" id="ed-tbl-oc.2"
+guid="_bbc429f2-c333-4a7b-a346-6b34922ea929" heading.align="left"
+font.size="12.pt">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row id="ed-tbl-oc.2-tblr" guid="_dfc14a6d-6973-4c1e-8c4a-6f8fc65919fb">
+<entry colname="1" id="ed-tbl-oc.2-tblr-tble1"
+guid="_813e772c-1e6c-4e1b-8012-2ddcd6813ff5"><txt break.before="1">Sec
+11</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-tble2"
+guid="_d79e647d-e9af-44e9-b040-9104865d6245"><txt break.before="1">Rep 2017 No
+22, Sch 1.14 [1].</txt></entry></row>
+
+
+<row id="ed-tbl-oc.2-tblr-oc.2" guid="_7c56b0bb-f6c4-402a-9734-e615b70e15ac">
+<entry colname="1" id="ed-tbl-oc.2-tblr-oc.2-tble1"
+guid="_6ef9d622-6c21-4f67-ac63-7a6ff8fbb724"><txt break.before="1">Sec
+16</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-oc.2-tble2"
+guid="_ff582129-395e-41a5-b002-c91f487397b4"><txt break.before="1">Am 2018 No
+70, Sch 4.75.</txt></entry></row>
+
+
+<row id="ed-tbl-oc.2-tblr-oc.3" guid="_0334a325-6bcc-40dd-8650-b006a574103f">
+<entry colname="1" id="ed-tbl-oc.2-tblr-oc.3-tble1"
+guid="_30764b09-096a-4ff2-a343-0efec5b18896"><txt break.before="1">Sec
+26A</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-oc.3-tble2"
+guid="_47c81c5c-4d3e-489b-aa4b-a8953d319177"><txt break.before="1">Ins 2017 No
+22, Sch 1.14 [2].</txt></entry></row>
+
+
+<row id="ed-tbl-oc.2-tblr-oc.4" guid="_11b9c4d4-e610-4fa8-911d-2632c79fb0d8">
+<entry colname="1" id="ed-tbl-oc.2-tblr-oc.4-tble1"
+guid="_d5dfdd09-c809-4a63-9fbd-2d6bca3d7158"><txt break.before="1">Sec
+27</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-oc.4-tble2"
+guid="_8154a805-476b-4958-88be-eab63cc9c9d1"><txt break.before="1">Rep 1987 No
+15, sec 30C.</txt></entry></row>
+
+
+<row id="ed-tbl-oc.2-tblr-oc.5" guid="_cef6f1ad-035c-4df0-b7d4-c3fffe6998a5">
+<entry colname="1" id="ed-tbl-oc.2-tblr-oc.5-tble1"
+guid="_ce9aa626-cb78-401f-98b5-0cf468ea02f9"><txt break.before="1">Sch
+1</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-oc.5-tble2"
+guid="_30cad4e5-643e-4637-9207-8fbfc67da597"><txt break.before="1">Am 2017 No
+22, Sch 1.14 [3] [4].</txt></entry></row>
+
+
+<row id="ed-tbl-oc.2-tblr-oc.6" guid="_67feb160-d4f8-4d78-80cf-ec1d86997ba3">
+<entry colname="1" id="ed-tbl-oc.2-tblr-oc.6-tble1"
+guid="_05aff5dd-f297-44c9-9fc3-efad6bbfc3ba"><txt break.before="1">Sch
+5</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-oc.6-tble2"
+guid="_f5d110aa-a93d-4447-b574-9b37599c1642"><txt break.before="1">Rep 1987 No
+15, sec 30C.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

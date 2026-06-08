@@ -1,0 +1,3883 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2011-023"
+title="Infrastructure NSW Act 2011"
+year="2011"
+number="23"
+enact.or.made.date="2011-06-27"
+first.valid.date="2023-10-30"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2011</metacontent>
+<metacontent class="year.assent">2011</metacontent>
+<metacontent class="publication.date">2026-05-06</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2023-035</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="introduction.date">2011-05-26</metacontent>
+<metacontent class="la.second.reading.date">2011-05-26</metacontent>
+<metacontent class="amended.in.committee">0</metacontent>
+<metacontent class="id">act-2011-023</metacontent>
+<metacontent
+class="version.desc.id">df914f38-ac55-4ee0-bf5a-d7fcff9b2862</metacontent>
+<metacontent
+class="version.series.id">7b882883-936f-40cd-82e0-3475eb6f3cf3</metacontent>
+<metacontent class="year.introduced">2011</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Infrastructure NSW Act 2011"></attrib>
+<attrib name="year.passed" value="2011"></attrib>
+<attrib name="year.assent" value="2011"></attrib>
+<attrib name="no" value="23"></attrib>
+<attrib name="publication.date" value="2026-05-06"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2023-035"></attrib>
+<attrib name="first.valid.date" value="2023-10-30"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="introduction.date" value="2011-05-26"></attrib>
+<attrib name="la.second.reading.date" value="2011-05-26"></attrib>
+<attrib name="amended.in.committee" value="0"></attrib>
+<attrib name="assent.date" value="2011-06-27"></attrib>
+<attrib name="id" value="act-2011-023"></attrib>
+<attrib name="version.desc.id"
+value="df914f38-ac55-4ee0-bf5a-d7fcff9b2862"></attrib>
+<attrib name="version.series.id"
+value="7b882883-936f-40cd-82e0-3475eb6f3cf3"></attrib>
+<attrib name="year.introduced" value="2011"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_232116dc-b113-432d-a51e-2bde394dee02"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_f9ee4055-f945-46ae-9cc9-ed3e633163d1"
+id="cd-status-he"><b>See also&#8212;</b></heading></head>
+<block><txt break.before="1"><legref type="bill" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Bill 2026</i></name></legref></txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>whole Act, except s
+8(2)(d):</b> Am 2022 No 8, Sch 5.5[1] (&#8220;Premier&#8221; omitted wherever
+occurring, &#8220;Minister&#8221; inserted instead).</txt></content>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_4d520abb-9d8f-42df-ace9-a36afe65f745"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to establish and confer functions on
+Infrastructure NSW; and for other purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_4d28ba21-ada9-4a2d-8dcf-3fc393b00515"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_5bddd705-38bd-4054-a6db-41a5a487c56f"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7577eefd-27cf-4e94-b573-730e17664f49"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_4d96ed0a-8be9-433b-bf7a-31a40683f70d"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-2011-023"><name emphasis="yes"><i>Infrastructure
+NSW Act 2011</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_31ff28f7-e32a-4cb2-b91c-fcbb9dddc6f3"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_25575114-553f-40aa-b8cd-ad2713531bc6"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on a day or days to be
+appointed by proclamation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_16ac32db-b242-4e06-8278-9df0797ab7c8"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_42a224e2-dd3e-4915-afa4-a52f9ac3d8a6"
+id="sec.3-he"><b>Objects of Act</b></heading></head>
+<block><txt break.before="1">The objects of this Act are&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_524f1195-db11-4720-bf40-55360e10ff02" id="sec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to secure the efficient, effective, economic and
+timely planning, co-ordination, selection, funding, implementation, delivery
+and whole-of-lifecycle asset management of infrastructure that is required for
+the economic and social well-being of the community, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_68c5da96-2f51-47d5-a26a-2dd555e178a6" id="sec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to ensure that decisions about infrastructure
+projects are informed by expert professional analysis and
+advice.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_304023e1-fec8-4554-86ae-4ce8fabbc45d"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_2f8c71b3-4e7e-4a77-9187-3e879b742da1"
+id="sec.4-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2bf5f9b9-0b3e-4e42-8bfd-f97150e32903"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_81d657c7-5b3d-421a-80a5-10ed6cf37468"
+id="sec.4-ssec.1-def.Board"><b><i>Board</i></b></defterm> means the Board of
+Infrastructure NSW.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_2e9e30e9-983e-4823-aad5-d5e8174142d5"
+id="sec.4-ssec.1-def.ChiefExecutiveOfficer"><b><i>Chief Executive
+Officer</i></b></defterm> means the Chief Executive Officer and Co-ordinator
+General, Infrastructure NSW.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d277fd0f-9ae0-4908-b755-969d782329a8"
+id="sec.4-ssec.1-def.function"><b><i>function</i></b></defterm> includes a
+power, authority or duty, and <defterm type="definition"
+guid="_6647f97a-597b-44e9-806d-fbe2dae229a4"
+id="sec.4-ssec.1-def.exerciseafunction"><b><i>exercise a
+function</i></b></defterm> includes perform a duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_17030b43-2840-4bf3-bb94-9d3bc664bada"
+id="sec.4-ssec.1-def.governmentagency"><b><i>government
+agency</i></b></defterm> means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1b93ab71-75bd-4e18-8ee1-38098cd06a3d" id="sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a public authority constituted by or under an
+Act, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b2f1690b-e536-46e4-943b-a88333ddcf55" id="sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a NSW Government agency, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_993e2e2e-3593-47bf-8797-437542fb9f29" id="sec.4-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a Public Service agency, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_701b2fd5-a120-4779-ae41-2b231155c8c4" id="sec.4-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">a council (within the meaning of the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1993-030"><name
+emphasis="yes"><i>Local Government Act 1993</i></name></legref>) or other
+local authority, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7d57ca71-0570-4574-8d2a-2b2e0ddefaa7" id="sec.4-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">a SOC.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_432ea244-f7a5-4f4b-b893-f301ce9982e8"
+id="sec.4-ssec.1-def.InfrastructureNSW"><b><i>Infrastructure
+NSW</i></b></defterm> means Infrastructure NSW constituted under this
+Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_96f7ee5e-5589-40bd-b995-50641cbbec48"
+id="sec.4-ssec.1-def.majorinfrastructureproject"><b><i>major infrastructure
+project</i></b></defterm> means a project to provide
+infrastructure&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e8fc7d06-6d7c-419e-825b-590739e1b629" id="sec.4-ssec.1-para1.a-oc.2">
+<no>(a)</no>
+<block><txt break.before="1">that has a capital investment value of more than
+$100 million, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ddfe595b-2b2b-4e27-9f03-aa33c0781257" id="sec.4-ssec.1-para1.b-oc.2">
+<no>(b)</no>
+<block><txt break.before="1">that is nominated by the Minister as a special
+project requiring oversight or co-ordination by Infrastructure
+NSW.</txt></block></li></list>
+
+<txt break.before="1">The capital investment value of a project includes all
+costs necessary to establish and operate the project (including design and
+construction costs, but not including land costs or GST).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_f09a8493-95a8-4e4f-abc7-986a0cffb820"
+id="sec.4-ssec.1-def.privatesector"><b><i>private sector</i></b></defterm>
+includes the not-for-profit sector.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_7bff8c8b-743d-428f-89b0-57bc87510568"
+id="sec.4-ssec.1-def.SOC"><b><i>SOC</i></b></defterm> means a State owned
+corporation.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ae9f64fd-c043-4e97-904d-18c442d9f1c7"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 2015 No 58,
+Sch 3.50 [1].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_44e39b17-eb2c-4f49-aa4e-5cc3c4fda0c4"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_0f85e549-cb26-4034-992b-0d900c33d0da"
+id="pt.2-he"><b>Constitution and management of Infrastructure
+NSW</b></heading></head>
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_635cf292-1fb9-4b4a-9e07-43ef03a9167a"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_481bfc60-1621-409a-8813-cb8d1fca22e6"
+id="sec.5-he"><b>Constitution of Infrastructure NSW</b></heading></head>
+<block><txt break.before="1">There is constituted by this Act a body corporate
+with the corporate name of Infrastructure NSW.</txt></block></level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_97313e00-1950-41a3-879e-9fb73212f698"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_33f26a6a-c635-40fa-9838-717f1bdb3679"
+id="sec.6-he"><b>Status of Infrastructure NSW</b></heading></head>
+<block><txt break.before="1">Infrastructure NSW is, for the purposes of any
+Act, a NSW Government agency.</txt></block></level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_201971ae-cef6-4517-bbbd-dcc4a62e5b2f"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_f90d0e1c-d597-472f-a38e-a4e0bad84eda"
+id="sec.7-he"><b>Ministerial control</b></heading></head>
+<block><txt break.before="1">Infrastructure NSW is subject to the control and
+direction of the Minister in the exercise of its
+functions.</txt></block></level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_99fdaaf4-72a6-4c34-87a5-542aa5ffa673"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_e0ed64f6-d8cb-4ea6-aaff-571be0c680e2"
+id="sec.8-he"><b>Board of Infrastructure NSW</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2fa44431-e473-43d8-9dd8-6160ade12cad"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There is to be a Board of Infrastructure
+NSW.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a3aa8a0b-49ae-43d7-b5bf-51a1eb64fbf1"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Board is to consist of the following
+members&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_04131976-863d-487e-a5e3-b7eea280c730" id="sec.8-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a person appointed by the Minister as the
+Chairperson of the Board,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_995b0b5a-9f2f-425f-8857-471d986da598" id="sec.8-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">not more than 5 persons appointed by the Minister
+from the private sector who together have skills and experience in
+infrastructure planning, funding and delivery,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fe7e2256-4c68-46a1-bc4c-c6bdb8753fbe" id="sec.8-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the Chief Executive Officer,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2e67db3f-5864-4a41-891c-80d991c7d6f1" id="sec.8-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the Secretary of the Cabinet
+Office,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5fb9f6f5-25ef-4a4a-a0bd-fd42fd38de24" id="sec.8-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the Secretary of the
+Treasury,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1ac6b020-18c7-4c49-8fd9-8c925328ebfe" id="sec.8-ssec.2-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">the Secretary of the Department of Industry,
+Skills and Regional Development,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4d25785a-a86e-432c-a194-efc1df375e4f" id="sec.8-ssec.2-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">the Secretary of the Department of Planning and
+Environment.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_afe3ba88-c6f6-4197-962b-e280b78087d6"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Board has the function of determining the
+general policies and strategic direction of Infrastructure NSW and of advising
+the Minister and the Chief Executive Officer on&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f5ade8d7-272d-4e8e-9654-a235894d6fb1" id="sec.8-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the strategies, plans and statements under Part
+4, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cb4e6c35-dd3e-444b-b649-46344451a9b4" id="sec.8-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">progress in the delivery of major infrastructure
+projects identified in those strategies, plans and statements,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a0f2e32f-3927-4895-8b11-b4ff99c4f1e2" id="sec.8-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">other matters relating to infrastructure at the
+request of the Minister or the Chief Executive Officer or on its own
+initiative.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_918fb686-cacb-4b74-955a-04ec3ee3710e"></attrib>
+<attrib name="id" value="sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">If the Minister makes any amendment to the
+strategies, plans and statements submitted by Infrastructure NSW under Part 4,
+the Board may advise the Minister that it does not agree with the amendment
+and make that advice available to the public.</txt></block></tier>
+
+<note type="legtext" guid="_bdea188a-e2ab-4554-9168-10ab6115453b"
+id="sec.8-note"><heading guid="_80e04d24-1c73-4e6d-b0cb-ed97a9f60082"
+id="sec.8-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">Schedule 1 sets out the provisions relating to
+the members and procedure of the Board.</txt></block></note>
+
+
+<content type="historynote"><txt break.before="1"><b>s 8:</b> Am 2015 No 58,
+Sch 3.50 [2] [3]; 2023 No 35, Sch 4.23.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_390bbcee-fe6b-4e7d-8d1e-b1e57a989b27"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_59936156-7d4f-46c8-8a99-abc70cedd425"
+id="sec.9-he"><b>Chief Executive Officer and Co-ordinator
+General</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1606df58-0055-4c73-93d8-cb724f97fd0f"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Chief Executive Officer and Co-ordinator
+General, Infrastructure NSW, is the person employed in the Public Service as
+the Chief Executive Officer and Co-ordinator General, Infrastructure
+NSW.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_71e144e8-fd60-4635-b0c1-654b5bbcd115"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The affairs of Infrastructure NSW are to be
+managed and controlled by the Chief Executive Officer in accordance with the
+general policies and strategic direction determined by the Board of
+Infrastructure NSW.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8cbd7e5b-61eb-421a-a507-45145720ce01"></attrib>
+<attrib name="id" value="sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Any act, matter or thing done in the name of, or
+on behalf of Infrastructure NSW by the Chief Executive Officer is taken to
+have been done by Infrastructure NSW.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Am 2015 No 58,
+Sch 3.50 [4].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f829b7fb-acc7-4b26-a551-7df3e1c0a392"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_8d4b908f-c67b-42d6-b45c-7563fc1db90f"
+id="sec.10-he"><b>Staff</b></heading></head>
+<block><txt break.before="1">Persons may be employed in the Public Service
+under the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2013-040"><name emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref> to enable Infrastructure NSW to exercise its
+functions.</txt></block>
+<note type="legtext" guid="_6a60d283-01b4-4991-be33-77a60ed8f273"
+id="sec.10-note"><heading guid="_a3688c0a-8457-4e2f-a28a-11009abb907b"
+id="sec.10-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">Section 59 of the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-2013-040"><name emphasis="yes"><i>Government Sector
+Employment Act 2013</i></name></legref> provides that the persons so employed
+(or whose services Infrastructure NSW makes use of) may be referred to as
+officers or employees, or members of staff, of Infrastructure NSW. Section 47A
+of the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1902-032"><name emphasis="yes"><i>Constitution Act
+1902</i></name></legref> precludes Infrastructure NSW from employing
+staff.</txt></block></note>
+
+
+<content type="historynote"><txt break.before="1"><b>s 10:</b> Subst 2015 No
+58, Sch 3.50 [5].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_90cb1e5d-776d-4fb8-9c6d-f74bba13d4d6"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_0dd53947-2a36-485e-aa45-64b95ccaa84a"
+id="pt.3-he"><b>Functions of Infrastructure NSW</b></heading></head>
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d31230c3-530b-4422-a533-3f48d1c68003"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_a5bbe6d8-ccab-4647-8b8a-66bd8801ba9e"
+id="sec.11-he"><b>General and specific functions of Infrastructure
+NSW</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8bb2388c-3258-459c-a4d7-6ecfac0edb47"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Infrastructure NSW has the following
+functions&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b3d765a2-6a42-4917-bd95-77ac141d8547" id="sec.11-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to prepare and submit to the Minister a 20-year
+State infrastructure strategy,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_43c52e08-5f26-4976-b55d-8cd03e02ec81" id="sec.11-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to prepare and submit to the Minister 5-year
+infrastructure plans and other plans requested by the
+Minister,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_20a853ca-dc58-4e3c-9fd3-d1df6343ca6c" id="sec.11-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to prepare and submit to the Minister sectoral
+State infrastructure strategy statements,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_744dd24b-9992-4332-8885-4916861f748d" id="sec.11-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to prepare project implementation plans for major
+infrastructure projects,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_68fdd4b5-c0a0-49f2-a8cb-9c8ff1b858ff" id="sec.11-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">to review and evaluate proposed major
+infrastructure projects by government agencies or the private sector and other
+proposed infrastructure projects (including recommendations for the role of
+Infrastructure NSW in the delivery of those projects),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f63ef8f2-44af-4e5f-8594-23d568c44df4" id="sec.11-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">to oversee and monitor the delivery of major
+infrastructure projects and other infrastructure projects identified in plans
+adopted by the Minister,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6e82d5b3-c48f-4abb-9f15-dd5970f9c0a6" id="sec.11-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">to carry out or be responsible for the delivery
+of a specified major infrastructure project in accordance with an order of the
+Minister under Part 5,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_58c79237-c2f7-4352-8803-46e9383de8ba" id="sec.11-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">to assess the risks involved in planning,
+funding, delivering and maintaining infrastructure, and the management of
+those risks,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4a3f3fe3-d7ea-4870-9002-6191ad3cf88a" id="sec.11-ssec.1-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">to provide advice to the Minister on economic or
+regulatory impediments to the efficient delivery of specific infrastructure
+projects or infrastructure projects in specific sectors,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_45e50ae8-2efb-4595-8a76-631163ac250a" id="sec.11-ssec.1-para1.j">
+<no>(j)</no>
+<block><txt break.before="1">to provide advice to the Minister on appropriate
+funding models for infrastructure,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1c3cc67b-affc-44e8-8e68-99458dc20488" id="sec.11-ssec.1-para1.k">
+<no>(k)</no>
+<block><txt break.before="1">to co-ordinate the infrastructure funding
+submissions of the State and its agencies to the Commonwealth Government and
+to other bodies,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_29064ae1-f2aa-44e9-8742-0443812dd44e" id="sec.11-ssec.1-para1.l">
+<no>(l)</no>
+<block><txt break.before="1">to carry out reviews of completed infrastructure
+projects at the request of the Minister,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_59a1643a-db86-44d7-917f-b4928855bb8e" id="sec.11-ssec.1-para1.m">
+<no>(m)</no>
+<block><txt break.before="1">to provide advice on any matter relating to
+infrastructure that the Minister requests.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_de1e6bfa-3752-4ac6-b3ac-29b8de7a6d67"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Infrastructure NSW is to exercise its functions
+with a view to achieving the objects of this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_db61499f-46fa-445f-a6c6-1b90855a8321"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Infrastructure NSW may exercise any other
+function delegated to it by another government agency.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2d093b1d-6987-4eae-b18f-712b5776d1dd"></attrib>
+<attrib name="id" value="sec.11-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Infrastructure NSW has such other functions as
+are conferred or imposed on it by or under this or any other
+Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8a0b4e3d-de66-4c3d-9ced-918a4d70d605"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_343259c2-3956-4e73-86d7-44e2f3e20152"
+id="sec.12-he"><b>Acceptance of delegated functions by Infrastructure
+NSW</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_da3d3800-152a-413d-b744-0fa2b0b13407"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Infrastructure NSW may accept a delegation of the
+functions of a government agency relating to the planning, funding, delivery
+or maintenance of infrastructure.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_33cecb7c-d5bf-454a-b694-f65b914b110c"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The government agency is authorised to delegate
+any such function to Infrastructure NSW.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ca95adb2-f985-4f81-84e7-bf5abf4ddd90"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_611a7cd9-b62e-439d-9b8b-4b08cdf262d7"
+id="sec.13-he"><b>Delegation of Infrastructure NSW&#8217;s
+functions</b></heading></head>
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aac81057-2a0b-4ec7-b530-42c1da6053b8"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Infrastructure NSW may delegate to an authorised
+person any of its functions, other than this power of delegation. This power
+of delegation extends to a function delegated to Infrastructure NSW by a
+government agency.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7d949631-c056-41e3-b516-dd4debc4499d"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A delegate may sub-delegate to an authorised
+person any function delegated by Infrastructure NSW if the delegate is
+authorised in writing to do so by Infrastructure NSW.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5bfe6faf-009d-422c-84af-0c1368739779"></attrib>
+<attrib name="id" value="sec.13-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_35e84dfd-041c-4dbf-8aa3-f4c65cd01d96"
+id="sec.13-ssec.3-def.authorisedperson"><b><i>authorised
+person</i></b></defterm> means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5f3ed480-aaa4-492b-9142-079c1e5c35ea" id="sec.13-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a member of the staff of Infrastructure NSW,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d7c7434b-c380-40b9-8d02-ad316f150cc3" id="sec.13-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a person, a committee of persons or a person of a
+class approved by the Minister or prescribed by the
+regulations.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a56872af-db10-4201-9813-12137b039e5a"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_833a19e5-8231-4097-9ff9-d5ae55b06df9"
+id="sec.14-he"><b>Exercise of functions through joint ventures
+etc</b></heading></head>
+<block><txt break.before="1">Any function of Infrastructure NSW may be
+exercised by&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0da75298-e53f-4658-a164-ac04f419220e" id="sec.14-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">Infrastructure NSW itself, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e6383ada-3cd5-45b1-bff4-04bd89943245" id="sec.14-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">Infrastructure NSW in a partnership, joint
+venture or other association with government agencies or other persons or
+bodies.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a5105c95-f0d7-4f18-94d3-1a0aebfa3e38"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_cd10b8bf-6e9a-4066-ae64-5db42f967efb"
+id="sec.15-he"><b>Obligations of government agencies</b></heading></head>
+
+<tier type="subclause" id="sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ab638b75-3e5d-4cf4-80a3-16c7c0db3235"></attrib>
+<attrib name="id" value="sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A government agency has the following obligations
+in respect of infrastructure projects&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dfbb653e-3f5c-4dde-95b3-ba78bc0ba099" id="sec.15-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to co-operate with Infrastructure NSW in the
+exercise of the functions of Infrastructure NSW, including complying with any
+reasonable request of Infrastructure NSW for information to enable
+Infrastructure NSW to exercise its functions,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c938d882-ad49-40e9-a679-c68a9f886ed7" id="sec.15-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to notify Infrastructure NSW of any proposed
+exercise of the functions of the agency that may impact adversely on the
+current 5-year infrastructure plan or a project implementation plan under Part
+4.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9f55d37d-e906-4251-bb49-e51c778a85f7"></attrib>
+<attrib name="id" value="sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This section does not extend to the
+investigative, complaints handling and other law enforcement functions of the
+NSW Police Force, the Independent Commission Against Corruption, the
+Ombudsman&#8217;s Office, the Law Enforcement Conduct Commission or the office
+of the Auditor-General.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 15:</b> Am 2016 No 61,
+Sch 6.26.</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_afb41c49-a683-4c9f-8b05-e3ab2e8e5be0"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_52c834cd-27e5-4fca-a5b4-b862c3d8aa35"
+id="pt.4-he"><b>Infrastructure strategies and planning</b></heading></head>
+
+<level type="division" id="pt.4-div.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_f7e28af6-798e-4478-a788-187591d512fb"></attrib>
+<attrib name="id" value="pt.4-div.1"></attrib></parentattributes>
+
+<head>
+<no><b>Division 1</b></no><heading
+guid="_ad1c8311-8c44-4bb6-a9b3-43f66a8c11f2" id="pt.4-div.1-he"><b>20-year
+State infrastructure strategy</b></heading></head>
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ce4d9e5c-da91-49f1-9e39-4d63680213cd"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_b902fd71-fcd6-4e87-8cd2-63de184acbac"
+id="sec.16-he"><b>Preparation of 20-year State infrastructure
+strategy</b></heading></head>
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_03d1be42-fb3c-4642-b37e-1dc3bda8d68e"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Infrastructure NSW must prepare and submit to the
+Minister a 20-year State infrastructure strategy.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_183e8107-64eb-4c23-82dd-c2afe01c592b"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The strategy is to be prepared within such time
+as the Minister directs.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_421f6afc-084e-44d5-b1ed-6bbd2268164e"></attrib>
+<attrib name="id" value="sec.16-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Infrastructure NSW is to review the strategy
+every 5 years (and at such other times as the Minister directs or it considers
+appropriate) and submit a revised strategy to the
+Minister.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4951ff34-c2c5-4d29-8cbb-08d775c87078"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_c8241201-e0ab-4e6b-84e4-d79b38946dae"
+id="sec.17-he"><b>Content of 20-year State infrastructure
+strategy</b></heading></head>
+
+<tier type="subclause" id="sec.17-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_24405bca-c09b-4a15-baac-c08c0cc810f9"></attrib>
+<attrib name="id" value="sec.17-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The 20-year State infrastructure strategy must
+assess the current state of infrastructure in New South Wales and the needs
+and strategic priorities for infrastructure in New South Wales for the next 20
+years.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9b7350ff-19ce-408b-918a-9755b2d1849f"></attrib>
+<attrib name="id" value="sec.17-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The strategy may include the
+following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8acac593-f216-4533-a54a-da6fdfc058be" id="sec.17-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">economic, social and environmental objectives
+against which the performance of the State&#8217;s infrastructure network can
+be assessed and benchmarked,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_79682910-3c91-411b-b84f-e820a865c5fc" id="sec.17-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the identification, on the basis of detailed,
+objective and quantitative evidence, of current land use plans and population
+projections, deficiencies in the State&#8217;s infrastructure and the areas in
+which deficiencies in the State&#8217;s infrastructure network are causing the
+most serious economic, social or environmental costs,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2ca3a2f5-ffeb-4474-93b4-f3479faf7c16" id="sec.17-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">an assessment of options available to deal with
+those identified deficiencies and to reduce those economic, social and
+environmental costs, including options relating to demand management and other
+policy, pricing and regulatory reform options,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_83ef7c88-d112-4919-8c11-c2c08676a7c8" id="sec.17-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the identification of projects and policies that
+will best deal with those identified deficiencies and reduce those economic,
+social and environmental costs.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_906e2d4f-b1b6-4a3d-b3f2-5eceff2b04c4"></attrib>
+<attrib name="id" value="sec.17-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Infrastructure NSW must, in preparing or
+reviewing the strategy, have regard to any State strategic priority of which
+Infrastructure NSW has been advised by the Minister.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bf4f3d93-a88f-437a-88bf-5fb5a44cf439"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_bded65c2-679e-4b1f-993f-6e110eb4b100"
+id="sec.18-he"><b>Adoption by Minister of 20-year State infrastructure
+strategy</b></heading></head>
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b4d656e4-de09-4dec-81dd-53ed93bd47ce"></attrib>
+<attrib name="id" value="sec.18-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister is to consider any 20-year State
+infrastructure strategy submitted by Infrastructure NSW, and adopt the
+strategy with or without amendments or refer it back to Infrastructure NSW for
+further consideration.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dfc4aaf0-9e09-4c3c-a9c6-18adc064e29a"></attrib>
+<attrib name="id" value="sec.18-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister must notify Infrastructure NSW of
+the Minister&#8217;s decision and make the adopted strategy publicly
+available.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 18:</b> Am 2022 No 26,
+Sch 2.13.</txt></content>
+</level>
+</level>
+
+
+<level type="division" id="pt.4-div.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_163aca93-b480-4833-bddd-9d8c314ee3f8"></attrib>
+<attrib name="id" value="pt.4-div.2"></attrib></parentattributes>
+
+<head>
+<no><b>Division 2</b></no><heading
+guid="_ff45441e-efd1-4838-9557-84d3e5f48bae" id="pt.4-div.2-he"><b>5-year
+infrastructure plans</b></heading></head>
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9b710bd7-7419-441d-8e15-92f111ae74f2"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_23832724-98d5-4da7-ba95-02f9b61e8e41"
+id="sec.19-he"><b>Preparation of 5-year infrastructure
+plan</b></heading></head>
+
+<tier type="subclause" id="sec.19-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_da634649-4aa6-476f-a267-e75e5a63c1d7"></attrib>
+<attrib name="id" value="sec.19-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Infrastructure NSW must prepare and submit to the
+Minister a 5-year infrastructure plan.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_89130ced-c0c4-40f4-a953-3293d67340d1"></attrib>
+<attrib name="id" value="sec.19-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The plan is to identify specific major
+infrastructure projects to be undertaken as a priority in the following 5
+years.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6e630d7e-df8d-442d-8f6d-460ad52f00f9"></attrib>
+<attrib name="id" value="sec.19-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Infrastructure NSW is to review the plan each
+year (and at such other times as the Minister directs or it considers
+appropriate) and submit a revised plan to the Minister.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_99514061-2734-4a39-b72a-e724d95fd7a2"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_fad20556-9568-4022-a5c5-910512a85ef7"
+id="sec.20-he"><b>Content of 5-year infrastructure plans</b></heading></head>
+
+<tier type="subclause" id="sec.20-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1e10eab1-00b6-46db-8355-5d25e1a393c5"></attrib>
+<attrib name="id" value="sec.20-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A 5-year infrastructure plan may include the
+following in relation to the identified priority major infrastructure
+projects&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_da40854e-59af-4137-b884-06d096037778" id="sec.20-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the rationale for the selection of the priority
+projects,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_07a30e4c-c140-44b8-b39e-1dcaa98cea3e" id="sec.20-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the estimated cost of the priority
+projects,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_74c09be3-0e07-442d-9db3-bc420dcb2b8d" id="sec.20-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the recommended funding and delivery arrangements
+for the priority projects,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3d1fd5ef-6b58-4bfc-8fc8-fcde3c69dd2a" id="sec.20-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the estimated timeframe for the delivery of the
+priority projects.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_03f2637d-81b3-460c-8d7c-f5a2ed35b6f7"></attrib>
+<attrib name="id" value="sec.20-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In preparing the plan, Infrastructure NSW must
+have regard to the 20-year State infrastructure strategy adopted by the
+Minister.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.21">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9cde870e-e7fc-4819-b087-4bc8a632499f"></attrib>
+<attrib name="id" value="sec.21"></attrib></parentattributes>
+
+<head>
+<no>21</no><heading guid="_f4cf4494-0000-47f6-9ca1-483bcbbda232"
+id="sec.21-he"><b>Adoption by Minister of 5-year infrastructure
+plans</b></heading></head>
+
+<tier type="subclause" id="sec.21-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f66cda8e-7125-402f-82ff-a6c99b5d51ef"></attrib>
+<attrib name="id" value="sec.21-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister is to consider a 5-year
+infrastructure plan submitted by Infrastructure NSW, and adopt the plan with
+or without amendments or refer it back to Infrastructure NSW for further
+consideration.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8bd39e39-284c-49e6-89a9-058cdd3c8836"></attrib>
+<attrib name="id" value="sec.21-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister must notify Infrastructure NSW of
+the Minister&#8217;s decision, and make the adopted plan publicly
+available.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 21:</b> Am 2022 No 26,
+Sch 2.13.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.22">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_41ca0206-2a9f-45dc-a6d7-9daaf91e2d75"></attrib>
+<attrib name="id" value="sec.22"></attrib></parentattributes>
+
+<head>
+<no>22</no><heading guid="_f8a0f6e9-45b9-45d3-af11-4d4e666e59e9"
+id="sec.22-he"><b>Other infrastructure plans</b></heading></head>
+
+<tier type="subclause" id="sec.22-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4ff4e64b-88f1-4778-bd45-df07ceb5b97b"></attrib>
+<attrib name="id" value="sec.22-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Infrastructure NSW is to prepare and submit to
+the Minister such other infrastructure plans as the Minister
+directs.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.22-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d8cd66ff-90e4-4458-a73f-19fe3f334117"></attrib>
+<attrib name="id" value="sec.22-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister may direct that any such plan be
+included in the 5-year infrastructure plan or in a separate
+plan.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="division" id="pt.4-div.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_1445a469-cd06-4276-af54-61a036491615"></attrib>
+<attrib name="id" value="pt.4-div.3"></attrib></parentattributes>
+
+<head>
+<no><b>Division 3</b></no><heading
+guid="_17e04202-61aa-438b-af99-1428f6d5f638" id="pt.4-div.3-he"><b>Sectoral
+State infrastructure strategy statements</b></heading></head>
+
+<level type="clause" id="sec.23">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ef9a96b2-097e-4a0f-a6fe-29931f572369"></attrib>
+<attrib name="id" value="sec.23"></attrib></parentattributes>
+
+<head>
+<no>23</no><heading guid="_7d21cb95-8670-4b44-8978-cccf6e7065ee"
+id="sec.23-he"><b>Preparation of sectoral State infrastructure strategy
+statements</b></heading></head>
+
+<tier type="subclause" id="sec.23-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1e9b54b3-f9cb-4a2d-80c6-ec4c7225fb51"></attrib>
+<attrib name="id" value="sec.23-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Infrastructure NSW must prepare and submit to the
+Minister a sectoral State infrastructure strategy statement for any particular
+sector or sectors that the Minister considers significant for the
+State.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_719ac3d4-8bc1-467c-8241-7e29b2db9f09"></attrib>
+<attrib name="id" value="sec.23-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The statement is to be prepared within such time
+as the Minister directs.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.24">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_86edcc0e-e8e5-4f0b-b3cf-c7ad89a3c897"></attrib>
+<attrib name="id" value="sec.24"></attrib></parentattributes>
+
+<head>
+<no>24</no><heading guid="_cb77b6ee-42ba-439d-ad8f-60c1ea36ed16"
+id="sec.24-he"><b>Content of sectoral State infrastructure strategy
+statements</b></heading></head>
+<block><txt break.before="1">A sectoral State infrastructure strategy
+statement may include the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7991b80a-180c-425a-8038-b8de249e34bb" id="sec.24-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">an analysis of existing infrastructure in the
+sector,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_65df54e5-9c90-43d9-92f1-33de73068470" id="sec.24-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">an analysis of current and future needs in the
+sector,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ef028824-5df0-429d-a71e-4cad112363ee" id="sec.24-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">options available to deal with those needs or to
+influence demand in the sector,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5bec3ae7-918e-4fcb-be81-16292a9e160e" id="sec.24-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">criteria for evaluating those options and
+selecting the preferred options,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5a8308ad-584c-44a4-87a3-2d168e118c76" id="sec.24-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">consideration of impacts on land use planning in
+the sector, on other sectors and on key stakeholders in the
+sector,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f9bcebc7-5d18-4867-abc0-70b103b5ffb7" id="sec.24-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">the preferred long term infrastructure strategy
+for the sector.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.25">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_63fabfcf-15d0-46eb-9d40-290791552493"></attrib>
+<attrib name="id" value="sec.25"></attrib></parentattributes>
+
+<head>
+<no>25</no><heading guid="_69e670e2-777b-42c1-baee-fd9846573e46"
+id="sec.25-he"><b>Adoption by Minister of sectoral State infrastructure
+strategy statements</b></heading></head>
+
+<tier type="subclause" id="sec.25-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bd0610f1-0e77-4e07-b2ac-53fd54a73bfb"></attrib>
+<attrib name="id" value="sec.25-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister is to consider any sectoral State
+infrastructure strategy statement submitted by Infrastructure NSW, and adopt
+the statement with or without amendments or refer it back to Infrastructure
+NSW for further consideration.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.25-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2251a4fd-f511-4fc7-bd72-c1d4b6282fd8"></attrib>
+<attrib name="id" value="sec.25-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister must notify Infrastructure NSW of
+the Minister&#8217;s decision, and make the adopted statement publicly
+available.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 25:</b> Am 2022 No 26,
+Sch 2.13.</txt></content>
+</level>
+</level>
+
+
+<level type="division" id="pt.4-div.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_1922be25-be68-4ab2-b277-3eb1b91eeac0"></attrib>
+<attrib name="id" value="pt.4-div.4"></attrib></parentattributes>
+
+<head>
+<no><b>Division 4</b></no><heading
+guid="_b9131fc2-2295-46af-b001-7a5d1c093e48" id="pt.4-div.4-he"><b>Project
+implementation plans</b></heading></head>
+
+<level type="clause" id="sec.26">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_21428a46-07db-40e6-bd68-389b4dd67bc3"></attrib>
+<attrib name="id" value="sec.26"></attrib></parentattributes>
+
+<head>
+<no>26</no><heading guid="_a9af7358-08cd-4395-b253-220a3a46822f"
+id="sec.26-he"><b>Project implementation plans for major infrastructure
+projects</b></heading></head>
+
+<tier type="subclause" id="sec.26-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a59b9f85-db67-4056-b343-50a09544cc84"></attrib>
+<attrib name="id" value="sec.26-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Infrastructure NSW may determine that a project
+implementation plan should be prepared for a major infrastructure project
+identified under this Part in order to facilitate the oversight and monitoring
+of the delivery of the project by Infrastructure NSW.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e00cf4da-fac5-4f20-8342-31fc1d25411b"></attrib>
+<attrib name="id" value="sec.26-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In deciding whether a project implementation plan
+is required for a project, Infrastructure NSW is to take into account the
+importance of the project to the State and the resources of the relevant
+government agency to deliver the project on time and within
+budget.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3f65ec81-92c2-4228-be71-598b4c9f1ebe"></attrib>
+<attrib name="id" value="sec.26-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Infrastructure NSW may prepare a project
+implementation plan in consultation with the government agency responsible for
+the delivery of the project or may direct the agency to prepare the plan to
+the satisfaction of Infrastructure NSW.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a1cb087d-736b-409c-a510-1b663e2ceb6e"></attrib>
+<attrib name="id" value="sec.26-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Treasurer is to be consulted on the
+preparation of a project implementation plan.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_df912e99-70a9-4fc7-bce9-ce6aa535f798"></attrib>
+<attrib name="id" value="sec.26-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Section 15 sets out the obligations of government
+agencies with respect to its co-operation with Infrastructure
+NSW.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.27">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2b3a4129-5fc0-42ee-9815-3793bec441e7"></attrib>
+<attrib name="id" value="sec.27"></attrib></parentattributes>
+
+<head>
+<no>27</no><heading guid="_640c4572-a1f5-4d7d-82da-4b48a4a0a842"
+id="sec.27-he"><b>Content of project implementation plan</b></heading></head>
+
+<tier type="subclause" id="sec.27-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9e94ef52-6178-4285-bbfd-8a1e5bfa2c3a"></attrib>
+<attrib name="id" value="sec.27-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A project implementation plan may include the
+following in relation to the project concerned&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_23683671-36eb-4ad4-8407-60f5be584aa0" id="sec.27-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the government agency or agencies responsible for
+the construction and delivery of the project,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_624cd968-70e2-4aae-98b5-a488cc9ca294" id="sec.27-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the funding envelope for the project
+cost,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c546bd3e-21ac-408f-bb90-ba05a4ad966a" id="sec.27-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the funding and procurement model for the
+project,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c644d2c6-8b9f-4acb-8ff9-3646d8a87ada" id="sec.27-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the project delivery method, including the role
+(if any) of the private sector,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f780e278-e780-4d77-99a1-dbcfb000c695" id="sec.27-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the timeframe for the delivery of the
+project,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_73e193d7-10f6-4f9a-b8c3-5606863f39a8" id="sec.27-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">the ongoing operation and maintenance of the
+project,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_afeab2ec-b0de-47e0-bbf8-d56b6a5dc1f0" id="sec.27-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">other matters relating to the delivery of the
+project.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.27-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c6e13882-bdb2-44ec-9b12-1941dcc725a7"></attrib>
+<attrib name="id" value="sec.27-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A project implementation plan may relate to more
+than one project and involve more than one government
+agency.</txt></block></tier>
+</level>
+</level>
+</level>
+
+
+<level type="part" id="pt.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_05a10624-572b-4fff-bc50-e40944827603"></attrib>
+<attrib name="id" value="pt.5"></attrib></parentattributes>
+
+<head>
+<no><b>Part 5</b></no><heading guid="_91c5c3d0-74b0-423f-83ca-9caa0b219773"
+id="pt.5-he"><b>Step-in powers for delivery of major infrastructure
+projects</b></heading></head>
+
+<level type="clause" id="sec.28">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1eab539b-0cd6-48e5-b319-b87b2ce8d02e"></attrib>
+<attrib name="id" value="sec.28"></attrib></parentattributes>
+
+<head>
+<no>28</no><heading guid="_70342aa5-f49d-4c83-a2a5-23b2ea6dee7f"
+id="sec.28-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Part and Schedule 2&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_0e4efd47-f9ce-4cc3-b94c-1cb1bcb1ea5d"
+id="sec.28-def.assets"><b><i>assets</i></b></defterm> means any legal or
+equitable estate or interest (whether present or future and whether vested or
+contingent and whether personal or assignable) in real or personal property of
+any description (including money), and includes securities, choses in action
+and documents.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_95c0f06a-5944-4316-bd5f-70386a1f7ec3"
+id="sec.28-def.carryout"><b><i>carry out</i></b></defterm> a project means
+carry out development (within the meaning of the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1979-203"><name
+emphasis="yes"><i>Environmental Planning and Assessment Act
+1979</i></name></legref>) for the purposes of the project.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_3ff0c2dd-414b-4861-b442-92699a5a27dc"
+id="sec.28-def.governmentagency"><b><i>government agency</i></b></defterm>
+does not include a council (within the meaning of the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1993-030"><name
+emphasis="yes"><i>Local Government Act 1993</i></name></legref>) or other
+local authority.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_67c3ea83-7ed7-443b-a872-149c043ad680"
+id="sec.28-def.liabilities"><b><i>liabilities</i></b></defterm> means any
+liabilities, debts or obligations (whether present or future and whether
+vested or contingent and whether personal or assignable).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d59538d2-335d-41e5-8116-1257eff736f7"
+id="sec.28-def.projectauthorisationorder"><b><i>project authorisation
+order</i></b></defterm> means an order under section 30.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_154f64e4-0552-4076-b5de-25940e1f148c"
+id="sec.28-def.projectdivestingorder"><b><i>project divesting
+order</i></b></defterm> means an order under section 35.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_910b1cbf-f873-4315-9a1f-51bbc98aab47"
+id="sec.28-def.rights"><b><i>rights</i></b></defterm> means any rights,
+powers, privileges or immunities (whether present or future and whether vested
+or contingent and whether personal or assignable).</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sec.29">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fb44daac-ef5f-4b4c-973c-6fb2e5e69b90"></attrib>
+<attrib name="id" value="sec.29"></attrib></parentattributes>
+
+<head>
+<no>29</no><heading guid="_36412db8-9b89-413d-9874-2a09567ee3e6"
+id="sec.29-he"><b>Step-in functions of Infrastructure
+NSW</b></heading></head>
+<block><txt break.before="1">Infrastructure NSW has the following
+functions&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0a67f8c7-af42-47cf-b731-54c5a6618964" id="sec.29-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to carry out a major infrastructure project if
+authorised to do so by a project authorisation order,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5d688beb-3ab3-4701-ba5f-647efac1f9ad" id="sec.29-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to be responsible, in accordance with a project
+authorisation order, for a major infrastructure project that is carried out
+by, or that involves, another government agency.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.30">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fe89d6d3-a7b1-4d65-805b-1cfa75e63192"></attrib>
+<attrib name="id" value="sec.30"></attrib></parentattributes>
+
+<head>
+<no>30</no><heading guid="_a81ad32a-5eb8-41c3-8af8-b78648481cdf"
+id="sec.30-he"><b>Project authorisation orders</b></heading></head>
+
+<tier type="subclause" id="sec.30-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_949c243a-f477-4451-a007-588a3b225439"></attrib>
+<attrib name="id" value="sec.30-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may make orders for the purposes of
+this Part (<defterm type="definition"
+guid="_5eda3059-640f-42d4-aeaf-5b44553e8426"
+id="sec.30-ssec.1-def.projectauthorisationorders"><b><i>project authorisation
+orders</i></b></defterm>).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.30-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a10dabab-19af-4d73-aec6-e6f686a7907a"></attrib>
+<attrib name="id" value="sec.30-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A project authorisation order must be published
+in the Gazette.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.30-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f894cf9a-6ef2-4867-a4fc-bee731f0d402"></attrib>
+<attrib name="id" value="sec.30-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A project authorisation order may be made on such
+terms and conditions as the Minister determines and as are specified or
+referred to in the order.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.31">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_14c5d068-592e-44d6-a43c-11f22486b7bc"></attrib>
+<attrib name="id" value="sec.31"></attrib></parentattributes>
+
+<head>
+<no>31</no><heading guid="_48e5f409-3c92-4d51-9838-a50998f8703f"
+id="sec.31-he"><b>Authorisation to carry out projects</b></heading></head>
+<block><txt break.before="1">A project authorisation order may authorise
+Infrastructure NSW to carry out a major infrastructure project specified in
+the order.</txt></block></level>
+
+
+<level type="clause" id="sec.32">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a124b345-6848-419a-bf0f-c00af4082c1f"></attrib>
+<attrib name="id" value="sec.32"></attrib></parentattributes>
+
+<head>
+<no>32</no><heading guid="_474e5f19-e7cd-4fbf-b352-949f44906ba0"
+id="sec.32-he"><b>Authorisation to take over projects</b></heading></head>
+
+<tier type="subclause" id="sec.32-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b1209dd0-7e1a-4a0f-9e8b-e3cf86cae30b"></attrib>
+<attrib name="id" value="sec.32-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A project authorisation order may, in the case of
+a major infrastructure project that is carried out by (or that involves)
+another government agency, declare Infrastructure NSW to be responsible for
+the government agency&#8217;s functions in relation to the carrying out of the
+project.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.32-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_844f743c-e33d-4891-bc6c-58b2021f9a11"></attrib>
+<attrib name="id" value="sec.32-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The following provisions have effect on the
+making of a project authorisation order as referred to in this
+section&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5eb52b17-91a5-492a-b4e2-03831c650445" id="sec.32-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">Infrastructure NSW has and may exercise all of
+the functions of the government agency in relation to the
+project,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b50800e8-0f40-4d04-91da-93e3f9ed7b84" id="sec.32-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the government agency may not exercise any
+functions in relation to the project except with the consent of Infrastructure
+NSW,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8a9e89d4-37a8-42eb-bf7d-87a380fe5448" id="sec.32-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">Infrastructure NSW may, with the concurrence of
+the Minister and after consulting with the government agency, give directions
+to the government agency in relation to the project,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b77ff4d1-d566-4353-915e-ae99d24e56ab" id="sec.32-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the government agency must comply with any such
+directions given to it by Infrastructure NSW.</txt></block></li></list>
+</block>
+<block><txt break.before="1">This subsection does not limit the terms and
+conditions of a project authorisation order that the Minister may determine
+under this Part.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.32-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e07f32c6-3dd8-4304-a716-984ad22e6d75"></attrib>
+<attrib name="id" value="sec.32-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A project authorisation order may relate to the
+exercise of the functions of a number of government
+agencies.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.32-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9cfc3758-fcb3-4b65-8441-e25ba86dafd5"></attrib>
+<attrib name="id" value="sec.32-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Before making a project authorisation order that
+declares Infrastructure NSW to be responsible for a major infrastructure
+project that is carried out by (or that involves) a SOC, the Minister is to
+consult with the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_baa17bb7-e836-4ef5-9224-cb77e06d7080" id="sec.32-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the portfolio Minister of the
+SOC,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_455f5be2-7c10-4431-9bdb-1cfbbbd8ce6d" id="sec.32-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the voting shareholders of the
+SOC,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_20f250e9-cbf1-4ffb-a8fd-8343afc8afde" id="sec.32-ssec.4-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the chairperson of the board of directors of the
+SOC.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.32-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_64fb2e03-2269-4d6b-b6a1-4cb873155560"></attrib>
+<attrib name="id" value="sec.32-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Failure to comply with subsection (4) does not
+affect the validity of the order.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.33">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_744a3365-bfe1-4be6-a19e-2f7804719de3"></attrib>
+<attrib name="id" value="sec.33"></attrib></parentattributes>
+
+<head>
+<no>33</no><heading guid="_f8928ec2-4b6b-4bfb-9cf4-ca327ee38e15"
+id="sec.33-he"><b>Transfer of assets, rights and
+liabilities</b></heading></head>
+
+<tier type="subclause" id="sec.33-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1dfd3e9c-0e4d-4597-bc23-a727cb10f719"></attrib>
+<attrib name="id" value="sec.33-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If a project authorisation order declares
+Infrastructure NSW to be responsible for another government agency&#8217;s
+functions in relation to the carrying out of a major infrastructure project,
+the order may provide for the transfer to Infrastructure NSW of such assets,
+rights and liabilities of the government agency (or classes of such assets,
+rights and liabilities) as are relevant to the project and are specified in
+the order.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.33-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_96f72539-eb36-4147-a5d7-f3d425d645bf"></attrib>
+<attrib name="id" value="sec.33-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Schedule 2 applies to a project authorisation
+order that provides for the transfer of any such assets, rights and
+liabilities.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.34">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4444cfbe-a0c2-4f19-b76f-83c2b0a795b9"></attrib>
+<attrib name="id" value="sec.34"></attrib></parentattributes>
+
+<head>
+<no>34</no><heading guid="_985ca6fe-5489-48cf-815a-7fb3536e0069"
+id="sec.34-he"><b>Acquisition of land</b></heading></head>
+
+<tier type="subclause" id="sec.34-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_38b2bcae-d38d-4e18-b03f-7103c6f8e770"></attrib>
+<attrib name="id" value="sec.34-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Infrastructure NSW may, for the purposes of
+exercising its functions in relation to a major infrastructure project as
+authorised by a project authorisation order, acquire land by agreement or
+compulsory process in accordance with the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1991-022"><name emphasis="yes"><i>Land Acquisition
+(Just Terms Compensation) Act 1991</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.34-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_064dbb8e-8b69-4956-b1f9-d04caabc7cfc"></attrib>
+<attrib name="id" value="sec.34-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1912-045"><name
+emphasis="yes"><i>Public Works Act 1912</i></name></legref>, any such
+acquisition of land is taken to be for an authorised work, and Infrastructure
+NSW is, in relation to that authorised work, taken to be the Constructing
+Authority.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.34-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e6379da8-be73-493f-9423-3b2e90e9fd1f"></attrib>
+<attrib name="id" value="sec.34-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Sections 34&#8211;37 of the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1912-045"><name
+emphasis="yes"><i>Public Works Act 1912</i></name></legref> do not apply to or
+in respect of a major infrastructure project to which a project authorisation
+order relates.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 34:</b> Am 2022 No 59,
+Sch 2.23.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.35">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e72d7a16-72bb-453a-9d72-409809a8c8fb"></attrib>
+<attrib name="id" value="sec.35"></attrib></parentattributes>
+
+<head>
+<no>35</no><heading guid="_5e0017d0-616a-4afa-b597-88b032c68a1d"
+id="sec.35-he"><b>Transfer of Infrastructure NSW managed projects to
+government agency</b></heading></head>
+
+<tier type="subclause" id="sec.35-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_94a6b3c5-5acb-467e-9fec-7766d6dedcfc"></attrib>
+<attrib name="id" value="sec.35-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may, by order published in the
+Gazette (a <defterm type="definition"
+guid="_80d9a336-1b2f-4d5f-b216-f5580379cb60"
+id="sec.35-ssec.1-def.projectdivestingorder"><b><i>project divesting
+order</i></b></defterm>), direct that the assets, rights and liabilities of
+Infrastructure NSW in relation to a major infrastructure project specified in
+the order (including any assets, rights and liabilities that have been
+transferred to Infrastructure NSW by a project authorisation order) be
+transferred to another government agency specified in the
+order.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.35-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c5cefbd1-175b-4257-b9e8-d79498144f0a"></attrib>
+<attrib name="id" value="sec.35-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The assets, rights and liabilities to be
+transferred by a project divesting order may consist of a specified class of
+assets, rights and liabilities. An order may transfer assets, rights and
+liabilities in relation to a project to a number of government
+agencies.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.35-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bd3e45ac-f96b-49fd-a2f5-977ce25b01f8"></attrib>
+<attrib name="id" value="sec.35-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A project divesting order may be made on such
+terms and conditions as the Minister determines and as are specified or
+referred to in the order.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.35-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c3c33f8f-84a2-429e-b99a-04e3e92bae69"></attrib>
+<attrib name="id" value="sec.35-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Schedule 2 applies to a project divesting
+order.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.35-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a684a5fb-7ee7-4fc0-8d1d-72fdd81d3505"></attrib>
+<attrib name="id" value="sec.35-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Before making a project divesting order that
+transfers any assets, rights or liabilities to a SOC, the Minister is to
+consult with the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_95ba6ca5-eb82-436b-8e49-84a12e240b77" id="sec.35-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the portfolio Minister of the
+SOC,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_08490bb8-cafd-4c3c-9832-b818e04b4287" id="sec.35-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the voting shareholders of the
+SOC,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b791930a-2dbe-4d8d-9867-01b1261bec58" id="sec.35-ssec.5-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the chairperson of the board of directors of the
+SOC.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.35-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3996e8c3-11f7-4b5e-ab82-045dc38ce23b"></attrib>
+<attrib name="id" value="sec.35-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">Failure to comply with subsection (5) does not
+affect the validity of the order.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.36">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_410e5da2-3504-4f9b-859d-73bde427a6cd"></attrib>
+<attrib name="id" value="sec.36"></attrib></parentattributes>
+
+<head>
+<no>36</no><heading guid="_34ea7916-9635-4a15-aaac-455e809beef0"
+id="sec.36-he"><b>Application of orders</b></heading></head>
+<block><txt break.before="1">A project authorisation order or a project
+divesting order may apply to the whole of a major infrastructure project or to
+a specified part of such a project only. Accordingly, a reference in this Part
+to a major infrastructure project includes a reference to any part of a
+project that is the subject of a project authorisation order or a project
+divesting order.</txt></block></level>
+</level>
+
+
+<level type="part" id="pt.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_8d6db4c9-c483-4208-af45-d23e3e15de13"></attrib>
+<attrib name="id" value="pt.6"></attrib></parentattributes>
+
+<head>
+<no><b>Part 6</b></no><heading guid="_5104bf4c-355a-4696-bca9-93f8f6bd0b70"
+id="pt.6-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.37">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e13e26df-18b2-49bf-b38a-1f0ed7df6189"></attrib>
+<attrib name="id" value="sec.37"></attrib></parentattributes>
+
+<head>
+<no>37</no><heading guid="_bd76f1cb-90af-4160-9c82-03fefb9c991c"
+id="sec.37-he"><b>Act to bind Crown</b></heading></head>
+<block><txt break.before="1">This Act binds the Crown in right of New South
+Wales and, in so far as the legislative power of the Parliament of New South
+Wales permits, the Crown in all its other capacities.</txt></block></level>
+
+
+<level type="clause" id="sec.38">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9aa02372-e2ea-4ee8-b2b5-7bad2c875736"></attrib>
+<attrib name="id" value="sec.38"></attrib></parentattributes>
+
+<head>
+<no>38</no><heading guid="_c03ee048-bf4d-452e-b42a-256cb0e62aac"
+id="sec.38-he"><b>Disclosure of pecuniary interests</b></heading></head>
+
+<tier type="subclause" id="sec.38-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bba56e36-b79c-4f85-b1a2-80e1c744edfb"></attrib>
+<attrib name="id" value="sec.38-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c9366ec0-c028-4c8d-bcd7-396afeb19280"
+id="sec.38-ssec.1-def.Boardmember"><b><i>Board member</i></b></defterm> means
+the Chairperson or other member of the Board.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.38-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_faae9462-ddef-4c71-8292-9e578b12511c"></attrib>
+<attrib name="id" value="sec.38-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_003adb22-e1e5-4738-9df3-6026d474cf23" id="sec.38-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a Board member has a direct or indirect pecuniary
+interest in a matter being considered or about to be considered at a meeting
+of the Board, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0e68da4d-4f15-458a-b05a-613622f4101e" id="sec.38-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the interest appears to raise a conflict with the
+proper performance of the Board member&#8217;s duties in relation to the
+consideration of the matter,</txt></block></li></list>
+
+<txt break.before="1">the Board member must, as soon as possible after the
+relevant facts have come to the Board member&#8217;s knowledge, disclose the
+nature of the interest at a meeting of the Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.38-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d416f47f-24ea-4c5b-9983-5320d55f6e45"></attrib>
+<attrib name="id" value="sec.38-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">If&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fe266f80-18fc-49f5-b23c-58e554c1a73b" id="sec.38-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Chief Executive Officer has a direct or
+indirect pecuniary interest in a matter being considered or about to be
+considered by the Chief Executive Officer in connection with his or her
+functions (otherwise than at a meeting of the Board), and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_60470de5-f411-4e6f-aafe-5e1d4b282074" id="sec.38-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the interest appears to raise a conflict with the
+proper performance of the Chief Executive Officer&#8217;s duties in relation
+to the consideration of the matter,</txt></block></li></list>
+
+<txt break.before="1">the Chief Executive Officer must, as soon as possible
+after the relevant facts have come to his or her knowledge, disclose the
+nature of the interest to the Minister.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.38-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0f0e282b-8cf3-4e1a-a113-99cec19e7fad"></attrib>
+<attrib name="id" value="sec.38-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A disclosure by a Board member at a meeting of
+the Board that the Board member, or by the Chief Executive Officer to the
+Minister that the Chief Executive Officer&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b13e14d5-f352-438e-b0cb-4dacc1ebdac4" id="sec.38-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is a member, or is in the employment, of a
+specified company or other body, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a7d80629-9f33-471c-9caf-2bbe41eb8145" id="sec.38-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is a partner, or is in the employment, of a
+specified person, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e091f8e8-a24f-47d6-8ef9-b11890bd0a82" id="sec.38-ssec.4-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">has some other specified interest relating to a
+specified company or other body or to a specified
+person,</txt></block></li></list>
+
+<txt break.before="1">is a sufficient disclosure of the nature of the interest
+in any matter relating to that company or other body or to that person which
+may arise after the date of the disclosure and which is required to be
+disclosed under this section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.38-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fc9a9987-52bc-4997-b38c-d3df8bb67f94"></attrib>
+<attrib name="id" value="sec.38-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Particulars of any disclosure made under this
+section must be recorded by Infrastructure NSW in a book kept for the purpose
+and that book must be open at all reasonable hours to inspection by any
+person.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.38-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6d8d3036-0bed-4306-8cb0-82bbbf32cf12"></attrib>
+<attrib name="id" value="sec.38-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">After a Board member has disclosed the nature of
+an interest in any matter, the Board member must not, unless the Minister or
+the Board otherwise determines&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6008cc3e-e4c3-47b2-beb5-d4e0caa468c7" id="sec.38-ssec.6-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">be present during any deliberation of the Board
+with respect to the matter, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_70c233d7-a46e-416d-a7be-dc22b779c173" id="sec.38-ssec.6-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">take part in any decision of the Board with
+respect to the matter.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.38-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_98c0e001-715a-4dcb-ac96-a30b5c28e830"></attrib>
+<attrib name="id" value="sec.38-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">For the purposes of the making of a determination
+by the Board under subsection (6), a Board member who has a direct or indirect
+pecuniary interest in a matter to which the disclosure relates must
+not&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4661709c-1c25-404b-8df7-100e40015ae3" id="sec.38-ssec.7-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">be present during any deliberation of the Board
+for the purpose of making the determination, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6674f778-e27c-4322-b0b4-0456d40bb00a" id="sec.38-ssec.7-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">take part in the making by the Board of the
+determination.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.38-ssec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_53b78e9e-1f00-4b71-bacd-55818c5a1d59"></attrib>
+<attrib name="id" value="sec.38-ssec.8"></attrib></parentattributes>
+
+<head>
+<no>(8)</no></head>
+<block><txt break.before="1">After the Chief Executive Officer has disclosed
+the nature of an interest in any matter to the Minister, the Chief Executive
+Officer must not, unless the Minister otherwise determines, exercise his or
+her functions with respect to the matter.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.38-ssec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aa5338b5-1104-4fe0-8094-1907fbd61561"></attrib>
+<attrib name="id" value="sec.38-ssec.9"></attrib></parentattributes>
+
+<head>
+<no>(9)</no></head>
+<block><txt break.before="1">A contravention of this section does not
+invalidate any decision of the Board or the Chief Executive
+Officer.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.39">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e876eb2d-b5e2-49c9-918f-74a53fd926ef"></attrib>
+<attrib name="id" value="sec.39"></attrib></parentattributes>
+
+<head>
+<no>39</no><heading guid="_b134ed52-905e-46ce-9405-7b4fb5b9a296"
+id="sec.39-he"><b>Personal liability</b></heading></head>
+
+<tier type="subclause" id="sec.39-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8fe7793a-1ae4-4c08-be0e-8d5444cc88e7"></attrib>
+<attrib name="id" value="sec.39-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A matter or thing done or omitted to be done
+by&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0cd85bb8-fdb2-475f-866e-73636c2bd2e1" id="sec.39-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">Infrastructure NSW, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_95085f4a-1d65-4bc3-8ff2-0c94f513fef3" id="sec.39-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the Board of Infrastructure NSW,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_de4ed51c-b8c0-410a-8ce3-863082d060ed" id="sec.39-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the Chief Executive Officer,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_af981922-2414-4d54-9c3c-eacd852eacf0" id="sec.39-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">a person acting under the direction of
+Infrastructure NSW, the Board of Infrastructure NSW or the Chief Executive
+Officer,</txt></block></li></list>
+
+<txt break.before="1">does not, if the matter or thing was done or omitted to
+be done in good faith for the purposes of executing this Act, subject a member
+of the Board of Infrastructure NSW, the Chief Executive Officer or a person so
+acting personally to any action, liability, claim or
+demand.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.39-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_78883937-fd9b-48e9-8ed6-cf508614d015"></attrib>
+<attrib name="id" value="sec.39-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A reference in subsection (1) to the execution of
+this Act includes a reference to the execution of the provisions of any other
+Act that confer or impose functions on Infrastructure
+NSW.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.40">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ab58c1b8-0a7e-405e-96de-7622ac5bae2f"></attrib>
+<attrib name="id" value="sec.40"></attrib></parentattributes>
+
+<head>
+<no>40</no><heading guid="_ea6e4cb2-1e1b-4603-8682-de25ca254015"
+id="sec.40-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sec.40-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_97c4ba96-8ffc-4010-a404-43b6627234ef"></attrib>
+<attrib name="id" value="sec.40-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.40-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ce3e7d3c-f5e7-4797-aa95-15059e413adb"></attrib>
+<attrib name="id" value="sec.40-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of this
+Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.41">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4001fc1a-c241-4307-bded-296153d168e3"></attrib>
+<attrib name="id" value="sec.41"></attrib></parentattributes>
+
+<head>
+<no>41</no><heading guid="_0ab579b2-1b4f-4398-9cfb-2779192cea09"
+id="sec.41-he"><b>Review of Act</b></heading></head>
+
+<tier type="subclause" id="sec.41-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9323426b-427f-402e-9518-239c2fb53002"></attrib>
+<attrib name="id" value="sec.41-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister is to review this Act to determine
+whether the policy objectives of the Act remain valid and whether the terms of
+the Act remain appropriate for securing those
+objectives.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.41-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8c356501-9f8f-4986-87e6-e60c829652ed"></attrib>
+<attrib name="id" value="sec.41-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The review is to be undertaken as soon as
+possible after the period of 5 years from the commencement of this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.41-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d15c3c39-0f1d-4641-b76c-1c7640f6f034"></attrib>
+<attrib name="id" value="sec.41-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A report on the outcome of the review is to be
+tabled in each House of Parliament within 12 months after the end of the
+period of 5 years.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_72ef99c7-575a-4185-8efe-baa9805b0d69"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_4ce72ea7-25e7-45d1-9dca-c6a77ffd19f0" id="sch.1-he"><b>Members and
+procedure of Board of Infrastructure NSW</b></heading></head>
+
+<level type="part" id="sch.1-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_5dc0e336-5b53-4e8a-819d-3df872cfcee2"></attrib>
+<attrib name="id" value="sch.1-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_8b18fd76-ff25-447e-833b-9a6a2a25931e"
+id="sch.1-pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_46330f7d-d6fc-47cd-bd57-b42efcbc5be5"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_5ecf88fd-bcaa-4861-b5e8-6149f85636b2"
+id="sch.1-sec.1-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Schedule&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_0bba7219-5b6e-4da8-ab8b-a22c076c4cec"
+id="sch.1-sec.1-def.appointedmember"><b><i>appointed member</i></b></defterm>
+means the Chairperson of the Board or other member of the Board who is
+appointed by the Minister.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9ffe0a40-58b8-4c8f-b3a7-be1844242283"
+id="sch.1-sec.1-def.Board"><b><i>Board</i></b></defterm> means the Board of
+Infrastructure NSW.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_538d76d3-3ef2-40d0-be4f-6bd8c752473d"
+id="sch.1-sec.1-def.member"><b><i>member</i></b></defterm> means an appointed
+or ex-officio member of the Board.</txt></block></deflist>
+</block></level>
+</level>
+
+
+<level type="part" id="sch.1-pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_b2d2be54-a582-4f4f-ae8c-1ec3611aa8ab"></attrib>
+<attrib name="id" value="sch.1-pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_f11b1c7d-5a74-4625-af27-e93cb0977b34"
+id="sch.1-pt.2-he"><b>Members</b></heading></head>
+
+<level type="clause" id="sch.1-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_89abc0e1-02a3-44e0-bb31-5f789f6c0915"></attrib>
+<attrib name="id" value="sch.1-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_32d5f5a0-252c-4583-91d4-4713a2b6e5e6"
+id="sch.1-sec.2-he"><b>Terms of office of appointed
+members</b></heading></head>
+<block><txt break.before="1">Subject to this Schedule and the regulations, an
+appointed member holds office for the period (not exceeding 4 years) specified
+in the member&#8217;s instrument of appointment, but is eligible (if otherwise
+qualified) for re-appointment.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6e8ed7f0-f7dc-4dc1-8501-577804273570"></attrib>
+<attrib name="id" value="sch.1-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_0cb1023a-080e-42a0-8e5f-1e89c5b70e64"
+id="sch.1-sec.3-he"><b>Remuneration of appointed members</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7f7873f8-f2d7-443d-9214-c4c4a848da74"></attrib>
+<attrib name="id" value="sch.1-sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Chairperson of the Board is entitled to be
+paid such remuneration (including travelling and subsistence allowances) as is
+determined by the Statutory and Other Offices Remuneration
+Tribunal.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f5404cfd-ec0e-4b86-a8ce-8842933edc5c"></attrib>
+<attrib name="id" value="sch.1-sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An appointed member (other than the Chairperson
+of the Board) is entitled to be paid such remuneration (including travelling
+and subsistence allowances) as the Minister may from time to time determine in
+respect of the member.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_139fdaa2-80a2-40f3-82c7-26b8e70fd872"></attrib>
+<attrib name="id" value="sch.1-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_e74da1ff-54f5-4744-8a72-de32b27991fd"
+id="sch.1-sec.4-he"><b>Vacancy in office of appointed
+member</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_41dde5cc-4e0d-42d3-b4ec-6e7d535d9648"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The office of an appointed member becomes vacant
+if the member&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a30d5eec-4669-42c4-893b-7637aef250a0" id="sch.1-sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">dies, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d9889219-9851-4f5e-921c-2b4d70e74a9f" id="sch.1-sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">completes a term of office and is not
+re-appointed, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3f9ea0d7-e1a2-4c0e-b79a-10befa9d9258" id="sch.1-sec.4-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">resigns the office by instrument in writing
+addressed to the Minister, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2ffb84fb-557e-4e66-8500-64108f7069c0" id="sch.1-sec.4-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">is removed from office by the Minister under this
+clause, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9ddb54ef-1916-4407-8449-ea817973dc04" id="sch.1-sec.4-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">is absent from 3 consecutive meetings of the
+Board of which reasonable notice has been given to the member personally or by
+post, except on leave granted by the Minister or unless the member is excused
+by the Minister for having been absent from those meetings,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_14b03173-fd00-4eaa-8335-02129b8a0b2a" id="sch.1-sec.4-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">becomes bankrupt, applies to take the benefit of
+any law for the relief of bankrupt or insolvent debtors, compounds with his or
+her creditors or makes an assignment of his or her remuneration for their
+benefit, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_96c49183-053d-42d9-a34e-3c4567136837" id="sch.1-sec.4-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">becomes a mentally incapacitated person,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1cd216a8-6595-45f3-b392-736a297e32f1" id="sch.1-sec.4-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">is convicted in New South Wales of an offence
+that is punishable by imprisonment for 12 months or more or is convicted
+elsewhere than in New South Wales of an offence that, if committed in New
+South Wales, would be an offence so punishable.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b03d133f-7bdd-41ff-898e-18a3b72bf504"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister may remove an appointed member from
+office at any time.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0591717b-e335-464a-957e-6021315a9242"></attrib>
+<attrib name="id" value="sch.1-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_35c4b789-9d80-4560-a6bb-ee0210cedac6"
+id="sch.1-sec.5-he"><b>Filling of vacancy in office of appointed
+member</b></heading></head>
+<block><txt break.before="1">If the office of any appointed member becomes
+vacant, a person is, subject to this Act and the regulations, to be appointed
+to fill the vacancy.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_452ebf6f-96d6-4f66-996f-bdbd02d3824a"></attrib>
+<attrib name="id" value="sch.1-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_40790ca8-cd17-42fe-a457-0173583de9bc"
+id="sch.1-sec.6-he"><b>Effect of certain other Acts</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_882f3e2c-ed45-49cd-9c2d-f5a33e93fd23"></attrib>
+<attrib name="id" value="sch.1-sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The provisions of the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-2013-040"><name
+emphasis="yes"><i>Government Sector Employment Act 2013</i></name></legref>
+relating to the employment of Public Service employees do not apply to an
+appointed member.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ea947b1a-b19b-48d1-a770-989db26c4079"></attrib>
+<attrib name="id" value="sch.1-sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If by or under any Act provision is
+made&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_719519ed-9f32-4820-ac7b-ac699bcaf116" id="sch.1-sec.6-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">requiring a person who is the holder of a
+specified office to devote the whole of his or her time to the duties of that
+office, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2c58ac78-ade8-42a0-a738-45ef814598ef" id="sch.1-sec.6-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">prohibiting the person from engaging in
+employment outside the duties of that office,</txt></block></li></list>
+
+<txt break.before="1">the provision does not operate to disqualify the person
+from holding that office and also the office of an appointed member or from
+accepting and retaining any remuneration payable to the person under this Act
+as a member.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="sch.1-pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_7f6655b0-1ea1-4490-aa4c-45a9418f1360"></attrib>
+<attrib name="id" value="sch.1-pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_c4f57957-f8c8-4c4a-9685-643b2b3817d0"
+id="sch.1-pt.3-he"><b>Procedure</b></heading></head>
+
+<level type="clause" id="sch.1-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_28610736-5e27-4f0c-9f33-636e4af53ccf"></attrib>
+<attrib name="id" value="sch.1-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_5bd5d9ee-eec2-484d-8264-8c3b388ad710"
+id="sch.1-sec.7-he"><b>General procedure</b></heading></head>
+<block><txt break.before="1">The procedure for the calling of meetings of the
+Board and for the conduct of business at those meetings is, subject to this
+Act and the regulations, to be as determined by the
+Board.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b4648321-03c4-42fb-b1b4-69dc236ef174"></attrib>
+<attrib name="id" value="sch.1-sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_d41057da-8cf8-46c7-b3fc-7a39155e0083"
+id="sch.1-sec.8-he"><b>Quorum</b></heading></head>
+<block><txt break.before="1">The quorum for a meeting of the Board is a
+majority of the members for the time being.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d5788eea-1925-4ce3-8ad0-db128c7aaf7b"></attrib>
+<attrib name="id" value="sch.1-sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_2a6ccd72-e880-48f7-aaeb-863db8570c06"
+id="sch.1-sec.9-he"><b>Presiding member</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f4db57dc-b9c3-4d49-a5e6-4c29baa63a14"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Chairperson of the Board (or, in the absence
+of the Chairperson, a person elected by the members of the Board who are
+present at a meeting of the Board) is to preside at a meeting of the
+Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6cede98a-0d24-4976-99a0-aa8f7eb10c99"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The presiding member has a deliberative vote and,
+in the event of an equality of votes, has a second or casting
+vote.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_72a915b8-4de3-4b55-a2e1-c35f549861e3"></attrib>
+<attrib name="id" value="sch.1-sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_4fb80ea9-8e57-4cef-82c4-5f3f1c30544f"
+id="sch.1-sec.10-he"><b>Voting</b></heading></head>
+<block><txt break.before="1">A decision supported by a majority of the votes
+cast at a meeting of the Board at which a quorum is present is the decision of
+the Board.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b9786895-1756-4fc8-8f50-142095e7602b"></attrib>
+<attrib name="id" value="sch.1-sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_7ba90347-8688-4c86-933c-cb100df53b95"
+id="sch.1-sec.11-he"><b>Transaction of business outside meetings or by
+telephone</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b1593b89-99d0-4ae6-855a-a2f4fb0d6251"></attrib>
+<attrib name="id" value="sch.1-sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Board may, if it thinks fit, transact any of
+its business by the circulation of papers among all the members of the Board
+for the time being, and a resolution in writing approved in writing by a
+majority of those members is taken to be a decision of the
+Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_72092c41-2ee3-4b11-b28c-ee23042fc9ad"></attrib>
+<attrib name="id" value="sch.1-sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Board may, if it thinks fit, transact any of
+its business at a meeting at which members (or some members) participate by
+telephone, closed-circuit television or other means, but only if any member
+who speaks on a matter before the meeting can be heard by the other
+members.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9c2bedaf-db8e-4892-9910-88b75c3ae2d5"></attrib>
+<attrib name="id" value="sch.1-sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purposes of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_24d88db7-d17e-4c93-8478-966453db30b2"
+id="sch.1-sec.11-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the approval of a resolution under subclause (1),
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4d131eb1-ff2b-412a-b493-783815498412"
+id="sch.1-sec.11-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a meeting held in accordance with subclause
+(2),</txt></block></li></list>
+
+<txt break.before="1">the Chairperson and each member have the same voting
+rights as they have at an ordinary meeting of the Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.11-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_31488826-f6ca-4aa2-b7ba-327c79843447"></attrib>
+<attrib name="id" value="sch.1-sec.11-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A resolution approved under subclause (1) is,
+subject to the regulations, to be recorded in the minutes of the meetings of
+the Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.11-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1e7ca9d1-ef4e-4841-b220-d8f7adf644ff"></attrib>
+<attrib name="id" value="sch.1-sec.11-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Papers may be circulated among the members for
+the purposes of subclause (1) by facsimile or other transmission of the
+information in the papers concerned.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.12" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_03cfbcb1-9df8-4a4b-b543-6d3184fa893e"></attrib>
+<attrib name="id" value="sch.1-sec.12"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>12</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</level>
+</level>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Am 2015 No 58,
+Sch 3.50 [6]; 2022 No 8, Sch 5.5[2].</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ca1eb03b-db8e-44c6-a0e0-afea296fab85"></attrib>
+<attrib name="id" value="sch.2"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading
+guid="_e2143d1f-c0d9-49b7-b8ef-2f54f179bf4a" id="sch.2-he"><b>Transfer of
+assets, rights and liabilities</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Sections 33 and
+35)</txt></block></pre>
+
+
+<level type="clause" id="sch.2-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_25de50fe-9406-484f-9e99-74050c166d1c"></attrib>
+<attrib name="id" value="sch.2-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_c2de1e9b-b481-45e5-9e8e-33040271295b"
+id="sch.2-sec.1-he"><b>Application and interpretation</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7cdca46f-7f9c-4db8-a7a5-b8e40733d367"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This Schedule applies to the following
+orders&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1738356d-2177-4ad6-9c67-68e8f7b0c41b" id="sch.2-sec.1-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a project authorisation order that makes
+provision for the transfer of assets, rights and liabilities as referred to in
+section 33,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_253e86a4-04d3-4158-852c-ab127e0e7c46" id="sch.2-sec.1-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a project divesting
+order.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3ef0eb91-a77a-43a2-9295-e1262f5cb850"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">On the repeal of the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-2005-089"><name
+emphasis="yes"><i>Infrastructure Implementation Corporation Act
+2005</i></name></legref> by this Act the Infrastructure Implementation
+Corporation is dissolved and this Schedule applies as if an order had been
+made transferring any assets, rights or liabilities of the Corporation to
+Infrastructure NSW.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9196be4b-b778-48c5-91c5-58ecbd5744cb"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purposes of this Schedule, the government
+agency from which any assets, rights or liabilities are transferred by an
+order to which this Schedule applies is called the <defterm type="definition"
+guid="_8457a8e3-723b-4603-b5da-0286ae984374"
+id="sch.2-sec.1-ssec.3-def.transferor"><b><i>transferor</i></b></defterm> and
+the government agency to which they are being so transferred is called the
+<defterm type="definition" guid="_d6d6be8a-c571-45d7-9112-ab69411d8bf2"
+id="sch.2-sec.1-ssec.3-def.transferee"><b><i>transferee</i></b></defterm>.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bacf6866-e5ef-4975-9553-0a933f453ee5"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">In this Schedule&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_2c48308a-a423-440e-a87f-6f1bb21bc074"
+id="sch.2-sec.1-ssec.4-def.instrument"><b><i>instrument</i></b></defterm>
+means an instrument (other than this Act) that creates, modifies or
+extinguishes rights or liabilities (or would do so if lodged, filed or
+registered in accordance with any law), and includes any judgment, order or
+process of a court.</txt></block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sch.2-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_99a162ee-ee66-4a1d-8d9f-4a0ac017198b"></attrib>
+<attrib name="id" value="sch.2-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_0812a306-2105-4efd-b884-5dd52b87b9f4"
+id="sch.2-sec.2-he"><b>Vesting of undertaking in
+transferee</b></heading></head>
+<block><txt break.before="1">When any assets, rights or liabilities are
+transferred by an order to which this Schedule applies, the following
+provisions have effect (subject to the order)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_79c50879-9182-4ad6-9050-0bf5da09fe5b" id="sch.2-sec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">those assets of the transferor vest in the
+transferee by virtue of this Schedule and without the need for any conveyance,
+transfer, assignment or assurance,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9769174e-76f6-474e-8953-4b2a417a11cc" id="sch.2-sec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">those rights and liabilities of the transferor
+become by virtue of this Schedule the rights and liabilities of the
+transferee,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_31d7999a-666d-4a8a-b9b4-e535ffa0dfe3" id="sch.2-sec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">all proceedings relating to those assets, rights
+or liabilities commenced before the transfer by or against the transferor or a
+predecessor of the transferor and pending immediately before the transfer are
+taken to be proceedings pending by or against the
+transferee,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_60908257-b796-4361-81d5-ea3ea63b1f96" id="sch.2-sec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the transferee has all the entitlements and
+obligations of the transferor in relation to those assets, rights and
+liabilities that the transferor would have had but for the order, whether or
+not those entitlements and obligations were actual or potential at the time
+the order took effect,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_77a52ffa-a692-493d-82ac-e32bb891ade3" id="sch.2-sec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">any act, matter or thing done or omitted to be
+done in relation to those assets, rights or liabilities before the transfer
+by, to or in respect of the transferor is (to the extent that that act, matter
+or thing has any force or effect) taken to have been done or omitted by, to or
+in respect of the transferee,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_64277b56-26ea-46b2-8dbb-d4a6a6128552" id="sch.2-sec.2-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">a reference in any Act, in any instrument made
+under any Act or in any document of any kind to the transferor or a
+predecessor of the transferor is (to the extent that it relates to those
+assets, rights or liabilities but subject to the order), to be read as, or as
+including, a reference to the transferee.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sch.2-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_104b9e63-96cd-461d-8031-f0b272eb241b"></attrib>
+<attrib name="id" value="sch.2-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_c4bb1348-ee6c-42aa-88e5-c876884684b2"
+id="sch.2-sec.3-he"><b>Operation of Schedule</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_936270f9-49d9-4be4-8ce5-e98e15e22fec"></attrib>
+<attrib name="id" value="sch.2-sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The operation of this Schedule is not to be
+regarded&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_57691e66-6078-4029-bebf-45dddc5fb73a" id="sch.2-sec.3-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">as a breach of contract or confidence or
+otherwise as a civil wrong, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1be2c9bb-6c04-494e-9eb8-446a8dcce33e" id="sch.2-sec.3-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">as a breach of any contractual provision
+prohibiting, restricting or regulating the assignment or transfer of assets,
+rights or liabilities, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fb8d2a7e-2285-49f8-a3e3-7e67a5479b7d" id="sch.2-sec.3-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">as giving rise to any remedy by a party to an
+instrument, or as causing or permitting the termination of any instrument,
+because of a change in the beneficial or legal ownership of any asset, right
+or liability.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_33f15d07-f5ad-4d91-9662-d167eb9310ea"></attrib>
+<attrib name="id" value="sch.2-sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The operation of this Schedule is not to be
+regarded as an event of default under any contract or other
+instrument.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.3-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_757439ef-9d01-46ec-b91c-d732543bca95"></attrib>
+<attrib name="id" value="sch.2-sec.3-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">No attornment to the transferee by a lessee from
+the transferor is required.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.3-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a9fc6c12-3db9-4909-93a1-cd2251c48be5"></attrib>
+<attrib name="id" value="sch.2-sec.3-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The operation of this Schedule includes the
+making of an order to which this Schedule applies.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.2-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3ec3fc2a-d845-4ff5-9fa5-74d0a4ae3c5d"></attrib>
+<attrib name="id" value="sch.2-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_c32e7019-4834-4a5f-81b0-8929a20340d1"
+id="sch.2-sec.4-he"><b>Date of vesting</b></heading></head>
+<block><txt break.before="1">An order to which this Schedule applies takes
+effect on the date specified in the order.</txt></block></level>
+
+
+<level type="clause" id="sch.2-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bb90cff6-5444-49c7-af34-9deb9539041d"></attrib>
+<attrib name="id" value="sch.2-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_2cc03a03-722e-4008-897c-fcfba1fbb42f"
+id="sch.2-sec.5-he"><b>Consideration for vesting</b></heading></head>
+<block><txt break.before="1">An order to which this Schedule applies may
+specify the consideration (if any) on which the order is made and the value or
+values (if any) at which the assets, rights or liabilities are
+transferred.</txt></block></level>
+
+
+<level type="clause" id="sch.2-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c321f5b3-354d-4fca-8854-9b589b75d981"></attrib>
+<attrib name="id" value="sch.2-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_520c194e-729f-47f3-8c0d-444c2d8a24e7"
+id="sch.2-sec.6-he"><b>Duties</b></heading></head>
+<block><txt break.before="1">Duty under the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1997-123"><name emphasis="yes"><i>Duties Act
+1997</i></name></legref> is not chargeable in respect of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_636ff866-2710-4138-8603-b2f406a42694" id="sch.2-sec.6-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the transfer of assets, rights and liabilities to
+a person by an order to which this Schedule applies, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_85f8d852-55ae-487b-bccc-d19a175fbb38" id="sch.2-sec.6-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">anything certified by the Minister as having been
+done in consequence of such a transfer (for example, the transfer or
+registration of an interest in land).</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sch.2-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a2cb5639-4690-4a78-8046-33a4f20d3e3c"></attrib>
+<attrib name="id" value="sch.2-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_bf1ea8d0-5d02-40c9-b873-69cf24f13740"
+id="sch.2-sec.7-he"><b>Transfer of interest in land</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6cf5c4dd-af05-40cd-9327-30d47096bac4"></attrib>
+<attrib name="id" value="sch.2-sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An order to which this Schedule applies may
+transfer an interest in respect of land vested in the transferor without
+transferring the whole of the interests of the transferor in that
+land.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_026de79b-37b4-4bb7-8146-b602febd54a8"></attrib>
+<attrib name="id" value="sch.2-sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If the interest transferred is not a separate
+interest, the order operates to create the interest transferred in such terms
+as are specified in the order.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_62a2a76a-c9d0-4ee7-8254-c8fcbbcb89a9"></attrib>
+<attrib name="id" value="sch.2-sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This clause does not limit any other provision of
+this Schedule.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.2-sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_caa3a649-0a14-45e4-b8d2-cb0097621994"></attrib>
+<attrib name="id" value="sch.2-sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_40c5965e-7421-4213-b894-750b6d987e97"
+id="sch.2-sec.8-he"><b>Determinations of Minister for purposes of
+orders</b></heading></head>
+<block><txt break.before="1">For the purposes of any order to which this
+Schedule applies, a determination by the Minister as to which entity any
+assets, rights or liabilities relate is conclusive.</txt></block></level>
+
+
+<level type="clause" id="sch.2-sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c3098d35-eda6-41f1-8330-ecac7331e927"></attrib>
+<attrib name="id" value="sch.2-sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_9df52a35-dd70-4df0-855e-166f196e7210"
+id="sch.2-sec.9-he"><b>Confirmation of vesting</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a609428f-db6c-4bcf-888b-573486bf6530"></attrib>
+<attrib name="id" value="sch.2-sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may, by notice in writing, confirm a
+transfer of particular assets, rights and liabilities by operation of this
+Schedule.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cc45254b-8510-41dd-8b8b-6cc3fda3f6b3"></attrib>
+<attrib name="id" value="sch.2-sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Such a notice is conclusive evidence of that
+transfer.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="schedule" id="sch.3" status="repealed">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_75a51608-2529-4ffa-9d0d-10582b104d72"></attrib>
+<attrib name="id" value="sch.3"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no><b>Schedules 3, 4</b></no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 3:</b> Rep 1987 No
+15, sec 30C.</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 4:</b> Rep 1987 No
+15, sec 30C.</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_d12e368d-305c-43b7-984b-c70f54e439ac"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_c7789cdd-303b-469a-ae5e-3f3e3900dd9f"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2011-023"><name emphasis="yes"><i>Infrastructure NSW Act
+2011</i></name> No 23</legref>. Assented to 27.6.2011. Date of commencement,
+1.7.2011, sec 2 and 2011 (314) LW 1.7.2011. This Act has been amended as
+follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_d5050ec5-bb3c-417e-b69a-5a29e4ad5972" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_36fd8e3d-9753-43c5-8b4c-fe91269417e5" id="ed-tbl-tblr">
+<entry colname="1" guid="_c3df31ec-3140-492d-8d7f-5ebb7a7611a5"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>2015</b></txt></entry>
+<entry colname="2" guid="_5e6b20ac-5e4c-40d9-86c6-d9c946ac4003"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 58</txt></entry>
+<entry colname="3" guid="_1ad6d3fb-32a5-401c-a9cd-375a9b4a519e"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2015-058"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2015</i></name></legref>. Assented to
+24.11.2015.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 15.1.2016, sec 2
+(3).</txt></block></entry></row>
+
+
+<row guid="_21f22e01-41d4-4941-bda5-dea4892d6e47" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_55829849-153f-4831-847b-22c998019178"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>2016</b></txt></entry>
+<entry colname="2" guid="_49e0df99-36eb-4e32-a7ae-1b1c443217c9"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 61</txt></entry>
+<entry colname="3" guid="_36dcadf6-bb1f-45df-994b-1aaf3b3b10c2"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2016-061"><name emphasis="yes"><i>Law Enforcement Conduct
+Commission Act 2016</i></name></legref>. Assented to 14.11.2016.</txt>
+<txt break.before="1">Date of commencement of Sch 6.26, 1.7.2017, sec 2 (1)
+and 2017 (256) LW 16.6.2017.</txt></block></entry></row>
+
+
+<row guid="_de736726-1cb5-4d96-b4e3-37bb64786eea" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_0cbd8b38-baa4-41bb-ab08-18d409e3757b"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>2022</b></txt></entry>
+<entry colname="2" guid="_69983d65-bd54-4633-90f0-e094332cb8f2"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 8</txt></entry>
+<entry colname="3" guid="_3383d078-4efb-46cd-94d5-08b70d54a2d5"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2022-008"><name emphasis="yes"><i>Greater Cities Commission Act
+2022</i></name></legref>. Assented to 13.4.2022.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_d6c35903-fe92-4c82-b4b9-8d8984e63f17" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_d5f7031e-babd-40bd-962a-7956ee47682f"
+id="ed-tbl-tblr-oc.4-tble1"></entry>
+<entry colname="2" guid="_1748d47f-f35d-4ae4-a35a-f7fc6a20f0e2"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 26</txt></entry>
+<entry colname="3" guid="_994ce573-d90c-4144-a2ad-d2ebff61e12a"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2022-026"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2022</i></name></legref>. Assented to 16.6.2022.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_676a24c8-890b-4b17-b3fe-4e075a591946" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_41068273-40e9-49af-a70d-a717f30c6517"
+id="ed-tbl-tblr-oc.5-tble1"></entry>
+<entry colname="2" guid="_3a258aa8-1283-4fac-bfe8-1b2e789c5a59"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 59</txt></entry>
+<entry colname="3" guid="_47ea618a-7597-48fd-b5de-bf2b37b9b054"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2022-059"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2022</i></name></legref>. Assented to
+26.10.2022.</txt>
+<txt break.before="1">Date of commencement, 13.1.2023, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_2978d845-1dd5-4d64-8091-0341ef0a3a4c" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_78c5310e-0f30-43d9-931d-5aa2b0175304"
+id="ed-tbl-tblr-oc.6-tble1"><txt break.before="1"><b>2023</b></txt></entry>
+<entry colname="2" guid="_b52db537-d90b-4ad8-924d-b60e6762c310"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">No 35</txt></entry>
+<entry colname="3" guid="_75a464ba-76f6-4cfb-baed-0b72215382ac"
+id="ed-tbl-tblr-oc.6-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2023-035"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2023</i></name></legref>. Assented to
+30.10.2023.</txt>
+<txt break.before="1">Date of commencement of Sch 4, assent, sec
+2(c).</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">This Act has been amended by sec 30C of the
+<legref type="act" jurisd="NSW" check="unknown" refid="act-1987-015"><name
+emphasis="yes"><i>Interpretation Act 1987</i></name> No
+15</legref>.</txt></block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_ef4f74a6-357a-4ac2-a79b-84522f68e345"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_582dec4c-2621-4f7f-b608-62740795c103" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_0e5566b7-1ed4-466f-b28f-87e9452bf4de" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_08457f68-862e-48e1-8e64-99151207fc77"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_9595067b-9c4c-45dc-b074-8fddf8006b8f"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 2015 No 58, Sch 3.50
+[1].</txt></entry></row>
+
+
+<row guid="_2f9bffe0-a37f-43e4-8958-4d64c258bce4" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_9c30db94-7450-4607-b3cc-8d3dd88f1e34"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 8</txt></entry>
+<entry colname="2" guid="_0dd66d57-db9a-46d8-8f0a-d4dfed4341e6"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 2015 No 58, Sch 3.50
+[2] [3]; 2023 No 35, Sch 4.23.</txt></entry></row>
+
+
+<row guid="_feda8e89-7646-4b2d-bb03-4dd0af568df0" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_f281313f-f15f-4e6d-9f07-58f57656e88c"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_7f94f954-fbfd-4a56-a214-9c7e5a4f3cf1"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Am 2015 No 58, Sch 3.50
+[4].</txt></entry></row>
+
+
+<row guid="_d0938a37-af0d-4120-a382-95fedae49f8e" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_b050ec85-0c2b-4c8b-a74a-d367cf1d6058"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 10</txt></entry>
+<entry colname="2" guid="_ccc6820c-a9a8-4bba-bf24-c27e52e3a181"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Subst 2015 No 58, Sch
+3.50 [5].</txt></entry></row>
+
+
+<row guid="_52c0ffed-e903-42f0-9e70-c14fd53f3888" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_332c04a0-ef73-4b88-8df1-67572a5e4621"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 15</txt></entry>
+<entry colname="2" guid="_8c87a3ed-24f4-4ced-9336-5a838977f707"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Am 2016 No 61, Sch
+6.26.</txt></entry></row>
+
+
+<row guid="_ad3c9ea1-0c92-4869-8ff5-fc09df24016f" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_5f0cd55b-f241-432a-927d-38fc78049796"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 18</txt></entry>
+<entry colname="2" guid="_9675cf2e-4077-40b5-92be-6c125df21c8d"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Am 2022 No 26, Sch
+2.13.</txt></entry></row>
+
+
+<row guid="_e837185f-e127-48b8-ae1a-92595d58d6b4" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_a59daec9-03c3-49f8-9a1f-d7dace311f5e"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 21</txt></entry>
+<entry colname="2" guid="_205c44fb-3278-411e-a5c6-eac74394908c"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Am 2022 No 26, Sch
+2.13.</txt></entry></row>
+
+
+<row guid="_0281ab63-d32b-45f3-a404-ee83ad5d747a" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_df23122e-2f62-4c7e-a719-79b989e323ef"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sec 25</txt></entry>
+<entry colname="2" guid="_535f03f6-cc89-4e82-ae05-615d47f53c51"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Am 2022 No 26, Sch
+2.13.</txt></entry></row>
+
+
+<row guid="_d49aa733-465f-4157-8339-06232edd316b" id="ed-tbl-oc.2-tblr-oc.9">
+<entry colname="1" guid="_320647b4-2128-475e-b804-e45762f419b0"
+id="ed-tbl-oc.2-tblr-oc.9-tble1"><txt break.before="1">Sec 34</txt></entry>
+<entry colname="2" guid="_2c7b7c16-ee41-4136-bf61-8556b124a2e1"
+id="ed-tbl-oc.2-tblr-oc.9-tble2"><txt break.before="1">Am 2022 No 59, Sch
+2.23.</txt></entry></row>
+
+
+<row guid="_9fd97966-9937-404b-afde-0f0181e97fe5"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry colname="1" guid="_fd7ad92c-5109-4ffb-9962-c811336a5a34"
+id="ed-tbl-oc.2-tblr-oc.10-tble1"><txt break.before="1">Sch 1</txt></entry>
+<entry colname="2" guid="_383ace44-8341-4e84-9039-a5b0d45c05a2"
+id="ed-tbl-oc.2-tblr-oc.10-tble2"><txt break.before="1">Am 2015 No 58, Sch
+3.50 [6]; 2022 No 8, Sch 5.5[2].</txt></entry></row>
+
+
+<row guid="_bf7baf1a-abf6-4a79-bd0c-b53f6c4d649f"
+id="ed-tbl-oc.2-tblr-oc.11">
+<entry colname="1" guid="_06621311-bd67-4ead-8d4c-4b7e0ca551de"
+id="ed-tbl-oc.2-tblr-oc.11-tble1"><txt break.before="1">Schs 3,
+4</txt></entry>
+<entry colname="2" guid="_88ea2989-daa0-464a-928a-cafb777c72f0"
+id="ed-tbl-oc.2-tblr-oc.11-tble2"><txt break.before="1">Rep 1987 No 15, sec
+30C.</txt></entry></row>
+
+
+<row guid="_c98a7855-9059-466d-841a-53b15c049712"
+id="ed-tbl-oc.2-tblr-oc.12">
+<entry colname="1" guid="_a0094bbb-b89d-4df1-88f0-46d8de5dfaf9"
+id="ed-tbl-oc.2-tblr-oc.12-tble1"><txt break.before="1">The whole Act, except
+sec 8(2)(d)</txt></entry>
+<entry colname="2" guid="_c497fcd2-994c-40bf-9fa4-8d2a5a5ece28"
+id="ed-tbl-oc.2-tblr-oc.12-tble2"><txt break.before="1">Am 2022 No 8, Sch
+5.5[1] (&#8220;Premier&#8221; omitted wherever occurring,
+&#8220;Minister&#8221; inserted instead).</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

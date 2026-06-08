@@ -1,0 +1,773 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1957-001"
+title="Capital Debt Charges Act 1957"
+year="1957"
+number="1"
+enact.or.made.date="1957-03-25"
+first.valid.date="2011-07-08"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1957</metacontent>
+<metacontent class="year.assent">1957</metacontent>
+<metacontent class="publication.date">2011-07-08</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2011-027</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="amending">none</metacontent>
+<metacontent class="id">act-1957-001</metacontent>
+<metacontent
+class="version.desc.id">a90a4ce1-dea9-493c-a1c5-fbf1c7b802af</metacontent>
+<metacontent
+class="version.series.id">78e1cbca-0bc8-4f53-9c52-f0b129c9e814</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Capital Debt Charges Act 1957"></attrib>
+<attrib name="year.passed" value="1957"></attrib>
+<attrib name="year.assent" value="1957"></attrib>
+<attrib name="no" value="1"></attrib>
+<attrib name="publication.date" value="2011-07-08"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2011-027"></attrib>
+<attrib name="first.valid.date" value="2011-07-08"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1957-03-25"></attrib>
+<attrib name="amending" value="none"></attrib>
+<attrib name="id" value="act-1957-001"></attrib>
+<attrib name="version.desc.id"
+value="a90a4ce1-dea9-493c-a1c5-fbf1c7b802af"></attrib>
+<attrib name="version.series.id"
+value="78e1cbca-0bc8-4f53-9c52-f0b129c9e814"></attrib></parentattributes>
+
+
+<content type="coverdata"></content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="id" value="frnt-lt"></attrib>
+<attrib name="guid"
+value="_b6355ee0-318f-4881-9ea6-e6b4479a5282"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to make uniform provisions as to interest
+and other capital debt charges to the Treasurer in accordance with the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Closer
+Settlement Fund Act 1928</i></name></legref> and certain other Acts; and for
+purposes connected therewith.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="id" value="sec.1"></attrib>
+<attrib name="guid" value="_9929ac43-7cda-4ec9-9cf6-fc076a2a3b84"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading id="sec.1-he"
+guid="_8b7845ea-e566-4173-8e71-e6bc661fd34e"><b>Name of
+Act</b></heading></head>
+<block><txt break.before="1">This Act may be cited as the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1957-001"><name
+emphasis="yes"><i>Capital Debt Charges Act
+1957</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="id" value="sec.2"></attrib>
+<attrib name="guid" value="_8b9f970f-637d-425f-92e3-13d39ce33924"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading id="sec.2-he"
+guid="_492bef32-4c8b-4b92-b675-cdc817b70aac"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Act unless the context or subject-matter
+otherwise indicates or requires:</txt>
+<deflist>
+<block><txt break.before="1"><defterm id="def.Authority"
+guid="_f751d1d3-c76f-45a5-a5e2-80aa09c005ee"
+type="definition"><b><i>Authority</i></b></defterm> means a body corporate,
+corporation sole or Minister of the Crown named in the second column of the
+Schedule.</txt></block>
+<block><txt break.before="1"><defterm id="def.Loanliability"
+guid="_ee75a2aa-4b25-4ecb-bf2c-cca2a2dd2a13" type="definition"><b><i>Loan
+liability</i></b></defterm> means any amount on which interest is payable to
+the Treasurer in pursuance of any of the Acts specified in the third column of
+the Schedule, and in respect of the State Mines Control Authority includes any
+amount advanced by the Treasurer to that Authority.</txt></block>
+<block><txt break.before="1"><defterm id="def.Treasurer"
+guid="_c46e9a24-bade-4aa2-ae47-3d70fca6fbea"
+type="definition"><b><i>Treasurer</i></b></defterm> means the Colonial
+Treasurer.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="id" value="sec.3"></attrib>
+<attrib name="guid" value="_545dc6e6-c12d-4119-9ecd-613805f2f7cb"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading id="sec.3-he"
+guid="_1c89acb0-53de-4d89-9fd9-fd1d7e24968b"><b>This Act to prevail over
+inconsistent provisions</b></heading></head>
+<block><txt break.before="1">Where the provisions of this Act are inconsistent
+with the provisions of any of the Acts specified in the third column of the
+Schedule the provisions of this Act shall prevail.</txt></block></level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="id" value="sec.4"></attrib>
+<attrib name="guid" value="_c095674c-73b5-4e18-9cda-990a11cf290c"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading id="sec.4-he"
+guid="_d697440e-ead5-46a1-9c4d-ef12d9afa2a5"><b>Payment of interest, sinking
+fund charges etc in respect of loan liabilities of certain
+authorities</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.4-ssec.1"></attrib>
+<attrib name="guid" value="_9acb89af-5194-4af9-911f-8459d0dd3523"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Each authority named in the second column of the
+Schedule shall, as from the date set out in the first column of the Schedule
+opposite to the name of such authority, pay to the Treasurer in respect of its
+loan liability such amounts for interest, exchange, sinking fund
+contributions, flotation expenses, discount, loan management expenses and
+other charges as the Treasurer may from time to time determine:</txt></block>
+<block><txt break.before="1">Provided that the amounts so determined in any
+year shall, unless the Treasurer otherwise directs, be the amounts chargeable
+in that year.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.4-ssec.2"></attrib>
+<attrib name="guid" value="_acd35d46-496f-41da-bd3c-ba5b5ae1e51d"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without otherwise limiting the Treasurer&#8217;s
+power of determination the amounts so determined under subsection (1) shall
+not exceed the amounts which the Treasurer calculates as being the amounts
+which shall approximately recoup the State for interest, exchange, sinking
+fund contributions, flotation expenses, discount, loan management expenses and
+other charges paid or payable by the State in respect of the loan liability of
+such authority.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="id" value="sec.4-ssec.3"></attrib>
+<attrib name="guid" value="_19a6cedc-7353-463a-84a3-fb2aed7a1999"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Payments in accordance with the provisions of
+subsection (1) shall be made in such amounts and at such times as the
+Treasurer may from time to time direct.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch">
+<parentattributes>
+<attrib name="id" value="sch"></attrib>
+<attrib name="guid" value="_801877aa-8dee-4e17-b081-2f7162116560"></attrib>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule</b></no></head>
+<block align="right" type="sourceref"><txt>(Sections 3 and 4)</txt></block>
+<block>
+
+<table frame="none" orient="port" id="sch-tbl"
+guid="_c939459d-1987-4de6-ae3b-8f6568fbd6aa" heading.align="left"
+font.size="12.pt">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="10pi" align="left"></colspec>
+<colspec colnum="2" colname="2" colwidth="10pi" align="left"></colspec>
+<colspec colnum="3" colname="3" colwidth="10pi" align="left"></colspec>
+
+<thead>
+
+<row valign="top" id="sch-tbl-tblh-tblr"
+guid="_2035c165-0c51-4e20-ae0b-521ca77721d6">
+<entry colname="1" id="sch-tbl-tblh-tblr-tble1"
+guid="_c95aff5f-dd15-4562-8242-dfc45aa302ea"><txt break.before="1">First
+Column</txt></entry>
+<entry colname="2" id="sch-tbl-tblh-tblr-tble2"
+guid="_271c31c5-9be2-4c5a-845c-2f0ee3ab850e"><txt break.before="1">Second
+Column</txt></entry>
+<entry colname="3" id="sch-tbl-tblh-tblr-tble3"
+guid="_29c82ffb-d4cb-41c2-a000-a5a292c7f1c8"><txt break.before="1">Third
+Column</txt></entry></row>
+</thead>
+
+
+<tbody>
+
+<row valign="top" id="sch-tbl-tblr"
+guid="_d41998a3-c4f7-4b4d-947f-68b672e412b0">
+<entry colname="1" id="sch-tbl-tblr-tble1"
+guid="_24c3af36-6e65-49d0-b7f2-e4f84df4b0d6"><txt break.before="1">1st
+November 1956</txt></entry>
+<entry colname="2" id="sch-tbl-tblr-tble2"
+guid="_894cd3d4-0a81-428d-9425-f5a594d62c2d"><txt break.before="1">Grain
+Handling Authority of New South Wales.</txt></entry>
+<entry colname="3" id="sch-tbl-tblr-tble3"
+guid="_00be1a37-b922-4b83-8971-ac2fd0703bd9"><txt break.before="1"><legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="no">Grain Handling Act
+1954</name></legref>.</txt></entry></row>
+
+
+<row valign="top" id="sch-tbl-tblr-oc.2"
+guid="_3700b87a-90e5-4bfc-89f9-346ff33eda3a">
+<entry colname="1" id="sch-tbl-tblr-oc.2-tble1"
+guid="_9367fe8b-904e-4ea6-a1ba-423c901cfd3d"><txt break.before="1">1st July
+1956</txt></entry>
+<entry colname="2" id="sch-tbl-tblr-oc.2-tble2"
+guid="_4be26fd7-7197-4fba-888f-59fa207b68d8"><txt break.before="1">The
+Metropolitan Meat Industry Board.</txt></entry>
+<entry colname="3" id="sch-tbl-tblr-oc.2-tble3"
+guid="_477e5118-a94a-4816-bc9f-e5969ecb6d02"><txt break.before="1"><legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="no">Meat Industry Act
+1915</name></legref>, as amended.</txt></entry></row>
+
+
+<row valign="top" id="sch-tbl-tblr-oc.3"
+guid="_d1035e87-1672-4910-a9f7-dc97bc9fc565">
+<entry colname="1" id="sch-tbl-tblr-oc.3-tble1"
+guid="_d02774d9-ee90-4f3c-a7f9-0344544f6e6a"><txt break.before="1">1st April
+1957</txt></entry>
+<entry colname="2" id="sch-tbl-tblr-oc.3-tble2"
+guid="_d4ed2155-4999-4672-adc5-dea75253ad60"><txt break.before="1">The
+Minister of the Crown administering the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1946-016"><name emphasis="no">State Brickworks Act
+1946</name></legref>.</txt></entry>
+<entry colname="3" id="sch-tbl-tblr-oc.3-tble3"
+guid="_7819009e-a845-4f92-9568-711faa882cd2"><txt break.before="1"><legref
+jurisd="NSW" type="act" check="unknown" refid="act-1946-016"><name
+emphasis="no">State Brickworks Act 1946</name></legref>.</txt></entry></row>
+
+
+<row valign="top" id="sch-tbl-tblr-oc.4"
+guid="_84eac2c2-88c9-4232-bd90-9254657a84d1">
+<entry colname="1" id="sch-tbl-tblr-oc.4-tble1"
+guid="_1f6c11de-fff1-466e-8563-0727fcc2e527"><txt break.before="1">1st July
+1956</txt></entry>
+<entry colname="2" id="sch-tbl-tblr-oc.4-tble2"
+guid="_78c64fa1-52f0-4d23-8eff-06105f0933bb"><txt break.before="1">The State
+Mines Control Authority.</txt></entry>
+<entry colname="3" id="sch-tbl-tblr-oc.4-tble3"
+guid="_3f691a42-77e5-49de-acb6-7305b84c49db"><txt break.before="1"><legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="no">State Coal Mines
+Act 1912</name></legref>, as amended.</txt></entry></row>
+
+
+<row valign="top" id="sch-tbl-tblr-oc.5"
+guid="_df46494b-0824-43ce-ab4f-17fc70e30767">
+<entry colname="1" id="sch-tbl-tblr-oc.5-tble1"
+guid="_843f69c8-5850-4a4d-9dd6-474b36c933e5"><txt break.before="1">The date
+upon which the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1966-010"><name emphasis="no">State Development and Industries
+Assistance Act 1966</name></legref> commences.</txt></entry>
+<entry colname="2" id="sch-tbl-tblr-oc.5-tble2"
+guid="_1856402c-ca19-4d26-8017-a8376eeb9258"><txt break.before="1">The
+Minister, as a corporation sole, constituted by subsection (1) of section 9 of
+the <legref jurisd="NSW" type="act" check="unknown" refid="act-1966-010"><name
+emphasis="no">State Development and Industries Assistance Act
+1966</name></legref>.</txt></entry>
+<entry colname="3" id="sch-tbl-tblr-oc.5-tble3"
+guid="_548abb23-1bbb-42c1-9f5b-5f2162752b7a"><txt break.before="1"><legref
+jurisd="NSW" type="act" check="unknown" refid="act-1966-010"><name
+emphasis="no">State Development and Industries Assistance Act
+1966</name></legref>.</txt></entry></row>
+
+
+<row valign="top" id="sch-tbl-tblr-oc.6"
+guid="_307c62cf-91f5-4178-9058-c5b147e5fe2f">
+<entry colname="1" id="sch-tbl-tblr-oc.6-tble1"
+guid="_d6f9260d-2ce2-4cc4-9bc4-b3a8b34b88bc"><txt break.before="1">The day
+that is three months after the appointed day within the meaning of the <legref
+jurisd="NSW" type="act" check="unknown" refid="act-1975-027"><name
+emphasis="no">Teacher Housing Authority Act
+1975</name></legref>.</txt></entry>
+<entry colname="2" id="sch-tbl-tblr-oc.6-tble2"
+guid="_87add6cb-3a89-470e-a1c2-0159458e8be8"><txt break.before="1">Teacher
+Housing Authority of New South Wales.</txt></entry>
+<entry colname="3" id="sch-tbl-tblr-oc.6-tble3"
+guid="_67a3e1f4-f2ea-476c-94ef-d773ae450bdd"><txt break.before="1"><legref
+jurisd="NSW" type="act" check="unknown" refid="act-1975-027"><name
+emphasis="no">Teacher Housing Authority Act
+1975</name></legref>.</txt></entry></row>
+
+
+<row valign="top" id="sch-tbl-tblr-oc.7"
+guid="_6c59db41-c177-4a9e-980b-a58d110675c4">
+<entry colname="1" id="sch-tbl-tblr-oc.7-tble1"
+guid="_7af34b7b-c063-4e59-b4bc-8fa96f0c4852"><txt break.before="1">The day
+that is three months after the appointed day within the meaning of the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="no">Public Servant
+Housing Authority Act 1975</name></legref>.</txt></entry>
+<entry colname="2" id="sch-tbl-tblr-oc.7-tble2"
+guid="_fc1cebe6-5e93-4280-b84b-66645cace273"><txt break.before="1">Public
+Servant Housing Authority of New South Wales.</txt></entry>
+<entry colname="3" id="sch-tbl-tblr-oc.7-tble3"
+guid="_97491357-6d51-4e6c-84df-b22114d14899"><txt break.before="1"><legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="no">Public Servant
+Housing Authority Act 1975</name></legref>.</txt></entry></row>
+
+
+<row valign="top" id="sch-tbl-tblr-oc.8"
+guid="_194a1f0a-8159-40c4-be01-30edb30ed9b7">
+<entry colname="1" id="sch-tbl-tblr-oc.8-tble1"
+guid="_43180647-ee73-4a2e-9eee-361ec3b5f2f1"><txt break.before="1">The day
+appointed and notified under section 2 (2) of the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1984-046"><name emphasis="no">Tourism
+Commission Act 1984</name></legref>.</txt></entry>
+<entry colname="2" id="sch-tbl-tblr-oc.8-tble2"
+guid="_509a8ff1-8077-4d8c-bf01-108fb1c9660a"><txt break.before="1">Tourism
+Commission of New South Wales.</txt></entry>
+<entry colname="3" id="sch-tbl-tblr-oc.8-tble3"
+guid="_acff1856-3759-49b8-a7b7-22035e3182aa"><txt break.before="1"><legref
+jurisd="NSW" type="act" check="unknown" refid="act-1984-046"><name
+emphasis="no">Tourism Commission Act
+1984</name></legref>.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>Sch:</b> Am 1966 No 10,
+sec 38; 1970 No 26, sec 8; 1975 No 27, Sch; 1975 No 38, Sch; 1976 No 58, sec
+32; 1980 No 109, sec 3; 1980 No 178, sec 3; 1984 No 47, sec 3; 1987 No 24, Sch
+1; 1987 No 51, Sch 1; 1988 No 114, Sch 4; 1991 No 53, Sch 1; 1994 No 88, Sch
+7; 1995 No 13, Sch 4; 1995 No 18, Sch 5; 1995 No 95, Sch 4; 1997 No 114, sec
+8; 1999 No 31, Sch 3.4; 2011 No 27, Sch 2.6.</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading id="ed-he"
+guid="_6788673b-b7bc-4f69-8e0c-d798c8ecc52d"><b>Historical
+notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading id="ed-he-oc.2"
+guid="_852f982e-4acd-4e16-9c87-3682de9f0c94"><b>Table of amending
+instruments</b></heading></head>
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1957-001"><name emphasis="yes"><i>Capital Debt Charges Act
+1957</i></name> No 1</legref>. Assented to 25.3.1957. This Act has been
+amended as follows:</txt>
+
+<table frame="none" orient="port" id="ed-tbl"
+guid="_44746eb3-b6e2-4c49-91a8-3add251081ae" heading.align="left"
+font.size="12.pt">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="2pi" align="left"></colspec>
+<colspec colnum="2" colname="2" colwidth="3.5pi" align="left"></colspec>
+<colspec colnum="3" colname="3" colwidth="24.5pi" align="left"></colspec>
+
+<tbody>
+
+<row id="ed-tbl-tblr" guid="_38a3a021-7327-4279-9ba2-63735985703d">
+<entry colname="1" id="ed-tbl-tblr-tble1"
+guid="_d68c4418-b3f3-4971-8a31-6b283cee13df"><txt
+break.before="1"><b>1966</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-tble2"
+guid="_0b253998-b663-4db0-b0ef-d170ab2ab276"><txt break.before="1">No
+10</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-tble3"
+guid="_ac1c4bfd-ab46-4c13-a623-1eccff8c6e76">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1966-010"><name emphasis="yes"><i>State Development and Country
+Industries Assistance Act 1966</i></name></legref>. Assented to
+22.3.1966.</txt>
+<txt break.before="1">Date of commencement, 1.5.1966, sec 1 (2) and GG No 43
+of 29.4.1966, p 1748.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.2" guid="_4e41aaac-6b9e-42bf-951b-8d27587d584a">
+<entry colname="1" id="ed-tbl-tblr-oc.2-tble1"
+guid="_f09b1fc2-206b-44fc-8ade-46ed7be27822"><txt
+break.before="1"><b>1970</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.2-tble2"
+guid="_427f644e-e97a-481c-956d-00440bee7738"><txt break.before="1">No
+26</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.2-tble3"
+guid="_4a1730db-ca53-465d-bd9b-5c07eaee5e91">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Closer Settlement and Public Reserves
+Fund Act 1970</i></name></legref>. Assented to 8.4.1970.</txt>
+<txt break.before="1">Date of commencement, 1.7.1970, sec 1 (2) and GG No 64
+of 22.5.1970, p 1912.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.3" guid="_7575e18b-e255-4915-8d3b-dc9a277bcea0">
+<entry colname="1" id="ed-tbl-tblr-oc.3-tble1"
+guid="_3b9d0e80-ae20-400f-b034-f1cf0da1b92c"><txt
+break.before="1"><b>1975</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.3-tble2"
+guid="_35e13c8f-a7be-4219-8161-e255688d49b6"><txt break.before="1">No
+27</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.3-tble3"
+guid="_ca94e5ff-2176-4352-9dc3-be3bb80a8f6c"><txt break.before="1"><legref
+jurisd="NSW" type="act" check="unknown" refid="act-1975-027"><name
+emphasis="yes"><i>Teacher Housing Authority Act 1975</i></name></legref>.
+Assented to 14.4.1975.</txt></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.4" guid="_25c6c973-dc16-4bae-8b1e-0e8c6c790561">
+<entry colname="1" id="ed-tbl-tblr-oc.4-tble1"
+guid="_7bfdebd1-3922-43f2-a434-67a9f98f1f12"></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.4-tble2"
+guid="_07111c28-a83f-4b18-a4a9-8c52a6248768"><txt break.before="1">No
+38</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.4-tble3"
+guid="_47b2b656-4575-4cce-9c05-48f951b8231c"><txt break.before="1"><legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Public Servant
+Housing Authority Act 1975</i></name></legref>. Assented to
+16.4.1975.</txt></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.5" guid="_39a73d8f-6414-4df4-8065-f27d3ae8865d">
+<entry colname="1" id="ed-tbl-tblr-oc.5-tble1"
+guid="_8651e8f4-11fa-4e35-a62d-e6aec7142ad0"><txt
+break.before="1"><b>1976</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.5-tble2"
+guid="_b94de941-3670-428c-b61f-30766a60255e"><txt break.before="1">No
+58</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.5-tble3"
+guid="_bc85049d-a1c4-41cc-8470-803273e0b442">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Tourist Industry Development Act
+1976</i></name></legref>. Assented to 27.10.1976.</txt>
+<txt break.before="1">Date of commencement of sec 32, 1.12.1976, sec 2 (2) and
+GG No 148 of 19.11.1976, p 5098.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.6" guid="_b87178ca-4e13-4859-a611-0910a5007d6d">
+<entry colname="1" id="ed-tbl-tblr-oc.6-tble1"
+guid="_a7cc2488-8eed-4d2d-8b53-9d7136d4ea0a"><txt
+break.before="1"><b>1980</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.6-tble2"
+guid="_07589b0c-22b7-45a9-ba10-d69328fc61b8"><txt break.before="1">No
+109</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.6-tble3"
+guid="_77536e01-ae4f-462a-9198-ca6ce13fd4ae">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Capital Debt Charges (Transport
+Authorities) Amendment Act 1980</i></name></legref>. Assented to
+1.5.1980.</txt>
+<txt break.before="1">Date of commencement of sec 3, 1.7.1980, sec 2
+(2).</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.7" guid="_f5e10b8e-f319-4c04-9778-da0c121a9769">
+<entry colname="1" id="ed-tbl-tblr-oc.7-tble1"
+guid="_211f7a56-634b-432a-bd3e-f830c7167bce"></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.7-tble2"
+guid="_394ef201-be2c-46d1-8a10-0881e6335137"><txt break.before="1">No
+178</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.7-tble3"
+guid="_14959507-84e7-4d80-97e2-85248fbabff5">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Capital Debt Charges (Grain Handling)
+Amendment Act 1980</i></name></legref>. Assented to 17.12.1980.</txt>
+<txt break.before="1">Date of commencement of sec 3, 6.4.1981, sec 2 (2) and
+GG No 51 of 3.4.1981, p 1964.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.8" guid="_7dd0f31b-5816-459d-86f7-faf0b73b7701">
+<entry colname="1" id="ed-tbl-tblr-oc.8-tble1"
+guid="_b23a04b8-9cef-490b-ba5d-c4f50cd14929"><txt
+break.before="1"><b>1984</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.8-tble2"
+guid="_0c18a899-8583-4f6e-a2d1-d61d6431a446"><txt break.before="1">No
+47</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.8-tble3"
+guid="_a173701b-e43c-45c9-be38-490f1e9c8383">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Capital Debt Charges (Tourism
+Commission) Amendment Act 1984</i></name></legref>. Assented to
+13.6.1984.</txt>
+<txt break.before="1">Date of commencement of sec 3, 1.2.1985, sec 2 (2) and
+GG No 23 of 25.1.1985, p 331.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.9" guid="_887a8a30-772e-4c15-89c6-c6c8afd5e4c8">
+<entry colname="1" id="ed-tbl-tblr-oc.9-tble1"
+guid="_6cd1cdea-acf4-4f7e-987b-6a99cd78cb3c"><txt
+break.before="1"><b>1987</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.9-tble2"
+guid="_755afac6-a228-4d3d-86fa-11a4b294b14d"><txt break.before="1">No
+24</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.9-tble3"
+guid="_dbe6d542-30fb-49da-ae4f-a173dbe55db1"><txt break.before="1"><legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>New South
+Wales Government Engineering and Shipbuilding Undertaking (Repeal) Act
+1987</i></name></legref>. Assented to 5.5.1987.</txt></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.10" guid="_80b98ab3-b69a-4de2-bc01-9228371741f0">
+<entry colname="1" id="ed-tbl-tblr-oc.10-tble1"
+guid="_fa83084f-3283-4436-8d36-30564e06bdb8"></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.10-tble2"
+guid="_e4ebc025-c7bc-450d-928f-9e2e4d626535"><txt break.before="1">No
+51</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.10-tble3"
+guid="_0c767981-2aaa-4461-87f4-39222d37ef2f"><txt break.before="1"><legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Miscellaneous
+Acts (Sydney Harbour Tunnel) Repeal and Amendment Act
+1987</i></name></legref>. Assented to 28.5.1987.</txt></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.11" guid="_06753644-decb-4e9a-af9d-9f4638d186e3">
+<entry colname="1" id="ed-tbl-tblr-oc.11-tble1"
+guid="_0a253c30-3471-4da5-a6f8-540bb1a0a221"><txt
+break.before="1"><b>1988</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.11-tble2"
+guid="_894e079c-7b21-4408-81e1-7ce3102e58ae"><txt break.before="1">No
+114</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.11-tble3"
+guid="_51dac3f7-f3b1-4cf1-9dec-dd7af298d8eb">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Transport Legislation (Repeal and
+Amendment) Act 1988</i></name></legref>. Assented to 21.12.1988.</txt>
+<txt break.before="1">Date of commencement, 16.1.1989, sec 2 (1) and GG No 3
+of 16.1.1989, p 277.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.12" guid="_f084cf35-edb2-4c07-b4b6-5e5698c29664">
+<entry colname="1" id="ed-tbl-tblr-oc.12-tble1"
+guid="_34d8bcfd-013f-494c-85c2-61e5028c3b3d"><txt
+break.before="1"><b>1991</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.12-tble2"
+guid="_9ab0fffc-c24a-4e3b-9295-5dba5e89d471"><txt break.before="1">No
+53</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.12-tble3"
+guid="_46476971-c441-4d46-b631-77d54d4fe6f3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1991-053"><name emphasis="yes"><i>Hunter Water Board
+(Corporatisation) Act 1991</i></name></legref>. Assented to 11.12.1991.</txt>
+<txt break.before="1">Date of commencement of Sch 1, 1.1.1992, sec 2 and GG No
+180 of 20.12.1991, p 10554.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.13" guid="_47ec0a88-1241-41aa-8c65-0875feff3f9f">
+<entry colname="1" id="ed-tbl-tblr-oc.13-tble1"
+guid="_b969aa7b-0a14-43c3-a3a9-40187ac1f4ba"><txt
+break.before="1"><b>1994</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.13-tble2"
+guid="_761745aa-32b6-4e86-a732-5bf52bd94cb0"><txt break.before="1">No
+88</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.13-tble3"
+guid="_4ee21d4c-f133-4c7d-a2f0-40f87eb969cf">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1994-088"><name emphasis="yes"><i>Water Board (Corporatisation) Act
+1994</i></name></legref>. Assented to 12.12.1994.</txt>
+<txt break.before="1">Date of commencement of Sch 7, 1.1.1995, sec 2 and GG No
+170 of 16.12.1994, p 7400.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.14" guid="_57137c35-3f83-474b-9100-c80d0adccdbd">
+<entry colname="1" id="ed-tbl-tblr-oc.14-tble1"
+guid="_b24fb0ab-ffe2-4507-8c09-f3a9c2c4f429"><txt
+break.before="1"><b>1995</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.14-tble2"
+guid="_28b3f3df-c770-4da1-888e-8610940a3390"><txt break.before="1">No
+13</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.14-tble3"
+guid="_4a922682-542f-4b9a-ab25-c0b5039d8ba5">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1995-013"><name emphasis="yes"><i>Ports Corporatisation and
+Waterways Management Act 1995</i></name></legref>. Assented to
+15.6.1995.</txt>
+<txt break.before="1">Date of commencement, 1.7.1995, sec 2 and GG No 79 of
+30.6.1995, p 3435.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.15" guid="_83f6d306-68aa-4f45-b6b1-77113ef985d6">
+<entry colname="1" id="ed-tbl-tblr-oc.15-tble1"
+guid="_753a72b3-18da-4b38-84c2-87ac1253903d"></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.15-tble2"
+guid="_5751f3a5-4a4f-4533-8168-049f0d5d86cb"><txt break.before="1">No
+18</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.15-tble3"
+guid="_e6632b43-6f3b-4ff8-8d25-93f7def897dd">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Electricity Legislation Amendment Act
+1995</i></name></legref>. Assented to 19.6.1995.</txt>
+<txt break.before="1">Date of commencement of Sch 5, 30.6.1995, sec 2 and GG
+No 79 of 30.6.1995, p 3434.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.16" guid="_f2e8cf5a-485c-44c0-a797-543f07146cbb">
+<entry colname="1" id="ed-tbl-tblr-oc.16-tble1"
+guid="_9ad0cfa7-b48e-4d47-a23a-0c60cdaf50d1"></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.16-tble2"
+guid="_1ef35dab-e3be-4b4b-8386-2aeb04bcc666"><txt break.before="1">No
+95</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.16-tble3"
+guid="_6a6b8351-163e-44d0-bcfc-2d3537e79880">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1995-095"><name emphasis="yes"><i>Energy Services Corporations Act
+1995</i></name></legref>. Assented to 21.12.1995.</txt>
+<txt break.before="1">Date of commencement of the provision of Sch 4 relating
+to the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1957-001"><name emphasis="yes"><i>Capital Debt Charges Act
+1957</i></name></legref>, 1.3.1996, sec 2 and GG No 26 of 1.3.1996, p
+832.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.17" guid="_1d74bb1c-123d-4c73-8319-e822b9f76169">
+<entry colname="1" id="ed-tbl-tblr-oc.17-tble1"
+guid="_cbb3b195-18f9-4cb4-969f-267773abef7a"><txt
+break.before="1"><b>1997</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.17-tble2"
+guid="_263801fc-7e14-46d0-a0be-b191a7188e3a"><txt break.before="1">No
+114</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.17-tble3"
+guid="_bba5be52-4cd3-4693-97da-3a29a1d76f20">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1997-114"><name emphasis="yes"><i>South-west Tablelands Water
+Supply Administration (Repeal) Act 1997</i></name></legref>. Assented to
+9.12.1997.</txt>
+<txt break.before="1">Date of commencement, 9.1.1998, sec 2 and GG No 4 of
+9.1.1998, p 143.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.18" guid="_e7533c25-ef17-4031-b5fc-d8e1fc185a70">
+<entry colname="1" id="ed-tbl-tblr-oc.18-tble1"
+guid="_776397b3-e26c-4dc1-ad83-73074573505c"><txt
+break.before="1"><b>1999</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.18-tble2"
+guid="_48da1599-de8c-4239-a228-d5c905e27b2a"><txt break.before="1">No
+31</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.18-tble3"
+guid="_d8649f75-5ad5-4001-93d3-ef33e17d80b3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1999-031"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 1999</i></name></legref>. Assented to 7.7.1999.</txt>
+<txt break.before="1">Date of commencement of Sch 3.4, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.19" guid="_9d8aeaf3-d687-4472-8afb-acfcabbb60a4">
+<entry colname="1" id="ed-tbl-tblr-oc.19-tble1"
+guid="_26c87d3d-8488-4230-8929-0a99a3a878c3"><txt
+break.before="1"><b>2011</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.19-tble2"
+guid="_1641781f-3d0f-4b73-908e-52b6cea2e762"><txt break.before="1">No
+27</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.19-tble3"
+guid="_f14aff55-c96b-4306-8fa0-00c48b1d973b">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2011-027"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2011</i></name></legref>. Assented to 27.6.2011.</txt>
+<txt break.before="1">Date of commencement of Sch 2.6, 8.7.2011, sec 2
+(2).</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">This Act has also been amended pursuant to an
+order under secs 8 (2) and 9 (3) of the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1972-048"><name emphasis="yes"><i>Reprints Act
+1972</i></name> No 48</legref> (formerly <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1972-048"><name emphasis="yes"><i>Acts Reprinting
+Act 1972</i></name></legref>). Order dated 15.9.1978, and published in GG No
+120 of 22.9.1978, p 4067, declaring that the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1957-001"><name emphasis="yes"><i>Capital Debt
+Charges Act 1957</i></name></legref> is an enactment to which sec 8 (2) and
+sec 9 (3) of the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1972-048"><name emphasis="yes"><i>Acts Reprinting Act
+1972</i></name></legref> apply.</txt></block></level>
+
+
+<level type="tableamends">
+<head><heading id="ed-he-oc.3"
+guid="_25129970-da7b-4543-95a6-cb004081e14b"><b>Table of
+amendments</b></heading></head>
+<block><txt break.before="1">No reference is made to certain amendments made
+by the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1972-048"><name emphasis="yes"><i>Reprints Act
+1972</i></name></legref>.</txt>
+
+<table frame="none" orient="port" id="ed-tbl-oc.2"
+guid="_ffe37d44-7ea9-4ef8-99c8-a5f276d5e7a5" heading.align="left"
+font.size="12.pt">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi" align="left"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi" align="left"></colspec>
+
+<tbody>
+
+<row id="ed-tbl-oc.2-tblr" guid="_5db70c17-4b7b-45fd-a15e-d30048554be1">
+<entry colname="1" id="ed-tbl-oc.2-tblr-tble1"
+guid="_3a3620bb-2aae-4d5a-9291-04e186a0b344"><txt
+break.before="1">Sch</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-tble2"
+guid="_7d91bd49-fcaa-4d20-a149-ac5469cb04d8"><txt break.before="1">Am 1966 No
+10, sec 38; 1970 No 26, sec 8; 1975 No 27, Sch; 1975 No 38, Sch; 1976 No 58,
+sec 32; 1980 No 109, sec 3; 1980 No 178, sec 3; 1984 No 47, sec 3; 1987 No 24,
+Sch 1; 1987 No 51, Sch 1; 1988 No 114, Sch 4; 1991 No 53, Sch 1; 1994 No 88,
+Sch 7; 1995 No 13, Sch 4; 1995 No 18, Sch 5; 1995 No 95, Sch 4; 1997 No 114,
+sec 8; 1999 No 31, Sch 3.4; 2011 No 27, Sch 2.6.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

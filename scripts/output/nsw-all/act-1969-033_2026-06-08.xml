@@ -1,0 +1,2755 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1969-033"
+title="Police Association Employees (Superannuation) Act 1969"
+year="1969"
+number="33"
+enact.or.made.date="1969-04-09"
+first.valid.date="2018-06-15"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1969</metacontent>
+<metacontent class="year.assent">1969</metacontent>
+<metacontent class="publication.date">2018-06-15</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2018-028</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="amending">none</metacontent>
+<metacontent class="id">act-1969-033</metacontent>
+<metacontent
+class="version.desc.id">1e004b57-4ec8-45c7-a4d2-fc5ae47ad854</metacontent>
+<metacontent
+class="version.series.id">5f51cb6f-c39d-4183-ac5d-96c872dadd2a</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Police Association Employees (Superannuation) Act
+1969"></attrib>
+<attrib name="year.passed" value="1969"></attrib>
+<attrib name="year.assent" value="1969"></attrib>
+<attrib name="no" value="33"></attrib>
+<attrib name="publication.date" value="2018-06-15"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2018-028"></attrib>
+<attrib name="first.valid.date" value="2018-06-15"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1969-04-09"></attrib>
+<attrib name="amending" value="none"></attrib>
+<attrib name="id" value="act-1969-033"></attrib>
+<attrib name="version.desc.id"
+value="1e004b57-4ec8-45c7-a4d2-fc5ae47ad854"></attrib>
+<attrib name="version.series.id"
+value="5f51cb6f-c39d-4183-ac5d-96c872dadd2a"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<content type="historynote"><txt break.before="1"><b>whole Act (except s 2 and
+sch 1):</b> Am 2000 No 114, Sch 1.2 [3] (insert &#8220;or de facto
+partner&#8221; after &#8220;spouse&#8221; wherever
+occurring).</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>whole Act (except s 2 and
+sch 1):</b> Am 2000 No 114, Sch 1.2 [4] (insert &#8220;or de facto
+partners&#8217;&#8221; after &#8220;spouses&#8217;&#8221; wherever
+occurring).</txt></content>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="id" value="frnt-lt"></attrib>
+<attrib name="guid"
+value="_8a011886-68b6-4941-9f4e-b7107fd96966"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to provide for certain employees of the
+Police Association of New South Wales and certain other persons to receive
+payments out of the Police Superannuation Fund; for this purpose to amend the
+<legref jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Police
+Regulation Act 1899</i></name></legref> and the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1906-028"><name emphasis="yes"><i>Police
+Regulation (Superannuation) Act 1906</i></name></legref>; and for purposes
+connected therewith.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>long title:</b> Am 1981
+No 25, Sch 2 (1).</txt></content>
+</tier>
+</content>
+
+
+<content type="body">
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="id" value="sec.1"></attrib>
+<attrib name="guid" value="_fea9798f-cf57-4e8b-9174-bfb117f042d0"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading id="sec.1-he"
+guid="_46685e40-7c39-47a5-85bb-78851e1557bc"><b>Name of
+Act</b></heading></head>
+<block><txt break.before="1">This Act may be cited as the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1969-033"><name emphasis="yes"><i>Police
+Association Employees (Superannuation) Act
+1969</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="id" value="sec.2"></attrib>
+<attrib name="guid" value="_7ff893ff-d1a8-43b6-8534-a69175bbdd45"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading id="sec.2-he"
+guid="_e9849c52-d1da-491e-8aca-6865e8c711f6"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.2-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.2-ssec.1"></attrib>
+<attrib name="guid" value="_d2b13d5f-3685-4de0-9ebe-c4a9c5858fe8"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act, except in so far as the context or
+subject-matter otherwise indicates or requires:</txt>
+<deflist>
+<block><txt break.before="1"><defterm id="sec.2-def.Association"
+guid="_28c4c628-1ad5-4043-af2f-26bc0214118e"
+type="definition"><b><i>Association</i></b></defterm> means the Police
+Association of New South Wales.</txt></block>
+<block><txt break.before="1"><defterm id="sec.2-def.executiveofficer"
+guid="_9687cd50-2b6e-4c15-bc8e-38144404c5bf" type="definition"><b><i>executive
+officer</i></b></defterm> means an employee of the Association whom the
+Association has appointed or designated as an executive officer of the
+Association.</txt></block>
+<block><txt break.before="1"><defterm id="sec.2-def.Fund"
+guid="_eee81bd3-8fdd-4291-94dc-2f82b1ac7432"
+type="definition"><b><i>Fund</i></b></defterm> means the Police Superannuation
+Fund.</txt></block>
+<block><txt break.before="1"><defterm id="sec.2-def.memberofthepoliceforce"
+guid="_401a5f0e-36b9-419e-bc27-2172b16265c4" type="definition"><b><i>member of
+the police force</i></b></defterm> means a member of the NSW Police Force
+other than the Commissioner of Police.</txt></block>
+<block><txt break.before="1"><defterm id="sec.2-def.salaryofoffice"
+guid="_2890ccdb-257c-4da9-a0b0-5545ced517d2" type="definition"><b><i>salary of
+office</i></b></defterm>:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.2-ssec.1-para1.a" guid="_041327e4-1567-4a14-98a9-63890a79cd44"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">in relation to an employee of the Association who
+is not an executive officer&#8212;has the meaning set out in section 1 (2) of
+the <legref jurisd="NSW" type="act" check="unknown" refid="act-1906-028"><name
+emphasis="yes"><i>Police Regulation (Superannuation) Act
+1906</i></name></legref>, or</txt></block></li>
+<li id="sec.2-ssec.1-para1.b" guid="_bb0243b7-5307-4d9d-abee-3df678a36b20"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">in relation to an executive officer&#8212;has the
+meaning set out in section 2B.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm id="sec.2-def.spouse"
+guid="_100699cf-034b-4ed6-b427-b4a7a0d01369"
+type="definition"><b><i>spouse</i></b></defterm> of a prescribed person
+(within the meaning of section 3) who has died means the surviving spouse of
+the prescribed person.</txt></block>
+<block><txt break.before="1"><defterm id="sec.2-def.STC"
+guid="_8276437e-efe0-4eec-9ab6-0966fa257a5d"
+type="definition"><b><i>STC</i></b></defterm> means the SAS Trustee
+Corporation continued under the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1996-039"><name emphasis="yes"><i>Superannuation
+Administration Act 1996</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm id="sec.2-def.superannuationscheme"
+guid="_1ec96b0d-07cf-42ee-a66c-1c8c82e8b01e"
+type="definition"><b><i>superannuation scheme</i></b></defterm> means a
+scheme, fund or arrangement (whether established by an Act or not) under which
+any superannuation or retirement benefits are
+provided.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.2" status="repealed">
+<parentattributes>
+<attrib name="id" value="sec.2-ssec.2"></attrib>
+<attrib name="guid" value="_e9171d6d-bf82-45db-8fe1-fa30476276af"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 2:</b> Am 1974 No 46,
+sec 10 (a); 1981 No 25, Schs 1 (1), 2 (2); 1984 No 75, Sch 1 (1); 1987 No 222,
+Sch 1 (1); 1990 No 48, Sch 2; 1991 No 94, Sch 1; 1991 No 95, Sch 4 (1); 1991
+No 96, Sch 6; 1993 No 111, Sch 7; 1996 No 39, Sch 4; 2000 No 114, Sch 1.2 [1]
+[2]; 2002 No 51, Sch 2.9; 2006 No 94, Sch 3.24; 2010 No 19, Sch 3.75 [1]; 2018
+No 28, Sch 1.27.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.2A">
+<parentattributes>
+<attrib name="id" value="sec.2A"></attrib>
+<attrib name="guid" value="_fc62e0d7-8eac-4b1d-85aa-9dc98d9bf5ee"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>2A</no><heading id="sec.2A-he"
+guid="_dd7fc474-ea0b-46ce-bf47-dcd1bec2a2ff"><b>Act applies only to
+contributors to Police Superannuation Fund</b></heading></head>
+<block><txt break.before="1">This Act applies to and in respect of a member of
+the police force who transfers to the employment of the Association only if
+the member was a contributor to the Fund immediately before the
+transfer.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 2A:</b> Ins 1987 No
+222, Sch 1 (2).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.2B">
+<parentattributes>
+<attrib name="id" value="sec.2B"></attrib>
+<attrib name="guid" value="_fe790775-534b-45e9-85d7-d21e117bf9ca"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>2B</no><heading id="sec.2B-he"
+guid="_0fbfda71-ac98-423b-94e8-8777105ce8c4"><b>Salary of office: executive
+officers</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.2B-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.2B-ssec.1"></attrib>
+<attrib name="guid" value="_c9cebfd6-6836-4592-a7e7-461da34dcd6a"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no><heading id="sec.2B-ssec.1-he"
+guid="_6605c015-40ae-4f48-9409-0eb71d4941a1"><b>Definition of
+salary</b></heading></head>
+<block><txt break.before="1">For the purposes of this Act, the <defterm
+id="sec.2B-def.salaryofoffice" guid="_a38241f1-3bec-468d-81ce-e0a14c8d17d6"
+type="definition"><b><i>salary of office</i></b></defterm> of an executive
+officer is the salary as last nominated or changed in accordance with this
+section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2B-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.2B-ssec.2"></attrib>
+<attrib name="guid" value="_f6a7d55d-de9f-4d60-b917-406f49aa167c"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no><heading id="sec.2B-ssec.2-he"
+guid="_63ce49d7-caf8-42ea-aa94-33da5bd9df9d"><b>Nomination of salary on
+initial and subsequent appointments</b></heading></head>
+<block><txt break.before="1">An amount of salary for the purposes of this Act
+must be nominated to the Association by an executive officer, on, or as soon
+as practicable after, being appointed or designated as an executive officer.
+An amount may also be nominated to the Association by the officer on, or as
+soon as practicable after, being reappointed, or appointed to another
+position, as an executive officer.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2B-ssec.3">
+<parentattributes>
+<attrib name="id" value="sec.2B-ssec.3"></attrib>
+<attrib name="guid" value="_08901486-4947-4c4c-966f-58fb7f8f8b89"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no><heading id="sec.2B-ssec.3-he"
+guid="_01ca6518-61f3-4f46-ab52-f9e36e57547e"><b>Amount of
+salary</b></heading></head>
+<block><txt break.before="1">The amount nominated is to be not less than the
+monetary remuneration payable to the executive officer at the date of
+nomination and not more than the total value of the remuneration package paid
+to the officer (less the cost of providing employer&#8217;s contributions to
+superannuation, other than salary sacrifice contributions, under this Act and
+the <legref jurisd="NSW" type="act" check="unknown" refid="act-1987-212"><name
+emphasis="yes"><i>State Authorities Non-contributory Superannuation Act
+1987</i></name></legref> and any performance-related incentive payment),
+expressed as an annual rate.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.2B-ssec.4">
+<parentattributes>
+<attrib name="id" value="sec.2B-ssec.4"></attrib>
+<attrib name="guid" value="_dcc37a68-d54d-46da-ae09-d928a6d326cf"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(4)</no><heading id="sec.2B-ssec.4-he"
+guid="_dc16d08d-8384-4098-ba1b-d431487f59be"><b>Failure to nominate
+salary</b></heading></head>
+<block><txt break.before="1">If the executive officer fails to nominate an
+amount of salary within 28 days of first being appointed or designated as an
+executive officer or within such further period as STC may allow, the officer
+is taken to have nominated an amount of salary that is equal to the monetary
+remuneration payable to the officer at the end of the applicable
+period.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2B-ssec.5">
+<parentattributes>
+<attrib name="id" value="sec.2B-ssec.5"></attrib>
+<attrib name="guid" value="_dfe8feeb-3796-43e9-8217-ba1cdc2934dc"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(5)</no><heading id="sec.2B-ssec.5-he"
+guid="_6949f86f-31f3-4524-b2a6-2f8cefc9da50"><b>Reduction in nominated
+salary</b></heading></head>
+<block><txt break.before="1">An executive officer may, from time to time, by
+notice to the Association elect to reduce the amount of salary nominated under
+this section, but not so that the amount is less than the monetary
+remuneration payable to the officer at the date of the
+election.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2B-ssec.6">
+<parentattributes>
+<attrib name="id" value="sec.2B-ssec.6"></attrib>
+<attrib name="guid" value="_07c46279-f79c-4429-afd1-5e771ba1201b"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(6)</no><heading id="sec.2B-ssec.6-he"
+guid="_89708d36-ebcf-4df5-80c6-f541315c370e"><b>Increase in nominated
+salary</b></heading></head>
+<block><txt break.before="1">An executive officer may, from time to time, by
+notice to the Association elect to increase the amount of salary nominated
+under this section, but not so as to increase the amount nominated by a
+percentage of that amount that is more than the percentage by which the
+remuneration package of the officer has increased since the amount of salary
+was last nominated or changed.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2B-ssec.7">
+<parentattributes>
+<attrib name="id" value="sec.2B-ssec.7"></attrib>
+<attrib name="guid" value="_11c510b1-45c8-4e06-81b5-59c2cf614f7f"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(7)</no><heading id="sec.2B-ssec.7-he"
+guid="_3f14719c-2f30-499c-84d1-16fb96aff30b"><b>Nominations and
+elections</b></heading></head>
+<block><txt break.before="1">The Association must notify STC of a nomination
+or election under this section. Any such nomination or election takes effect
+on the date of notification to STC or on such other date as STC may determine
+with the consent of the executive officer concerned.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2B-ssec.8">
+<parentattributes>
+<attrib name="id" value="sec.2B-ssec.8"></attrib>
+<attrib name="guid" value="_82d8ce3e-7830-40c6-9347-7f2178d0674a"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(8)</no><heading id="sec.2B-ssec.8-he"
+guid="_313ce0e2-bc3d-4f55-9bac-2e8fc7baa740"><b>Effect of changes in
+packages</b></heading></head>
+<block><txt break.before="1">Nothing in this section requires the nominated
+amount of salary to be increased if, because of a variation in the
+remuneration package of an executive officer or in the proportions of the
+remuneration package comprising monetary remuneration and employment benefits
+of the officer, the amount of salary as last nominated or changed for the
+purposes of this section is less than the monetary remuneration of the
+officer.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2B-ssec.9">
+<parentattributes>
+<attrib name="id" value="sec.2B-ssec.9"></attrib>
+<attrib name="guid" value="_c691e24e-338b-4764-8303-e77d4ac19a30"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(9)</no><heading id="sec.2B-ssec.9-he"
+guid="_f118099e-0ad0-428f-bded-0af6398543c2"><b>Transitional provision
+relating to nomination of salary by executive officers</b></heading></head>
+<block><txt break.before="1">An executive officer may, within 3 months after
+the commencement of this subsection, nominate to the Association a new amount
+of salary in accordance with this section if, immediately before the
+commencement of this subsection, the officer was an executive
+officer.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 2B:</b> Ins 1991 No 95,
+Sch 4 (2). Subst 1993 No 42, Sch 2. Am 1996 No 39, Sch 4; 2005 No 52, Sch 2
+[1]; 2007 No 25, Sch 1 [1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="id" value="sec.3"></attrib>
+<attrib name="guid" value="_a640012b-2923-4546-aafc-4f904d654552"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading id="sec.3-he"
+guid="_c4e08188-b3bb-4208-bec7-2521f5ce329b"><b>Employees of Association
+transferring from employment as police officers</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.1"></attrib>
+<attrib name="guid" value="_eafa3a0d-10af-4f6f-86bf-c7dbf3733920"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.1-para1.a" guid="_6612de5a-ec7a-4160-a27b-e28f4c5fd708"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">Where, after the commencement of this Act, any
+person resigns his or her office as a member of the police force and:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.1-para1.a-para2.i"
+guid="_5ae6f9e3-229f-4469-bc37-e3365512b262" provision.type="other"
+affected.by.uncommenced="0">
+<no>(i)</no>
+<block><txt break.before="1">transfers without break in service to the
+employment of the Association,</txt></block></li>
+<li id="sec.3-ssec.1-para1.a-para2.ia"
+guid="_4cd2a829-b087-4ca8-ae5a-737f9498ff9e" provision.type="other"
+affected.by.uncommenced="0">
+<no>(ia)</no>
+<block><txt break.before="1">has not made provision for a benefit under
+section 9B of the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1906-028"><name emphasis="yes"><i>Police Regulation
+(Superannuation) Act 1906</i></name></legref> (Preserved benefit),
+and</txt></block></li>
+<li id="sec.3-ssec.1-para1.a-para2.ii"
+guid="_eefd7d42-bc27-4d36-afc9-d7907843dc29" provision.type="other"
+affected.by.uncommenced="0">
+<no>(ii)</no>
+<block><txt break.before="1">has, before he or she so resigns, requested the
+Minister by notice in writing that the provisions of section 17 (1) of the
+<legref jurisd="NSW" type="act" check="unknown" refid="act-1906-028"><name
+emphasis="yes"><i>Police Regulation (Superannuation) Act
+1906</i></name></legref> not apply to him or her,</txt></block></li></list>
+
+<txt break.before="1">the provisions of this section shall have effect in
+respect of that person (who is in this section referred to as <defterm
+id="sec.3-ssec.1-def.theprescribedperson"
+guid="_c7797cf9-250a-4760-945c-0e61a046c15b" type="definition"><b><i>the
+prescribed person</i></b></defterm>).</txt></block></li>
+<li id="sec.3-ssec.1-para1.b" guid="_66e7b2b6-6ee5-4fc0-8a5e-d3a3d6c9a744"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">Without affecting the generality of paragraph
+(a), a person shall for the purposes of that paragraph be deemed to have
+transferred without break in service to the employment of the Association if,
+after the commencement of this Act, he or she resigns his or her office as a
+member of the police force and on the working day of the Association next
+following the date on which his or her resignation takes effect commences in
+the employment of the Association.</txt></block></li>
+<li id="sec.3-ssec.1-para1.c" guid="_16719a67-c66e-4a1c-be81-7148d048e2b3"
+provision.type="other" affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">The provisions of section 17 (1) of the <legref
+jurisd="NSW" type="act" check="unknown" refid="act-1906-028"><name
+emphasis="yes"><i>Police Regulation (Superannuation) Act
+1906</i></name></legref> shall not apply to the prescribed
+person.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.2"></attrib>
+<attrib name="guid" value="_27b53bed-068a-4e08-bdac-07c8208d274b"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">STC may, subject to this section, approve the
+payment of:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.2-para1.a" guid="_93aec42d-9f20-4a29-9297-5a509b972561"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">such annual superannuation allowance to the
+prescribed person, or</txt></block></li>
+<li id="sec.3-ssec.2-para1.b" guid="_79e18c29-df07-49e5-80b0-046a5f856cf3"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">such gratuity to the prescribed person, or to or
+on behalf of some other person,</txt></block></li></list>
+
+<txt break.before="1">(as the case requires) out of the Fund as would be
+payable to the prescribed person or to that other person under section 7, 7AA,
+8A, 9B, 12F, 12G, 13 or 14 of the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1906-028"><name emphasis="yes"><i>Police Regulation
+(Superannuation) Act 1906</i></name></legref> if the prescribed person had
+been a member of the police force and if the prescribed person or that other
+person had been eligible for that allowance or gratuity.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2AA">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.2AA"></attrib>
+<attrib name="guid" value="_04b52aa3-3725-4d1a-a8b5-d9ce19ba6c91"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2AA)</no></head>
+<block><txt break.before="1">The granting of approval under subsection (2) is
+subject to:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.2AA-para1.a" guid="_9df987dd-98d4-4094-8c48-906878103d03"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">the payment, in such manner as STC may direct, by
+the prescribed person into the Fund of sums equivalent to the deductions that
+would have been made from that person&#8217;s salary of office under section 5
+of the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1906-028"><name emphasis="yes"><i>Police Regulation
+(Superannuation) Act 1906</i></name></legref> and the amounts that would have
+been required to be paid into the Fund under section 5A of that Act if that
+person had not resigned office as a member of the police force,
+and</txt></block></li>
+<li id="sec.3-ssec.2AA-para1.b" guid="_874d3f04-7384-4f11-9da3-d36f370f15cb"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">the payment, in such manner as STC directs, by
+the Association into the Fund of employer contributions in respect of that
+person, and</txt></block></li>
+<li id="sec.3-ssec.2AA-para1.c" guid="_5300d3af-3672-453f-9a8a-e4d542bbf993"
+provision.type="other" affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">in the case of a benefit of a kind payable under
+section 12F or 12G of that Act, compliance with any applicable requirements of
+any regulations made under section 12H of that Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2AB">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.2AB"></attrib>
+<attrib name="guid" value="_65e3adf2-a996-45bb-88ed-de8bfb8021a5"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2AB)</no></head>
+<block><txt break.before="1">In subsection (2AA) (b), the reference to
+employer contributions is a reference to the amounts that STC, on actuarial
+advice, determines to be the Association&#8217;s liability, for the period to
+which the payment relates, to contribute towards the provision of
+superannuation benefits for the prescribed person.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2AC">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.2AC"></attrib>
+<attrib name="guid" value="_5c6564d9-d462-450a-9dad-df77426f960d"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2AC)</no></head>
+<block><txt break.before="1">Section 5AD of the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1906-028"><name emphasis="yes"><i>Police
+Regulation (Superannuation) Act 1906</i></name></legref> applies, with any
+necessary modifications, in respect of an amount required to be paid under
+subsection (2AA) (a) by the prescribed person in the same way as it applies to
+an amount required to be deducted under section 5 of that
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2A">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.2A"></attrib>
+<attrib name="guid" value="_7c4555af-09ad-401c-867b-4c5352f4040a"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2A)</no></head>
+<block><txt break.before="1">Where the superannuation allowance of a retired
+member of the police force under section 7 or 7AA of the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1906-028"><name emphasis="yes"><i>Police
+Regulation (Superannuation) Act 1906</i></name></legref> is increased or
+reduced, any superannuation allowance that would be payable under subsection
+(2) to the prescribed person had he or she been that member shall be increased
+or reduced, as the case may be, to the same extent.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2B">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.2B"></attrib>
+<attrib name="guid" value="_fd651ff4-7d12-4240-a0e4-16ef4b169214"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2B)</no></head>
+<block><txt break.before="1">For the purpose of the application of section 8A
+of the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1906-028"><name emphasis="yes"><i>Police Regulation
+(Superannuation) Act 1906</i></name></legref> to the prescribed person:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.2B-para1.a" guid="_5411e1a4-1c47-4fd0-a460-b993b49d7ad4"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">STC may offer the prescribed person a
+disengagement benefit under that section if the prescribed person is
+retrenched (within the meaning of the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1987-211"><name emphasis="yes"><i>State Authorities
+Superannuation Act 1987</i></name></legref>), and</txt></block></li>
+<li id="sec.3-ssec.2B-para1.b" guid="_a141e06b-0894-4bd8-9f21-0d795e0319b8"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">subsections (2), (5), (6), (7) and (9) of that
+section apply, and the other provisions of that section do not apply, to the
+prescribed person.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.3" status="repealed">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.3"></attrib>
+<attrib name="guid" value="_efeaa0ce-b46a-466f-b29c-0dc6ff17d078"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<tier type="subclause" id="sec.3-ssec.4">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.4"></attrib>
+<attrib name="guid" value="_84e3448a-0bbc-48a4-a921-7e5eb4b82b9f"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Subject to this section, service by the
+prescribed person as a member of the police force, as well as service by him
+or her as an employee of the Association, shall be taken into account for
+calculating any annual superannuation allowance or gratuity under subsection
+(2).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.5">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.5"></attrib>
+<attrib name="guid" value="_8b1c4ba5-f970-4c08-a64b-9a6117251d22"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Where the prescribed person resigns or is
+dismissed or discharged from the employment of the Association before he or
+she attains the age of sixty years and is not entitled to be granted a
+superannuation allowance or gratuity under this Act, there shall, irrespective
+of the cause of his or her resignation, dismissal or discharge, be paid to him
+or her from the Fund a lump sum equal to the difference between:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.5-para1.a" guid="_9d4024c6-4492-431d-bd6f-bd09f38a96fe"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">the total amount of:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.5-para1.a-para2.i"
+guid="_44b9dedd-6855-48ca-bad7-fca8cf0a0d8e" provision.type="other"
+affected.by.uncommenced="0">
+<no>(i)</no>
+<block><txt break.before="1">the sums deducted under section 5, or deemed to
+have been deducted under section 5A, of the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1906-028"><name emphasis="yes"><i>Police Regulation
+(Superannuation) Act 1906</i></name></legref> from the salary of office of the
+prescribed person before he or she resigned his or her office as a member of
+the police force, and</txt></block></li>
+<li id="sec.3-ssec.5-para1.a-para2.ii"
+guid="_ffb34997-9548-431c-a7cd-fb4bc26d0c03" provision.type="other"
+affected.by.uncommenced="0">
+<no>(ii)</no>
+<block><txt break.before="1">the sums (if any) paid by him or her under
+subsection (2AA) (a),</txt></block></li></list>
+
+<txt break.before="1">with the addition of interest on those amounts:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.5-para1.a-para2.iii"
+guid="_633e88a3-705d-453d-a45d-43c7f7679b89" provision.type="other"
+affected.by.uncommenced="0">
+<no>(iii)</no>
+<block><txt break.before="1">in the case of a prescribed person who resigned
+or was discharged (but not in the case of a prescribed person who was
+dismissed)&#8212;at the rate of 4.5 per cent per annum compounded on 30 June
+in each year of service of the prescribed person as an employee of the
+Association, and as a member of the police force, during the period beginning
+with 23 November 1984 and ending with 30 June 1990, and also compounded on the
+date of the resignation or discharge of the prescribed person from employment
+by the Association if it occurred during that period, and</txt></block></li>
+<li id="sec.3-ssec.5-para1.a-para2.iv"
+guid="_f86f2479-51a2-4099-8827-635d927f791d" provision.type="other"
+affected.by.uncommenced="0">
+<no>(iv)</no>
+<block><txt break.before="1">in the case of all prescribed persons&#8212;at
+the rate from time to time fixed by STC under section 16 of the <legref
+jurisd="NSW" type="act" check="unknown" refid="act-1987-211"><name
+emphasis="yes"><i>State Authorities Superannuation Act
+1987</i></name></legref>, compounded on 30 June in each year of the service of
+the prescribed person as an employee of the Association, and as a member of
+the police force, from and including 1 July 1990, and also compounded on the
+date of the resignation, dismissal or discharge of the prescribed person from
+employment by the Association if it occurred on or after 1 July 1990,
+and</txt></block></li></list>
+</block></li>
+<li id="sec.3-ssec.5-para1.b" guid="_f4840e12-6570-4996-a39d-8867f82de46d"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">any amount received by the prescribed person when
+he or she was a member of the police force or after he or she transferred to
+the employment of the Association as pension or gratuity before his or her
+resignation, dismissal or discharge from the
+Association.</txt></block></li></list>
+</block>
+<block><txt break.before="1">The amount payable to the prescribed person under
+this subsection shall not be less than the total amount of sums so deducted or
+so paid since any amount was last received by him or her under the <legref
+jurisd="NSW" type="act" check="unknown" refid="act-1906-028"><name
+emphasis="yes"><i>Police Regulation (Superannuation) Act
+1906</i></name></legref>, or under this Act, as pension or
+gratuity.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.5A">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.5A"></attrib>
+<attrib name="guid" value="_90099b57-bd1d-4644-a2ab-020e857b76a6"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(5A)</no></head>
+<block><txt break.before="1">For the purposes of subsection (5) (a)
+(iv):</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.5A-para1.a" guid="_1d2777cb-8a14-42c8-b6fa-932ec89970f5"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">interest shall not be paid in respect of any
+period before the day appointed and notified under section 2 (2) of the
+<legref jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Police
+Regulation (Superannuation) Amendment Act 1984</i></name></legref>, and any
+sum referred to in subsection (5) (a) that was deducted or paid before that
+day shall be deemed to have been deducted or paid on that day,
+and</txt></block></li>
+<li id="sec.3-ssec.5A-para1.b" guid="_aff6807d-8c63-436c-9d22-c170d027b6c0"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">interest on sums deducted or paid at different
+times during the period in respect of which the interest is to be calculated
+shall, subject to subsection (5) (a) (iv), be calculated in a manner
+determined by STC.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.6">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.6"></attrib>
+<attrib name="guid" value="_e5dfe86e-ae25-41ef-beca-2694678a8108"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">Where the prescribed person:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.6-para1.a" guid="_89021693-08fd-4924-9daf-6d076b703b84"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">has resigned or retired, or has been dismissed or
+discharged, from the employment of the Association before he or she attained
+the age of sixty years,</txt></block></li>
+<li id="sec.3-ssec.6-para1.b" guid="_20834f62-674b-4a21-b6be-1e699d935cda"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">has received any amount of payment under
+subsection (2) or (5), and</txt></block></li>
+<li id="sec.3-ssec.6-para1.c" guid="_25608280-8f3d-4bd3-b823-88c5a2c4ab46"
+provision.type="other" affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">is thereafter re-employed by the
+Association,</txt></block></li></list>
+
+<txt break.before="1">he or she shall not be entitled by virtue of this Act to
+claim any further benefit from the Fund in respect of his or her previous
+service in the police force or employment by the Association unless that
+amount is repaid into the Fund before the expiration of the period of 6 months
+immediately after his or her re-employment by the
+Association.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.6A">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.6A"></attrib>
+<attrib name="guid" value="_0af086e8-99d6-4e27-853a-83b1d290c168"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(6A)</no></head>
+<block><txt break.before="1">Where the prescribed person dies:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.6A-para1.a" guid="_8d95c8a9-7adf-4ee7-8188-1f668fef4801"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">on or after the day appointed and notified under
+section 2 (2) of the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Police Regulation (Superannuation) Amendment Act
+1984</i></name></legref>, and</txt></block></li>
+<li id="sec.3-ssec.6A-para1.b" guid="_784885be-5e9f-4cad-915b-4255f5e37b6f"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">before the prescribed person&#8217;s employment
+by the Association ceases,</txt></block></li></list>
+
+<txt break.before="1">and there is no person to whom a superannuation
+allowance or gratuity is payable under this Act in respect of the death of the
+prescribed person, the prescribed person shall be deemed to have resigned from
+the employment of the Association immediately before the prescribed
+person&#8217;s death and the amount payable under subsection (5) shall be paid
+by STC to the prescribed person&#8217;s personal representatives or, where the
+prescribed person has no personal representatives, to such persons as STC may
+determine.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.7">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.7"></attrib>
+<attrib name="guid" value="_38b11b98-4028-4403-a1cf-2bfc266b30d4"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">Subject to subsection (4), section 9A of the
+<legref jurisd="NSW" type="act" check="unknown" refid="act-1906-028"><name
+emphasis="yes"><i>Police Regulation (Superannuation) Act
+1906</i></name></legref> applies to and in respect of the prescribed person in
+the same way as it applies to and in respect of a member of the police
+force.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.3-ssec.7A">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.7A"></attrib>
+<attrib name="guid" value="_174074a7-2434-444b-8a98-eab84eb53448"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(7A)</no></head>
+<block><txt break.before="1">Section 9C of the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1906-028"><name emphasis="yes"><i>Police Regulation
+(Superannuation) Act 1906</i></name></legref> applies to a benefit payable to
+or in respect of a prescribed person.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.7B">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.7B"></attrib>
+<attrib name="guid" value="_c0409136-41d2-46d6-acb3-e8028a44d6d6"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(7B)</no></head>
+<block><txt break.before="1">Section 9B of the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1906-028"><name emphasis="yes"><i>Police Regulation
+(Superannuation) Act 1906</i></name></legref> applies to a person who becomes
+entitled to a lump sum benefit under subsection (5) as if the person had been
+a member of the police force and:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.7B-para1.a" guid="_5a9092c1-de14-4064-b42d-ac160469ac7a"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">in the case of a person who has reached the age
+of 55 years or more at the time of entitlement&#8212;as if the person had been
+entitled to a superannuation allowance under section 7AA of that Act,
+or</txt></block></li>
+<li id="sec.3-ssec.7B-para1.b" guid="_171e445e-6991-427b-8a49-164309b5c359"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">in the case of a person under the age of 55 years
+at the time of entitlement&#8212;as if the person had been entitled to a
+payment under section 17 of that Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.8">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.8"></attrib>
+<attrib name="guid" value="_b3ab9b49-8207-4be3-9509-0644e9b6c87d"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(8)</no></head>
+<block>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.8-para1.a" guid="_a4a7e919-510e-495b-b6fb-aa0a18b2b787"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">No annual superannuation allowance that would be
+payable under section 7 of the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1906-028"><name emphasis="yes"><i>Police Regulation
+(Superannuation) Act 1906</i></name></legref> shall be granted under
+subsection (2) to the prescribed person if he or she ceases to be employed by
+the Association while under the age of sixty years, unless STC (having regard
+to medical advice on the condition and fitness for employment of the
+prescribed person) has certified the prescribed person to be incapable, from
+infirmity of body or mind, to perform his or her duties as an employee of the
+Association.</txt></block></li>
+<li id="sec.3-ssec.8-para1.b" guid="_ccc8253b-652f-42d4-89a0-9a03c449fcec"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">No gratuity shall be granted under subsection (2)
+to the prescribed person, unless he or she is certified by STC to be unfit for
+service as such an employee.</txt></block></li>
+<li id="sec.3-ssec.8-para1.c" guid="_fa2de017-b44f-45ac-bb5f-5e860c4e6627"
+provision.type="other" affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">In this subsection:</txt>
+<deflist>
+<block><txt break.before="1"><defterm id="sec.3-ssec.8-def.medicaladvice"
+guid="_095b4e02-7139-4fbe-b095-59b89ddc0ea8" type="definition"><b><i>medical
+advice</i></b></defterm> means the advice of:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.8-para1.c-para2.i"
+guid="_20898a28-5664-4c76-8575-6b352f59277e" provision.type="other"
+affected.by.uncommenced="0">
+<no>(i)</no>
+<block><txt break.before="1">2 members of the Police Medical Board established
+under the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1906-028"><name emphasis="yes"><i>Police Regulation
+(Superannuation) Act 1906</i></name></legref>, or</txt></block></li>
+<li id="sec.3-ssec.8-para1.c-para2.ii"
+guid="_25997cca-24be-4963-887f-914f6015012c" provision.type="other"
+affected.by.uncommenced="0">
+<no>(ii)</no>
+<block><txt break.before="1">any one or more medical practitioners nominated
+by STC.</txt></block></li></list>
+</block></deflist>
+</block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.8A">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.8A"></attrib>
+<attrib name="guid" value="_12b5efd2-7938-428c-9f8e-f0f22d08861b"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(8A)</no></head>
+<block><txt break.before="1">A superannuation allowance granted to the
+prescribed person under subsection (2) may be commuted, in accordance with
+Division 3 of Part 4 of the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1906-028"><name emphasis="yes"><i>Police Regulation
+(Superannuation) Act 1906</i></name></legref>, as if it were a superannuation
+allowance payable to a member of the police force under that
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.9">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.9"></attrib>
+<attrib name="guid" value="_7e28d969-4070-4170-a5a4-e8415959f190"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(9)</no></head>
+<block><txt break.before="1">If the prescribed person dies:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.9-para1.a" guid="_32dab8b3-a8fa-48ce-9448-46740cc780b0"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">after attaining the age of 60 years but before
+the person&#8217;s employment by the Association ceases,
+or</txt></block></li>
+<li id="sec.3-ssec.9-para1.b" guid="_84870141-20f7-472a-b3f8-67fa227f9473"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">after the person&#8217;s employment by the
+Association ceases but before an annual superannuation allowance is granted to
+the person under subsection (2),</txt></block></li></list>
+
+<txt break.before="1">an annual superannuation allowance equivalent to 62.5
+per cent of the annual superannuation allowance which would have been payable
+to the person is payable to the person&#8217;s surviving spouse or de facto
+partner.</txt></block>
+<note id="sec.3-ssec.9-note" guid="_96f6c093-3a66-4b0c-9b2e-7185b80f6f4a"
+type="legtext"><heading id="sec.3-ssec.9-note-he"
+guid="_31df3d00-6149-4341-9355-c0bfff07d77b"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">&#8220;De facto partner&#8221; is defined in
+section 21C of the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1987-015"><name emphasis="yes"><i>Interpretation Act
+1987</i></name></legref>.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.3-ssec.9A">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.9A"></attrib>
+<attrib name="guid" value="_56cfdae7-7c0d-4d13-bc6d-19ae5d97397d"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(9A)</no></head>
+<block><txt break.before="1">A person&#8217;s spouse or de facto partner is
+entitled to an allowance under subsection (9) only if he or she was the
+person&#8217;s spouse or de facto partner when the person attained the age of
+60 years or when the person died (whichever occurred
+first).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.10">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.10"></attrib>
+<attrib name="guid" value="_2ad39581-610f-4e44-aa81-3f3b586d98a9"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(10)</no></head>
+<block><txt break.before="1">If the prescribed person dies after an annual
+superannuation allowance has been granted to the person under subsection (2)
+and he or she is survived by a spouse or de facto partner who was his or her
+spouse or de facto partner at:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.10-para1.a" guid="_938ee709-0e01-48f3-8cb9-a1f59b60eea7"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">the date when the allowance was granted if the
+allowance was granted to the prescribed person before he or she attained the
+age of 60 years, or</txt></block></li>
+<li id="sec.3-ssec.10-para1.b" guid="_3edfe6c0-1a08-4e52-81d9-653a7fd76201"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">the date when the prescribed person attained the
+age of 60 years if the allowance was granted to the prescribed person after he
+or she attained that age,</txt></block></li></list>
+
+<txt break.before="1">an annual superannuation allowance equivalent to 62.5
+per cent of the annual superannuation allowance received by or payable to the
+prescribed person is payable to the surviving spouse or de facto
+partner.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.10AA">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.10AA"></attrib>
+<attrib name="guid" value="_8c06192b-3192-4a3d-9b03-095a7d626083"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(10AA)</no></head>
+<block><txt break.before="1">If a prescribed person to whom a superannuation
+allowance has been granted under subsection (2) dies on or after the
+commencement of Schedule 1.3 [1] to the <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Superannuation Legislation Amendment
+Act 1997</i></name></legref> and he or she is survived by a spouse or de facto
+partner:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.10AA-para1.a" guid="_6e04e5c5-ef65-4443-b8d6-e6f137f8d4c5"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">who was his or her spouse or de facto partner at
+the date when the allowance was granted, if the allowance was granted (whether
+because of disablement or otherwise) to the prescribed person before he or she
+attained the age of 60 years, or</txt></block></li>
+<li id="sec.3-ssec.10AA-para1.b" guid="_a262c806-aec4-4c26-8734-94dd581db2c0"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">who was his or her spouse or de facto partner at
+the date when the prescribed person attained the age of 60 years, if the
+allowance was granted (whether because of disablement or otherwise) to the
+prescribed person after he or she attained the age of 60 years,
+or</txt></block></li>
+<li id="sec.3-ssec.10AA-para1.c" guid="_dfeefdac-a157-4a4b-8e8f-b923d57b6093"
+provision.type="other" affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">who had been the spouse or de facto partner of
+the prescribed person for at least the preceding 3 years and became the spouse
+or de facto partner of the prescribed person before he or she attained the age
+of 60 years, if the allowance was granted because of
+disablement,</txt></block></li></list>
+
+<txt break.before="1">an annual superannuation allowance equivalent to 62.5
+per cent of the annual superannuation allowance received by or payable to the
+prescribed person is payable to the spouse or de facto
+partner.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.10A">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.10A"></attrib>
+<attrib name="guid" value="_b92b10a1-82f4-4b54-99dd-573c6b84528e"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(10A)</no></head>
+<block><txt break.before="1">Where, but for the person&#8217;s death, the
+superannuation allowance received by, or payable to, the prescribed person
+would have been increased or reduced, the superannuation allowance payable to
+the person&#8217;s spouse or de facto partner pursuant to subsection (10) or
+(10AA) shall be increased or reduced, as the case may be, to an amount
+equivalent to 62.5 per cent of the superannuation allowance that would have
+been received by, or payable to, that prescribed person, had the person not
+died.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.11">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.11"></attrib>
+<attrib name="guid" value="_be3c0301-2e94-4eb1-b46c-273700d5fbd6"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(11)</no></head>
+<block><txt break.before="1">An annual superannuation allowance payable to a
+spouse or de facto partner under subsection (9) or (10) or (10AA) is suspended
+during any period he or she is married.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.11A">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.11A"></attrib>
+<attrib name="guid" value="_0d04ac8c-bd4f-4207-a21f-3c3ccbcbfbc1"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(11A)</no></head>
+<block><txt break.before="1">Where an annual superannuation allowance which is
+suspended by reason of subsection (11) would have been increased or reduced,
+as the case may require, pursuant to this Act but for the enactment of
+subsection (11), the allowance shall be so increased or reduced, but nothing
+in this subsection operates so as to authorise or require the payment of the
+allowance or any part thereof during the period it is so
+suspended.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.11B">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.11B"></attrib>
+<attrib name="guid" value="_c458a1e0-ef2c-4e42-8c34-cdf3fb99eac2"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(11B)</no></head>
+<block><txt break.before="1">Where, but for this subsection, a spouse or de
+facto partner would be entitled:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.11B-para1.a" guid="_080a19dc-9ce8-4693-b579-6ac5d327963b"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">to more than 1 annual superannuation allowance
+under subsection (9) or (10) or (10AA), or</txt></block></li>
+<li id="sec.3-ssec.11B-para1.b" guid="_ac2c3297-7e04-4009-95ae-6c530937d260"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">to an annual superannuation allowance under
+subsection (9) or (10) or (10AA) and to an annual superannuation allowance
+under section 11A or 12 of the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1906-028"><name emphasis="yes"><i>Police Regulation
+(Superannuation) Act 1906</i></name></legref>,</txt></block></li></list>
+
+<txt break.before="1">the spouse or de facto partner shall be entitled to only
+1 of those allowances, being (where they are not equal) the greater or
+greatest of them.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.11C" status="repealed">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.11C"></attrib>
+<attrib name="guid" value="_8035569b-7a9f-4d38-b259-8fed9bf31d95"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(11C), (11D)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<tier type="subclause" id="sec.3-ssec.11E">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.11E"></attrib>
+<attrib name="guid" value="_af2139e7-b610-4562-a7fe-e6c8b934b395"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(11E)</no></head>
+<block><txt break.before="1">An annual superannuation allowance is not payable
+under this section as the consequence of the death of the prescribed person if
+the prescribed person commuted under subsection (8A) a superannuation
+allowance payable to the prescribed person under this
+section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.12">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.12"></attrib>
+<attrib name="guid" value="_3fe7832a-0cb3-42f2-a766-b1210b3cb467"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(12)</no></head>
+<block><txt break.before="1">Where the prescribed person has commenced to pay
+into the Fund the sums referred to in subsection (2) (a), the person shall not
+contribute to or be entitled to receive any benefit from any retirement
+gratuity or provident fund established by the Association and to which the
+Association is or is to be a contributor.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.13">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.13"></attrib>
+<attrib name="guid" value="_cfe86231-7143-4cc1-a3dc-135989e12c64"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(13)</no></head>
+<block><txt break.before="1">Section 18B of the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1906-028"><name emphasis="yes"><i>Police
+Regulation (Superannuation) Act 1906</i></name></legref> applies to and in
+respect of a prescribed person in the same way as it applies to and in respect
+of a member of the police force.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.14">
+<parentattributes>
+<attrib name="id" value="sec.3-ssec.14"></attrib>
+<attrib name="guid" value="_a92f9780-3cf4-4106-8b70-e53a0636603e"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(14)</no></head>
+<block><txt break.before="1">Part 3B of the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1906-028"><name emphasis="yes"><i>Police Regulation
+(Superannuation) Act 1906</i></name></legref> applies, with any necessary
+modifications, to a prescribed person in respect of whom the requirements of
+subsection (2AA) are met in the same way as it applies to a contributor under
+that Act and for that purpose the following provisions have effect:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3-ssec.14-para1.a" guid="_b9e86905-f711-4a8d-8eca-9fe02f1a57e5"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">a conversion benefit is payable, in accordance
+with that Part, in respect of a prescribed person who makes a conversion
+election under that Part as so applied (the <defterm
+id="sec.3-ssec.14-def.appliedPart"
+guid="_6e3147c9-2a31-4a15-a16d-160e74cf2546" type="definition"><b><i>applied
+Part</i></b></defterm>),</txt></block></li>
+<li id="sec.3-ssec.14-para1.b" guid="_a6d25df0-e143-4860-8f94-e582884322c8"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">service by the prescribed person as a member of
+the police force, as well as service by the prescribed person as an employee
+of the Association, is to be taken into account for the purpose of calculating
+the conversion benefit payable under the applied Part,</txt></block></li>
+<li id="sec.3-ssec.14-para1.c" guid="_a91eaa1a-96cd-44a5-92eb-ee590407b5aa"
+provision.type="other" affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">a prescribed person who makes a conversion
+election, or any one else who would otherwise be a beneficiary under this Act
+through the prescribed person, is not entitled to a benefit under any
+provision of this Act after the conversion election takes effect, other than a
+conversion benefit,</txt></block></li>
+<li id="sec.3-ssec.14-para1.d" guid="_e58d843a-3b2e-4db7-b742-21e58cb7e94d"
+provision.type="other" affected.by.uncommenced="0">
+<no>(d)</no>
+<block><txt break.before="1">the conversion benefit is to be paid in
+accordance with the applied Part,</txt></block></li>
+<li id="sec.3-ssec.14-para1.e" guid="_9a11b3b7-5913-4b09-8784-99e0b6baf5b5"
+provision.type="other" affected.by.uncommenced="0">
+<no>(e)</no>
+<block><txt break.before="1">sections 5K and 5L of the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1906-028"><name emphasis="yes"><i>Police
+Regulation (Superannuation) Act 1906</i></name></legref> apply in respect of
+the Treasurer, STC, FTC, the FTC Board, the STC Board and other persons
+referred to in those sections in relation to the applied Part, and anything
+done or omitted to be done under the applied Part.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Am 1973 No 5,
+sec 4 (a); 1974 No 46, sec 10 (b); 1974 No 101, sec 4 (a); 1981 No 25, Schs 1
+(2), 2 (3); 1984 No 75, Sch 1 (2); 1987 No 222, Sch 1 (3); 1990 No 48, Sch 2;
+1991 No 94, Sch 1; 1991 No 95, Sch 4 (3); 1992 No 35, Sch 1; 1992 No 102, Sch
+1; 1993 No 111, Sch 7; 1996 No 39, Sch 4; 1996 No 92, Sch 1.5 (1) (2); 1997 No
+42, Sch 1.3 [1] [2]; 1999 No 6, Sch 1.2 [1]; 1999 No 86, Sch 2.2 [1]; 2000 No
+100, Sch 2 [1] [2]; 2003 No 59, Sch 1 [1]&#8211;[3]; 2007 No 25, Sch 1 [2];
+2010 No 19, Sch 3.75 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.3A">
+<parentattributes>
+<attrib name="id" value="sec.3A"></attrib>
+<attrib name="guid" value="_2249b99c-4342-4f5a-aa1d-75af208e3a7a"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>3A</no><heading id="sec.3A-he"
+guid="_0f6b6281-06be-4061-8aae-b0f5df777f06"><b>Provisions relating to family
+law superannuation legislation</b></heading></head>
+
+<tier type="subclause" id="sec.3A-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.3A-ssec.1"></attrib>
+<attrib name="guid" value="_e8807d08-0790-4872-904e-231609b164ce"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Part 4A of the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1906-028"><name emphasis="yes"><i>Police Regulation
+(Superannuation) Act 1906</i></name></legref> and any regulations made under
+that Part apply, with any necessary modifications, to or in respect of a
+prescribed person or any other person receiving a benefit under this Act in
+the same way as they apply to or in respect of a contributor spouse within the
+meaning of that Part.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3A-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.3A-ssec.2"></attrib>
+<attrib name="guid" value="_94d3dcb0-1de7-427d-aedc-b61d7f27d163"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of this section, the following
+provisions have effect:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.3A-ssec.2-para1.a" guid="_108e7e10-d3f2-498c-85fe-d991a2bea5d8"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">a reference to a non-contributor spouse in that
+Part or those regulations includes a reference to a spouse (within the meaning
+of that Part) of a prescribed person or other person receiving a benefit under
+this Act,</txt></block></li>
+<li id="sec.3A-ssec.2-para1.b" guid="_a4d935ed-b38f-4ed4-b3d4-357c5cb42f35"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">a reference to a superannuation interest of a
+contributor spouse in that Part or those regulations includes a reference to a
+superannuation interest of a person arising under this
+Act,</txt></block></li>
+<li id="sec.3A-ssec.2-para1.c" guid="_e8706b73-4b94-4c6c-9373-b619a24f1d2d"
+provision.type="other" affected.by.uncommenced="0">
+<no>(c)</no>
+<block><txt break.before="1">a reference to a condition for payment or release
+of a benefit in that Part or those regulations includes a reference to a
+condition for payment or release of a benefit that is applicable under this
+Act,</txt></block></li>
+<li id="sec.3A-ssec.2-para1.d" guid="_42f975b9-1e7d-49b5-9177-b810b286dc70"
+provision.type="other" affected.by.uncommenced="0">
+<no>(d)</no>
+<block><txt break.before="1">a reference in that Act to administration costs
+or fees arising under that Part in relation to a contributor spouse includes a
+reference to costs or fees arising in relation to a person to whom that Part
+applies because of this section.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 3A:</b> Ins 2003 No 77,
+Sch 6 [1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="id" value="sec.4"></attrib>
+<attrib name="guid" value="_7cfd9209-2518-426e-98a9-54c0d6cfb381"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading id="sec.4-he"
+guid="_3bd8d35d-6949-43d3-b4cd-d9acf0181567"><b>Competing claims for
+spouses&#8217; or de facto partners&#8217; benefits</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="id" value="sec.4-ssec.1"></attrib>
+<attrib name="guid" value="_265560c8-fb4a-4b2c-8e50-deafa8bb2341"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This section applies to a superannuation
+allowance under this Act which is payable to the spouse or de facto partner of
+a prescribed person (within the meaning of section 3) who has
+died.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="id" value="sec.4-ssec.2"></attrib>
+<attrib name="guid" value="_dd49bda3-6672-41cd-beb4-6cac100086f2"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If a superannuation allowance would be payable to
+more than one person because a prescribed person, who has died, has left more
+than one spouse or de facto partner, then, despite any other provision of this
+Act:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.4-ssec.2-para1.a" guid="_a98c1410-b2f8-46f7-9fc7-a3c8a427631e"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">the allowance is payable in accordance with a
+determination made by STC, and not otherwise, and</txt></block></li>
+<li id="sec.4-ssec.2-para1.b" guid="_9e8c9619-933d-432f-a525-6fb0eb860208"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">the total amount of allowance payable to those
+persons at any time is not to exceed the amount of allowance or gratuity that
+would be payable if there were only one spouse or de facto
+partner.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="id" value="sec.4-ssec.3"></attrib>
+<attrib name="guid" value="_2053bdde-9ec9-4642-bc85-dbab345a1ecb"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purposes of subsection (2) (a), STC may
+determine in relation to a superannuation allowance:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.4-ssec.3-para1.a" guid="_ecb2decb-5d10-4052-af35-ab168270134f"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">that the allowance is not payable to such of the
+persons concerned as it specifies, or</txt></block></li>
+<li id="sec.4-ssec.3-para1.b" guid="_0346fd64-b569-491a-a040-36cd5f47e83d"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">that the amount of the allowance is to be
+apportioned between the persons concerned in such manner as it
+specifies.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.4">
+<parentattributes>
+<attrib name="id" value="sec.4-ssec.4"></attrib>
+<attrib name="guid" value="_bd46c1a2-461e-4726-b64b-a050210128c7"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">STC may withhold the payment of any part of a
+superannuation allowance:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sec.4-ssec.4-para1.a" guid="_2624a929-d617-46ba-899e-dfa8cb0fe65d"
+provision.type="other" affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">until 30 days after the death of the prescribed
+person in respect of which the allowance is payable, or</txt></block></li>
+<li id="sec.4-ssec.4-para1.b" guid="_eed05ab9-a50e-478c-a6e1-5f0b35a0a2d5"
+provision.type="other" affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">if an application has been made for the allowance
+by more than one person, until it is satisfied that only one of those persons
+is entitled to the allowance or until a determination is made in relation to
+the matter by STC under this section.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.5">
+<parentattributes>
+<attrib name="id" value="sec.4-ssec.5"></attrib>
+<attrib name="guid" value="_f5adf481-8048-4669-b495-9587aa1d57af"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">If, after 30 days from the death of a prescribed
+person, a superannuation allowance is paid in respect of any period to the
+spouse or de facto partner of the prescribed person, a superannuation
+allowance is not payable to any other spouse or de facto partner of the
+prescribed person in respect of that period.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.6">
+<parentattributes>
+<attrib name="id" value="sec.4-ssec.6"></attrib>
+<attrib name="guid" value="_7e5761be-5cf0-42be-9307-05a4769e24f9"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">For the purposes of subsection (5), an amount
+paid in good faith by STC to a person purporting to be the spouse or de facto
+partner of a prescribed person is taken to have been paid to the spouse or de
+facto partner of the prescribed person.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.7">
+<parentattributes>
+<attrib name="id" value="sec.4-ssec.7"></attrib>
+<attrib name="guid" value="_ee481b03-7b73-4703-8086-d7d878c27b5c"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">If, after 30 days from the death of a prescribed
+person, any amount is paid under this Act to the person&#8217;s personal
+representatives or to such other persons as STC may determine, any
+superannuation allowance which is payable to the spouse or de facto partner of
+the prescribed person is to be reduced by the amount so
+paid.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 1973 No 5,
+sec 4 (b); 1974 No 101, sec 4 (b); 1981 No 25, Schs 1 (3), 2 (4); 1990 No 48,
+Sch 2. Rep 1991 No 95, Sch 4 (4). Ins 1993 No 111, Sch 7. Am 1996 No 39, Sch
+4.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="id" value="sec.5"></attrib>
+<attrib name="guid" value="_0dc34fa2-dc3e-4ce5-ac22-2d5315e92bf7"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading id="sec.5-he"
+guid="_9cee9ca3-f643-4735-a572-7acc5b0a81af"><b>Savings and transitional
+provisions</b></heading></head>
+<block><txt break.before="1">Schedule 1 has effect.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 5:</b> Ins 1986 No 129,
+Sch 1. Rep 1987 No 222, Sch 1 (4). Ins 1993 No 111, Sch 7.</txt></content>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="id" value="sch.1"></attrib>
+<attrib name="guid" value="_5f41b349-cb5d-4cc4-a762-6195f043231d"></attrib>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading id="sch.1-he"
+guid="_b18e89bb-6798-4616-b5b4-83593429671d"><b>Savings and transitional
+provisions</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Section 5)</txt></block></pre>
+
+
+<level type="part" id="sch.1-pt.1">
+<parentattributes>
+<attrib name="id" value="sch.1-pt.1"></attrib>
+<attrib name="guid" value="_ad800201-8d87-454a-b603-f4d8c797a0ac"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading id="sch.1-pt.1-he"
+guid="_337c0448-1fe4-4e84-bb52-46a597ad26fb"><b>Regulations</b></heading></head>
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.1"></attrib>
+<attrib name="guid" value="_8325cf32-ec4c-42a1-a26e-ab183af12891"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading id="sch.1-sec.1-he"
+guid="_16cfbfc9-f032-4ef3-ad1a-8244055bbbfc"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.1-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.1-ssec.1"></attrib>
+<attrib name="guid" value="_32fff03c-3964-4d1c-a951-e813a2d623d3"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of the following
+Acts:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sch.1-sec.1-ssec.1-para1" guid="_d0075b53-65ab-4eab-a318-11d8fc6d1308"
+provision.type="other" affected.by.uncommenced="0">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Superannuation Legislation (Further
+Amendment) Act 1993</i></name></legref></txt></block></li>
+<li id="sch.1-sec.1-ssec.1-para1-oc.2"
+guid="_a4cb9faa-0df0-4bbe-8001-c83adc2dba00" provision.type="other"
+affected.by.uncommenced="0">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Superannuation Legislation Amendment
+Act 1999</i></name></legref></txt></block></li>
+<li id="sch.1-sec.1-ssec.1-para1-oc.3"
+guid="_7c7cbeac-203f-45be-b1c9-8ddbb9627257" provision.type="other"
+affected.by.uncommenced="0">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Superannuation Legislation Further
+Amendment Act 1999</i></name></legref></txt></block></li>
+<li id="sch.1-sec.1-ssec.1-para1-oc.4"
+guid="_6f682e99-4ea0-4445-a69b-5e4e2c715b79" provision.type="other"
+affected.by.uncommenced="0">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2000-100"><name emphasis="yes"><i>Superannuation Legislation
+Amendment Act 2000</i></name></legref></txt></block></li>
+<li id="sch.1-sec.1-ssec.1-para1-oc.5"
+guid="_1a48fabb-b99b-4393-8f08-db23c0031f36" provision.type="other"
+affected.by.uncommenced="0">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2000-114"><name emphasis="yes"><i>Superannuation Legislation
+Amendment (Same Sex Partners) Act 2000</i></name></legref></txt></block></li>
+<li id="sch.1-sec.1-ssec.1-para1-oc.6"
+guid="_03ddd0fe-dd4a-434d-bdc8-68d08da033b4" provision.type="other"
+affected.by.uncommenced="0">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2003-077"><name emphasis="yes"><i>Superannuation Legislation
+Amendment (Family Law) Act 2003</i></name></legref> (but only to the extent
+that it amends this Act)</txt></block></li>
+<li id="sch.1-sec.1-ssec.1-para1-oc.7"
+guid="_1b31ee57-e137-40d3-8517-71ed770e5b8b" provision.type="other"
+affected.by.uncommenced="0">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2005-052"><name emphasis="yes"><i>Superannuation Legislation
+Amendment Act 2005</i></name></legref>, but only to the extent to which it
+amends this Act</txt></block></li>
+<li id="sch.1-sec.1-ssec.1-para1-oc.8"
+guid="_522eb542-0e79-4315-8c60-cc465c72032b" provision.type="other"
+affected.by.uncommenced="0">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2010-019"><name emphasis="yes"><i>Relationships Register Act
+2010</i></name></legref></txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.1-ssec.2"></attrib>
+<attrib name="guid" value="_ccbddf96-e8c7-4325-9c0b-038d48908f72"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such provision may, if the regulations so
+provide, take effect from the date of assent to the Act concerned or a later
+day.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.3">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.1-ssec.3"></attrib>
+<attrib name="guid" value="_682a05bd-601c-4c8b-8b45-1fa303057596"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication in the
+Gazette, the provision does not operate so as:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li id="sch.1-sec.1-ssec.3-para1.a"
+guid="_5408ba3a-4b39-4093-816a-df52b46fd549" provision.type="other"
+affected.by.uncommenced="0">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li id="sch.1-sec.1-ssec.3-para1.b"
+guid="_86d6daac-4177-4ccd-8d28-a4cc713399bb" provision.type="other"
+affected.by.uncommenced="0">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="sch.1-pt.2">
+<parentattributes>
+<attrib name="id" value="sch.1-pt.2"></attrib>
+<attrib name="guid" value="_a2b2baba-d685-4551-b03a-2722301959ab"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading id="sch.1-pt.2-he"
+guid="_33597c78-f4fe-4910-b127-b1a348b334ff"><b><legref jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Superannuation Legislation
+(Further Amendment) Act 1993</i></name></legref></b></heading></head>
+
+<level type="clause" id="sch.1-sec.2">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.2"></attrib>
+<attrib name="guid" value="_7bd37841-f8f2-48e6-9c5c-34bea9186aed"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading id="sch.1-sec.2-he"
+guid="_0d0ae667-ddec-4416-9c3f-e6905e6936d2"><b>Spouses&#8217;
+benefits</b></heading></head>
+<block><txt break.before="1">The amendments made by the <legref jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Superannuation Legislation
+(Further Amendment) Act 1993</i></name></legref> do not entitle any spouse to
+benefits in respect of the death of a prescribed person occurring before 1
+January 1994.</txt></block></level>
+</level>
+
+
+<level type="part" id="sch.1-pt.3">
+<parentattributes>
+<attrib name="id" value="sch.1-pt.3"></attrib>
+<attrib name="guid" value="_2a88544f-b50d-4bb5-8ed7-45f4131c4f43"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading id="sch.1-pt.3-he"
+guid="_2f814907-0d36-43f5-b98c-7dcb19720abf"><b><legref jurisd="NSW"
+type="act" check="unknown" refid="act-2000-114"><name
+emphasis="yes"><i>Superannuation Legislation Amendment (Same Sex Partners) Act
+2000</i></name></legref></b></heading></head>
+
+<level type="clause" id="sch.1-sec.3">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.3"></attrib>
+<attrib name="guid" value="_54818417-80b5-49a1-a25d-ad35dc73d620"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading id="sch.1-sec.3-he"
+guid="_f07eec68-70c5-4481-882b-54fba099c76b"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Part:</txt>
+<deflist>
+<block><txt break.before="1"><defterm id="sch.1-def.amendingAct"
+guid="_50c08ba5-660e-433b-9804-4ae8dfdcd8a9" type="definition"><b><i>amending
+Act</i></b></defterm> means the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-2000-114"><name emphasis="yes"><i>Superannuation
+Legislation Amendment (Same Sex Partners) Act
+2000</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-def.conversionelection"
+guid="_4842dab0-6e9a-4cbc-90ee-8d8a5df63bf0"
+type="definition"><b><i>conversion election</i></b></defterm> by a prescribed
+person means an election made under Part 3B of the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1906-028"><name emphasis="yes"><i>Police
+Regulation (Superannuation) Act 1906</i></name></legref>, as applied by
+section 3 (14) of this Act.</txt></block>
+<block><txt break.before="1"><defterm id="sch.1-def.prescribedperson"
+guid="_c85f8686-fe4a-47d1-8d23-5f73a073e84f"
+type="definition"><b><i>prescribed person</i></b></defterm> means a prescribed
+person within the meaning of section 3 in respect of whom the requirements of
+section 3 (2AA) are met.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sch.1-sec.4">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.4"></attrib>
+<attrib name="guid" value="_76e239c1-f4fc-4046-9de8-4a970f66c215"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading id="sch.1-sec.4-he"
+guid="_9326fcc2-de46-42cd-bef0-47a2b674408c"><b>Spouse or de facto partner
+entitlements</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.4-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.4-ssec.1"></attrib>
+<attrib name="guid" value="_da8f3275-5fd1-4ac9-b14d-effb9d1a6179"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The definitions of <defterm
+id="sch.1-sec.4-def.defactopartner"
+guid="_f39dab01-6944-4d14-9b16-2cebe725061a" type="definition"><b><i>de facto
+partner</i></b></defterm> and <defterm id="sch.1-sec.4-def.spouse"
+guid="_522d3f7d-6e41-4ddc-82c9-06d432acb4ce"
+type="definition"><b><i>spouse</i></b></defterm> inserted by the <legref
+jurisd="NSW" type="act" check="unknown" refid="act-2000-114"><name
+emphasis="yes"><i>Superannuation Legislation Amendment (Same Sex Partners) Act
+2000</i></name></legref> apply only to or in respect of prescribed persons who
+die on or after the commencement of the amendment substituting the definition
+of <defterm id="sch.1-sec.4-def.spouse-oc.2"
+guid="_0ffed989-a619-4d03-b3f8-3f1b6e61731f"
+type="definition"><b><i>spouse</i></b></defterm>.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.4-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.4-ssec.2"></attrib>
+<attrib name="guid" value="_14cbe6b5-5c92-4cba-8c75-46c617c1076d"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The definition of <defterm
+id="sch.1-sec.4-def.spouse-oc.3" guid="_fd7fdcde-0ba1-41d1-b403-82466c41dee6"
+type="definition"><b><i>spouse</i></b></defterm>, as in force immediately
+before its substitution by that Act, applies to or in respect of prescribed
+persons who die before the commencement of the amendment substituting the
+definition of <defterm id="sch.1-sec.4-def.spouse-oc.4"
+guid="_87e45383-b403-4b4a-a9c7-0f75299cc60c"
+type="definition"><b><i>spouse</i></b></defterm>.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.5">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.5"></attrib>
+<attrib name="guid" value="_8fa74d64-edbf-4569-8b0d-cf3cb26a9f72"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading id="sch.1-sec.5-he"
+guid="_5af3bdcd-19a2-4553-9d42-bcd860799395"><b>Revocation of conversion
+elections</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.5-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.5-ssec.1"></attrib>
+<attrib name="guid" value="_3e63555c-2548-4a5d-87fd-546c30606da8"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Clauses 12 and 14&#8211;18 of Schedule 6 to the
+<legref jurisd="NSW" type="act" check="unknown" refid="act-1906-028"><name
+emphasis="yes"><i>Police Regulation (Superannuation) Act
+1906</i></name></legref>, and any arrangement entered into under that Part,
+apply, with any necessary modifications, to or in relation to a person who has
+made a conversion election under this Act in the same way as they apply to or
+in relation to a former contributor who has made a conversion election under
+that Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.5-ssec.2"></attrib>
+<attrib name="guid" value="_3679815f-091d-4f91-8db8-d120e949c95b"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting subclause (1), an arrangement
+entered into under that Part may contain provisions modifying the arrangement
+for the purpose of its application to a prescribed
+person.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5-ssec.3">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.5-ssec.3"></attrib>
+<attrib name="guid" value="_4ccbe470-ff40-445e-b515-3e27fdde26eb"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Clauses 19 and 20 of that Schedule apply in
+respect of STC, FTC, the STC Board, the FTC Board and other persons referred
+to in those clauses in relation to the applied clauses of that Schedule, and
+anything done or omitted to be done under the applied clauses or an
+arrangement, or proposed arrangement, under the applied clauses, in the same
+way as they apply to STC, FTC, the STC Board, the FTC Board and other persons
+in respect of anything done or omitted to be done as referred to in clauses 19
+and 20 of that Schedule.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="sch.1-pt.4">
+<parentattributes>
+<attrib name="id" value="sch.1-pt.4"></attrib>
+<attrib name="guid" value="_cf15c21f-f1e7-454c-90ef-826207520dd7"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading id="sch.1-pt.4-he"
+guid="_fef77aa8-8560-49d5-b1cd-09010497b9a2"><b><legref jurisd="NSW"
+type="act" check="unknown" refid="act-2010-019"><name
+emphasis="yes"><i>Relationships Register Act
+2010</i></name></legref></b></heading></head>
+
+<level type="clause" id="sch.1-sec.6">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.6"></attrib>
+<attrib name="guid" value="_14d67aef-b6e8-4428-8ffc-0aa0f7c9b595"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading id="sch.1-sec.6-he"
+guid="_82027a16-5920-4f61-8709-2d259aead02f"><b>De facto partner
+entitlements</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.6-ssec.1">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.6-ssec.1"></attrib>
+<attrib name="guid" value="_0e0ad1f5-f264-4f4d-a338-8082aa537ac5"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The amendment to section 2 (1) made by the
+<legref jurisd="NSW" type="act" check="unknown" refid="act-2010-019"><name
+emphasis="yes"><i>Relationships Register Act 2010</i></name></legref> applies
+only to or in respect of prescribed persons who die on or after the
+commencement of that amendment.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.6-ssec.2">
+<parentattributes>
+<attrib name="id" value="sch.1-sec.6-ssec.2"></attrib>
+<attrib name="guid" value="_cd6a9fab-60b0-48e9-b816-df1eb9832c00"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The definition of <defterm
+id="sch.1-sec.6-def.defactopartner"
+guid="_b1660efa-0303-481f-aabd-47f404de9d96" type="definition"><b><i>de facto
+partner</i></b></defterm>, as in force immediately before that commencement,
+applies to or in respect of prescribed persons who die before that
+commencement.</txt></block></tier>
+</level>
+</level>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Ins 1993 No
+111, Sch 7. Am 1999 No 6, Sch 1.2 [2]; 1999 No 86, Sch 2.2 [2]; 2000 No 100,
+Sch 2 [3]; 2000 No 114, Sch 1.2 [5] [6]; 2003 No 77, Sch 6 [2]; 2005 No 52,
+Sch 2 [2]; 2010 No 19, Sch 3.75 [3] [4].</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading id="ed-he"
+guid="_81098160-9f73-4999-b7b7-2f8697823833"><b>Historical
+notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading id="ed-he-oc.2"
+guid="_7e7c7a00-7e2d-49ff-8aa9-6f1916385ea1"><b>Table of amending
+instruments</b></heading></head>
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1969-033"><name emphasis="yes"><i>Police Association Employees
+(Superannuation) Act 1969</i></name> No 33</legref>. Assented to 9.4.1969.
+This Act has been amended as follows:</txt>
+
+<table frame="none" orient="port" id="ed-tbl"
+guid="_8eaffd26-5500-4322-987f-0773c6babb3f" heading.align="left"
+font.size="12.pt">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="2pi" align="left"></colspec>
+<colspec colnum="2" colname="2" colwidth="3.5pi" align="left"></colspec>
+<colspec colnum="3" colname="3" colwidth="24.5pi" align="left"></colspec>
+
+<tbody>
+
+<row id="ed-tbl-tblr" guid="_065c6e12-9d3b-45fb-9422-a0154d0712f9">
+<entry colname="1" id="ed-tbl-tblr-tble1"
+guid="_4c9be708-cab3-43ee-ae00-2dc5106436bf"><txt
+break.before="1"><b>1973</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-tble2"
+guid="_6cc1a85f-6335-47b6-95c5-e186d5098a16"><txt break.before="1">No
+5</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-tble3"
+guid="_36dab9d4-485b-439c-a78d-12421998652b">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Police Regulation (Superannuation)
+Amendment Act 1973</i></name></legref>. Assented to 21.3.1973.</txt>
+<txt break.before="1">Date of commencement of sec 4, 1.4.1972, sec 2
+(3).</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.2" guid="_dd6c76cd-b8fd-4aa1-ab7d-0f450ca1e51d">
+<entry colname="1" id="ed-tbl-tblr-oc.2-tble1"
+guid="_dc11cf64-2b68-460c-b063-f3e07c024fb6"><txt
+break.before="1"><b>1974</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.2-tble2"
+guid="_e2bc9f9e-7547-4604-bd79-9537bfa56982"><txt break.before="1">No
+46</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.2-tble3"
+guid="_817c3e16-a2d4-42ae-928e-c953b0ae299f">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Police Regulation (Superannuation)
+Amendment Act 1974</i></name></legref>. Assented to 24.4.1974.</txt>
+<txt break.before="1">Date of commencement of sec 10, 24.5.1974, sec 2 (3) and
+GG No 59 of 24.5.1974, p 1942.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.3" guid="_99fed230-2367-491f-979c-4adc8849ba26">
+<entry colname="1" id="ed-tbl-tblr-oc.3-tble1"
+guid="_94f5069a-b47b-412e-9fd9-9ab62c76740b"></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.3-tble2"
+guid="_4dbeb8ec-4313-47e3-87d8-1304267e45f9"><txt break.before="1">No
+101</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.3-tble3"
+guid="_7482a75f-d56c-4d2f-b6a7-20b3263a771c">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Police Regulation (Superannuation)
+Further Amendment Act 1974</i></name></legref>. Assented to 13.12.1974.</txt>
+<txt break.before="1">Date of commencement of sec 4, 20.9.1974, sec 2
+(2).</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.4" guid="_84de20f2-5864-4e68-9dd0-59eb492cacad">
+<entry colname="1" id="ed-tbl-tblr-oc.4-tble1"
+guid="_5fe090f4-741f-4f9c-a6a8-af1351d733f7"><txt
+break.before="1"><b>1981</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.4-tble2"
+guid="_9e8a24cd-6afa-4d58-9789-bbbc169feaef"><txt break.before="1">No
+25</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.4-tble3"
+guid="_24fbec88-3e3e-4805-a359-2ea3a684787d">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Police Association Employees
+(Superannuation) Amendment Act 1981</i></name></legref>. Assented to
+14.5.1981.</txt>
+<txt break.before="1">Date of commencement of Sch 1, 20.5.1981, sec 2 (2) and
+GG No 72 of 20.5.1981, p 2737.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.5" guid="_777070f4-c903-4396-92f6-6b5a73ad97ae">
+<entry colname="1" id="ed-tbl-tblr-oc.5-tble1"
+guid="_48252326-fade-4b55-b0fd-cbd3194d191b"><txt
+break.before="1"><b>1984</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.5-tble2"
+guid="_e03491f0-f0bf-456b-8a5d-2c0357cb4bfd"><txt break.before="1">No
+75</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.5-tble3"
+guid="_38b2da3d-cdbb-4fb7-a64b-ad6e29bcf72f">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Police Association Employees
+(Superannuation) Amendment Act 1984</i></name></legref>. Assented to
+27.6.1984.</txt>
+<txt break.before="1">Date of commencement of Sch 1, 23.11.1984, sec 2 (2) and
+GG No 163 of 23.11.1984, p 5688.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.6" guid="_e174fd20-b980-40b6-9fd0-1cd9a109287e">
+<entry colname="1" id="ed-tbl-tblr-oc.6-tble1"
+guid="_cf72515f-91ef-4a4a-9ff9-b3396513ad3c"><txt
+break.before="1"><b>1986</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.6-tble2"
+guid="_235ad916-3122-4b9a-b0aa-3d1905825b3d"><txt break.before="1">No
+129</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.6-tble3"
+guid="_40a22d1f-c324-489b-9727-eb06513d2fa7">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Superannuation
+Appeals) Amendment Act 1986</i></name></legref>. Assented to 4.12.1986.</txt>
+<txt break.before="1">Date of commencement of Sch 1, 17.7.1987, sec 2 (2) and
+GG No 121 of 17.7.1987, p 4030.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.7" guid="_3e3d4304-93a8-4fce-b351-e15278ae1833">
+<entry colname="1" id="ed-tbl-tblr-oc.7-tble1"
+guid="_34c12391-52b8-47ec-b4b9-74494b4478ef"><txt
+break.before="1"><b>1987</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.7-tble2"
+guid="_202e0d4a-0780-4831-a9e3-0d48069debc9"><txt break.before="1">No
+222</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.7-tble3"
+guid="_dfcb9051-2b9a-4362-a634-75327a9fe085">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Police Association Employees
+(Superannuation) Amendment Act 1987</i></name></legref>. Assented to
+9.12.1987.</txt>
+<txt break.before="1">Date of commencement, 1.4.1988, sec 2 and GG No 52 of
+11.3.1988, p 1526.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.8" guid="_4f1a07af-6651-4dc8-a653-7bf5807a1e2d">
+<entry colname="1" id="ed-tbl-tblr-oc.8-tble1"
+guid="_99b72b92-37b7-49f2-98b6-fcb02a48c56f"><txt
+break.before="1"><b>1990</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.8-tble2"
+guid="_e8005e83-7404-4130-aa91-286e8966bde5"><txt break.before="1">No
+48</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.8-tble3"
+guid="_7f26318a-221b-4efc-ba2b-61d8f778eec7">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Police and Superannuation Legislation
+(Amendment) Act 1990</i></name></legref>. Assented to 26.6.1990.</txt>
+<txt break.before="1">Date of commencement, 1.7.1990, sec 2 and GG No 82 of
+29.6.1990, p 5409.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.9" guid="_ff4a9193-f665-491b-ab29-9f92669ab5cb">
+<entry colname="1" id="ed-tbl-tblr-oc.9-tble1"
+guid="_03acc45a-98fe-4108-bed3-b9dbe9b1c8f7"><txt
+break.before="1"><b>1991</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.9-tble2"
+guid="_8f14d976-17a0-4760-88e4-c7afb611f69d"><txt break.before="1">No
+94</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.9-tble3"
+guid="_fdf12c08-f77e-4b07-b688-e9d19cb12bb6">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1991</i></name></legref>. Assented to 17.12.1991.</txt>
+<txt break.before="1">Date of commencement of the provisions of Sch 1 relating
+to the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1969-033"><name emphasis="yes"><i>Police Association Employees
+(Superannuation) Act 1969</i></name></legref>, 1.7.1990, Sch
+1.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.10" guid="_754e9828-191d-456a-9ae7-44da8a560783">
+<entry colname="1" id="ed-tbl-tblr-oc.10-tble1"
+guid="_4435babc-1bab-4a6e-adb1-b7bc4c98b517"></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.10-tble2"
+guid="_a3c3c493-6e30-42a6-b49d-089cd46e6012"><txt break.before="1">No
+95</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.10-tble3"
+guid="_dbe1efbc-aafd-48b4-b563-67e0dc3d2a16">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Superannuation Legislation (Amendment)
+Act 1991</i></name></legref>. Assented to 17.12.1991.</txt>
+<txt break.before="1">Date of commencement of Sch 4, 1.7.1991, sec 2 (3)
+(a).</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.11" guid="_c96b45e1-d59a-4f22-b7c1-a21c2411194e">
+<entry colname="1" id="ed-tbl-tblr-oc.11-tble1"
+guid="_b4f0f05f-833b-4241-b9f4-b56bd6db9660"></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.11-tble2"
+guid="_333d8c2d-7645-4567-8fdc-7418901dc2e9"><txt break.before="1">No
+96</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.11-tble3"
+guid="_16a38c71-f145-4598-ae4e-75ac22450611">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Superannuation Administration Act
+1991</i></name></legref>. Assented to 17.12.1991.</txt>
+<txt break.before="1">Date of commencement of Sch 6, 2.3.1992, sec 2 (1) and
+GG No 20 of 14.2.1992, p 848.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.12" guid="_8209148c-7896-4277-9f51-ec101888e073">
+<entry colname="1" id="ed-tbl-tblr-oc.12-tble1"
+guid="_7a691a52-73ed-4d27-b4bf-0b1484d5fae0"><txt
+break.before="1"><b>1992</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.12-tble2"
+guid="_73324ad8-41f0-4f41-86f2-355919d172f4"><txt break.before="1">No
+35</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.12-tble3"
+guid="_9715dc56-cd2a-4cf2-90c1-99b0a423416d">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Superannuation Legislation (Amendment)
+Act 1992</i></name></legref>. Assented to 18.5.1992.</txt>
+<txt break.before="1">Date of commencement of the provisions of Sch 1 relating
+to the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1969-033"><name emphasis="yes"><i>Police Association Employees
+(Superannuation) Act 1969</i></name></legref>, 1.7.1992, Sch
+1.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.13" guid="_7f238491-0845-4add-947b-85fec21a17fb">
+<entry colname="1" id="ed-tbl-tblr-oc.13-tble1"
+guid="_d3c17de4-d8da-426b-8935-151cc676ab06"></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.13-tble2"
+guid="_722a652e-2da6-4dfe-b597-b0993669422d"><txt break.before="1">No
+102</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.13-tble3"
+guid="_3873725e-e215-45f3-b1ce-331ba3f35db4">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Superannuation Legislation
+(Superannuation Guarantee Charge) Amendment Act 1992</i></name></legref>.
+Assented to 8.12.1992.</txt>
+<txt break.before="1">Date of commencement, 8.12.1992, sec
+2.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.14" guid="_5dfaff83-1458-414f-a7fc-a795ee6c81f1">
+<entry colname="1" id="ed-tbl-tblr-oc.14-tble1"
+guid="_bfacb94f-9fa3-4202-9976-f29c6b314048"><txt
+break.before="1"><b>1993</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.14-tble2"
+guid="_e2b7e930-c082-44e1-9277-2c5a3ee61c34"><txt break.before="1">No
+42</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.14-tble3"
+guid="_e060eac1-ce4c-4d72-b075-df81b7b97d6a">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Superannuation Legislation
+(Miscellaneous Amendments) Act 1993</i></name></legref>. Assented to
+8.6.1993.</txt>
+<txt break.before="1">Date of commencement of the provision of Sch 2 relating
+to the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1969-033"><name emphasis="yes"><i>Police Association Employees
+(Superannuation) Act 1969</i></name></legref>, assent, Sch
+2.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.15" guid="_ecc30cc4-3f57-4eba-b4ca-0c650a0358b4">
+<entry colname="1" id="ed-tbl-tblr-oc.15-tble1"
+guid="_95e0f00a-e662-4b1e-83dd-9784eaa14930"></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.15-tble2"
+guid="_482c6a04-474b-4614-b20c-523813522b2b"><txt break.before="1">No
+111</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.15-tble3"
+guid="_a25d0187-d5a1-4ef9-bf37-70b8405e53db">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Superannuation Legislation (Further
+Amendment) Act 1993</i></name></legref>. Assented to 3.12.1993.</txt>
+<txt break.before="1">Date of commencement of the provisions of Sch 7 relating
+to the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1969-033"><name emphasis="yes"><i>Police Association Employees
+(Superannuation) Act 1969</i></name></legref>, 1.1.1994, Sch
+7.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.16" guid="_a9e07927-e136-4839-9788-eb3d60c38edd">
+<entry colname="1" id="ed-tbl-tblr-oc.16-tble1"
+guid="_d2c9330e-5e40-410f-a269-08b6603e633c"><txt
+break.before="1"><b>1996</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.16-tble2"
+guid="_9687d579-ed5a-4f96-9aea-122c039e51b7"><txt break.before="1">No
+39</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.16-tble3"
+guid="_9b0583b7-007a-4f76-af73-46affc0a1fac">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1996-039"><name emphasis="yes"><i>Superannuation Administration Act
+1996</i></name></legref>. Assented to 25.6.1996.</txt>
+<txt break.before="1">Date of commencement, 1.7.1996, sec 2 and GG No 77 of
+28.6.1996, p 3290.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.17" guid="_38a260b5-2efe-43be-b995-1aa44149c921">
+<entry colname="1" id="ed-tbl-tblr-oc.17-tble1"
+guid="_45d3539f-d85c-4064-b75c-ec017e0e4749"></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.17-tble2"
+guid="_4adcec5b-e53d-4aee-a899-fb7ffccd51c9"><txt break.before="1">No
+92</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.17-tble3"
+guid="_76459127-73ce-4b64-98e9-7aaf4b5edca5">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Superannuation Legislation Amendment
+Act 1996</i></name></legref>. Assented to 25.11.1996.</txt>
+<txt break.before="1">Date of commencement of Sch 1.5, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.18" guid="_02ab47aa-d57d-448e-bfb5-5dce4560815f">
+<entry colname="1" id="ed-tbl-tblr-oc.18-tble1"
+guid="_75d9785f-d587-416c-aafb-9eb96bff3765"><txt
+break.before="1"><b>1997</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.18-tble2"
+guid="_f2fceb71-6120-4048-a3f2-6bee6dc61d12"><txt break.before="1">No
+42</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.18-tble3"
+guid="_253cd1df-7c2e-4d05-b75c-745e7a3580f7">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Superannuation Legislation Amendment
+Act 1997</i></name></legref>. Assented to 30.6.1997.</txt>
+<txt break.before="1">Date of commencement of Sch 1.3, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.19" guid="_714c3132-a7da-4f8c-baf0-4a3020d9905e">
+<entry colname="1" id="ed-tbl-tblr-oc.19-tble1"
+guid="_bdd8ecf7-ebf2-4a61-baa1-3a16ebfd8827"></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.19-tble2"
+guid="_74c48742-2e94-4b1d-845b-0ce569285807"><txt break.before="1">No
+147</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.19-tble3"
+guid="_8616a032-b145-4bc1-bbcc-d202002ccc2b">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1997</i></name></legref>. Assented to 17.12.1997.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 3 months after assent,
+sec 2 (3).</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.20" guid="_b0f21d8c-0749-4fc1-a322-de95583244ba">
+<entry colname="1" id="ed-tbl-tblr-oc.20-tble1"
+guid="_fb0fb8e8-5eb5-4888-92e0-60a82e91c246"><txt
+break.before="1"><b>1999</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.20-tble2"
+guid="_016e28ee-31fc-47c0-96ea-4fbd2fe9a062"><txt break.before="1">No
+6</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.20-tble3"
+guid="_caf684df-c854-498f-82ab-e671ee1c8e97">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Superannuation Legislation Amendment
+Act 1999</i></name></legref>. Assented to 7.6.1999.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.21" guid="_213edc83-800e-4032-bbdf-6bb71af59eb8">
+<entry colname="1" id="ed-tbl-tblr-oc.21-tble1"
+guid="_eaff961f-d157-437b-af5f-cc3048a57285"></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.21-tble2"
+guid="_bda81256-1581-407b-9a60-216c57812b62"><txt break.before="1">No
+86</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.21-tble3"
+guid="_9875a799-8de4-4507-b2f0-751c72e20d49">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Superannuation Legislation Further
+Amendment Act 1999</i></name></legref>. Assented to 3.12.1999.</txt>
+<txt break.before="1">Date of commencement of Sch 2.2, 1.7.1990, sec 2
+(4).</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.22" guid="_09128184-0ee6-4813-9edb-89d9ffaeaad1">
+<entry colname="1" id="ed-tbl-tblr-oc.22-tble1"
+guid="_d54fa996-232e-473e-a080-d0ea0cc6ce3b"><txt
+break.before="1"><b>2000</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.22-tble2"
+guid="_19514ffc-df0a-428a-8ce2-be3f593b026e"><txt break.before="1">No
+100</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.22-tble3"
+guid="_8c6ba628-0aec-4d21-a024-6ddfe6b97e69">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2000-100"><name emphasis="yes"><i>Superannuation Legislation
+Amendment Act 2000</i></name></legref>. Assented to 13.12.2000.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 10.8.2001, sec 2 (2) and
+GG No 122 of 10.8.2001, p 5861.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.23" guid="_1e3123d4-6b26-4b5c-8656-f96423fe3ed0">
+<entry colname="1" id="ed-tbl-tblr-oc.23-tble1"
+guid="_abe8915c-273d-4a77-82c9-21973a4eb447"></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.23-tble2"
+guid="_d5db30e3-5d4e-4c93-bc98-a51a742dcaaf"><txt break.before="1">No
+114</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.23-tble3"
+guid="_51e4e103-f555-4747-ac30-73bcdb76ad8e">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2000-114"><name emphasis="yes"><i>Superannuation Legislation
+Amendment (Same Sex Partners) Act 2000</i></name></legref>. Assented to
+20.12.2000.</txt>
+<txt break.before="1">Date of commencement, 19.1.2001, sec 2 and GG No 20 of
+19.1.2001, p 132.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.24" guid="_3f9ec1cf-e880-4e03-a692-a12b65f938f6">
+<entry colname="1" id="ed-tbl-tblr-oc.24-tble1"
+guid="_f32c7562-e2a0-4a93-9493-56bee736937c"><txt
+break.before="1"><b>2002</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.24-tble2"
+guid="_0ac2f92a-c166-40e1-813c-af8b40a85e4b"><txt break.before="1">No
+51</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.24-tble3"
+guid="_1d32d60d-7755-4d74-83b0-4eae078f0efa">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2002-051"><name emphasis="yes"><i>Police Service Amendment (NSW
+Police) Act 2002</i></name></legref>. Assented to 4.7.2002.</txt>
+<txt break.before="1">Date of commencement of Sch 2.9, 12.7.2002, sec 2 (1)
+and GG No 116 of 12.7.2002, p 5226.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.25" guid="_43f6a3c8-6148-4332-b465-d9f17224cf6c">
+<entry colname="1" id="ed-tbl-tblr-oc.25-tble1"
+guid="_89e5ce14-5faf-4301-829a-24aace2860f1"><txt
+break.before="1"><b>2003</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.25-tble2"
+guid="_85974b12-aa2d-4ac6-8ddc-6ba7a72f2cfd"><txt break.before="1">No
+59</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.25-tble3"
+guid="_405dfe7f-9fa5-433f-9152-f234d3979c29">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2003-059"><name emphasis="yes"><i>Police Association Employees
+(Superannuation) Amendment Act 2003</i></name></legref>. Assented to
+6.11.2003.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.26" guid="_02668bbb-8650-4617-be48-bf609349e103">
+<entry colname="1" id="ed-tbl-tblr-oc.26-tble1"
+guid="_682d9ba7-7aac-4e33-aef5-734be86ce6bf"></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.26-tble2"
+guid="_03173201-3c1a-4255-9b01-f0b4b8bea42b"><txt break.before="1">No
+77</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.26-tble3"
+guid="_bbd66e97-c104-4806-965e-34e8e9bafbbd">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2003-077"><name emphasis="yes"><i>Superannuation Legislation
+Amendment (Family Law) Act 2003</i></name></legref>. Assented to
+25.11.2003.</txt>
+<txt break.before="1">Date of commencement of Sch 6, 19.12.2008, sec 2 (2) and
+GG No 158 of 19.12.2008, p 12310.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.27" guid="_f2f0f6c5-fa52-440b-b93a-7748784874c3">
+<entry colname="1" id="ed-tbl-tblr-oc.27-tble1"
+guid="_eb6367b8-1088-40f0-b34a-d0fe00ce4b87"><txt
+break.before="1"><b>2005</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.27-tble2"
+guid="_b99bbebb-31b5-4ac6-b8da-6cd04f7573cd"><txt break.before="1">No
+52</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.27-tble3"
+guid="_c47fea4b-c497-4103-8938-104e59424a34">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2005-052"><name emphasis="yes"><i>Superannuation Legislation
+Amendment Act 2005</i></name></legref>. Assented to 27.6.2005.</txt>
+<txt break.before="1">Date of commencement, 8.7.2005, sec 2 and GG No 86 of
+8.7.2005, p 3574.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.28" guid="_b937e587-6da6-40cf-a7e3-d5938f2bb445">
+<entry colname="1" id="ed-tbl-tblr-oc.28-tble1"
+guid="_810d4f7c-24aa-485d-b780-b447c1943746"><txt
+break.before="1"><b>2006</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.28-tble2"
+guid="_61a0996a-c975-41c4-841d-0c9d6f8c7252"><txt break.before="1">No
+94</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.28-tble3"
+guid="_e98db957-583c-4030-903e-3563e171ff1d">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2006-094"><name emphasis="yes"><i>Police Amendment (Miscellaneous)
+Act 2006</i></name></legref>. Assented to 22.11.2006.</txt>
+<txt break.before="1">Date of commencement of Sch 3.24, 1.2.2007, sec 2 and GG
+No 22 of 1.2.2007, p 575.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.29" guid="_16e5d4e6-71dc-4021-bc2c-0afc2f65437e">
+<entry colname="1" id="ed-tbl-tblr-oc.29-tble1"
+guid="_1e8033db-cc90-4857-bd7e-14a13c2d5e90"><txt
+break.before="1"><b>2007</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.29-tble2"
+guid="_1d256d3a-e4ef-4703-8a85-68f5cdb0bab2"><txt break.before="1">No
+25</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.29-tble3"
+guid="_ea6f0df3-9e29-4597-9d65-28a98c573b88">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2007-025"><name emphasis="yes"><i>Police Superannuation Legislation
+Amendment Act 2007</i></name></legref>. Assented to 4.7.2007.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.30" guid="_a16e81c2-9b8e-44a0-bc09-97f61afa89e6">
+<entry colname="1" id="ed-tbl-tblr-oc.30-tble1"
+guid="_06976baf-ac5e-4c17-b07c-de9ea7c6c854"><txt
+break.before="1"><b>2010</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.30-tble2"
+guid="_b1f51827-3f1f-410d-bda5-9f301f9808a7"><txt break.before="1">No
+19</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.30-tble3"
+guid="_8a0bed1f-4210-4b05-a9fc-d2a03b53b971">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2010-019"><name emphasis="yes"><i>Relationships Register Act
+2010</i></name></legref>. Assented to 19.5.2010.</txt>
+<txt break.before="1">Date of commencement of Sch 3, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row id="ed-tbl-tblr-oc.31" guid="_b3904c5c-8d67-4799-b740-122c5e605118">
+<entry colname="1" id="ed-tbl-tblr-oc.31-tble1"
+guid="_8a079c57-1e57-4596-b976-e72daa19459b"><txt
+break.before="1"><b>2018</b></txt></entry>
+<entry colname="2" id="ed-tbl-tblr-oc.31-tble2"
+guid="_9b75d38f-4005-4d75-83f3-4de49a773bb6"><txt break.before="1">No
+28</txt></entry>
+<entry colname="3" id="ed-tbl-tblr-oc.31-tble3"
+guid="_6add1786-f581-4c35-8ef4-0821149e9ec8">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2018-028"><name emphasis="yes"><i>Miscellaneous Acts Amendment
+(Marriages) Act 2018</i></name></legref>. Assented to 15.6.2018.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">This Act has also been amended pursuant to an
+order under secs 8 (2) and 9 (3) of the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1972-048"><name emphasis="yes"><i>Reprints Act
+1972</i></name> No 48</legref> (formerly <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1972-048"><name emphasis="yes"><i>Acts Reprinting
+Act 1972</i></name></legref>). Order dated 14.3.1979, and published in GG No
+39 of 16.3.1979, p 1208, declaring that the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1969-033"><name emphasis="yes"><i>Police
+Association Employees (Superannuation) Act 1969</i></name></legref> is an
+enactment to which sec 8 (2) and sec 9 (3) of the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1972-048"><name emphasis="yes"><i>Acts
+Reprinting Act 1972</i></name></legref> apply.</txt></block></level>
+
+
+<level type="tableamends">
+<head><heading id="ed-he-oc.3"
+guid="_13a359e8-21d2-4d17-af84-ce301286606b"><b>Table of
+amendments</b></heading></head>
+<block><txt break.before="1">No reference is made to certain amendments made
+by the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1972-048"><name emphasis="yes"><i>Reprints Act
+1972</i></name></legref>, and Schedule 3 (amendments replacing gender-specific
+language) to the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Statute Law (Miscellaneous Provisions) Act (No 2)
+1997</i></name></legref>.</txt>
+
+<table frame="none" orient="port" id="ed-tbl-oc.2"
+guid="_bffdac5e-f09a-477e-8a44-8ea45473fd61" heading.align="left"
+font.size="12.pt">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi" align="left"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi" align="left"></colspec>
+
+<tbody>
+
+<row id="ed-tbl-oc.2-tblr" guid="_928cb71a-0206-433c-90a9-384ef9d11867">
+<entry colname="1" id="ed-tbl-oc.2-tblr-tble1"
+guid="_01099afb-63b5-4e71-8288-67b1f78c51c3"><txt break.before="1">Long
+title</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-tble2"
+guid="_ec04a200-40e8-4bfa-8c03-7831925dbbb5"><txt break.before="1">Am 1981 No
+25, Sch 2 (1).</txt></entry></row>
+
+
+<row id="ed-tbl-oc.2-tblr-oc.2" guid="_450ad2e0-2708-4428-9738-c654627c054e">
+<entry colname="1" id="ed-tbl-oc.2-tblr-oc.2-tble1"
+guid="_1579b3c7-75e6-42d6-9076-eddc712ee918"><txt break.before="1">Sec
+2</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-oc.2-tble2"
+guid="_0cf2d7b6-8056-418f-953f-5431ff300414"><txt break.before="1">Am 1974 No
+46, sec 10 (a); 1981 No 25, Schs 1 (1), 2 (2); 1984 No 75, Sch 1 (1); 1987 No
+222, Sch 1 (1); 1990 No 48, Sch 2; 1991 No 94, Sch 1; 1991 No 95, Sch 4 (1);
+1991 No 96, Sch 6; 1993 No 111, Sch 7; 1996 No 39, Sch 4; 2000 No 114, Sch 1.2
+[1] [2]; 2002 No 51, Sch 2.9; 2006 No 94, Sch 3.24; 2010 No 19, Sch 3.75 [1];
+2018 No 28, Sch 1.27.</txt></entry></row>
+
+
+<row id="ed-tbl-oc.2-tblr-oc.3" guid="_465653bb-96e2-4110-b4ec-44c8ef7cec57">
+<entry colname="1" id="ed-tbl-oc.2-tblr-oc.3-tble1"
+guid="_520ef396-2842-4b90-864a-be0479167a3e"><txt break.before="1">Sec
+2A</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-oc.3-tble2"
+guid="_3e88c354-3c80-4ee3-a71c-90929faa2c91"><txt break.before="1">Ins 1987 No
+222, Sch 1 (2).</txt></entry></row>
+
+
+<row id="ed-tbl-oc.2-tblr-oc.4" guid="_553eee58-33f4-4839-b5b4-39839694efc1">
+<entry colname="1" id="ed-tbl-oc.2-tblr-oc.4-tble1"
+guid="_6ccdc4c5-fd09-4a3e-a5fc-40a1618eb5f8"><txt break.before="1">Sec
+2B</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-oc.4-tble2"
+guid="_7f021b13-f470-4b3f-9b4c-01025d7ebd4a"><txt break.before="1">Ins 1991 No
+95, Sch 4 (2). Subst 1993 No 42, Sch 2. Am 1996 No 39, Sch 4; 2005 No 52, Sch
+2 [1]; 2007 No 25, Sch 1 [1].</txt></entry></row>
+
+
+<row id="ed-tbl-oc.2-tblr-oc.5" guid="_0b43d8f6-1e66-400d-ad26-9dfc5c378e0a">
+<entry colname="1" id="ed-tbl-oc.2-tblr-oc.5-tble1"
+guid="_f562f263-0eea-4913-8f47-0045672ac5cf"><txt break.before="1">Sec
+3</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-oc.5-tble2"
+guid="_020d2843-fc80-463f-a7af-5da7027cc087"><txt break.before="1">Am 1973 No
+5, sec 4 (a); 1974 No 46, sec 10 (b); 1974 No 101, sec 4 (a); 1981 No 25, Schs
+1 (2), 2 (3); 1984 No 75, Sch 1 (2); 1987 No 222, Sch 1 (3); 1990 No 48, Sch
+2; 1991 No 94, Sch 1; 1991 No 95, Sch 4 (3); 1992 No 35, Sch 1; 1992 No 102,
+Sch 1; 1993 No 111, Sch 7; 1996 No 39, Sch 4; 1996 No 92, Sch 1.5 (1) (2);
+1997 No 42, Sch 1.3 [1] [2]; 1999 No 6, Sch 1.2 [1]; 1999 No 86, Sch 2.2 [1];
+2000 No 100, Sch 2 [1] [2]; 2003 No 59, Sch 1 [1]&#8211;[3]; 2007 No 25, Sch 1
+[2]; 2010 No 19, Sch 3.75 [2].</txt></entry></row>
+
+
+<row id="ed-tbl-oc.2-tblr-oc.6" guid="_fb660882-64f4-453d-9f61-48098fb4ee9f">
+<entry colname="1" id="ed-tbl-oc.2-tblr-oc.6-tble1"
+guid="_ff43e1aa-6bef-442f-ac8a-b4859560c0b8"><txt break.before="1">Sec
+3A</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-oc.6-tble2"
+guid="_2a72294f-7c1d-46df-8f30-ef07cc5da27b"><txt break.before="1">Ins 2003 No
+77, Sch 6 [1].</txt></entry></row>
+
+
+<row id="ed-tbl-oc.2-tblr-oc.7" guid="_e8767773-7f99-4330-bdb9-684ad0be0a76">
+<entry colname="1" id="ed-tbl-oc.2-tblr-oc.7-tble1"
+guid="_84c149ed-81b0-4bbd-bd77-725bb26b285f"><txt break.before="1">Sec
+4</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-oc.7-tble2"
+guid="_b5df293c-9169-4b05-87df-4f5704f00cac"><txt break.before="1">Am 1973 No
+5, sec 4 (b); 1974 No 101, sec 4 (b); 1981 No 25, Schs 1 (3), 2 (4); 1990 No
+48, Sch 2. Rep 1991 No 95, Sch 4 (4). Ins 1993 No 111, Sch 7. Am 1996 No 39,
+Sch 4.</txt></entry></row>
+
+
+<row id="ed-tbl-oc.2-tblr-oc.8" guid="_5526727c-8845-405c-b04d-f4d6def4600f">
+<entry colname="1" id="ed-tbl-oc.2-tblr-oc.8-tble1"
+guid="_ba1d15f9-2ec4-43c8-803d-5d218c2878b3"><txt break.before="1">Sec
+5</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-oc.8-tble2"
+guid="_948b071c-5c5a-429f-9740-7052b51f7d8d"><txt break.before="1">Ins 1986 No
+129, Sch 1. Rep 1987 No 222, Sch 1 (4). Ins 1993 No 111, Sch
+7.</txt></entry></row>
+
+
+<row id="ed-tbl-oc.2-tblr-oc.9" guid="_0c3df8f5-e4b4-40ab-a174-a971a697b7e0">
+<entry colname="1" id="ed-tbl-oc.2-tblr-oc.9-tble1"
+guid="_7bbd5e8b-613d-4675-b409-18b378d05e1d"><txt break.before="1">Sch
+1</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-oc.9-tble2"
+guid="_a30c6cab-664d-4edb-a74a-327a927e8a82"><txt break.before="1">Ins 1993 No
+111, Sch 7. Am 1999 No 6, Sch 1.2 [2]; 1999 No 86, Sch 2.2 [2]; 2000 No 100,
+Sch 2 [3]; 2000 No 114, Sch 1.2 [5] [6]; 2003 No 77, Sch 6 [2]; 2005 No 52,
+Sch 2 [2]; 2010 No 19, Sch 3.75 [3] [4].</txt></entry></row>
+
+
+<row id="ed-tbl-oc.2-tblr-oc.10"
+guid="_a1eb97cd-8acd-4a3f-b564-2afc89d9c01d">
+<entry colname="1" id="ed-tbl-oc.2-tblr-oc.10-tble1"
+guid="_8a78be78-46fe-4d11-ac29-96dd68f8631c"><txt break.before="1">The whole
+Act (except sec 2 and Sch 1)</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-oc.10-tble2"
+guid="_1edb0029-0c6f-4820-bb8b-29c2bf3f3cb1"><txt break.before="1">Am 2000 No
+114, Sch 1.2 [3] (insert &#8220;or de facto partner&#8221; after
+&#8220;spouse&#8221; wherever occurring).</txt></entry></row>
+
+
+<row id="ed-tbl-oc.2-tblr-oc.11"
+guid="_46bc24e4-ce36-4acb-be6d-5e267e59c805">
+<entry colname="1" id="ed-tbl-oc.2-tblr-oc.11-tble1"
+guid="_b39f8a4b-4d00-4430-8bcd-76ddd6e58496"><txt break.before="1">The whole
+Act (except sec 2 and Sch 1)</txt></entry>
+<entry colname="2" id="ed-tbl-oc.2-tblr-oc.11-tble2"
+guid="_964ba64e-dd63-4a4c-bcb8-74dab8e5627b"><txt break.before="1">Am 2000 No
+114, Sch 1.2 [4] (insert &#8220;or de facto partners&#8217;&#8221; after
+&#8220;spouses&#8217;&#8221; wherever occurring).</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

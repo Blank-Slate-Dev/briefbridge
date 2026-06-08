@@ -1,0 +1,850 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1996-074"
+title="Hawkesbury Racecourse Act 1996"
+year="1996"
+number="74"
+enact.or.made.date="1996-10-22"
+first.valid.date="2018-07-01"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1996</metacontent>
+<metacontent class="year.assent">1996</metacontent>
+<metacontent class="publication.date">2018-07-01</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2017-017</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1996-074</metacontent>
+<metacontent
+class="version.desc.id">46f43581-857b-469c-9386-7ba0e6676eb1</metacontent>
+<metacontent
+class="version.series.id">d61dd595-4a4a-46d6-86a6-3480a562a879</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Hawkesbury Racecourse Act 1996"></attrib>
+<attrib name="year.passed" value="1996"></attrib>
+<attrib name="year.assent" value="1996"></attrib>
+<attrib name="no" value="74"></attrib>
+<attrib name="publication.date" value="2018-07-01"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2017-017"></attrib>
+<attrib name="first.valid.date" value="2018-07-01"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1996-10-22"></attrib>
+<attrib name="id" value="act-1996-074"></attrib>
+<attrib name="version.desc.id"
+value="46f43581-857b-469c-9386-7ba0e6676eb1"></attrib>
+<attrib name="version.series.id"
+value="d61dd595-4a4a-46d6-86a6-3480a562a879"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_27bec55e-d712-47cb-85d3-9d9eb459aaff"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to provide for the Hawkesbury Racecourse
+to be continued as a public reserve for horseracing and other purposes; to
+provide for the assets, rights and liabilities of the Hawkesbury Race Club to
+vest in a body corporate to be formed by the members of the club; and to
+repeal the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Hawkesbury Racecourse Act of
+1890</i></name></legref>.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ad087dab-7e3e-4824-ae28-793bf27d3e2a"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_5da646a8-09ff-4121-a0aa-0046ecadada7"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1996-074"><name emphasis="yes"><i>Hawkesbury
+Racecourse Act 1996</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0bbca674-9d5b-47d1-a239-768e3dda99f6"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_3d4ed61e-7914-47b7-8581-0972c313c9bc"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on a day to be appointed by
+proclamation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9620f3ec-c203-47f0-8d03-39c0ee283d49"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_a254ea54-775e-4ee2-8f0b-6a7a520e65e1"
+id="sec.3-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Act:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_1643691d-4bd2-4a75-9f09-98f14242a0a8"
+id="def.assets"><b><i>assets</i></b></defterm> means any legal or equitable
+estates or interests (whether present or future and whether vested or
+contingent) in real or personal property of any description (including money),
+and includes securities, choses in action and documents.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_2d553d13-9519-4c27-812e-6234f799c1b2"
+id="def.HawkesburyRacecourse"><b><i>Hawkesbury Racecourse</i></b></defterm>
+means the land described in Schedule 1.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_0332f6d1-dc70-4f53-a4f9-367ab8bc4a2a"
+id="def.liabilities"><b><i>liabilities</i></b></defterm> means any
+liabilities, debts or obligations (whether present or future and whether
+vested or contingent).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d3eb754d-bafe-44b5-a4af-2c4f4e31241a"
+id="def.rights"><b><i>rights</i></b></defterm> means all rights, powers,
+privileges and immunities (whether present or future and whether vested or
+contingent).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_fee90410-492d-4f45-a014-c6f86eae1980" id="def.theformerclub"><b><i>the
+former club</i></b></defterm> means the members of the unincorporated body
+known as the Hawkesbury Race Club.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_27bfe7d4-23a0-470e-b3c3-94861f125358"
+id="def.theformertrustee"><b><i>the former trustee</i></b></defterm>, in
+relation to the Hawkesbury Racecourse, means the trustee for the Racecourse
+holding office under Division 4 of Part 5 of the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1989-006"><name emphasis="yes"><i>Crown
+Lands Act 1989</i></name></legref> immediately before the commencement of this
+Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b2d65b1c-315a-4396-8c09-5d547bd9117c"
+id="def.theincorporatedclub"><b><i>the incorporated club</i></b></defterm>
+means the body corporate declared by the Minister under this Act to be the
+incorporated Hawkesbury Race Club.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_38010700-6010-4028-8c61-6264429c3b13"
+id="def.thereservetrust"><b><i>the reserve trust</i></b></defterm> means the
+reserve trust referred to in section 5.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_edcc22fb-ace6-4ad4-b7ad-a8cdc7086a8c"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_84a60012-5d09-4c53-b649-29dc0a0bb724"
+id="sec.4-he"><b>Status of racecourse</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2a268234-6ce2-4210-86c3-98f2dd34cf1e"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Hawkesbury Racecourse continues, on and from
+the repeal day, to be Crown land that is dedicated for the following purposes
+under the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-2016-058"><name emphasis="yes"><i>Crown Land Management Act
+2016</i></name></legref>:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3031fa0a-3146-4530-a287-3461ccc91900" id="sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">for use as a racecourse,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f3f6b34e-3979-4690-9875-157a77b0310e" id="sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">for use as a training ground,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f81006e5-cbf0-4e08-99e2-803364cd8750" id="sec.4-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">for use as a sports ground,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1053b987-ae27-4f48-b0c9-8677cab99ed2" id="sec.4-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">for any other form of public amusement or public
+purpose (whether or not related to sports) that the Governor has, by order
+published in the Gazette (whether before or after the repeal day), declared to
+be a form of public amusement or public purpose for which the Racecourse or a
+specified part of the Racecourse is permitted to be
+used.</txt></block></li></list>
+</block>
+<note type="legtext" guid="_e9e2d3c0-d584-4665-a724-da1e0cfb442d"
+id="sec.4-ssec.1-note"><heading guid="_bdd0a5ad-8d66-4799-b08c-f1ceaca7cdc4"
+id="sec.4-ssec.1-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">Clause 11 of Schedule 7 to the <legref
+jurisd="NSW" type="act" check="unknown" refid="act-2016-058"><name
+emphasis="yes"><i>Crown Land Management Act 2016</i></name></legref> operated
+on the repeal day:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2c7cb6b3-b532-487a-a87a-79d14123ebac" id="sec.4-ssec.1-note-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to abolish the Hawkesbury Racecourse Reserve
+Trust, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d6b770d8-2539-4dda-a12c-6479253aa7cb" id="sec.4-ssec.1-note-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to replace it with a statutory land manager under
+that Act, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_39df44c0-ee07-4a9d-b10c-dfe4fd085628" id="sec.4-ssec.1-note-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to appoint the members of the trust board of the
+Hawkesbury Racecourse Reserve Trust as members of the board of the statutory
+land manager, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5b9b3af7-0f53-45de-bd54-3cce55f0f93c" id="sec.4-ssec.1-note-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to appoint the statutory land manager as the
+Crown land manager of the Hawkesbury Racecourse.</txt></block></li></list>
+</block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2a3c3ba2-a0c8-4fcb-8764-f55f46d1d4e4"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subsection (1) does not limit or prevent the
+revocation of the dedication of the Hawkesbury Racecourse, or the removal,
+alteration or addition of purposes for which it is dedicated, in accordance
+with the provisions of the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-2016-058"><name emphasis="yes"><i>Crown Land Management Act
+2016</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7eaab2ab-f6ed-4966-91f7-e94c7d01066b"></attrib>
+<attrib name="id" value="sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_64c42898-ac67-4394-836a-8522ba9d895d"
+id="sec.4-def.repealday"><b><i>repeal day</i></b></defterm> means the day on
+which the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1989-006"><name emphasis="yes"><i>Crown Lands Act
+1989</i></name></legref> is repealed by the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-2016-058"><name emphasis="yes"><i>Crown Land
+Management Act 2016</i></name></legref>.</txt></block></deflist>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Subst 2017 No
+17, Sch 2.6 [1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.5" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_12949b8b-0a7c-4325-b603-3ec01673ba14"></attrib>
+<attrib name="id" value="sec.5"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>5</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 5:</b> Rep 2017 No 17,
+Sch 2.6 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0e81422c-3404-4318-bcce-25c140d21b79"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_538e390d-fdb7-429a-ad84-c8bec887034a"
+id="sec.6-he"><b>Incorporation of former club</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cda14893-92c0-4204-9379-fbfeecf451fa"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Nothing in the <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Hawkesbury Racecourse Act of
+1890</i></name></legref> prevents the former club from being incorporated
+under any law enabling persons to form a body corporate.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bdac0393-1d63-4ab0-8528-f4f705392568"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">On being satisfied that the former club has
+become incorporated as a body corporate, the Minister must, by notice in
+writing published in the Gazette, declare the body corporate to be the
+incorporated Hawkesbury Race Club for the purposes of this
+Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_458c3811-1997-4971-a3a0-be94ac094a09"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_44bc3922-c8a6-4931-89fc-52648000d2c1"
+id="sec.7-he"><b>Vesting of assets, rights and liabilities of former
+club</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0f998d79-6e6b-42bb-94a7-cf2435cfa71f"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">On the date of publication of the notice referred
+to in section 6, the following provisions have effect:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ecdec157-be4d-4ce2-ab89-348e6051f9d9" id="sec.7-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the assets of the former club vest in the
+incorporated club by virtue of this section and without the need for any
+conveyance, transfer, assignment or assurance,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a088db7d-f1fd-4f33-8a16-aff7a23af9fd" id="sec.7-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the rights and liabilities of the former club
+become by virtue of this section the rights and liabilities of the
+incorporated club,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5c5ab78d-8556-421b-addb-c816dcbdad00" id="sec.7-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">all proceedings by or on behalf of, or against,
+the former club pending immediately before that date are taken to be
+proceedings pending by or on behalf of, or against, the incorporated
+club,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_93d9f093-55a5-4ee0-87ff-12394f27645a" id="sec.7-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">any act, matter or thing done or omitted to be
+done in relation to the former club before that date by, to or in respect of
+that club is (to the extent that the act, matter or thing continues to have
+effect) taken to have been done or omitted to be done by, to or in respect of
+the incorporated club,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8e0492b6-3552-4e82-ab5f-ce71be315543" id="sec.7-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">a reference in any other Act, in any instrument
+made under another Act, or in any document of any kind, to the former club is,
+subject to any regulations in force under section 10, to be read as, or as
+including, a reference to the incorporated club.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_23604daf-cb5d-4e0f-9771-8381ddc1d0f1"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The operation of this section is not to be
+regarded:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6671ccf9-bed5-48cc-bdc1-b9f1ace321ea" id="sec.7-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">as a breach of contract or confidence or
+otherwise as a civil wrong, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aec412c8-848c-4d75-9d84-a3ba2793103c" id="sec.7-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">as a breach of any contractual provision
+prohibiting, restricting or regulating the assignment or transfer of assets,
+rights or liabilities, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e83eb00b-6127-41b5-97cf-c2e92230de67" id="sec.7-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">as giving rise to any remedy by a party to an
+instrument, or as causing or permitting the termination of any instrument,
+because of a change in the beneficial or legal ownership of any asset, right
+or liability, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_db7d952a-5260-441c-8853-81e8385e9e3b" id="sec.7-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">as an event of default under any contract or
+other instrument.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6a7d6853-353c-40a6-bef8-94a46af2ac45"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">No attornment to the incorporated club by a
+lessee or sublessee from the former club is required.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_87300738-d674-4580-8c38-ebfa80e7253d"></attrib>
+<attrib name="id" value="sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">No compensation is payable to any person in
+connection with a transfer under this section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f2d8a842-c075-4c0e-8f72-262277c1f1a2"></attrib>
+<attrib name="id" value="sec.7-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">In this section, a reference to the assets of the
+former club includes a reference to any lease of the Hawkesbury Racecourse
+that was in existence immediately before the date referred to in subsection
+(1).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0aff8906-ec19-4371-b80d-384c489160ab"></attrib>
+<attrib name="id" value="sec.7-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">In this section, a reference to the assets,
+rights or liabilities of the former club includes a reference to the assets,
+rights or liabilities (respectively) of the chairman of the former club that
+the chairman held in trust for that club (in the case of assets or rights), or
+was subject to on behalf of that club (in the case of
+liabilities).</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_31fe09ca-64cf-4ff1-87ea-226b1bba914f"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_ef6d361d-cca7-4ede-96a5-c06d3e227da6"
+id="sec.8-he"><b>Stamp duty</b></heading></head>
+<block><txt break.before="1">Stamp duty is not chargeable in respect
+of:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b08198a0-6221-487c-a39f-95e15d4fac87" id="sec.8-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the transfer of assets, rights or liabilities
+under section 7, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5883b910-ced4-46ef-8806-3ddb163ad510" id="sec.8-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">anything certified by the Minister as having been
+done in consequence of such a transfer (for example, the transfer or
+registration of an interest in land).</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7413c202-3473-43be-9d3f-29b1f98d89b7"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_e9cbc1d8-3d2c-48f1-8800-b23d5cd219bb"
+id="sec.9-he"><b>Repeals</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_85216a5d-332b-4fe0-b518-3520eb49877e"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Hawkesbury Racecourse Act of
+1890</i></name></legref> (together with any by-laws in force under that Act)
+is repealed on a date to be appointed by proclamation published on the NSW
+legislation website.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_688db7e0-b714-4d2b-9968-e0811fc409d1"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The date is not to be a date that is earlier than
+the date of publication of the notice referred to in section
+6.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Am 2009 No 56,
+Sch 4.26.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f5328e3b-68cd-49af-b6e2-e4286cc14117"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_138a8b23-4b49-4e06-9823-0863d21617e6"
+id="sec.10-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e975db02-7e0d-44fc-8d44-d3f83539484d"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1f3007d3-af1b-42eb-af54-e1f58817b241"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_04f1ffa0-0613-4d2a-a449-a3abde80d2e1"></attrib>
+<attrib name="id" value="sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Such a provision may, if the regulations so
+provide, take effect as from the date of assent to this Act or a later
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_741104d8-77f4-4fc0-ad81-1e897a759a80"></attrib>
+<attrib name="id" value="sec.10-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">To the extent to which such a provision takes
+effect on a date that is earlier than the date of its publication in the
+Gazette, the provision does not operate so as:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_db018016-5be0-4a9b-af00-17cc82456c8e" id="sec.10-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6cd81f9b-a816-4083-9fef-de870e0f54b3" id="sec.10-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_da55433f-287b-403f-a8ee-3075d8c5e009"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_793cb5a0-12f8-4955-9b33-c45031c0c4c0"
+id="sec.11-he"><b>Review of Act</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_92b4dd52-b2ce-4332-b280-6d81259ae8cb"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister is to review this Act to determine
+whether the policy objectives of the Act remain valid and whether the terms of
+the Act remain appropriate for securing those
+objectives.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_25e87b36-9559-448e-b054-4dfabdb37692"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The review is to be undertaken as soon as
+possible after the period of 5 years from the date of assent to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f82d1480-f54a-4a3e-b787-10d7c0722fa2"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A report of the outcome of the review is to be
+tabled in each House of Parliament within 12 months after the end of the
+period of 5 years.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2283fc8c-0c9d-4406-9fb7-531b91d8e1ac"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_f83de586-df5c-43ff-93c4-21b25d09a6ad" id="sch.1-he"><b>Hawkesbury
+Racecourse: description of land</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 3)</txt></block>
+<block><txt break.before="1">The land that constitutes the Hawkesbury
+Racecourse is as follows:</txt></block>
+<block><txt break.before="1">All that parcel of land at Clarendon in the City
+of Hawkesbury, Parishes of St Matthew and Ham Common, County of Cumberland, of
+about 80.94 hectares contained in Certificate of Title Folio 1/72436 at the
+Land Titles Office, Sydney.</txt></block></level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_ea2589ea-517d-426b-8303-d229eca62162"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_6c1f43a0-7753-4aa1-8c34-efe4ad9fca0a"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1996-074"><name emphasis="yes"><i>Hawkesbury Racecourse Act
+1996</i></name> No 74</legref>. Assented to 22.10.1996. Date of commencement,
+2.7.1999, sec 2 and GG No 76 of 2.7.1999, p 4607. This Act has been amended as
+follows:</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_76288f1b-7256-4222-82fb-56297029bbfe" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_892eb636-2e79-49bf-bfd7-9dc3a7a15314" id="ed-tbl-tblr">
+<entry colname="1" guid="_9f88b7c3-4cec-4bd4-a0c2-6d6ad07748fa"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>2009</b></txt></entry>
+<entry colname="2" guid="_ae0e9e2e-9399-456b-84bc-012f63b50f4b"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 56</txt></entry>
+<entry colname="3" guid="_bdd5f76a-3294-4f8c-977b-68ae5f998417"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2009-056"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2009</i></name></legref>. Assented to 1.7.2009.</txt>
+<txt break.before="1">Date of commencement of Sch 4, 17.7.2009, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_2bc09ea5-e83b-409a-86d7-ceb3e2584ba7" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_c8ccf714-c8aa-46cf-992e-6dd0a3f97714"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>2017</b></txt></entry>
+<entry colname="2" guid="_230f4547-fa36-4c14-9ec7-859b0db2688c"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 17</txt></entry>
+<entry colname="3" guid="_90d3dd32-6222-451b-af90-58f1181e18d1"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2017-017"><name emphasis="yes"><i>Crown Land Legislation Amendment
+Act 2017</i></name></legref>. Assented to 17.5.2017.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 1.7.2018, sec 2 (1) and
+2018 (225) LW 1.6.2018.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_555d5032-600e-4f67-bd15-90f707d1297f"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_532082f0-2898-43c1-b0bb-3bd307f8f181" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_30dc749e-cec6-4af4-822b-c5912be88012" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_3c277067-467f-498e-ae2d-3278ceee2da5"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_8ec8ae9d-b0bb-4c20-a209-020362ec5beb"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Subst 2017 No 17, Sch 2.6
+[1].</txt></entry></row>
+
+
+<row guid="_dc6dca26-4683-4348-9bda-679b041793ab" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_e13fd992-8c56-49b6-837c-f6161d25047a"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 5</txt></entry>
+<entry colname="2" guid="_18358b3f-909e-4fac-bfb0-a6920be04a1c"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Rep 2017 No 17, Sch 2.6
+[2].</txt></entry></row>
+
+
+<row guid="_58d4dc39-a388-4ec9-b4fe-d83e4bc3fb94" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_fce79201-1fc1-4500-a578-ada1791594d2"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_f7c05051-2167-4b41-9230-2e7badf06af6"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Am 2009 No 56, Sch
+4.26.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

@@ -1,0 +1,1189 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1922-023"
+title="Encroachment of Buildings Act 1922"
+year="1922"
+number="23"
+enact.or.made.date="1922-11-24"
+first.valid.date="2016-03-01"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1922</metacontent>
+<metacontent class="year.assent">1922</metacontent>
+<metacontent class="publication.date">2016-03-01</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2015-048</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1922-023</metacontent>
+<metacontent
+class="version.desc.id">9354a04a-5f87-404a-8ca2-d9f20950daa7</metacontent>
+<metacontent
+class="version.series.id">481c7a00-fc19-4de5-98cd-62e23afef3de</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Encroachment of Buildings Act 1922"></attrib>
+<attrib name="year.passed" value="1922"></attrib>
+<attrib name="year.assent" value="1922"></attrib>
+<attrib name="no" value="23"></attrib>
+<attrib name="publication.date" value="2016-03-01"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2015-048"></attrib>
+<attrib name="first.valid.date" value="2016-03-01"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1922-11-24"></attrib>
+<attrib name="id" value="act-1922-023"></attrib>
+<attrib name="version.desc.id"
+value="9354a04a-5f87-404a-8ca2-d9f20950daa7"></attrib>
+<attrib name="version.series.id"
+value="481c7a00-fc19-4de5-98cd-62e23afef3de"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<content type="historynote"><txt break.before="1"><b>whole Act:</b> Am 1989 No
+171, Sch 2 (1) (&#8220;court&#8221; omitted wherever occurring,
+&#8220;Court&#8221; inserted instead); 1999 No 31, Sch 5.37 (each heading that
+is not a sec heading, a Sch heading or a cl heading omitted).</txt></content>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_65bf18da-dcd7-40cd-a2e2-b286d3205ade"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to make provision for the adjustment of
+boundaries where buildings encroach on adjoining land; to facilitate the
+determination of boundaries; and for purposes connected
+therewith.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5fe9f4d7-9d68-41af-9098-6659f78effd6"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_e4389cba-72ad-4cd2-931e-62a85584462f"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act may be cited as the <legref
+refid="act-1922-023" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Encroachment of Buildings Act
+1922</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ba6fd021-90d3-4ba9-9a3b-2e483d303e1e"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_63179d90-ac36-4651-8193-8986055060fd"
+id="sec.2-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Act, unless the context or subject-matter
+otherwise indicates or requires:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9d982f19-f250-46ba-b14f-2ec2465df3fe"
+id="def.Adjacentowner"><b><i>Adjacent owner</i></b></defterm> means the owner
+of land over which an encroachment extends.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_778ff71b-b55c-4109-84cb-14a8830cf464"
+id="def.Boundary"><b><i>Boundary</i></b></defterm> means the boundary line
+between contiguous parcels of land.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_24cfd22e-cd9e-4758-9e91-70c62d871cb2"
+id="def.Building"><b><i>Building</i></b></defterm> means a substantial
+building of a permanent character and includes a wall.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_eabc1192-5e0f-465f-acc3-fe1469385570"
+id="def.Court"><b><i>Court</i></b></defterm> means the Land and Environment
+Court.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_3936258b-0d1e-4ae0-b7d7-7838cca616e4"
+id="def.Encroachingowner"><b><i>Encroaching owner</i></b></defterm> means the
+owner of land contiguous to the boundary beyond which an encroachment
+extends.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_7ed23999-119d-4652-afab-3db1242d067e"
+id="def.Encroachment"><b><i>Encroachment</i></b></defterm> means encroachment
+by a building, and includes encroachment by overhang of any part as well as
+encroachment by intrusion of any part in or upon the soil.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_2beb17da-27c9-4394-8b52-c29cb3475d81"
+id="def.Owner"><b><i>Owner</i></b></defterm> means any person entitled to an
+estate of freehold in possession:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ef8a4cc3-4cdf-4555-ad86-c6de7536dd0b" id="sec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">whether in fee simple or for life or
+otherwise,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c4507500-3f13-47b6-ba7f-f1cf489dc470" id="sec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">whether at law or in equity,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_06339272-1118-4277-9920-34212b7a8469" id="sec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">whether absolutely or by way of
+mortgage,</txt></block></li></list>
+
+<txt break.before="1">and includes a mortgagee under a registered mortgage of
+a freehold estate in possession in land under the <legref refid="act-1900-025"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Real Property
+Act 1900</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_823adf4e-95af-4fa6-a99e-b1da8c61934f"
+id="def.Subjectland"><b><i>Subject land</i></b></defterm> means that part of
+the land over which an encroachment extends.</txt></block></deflist>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 2:</b> Am 1989 No 171,
+Sch 2 (2).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c24ee2a7-7f72-4ffc-87ce-9da78a336c33"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_d60c42f3-2c12-4c04-beff-39219b23e5ca"
+id="sec.3-he"><b>Encroachments</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b3e23954-b6e0-4a8e-aab5-8a69b54d6c75"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Either an adjacent owner or an encroaching owner
+may apply to the Court for relief under this Act in respect of any
+encroachment.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e0541c22-cdb9-4bb4-b31a-ac515b6f332e"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">On the application the Court may make such orders
+as it may deem just with respect to:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9442501d-d4ef-4cd3-a79f-f4c06987930b" id="sec.3-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the payment of compensation to the adjacent
+owner,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_11db649b-14ea-4d89-bf85-791dfdeae517" id="sec.3-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the conveyance transfer or lease of the subject
+land to the encroaching owner, or the grant to the encroaching owner of any
+estate or interest therein or any easement right or privilege in relation
+thereto,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_44830199-08ab-43e8-8184-f0824e0bc90c" id="sec.3-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the removal of the
+encroachment.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0be545ca-1c49-40e8-bf7c-8537d12a5057"></attrib>
+<attrib name="id" value="sec.3-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Court may grant or refuse the relief or any
+part thereof as it deems proper in the circumstances of the case, and in the
+exercise of this discretion may consider amongst other matters:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c5c51063-5679-4ca3-932c-0363d2478e5b" id="sec.3-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the fact that the application is made by the
+adjacent owner or by the encroaching owner, as the case may
+be,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5a9b2a1b-467c-413c-a487-a25cea63fc13" id="sec.3-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the situation and value of the subject land, and
+the nature and extent of the encroachment,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_90cf725e-78ab-42ed-8b7f-632a997488f3" id="sec.3-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the character of the encroaching building, and
+the purposes for which it may be used,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ad5d4ee8-de1d-4af7-bb99-ced97c804456" id="sec.3-ssec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the loss and damage which has been or will be
+incurred by the adjacent owner,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2f6e1ff4-9cfd-4220-a37a-16999ad57f80" id="sec.3-ssec.3-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the loss and damage which would be incurred by
+the encroaching owner if the encroaching owner were required to remove the
+encroachment,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_de93e38c-14d5-410f-9a20-feffa63be423" id="sec.3-ssec.3-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">the circumstances in which the encroachment was
+made.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fe48c255-c6cd-490c-b757-d6759d3a192b"></attrib>
+<attrib name="id" value="sec.3-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Court may refer any question involved in
+proceedings on the application to:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_da192038-00b1-474d-b547-de08b161d5b7" id="sec.3-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any registered land surveyor (within the meaning
+of the <legref refid="act-2002-083" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Surveying and Spatial Information Act
+2002</i></name></legref>), or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_57ba8b3e-c3a2-4b31-a889-c1aa6209a63d" id="sec.3-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any valuer.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7109ffc0-bb54-437b-b9e9-445bb8890982"></attrib>
+<attrib name="id" value="sec.3-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">This section applies to encroachments made either
+before or after the commencement of this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Am 2002 No 83,
+Sch 2.7 [1]; 2008 No 62, Sch 2.20; 2009 No 119, Sch 2.9; 2015 No 48, Sch 1.10
+[1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4b5e158c-92de-4c3e-83a3-42bb0e8a7ac5"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_458d0a1c-2dda-413f-8df3-398ad3f96f7a"
+id="sec.4-he"><b>Compensation</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e4f731d4-f932-404d-bd6c-63ffafbfa103"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The minimum compensation to be paid to the
+adjacent owner in respect of any conveyance, transfer, lease, or grant to the
+encroaching owner shall, if the encroaching owner satisfies the Court that the
+encroachment was not intentional and did not arise from negligence, be the
+land value of the subject land, and in any other case three times such land
+value.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7716c58c-374e-467f-bfac-b2cd83207cde"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In determining whether the compensation shall
+exceed the minimum, and if so by what amount, the Court shall have regard
+to:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fd5ab1b4-84a8-4d9a-9c18-f8d99f515728" id="sec.4-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the value, whether improved or unimproved, of the
+subject land to the adjacent owner,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6fe62d5a-6fc4-4e49-a58f-a1dc69941de7" id="sec.4-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the loss and damage which has been or will be
+incurred by the adjacent owner through the encroachment and through the orders
+proposed to be made in favour of the encroaching owner,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0ecdcc44-0ad0-4f82-8e0a-afa8a0e2fe5b" id="sec.4-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the circumstances in which the encroachment was
+made.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 1981 No 119,
+Sch 1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dc0521ba-ba85-4bfc-a014-eabdcce08b2b"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_b9e4e3b5-67b2-4d91-94b2-1cf9e5760780"
+id="sec.5-he"><b>Charge on land</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e1730b07-6087-4323-8648-7f7ac82b82ad"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The order for payment of compensation shall
+except so far as the Court may therein otherwise direct, upon registration
+operate as a charge upon the land of the encroaching owner in priority to any
+charge created by the encroaching owner or by his or her predecessor in
+title.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_537621b7-6661-4cdf-a911-4d63f9936b50"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In this section the land of the encroaching owner
+means the parcel of land contiguous to the boundary beyond which the
+encroachment extends, or such part thereof as the Court may specify in the
+order.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4a8a7f6a-a1aa-4e8d-9ee2-e422dae1beb5"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_59cc4e25-c625-490f-84cb-701df70999f7"
+id="sec.6-he"><b>Encroaching owner&#8212;compensation and
+conveyance</b></heading></head>
+<block><txt break.before="1">Wherever the Court sees fit, and in particular
+where the encroaching owner is not an owner beneficially entitled to the fee
+simple free from encumbrances, the Court may determine:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_97cfba61-3b22-4e49-ae8a-3ac2fd2a0b71" id="sec.6-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">by whom and in what proportions the compensation
+is to be paid in the first instance, and is to be borne
+ultimately,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3bf3c8f6-a414-4f19-a53f-eed34735c56a" id="sec.6-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to whom, for whose benefit and upon what
+limitations the conveyance transfer or lease of the subject land or grant in
+respect thereof is to be made.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ef1da2d2-7123-4f93-9a9d-1a11aef9648e"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_30a57f0e-db9c-4381-9fdf-74b70479946c"
+id="sec.7-he"><b>Adjacent owner&#8212;compensation and
+conveyance</b></heading></head>
+<block><txt break.before="1">Wherever the Court sees fit, and in particular
+where the adjacent owner is not an owner beneficially entitled to the fee
+simple free from encumbrances, the Court may determine:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bddb6443-989d-41aa-a525-6e15be447d2c" id="sec.7-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to whom, for whose benefit and in what
+proportions the compensation is to be paid or applied, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_987a7101-d41f-4d85-8799-6c4238a962f4" id="sec.7-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">by whom the conveyance transfer or lease of the
+subject land or grant in respect thereof is to be
+made.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ade3b2e0-e4ce-4256-a85d-452b730e5717"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_188326b0-80a9-455b-85f4-acda85b72fe8"
+id="sec.8-he"><b>Vesting order</b></heading></head>
+<block><txt break.before="1">Wherever the Court may make or has made an order
+under this Act with respect to the subject land, the Court may make such
+vesting order as it may deem proper in lieu thereof or in addition thereto, or
+in default of compliance therewith.</txt></block></level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ea31e45e-9fe1-4f52-8b17-b3721440979a"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_aa7d5763-b593-4824-9697-be5e110312f4"
+id="sec.9-he"><b>Boundaries</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_affd8087-c9d9-4b21-9915-1c043d7e9a53"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If any question arises as to whether an existing
+building encroaches or a proposed building will encroach beyond the boundary,
+either of the owners of the contiguous parcels of land may apply for a
+determination of the position of the boundary:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b9e6b6b2-7006-42d7-8dd2-e2359b1d0da5" id="sec.9-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to the Registrar-General under Part 14A (Boundary
+determinations) of the <legref refid="act-1900-025" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Real Property Act
+1900</i></name></legref> (but only if the application could be made under that
+Part apart from this section), or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c8fc587d-3776-4aed-974a-92f271191903" id="sec.9-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the application cannot be made under that Part
+or the Registrar-General refuses to make that determination&#8212;to the
+Court.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a7fd83fc-6a33-4c89-b026-ae02cb00c5f7"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">On an application to the Court the Court may make
+such orders as it may deem proper for determining, marking, and recording the
+true boundary.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bc858157-40de-4d22-b309-a95d41455db3"></attrib>
+<attrib name="id" value="sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Court may refer to any registered land
+surveyor (within the meaning of the <legref refid="act-2002-083" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Surveying and Spatial
+Information Act 2002</i></name></legref>) any question involved in proceedings
+on the application.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_49bff912-8f03-4ebf-9a7d-e9ec759ef56d"></attrib>
+<attrib name="id" value="sec.9-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">This section applies to buildings erected either
+before or after the commencement of this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Am 1989 No 171,
+Sch 2 (3); 2002 No 83, Sch 2.7 [2]; 2009 No 119, Sch 2.9.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b1512c28-8969-43a4-8741-cbe02e1c9ced"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_9484bbfc-843b-4ec6-80fc-c5f39b1db3bc"
+id="sec.10-he"><b>Proceedings in the Supreme Court</b></heading></head>
+<block><txt break.before="1">In any proceedings before the Supreme Court, the
+Supreme Court may:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_58f4e583-36cc-41cd-a8e3-5a9e6ca0785b" id="sec.10-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if it sees fit, exercise any of the powers
+conferred on the Land and Environment Court by this Act and may stay the
+proceedings on such terms as it thinks proper, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_db3397f1-4188-4953-9a87-9e0c7c2b2aad" id="sec.10-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if of the opinion that the matter could more
+conveniently be dealt with by an application under this Act, stay the
+proceedings on such terms as it thinks proper.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 10:</b> Subst 1989 No
+171, Sch 2 (4).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_596b8ab5-7bf2-4375-b903-8c5553fc6f62"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_3489ed03-3059-486a-a1ef-45c009e50d48"
+id="sec.11-he"><b>Application by summons</b></heading></head>
+<block><txt break.before="1">Until otherwise prescribed by rules of Court, any
+application under this Act may be made by summons.</txt></block></level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4903e89b-8065-4ec0-b942-86a087b221be"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_a50b892e-62a0-476e-9d52-c1fddfc0b144"
+id="sec.12-he"><b>Persons interested</b></heading></head>
+<block><txt break.before="1">In any application under this Act the Court may
+require:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9d92d2d2-07b5-43d8-93b0-e337abdaca33" id="sec.12-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">that notice of the application shall be given to
+any person interested,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_272a81d7-4f07-4a33-b977-d54bf80b43aa" id="sec.12-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">that any person interested shall be made a party
+to the application.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f0277f04-34b7-4101-bd34-ea7257471280"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_88991a63-04e6-417c-a725-be770eb2946b"
+id="sec.13-he"><b>Registration</b></heading></head>
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_32e3b2ac-2e1e-43e2-9cd4-d7369ba3a46d"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Where any land affected by any application or
+order under this Act is not under the provisions of the <legref
+refid="act-1900-025" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Real Property Act 1900</i></name></legref>, the application
+or order may be registered in the register of causes, writs, and orders
+affecting land.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_222f086d-1d0b-4e12-a466-731cde126fdf"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Where any land affected by any application or
+order under this Act is under the provisions of the <legref
+refid="act-1900-025" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Real Property Act 1900</i></name></legref>, a caveat may be
+lodged under that Act in respect of the application, and the order may be
+registered under that Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 13:</b> Am 1997 No 55,
+Sch 1.6.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4ba9343c-0bd5-4092-b432-efd49bdb495f"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_d7e8e838-e99d-4ec2-a7db-2476f2a34362"
+id="sec.14-he"><b>Costs</b></heading></head>
+<block><txt break.before="1">In any application under this Act the Court may
+make such order as to payment of costs charges and expenses as it may deem
+just in the circumstances and may take into consideration any offer of
+settlement made by either party.</txt></block></level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ba367b49-7923-43dd-bfd6-90231bedab16"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_9e7a34a8-ae5a-4919-8289-81cb420caddb"
+id="sec.15-he"><b>Rules and practice</b></heading></head>
+
+<tier type="subclause" id="sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e907ece4-a57c-4ff4-a2ca-a5dbdfe340ec"></attrib>
+<attrib name="id" value="sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Rules of Court may be made for the practice and
+procedure of the Court in applications under this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8d2f1e46-0f2f-49ec-9318-43e94ae4c9b6"></attrib>
+<attrib name="id" value="sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The practice and procedure of the Court shall,
+except so far as they are inconsistent with this Act or any rules of Court,
+apply to applications under this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 15:</b> Am 1989 No 171,
+Sch 2 (5).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d6760400-5353-45fe-9ce6-40ad7610aab5"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_376f6c4e-c7af-4d7e-bb5e-7415dd5e97d7"
+id="sec.16-he"><b>Savings and transitional provisions</b></heading></head>
+<block><txt break.before="1">Schedule 1 has effect.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 16:</b> Ins 1989 No
+171, Sch 2 (6).</txt></content>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fb468909-5640-4a5c-a662-b34f357c9d16"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_1dce602d-369b-4f97-a233-6e1d3347b8dc" id="sch.1-he"><b>Savings and
+transitional provisions</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 16)</txt></block>
+
+<level type="clause" id="sch.1-sec.1A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cb0ad461-0fc8-43cc-93fc-80c4423cebbf"></attrib>
+<attrib name="id" value="sch.1-sec.1A"></attrib></parentattributes>
+
+<head>
+<no>1A</no><heading guid="_1722ae42-1797-4e1d-84ad-e17216549591"
+id="sch.1-sec.1A-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.1A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c7d13c28-ab54-4f65-b19f-8ec158f979d6"></attrib>
+<attrib name="id" value="sch.1-sec.1A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of any Act that
+amends this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_780c0d85-ffdf-4130-be87-2486fd340605"></attrib>
+<attrib name="id" value="sch.1-sec.1A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such provision may, if the regulations so
+provide, take effect from the date of assent to the Act concerned or a later
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1A-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5a74753a-4306-4a1f-ad66-02b3997cc0f9"></attrib>
+<attrib name="id" value="sch.1-sec.1A-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication on the NSW
+legislation website, the provision does not operate so as:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3519d356-94bc-4a37-b144-847106823b05"
+id="sch.1-sec.1A-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_93444daf-1a2c-426d-96d6-29cbddba50af"
+id="sch.1-sec.1A-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_70d1693b-d0ec-430d-bd33-3ed91a1de729"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_689a2cf3-e884-41c0-8088-00e593fb02ca"
+id="sch.1-sec.1-he"><b>Proceedings pending in Supreme
+Court</b></heading></head>
+<block><txt break.before="1">Proceedings under this Act pending in the Supreme
+Court immediately before the commencement of Schedule 2 (2) to the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Real Property
+(Boundary Determinations) Amendment Act 1989</i></name></legref> are to be
+dealt with as if that Act had not been enacted.</txt></block></level>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Ins 1989 No
+171, Sch 2 (6). Am 2015 No 48, Sch 1.10 [2].</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_e2beaf5e-e854-444e-9551-c188d3ea3d59"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_bb653ee5-25a6-4109-86d4-8325780a0937"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-1922-023" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Encroachment of Buildings
+Act 1922</i></name> No 23</legref>. Assented to 24.11.1922. This Act has been
+amended as follows:</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_edc1f1b9-18cf-4f62-a616-fff5a9b1fd03" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_ac0788b8-c3c3-49a8-9e57-7ef47e616dda" id="ed-tbl-tblr">
+<entry colname="1" guid="_86467c2b-fa8a-4e4f-a76d-3e15b247c27c"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1981</b></txt></entry>
+<entry colname="2" guid="_265fcb8a-aebc-43c0-819c-63ae78f3cfcc"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 119</txt></entry>
+<entry colname="3" guid="_18e0b7ff-269a-43fb-8dc3-59cdf46202a7"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Rating and
+Valuation) Amendment Act 1981</i></name></legref>. Assented to
+18.12.1981.</txt>
+<txt break.before="1">Date of commencement of Sch 1 (except as provided in sec
+2 (4)&#8211;(6)), 1.1.1982, sec 2 (3).</txt></block></entry></row>
+
+
+<row guid="_205e7134-1caa-450e-a42d-84e2bf6164a9" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_18b784f2-f03b-420c-9881-33c273eb1737"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>1989</b></txt></entry>
+<entry colname="2" guid="_f70e554f-590a-483b-a6e7-a660f188c49b"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 171</txt></entry>
+<entry colname="3" guid="_a0ddd05a-e57b-49ea-b315-8601cf34cccb"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Real Property (Boundary
+Determinations) Amendment Act 1989</i></name></legref>. Assented to
+14.12.1989.</txt>
+<txt break.before="1">Date of commencement, 1.4.1990, sec 2 and GG No 41 of
+23.3.1990, p 2403.</txt></block></entry></row>
+
+
+<row guid="_910d11b6-2037-4bd7-8147-a6ae6902b8be" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_4ee10134-8005-4de4-bada-0d0ca447b0a8"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>1996</b></txt></entry>
+<entry colname="2" guid="_975a6082-40e8-4bf2-95e9-9f41dd0d3ca6"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 121</txt></entry>
+<entry colname="3" guid="_b8e63980-4fe6-4f9d-b625-76aa97c4f0fa"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1996</i></name></legref>. Assented to 3.12.1996.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 3 months after assent,
+sec 2 (3).</txt></block></entry></row>
+
+
+<row guid="_25c083a1-569e-4a4b-b55a-0ee1800e44c9" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_11e5340e-64b5-442f-ada2-ad1aec5d94a9"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>1997</b></txt></entry>
+<entry colname="2" guid="_67abc21b-92c5-48dd-be16-5c6f2996ba59"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 55</txt></entry>
+<entry colname="3" guid="_90a5150d-84d3-45e5-99a7-6014ecb00eb2"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act 1997</i></name></legref>. Assented to 2.7.1997.</txt>
+<txt break.before="1">Date of commencement of Sch 1.6, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_77498685-afa3-4bea-89a7-ce8e954534fe" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_cfa98e7e-9338-422e-b1c1-05c6a38216a1"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>1999</b></txt></entry>
+<entry colname="2" guid="_fe6a0c27-57c2-4a0b-bbd8-b7449fc93370"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 31</txt></entry>
+<entry colname="3" guid="_a5e346c8-8392-4ddc-b235-5807f2d1d0fd"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref refid="act-1999-031" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 1999</i></name></legref>. Assented to 7.7.1999.</txt>
+<txt break.before="1">Date of commencement of Sch 5, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_c42e1337-17c5-4d5e-ad04-b43620843cc8" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_ef8bc8c8-fdf0-4bbc-8214-07774d904191"
+id="ed-tbl-tblr-oc.6-tble1"><txt break.before="1"><b>2002</b></txt></entry>
+<entry colname="2" guid="_4a0e62f3-ffdd-40ec-a589-cc5f5abd29f0"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">No 83</txt></entry>
+<entry colname="3" guid="_96a4b592-b579-43d1-92ea-1141368a5ef7"
+id="ed-tbl-tblr-oc.6-tble3">
+<block><txt break.before="1"><legref refid="act-2002-083" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Surveying Act
+2002</i></name></legref>. Assented to 29.10.2002.</txt>
+<txt break.before="1">Date of commencement, 25.6.2003, sec 2 and GG No 103 of
+25.6.2003, p 5903.</txt></block></entry></row>
+
+
+<row guid="_5cf80c0c-b4b9-4c85-a636-da6b9596257c" id="ed-tbl-tblr-oc.7">
+<entry colname="1" guid="_023ac85c-1923-481a-97af-cd26ac95d7b0"
+id="ed-tbl-tblr-oc.7-tble1"><txt break.before="1"><b>2008</b></txt></entry>
+<entry colname="2" guid="_b737c1a0-0f75-4d9e-a6b2-e50e18ddba74"
+id="ed-tbl-tblr-oc.7-tble2"><txt break.before="1">No 62</txt></entry>
+<entry colname="3" guid="_c3a47685-9dd6-4d36-8973-7e514a8987aa"
+id="ed-tbl-tblr-oc.7-tble3">
+<block><txt break.before="1"><legref refid="act-2008-062" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2008</i></name></legref>. Assented to 1.7.2008.</txt>
+<txt break.before="1">Date of commencement of Sch 2.20, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_923832fe-009d-4df0-97f9-a5e6bca2f1a6" id="ed-tbl-tblr-oc.8">
+<entry colname="1" guid="_f8bda49c-bbd9-407b-b6ff-029af5e2aeb6"
+id="ed-tbl-tblr-oc.8-tble1"><txt break.before="1"><b>2009</b></txt></entry>
+<entry colname="2" guid="_40d4f649-c811-4929-a761-15ce9f6258d5"
+id="ed-tbl-tblr-oc.8-tble2"><txt break.before="1">No 119</txt></entry>
+<entry colname="3" guid="_cc19f30c-082e-4bf8-8cb7-72b4a5b5167d"
+id="ed-tbl-tblr-oc.8-tble3">
+<block><txt break.before="1"><legref refid="act-2009-119" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Surveying Amendment Act
+2009</i></name></legref>. Assented to 14.12.2009.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_85f6b7b0-1c1b-4dc5-a5bd-4cb57cee4bc5" id="ed-tbl-tblr-oc.9">
+<entry colname="1" guid="_c489623f-f118-48da-9e67-932f832631a7"
+id="ed-tbl-tblr-oc.9-tble1"><txt break.before="1"><b>2015</b></txt></entry>
+<entry colname="2" guid="_2a62401a-f35c-46da-914a-376f3dd0fbb1"
+id="ed-tbl-tblr-oc.9-tble2"><txt break.before="1">No 48</txt></entry>
+<entry colname="3" guid="_d812bae8-8d60-49f1-b159-e5406881923b"
+id="ed-tbl-tblr-oc.9-tble3">
+<block><txt break.before="1"><legref refid="act-2015-048" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Regulatory Reform and Other
+Legislative Repeals Act 2015</i></name></legref>. Assented to
+5.11.2015.</txt>
+<txt break.before="1">Date of commencement of Sch 1, 1.3.2016, sec 2 (2) and
+2015 (798) LW 18.12.2015.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_88033a52-1026-4ecd-97c3-7c79acdad713"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block><txt break.before="1">No reference is made to certain amendments made
+by Schedule 3 (amendments replacing gender-specific language) to the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Statute Law
+(Miscellaneous Provisions) Act (No 2) 1996</i></name></legref>.</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_7821744d-7f88-4488-9edf-a983647cdeb2" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_f83cd4eb-dbb5-4ae5-9b80-8c0baf80253a" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_4ab932af-f80b-4789-9193-ed569d110144"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 2</txt></entry>
+<entry colname="2" guid="_6fce48d0-73fa-413b-9c72-1d97ce349529"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 1989 No 171, Sch 2
+(2).</txt></entry></row>
+
+
+<row guid="_33fee681-ad9f-460f-b4db-15d1d0841078" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_68626aeb-c177-455c-b8d4-9b1b5b8e2c3b"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_db1afde8-d3c8-4e69-9c6d-f892e652bbc1"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 2002 No 83, Sch 2.7
+[1]; 2008 No 62, Sch 2.20; 2009 No 119, Sch 2.9; 2015 No 48, Sch 1.10
+[1].</txt></entry></row>
+
+
+<row guid="_b3ebc24e-bfa0-447e-9c70-ecff87967dcd" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_8ceee205-a380-447b-b919-d9c5e02ebb58"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_912b62ad-89d0-4961-a1ca-10e39a529389"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Am 1981 No 119, Sch
+1.</txt></entry></row>
+
+
+<row guid="_1a59bb4a-3888-4af5-a1a8-3fd465a3b4b0" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_18e938a1-89dd-4c67-a0a9-541d19c0e834"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_638cbd8f-1a12-4f85-b028-b69772c475a9"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Am 1989 No 171, Sch 2
+(3); 2002 No 83, Sch 2.7 [2]; 2009 No 119, Sch 2.9.</txt></entry></row>
+
+
+<row guid="_41a9b2a3-b7a9-4cec-8b3d-e85cc935b62a" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_0613e3d2-39fd-4da9-8d54-f3229f6d6db6"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 10</txt></entry>
+<entry colname="2" guid="_2effc129-3b11-4e1b-9e9b-27be68ae5892"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Subst 1989 No 171, Sch
+2 (4).</txt></entry></row>
+
+
+<row guid="_3bec04f6-4a10-4093-9843-126e9436cfc8" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_7abe7f4e-4320-4d18-b89c-bfcd76fa85cb"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 13</txt></entry>
+<entry colname="2" guid="_8900a850-2087-4635-8987-5ec898ce8eb8"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Am 1997 No 55, Sch
+1.6.</txt></entry></row>
+
+
+<row guid="_44675a7d-8937-4853-921f-258732d9300a" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_a3488454-b9c5-4e79-a5ef-debaaab5da88"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 15</txt></entry>
+<entry colname="2" guid="_e523b04c-d7f9-48b2-be20-ac1db6e8511a"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Am 1989 No 171, Sch 2
+(5).</txt></entry></row>
+
+
+<row guid="_f1bb7dd8-48d7-478d-83d0-87f9c6e044ba" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_789e5e75-edc7-4110-a6af-a950b62c5726"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sec 16</txt></entry>
+<entry colname="2" guid="_5405a4ca-2a66-47c0-a6d8-30f53cc33c0b"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Ins 1989 No 171, Sch 2
+(6).</txt></entry></row>
+
+
+<row guid="_31805f69-fc2f-4da4-9617-1eb87b5dbce7" id="ed-tbl-oc.2-tblr-oc.9">
+<entry colname="1" guid="_5ceba1bf-40a5-49ed-9d0c-d37b87127112"
+id="ed-tbl-oc.2-tblr-oc.9-tble1"><txt break.before="1">Sch 1</txt></entry>
+<entry colname="2" guid="_163027b4-884f-463d-be4a-ab08c633588d"
+id="ed-tbl-oc.2-tblr-oc.9-tble2"><txt break.before="1">Ins 1989 No 171, Sch 2
+(6). Am 2015 No 48, Sch 1.10 [2].</txt></entry></row>
+
+
+<row guid="_7814fc9c-cae2-4065-b974-a6c5bec199bd"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry colname="1" guid="_673f04c6-e043-43a5-b780-952158d2ed49"
+id="ed-tbl-oc.2-tblr-oc.10-tble1"><txt break.before="1">The whole
+Act</txt></entry>
+<entry colname="2" guid="_43097177-e9c5-447e-a97d-26e0790b821e"
+id="ed-tbl-oc.2-tblr-oc.10-tble2"><txt break.before="1">Am 1989 No 171, Sch 2
+(1) (&#8220;court&#8221; omitted wherever occurring, &#8220;Court&#8221;
+inserted instead); 1999 No 31, Sch 5.37 (each heading that is not a sec
+heading, a Sch heading or a cl heading omitted).</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

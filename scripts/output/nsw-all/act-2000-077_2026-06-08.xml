@@ -1,0 +1,3686 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2000-077"
+title="Multicultural NSW Act 2000"
+year="2000"
+number="77"
+enact.or.made.date="2000-11-09"
+first.valid.date="2021-07-01"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2000</metacontent>
+<metacontent class="year.assent">2000</metacontent>
+<metacontent class="publication.date">2021-07-01</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2018-070</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-2000-077</metacontent>
+<metacontent
+class="version.desc.id">46c0ec86-d8f6-4072-a05a-610a6b141c06</metacontent>
+<metacontent
+class="version.series.id">4a1ef7d7-860b-4d7f-9ef4-881daeb63227</metacontent>
+<metacontent class="prev.titles">Community Relations Commission and Principles
+of Multiculturalism Act 2000</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Multicultural NSW Act 2000"></attrib>
+<attrib name="year.passed" value="2000"></attrib>
+<attrib name="year.assent" value="2000"></attrib>
+<attrib name="no" value="77"></attrib>
+<attrib name="publication.date" value="2021-07-01"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2018-070"></attrib>
+<attrib name="first.valid.date" value="2021-07-01"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="2000-11-09"></attrib>
+<attrib name="id" value="act-2000-077"></attrib>
+<attrib name="version.desc.id"
+value="46c0ec86-d8f6-4072-a05a-610a6b141c06"></attrib>
+<attrib name="version.series.id"
+value="4a1ef7d7-860b-4d7f-9ef4-881daeb63227"></attrib>
+<attrib name="prev.titles" value="Community Relations Commission and
+Principles of Multiculturalism Act 2000"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_1534729b-cca2-45b5-9c9d-10a854514c3d"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_0d76e95f-1cba-4a00-bcea-f3ba1347f781"
+id="cd-status-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_1057dd91-fd8d-4268-affc-b13ae0fb3ffb"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to establish multicultural principles as
+the policy of the State; to constitute Multicultural NSW; to provide for its
+objectives and functions; to repeal the <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Ethnic Affairs Commission Act
+1979</i></name></legref> and to amend certain other Acts and regulations; and
+for other purposes.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>long title:</b> Am 2014
+No 64, Sch 1 [1] [2].</txt></content>
+</tier>
+
+
+<tier type="preamble" id="frnt-preamble">
+<parentattributes>
+<attrib name="guid" value="_523c37df-93e9-470e-ab90-a533d38d5508"></attrib>
+<attrib name="id" value="frnt-preamble"></attrib></parentattributes>
+
+<head><heading guid="_a38bef33-46db-418e-98a1-c64e181a4f42"
+id="frnt-preamble-he"><b>Preamble</b></heading></head>
+<block><txt break.before="1">This Act&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c4827dba-db11-41af-81b5-8e432c99fdca" id="frnt-preamble-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">promotes the equal rights and responsibilities of
+all the people of New South Wales within a cohesive and multicultural society
+in which&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_981addd9-0fc0-439f-b42a-014e00ddde5a"
+id="frnt-preamble-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">individuals share a commitment to New South Wales
+and to Australia, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5b9513a9-fa24-435b-8397-c6a4a97ad3dd"
+id="frnt-preamble-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">diversity is regarded as a strength and an asset,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e9f64660-e826-4bfd-bb22-23bfa19b2a7a"
+id="frnt-preamble-para1.a-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">English is the common language,
+and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fc85bb24-87b4-46fb-a0a7-f3f9503f0b21" id="frnt-preamble-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">recognises and values the different linguistic,
+religious and ancestral backgrounds of the people of New South
+Wales.</txt></block></li></list>
+
+
+<content type="historynote"><txt break.before="1"><b>preamble:</b> Am 2014 No
+64, Sch 1 [3].</txt></content>
+</block></tier>
+
+
+<tier type="enact" id="frnt-enact">
+<parentattributes>
+<attrib name="guid" value="_f36b182e-23b7-4f74-89d8-1d4f36647388"></attrib>
+<attrib name="id" value="frnt-enact"></attrib></parentattributes>
+
+<block><txt break.before="1"><b>The Legislature of New South Wales therefore
+enacts:</b></txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_77743bd8-5894-476d-8226-f6bd72725476"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_2e584e85-9011-4022-86d8-f43de827a41b"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_eb0fb4ac-3e0b-4320-a73f-5ea3216ffb5a"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_97199280-a8c7-4d21-8db8-5d922cef41e5"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-2000-077"><name emphasis="yes"><i>Multicultural NSW
+Act 2000</i></name></legref>.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 1:</b> Am 2014 No 64,
+Sch 1 [4].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7b05d827-388f-4607-9244-56dea4dd1ac9"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_1c190cf7-8ab3-4afd-b89e-656e77a4d591"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on a day or days to be
+appointed by proclamation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aa94f897-acb1-4010-9ffb-4982e640b47e"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_17b73413-b07e-4337-bbcf-c664718d1342"
+id="sec.3-he"><b>Multicultural principles</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_15581b86-8b6a-4d14-9d70-4d52c1f2ae86"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The <defterm type="definition"
+guid="_211afc64-e2f7-48cd-86c9-408571f9a444"
+id="sec.3-def.multiculturalprinciples"><b><i>multicultural
+principles</i></b></defterm> are as follows&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_79e880a7-b412-49be-9020-ae6a1e1ccfbb" id="sec.3-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">all individuals in New South Wales, irrespective
+of their linguistic, religious and ancestral backgrounds, should demonstrate a
+unified commitment to Australia, its interests and future,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a929817f-86bc-4d4a-9744-e689f1ef4ffb" id="sec.3-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">all individuals in New South Wales should
+recognise the importance of shared values governed by the rule of law within a
+democratic framework,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_25be8a64-0d02-4757-bcc6-49e755e658f4" id="sec.3-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the people of New South Wales are of different
+linguistic, religious and ancestral backgrounds who, either individually or in
+community with other members of their respective groups, are free to profess,
+practise and maintain their own linguistic, religious and ancestral
+heritage,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2b095edb-5cee-45f2-bf73-ae4bf4cf7151" id="sec.3-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">all individuals and institutions should respect
+and make provision for the culture, language and religion of others within an
+Australian legal and institutional framework where English is the common
+language,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c27076ed-5357-4242-a813-c0cd3388dfad" id="sec.3-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">all individuals in New South Wales should have
+the greatest possible opportunity to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fdacc75d-3eb2-497f-9d7e-12265634f898"
+id="sec.3-ssec.1-para1.e-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">contribute to, and participate in, all aspects of
+public life in which they may legally participate, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2b062235-52bb-4600-9320-1e4a7dfecef5"
+id="sec.3-ssec.1-para1.e-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">make use of, and participate in, relevant
+activities and programs provided or administered by the Government of New
+South Wales,</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0984f567-5b41-4e37-ac2b-f5cc66465326" id="sec.3-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">all institutions of New South Wales should
+recognise the linguistic and cultural assets in the population of New South
+Wales as a valuable resource and promote this resource to maximise the
+development of the State.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3561c8de-bb52-48ac-9822-fbbc5d0f561f"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Parliament recognises that the multicultural
+principles are based on citizenship. The expression <defterm type="definition"
+guid="_85e6499a-8406-434e-97b4-914198363dec"
+id="sec.3-def.citizenship"><b><i>citizenship</i></b></defterm> is not limited
+to formal Australian citizenship, but refers to the rights and
+responsibilities of all people in a multicultural
+society.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.3-ssec.2A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a0584563-baf4-4eaf-97df-8b85e69d1afc"></attrib>
+<attrib name="id" value="sec.3-ssec.2A"></attrib></parentattributes>
+
+<head>
+<no>(2A)</no></head>
+<block><txt break.before="1">In this Act, a <defterm type="definition"
+guid="_6da1f4fb-4d16-4e4e-9a8a-aca955060e19"
+id="sec.3-def.commitmenttoAustralia"><b><i>commitment to
+Australia</i></b></defterm> includes a commitment to the common values and
+things that bind Australians together (such as a volunteering ethos,
+participation in Australian national days and events and recognition of the
+heritage of Australia&#8217;s Aboriginal and Torres Strait Islander
+people).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7c255f72-196a-4795-8ea2-eb6ec83b9159"></attrib>
+<attrib name="id" value="sec.3-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The multicultural principles are the policy of
+the State.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c089a401-baf8-4d82-8c24-86c7ccc640ea"></attrib>
+<attrib name="id" value="sec.3-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Accordingly, each public authority must observe
+the multicultural principles in conducting its affairs.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6bae337f-6b2b-4100-80ba-8db1bd32b203"></attrib>
+<attrib name="id" value="sec.3-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">It is the duty of the chief executive officer of
+each public authority to implement the provisions of this section within the
+area of his or her administration.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Am 2010 No 62,
+Sch 1 [1]; 2014 No 64, Sch 1 [5]&#8211;[7].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a7bd3e4b-3ba4-4950-86aa-95480386de73"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_38190666-dd66-4d7f-9ed5-f2e3f62de479"
+id="sec.4-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_dbcbdf85-18b6-4649-8c49-0993585ed9f4"
+id="def.AdvisoryBoard"><b><i>Advisory Board</i></b></defterm> means the
+Advisory Board of Multicultural NSW established under this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d6bfab6d-0a7b-49fd-b136-993a6266c9ca"
+id="def.Chairperson"><b><i>Chairperson</i></b></defterm> means the person
+appointed under this Act as the Chairperson of the Advisory
+Board.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a5d5c161-4ad5-4e55-9964-6dd4cf7a4bf3"
+id="def.ChiefExecutiveOfficer"><b><i>Chief Executive
+Officer</i></b></defterm> means the Chief Executive Officer of Multicultural
+NSW.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ff35699a-55c8-4ac9-91eb-cf2c5fc9b7c0"
+id="def.citizenship"><b><i>citizenship</i></b></defterm>&#8212;see section 3
+(2).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_50783e7c-b30b-4784-8784-51873883cf1c"
+id="def.commitmenttoAustralia"><b><i>commitment to
+Australia</i></b></defterm>&#8212;see section 3 (2A).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a72ef46b-f789-4314-9865-6cba02edbf26"
+id="def.culturaldiversity"><b><i>cultural diversity</i></b></defterm> means
+the different linguistic, religious and ancestral backgrounds of the people of
+New South Wales.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d8b0d78d-3861-473a-b1f9-45580ebd5e82"
+id="def.exercise"><b><i>exercise</i></b></defterm> a function includes perform
+a duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_de40fa9d-b611-44f1-9a23-ed1227b3b90d"
+id="def.function"><b><i>function</i></b></defterm> includes a power, authority
+or duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_0580d017-b59c-4065-bb75-3f9563a871f6"
+id="def.MulticulturalNSW"><b><i>Multicultural NSW</i></b></defterm> means
+Multicultural NSW constituted by this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a9c370a7-d3d1-418b-9f75-c8cacdf68e8f"
+id="def.multiculturalprinciples"><b><i>multicultural
+principles</i></b></defterm>&#8212;see section 3.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9924db7b-02cd-4e94-b709-a435c48dce53"
+id="def.publicauthority"><b><i>public authority</i></b></defterm> means any
+public or local authority constituted by or under an Act, and includes a
+Government department, a statutory State owned corporation, a local council, a
+body whose accounts are required to be audited by the Auditor General or any
+other body prescribed by the regulations.</txt></block></deflist>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 2014 No 64,
+Sch 1 [8]&#8211;[10].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d73116f0-d35e-4286-9b3e-5449b31cfb82"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_28adb553-2d8b-44f7-ab8c-cd9af146ba2d"
+id="sec.5-he"><b>Notes</b></heading></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_7ad0c530-3ef0-4038-ac93-55982e96b36b"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_0d5b1e45-b570-4606-9d07-99c1a1ec6de6"
+id="pt.2-he"><b>Constitution of Multicultural NSW and Advisory
+Board</b></heading></head>
+
+<content type="historynote"><txt break.before="1"><b>pt 2, hdg:</b> Am 2014 No
+64, Sch 1 [11].</txt></content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_260f8e3a-e79a-4bb2-b78b-9cecb1040d24"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_981bf00e-c195-47be-83c0-bed15c5de21c"
+id="sec.6-he"><b>Constitution of Multicultural NSW</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_83e5822c-8274-430c-9c78-5d3480cc0526"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There is constituted by this Act a corporation
+with the corporate name of Multicultural NSW.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_14842203-e52d-42f5-9762-881f5f020979"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Multicultural NSW is, for the purposes of any
+Act, a statutory body representing the Crown.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_54328c1d-cb08-4a60-9b33-50930e2e82c2"></attrib>
+<attrib name="id" value="sec.6-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Multicultural NSW is subject to the control and
+direction of the Minister, except in relation to the contents of any advice,
+report or recommendation given to the Minister or any other person or
+body.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f10506dc-0ecf-4d37-a63c-b8562134f84e"></attrib>
+<attrib name="id" value="sec.6-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The functions of Multicultural NSW are
+exercisable by the Chief Executive Officer, and any act, matter or thing done
+in the name of, or on behalf of, Multicultural NSW by the Chief Executive
+Officer, or with the authority of the Chief Executive Officer, is taken to
+have been done by Multicultural NSW.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 6:</b> Am 2014 No 64,
+Sch 1 [12]&#8211;[14].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4cc53ce3-2944-4e8a-8b31-6d1da422d39a"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_e6c653f3-72e6-4e47-ad98-3212f52b0bbc"
+id="sec.7-he"><b>Chief Executive Officer</b></heading></head>
+<block><txt break.before="1">The Chief Executive Officer of Multicultural NSW
+is the person employed in the Public Service as the Chief Executive
+Officer.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 7:</b> Am 2003 No 50,
+Sch 1 [1] [2]; 2010 No 119, Sch 1.4 [1]. Subst 2014 No 64, Sch 1
+[15].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_72374eb5-3f2e-4790-9f5e-78d42c1c69fc"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_d025b4df-dcd6-42a8-90b9-4f2e22bcfdac"
+id="sec.8-he"><b>Constitution of Advisory Board</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bc5a5e10-0c89-4d97-996a-9dc8aabf2ac7"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There is to be an Advisory Board of Multicultural
+NSW.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_301412b9-9893-4a5c-9f02-7cd12e5418ef"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Advisory Board is to consist of the Chief
+Executive Officer and not more than 15 part-time members appointed by the
+Governor, of whom&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5949de5d-5d0a-4fc4-8dfe-61837abdc369" id="sec.8-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">one is to be a person appointed as Chairperson of
+the Advisory Board by the member&#8217;s instrument of appointment or a
+further instrument signed by the Governor, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_63b7a856-753a-43e5-8414-625a9169e5da" id="sec.8-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">2 are to be persons who are not less than 18
+years old and not more than 24 years old when appointed and who are appointed
+as representatives of youth from New South Wales.</txt></block></li></list>
+</block>
+<note type="legtext" guid="_ea10c7c4-775c-439c-a926-b3b716e03807"
+id="sec.8-ssec.2-note"><heading guid="_4ee93018-5e33-4b99-aa1d-cf2eded37c8f"
+id="sec.8-ssec.2-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">Schedule 1 sets out further provisions relating
+to the members of the Advisory Board and Schedule 2 contains provisions about
+the procedure of the Advisory Board.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_63d25b56-9df1-463f-ab49-9b74200097d6"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In recommending the appointment of a person as a
+member of the Advisory Board, the Minister is to have regard to the
+desirability of having members who are of diverse backgrounds, of different
+occupational backgrounds and who ordinarily reside in different parts of the
+State.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 8:</b> Am 2003 No 50,
+Sch 2 [1]. Subst 2014 No 64, Sch 1 [15].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.9" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fd2c95ec-58c2-44ef-83de-f3fa1b76f721"></attrib>
+<attrib name="id" value="sec.9"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>9</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Am 2003 No 50,
+Sch 2 [1]. Rep 2006 No 2, Sch 4.12 [1].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ffb4802e-3e32-475b-a8db-bd3010bb3e9f"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_9e106d1d-a206-4cf8-8a9e-5edb129f9d32"
+id="sec.10-he"><b>Regional advisory councils</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_514ebced-9499-4ecc-991c-3875325e7313"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Multicultural NSW is to establish regional
+advisory councils for regional areas of the State.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fa5b7581-63f1-46a0-a141-833eb2766f34"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The function of a regional advisory council is to
+advise Multicultural NSW on any matter relating to the functions of
+Multicultural NSW that the council considers appropriate or that Multicultural
+NSW refers to the council for advice.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ab4d320a-42d1-4792-af52-fc9f8da6f6a7"></attrib>
+<attrib name="id" value="sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A regional advisory council is to comprise
+representatives of relevant local or regional agencies, community
+organisations or individuals and a member of the Advisory Board (who is to be
+the chairperson of the council). The composition of a regional advisory
+council is to reflect the diversity of the local community
+concerned.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d5dc2f6e-9348-4365-99c0-ff63b7ce1256"></attrib>
+<attrib name="id" value="sec.10-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The procedure for the calling of meetings of a
+regional advisory council and for the conduct of business at those meetings is
+to be as determined by Multicultural NSW or (subject to any determination of
+Multicultural NSW) by the council.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 10:</b> Am 2014 No 64,
+Sch 1 [16]&#8211;[19].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_22ecb1e0-f724-48e7-b5ab-93288aa35c60"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_eb6ee9c3-4dae-489d-89b1-30b3e237d4dd"
+id="sec.11-he"><b>Other committees</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7b9cdee1-db92-49ee-9609-88d61c28122d"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Multicultural NSW may establish standing
+committees to assist it in connection with the exercise of any of its
+functions or special committees to consider and report on particular
+issues.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_052a5603-3c20-4691-b201-9724517c5733"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The procedure for the calling of meetings of a
+committee established under this section and for the conduct of business at
+those meetings is to be determined by Multicultural NSW or (subject to any
+determination by Multicultural NSW) by the committee.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Subst 2014 No
+64, Sch 1 [20].</txt></content>
+</level>
+</content>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_02abd40a-372f-440d-a911-b71d13f29d2f"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_70b0ad62-b499-4306-97b0-6d974e5e7338"
+id="pt.3-he"><b>Objectives and functions of Multicultural NSW and the Advisory
+Board</b></heading></head>
+
+<content type="historynote"><txt break.before="1"><b>pt 3, hdg:</b> Am 2014 No
+64, Sch 1 [21].</txt></content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c9fb1a2d-ac2e-4a9a-a6c9-778d5c3e8dbd"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_570dc71e-40a4-4951-833a-827400745c99"
+id="sec.12-he"><b>Objectives of Multicultural NSW</b></heading></head>
+<block><txt break.before="1">The objectives of Multicultural NSW are as
+follows&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4516a05d-9c38-4469-b416-527816c05dcd" id="sec.12-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to promote the equal rights and responsibilities
+of citizenship,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c3b44d0c-b3c9-4ba9-bdf7-b34f6682a726" id="sec.12-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to promote the unity, and strong commitment to
+Australia, of all people in a cohesive and harmonious multicultural
+society,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f07f5c7a-6c76-4201-b443-9f2058291eca" id="sec.12-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to promote the participation of the people of New
+South Wales in community life and the public decision-making process so that
+they can exercise their rights and fulfil their
+obligations,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_76698e8b-db7b-4fe4-8f2d-852cb00b23fe" id="sec.12-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to promote access to government and community
+services that is equitable and that has regard to the linguistic, religious
+and ancestral diversity of the people of New South Wales,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_084b6da3-c5d1-4be3-9976-08273c00ab70" id="sec.12-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">to promote a cohesive and harmonious
+multicultural society with mutual respect for and understanding of cultural
+diversity, including by combating racism,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b32db4c0-8b10-4a0e-91db-bce6ac85be07" id="sec.12-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">to promote the enrichment of all sections of
+society through the benefits of cultural diversity,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_830ae7d0-d1cf-4d83-bdde-6a5cd7eeec37" id="sec.12-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">to promote the multicultural principles and the
+advantages of a multicultural society,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_41175e93-1a75-4e5b-a540-a607c9c44551" id="sec.12-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">to promote social justice, community development
+and community initiatives for all the diverse communities in New South
+Wales.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 12:</b> Subst 2014 No
+64, Sch 1 [22].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_97a3cde2-d07e-4b0d-a3f9-39e069156c47"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_2a0757b2-951c-4300-ac84-f920de6f68ec"
+id="sec.13-he"><b>Functions of Multicultural NSW</b></heading></head>
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_619465b5-8ea1-4476-ace8-2efb369cf48c"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The functions of Multicultural NSW are as
+follows&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6888002b-2766-4a23-b88f-b62512318e8e" id="sec.13-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to undertake systematic and wide-ranging
+consultation with people and groups with respect to its objectives and to
+arrange and participate in forums to promote its
+objectives,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1323d7e1-adb7-4f81-882d-2427eee0d8db" id="sec.13-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to advise and make recommendations to the
+Minister to promote any of its objectives,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_70670b95-2a92-4f26-b73c-3f4fe00ac71d" id="sec.13-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to research or investigate and report to the
+Minister on any matter relating to its objectives that Multicultural NSW
+considers appropriate or that the Minister refers to Multicultural NSW for
+research or investigation and report,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e0157a01-dbfe-44be-97ed-267d6c10f95b" id="sec.13-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to facilitate co-operative arrangements involving
+governmental, business, educational and community groups or bodies to promote
+its objectives,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ac662b96-6b6f-410d-909f-e63343da9745" id="sec.13-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">to enter into agreements with public authorities
+in connection with their functions to promote the objectives of Multicultural
+NSW (including, but not limited to, the objective relating to access to
+government services),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_536e4eaa-361c-47ae-874c-f61f3e43591e" id="sec.13-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">to provide a single coordination point for
+integrated responses to issues associated with cultural diversity and to
+assist in resolving issues associated with cultural
+diversity,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3545d52e-db3b-4dec-8d77-ab2382cd334e" id="sec.13-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">to assist and develop programs for, and assess
+the effectiveness of, public authorities in observing the multicultural
+principles in the conduct of their affairs, particularly in connection with
+the delivery of government services, so as to facilitate consistency across
+authorities on issues associated with cultural diversity,</txt></block>
+<note type="legtext" guid="_5fef27fc-5377-41ea-b26e-997eee8d1536"
+id="sec.13-ssec.1-para1.g-note"><heading
+guid="_d0bf68c9-edfc-448a-be95-119b8c9969f9"
+id="sec.13-ssec.1-para1.g-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">For example, under the Multicultural Policies and
+Services Program of Multicultural NSW, government agencies are required to
+implement a multicultural plan.</txt></block></note>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_eff5f7e6-19b6-4c5e-b951-c1149d76c186" id="sec.13-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">to provide (whether within or outside New South
+Wales) interpreter, translation or other services approved by the
+Minister,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8137555c-c892-46bf-afb6-b1929cc51d2e" id="sec.13-ssec.1-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">to advise the Minister on the most effective use
+of funds appropriated by Parliament for programs related to its objectives
+(including funds for the provision of resources to community groups that
+promote the objectives of Multicultural NSW),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_25034dd4-3044-46b9-aa2b-bd8e64bc0256" id="sec.13-ssec.1-para1.j">
+<no>(j)</no>
+<block><txt break.before="1">to support community initiatives that promote the
+objectives of Multicultural NSW (including initiatives that support women and
+girls and other groups of diverse backgrounds) and to promote community
+engagement for the purposes of promoting those objectives,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_53be2f1e-8292-4c79-9ae2-80dd10a2d3b4" id="sec.13-ssec.1-para1.k">
+<no>(k)</no>
+<block><txt break.before="1">to encourage eligible people to become Australian
+citizens,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_126486c0-09f3-4407-966d-22c51aef9ba8" id="sec.13-ssec.1-para1.l">
+<no>(l)</no>
+<block><txt break.before="1">to advise and make recommendations to the
+Anti-Discrimination Board on matters relating to discrimination and racial
+vilification and to refer matters relating to discrimination and racial
+vilification to the Anti-Discrimination Board,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1294f823-1e47-453e-a95d-581f4986748b" id="sec.13-ssec.1-para1.m">
+<no>(m)</no>
+<block><txt break.before="1">any other functions that are conferred or imposed
+on it by or under this or any other Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8cc800c0-84e6-4e2a-b4d9-8056b6eafd17"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Persons may be employed in the Public Service
+under the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-2013-040"><name emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref> to enable Multicultural NSW to exercise its
+functions.</txt></block>
+<note type="legtext" guid="_79b023f5-4800-4b08-8815-634130dabd5e"
+id="sec.13-ssec.2-note"><heading guid="_658afe74-4276-4aef-8049-443d1e126503"
+id="sec.13-ssec.2-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">Section 59 of the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-2013-040"><name emphasis="yes"><i>Government Sector
+Employment Act 2013</i></name></legref> provides that the persons so employed
+(or whose services Multicultural NSW makes use of) may be referred to as
+officers or employees, or members of staff, of Multicultural NSW. Section 47A
+of the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1902-032"><name emphasis="yes"><i>Constitution Act
+1902</i></name></legref> precludes Multicultural NSW from employing
+staff.</txt></block></note>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 13:</b> Am 2003 No 50,
+Sch 1 [3]; 2006 No 2, Sch 4.12 [2]; 2010 No 62, Sch 1 [2]&#8211;[5]. Subst
+2014 No 64, Sch 1 [22].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.13A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5b1c6f9d-657e-4924-a909-8bc39d754a2c"></attrib>
+<attrib name="id" value="sec.13A"></attrib></parentattributes>
+
+<head>
+<no>13A</no><heading guid="_38c3f801-53c0-4f3b-9318-2ed662dd88b5"
+id="sec.13A-he"><b>Functions of Advisory Board</b></heading></head>
+<block><txt break.before="1">The functions of the Advisory Board are as
+follows&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fef2aa8f-8d3b-4991-8289-9c2b76efd556" id="sec.13A-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to advise Multicultural NSW or the Minister on
+any issue relating to the objectives or strategic directions of Multicultural
+NSW it considers appropriate or that is referred to it by Multicultural NSW or
+the Minister,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_95ee4962-cf53-48c0-8fbc-aa7971e1a2ed" id="sec.13A-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to review and provide advice to Multicultural NSW
+on the annual report by Multicultural NSW on the state of community relations
+in New South Wales.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 13A:</b> Ins 2014 No
+64, Sch 1 [22].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ac856228-dc13-48d1-95e0-6a2404e9df4d"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_17e9834d-f4fb-4014-a5c0-9d66b7e9e412"
+id="sec.14-he"><b>Reporting on the state of community
+relations</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cc7f5847-ca50-4843-a014-b8b9257341d6"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Multicultural NSW is to prepare a report, for
+each financial year, on the state of community relations in New South Wales as
+affected by cultural diversity, including an assessment of the effectiveness
+of public authorities in observing the multicultural principles in the conduct
+of their affairs.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_745fc59b-6cfe-4340-af87-cf7fcbff6b5f"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The report may include recommendations of
+Multicultural NSW in relation to any relevant matters.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3873688b-6381-478f-ada8-ebb2d09ec804"></attrib>
+<attrib name="id" value="sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A report in relation to a financial year of
+Multicultural NSW is to be furnished to the Minister before the end of
+February in the year following the year to which the report
+relates.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c8a31cd7-2ae8-4875-9cd7-f4c7c77d36dc"></attrib>
+<attrib name="id" value="sec.14-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Minister is to lay, or cause to be laid, a
+copy of the report before each House of Parliament within 14 sitting days of
+the House after receiving the report.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_33591f28-c1b3-4370-b94d-fc256e2179d4"></attrib>
+<attrib name="id" value="sec.14-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">If a House of Parliament is not sitting when the
+Minister seeks to have a copy of the report laid before the House, the
+Minister may present a copy of the report to the Clerk of that
+House.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_34ec6df1-7ccf-4168-ab89-de75c7b3cefd"></attrib>
+<attrib name="id" value="sec.14-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">The report, if presented to the
+Clerk&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_099ed17c-f676-4f04-8967-b63008baad1d" id="sec.14-ssec.6-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is, on presentation, and for all purposes, taken
+to have been laid before the House, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b84c572c-b4db-4b5a-9601-e97d46f4541f" id="sec.14-ssec.6-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">may be printed by the authority of the Clerk,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c4ffa372-86ae-4723-9ec5-aba99f95b05e" id="sec.14-ssec.6-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">if printed by authority of the Clerk, is for all
+purposes taken to be a document published by or under the authority of the
+House, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c04de5f7-ee9d-4d54-ae66-e79ad0976874" id="sec.14-ssec.6-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">is to be recorded in the Minutes, or Votes and
+Proceedings, of the House on the first sitting day of the House after
+presentation of the report to the Clerk.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 14:</b> Am 2010 No 62,
+Sch 1 [6]; 2014 No 64, Sch 1 [23]&#8211;[26].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f80944a6-ab6b-4104-a829-40cd0aed1cf0"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_05f44fc5-989d-47a5-8e9c-6d385265e637"
+id="sec.15-he"><b>Public authorities to assist Multicultural
+NSW</b></heading></head>
+
+<tier type="subclause" id="sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8f6b4bff-1300-4db2-ac37-295a9abb1c70"></attrib>
+<attrib name="id" value="sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This section applies to any investigation
+conducted by Multicultural NSW under this Act that affects the functions of a
+public authority.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6a786f9f-6a1c-4cb2-a3f2-887239aeac04"></attrib>
+<attrib name="id" value="sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The public authority is to give Multicultural NSW
+all such assistance and make available all such information with respect to
+any such function as Multicultural NSW may require for the purposes of that
+investigation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6778d212-5ced-4f71-858a-806e7d76cfb0"></attrib>
+<attrib name="id" value="sec.15-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Public authorities may, at the request of
+Multicultural NSW, provide officers of the public authority to be members or
+to advise members of committees of Multicultural NSW established to advise and
+report on any issue for the purposes of that
+investigation.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 15:</b> Am 2014 No 64,
+Sch 1 [27].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ef0f1220-2060-4d3d-ac51-3fa108bc85db"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_33dabc1d-dffc-4818-9778-a1c96728e1c1"
+id="sec.16-he"><b>Delegation of functions of Multicultural
+NSW</b></heading></head>
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2336c28a-b70f-4fb6-ad88-5e46275accf1"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Multicultural NSW may delegate to an authorised
+person any of its functions, other than this power of
+delegation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e9729814-d0d3-4829-a0f3-7be9a270900a"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A delegate may sub-delegate to an authorised
+person any function delegated by Multicultural NSW if the delegate is
+authorised in writing to do so by Multicultural NSW.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b28531c3-3b00-47b7-bad2-0ed8bbdaf079"></attrib>
+<attrib name="id" value="sec.16-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_7a6f8dc6-e686-4deb-bf65-cbfd1f233c5f"
+id="sec.16-def.authorisedperson"><b><i>authorised person</i></b></defterm>
+means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aad3530f-65f8-403a-90bc-29297d7ee65f" id="sec.16-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a member of the staff of Multicultural NSW,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_11138af1-99cf-42e6-b97d-0e7613a1d610" id="sec.16-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a person or a person of a class approved by the
+Minister or prescribed by the regulations.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 16:</b> Subst 2014 No
+64, Sch 1 [28].</txt></content>
+</level>
+</content>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_79d52cd6-7222-47c8-a5eb-4739577357ec"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_fc1ee686-5312-414a-a7e7-960cdcab3451"
+id="pt.4-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_48548903-0071-4f3a-b233-cccf64954079"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_44628ede-9d97-4113-a071-427ea7ee7ce5"
+id="sec.17-he"><b>Act to bind Crown</b></heading></head>
+<block><txt break.before="1">This Act binds the Crown in right of New South
+Wales and, in so far as the legislative power of the Parliament of New South
+Wales permits, the Crown in all its other capacities.</txt></block></level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aecbeec2-9946-45b5-8e06-89e981650399"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_dde3faae-5c9e-4064-8e4c-6b517d77ab2a"
+id="sec.18-he"><b>Financial year</b></heading></head>
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2f330e8f-82db-4e71-99f5-93e453ec0052"></attrib>
+<attrib name="id" value="sec.18-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The financial year of Multicultural NSW is the
+year commencing on 1 July.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_940b7428-4d1d-4912-89ab-09531c8eaaa3"></attrib>
+<attrib name="id" value="sec.18-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">However, the financial year of Multicultural NSW
+is to be the annual reporting period (if any) for Multicultural NSW if the
+Treasurer has made a determination under section 2.10 of the <legref
+jurisd="NSW" type="act" check="unknown" refid="act-2018-055"><name
+emphasis="yes"><i>Government Sector Finance Act 2018</i></name></legref> for
+that period to be different from the period referred to in subsection
+(1).</txt></block></tier>
+
+<note type="legtext" guid="_8fb72134-6202-405f-8e1b-fb61f327e3f1"
+id="sec.18-note"><heading guid="_ded99b28-03aa-4584-9a1d-d9ccf2020fa8"
+id="sec.18-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">The <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1983-152"><name emphasis="yes"><i>Government Sector
+Audit Act 1983</i></name></legref> and <legref jurisd="NSW" type="act"
+check="unknown" refid="act-2018-055"><name emphasis="yes"><i>Government Sector
+Finance Act 2018</i></name></legref> make provision for the keeping and audit
+of the accounts of Multicultural NSW and for the preparation and tabling in
+Parliament of the annual reporting information for Multicultural
+NSW.</txt></block></note>
+
+
+<content type="historynote"><txt break.before="1"><b>s 18:</b> Am 2010 No 62,
+Sch 1 [7]; 2014 No 64, Sch 1 [29]; 2018 No 70, Sch 4.69[1]
+[2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5243ec30-8cc4-4d53-81c8-ee48239d9c9b"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_dd69faa9-3473-42b4-b046-bebaf11071c3"
+id="sec.19-he"><b>Recovery of money by Multicultural NSW</b></heading></head>
+<block><txt break.before="1">Any charge, fee or money due to Multicultural
+NSW, or to the Crown in respect of any of the activities of Multicultural NSW,
+may be recovered by Multicultural NSW as a debt, if no express provision is
+otherwise made for its recovery.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 19:</b> Am 2014 No 64,
+Sch 1 [30].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a78cfb3d-3523-430b-bd91-df76251b33e3"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_947b06ee-14b0-46b6-9dae-ef8efedd7370"
+id="sec.20-he"><b>Service of documents on Multicultural
+NSW</b></heading></head>
+
+<tier type="subclause" id="sec.20-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b10b465f-b17c-4dac-a238-6ef4203438c2"></attrib>
+<attrib name="id" value="sec.20-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A document may be served on Multicultural NSW by
+leaving it at, or by sending it by post addressed to, the office of
+Multicultural NSW or, if it has more than one office, any of its
+offices.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d8566292-4bca-4b11-867b-1848b75d9e94"></attrib>
+<attrib name="id" value="sec.20-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Nothing in this section affects the operation of
+any provision of a law or of the rules of a court authorising a document to be
+served on Multicultural NSW in any other manner.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 20:</b> Am 2014 No 64,
+Sch 1 [31] [32].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.21">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1b1abe23-91e1-4c13-8433-d2232b331eec"></attrib>
+<attrib name="id" value="sec.21"></attrib></parentattributes>
+
+<head>
+<no>21</no><heading guid="_e2942955-ca54-46e5-b3f8-2e84d4d87296"
+id="sec.21-he"><b>Personal liability</b></heading></head>
+<block><txt break.before="1">A matter or thing done or omitted to be done
+by&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dbf20b97-f00a-469e-b755-900f00f8196a" id="sec.21-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">Multicultural NSW, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_85cb4e5a-fa49-44bc-9ae4-cbf27df91519" id="sec.21-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the Advisory Board or a member of the Advisory
+Board, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1032b98d-dbc5-4cf1-b72a-6e625201bf7f" id="sec.21-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the Chief Executive Officer,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dd5772c1-80e2-423e-9ec9-75640aebff3e" id="sec.21-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">a person acting under the direction of
+Multicultural NSW, the Advisory Board, a member of the Advisory Board or the
+Chief Executive Officer,</txt></block></li></list>
+
+<txt break.before="1">does not, if the matter or thing was done or omitted to
+be done in good faith for the purposes of executing this Act, subject a member
+of the Advisory Board, the Chief Executive Officer or a person so acting
+personally to any action, liability, claim or demand.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 21:</b> Subst 2014 No
+64, Sch 1 [33].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.22">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3c437769-a7cc-4915-9975-a8d4d0e6594f"></attrib>
+<attrib name="id" value="sec.22"></attrib></parentattributes>
+
+<head>
+<no>22</no><heading guid="_e566455a-3673-4de8-9fef-6d9e986a0732"
+id="sec.22-he"><b>Legal consequences of multicultural
+principles</b></heading></head>
+<block><txt break.before="1">Nothing in section 3 gives rise to, or can be
+taken into account in, any civil cause of action.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 22:</b> Am 2014 No 64,
+Sch 1 [34].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.23">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fc95f8da-993d-4d94-abab-3d70eac1755e"></attrib>
+<attrib name="id" value="sec.23"></attrib></parentattributes>
+
+<head>
+<no>23</no><heading guid="_ec35f4a7-d190-4bdc-8554-981ccd9eb889"
+id="sec.23-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.24" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8fc9f14d-852b-4157-8393-6d24097daa21"></attrib>
+<attrib name="id" value="sec.24"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>24</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 24:</b> Rep 2003 No 82,
+Sch 3.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.25">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3c181ada-5ec0-49b1-a507-833d0a3356d3"></attrib>
+<attrib name="id" value="sec.25"></attrib></parentattributes>
+
+<head>
+<no>25</no><heading guid="_4af0282b-6c0b-406b-8e61-0a2a91e09eeb"
+id="sec.25-he"><b>Repeals</b></heading></head>
+
+<tier type="subclause" id="sec.25-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f002321b-4297-4959-bab5-62ce07c8a6e3"></attrib>
+<attrib name="id" value="sec.25-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Ethnic Affairs Commission Act
+1979</i></name></legref> is repealed.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.25-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a76de91b-b852-4817-bf81-0399129ea229"></attrib>
+<attrib name="id" value="sec.25-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The <legref jurisd="NSW" type="subordleg"
+check="unknown"><name emphasis="yes"><i>Ethnic Affairs Commission Regulation
+1997</i></name></legref> is repealed.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.26">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_90141c1d-9f19-46c2-9da0-90a2af5dde4c"></attrib>
+<attrib name="id" value="sec.26"></attrib></parentattributes>
+
+<head>
+<no>26</no><heading guid="_843c16d9-f0f8-4dd4-9487-9ae20932fe5e"
+id="sec.26-he"><b>Savings, transitional and other
+provisions</b></heading></head>
+<block><txt break.before="1">Schedule 4 has effect.</txt></block></level>
+
+
+<level type="clause" id="sec.27">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e2b3df8d-751f-48b7-a093-203535a2766a"></attrib>
+<attrib name="id" value="sec.27"></attrib></parentattributes>
+
+<head>
+<no>27</no><heading guid="_85593d37-299d-41a1-a2d0-ebe568392c31"
+id="sec.27-he"><b>Review of Act</b></heading></head>
+
+<tier type="subclause" id="sec.27-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_def617c4-8bb0-4c30-a857-eb2a5c36b9eb"></attrib>
+<attrib name="id" value="sec.27-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister is to review this Act to determine
+whether the policy objectives of the Act remain valid and whether the terms of
+the Act remain appropriate for securing those
+objectives.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.27-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1445191e-0af1-4edb-851e-4c587451daa5"></attrib>
+<attrib name="id" value="sec.27-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The review is to be undertaken as soon as
+possible after the period of 5 years from the date of assent to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.27-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5c14a744-5b1e-4b2e-8eed-1140f5f4e968"></attrib>
+<attrib name="id" value="sec.27-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A report on the outcome of the review is to be
+tabled in each House of Parliament within 12 months after the end of the
+period of 5 years.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e8451457-5040-4816-828c-832ac77ed42e"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_009e39ff-1d13-4472-9c2b-22d7c1b9ce62" id="sch.1-he"><b>Provisions
+relating to members of the Advisory Board</b></heading></head>
+
+<content type="historynote"><txt break.before="1"><b>sch 1, hdg:</b> Am 2014
+No 64, Sch 1 [35].</txt></content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fd5dc41b-4773-4a2e-9fbc-902c874ba71a"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_0986db8b-ca28-4f05-bfd6-3419dd6f64a2"
+id="sch.1-sec.1-he"><b>Definition</b></heading></head>
+<block><txt break.before="1">In this Schedule&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_99057042-c915-4f56-9f03-108134e8d1ab"
+id="sch.1-def.member"><b><i>member</i></b></defterm> means a member of the
+Advisory Board.</txt></block></deflist>
+</block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4ddb008a-df9d-4963-9a96-f684e848cfb8"></attrib>
+<attrib name="id" value="sch.1-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_459e7a5b-e08e-4ef7-948f-359b9f141207"
+id="sch.1-sec.2-he"><b>Chairperson</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_291c93f4-4202-4066-94a5-947cc7468daf"></attrib>
+<attrib name="id" value="sch.1-sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Chairperson vacates office as Chairperson if
+the Chairperson&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a119fb2d-1086-401a-9a2c-71115e13f52d" id="sch.1-sec.2-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is removed from office by the Governor under this
+clause, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cb9caead-7882-4f9a-b8af-ddf896f0bf07" id="sch.1-sec.2-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">ceases to be a member.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c1aab7f5-848b-40f7-a144-39cf201b351a"></attrib>
+<attrib name="id" value="sch.1-sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Governor may at any time remove the
+Chairperson from office as Chairperson.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7406abbd-7acc-4581-b5e2-56e556f28931"></attrib>
+<attrib name="id" value="sch.1-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_e3231614-98bd-470b-9e8d-4121a9c4ee9e"
+id="sch.1-sec.3-he"><b>Deputies of members</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_efe8febc-4918-43c9-9599-2673f348b0af"></attrib>
+<attrib name="id" value="sch.1-sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may, from time to time, appoint a
+person to be the deputy of a member, and the Minister may revoke any such
+appointment.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_34628012-332f-4f4b-a246-277d14fd605c"></attrib>
+<attrib name="id" value="sch.1-sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In the absence of a member, the member&#8217;s
+deputy may, if available, act in the place of the
+member.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.3-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5e1c0dad-9d77-4650-b46b-a785f99d80c2"></attrib>
+<attrib name="id" value="sch.1-sec.3-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">While acting in the place of a member, a
+person&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2f31cb7a-1308-4909-91a7-758398c77442" id="sch.1-sec.3-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">has all the functions of the member and is taken
+to be a member, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aa9e97c5-7d9b-495c-8222-bf1a9933b094" id="sch.1-sec.3-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is entitled to be paid such remuneration
+(including travelling and subsistence allowances) as the Minister may from
+time to time determine in respect of the person.</txt></block></li></list>
+</block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6c2e827d-b1a2-4e70-b121-f120f71f5fdb"></attrib>
+<attrib name="id" value="sch.1-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_077839ae-ba62-4ca4-972b-3cd3e6959681"
+id="sch.1-sec.4-he"><b>Terms of office</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bdce07fa-dc39-443d-b28c-2078bec50798"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Subject to this Schedule, a member holds office
+for the period (not exceeding 3 years) that is specified in the member&#8217;s
+instrument of appointment, but is eligible (if otherwise qualified) for
+re-appointment.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6d4539dc-493e-4493-b6b1-12b472ea14c5"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person is not eligible for re-appointment as a
+member if the person has been a member (whether or not for consecutive terms)
+for a total period of more than 9 years.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2c9db659-e17c-42d5-8fdd-70cd49aee0a5"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Any previous period of appointment as a
+commissioner of the Community Relations Commission under this Act is taken to
+be a period of appointment as a member for the purposes of subclause
+(2).</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5369d214-9289-4821-be23-1fe62a861ef8"></attrib>
+<attrib name="id" value="sch.1-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_136a1e65-8350-446b-9726-9faade950e0d"
+id="sch.1-sec.5-he"><b>Members of Advisory Board may undertake full-time
+roles</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_52236442-f9b4-44ab-969d-1ddca6e71227"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may, at the request of Multicultural
+NSW, authorise a member to be engaged on a full-time or other basis on any
+particular work for Multicultural NSW or a committee of Multicultural
+NSW.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2d04d74d-e83b-4f53-a2ca-c64cbc67af23"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A member is entitled to be paid such remuneration
+(including travelling and subsistence allowances) as the Minister may from
+time to time determine in respect of any such work (in addition to any other
+remuneration to which the member is entitled under this
+Schedule).</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5f093fb8-4099-41ae-bfc2-17a91e4a3f51"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Any such member continues to be a member for the
+purposes of this Act.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.6" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2f0cdf7a-4716-4883-8d80-35ad0e6a9369"></attrib>
+<attrib name="id" value="sch.1-sec.6"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>6</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_73cc16f5-7e13-4772-adc9-995797776628"></attrib>
+<attrib name="id" value="sch.1-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_865e4614-6fda-4ee4-9f45-8abbe0e8da38"
+id="sch.1-sec.7-he"><b>Remuneration</b></heading></head>
+<block><txt break.before="1">A member is entitled to be paid such remuneration
+(including travelling and subsistence allowances) as the Minister may from
+time to time determine in respect of the member.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2d094dde-7727-4463-9621-eae599df70ca"></attrib>
+<attrib name="id" value="sch.1-sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_4f17ea61-965c-4cf6-9e6d-aae0e23fb82f"
+id="sch.1-sec.8-he"><b>Vacancy in office of member</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aaa85c22-3078-409d-b650-f8ef94941f2b"></attrib>
+<attrib name="id" value="sch.1-sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The office of a member becomes vacant if the
+member&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3d4eac00-a576-43bf-9ebf-2224ba11dcd8" id="sch.1-sec.8-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">dies, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6f6245de-f45e-4379-b38c-2eaf82dff658" id="sch.1-sec.8-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">completes a term of office and is not
+re-appointed, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e4ed1d41-7bf9-4a7c-8b17-b6d9839c96bc" id="sch.1-sec.8-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">resigns the office by instrument in writing
+addressed to the Minister, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_33d9e52c-8897-4d4f-9185-3e971b47322a" id="sch.1-sec.8-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">is removed from office by the Governor under this
+clause, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8707ae2f-0a6a-40fc-b2e2-8b2b67757328" id="sch.1-sec.8-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">is absent from 3 consecutive meetings of the
+Advisory Board of which reasonable notice has been given to the member
+personally or in the ordinary course of post, except on leave granted by the
+Advisory Board or unless, before the expiration of 4 weeks after the last of
+those meetings, the member is excused by the Advisory Board for having been
+absent from those meetings, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e5fec10e-bc8f-433c-8bb7-f779e455e2b3" id="sch.1-sec.8-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">becomes bankrupt, applies to take the benefit of
+any law for the relief of bankrupt or insolvent debtors, compounds with his or
+her creditors or makes an assignment of his or her remuneration for their
+benefit, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_abe805ea-856d-4155-988c-5867c6d12da4" id="sch.1-sec.8-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">becomes a mentally incapacitated person,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_98fea1d8-6b3b-4d4c-966f-97b82eaa15e3" id="sch.1-sec.8-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">is convicted in New South Wales of an offence
+that is punishable by penal servitude or imprisonment for 12 months or more or
+is convicted elsewhere than in New South Wales of an offence that, if
+committed in New South Wales, would be an offence so
+punishable.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b4d1c869-ebc3-4341-81d8-57fe8fe60660"></attrib>
+<attrib name="id" value="sch.1-sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Governor may at any time remove a member from
+office.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_27d0de64-4c76-416b-9c60-9a7d4e4247bd"></attrib>
+<attrib name="id" value="sch.1-sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_98c70506-0fd7-44b3-a6a2-f67da9c2dfa5"
+id="sch.1-sec.9-he"><b>Disclosure of pecuniary interests</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_94979643-32a9-4ad5-badf-65a24fbab827"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2d526b3d-eb31-4328-838a-e11285a2f9a4" id="sch.1-sec.9-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a member has a direct or indirect pecuniary
+interest in a matter being considered or about to be considered at a meeting
+of the Advisory Board, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3e83bab3-f814-4c7a-8b17-1b7401767a0c" id="sch.1-sec.9-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the interest appears to raise a conflict with the
+proper performance of the member&#8217;s duties in relation to the
+consideration of the matter,</txt></block></li></list>
+
+<txt break.before="1">the member must, as soon as possible after the relevant
+facts have come to the member&#8217;s knowledge, disclose the nature of the
+interest at a meeting of the Advisory Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b9270730-7587-4b74-a20c-80eba1669019"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A disclosure by a member at a meeting of the
+Advisory Board that the member&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_92d96b31-feb1-4bb1-9c3a-68153a02dab4" id="sch.1-sec.9-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is a member, or is in the employment, of a
+specified company or other body, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b2273dbe-e7cf-4cd7-97c3-c4aac42ae0f8" id="sch.1-sec.9-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is a partner, or is in the employment, of a
+specified person, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a1809293-331d-4cb2-aa07-22448090360f" id="sch.1-sec.9-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">has some other specified interest relating to a
+specified company or other body or to a specified
+person,</txt></block></li></list>
+
+<txt break.before="1">is a sufficient disclosure of the nature of the interest
+in any matter relating to that company or other body or to that person which
+may arise after the date of the disclosure and which is required to be
+disclosed under this clause.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f5b7d4a4-e3e2-4502-8fca-42e0dd793111"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Advisory Board must cause particulars of any
+disclosure made under this clause to be recorded in a book kept for the
+purpose and that book must be open at all reasonable hours to inspection by
+any person on payment of such fee as may be determined by the Advisory Board
+from time to time.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ba8e4e62-db60-470a-b905-260ad2f486da"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">After a member has disclosed the nature of an
+interest in any matter, the member must not, unless the Minister or the
+Advisory Board otherwise determines&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_345baf00-3478-434a-b3a1-303d9fe948e2" id="sch.1-sec.9-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">be present during any deliberation of the
+Advisory Board with respect to the matter, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1fde3e31-59df-476f-a7fe-e223ddc29260" id="sch.1-sec.9-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">take part in any decision of the Advisory Board
+with respect to the matter.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4d5ba5ce-f673-49e8-9536-33b1a0c0027c"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">For the purposes of the making of a determination
+by the Advisory Board under subclause (4), a member who has a direct or
+indirect pecuniary interest in a matter to which the disclosure relates must
+not&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_48aafb9a-c58d-4980-86d1-29cd31b23311" id="sch.1-sec.9-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">be present during any deliberation of the
+Advisory Board for the purpose of making the determination,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1642d1d7-032c-4ddd-92b8-ddad14ea9e5c" id="sch.1-sec.9-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">take part in the making by the Advisory Board of
+the determination.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3c0e7565-4fa1-4c25-b3a9-36b240be4b6a"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">A contravention of this clause does not
+invalidate any decision of the Advisory Board.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f4aebe05-262f-465f-94db-eab80723e2c1"></attrib>
+<attrib name="id" value="sch.1-sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_63b6eecc-5b7f-4933-b5cf-7e0c5054a0c9"
+id="sch.1-sec.10-he"><b>Filling of vacancy in office of
+member</b></heading></head>
+<block><txt break.before="1">If the office of a member becomes vacant, a
+person is, subject to this Act, to be appointed to fill the
+vacancy.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cc102d76-030f-4741-971b-46bda4c135a4"></attrib>
+<attrib name="id" value="sch.1-sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_ed371d71-e6c3-400d-a8a9-0896a371c7c3"
+id="sch.1-sec.11-he"><b>Effect of certain other Acts</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_560481e5-5438-4c34-aab1-52a44a89accf"></attrib>
+<attrib name="id" value="sch.1-sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The provisions of the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-2013-040"><name
+emphasis="yes"><i>Government Sector Employment Act 2013</i></name></legref>
+relating to the employment of Public Service employees do not apply to a
+member.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_eb7d99dc-9cb9-42e8-823f-c7d0d67a99f0"></attrib>
+<attrib name="id" value="sch.1-sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If by or under any Act provision is
+made&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cc3ea432-bcb1-43be-a304-eed3046d8549"
+id="sch.1-sec.11-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">requiring a person who is the holder of a
+specified office to devote the whole of his or her time to the duties of that
+office, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8efb6264-a900-4622-8100-5563da354d66"
+id="sch.1-sec.11-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">prohibiting the person from engaging in
+employment outside the duties of that office,</txt></block></li></list>
+
+<txt break.before="1">the provision does not operate to disqualify the person
+from holding that office and also the office of a member or from accepting and
+retaining any remuneration payable to the person under this Act as such a
+member.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Am 2003 No 50,
+Sch 2 [2] [3]; 2009 No 96, Sch 4 [1]&#8211;[3]; 2010 No 62, Sch 1
+[8]&#8211;[10]; 2014 No 64, Sch 1 [36]&#8211;[46].</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bab073ae-0df8-4e8d-be78-7318d496ec28"></attrib>
+<attrib name="id" value="sch.2"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading
+guid="_e38217d7-11cc-478c-84d0-cdae7b71b0b0" id="sch.2-he"><b>Provisions
+relating to procedure of Advisory Board</b></heading></head>
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cd30e574-0da3-4990-8cef-a4de887a7d5b"></attrib>
+<attrib name="id" value="sch.2-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_5270be2c-1f8c-47e4-8d3d-81c40b26e291"
+id="sch.2-sec.1-he"><b>Definition</b></heading></head>
+<block><txt break.before="1">In this Schedule&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a2586088-2b22-4790-939b-6250c38fc597"
+id="sch.2-def.member"><b><i>member</i></b></defterm> means a member of the
+Advisory Board.</txt></block></deflist>
+</block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cc6d88ec-b476-4fda-a75c-78df87db11f9"></attrib>
+<attrib name="id" value="sch.2-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_550336cd-5659-498b-a81f-cdd704887f7a"
+id="sch.2-sec.2-he"><b>General procedure</b></heading></head>
+<block><txt break.before="1">The procedure for the calling of meetings of the
+Advisory Board and for the conduct of business at those meetings is, subject
+to this Act and the regulations, to be as determined by the Advisory
+Board.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_32eb6243-b214-4044-96a6-680ce0a7c441"></attrib>
+<attrib name="id" value="sch.2-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_37b85bbd-df94-4587-8a7f-6352aa6323c4"
+id="sch.2-sec.3-he"><b>Quorum</b></heading></head>
+<block><txt break.before="1">The quorum for a meeting of the Advisory Board is
+a majority of members for the time being (excluding any member who has been
+granted leave by the Advisory Board).</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_97035cdd-9f08-46ec-815c-384f48d5f583"></attrib>
+<attrib name="id" value="sch.2-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_799a5333-7906-4a9a-b79a-2a50b41885a5"
+id="sch.2-sec.4-he"><b>Presiding member</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3efbc1ac-3a48-4244-accb-48f9b5a9c12e"></attrib>
+<attrib name="id" value="sch.2-sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Chairperson is to preside at a meeting of the
+Advisory Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3e46fee1-009e-4c3c-872c-8a76b8473595"></attrib>
+<attrib name="id" value="sch.2-sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In the absence of the Chairperson, another member
+elected to chair the meeting by the members present at the meeting is to
+preside at the meeting.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7c5284f3-ba42-48c5-b200-25741d773e90"></attrib>
+<attrib name="id" value="sch.2-sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The person presiding at any meeting of the
+Advisory Board has a deliberative vote and, in the event of an equality of
+votes, has a second or casting vote.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1da8e75a-9307-4fc9-9967-4b3c68513ce6"></attrib>
+<attrib name="id" value="sch.2-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_6293e445-ddcd-47d4-8ea6-97e994aa9cf8"
+id="sch.2-sec.5-he"><b>Voting</b></heading></head>
+<block><txt break.before="1">A decision supported by a majority of the votes
+cast at a meeting of the Advisory Board at which a quorum is present is the
+decision of the Advisory Board.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e0e30834-bd13-4f69-8aa3-3d26e7fe1167"></attrib>
+<attrib name="id" value="sch.2-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_8d701c67-093f-43f7-b92f-f48cf011f9c6"
+id="sch.2-sec.6-he"><b>Transaction of business outside meetings or by
+telephone</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5f928e1c-f75a-40df-86bb-933e4b0a7a6d"></attrib>
+<attrib name="id" value="sch.2-sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Advisory Board may, if it thinks fit,
+transact any of its business by the circulation of papers among all the
+members for the time being, and a resolution in writing approved in writing by
+a majority of those members is taken to be a decision of the Advisory Board at
+a meeting of the Advisory Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f60963db-82ae-415b-b028-616544b4e10c"></attrib>
+<attrib name="id" value="sch.2-sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Advisory Board may, if it thinks fit,
+transact any of its business at a meeting at which the members (or some of
+them) participate by telephone, closed-circuit television or other means, but
+only if any member who speaks on a matter before the meeting can be heard by
+the other members.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.6-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8d53f3b5-7fe4-47ad-9fac-20a4a8aaa27b"></attrib>
+<attrib name="id" value="sch.2-sec.6-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purposes of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8b3d2b2b-b2d8-44ee-b07f-a0c91e042d91" id="sch.2-sec.6-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the approval of a resolution under subclause (1),
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5f24e1b8-6c1e-4990-8808-8932cf5c61e2" id="sch.2-sec.6-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a meeting held in accordance with subclause
+(2),</txt></block></li></list>
+
+<txt break.before="1">the Chairperson and each member have the same voting
+rights as they have at an ordinary meeting of the Advisory
+Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.6-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fc55024b-e8d9-46a0-b5ca-816ddb64e62d"></attrib>
+<attrib name="id" value="sch.2-sec.6-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A resolution approved under subclause (1) is,
+subject to the regulations, to be recorded in the minutes of the Advisory
+Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.6-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_59a51d29-eba8-4ee1-95c6-23ba3385017d"></attrib>
+<attrib name="id" value="sch.2-sec.6-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Papers may be circulated among the members for
+the purposes of subclause (1) by facsimile or other transmission of the
+information in the papers concerned.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_99f2679b-625f-4440-9b3b-41a81db9b76e"></attrib>
+<attrib name="id" value="sch.2-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_0cd28ccb-a747-435f-92e1-e5411cd8e99f"
+id="sch.2-sec.7-he"><b>Attendance by non-members</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2fc79d9a-097c-4e59-854a-5b84a7c7c50f"></attrib>
+<attrib name="id" value="sch.2-sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person authorised by the Advisory Board or the
+Chairperson may attend a meeting of the Advisory Board, and may participate in
+the meeting to the extent that the Advisory Board
+determines.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d69fe6e3-3ab4-4d13-a721-e5a9b92a1dc0"></attrib>
+<attrib name="id" value="sch.2-sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person attending a meeting of the Advisory
+Board under this clause cannot cast a vote at the
+meeting.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_99cb1e70-3669-4946-a09b-84b44adf0f2b"></attrib>
+<attrib name="id" value="sch.2-sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_e24cabd9-c90c-4982-b050-c371df2e7d6a"
+id="sch.2-sec.8-he"><b>First meeting</b></heading></head>
+<block><txt break.before="1">The Minister is to call the first meeting of the
+Advisory Board in such manner as the Minister thinks
+fit.</txt></block></level>
+</content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 2:</b> Am 2009 No 96,
+Sch 4 [4]; 2010 No 62, Sch 1 [11]; 2010 No 119, Sch 1.4 [2]; 2014 No 64, Sch 1
+[47]&#8211;[55].</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.3" status="repealed">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5d7119dd-24fe-4532-ba1a-1dcdb44c1101"></attrib>
+<attrib name="id" value="sch.3"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 3</b></no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 3:</b> Rep 2003 No
+82, Sch 3.</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.4">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1ee45e59-61e3-475c-a320-9edcd3922f0d"></attrib>
+<attrib name="id" value="sch.4"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 4</b></no><heading
+guid="_d44bc080-ff6a-4407-87e7-bbbdc4c982da" id="sch.4-he"><b>Savings,
+transitional and other provisions</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Section 26)</txt></block></pre>
+
+
+<level type="part" id="sch.4-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_833ed240-05d5-4eef-a351-da37c9438475"></attrib>
+<attrib name="id" value="sch.4-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_683477d3-0404-4b6f-8631-cbb971d92f5f"
+id="sch.4-pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sch.4-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9e95aaf1-4db5-4872-b822-a0c99c44e3ec"></attrib>
+<attrib name="id" value="sch.4-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_a7591d7b-96ca-4ef9-a671-726919c04f54"
+id="sch.4-sec.1-he"><b>Definition</b></heading></head>
+<block><txt break.before="1">In this Schedule&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d9240a56-b392-4bc9-9d9a-94e6b8cdbb9a"
+id="sch.4-def.formerAct"><b><i>former Act</i></b></defterm> means the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Ethnic Affairs
+Commission Act 1979</i></name></legref>.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sch.4-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_60630c23-d032-43a9-9600-1b8e5722e47f"></attrib>
+<attrib name="id" value="sch.4-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_13cd6226-70b4-482a-96e3-760f4647304d"
+id="sch.4-sec.2-he"><b>Savings and transitional
+regulations</b></heading></head>
+
+<tier type="subclause" id="sch.4-sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_93b0ec20-10a7-4bab-844d-3edd64144390"></attrib>
+<attrib name="id" value="sch.4-sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of the following
+Acts&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f9aab4f0-7478-46ae-915f-c409b918228e" id="sch.4-sec.2-ssec.1-para1">
+<block><txt break.before="1">this Act</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ccfde153-4c02-45d1-9e80-128857a6f75e"
+id="sch.4-sec.2-ssec.1-para1-oc.2">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2003-050"><name emphasis="yes"><i>Community Relations Commission
+and Principles of Multiculturalism Amendment Act
+2003</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_71d41532-16be-4dfc-bb82-f3b73007bd11"
+id="sch.4-sec.2-ssec.1-para1-oc.3">
+<block><txt break.before="1">any other Act that amends this
+Act</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_48517404-138f-4c29-89ca-715eaf076aea"></attrib>
+<attrib name="id" value="sch.4-sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such provision may, if the regulations so
+provide, take effect on the date of assent to the Act concerned or a later
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.2-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9bf45869-133f-4473-9739-1db20ff7bdeb"></attrib>
+<attrib name="id" value="sch.4-sec.2-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect on a date that is earlier than the date of its publication in the
+Gazette, the provision does not operate so as&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d19f98ec-f035-4037-81e8-60ca0f1fc7b9" id="sch.4-sec.2-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4cdcd02b-2f36-4d04-899c-ff7c00c5c22e" id="sch.4-sec.2-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="sch.4-pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_085349c2-dd76-4742-aff7-c1eea13752b9"></attrib>
+<attrib name="id" value="sch.4-pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_39f4bc3c-de06-4f63-a6da-547f3ece128b"
+id="sch.4-pt.2-he"><b>Provisions arising from enactment of this
+Act</b></heading></head>
+
+<level type="clause" id="sch.4-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_323e788d-4881-4c1d-a758-b8e878792519"></attrib>
+<attrib name="id" value="sch.4-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_97a097be-c20e-4dc0-aff0-82318e9d3760"
+id="sch.4-sec.3-he"><b>Abolition of Ethnic Affairs
+Commission</b></heading></head>
+
+<tier type="subclause" id="sch.4-sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5d5244fe-c63a-41e0-9fd1-486f0344342a"></attrib>
+<attrib name="id" value="sch.4-sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Ethnic Affairs Commission constituted under
+the former Act is abolished.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fe7cf07c-30d6-4b08-ac20-b34ed86cbd60"></attrib>
+<attrib name="id" value="sch.4-sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Community Relations Commission is a
+continuation of, and the same legal entity as, the Ethnic Affairs
+Commission.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.3-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1ff82df4-4b9a-4d01-bd78-9ccde3238a30"></attrib>
+<attrib name="id" value="sch.4-sec.3-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A reference to the Ethnic Affairs Commission in
+any other Act, in any instrument made under any other Act or in any document
+is to be read as a reference to the Community Relations
+Commission.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.4-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0a1acf4e-d354-4302-80d0-a9040a2b6571"></attrib>
+<attrib name="id" value="sch.4-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_45c5c039-3199-4220-bb0e-c67f150dce73"
+id="sch.4-sec.4-he"><b>Chairperson of Ethnic Affairs
+Commission</b></heading></head>
+<block><txt break.before="1">The person who held office as Chairperson of the
+Ethnic Affairs Commission immediately before its abolition by this Act is
+taken to have been appointed under Part 2 of the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1988-033"><name emphasis="yes"><i>Public
+Sector Management Act 1988</i></name></legref> as the full-time Chairperson of
+the Community Relations Commission for the balance of the person&#8217;s term
+of office as Chairperson of the Ethnic Affairs
+Commission.</txt></block></level>
+
+
+<level type="clause" id="sch.4-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_25455c29-8582-4528-a912-10727c63618c"></attrib>
+<attrib name="id" value="sch.4-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_77b63018-a73b-4801-97c4-0e0222120745"
+id="sch.4-sec.5-he"><b>Commissioners (other than Chairperson) of Ethnic
+Affairs Commission</b></heading></head>
+
+<tier type="subclause" id="sch.4-sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c1f45267-0a25-4a7b-a96b-3fe5cf162147"></attrib>
+<attrib name="id" value="sch.4-sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person who held office as a commissioner of the
+Ethnic Affairs Commission (other than the Chairperson) immediately before its
+abolition by this Act is taken to have been appointed under this Act as a
+part-time commissioner of the Community Relations Commission for the balance
+of the person&#8217;s term of office as a commissioner of the Ethnic Affairs
+Commission.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cfc3c4e4-03a5-4da4-bba2-99cb1ab43965"></attrib>
+<attrib name="id" value="sch.4-sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such person who also held office as the
+Deputy Chairperson of the Ethnic Affairs Commission immediately before its
+abolition by this Act is taken to have been appointed under this Act as the
+Deputy Chairperson of the Community Relations
+Commission.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.5-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_31419b42-9d62-4346-afdf-87217e5d53f9"></attrib>
+<attrib name="id" value="sch.4-sec.5-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This clause has effect even though the number of
+persons taken to be appointed as commissioners of the Community Relations
+Commission exceeds the maximum number of commissioners permitted by this
+Act.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="sch.4-pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e2772e1c-bb46-4a64-a2f1-e64ee8645768"></attrib>
+<attrib name="id" value="sch.4-pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_c2bd7c32-65b0-4f56-9fc6-3c1d4662fbd6"
+id="sch.4-pt.3-he"><b>Provisions arising from enactment of the <legref
+jurisd="NSW" type="act" check="unknown" refid="act-2014-064"><name
+emphasis="yes"><i>Multicultural NSW Legislation Amendment Act
+2014</i></name></legref></b></heading></head>
+
+<level type="clause" id="sch.4-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_615031c9-a94e-41ea-92ab-cb43a9467287"></attrib>
+<attrib name="id" value="sch.4-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_3afddfd5-e67d-4639-8a65-028dfd36aa0d"
+id="sch.4-sec.6-he"><b>Community Relations Commission continued as
+Multicultural NSW</b></heading></head>
+
+<tier type="subclause" id="sch.4-sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5bbf3502-dc9f-42ee-88c1-ac7bff98613b"></attrib>
+<attrib name="id" value="sch.4-sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Multicultural NSW is a continuation of, and the
+same legal entity as, the Community Relations
+Commission.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b43dd23c-b0c6-4678-9ee4-84008779071e"></attrib>
+<attrib name="id" value="sch.4-sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A reference to the Community Relations Commission
+in any other Act, in any instrument made under any other Act or in any other
+document is to be read as a reference to Multicultural
+NSW.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.4-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_019f9961-4f94-4e95-9487-b0515c5c576d"></attrib>
+<attrib name="id" value="sch.4-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_ceb7283a-d8c5-497b-9cf8-4fe11f654b35"
+id="sch.4-sec.7-he"><b>Chairperson of Community Relations
+Commission</b></heading></head>
+
+<tier type="subclause" id="sch.4-sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_212ee3c8-e881-4086-8f1c-41560d6173c9"></attrib>
+<attrib name="id" value="sch.4-sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The person who held office as Chairperson of the
+Community Relations Commission immediately before the commencement of this
+clause is taken to have been appointed as the Chairperson of the Advisory
+Board for the balance of the person&#8217;s term of office as Chairperson of
+the Community Relations Commission.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_12af4154-ea4a-4b20-8209-7cf251503aa6"></attrib>
+<attrib name="id" value="sch.4-sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A reference to the Chairperson of the Community
+Relations Commission in any other Act, in any instrument made under any other
+Act or in any other document is to be read as a reference to the Chief
+Executive Officer of Multicultural NSW.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.4-sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d4b27738-d7f9-465c-8e20-edf179835d95"></attrib>
+<attrib name="id" value="sch.4-sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_5a12e363-bd3a-4d79-ba5f-a423e650a8df"
+id="sch.4-sec.8-he"><b>Commissioners of Community Relations
+Commission</b></heading></head>
+
+<tier type="subclause" id="sch.4-sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_08effd0f-8615-4cb3-8fae-27414a66c5d0"></attrib>
+<attrib name="id" value="sch.4-sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person who held office as a commissioner of the
+Community Relations Commission immediately before the commencement of this
+clause is taken to have been appointed under this Act as a member of the
+Advisory Board for the balance of the person&#8217;s term of office as a
+commissioner of the Community Relations Commission.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fac259d7-9628-4543-8358-2b8d4a17e99b"></attrib>
+<attrib name="id" value="sch.4-sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such person who also held office as the
+Deputy Chairperson of the Community Relations Commission immediately before
+the commencement of this clause is also taken to have been appointed under
+this Act as the Deputy Chairperson of the Advisory Board for the balance of
+the person&#8217;s term of office as the Deputy Chairperson of the Community
+Relations Commission.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_23c49d7f-7042-4639-933d-0a72c0d682d8"></attrib>
+<attrib name="id" value="sch.4-sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A person taken to have been appointed as the
+Deputy Chairperson of the Advisory Board under this clause is, in the absence
+of the Chairperson, to preside at a meeting of the Advisory Board. In the
+absence of both the Chairperson and the Deputy Chairperson, clause 4 (2) of
+Schedule 2 applies.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c9b0c3c4-4f9a-4f95-b06f-b018bbf4b5f9"></attrib>
+<attrib name="id" value="sch.4-sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A reference to a commissioner of the Community
+Relations Commission in any other Act, in any instrument made under any other
+Act or in any other document is to be read as a reference to a member of the
+Advisory Board.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.4-sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_10db3e65-6af8-4daf-b622-fa8df9bdcae9"></attrib>
+<attrib name="id" value="sch.4-sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_676f7492-4e7e-476d-8a75-29d77c9769ef"
+id="sch.4-sec.9-he"><b>Multicultural principles</b></heading></head>
+<block><txt break.before="1">A reference in any Act, in any instrument made
+under an Act or in any other document to the principles of multiculturalism
+(within the meaning of this Act immediately before the commencement of this
+clause) is to be read as a reference to the multicultural
+principles.</txt></block></level>
+</level>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 4:</b> Am 2003 No 50,
+Sch 1 [4]; 2014 No 64, Sch 1 [56] [57].</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_034a9ce7-1d96-4110-98e0-7145be293051"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_9302adff-5e15-40fe-b43e-565adf12fc02"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2000-077"><name emphasis="yes"><i>Multicultural NSW Act
+2000</i></name> No 77</legref> (formerly <legref jurisd="NSW" type="act"
+check="unknown" refid="act-2000-077"><name emphasis="yes"><i>Community
+Relations Commission and Principles of Multiculturalism Act
+2000</i></name></legref>). Assented to 9.11.2000. Date of commencement,
+13.3.2001, sec 2 and GG No 41 of 23.2.2001, p 777. This Act has been amended
+as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_fb5b5e64-9730-45e1-9781-824c5761de51" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_b9a0dcc5-bbca-4f22-bd9a-84d75e1b44cf" id="ed-tbl-tblr">
+<entry colname="1" guid="_ac7ae20b-8210-4180-915c-fd953a327a53"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>2003</b></txt></entry>
+<entry colname="2" guid="_e7b59b2a-9034-4552-b894-ad4f0996f18b"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 50</txt></entry>
+<entry colname="3" guid="_f3fc8f6b-0b66-4636-b387-c0f113d07146"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2003-050"><name emphasis="yes"><i>Community Relations Commission
+and Principles of Multiculturalism Amendment Act 2003</i></name></legref>.
+Assented to 23.10.2003.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_18094d6a-ea8a-4acf-a6d6-262073256cb9" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_e74bba42-285f-4f51-891f-120fa649895d"
+id="ed-tbl-tblr-oc.2-tble1"></entry>
+<entry colname="2" guid="_1a7f86c3-f8c4-469e-bf18-95569d77cd8b"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 82</txt></entry>
+<entry colname="3" guid="_b8357851-c3f3-4c50-9a2a-c84261c5593d"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2003-082"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2003</i></name></legref>. Assented to
+27.11.2003.</txt>
+<txt break.before="1">Date of commencement of Sch 3, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_d821e792-6814-4ce6-8027-4b21120347a6" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_09c4be82-ad2f-4491-a504-664cbc10854c"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>2006</b></txt></entry>
+<entry colname="2" guid="_1dd4e7ce-1ec7-42b1-9688-ad7df297f42b"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 2</txt></entry>
+<entry colname="3" guid="_fa432dec-4c41-4b86-904b-528ac4272b75"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2006-002"><name emphasis="yes"><i>Public Sector Employment
+Legislation Amendment Act 2006</i></name></legref>. Assented to
+13.3.2006.</txt>
+<txt break.before="1">Date of commencement, 17.3.2006, sec 2 and GG No 35 of
+17.3.2006, p 1378.</txt></block></entry></row>
+
+
+<row guid="_3cdd9663-5098-492f-a711-724ea9068f80" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_26751210-0c45-4618-8778-9cacba77de23"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>2009</b></txt></entry>
+<entry colname="2" guid="_c86f6b20-eaa7-4d52-a17f-7af917d08db3"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 96</txt></entry>
+<entry colname="3" guid="_509fce8f-eb3e-41a2-9379-1d8828b795fe"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2009-096"><name emphasis="yes"><i>Public Sector Restructure
+(Miscellaneous Acts Amendments) Act 2009</i></name></legref>. Assented to
+30.11.2009.</txt>
+<txt break.before="1">Date of commencement of Sch 4, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_d1589e42-cd91-4ef4-bfd3-6810f2f4631d" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_58403a14-2f73-4d58-8a19-aa7f22ae96f6"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>2010</b></txt></entry>
+<entry colname="2" guid="_6c900d40-8682-494b-b116-e8e3c38e879e"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 62</txt></entry>
+<entry colname="3" guid="_759275be-ecd7-4b6c-9634-1389bc86c537"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2010-062"><name emphasis="yes"><i>Community Relations Commission
+and Principles of Multiculturalism Amendment Act 2010</i></name></legref>.
+Assented to 28.6.2010.</txt>
+<txt break.before="1">Date of commencement of Sch 1, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_f5586b3c-564e-461d-9351-e740ffccbf37" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_ee4632d3-246c-42da-a6cb-5ce3eb5501be"
+id="ed-tbl-tblr-oc.6-tble1"></entry>
+<entry colname="2" guid="_70e1536c-e9e4-4a2f-84ad-ffb05670662d"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">No 119</txt></entry>
+<entry colname="3" guid="_1ca7fb13-3f77-4196-9c9f-3e51b6f6e47e"
+id="ed-tbl-tblr-oc.6-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2010-119"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2010</i></name></legref>. Assented to
+29.11.2010.</txt>
+<txt break.before="1">Date of commencement of Sch 1.4, 7.1.2011, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_ef1c063c-c2ce-4f83-a214-beeff7dd6fc2" id="ed-tbl-tblr-oc.7">
+<entry colname="1" guid="_4d36aee5-8eb5-4535-a4e5-b045e66d7a95"
+id="ed-tbl-tblr-oc.7-tble1"><txt break.before="1"><b>2014</b></txt></entry>
+<entry colname="2" guid="_517bbe57-1eba-4e62-b13a-0d88977abd9e"
+id="ed-tbl-tblr-oc.7-tble2"><txt break.before="1">No 64</txt></entry>
+<entry colname="3" guid="_6349c5f6-8d06-41e9-9899-a3a89c50e7ed"
+id="ed-tbl-tblr-oc.7-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2014-064"><name emphasis="yes"><i>Multicultural NSW Legislation
+Amendment Act 2014</i></name></legref>. Assented to 28.10.2014.</txt>
+<txt break.before="1">Date of commencement, 24.11.2014, sec 2 and 2014 (714)
+LW 14.11.2014.</txt></block></entry></row>
+
+
+<row guid="_6a77fe52-5427-487e-9110-f84c65783823" id="ed-tbl-tblr-oc.8">
+<entry colname="1" guid="_409303ab-226a-497c-aa07-1da8d38fb1d7"
+id="ed-tbl-tblr-oc.8-tble1"><txt break.before="1"><b>2018</b></txt></entry>
+<entry colname="2" guid="_bcc4fe00-9df6-43c7-9b25-4ad81b1dfe13"
+id="ed-tbl-tblr-oc.8-tble2"><txt break.before="1">No 70</txt></entry>
+<entry colname="3" guid="_125cc7a4-d8fe-4f6f-831c-8247dead23c3"
+id="ed-tbl-tblr-oc.8-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2018-070"><name emphasis="yes"><i>Government Sector Finance
+Legislation (Repeal and Amendment) Act 2018</i></name></legref>. Assented to
+22.11.2018.</txt>
+<txt break.before="1">Date of commencement of Sch 4.69, 1.7.2021, sec 2(1) and
+2021 (305) LW 25.6.2021.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_4f114198-4d2c-41ac-9c8a-633f77048135"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_1b122c55-d26a-4aea-9872-7bd9e3a10cf3" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_f0328fd4-03b7-49d3-919b-82da285c16ac" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_82bdcd82-009d-4f32-b632-c8977970a849"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Long title</txt></entry>
+<entry colname="2" guid="_7dd8b08b-e890-4d19-98ab-f450a46dc358"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 2014 No 64, Sch 1 [1]
+[2].</txt></entry></row>
+
+
+<row guid="_80f2713b-e32c-4a0c-bd0b-72aee98fa466" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_8e9217fc-e38d-4cd1-9076-bc97cc36ba4e"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Preamble</txt></entry>
+<entry colname="2" guid="_28342218-b9f5-4e81-8360-cf291d2d437c"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 2014 No 64, Sch 1
+[3].</txt></entry></row>
+
+
+<row guid="_5f7388e5-d743-4dfa-a56c-6d5ae0eb1884" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_f4be6d5c-ded0-442e-97db-a7f490452758"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 1</txt></entry>
+<entry colname="2" guid="_31c6a75f-5c52-482b-9bc4-e73eaf4a5ab1"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Am 2014 No 64, Sch 1
+[4].</txt></entry></row>
+
+
+<row guid="_2c009d95-e0a3-4723-b0e5-e8e500ebd48b" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_16682bed-8486-43bf-84dd-50ecc401f4d8"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_9fb733a6-3d3d-41f7-8854-ea344e9f1fdd"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Am 2010 No 62, Sch 1
+[1]; 2014 No 64, Sch 1 [5]&#8211;[7].</txt></entry></row>
+
+
+<row guid="_6d328683-74a7-46ad-9561-05283ae8a713" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_2f0861da-3edb-43d4-825a-3e25931e57cb"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_b3b8ef63-b3b5-4a9b-9440-aba6162b7adb"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Am 2014 No 64, Sch 1
+[8]&#8211;[10].</txt></entry></row>
+
+
+<row guid="_c9df015e-83dd-4a7a-b9fd-b7ef2d5ab3de" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_61ccab7d-b2db-4966-8249-7ab9a97dc52a"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Part 2,
+heading</txt></entry>
+<entry colname="2" guid="_fdb884ab-1ddb-480b-bb3e-58f1a279264f"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Am 2014 No 64, Sch 1
+[11].</txt></entry></row>
+
+
+<row guid="_cfca0536-e976-4fd8-b0a2-b58f7226249b" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_3355c162-1d73-442b-bbf9-1589846642ea"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 6</txt></entry>
+<entry colname="2" guid="_5f47c11d-87e2-4367-9c5e-104364536346"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Am 2014 No 64, Sch 1
+[12]&#8211;[14].</txt></entry></row>
+
+
+<row guid="_b99028eb-262e-4e38-ae27-a090f3ab1239" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_189722c4-55c7-413c-bbcf-a84cebbdc5ca"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sec 7</txt></entry>
+<entry colname="2" guid="_1faf820d-78b5-4cb8-837c-a7418eebbf30"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Am 2003 No 50, Sch 1
+[1] [2]; 2010 No 119, Sch 1.4 [1]. Subst 2014 No 64, Sch 1
+[15].</txt></entry></row>
+
+
+<row guid="_42292a25-ba5f-40b9-8be9-b852a57e052e" id="ed-tbl-oc.2-tblr-oc.9">
+<entry colname="1" guid="_a11edee4-489b-4e32-b3d8-25a023ef5d18"
+id="ed-tbl-oc.2-tblr-oc.9-tble1"><txt break.before="1">Sec 8</txt></entry>
+<entry colname="2" guid="_7d221afe-ee7f-443c-a5c3-e17ec64a59dc"
+id="ed-tbl-oc.2-tblr-oc.9-tble2"><txt break.before="1">Am 2003 No 50, Sch 2
+[1]. Subst 2014 No 64, Sch 1 [15].</txt></entry></row>
+
+
+<row guid="_f605949b-af5a-4b8d-a6ea-709b6be1dea9"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry colname="1" guid="_32fddcbb-7187-45b6-b793-f7f566f7fd44"
+id="ed-tbl-oc.2-tblr-oc.10-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_4084f4c7-4f75-4173-b05d-6d74e0de9959"
+id="ed-tbl-oc.2-tblr-oc.10-tble2"><txt break.before="1">Am 2003 No 50, Sch 2
+[1]. Rep 2006 No 2, Sch 4.12 [1].</txt></entry></row>
+
+
+<row guid="_2267633f-4842-4dd6-96d2-0fa9f82edf37"
+id="ed-tbl-oc.2-tblr-oc.11">
+<entry colname="1" guid="_2669055b-93cd-47b8-afd1-1af54dd73bcc"
+id="ed-tbl-oc.2-tblr-oc.11-tble1"><txt break.before="1">Sec 10</txt></entry>
+<entry colname="2" guid="_262c52fd-6d04-4c0a-8df9-67a25e5ae8d5"
+id="ed-tbl-oc.2-tblr-oc.11-tble2"><txt break.before="1">Am 2014 No 64, Sch 1
+[16]&#8211;[19].</txt></entry></row>
+
+
+<row guid="_de83dc1b-c2ff-4fea-bf0e-d4e9290f9332"
+id="ed-tbl-oc.2-tblr-oc.12">
+<entry colname="1" guid="_861679c2-d937-4daa-97ce-cb3b45feb066"
+id="ed-tbl-oc.2-tblr-oc.12-tble1"><txt break.before="1">Sec 11</txt></entry>
+<entry colname="2" guid="_4c008df8-b79a-4b6f-bd7e-f83f771780ad"
+id="ed-tbl-oc.2-tblr-oc.12-tble2"><txt break.before="1">Subst 2014 No 64, Sch
+1 [20].</txt></entry></row>
+
+
+<row guid="_34d33810-d3ed-4869-bb4c-a72711d0ec79"
+id="ed-tbl-oc.2-tblr-oc.13">
+<entry colname="1" guid="_53531b4f-6bb6-4bc8-a688-81005268463f"
+id="ed-tbl-oc.2-tblr-oc.13-tble1"><txt break.before="1">Part 3,
+heading</txt></entry>
+<entry colname="2" guid="_591b6b6a-ad0c-4348-aade-3c9bd335f865"
+id="ed-tbl-oc.2-tblr-oc.13-tble2"><txt break.before="1">Am 2014 No 64, Sch 1
+[21].</txt></entry></row>
+
+
+<row guid="_e0cd092e-fe91-4713-bb4d-247ae1f4430a"
+id="ed-tbl-oc.2-tblr-oc.14">
+<entry colname="1" guid="_78a761d1-5b0b-480d-9df0-2a1b04dd883a"
+id="ed-tbl-oc.2-tblr-oc.14-tble1"><txt break.before="1">Sec 12</txt></entry>
+<entry colname="2" guid="_1ffc0eec-3f6c-4aac-a0aa-2f75dfb1d5a8"
+id="ed-tbl-oc.2-tblr-oc.14-tble2"><txt break.before="1">Subst 2014 No 64, Sch
+1 [22].</txt></entry></row>
+
+
+<row guid="_38ffd031-78d6-4b5e-a433-36f634e71cca"
+id="ed-tbl-oc.2-tblr-oc.15">
+<entry colname="1" guid="_f27d30a7-0ab4-4ab5-b726-215a5dbff3f4"
+id="ed-tbl-oc.2-tblr-oc.15-tble1"><txt break.before="1">Sec 13</txt></entry>
+<entry colname="2" guid="_fdd847d1-7221-43f8-b102-492deb5200bf"
+id="ed-tbl-oc.2-tblr-oc.15-tble2"><txt break.before="1">Am 2003 No 50, Sch 1
+[3]; 2006 No 2, Sch 4.12 [2]; 2010 No 62, Sch 1 [2]&#8211;[5]. Subst 2014 No
+64, Sch 1 [22].</txt></entry></row>
+
+
+<row guid="_ea87bc2b-13a2-45cf-b8eb-007207db2921"
+id="ed-tbl-oc.2-tblr-oc.16">
+<entry colname="1" guid="_1d662352-92a6-4c79-97b6-88fb98320d86"
+id="ed-tbl-oc.2-tblr-oc.16-tble1"><txt break.before="1">Sec 13A</txt></entry>
+<entry colname="2" guid="_23dc7634-0a68-4b7a-84db-e1608c369968"
+id="ed-tbl-oc.2-tblr-oc.16-tble2"><txt break.before="1">Ins 2014 No 64, Sch 1
+[22].</txt></entry></row>
+
+
+<row guid="_edf54e12-f5f2-4bf3-8436-c9a5e8430520"
+id="ed-tbl-oc.2-tblr-oc.17">
+<entry colname="1" guid="_168ea454-2c69-4d1d-97e2-eeb791d399de"
+id="ed-tbl-oc.2-tblr-oc.17-tble1"><txt break.before="1">Sec 14</txt></entry>
+<entry colname="2" guid="_249b6cd3-c16f-47ba-ace9-f423d01a58c6"
+id="ed-tbl-oc.2-tblr-oc.17-tble2"><txt break.before="1">Am 2010 No 62, Sch 1
+[6]; 2014 No 64, Sch 1 [23]&#8211;[26].</txt></entry></row>
+
+
+<row guid="_d0c2b75e-b619-45e3-bcef-b8b9960dde84"
+id="ed-tbl-oc.2-tblr-oc.18">
+<entry colname="1" guid="_0d6d3269-7460-4cc0-b29f-e1484c1f60c1"
+id="ed-tbl-oc.2-tblr-oc.18-tble1"><txt break.before="1">Sec 15</txt></entry>
+<entry colname="2" guid="_f9b9df8c-3bfb-4375-9827-a4315dade1ef"
+id="ed-tbl-oc.2-tblr-oc.18-tble2"><txt break.before="1">Am 2014 No 64, Sch 1
+[27].</txt></entry></row>
+
+
+<row guid="_3a3b5331-e6d5-405e-b268-68689f0bde02"
+id="ed-tbl-oc.2-tblr-oc.19">
+<entry colname="1" guid="_97a490fa-2dc5-4a16-b262-f5038adc21c7"
+id="ed-tbl-oc.2-tblr-oc.19-tble1"><txt break.before="1">Sec 16</txt></entry>
+<entry colname="2" guid="_febc8f14-fd28-48f2-8dba-f6d9cd0fda5f"
+id="ed-tbl-oc.2-tblr-oc.19-tble2"><txt break.before="1">Subst 2014 No 64, Sch
+1 [28].</txt></entry></row>
+
+
+<row guid="_607ecf81-0f78-4b58-ba84-9004f052fb83"
+id="ed-tbl-oc.2-tblr-oc.20">
+<entry colname="1" guid="_bdd12ba6-deb6-492c-aaa6-185d1df0aa8f"
+id="ed-tbl-oc.2-tblr-oc.20-tble1"><txt break.before="1">Sec 18</txt></entry>
+<entry colname="2" guid="_eb1af179-1dac-4d54-a4d1-e8943b228fec"
+id="ed-tbl-oc.2-tblr-oc.20-tble2"><txt break.before="1">Am 2010 No 62, Sch 1
+[7]; 2014 No 64, Sch 1 [29]; 2018 No 70, Sch 4.69[1] [2].</txt></entry></row>
+
+
+<row guid="_6eeffe15-c24b-49eb-99d5-d2ef28ec4125"
+id="ed-tbl-oc.2-tblr-oc.21">
+<entry colname="1" guid="_4bf7d27d-3dd8-4bdd-9be2-3659f766e45c"
+id="ed-tbl-oc.2-tblr-oc.21-tble1"><txt break.before="1">Sec 19</txt></entry>
+<entry colname="2" guid="_a34d6a39-2dbd-499a-83e9-cf5406547648"
+id="ed-tbl-oc.2-tblr-oc.21-tble2"><txt break.before="1">Am 2014 No 64, Sch 1
+[30].</txt></entry></row>
+
+
+<row guid="_7c90b170-ad1b-4add-8b70-cce6899f56be"
+id="ed-tbl-oc.2-tblr-oc.22">
+<entry colname="1" guid="_55ea21e3-f0f0-4fe8-b512-b5f679a457d5"
+id="ed-tbl-oc.2-tblr-oc.22-tble1"><txt break.before="1">Sec 20</txt></entry>
+<entry colname="2" guid="_4c73dbbf-a58f-430d-b6cd-9470eedd63ea"
+id="ed-tbl-oc.2-tblr-oc.22-tble2"><txt break.before="1">Am 2014 No 64, Sch 1
+[31] [32].</txt></entry></row>
+
+
+<row guid="_9412f6aa-f901-43e9-8d75-ccda38b7bacf"
+id="ed-tbl-oc.2-tblr-oc.23">
+<entry colname="1" guid="_c9a712ac-4887-478c-9532-fe352e6f6f3d"
+id="ed-tbl-oc.2-tblr-oc.23-tble1"><txt break.before="1">Sec 21</txt></entry>
+<entry colname="2" guid="_ca468365-4a41-44a0-8f77-734037b886ac"
+id="ed-tbl-oc.2-tblr-oc.23-tble2"><txt break.before="1">Subst 2014 No 64, Sch
+1 [33].</txt></entry></row>
+
+
+<row guid="_ddfee435-2d54-4b18-aef1-82dd3d896841"
+id="ed-tbl-oc.2-tblr-oc.24">
+<entry colname="1" guid="_18700145-f078-476d-8182-b7362242bbd9"
+id="ed-tbl-oc.2-tblr-oc.24-tble1"><txt break.before="1">Sec 22</txt></entry>
+<entry colname="2" guid="_60c9d7e2-a9bd-4744-a17b-eabb2cbd27af"
+id="ed-tbl-oc.2-tblr-oc.24-tble2"><txt break.before="1">Am 2014 No 64, Sch 1
+[34].</txt></entry></row>
+
+
+<row guid="_ec91620a-f205-48a2-8355-b387358e50d7"
+id="ed-tbl-oc.2-tblr-oc.25">
+<entry colname="1" guid="_99cf5c3d-de19-4fb3-a61d-2d5b4c8c2f98"
+id="ed-tbl-oc.2-tblr-oc.25-tble1"><txt break.before="1">Sec 24</txt></entry>
+<entry colname="2" guid="_0c741bba-7463-4324-95b0-947fc49efff2"
+id="ed-tbl-oc.2-tblr-oc.25-tble2"><txt break.before="1">Rep 2003 No 82, Sch
+3.</txt></entry></row>
+
+
+<row guid="_7e776eca-7c97-4bfc-a0a8-7cdaad916b61"
+id="ed-tbl-oc.2-tblr-oc.26">
+<entry colname="1" guid="_9448d64b-3025-4a10-9a0c-516694572629"
+id="ed-tbl-oc.2-tblr-oc.26-tble1"><txt break.before="1">Sch 1,
+heading</txt></entry>
+<entry colname="2" guid="_21430512-1d34-4e33-88d4-bbd842a911a1"
+id="ed-tbl-oc.2-tblr-oc.26-tble2"><txt break.before="1">Am 2014 No 64, Sch 1
+[35].</txt></entry></row>
+
+
+<row guid="_4049d8fb-e047-46d5-9f2a-ff49e55ca9e3"
+id="ed-tbl-oc.2-tblr-oc.27">
+<entry colname="1" guid="_da65daa2-9360-472b-b929-cb3a6bfb8282"
+id="ed-tbl-oc.2-tblr-oc.27-tble1"><txt break.before="1">Sch 1</txt></entry>
+<entry colname="2" guid="_be4fe25a-c5d9-4d48-8a47-cadb388a8a8e"
+id="ed-tbl-oc.2-tblr-oc.27-tble2"><txt break.before="1">Am 2003 No 50, Sch 2
+[2] [3]; 2009 No 96, Sch 4 [1]&#8211;[3]; 2010 No 62, Sch 1 [8]&#8211;[10];
+2014 No 64, Sch 1 [36]&#8211;[46].</txt></entry></row>
+
+
+<row guid="_55525044-2268-46cb-9c40-737edcea111b"
+id="ed-tbl-oc.2-tblr-oc.28">
+<entry colname="1" guid="_1f2ff59f-cfc9-499d-b06e-892d42755a56"
+id="ed-tbl-oc.2-tblr-oc.28-tble1"><txt break.before="1">Sch 2</txt></entry>
+<entry colname="2" guid="_330db565-a8ed-4d79-90e2-f2b09e34123f"
+id="ed-tbl-oc.2-tblr-oc.28-tble2"><txt break.before="1">Am 2009 No 96, Sch 4
+[4]; 2010 No 62, Sch 1 [11]; 2010 No 119, Sch 1.4 [2]; 2014 No 64, Sch 1
+[47]&#8211;[55].</txt></entry></row>
+
+
+<row guid="_8335e962-442a-41f2-8969-dcd6d963c3c3"
+id="ed-tbl-oc.2-tblr-oc.29">
+<entry colname="1" guid="_e0d968f5-0e8f-4f16-82c7-fc8530d4ef6e"
+id="ed-tbl-oc.2-tblr-oc.29-tble1"><txt break.before="1">Sch 3</txt></entry>
+<entry colname="2" guid="_baa443de-2004-4341-bdb7-818e72bd940d"
+id="ed-tbl-oc.2-tblr-oc.29-tble2"><txt break.before="1">Rep 2003 No 82, Sch
+3.</txt></entry></row>
+
+
+<row guid="_a1c6d262-2aea-46db-a288-7c09ab339579"
+id="ed-tbl-oc.2-tblr-oc.30">
+<entry colname="1" guid="_fc13b1c8-a8f9-482e-b9a8-501a9936b0e2"
+id="ed-tbl-oc.2-tblr-oc.30-tble1"><txt break.before="1">Sch 4</txt></entry>
+<entry colname="2" guid="_248484bf-3bef-482e-b57a-2e3e6777f315"
+id="ed-tbl-oc.2-tblr-oc.30-tble2"><txt break.before="1">Am 2003 No 50, Sch 1
+[4]; 2014 No 64, Sch 1 [56] [57].</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

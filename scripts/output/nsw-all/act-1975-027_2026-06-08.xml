@@ -1,0 +1,3706 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1975-027"
+title="Teacher Housing Authority Act 1975"
+year="1975"
+number="27"
+enact.or.made.date="1975-04-14"
+first.valid.date="2020-10-27"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1975</metacontent>
+<metacontent class="year.assent">1975</metacontent>
+<metacontent class="publication.date">2026-05-06</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2020-030</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1975-027</metacontent>
+<metacontent
+class="version.desc.id">93a24b3f-d7d8-4f44-b9d1-614b7b0a8ee6</metacontent>
+<metacontent
+class="version.series.id">35b90c14-43d9-4926-8008-13497ebe2320</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Teacher Housing Authority Act 1975"></attrib>
+<attrib name="year.passed" value="1975"></attrib>
+<attrib name="year.assent" value="1975"></attrib>
+<attrib name="no" value="27"></attrib>
+<attrib name="publication.date" value="2026-05-06"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2020-030"></attrib>
+<attrib name="first.valid.date" value="2020-10-27"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1975-04-14"></attrib>
+<attrib name="id" value="act-1975-027"></attrib>
+<attrib name="version.desc.id"
+value="93a24b3f-d7d8-4f44-b9d1-614b7b0a8ee6"></attrib>
+<attrib name="version.series.id"
+value="35b90c14-43d9-4926-8008-13497ebe2320"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_7cb4ae59-7da3-4d37-a898-3e31981e1131"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_7558b1e0-0f58-4cf0-96b7-adf611c96048"
+id="cd-status-he"><b>See also&#8212;</b></heading></head>
+<block><txt break.before="1"><legref type="bill" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Bill 2026</i></name></legref></txt></block></tier>
+
+
+<tier type="statusrecord" id="cd-status-oc.2">
+<parentattributes>
+<attrib name="guid" value="_e520e65e-2d74-4e03-9330-115036949151"></attrib>
+<attrib name="id" value="cd-status-oc.2"></attrib></parentattributes>
+
+<head><heading guid="_fe8ec40a-7100-4648-abcf-63710b6ccc6f"
+id="cd-status-oc.2-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_90d35857-2916-40bf-8e2f-3291e99c3d50"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to constitute the Teacher Housing
+Authority of New South Wales and to define its powers, authorities, duties and
+functions; to provide that certain land shall vest in the Authority; to amend
+the <legref type="act" jurisd="NSW" check="unknown"><name
+emphasis="yes"><i>Public Service Act 1902</i></name></legref> and certain
+other Acts; and for purposes connected therewith.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_77ca89a4-ddf5-42ad-9a76-c9d6b9ae2272"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_c55a0016-3174-4df6-919e-da85e5e4bc66"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_475c4f74-50b2-49a7-a8be-8298d276c148"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_d38bc8bf-a3a1-4395-85b2-508bcf75c430"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act may be cited as the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1975-027"><name
+emphasis="yes"><i>Teacher Housing Authority Act
+1975</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_789e7f15-5a71-4da7-a98d-76b85320de7c"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_2b740952-c550-416d-8c1b-5d129d943897"
+id="sec.2-he"><b>Commencement</b></heading></head>
+
+<tier type="subclause" id="sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_67139140-7a7e-4c1f-80e3-bcf84f3feafa"></attrib>
+<attrib name="id" value="sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Except as provided in subsection (2), this Act
+shall commence on the date of assent to this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c4285a41-5944-4114-91c2-78eb6e941704"></attrib>
+<attrib name="id" value="sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Part 3 shall commence on such day as may be
+appointed by the Governor in respect thereof and as may be notified by
+proclamation published in the Gazette.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.3" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7f6e1b0b-dead-4907-ab84-fbc8b82fadc8"></attrib>
+<attrib name="id" value="sec.3"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>3</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Rep 1987 No 14,
+Sch 2 (1).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7963e6e7-3920-49f5-856f-37c6235f08a8"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_db032443-ddc1-4a68-987e-dc5ca5978802"
+id="sec.4-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aa2e66b7-9219-47c2-9f5f-4b1e5175317f"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act, except in so far as the context or
+subject-matter otherwise indicates or requires&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_83b8f045-cf2b-4504-ab38-78d682bcb536"
+id="sec.4-ssec.1-def.appointedday"><b><i>appointed day</i></b></defterm> means
+the day appointed by the Governor under section 2 (2).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_08f25f62-16ec-49ad-8fdf-fe1fb9e1266d"
+id="sec.4-ssec.1-def.Authority"><b><i>Authority</i></b></defterm> means the
+Teacher Housing Authority of New South Wales constituted under section 5
+(1).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_47c8b54d-b405-4cc8-8d29-cef0640bec57"
+id="sec.4-ssec.1-def.council"><b><i>council</i></b></defterm> means council
+within the meaning of the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1993-030"><name emphasis="yes"><i>Local Government Act
+1993</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d2459f07-df50-4a1c-b236-22f64193dfd7"
+id="sec.4-ssec.1-def.house"><b><i>house</i></b></defterm> means building used
+for teacher housing or intended to be so used.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_f518336c-a6ab-4df5-a480-bf59aae9279e"
+id="sec.4-ssec.1-def.member"><b><i>member</i></b></defterm> means member of
+the Authority.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_26edf09e-93e3-499f-a66f-ef9c31db1d99"
+id="sec.4-ssec.1-def.MinisterforEducation"><b><i>Minister for
+Education</i></b></defterm> means the Minister of the Crown for the time being
+administering the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1990-008"><name emphasis="yes"><i>Education Act
+1990</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_1fe5e1d0-6f1c-49f0-847b-abb2c0ceaa60"
+id="sec.4-ssec.1-def.MinisterforHousing"><b><i>Minister for
+Housing</i></b></defterm> means the Minister of the Crown for the time being
+administering the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2001-052"><name emphasis="yes"><i>Housing Act
+2001</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_4f08f711-bf55-4999-a6fd-759210864e0c"
+id="sec.4-ssec.1-def.region"><b><i>region</i></b></defterm> means a part of
+the State outside the County of Cumberland that is&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6a52d1dd-3e54-447b-9c79-3a578f83fdbd" id="sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a region established under the <legref type="act"
+jurisd="NSW" check="unknown"><name emphasis="yes"><i>Regional Organisation Act
+1972</i></name></legref>, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9816215f-2e9f-4744-98fd-4b9d577e81dd" id="sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a part of the State that&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_487b6cd8-c50a-4a00-a1c2-8afde0302c18"
+id="sec.4-ssec.1-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">is not within a region referred to in paragraph
+(a), and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_30b86089-744f-48a9-8048-97384a83e11c"
+id="sec.4-ssec.1-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">is declared by the Minister, by order published
+in the Gazette, to be a region for the purposes of this
+Act.</txt></block></li></list>
+</block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_83af1e4a-bbd2-4ea0-9a07-b94b1e362e8c"
+id="sec.4-ssec.1-def.regulation"><b><i>regulation</i></b></defterm> means
+regulation made under this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_8340ab10-b5ae-4131-bf9b-0540b84c775b"
+id="sec.4-ssec.1-def.school"><b><i>school</i></b></defterm> includes a TAFE
+establishment within the meaning of the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1990-118"><name emphasis="yes"><i>Technical and
+Further Education Commission Act 1990</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_86a07aad-c853-4433-bf77-9d0f93c49070"
+id="sec.4-ssec.1-def.schoolsite"><b><i>school site</i></b></defterm> means
+land on which a public school is erected.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d25f9ceb-c149-4199-977d-509d52052788"
+id="sec.4-ssec.1-def.teacher"><b><i>teacher</i></b></defterm>
+means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b6fbce85-19df-49f5-b8da-1a829176a1f4" id="sec.4-ssec.1-para1.a-oc.2">
+<no>(a)</no>
+<block><txt break.before="1">a member of the Teaching Service,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e5fc1a0b-66be-4fe2-85c9-7116935ccde4" id="sec.4-ssec.1-para1.b-oc.2">
+<no>(b)</no>
+<block><txt break.before="1">a person employed in the Public Service as a
+deputy superintendent (educational), educational officer or trained pre-school
+teacher.</txt></block></li></list>
+</block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_56874627-c3be-4a47-8d8f-d5b1340ad167"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 1980 No 24,
+Sch 2; 1987 No 14, Sch 1 (1); 1987 No 63, Sch 2; 1988 No 30, Sch 1; 1990 No
+118, Sch 3; 1993 No 32, Sch 2; 1993 No 108, Sch 1; 1999 No 31, Sch 3.18; 2001
+No 52, Sch 1.14; 2004 No 114, Sch 2.21 [1] [2]; 2007 No 27, Sch 2.56; 2015 No
+58, Sch 3.90 [1].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_272b50f0-a27d-4eea-805f-78a1336f4300"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_2fd8aefb-dde4-4804-ac41-0a074ab15f9e"
+id="pt.2-he"><b>Teacher Housing Authority of New South
+Wales</b></heading></head>
+
+<level type="division" id="pt.2-div.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_7bb5de6d-0a5d-4ea4-ac6b-aa666bd8467f"></attrib>
+<attrib name="id" value="pt.2-div.1"></attrib></parentattributes>
+
+<head>
+<no><b>Division 1</b></no><heading
+guid="_d9e7df92-0d20-48dd-8b57-d370403880f3"
+id="pt.2-div.1-he"><b>Establishment of the Authority</b></heading></head>
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ca510ef9-8800-4a0c-aab7-245e1e0d54c4"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_e7182d90-2b02-485c-b38e-45488e2e3561"
+id="sec.5-he"><b>Constitution of Teacher Housing Authority of New South
+Wales</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ccb3ff33-1a8d-44f9-9396-0405ff045bff"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There is hereby constituted a corporation with
+the corporate name &#8220;Teacher Housing Authority of New South
+Wales&#8221;.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9c6df3ff-de61-482e-a03b-cf5e4c45418e"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Authority&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d8865d3c-058a-47c4-9de3-0f8688e05941" id="sec.5-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">shall have and may exercise and perform the
+powers, authorities, duties and functions conferred or imposed upon it by or
+under this or any other Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_17ca06c1-f13d-416b-8572-7a65fddad268" id="sec.5-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">shall, for the purposes of any Act, be deemed to
+be a statutory body representing the Crown, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b60c81b5-69ad-4d2c-8a03-fd4d2a8a0013" id="sec.5-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">shall, in the exercise and performance of its
+powers, authorities, duties and functions (except in relation to the contents
+of a recommendation or report made by it to the Minister), be subject to the
+control and direction of the Minister.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ed0042b0-3a71-4701-b0a7-65d73d8df66b"></attrib>
+<attrib name="id" value="sec.5-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Notwithstanding subsection (2) (c), the Authority
+shall, in respect of land vested in or managed by it, fix licence or
+occupation fees and rentals in accordance with policies approved by the
+Treasurer from time to time.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.5A" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_044b447b-b203-4e4e-ac98-1abfccd981aa"></attrib>
+<attrib name="id" value="sec.5A"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>5A</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 5A:</b> Rep 1988 No 30,
+Sch 1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9d221303-449c-4e39-95a1-c2f128a5aae7"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_fc0a1a3b-c39e-4cf4-bfbb-0abb9e167710"
+id="sec.6-he"><b>Objects of Authority</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0875cc30-70de-470b-9c72-788a07084996"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The principal object of the Authority is to
+provide and maintain suitable and adequate housing accommodation for
+teachers.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_06273f21-6b7c-4ea6-a57f-ff011fa15e13"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting the generality of subsection (1)
+the Authority shall also have as its objects&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_28dd3350-f169-4930-92de-0764c9b83d4a" id="sec.6-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the initiation, promotion, commission and
+undertaking of surveys and investigations into the housing needs of
+teachers,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aba7ba29-7bf5-488a-9064-848d0134758d" id="sec.6-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the undertaking, promotion and encouragement of
+research into the design, construction and maintenance of housing suitable for
+teachers,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_86a58927-f6b4-40d7-becc-afb0913de3f5" id="sec.6-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the planning of the provision of a comprehensive
+and co-ordinated housing service for teachers throughout New South
+Wales,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4b61e20e-b750-40c4-9ce2-500a21d896d4" id="sec.6-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the provision, conduct, operation and maintenance
+of a housing service for teachers, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cb90e239-4cd9-4f0b-8461-cb43c72b24bf" id="sec.6-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the advising of, and the making of reports and
+recommendations to, the Minister in respect of matters relating to the housing
+of teachers.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f6fcf43d-5c0f-4036-82dc-ad196c184bcb"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_c4691e40-fd46-4fb6-8102-29e5e521715d"
+id="sec.7-he"><b>Appointment etc of members</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f40bf9cc-7e81-4c2d-b3e4-fc0c19110d4b"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Authority shall consist of 7 members of
+whom&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_33eb620c-6218-4b30-a6be-c7cb48062920" id="sec.7-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">4 shall be appointed by the
+Governor,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1540e5e8-4b15-42a7-a617-2bb223c2b901" id="sec.7-ssec.1-para1.a1">
+<no>(a1)</no>
+<block><txt break.before="1">one is to be a person employed in the Department
+of Education nominated by the Secretary of that
+Department,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c9d2af0a-064e-474e-be90-16dd030d6d77" id="sec.7-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">one is to be the Secretary of the Department of
+Planning, Industry and Environment or a person employed in that Department
+nominated by the Secretary,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7a06b4e3-e032-4d1b-870d-bf50015174ff" id="sec.7-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">one is to be a person employed in the Public
+Service whose principal duty is the management of the Authority&#8217;s
+activities.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.1A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_447bbd18-6239-4ebd-ae8d-b150167c1d5f"></attrib>
+<attrib name="id" value="sec.7-ssec.1A"></attrib></parentattributes>
+
+<head>
+<no>(1A)</no></head>
+<block><txt break.before="1">The member referred to in subsection (1) (b) is
+to be the Chairperson of the Authority.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f6841802-75eb-4e55-a4dd-af511d21c3a1"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Of the members of the Authority appointed by the
+Governor&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3768c500-579c-4a9a-beb5-5ed32af2a3db" id="sec.7-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">one is to be nominated by the Secretary of the
+Department of Education, being a member of staff of that Department serving in
+the western or north western region of the State,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_707232fb-eb98-42c1-8b40-49e53d0fc810" id="sec.7-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">one is to be nominated by the Managing Director
+of the TAFE Commission and is to be a senior financial manager of that
+Commission,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b9e0e222-7f98-4f69-b923-79669e27f6b9" id="sec.7-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">one shall be nominated by the Minister for
+Education from panels submitted by associations of teachers registered under
+the <legref type="act" jurisd="NSW" check="unknown" refid="act-1996-017"><name
+emphasis="yes"><i>Industrial Relations Act 1996</i></name></legref>, within
+such period as that Minister from time to time directs by notice in writing
+given to those associations, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aaae6d2a-dab4-491b-a8b2-707d718f9d6c" id="sec.7-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">one shall be nominated by the Minister for
+Housing and shall, in and by the instrument by which the member is appointed,
+be appointed to be the Deputy Chairperson of the
+Authority.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d3798782-feb6-4ded-9bb8-3774a5b52fde"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A panel referred to in subsection (2)
+(c)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_308f5012-81b4-43b3-b301-9d9609186de3" id="sec.7-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">shall comprise the names of not less than five
+teachers each of whom is employed in a region, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_edd069b0-f678-4072-a919-d06ab268eeae" id="sec.7-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">shall not contain the name of more than one
+teacher employed in the same region as regions are established at the time the
+Minister for Education gives the notice referred to in subsection (2)
+(c).</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a115d15e-a3c6-4e4a-ae62-9fe723a4dab6"></attrib>
+<attrib name="id" value="sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">If&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c4700218-d297-44e0-8b8f-192bbe4a4c2a" id="sec.7-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in the opinion of the Minister for Education
+there is no association referred to in subsection (2) (c),
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f272bfce-3111-4505-be59-996343559e72" id="sec.7-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">no panel constituted as referred to in subsection
+(3) is submitted to that Minister within the time specified in the notice
+referred to in subsection (2) (c),</txt></block></li></list>
+
+<txt break.before="1">the Governor may appoint a teacher who resides in a
+region at the time the appointment is made and who is nominated by the
+Minister for Education to be the member referred to in subsection (2) (c)
+instead of the member required to be nominated from a
+panel.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.5" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d8b77bf4-f284-4fab-9355-e2d69090ad01"></attrib>
+<attrib name="id" value="sec.7-ssec.5"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(5), (6)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<tier type="subclause" id="sec.7-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ba23fed9-e26d-4816-bb9f-a18bada5d4cb"></attrib>
+<attrib name="id" value="sec.7-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">The Secretary of the Department of Planning,
+Industry and Environment may appoint a person to act in the place of the
+member referred to in subsection (1) (c) while that member is from time to
+time absent from that office through illness or any other cause, and the
+person so appointed shall, while so acting, be deemed to be a member and shall
+have the immunities, powers, authorities, duties and functions of that
+member.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d418ffea-7852-4496-9a82-d7afd373223e"></attrib>
+<attrib name="id" value="sec.7-ssec.8"></attrib></parentattributes>
+
+<head>
+<no>(8)</no></head>
+<block><txt break.before="1">No person shall be concerned to inquire whether
+or not any occasion has arisen requiring or authorising a person to act in the
+place of a member in accordance with subsection (7) and all things done or
+omitted by the person while so acting shall be as valid and effectual and
+shall have the same consequences as if they had been done or omitted by the
+member.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_81084467-f70d-487b-8470-b26864a1e8d6"></attrib>
+<attrib name="id" value="sec.7-ssec.9"></attrib></parentattributes>
+
+<head>
+<no>(9)</no></head>
+<block><txt break.before="1">The person holding office as Chairperson of the
+Authority immediately before the commencement of this subsection (as inserted
+by the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2009-096"><name emphasis="yes"><i>Public Sector Restructure
+(Miscellaneous Acts Amendments) Act 2009</i></name></legref>) ceases, on that
+commencement, to hold office as Chairperson but continues, subject to this
+Act, to hold office as a member of the Authority for the remainder of the term
+for which the person was appointed as a member.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 7:</b> Am 1987 No 14,
+Schs 1 (2), 2 (2); 1990 No 108, Sch 1; 1994 No 32, Sch 1; 1994 No 95, Sch 1;
+1996 No 121, Sch 4.57; 2006 No 2, Sch 4.71 [1]; 2009 No 96, Sch 27
+[1]&#8211;[6]; 2015 No 58, Sch 3.90 [2]&#8211;[4]; 2020 No 30, Sch
+3.40.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.8" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_256f612e-953f-414c-8109-300c5733575b"></attrib>
+<attrib name="id" value="sec.8"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>8, 9</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 8:</b> Am 1976 No 4,
+Sch 5. Rep 1987 No 14, Sch 1 (3).</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Am 1976 No 4,
+Sch 5; 1980 No 24, Sch 2. Rep 1987 No 14, Sch 1 (4).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aeb9264a-f655-4c41-9fa6-ada463019ad1"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_600ee444-6fcf-4bc1-a975-93529f257656"
+id="sec.10-he"><b>Provisions relating to members
+generally</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_82d7b44d-2e20-4851-9756-feef1b8613b2"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An appointed member shall, subject to this Act,
+hold office for such term, not exceeding 5 years, as is specified in the
+instrument of the member&#8217;s appointment and shall, if otherwise
+qualified, be eligible for re-appointment.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8756a72e-2bfe-4118-bdf0-0e37c3fc0963"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">On the occurrence of a vacancy in the office of a
+member appointed by the Governor otherwise than by the expiration of the term
+for which the member was appointed, the Governor may appoint a person to hold
+office as a member for the balance of his or her predecessor&#8217;s term of
+office, being a person qualified and nominated under the same paragraph of
+section 7 (2) as the predecessor.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8cc10bbd-3e47-4e46-9757-6a33e04fb9a5"></attrib>
+<attrib name="id" value="sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Governor may appoint a person other than a
+member, being a person qualified and nominated under the same paragraph of
+section 7 (2) as the member, to act in the member&#8217;s place while that
+member is from time to time absent from that office through illness or any
+other cause, and the person so appointed shall, while so acting, be deemed to
+be a member and shall have the immunities, powers, authorities, duties and
+functions of the member in whose place the person has been appointed to
+act.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.10-ssec.4" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6e18446d-3eef-48d3-8666-658363995227"></attrib>
+<attrib name="id" value="sec.10-ssec.4"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<tier type="subclause" id="sec.10-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bdc5c9ac-693d-47a8-832b-3e71f61b3fad"></attrib>
+<attrib name="id" value="sec.10-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The provisions of the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-2013-040"><name
+emphasis="yes"><i>Government Sector Employment Act 2013</i></name></legref>
+and the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1980-023"><name emphasis="yes"><i>Teaching Service Act
+1980</i></name></legref> do not apply to or in respect of a member who is
+appointed under this Act and a member is not, in the member&#8217;s capacity
+as a member, subject to the provisions of either of those Acts during the
+member&#8217;s term of office.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.5A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c0b33245-179a-4204-9941-aa692f6bdaed"></attrib>
+<attrib name="id" value="sec.10-ssec.5A"></attrib></parentattributes>
+
+<head>
+<no>(5A)</no></head>
+<block><txt break.before="1">Where by or under any other Act provision is
+made&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1c583e8e-5034-4a92-9e60-7c7237cb0613" id="sec.10-ssec.5A-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">requiring a person who is the holder of a
+specified office to devote the whole of the person&#8217;s time to the duties
+of that office, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_02285334-c4bd-4401-9b2e-3aef1a315145" id="sec.10-ssec.5A-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">prohibiting the person from engaging in
+employment outside the duties of that office,</txt></block></li></list>
+
+<txt break.before="1">that provision does not operate to disqualify the person
+from holding that office and also the office of a member or from accepting and
+retaining any remuneration payable to the person under this Act as a
+member.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c77fcbef-ea80-4d6a-af2f-2754bbe8d884"></attrib>
+<attrib name="id" value="sec.10-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">A member of the Authority is entitled to be paid
+such remuneration (including travelling and subsistence allowances) as the
+Minister may from time to time determine in respect of the
+member.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f617edb0-d940-48a9-8518-a6d914b7f529"></attrib>
+<attrib name="id" value="sec.10-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">In the case of the absence through illness or any
+other cause of the Chairperson, the Deputy Chairperson shall act in the
+Chairperson&#8217;s place, and while so acting shall be deemed to be the
+Chairperson and shall have the immunities, powers, authorities, duties and
+functions of the Chairperson.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c11bbb8a-8742-43c8-805f-64185298bdd3"></attrib>
+<attrib name="id" value="sec.10-ssec.8"></attrib></parentattributes>
+
+<head>
+<no>(8)</no></head>
+<block><txt break.before="1">No person shall be concerned to inquire whether
+or not any occasion has arisen requiring or authorising a person to act in the
+place of a member in accordance with subsection (3), or the Deputy Chairperson
+to act in the place of the Chairperson in accordance with subsection (7), and
+all things done or omitted by the person or the Deputy Chairperson while so
+acting shall be as valid and effectual and shall have the same consequences as
+if they had been done or omitted by the member or the Chairperson, as the case
+may be.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 10:</b> Am 1976 No 4,
+Sch 5; 1980 No 24, Sch 2; 1980 No 187, Sch 1; 1987 No 14, Schs 1 (5), 2 (3);
+1988 No 30, Sch 1; 1989 No 226, Sch 1; 1990 No 108, Sch 1; 2015 No 58, Sch
+3.90 [10].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bf41ac19-d97a-47c0-8f1c-6cc4cab24263"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_4c7a42ee-f228-4eb1-b41b-2f1bf447c116"
+id="sec.11-he"><b>Vacation of office</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_49bc2fd9-d945-4db7-b43f-981f1ac270cc"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A member shall be deemed to have vacated the
+member&#8217;s office&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_24dddb62-5527-44e9-bcd8-3208791ae87d" id="sec.11-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if the member dies,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1d1bf03d-fefb-4f95-85e1-119a2a9b8a91" id="sec.11-ssec.1-para1.b"
+status="repealed">
+<no>(b), (c)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fda12f87-2b32-4448-a80e-4dcab5a47dd1" id="sec.11-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">if the member is absent from four consecutive
+ordinary meetings of the Authority of which reasonable notice has been given
+the member either personally or in the ordinary course of post unless on leave
+granted by the Authority or unless the member is, before the expiration of
+four weeks after the last of those meetings, excused by the Authority for the
+member&#8217;s absence from those meetings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ed336e85-6279-4ce2-abd0-f6904053f197" id="sec.11-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">if the member becomes bankrupt, applies to take
+the benefit of any law for the relief of bankrupt or insolvent debtors,
+compounds with the member&#8217;s creditors or makes any assignment of the
+member&#8217;s remuneration or allowances, or of the member&#8217;s estate,
+for their benefit,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_81ea3da0-77c7-4f4e-a6ce-9b31f3ea5a39" id="sec.11-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">if the member becomes a temporary patient, a
+continued treatment patient, a protected person or an incapable person within
+the meaning of the <legref type="act" jurisd="NSW" check="unknown"><name
+emphasis="yes"><i>Mental Health Act 1958</i></name></legref> or a person under
+detention under Part 7 of that Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0de0fea8-47e1-4f8a-bc0c-dfcf76c04f98" id="sec.11-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">if he or she is convicted in New South Wales of
+an indictable offence that is punishable by imprisonment for 12 months or more
+or is convicted elsewhere than in New South Wales of an offence that, if
+committed in New South Wales, would be an offence so
+punishable,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1557e418-d5c1-4bef-a39c-f9ed4c89d4ba" id="sec.11-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">if the member resigns the member&#8217;s office
+by writing under the member&#8217;s hand addressed to the Governor and the
+Governor accepts the resignation,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d6648f2d-de7d-42e0-991d-e081acf94b56" id="sec.11-ssec.1-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">if, at any meeting of the Authority at which the
+member is present and at which any agreement or proposed agreement in which
+the member has a direct or indirect pecuniary interest, or any other matter in
+which the member has such an interest, is the subject of consideration or is
+included on the agenda for consideration&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d35828fa-bc7c-494c-a873-95e72e1c260f"
+id="sec.11-ssec.1-para1.i-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">the member fails, as soon as practicable after
+the commencement of the meeting, to disclose to the meeting the member&#8217;s
+interest in, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_da5e5fcd-ab2b-4c79-9b39-eef7da4b093d"
+id="sec.11-ssec.1-para1.i-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the member takes part in the consideration or
+discussion of, or votes on any question with respect
+to,</txt></block></li></list>
+
+<txt break.before="1">the agreement, proposed agreement or other
+matter,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_65ff76e5-957e-44e7-9a66-81e3aecafda8" id="sec.11-ssec.1-para1.j">
+<no>(j)</no>
+<block><txt break.before="1">if, by virtue of the member&#8217;s office as a
+member, the member accepts or acquires any personal profit or advantage
+otherwise than under this or any other Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9d18b0cb-799e-4893-a450-64c5f91ab5ef" id="sec.11-ssec.1-para1.k">
+<no>(k)</no>
+<block><txt break.before="1">if, being a member referred to in section 7 (1)
+(a1), (b) or (c), the member ceases to be qualified as provided by section 7
+(1) (a1), (b) or (c), or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_90a70ef3-05b3-4963-8da2-6887a1265660" id="sec.11-ssec.1-para1.l">
+<no>(l)</no>
+<block><txt break.before="1">if, not being a member referred to in section 7
+(1) (a1), (b) or (c), the member is removed from office by the
+Governor.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_31c6f6d8-5e19-4703-b2b3-50d6d5ac287f" id="sec.11-ssec.1-para1.m"
+status="repealed">
+<no>(m), (n)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a6f476ce-85ba-4e7d-a471-4ee2acc6cfba"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Governor may, for any cause which to the
+Governor seems sufficient, remove any member (other than the member referred
+to in section 7 (1) (a1), (b) or (c)) from office.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2A" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2fe41112-b191-4786-8583-68692ab12f3c"></attrib>
+<attrib name="id" value="sec.11-ssec.2A"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(2A)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d6ec0387-388d-4c2a-ada8-e7de3e14d7a6"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Where&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1214fe84-78db-4dd3-8076-faedf83eb720" id="sec.11-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a member has, for the purposes of the <legref
+type="act" jurisd="CTH" check="unknown"><name emphasis="yes"><i>Corporations
+Act 2001</i></name></legref> of the Commonwealth, a relevant interest in a
+share in a company all or any of the shares in which are listed for quotation
+on a prescribed financial market within the meaning of section 9 of the
+<legref type="act" jurisd="CTH" check="unknown"><name
+emphasis="yes"><i>Corporations Act 2001</i></name></legref> of the
+Commonwealth, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8bc0b28e-e17e-4773-bd4b-2589dd52f3de" id="sec.11-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the company has a direct or indirect pecuniary
+interest in any agreement or proposed agreement or in any other matter the
+subject of consideration at a meeting of the
+Authority,</txt></block></li></list>
+
+<txt break.before="1">the member does not, by reason only of that relevant
+interest, have a direct or indirect pecuniary interest in that agreement,
+proposed agreement or other matter.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Am 1976 No 4,
+Sch 5; 1980 No 187, Sch 1; 1987 No 14, Schs 1 (6), 2 (4); 1989 No 226, Sch 1;
+1990 No 108, Sch 1; 1994 No 95, Sch 1; 1999 No 94, sec 7 (1) and Sch 5, Part
+1; 2001 No 34, Sch 2.51; 2002 No 26, Sch 2.12; 2009 No 96, Sch 27
+[7].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a6f825ac-67f0-469b-b4bf-5eceb8dc8e1a"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_278ea8b3-52e2-4c19-8df3-942a78685997"
+id="sec.12-he"><b>Staff</b></heading></head>
+<block><txt break.before="1">Persons may be employed in the Public Service
+under the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2013-040"><name emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref> to enable the Authority to exercise its
+functions.</txt></block>
+<note type="legtext" guid="_3112b01a-ca42-456d-bec8-bb2c486a0f0e"
+id="sec.12-note"><heading guid="_e6da08bb-6b48-48b7-813d-d1f318bbc59b"
+id="sec.12-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">Section 59 of the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-2013-040"><name emphasis="yes"><i>Government Sector
+Employment Act 2013</i></name></legref> provides that the persons so employed
+(or whose services the Authority makes use of) may be referred to as officers
+or employees, or members of staff, of the Authority. Section 47A of the
+<legref type="act" jurisd="NSW" check="unknown" refid="act-1902-032"><name
+emphasis="yes"><i>Constitution Act 1902</i></name></legref> precludes the
+Authority from employing staff.</txt></block></note>
+
+
+<content type="historynote"><txt break.before="1"><b>s 12:</b> Am 1987 No 14,
+Sch 2 (5). Rep 2006 No 2, Sch 4.71 [2]. Ins 2015 No 58, Sch 3.90
+[6].</txt></content>
+</level>
+</level>
+
+
+<level type="division" id="pt.2-div.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_c7cf5f3a-784c-47ec-8068-2c03285f944d"></attrib>
+<attrib name="id" value="pt.2-div.2"></attrib></parentattributes>
+
+<head>
+<no><b>Division 2</b></no><heading
+guid="_0682b045-0d02-43fd-a315-8840fa737de0" id="pt.2-div.2-he"><b>Operations
+of the Authority</b></heading></head>
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_17e5bb1a-cd73-4275-8370-817c8901a14b"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_aa72d530-955c-4cf2-9ae9-c2c1280cfa94"
+id="sec.13-he"><b>Powers, authorities, duties and functions of
+Authority</b></heading></head>
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d6595ebd-a884-4aa6-9996-ce32e4f6efbe"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Authority shall have, and may exercise and
+perform, such powers, authorities, duties and functions as are reasonably
+necessary for the attainment of its objects.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4ceff507-e491-4797-a238-34c7d00dc54a"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting the generality of subsection
+(1), the Authority may, for the purpose of attaining its objects&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_142f0eb3-4b72-4771-9617-6afb755121ae" id="sec.13-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">acquire in accordance with section 14 land not
+exceeding one hectare in area or, subject to section 16 (1) and with the
+consent in writing of the Minister, exceeding one hectare in
+area,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1b4ecf2e-4dd5-4ca1-9235-b76933091b1c" id="sec.13-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">erect, or acquire by purchase, lease or exchange,
+houses and other buildings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_164e1e10-2587-40f2-94f0-45b1a301fcda" id="sec.13-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">let out to teachers, on licence or lease, for
+such term and, subject to section 5 (3), on such conditions as the Authority
+determines, houses erected on land vested in or managed by the
+Authority,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_525611d9-9412-48bb-a1f5-cef5847003b8" id="sec.13-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">let out, on licence or lease, for such term and,
+subject to section 5 (3), on such conditions as the Authority determines,
+houses erected on land vested in or managed by the Authority that are not
+required for occupancy by teachers to other persons,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_33ab1f39-ecf8-4667-9aca-b360d27d1e3c" id="sec.13-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">maintain houses erected on land vested in or
+managed by the Authority,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7e5eb15a-54fc-4cab-b255-a9d088eb339f" id="sec.13-ssec.2-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">alter, enlarge, repair, rebuild or otherwise
+effect improvements to or in respect of any building erected on land vested in
+the Authority,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fd33aadf-ad04-47d3-a4bf-a7ddd5d1b945" id="sec.13-ssec.2-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">in accordance with any agreement with the person
+in whom land managed by the Authority is vested, alter, enlarge, repair,
+rebuild or otherwise effect improvements to or in respect of houses erected on
+that land,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fb25df0a-cae1-4d1f-b321-86a2165e4c10" id="sec.13-ssec.2-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">plan and subdivide, and set out and construct
+roads on, land vested in the Authority and provide services to or in respect
+of lots created by any such subdivision,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8551736f-f10c-4e24-9c4c-49d43f7b9b01" id="sec.13-ssec.2-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">lease vacant land vested in the Authority and
+land vested in the Authority on which erections, not being houses, are
+constructed, to such persons, for such term and, subject to section 5 (3), on
+such conditions, as the Authority determines,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b7c9b81d-7758-4d6c-a43d-46f19df21c5f" id="sec.13-ssec.2-para1.j">
+<no>(j)</no>
+<block><txt break.before="1">with the approval in writing of the
+Minister&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1e6a562c-41e3-47b0-9561-38850cf3dcbc"
+id="sec.13-ssec.2-para1.j-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">exchange land vested in the Authority for other
+land and give or receive consideration for equality of
+exchange,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e357b72c-9b90-4548-a4ee-260e237340ef"
+id="sec.13-ssec.2-para1.j-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">sell land vested in the
+Authority,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_361e6ede-04a4-4617-9736-2b33248e28ca"
+id="sec.13-ssec.2-para1.j-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">sell or dispose of (except by demolition) houses
+erected on land vested in the Authority,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5b58fa88-9351-4ca6-b912-c61c08ae0446"
+id="sec.13-ssec.2-para1.j-para2.iv">
+<no>(iv)</no>
+<block><txt break.before="1">sell or dispose of (except by demolition) houses,
+which the Authority has erected on land that is not vested in the Authority,
+which do not form part of the land, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_77669c3a-613f-401f-965a-b97ca52ea789"
+id="sec.13-ssec.2-para1.j-para2.v">
+<no>(v)</no>
+<block><txt break.before="1">grant easements or rights of way over any land
+vested in the Authority,</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4886ed33-09bc-4ff8-be67-25de3d9c53e0" id="sec.13-ssec.2-para1.k">
+<no>(k)</no>
+<block><txt break.before="1">demolish any erection on any land vested in the
+Authority or, in accordance with and subject to any agreement with the person
+in whom any land managed by the Authority is vested, demolish any erection on
+that land, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_19b7e1f3-6bcd-49d6-b230-1dbffad27e0e" id="sec.13-ssec.2-para1.l">
+<no>(l)</no>
+<block><txt break.before="1">make and enter into contracts or agreements or
+arrangements with any person, Public Service agency, statutory body, public
+authority or council for the performance of services, or for the purchase, or
+for the supply by way of loan or hire, of goods, plant, machinery or material,
+for or in connection with the exercise or performance by the authority of its
+powers, authorities, duties and functions under this
+Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.3" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_22d3ac96-aea3-454c-ba08-fe2a7b3cf568"></attrib>
+<attrib name="id" value="sec.13-ssec.3"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 13:</b> Am 1992 No 57,
+Sch 2; 2006 No 2, Sch 4.71 [3]; 2015 No 58, Sch 3.90 [7] [8].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_77791bb2-2468-445f-88d6-e018c69150ce"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_ef3fd326-0a35-49fb-8e9c-b92729b3ad57"
+id="sec.14-he"><b>Acquisition of land</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_246aa6e7-ee4f-4d28-a852-cbc4dc717ddb"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Authority may, for the purposes of this Act,
+acquire land (including an interest in land) by agreement or by compulsory
+process in accordance with the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1991-022"><name emphasis="yes"><i>Land Acquisition (Just Terms
+Compensation) Act 1991</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9d0f43cd-686a-4ba5-a68e-19b24ab8435c"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1912-045"><name
+emphasis="yes"><i>Public Works Act 1912</i></name></legref>, any acquisition
+of land under this section is taken to be for an authorised work and the
+Authority is, in relation to that authorised work, taken to be the
+Constructing Authority.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d3eef650-3311-43b5-bc9c-0b09ce7228c8"></attrib>
+<attrib name="id" value="sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Sections 34, 35, 36 and 37 of the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1912-045"><name
+emphasis="yes"><i>Public Works Act 1912</i></name></legref> do not apply in
+respect of works constructed under this section.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 14:</b> Subst 1992 No
+57, Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aa8dcb4a-1600-4466-a967-6a94f8751941"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_9f16bb05-3594-4897-ac43-11e3d6b2d374"
+id="sec.15-he"><b>Contracts</b></heading></head>
+<block><txt break.before="1">A contract or agreement made pursuant to section
+13 (2) (l) shall be deemed, for the purpose of the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1902-032"><name
+emphasis="yes"><i>Constitution Act 1902</i></name></legref>, to be a contract
+or agreement for or on account of the Public Service of New South
+Wales.</txt></block></level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b07467b1-0f15-4c5a-80bd-f34c0df199ff"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_80f19eed-5c29-43d3-b686-ec447e04b3f8"
+id="sec.16-he"><b>Authority may accept gifts etc</b></heading></head>
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2839a33c-0ffa-4fa1-969d-a6f577e9a2f3"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Authority may acquire by gift, bequest or
+devise any property for the purposes of this Act and may agree to the
+condition of any such gift, bequest or devise.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_201a91ad-a032-4f79-81f4-ef7f201c5fba"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The rule of law against the remoteness of vesting
+does not apply to a condition of a gift, bequest or devise to which the
+Authority has agreed.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a5746ccc-6a3a-48f6-a5ec-45374065e2fb"></attrib>
+<attrib name="id" value="sec.16-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1920-047"><name emphasis="yes"><i>Stamp Duties Act
+1920</i></name></legref> does not apply to or in respect of any gift, bequest
+or devise made to the Authority.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1539e041-6874-4a09-a31f-70105e271cbc"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_f2106bc5-8f73-488a-933b-34ba2e8b7e31"
+id="sec.17-he"><b>Delegation</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.17-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2b3320e0-cb65-4735-bddd-408950f063c4"></attrib>
+<attrib name="id" value="sec.17-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Authority may by instrument in writing
+delegate to a member of staff of the Authority the exercise or performance of
+such of the powers (other than this power of delegation), authorities, duties
+or functions conferred or imposed on the Authority by or under this Act as may
+be specified in the instrument of delegation and may in like manner revoke
+wholly or in part any such delegation.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.17-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1b41ceb5-9bf7-4ade-bab2-7ae47ac42341"></attrib>
+<attrib name="id" value="sec.17-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A power, authority, duty or function, the
+exercise or performance of which has been delegated under this section may,
+while the delegation remains unrevoked, be exercised or performed from time to
+time in accordance with the terms of the delegation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bc139e15-8294-45d1-9e40-7c1245ad2c26"></attrib>
+<attrib name="id" value="sec.17-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A delegation under this section may be made
+subject to such conditions or such limitations as to the exercise or
+performance of any of the powers, authorities, duties or functions delegated,
+or as to time or circumstances, as may be specified in the instrument of
+delegation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_60a5cb3c-f93d-44e3-8797-45d0c4f55c4d"></attrib>
+<attrib name="id" value="sec.17-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Notwithstanding any delegation made under this
+section, the Authority may continue to exercise or perform all or any of the
+powers, authorities, duties or functions delegated.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_739c6567-22c0-47db-91cf-919fa4b20331"></attrib>
+<attrib name="id" value="sec.17-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Any act or thing done or suffered by a delegate
+while acting in the exercise of a delegation under this section shall have the
+same force or effect as if the act or thing done had been done or suffered by
+the Authority and shall be deemed to have been done or suffered by the
+Authority.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 17:</b> Am 1987 No 14,
+Schs 1 (7), 2 (6); 2015 No 58, Sch 3.90 [9].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2afda7a9-9f0f-43ef-83ca-d5041282b411"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_277d7d6c-559c-493a-979e-1e10b914ec8b"
+id="sec.18-he"><b>Meetings of the Authority</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1aae7f29-eea5-4ae0-a83a-30c5a811da49"></attrib>
+<attrib name="id" value="sec.18-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The procedure for the calling of meetings of the
+Authority and for the conduct of business at those meetings shall, subject to
+this Act and the regulations, be as determined by the
+Authority.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4a229028-b83b-444d-99c7-aa9ea594d977"></attrib>
+<attrib name="id" value="sec.18-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Chairperson shall preside at all meetings of
+the authority at which the Chairperson is present.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_67aef587-1c2a-4296-be22-da1bdb2cd300"></attrib>
+<attrib name="id" value="sec.18-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In the absence from a meeting of the Chairperson
+and the Deputy Chairperson, the member referred to in section 7 (1) (c) shall
+preside at that meeting and while so presiding shall be deemed to be the
+Chairperson and shall have the immunities, powers, authorities, duties and
+functions of the Chairperson.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.18-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_772588de-ff13-4b0e-8606-848d90ecfecb"></attrib>
+<attrib name="id" value="sec.18-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The quorum for a meeting of the Authority is a
+majority of the members of the Authority for the time being and any duly
+convened meeting of the Authority at which a quorum is present shall be
+competent to transact any business of the Authority and shall have and may
+exercise and perform all the powers, authorities, duties and functions of the
+Authority.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_df67e8a7-e7f0-427a-9b5b-c42bdbce3a99"></attrib>
+<attrib name="id" value="sec.18-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">In the event of an equality of votes at any
+meeting of the Authority the person presiding at the meeting shall have, in
+addition to a deliberative vote, a second or casting
+vote.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4b5154e8-46dd-439c-81e1-f138dabb3615"></attrib>
+<attrib name="id" value="sec.18-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">A decision supported by a majority of votes at a
+meeting of the Authority at which a quorum is present shall be the decision of
+the Authority.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b532f2d4-7c16-4712-a223-46e4dc1f8ad4"></attrib>
+<attrib name="id" value="sec.18-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">The Authority shall cause a record of its
+decisions and full and accurate minutes of the proceedings at its meetings to
+be kept and shall submit to the Minister a copy of the minutes of each meeting
+within fourteen days after the day on which it was held.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3a993035-b9b1-474f-95cc-710f947addb8"></attrib>
+<attrib name="id" value="sec.18-ssec.8"></attrib></parentattributes>
+
+<head>
+<no>(8)</no></head>
+<block><txt break.before="1">No matter or thing done, and no contract entered
+into, by the Authority, and no matter or thing done by any member or by any
+other person acting under the direction or as a delegate of the Authority
+shall, if the matter or thing was done, or the contract was entered into, bona
+fide for the purpose of executing this Act, subject the member or person so
+acting personally to any action, liability, claim or
+demand.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ab0a6c68-8891-4e68-b3f1-c30f844483a2"></attrib>
+<attrib name="id" value="sec.18-ssec.9"></attrib></parentattributes>
+
+<head>
+<no>(9)</no></head>
+<block><txt break.before="1">Nothing in subsection (8) shall exempt any member
+or other person from liability to be surcharged with the amount of any payment
+which is disallowed by the Auditor-General, and which that member or other
+person authorised or joined in authorising.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 18:</b> Am 1987 No 14,
+Sch 1 (8); 1990 No 108, Sch 1.</txt></content>
+</level>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_cf8a4c2e-8e49-4ba3-8e02-079edf4cfd72"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_3cde776e-6c90-475c-b9df-81a66fce7248"
+id="pt.3-he"><b>Vesting of land and management of
+property</b></heading></head>
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0455928f-f0f4-41cf-a7bd-31940e52d468"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_76459641-e3da-42e7-86dc-d4c5bf5d9b47"
+id="sec.19-he"><b>Transfer of interests in land to
+Authority</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.19-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1b1f7ed5-f2c8-4dbc-a67b-f16240bb6f30"></attrib>
+<attrib name="id" value="sec.19-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">On and from a day specified in an agreement
+between a Minister (other than the Minister for Education) or the New South
+Wales Land and Housing Corporation and the Authority, any land
+that&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e2927db2-99fc-423c-a86f-d6c9ae120527" id="sec.19-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is vested, for any estate or interest, in the
+Minister who is a party to that agreement or in the New South Wales Land and
+Housing Corporation, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9bd9eef4-f96a-49c9-9d89-7b3323e6f95a" id="sec.19-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is specified in that
+agreement,</txt></block></li></list>
+
+<txt break.before="1">shall vest, for that estate or interest, in the
+Authority.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9aa19a65-d263-4dd3-bb24-8b25cfda97c7"></attrib>
+<attrib name="id" value="sec.19-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The day specified in an agreement referred to in
+subsection (1) shall not be a day before the appointed day or a day more than
+three months after the appointed day.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.19-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_93b74411-234a-4b7a-863a-78ab7d78c0eb"></attrib>
+<attrib name="id" value="sec.19-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">On and from the appointed day, any
+land&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_346ef723-17c5-4207-add6-4c6fa0ce91ea" id="sec.19-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">vested in the Crown for the purposes of the
+<legref type="act" jurisd="NSW" check="unknown" refid="act-1990-008"><name
+emphasis="yes"><i>Education Act 1990</i></name></legref>, in the Minister for
+Public Instruction or in the Minister for Education, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_82780697-600b-48af-a859-6f05cc24a54c" id="sec.19-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">on which a house is
+erected,</txt></block></li></list>
+
+<txt break.before="1">shall, except where the land forms part of land which is
+a school site, vest&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f1a703cc-1857-44de-be38-da89ce4adae9" id="sec.19-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">where the land is land so vested in the
+Crown&#8212;in the Authority, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ccedd560-adad-4ec7-8f10-2848079baa22" id="sec.19-ssec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">where the land is land vested, for any estate or
+interest, in the Minister for Public Instruction or the Minister for
+Education&#8212;in the Authority for that estate or
+interest.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_365100cf-7827-47f9-96cb-36e34c02877b"></attrib>
+<attrib name="id" value="sec.19-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Where the Minister for Education
+certifies&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_29928044-88c5-4a9d-b098-f75ec65486c4" id="sec.19-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">that an agreement is an agreement for the purpose
+of subsection (1), or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2418008c-ad3b-41ef-a6ab-455fe8d0898a" id="sec.19-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">that, for the purpose of subsection
+(3)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_29cb8eb8-721c-4847-b092-d72398e04b17"
+id="sec.19-ssec.4-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">a house is erected on land described in the
+certificate, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_99a2ada7-d5cd-491a-b1e6-e02450090ee5"
+id="sec.19-ssec.4-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the land so described does not form part of land
+that is a school site,</txt></block></li></list>
+</block></li></list>
+
+<txt break.before="1">the certificate is, for the purpose of any application
+by the Authority under section 46C of the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1900-025"><name emphasis="yes"><i>Real Property Act
+1900</i></name></legref>, to become registered as the proprietor of land
+referred to in the agreement or described in the certificate, conclusive
+evidence of the facts stated in the certificate.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_65411ee2-b8ba-45bf-8fd4-d65997341c12"></attrib>
+<attrib name="id" value="sec.19-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">On and from the day on which land specified in an
+agreement referred to in subsection (1), or referred to in subsection (3),
+vests in the Authority&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3202307d-8afd-4f69-83fd-ee5c1ddfb9b9" id="sec.19-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">all moneys and liquidated and unliquidated claims
+that, immediately before that day, were payable to or recoverable by the
+person in whom that land was vested in connection with that land shall be
+moneys and liquidated and unliquidated claims payable to or recoverable by the
+Authority,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0dce16d4-20f1-4363-b968-68ecc937ecbb" id="sec.19-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">all proceedings commenced before that day by the
+person in whom that land was vested in connection with that land and pending
+immediately before that day shall be deemed to be proceedings pending on that
+day by the Authority and all proceedings so commenced by any person against
+the person in whom that land was vested in connection with that land pending
+immediately before that day shall be deemed to be proceedings pending on that
+day by that person against the Authority,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_29340c27-6726-42d8-b76c-52f66788cca6" id="sec.19-ssec.5-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">all contracts, agreements, arrangements and
+undertakings entered into with, and all securities lawfully given to or by,
+the person in whom that land was vested in connection with that land and in
+force immediately before that day shall be deemed to be contracts, agreements,
+arrangements and undertakings entered into with and securities given to or by
+the Authority,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4cee06f2-714b-4a02-972f-a0f976c160f8" id="sec.19-ssec.5-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the Authority may, in addition to pursuing any
+other remedies or exercising any other powers that may be available to it,
+pursue the same remedies for the recovery of moneys and claims referred to in
+this subsection and for the prosecution of actions and proceedings so referred
+to as the person in whom that land was vested might have done in connection
+with that land but for the enactment of this Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_eaaddaf9-61c2-46d6-9a0e-2bc872ec4506" id="sec.19-ssec.5-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the Authority may enforce and realise any
+security or charge existing immediately before that day in favour of the
+person in whom that land was vested in connection with that land and may
+exercise any powers thereby conferred on the person in whom that land was
+vested as if the security or charge were a security or charge in favour of the
+Authority,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_376903ef-4bf5-449c-a026-fe29b7f3e130" id="sec.19-ssec.5-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">all debts, moneys and claims, liquidated and
+unliquidated, that, immediately before that day, were due or payable by, or
+recoverable against, the person in whom that land was vested in connection
+with that land shall be debts due, moneys payable by and claims recoverable
+against, the Authority, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f5dcb0f7-8a15-4ae3-bbf8-a845bdfe9faa" id="sec.19-ssec.5-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">all liquidated and unliquidated claims for which
+the person in whom that land was vested would, but for the enactment of this
+Act, have been liable in connection with that land shall be liquidated and
+unliquidated claims for which the Authority shall be
+liable.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9c71a120-ae75-48fe-9753-d32198031dd3"></attrib>
+<attrib name="id" value="sec.19-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">No attornment to the Authority by a lessee from
+the person in whom any land specified in an agreement referred to in
+subsection (1), or referred to in subsection (3), was vested, is
+required.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_efecd2d5-2746-43fa-bdb2-83924daaa336"></attrib>
+<attrib name="id" value="sec.19-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">A person who, immediately before the day on which
+any land specified in an agreement referred to in subsection (1), or referred
+to in subsection (3), vests in the Authority was a licensee of any such land
+is, on and from that day, a licensee of that land from the
+Authority.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 19:</b> Am 1987 No 14,
+Sch 2 (7); 1987 No 63, Sch 2; 1999 No 31, Sch 3.18.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_44b64f4c-03f6-4b79-b24a-529765f92242"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_a5a165fc-b6d0-4be2-a659-f2d4ca7b8023"
+id="sec.20-he"><b>Management of lands by Authority</b></heading></head>
+
+<tier type="subclause" id="sec.20-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9092479f-d653-4d63-aa4e-61aa98e71022"></attrib>
+<attrib name="id" value="sec.20-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">On and from the appointed day, any
+land&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a95f4322-7d7d-4ca3-968d-a5a8f2fa307e" id="sec.20-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">vested in the Crown for the purposes of the
+<legref type="act" jurisd="NSW" check="unknown" refid="act-1990-008"><name
+emphasis="yes"><i>Education Act 1990</i></name></legref>,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4916450d-6b05-4d60-98b4-c8b7b2c09dd4" id="sec.20-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">vested for any estate or interest in the Minister
+for Public instruction or in the Minister for
+Education,</txt></block></li></list>
+
+<txt break.before="1">on which a house is erected shall, where it forms part
+of land which is a school site, be managed by the Authority until the Minister
+informs the Authority in writing that the land being so managed is required
+for school purposes.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_33b6842f-2832-46de-93f6-8d69ee85f19e"></attrib>
+<attrib name="id" value="sec.20-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Where&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_047df6e3-17d3-4ad3-a37c-869fe70d2f2b" id="sec.20-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">land is vested in the Crown, or is vested for any
+estate or interest in a Minister, other than the Minister for Public
+Instruction or the Minister for Education, or is vested for any estate or
+interest in a statutory body, other than the New South Wales Land and Housing
+Corporation or the Authority,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7bcbf54f-2e85-4f50-a447-23c6b2261f3d" id="sec.20-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a house is erected on that land,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_437b5247-1b71-4b26-9309-1341d25f9252" id="sec.20-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">that house is occupied by a
+teacher,</txt></block></li></list>
+
+<txt break.before="1">the Authority may enter into an agreement in writing
+authorising the Authority to manage that land for such term as is, and subject
+to such conditions as are, specified in that agreement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dbba98b5-459e-4a6b-bd87-02cbe6da3d86"></attrib>
+<attrib name="id" value="sec.20-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Moneys received by the Authority in respect of
+land managed by the Authority shall be retained by the
+Authority.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 20:</b> Am 1987 No 14,
+Sch 2 (7); 1987 No 63, Sch 2; 1999 No 31, Sch 3.18.</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_c1b0ae4c-1710-4170-b31a-84799a556fdd"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_cc7cfffe-1d4b-4515-a5b7-01f7271cb85b"
+id="pt.4-he"><b>Finance</b></heading></head>
+
+<level type="clause" id="sec.21">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fc67d300-7833-4a4f-b9c3-fa34b0b28bd9"></attrib>
+<attrib name="id" value="sec.21"></attrib></parentattributes>
+
+<head>
+<no>21</no><heading guid="_40143a65-2db8-42ed-91f4-1d1b6ee13ff9"
+id="sec.21-he"><b>Teacher Housing Authority Account</b></heading></head>
+
+<tier type="subclause" id="sec.21-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_baff00e5-fd21-4de3-afec-dc94adbd04e1"></attrib>
+<attrib name="id" value="sec.21-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There shall be established in the Special
+Deposits Account in the Treasury a Teacher Housing Authority Account into
+which shall be deposited all moneys received by the Authority and from which
+shall be paid all amounts required to meet expenditure incurred in accordance
+with the provisions of this Act including any amount for which the Authority
+is liable under the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1957-001"><name emphasis="yes"><i>Capital Debt Charges Act
+1957</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6051d6f8-6d1b-489a-8c9e-687cfeb18186"></attrib>
+<attrib name="id" value="sec.21-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Treasurer may, out of moneys provided by
+Parliament, from time to time make such contributions to the funds of the
+Authority as may be determined by the Treasurer.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.22">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_69788854-d411-4019-b018-4982eeb1e9ca"></attrib>
+<attrib name="id" value="sec.22"></attrib></parentattributes>
+
+<head>
+<no>22</no><heading guid="_ece71b8a-ec5f-4004-b5ff-b6fe7fff53a0"
+id="sec.22-he"><b>Financial year of the Authority</b></heading></head>
+<block><txt break.before="1">The financial year of the Authority shall
+be&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_26d5ab28-b81e-4019-8673-c5f7d19c36b2" id="sec.22-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">where no period is prescribed as referred to in
+paragraph (b)&#8212;the year commencing on 1 July, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_03e9bffe-2d4a-4943-bcf3-398118992772" id="sec.22-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the period prescribed for the purposes of this
+section.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 22:</b> Subst 1983 No
+153, Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.23" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_136a083f-d199-4970-b4f0-965e4a49a6d8"></attrib>
+<attrib name="id" value="sec.23"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>23</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 23:</b> Rep 1983 No
+153, Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.23A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_de0a4e4d-8204-433f-b2d9-8551950d6a66"></attrib>
+<attrib name="id" value="sec.23A"></attrib></parentattributes>
+
+<head>
+<no>23A</no><heading guid="_00ed4b16-5c32-4f3a-92cc-6026c0edec7c"
+id="sec.23A-he"><b>Moneys or other property held by Authority to be held for
+and on behalf of the Crown</b></heading></head>
+<block><txt break.before="1">Notwithstanding any other provision of this
+Act&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1981ef6e-f6f6-4757-a8e3-85f9fb4725b4" id="sec.23A-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any moneys or other property held by the
+Authority immediately before the commencement of the <legref type="act"
+jurisd="NSW" check="unknown"><name emphasis="yes"><i>Teacher Housing Authority
+(Amendment) Act 1977</i></name></legref> are or is, on and after that
+commencement, moneys or other property held by the Authority for and on behalf
+of the Crown for the purposes of this Act, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_231aec9e-75c8-47a9-9d81-09a9b1761c93" id="sec.23A-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any moneys or other property received or acquired
+by the Authority on or after that commencement are or is moneys or other
+property received or acquired by the Authority to be held by it for and on
+behalf of the Crown for the purposes of this Act.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 23A:</b> Ins 1977 No
+117, sec 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.24-33" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_86eaa63b-1d73-497a-b10b-f65fd9afc7d2"></attrib>
+<attrib name="id" value="sec.24-33"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>24&#8211;33</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>ss 24&#8211;33:</b> Rep
+1981 No 83, Sch 1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.34">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dc8d0815-3768-4c4f-a29c-3748ba69feb5"></attrib>
+<attrib name="id" value="sec.34"></attrib></parentattributes>
+
+<head>
+<no>34</no><heading guid="_5af422d8-32a8-464e-9208-47c4a01b73d4"
+id="sec.34-he"><b>Loan liability of Authority</b></heading></head>
+
+<tier type="subclause" id="sec.34-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e391c1c1-4039-4132-8610-33c2c7fb192c"></attrib>
+<attrib name="id" value="sec.34-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purposes of the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1957-001"><name
+emphasis="yes"><i>Capital Debt Charges Act 1957</i></name></legref>, the loan
+liability of the Authority is&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b244cdf5-a9f0-4446-949a-fec4a711bf98" id="sec.34-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the capital debt of the Authority on the day that
+is three months after the appointed day, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6db79dfc-95a4-426e-b1d7-1d9ad37c9108" id="sec.34-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">such other amounts as are, from time to time,
+appropriated to the Authority from the Consolidated
+Fund.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.34-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4fda28de-4de4-4c31-8216-d7b995ebee9d"></attrib>
+<attrib name="id" value="sec.34-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The capital debt referred to in subsection (1)
+(a) shall be determined by the Treasurer and in the determination thereof the
+Treasurer shall have regard to recent valuations by the Valuer-General of land
+vested in the Authority on the day referred to in subsection (1) (a) and such
+other factors as the Treasurer considers to be relevant.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 34:</b> Am 1987 No 14,
+Sch 2 (8).</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_c990259f-bb6c-498a-9494-99540e6cdb95"></attrib>
+<attrib name="id" value="pt.5"></attrib></parentattributes>
+
+<head>
+<no><b>Part 5</b></no><heading guid="_50d64501-3de4-4923-b592-4c2e4ba19005"
+id="pt.5-he"><b>General</b></heading></head>
+
+<level type="clause" id="sec.35">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_203d25ce-bb43-4ed2-998f-02118bdc8475"></attrib>
+<attrib name="id" value="sec.35"></attrib></parentattributes>
+
+<head>
+<no>35</no><heading guid="_b02f9ccd-4156-4240-b4eb-f15c76b89db6"
+id="sec.35-he"><b>Disclosure of information</b></heading></head>
+<block><txt break.before="1">If a member or other person discloses any
+information obtained in connection with the administration or execution of
+this Act and that disclosure is not made&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fecf78b3-b04f-4e60-a1f0-198c14f535bd" id="sec.35-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">with the consent of the person from whom the
+information was obtained,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_90ad3b06-7f19-48fb-91c7-88c8770220d9" id="sec.35-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in connection with the administration or
+execution of this Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_af7fba30-5ed7-43e3-b096-bc873a2165e7" id="sec.35-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">for the purposes of any legal proceedings arising
+out of this Act or of any report of any such proceedings,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f9aa213c-b0a5-4421-8cd0-2fea740843ea" id="sec.35-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">with other lawful
+excuse,</txt></block></li></list>
+
+<txt break.before="1">that member or other person is guilty of an offence
+against this Act and, on conviction by the Local Court, is liable to a penalty
+not exceeding 10 penalty units or to imprisonment for a term not exceeding six
+months.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 35:</b> Am 1993 No 47,
+Sch 1; 1999 No 31, Sch 4.99; 2007 No 94, Sch 4.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.36" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_36aa4d20-5b68-481a-beee-fe414cab60ab"></attrib>
+<attrib name="id" value="sec.36"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>36</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 36:</b> Rep 1987 No 14,
+Sch 1 (9).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.37">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c6c1274f-597b-49ee-be62-75f1bf812ada"></attrib>
+<attrib name="id" value="sec.37"></attrib></parentattributes>
+
+<head>
+<no>37</no><heading guid="_8fb8a8d9-0f7a-4b07-90ab-873185700de2"
+id="sec.37-he"><b>Liability of Authority for rates</b></heading></head>
+
+<tier type="subclause" id="sec.37-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c18b10f4-9a70-48b6-9261-e233944d386e"></attrib>
+<attrib name="id" value="sec.37-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Notwithstanding any provision of any other Act,
+where a house is erected on land vested in the Authority&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1c645bcd-7d26-42d7-adec-f2b17b3948d2" id="sec.37-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the land is ratable land, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e64833ad-39d9-4928-a518-d8dd246abf42" id="sec.37-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a rate payable in respect of that land shall be
+paid by the Authority to the person by whom the rate is
+levied.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.37-ssec.2" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bdcd5293-b566-45a0-ab28-38e3327ea131"></attrib>
+<attrib name="id" value="sec.37-ssec.2"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(2), (3)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 37:</b> Am 1987 No 14,
+Sch 1 (10); 1993 No 32, Sch 2; 1997 No 55, Sch 1.27.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.38">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e4333efa-aea9-4cb4-9a7f-8874b95c84a8"></attrib>
+<attrib name="id" value="sec.38"></attrib></parentattributes>
+
+<head>
+<no>38</no><heading guid="_cf9afee4-43ec-4849-b983-44788d50b0d3"
+id="sec.38-he"><b>Proof of certain matters not required</b></heading></head>
+<block><txt break.before="1">In any legal proceedings by or against the
+Authority no proof shall be required (until evidence is given to the contrary)
+of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_717de7df-3205-4e96-8fe5-18e02da53af4" id="sec.38-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the constitution of the
+Authority,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2bae91ee-e84f-40c6-9761-af2d4385a3d2" id="sec.38-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any resolution of the
+Authority,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f4ca20bd-7a07-4ba9-8711-de50bc0ec1b7" id="sec.38-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the appointment of any member or the employment
+of any member of staff of the Authority, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8f067320-d925-4c34-b484-494449a7c877" id="sec.38-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the presence of a quorum at any meeting of the
+Authority.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 38:</b> Am 2015 No 58,
+Sch 3.90 [10].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.39">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_69dc3d77-c8a7-4ae7-a4c9-ac437faae443"></attrib>
+<attrib name="id" value="sec.39"></attrib></parentattributes>
+
+<head>
+<no>39</no><heading guid="_81881beb-94bd-437b-a788-4927f090bc01"
+id="sec.39-he"><b>Manner of serving certain documents on
+Authority</b></heading></head>
+<block><txt break.before="1">Any notice, summons or other proceeding required
+to be served on the Authority may be served by being left at the office of the
+Authority, or, in the case of a notice, by sending it by post addressed to the
+Authority at its office.</txt></block></level>
+
+
+<level type="clause" id="sec.40">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1fef74f4-ae87-4565-8c78-40b82d8a4c51"></attrib>
+<attrib name="id" value="sec.40"></attrib></parentattributes>
+
+<head>
+<no>40</no><heading guid="_8f5b23c2-a381-487e-a470-01cd63e6b4fe"
+id="sec.40-he"><b>Authentication of certain documents of
+Authority</b></heading></head>
+<block><txt break.before="1">Any summons, process, demand, order, notice,
+statement, direction or document requiring authentication by the Authority may
+be sufficiently authenticated without the seal of the Authority if signed by
+any member of staff of the Authority authorised to do so by the
+Authority.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 40:</b> Am 1987 No 14,
+Sch 1 (11); 2015 No 58, Sch 3.90 [11].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.41" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ed878963-3429-4bd6-bd8f-fe8b40ed8d45"></attrib>
+<attrib name="id" value="sec.41"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>41</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 41:</b> Rep 1977 No 19,
+Sch 1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.42">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_11276776-9335-4415-b538-dbc6d28a274e"></attrib>
+<attrib name="id" value="sec.42"></attrib></parentattributes>
+
+<head>
+<no>42</no><heading guid="_9fd58f20-4b03-4a3a-adab-890d1e5b5b45"
+id="sec.42-he"><b>Recovery of charges etc by the
+Authority</b></heading></head>
+<block><txt break.before="1">Any charge, fee or money due to the Authority in
+respect of any of the activities of the Authority under the provisions of this
+Act or any regulation may be recovered by the Authority as a debt in a court
+of competent jurisdiction.</txt></block></level>
+
+
+<level type="clause" id="sec.43" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_11a889cc-01c9-4c9f-b60c-73d5c31bcc29"></attrib>
+<attrib name="id" value="sec.43"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>43</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 43:</b> Rep 1987 No 14,
+Sch 2 (9).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.44">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b070d435-bdd2-4127-b6ee-a2ec620c27b4"></attrib>
+<attrib name="id" value="sec.44"></attrib></parentattributes>
+
+<head>
+<no>44</no><heading guid="_b0324e7d-4d05-4b79-a56e-3bad42e82b62"
+id="sec.44-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter which by this
+Act is required or permitted to be prescribed or which is necessary or
+convenient to be prescribed for carrying out or giving effect to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.45" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5e9cd9b1-f1e1-404b-83bc-0f9994ce0e71"></attrib>
+<attrib name="id" value="sec.45"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>45</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 45:</b> Am 1995 No 99,
+Sch 4. Rep 1999 No 85, Sch 4.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.46">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f7787f47-a6c3-4c63-bf1c-fb08d2b4f625"></attrib>
+<attrib name="id" value="sec.46"></attrib></parentattributes>
+
+<head>
+<no>46</no><heading guid="_326eea5b-d8fa-4f8b-ab70-03e2114d1e04"
+id="sec.46-he"><b>Savings and transitional provisions</b></heading></head>
+<block><txt break.before="1">Schedule 2 has effect.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 46:</b> Ins 1995 No 99,
+Sch 4.</txt></content>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1" status="repealed">
+<parentattributes>
+<attrib name="status" value="repealed"></attrib>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e3c80157-45b1-4f5e-a4cd-cc284afbb695"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1, hdg:</b> Subst
+1995 No 99, Sch 4. Rep 1999 No 85, Sch 4.</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1 (previously
+Sch):</b> Am 1979 No 89, Sch 5; 1980 No 24, Sch 2. Rep 1999 No 85, Sch
+4.</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a7516ac2-8801-43a5-806f-f4b666218fcd"></attrib>
+<attrib name="id" value="sch.2"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading
+guid="_ebedd75d-5473-419c-9e15-c82e8dd26d5a" id="sch.2-he"><b>Savings and
+transitional provisions</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 46)</txt></block>
+
+<level type="clause" id="sch.2-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fc9e8808-d84c-47b4-a58e-262d6fbf2996"></attrib>
+<attrib name="id" value="sch.2-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_78f124af-7af9-46d1-938d-ada5d45e0d2b"
+id="sch.2-sec.1-he"><b>Preservation of rights of previous executive
+members</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_427a75e7-9088-4756-82d5-b54988ae3216"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Despite the repeal of section 9 by the <legref
+type="act" jurisd="NSW" check="unknown"><name emphasis="yes"><i>Teacher
+Housing Authority (Amendment) Act 1987</i></name></legref>, that section
+continues to have effect in relation to a person who at any time held office
+as the executive member.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_10c541e1-a0b2-4096-b66c-294be589ca14"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This clause is taken to have commenced on 13
+April 1987 (the date of commencement of the <legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Teacher Housing Authority (Amendment)
+Act 1987</i></name></legref>).</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_94259e6b-be95-4f76-8ff1-2dd505a1b659"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Subclause (1) re-enacts (with minor modification)
+clause 3 of Schedule 3 to the <legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Teacher Housing Authority (Amendment)
+Act 1987</i></name></legref>. Subclause (1) is a transferred provision to
+which section 30A of the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1987-015"><name emphasis="yes"><i>Interpretation Act
+1987</i></name></legref> applies.</txt></block></tier>
+</level>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 2:</b> Ins 1995 No
+99, Sch 4. Am 1996 No 30, Sch 2.</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_e791c27e-14ba-4141-8d72-89cfcd64b04b"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_d06ad5f9-e694-4a9c-be64-f198b81d0f3b"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-1975-027"><name emphasis="yes"><i>Teacher Housing Authority Act
+1975</i></name> No 27</legref>. Assented to 14.4.1975. Date of commencement of
+Part 3, 1.1.1976, sec 2 (2) and GG No 160 of 5.12.1975, p 5052. This Act has
+been amended as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_a678de4a-daa7-455f-a1a2-0976bc0b7e3c" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_d39d6a45-d09a-4994-be07-439308bab14c" id="ed-tbl-tblr">
+<entry colname="1" guid="_ac16510f-836e-43ae-bbe6-b1b860879546"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1976</b></txt></entry>
+<entry colname="2" guid="_f7b5a687-0d74-40d9-80c3-9836b572f254"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 4</txt></entry>
+<entry colname="3" guid="_69f3393b-066e-4035-8392-2f0dfe415832"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-1976-004"><name emphasis="yes"><i>Statutory and Other Offices
+Remuneration Act 1975</i></name></legref>. Assented to 7.1.1976.</txt>
+<txt break.before="1">Date of commencement of Sch 5, 2.2.1976, sec 2 (2) and
+GG No 15 of 30.1.1976, p 398.</txt></block></entry></row>
+
+
+<row guid="_b5ba3eef-6112-4c88-aed4-1f57ab4c109d" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_1fc48e42-35b8-41de-8ed1-3c785894c206"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>1977</b></txt></entry>
+<entry colname="2" guid="_e3348ddd-e087-48da-bd76-e52c8d8bca3a"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 19</txt></entry>
+<entry colname="3" guid="_87aa1309-5219-424b-8661-0734eb13ed68"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-1977-019"><name emphasis="yes"><i>Notice of Action and Other
+Privileges Abolition Act 1977</i></name></legref>. Assented to
+24.3.1977.</txt>
+<txt break.before="1">Date of commencement, 19.8.1977, sec 2 and GG No 92 of
+19.8.1977, p 3541.</txt></block></entry></row>
+
+
+<row guid="_e4d31330-143f-41c0-861f-5be4fe97f280" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_1ce6181f-5a5d-4bf6-bddf-be0feded8cd0"
+id="ed-tbl-tblr-oc.3-tble1"></entry>
+<entry colname="2" guid="_e9bf7315-d8c6-4ec6-bc4f-d104f3449bb5"
+id="ed-tbl-tblr-oc.3-tble2"></entry>
+<entry colname="3" guid="_d746632c-15fd-448c-99c5-621086fa9214"
+id="ed-tbl-tblr-oc.3-tble3"><txt break.before="1"><legref type="act"
+jurisd="NSW" check="unknown"><name emphasis="yes"><i>Teacher Housing Authority
+(Amendment) Act 1977</i></name></legref>. Assented to
+9.12.1977.</txt></entry></row>
+
+
+<row guid="_f3952800-4007-4432-9303-b12592819fc6" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_98fe4bfa-a64d-42ca-bf4e-8af8aef27b20"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>1979</b></txt></entry>
+<entry colname="2" guid="_d891b421-0779-480a-af12-2ed905107f22"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 89</txt></entry>
+<entry colname="3" guid="_ff5060ee-0d82-42ba-8c81-19e81cb19002"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Public Service Act
+1979</i></name></legref>. Assented to 16.5.1979.</txt>
+<txt break.before="1">Date of commencement of Sch 5, 28.9.1979, sec 2 (2) and
+GG No 130 of 21.9.1979, p 4666.</txt></block></entry></row>
+
+
+<row guid="_180b2fd7-2704-49a0-8025-efa3e675c1c8" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_061c934a-1676-4460-af03-163e337fe353"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>1980</b></txt></entry>
+<entry colname="2" guid="_e81a2dc7-33f8-4d90-8948-b5e506fdac83"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 24</txt></entry>
+<entry colname="3" guid="_e63747bb-ea31-4134-99a9-6c66d8ca3e55"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Education
+Commission) Repeal and Amendment Act 1980</i></name></legref>. Assented to
+16.4.1980.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 20.10.1980, sec 2 (2) and
+GG No 152 of 17.10.1980, p 5395.</txt></block></entry></row>
+
+
+<row guid="_2f2b95bd-8528-486f-8273-fd3eb49cf95a" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_b5172650-9416-4a02-9fd6-1ea0a621f914"
+id="ed-tbl-tblr-oc.6-tble1"></entry>
+<entry colname="2" guid="_c74d642b-9ce8-466b-b561-717f6c0048cd"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">No 187</txt></entry>
+<entry colname="3" guid="_124c3d29-0c0a-4772-8221-77cedf1a0557"
+id="ed-tbl-tblr-oc.6-tble3"><txt break.before="1"><legref type="act"
+jurisd="NSW" check="unknown"><name emphasis="yes"><i>Miscellaneous Acts
+(Retirement of Statutory Officers) Amendment Act 1980</i></name></legref>.
+Assented to 17.12.1980.</txt></entry></row>
+
+
+<row guid="_53e4f4af-e23d-4507-acd2-1f3c41dbc4bf" id="ed-tbl-tblr-oc.7">
+<entry colname="1" guid="_dbc87a7a-c062-4ede-83f5-4a30185ded77"
+id="ed-tbl-tblr-oc.7-tble1"><txt break.before="1"><b>1981</b></txt></entry>
+<entry colname="2" guid="_cb3001a7-8536-48bc-9de6-e50f2b34b34a"
+id="ed-tbl-tblr-oc.7-tble2"><txt break.before="1">No 83</txt></entry>
+<entry colname="3" guid="_50f98e55-c457-46dd-80a8-7d11e232fe41"
+id="ed-tbl-tblr-oc.7-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Financial
+Accommodation) Amendment Act 1981</i></name></legref>. Assented to
+9.6.1981.</txt>
+<txt break.before="1">A proclamation was published in Gazette No 79 of
+12.6.1981, p 3097, specifying 11.6.1981 as the date of commencement of Sch 1.
+The amendment was taken to have commenced on
+12.6.1981.</txt></block></entry></row>
+
+
+<row guid="_8db975b4-81a0-42c0-a930-385e63d42a97" id="ed-tbl-tblr-oc.8">
+<entry colname="1" guid="_1bc83d50-8a84-45be-a480-daa19484084c"
+id="ed-tbl-tblr-oc.8-tble1"><txt break.before="1"><b>1983</b></txt></entry>
+<entry colname="2" guid="_8c1dd022-9209-4031-a045-d6ce3ba6a829"
+id="ed-tbl-tblr-oc.8-tble2"><txt break.before="1">No 153</txt></entry>
+<entry colname="3" guid="_a5346836-226c-4601-a4e8-06f754d42b0f"
+id="ed-tbl-tblr-oc.8-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Public Finance and
+Audit) Repeal and Amendment Act 1983</i></name></legref>. Assented to
+29.12.1983.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 6.1.1984, sec 2 (2) and
+GG No 4 of 6.1.1984, p 19.</txt></block></entry></row>
+
+
+<row guid="_5fbf11d4-7c30-42e7-add6-2a6bee994163" id="ed-tbl-tblr-oc.9">
+<entry colname="1" guid="_61e69ed4-af18-489d-b951-2958939423f6"
+id="ed-tbl-tblr-oc.9-tble1"><txt break.before="1"><b>1987</b></txt></entry>
+<entry colname="2" guid="_73e4e891-4c4b-430b-a051-615ba6be13d5"
+id="ed-tbl-tblr-oc.9-tble2"><txt break.before="1">No 14</txt></entry>
+<entry colname="3" guid="_12803ea0-bec7-4383-932c-a0cdeffdb7b5"
+id="ed-tbl-tblr-oc.9-tble3"><txt break.before="1"><legref type="act"
+jurisd="NSW" check="unknown"><name emphasis="yes"><i>Teacher Housing Authority
+(Amendment) Act 1987</i></name></legref>. Assented to
+13.4.1987.</txt></entry></row>
+
+
+<row guid="_f85d9b5c-c673-4a73-8f1d-5469311bbaae" id="ed-tbl-tblr-oc.10">
+<entry colname="1" guid="_3279049c-3998-46b3-9c60-142e9dce0dc0"
+id="ed-tbl-tblr-oc.10-tble1"></entry>
+<entry colname="2" guid="_88a4a615-c4a7-4cf5-8bd1-82e6731820b5"
+id="ed-tbl-tblr-oc.10-tble2"><txt break.before="1">No 63</txt></entry>
+<entry colname="3" guid="_50560b61-1951-419b-9e9b-23466edb8227"
+id="ed-tbl-tblr-oc.10-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Education and
+Public Instruction) Repeal and Amendment Act 1987</i></name></legref>.
+Assented to 3.6.1987.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 17.8.1987, sec 2 (2) and
+GG No 126 of 31.7.1987, p 4254.</txt></block></entry></row>
+
+
+<row guid="_1c27ec5a-016d-4f78-9300-54b76a7e9dd6" id="ed-tbl-tblr-oc.11">
+<entry colname="1" guid="_ac0954df-a9ba-4ed2-81ce-087b393673bc"
+id="ed-tbl-tblr-oc.11-tble1"><txt break.before="1"><b>1988</b></txt></entry>
+<entry colname="2" guid="_7b00c792-5a79-4dbc-9422-7d04a403921d"
+id="ed-tbl-tblr-oc.11-tble2"><txt break.before="1">No 30</txt></entry>
+<entry colname="3" guid="_0c34d9f4-47ce-4c7b-9a1e-8e89c8953666"
+id="ed-tbl-tblr-oc.11-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Education
+Commission) Amendment Act 1988</i></name></legref>. Assented to
+6.7.1988.</txt>
+<txt break.before="1">Date of commencement, 1.8.1988, sec 2 and GG No 123 of
+29.7.1988, p 3983.</txt></block></entry></row>
+
+
+<row guid="_c1033d32-6d16-4e53-b8ec-414addff4e64" id="ed-tbl-tblr-oc.12">
+<entry colname="1" guid="_bc3c6ab5-eee2-401c-8a44-e9652a72eeed"
+id="ed-tbl-tblr-oc.12-tble1"><txt break.before="1"><b>1989</b></txt></entry>
+<entry colname="2" guid="_b3b64689-f660-47c8-8d1b-7d49e086e760"
+id="ed-tbl-tblr-oc.12-tble2"><txt break.before="1">No 226</txt></entry>
+<entry colname="3" guid="_785d289a-7cd6-4341-8d1d-1fd9a6f40e43"
+id="ed-tbl-tblr-oc.12-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 3) 1989</i></name></legref>. Assented to 21.12.1989.</txt>
+<txt break.before="1">Date of commencement of the provisions of Sch 1 relating
+to the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1975-027"><name emphasis="yes"><i>Teacher Housing Authority Act
+1975</i></name></legref>, assent, sec 2.</txt></block></entry></row>
+
+
+<row guid="_e50e2ad9-f400-4ca3-8f83-ce4452f1f483" id="ed-tbl-tblr-oc.13">
+<entry colname="1" guid="_6825f020-bb72-484c-918c-700dacb6a7fc"
+id="ed-tbl-tblr-oc.13-tble1"><txt break.before="1"><b>1990</b></txt></entry>
+<entry colname="2" guid="_8a64ca14-9d2c-4cf2-a5ee-b1ed185bb896"
+id="ed-tbl-tblr-oc.13-tble2"><txt break.before="1">No 108</txt></entry>
+<entry colname="3" guid="_c2c411dd-e3f3-4376-b177-eaad15a18701"
+id="ed-tbl-tblr-oc.13-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1990</i></name></legref>. Assented to 13.12.1990.</txt>
+<txt break.before="1">Date of commencement of the provisions of Sch 1 relating
+to the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1975-027"><name emphasis="yes"><i>Teacher Housing Authority Act
+1975</i></name></legref>, 15.2.1991, Sch 1 and GG No 31 of 15.2.1991, p
+1235.</txt></block></entry></row>
+
+
+<row guid="_abcf6981-098e-437b-8740-955fe15c098f" id="ed-tbl-tblr-oc.14">
+<entry colname="1" guid="_b5224b80-2b1c-4e2b-87dd-dea7bdd1dfbc"
+id="ed-tbl-tblr-oc.14-tble1"></entry>
+<entry colname="2" guid="_877db19a-76bd-42fc-b126-0c488212ee34"
+id="ed-tbl-tblr-oc.14-tble2"><txt break.before="1">No 118</txt></entry>
+<entry colname="3" guid="_0b8e2e67-a643-48ad-926b-97d06197f4e2"
+id="ed-tbl-tblr-oc.14-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-1990-118"><name emphasis="yes"><i>Technical and Further Education
+Commission Act 1990</i></name></legref>. Assented to 18.12.1990.</txt>
+<txt break.before="1">Date of commencement, 1.2.1991, sec 2 and GG No 20 of
+1.2.1991, p 868.</txt></block></entry></row>
+
+
+<row guid="_d0b964bc-9190-4815-aedc-81607490e404" id="ed-tbl-tblr-oc.15">
+<entry colname="1" guid="_50570e5b-107f-49fc-84c5-be3817bf6b1d"
+id="ed-tbl-tblr-oc.15-tble1"><txt break.before="1"><b>1992</b></txt></entry>
+<entry colname="2" guid="_225b9480-164d-48f0-954d-ebb2d56435be"
+id="ed-tbl-tblr-oc.15-tble2"><txt break.before="1">No 57</txt></entry>
+<entry colname="3" guid="_a6fd7444-56a7-4e3f-bf6d-9099fe2d5b64"
+id="ed-tbl-tblr-oc.15-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1992</i></name></legref>. Assented to 8.10.1992.</txt>
+<txt break.before="1">Date of commencement of the provisions of Sch 2 relating
+to the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1975-027"><name emphasis="yes"><i>Teacher Housing Authority Act
+1975</i></name></legref>, assent, Sch 2.</txt></block></entry></row>
+
+
+<row guid="_b22f65aa-26c8-4703-bc2e-b9542a7033ec" id="ed-tbl-tblr-oc.16">
+<entry colname="1" guid="_79982195-0ff0-487e-a4ab-6598c7e5919b"
+id="ed-tbl-tblr-oc.16-tble1"><txt break.before="1"><b>1993</b></txt></entry>
+<entry colname="2" guid="_2c06bb8c-0319-4673-9666-879c8a862347"
+id="ed-tbl-tblr-oc.16-tble2"><txt break.before="1">No 32</txt></entry>
+<entry colname="3" guid="_35ec44d6-1941-472c-8172-402516d4a855"
+id="ed-tbl-tblr-oc.16-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Local Government (Consequential
+Provisions) Act 1993</i></name></legref>. Assented to 8.6.1993.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 1.7.1993, sec 2 (1) and
+GG No 73 of 1.7.1993, p 3342.</txt></block></entry></row>
+
+
+<row guid="_90f275fa-7d39-4339-b67b-b84083fd6bff" id="ed-tbl-tblr-oc.17">
+<entry colname="1" guid="_da68e99a-bc56-4fd6-b52b-a021e0028626"
+id="ed-tbl-tblr-oc.17-tble1"></entry>
+<entry colname="2" guid="_4c910413-4551-4825-b202-48aefd3eb443"
+id="ed-tbl-tblr-oc.17-tble2"><txt break.before="1">No 47</txt></entry>
+<entry colname="3" guid="_df7c96f1-a378-44ca-b195-b8ced28758fa"
+id="ed-tbl-tblr-oc.17-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Penalties) Act
+1993</i></name></legref>. Assented to 15.6.1993.</txt>
+<txt break.before="1">Date of commencement, assent, Sch
+1.</txt></block></entry></row>
+
+
+<row guid="_8e66fae3-e5c2-42ce-ba26-d2af043d146a" id="ed-tbl-tblr-oc.18">
+<entry colname="1" guid="_2a0064d8-9e56-4a0c-a284-aa465075a5e3"
+id="ed-tbl-tblr-oc.18-tble1"></entry>
+<entry colname="2" guid="_ee4f27b5-bd4d-4420-8bdc-b790fcb6b4ed"
+id="ed-tbl-tblr-oc.18-tble2"><txt break.before="1">No 108</txt></entry>
+<entry colname="3" guid="_18aa37f8-ec25-4f2b-a3d5-be0360c3f7d2"
+id="ed-tbl-tblr-oc.18-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1993</i></name></legref>. Assented to 2.12.1993.</txt>
+<txt break.before="1">Date of commencement of the provision of Sch 1 relating
+to the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1975-027"><name emphasis="yes"><i>Teacher Housing Authority Act
+1975</i></name></legref>, assent, Sch 1.</txt></block></entry></row>
+
+
+<row guid="_bda4ad4e-dce7-4e37-b844-a5a600a95bef" id="ed-tbl-tblr-oc.19">
+<entry colname="1" guid="_45ce1062-d6dc-421c-98eb-535a2f223cd4"
+id="ed-tbl-tblr-oc.19-tble1"><txt break.before="1"><b>1994</b></txt></entry>
+<entry colname="2" guid="_08a66b57-bebf-438d-851a-1f12f43bfb41"
+id="ed-tbl-tblr-oc.19-tble2"><txt break.before="1">No 32</txt></entry>
+<entry colname="3" guid="_dcc6f81f-dae6-4254-b6cb-6850980eb675"
+id="ed-tbl-tblr-oc.19-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act 1994</i></name></legref>. Assented to 2.6.1994.</txt>
+<txt break.before="1">Date of commencement of the provisions of Sch 1 relating
+to the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1975-027"><name emphasis="yes"><i>Teacher Housing Authority Act
+1975</i></name></legref>, assent, Sch 1.</txt></block></entry></row>
+
+
+<row guid="_314570f2-1687-4861-a913-58c0e04649f3" id="ed-tbl-tblr-oc.20">
+<entry colname="1" guid="_25289173-0c36-4c50-b364-22fb8a7653a5"
+id="ed-tbl-tblr-oc.20-tble1"></entry>
+<entry colname="2" guid="_696f8e4e-afd6-4605-8d52-885991a24980"
+id="ed-tbl-tblr-oc.20-tble2"><txt break.before="1">No 95</txt></entry>
+<entry colname="3" guid="_32c8ec61-f84c-4341-a6f2-19e6081a1e80"
+id="ed-tbl-tblr-oc.20-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1994</i></name></legref>. Assented to 12.12.1994.</txt>
+<txt break.before="1">Date of commencement of the provisions of Sch 1 relating
+to the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1975-027"><name emphasis="yes"><i>Teacher Housing Authority Act
+1975</i></name></legref>, 10.2.1995, Sch 1 and GG No 14 of 10.2.1995, p
+734.</txt></block></entry></row>
+
+
+<row guid="_bc47fef9-69aa-472c-98c2-ecc9a2eb1732" id="ed-tbl-tblr-oc.21">
+<entry colname="1" guid="_3a2e02a5-4dea-477b-b412-234cd267a177"
+id="ed-tbl-tblr-oc.21-tble1"><txt break.before="1"><b>1995</b></txt></entry>
+<entry colname="2" guid="_37ec7667-395e-4241-a831-e11e46261b67"
+id="ed-tbl-tblr-oc.21-tble2"><txt break.before="1">No 99</txt></entry>
+<entry colname="3" guid="_76475618-618a-4709-afec-fd979b2bb798"
+id="ed-tbl-tblr-oc.21-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1995</i></name></legref>. Assented to 21.12.1995.</txt>
+<txt break.before="1">Date of commencement of Sch 4, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_8e9db539-8048-4893-a40b-b0bbc518f067" id="ed-tbl-tblr-oc.22">
+<entry colname="1" guid="_a5eec332-2b01-4711-8f9b-9306986524e2"
+id="ed-tbl-tblr-oc.22-tble1"><txt break.before="1"><b>1996</b></txt></entry>
+<entry colname="2" guid="_ff0f7d79-de1a-4db5-958e-64b7a9eaefd7"
+id="ed-tbl-tblr-oc.22-tble2"><txt break.before="1">No 30</txt></entry>
+<entry colname="3" guid="_a745c678-2aa5-423e-97dc-72f66a6b2e38"
+id="ed-tbl-tblr-oc.22-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act 1996</i></name></legref>. Assented to 21.6.1996.</txt>
+<txt break.before="1">Date of commencement of Sch 2, assent, sec 2 (1); date
+of commencement of Sch 3, 3 months after assent, sec 2
+(3).</txt></block></entry></row>
+
+
+<row guid="_55d32342-13d6-467b-9247-5e1c2fef013e" id="ed-tbl-tblr-oc.23">
+<entry colname="1" guid="_8daf1dfa-45fa-41bb-af91-a5ed92ea9029"
+id="ed-tbl-tblr-oc.23-tble1"></entry>
+<entry colname="2" guid="_cf39428f-fc3a-4435-bfd3-db739ac8dd97"
+id="ed-tbl-tblr-oc.23-tble2"><txt break.before="1">No 121</txt></entry>
+<entry colname="3" guid="_762703f0-11fd-4025-8e11-c50bedb42d50"
+id="ed-tbl-tblr-oc.23-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1996</i></name></legref>. Assented to 3.12.1996.</txt>
+<txt break.before="1">Date of commencement of Sch 4.57, 4 months after assent,
+sec 2 (4).</txt></block></entry></row>
+
+
+<row guid="_a6af8fd0-bfbc-4179-910f-61245ff1f704" id="ed-tbl-tblr-oc.24">
+<entry colname="1" guid="_da5a601d-0590-48b6-949e-29c35e047d83"
+id="ed-tbl-tblr-oc.24-tble1"><txt break.before="1"><b>1997</b></txt></entry>
+<entry colname="2" guid="_91db77b7-6c03-463b-9570-967d7fb44e29"
+id="ed-tbl-tblr-oc.24-tble2"><txt break.before="1">No 55</txt></entry>
+<entry colname="3" guid="_9fc18dd6-68b9-4234-b1d7-23d11b39e938"
+id="ed-tbl-tblr-oc.24-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act 1997</i></name></legref>. Assented to 2.7.1997.</txt>
+<txt break.before="1">Date of commencement of Sch 1.27, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_70d2f583-1dfd-4b0d-b26c-f82796fe7559" id="ed-tbl-tblr-oc.25">
+<entry colname="1" guid="_a01fb782-7e75-44e8-8f5e-72c785c5362e"
+id="ed-tbl-tblr-oc.25-tble1"><txt break.before="1"><b>1999</b></txt></entry>
+<entry colname="2" guid="_6a2079bb-1ce2-44e1-ab73-037d24adf504"
+id="ed-tbl-tblr-oc.25-tble2"><txt break.before="1">No 31</txt></entry>
+<entry colname="3" guid="_643481f5-6ac2-4aca-b4a0-9d511f41012c"
+id="ed-tbl-tblr-oc.25-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-1999-031"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 1999</i></name></legref>. Assented to 7.7.1999.</txt>
+<txt break.before="1">Date of commencement of Sch 3.18, assent, sec 2 (2);
+date of commencement of Sch 4, assent, sec 2 (1).</txt></block></entry></row>
+
+
+<row guid="_65475a1f-2cfd-4cc0-bfe6-6a2d5eef3bc0" id="ed-tbl-tblr-oc.26">
+<entry colname="1" guid="_30f52f32-005d-47c9-beef-cc3d6a324372"
+id="ed-tbl-tblr-oc.26-tble1"></entry>
+<entry colname="2" guid="_ccec062a-443b-4ca0-9250-e395a5d2d086"
+id="ed-tbl-tblr-oc.26-tble2"><txt break.before="1">No 85</txt></entry>
+<entry colname="3" guid="_6bbe1123-4ca1-4fed-ab9c-1efa77aed7aa"
+id="ed-tbl-tblr-oc.26-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-1999-085"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 1999</i></name></legref>. Assented to 3.12.1999.</txt>
+<txt break.before="1">Date of commencement of Sch 4, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_b44c93bf-5fad-4b45-a3b6-6ce5652209de" id="ed-tbl-tblr-oc.27">
+<entry colname="1" guid="_879b1dc7-266b-4fef-bf2f-b6bc0b5a4b5f"
+id="ed-tbl-tblr-oc.27-tble1"></entry>
+<entry colname="2" guid="_df30dbfd-2b35-4a1b-abb0-dcc32d9def3d"
+id="ed-tbl-tblr-oc.27-tble2"><txt break.before="1">No 94</txt></entry>
+<entry colname="3" guid="_d4e222a7-f9dc-47cf-9ca2-db778fb67829"
+id="ed-tbl-tblr-oc.27-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Crimes Legislation Amendment
+(Sentencing) Act 1999</i></name></legref>. Assented to 8.12.1999.</txt>
+<txt break.before="1">Date of commencement of sec 7 and Sch 5, 1.1.2000, sec 2
+(1) and GG No 144 of 24.12.1999, p 12184.</txt></block></entry></row>
+
+
+<row guid="_4ea7d7fc-5d71-4ccc-9668-34df22826f24" id="ed-tbl-tblr-oc.28">
+<entry colname="1" guid="_39a499b9-abe4-43bf-a30b-468bc64604de"
+id="ed-tbl-tblr-oc.28-tble1"><txt break.before="1"><b>2001</b></txt></entry>
+<entry colname="2" guid="_e013384d-c6b9-479d-8da8-b73abb3fce24"
+id="ed-tbl-tblr-oc.28-tble2"><txt break.before="1">No 34</txt></entry>
+<entry colname="3" guid="_d663c3c0-4331-4c76-90ad-4cf5a5accc66"
+id="ed-tbl-tblr-oc.28-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2001-034"><name emphasis="yes"><i>Corporations (Consequential
+Amendments) Act 2001</i></name></legref>. Assented to 28.6.2001.</txt>
+<txt break.before="1">Date of commencement of Sch 2.51, 15.7.2001, sec 2 (1)
+and Commonwealth Gazette No S 285 of 13.7.2001.</txt></block></entry></row>
+
+
+<row guid="_e3693625-4d21-4b76-ab02-d393020ca84e" id="ed-tbl-tblr-oc.29">
+<entry colname="1" guid="_a66de06d-b13e-461d-b656-77b24b880223"
+id="ed-tbl-tblr-oc.29-tble1"></entry>
+<entry colname="2" guid="_41081966-a8b6-43c1-aad9-15747bd2bc5c"
+id="ed-tbl-tblr-oc.29-tble2"><txt break.before="1">No 52</txt></entry>
+<entry colname="3" guid="_11cfe1ff-4c88-4de6-abc8-e2132bf28e1d"
+id="ed-tbl-tblr-oc.29-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2001-052"><name emphasis="yes"><i>Housing Act
+2001</i></name></legref>. Assented to 17.7.2001.</txt>
+<txt break.before="1">Date of commencement, 1.7.2001, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_fe243e40-038c-4920-b46e-7aaa0f239ad4" id="ed-tbl-tblr-oc.30">
+<entry colname="1" guid="_b7f5efb9-5d81-4219-b56e-27ce93f0b33d"
+id="ed-tbl-tblr-oc.30-tble1"><txt break.before="1"><b>2002</b></txt></entry>
+<entry colname="2" guid="_ead22d4f-c19a-4fae-a872-4b32e757d85b"
+id="ed-tbl-tblr-oc.30-tble2"><txt break.before="1">No 26</txt></entry>
+<entry colname="3" guid="_0e6c77c4-da26-450c-9cfd-c19c04c80e7e"
+id="ed-tbl-tblr-oc.30-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2002-026"><name emphasis="yes"><i>Financial Services Reform
+(Consequential Amendments) Act 2002</i></name></legref>. Assented to
+21.6.2002.</txt>
+<txt break.before="1">Date of commencement of Sch 2.12, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_86ec1d94-046a-42d4-9d8e-938892b4d7e4" id="ed-tbl-tblr-oc.31">
+<entry colname="1" guid="_17b74c71-16cb-4a5c-9203-da160a42f0b6"
+id="ed-tbl-tblr-oc.31-tble1"><txt break.before="1"><b>2004</b></txt></entry>
+<entry colname="2" guid="_cb7df6f6-bafb-4bff-a082-b23cfd172fa8"
+id="ed-tbl-tblr-oc.31-tble2"><txt break.before="1">No 114</txt></entry>
+<entry colname="3" guid="_59544e8d-3630-4026-b9e0-aad8207bd922"
+id="ed-tbl-tblr-oc.31-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2004-114"><name emphasis="yes"><i>Teaching Services Amendment Act
+2004</i></name></legref>. Assented to 21.12.2004.</txt>
+<txt break.before="1">Date of commencement, 17.1.2005, sec 2 and GG No 7 of
+14.1.2005, p 97.</txt></block></entry></row>
+
+
+<row guid="_d7ab0fe1-da6e-4ea5-b425-41aa0e9ca1ea" id="ed-tbl-tblr-oc.32">
+<entry colname="1" guid="_5abe09f4-6461-437d-af19-faaef851acea"
+id="ed-tbl-tblr-oc.32-tble1"><txt break.before="1"><b>2006</b></txt></entry>
+<entry colname="2" guid="_284fc62f-dd7b-4b9e-a4e3-b1033e1760ba"
+id="ed-tbl-tblr-oc.32-tble2"><txt break.before="1">No 2</txt></entry>
+<entry colname="3" guid="_fa4fed73-37d5-483a-a379-d7b3ae64210e"
+id="ed-tbl-tblr-oc.32-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2006-002"><name emphasis="yes"><i>Public Sector Employment
+Legislation Amendment Act 2006</i></name></legref>. Assented to
+13.3.2006.</txt>
+<txt break.before="1">Date of commencement, 17.3.2006, sec 2 and GG No 35 of
+17.3.2006, p 1378.</txt></block></entry></row>
+
+
+<row guid="_5d790eee-9b27-41b6-8b80-3c871cb36618" id="ed-tbl-tblr-oc.33">
+<entry colname="1" guid="_b8d83504-7710-4fcb-a655-fb395ca198df"
+id="ed-tbl-tblr-oc.33-tble1"><txt break.before="1"><b>2007</b></txt></entry>
+<entry colname="2" guid="_cf0ea690-a6bc-406e-b29d-09f979912e02"
+id="ed-tbl-tblr-oc.33-tble2"><txt break.before="1">No 27</txt></entry>
+<entry colname="3" guid="_88a9e0f6-d524-411c-82e7-d42a50d8f0c5"
+id="ed-tbl-tblr-oc.33-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2007-027"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2007</i></name></legref>. Assented to 4.7.2007.</txt>
+<txt break.before="1">Date of commencement of Sch 2, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_9badeb4b-7f7b-42d9-a9ac-704d75790427" id="ed-tbl-tblr-oc.34">
+<entry colname="1" guid="_6b2a4a69-d7ec-4df3-a36e-719c839f3828"
+id="ed-tbl-tblr-oc.34-tble1"></entry>
+<entry colname="2" guid="_e0183698-8bb8-4ab0-b937-1a67bc885360"
+id="ed-tbl-tblr-oc.34-tble2"><txt break.before="1">No 94</txt></entry>
+<entry colname="3" guid="_94ec62aa-b0ff-451b-a7d3-2357fe5abb02"
+id="ed-tbl-tblr-oc.34-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2007-094"><name emphasis="yes"><i>Miscellaneous Acts (Local Court)
+Amendment Act 2007</i></name></legref>. Assented to 13.12.2007.</txt>
+<txt break.before="1">Date of commencement of Sch 4, 6.7.2009, sec 2 and 2009
+(314) LW 3.7.2009.</txt></block></entry></row>
+
+
+<row guid="_d7dcdc82-d55f-4210-8bc2-1e8537c223e0" id="ed-tbl-tblr-oc.35">
+<entry colname="1" guid="_97539aee-569e-436b-8e91-c136e8709939"
+id="ed-tbl-tblr-oc.35-tble1"><txt break.before="1"><b>2009</b></txt></entry>
+<entry colname="2" guid="_1bf0e2ac-724b-4ad0-aa07-de9cbf96175c"
+id="ed-tbl-tblr-oc.35-tble2"><txt break.before="1">No 96</txt></entry>
+<entry colname="3" guid="_4b31199d-536c-4d44-b88c-4dcbea6b6776"
+id="ed-tbl-tblr-oc.35-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2009-096"><name emphasis="yes"><i>Public Sector Restructure
+(Miscellaneous Acts Amendments) Act 2009</i></name></legref>. Assented to
+30.11.2009.</txt>
+<txt break.before="1">Date of commencement of Sch 27, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_f71128de-f67e-4eef-99b7-e6763e05fd2a" id="ed-tbl-tblr-oc.36">
+<entry colname="1" guid="_268196e7-a1b1-4091-bce0-35c1e43408b6"
+id="ed-tbl-tblr-oc.36-tble1"><txt break.before="1"><b>2015</b></txt></entry>
+<entry colname="2" guid="_c7f1b84b-2ee8-4552-a96e-30926072dfd3"
+id="ed-tbl-tblr-oc.36-tble2"><txt break.before="1">No 58</txt></entry>
+<entry colname="3" guid="_ed0c2764-a873-471f-9ef7-9267c78c47c4"
+id="ed-tbl-tblr-oc.36-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2015-058"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2015</i></name></legref>. Assented to
+24.11.2015.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 15.1.2016, sec 2
+(3).</txt></block></entry></row>
+
+
+<row guid="_9d7c6e2a-f277-49bc-9757-141d557d0740" id="ed-tbl-tblr-oc.37">
+<entry colname="1" guid="_2d5309b3-b08b-4487-a75e-14aff265ff22"
+id="ed-tbl-tblr-oc.37-tble1"><txt break.before="1"><b>2020</b></txt></entry>
+<entry colname="2" guid="_b34374a4-435d-4404-aff4-afee60648e90"
+id="ed-tbl-tblr-oc.37-tble2"><txt break.before="1">No 30</txt></entry>
+<entry colname="3" guid="_94ec24a8-2574-4c24-93e2-e228a9cbbac7"
+id="ed-tbl-tblr-oc.37-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2020-030"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2020</i></name></legref>. Assented to 27.10.2020.</txt>
+<txt break.before="1">Date of commencement of Sch 3, assent, sec
+2(1).</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_41458784-9562-4132-9d87-15ee36e1914d"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block><txt break.before="1">No reference is made to certain amendments made
+by Schedule 3 (amendments replacing gender-specific language) to the <legref
+type="act" jurisd="NSW" check="unknown"><name emphasis="yes"><i>Statute Law
+(Miscellaneous Provisions) Act 1996</i></name></legref>.</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_95778c2d-1a54-4e97-b5a1-ac020a9a041d" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_8f21bf94-bda8-4be3-88ba-fc611caaeb97" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_11b30baa-3dc0-4d14-99b4-684a5646be2d"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_bdc8f130-d690-4160-b1d8-719634b59cbf"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Rep 1987 No 14, Sch 2
+(1).</txt></entry></row>
+
+
+<row guid="_bbc704fd-0060-47b2-b3ff-fbd354dfb9b5" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_b8bb7800-d6cf-4e52-b8e3-0f9f77cbf9f6"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_3332db1d-e697-4215-bf06-649a5dfe6eb0"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 1980 No 24, Sch 2;
+1987 No 14, Sch 1 (1); 1987 No 63, Sch 2; 1988 No 30, Sch 1; 1990 No 118, Sch
+3; 1993 No 32, Sch 2; 1993 No 108, Sch 1; 1999 No 31, Sch 3.18; 2001 No 52,
+Sch 1.14; 2004 No 114, Sch 2.21 [1] [2]; 2007 No 27, Sch 2.56; 2015 No 58, Sch
+3.90 [1].</txt></entry></row>
+
+
+<row guid="_f2377620-53b6-418d-b555-cbea61405056" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_4d2ad59a-b792-419a-b45a-f8b52cc2e9e5"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 5A</txt></entry>
+<entry colname="2" guid="_fad6f62a-a509-45e8-a366-7a7212016e2e"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Rep 1988 No 30, Sch
+1.</txt></entry></row>
+
+
+<row guid="_30b81692-95e4-48e3-94a2-2371ebd2e829" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_9ac9a217-1c03-4b69-84c3-12cc9ea0ed15"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 7</txt></entry>
+<entry colname="2" guid="_2a76a948-2c08-45ac-9c88-836b2fcd6e7f"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Am 1987 No 14, Schs 1
+(2), 2 (2); 1990 No 108, Sch 1; 1994 No 32, Sch 1; 1994 No 95, Sch 1; 1996 No
+121, Sch 4.57; 2006 No 2, Sch 4.71 [1]; 2009 No 96, Sch 27 [1]&#8211;[6]; 2015
+No 58, Sch 3.90 [2]&#8211;[4]; 2020 No 30, Sch 3.40.</txt></entry></row>
+
+
+<row guid="_c84e4f28-c3d4-4120-bf77-055db63110c3" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_afaab2d8-cb41-4cbc-870e-6cbe9cb4197e"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 8</txt></entry>
+<entry colname="2" guid="_41b8ced9-75b9-4528-8d99-90bdaa145765"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Am 1976 No 4, Sch 5.
+Rep 1987 No 14, Sch 1 (3).</txt></entry></row>
+
+
+<row guid="_5c99ec10-754d-4a52-9585-89e7cd5a89cd" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_3d04c18c-f2ff-4b29-9368-7966debf2e63"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_ef0996bd-1abb-45d2-9ecb-3c7394ee4a38"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Am 1976 No 4, Sch 5;
+1980 No 24, Sch 2. Rep 1987 No 14, Sch 1 (4).</txt></entry></row>
+
+
+<row guid="_1ad46ffa-e42c-4fe1-9258-39853202ce9f" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_1553e0a9-d2dc-4fa0-9a7b-d6f4cbe722ba"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 10</txt></entry>
+<entry colname="2" guid="_79a203f1-b4bc-4023-8f6e-e08439b53727"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Am 1976 No 4, Sch 5;
+1980 No 24, Sch 2; 1980 No 187, Sch 1; 1987 No 14, Schs 1 (5), 2 (3); 1988 No
+30, Sch 1; 1989 No 226, Sch 1; 1990 No 108, Sch 1; 2015 No 58, Sch 3.90
+[10].</txt></entry></row>
+
+
+<row guid="_8cf52a36-93b2-49ec-9268-97002dc9029b" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_61ff9e0e-4a9b-4e99-abb1-870001e6faf7"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sec 11</txt></entry>
+<entry colname="2" guid="_1f4ca4fd-2f1f-476c-a803-838399206f13"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Am 1976 No 4, Sch 5;
+1980 No 187, Sch 1; 1987 No 14, Schs 1 (6), 2 (4); 1989 No 226, Sch 1; 1990 No
+108, Sch 1; 1994 No 95, Sch 1; 1999 No 94, sec 7 (1) and Sch 5, Part 1; 2001
+No 34, Sch 2.51; 2002 No 26, Sch 2.12; 2009 No 96, Sch 27
+[7].</txt></entry></row>
+
+
+<row guid="_e06e1137-0a1c-43f1-a21f-e824f6cd90dd" id="ed-tbl-oc.2-tblr-oc.9">
+<entry colname="1" guid="_c293ea12-e42c-41dc-812a-bb69e75eb886"
+id="ed-tbl-oc.2-tblr-oc.9-tble1"><txt break.before="1">Sec 12</txt></entry>
+<entry colname="2" guid="_b4276572-cc0e-4f84-80e6-893afa3ac498"
+id="ed-tbl-oc.2-tblr-oc.9-tble2"><txt break.before="1">Am 1987 No 14, Sch 2
+(5). Rep 2006 No 2, Sch 4.71 [2]. Ins 2015 No 58, Sch 3.90
+[6].</txt></entry></row>
+
+
+<row guid="_25cbfb05-0667-4c95-b074-6e1c0f28feb7"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry colname="1" guid="_fe3ee4bb-f4fd-4f32-9bcf-d0a880faead2"
+id="ed-tbl-oc.2-tblr-oc.10-tble1"><txt break.before="1">Sec 13</txt></entry>
+<entry colname="2" guid="_2a8500a6-f57a-4e72-a0e6-89de25dcaaf6"
+id="ed-tbl-oc.2-tblr-oc.10-tble2"><txt break.before="1">Am 1992 No 57, Sch 2;
+2006 No 2, Sch 4.71 [3]; 2015 No 58, Sch 3.90 [7] [8].</txt></entry></row>
+
+
+<row guid="_873f0ffe-cdd4-45b8-8f24-774a48dd483c"
+id="ed-tbl-oc.2-tblr-oc.11">
+<entry colname="1" guid="_9f5bc24c-4da9-4a25-9159-7429d255710b"
+id="ed-tbl-oc.2-tblr-oc.11-tble1"><txt break.before="1">Sec 14</txt></entry>
+<entry colname="2" guid="_74ff487e-83f1-4816-9017-881757860a1a"
+id="ed-tbl-oc.2-tblr-oc.11-tble2"><txt break.before="1">Subst 1992 No 57, Sch
+2.</txt></entry></row>
+
+
+<row guid="_b73452c3-630e-400f-968a-daf1082a9651"
+id="ed-tbl-oc.2-tblr-oc.12">
+<entry colname="1" guid="_bc518a07-a894-4f6d-9adb-72c8821b6387"
+id="ed-tbl-oc.2-tblr-oc.12-tble1"><txt break.before="1">Sec 17</txt></entry>
+<entry colname="2" guid="_27fdf2f5-fe72-4612-b869-4a157a6b97e4"
+id="ed-tbl-oc.2-tblr-oc.12-tble2"><txt break.before="1">Am 1987 No 14, Schs 1
+(7), 2 (6); 2015 No 58, Sch 3.90 [9].</txt></entry></row>
+
+
+<row guid="_f36cb377-2379-4bc6-bafc-984f200dbbc0"
+id="ed-tbl-oc.2-tblr-oc.13">
+<entry colname="1" guid="_2e5b5a7e-5130-43aa-abf7-412e834b5f0a"
+id="ed-tbl-oc.2-tblr-oc.13-tble1"><txt break.before="1">Sec 18</txt></entry>
+<entry colname="2" guid="_0331b6b4-11e1-4755-ba59-93cea88ac70a"
+id="ed-tbl-oc.2-tblr-oc.13-tble2"><txt break.before="1">Am 1987 No 14, Sch 1
+(8); 1990 No 108, Sch 1.</txt></entry></row>
+
+
+<row guid="_70762975-63e0-4072-861a-01686140e69b"
+id="ed-tbl-oc.2-tblr-oc.14">
+<entry colname="1" guid="_f92f9943-0936-438b-9553-656412788931"
+id="ed-tbl-oc.2-tblr-oc.14-tble1"><txt break.before="1">Secs 19,
+20</txt></entry>
+<entry colname="2" guid="_4cec1696-2d40-4533-bca0-e480cde380a8"
+id="ed-tbl-oc.2-tblr-oc.14-tble2"><txt break.before="1">Am 1987 No 14, Sch 2
+(7); 1987 No 63, Sch 2; 1999 No 31, Sch 3.18.</txt></entry></row>
+
+
+<row guid="_c4124c81-7739-4f72-bb18-bc046b008a19"
+id="ed-tbl-oc.2-tblr-oc.15">
+<entry colname="1" guid="_b619e3a1-7fe4-49f7-af7f-201d66aec59f"
+id="ed-tbl-oc.2-tblr-oc.15-tble1"><txt break.before="1">Sec 22</txt></entry>
+<entry colname="2" guid="_7c696b7c-d339-46f4-a9f4-dfb01e4a6daf"
+id="ed-tbl-oc.2-tblr-oc.15-tble2"><txt break.before="1">Subst 1983 No 153, Sch
+2.</txt></entry></row>
+
+
+<row guid="_0ac5066e-90f0-44e4-923d-a6e9e45fb896"
+id="ed-tbl-oc.2-tblr-oc.16">
+<entry colname="1" guid="_7e72fee9-1916-41e4-ba3f-b158001ae754"
+id="ed-tbl-oc.2-tblr-oc.16-tble1"><txt break.before="1">Sec 23</txt></entry>
+<entry colname="2" guid="_4bdfdcb9-9f93-4958-853f-f98d1708f4e5"
+id="ed-tbl-oc.2-tblr-oc.16-tble2"><txt break.before="1">Rep 1983 No 153, Sch
+2.</txt></entry></row>
+
+
+<row guid="_e098d8ca-4a5a-42fc-9292-b4bc2df3a45a"
+id="ed-tbl-oc.2-tblr-oc.17">
+<entry colname="1" guid="_6c57658d-0135-4554-a79b-0a7ebc4e2295"
+id="ed-tbl-oc.2-tblr-oc.17-tble1"><txt break.before="1">Sec 23A</txt></entry>
+<entry colname="2" guid="_fec036b2-e78f-4412-ad48-8f96affc96b7"
+id="ed-tbl-oc.2-tblr-oc.17-tble2"><txt break.before="1">Ins 1977 No 117, sec
+2.</txt></entry></row>
+
+
+<row guid="_368a2521-c9ef-4588-9ee4-b57b690cc12d"
+id="ed-tbl-oc.2-tblr-oc.18">
+<entry colname="1" guid="_867dfb2d-4cd6-41e9-b33d-9024c9a53fc5"
+id="ed-tbl-oc.2-tblr-oc.18-tble1"><txt break.before="1">Secs
+24&#8211;33</txt></entry>
+<entry colname="2" guid="_962b1477-56d0-421d-a2ca-563728b1ab6c"
+id="ed-tbl-oc.2-tblr-oc.18-tble2"><txt break.before="1">Rep 1981 No 83, Sch
+1.</txt></entry></row>
+
+
+<row guid="_fb24a2b2-9b04-43bf-8979-8d238414a9f4"
+id="ed-tbl-oc.2-tblr-oc.19">
+<entry colname="1" guid="_b8abacd7-2d3f-4f7a-8852-779e237fe81e"
+id="ed-tbl-oc.2-tblr-oc.19-tble1"><txt break.before="1">Sec 34</txt></entry>
+<entry colname="2" guid="_ba8eacc5-5eae-426e-b4fd-6985172e1457"
+id="ed-tbl-oc.2-tblr-oc.19-tble2"><txt break.before="1">Am 1987 No 14, Sch 2
+(8).</txt></entry></row>
+
+
+<row guid="_0601c534-da27-44aa-b1f6-19ebf0c4d352"
+id="ed-tbl-oc.2-tblr-oc.20">
+<entry colname="1" guid="_95268b72-e13b-4e0a-99d9-51eb96913cd2"
+id="ed-tbl-oc.2-tblr-oc.20-tble1"><txt break.before="1">Sec 35</txt></entry>
+<entry colname="2" guid="_3900c88d-e997-48ca-860a-10d936e77a5e"
+id="ed-tbl-oc.2-tblr-oc.20-tble2"><txt break.before="1">Am 1993 No 47, Sch 1;
+1999 No 31, Sch 4.99; 2007 No 94, Sch 4.</txt></entry></row>
+
+
+<row guid="_da386eaf-efd2-40d9-a6be-6d285afbc94f"
+id="ed-tbl-oc.2-tblr-oc.21">
+<entry colname="1" guid="_8fb38bf8-b6af-49f8-9ea2-cd25d7cd700e"
+id="ed-tbl-oc.2-tblr-oc.21-tble1"><txt break.before="1">Sec 36</txt></entry>
+<entry colname="2" guid="_4492dee2-8dae-4738-adf6-5d65d3043c70"
+id="ed-tbl-oc.2-tblr-oc.21-tble2"><txt break.before="1">Rep 1987 No 14, Sch 1
+(9).</txt></entry></row>
+
+
+<row guid="_ca1ea50b-4ff6-4fe2-8007-33bb4bf33532"
+id="ed-tbl-oc.2-tblr-oc.22">
+<entry colname="1" guid="_af0e959e-90ff-4f18-9a1b-53aac1847119"
+id="ed-tbl-oc.2-tblr-oc.22-tble1"><txt break.before="1">Sec 37</txt></entry>
+<entry colname="2" guid="_de603321-b715-43e9-aa51-bdb319a944fd"
+id="ed-tbl-oc.2-tblr-oc.22-tble2"><txt break.before="1">Am 1987 No 14, Sch 1
+(10); 1993 No 32, Sch 2; 1997 No 55, Sch 1.27.</txt></entry></row>
+
+
+<row guid="_4ac2674d-8f61-487b-92a8-6628f40e4e81"
+id="ed-tbl-oc.2-tblr-oc.23">
+<entry colname="1" guid="_6bb213aa-ebf8-4167-838d-749eccabb6ea"
+id="ed-tbl-oc.2-tblr-oc.23-tble1"><txt break.before="1">Sec 38</txt></entry>
+<entry colname="2" guid="_5f339c8a-25e9-4c41-95ca-a607d59d65e4"
+id="ed-tbl-oc.2-tblr-oc.23-tble2"><txt break.before="1">Am 2015 No 58, Sch
+3.90 [10].</txt></entry></row>
+
+
+<row guid="_2ff859f0-b71b-4f1d-b845-f80c31d5b6a6"
+id="ed-tbl-oc.2-tblr-oc.24">
+<entry colname="1" guid="_1449e488-ebbb-4473-ad6e-74a197e816f4"
+id="ed-tbl-oc.2-tblr-oc.24-tble1"><txt break.before="1">Sec 40</txt></entry>
+<entry colname="2" guid="_4c07bbe2-d5c0-4246-aeb4-89d7765daa26"
+id="ed-tbl-oc.2-tblr-oc.24-tble2"><txt break.before="1">Am 1987 No 14, Sch 1
+(11); 2015 No 58, Sch 3.90 [11].</txt></entry></row>
+
+
+<row guid="_6c59785d-dbc1-416b-b55f-c3b0f0f1e9bc"
+id="ed-tbl-oc.2-tblr-oc.25">
+<entry colname="1" guid="_46fdbc99-a12e-417e-98fc-2888d8cec68e"
+id="ed-tbl-oc.2-tblr-oc.25-tble1"><txt break.before="1">Sec 41</txt></entry>
+<entry colname="2" guid="_6709f77a-b348-4e59-91f2-6a59f3a00ac8"
+id="ed-tbl-oc.2-tblr-oc.25-tble2"><txt break.before="1">Rep 1977 No 19, Sch
+1.</txt></entry></row>
+
+
+<row guid="_27d82b37-4d66-4353-8ee5-e3a3ed92e650"
+id="ed-tbl-oc.2-tblr-oc.26">
+<entry colname="1" guid="_4b14e043-d3cc-4f99-bf8b-0f1e92c4fc37"
+id="ed-tbl-oc.2-tblr-oc.26-tble1"><txt break.before="1">Sec 43</txt></entry>
+<entry colname="2" guid="_f3a25ddf-c67e-438d-a8e3-f2da76ae8108"
+id="ed-tbl-oc.2-tblr-oc.26-tble2"><txt break.before="1">Rep 1987 No 14, Sch 2
+(9).</txt></entry></row>
+
+
+<row guid="_4fda265d-77db-4088-b150-9cf90a257a5c"
+id="ed-tbl-oc.2-tblr-oc.27">
+<entry colname="1" guid="_179327e7-ac70-45ff-b23a-7d8a18e45f26"
+id="ed-tbl-oc.2-tblr-oc.27-tble1"><txt break.before="1">Sec 45</txt></entry>
+<entry colname="2" guid="_ce411977-8899-4802-a878-8ba9d6c2bbe9"
+id="ed-tbl-oc.2-tblr-oc.27-tble2"><txt break.before="1">Am 1995 No 99, Sch 4.
+Rep 1999 No 85, Sch 4.</txt></entry></row>
+
+
+<row guid="_06fbebbf-84d0-4bf3-a221-4bab7a123ae1"
+id="ed-tbl-oc.2-tblr-oc.28">
+<entry colname="1" guid="_95b53506-05fb-4612-bb36-6e2b80bc5b8b"
+id="ed-tbl-oc.2-tblr-oc.28-tble1"><txt break.before="1">Sec 46</txt></entry>
+<entry colname="2" guid="_c6036db6-3c23-483a-9376-26a335812f95"
+id="ed-tbl-oc.2-tblr-oc.28-tble2"><txt break.before="1">Ins 1995 No 99, Sch
+4.</txt></entry></row>
+
+
+<row guid="_8f032778-fd19-48f9-b6f4-22046e8d575a"
+id="ed-tbl-oc.2-tblr-oc.29">
+<entry colname="1" guid="_1779c13a-9bda-4623-8e88-9f4459ab6bd1"
+id="ed-tbl-oc.2-tblr-oc.29-tble1"><txt break.before="1">Sch 1,
+heading</txt></entry>
+<entry colname="2" guid="_063497b9-5b2f-4120-9f84-c25ac3b30380"
+id="ed-tbl-oc.2-tblr-oc.29-tble2"><txt break.before="1">Subst 1995 No 99, Sch
+4. Rep 1999 No 85, Sch 4.</txt></entry></row>
+
+
+<row guid="_8ffd9845-0640-4c1e-9447-845e7d32cbac"
+id="ed-tbl-oc.2-tblr-oc.30">
+<entry colname="1" guid="_34d5504d-2eec-4dfe-a04c-53e9b46ae782"
+id="ed-tbl-oc.2-tblr-oc.30-tble1"><txt break.before="1">Sch 1 (previously
+Sch)</txt></entry>
+<entry colname="2" guid="_17274920-a53e-44e8-8a21-ce5f14219a4e"
+id="ed-tbl-oc.2-tblr-oc.30-tble2"><txt break.before="1">Am 1979 No 89, Sch 5;
+1980 No 24, Sch 2. Rep 1999 No 85, Sch 4.</txt></entry></row>
+
+
+<row guid="_103254e6-c149-4367-bb3a-9d17a35223d7"
+id="ed-tbl-oc.2-tblr-oc.31">
+<entry colname="1" guid="_31c226ef-043f-4b05-94f7-99f6f3c35dac"
+id="ed-tbl-oc.2-tblr-oc.31-tble1"><txt break.before="1">Sch 2</txt></entry>
+<entry colname="2" guid="_3fad8091-3a8e-415d-a4e2-4298d57461db"
+id="ed-tbl-oc.2-tblr-oc.31-tble2"><txt break.before="1">Ins 1995 No 99, Sch 4.
+Am 1996 No 30, Sch 2.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

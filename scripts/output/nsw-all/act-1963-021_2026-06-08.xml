@@ -1,0 +1,742 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1963-021"
+title="Recovery of Imposts Act 1963"
+year="1963"
+number="21"
+enact.or.made.date="1963-04-10"
+first.valid.date="1996-01-01"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1963</metacontent>
+<metacontent class="year.assent">1963</metacontent>
+<metacontent class="publication.date">1996-01-03</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-1995-098</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1963-021</metacontent>
+<metacontent
+class="version.desc.id">14380fe7-129e-4c6b-88fa-52d608e0a00d</metacontent>
+<metacontent
+class="version.series.id">e284b69b-ef9e-4177-866c-4f1ad14282e5</metacontent>
+<metacontent class="prev.titles">Limitation of Actions (Recovery of Imposts)
+Act 1963</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Recovery of Imposts Act 1963"></attrib>
+<attrib name="year.passed" value="1963"></attrib>
+<attrib name="year.assent" value="1963"></attrib>
+<attrib name="no" value="21"></attrib>
+<attrib name="publication.date" value="1996-01-03"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-1995-098"></attrib>
+<attrib name="first.valid.date" value="1996-01-01"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1963-04-10"></attrib>
+<attrib name="id" value="act-1963-021"></attrib>
+<attrib name="version.desc.id"
+value="14380fe7-129e-4c6b-88fa-52d608e0a00d"></attrib>
+<attrib name="version.series.id"
+value="e284b69b-ef9e-4177-866c-4f1ad14282e5"></attrib>
+<attrib name="prev.titles" value="Limitation of Actions (Recovery of Imposts)
+Act 1963"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata"></content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_f23713b4-4b31-4ffa-937e-f4bc33a90b3d"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act relating to the time within which actions
+may be brought against the Crown and certain other persons for the recovery of
+certain taxes, fees, charges and other imposts; to provide that certain taxes,
+fees, charges and other imposts are not recoverable in certain circumstances;
+and for purposes connected therewith.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>long title:</b> Am 1993
+No 96, Sch 1 (1).</txt></content>
+</tier>
+</content>
+
+
+<content type="body">
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a979b15d-2f29-4544-bfb1-4209b05e6b03"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_4eaebc12-8db3-4333-86d7-1bf0ba50fd17"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act may be cited as the <legref
+refid="act-1963-021" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Recovery of Imposts Act
+1963</i></name></legref>.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 1:</b> Am 1993 No 96,
+Sch 1 (2).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.1A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6ae72689-2d64-4cf5-907a-91256ff6225b"></attrib>
+<attrib name="id" value="sec.1A"></attrib></parentattributes>
+
+<head>
+<no>1A</no><heading guid="_8823e676-2f48-482f-9b9d-edf01cc24013"
+id="sec.1A-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Act:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ce368262-7543-4ad9-9ce2-c0ec6fe1e883"
+id="def.invalidity"><b><i>invalidity</i></b></defterm> of taxation legislation
+includes invalidity of a portion of the legislation or of an application of
+the legislation.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6e25e4c8-2929-4095-bc21-7a684163a13a"
+id="def.pay"><b><i>pay</i></b></defterm> a tax includes recover the tax by
+legal proceedings.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_cee458ed-91fd-465a-b7aa-0a8d53629152"
+id="def.proceedings"><b><i>proceedings</i></b></defterm> includes proceedings
+for an order in the nature of prohibition, certiorari or mandamus or for a
+declaration or injunction or for any other relief.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ea061c16-535b-4234-b6b3-013fa2887cd0"
+id="def.tax"><b><i>tax</i></b></defterm> includes a fee, charge or other
+impost.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b2a6ae2a-5774-42d2-9b45-9423d4313cad"
+id="def.taxationlegislation"><b><i>taxation legislation</i></b></defterm>
+means:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_33d4b760-07f8-4b17-aa30-e5920558da1f" id="sec.1A-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">an Act imposing or relating to a tax,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bf2a2acd-bfb7-4b5d-973e-248a9f58736a" id="sec.1A-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a provision of such an Act,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2adbd7b1-ed2e-4228-b236-1c58294d6bb0" id="sec.1A-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a regulation under such an Act,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_eb97ab79-940b-4a47-a850-2e4a50b72524" id="sec.1A-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">a provision of such a
+regulation.</txt></block></li></list>
+</block></deflist>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 1A:</b> Ins 1993 No 96,
+Sch 1 (3).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ef287cfa-7c5f-411f-93ac-8eda8003dc49"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_3bc7f987-cf0d-4a30-9645-ee6c775f38d6"
+id="sec.2-he"><b>Limitation on time for the bringing of proceedings to recover
+taxes</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_57f94c9b-5975-4f2e-abe3-7f4a7d0c9b0d"></attrib>
+<attrib name="id" value="sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">No proceedings shall be brought to recover from
+the Crown or the Government or the State of New South Wales or any Minister of
+the Crown, or from any corporation, officer or person or out of any fund to
+whom or which it was paid, the amount or any part of the amount paid by way of
+tax or purported tax and recoverable on restitutionary grounds (including but
+not limited to mistake of law or fact):</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_903ee76c-1eca-4b6e-8ad9-f8f3b93900d4" id="sec.2-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in the case of a payment made before the
+commencement of this Act, after the expiration of the time within which such
+proceedings but for the enactment of this Act might have been brought or the
+expiration of twelve months after the date of the commencement of this Act,
+whichever period first expires, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c044f855-3c42-494d-bc04-bbd8035c2c16" id="sec.2-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in the case of a payment made subsequent to the
+commencement of this Act, after the expiration of twelve months after the date
+of payment.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_478f43db-7ed9-4186-804e-1cfe1c399d88"></attrib>
+<attrib name="id" value="sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subsection (1) does not apply to any proceedings
+brought pursuant to any specific provisions of any Act:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_90cbaecf-23a1-49a7-a0df-ed1d7ba46909" id="sec.2-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">providing for the mode of challenging the
+validity or for the recovery of the whole or any part of any tax actually
+paid, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fd726486-bf25-4fa1-9d26-3a6cc3225779" id="sec.2-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">specifying a different period within which such
+proceedings must be brought.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4e7af75b-3cd6-48be-9b6c-0f00a4ed6efa"></attrib>
+<attrib name="id" value="sec.2-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Without affecting the generality of this section,
+and for the avoidance of doubt, it is declared that this section applies to
+proceedings for the recovery of money (paid by way of tax or purported tax) on
+the ground of, or on grounds that include, the invalidity of taxation
+legislation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_650ab253-f7f2-4d35-9ef0-d26f39d3a841"></attrib>
+<attrib name="id" value="sec.2-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">This section does not apply to money that is not
+recoverable because of section 3.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 2:</b> Am 1993 No 96,
+Sch 1 (4); 1995 No 98, Sch 6 (1)&#8211;(4).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f2d71dfd-9e2d-487b-9bf7-dd068ce5a5da"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_3f148440-8068-4750-b284-01b7c1a58e7e"
+id="sec.3-he"><b>Certain taxes not recoverable following non-legislative
+changes of the law</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bbcdafa7-c1b9-40f6-943b-fbada550c9ca"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_b32a2d0a-cb9b-4fe6-9aa2-97a62b324dd4"
+id="sec.3-def.nonlegislativechangeofthelaw"><b><i>non-legislative change of
+the law</i></b></defterm> means a change of the law or of legal principles, or
+a change in what is generally perceived to be the state of the law or of legal
+principles, but does not include a change made by
+legislation.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4b3e94b1-c9a2-4b75-a913-22a5178d1ba8"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Money paid by way of tax or purported tax is not
+recoverable on any of the grounds referred to in subsection (3), if:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ca3b0123-2d00-46d4-8320-361610812f82" id="sec.3-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the ground came into existence because of a
+non-legislative change of the law, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d9e855b0-164e-4569-b534-249fd8f01c00" id="sec.3-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the money was paid before the
+change.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d228f9f0-e5a1-40b8-b56f-381e3db8935a"></attrib>
+<attrib name="id" value="sec.3-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The grounds are:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0e02bc36-9b65-4c70-ada3-14e627916b09" id="sec.3-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the ground of invalidity of any taxation
+legislation, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c62a03cf-c8a8-409a-954b-d95cad8ab4ef" id="sec.3-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the ground of mistake (whether of law or of fact)
+as to the validity or invalidity of any taxation legislation,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_091e3e8f-ec80-4065-9eb0-c8fa109d01f8" id="sec.3-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any other restitutionary ground relating to the
+validity or invalidity of any taxation legislation.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7a6a5bb7-f0e0-4802-966a-1b75b07d5d8c"></attrib>
+<attrib name="id" value="sec.3-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Subsection (2) does not apply to proceedings for
+the recovery of money that, assuming the legislation concerned had been valid,
+would have represented an overpayment of a tax, if the legislation provides
+for the refund of the money.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>ss 3&#8211;6:</b> Ins
+1993 No 96, Sch 1 (5).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_118e6635-42a2-4837-97cf-7fa0f3f8a12e"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_40c6e10c-bb80-4711-9bf7-cf9b4083ed64"
+id="sec.4-he"><b>Passing on of tax</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6d6921a3-4d0e-4c45-9a53-5b0e2ee0f1d0"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Proceedings referred to in section 2 or 3 (4) to
+recover an amount paid are however maintainable only to the extent that the
+person bringing the proceedings (<defterm type="definition"
+guid="_8c411986-9c6f-4727-ab0c-3f81c234cf65"
+id="sec.4-def.theclaimant"><b><i>the claimant</i></b></defterm>) satisfies the
+court that the claimant has not charged to or recovered from, and will not
+charge to or recover from, any other person any amount in respect of the whole
+or any part of the amount paid. This applies whether or not any such amount
+has been itemised or otherwise separately identified in any invoice or other
+documentation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d669ce9e-7a18-4104-929c-0426449d8ecd"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A reference in this section to the claimant
+extends to a predecessor, successor or assignee of the
+claimant.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b08ecb4c-0048-4027-853e-7cbab0642e88"></attrib>
+<attrib name="id" value="sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This section has effect despite anything in
+section 2 or 3, or in any other Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>ss 3&#8211;6:</b> Ins
+1993 No 96, Sch 1 (5).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f287fbdb-9009-4a09-8560-7230d3a57c51"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_77bee0d6-1799-4206-87fa-8c2b5abd2373"
+id="sec.5-he"><b>Ending of right of recovery</b></heading></head>
+<block><txt break.before="1">If because of this Act money paid by way of tax
+or purported tax ceases to be or is not recoverable, the right to recover the
+money is extinguished.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>ss 3&#8211;6:</b> Ins
+1993 No 96, Sch 1 (5).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e5d199c4-d0a0-48d3-a304-b39fac20656b"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_b3bcd703-c73e-4dfe-9774-7f454b98d4ce"
+id="sec.6-he"><b>Characterisation of this Act</b></heading></head>
+<block><txt break.before="1">The provisions of this Act are to be regarded as
+part of the substantive law of the State.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>ss 3&#8211;6:</b> Ins
+1993 No 96, Sch 1 (5).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b4e4a722-964d-403d-9316-36fb861733be"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_cbf7f002-0ce9-4833-995c-2eea73a9b622"
+id="sec.7-he"><b>Application</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9a666c5f-a806-4c6b-81a3-7f24c8885598"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This Act applies to money paid whether
+voluntarily or under compulsion, and applies whether or not the payment was
+made under protest, and applies whether or not the payment was made under the
+authority or purported authority of any Act.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d96897df-5a20-42a0-a74c-767659b51dde"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This Act has effect despite the provisions of any
+other Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e62a8f7b-8506-4710-86bd-5a8f66274867"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The amendments made to this Act by the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Limitation of
+Actions (Recovery of Imposts) Amendment Act 1993</i></name></legref> apply to
+money paid, and proceedings commenced, whether before or after the
+commencement of that Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_80223e44-b74c-4be5-9a71-fa19f35b5baa"></attrib>
+<attrib name="id" value="sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Sections 1A and 2 (1)&#8211;(3) of this Act as
+amended by the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Limitation of Actions (Recovery of Imposts) Amendment Act
+1993</i></name></legref> have effect for all purposes, and are taken always to
+have had effect for all purposes, as from the commencement of this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e0fa6a4c-5c74-4f46-bd57-3b641ee38045"></attrib>
+<attrib name="id" value="sec.7-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The amendments made to this Act by Schedule 6 to
+the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>State Revenue Legislation Further Amendment Act
+1995</i></name></legref>:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fc58a0e9-4584-421b-b0fb-919bb7c96002" id="sec.7-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">apply to money paid, and proceedings commenced,
+whether before or after the commencement of the amendments,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_da311c41-7391-4daa-b012-37dceaa40dc8" id="sec.7-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">have effect for all purposes, and are taken
+always to have effect for all purposes, as from the commencement of this
+Act.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 7:</b> Ins 1993 No 96,
+Sch 1 (5). Am 1995 No 98, Sch 6 (5) (6).</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_fe56b83a-8b16-4c1b-b17d-6c3859cc0c0e"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_834f6177-59d2-4365-a430-867c0a99ccbb"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-1963-021" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Recovery of Imposts Act
+1963</i></name> No 21</legref> (formerly <legref refid="act-1963-021"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Limitation of
+Actions (Recovery of Imposts) Act 1963</i></name></legref>). Assented to
+10.4.1963. This Act has been amended as follows:</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_d9725873-630c-4fc6-990f-90a92179f85e" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_4cbfb971-d2ec-4fb6-920b-fab8de5944c9" id="ed-tbl-tblr">
+<entry colname="1" guid="_da0ce60f-e3c2-4365-96f7-9c17cc017c98"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1993</b></txt></entry>
+<entry colname="2" guid="_2f698d01-f561-49a3-be68-1c1ae62a0306"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 96</txt></entry>
+<entry colname="3" guid="_05fc29c7-13b1-462d-8c4b-94831bdc24e0"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Limitation of Actions (Recovery of
+Imposts) Amendment Act 1993</i></name></legref>. Assented to
+30.11.1993.</txt>
+<txt break.before="1">Date of commencement, 3.12.1993, sec 2 and GG No 134 of
+3.12.1993, p 7068.</txt></block></entry></row>
+
+
+<row guid="_9d1a6ede-94d4-4bd3-a5ab-1992a4434e12" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_abb849f7-5649-4a28-8e14-c49081574aed"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>1995</b></txt></entry>
+<entry colname="2" guid="_b3bfa397-1317-4117-8186-36ea55c4ed97"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 98</txt></entry>
+<entry colname="3" guid="_aedb0f82-7830-4b45-ac0a-516c40848bf9"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>State Revenue Legislation Further
+Amendment Act 1995</i></name></legref>. Assented to 21.12.1995.</txt>
+<txt break.before="1">Date of commencement of Sch 6, 1.1.1996, sec 2
+(1).</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">This Act has also been amended pursuant to an
+order under secs 8 (2) and 9 (3) of the <legref refid="act-1972-048"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Reprints Act
+1972</i></name> No 48</legref> (formerly <legref refid="act-1972-048"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Acts
+Reprinting Act 1972</i></name></legref>). Order dated 9.3.1988 and published
+in GG No 52 of 11.3.1988, p 1577, declaring that the <legref
+refid="act-1963-021" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Limitation of Actions (Recovery of Imposts) Act
+1963</i></name></legref> is an enactment to which sec 8 (2) and sec 9 (3) of
+the <legref refid="act-1972-048" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Reprints Act 1972</i></name></legref>
+apply.</txt></block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_05af4e9a-c32d-4e56-8e8d-837ce145c6b7"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block><txt break.before="1">No reference is made to certain amendments made
+by the <legref refid="act-1972-048" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Reprints Act
+1972</i></name></legref>.</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_421b52d0-9cc7-4d45-843a-92ebcfd8abcf" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_13a6a60d-0e73-4f8e-915f-1498caf9ded8" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_ce176153-4f07-484b-bed6-b5206ee6ab5b"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Long title</txt></entry>
+<entry colname="2" guid="_3bcb9496-701b-4794-b6a8-620e2d8d92c9"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 1993 No 96, Sch 1
+(1).</txt></entry></row>
+
+
+<row guid="_fa5c7995-e2c4-4d2c-90de-ca9364a149bd" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_bae45d8e-83ba-4495-8269-3c343ec5d7ed"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 1</txt></entry>
+<entry colname="2" guid="_986130ca-7a9b-451d-b481-160313a5e8c6"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 1993 No 96, Sch 1
+(2).</txt></entry></row>
+
+
+<row guid="_fb9f6584-f521-4143-9fa3-bb3563591572" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_9b7cd85f-0cd7-4c96-89bf-99ef30b624b8"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 1A</txt></entry>
+<entry colname="2" guid="_f6b8fb99-6035-4c24-bf3a-da62a56ec751"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Ins 1993 No 96, Sch 1
+(3).</txt></entry></row>
+
+
+<row guid="_ffa42a30-a993-479e-a0a9-51d0c4726b86" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_f1325872-194b-4686-912e-b35e781b4b06"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 2</txt></entry>
+<entry colname="2" guid="_3997d130-e67d-42cd-9803-6d4cd5fca3fa"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Am 1993 No 96, Sch 1
+(4); 1995 No 98, Sch 6 (1)&#8211;(4).</txt></entry></row>
+
+
+<row guid="_09b8a170-3064-4fcd-9235-67b359b90036" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_bc0c620f-bc1d-44f0-96bf-57ffaad0ac9f"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Secs
+3&#8211;6</txt></entry>
+<entry colname="2" guid="_39e4b616-283c-462c-8204-e7cf98633a9a"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Ins 1993 No 96, Sch 1
+(5).</txt></entry></row>
+
+
+<row guid="_5e100ff5-6000-4f26-8a64-e39c2dba190a" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_afa3a1a3-83a6-4ef7-b413-64a6e3391a3e"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 7</txt></entry>
+<entry colname="2" guid="_f6d890cd-6e33-4146-9cc3-b721e0260d50"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Ins 1993 No 96, Sch 1
+(5). Am 1995 No 98, Sch 6 (5) (6).</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

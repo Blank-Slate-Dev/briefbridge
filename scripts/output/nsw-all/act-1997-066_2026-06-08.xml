@@ -1,0 +1,2211 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1997-066"
+title="Parliamentary Precincts Act 1997"
+year="1997"
+number="66"
+enact.or.made.date="1997-07-10"
+first.valid.date="2012-03-01"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1997</metacontent>
+<metacontent class="year.assent">1997</metacontent>
+<metacontent class="publication.date">2012-03-01</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2011-072</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1997-066</metacontent>
+<metacontent
+class="version.desc.id">cab4cd97-5411-434d-a9c0-604117620f91</metacontent>
+<metacontent
+class="version.series.id">553d10a2-fbea-48ea-b404-f5ace7779d57</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Parliamentary Precincts Act 1997"></attrib>
+<attrib name="year.passed" value="1997"></attrib>
+<attrib name="year.assent" value="1997"></attrib>
+<attrib name="no" value="66"></attrib>
+<attrib name="publication.date" value="2012-03-01"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2011-072"></attrib>
+<attrib name="first.valid.date" value="2012-03-01"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1997-07-10"></attrib>
+<attrib name="id" value="act-1997-066"></attrib>
+<attrib name="version.desc.id"
+value="cab4cd97-5411-434d-a9c0-604117620f91"></attrib>
+<attrib name="version.series.id"
+value="553d10a2-fbea-48ea-b404-f5ace7779d57"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata"></content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_e024fbf0-9a89-4c52-b669-d14458c16862"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to define the Parliamentary precincts and
+to provide for the control, management and security of those precincts and
+adjoining areas; to amend the <legref refid="act-1980-019" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Royal Botanic Gardens and
+Domain Trust Act 1980</i></name></legref> consequentially; and for other
+purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_f9331cbd-1704-483f-b022-4b062f7a6bf9"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_5e3f7583-c71e-4a6b-b704-9713f8e8ae7c"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6015b2d2-7a96-411c-8f8f-d6231d5c7d63"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_50556077-138c-4282-9337-4d6762264386"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref refid="act-1997-066"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Parliamentary
+Precincts Act 1997</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6b04ecc2-05e2-4f8f-a5c4-868563942645"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_d01b9469-ea87-4a47-9d72-c28ecd722299"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on the date of
+assent.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cacd5dd9-6e48-43cf-8dfd-8c2eac82a834"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_3f8f98b5-436c-49d7-90b2-817628ae5824"
+id="sec.3-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Act:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_5dc65a59-75ca-4715-8f0c-367fd53eaa2a"
+id="def.authorisedofficer"><b><i>authorised
+officer</i></b></defterm>&#8212;see section 5.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_dac3e252-42d4-4c10-aeb1-0d8a39dc26b5"
+id="def.Clerk"><b><i>Clerk</i></b></defterm> means the Clerk of a House, and
+includes an officer of a House acting as the Clerk of the
+House.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a0a0575a-d15e-4e31-86f9-d38b2f010544"
+id="def.Corporation"><b><i>Corporation</i></b></defterm> means the Corporation
+of the Presiding Officers of the Parliament of New South Wales established by
+this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_335a2afe-e7ac-4685-b62a-4ae36fc91cae"
+id="def.exercise"><b><i>exercise</i></b></defterm> a function includes perform
+a duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9a06d610-5087-4f91-b40f-ffe9212589f4"
+id="def.function"><b><i>function</i></b></defterm> includes a power, authority
+or duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_e0b6e421-cc98-43bb-a5b8-fbc66144b55f"
+id="def.House"><b><i>House</i></b></defterm> means a House of
+Parliament.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_1af7652e-df2d-4e24-b2c7-b8882b361a91"
+id="def.order"><b><i>order</i></b></defterm> means a standing or other order,
+and includes a rule or resolution.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_0e64223b-30a0-4413-8816-d9470bf9ff1a"
+id="def.Parliamentaryofficer"><b><i>Parliamentary officer</i></b></defterm>
+means an officer of either House, or of a Presiding Officer, or of the
+Presiding Officers jointly.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_306a947a-fa73-4f08-9a88-56b95059bf9b"
+id="def.Parliamentaryprecincts"><b><i>Parliamentary
+precincts</i></b></defterm>&#8212;see section 6.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c6aa77b3-f1bd-45b4-8924-1f14219eeec2"
+id="def.Parliamentaryzone"><b><i>Parliamentary
+zone</i></b></defterm>&#8212;see section 14.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_e1e64031-85b6-4825-a3e4-5efb21e14e08"
+id="def.PresidingOfficer"><b><i>Presiding Officer</i></b></defterm>&#8212;see
+section 4.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_565af18f-c56e-4c02-9111-4780333d7bc6"
+id="def.property"><b><i>property</i></b></defterm> means land, a building or a
+part of a building.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_73cd37ff-0c91-41a2-a2d5-f20aa0bdfff7" id="def.theState"><b><i>the
+State</i></b></defterm> includes the Crown, the Government, a Minister of the
+Crown or a statutory body representing the Crown.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4151c857-54f0-498a-88e1-47b32b925c69"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_3178bfac-67be-4994-bc7f-b6cc7eff9e62"
+id="sec.4-he"><b>Presiding Officers</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e290b9b0-3ee9-4003-b4a4-1e0323e7b150"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act, <defterm type="definition"
+guid="_a53152e6-ea3d-4451-a28c-964d7f6f5704"
+id="sec.4-def.PresidingOfficer"><b><i>Presiding Officer</i></b></defterm>
+means the President of the Legislative Council or the Speaker of the
+Legislative Assembly.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_63a62a54-b708-466d-b3a9-175fdb4c0e6d"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A reference in this Act to a Presiding Officer
+includes a person for the time being exercising the functions vested in a
+Presiding Officer apart from this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7164ac49-bcea-4fe7-a389-7434698fb16a"></attrib>
+<attrib name="id" value="sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A reference in this Act to the Presiding Officers
+is a reference to those Officers acting jointly.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2a929991-3fe2-4653-8005-c319307c17f8"></attrib>
+<attrib name="id" value="sec.4-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">However, functions conferred on the Presiding
+Officers by this Act may be exercised by either of them in accordance with
+arrangements entered into between them or in accordance with
+usage.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_90e060b4-8b3d-4883-aa49-ace747e41edb"></attrib>
+<attrib name="id" value="sec.4-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">No person is concerned to inquire whether any
+function referred to in subsection (4) has been exercised by both of the
+Presiding Officers or, if exercised by one of them, whether it was exercised
+in circumstances contemplated by any such arrangement or by
+usage.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_081b4feb-2e2d-4537-bd5a-693c06671187"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_186e14a9-8e65-4533-9ac9-c782d44dbf1d"
+id="sec.5-he"><b>Authorised officers</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_661b3213-6df7-452d-8abb-d3c932fc6693"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A reference in this Act to an authorised officer
+is a reference to:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8e90ee76-ae97-46dd-b9e5-d53c964b4076" id="sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a Presiding Officer, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b320cbe5-2b93-4a1f-b6a8-88fdc0a28a81" id="sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a Parliamentary officer for the time being
+authorised by a Presiding Officer, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3719cad1-14a2-43e9-b7c9-059f21ee696d" id="sec.5-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a police officer:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6f4ef1b1-1d35-46e7-8e2f-8f9030c6a579"
+id="sec.5-ssec.1-para1.c-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">acting in conformity with a memorandum of
+understanding referred to in section 27, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_26cde3c4-b4f2-4f2e-8f34-20dcfcce2ebc"
+id="sec.5-ssec.1-para1.c-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">acting in conformity with a specific
+authorisation given by a Presiding Officer.</txt></block></li></list>
+</block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_af947c5a-bf14-4bf0-a565-5b88b050ec40"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An authorisation under subsection (1) (b) may be
+given unconditionally or subject to conditions. Conditions may include
+conditions limiting the functions that may be exercised pursuant to the
+authorisation, regulating the manner in which the functions may be exercised,
+and restricting the periods during which or the circumstances in which the
+functions may be exercised.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_deeb219d-f73c-48ab-b547-22cef3981fcc"></attrib>
+<attrib name="id" value="sec.5-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">An authorisation under subsection (1) (b) may be
+amended or revoked by either Presiding Officer, and continues in force even
+though the person who gave it ceases to hold a relevant
+office.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_065a7038-7c19-4b98-aa85-8d0dcb141a7f"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_038a9f4a-2466-489b-b22a-1e1cdbd1ace4"
+id="pt.2-he"><b>Parliamentary precincts</b></heading></head>
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_86280a1c-f375-4c34-b318-b176490484cf"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_5f9fe673-8b1b-4cf0-b896-38abb0d76930"
+id="sec.6-he"><b>Parliamentary precincts</b></heading></head>
+<block><txt break.before="1">The Parliamentary precincts consist of the land
+described in Schedule 1, together with all buildings, structures and works,
+and parts of buildings, structures and works, on, above or under that
+land.</txt></block></level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e0ecf8fd-347b-403c-9759-a852c58e8f17"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_2cf89f4a-ba26-4881-aef6-75cba94e9db3"
+id="sec.7-he"><b>Control and management of Parliamentary
+precincts</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e76aa0e6-f102-44a4-99d7-e20bbd71f104"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Subject to this Act:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3f9571af-fee2-4e6a-bd4b-05e6244d9ec7" id="sec.7-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Parliamentary precincts are under the control
+and management of the Presiding Officers, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d7cba1b1-e26e-4206-9daa-c7768461da5a" id="sec.7-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the Presiding Officers may take any action they
+consider necessary for the control and management of the Parliamentary
+precincts.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_88aa3bef-a980-4366-93d5-f2a3f9e3efd1"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subsection (1) does not affect:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ebfbcc81-acac-4225-b478-f50239f794d7" id="sec.7-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the powers of each House to control and manage
+its own affairs and proceedings, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4a8e6a89-db82-4ea0-acef-50b7db072a72" id="sec.7-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the orders of each House in relation to its own
+affairs and proceedings, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e13bbe7d-4b05-4164-85c4-f73c7ccd0b0e" id="sec.7-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the powers of each House in relation to the
+control and management of so much of the Parliamentary precincts as constitute
+the chamber of the House concerned or as are used exclusively or principally
+for the purposes of the House.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_99719ec6-ae4f-46c2-90c2-bf8db75b3800"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_7ccac1ca-e4b2-4243-8bf1-40c39f1d1bd9"
+id="sec.8-he"><b>Vesting of Parliamentary precincts in
+Corporation</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c76fca71-ce16-4980-bfcc-d23f04d7cd4c"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Parliamentary precincts are vested in the
+Corporation for an estate in fee simple, freed and discharged from any trusts,
+obligations, estates, interests, charges and rates existing immediately before
+the commencement of this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f3453fbb-4aa3-4003-adda-fb7c070dad4d"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Nothing in this section affects any easement in
+existence immediately before the commencement of this Act, and in particular
+nothing in this section affects any easement or other matter referred to in
+section 12B of the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Government Railways Act 1912</i></name></legref> as inserted
+by the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Government Railways (Amendment) Act
+1965</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_035a6367-8bde-4f6a-bfb3-e0fd17028975"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Neither the whole nor any part of the
+Parliamentary precincts can be compulsorily acquired except by an Act of
+Parliament.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_de5390de-d0e6-4dd5-a305-ce4ed28c6a15"></attrib>
+<attrib name="id" value="sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Subject to sections 9, 10 and 11, the Corporation
+cannot sell, mortgage, demise or otherwise dispose of any part of the
+Parliamentary precincts.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_53a7cbc5-56f2-43bc-86a3-61a1e27d3f2b"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_82ce3de2-ca9e-40ec-8f8a-fb167ed4adf0"
+id="sec.9-he"><b>Leases and licences</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4138ce6c-80bc-48b2-b0df-9943d0b1b1cb"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Corporation may grant leases and licences in
+respect of any part of the Parliamentary precincts to be used for commercial
+or other purposes.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e4b4ac6a-ec77-4c61-b315-0a72e0cc4973"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Leases and licences are to be on such terms and
+conditions, and subject to payment of such consideration, as the Corporation
+thinks fit.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_57c415df-d337-49ea-bde0-41b7ef5f865a"></attrib>
+<attrib name="id" value="sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Except as prescribed by the regulations, no lease
+granted by the Corporation may have a term that, together with the term of any
+further lease that may be granted pursuant to an option contained in the
+lease, exceeds 8 years.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_80e06291-0927-4b8b-a492-85a8c5edd7f5"></attrib>
+<attrib name="id" value="sec.9-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">This section has effect despite any other law
+relating to leases and licences.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c11e6fbb-3c47-4094-88eb-a2c78d6fe9f7"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_e7fa5897-cb05-4bcb-bbac-a174e4fdce29"
+id="sec.10-he"><b>Easements</b></heading></head>
+<block><txt break.before="1">The Corporation may grant easements through, upon
+or in the Parliamentary precincts (including easements without a dominant
+tenement referred to in section 88A of the <legref refid="act-1919-006"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Conveyancing
+Act 1919</i></name></legref>).</txt></block></level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_efe650c1-1dd5-49fd-8a60-51f4aea9c1fe"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_d91f8745-6461-4bd9-b699-2e49210d09df"
+id="sec.11-he"><b>Licences for particular matters</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_74ecf62b-bb9e-4440-8e78-20e43b2c60e5"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Without limiting section 9, the Corporation may
+grant licences authorising entry on the Parliamentary precincts for the
+purpose of the installation, maintenance, re-laying, repair or replacement of
+any buildings, pipelines, cables or apparatus.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7419b16a-4afe-4e8f-b20d-13eede4d4f27"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Corporation may be granted licences
+authorising entry on land adjoining or in the vicinity of the Parliamentary
+precincts for the purpose of the installation, maintenance, re-laying, repair
+or replacement of any buildings, pipelines, cables or apparatus used in
+connection with the Parliamentary precincts.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0908c766-31bb-4ffe-8585-a92d9eea92d3"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_786c6d0e-f7ab-4790-82ae-58558a82e20f"
+id="sec.12-he"><b>Premises treated as included in Parliamentary
+precincts</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a9ebf174-736d-41ba-ba97-8e848aad82d5"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This section applies to property that is owned or
+held under lease by the State and is not within the Parliamentary precincts
+defined by section 6.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3e56425e-0c17-4229-af5d-a9895ad06b1a"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If both Houses pass resolutions during the same
+session of Parliament declaring:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_153d18ea-00cb-4548-a12f-93ca8ede436b" id="sec.12-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">that specified property is required for the
+purposes of Parliament, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3ff64855-2df6-427f-b9f1-a4e63090ef8c" id="sec.12-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">that the property is to be treated as part of the
+Parliamentary precincts,</txt></block></li></list>
+
+<txt break.before="1">the property is accordingly to be treated as part of the
+Parliamentary precincts for the purposes of this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9c6bc7b5-2463-47e9-bbf7-18876a684741"></attrib>
+<attrib name="id" value="sec.12-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Sections 8, 9, 10 and 11 do not apply to any such
+property.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_faf2bb47-4ccb-45d1-bd98-3d301451afe2"></attrib>
+<attrib name="id" value="sec.12-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A declaration continues in force until revoked by
+either House. Subsection (2) ceases to apply to any such property if the
+relevant declaration is revoked.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c55c1a7b-a288-4f09-8be7-59bfd3819350"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_c3b294e1-c1fc-415a-a330-9369a52075d5"
+id="sec.13-he"><b>Constitution of Corporation</b></heading></head>
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_42af8fea-d9f4-4e0a-b037-17ccf5837195"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There is established by this Act a corporation
+with the corporate name of the Corporation of the Presiding Officers of the
+Parliament of New South Wales.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_07ea192b-4b30-4d3d-94e0-ab0c41280149"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The affairs of the Corporation are to be managed
+and controlled by the Presiding Officers. Any act, matter or thing done in the
+name of, or on behalf of, the Corporation by the Presiding Officers is taken
+to have been done by the Corporation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0efb95ea-041d-40e0-ad3f-6083db17217a"></attrib>
+<attrib name="id" value="sec.13-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Without limiting subsection (2), the Presiding
+Officers have and may exercise all functions of the Corporation as owner of
+the Parliamentary precincts.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dd4564ca-6d3d-4b27-864d-a3e4e6ea64e6"></attrib>
+<attrib name="id" value="sec.13-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Corporation is a statutory body representing
+the Crown.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_7bfda34a-45e9-40d2-a8ab-498430e40eec"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_f9753b68-72c8-44e7-93a6-5fb10383bc21"
+id="pt.3-he"><b>Parliamentary zone</b></heading></head>
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a03cb456-4fe0-4509-b1db-665617a4e8e6"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_877e8fbf-9239-412f-bb86-5b5ee8ab1958"
+id="sec.14-he"><b>Parliamentary zone</b></heading></head>
+<block><txt break.before="1">The Parliamentary zone consists of the land
+described in Schedule 2, together with all buildings, structures and works,
+and parts of buildings, structures and works, on, above or under that
+land.</txt></block></level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ef1e264e-4452-48f9-9350-bb7d802c8372"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_39428056-45de-4b6d-bde3-23910ad9fb6a"
+id="sec.15-he"><b>Arrangements for security of Parliamentary
+zone</b></heading></head>
+
+<tier type="subclause" id="sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6a6a2a89-55f6-4640-a6d5-96684972595c"></attrib>
+<attrib name="id" value="sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Presiding Officers may make general or
+particular arrangements with the Commissioner of Police for police officers to
+take measures:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ca7dbf97-4da3-49ab-8a1b-a5c0fa29274c" id="sec.15-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to preserve security within the Parliamentary
+zone, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e141dad1-8ca6-4fcb-b800-d44526fe25a2" id="sec.15-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to restrict public access to any part of the
+Parliamentary zone on ceremonial occasions connected with Parliament or in the
+event of an actual, threatened or anticipated disturbance, whether or not
+directed at Parliament or any members of
+Parliament.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_99847861-3854-4a49-92e5-f749c5dc5a50"></attrib>
+<attrib name="id" value="sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Presiding Officers may make general or
+particular arrangements with the chief executive officers of the State Library
+of New South Wales, Sydney Hospital and any other organisation responsible for
+any part of the Parliamentary zone to assist police officers in carrying out
+any arrangements referred to in subsection (1).</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ef45336b-cfa6-4dbb-b3c2-c00607bb03ba"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_e3de2225-7889-4359-bb2c-cc71e06e460c"
+id="sec.16-he"><b>Notification of arrangements</b></heading></head>
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cbff1d59-d5af-4be0-884b-9e70a4e53829"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Presiding Officers are required to ensure
+that, as far as practicable, the chief executive officers referred to in
+section 15 (2) are informed of measures to be taken under section 15 (1) in
+connection with the respective parts of the Parliamentary zone for which their
+organisations are responsible.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f89b3306-519b-4296-82e6-768fd245338f"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In particular, the relevant chief executive
+officer is to be informed under this section in advance of particular measures
+about to be taken in the event of an actual, threatened or anticipated
+disturbance or, if that is not practicable, as soon as practicable after the
+start of the particular measures.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c9efafe3-e093-46e0-807f-102e390a6dc4"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_cbeb0273-b47b-49fa-9a28-e7f56f98aa62"
+id="sec.17-he"><b>Premises treated as included in Parliamentary
+zone</b></heading></head>
+
+<tier type="subclause" id="sec.17-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9a60cff6-8071-4235-b373-c3d9d19ab29a"></attrib>
+<attrib name="id" value="sec.17-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This section applies to property that adjoins or
+is in the vicinity of the Parliamentary precincts.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f9cc4540-014b-48a2-9338-5bc65fb074fd"></attrib>
+<attrib name="id" value="sec.17-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If both Houses pass resolutions during the same
+session of Parliament declaring that specified property is to be treated as
+part of the Parliamentary zone, the property is accordingly to be treated as
+part of the Parliamentary zone for the purposes of this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f3b7dc1d-3385-41fd-9a81-ff5a42925499"></attrib>
+<attrib name="id" value="sec.17-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A declaration continues in force until revoked by
+either House. Subsection (2) ceases to apply to any such property if the
+relevant declaration is revoked.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e2715e62-6f8f-4820-86e6-6cb5f5942ab2"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_7fe87fae-19a6-410b-bd6d-4af14aa58cd4"
+id="pt.4-he"><b>Directions and removal of persons</b></heading></head>
+
+<level type="division" id="pt.4-div.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_ae6d07c4-f3a0-4e2e-929a-de32f2619873"></attrib>
+<attrib name="id" value="pt.4-div.1"></attrib></parentattributes>
+
+<head>
+<no><b>Division 1</b></no><heading
+guid="_1b643ce3-e781-4a1b-9d24-9f13038f1b3a"
+id="pt.4-div.1-he"><b>Parliamentary precincts</b></heading></head>
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8175f7b8-a3ca-4dc9-8a22-aac595ad39dd"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_fb0264d7-db44-4b00-96a1-513de160a791"
+id="sec.18-he"><b>Directions</b></heading></head>
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_34d12da0-b18e-4d61-a55d-349345958bfa"></attrib>
+<attrib name="id" value="sec.18-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An authorised officer may direct a person to
+leave or not enter the Parliamentary precincts.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8a5965d2-bc18-49ee-b6c3-68c5badec808"></attrib>
+<attrib name="id" value="sec.18-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An authorised officer may direct another
+authorised officer to remove a person from the Parliamentary precincts or to
+prevent a person from entering the Parliamentary
+precincts.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a208c0a5-2975-489d-b2d9-da7ad112e87e"></attrib>
+<attrib name="id" value="sec.18-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A direction may be given under subsection (2)
+instead of or in addition to a direction under subsection
+(1).</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c8b1d3a4-e228-4dc3-8a43-973ffe02dae0"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_c4507bb8-fe34-4ff2-b636-f2171694607f"
+id="sec.19-he"><b>Compliance with directions</b></heading></head>
+
+<tier type="subclause" id="sec.19-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c42282b8-7b9f-4661-8464-ff63c177a31c"></attrib>
+<attrib name="id" value="sec.19-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This section applies to a direction given by an
+authorised officer under section 18 (1) or under any other authority to leave
+or not enter the Parliamentary precincts.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_38652ee0-210d-4cd2-b42f-2a95d9e9e039"></attrib>
+<attrib name="id" value="sec.19-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If a person is lawfully directed to leave or not
+enter the Parliamentary precincts, the person must not:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a480c4d2-a495-4ffa-9f4c-847481dbc10b" id="sec.19-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">refuse or fail to leave the Parliamentary
+precincts, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a60fb250-9aaf-421e-a53f-8bd99c1e54fc" id="sec.19-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">enter or attempt to enter, or re-enter or attempt
+to re-enter, the Parliamentary precincts at any time during which the
+direction is in force.</txt></block></li></list>
+</block>
+
+<tier type="penalty" id="sec.19-ssec.2-pen">
+<parentattributes>
+<attrib name="guid" value="_3c5a9255-c1af-4809-8940-e3f746ae8a61"></attrib>
+<attrib name="id" value="sec.19-ssec.2-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Maximum penalty: 10 penalty
+units.</txt></block></tier>
+</tier>
+
+
+<tier type="subclause" id="sec.19-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7da669a5-7ec9-4433-a4ee-fc8e43d751b2"></attrib>
+<attrib name="id" value="sec.19-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">If a person enters or is found on the
+Parliamentary precincts in contravention of such a direction, the person must,
+if required to do so by an authorised officer, give the person&#8217;s name
+and address to the authorised officer. A person is not obliged to comply with
+such a requirement unless the authorised officer informs the person that
+failure to comply with the requirement is an offence.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4ac34efa-8da1-4070-98fb-8dc29d15802b"></attrib>
+<attrib name="id" value="sec.19-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A person must not:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_58f497a7-768b-4425-a5ab-4fba27089656" id="sec.19-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">contrary to a requirement made by an authorised
+officer under subsection (3), fail to give the authorised officer the
+person&#8217;s name or address, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a9dd9945-ee49-4580-a886-4f9445121774" id="sec.19-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in purported compliance with such a requirement,
+give the authorised officer a name or address that is false or
+misleading.</txt></block></li></list>
+</block>
+
+<tier type="penalty" id="sec.19-ssec.4-pen">
+<parentattributes>
+<attrib name="guid" value="_0f33572a-dc43-40e9-a066-563a3dc83cf3"></attrib>
+<attrib name="id" value="sec.19-ssec.4-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Maximum penalty: 10 penalty
+units.</txt></block></tier>
+</tier>
+
+
+<tier type="subclause" id="sec.19-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_563d2634-9fa3-4f4c-9d8b-9cc18a605a8f"></attrib>
+<attrib name="id" value="sec.19-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">An authorised officer may arrest a person
+who:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_db8e49cc-cec4-4525-a85b-8371585ffedb" id="sec.19-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">contrary to subsection (2), refuses or fails to
+leave the Parliamentary precincts, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aceb3ac1-c41d-46fd-891e-c0fda8416327" id="sec.19-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">contrary to subsection (2), enters or attempts to
+enter, or re-enters or attempts to re-enter, the Parliamentary precincts,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d09adb4f-c90d-4d12-9351-1416a7dbf169" id="sec.19-ssec.5-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">contrary to a requirement made by an authorised
+officer under subsection (3), fails to give the authorised officer the
+person&#8217;s name or address, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9b0d4552-1d96-48f1-a5bb-a7bcc2a38681" id="sec.19-ssec.5-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">in purported compliance with such a requirement,
+gives the authorised officer a name or address that the officer suspects on
+reasonable grounds to be false or misleading.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f9f47736-71c7-4b72-a6a7-a009927880a6"></attrib>
+<attrib name="id" value="sec.19-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">An arrested person is to be dealt with according
+to law, and (without affecting the generality of the foregoing) may be
+delivered into the custody of a police officer to be dealt with according to
+law.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3b5fede3-c40d-4d02-b6ed-f1015f92b6c9"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_a608a26c-eac6-4d50-9f5d-400161cb73fa"
+id="sec.20-he"><b>Removal of persons</b></heading></head>
+
+<tier type="subclause" id="sec.20-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b730cfe5-c8fa-4c09-b947-79bd9ba5da01"></attrib>
+<attrib name="id" value="sec.20-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An authorised officer may remove a person from
+the Parliamentary precincts or prevent a person from entering the
+Parliamentary precincts.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2ec0d9ff-d044-4fff-9d34-077c4ece8dc1"></attrib>
+<attrib name="id" value="sec.20-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subsection (1) applies whether or not the
+authorised officer was directed to do so by another authorised
+officer.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f56248f3-ae7c-44f0-80db-686dceb2e2ed"></attrib>
+<attrib name="id" value="sec.20-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">An authorised officer may use such force as is
+reasonably necessary in the exercise of powers under this
+section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_89899d72-b198-4419-a5d7-3320e1249fdf"></attrib>
+<attrib name="id" value="sec.20-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">This section does not affect any powers that the
+Presiding Officers have in connection with the control and management of the
+Parliamentary precincts or that the Corporation has as owner of the
+Parliamentary precincts.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="division" id="pt.4-div.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_3d2684c3-d196-49ee-b562-1880935ee2c4"></attrib>
+<attrib name="id" value="pt.4-div.2"></attrib></parentattributes>
+
+<head>
+<no><b>Division 2</b></no><heading
+guid="_fcf6b0df-498a-4647-9cf0-9933f9603023"
+id="pt.4-div.2-he"><b>Parliamentary zone</b></heading></head>
+
+<level type="clause" id="sec.21">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_27a367b8-a981-40a1-9bc0-ec2149a70550"></attrib>
+<attrib name="id" value="sec.21"></attrib></parentattributes>
+
+<head>
+<no>21</no><heading guid="_78395b53-cf93-4c55-89d3-187cd0b6a453"
+id="sec.21-he"><b>Directions</b></heading></head>
+<block><txt break.before="1">In the course of taking measures under
+arrangements referred to in section 15, a police officer may direct a person
+to leave or not enter the Parliamentary zone.</txt></block></level>
+
+
+<level type="clause" id="sec.22">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_becdff4a-c37e-44fc-ad07-f0fdc9ac258a"></attrib>
+<attrib name="id" value="sec.22"></attrib></parentattributes>
+
+<head>
+<no>22</no><heading guid="_db6924e7-c868-4812-a427-f77c949400d4"
+id="sec.22-he"><b>Compliance with directions</b></heading></head>
+
+<tier type="subclause" id="sec.22-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_818ff9c2-1767-4cd3-a236-a597647564ee"></attrib>
+<attrib name="id" value="sec.22-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This section applies to a direction given by a
+police officer under section 21 to leave or not enter the Parliamentary
+zone.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.22-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_778fe43e-4d51-4b9c-a205-3cd0772300ba"></attrib>
+<attrib name="id" value="sec.22-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If a person is lawfully directed to leave or not
+enter the Parliamentary zone, the person must not:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9b6ddc1b-1d91-4ee6-8a25-5205409ccf16" id="sec.22-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">refuse or fail to leave the Parliamentary zone,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_727805fe-1ec9-49ef-a238-0ec9180a74be" id="sec.22-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">enter or attempt to enter, or re-enter or attempt
+to re-enter, the Parliamentary zone at any time during which the direction is
+in force.</txt></block></li></list>
+</block>
+
+<tier type="penalty" id="sec.22-ssec.2-pen">
+<parentattributes>
+<attrib name="guid" value="_84fa435c-d825-4173-98f2-69c5f8499b7a"></attrib>
+<attrib name="id" value="sec.22-ssec.2-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Maximum penalty: 10 penalty
+units.</txt></block></tier>
+</tier>
+</level>
+
+
+<level type="clause" id="sec.23">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_63a6c59a-a76f-47dc-addb-7f4d6736a829"></attrib>
+<attrib name="id" value="sec.23"></attrib></parentattributes>
+
+<head>
+<no>23</no><heading guid="_b200cf5c-8204-42ae-85a4-c2df5def2e87"
+id="sec.23-he"><b>Removal of persons</b></heading></head>
+
+<tier type="subclause" id="sec.23-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9b9f8bb1-8199-4035-bc8d-0c3eac3f99a7"></attrib>
+<attrib name="id" value="sec.23-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In the course of taking measures under
+arrangements referred to in section 15, a police officer may remove a person
+from the Parliamentary zone or prevent a person from entering the
+Parliamentary zone.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d9c8279b-9985-4698-ae56-9c9bfdf21b3e"></attrib>
+<attrib name="id" value="sec.23-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A police officer may use such force as is
+reasonably necessary in the exercise of powers under this
+section.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="division" id="pt.4-div.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_852d6bdb-07e6-43c6-8beb-2ee5093c4938"></attrib>
+<attrib name="id" value="pt.4-div.3"></attrib></parentattributes>
+
+<head>
+<no><b>Division 3</b></no><heading
+guid="_84e5bad6-d9c2-45c4-87fd-9aefae2ca3d7"
+id="pt.4-div.3-he"><b>General</b></heading></head>
+
+<level type="clause" id="sec.24">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2a81651a-23cd-40ca-9d4f-23071e2f68db"></attrib>
+<attrib name="id" value="sec.24"></attrib></parentattributes>
+
+<head>
+<no>24</no><heading guid="_642fb4c0-fad6-4b80-ad99-3228045a7d22"
+id="sec.24-he"><b>Provisions relating to directions</b></heading></head>
+
+<tier type="subclause" id="sec.24-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9e9f4f90-2a4c-43e3-abd8-9f5e76bd5a6b"></attrib>
+<attrib name="id" value="sec.24-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A reference in this Part to a direction extends
+to an instruction (however described) lawfully given, and:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a58e3895-a551-4682-9f40-630267c55977" id="sec.24-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">whether it is communicated to an affected person
+by the authorised officer or police officer who issued the direction or is
+communicated by another person, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_68740a0e-1bb5-4931-9c23-0e282c1c13a1" id="sec.24-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">whether it is communicated to an affected person
+personally or is communicated generally by way of notice or otherwise,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_30c5f18d-17bb-4189-a72d-fe50172d0266" id="sec.24-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">whether or not either or both of the Houses are
+sitting at the time it is given or sought to be enforced or complied
+with.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.24-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9f096a4d-a57e-41a0-a164-34d48419b327"></attrib>
+<attrib name="id" value="sec.24-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">It is not necessary to establish that such a
+direction was actually communicated to a person so long as steps reasonable in
+the circumstances were taken for it to be communicated
+generally.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.25">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_63999d17-3abe-4b0a-9bcb-bc2384b519bd"></attrib>
+<attrib name="id" value="sec.25"></attrib></parentattributes>
+
+<head>
+<no>25</no><heading guid="_c93eabe7-de10-4403-ad67-a630e056da52"
+id="sec.25-he"><b>Members</b></heading></head>
+
+<tier type="subclause" id="sec.25-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c1a69637-c1d5-4293-8c02-ddd3034894d6"></attrib>
+<attrib name="id" value="sec.25-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This Part does not authorise:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_329ffcfc-0ddb-4e13-83b3-550118817744" id="sec.25-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the giving of a direction to a member of either
+House to leave or not enter the Parliamentary precincts or the Parliamentary
+zone, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c5de483a-7058-419f-a101-6065b94c6840" id="sec.25-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the giving of a direction that a member of either
+House be removed from, or prevented from entering, the Parliamentary precincts
+or the Parliamentary zone, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c524840c-4cdf-44a6-bbe4-72167dd55ae1" id="sec.25-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the removal of a member of either House from the
+Parliamentary precincts or the Parliamentary zone, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7a81e166-c002-40a2-991d-d5cbc767017d" id="sec.25-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the preventing of a member of either House from
+entering the Parliamentary precincts or the Parliamentary
+zone.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.25-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d8c8b9e3-9d74-47e2-a110-1461cbb0bb21"></attrib>
+<attrib name="id" value="sec.25-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Nothing in this Part affects any power under
+which members of either House can be removed from, or prevented from entering,
+a Parliamentary chamber or the Parliamentary precincts, or any power to give
+directions for any such purpose, apart from this Act.</txt></block></tier>
+</level>
+</level>
+</level>
+
+
+<level type="part" id="pt.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_89bcd250-b71b-4197-83d7-b2580f730405"></attrib>
+<attrib name="id" value="pt.5"></attrib></parentattributes>
+
+<head>
+<no><b>Part 5</b></no><heading guid="_d465a513-b794-4205-b701-c6f69623ba2f"
+id="pt.5-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.26">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ff702e34-b893-48e9-9272-549042d16cc2"></attrib>
+<attrib name="id" value="sec.26"></attrib></parentattributes>
+
+<head>
+<no>26</no><heading guid="_bd029adc-836f-4ae4-b65c-19fb9179b3c1"
+id="sec.26-he"><b>Saving of powers, privileges and
+immunities</b></heading></head>
+
+<tier type="subclause" id="sec.26-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4df3ee74-b7e7-4fbf-b3de-31080ef5ba10"></attrib>
+<attrib name="id" value="sec.26-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Nothing in this Act derogates from the powers,
+privileges and immunities of:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_422cba90-4855-4ba3-b9e4-6153575c847d" id="sec.26-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">Parliament, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b2564aed-8963-489c-9f41-a44992f8411d" id="sec.26-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">each House, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b6d3e4fe-a49c-4763-93aa-69197ee8450d" id="sec.26-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the members and committees of each House,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b95d2772-9e1d-470a-9b07-5a4aa80dccd4" id="sec.26-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the joint committees of Parliament,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f6796cf3-413a-47c1-9f43-452a02ff672d" id="sec.26-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the Presiding Officers and each of them and their
+employees, agents or delegates,</txt></block></li></list>
+
+<txt break.before="1">under any other law.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b4217832-cdb2-4d42-af22-49f1f008c5e6"></attrib>
+<attrib name="id" value="sec.26-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">However, the Presiding Officers do not have (in
+connection with the control and management of the Parliamentary precincts
+under this Act) and the Corporation does not have (in its capacity as owner of
+the Parliamentary precincts under this Act) power:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_950c454d-3c04-4dc7-a864-3f953edd2650" id="sec.26-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to give a direction to a member of either House
+to leave or not enter the Parliamentary precincts, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_24fdbd18-e554-4d01-bbf0-6eaad03971de" id="sec.26-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to give a direction that a member of either House
+be removed from, or prevented from entering, the Parliamentary precincts,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f66dc805-15ae-4bb0-881e-ada9312ce4db" id="sec.26-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to remove a member of either House from the
+Parliamentary precincts, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4786d5de-5f13-42c0-82ed-0ef7f4b93505" id="sec.26-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to prevent a member of either House from entering
+the Parliamentary precincts.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5065affe-4b4b-4e0b-b774-c7d2843e2454"></attrib>
+<attrib name="id" value="sec.26-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Nothing in this Act affects the extent (if any)
+to which a function of police officers (other than a function under this Act)
+is exercisable in relation to the Parliamentary precincts or the Parliamentary
+zone. It is intended that such functions will be the subject of a memorandum
+of understanding referred to in section 27.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.27">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_478669b4-3f97-4938-b3af-0603e240fd76"></attrib>
+<attrib name="id" value="sec.27"></attrib></parentattributes>
+
+<head>
+<no>27</no><heading guid="_557a668f-7efc-478a-9989-2231dfbb9f83"
+id="sec.27-he"><b>Memorandum of understanding with
+police</b></heading></head>
+
+<tier type="subclause" id="sec.27-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f10c7884-fc11-46a6-a33f-a740760e2559"></attrib>
+<attrib name="id" value="sec.27-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Presiding Officers may enter into a
+memorandum of understanding with the Commissioner of Police regarding the
+exercise by police officers of functions (under this Act or otherwise) in the
+Parliamentary precincts or the Parliamentary zone or
+both.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.27-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b602ab46-7d77-4106-ac62-6d4c9ff45639"></attrib>
+<attrib name="id" value="sec.27-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The memorandum of understanding may be amended,
+revoked or replaced from time to time.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.27-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c2c122a2-5f38-4907-9a81-5f136ccb6b6e"></attrib>
+<attrib name="id" value="sec.27-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Police functions must as far as practicable be
+exercised in conformity with the memorandum of understanding. However, a
+failure to comply with this subsection does not itself invalidate anything
+done or omitted to be done by a police officer.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.27A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ca8c79c3-07a5-4472-959b-696b6c371891"></attrib>
+<attrib name="id" value="sec.27A"></attrib></parentattributes>
+
+<head>
+<no>27A</no><heading guid="_9f99f31a-0bcc-4c62-948b-a64eaf1dd291"
+id="sec.27A-he"><b>Memorandum of understanding with Director-General of
+Department of Trade and Investment, Regional Infrastructure and
+Services</b></heading></head>
+
+<tier type="subclause" id="sec.27A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_800a1f6b-71bf-4197-93ca-1da4948d5e84"></attrib>
+<attrib name="id" value="sec.27A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Presiding Officers may enter into a
+memorandum of understanding with the Director-General of the Department of
+Trade and Investment, Regional Infrastructure and Services regarding the
+exercise in the Parliamentary precincts of functions by inspectors (within the
+meaning of the <legref refid="act-2007-091" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Gaming and Liquor Administration Act
+2007</i></name></legref>) in relation to any licence under the <legref
+refid="act-2007-090" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Liquor Act 2007</i></name></legref> that authorises the sale
+of liquor in the Parliamentary precincts.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.27A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4f4485b9-f6a9-4887-9c0f-baa25714fae0"></attrib>
+<attrib name="id" value="sec.27A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The memorandum of understanding may be amended,
+revoked or replaced from time to time.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.27A-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7031208e-037b-4027-a1d6-e38b45cbb248"></attrib>
+<attrib name="id" value="sec.27A-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The functions referred to in subsection (1) must
+as far as practicable be exercised in conformity with the memorandum of
+understanding. However, a failure to comply with this subsection does not
+itself invalidate anything done or omitted to be done by any such
+inspector.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 27A:</b> Ins 2004 No
+57, Sch 2. Am 2007 No 92, Sch 4.13 [1]&#8211;[3]; 2009 No 96, Sch 16; 2011 No
+72, Sch 5.7.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.28">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6b54fd17-242c-4f9f-bf6b-8d2489931fb0"></attrib>
+<attrib name="id" value="sec.28"></attrib></parentattributes>
+
+<head>
+<no>28</no><heading guid="_874e0ab3-b5b7-4efb-8249-6096363a8a5f"
+id="sec.28-he"><b>Protection from liability</b></heading></head>
+<block><txt break.before="1">No person is liable in criminal or civil
+proceedings for anything done or omitted, or purported to be done or omitted,
+in good faith, in pursuance of this Act.</txt></block></level>
+
+
+<level type="clause" id="sec.29">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2831e122-c35c-455a-8d66-d56dd4ea3c5c"></attrib>
+<attrib name="id" value="sec.29"></attrib></parentattributes>
+
+<head>
+<no>29</no><heading guid="_2b4ee49c-5ae3-4e94-8b3d-cd5d3da1f16a"
+id="sec.29-he"><b>Proceedings for offences</b></heading></head>
+<block><txt break.before="1">Proceedings for an offence against this Act are
+to be dealt with summarily before the Local Court.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 29:</b> Am 2007 No 94,
+Sch 4.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.30">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_deb27b05-3a51-42f4-9c94-0c838567a8ee"></attrib>
+<attrib name="id" value="sec.30"></attrib></parentattributes>
+
+<head>
+<no>30</no><heading guid="_ffb5283c-c411-4323-8861-e5b66f2459e6"
+id="sec.30-he"><b>Divesting of land from Royal Botanic Gardens and Domain
+Trust</b></heading></head>
+<block><txt break.before="1">So much of the land comprised in Lot 30 in
+Deposited Plan 39586 as is not comprised in Lot 1824 in Deposited Plan 841390
+is divested from the Royal Botanic Gardens and Domain
+Trust.</txt></block></level>
+
+
+<level type="clause" id="sec.31" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c1fa860b-0324-4759-a683-50de127c99dc"></attrib>
+<attrib name="id" value="sec.31"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>31</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 31:</b> Rep 1999 No 85,
+Sch 4.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.32">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_36770e0e-dd38-40db-8035-031e02096ff2"></attrib>
+<attrib name="id" value="sec.32"></attrib></parentattributes>
+
+<head>
+<no>32</no><heading guid="_29725e0c-1a44-492c-99f2-0f9349f34b06"
+id="sec.32-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.33">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_724c421d-ade2-4829-ba58-0d40a695c4fb"></attrib>
+<attrib name="id" value="sec.33"></attrib></parentattributes>
+
+<head>
+<no>33</no><heading guid="_9d992e57-8314-4dd1-a38c-7e539a99f4cf"
+id="sec.33-he"><b>Review of Act</b></heading></head>
+
+<tier type="subclause" id="sec.33-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_677d55c9-ffee-4f23-8e62-e0b21c5f05b9"></attrib>
+<attrib name="id" value="sec.33-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister is to review this Act to determine
+whether the policy objectives of the Act remain valid and whether the terms of
+the Act remain appropriate for securing those
+objectives.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.33-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a9c27605-e038-4d8e-b176-6eed812e0ed6"></attrib>
+<attrib name="id" value="sec.33-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The review is to be undertaken as soon as
+possible after the period of 5 years from the date of assent to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.33-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_176d466d-a0d5-4525-baa4-6a78453ab0a7"></attrib>
+<attrib name="id" value="sec.33-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A report of the outcome of the review is to be
+tabled in each House of Parliament within 12 months after the end of the
+period of 5 years.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_14145954-5b32-45ed-9297-fab02d7f65ab"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_e0951a03-664c-4a71-9e81-4cadbb59308b" id="sch.1-he"><b>Parliamentary
+precincts</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 6)</txt></block>
+<block><txt break.before="1">The land comprised in Lot 1823 in Deposited Plan
+841390.</txt></block></level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_afc6154d-0a22-47a8-a9b8-7524f98a1778"></attrib>
+<attrib name="id" value="sch.2"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading
+guid="_26c8fb6a-20d6-4405-94be-04b0895e511f" id="sch.2-he"><b>Parliamentary
+zone</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 14)</txt></block>
+<block><txt break.before="1">The land indicated in Deposited Plan 841390 as
+being within the Parliamentary zone.</txt></block></level>
+
+
+<level type="schedule" id="sch.3" status="repealed">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_95fa13c8-fd6f-4faa-9963-f736c0a5be4d"></attrib>
+<attrib name="id" value="sch.3"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 3</b></no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 3:</b> Rep 1999 No
+85, Sch 4.</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_afba9dd8-2363-4e79-b3a2-b855f83d44ae"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_4d1141a0-3aea-4004-82e7-1ffce5b2adda"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-1997-066" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Parliamentary Precincts Act
+1997</i></name> No 66</legref>. Assented to 10.7.1997. Date of commencement,
+assent, sec 2. This Act has been amended as follows:</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_26a95296-a83a-4714-83d1-f4e5ea8b333e" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_0845d544-0dd4-4030-9fa6-f80c289ee174" id="ed-tbl-tblr">
+<entry colname="1" guid="_866ca4e4-4397-4b24-a1c9-274d93af4f1c"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1999</b></txt></entry>
+<entry colname="2" guid="_ecca4e2a-d21b-4953-a2e3-1a4298f24f74"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 85</txt></entry>
+<entry colname="3" guid="_ed12528f-038a-4916-9928-2095abd70672"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref refid="act-1999-085" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 1999</i></name></legref>. Assented to 3.12.1999.</txt>
+<txt break.before="1">Date of commencement of Sch 4, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_342fdfe0-b03a-46ca-ad0c-7c0d6682e832" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_3bcc0192-68a5-4111-90dc-f5a9a3e10ad1"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>2004</b></txt></entry>
+<entry colname="2" guid="_7f3503ba-23c5-4769-977f-e273fb7860e6"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 57</txt></entry>
+<entry colname="3" guid="_0676b487-3707-425f-8663-a3ea67dade4a"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref refid="act-2004-057" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Liquor Amendment
+(Parliamentary Precincts) Act 2004</i></name></legref>. Assented to
+6.7.2004.</txt>
+<txt break.before="1">Date of commencement, 1.9.2005, sec 2 and GG No 107 of
+26.8.2005, p 4900.</txt></block></entry></row>
+
+
+<row guid="_c3a1c957-1c40-431e-bd26-f49fd4135520" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_d897dc52-cda0-4264-8b87-ac40042147ce"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>2007</b></txt></entry>
+<entry colname="2" guid="_4d668a46-ac16-4e58-9ff0-9d40aa1fe8ee"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 92</txt></entry>
+<entry colname="3" guid="_b706f023-a6c2-4970-b23f-d9de638c0f39"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref refid="act-2007-092" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Casino,
+Liquor and Gaming) Amendment Act 2007</i></name></legref>. Assented to
+13.12.2007.</txt>
+<txt break.before="1">Date of commencement of Sch 4, 1.7.2008, sec 2 and GG No
+76 of 27.6.2008, p 5867.</txt></block></entry></row>
+
+
+<row guid="_267c3a75-dd90-424a-9d6b-20aa2ba83b36" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_48f2579b-f3e1-4bc7-b8dc-a2560e841762"
+id="ed-tbl-tblr-oc.4-tble1"></entry>
+<entry colname="2" guid="_e3ff00dc-0253-46e4-8455-1c9fe8b70e15"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 94</txt></entry>
+<entry colname="3" guid="_0c0b9fdd-f960-47be-92e9-bdad84af551d"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref refid="act-2007-094" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Local
+Court) Amendment Act 2007</i></name></legref>. Assented to 13.12.2007.</txt>
+<txt break.before="1">Date of commencement of Sch 4, 6.7.2009, sec 2 and 2009
+(314) LW 3.7.2009.</txt></block></entry></row>
+
+
+<row guid="_518650ae-b1c3-4582-b9f0-c96925fe2b4c" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_a4d7c3fa-32a9-4a42-af59-2d368dbbbe1a"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>2009</b></txt></entry>
+<entry colname="2" guid="_0196eb4f-00b8-470e-8d0e-e080f6f87b9b"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 96</txt></entry>
+<entry colname="3" guid="_45d8bf54-6e74-42e3-97a0-96e4da300dfd"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref refid="act-2009-096" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Public Sector Restructure
+(Miscellaneous Acts Amendments) Act 2009</i></name></legref>. Assented to
+30.11.2009.</txt>
+<txt break.before="1">Date of commencement of Sch 16, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_80751bd0-10a4-44ee-ae00-2e625ca953b2" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_7195f39e-7bfb-475a-8bb6-398f30e95794"
+id="ed-tbl-tblr-oc.6-tble1"><txt break.before="1"><b>2011</b></txt></entry>
+<entry colname="2" guid="_46379218-95a5-449d-a628-d1224f26476a"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">No 72</txt></entry>
+<entry colname="3" guid="_a13a407c-05b9-4979-b478-82b27b5676d6"
+id="ed-tbl-tblr-oc.6-tble3">
+<block><txt break.before="1"><legref refid="act-2011-072" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Clubs, Liquor and Gaming
+Machines Legislation Amendment Act 2011</i></name></legref>. Assented to
+28.11.2011.</txt>
+<txt break.before="1">Date of commencement of Sch 5.7, 1.3.2012, sec 2 (1) and
+2012 (64) LW 1.3.2012.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_29becead-ecbd-42e2-923b-80e6a8fbb35d"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_23d2da2e-ee62-45f2-bb28-88e0179b4c95" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_c3007930-fecc-4d81-bbef-7a9e3fac7db6" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_716bfb68-3501-4d74-98f8-edf1ab2987f7"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 27A</txt></entry>
+<entry colname="2" guid="_7900dd84-0d98-463b-83a1-cbf0d9363820"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Ins 2004 No 57, Sch 2. Am
+2007 No 92, Sch 4.13 [1]&#8211;[3]; 2009 No 96, Sch 16; 2011 No 72, Sch
+5.7.</txt></entry></row>
+
+
+<row guid="_e9b0babe-9889-4de2-aa00-88585991044c" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_1a72cd85-d5de-4415-8fcb-2bb4eb332e1d"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 29</txt></entry>
+<entry colname="2" guid="_1df9b85e-d382-4346-a8c8-ae3c5f9eb0a3"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 2007 No 94, Sch
+4.</txt></entry></row>
+
+
+<row guid="_e0a2fc28-739d-468c-8520-4f765526d361" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_06729c22-02ca-40ff-b1ff-b940a415fdc8"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 31</txt></entry>
+<entry colname="2" guid="_857f3d0e-68c8-4dd7-9cfb-c959c23e1b5f"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Rep 1999 No 85, Sch
+4.</txt></entry></row>
+
+
+<row guid="_049db5bc-c1b2-4c09-9685-b0acded76f80" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_885251ef-323b-4c39-ad47-089fa641c3fa"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sch 3</txt></entry>
+<entry colname="2" guid="_a8e29be7-cd74-44e6-a9e7-ea2bafebefb0"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Rep 1999 No 85, Sch
+4.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

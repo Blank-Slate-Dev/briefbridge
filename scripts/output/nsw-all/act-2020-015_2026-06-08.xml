@@ -1,0 +1,967 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2020-015"
+title="Digital Restart Fund Act 2020"
+year="2020"
+number="15"
+enact.or.made.date="2020-08-03"
+first.valid.date="2020-08-03"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2020</metacontent>
+<metacontent class="year.assent">2020</metacontent>
+<metacontent class="publication.date">2026-05-06</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="introduction.date">2019-10-22</metacontent>
+<metacontent class="la.second.reading.date">2019-10-22</metacontent>
+<metacontent class="amended.in.committee">1</metacontent>
+<metacontent class="id">act-2020-015</metacontent>
+<metacontent
+class="version.desc.id">1dd5a79d-6d35-41db-bfc3-7b75c515f266</metacontent>
+<metacontent
+class="version.series.id">6b14e1fb-a373-4dbe-81d9-e1e769cb4cb2</metacontent>
+<metacontent class="year.introduced">2019</metacontent>
+<metacontent class="amending">none</metacontent>
+<metacontent class="last.consol.amend.id"></metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Digital Restart Fund Act 2020"></attrib>
+<attrib name="year.passed" value="2020"></attrib>
+<attrib name="year.assent" value="2020"></attrib>
+<attrib name="no" value="15"></attrib>
+<attrib name="publication.date" value="2026-05-06"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="first.valid.date" value="2020-08-03"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="introduction.date" value="2019-10-22"></attrib>
+<attrib name="la.second.reading.date" value="2019-10-22"></attrib>
+<attrib name="amended.in.committee" value="1"></attrib>
+<attrib name="assent.date" value="2020-08-03"></attrib>
+<attrib name="id" value="act-2020-015"></attrib>
+<attrib name="version.desc.id"
+value="1dd5a79d-6d35-41db-bfc3-7b75c515f266"></attrib>
+<attrib name="version.series.id"
+value="6b14e1fb-a373-4dbe-81d9-e1e769cb4cb2"></attrib>
+<attrib name="year.introduced" value="2019"></attrib>
+<attrib name="amending" value="none"></attrib>
+<attrib name="last.consol.amend.id" value=""></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_9b750041-f701-4d0a-aa5f-ed11d7307114"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_b37d1ed9-47d5-4f48-a132-b10fe5be8e0c"
+id="cd-status-he"><b>See also&#8212;</b></heading></head>
+<block><txt break.before="1"><legref type="bill" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Bill 2026</i></name></legref></txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_f947f1f3-d852-408b-a9a0-f5d031e188c2"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to establish the Digital Restart Fund for
+the purpose of providing funding for digital and information and
+communications technology initiatives across the government sector; and for
+other purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_b58dae51-f361-4819-aa80-fe0c8ed2e65f"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_146234a1-f867-4b93-9df6-553c25aee6f5"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f7c5fff5-6fce-4e16-bbbf-9a67b90836e9"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_fe12e66d-7e7b-4acb-9c66-441d0e6fa48e"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-2020-015"><name emphasis="yes"><i>Digital Restart
+Fund Act 2020</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cb0f3b29-8e56-4c3f-80d5-162e9f509e72"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_8b5bb057-9d9f-423e-bc72-66f859cc35bb"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on the date of assent to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cb7f5b27-6827-4daa-801b-e90907602153"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_4a744538-9d51-4427-8487-076940701163"
+id="sec.3-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9d902aaf-9289-4dfe-b174-74b52d5d23f3"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_1310eb7b-6e89-4b4c-a1a8-c9ed571a8304"
+id="sec.3-ssec.1-def.function"><b><i>function</i></b></defterm> includes a
+power, authority or duty, and <defterm type="definition"
+guid="_e1332990-2b54-4259-9498-19e6ab5b249f"
+id="sec.3-ssec.1-def.exercise"><b><i>exercise</i></b></defterm> a function
+includes perform a duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ac911030-5508-4fb9-b2b7-0190669e467c"
+id="sec.3-ssec.1-def.Fund"><b><i>Fund</i></b></defterm> means the Digital
+Restart Fund established under section 5.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c8ba54e3-af65-419a-af6b-217c77a60e5d"
+id="sec.3-ssec.1-def.governmentagency"><b><i>government
+agency</i></b></defterm> means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_201f4fde-d551-4422-be85-7b8a80508e9b" id="sec.3-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a government sector agency within the meaning of
+the <legref type="act" jurisd="NSW" check="unknown" refid="act-2013-040"><name
+emphasis="yes"><i>Government Sector Employment Act 2013</i></name></legref>,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b1dd49ea-f4fd-42a9-af70-b72906c767c1" id="sec.3-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a statutory body representing the Crown,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7444208a-d838-419e-8ced-71c721ca1d22" id="sec.3-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a State owned corporation within the meaning of
+the <legref type="act" jurisd="NSW" check="unknown" refid="act-1989-134"><name
+emphasis="yes"><i>State Owned Corporations Act 1989</i></name></legref>,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_457add27-0162-4b5a-9e0b-a4e7dd5e8c65" id="sec.3-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">any other public authority constituted by or
+under an Act, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3662e575-d779-40cc-b587-ece3ab046058" id="sec.3-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">any person or body declared by the regulations to
+be a government agency.</txt></block></li></list>
+</block></deflist>
+</block>
+<note type="legtext" guid="_c9e57327-e194-4e7f-b313-ef65cae05b29"
+id="sec.3-ssec.1-note"><heading guid="_b3d9c629-eed6-4def-965c-e8d44e9a8ed4"
+id="sec.3-ssec.1-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">The <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1987-015"><name emphasis="yes"><i>Interpretation
+Act 1987</i></name></legref> contains definitions and other provisions that
+affect the interpretation and application of this Act.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d006c980-7117-4e8d-856a-0b1af13c8dfd"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0e8672b5-1c62-42c2-ba58-bce464fa3188"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_29474bec-9f6e-4295-92d5-c961353c4ad4"
+id="sec.4-he"><b>Object of Act</b></heading></head>
+<block><txt break.before="1">The object of this Act is to provide funding for
+digital and information and communications technology
+initiatives&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6e83eec9-ab35-490f-8d4b-35aea323b0b7" id="sec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to improve the delivery of services by government
+agencies, including improving interactions between members of the public and
+government agencies involving digital and information and communications
+technology, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2fe22473-e917-4681-a010-76bcb8d1eef2" id="sec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to facilitate whole of government digital
+transformation, including upgrading and standardising systems and processes
+used by government agencies, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ba4dc3bf-a593-4b4d-bb5c-cf6f0aa1e8c8" id="sec.4-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to improve operational and cost efficiencies
+across the government sector.</txt></block></li></list>
+</block></level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_40194011-b5c7-4685-a5e4-178fd8d5e4ce"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_74758e48-b11a-4878-8e6c-ad33b538ac0a"
+id="pt.2-he"><b>Digital Restart Fund</b></heading></head>
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bb844a64-c66f-45b7-a19f-a2bc85276f93"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_44196665-4bf7-4de8-a6e0-d153223c4c46"
+id="sec.5-he"><b>Establishment of Digital Restart Fund</b></heading></head>
+<block><txt break.before="1">A Digital Restart Fund is to be established in
+the Special Deposits Account.</txt></block></level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_29173f75-b409-43ff-896f-e102f9ce520b"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_764cc56d-5202-49f6-b2c3-cca48bc2bed4"
+id="sec.6-he"><b>Purpose of Digital Restart Fund</b></heading></head>
+<block><txt break.before="1">The purpose of the Fund is to support digital and
+information and communications technology initiatives across the government
+sector, and for that purpose, to fund projects that&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4ef7a45f-6004-4a2d-bb67-72d7431aca1e" id="sec.6-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">develop and implement digital and information and
+communications technology products or services that, for the purpose of
+improving the delivery of services by government agencies and related
+interactions&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_04f1482a-9204-4d7d-9394-0fcd7d42b472" id="sec.6-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">identify the actions required to be taken by an
+individual (or on the individual&#8217;s behalf) in respect of significant
+events during the individual&#8217;s life, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fe691fec-5d77-460c-a260-081900fac2e6" id="sec.6-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">record related interactions between the
+individual (or on the individual&#8217;s behalf) and government agencies or
+non-government entities or other bodies or persons connected with the delivery
+of services by a government agency, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0e208b79-a318-4ddd-abfb-16565d441896" id="sec.6-para1.a-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">identify impediments to the delivery of related
+services by government agencies and develop and implement solutions to those
+impediments, or</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_52659e4c-5c09-4d33-883f-61960db4f57a" id="sec.6-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">develop and implement digital and information and
+communications technology products or services that are capable of being used
+by multiple government agencies in a cost effective manner,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_24ee1e99-5e3b-4234-a3a1-d0d055743a24" id="sec.6-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">optimise existing technologies, applications,
+computer systems or processes used by government agencies to improve the
+functionality and operational life of those technologies, applications,
+computer systems or processes, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6be2fc4f-696b-437f-b670-a41e020b545d" id="sec.6-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">provide persons employed in or by a government
+agency with education, training and information relating to digital and
+information and communications technology.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c3fe8019-fc04-4fe5-a765-267b5b9ef1cf"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_70dc5d8e-5e0b-4c49-98b5-48cd62c55026"
+id="sec.7-he"><b>Control and management of Digital Restart
+Fund</b></heading></head>
+<block><txt break.before="1">The Minister is to control and manage the
+Fund.</txt></block></level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2d11cb95-0583-489b-82de-f111ecac7de5"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_f72cea56-0a11-4b35-805b-fda4a22854b5"
+id="sec.8-he"><b>Payments into Digital Restart Fund</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dc9e3fe4-9f3d-4dbf-b58f-15c29b0dc8bc"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There is payable into the Fund the
+following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_12d6fb0f-00ac-47c2-821a-61768320cde7" id="sec.8-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">all money appropriated by Parliament, or advanced
+by the Treasurer, for the purposes of payment into the
+Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a24040dd-8ced-4916-847f-b11e67024980" id="sec.8-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">all money appropriated by Parliament to the
+Treasurer for the general purposes of the Government and directed by the
+Treasurer to be paid into the Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c26bffcf-c24a-4ace-b6aa-e0396e8cd218" id="sec.8-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the proceeds of the investment of money in the
+Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1da6a9f2-b466-4169-be9a-0008dadb7cb1" id="sec.8-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">all other money directed or authorised to be paid
+into the Fund by or under any Act or other law,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_830ead99-eef5-4dd9-a27c-2d0ec09f9c5b" id="sec.8-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">all money received from voluntary contributions
+to the Fund made by a government agency or other person or
+body.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_40a0b87c-88c1-4fdb-9347-eea3eb61666e"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">To avoid doubt, money appropriated by Parliament
+before the commencement of this section for purposes that reflect the purpose
+of the Fund may be paid into the Fund.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ca6dd974-9e9c-4e96-9096-43184c6e8503"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Money paid into the Fund under subsection (2) is
+taken to have been appropriated out of the Consolidated Fund for the purposes
+of payment into the Fund.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ae906c5b-bd81-40ab-9411-397b4d30da51"></attrib>
+<attrib name="id" value="sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Government agencies are authorised by this
+section to make voluntary contributions to the Fund.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ce566902-d706-44d8-aaa9-0eeef2d61526"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_8ebf7468-8675-4099-b3a7-c15239c90a61"
+id="sec.9-he"><b>Payments from Digital Restart Fund</b></heading></head>
+<block><txt break.before="1">There is payable from the Fund the
+following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7ef34c53-f47a-42d4-904f-56c240414f04" id="sec.9-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">money required to fund all or part of the cost of
+a project that promotes the purpose of the Fund and is approved by the
+Minister on the recommendation of the Secretary of the Department of Customer
+Service,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f1e0112e-9e2f-4aab-9924-68627eae5b64" id="sec.9-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">money required to meet administrative expenses
+related to the Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a422eb18-4ffb-4927-928b-99cd4c5cacc8" id="sec.9-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">money directed or authorised to be paid from the
+Fund by or under this Act or any other Act or law.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_df59e196-bf09-47d0-b14a-e67a828897fa"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_f0ffae04-1f7b-455b-b210-f8885feb08ce"
+id="sec.10-he"><b>Requirement for Minister to obtain
+advice</b></heading></head>
+<block><txt break.before="1">Before approving the payment of money under
+section 9(a), the Minister must obtain and have regard to advice from the
+Information Commissioner and the Privacy Commissioner as to the effect, if
+any, that the project may have on&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f7b777de-cc48-433f-8207-ee23fa97d054" id="sec.10-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">access to government information under the
+<legref type="act" jurisd="NSW" check="unknown" refid="act-2009-052"><name
+emphasis="yes"><i>Government Information (Public Access) Act
+2009</i></name></legref>, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d9a7c1eb-28f9-4260-b4c0-354e7bec0386" id="sec.10-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the protection of personal information under the
+<legref type="act" jurisd="NSW" check="unknown" refid="act-1998-133"><name
+emphasis="yes"><i>Privacy and Personal Information Protection Act
+1998</i></name></legref> or health information under the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-2002-071"><name
+emphasis="yes"><i>Health Records and Information Privacy Act
+2002</i></name></legref>.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7eed1cff-c31e-4071-9a39-88acd1db2a12"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_82ff347e-e995-4087-8d2b-379324004e26"
+id="sec.11-he"><b>Investment of money in Digital Restart
+Fund</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2ac3ecc1-dad6-4ee5-9c3f-c4b14221be0f"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may invest money in the
+Fund&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f2fe75ed-2b1c-4a94-ba1e-bbec92f2f999" id="sec.11-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if the Minister is a GSF agency for the purposes
+of Part 6 of the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2018-055"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref>&#8212;in any way that the Minister is permitted to
+invest money under that Part, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_227ddd46-ff53-455f-b0c4-47504781125a" id="sec.11-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the Minister is not a GSF agency for the
+purposes of Part 6 of the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2018-055"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref>&#8212;in any way approved by the
+Treasurer.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3f313e21-a7ea-4699-9c2d-c789280c3386"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_925f544e-c058-4cbb-aaf0-cf1c6c47deb6"
+id="sec.11-ssec.2-def.GSFagency"><b><i>GSF agency</i></b></defterm> has the
+same meaning as in the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2018-055"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref>.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b669bb19-7971-4416-bf78-1f9e97e0eef9"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_c892342f-652d-4ee6-81f7-7e3725fe7297"
+id="sec.12-he"><b>Minister may obtain advice</b></heading></head>
+<block><txt break.before="1">Without limiting section 10, the Minister may
+also, in exercising functions under this Act, obtain and have regard to
+advice, recommendations or other information provided to the Minister by a
+person or body that the Minister considers relevant.</txt></block></level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e8f352b5-3ab7-44c5-8fd1-4fca7dcadea1"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_bec4de48-e801-4bce-bf72-6efc52ac8011"
+id="pt.3-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7c59d360-5ed1-45bc-a98f-9de0073daef2"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_f6e1efcf-0271-4b02-beda-c77536f9d5a2"
+id="sec.13-he"><b>Delegation</b></heading></head>
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_58433f54-27a9-4986-b0d2-d9f91b10bd5c"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may delegate the exercise of any
+function of the Minister under this Act (other than this power of delegation)
+to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0c4a57ad-3e67-438d-bca0-38f2e0a1cac8" id="sec.13-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the head of a Public Service agency,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a6633d48-4739-4b79-a289-84fcee1d3cf5" id="sec.13-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any other person employed in a Public Service
+agency.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2000c990-8cc5-4d99-b95b-edbb481afb82"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A delegate may subdelegate a delegated function
+to another person employed in a Public Service agency.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f346a965-6e1f-45bc-98ea-de50e68f0dce"></attrib>
+<attrib name="id" value="sec.13-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_0ee31b15-1085-4cfb-a043-4c48df115e6d"
+id="sec.13-ssec.3-def.head"><b><i>head</i></b></defterm> of a Public Service
+agency and <defterm type="definition"
+guid="_aeb070f7-2a56-4108-843f-db46796d145c"
+id="sec.13-ssec.3-def.PublicServiceagency"><b><i>Public Service
+agency</i></b></defterm> have the same meanings as in the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-2013-040"><name
+emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref>.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6d80bd6c-c48f-45ce-b4b4-537af3b1be06"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_32c8cf31-952e-4533-8162-2183d3796d05"
+id="sec.14-he"><b>Annual reports relating to Digital Restart
+Fund</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a2f69f3f-0524-435c-b52e-2a2a1da90c78"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister is to produce a report relating to
+the Fund each year (being a year commencing on 1 July).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8e6770e5-ea8e-461a-b71d-fba0cfda0956"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The report is to be in the form determined by the
+Treasurer and include the following information&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1278aea4-2bb1-43bb-9afd-c8d95e418b3f" id="sec.14-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">details of payments into the Fund during the year
+to which the report relates,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dc24d069-8647-4668-ad8d-19c1805a6664" id="sec.14-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">details of payments from the Fund during the year
+to which the report relates, including, where money has been paid to fund all
+or part of the cost of a project, the following details in respect of that
+project&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_df08aded-30ed-456d-b610-7ca1b07ee364"
+id="sec.14-ssec.2-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">the name of the project,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bf148677-7461-4a7b-a39e-d12b9fc895c4"
+id="sec.14-ssec.2-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the government agency, person or body responsible
+for delivering the project,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bb310dc4-f847-411b-a17b-801542042af2"
+id="sec.14-ssec.2-para1.b-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">the total cost of the
+project,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9082f266-f92e-4ca9-822b-32e3569788fd"
+id="sec.14-ssec.2-para1.b-para2.iv">
+<no>(iv)</no>
+<block><txt break.before="1">the amount of money paid from the Fund in respect
+of the project,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_51ba73f4-0532-4d0a-b0d2-c99b1d1f7732"
+id="sec.14-ssec.2-para1.b-para2.v">
+<no>(v)</no>
+<block><txt break.before="1">the date on which the project was completed or is
+expected to be completed,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f7fb81d7-3f40-448d-89f9-45942d107a3c"
+id="sec.14-ssec.2-para1.b-para2.vi">
+<no>(vi)</no>
+<block><txt break.before="1">the objectives of the project, including any
+change to those objectives,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ff4365bc-0e79-4604-868f-b87cdb6acaf8"
+id="sec.14-ssec.2-para1.b-para2.vii">
+<no>(vii)</no>
+<block><txt break.before="1">whether the project has or is likely to achieve
+those objectives,</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_58700d9d-c162-4575-8d5e-e40c628deb6b" id="sec.14-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any other information determined by the
+Treasurer.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9fb8e287-ed3b-481f-8738-67a7fe79b98f"></attrib>
+<attrib name="id" value="sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The report is also to include an audit of the
+Fund by the Auditor-General (including a report of the Auditor-General on
+whether the payments from the Fund have been made in accordance with this
+Act).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_42be6c56-5a67-40e6-90e5-a9bac1619735"></attrib>
+<attrib name="id" value="sec.14-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The report is to be made publicly available
+within 6 months after the end of the year to which it
+relates.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0653c35f-cdc1-4061-86dc-cb97a6ebfc36"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_83b911d9-e5bc-427c-9c3f-80c5b4dcb042"
+id="sec.15-he"><b>Act to bind Crown</b></heading></head>
+<block><txt break.before="1">This Act binds the Crown in right of New South
+Wales and, in so far as the legislative power of the Parliament of New South
+Wales permits, the Crown in all its other capacities.</txt></block></level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b22bd457-4458-482f-a1aa-fec55df426f8"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_13d4ce5c-8911-41cf-9ee6-6502be685d2b"
+id="sec.16-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_06c62a8b-25dd-42ac-bafb-f1e4c00d0e04"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_09b674da-8bff-470e-bd90-d9e7507f9f32"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of this Act or any
+Act that amends this Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_daedb14a-5251-46d2-a5d7-ad8fd5b58813"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_25910ae5-f0ce-4687-9d29-838f2e303188"
+id="sec.17-he"><b>Review of Act</b></heading></head>
+
+<tier type="subclause" id="sec.17-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_148f73ff-833c-4266-a5f8-0ad53550ff55"></attrib>
+<attrib name="id" value="sec.17-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister is to review this Act to determine
+whether the policy objectives of the Act remain valid and whether the terms of
+the Act remain appropriate for securing the objectives.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_01af58be-c6c4-498e-9d57-7273ef95c034"></attrib>
+<attrib name="id" value="sec.17-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The review is to be undertaken as soon as
+possible after the period of 5 years from the commencement of this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a15b30c7-c82d-4c41-a2c2-80ce31742cc3"></attrib>
+<attrib name="id" value="sec.17-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A report on the outcome of the review is to be
+tabled in each House of Parliament within 6 months after the end of the period
+of 5 years.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_e3c8a885-f4e2-4ca7-a465-8b85e9828e0e"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_63272cfc-803f-43e2-b193-f88dcd176f62"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2020-015"><name emphasis="yes"><i>Digital Restart Fund Act
+2020</i></name> No 15</legref>. Assented to 3.8.2020. Date of commencement,
+assent, sec 2.</txt></block></level>
+</level>
+</content>
+</exdoc>

@@ -1,0 +1,756 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2001-033"
+title="Corporations (Administrative Actions) Act 2001"
+year="2001"
+number="33"
+enact.or.made.date="2001-06-28"
+first.valid.date="2023-07-14"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2001</metacontent>
+<metacontent class="year.assent">2001</metacontent>
+<metacontent class="publication.date">2023-07-14</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2023-007</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="la.second.reading.date">2001-06-20</metacontent>
+<metacontent class="id">act-2001-033</metacontent>
+<metacontent
+class="version.desc.id">8dd4d685-deab-4eb1-86b6-8bc4d5333e69</metacontent>
+<metacontent
+class="version.series.id">ed688dfc-f569-475c-8910-d823fa691ecc</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Corporations (Administrative Actions) Act
+2001"></attrib>
+<attrib name="year.passed" value="2001"></attrib>
+<attrib name="year.assent" value="2001"></attrib>
+<attrib name="no" value="33"></attrib>
+<attrib name="publication.date" value="2023-07-14"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2023-007"></attrib>
+<attrib name="first.valid.date" value="2023-07-14"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="la.second.reading.date" value="2001-06-20"></attrib>
+<attrib name="assent.date" value="2001-06-28"></attrib>
+<attrib name="id" value="act-2001-033"></attrib>
+<attrib name="version.desc.id"
+value="8dd4d685-deab-4eb1-86b6-8bc4d5333e69"></attrib>
+<attrib name="version.series.id"
+value="ed688dfc-f569-475c-8910-d823fa691ecc"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_17009a16-4b60-42ea-8fb6-aca3aae0cb36"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_8c7f2fb7-8f8f-41bc-a133-ffca656f06ab"
+id="cd-status-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_e668e4a9-b89a-4854-bd2b-a6454febf279"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act relating to administrative actions taken
+by Commonwealth authorities or officers of the Commonwealth under certain
+State laws relating to corporations.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bdb41af1-c9ab-4945-a94f-3b75d1c56e71"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_ac5493d1-1c61-46df-aad1-42d2d54dfa17"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref refid="act-2001-033"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Corporations
+(Administrative Actions) Act 2001</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8a671104-5a09-4eb6-bb22-486a46fe67fc"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_66a5c472-115d-4579-a50a-ae646eb9fffb"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences immediately before the <legref
+jurisd="CTH" type="act" check="unknown"><name emphasis="yes"><i>Corporations
+Act 2001</i></name></legref> of the Commonwealth, as originally enacted, comes
+into operation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d22457f7-32e0-4f57-ad32-04435ba53bd0"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_cd06379f-e66b-43cc-ad75-386ad4f4ca7e"
+id="sec.3-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_972d86f2-f7a9-48eb-abff-c9cc8673472d"
+id="def.administrativeaction"><b><i>administrative action</i></b></defterm>
+means an act or omission of an administrative or legislative nature, and
+includes any act or omission of an administrative nature that is done or
+omitted in the course of or ancillary to or preliminary to or subsequent to
+judicial proceedings (civil or criminal).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_582892d5-0989-4828-a13b-a36f275755b3"
+id="def.commencementtime"><b><i>commencement time</i></b></defterm> means the
+time when this Act commences under section 2.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_e2e59d39-cc0e-4cf9-8785-b6b2cdf14260"
+id="def.Commonwealthauthority"><b><i>Commonwealth authority</i></b></defterm>
+means an authority or body (whether incorporated or not) that is established
+or continued in existence by or under an Act of the Commonwealth, but does not
+include the Federal Court of Australia or the Federal Circuit and Family Court
+of Australia.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_bd923d63-7e4c-40ba-9ee9-7a033078b7f9"
+id="def.confer"><b><i>confer</i></b></defterm> includes impose.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_835e1121-7792-4e14-a682-f87e734e6925"
+id="def.function"><b><i>function</i></b></defterm> includes a
+duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_7e8e0acc-3872-4257-aec7-3defc6a23850"
+id="def.invalidadministrativeaction"><b><i>invalid administrative
+action</i></b></defterm> means an administrative action of a Commonwealth
+authority or an officer of the Commonwealth taken, or purportedly taken, at or
+before the commencement time&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ef760001-75b7-4d8d-b2ce-2989b687fb6f" id="sec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">pursuant to a function or power conferred, or
+purportedly conferred, by or under a relevant State Act (the <defterm
+type="definition" guid="_b6fb4dd9-efea-41bd-813c-f48f63a9b9a4"
+id="sec.3-def.relevantfunction"><b><i>relevant function</i></b></defterm> or
+<defterm type="definition" guid="_350d1b4e-a7e6-471c-8889-ebfbbd37d328"
+id="sec.3-def.power"><b><i>power</i></b></defterm>), and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fad25423-b001-4422-9078-a77c5ae1f0df" id="sec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in circumstances where the relevant function or
+power could not have been conferred on the authority or officer by a law of
+the Commonwealth the operation of which in the relevant respect was based on
+the legislative powers of the Parliament of the Commonwealth (including, for
+example, circumstances where the authority or officer was, or purportedly was,
+under an express or implied duty to perform the function or exercise the
+power),</txt></block></li></list>
+
+<txt break.before="1">that was invalid because of the circumstances referred
+to in paragraphs (a) and (b), whether or not it was also invalid on any other
+ground.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_be01471b-a3bb-4822-8239-7824d4bf9e14"
+id="def.liability"><b><i>liability</i></b></defterm> includes a duty or
+obligation.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b6a5d97f-b2f4-4f3b-85c9-4c0717d0f577"
+id="def.officeroftheCommonwealth"><b><i>officer of the
+Commonwealth</i></b></defterm> has the same meaning as in section 75 (v) of
+the <legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="no">Constitution of the Commonwealth</name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_66a3dd4f-985e-4897-aac8-49675c26ae6e"
+id="def.relevantfunction"><b><i>relevant function</i></b></defterm> or
+<defterm type="definition" guid="_eb73dc26-f249-4e56-8438-9c84c2e025cf"
+id="def.power"><b><i>power</i></b></defterm> means a function or power
+referred to in paragraph (a) of the definition of <defterm type="definition"
+guid="_efbf3dc0-b771-4c72-a46d-ce5467b46573"
+id="def.invalidadministrativeaction-oc.2"><b><i>invalid administrative
+action</i></b></defterm>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_70fc9568-3de2-4f2c-a0b2-71ab5074a78b"
+id="def.relevantStateAct"><b><i>relevant State Act</i></b></defterm>
+means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_968f9c3c-c474-4226-a398-25b1f9e9a5d9" id="sec.3-para1.a-oc.2">
+<no>(a)</no>
+<block><txt break.before="1">the <legref refid="act-1990-083" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Corporations (New South
+Wales) Act 1990</i></name></legref>, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_39c026a9-31a9-42dc-8da1-15e3e032ce89" id="sec.3-para1.b-oc.2">
+<no>(b)</no>
+<block><txt break.before="1">the <legref refid="act-1981-122" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Companies (Application of
+Laws) Act 1981</i></name></legref>, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ed7ccc3f-72d7-4131-bfea-92fe61c22f50" id="sec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the <legref refid="act-1981-062" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Companies (Acquisition of
+Shares) (Application of Laws) Act 1981</i></name></legref>,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a9d10485-e75c-45d3-9c82-66af5098eacb" id="sec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the <legref refid="act-1981-061" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Securities Industry
+(Application of Laws) Act 1981</i></name></legref>, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3de5bf45-2641-4f75-bd6d-c7a5ae987334" id="sec.3-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the <legref refid="act-1986-066" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Futures Industry
+(Application of Laws) Act 1986</i></name></legref>, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_77f25d0d-44a0-4bfb-a3b8-a57543d7ba07" id="sec.3-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">the <legref refid="act-1981-063" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Companies and Securities
+(Interpretation and Miscellaneous Provisions) (Application of Laws) Act
+1981</i></name></legref>,</txt></block></li></list>
+
+<txt break.before="1">and includes any law applying as a law of the State by
+force of any such Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_19460898-dd7b-446d-a970-3c6d80b333fa"
+id="def.right"><b><i>right</i></b></defterm> includes an interest or
+status.</txt></block></deflist>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Am 2016 No 27,
+Sch 2.10; 2023 No 7, Sch 2.12.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4a574d7d-bdc5-4d84-9b2d-484640737fb1"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_2c40ea64-55b8-486f-b63d-502735281f12"
+id="sec.4-he"><b>Application and operation of Act</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_73154371-7b8e-4964-bc43-17f94d199604"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This Act binds the Crown in right of New South
+Wales and, in so far as the legislative power of the Parliament of New South
+Wales permits, the Crown in all its other capacities.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6c631d69-a7f3-4775-a963-cf5c46ae3ed7"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This Act has effect despite any provision of the
+<legref refid="act-1990-083" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Corporations (New South Wales) Act 1990</i></name></legref>
+or of the applicable provisions (as defined in that Act) of the
+State.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a14ab495-3eef-4fee-8ee9-fca799c70e3c"></attrib>
+<attrib name="id" value="sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Subject to subsection (4), this Act extends to
+rights or liabilities arising between parties to proceedings initiated at or
+before the commencement time where an allegedly invalid administrative action
+is or was the subject of or relevant to the proceedings.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0206e948-d902-4452-8210-95ab79c9fde8"></attrib>
+<attrib name="id" value="sec.4-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">This Act does not affect rights or liabilities
+arising between parties to proceedings heard and finally determined at or
+before the commencement time to the extent to which those rights or
+liabilities arise from, or are affected by, an invalid administrative
+action.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_714d2139-2a34-4a1e-a86e-14351ac43661"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_5a823a97-c253-4837-9e94-41f8125a2000"
+id="sec.5-he"><b>Legal effect of invalid administrative
+actions</b></heading></head>
+<block><txt break.before="1">Every invalid administrative action has, and is
+deemed always to have had, the same force and effect for all purposes as it
+would have had if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_340b5c26-fd0b-4f93-9636-548363818ed7" id="sec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">it had been taken, or purportedly taken, by a
+State authority or officer of the State, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b0db974a-d3dc-4cfe-9a31-09122719ab9a" id="sec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the relevant function or power had been duly
+conferred on that authority or officer.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_74cad77b-7586-4c20-8bf5-b8f96ff84157"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_6e4e565e-28a3-4aa7-bd90-4b380a6f084e"
+id="sec.6-he"><b>Rights and liabilities declared in certain
+cases</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4b1e5bcf-aca0-49dc-8e35-0abc17e0edec"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Without affecting the generality of section 5,
+the rights and liabilities of all persons are, by force of this Act, declared
+to be, and always to have been, for all purposes the same as if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fa466ec1-537e-40aa-bd0b-3db60c471a9d" id="sec.6-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">every invalid administrative action had been
+taken, or purportedly taken, by a State authority or officer of the State,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_926ebb8e-5136-435e-80f9-b36c06a1983d" id="sec.6-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the relevant function or power had been duly
+conferred on that authority or officer.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5a31950a-c376-4bf8-9f0e-f8cba96f3354"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A right or liability conferred or affected by
+subsection (1)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fa54fd97-e911-455c-8e7e-c3cd8e3c7074" id="sec.6-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is exercisable or enforceable,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9351ba01-2dc9-446f-891b-9b3a9b5e1ca8" id="sec.6-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is to be regarded as always having been
+exercisable or enforceable,</txt></block></li></list>
+
+<txt break.before="1">as if it were a right or liability conferred or affected
+by (or arising from) an administrative action of a State authority or officer
+of the State on which or whom the relevant function or power had been duly
+conferred.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bc903f65-ce64-4b05-962e-17f8d026e384"></attrib>
+<attrib name="id" value="sec.6-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Any act or thing done or omitted to be done at or
+before the commencement time under or in relation to a right or liability
+conferred or affected by subsection (1)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_24b803e1-6267-400f-bd2c-7333a8242240" id="sec.6-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">has the same effect, and gives rise to the same
+consequences, for the purposes of any written or other law,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_51d180d1-805e-409f-9db5-d32393ba7825" id="sec.6-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is to be regarded as always having had the same
+effect, and given rise to the same consequences, for the purposes of any
+written or other law,</txt></block></li></list>
+
+<txt break.before="1">as if it were done, or omitted to be done, to give
+effect to, or under the authority of, or in reliance on, an administrative
+action of a State authority or officer of the State on which or whom the
+relevant function or power had been duly conferred.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a3f76bf3-ee03-4d52-8d37-46f6040e20c3"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_1a8e7da3-e565-4600-a74a-2259ee2d4e26"
+id="sec.7-he"><b>Registration or incorporation of
+companies</b></heading></head>
+<block><txt break.before="1">Without affecting the generality of sections 5
+and 6, it is declared that those sections extend to the registration or
+incorporation, or purported registration or incorporation, of companies by, or
+consequent on administrative action taken or purportedly taken by,
+Commonwealth authorities or officers of the Commonwealth at or before the
+commencement time.</txt></block></level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2e4e80e4-b06d-4028-afb6-9dcd604e6996"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_6b69cf46-70ef-4577-8677-bb80a165fbb1"
+id="sec.8-he"><b>This Act to apply to administrative actions as purportedly in
+force from time to time</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0be7c568-5229-42ae-90e4-e3c7e1264517"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The purpose of this section is to ensure that
+this Act operates to give to an invalid administrative action that has
+subsequently been affected by another action or process no greater effect than
+it would have had if the administrative action, or any other relevant
+administrative action, had not been invalid on constitutional grounds (arising
+from the circumstances referred to in paragraphs (a) and (b) of the definition
+of <defterm type="definition" guid="_169df9ae-9bb3-42af-a5f4-2775d43f6526"
+id="sec.8-def.invalidadministrativeaction"><b><i>invalid administrative
+action</i></b></defterm> in section 3).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_41a11142-ce00-4d3a-9797-5351ae8ee39d"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If administrative action taken by a Commonwealth
+authority or an officer of the Commonwealth was affected (whether by way of
+revocation, modification or otherwise) at or before the commencement time by
+any later administrative action or by any judicial process or by any
+administrative review process, this Act applies to the administrative action
+as so affected from time to time.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_71b8755a-ef44-4584-af8f-bd6a7b8b5bf7"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section, a reference to administrative
+action taken includes a reference to administrative action purportedly taken,
+and a reference to administrative action affected in any way includes a
+reference to administrative action purportedly affected in that
+way.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_22dcd589-89bb-4aba-80d6-2d368bcefbf1"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_9880d76a-851a-4e07-bd77-7f9e593389d7"
+id="sec.9-he"><b>Corresponding authorities or officers</b></heading></head>
+<block><txt break.before="1">It is immaterial, for the purposes of this Act,
+that a Commonwealth authority or an officer of the Commonwealth does not have
+a counterpart in the State, or that the powers and functions of a counterpart
+State authority or a counterpart officer of the State do not correspond
+exactly or substantially with those of the Commonwealth authority or the
+officer of the Commonwealth.</txt></block></level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_692da598-1384-4817-9c63-a58d8036bd9a"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_2fdb3a00-3a98-48cb-b333-dcefe8b36c61"
+id="sec.10-he"><b>Act not to give rise to liability against the
+State</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8a2f5285-01fd-4734-af40-042143c5de50"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The State is not liable to any action, liability,
+claim or demand arising from the enactment, commencement or operation of this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_97fed1bb-54e1-411d-bfe4-2c85b9d2e8d1"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting subsection (1), no proceedings
+lie against the State in respect of an administrative action affected by this
+Act, except to the extent that the proceedings would lie had this Act not been
+enacted.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a2fe32db-ba42-4668-974f-fd9c43ff5c3e"></attrib>
+<attrib name="id" value="sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a845ed25-bcb3-4755-8ed4-93a8ea967ddd"
+id="sec.10-def.proceedings"><b><i>proceedings</i></b></defterm> includes
+proceedings for an order in the nature of prohibition, certiorari or mandamus
+or for a declaration or injunction or for any other relief.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_5a9c6ed6-c3c4-465a-a724-f92a8bc543cc"
+id="sec.10-def.theState"><b><i>the State</i></b></defterm> includes any State
+authority or officer of the State, and also includes&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d31384db-3189-4b5e-989f-ea47ae54c600" id="sec.10-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Crown in right of the State,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_86e1353e-6243-46f8-bc1f-a63498560b91" id="sec.10-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the Government of the State,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b3bfaf69-ffa7-4fff-8e68-e866a113bed4" id="sec.10-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a Minister of the Crown in right of the State,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e6e9dbd5-7f65-4185-887f-18ca162e494e" id="sec.10-ssec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">a statutory corporation, or other body,
+representing the Crown in right of the State.</txt></block></li></list>
+</block></deflist>
+</block></tier>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_a91b8dc7-f5ad-4834-a538-20c5e9fc6424"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_fae2c706-4abc-44b5-85f1-356f05d460a9"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-2001-033" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Corporations
+(Administrative Actions) Act 2001</i></name> No 33</legref>. Minister&#8217;s
+second reading speech made: Legislative Assembly, 20.6.2001; Legislative
+Council, 26.6.2001. Assented to 28.6.2001. Date of commencement, immediately
+before the <legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="yes"><i>Corporations Act 2001</i></name></legref> of the
+Commonwealth, as originally enacted, comes into operation (ie 15.7.2001), sec
+2 and Commonwealth Gazette No S 285 of 13.7.2001. This Act has been amended as
+follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_140b0888-5f57-4b4d-9c40-453334a5a6b0" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_afde43f8-87e7-4788-bd16-68b5b365c4f6" id="ed-tbl-tblr">
+<entry colname="1" guid="_985cb6f9-40a1-4029-b3b8-47a85520b293"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>2016</b></txt></entry>
+<entry colname="2" guid="_74987e57-474b-4a19-95ef-b9f5dafadca9"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 27</txt></entry>
+<entry colname="3" guid="_804b3ed7-8e1d-495b-842d-ff664be6efc6"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref refid="act-2016-027" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2016</i></name></legref>. Assented to 7.6.2016.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 8.7.2016, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_c577f42b-00f0-4df9-9893-e452b4e194aa" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_2f75e306-d369-40bb-a723-5955f69f5819"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>2023</b></txt></entry>
+<entry colname="2" guid="_145c5437-2d3c-4d8e-9422-205da06a7eed"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 7</txt></entry>
+<entry colname="3" guid="_d8974932-8e78-40ba-a821-924ce1c549c9"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref refid="act-2023-007" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2023</i></name></legref>. Assented to 3.7.2023.</txt>
+<txt break.before="1">Date of commencement, 14.7.2023, sec
+2.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_136cd7a4-a9ee-4486-8802-a399d9a0cdeb"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_5ef7e6ca-a0f4-43dc-8409-6c53dd851e28" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_e5dd21cb-682c-4cc6-9da8-3b2b8b59a24e" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_c6e2510e-e792-4154-8a48-d38235fc2dc4"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_43f113b2-a582-449e-ab26-878f68e56bbb"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 2016 No 27, Sch 2.10;
+2023 No 7, Sch 2.12.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

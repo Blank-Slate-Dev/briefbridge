@@ -1,0 +1,1559 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2018-037"
+title="NSW Generations Funds Act 2018"
+year="2018"
+number="37"
+enact.or.made.date="2018-06-27"
+first.valid.date="2023-09-27"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2018</metacontent>
+<metacontent class="year.assent">2018</metacontent>
+<metacontent class="publication.date">2023-09-27</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2023-026</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="introduction.date">2018-06-19</metacontent>
+<metacontent class="la.second.reading.date">2018-06-19</metacontent>
+<metacontent class="amended.in.committee">0</metacontent>
+<metacontent class="id">act-2018-037</metacontent>
+<metacontent
+class="version.desc.id">7dfa9b13-d455-4237-a6be-d3f8b5d3a72f</metacontent>
+<metacontent
+class="version.series.id">42cc09c8-41be-4996-844c-ead25391839c</metacontent>
+<metacontent class="year.introduced">2018</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="NSW Generations Funds Act 2018"></attrib>
+<attrib name="year.passed" value="2018"></attrib>
+<attrib name="year.assent" value="2018"></attrib>
+<attrib name="no" value="37"></attrib>
+<attrib name="publication.date" value="2023-09-27"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2023-026"></attrib>
+<attrib name="first.valid.date" value="2023-09-27"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="introduction.date" value="2018-06-19"></attrib>
+<attrib name="la.second.reading.date" value="2018-06-19"></attrib>
+<attrib name="amended.in.committee" value="0"></attrib>
+<attrib name="assent.date" value="2018-06-27"></attrib>
+<attrib name="id" value="act-2018-037"></attrib>
+<attrib name="version.desc.id"
+value="7dfa9b13-d455-4237-a6be-d3f8b5d3a72f"></attrib>
+<attrib name="version.series.id"
+value="42cc09c8-41be-4996-844c-ead25391839c"></attrib>
+<attrib name="year.introduced" value="2018"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_34f5749f-f2e3-4b01-a5eb-a621e653cadd"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_592601d6-df28-4806-aced-e039f0a191e8"
+id="cd-status-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+
+
+<tier type="statusrecord" id="cd-status-oc.2">
+<parentattributes>
+<attrib name="guid" value="_b3f04960-7d02-4413-b54e-9622f09b079a"></attrib>
+<attrib name="id" value="cd-status-oc.2"></attrib></parentattributes>
+
+<head><heading guid="_bb3956b7-f16b-4c42-90ce-2f6fe2a4cf79"
+id="cd-status-oc.2-he"><b>Note&#8212;</b></heading></head>
+<block><txt break.before="1">Amending provisions are subject to automatic
+repeal pursuant to sec 30C of the <legref refid="act-1987-015" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Interpretation Act
+1987</i></name> No 15</legref> once the amendments have taken
+effect.</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_7a8c9fb8-e39d-47ff-a3ec-a12bbe540bfe"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to provide for the establishment of the
+NSW Generations (Debt Retirement) Fund and the NSW Generations (Community
+Services and Facilities) Fund for the purposes of providing funding for State
+debt retirement and certain community purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_cffdc24b-6870-4778-8e5f-1317826339a5"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_95f3f02f-869b-4835-9118-0578bb4ac877"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e4290204-f0ba-40b6-901f-bf9bc48de936"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_8f29e81d-5347-4d81-afa8-f1b05ccf0fa9"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref refid="act-2018-037"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>NSW
+Generations Funds Act 2018</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_de33dd5a-dce0-499e-afa9-1c5e070322f0"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_07b187d6-5fe1-46f3-8536-4399554f0f3d"
+id="sec.2-he"><b>Commencement</b></heading></head>
+
+<tier type="subclause" id="sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_664135b5-8dd6-4da9-9ccf-8be13b988e46"></attrib>
+<attrib name="id" value="sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This Act commences on the date of assent to this
+Act, except as provided by this section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_82548b6c-db4f-4c91-888c-080e7118ec0d"></attrib>
+<attrib name="id" value="sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Section 20 commences on the day on which Division
+6.4 (Financial arrangements) of the <legref refid="act-2018-055" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Government Sector Finance
+Act 2018</i></name></legref> commences.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_abf68e2d-7bdb-4278-9eab-23385ab0ccc2"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_04096091-5345-44d0-af8b-4a65539ddca0"
+id="sec.3-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f963b4c3-632d-4191-8933-7c27bc4999e3"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_f2f108e3-1532-498f-8346-37a3f302d9a7"
+id="sec.3-def.CommunityServicesandFacilitiesFund"><b><i>Community Services and
+Facilities Fund</i></b></defterm> means the NSW Generations (Community
+Services and Facilities) Fund established under this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_820bd22a-e1e0-4468-92d8-d812209d087d"
+id="sec.3-def.DebtRetirementFund"><b><i>Debt Retirement
+Fund</i></b></defterm> means the NSW Generations (Debt Retirement) Fund
+established under this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_1757d764-197f-4321-a619-db063fa1d016"
+id="sec.3-def.financialyear"><b><i>financial year</i></b></defterm> means the
+year commencing 1 July.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ea633091-97d7-43a4-b6dd-569adbb9285b"
+id="sec.3-def.function"><b><i>function</i></b></defterm> includes a power,
+authority or duty, and <defterm type="definition"
+guid="_88b5a1a2-f005-48e5-a3f6-9d60adbb24bc"
+id="sec.3-def.exercise"><b><i>exercise</i></b></defterm> a function includes
+perform a duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a99808c2-11b7-4a4a-a312-d186b08a6886"
+id="sec.3-def.GSFagency"><b><i>GSF agency</i></b></defterm> has the same
+meaning as in the <legref refid="act-2018-055" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_35ba58c4-64ad-4b55-aa8d-275c7f7d09c5"
+id="sec.3-def.interest"><b><i>interest</i></b></defterm> includes any legal or
+equitable estate or interest (whether present or future, whether vested or
+contingent and whether personal or assignable) in real or personal property of
+any description (including money, securities and choses in
+action).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_dd5bc2f1-64c5-427d-a067-eb3ee4056218"
+id="sec.3-def.NSWGenerationsFunds"><b><i>NSW Generations
+Funds</i></b></defterm> means the Community Services and Facilities Fund and
+the Debt Retirement Fund.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_eaed80dd-df8c-4eb6-88d2-72d8004e217a"
+id="sec.3-def.PublicServiceagency"><b><i>Public Service
+agency</i></b></defterm> has the same meaning as in the <legref
+refid="act-2013-040" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_fe5c8dca-5429-4d6b-8fb3-3ba1ed1bc104"
+id="sec.3-def.relevantNSWequityinterest"><b><i>relevant NSW equity
+interest</i></b></defterm> means an interest specified by Schedule
+1.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_02deec70-f901-426c-939b-85971b3a92bf"
+id="sec.3-def.Statetax"><b><i>State tax</i></b></defterm> means a duty or any
+other tax imposed by or under an Act.</txt></block></deflist>
+</block>
+<note type="legtext" guid="_3d4e1b82-48e0-48c6-9826-96b76078a492"
+id="sec.3-ssec.1-note"><heading guid="_0f1df466-afcf-4a1d-911b-8e3943461973"
+id="sec.3-ssec.1-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">The <legref refid="act-1987-015" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Interpretation Act
+1987</i></name></legref> contains definitions and other provisions that affect
+the interpretation and application of this Act.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e2484989-7224-4306-be8b-371e1856fffa"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Am 2018 No 37,
+sec 20 (1).</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_2f429920-d745-4c0b-ad87-39e65cfc51aa"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_f5a0dea8-e399-49e1-a177-cc9b93d3b926"
+id="pt.2-he"><b>NSW Generations Funds</b></heading></head>
+
+<level type="division" id="pt.2-div.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e30a84fc-1a23-43ba-82a8-ea58daf59c8c"></attrib>
+<attrib name="id" value="pt.2-div.1"></attrib></parentattributes>
+
+<head>
+<no><b>Division 1</b></no><heading
+guid="_8ec59555-ff6e-4734-87aa-238a6d34e7ad"
+id="pt.2-div.1-he"><b>Establishment and operation of NSW Generations
+Funds</b></heading></head>
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a6048706-adf6-4d49-b0c6-f654b4e87af9"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_91ee16c6-bc5f-445f-bb5c-0e7cddb35b00"
+id="sec.4-he"><b>Establishment of NSW Generations Funds</b></heading></head>
+<block><txt break.before="1">The following are to be established in the
+Special Deposits Account&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_136a7336-a177-4002-973d-c5a312a06cbf" id="sec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">NSW Generations (Debt Retirement)
+Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0e31b949-8fd1-4d2b-b1bb-1e469619c841" id="sec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">NSW Generations (Community Services and
+Facilities) Fund.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aa71b825-a70a-48e6-ba00-41762ab06e5a"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_190a1618-5045-4fc1-ab78-50965474020c"
+id="sec.5-he"><b>Control and management of NSW Generations
+Funds</b></heading></head>
+<block><txt break.before="1">The Minister is to control and manage each of the
+NSW Generations Funds.</txt></block></level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_33bf7662-500e-43be-86e8-59e3b83ad82b"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_bc611895-0a8e-4c69-87e2-f3103960c460"
+id="sec.6-he"><b>Minister may obtain advice etc</b></heading></head>
+<block><txt break.before="1">The Minister may, in exercising functions under
+this Act, obtain and have regard to any advice, recommendations or other
+information provided to the Minister by any person or body that the Minister
+considers relevant.</txt></block></level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d4c5b97a-5627-4cee-9d7d-33997fe45fd1"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_724ffd4f-2bc9-4621-8a9c-0d9ccbd62556"
+id="sec.7-he"><b>Annual reports relating to NSW Generations
+Funds</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b2efc859-c105-4809-a17b-1343427ff2e9"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister is to produce an annual
+report.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_67f56f47-23fa-4fa9-88eb-cb8bcd559a57"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The annual report is to be in the form, and
+contain such information (including details of payments into and out of each
+of the NSW Generations Funds), as the Treasurer may
+determine.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_35711750-0430-4376-8e80-d990d05c89b1"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The annual report is to include an audit of each
+of the NSW Generations Funds by the Auditor-General (including a report of the
+Auditor-General on whether the payments from the Funds have been made in
+accordance with this Act).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3728422b-5556-43de-bb1d-6cebf1478e99"></attrib>
+<attrib name="id" value="sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The annual report is to be made publicly
+available within 6 months after the end of the financial year to which it
+relates.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="division" id="pt.2-div.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_98aec5b5-4b02-4ccf-84b1-805a4ce61ea2"></attrib>
+<attrib name="id" value="pt.2-div.2"></attrib></parentattributes>
+
+<head>
+<no><b>Division 2</b></no><heading
+guid="_54c9d488-15a0-432b-8e48-dacd2d3ff12a" id="pt.2-div.2-he"><b>Debt
+Retirement Fund</b></heading></head>
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_efa22cc3-56e6-41cc-b925-00e7c8ee05f5"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_354eee56-f185-42f4-9b34-9d66b552a717"
+id="sec.8-he"><b>Purpose of Debt Retirement Fund</b></heading></head>
+<block><txt break.before="1">The purpose of the Debt Retirement Fund is to
+provide funding for reducing the debt of the State in accordance with the
+principles of sound financial management set out in section 7 of the <legref
+refid="act-2012-058" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Fiscal Responsibility Act
+2012</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e5158e1b-b0fa-4f34-83f8-d3ed932f0ca9"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_79684c40-46d0-4348-9c76-ffde9d4ce690"
+id="sec.9-he"><b>Payment into Debt Retirement Fund</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c8c9f152-194d-4cae-9aa1-82cd063660e0"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The following are to be paid into the Debt
+Retirement Fund&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_07ad4c31-db6f-4884-92bd-825e3f3a04fb" id="sec.9-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">all money appropriated by Parliament, or advanced
+by the Treasurer, for payment into the Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a87ecd82-c360-4727-81ea-56bf1f48205a" id="sec.9-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">all money appropriated by Parliament to the
+Treasurer for the general purposes of the Government (and not for the purposes
+of individual GSF agencies) and directed by the Treasurer to be paid into the
+Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d9d152ec-3fb7-4799-b7be-58648b261809" id="sec.9-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any money that is directed by the Treasurer under
+subsection (2) to be paid into the Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_87da8f5a-46ab-4481-8a67-300aad188671" id="sec.9-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">all money that is income (including
+distributions, dividends and interest) paid to the holder of any relevant NSW
+equity interest,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ef65981e-8901-4aac-a056-bac45c89569e" id="sec.9-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the proceeds of the sale of any relevant NSW
+equity interest,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_05178cc2-beac-427e-9a6f-375bf4c90ff2" id="sec.9-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">the proceeds of the investment of money in the
+Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_eddcfb5f-7f5a-4112-b6db-ec3138d14af0" id="sec.9-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">all other money directed or authorised to be paid
+into the Fund by or under any Act or law.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4229c4a0-5032-4718-9895-ed08e7e0db45"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Treasurer may direct that an amount of money
+be paid into the Debt Retirement Fund if the Treasurer is satisfied that it is
+windfall tax revenue in excess of Budget forecasts.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c5b70ad7-dc98-4c89-96e8-375c09ca3000"></attrib>
+<attrib name="id" value="sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Treasurer is taken to have been given an
+appropriation out of the Consolidated Fund under the authority of this
+section, on the day a direction is given under subsection (2), for the amount
+specified in the direction for the purpose of its payment into the Debt
+Retirement Fund.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Am 2018 No 37,
+sec 20 (2).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3bf6621b-8572-4f49-b04d-4ae0b701e192"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_268b06c4-8975-4e27-8e73-533a6629541f"
+id="sec.10-he"><b>Payments out of Debt Retirement Fund</b></heading></head>
+<block><txt break.before="1">The following may be paid out of the Debt
+Retirement Fund&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dde38d9f-64d6-420f-ba28-532450769a20" id="sec.10-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the payment of all or any part of a debt of the
+State that the Minister is satisfied is a payment that promotes the purpose of
+the Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a78c7318-0ab3-44a3-837a-8b20d22f08bb" id="sec.10-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">administrative expenses relating to the control
+and management of the Fund.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_87195450-c689-4df3-91ff-01508f10d532"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_267727ae-29e9-4e81-90d5-846ef06753a4"
+id="sec.11-he"><b>Investment of money in Debt Retirement
+Fund</b></heading></head>
+<block><txt break.before="1">The Minister may invest money in the Debt
+Retirement Fund&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1deb4f3e-3292-4f3f-a670-ec0e02c25775" id="sec.11-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if the Minister is a GSF agency for the purposes
+of Part 6 of the <legref refid="act-2018-055" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref>&#8212;in any way that the Minister is permitted to
+invest money under that Part, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c36318d0-c1c8-4b6f-bac8-f558467192c4" id="sec.11-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the Minister is not a GSF agency for the
+purposes of Part 6 of the <legref refid="act-2018-055" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref>&#8212;in any way approved by the
+Treasurer.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Subst 2018 No
+37, sec 20 (3).</txt></content>
+</level>
+</level>
+
+
+<level type="division" id="pt.2-div.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_de33c61d-d38e-4ed9-a0e1-bd3efaa4dfad"></attrib>
+<attrib name="id" value="pt.2-div.3"></attrib></parentattributes>
+
+<head>
+<no><b>Division 3</b></no><heading
+guid="_488a3e51-ae1b-414f-94ae-147f034834a3" id="pt.2-div.3-he"><b>Community
+Services and Facilities Fund</b></heading></head>
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0be24387-c0f7-4c1f-abd1-15e228fa0981"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_237f4cd6-8115-441b-9d40-8ac7edd2f6a8"
+id="sec.12-he"><b>Purpose of Community Services and Facilities
+Fund</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_298ee12a-0e8e-45bd-8101-10df9f3aff2c"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The purpose of the Community Services and
+Facilities Fund is to provide funding for cost-effective facilities and
+services throughout New South Wales that improve the wellbeing of communities
+and the lives of the people of New South Wales, including facilities and
+services for the purposes of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_27817131-ee6d-4014-add4-4a5a45204d29" id="sec.12-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">protecting public health and preventing disease,
+illness, injury, disability or premature death, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2da27347-3c02-4478-94c5-5dd0f8cb5772" id="sec.12-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">promoting conditions in which persons can be
+healthy and safe, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_da43a39e-0f88-4b84-846e-4029fd51602c" id="sec.12-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">promoting involvement with community or culture,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b9aed5ab-c58a-48d9-bbd8-8ca44fdfa1e3" id="sec.12-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">increasing participation in programs, services or
+activities that aim to improve the overall wellbeing of the community,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_676d78e1-273e-4ccf-864a-468c85dcd96f" id="sec.12-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">any other purposes prescribed by the
+regulations.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0b4a7bd4-43e4-4301-8983-0e5a792ce0ed"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister is not to recommend the making of a
+regulation for the purposes of subsection (1) (e) unless the Minister
+certifies that the Minister is satisfied that the purpose to be prescribed is
+a purpose that relates to the improvement of the wellbeing of communities and
+the lives of the people of New South Wales.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b8cce333-be71-4d5d-9c6e-3e55d891d7de"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_0b675e1c-4f3b-4a6c-b4fc-cf779e105a1a"
+id="sec.13-he"><b>Payment into Community Services and Facilities
+Fund</b></heading></head>
+<block><txt break.before="1">The following are to be paid into the Community
+Services and Facilities Fund&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_71706278-204a-4014-9e8f-5d45715d37ef" id="sec.13-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">all money appropriated by Parliament, or advanced
+by the Treasurer, for payment into the Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9879d849-3429-46a0-8116-a64c7c5b54f7" id="sec.13-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">all money appropriated by Parliament to the
+Treasurer for the general purposes of the Government (and not for the purposes
+of individual GSF agencies) and directed by the Treasurer to be paid into the
+Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5631bd96-6c87-40c4-ae98-251d5164e1e7" id="sec.13-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the repayment of the principal, or payment of
+interest, on money loaned from the Fund (including fees associated with the
+loan),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a90a1990-ad68-44ed-aa49-577fd6f5315f" id="sec.13-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the repayment of any other money provided from
+the Fund by way of any other financial assistance,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5a851075-5f21-4137-8437-795952841e5f" id="sec.13-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">all other money directed or authorised to be paid
+into the Fund by or under any Act or law.</txt></block></li></list>
+</block>
+<note type="legtext" guid="_d3dfd305-e2b6-4014-9701-f004a5fed99e"
+id="sec.13-note"><heading guid="_8524c76f-526a-4688-939e-1399f6071103"
+id="sec.13-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">Section 14 (2) provides that payments from the
+Fund for the cost of a project, program or initiative may be provided by way
+of a grant, subsidy, loan or other financial assistance and may be subject to
+such conditions as the Minister thinks fit to impose.</txt></block></note>
+
+
+<content type="historynote"><txt break.before="1"><b>s 13:</b> Am 2018 No 37,
+sec 20 (2).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8344a2e3-9d31-4e6e-a969-71d0d4d35684"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_6e9e68fb-ff93-4b30-8938-ae9e6eb01b2f"
+id="sec.14-he"><b>Payments out of Community Services and Facilities
+Fund</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_27ad8d4b-63a7-4d15-a8ec-97280e6ddf0f"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The following may be paid out of the Community
+Services and Facilities Fund&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2330ea8b-e1fe-4255-be99-9cc2e3dc9b64" id="sec.14-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">all or any part of the cost of any project,
+program or initiative that the Minister is satisfied promotes the purpose of
+the Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_453644f4-1f8f-49c8-9d38-267fa4c5ac86" id="sec.14-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">administrative expenses relating to the control
+and management of the Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bfd19ee1-f252-4c5a-9572-27623f714486" id="sec.14-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any money directed or authorised to be paid from
+the Fund by or under this Act or any other Act or
+law.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a908d2ec-49c1-4992-9c52-ca473d275a7f"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Payments from the Community Services and
+Facilities Fund for the cost of a project, program or initiative may be
+provided by way of a grant, subsidy, loan or other financial assistance and
+may be subject to such conditions as the Minister thinks fit to
+impose.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_00a9efdb-a386-405c-abda-4223f434ea4d"></attrib>
+<attrib name="id" value="sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Without limiting subsection (2), those conditions
+may relate to the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d295cd4a-1c57-447f-ab09-854efdd8d9b1" id="sec.14-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">meeting specified performance targets or
+outcomes,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2ca2a8a5-0184-4e37-a7b1-b9c6dd43c1c2" id="sec.14-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">repayment of the whole or any part of any such
+financial assistance (including repayment if specified performance targets or
+outcomes are not met as required under a condition of the provision of the
+financial assistance),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b70a922a-ce8e-4e0f-b866-e57ec4a042d3" id="sec.14-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the payment of interest on financial assistance
+provided by way of a loan,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a6fc3b1d-2765-477b-8517-d68939df63e3" id="sec.14-ssec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the periods or intervals at which repayments are
+to be made.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0b79fcc3-dbda-4d2d-865b-59d517c2fe9c"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_beca1341-1e8f-4087-a158-f6f2a732a3b4"
+id="sec.15-he"><b>Investment of money in Community Services and Facilities
+Fund</b></heading></head>
+<block><txt break.before="1">The Minister may invest money in the Community
+Services and Facilities Fund&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0f837702-cc84-4629-8656-44d52b56aa61" id="sec.15-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if the Minister is a GSF agency for the purposes
+of Part 6 of the <legref refid="act-2018-055" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref>&#8212;in any way that the Minister is permitted to
+invest money under that Part, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ec8e233b-4521-45ee-91f2-b2fd00d58461" id="sec.15-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the Minister is not a GSF agency for the
+purposes of Part 6 of the <legref refid="act-2018-055" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref>&#8212;in any way approved by the
+Treasurer.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 15:</b> Subst 2018 No
+37, sec 20 (4).</txt></content>
+</level>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_6ab0d2b2-c33a-4165-8a34-1f588de9cab7"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_cc2ef1ae-acf5-4494-88b9-ca6e118e4201"
+id="pt.3-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_898a01ed-d714-47ca-b527-28852e5e488b"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_17e6f5ec-a00d-4c90-9863-0dd4964f5905"
+id="sec.16-he"><b>Schedule 1 may be amended by regulations to add NSW equity
+interests</b></heading></head>
+<block><txt break.before="1">The regulations may amend Schedule 1 to insert
+(but not omit) any of the following kinds of interests&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_addb7b83-a278-4e4c-b01e-5cc47677a8da" id="sec.16-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">an interest of the State or the Crown in right of
+the State,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3e15ea42-7b38-480f-8766-14053833103e" id="sec.16-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">an interest of an entity that is a GSF agency for
+the purposes of Part 6 of the <legref refid="act-2018-055" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Government Sector Finance
+Act 2018</i></name></legref>.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 16:</b> Am 2018 No 37,
+sec 20 (5).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_62c45738-9897-4d5e-8e31-189512319594"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_803210f3-46d1-42c3-bd20-2d4ab67ca05c"
+id="sec.17-he"><b>Delegation</b></heading></head>
+
+<tier type="subclause" id="sec.17-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4a7d164f-a16f-48bd-8746-5e77e2281855"></attrib>
+<attrib name="id" value="sec.17-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may delegate the exercise of any
+function of the Minister under this Act (other than this power of delegation)
+to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_02fece8a-c07e-4768-a561-cab03f36a8dd" id="sec.17-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the head of a Public Service agency,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_19bbc015-53ef-4f8b-bccb-21292acf346d" id="sec.17-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any other person employed in a Public Service
+agency.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e15855dc-d5df-4ddd-987e-b2da2d49b2d1"></attrib>
+<attrib name="id" value="sec.17-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A delegate may subdelegate a delegated function
+to another person employed in a Public Service agency.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6088b7ae-4865-4db9-89d5-8198ffec57cc"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_17b5a16f-e0eb-4c09-b41f-af2270bf2a80"
+id="sec.18-he"><b>Act to bind Crown</b></heading></head>
+<block><txt break.before="1">This Act binds the Crown in right of New South
+Wales and, in so far as the legislative power of the Parliament of New South
+Wales permits, the Crown in all its other capacities.</txt></block></level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_400f6274-6f79-49c1-93d5-dbc3162691f2"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_2feeaca5-ab33-4d45-b8cf-42813abd01b8"
+id="sec.19-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c1dd1ab2-bd97-4201-875f-0a0bc9a83ea4"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_46126363-b82a-4281-8f19-651dea5a8742"
+id="sec.20-he"><b>Amendment of this Act consequent on commencement of Division
+6.4 of <legref refid="act-2018-055" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref></b></heading></head>
+
+<tier type="subclause" id="sec.20-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7678e8ae-2a6c-4725-a58c-e40475b5389a"></attrib>
+<attrib name="id" value="sec.20-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no><heading guid="_7c419896-f1de-4e56-b4ba-48bd4a820604"
+id="sec.20-ssec.1-he"><b>Section 3 Definitions</b></heading></head>
+<block><txt break.before="1">Omit the definition of <defterm type="definition"
+guid="_a808909b-3a64-41a3-b1a9-8d3e981ddecf"
+id="sec.20-def.PFAauthority"><b><i>PFA authority</i></b></defterm> from
+section 3 (1). Insert in alphabetical order&#8212;</txt>
+<fragment format="fromcontext" style="indent">
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b2ee8afb-4d13-49ff-83b2-e3ff2ba1f7a8"
+id="sec.20-ssec.1-def.GSFagency"><b><i>GSF agency</i></b></defterm> has the
+same meaning as in the <legref refid="act-2018-055" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref>.</txt></block></deflist>
+</fragment>
+</block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_650fc595-461e-4579-9152-7dddb67c890b"></attrib>
+<attrib name="id" value="sec.20-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no><heading guid="_6b1a919b-6323-410f-b39d-40fc8e66abe1"
+id="sec.20-ssec.2-he"><b>Sections 9 (1) (b) and 13 (b)</b></heading></head>
+<block><txt break.before="1">Omit &#8220;PFA authorities&#8221; wherever
+occurring. Insert instead &#8220;GSF agencies&#8221;.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d3a02927-5d93-465d-9613-ff2ccd598a37"></attrib>
+<attrib name="id" value="sec.20-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no><heading guid="_3b651253-064f-4c15-a0fb-68856b4b76a2"
+id="sec.20-ssec.3-he"><b>Section 11</b></heading></head>
+<block><txt break.before="1">Omit the section. Insert instead&#8212;</txt>
+<fragment format="fromcontext" style="indent">
+
+<level type="clause" id="sec.20-ssec.3-frag-sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_069facbe-0897-4eda-b6cb-828a9acc9ef8"></attrib>
+<attrib name="id"
+value="sec.20-ssec.3-frag-sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_db693c9d-a4d1-42a0-b6af-29cf91cd91d1"
+id="sec.20-ssec.3-frag-sec.11-he"><b>Investment of money in Debt Retirement
+Fund</b></heading></head>
+<block><txt break.before="1">The Minister may invest money in the Debt
+Retirement Fund&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bd0d4bf3-0720-4c4e-b751-6cf4e772a6e9"
+id="sec.20-ssec.3-frag-sec.11-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if the Minister is a GSF agency for the purposes
+of Part 6 of the <legref refid="act-2018-055" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref>&#8212;in any way that the Minister is permitted to
+invest money under that Part, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cd3615de-9a47-4041-9505-3d35afdb37a4"
+id="sec.20-ssec.3-frag-sec.11-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the Minister is not a GSF agency for the
+purposes of Part 6 of the <legref refid="act-2018-055" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref>&#8212;in any way approved by the
+Treasurer.</txt></block></li></list>
+</block></level>
+</fragment>
+</block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f4027bc3-1f59-447d-b52c-b3173ef99ece"></attrib>
+<attrib name="id" value="sec.20-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no><heading guid="_c6827ce9-681c-4e8c-94b4-ca9a64ed4451"
+id="sec.20-ssec.4-he"><b>Section 15</b></heading></head>
+<block><txt break.before="1">Omit the section. Insert instead&#8212;</txt>
+<fragment format="fromcontext" style="indent">
+
+<level type="clause" id="sec.20-ssec.4-frag-sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f6e15b80-b111-4472-bcf3-c5c72108d7fa"></attrib>
+<attrib name="id"
+value="sec.20-ssec.4-frag-sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_cba79060-a33c-4c2e-a417-1737ae5f950e"
+id="sec.20-ssec.4-frag-sec.15-he"><b>Investment of money in Community Services
+and Facilities Fund</b></heading></head>
+<block><txt break.before="1">The Minister may invest money in the Community
+Services and Facilities Fund&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b625f109-1c2c-412c-aa04-5a5a382a7744"
+id="sec.20-ssec.4-frag-sec.15-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if the Minister is a GSF agency for the purposes
+of Part 6 of the <legref refid="act-2018-055" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref>&#8212;in any way that the Minister is permitted to
+invest money under that Part, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c685adf7-6d4f-4546-af45-44e1d04ad7be"
+id="sec.20-ssec.4-frag-sec.15-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the Minister is not a GSF agency for the
+purposes of Part 6 of the <legref refid="act-2018-055" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref>&#8212;in any way approved by the
+Treasurer.</txt></block></li></list>
+</block></level>
+</fragment>
+</block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_912aacb5-fae8-4305-8cdb-d63bbed083cf"></attrib>
+<attrib name="id" value="sec.20-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no><heading guid="_34e28997-db6d-47a0-92f9-5304009fcecf"
+id="sec.20-ssec.5-he"><b>Section 16 Schedule 1 may be amended by regulations
+to add NSW equity interests</b></heading></head>
+<block><txt break.before="1">Omit section 16 (b). Insert instead&#8212;</txt>
+<fragment format="para" style="indent">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4f0a7063-59c3-470a-afba-ba88cddbff76" id="sec.20-ssec.5-frag-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">an interest of an entity that is a GSF agency for
+the purposes of Part 6 of the <legref refid="act-2018-055" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Government Sector Finance
+Act 2018</i></name></legref>.</txt></block></li></fragment>
+</block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_519c42b8-f253-47a4-b538-ea6fe4758a23"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_7aee23fb-80ff-48db-91ef-c65f76b399a5" id="sch.1-he"><b>Relevant NSW
+equity interests</b></heading></head>
+<block align="right" type="sourceref"><txt>(Sections 3 (1) and
+16)</txt></block>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_6e29f472-473c-4162-828d-5d23a14526ed" id="sch.1-tbl">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="4pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="26.5pi"></colspec>
+
+<thead>
+
+<row guid="_c094e44d-2cf0-466c-a5ce-e41f6f85c78a" id="sch.1-tbl-tblh-tblr">
+<entry colname="1" guid="_46c48340-6359-4525-a809-d179b39d1af1"
+id="sch.1-tbl-tblh-tblr-tble1"><txt break.before="1">Item</txt></entry>
+<entry colname="2" guid="_fb7c9149-0d7b-4988-9d35-f5568af12623"
+id="sch.1-tbl-tblh-tblr-tble2"><txt
+break.before="1">Interest</txt></entry></row>
+</thead>
+
+
+<tbody>
+
+<row guid="_07052834-991b-4729-873c-fa68b77497a1" id="sch.1-tbl-tblr">
+<entry colname="1" guid="_30776d0f-794d-47eb-b037-37d486ac5fcc"
+id="sch.1-tbl-tblr-tble1"><txt break.before="1">1</txt></entry>
+<entry colname="2" guid="_e7dfa366-9e8c-4a8c-b750-de632c29fe82"
+id="sch.1-tbl-tblr-tble2"><txt break.before="1">Shares held by the Treasurer
+in Roads Retained Interest Pty Ltd (ACN 624 812 773)</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0e51195e-913f-4b41-bafe-bfb924afec36"></attrib>
+<attrib name="id" value="sch.2"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading
+guid="_3b43a648-4e38-4f1c-a63d-59302cd0311f" id="sch.2-he"><b>Savings,
+transitional and other provisions</b></heading></head>
+
+<level type="part" id="sch.2-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_157f22c6-33fd-4f88-a84b-8c8870be43ee"></attrib>
+<attrib name="id" value="sch.2-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_f068504b-d3a1-4f74-bd8e-dbb5518fdc23"
+id="sch.2-pt.1-he"><b>General</b></heading></head>
+
+<level type="clause" id="sch.2-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b23e226f-3ae3-4a47-b1e9-dd2dc2f28ff7"></attrib>
+<attrib name="id" value="sch.2-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_6ef3a2e8-17d8-4514-87aa-06f786227ffe"
+id="sch.2-sec.1-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_197cf7d2-578a-481c-8ce2-e76d644c62f5"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of this Act or any
+Act that amends this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ba082acc-abca-4935-99a4-caf43e7519aa"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such provision&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_92109a90-05b8-4eb8-8075-a26e5f106793" id="sch.2-sec.1-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">may, if the regulations so provide, take effect
+from the date of assent to the Act concerned or a later date,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_33047e49-1ade-4e07-9e28-402d4bf040ac" id="sch.2-sec.1-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">has effect despite anything to the contrary in
+this Schedule.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7a830cfc-cda5-4097-ad62-a680a4cb96ff"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication on the NSW
+legislation website, the provision does not operate so as&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9bea1f9c-c5b5-47b2-bde5-319724af630f" id="sch.2-sec.1-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e9864d4e-2e0f-405c-8017-c186af23bb19" id="sch.2-sec.1-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_52875d6f-b0b8-4d82-96f2-52b150eff71f"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Without limiting subclauses (1) and (2),
+regulations made for the purposes of this clause may amend this Schedule to
+provide for additional or different savings and transitional provisions
+instead of including the provisions in the regulations.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="sch.2-pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e68a7063-24bf-4d09-b900-e6d4de739888"></attrib>
+<attrib name="id" value="sch.2-pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_f8923a5d-53e7-41e8-859d-0bdf42bbcb7e"
+id="sch.2-pt.2-he"><b>Provisions authorising transfer from Debt Retirement
+Fund</b></heading></head>
+
+<level type="clause" id="sch.2-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_649ad2d8-405a-4f0d-8b0e-54c276a1ae60"></attrib>
+<attrib name="id" value="sch.2-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_41d4ee89-2dfb-4cd3-8e42-ac4cae9895a4"
+id="sch.2-sec.2-he"><b>Transfer from Debt Retirement
+Fund</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2221e5f8-f311-4ba2-ae70-3d5a1c5d494e"></attrib>
+<attrib name="id" value="sch.2-sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">On the commencement of this clause,
+$4,582,033,000 is transferred from the Debt Retirement Fund to the
+Consolidated Fund.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d202e20d-56bc-40b1-8da8-57db0efb8c30"></attrib>
+<attrib name="id" value="sch.2-sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This clause has effect despite anything in this
+Act or the <legref refid="act-2018-055" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref>.</txt></block></tier>
+</level>
+</level>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 2:</b> Am 2023 No 26,
+Sch 6.2.</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_eab1a9c2-f06c-423e-a6cc-9fc8e4070425"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_e428ccc1-59c6-414a-beac-e32aff9f5a39"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-2018-037" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>NSW Generations Funds Act
+2018</i></name> No 37</legref>. Assented to 27.6.2018. Date of commencement,
+sec 20 excepted, assent, sec 2 (1); date of commencement of sec 20, 1.12.2018,
+sec 2 (2) and 2018 (672) LW 30.11.2018. This Act has been amended by sec 20 of
+this Act.</txt></block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_8d625f0b-6ba5-4e48-9a6e-b9827027303c"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_9a1974fd-e441-4ffb-82e5-a1f1110b8d0c" id="ed-tbl">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_d141f777-1438-4f28-bee0-ea6539c3b43e" id="ed-tbl-tblr">
+<entry colname="1" guid="_c28de897-04e1-4861-b963-38f77b3d97d1"
+id="ed-tbl-tblr-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_ee1bed95-fe71-4878-a0f5-1141c58b84fa"
+id="ed-tbl-tblr-tble2"><txt break.before="1">Am 2018 No 37, sec 20
+(1).</txt></entry></row>
+
+
+<row guid="_1a9281fa-c57c-47bb-948f-0ac692a47f49" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_a50d3673-476a-4ca4-8a04-b5e352945a18"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_8051899d-7cc9-44ce-9509-8d6734e69531"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">Am 2018 No 37, sec 20
+(2).</txt></entry></row>
+
+
+<row guid="_b7c3ee08-40d5-4f14-b93a-00d7fc164951" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_7dae2d72-d287-4c5f-957c-ba6cf83204a9"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1">Sec 11</txt></entry>
+<entry colname="2" guid="_9c467ddf-4ab1-42d3-b20d-dd4b5c208113"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">Subst 2018 No 37, sec 20
+(3).</txt></entry></row>
+
+
+<row guid="_e032412b-ec22-4ceb-b5ef-20d7c000956e" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_1960efb4-2f6b-4b73-a305-7af0820754c2"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1">Sec 13</txt></entry>
+<entry colname="2" guid="_2976d1f8-5cb5-48a8-8fde-107935549190"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">Am 2018 No 37, sec 20
+(2).</txt></entry></row>
+
+
+<row guid="_10e11728-a9dd-4012-8919-54109adb2a82" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_ecd783f7-1321-4970-888a-d9d724a680ae"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1">Sec 15</txt></entry>
+<entry colname="2" guid="_c8d80d6d-f440-4253-afe6-faf3719a1473"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">Subst 2018 No 37, sec 20
+(4).</txt></entry></row>
+
+
+<row guid="_c26fa101-7c8f-4ae9-aa21-52ba847d1803" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_b8980b3d-66a2-4add-923c-089873a0a9a6"
+id="ed-tbl-tblr-oc.6-tble1"><txt break.before="1">Sec 16</txt></entry>
+<entry colname="2" guid="_7a8afab8-b3ca-444f-817b-74bc6b7c543b"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">Am 2018 No 37, sec 20
+(5).</txt></entry></row>
+
+
+<row guid="_2daf9dea-f85a-4b27-9840-b116d4943e74" id="ed-tbl-tblr-oc.7">
+<entry colname="1" guid="_5fca9152-c440-4e7b-ad94-c03ada88e6a9"
+id="ed-tbl-tblr-oc.7-tble1"><txt break.before="1">Sch 2</txt></entry>
+<entry colname="2" guid="_dfe53a24-88c4-45d1-9672-b79033b75b78"
+id="ed-tbl-tblr-oc.7-tble2"><txt break.before="1">Am 2023 No 26, Sch
+6.2.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

@@ -1,0 +1,1428 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2002-060"
+title="General Government Liability Management Fund Act 2002"
+year="2002"
+number="60"
+enact.or.made.date="2002-07-10"
+first.valid.date="2022-07-01"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2002</metacontent>
+<metacontent class="year.assent">2002</metacontent>
+<metacontent class="publication.date">2022-07-01</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2022-029</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="la.second.reading.date">2002-06-04</metacontent>
+<metacontent class="id">act-2002-060</metacontent>
+<metacontent
+class="version.desc.id">0dd9e6bd-4f7b-412b-bdc7-3a4987044640</metacontent>
+<metacontent
+class="version.series.id">eb847f8c-d457-458f-9ec0-34cbdeda7bb5</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="General Government Liability Management Fund Act
+2002"></attrib>
+<attrib name="year.passed" value="2002"></attrib>
+<attrib name="year.assent" value="2002"></attrib>
+<attrib name="no" value="60"></attrib>
+<attrib name="publication.date" value="2022-07-01"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2022-029"></attrib>
+<attrib name="first.valid.date" value="2022-07-01"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="la.second.reading.date" value="2002-06-04"></attrib>
+<attrib name="assent.date" value="2002-07-10"></attrib>
+<attrib name="id" value="act-2002-060"></attrib>
+<attrib name="version.desc.id"
+value="0dd9e6bd-4f7b-412b-bdc7-3a4987044640"></attrib>
+<attrib name="version.series.id"
+value="eb847f8c-d457-458f-9ec0-34cbdeda7bb5"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_f9b0b128-1a04-4ab2-8d68-77810bfee130"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_04eeeffc-500a-4b51-a964-36ff9c6100e8"
+id="cd-status-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_d25a9f6b-2702-4025-b0ef-d3846f2ab71d"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to establish the General Government
+Liability Management Fund and provide for its management; to amend the <legref
+refid="act-1983-152" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Public Finance and Audit Act 1983</i></name></legref> and
+the <legref refid="sl-2000-0539" jurisd="NSW" type="subordleg"
+check="unknown"><name emphasis="yes"><i>Public Authorities (Financial
+Arrangements) Regulation 2000</i></name></legref>; and for other
+purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_bb22b36b-5929-4308-ba8f-5a85e6ad4cd5"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_caf85522-b9f1-4fa4-a004-9112a0a7d994"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c9d1f3ea-5dba-43c0-92b9-b8e28e08825d"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_29dd1c6c-6c8d-4e2e-ad79-e4801a9fcdcb"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref refid="act-2002-060"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>General
+Government Liability Management Fund Act
+2002</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0484aa8b-4e36-4107-b626-2d5bdd50380f"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_42a6506e-812e-4e40-bf2a-0a0892509753"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on the date of
+assent.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0c90dcb7-06e0-4741-9abb-3061bbba68f2"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_b15a03a2-7211-4c9e-93de-689b2fa6c82b"
+id="sec.3-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1890ea10-e652-4ecc-bfb6-d5d39189b2ec"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9f9a1120-fdf5-4d4d-ac2f-8c56459f2d86"
+id="sec.3-def.agency"><b><i>agency</i></b></defterm>, in relation to a
+superannuation fund that is part of the STC Fund, means an employer whose
+employees, or some of whose employees, are members of the superannuation
+fund.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c839c4fe-7a01-47d5-82d8-f51c2e7d6df2"
+id="sec.3-def.exercise"><b><i>exercise</i></b></defterm> a function includes
+perform a duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_0d4e79cd-6061-4020-8000-76c99aa1b2e8"
+id="sec.3-def.function"><b><i>function</i></b></defterm> includes power,
+authority or duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_e6c9dcd0-db1a-4546-9342-1b8f3be7ed27"
+id="sec.3-def.LiabilityManagementFund"><b><i>Liability Management
+Fund</i></b></defterm> or <defterm type="definition"
+guid="_21f741c7-891e-4a32-a880-fab8ab0f1492"
+id="sec.3-def.Fund"><b><i>Fund</i></b></defterm> means the General Government
+Liability Management Fund established under section 4.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_54f7a14e-219d-4ed5-b423-a98858bd4000"
+id="sec.3-def.ManagementCommittee"><b><i>Management
+Committee</i></b></defterm> means the Management Committee constituted by
+section 10.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_4e69e481-bb75-4f8f-8137-e7f372e897b7"
+id="sec.3-def.MinisterialCorporation"><b><i>Ministerial
+Corporation</i></b></defterm> means the Liability Management Ministerial
+Corporation constituted by section 7.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9b0b9f41-12b1-44a7-9292-bf02112f1693"
+id="sec.3-def.Secretary"><b><i>Secretary</i></b></defterm> means the person
+for the time being holding or acting in the office of Secretary of the
+Treasury.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_04ec1a85-b209-4ed1-9f08-a9bad71e7513"
+id="sec.3-def.STC"><b><i>STC</i></b></defterm> means the SAS Trustee
+Corporation continued under the <legref refid="act-1996-039" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Superannuation
+Administration Act 1996</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d3c79bc9-85bf-4e2f-ad5f-06bb54adabca" id="sec.3-def.STCFund"><b><i>STC
+Fund</i></b></defterm> means the amalgamated superannuation fund comprising
+the funds established or constituted under any of the following
+Acts&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9867c145-7835-42c7-af66-e3358685a543" id="sec.3-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1"><legref refid="act-1906-028" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Police Regulation
+(Superannuation) Act 1906</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_563ff4f2-fb66-42e6-9df6-cb39e11c9b6e" id="sec.3-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1"><legref refid="act-1916-028" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Superannuation Act
+1916</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c9568451-e4dd-4641-9fff-5af0ec33280b" id="sec.3-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1"><legref refid="act-1927-035" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Local Government and Other
+Authorities (Superannuation) Act 1927</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c438b421-6773-4b38-9f09-7be04714af3e" id="sec.3-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1"><legref refid="act-1967-096" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Transport Employees
+Retirement Benefits Act 1967</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b1c6b48e-0470-4d21-b8e6-f1cb22473cff" id="sec.3-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1"><legref refid="act-1972-070" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>New South Wales Retirement
+Benefits Act 1972</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fcf41e1a-0545-4c29-bfbf-485cc732c665" id="sec.3-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1"><legref refid="act-1985-041" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Public Authorities
+Superannuation Act 1985</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bbdc33a6-24e1-43c2-b335-d83781237b5c" id="sec.3-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1"><legref refid="act-1985-045" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>State Public Service
+Superannuation Act 1985</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a5984c3e-7067-4c05-9139-8e4eafe15e64" id="sec.3-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1"><legref refid="act-1987-211" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>State Authorities
+Superannuation Act 1987</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_199aca43-8463-47c9-bac5-24fb31e73ebd" id="sec.3-ssec.1-para1.i">
+<no>(i)</no>
+<block><txt break.before="1"><legref refid="act-1987-212" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>State Authorities
+Non-contributory Superannuation Act
+1987</i></name></legref>.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ebf4a785-c275-47ea-8bed-91351f2db738"
+id="sec.3-def.STCscheme"><b><i>STC scheme</i></b></defterm> means a
+superannuation scheme established under any of the Acts that established or
+constituted the superannuation funds that are part of the STC
+Fund.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_4580fd95-8371-4581-b1bc-1d610012b74a"
+id="sec.3-def.TreasuryCorporation"><b><i>Treasury
+Corporation</i></b></defterm> means the New South Wales Treasury Corporation
+constituted by the <legref refid="act-1983-075" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Treasury Corporation Act
+1983</i></name></legref>.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d3976c02-0d10-4116-80d6-e83707259840"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Am 2022 No 29,
+Sch 1.1[1].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_9cfd5f72-429e-4d04-98a3-63a0e78c5816"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_6c595b36-d8d3-4385-bfa9-71c2ddc39cca"
+id="pt.2-he"><b>Government Liability Management Fund</b></heading></head>
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cf37c38f-a82d-4d67-800c-f6f9e75e95d7"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_fad07c7a-a59b-4685-9cb0-b953457f0102"
+id="sec.4-he"><b>Establishment of Fund</b></heading></head>
+<block><txt break.before="1">There is established by this section a General
+Government Liability Management Fund in the Special Deposits Account in the
+Treasury.</txt></block></level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_660eba0b-fbba-4541-93c3-78dfd7e9b94d"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_8838b8a8-c396-4925-b770-b846b64a195b"
+id="sec.5-he"><b>Payments into the Fund</b></heading></head>
+<block><txt break.before="1">The following is to be paid into the Liability
+Management Fund&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_067f2fc0-634b-49d2-b7cd-b4dbf1d0a2b9" id="sec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">money transferred to the Fund by the
+Crown,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_75ec5ecf-4890-40f6-8add-5bdc7fd5cf78" id="sec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the interest and any other amounts from time to
+time accruing from the investments of the Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5440c45e-3237-45c7-8264-cc24aa015854" id="sec.5-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">other money required or permitted to be paid into
+the Fund by or under this or any other Act.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 5:</b> Am 2022 No 29,
+Sch 1.1[2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_24f188f5-376a-41ad-bb2c-0e146a832c31"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_6162dce0-fdfe-4b24-aebe-33b3e972c92b"
+id="sec.6-he"><b>Payments out of the Fund</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4591b163-c370-4dd6-86a2-f5b1244d718c"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There is to be paid out of the Liability
+Management Fund the money required or permitted to be paid out of the Fund by
+or under this or any other Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_adbbfb4d-015e-44a0-adbb-7b6d32c707d6"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Ministerial Corporation may direct that money
+be paid out of the Liability Management Fund for any of the following
+purposes&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5cb03b69-cfe6-414f-8c7a-fe65756c669f" id="sec.6-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to pay employer contributions to the STC Fund on
+behalf of agencies, in order to meet accruing or accrued superannuation
+liabilities of the STC Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a49e6db0-7a38-46e8-bcb8-d3e4426ed826" id="sec.6-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to pay pensions or superannuation benefits under
+the <legref refid="act-1953-041" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Judges&#8217; Pensions Act
+1953</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_466f618a-4c69-40fd-9c14-0026b01101a9" id="sec.6-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to pay the superannuation contributions surcharge
+under the <legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="yes"><i>Superannuation Contributions Tax Imposition Act
+1997</i></name></legref> of the Commonwealth on surchargeable contributions
+made under the <legref refid="act-1953-041" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Judges&#8217; Pensions Act
+1953</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f3127226-e16b-484c-adf1-5420376770e4" id="sec.6-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to reimburse the Department of Justice for
+amounts paid by the Department for any of the purposes mentioned in paragraphs
+(b) and (c),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5c5a3979-eff0-4ce0-bb44-5e2ad56a8d1d" id="sec.6-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">subject to subsection (3), to repay, on or before
+maturity, borrowings raised by the Treasury
+Corporation.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.6-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_be88638b-b3e5-4b63-9109-afee5ccccaf9"></attrib>
+<attrib name="id" value="sec.6-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Money may be paid out of the Liability Management
+Fund to repay borrowings raised by the Treasury Corporation only
+if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_95774d20-692b-4192-8a85-a7d78c0b22b8" id="sec.6-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">an actuary of the STC Fund has given to the
+Treasurer a report on the amount of the net liabilities of the STC Fund as at
+30 June immediately preceding the date of the proposed repayment,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c4939375-969b-4080-97b9-675b082575b4" id="sec.6-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the amount of money to be paid out is not greater
+than the amount (if any) in the Liability Management Fund that is in excess of
+the net liabilities of the STC Fund as at that 30
+June.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2d9f405d-3815-42ce-8055-5c503c8966b0"></attrib>
+<attrib name="id" value="sec.6-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Money may be paid out of the Liability Management
+Fund to meet expenses related to the Fund or the Ministerial
+Corporation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_33a61f5e-6c5b-4e67-b848-b623b2e5d398"></attrib>
+<attrib name="id" value="sec.6-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The Ministerial Corporation may invest money in
+the Liability Management Fund that is not immediately required for the
+purposes of the Fund&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e3062090-b2d9-45a6-bd31-74c90d80914a" id="sec.6-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if the Ministerial Corporation is a GSF agency
+for the purposes of Part 6 of the <legref refid="act-2018-055" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Government Sector Finance
+Act 2018</i></name></legref>&#8212;in any way that the Ministerial Corporation
+is permitted to invest money under that Part, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0ba0ac0d-69b4-412a-bd92-8729c3d02c48" id="sec.6-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the Ministerial Corporation is not a GSF
+agency for the purposes of Part 6 of the <legref refid="act-2018-055"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Government
+Sector Finance Act 2018</i></name></legref>&#8212;in any way approved by the
+Treasurer.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f860eb8d-6d24-4cce-93e0-b76883a2b5f8"></attrib>
+<attrib name="id" value="sec.6-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_f53fe499-ad1c-4b0b-92f5-7799930a98cf"
+id="sec.6-def.employercontributions"><b><i>employer
+contributions</i></b></defterm> means the amount that the Treasurer, on
+actuarial advice, determines to be the Crown&#8217;s liability, for the period
+to which the payment relates, to contribute towards the provision of
+superannuation benefits payable under an Act under which an STC scheme is
+established or constituted.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 6:</b> Am 2017 No 22,
+Sch 4.20; 2018 No 70, Sch 3.27; 2022 No 29, Sch 1.1[3].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_898eca64-4269-4e66-bb80-3df61a893186"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_69e1dda7-c031-4422-851e-b04a5469f830"
+id="pt.3-he"><b>Ministerial Corporation and Management
+Committee</b></heading></head>
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_81a91c62-0caa-4a1a-a085-3f1e2fc7b55a"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_f26b46c3-a774-4ba9-9f5c-623a4c6f5f03"
+id="sec.7-he"><b>Constitution and functions of Ministerial
+Corporation</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_725b9be7-abd0-47dd-805c-a039abebcadc"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There is constituted by this section a
+corporation with the corporate name of Liability Management Ministerial
+Corporation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ac855fc3-9a70-46dd-94c1-78fb5cc2b46b"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Ministerial Corporation has the function of
+managing the Liability Management Fund.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_09c47b85-c629-443e-a162-fab2dc616f07"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Ministerial Corporation has such other
+functions as are conferred or imposed on it by or under this or any other
+Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_368bae63-2d87-423a-85e4-206b4a99b825"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_04ec61e4-fe63-490d-b781-036a389c8467"
+id="sec.8-he"><b>Management of Ministerial Corporation</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_89eeeb7f-548d-42df-9549-c776b0653ff6"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The affairs of the Ministerial Corporation are to
+be managed by the Secretary in accordance with any directions of the
+Treasurer.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8303b363-6d05-4b69-a926-ba3aef2f70ed"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any act, matter or thing done in the name of, or
+on behalf of, the Ministerial Corporation by the Secretary, or with the
+authority of the Secretary, is taken to have been done by the Ministerial
+Corporation.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c7740ed2-549d-4d69-8204-f685303aa4f1"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_07730d89-a5e3-43fb-b0f1-16c39683e996"
+id="sec.9-he"><b>Financial provisions relating to Ministerial
+Corporation</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d617a28f-26e0-40f1-a696-0fb6a6ce57a2"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The financial year of the Ministerial Corporation
+is the year commencing on 1 July.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c4d4db9c-a010-4bf8-a6df-df7e052f2ed7"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The annual report of the Ministerial Corporation
+must be published as part of the Treasury&#8217;s annual
+report.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Am 2022 No 29,
+Sch 1.1[4].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8d24ffc0-757c-4c1e-ac8c-f8394c2a3157"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_1b039987-6c95-4b98-b9b4-1ab400612dea"
+id="sec.10-he"><b>Constitution and functions of Management
+Committee</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_855bb1fc-67ca-4723-84d9-b95aedf326c1"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There is constituted by this section a Management
+Committee consisting of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_40174c06-bcd3-4a9e-9da7-401cf95f277a" id="sec.10-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Secretary, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_37782781-1450-4a82-b3cc-051dfd8b4fa3" id="sec.10-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">another officer of the Treasury appointed by the
+Secretary, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e6fb4de9-4168-4687-85c0-00def1016caf" id="sec.10-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the Chairperson of the STC Board or his or her
+nominee, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f25ae601-534e-4ef4-ba0e-776258303793" id="sec.10-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the Chief Executive of the Treasury Corporation
+or his or her nominee, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_42bc23b7-7c06-45aa-a48f-7c6bde629c17" id="sec.10-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">at least one other person (who is not an officer
+of the Treasury) appointed by the Treasurer.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_554aed43-8314-488f-bf94-f8beef70d161"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Management Committee is to advise the
+Secretary in relation to the management of the Liability Management Fund,
+including&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_edf7bcb1-036c-4559-9a2e-180cd9945da5" id="sec.10-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">investment strategy, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5cf96186-84e5-4f2a-bb93-cfb13cceb88b" id="sec.10-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">appointment of asset custodians, consultants,
+investment managers and other service providers, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f09ce344-4fbc-433a-9f07-c86f2f5ba993" id="sec.10-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">monitoring and reviewing the performance of
+assets, investments and service providers.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8b442afd-cb16-4d8e-ba41-c0a479fe6c88"></attrib>
+<attrib name="id" value="sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Management Committee is to review from time
+to time the long term fiscal target to eliminate total State sector unfunded
+superannuation liabilities by 30 June 2030.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_97fc8f19-e34d-4647-a4ae-29466b181ed6"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_e25f8b8e-5fbb-4a0d-aabd-db422418178c"
+id="sec.11-he"><b>Miscellaneous provisions relating to Management
+Committee</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cbf6bf62-fb80-4225-ad3f-6a8469f207da"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A member of the Management Committee is to hold
+office on a part-time basis.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b88bba3e-c484-4ca3-8e2c-b47f53856d9a"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A member of the Management Committee referred to
+in section 10 (1) (e) is to hold office for such period (not exceeding 4
+years) as is specified in the member&#8217;s instrument of appointment, but is
+eligible for reappointment if otherwise qualified. Any other member is to
+continue as a member of the Committee while he or she holds the office that
+qualified him or her for appointment.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_933ec503-9d15-4b14-85a3-e496c2342f25"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A member of the Management Committee referred to
+in section 10 (1) (c) or (e) is entitled to be paid such remuneration
+(including travelling and subsistence allowances) in respect of work done as a
+member of the Committee as the Treasurer may from time to time determine in
+respect of the member.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fd1d8131-61c7-4ee2-86c6-1f5ee6c778a9"></attrib>
+<attrib name="id" value="sec.11-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A matter or thing done or omitted to be done by
+the Management Committee, a member of the Committee or a person acting under
+the direction of the Committee does not, if the matter or thing was done or
+omitted to be done in good faith for the purpose of executing this or any
+other Act, subject a member or a person so acting personally to any action,
+liability, claim or demand.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_77f29503-6f5d-438b-912e-dceb3ec4fa82"></attrib>
+<attrib name="id" value="sec.11-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The Management Committee is to determine the
+procedure for the calling of meetings of the Management Committee and for the
+conduct of business at those meetings.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_a4c2c7bd-2dab-4a41-9292-88b3ea6b4c43"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_946e7223-47a1-4173-b224-07d33ac33cf3"
+id="pt.4-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_edc8c2a0-5fc5-4681-9597-a6639174aa0f"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_d8d37b4e-b537-4c01-9bd1-7c4b881bd010"
+id="sec.12-he"><b>Employer contributions to be made only in accordance with
+this Act</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e5259fc8-73a6-47de-824d-4fda406b1600"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Despite any provision in any Act or instrument,
+STC may not require the Crown to pay employer contributions on behalf of an
+agency unless there is insufficient money in an employer reserve within the
+STC Fund to pay the employer-financed component of a benefit or other amount
+payable from the reserve.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d9518ec5-2d55-4c8d-a63e-1e317e57a9b2"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Anything done or omitted to be done by STC in
+compliance with this section is not to be construed as a breach of the
+statutory obligations or fiduciary duties of STC and no action, liability,
+claim or demand lies against STC, or a member of the Board, officer or
+employee of STC, for anything done or omitted to be done in compliance with
+this section.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 12:</b> Am 2022 No 29,
+Sch 1.1[2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c389fd9f-9531-4195-8fc1-6abbc72346c3"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_ebeb9c52-8b11-417a-9dd6-ebcae6cbe60f"
+id="sec.13-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.14" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4a3043f5-8b3f-43c3-af7b-812ef926ef98"></attrib>
+<attrib name="id" value="sec.14"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>14</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 14:</b> Rep 2003 No 82,
+Sch 3.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a3c27be1-600b-40d3-a9fa-2d6a07572289"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_e0fb03ed-59ea-4cb2-a5c0-4652a17f1b36"
+id="sec.15-he"><b>Review of Act</b></heading></head>
+
+<tier type="subclause" id="sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_400b6267-1079-49de-9aba-59a9d65deb3f"></attrib>
+<attrib name="id" value="sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister is to review this Act to determine
+whether the policy objectives of the Act remain valid and whether the terms of
+the Act remain appropriate for securing those
+objectives.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8126cfad-c455-4135-aab5-d092e100075f"></attrib>
+<attrib name="id" value="sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The review is to be undertaken as soon as
+possible after the period of 5 years from the date of assent to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3ed94565-1574-4ebf-87de-1df2dcaa4dc0"></attrib>
+<attrib name="id" value="sec.15-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A report on the outcome of the review is to be
+tabled in each House of Parliament within 12 months after the end of the
+period of 5 years.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ecb65cd7-2afc-473a-afc6-7ab21acbe379"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_5a52345d-15e3-4350-b8c1-454f0f9749c9"
+id="sec.16-he"><b>Savings, transitional and other
+provisions</b></heading></head>
+<block><txt break.before="1">Schedule 1 has effect.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 16:</b> Ins 2006 No 50,
+Sch 2 [1].</txt></content>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2c7f63fd-0397-489a-8eea-42753fa43a26"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_fc59d721-085f-4283-89f8-5bc3476e30a0" id="sch.1-he"><b>Savings,
+transitional and other provisions</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 16)</txt></block>
+
+<level type="part" id="sch.1-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e1fe68d1-4a20-4b70-8f7e-b90c8bfff553"></attrib>
+<attrib name="id" value="sch.1-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_ebf78707-af36-4e0d-9a31-708ae32aaedb"
+id="sch.1-pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0199be27-e988-43fe-9eca-4985a7128c79"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_3f04a5cf-d253-4d97-8480-1c0c1ed6777e"
+id="sch.1-sec.1-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f9bf4a9a-313f-47ad-8548-bdd54ddcf5dd"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of the following
+Acts&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_25fb8a5a-dfb6-4c24-9028-498a0d58b224" id="sch.1-sec.1-ssec.1-para1">
+<block><txt break.before="1"><legref refid="act-2006-050" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>State Revenue and Other
+Legislation Amendment (Budget Measures) Act
+2006</i></name></legref></txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_15fb32bb-0d95-4ec2-b87e-efa85f1ab67e"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such provision may, if the regulations so
+provide, take effect from the date of assent to the Act concerned or a later
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_62aecb8f-a0d2-4f52-919d-c8b59bf5d265"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication in the
+Gazette, the provision does not operate so as&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_35d9e09b-b97d-4fa5-93e4-f3adda20fc86" id="sch.1-sec.1-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ef185473-a087-4dda-9c10-8fa53be0b543" id="sch.1-sec.1-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="sch.1-pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_02e227a0-5203-47b7-b61a-7426bd6bd9b1"></attrib>
+<attrib name="id" value="sch.1-pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_3a7cb0e5-b9e4-4001-878f-36472669538d"
+id="sch.1-pt.2-he"><b>Provisions consequent on enactment of <legref
+refid="act-2006-050" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>State Revenue and Other Legislation Amendment (Budget
+Measures) Act 2006</i></name></legref></b></heading></head>
+
+<level type="clause" id="sch.1-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aec3f666-077b-4cb5-997f-e1171f0202af"></attrib>
+<attrib name="id" value="sch.1-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_bdf224c6-f104-401f-b619-0e0271ba4d35"
+id="sch.1-sec.2-he"><b>Closure of Health Super-Growth Fund and transfer of
+Fund contents</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_341ca567-8282-4b60-9a62-b0973493233f"></attrib>
+<attrib name="id" value="sch.1-sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">On the repeal of the <legref refid="act-2003-075"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Appropriation
+(Health Super-Growth Fund) Act 2003</i></name></legref> the following
+provisions have effect&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_615416b4-7b40-47fa-a290-efc3552b19c3" id="sch.1-sec.2-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the assets and liabilities of the Health
+Super-Growth Fund established in the Special Deposits Account under that Act
+are transferred to, and become the assets and liabilities of, the Liability
+Management Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_499b4a42-ced5-4432-8ac7-1cd7e4740b42" id="sch.1-sec.2-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the Health Super-Growth Fund is
+closed.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8c3e0783-72bd-4343-a2b5-c8e21b4096e6"></attrib>
+<attrib name="id" value="sch.1-sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Money paid into the Liability Management Fund
+pursuant to this clause may be paid out of the Fund as authorised by section 6
+of this Act.</txt></block></tier>
+</level>
+</level>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Rep 2003 No
+82, Sch 3. Ins 2006 No 50, Sch 2 [2].</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_cee39096-70bb-4cf3-99ae-70be2e9b46c9"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_be6f90cd-fd88-499f-a5e8-303d3c683e23"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-2002-060" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>General Government
+Liability Management Fund Act 2002</i></name> No 60</legref>. Second reading
+speech made: Legislative Assembly, 4.6.2002; Legislative Council, 28.6.2002
+am. Assented to 10.7.2002. Date of commencement, assent, sec 2. This Act has
+been amended as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_71c4ebfd-80f6-4881-8f61-813e9bb59748" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_663e7456-cf21-44bb-8b76-1a815d059e26" id="ed-tbl-tblr">
+<entry colname="1" guid="_c6e44b62-d7e2-4697-9176-c33b985fd40f"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>2003</b></txt></entry>
+<entry colname="2" guid="_21df6871-9e72-471e-b354-2a96b8b51c44"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 82</txt></entry>
+<entry colname="3" guid="_0d79ef4b-0cba-4c1d-bf84-05c9ec2a5dbe"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref refid="act-2003-082" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2003</i></name></legref>. Assented to
+27.11.2003.</txt>
+<txt break.before="1">Date of commencement of Sch 3, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_6373fea6-c3e2-4776-add4-b99a912cb590" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_cb08e35a-fd65-4a0c-8481-fe235d954c3f"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>2006</b></txt></entry>
+<entry colname="2" guid="_a145d05f-5e25-41b7-baab-c619076dcd86"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 50</txt></entry>
+<entry colname="3" guid="_29fba2ef-79ae-492a-aa9f-061fc7061be8"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref refid="act-2006-050" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>State Revenue and Other
+Legislation Amendment (Budget Measures) Act 2006</i></name></legref>. Assented
+to 20.6.2006.</txt>
+<txt break.before="1">Date of commencement of Sch 2, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_0f617189-a15b-49f6-b5d3-bafc80cfc243" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_20b859ac-ea54-429d-bba2-6ee53852c69c"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>2017</b></txt></entry>
+<entry colname="2" guid="_4bce7c72-f52e-4684-8282-b8214d2ee006"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 22</txt></entry>
+<entry colname="3" guid="_2468706a-cbfe-4c38-bc6c-14098b510ad7"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref refid="act-2017-022" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2017</i></name></legref>. Assented to 1.6.2017.</txt>
+<txt break.before="1">Date of commencement of Sch 4, 7 days after assent, sec
+2 (1).</txt></block></entry></row>
+
+
+<row guid="_f51b4d12-ce6a-4f76-813f-0ebe0c357821" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_62a7897e-3c01-43e2-a38a-079ed8d341ca"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>2018</b></txt></entry>
+<entry colname="2" guid="_24c9d3dc-7b2f-4ac1-a5e3-af29a55cfe46"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 70</txt></entry>
+<entry colname="3" guid="_a11526bd-2cd7-4127-9e00-7f4b7b923772"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref refid="act-2018-070" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Government Sector Finance
+Legislation (Repeal and Amendment) Act 2018</i></name></legref>. Assented to
+22.11.2018.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 1.12.2018, sec 2 (1) and
+2018 (673) LW 30.11.2018; date of commencement of Sch 4.37: not in
+force.</txt></block></entry></row>
+
+
+<row guid="_bd65badd-fdec-4c14-9011-f80d69fbf0fc" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_80576762-4b6d-42bc-8226-63c3246cb9da"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>2022</b></txt></entry>
+<entry colname="2" guid="_9c2d3bba-dec1-453c-959b-be54f5f22e64"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 29</txt></entry>
+<entry colname="3" guid="_f8167855-6297-4d4a-b64d-685854a32cb1"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Treasury Legislation Amendment
+(Miscellaneous) Act 2022</i></name></legref>. Assented to 27.6.2022.</txt>
+<txt break.before="1">Date of commencement, 1.7.2022, sec
+2.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_17d21db1-45d6-4bba-a025-a22ed1b9ffc8"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_43e55ff1-896e-4706-b90d-f8a477a5bce2" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_0070d06c-85c8-42b0-9656-78aa1933e88b" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_afa8478e-1e94-4f1b-9bc4-6492db72df6b"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_81a00f01-9f89-47c7-986e-4624eb18c950"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 2022 No 29, Sch
+1.1[1].</txt></entry></row>
+
+
+<row guid="_e2c0a384-c0b9-40ec-9192-d8ff1d4d06a4" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_0b598c46-afef-4acf-bce5-07fa1430e9e0"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 5</txt></entry>
+<entry colname="2" guid="_d48dec0e-8bf7-4659-b9d1-f12b3dd0d78e"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 2022 No 29, Sch
+1.1[2].</txt></entry></row>
+
+
+<row guid="_2a3ff7de-68a5-4338-adf5-17cb0f825052" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_abb28e63-f871-4e17-80a0-428514253dc9"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 6</txt></entry>
+<entry colname="2" guid="_0efb25bf-e295-4a3d-996c-5662280ad0bd"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Am 2017 No 22, Sch
+4.20; 2018 No 70, Sch 3.27; 2022 No 29, Sch 1.1[3].</txt></entry></row>
+
+
+<row guid="_0812c857-d4b6-4ded-b064-53b47f0ad093" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_52f45ee2-ac27-45ed-a16d-6878eaab4381"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_0033f6c4-540f-46ed-bbb4-bd1a24154572"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Am 2022 No 29, Sch
+1.1[4].</txt></entry></row>
+
+
+<row guid="_3c1f851a-dc9a-48cf-a7e0-dc78a73199af" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_9d555c09-2ef1-4e19-858b-e916dddffe7c"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 12</txt></entry>
+<entry colname="2" guid="_69a6c203-8297-4f45-94bc-cc4f171d22af"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Am 2022 No 29, Sch
+1.1[2].</txt></entry></row>
+
+
+<row guid="_d5f72511-548e-410e-b798-679dfe529c5a" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_94ae6862-0b3b-4503-9d3a-6cd61f70d56e"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 14</txt></entry>
+<entry colname="2" guid="_c82c6858-8c20-40c9-85b3-cde13e20fa17"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Rep 2003 No 82, Sch
+3.</txt></entry></row>
+
+
+<row guid="_5be6abcc-f10c-49bd-b4db-217f8d0ce853" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_b6532079-ae62-4a8d-8f23-7cf03a45b4c8"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 16</txt></entry>
+<entry colname="2" guid="_1fb4fcb2-842a-4220-b284-f9a52bf4f3a3"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Ins 2006 No 50, Sch 2
+[1].</txt></entry></row>
+
+
+<row guid="_ac067edf-f487-4a2a-91ef-271fdb89176d" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_475edcd3-918b-4025-9ef8-c1cbd4923ac5"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sch 1</txt></entry>
+<entry colname="2" guid="_dfd313c9-c9b9-41a3-b873-7657eb947779"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Rep 2003 No 82, Sch 3.
+Ins 2006 No 50, Sch 2 [2].</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

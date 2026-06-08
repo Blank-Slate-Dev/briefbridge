@@ -1,0 +1,1509 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1999-022"
+title="Federal Courts (State Jurisdiction) Act 1999"
+year="1999"
+number="22"
+enact.or.made.date="1999-07-06"
+first.valid.date="2025-07-03"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1999</metacontent>
+<metacontent class="year.assent">1999</metacontent>
+<metacontent class="publication.date">2025-07-03</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2025-038</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1999-022</metacontent>
+<metacontent
+class="version.desc.id">4216422c-871a-45cf-a964-86f7f7226b56</metacontent>
+<metacontent
+class="version.series.id">ac6e058b-cf51-4560-8ebf-849d7646ac48</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Federal Courts (State Jurisdiction) Act
+1999"></attrib>
+<attrib name="year.passed" value="1999"></attrib>
+<attrib name="year.assent" value="1999"></attrib>
+<attrib name="no" value="22"></attrib>
+<attrib name="publication.date" value="2025-07-03"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2025-038"></attrib>
+<attrib name="first.valid.date" value="2025-07-03"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1999-07-06"></attrib>
+<attrib name="id" value="act-1999-022"></attrib>
+<attrib name="version.desc.id"
+value="4216422c-871a-45cf-a964-86f7f7226b56"></attrib>
+<attrib name="version.series.id"
+value="ac6e058b-cf51-4560-8ebf-849d7646ac48"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_4f3bbe6f-f6c6-4126-bd0d-3cae2dba854d"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_aecedaef-94d7-4894-8545-a82c60a54d76"
+id="cd-status-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_02e7144d-ae10-46f8-b30c-edf094136b82"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act relating to the ineffective conferral of
+jurisdiction on the Federal Court of Australia and the Family Court of
+Australia with respect to certain matters.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_084dc3dc-5133-49c1-a1b4-999639e1c203"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_9681303e-ec4b-429e-897c-69199c63e186"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3f721c3c-292b-4552-b7a3-edd3406fd737"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_f5a8fed5-331a-458a-ba00-2e20a45df898"
+id="sec.1-he"><b>Name of Act and purpose</b></heading></head>
+
+<tier type="subclause" id="sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f62dbede-8521-4766-98c6-6e54accfc578"></attrib>
+<attrib name="id" value="sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This Act is the <legref refid="act-1999-022"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Federal Courts
+(State Jurisdiction) Act 1999</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_83abb035-7d82-4acf-9ba9-a5b66a380a64"></attrib>
+<attrib name="id" value="sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The purpose of this Act is to provide that
+certain decisions of the Federal Court of Australia or the Family Court of
+Australia have effect as decisions of the Supreme Court and to make other
+provision relating to certain matters relating to the jurisdiction of those
+courts.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_99f923a0-82e3-44e1-9068-cbc5a7d297c6"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_6f402c16-085f-4232-8e9d-5fb8e8f68d30"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on a day or days to be
+appointed by proclamation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8060e598-b47a-4e4a-ad78-51858bb6acf5"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_b79b4f4a-c1d3-49d7-a820-7484c0884bfe"
+id="sec.3-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_73e68f6e-a5f9-4d1c-8140-56333972e274"
+id="sec.3-def.appliedadministrativelaw"><b><i>applied administrative
+law</i></b></defterm> means a law of the State applying a Commonwealth
+administrative law as a law of the State.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ffddea2c-5f18-4382-a4b6-2f3f79b57ffc"
+id="sec.3-def.Commonwealthadministrativelaw"><b><i>Commonwealth administrative
+law</i></b></defterm> means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_45bb3da8-aff4-4934-8664-c07e7c210902" id="sec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any of the following Acts of the
+Commonwealth&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f860d59f-85f7-4b0f-9d51-09ba72715031" id="sec.3-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1"><legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Administrative Review Tribunal Act
+2024</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7b2dfcb7-c167-4e18-8d4c-7234c253d834" id="sec.3-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1"><legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Administrative Decisions (Judicial
+Review) Act 1977</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4caadf16-3d15-4cd9-8af4-b043679c3000" id="sec.3-para1.a-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1"><legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Freedom of Information Act
+1982</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6a2c919e-89b9-4046-84b1-1e44bad632e2" id="sec.3-para1.a-para2.iv">
+<no>(iv)</no>
+<block><txt break.before="1"><legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Ombudsman Act
+1976</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_94dc8d0e-be9e-4657-9a58-752937002719" id="sec.3-para1.a-para2.v">
+<no>(v)</no>
+<block><txt break.before="1"><legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Privacy Act 1988</i></name></legref>,
+or</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0fcd1ad6-da76-48bc-b496-393000434e4d" id="sec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any of the regulations in force under any of
+those Acts.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_79525821-ece1-4237-b6fb-2fafe4de8bd4"
+id="sec.3-def.federalcourt"><b><i>federal court</i></b></defterm> means the
+Federal Court of Australia or the Family Court of Australia.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_4901d411-7322-4e6e-b395-2c9cb9e0befd"
+id="sec.3-def.ineffectivejudgment"><b><i>ineffective
+judgment</i></b></defterm> has the meaning given by section 4.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_fc5b2375-b833-43b3-b75f-990e31f7b278"
+id="sec.3-def.judgment"><b><i>judgment</i></b></defterm> means a judgment,
+decree or order, whether final or interlocutory, or a sentence.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_268be12d-6c65-49f3-9aa0-f3d5a2aed8ce"
+id="sec.3-def.liability"><b><i>liability</i></b></defterm> includes a duty or
+obligation.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_01d75c74-1c18-4aa7-91d3-b07e7bc6a36c"
+id="sec.3-def.proceeding"><b><i>proceeding</i></b></defterm> includes an
+initiating application.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_dbf0a6f1-89f7-470c-b8f9-0fada3c1b5be"
+id="sec.3-def.relevantStateAct"><b><i>relevant State Act</i></b></defterm>
+means any of the following Acts or parts of Acts&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ff733dd1-ea3c-4b30-a509-c3e31059fab2" id="sec.3-para1.a-oc.2">
+<no>(a)</no>
+<block><txt break.before="1"><legref refid="act-1994-053" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Agricultural and Veterinary
+Chemicals (New South Wales) Act 1994</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f030469a-6bc0-41df-b7c5-9e4c77be19e1" id="sec.3-para1.b-oc.2">
+<no>(b)</no>
+<block><txt break.before="1"><legref refid="act-1967-064" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Civil Aviation
+(Carriers&#8217; Liability) Act 1967</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dd2de3c7-c517-439b-9895-1fd50b35b323" id="sec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1"><legref refid="act-1995-008" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Competition Policy Reform
+(New South Wales) Act 1995</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ea3857d1-a172-471e-93fc-822b9d0a9c7f" id="sec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1"><legref refid="act-1990-083" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Corporations (New South
+Wales) Act 1990</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_763cb9fa-e97b-44f5-952e-d2cb1026407c" id="sec.3-para1.e"
+status="repealed">
+<no>(e)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e55bcb28-542c-4c0e-a951-197731e2f9c6" id="sec.3-para1.e1">
+<no>(e1)</no>
+<block><txt break.before="1"><legref refid="act-2003-011" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Gene Technology (New South
+Wales) Act 2003</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2c1741a5-0b1c-45ef-b521-ed80a617d446" id="sec.3-para1.f">
+<no>(f)</no>
+<block><txt break.before="1"><legref refid="act-1987-125" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Jurisdiction of Courts
+(Cross-vesting) Act 1987</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dbd718aa-d411-4c31-909e-b5f2ba73488a" id="sec.3-para1.f1">
+<no>(f1)</no>
+<block><txt break.before="1">Part 1A of the <legref refid="act-1998-121"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Marine Safety
+Act 1998</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0e7d570b-30b3-43cc-a0b0-677f02eb4f0b" id="sec.3-para1.g">
+<no>(g)</no>
+<block><txt break.before="1"><legref refid="act-1984-157" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>National Crime Authority
+(State Provisions) Act 1984</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_23f1c512-80f0-444c-921d-d717fc1b76d4" id="sec.3-para1.h">
+<no>(h)</no>
+<block><txt break.before="1"><legref refid="act-1966-031" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Poisons and Therapeutic
+Goods Act 1966</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e77366bb-4b09-4ae6-b016-6359084a3287" id="sec.3-para1.h1">
+<no>(h1)</no>
+<block><txt break.before="1"><legref refid="act-1999-055" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Price Exploitation Code
+(New South Wales) Act 1999</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ce1273d5-64c3-40e2-a84c-dbfe49ebf466" id="sec.3-para1.h2">
+<no>(h2)</no>
+<block><txt break.before="1"><legref refid="act-2003-021" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Research Involving Human
+Embryos (New South Wales) Act 2003</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_01bf8a30-a6a4-4c42-9796-2774d4cb7df2" id="sec.3-para1.h3">
+<no>(h3)</no>
+<block><txt break.before="1"><legref refid="act-2005-012" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Water Efficiency Labelling
+and Standards (New South Wales) Act
+2005</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b4cd0d20-e42c-49f3-a973-b87023ec2fc6" id="sec.3-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">a prescribed Act or part of an
+Act.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_992dd0ce-1269-4a1f-af1b-fcd93492b926"
+id="sec.3-def.right"><b><i>right</i></b></defterm> includes an interest or
+status.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ce07493d-82d9-447b-89f0-c84fd4c11f88"
+id="sec.3-def.Statematter"><b><i>State matter</i></b></defterm> means a
+matter&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2df61282-004d-4eb4-b8f4-83c6e7598e76" id="sec.3-para1.a-oc.3">
+<no>(a)</no>
+<block><txt break.before="1">in which the Supreme Court has jurisdiction
+otherwise than by reason of a law of the Commonwealth or of another State or a
+Territory, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d93a274a-7baf-4c5b-94c8-55d4bb80c9f2" id="sec.3-para1.b-oc.3">
+<no>(b)</no>
+<block><txt break.before="1">which has been removed to the Supreme Court under
+section 8 of the <legref refid="act-1987-125" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Jurisdiction of Courts (Cross-vesting)
+Act 1987</i></name></legref>, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dd8676d8-3eb4-48d9-a12e-fb77e06f9d00" id="sec.3-para1.c-oc.2">
+<no>(c)</no>
+<block><txt break.before="1">in respect of which a relevant State Act purports
+or purported to confer jurisdiction on a federal court, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_48a912f4-fe47-4d93-8c36-4c30e99b2665" id="sec.3-para1.d-oc.2">
+<no>(d)</no>
+<block><txt break.before="1">arising under or in respect of an applied
+administrative law.</txt></block></li></list>
+</block></deflist>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Am 1999 No 55,
+Sch 1.2 [1]; 2003 No 11, sec 21; 2003 No 21, sec 21; 2005 No 12, Sch 1.2; 2008
+No 31, Sch 1.1; 2012 No 90, Sch 2.2 [1]&#8211;[3]; 2025 No 38, Sch
+1.7.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_49c48e01-41d2-4645-941f-3510fb8a5ae5"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_b323f34b-0cb0-4daf-87d0-819f5db1a1dc"
+id="sec.4-he"><b>Meaning of ineffective judgment</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8c81f265-6cfd-41e8-a469-1bdd2bb0c678"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A reference in this Act to an <defterm
+type="definition" guid="_5f10d0ac-8c7d-4702-ac51-fad75d8fd8c6"
+id="sec.4-ssec.1-def.ineffectivejudgment"><b><i>ineffective
+judgment</i></b></defterm> is a reference to a judgment of a federal court in
+a State matter given or recorded, before the commencement of this section, in
+the purported exercise of jurisdiction purporting to have been conferred on
+the federal court by a relevant State Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f4efd91c-8abb-45c6-a40d-cdcf86578545"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_714b02bf-fa7b-4ac6-8846-078e2d1de97b" id="sec.4-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a Full Court of the Federal Court of Australia in
+its appellate jurisdiction has purported to affirm, reverse or vary an
+ineffective judgment, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3ce8b924-fd90-4e88-8f22-60e9ad6f6932" id="sec.4-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a Full Court of the Family Court of Australia has
+purported to affirm, reverse or vary an ineffective
+judgment,</txt></block></li></list>
+
+<txt break.before="1">a reference in this Act to the ineffective judgment is a
+reference to the ineffective judgment in the form in which, and to the extent
+to which, it purports or purported to have effect from time to
+time.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ebd05f5c-9cab-4bff-8a5c-0177e2834e24"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_e79b92c7-3637-475c-9351-21abb62e5e4c"
+id="sec.5-he"><b>Act to bind Crown</b></heading></head>
+<block><txt break.before="1">This Act binds the Crown in right of New South
+Wales and, in so far as the legislative power of the Parliament of New South
+Wales permits, the Crown in all its other capacities.</txt></block></level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_03b55f76-0f3d-4878-ab6b-128091fa09af"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_8b9116cf-22c0-4c3f-a868-4e66ff960440"
+id="pt.2-he"><b>Rights and liabilities</b></heading></head>
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c1c2a8e9-49e7-4c99-82d7-343bfa0e0779"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_e297ca81-bed5-4e45-87cc-f6fd252ec8f2"
+id="sec.6-he"><b>Rights and liabilities declared in certain
+cases</b></heading></head>
+<block><txt break.before="1">The rights and liabilities of all persons are, by
+force of this Act, declared to be, and always to have been, the same as
+if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_598867e1-be0c-44b9-80fa-2210a72fcc15" id="sec.6-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">each ineffective judgment of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4499b7c9-2adc-4922-a271-5c28da49e028" id="sec.6-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">the Federal Court of Australia, otherwise than as
+a Full Court of the Federal Court of Australia, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5ea339ca-12b9-4095-b568-d7cda2dd21d9" id="sec.6-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the Family Court of Australia, otherwise than as
+a Full Court of the Family Court of Australia,</txt></block></li></list>
+
+<txt break.before="1">had been a valid judgment of the Supreme Court in a
+Division constituted by a Judge of the Supreme Court, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fd502bfe-f46a-4d74-b743-94677d78c284" id="sec.6-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">each ineffective judgment of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c670628f-6580-49ce-a764-a6e04cc98e62" id="sec.6-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">a Full Court of the Federal Court of Australia,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a7140dc6-8ee8-47e5-8b67-a2f48729ab8f" id="sec.6-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">a Full Court of the Family Court of
+Australia,</txt></block></li></list>
+
+<txt break.before="1">had been a valid judgment of the Supreme Court in the
+Court of Appeal.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_df85a81e-a361-4ef6-a09f-d6d6c8955fac"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_1089fdeb-3b28-4f1b-bc37-d049f512b93d"
+id="sec.7-he"><b>Effect of declared rights and
+liabilities</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_92665462-a012-455e-a90f-f35a08ef9a27"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A right or liability conferred, imposed or
+affected by section 6&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_73c91c36-0c8c-4610-af55-2851e8b1387f" id="sec.7-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is exercisable or enforceable,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_78878a80-260c-4b70-993a-86e14e04c8b3" id="sec.7-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is to be regarded as always having been
+exercisable or enforceable,</txt></block></li></list>
+
+<txt break.before="1">as if it were a right or liability conferred, imposed or
+affected by a judgment of the Supreme Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_40954fc3-d71d-46f7-8f9b-99febce92ab8"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting section 6 or subsection (1) of
+this section, the rights and liabilities conferred, imposed or affected by
+section 6 include the right of a person who was a party to the proceeding or
+purported proceeding in which the ineffective judgment was given or recorded
+to appeal against that judgment.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f3edf19b-7ada-43af-a6b9-65bc9566d241"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purposes of subsection (2), each
+ineffective judgment of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3ae5b289-c94e-49c9-81ad-5389570b9d07" id="sec.7-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Federal Court of Australia, otherwise than as
+a Full Court of the Federal Court of Australia, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_34424faf-035c-4296-849e-ab5e47511db3" id="sec.7-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the Family Court of Australia, otherwise than as
+a Full Court of the Family Court of Australia,</txt></block></li></list>
+
+<txt break.before="1">is deemed to be a judgment of the Supreme Court in a
+Division constituted by a Judge of the Supreme Court.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ed682a83-3989-4df6-9ebd-bf55319c6aa9"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_5086ebc9-7213-46e6-ab5e-f6ec1a866f93"
+id="sec.8-he"><b>Effect of things done or omitted to be done under or in
+relation to rights and liabilities</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_683800cb-6a72-4810-9e9c-d53c5b39dff4"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Any act or thing done or omitted to be done
+before or after the commencement of this section under or in relation to a
+right or liability conferred, imposed or affected by section 6&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4b62d505-8482-4d24-ba70-0b7894a54b68" id="sec.8-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">has the same effect, and gives rise to the same
+consequences, for the purposes of any written or other law,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cc054512-17ef-436e-abfb-f44b202d9058" id="sec.8-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is to be regarded as always having had the same
+effect, and given rise to the same consequences, for the purposes of any
+written or other law,</txt></block></li></list>
+
+<txt break.before="1">as if it were done, or omitted to be done, to give
+effect to, or under the authority of, or in reliance on, a judgment of the
+Supreme Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a4527325-db2f-4e33-9a50-68de8af8676d"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of an enforcement law, any act
+or thing done or omitted to be done before or after the commencement of this
+section gives rise to the same consequences, and is to be regarded as always
+having given rise to the same consequences, as if each ineffective judgment
+were a valid judgment of the Supreme Court given in or in relation to the
+proceeding in or in relation to which the ineffective judgment was given or
+recorded.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7edf8d29-6736-4597-bf0e-c779c73b7381"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c67b0798-186f-4ae8-8c13-a829f6ad1e80"
+id="sec.8-ssec.3-def.enforcementlaw"><b><i>enforcement law</i></b></defterm>
+means a provision of a law (other than a law relating to contempt of court)
+that sets out a consequence for a person if the person&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ae96582a-36d8-49d0-ab10-8e624a4d1442" id="sec.8-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">contravenes, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_35315c5e-afb8-4097-bcb4-7fbd14b60125" id="sec.8-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">acts in a specified way while there is in
+force,</txt></block></li></list>
+
+<txt break.before="1">a judgment, or a particular kind of judgment, given by a
+court.</txt></block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f802c1b6-5f51-48d6-83e6-46144412f5d0"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_e4d11b7f-7c23-4345-b2b1-50d708300bc4"
+id="sec.9-he"><b>Section 6 regarded as having ceased to have effect in certain
+cases</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ca9a32c2-68da-4439-be91-881af33105cc"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2040d647-46ef-43be-9fff-559bb3f9ffa3" id="sec.9-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">before the commencement of this section, a court
+gave or recorded an ineffective judgment (&#8220;the new judgment&#8221;) on
+the basis that an earlier ineffective judgment (&#8220;the earlier
+judgment&#8221;) was or might be of no effect, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_10ef7cde-5fa0-488f-98b8-df3f1b9bd83a" id="sec.9-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the new judgment replaced the earlier
+judgment,</txt></block></li></list>
+
+<txt break.before="1">section 6 has no effect in respect of the earlier
+judgment.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5a1d98ac-3bff-4d05-a3ff-a48734d90352"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of subsection (1) (b), the new
+judgment replaced the earlier judgment if the new judgment&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_466fc6ea-ad9f-4a09-8feb-2bcd07d15349" id="sec.9-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">purportedly conferred or imposed rights or
+liabilities similar to or different from those purportedly conferred or
+imposed by the earlier judgment, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cb8a3e51-9ed9-48c2-ac98-23e4348c2bd6" id="sec.9-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">purportedly affected rights or liabilities in a
+way similar to or different from the way in which they were purportedly
+affected by the earlier judgment.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6a854d6a-07de-497f-8af3-f81e41abaad7"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_9e7a1d3e-b221-48bd-a2a6-983f16521faa"
+id="sec.10-he"><b>Powers of Supreme Court in relation to declared rights and
+liabilities</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0931347b-0a4a-4846-89a0-814afe0ac28c"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Supreme Court may vary, revoke, set aside,
+revive or suspend a right or liability conferred, imposed or affected by
+section 6 as if it were a right or liability conferred, imposed or affected by
+the Supreme Court in or in relation to proceedings of the kind in or in
+relation to which the ineffective judgment was given or
+recorded.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1cb1b275-88b7-4261-94f5-ea562b88d1ac"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In addition to its powers under subsection (1),
+the Supreme Court also has power to give a judgment achieving any other result
+that could have been achieved if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d63dcfdb-8a10-4cd1-abdc-f5b9ff7cbdca" id="sec.10-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the ineffective judgment had been a valid
+judgment of the Supreme Court given in or in relation to proceedings of the
+kind in or in relation to which the ineffective judgment was given or
+recorded, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9a646a3e-d9b6-49cb-9b9e-6b3e65cacfa4" id="sec.10-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the Supreme Court had been considering
+whether&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b4e33464-c3ae-4a05-be41-4ecac0078a7a"
+id="sec.10-ssec.2-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">to vary, revoke, set aside, revive or suspend
+that judgment, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_46f13ce8-51fa-4b8a-89a8-f24e09e0c875"
+id="sec.10-ssec.2-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">to extend the time for the doing of any thing,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c1387f50-a895-41d0-8597-27c3ed9d9098"
+id="sec.10-ssec.2-para1.b-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">to grant a stay of
+proceedings.</txt></block></li></list>
+</block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_044779c6-fc7c-49bf-a963-2f5a875b37a5"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_efb5b4e1-d543-447a-89f9-41a70106e8d4"
+id="sec.11-he"><b>Certain proceedings may be treated as proceedings in Supreme
+Court</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_87dd7b4d-7464-4d72-989a-3a1c5db771a1"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b4979b2e-fc17-4e9b-8821-59aef502aebb"
+id="sec.11-ssec.1-def.limitationlaw"><b><i>limitation law</i></b></defterm>
+means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_84c7ac5d-78e4-4a08-bd7e-8638f0bfe900" id="sec.11-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the <legref refid="act-1969-031" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Limitation Act
+1969</i></name></legref>, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5bd59acf-42fb-4db3-8c01-0db8e0b459e0" id="sec.11-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any other law that provides for the limitation of
+liability or the barring of a right of action in respect of a claim by
+reference to the time when a proceeding on, or the arbitration of, the claim
+is commenced.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_7166a9cc-f394-476c-ad9c-8f9a2159a9c6"
+id="sec.11-ssec.1-def.relevantorder"><b><i>relevant order</i></b></defterm>
+means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_21228ea7-ba9a-43da-8909-37d74e8978b4" id="sec.11-ssec.1-para1.a-oc.2">
+<no>(a)</no>
+<block><txt break.before="1">an order of a federal court, whether made before
+or after the commencement of this section, dismissing, striking out or staying
+a proceeding relating to a State matter for want of jurisdiction,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_620747dd-08cb-402b-aaf9-c492ee105171" id="sec.11-ssec.1-para1.b-oc.2">
+<no>(b)</no>
+<block><txt break.before="1">a declaration by a federal court, whether made
+before or after the commencement of this section, that it has no jurisdiction
+to hear and determine a proceeding relating to a State matter,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_91c5f801-5f2a-4fe5-8e36-00c8daffcc5d" id="sec.11-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any other decision or determination by a federal
+court, whether made before or after the commencement of this section, that it
+has no jurisdiction to hear and determine a proceeding relating to a State
+matter.</txt></block></li></list>
+</block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_eac0b9ef-f745-445f-ac24-b89ba3b7d730"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person who was a party to a proceeding in which
+a relevant order is made may apply to the Supreme Court for an order that the
+proceeding be treated as a proceeding in the Supreme Court, and the Supreme
+Court may make such an order.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c87474e8-f18f-40ec-bfe5-41b22aefdef9"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">If the Supreme Court makes an order under
+subsection (2), the proceeding, despite the relevant order&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a2432e47-1655-46c1-963e-231fd4e1fbce" id="sec.11-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">becomes, and must be recorded by the Supreme
+Court as, a proceeding in the Supreme Court, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5ec0f019-7db4-4e5a-9e41-1101b4740b1b" id="sec.11-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">for the purposes of any limitation law and for
+all other purposes, is deemed to have been brought in the Supreme Court on the
+day on which the proceeding was first recorded as a proceeding in the federal
+court.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_378c47f6-527c-4ecc-80ca-e37acb8b8b69"></attrib>
+<attrib name="id" value="sec.11-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Supreme Court may make such ancillary orders
+in relation to an order under subsection (2) as it considers necessary for the
+purposes of the proceeding being treated as, becoming and being recorded as, a
+proceeding in the Supreme Court.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8240590b-ca96-4ba2-bd31-44f218582258"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_4c792b70-3ea2-469b-9020-928377b2973c"
+id="sec.12-he"><b>Proceedings for contempt</b></heading></head>
+<block><txt break.before="1">If, before or after the commencement of this
+section, a person has&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_36da27b8-e446-4fe6-b193-26290d370a2f" id="sec.12-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">interfered with a right conferred or affected by
+section 6, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_66b02492-9401-4aaa-92ff-72cd128c3862" id="sec.12-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">failed to satisfy or comply with a liability
+imposed or affected by section 6,</txt></block></li></list>
+
+<txt break.before="1">the interference or failure is, and is deemed always to
+have been, a matter that can be dealt with in the same manner as if the
+interference or failure had been in relation to a right conferred or affected,
+or a liability imposed or affected, by an order of the Supreme
+Court.</txt></block></level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d2e40c44-5303-45b3-b646-f3f01fb24b3f"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_fda79bf6-23ac-4f7a-a92b-c1885c5987fb"
+id="sec.13-he"><b>Evidentiary</b></heading></head>
+<block><txt break.before="1">A federal court record, or a copy of a federal
+court record, of an ineffective judgment may be adduced in evidence to show
+the existence, nature and extent of each right or liability conferred, imposed
+or affected by section 6.</txt></block></level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_89b43601-dadd-4bbc-b672-ee18fe99b4e4"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_9cdc4667-8a5d-47c0-903a-266126ccfef1"
+id="sec.14-he"><b>Act not to apply to certain judgments</b></heading></head>
+<block><txt break.before="1">Nothing in this Act applies to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4efa1389-c5dd-4c6c-8a01-b4ce81162567" id="sec.14-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a judgment given or recorded by the Federal Court
+of Australia that has been declared to be invalid, or has been quashed or
+overruled, by a Full Court of the Federal Court of Australia before the
+commencement of this section (otherwise than on the ground that the Court had
+no jurisdiction), or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7b14c54b-f150-4f3b-bd18-5bc8c0f92171" id="sec.14-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a judgment given or recorded by the Family Court
+of Australia that has been declared to be invalid, or has been quashed or
+overruled, by a Full Court of the Family Court of Australia before the
+commencement of this section (otherwise than on the ground that the Court had
+no jurisdiction).</txt></block></li></list>
+</block></level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_8c8fcdfe-6242-4ee5-a7fd-c0713c36083d"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_1d572304-98c2-460f-aa4f-5222767116ba"
+id="pt.3-he"><b>General</b></heading></head>
+
+<level type="clause" id="sec.15" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7e6b50e4-bb6b-49a5-8731-c35c4f1bf8e7"></attrib>
+<attrib name="id" value="sec.15"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>15</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 15:</b> Rep 2011 No 62,
+Sch 5.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e1f8f9bc-7ed6-4bee-9c00-a86cf39f38d8"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_c188b1d4-1bb8-430b-8435-13f9a0159cd0"
+id="sec.16-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ebbd7c3d-5727-4357-84dc-e712dfc65b78"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9d4bc14d-e4cc-4535-9d7c-4040321b96fd"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting subsection (1), the regulations
+may make provision for or with respect to enabling jurisdiction conferred by
+or under a relevant State Act or by or under laws applied by the Act or
+referred to in the Act to be exercised by a court of the State, or confirming
+that such jurisdiction is exercisable by a court of the State, including
+(without limitation) provisions for or with respect to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8943bf61-23dd-460d-b06a-02f4c5db4158" id="sec.16-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">conferring jurisdiction on courts of the State,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_18c60cbd-efe6-4722-ade3-3e0c60d173b4" id="sec.16-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the construction of references in the Act or in
+laws applied by the Act to Commonwealth authorities and officers,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fa740b4b-7113-4a3f-a09d-5bd42c8c8733" id="sec.16-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">disapplying provisions of the Act or of laws
+applied by the Act, including provisions that contemplate the administration
+or enforcement of laws as if they were Commonwealth laws or that contemplate
+offences and other matters as being offences against and matters under
+Commonwealth laws, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_996ae6ea-a809-4cc5-a02e-83f047a77486" id="sec.16-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the treatment of offences arising under the Act
+or under laws applied by the Act (including the specification of penalties),
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_22329658-29be-46b1-8a11-8225fea817e4" id="sec.16-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">prescribing modifications of the Act or of laws
+applied by the Act, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a3ff61f8-df37-4d2c-8df0-11d57c950ef2" id="sec.16-ssec.2-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">associated, procedural and consequential
+matters.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_147e9573-ff06-4384-8574-561c60bbf24f"></attrib>
+<attrib name="id" value="sec.16-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Without limiting subsection (1), the regulations
+may make provision for or with respect to the validation of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2c6dfadc-1783-431c-ab9f-dbc55a835467" id="sec.16-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">matters arising from or ancillary to ineffective
+judgments, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c888f1dc-2efd-443b-8bbb-8099af048158" id="sec.16-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">things done or omitted to be done under or in
+relation to ineffective judgments.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7ef5f594-ee05-4d49-86ea-8be7d3175740"></attrib>
+<attrib name="id" value="sec.16-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Without limiting subsection (3), a reference to
+an ineffective judgment in that subsection includes a reference to the rights
+and liabilities conferred, imposed or affected by section 6 in relation to
+that judgment. That subsection extends to matters arising, and things done or
+omitted to be done, before the commencement of the regulation
+concerned.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dfa170d9-860b-40d5-8cd5-b43b9f97399b"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_07475cd2-d947-4ad9-8caa-0c77cfc6d08b"
+id="sec.17-he"><b>Jurisdiction of courts</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.17-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0eb9d2b2-b942-4ce2-8d82-487034cf6374"></attrib>
+<attrib name="id" value="sec.17-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Any provision of a relevant State law that
+purports to confer jurisdiction on a federal court is taken not to have that
+effect.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.17-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_470ee38f-03fa-431f-bba6-60b60cb05773"></attrib>
+<attrib name="id" value="sec.17-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any provision of a law applied by a relevant
+State Act that excludes or limits the jurisdiction of any or all State courts
+is taken not to have that effect.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_65529647-6a7a-4734-8689-b47bca9f425c"></attrib>
+<attrib name="id" value="sec.17-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This section does not operate&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_35b86285-561f-413f-950e-443dcf522067" id="sec.17-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">so as to prevent a federal court from exercising
+jurisdiction (such as accrued jurisdiction) in connection with a relevant
+State law to the extent to which, but for subsection (1), that court could
+validly do so, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ca989735-f484-4cfc-9492-083d344608a5" id="sec.17-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">so as to prevent a relevant State law from
+conferring jurisdiction on a federal court to the extent to which, but for
+subsection (1), a State Act could validly do so.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_41adb894-a087-4171-8616-70363d683351"></attrib>
+<attrib name="id" value="sec.17-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Nothing in this section limits section
+16.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_37054062-585e-4731-8610-b94250ed1357"></attrib>
+<attrib name="id" value="sec.17-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_7d4eb1b4-41f8-442f-a0d2-14775f35cab6"
+id="sec.17-ssec.5-def.relevantStatelaw"><b><i>relevant State
+law</i></b></defterm> means a relevant State Act, or a law as applied by a
+relevant State Act, and includes a Commonwealth administrative
+law.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 17:</b> Ins 1999 No 55,
+Sch 1.2 [2].</txt></content>
+</level>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_b55812fa-8b0d-420a-aba7-a7a8577ad233"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_19a5a209-36f6-4f45-bff0-e7f52937af36"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-1999-022" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Federal Courts (State
+Jurisdiction) Act 1999</i></name> No 22</legref>. Assented to 6.7.1999. Date
+of commencement, 9.7.1999, sec 2 and GG No 79 of 9.7.1999, p 4814. This Act
+has been amended as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_8b84494e-094b-47d4-be4c-fb801b45ca19" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_6bec8c64-5154-4537-8d46-ce05d7880f19" id="ed-tbl-tblr">
+<entry colname="1" guid="_eed46dd5-dcb0-450d-8c17-2557729453ca"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1999</b></txt></entry>
+<entry colname="2" guid="_35111c8e-2291-469e-960d-2459d93fc8d5"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 55</txt></entry>
+<entry colname="3" guid="_ab2c3daf-d408-4600-a074-fa783abe29ff"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref refid="act-1999-055" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Price Exploitation Code
+(New South Wales) Act 1999</i></name></legref>. Assented to 22.11.1999.</txt>
+<txt break.before="1">Date of commencement, 10.12.1999, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_183f08a8-c9f1-457c-b084-9f170a9bb737" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_cd2f8384-0ffd-4a6f-85e6-51637c7d6014"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>2003</b></txt></entry>
+<entry colname="2" guid="_6ce8acc1-9711-4c53-8ec9-cec22f06b9fe"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 11</txt></entry>
+<entry colname="3" guid="_b9d66598-d660-4779-80bd-175b3e6786df"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref refid="act-2003-011" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Gene Technology (New South
+Wales) Act 2003</i></name></legref>. Assented to 25.6.2003.</txt>
+<txt break.before="1">Date of commencement, 11.7.2003, sec 2 and GG No 111 of
+11.7.2003, p 7020.</txt></block></entry></row>
+
+
+<row guid="_d7237855-a5ec-4fad-8401-dabc64ad65e1" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_aa47e13e-39fc-424e-80ff-88d7ca2ba090"
+id="ed-tbl-tblr-oc.3-tble1"></entry>
+<entry colname="2" guid="_b5ca99f2-51bf-4c3c-b7f2-f8257bbae7d9"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 21</txt></entry>
+<entry colname="3" guid="_f8c0e35c-7b35-4a17-8c66-c939bbb53dc2"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref refid="act-2003-021" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Research Involving Human
+Embryos (New South Wales) Act 2003</i></name></legref>. Assented to
+7.7.2003.</txt>
+<txt break.before="1">Date of commencement, 1.10.2003, sec 2 and GG No 154 of
+26.9.2003, p 9522.</txt></block></entry></row>
+
+
+<row guid="_d71dc780-c28f-42ce-9868-a94aafb5557e" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_068fa4fb-c60d-44e4-b1a7-4b5de5a01f2b"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>2005</b></txt></entry>
+<entry colname="2" guid="_69e0c31b-204b-4d21-b26a-da71d578d718"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 12</txt></entry>
+<entry colname="3" guid="_07bf32ae-275c-48cd-80ef-e7e8be781c5f"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref refid="act-2005-012" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Water Efficiency Labelling
+and Standards (New South Wales) Act 2005</i></name></legref>. Assented to
+14.4.2005.</txt>
+<txt break.before="1">Date of commencement, 29.4.2005, sec 2 and GG No 50 of
+29.4.2005, p 1532.</txt></block></entry></row>
+
+
+<row guid="_f427d78f-7e24-472c-a619-984e32e97aca" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_4049b9f9-f0fe-4144-9f43-72bdbd7cfa77"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>2008</b></txt></entry>
+<entry colname="2" guid="_6a9ae034-b091-4001-8aa2-6cd206ac0a51"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 31</txt></entry>
+<entry colname="3" guid="_f1742108-903f-4845-a2a2-93fd1f12ec34"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref refid="act-2008-031" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>National Gas (New South
+Wales) Act 2008</i></name></legref>. Assented to 19.6.2008.</txt>
+<txt break.before="1">Date of commencement, 1.7.2008, sec 2 and GG No 76 of
+27.6.2008, p 5868 and South Australian Government Gazette 26.6.2008, p
+2553.</txt></block></entry></row>
+
+
+<row guid="_80cc3685-879b-4969-a234-6d1bb1adf9cf" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_c257e80b-2cb0-4152-a200-5b6e91c98d1d"
+id="ed-tbl-tblr-oc.6-tble1"><txt break.before="1"><b>2011</b></txt></entry>
+<entry colname="2" guid="_b4618d03-3e68-44fa-b50a-52258337f759"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">No 62</txt></entry>
+<entry colname="3" guid="_c04ad38f-c3fa-4442-81cc-eabae4f12ceb"
+id="ed-tbl-tblr-oc.6-tble3">
+<block><txt break.before="1"><legref refid="act-2011-062" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2011</i></name></legref>. Assented to
+16.11.2011.</txt>
+<txt break.before="1">Date of commencement of Sch 5, 6.1.2012, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_6bcefed8-6713-4f06-973c-861f9acd0359" id="ed-tbl-tblr-oc.7">
+<entry colname="1" guid="_eb8260d6-35c9-45b0-86ee-4fe50282577e"
+id="ed-tbl-tblr-oc.7-tble1"><txt break.before="1"><b>2012</b></txt></entry>
+<entry colname="2" guid="_8ce1f820-540a-4f3f-a823-96981b4a43d0"
+id="ed-tbl-tblr-oc.7-tble2"><txt break.before="1">No 90</txt></entry>
+<entry colname="3" guid="_a05c2dd8-0d7a-42bd-866a-5dde81ba7f5f"
+id="ed-tbl-tblr-oc.7-tble3">
+<block><txt break.before="1"><legref refid="act-2012-090" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Marine Safety Amendment
+(Domestic Commercial Vessel National Law Application) Act
+2012</i></name></legref>. Assented to 20.11.2012.</txt>
+<txt break.before="1">Date of commencement, 1.7.2013, sec 2 and 2013 (233) LW
+31.5.2013.</txt></block></entry></row>
+
+
+<row guid="_ac424f80-7e8b-4663-b76c-f43014431c32" id="ed-tbl-tblr-oc.8">
+<entry colname="1" guid="_1f3a974f-c168-4650-b3ad-c1f3aa65acf0"
+id="ed-tbl-tblr-oc.8-tble1"><txt break.before="1"><b>2025</b></txt></entry>
+<entry colname="2" guid="_62356d50-d302-49ed-ac5f-3b4c47057a66"
+id="ed-tbl-tblr-oc.8-tble2"><txt break.before="1">No 38</txt></entry>
+<entry colname="3" guid="_825a5250-ce57-4631-aba0-227bec424999"
+id="ed-tbl-tblr-oc.8-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law Amendment (Administrative
+Appeals Tribunal) Act 2025</i></name></legref>. Assented to 3.7.2025.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_e98f7e88-2979-4d8a-b5d5-a4798e6f8d8c"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_54c53d0c-e8a1-4363-b3b0-bd89b57b6de6" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_cbe0c423-58c4-49e2-8e28-d9e640e7ce03" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_6dfb9a7d-2b9f-4875-ae3a-8658618808ad"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_e04a2638-85f2-4c2b-9faa-d1749316b525"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 1999 No 55, Sch 1.2 [1];
+2003 No 11, sec 21; 2003 No 21, sec 21; 2005 No 12, Sch 1.2; 2008 No 31, Sch
+1.1; 2012 No 90, Sch 2.2 [1]&#8211;[3]; 2025 No 38, Sch
+1.7.</txt></entry></row>
+
+
+<row guid="_3cc6a28e-4aca-43ec-80c1-b4780d86f006" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_2674da1e-57b6-4767-90e8-d34ac65d1006"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 15</txt></entry>
+<entry colname="2" guid="_a92b77a6-d256-4809-8f37-b004204456b2"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Rep 2011 No 62, Sch
+5.</txt></entry></row>
+
+
+<row guid="_3964f758-d4f7-4a98-9c7d-9a14bdd8c110" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_804afdf7-ba8a-463b-a77e-da3e31e25125"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 17</txt></entry>
+<entry colname="2" guid="_15f78ab0-e2bb-44aa-bb11-68341c67f7c2"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Ins 1999 No 55, Sch 1.2
+[2].</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

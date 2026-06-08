@@ -1,0 +1,2691 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2019-016"
+title="Water Supply (Critical Needs) Act 2019"
+year="2019"
+number="16"
+enact.or.made.date="2019-11-21"
+first.valid.date="2021-06-11"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2019</metacontent>
+<metacontent class="year.assent">2019</metacontent>
+<metacontent class="publication.date">2026-05-061</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">sl-2021-0282</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="introduction.date">2019-10-16</metacontent>
+<metacontent class="la.second.reading.date">2019-10-16</metacontent>
+<metacontent class="amended.in.committee">1</metacontent>
+<metacontent class="id">act-2019-016</metacontent>
+<metacontent
+class="version.desc.id">75d13672-0ec1-43b3-a403-faa4397b48a8</metacontent>
+<metacontent
+class="version.series.id">40698007-64d1-45ba-b0bb-8fd1c0f4ae75</metacontent>
+<metacontent class="year.introduced">2019</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Water Supply (Critical Needs) Act 2019"></attrib>
+<attrib name="year.passed" value="2019"></attrib>
+<attrib name="year.assent" value="2019"></attrib>
+<attrib name="no" value="16"></attrib>
+<attrib name="publication.date" value="2026-05-061"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="sl-2021-0282"></attrib>
+<attrib name="first.valid.date" value="2021-06-11"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="introduction.date" value="2019-10-16"></attrib>
+<attrib name="la.second.reading.date" value="2019-10-16"></attrib>
+<attrib name="amended.in.committee" value="1"></attrib>
+<attrib name="assent.date" value="2019-11-21"></attrib>
+<attrib name="id" value="act-2019-016"></attrib>
+<attrib name="version.desc.id"
+value="75d13672-0ec1-43b3-a403-faa4397b48a8"></attrib>
+<attrib name="version.series.id"
+value="40698007-64d1-45ba-b0bb-8fd1c0f4ae75"></attrib>
+<attrib name="year.introduced" value="2019"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_5f61619c-dec2-493f-ad5f-82d092adfec1"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_ac9988c8-70c4-4f20-8390-63fd5da8c95d"
+id="cd-status-he"><b>See also&#8212;</b></heading></head>
+<block><txt break.before="1"><legref type="bill" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Bill 2026</i></name></legref></txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_0fb9ed5a-d89e-421e-bc8b-146bd8415006"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to facilitate the delivery of emergency
+water supplies to certain towns and localities; to declare certain development
+relating to dams to be critical State significant infrastructure; and for
+related purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_b260a97f-d079-4982-9309-c45748dcb306"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_b5ef7e2b-4c2f-4f78-bab0-5cf44cb8a89c"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f5a2494e-4707-4fe7-a53a-1d8381fd9cd0"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_f833945d-da93-4109-8c54-b569c7af3cb6"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-2019-016"><name emphasis="yes"><i>Water Supply
+(Critical Needs) Act 2019</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_613c5cbe-4e5f-4ca9-9573-3c379f09435c"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_3abab5e4-98fe-49c7-b1dd-8fe8bbaebcdb"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on the date of assent to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9511b48b-9fc1-4e71-96ff-781924c13b5e"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_c2ea99ac-aa23-4e7a-a0a9-a18e6ec5db6a"
+id="sec.3-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c764daf6-8381-47d4-98c3-6f0129992081"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_51ccf789-731a-4dfa-8bb2-cbd7bd05eddc"
+id="sec.3-ssec.1-def.criticaltownorlocalitywatersupply"><b><i>critical town or
+locality water supply</i></b></defterm>&#8212;see section 5.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_acf7b481-2c13-4632-8b91-04570247b14f"
+id="sec.3-ssec.1-def.development"><b><i>development</i></b></defterm> and the
+<defterm type="definition" guid="_346b4af0-e29b-4add-aa58-0f402193061d"
+id="sec.3-ssec.1-def.carryingoutofdevelopment"><b><i>carrying out of
+development</i></b></defterm> have the same meanings as they have in the
+<legref type="act" jurisd="NSW" check="unknown" refid="act-1979-203"><name
+emphasis="yes"><i>Environmental Planning and Assessment Act
+1979</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_f1658493-ea7a-44dc-bdea-dd36f948102e"
+id="sec.3-ssec.1-def.function"><b><i>function</i></b></defterm> includes a
+power, authority or duty, and <defterm type="definition"
+guid="_9702f105-42d8-43ed-b889-879526955b61"
+id="sec.3-ssec.1-def.exercise"><b><i>exercise</i></b></defterm> a function
+includes perform a duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d7b7281c-5383-4c0b-bdf2-afa54317fe89"
+id="sec.3-ssec.1-def.modification"><b><i>modification</i></b></defterm>
+includes addition, exception, omission or substitution.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c913cab5-c05c-4d1b-9e5f-551a14b33b92"
+id="sec.3-ssec.1-def.PlanningSecretary"><b><i>Planning
+Secretary</i></b></defterm> has the same meaning as in the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1979-203"><name
+emphasis="yes"><i>Environmental Planning and Assessment Act
+1979</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_10f6269e-9280-4107-ae3e-29c9ad2e55ad"
+id="sec.3-ssec.1-def.publicauthority"><b><i>public
+authority</i></b></defterm> has the same meaning as in the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1979-203"><name
+emphasis="yes"><i>Environmental Planning and Assessment Act
+1979</i></name></legref>.</txt></block></deflist>
+</block>
+<note type="legtext" guid="_23d8e932-9135-4f28-a711-75150e64fba9"
+id="sec.3-ssec.1-note"><heading guid="_12df7128-805d-4edd-9be9-e8af29bc25a0"
+id="sec.3-ssec.1-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">The <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1987-015"><name emphasis="yes"><i>Interpretation
+Act 1987</i></name></legref> contains definitions and other provisions that
+affect the interpretation and application of this Act.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2824f995-9502-420f-aede-7f3dc99290ea"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f6a2d201-8877-42cb-9001-0d8eacec224b"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_302c3869-71c0-4c41-bc15-7b73e116d829"
+id="sec.4-he"><b>Application of Act</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_718783bd-3539-49fd-aae1-cf2a6f9d8c22"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This Act does not apply to the
+following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1b118472-f494-44a2-8163-4e29fcc05c53" id="sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">land within a special area within the Sydney
+catchment area within the meaning of the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-2014-074"><name emphasis="yes"><i>Water NSW Act
+2014</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8d0342a0-2058-4b35-b831-fe123631a70a" id="sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">land within the Sydney metropolitan
+area.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5ff2cb75-fde7-490c-9aa4-026ba9511277"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_f025d601-2c91-4bb7-88ac-72da427adc37"
+id="sec.4-ssec.2-def.Sydneymetropolitanarea"><b><i>Sydney metropolitan
+area</i></b></defterm> means the area constituted by the local government
+areas of Bayside, City of Blacktown, Burwood, Camden, City of Campbelltown,
+Canada Bay, Canterbury-Bankstown, Cumberland, City of Fairfield, Georges
+River, Hornsby, Hunter&#8217;s Hill, Inner West, Ku-ring-gai, Lane Cove, City
+of Liverpool, Mosman, North Sydney, Northern Beaches, City of Parramatta, City
+of Penrith, City of Randwick, City of Ryde, Strathfield, Sutherland Shire,
+City of Sydney, The Hills Shire, Waverley, City of Willoughby and
+Woollahra.</txt></block></deflist>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_8acde500-81e0-4a1d-b22a-420a4ec8c16b"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_b7fd96f1-df4b-4888-bb1a-b576c0f1e7d5"
+id="pt.2-he"><b>Declaration of critical town or locality water
+supply</b></heading></head>
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_02b8ad6b-661c-4d03-9f7c-a52e069a1dda"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_f47242de-1c19-4219-af3a-1e2a6d537ea8"
+id="sec.5-he"><b>Critical water supplies declared by Act</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_14382631-3d35-4c0b-99c7-bf08bc7c641f"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The following are declared to be <defterm
+type="definition" guid="_13934b91-ba2f-47f0-a53b-7f7f977c3724"
+id="sec.5-ssec.1-def.criticaltownorlocalitywatersupplies"><b><i>critical town
+or locality water supplies</i></b></defterm>&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5a70c2b4-7b86-4f91-90ec-117d80b97780" id="sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the water supply for the following towns or
+localities&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9f64451d-681e-45ff-a6c5-bbb430047f8f"
+id="sec.5-ssec.1-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">the locality that includes Dubbo, Wellington,
+Warren, Nyngan and Cobar,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_259e10c7-776e-40d6-a0f8-625d034190c1"
+id="sec.5-ssec.1-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the locality that includes Tamworth, Moonbi and
+Kootingal,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_69eff665-78cd-4545-8175-f0baf95a3cec"
+id="sec.5-ssec.1-para1.a-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">the locality that includes Orange, Spring Hill,
+Lucknow and Molong and the area serviced by the Central Tablelands Water
+County Council water supply system,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_45da127f-7333-465b-aad9-a824d729d05d"
+id="sec.5-ssec.1-para1.a-para2.iv">
+<no>(iv)</no>
+<block><txt break.before="1">the locality that includes Cobar and
+Nyngan,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a04d46bb-86c4-4cb9-a287-c7366ae2259e"
+id="sec.5-ssec.1-para1.a-para2.v">
+<no>(v)</no>
+<block><txt break.before="1">the locality that includes
+Walgett,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0edcf911-35f7-4a08-a156-dcb40534addc"
+id="sec.5-ssec.1-para1.a-para2.vi">
+<no>(vi)</no>
+<block><txt break.before="1">the locality that includes
+Bourke,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f45dcf43-6f9c-4237-9d73-4288f2190f61"
+id="sec.5-ssec.1-para1.a-para2.vii">
+<no>(vii)</no>
+<block><txt break.before="1">the locality that includes Bourke and the Darling
+River between Bourke and its junction with the Murray
+River,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f5b915ac-67a7-445e-9f2a-2d30ce1358fb"
+id="sec.5-ssec.1-para1.a-para2.viii">
+<no>(viii)</no>
+<block><txt break.before="1">the locality that includes
+Warren,</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_01c9c656-b5ca-4405-869c-40ea52741398" id="sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any water supply for a town or locality described
+in Schedule 1.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_697cec17-7595-424d-8ff0-9e667243eeaf"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The regulations may amend Schedule 1 to insert,
+alter or omit a description of a town or locality.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6e60382d-b356-4b16-9df4-67fb372707f6"></attrib>
+<attrib name="id" value="sec.5-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Before making a recommendation to the Governor
+for the making of a regulation of a kind referred to in subsection (2), the
+Minister is required to obtain the concurrence of the Minister administering
+the <legref type="act" jurisd="NSW" check="unknown" refid="act-2016-063"><name
+emphasis="yes"><i>Biodiversity Conservation Act
+2016</i></name></legref>.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_41971b28-002a-4dac-bd06-0cb92aa42c3d"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_302dc82d-e982-403a-96e6-784133263210"
+id="pt.3-he"><b>Authorisation of critical town or locality water supply
+development</b></heading></head>
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c132c9d4-d20b-46a8-89e2-2fc15a3a928d"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_ad89c65c-e3b3-4a5d-a20e-db07bd633439"
+id="sec.6-he"><b>Meaning of development control
+legislation</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cb9aa1e7-1ad5-4d8a-ad47-49acf53c7f16"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purposes of this Part, <defterm
+type="definition" guid="_9684f156-dcb7-4c28-8ed7-e2927bc2d8b5"
+id="sec.6-ssec.1-def.developmentcontrollegislation"><b><i>development control
+legislation</i></b></defterm>&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ff101444-1b3b-4bf5-b8d1-f8aeb7fce3bb" id="sec.6-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">means provisions of or made under the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1979-203"><name
+emphasis="yes"><i>Environmental Planning and Assessment Act
+1979</i></name></legref> or any other Act (other than the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-2000-092"><name
+emphasis="yes"><i>Water Management Act 2000</i></name></legref>) that prohibit
+the carrying out of development or that require the approval of any person or
+body before development is carried out, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a5b53dd4-bd15-4c47-bf92-123b4c8fb3c4" id="sec.6-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">extends to the provisions of other Acts (other
+than the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2000-092"><name emphasis="yes"><i>Water Management Act
+2000</i></name></legref>) referred to in section 5.23 of the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1979-203"><name
+emphasis="yes"><i>Environmental Planning and Assessment Act
+1979</i></name></legref> (Approvals etc legislation that does not apply)
+relating to requirements for authorisations or to the making or giving of
+orders or notices.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_45246214-fbb3-4071-b79b-d9079701f622"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In subsection (1)&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_309bfe32-be8a-4a2e-972c-32b2a8a4e89a"
+id="sec.6-ssec.2-def.approval"><b><i>approval</i></b></defterm> includes
+permit, licence, consent or other authority (however
+described).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b8597443-4f17-4f76-978d-682fb521f90d"
+id="sec.6-ssec.2-def.prohibit"><b><i>prohibit</i></b></defterm> includes
+prohibit temporarily or in part, or authorise a person or body to
+prohibit.</txt></block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fc5caf58-ef6d-4814-ad3b-1ca5e54a91df"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_8f9ea469-48ee-4324-bc50-8546ac3a3c15"
+id="sec.7-he"><b>Approval requirements under other Acts</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8719d83a-8903-4947-83d2-0eb762c0e0a1"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Development described in Schedule 2 carried out
+by or on behalf of a public authority is exempt from development control
+legislation if the carrying out of the development is the subject of an
+authorisation of the Minister under this Part.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ec5c658d-643b-4391-b225-88868388da89"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The regulations may amend Schedule 2 to insert,
+alter or omit a description of development for the purposes of a critical town
+or locality water supply.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6a387a90-cbfa-4ceb-a64d-63906972c5ea"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Before making a recommendation to the Governor
+for the making of a regulation of a kind referred to in subsection (2), the
+Minister is required to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_827d0e9f-dea9-403d-90b0-bbf80abf2315" id="sec.7-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">consult with the following
+Ministers&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1705f715-605b-4c6e-9f7f-b1ea4f73ab91"
+id="sec.7-ssec.3-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">the Minister administering the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1979-203"><name
+emphasis="yes"><i>Environmental Planning and Assessment Act
+1979</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c9978a30-aca3-4df5-ac91-1ad142e80acc"
+id="sec.7-ssec.3-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the Minister administering the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1994-038"><name
+emphasis="yes"><i>Fisheries Management Act
+1994</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b742b221-3616-4dd7-b218-6dde751de08f"
+id="sec.7-ssec.3-para1.a-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">the Minister administering the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1977-136"><name
+emphasis="yes"><i>Heritage Act 1977</i></name></legref>,
+and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b2a0c6fb-ad02-4d2a-b914-bea0172020f4" id="sec.7-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">obtain the concurrence of the Minister
+administering the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2016-063"><name emphasis="yes"><i>Biodiversity Conservation Act
+2016</i></name></legref>.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dfcc8049-8327-488e-a4db-097a3c8753a9"></attrib>
+<attrib name="id" value="sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A regulation of a kind referred to in subsection
+(2) may not amend Schedule 2 to insert or alter a description of development
+that relates to the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_206047c9-eff9-475a-9749-60bdf2c855b9" id="sec.7-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the construction of a new dam or new weir (other
+than a temporary weir),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_349e9f5c-abba-4ff4-af1d-07a4b457af48" id="sec.7-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the increase in storage capacity of an existing
+dam.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_06b5cbe8-42f9-4d86-81a5-51af63b78ea4"></attrib>
+<attrib name="id" value="sec.7-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The repeal of a regulation made under this
+section does not affect the continuation of anything validly done before that
+repeal.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bf540db6-1837-4ea6-90d6-e7c6bed5a518"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_eb0e9537-598e-4af9-a09e-db4121f4d5d4"
+id="sec.8-he"><b>Authorisation of Minister to carry out water supply
+development</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_28f31015-5107-4210-ad41-3dad1cf41e47"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This section applies to the carrying out of
+development described in Schedule 2.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4aea994a-0e7b-471c-b3f8-f75b6b02485e"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The public authority proposing to carry out the
+development (or a person on behalf of the authority) may apply to the Planning
+Secretary for an authorisation to carry out the
+development.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a4bca2db-4847-4f45-b4a6-b1ea96dfbe4f"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The application must be in writing and include
+the following information&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2b525f19-b588-4cc1-a0b2-01810ecc7b66" id="sec.8-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a description of the proposed
+development,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_17c59324-ee39-4885-be29-830b712c7697" id="sec.8-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a description of the land on which the proposed
+development is to be carried out,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_75e81f92-8e62-4571-95af-3a8bb5d1acd0" id="sec.8-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the date when any construction for the proposed
+development is to be commenced and the anticipated date of completion of the
+construction,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aad51b51-1861-4c15-8de0-c625b89cec22" id="sec.8-ssec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the measures proposed to be taken to avoid,
+minimise or offset the environmental or other impacts of the proposed
+development,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d8f5d5fb-fb76-458c-ab69-c47856eb8cf0" id="sec.8-ssec.3-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">any other information relating to the proposed
+development that the regulations, or the Planning Secretary, requires to be
+included.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_431c5a9c-deab-4a59-b9af-4ea88cc170b1"></attrib>
+<attrib name="id" value="sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Planning Secretary is to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4058777a-bfb8-418d-9ff0-7693f699b170" id="sec.8-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">consult with other relevant public authorities
+regarding the proposed authorisation, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_09c1fce8-a96a-4bc3-93ea-f66b2d2ae4c0" id="sec.8-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">have regard to any issues raised by those
+authorities in those consultations, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e9531820-4aff-4836-8794-94d6d1abd9d8" id="sec.8-ssec.4-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">forward the application, and a report on those
+consultations, to the Minister.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fa0b4fe1-1181-409e-aa44-affa52dcf289"></attrib>
+<attrib name="id" value="sec.8-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The Minister may authorise a specified public
+authority to carry out the development subject to any conditions set out or
+referred to in the authorisation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_406ef7b2-dbc4-4964-bb64-3fff7ace25bc"></attrib>
+<attrib name="id" value="sec.8-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">Before giving an authorisation under this
+section, the Minister is required to obtain the concurrence of the Minister
+administering the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2016-063"><name emphasis="yes"><i>Biodiversity Conservation Act
+2016</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8c52f0d9-1e11-4aab-9930-369b635eed8e"></attrib>
+<attrib name="id" value="sec.8-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">The Minister may, by notice in writing to the
+public authority carrying out the development, amend or revoke the conditions
+of an authorisation before the development has been carried
+out.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_98850db8-e2b6-4b77-ac01-e087f31aac06"></attrib>
+<attrib name="id" value="sec.8-ssec.8"></attrib></parentattributes>
+
+<head>
+<no>(8)</no></head>
+<block><txt break.before="1">The conditions of an authorisation to carry out
+development may (without limitation) include conditions relating to any of the
+following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_503e4ecd-a489-4bf5-a5fe-d403985bf2e3" id="sec.8-ssec.8-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the time within which the development must be
+completed by,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_495c9107-5274-49e6-83c7-a1e93ece6b09" id="sec.8-ssec.8-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">requiring specified environmental assessment to
+be undertaken before the development is permitted to be carried
+out,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8a1b8b6c-5866-4664-ab29-4943ac38b903" id="sec.8-ssec.8-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">hours and other conditions of operation of the
+carrying out of the development,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3f0bdb6d-9ac4-4c17-aa46-619aa7f2f314" id="sec.8-ssec.8-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">reporting requirements,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_41579f81-d080-4891-9c0d-1b39f6a9a8ed" id="sec.8-ssec.8-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">public notification requirements in relation to
+the carrying out of the development.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_28091dce-feb6-4c65-90f9-2b69c7fb4db9"></attrib>
+<attrib name="id" value="sec.8-ssec.9"></attrib></parentattributes>
+
+<head>
+<no>(9)</no></head>
+<block><txt break.before="1">An authorisation to carry out development for the
+purposes of a critical town or locality water supply is taken to be a State
+significant infrastructure approval under Division 5.2 of the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1979-203"><name
+emphasis="yes"><i>Environmental Planning and Assessment Act
+1979</i></name></legref> (or an amendment to a State significant
+infrastructure approval) for the purposes of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ff11a479-a237-4193-8ea9-a41e06380850" id="sec.8-ssec.9-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">Part 2 of the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-2016-063"><name emphasis="yes"><i>Biodiversity
+Conservation Act 2016</i></name></legref> with respect to threatened species,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2cd4cd23-dd44-4052-bc90-77446d5cac65" id="sec.8-ssec.9-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">Part 7A of the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1994-038"><name emphasis="yes"><i>Fisheries
+Management Act 1994</i></name></legref>, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_85a46acf-5f67-4228-8396-6c2a48483223" id="sec.8-ssec.9-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-2013-051"><name emphasis="yes"><i>Local Land
+Services Act 2013</i></name></legref>, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d5d576a5-0b75-48a6-9317-8af5fc981157" id="sec.8-ssec.9-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">any other Act (or provision of any other Act)
+prescribed by the regulations for the purposes of this
+subsection.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2cde81d8-72f2-470c-8f5f-0addaa61bcaa"></attrib>
+<attrib name="id" value="sec.8-ssec.10"></attrib></parentattributes>
+
+<head>
+<no>(10)</no></head>
+<block><txt break.before="1">The Minister may, if the Minister is of the
+opinion that a public authority is failing to comply with the conditions of an
+authorisation, direct the authority to comply with those
+conditions.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a0c0a0e4-eedb-44d1-a0f1-448b2e1608e0"></attrib>
+<attrib name="id" value="sec.8-ssec.11"></attrib></parentattributes>
+
+<head>
+<no>(11)</no></head>
+<block><txt break.before="1">Before giving a direction under subsection (10),
+the Minister is required to obtain the concurrence of the Minister responsible
+for the public authority concerned.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e59506b4-ea02-452b-962d-949eefd4bfa3"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_72b3998b-9706-41d1-9169-d6dca138b2ed"
+id="sec.9-he"><b>Application of <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1979-203"><name emphasis="yes"><i>Environmental
+Planning and Assessment Act 1979</i></name></legref></b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f9487fc3-ae2e-4997-82ef-ed8bc4210c40"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The object of this section is to clarify the
+operation of the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1979-203"><name emphasis="yes"><i>Environmental Planning and
+Assessment Act 1979</i></name></legref> in relation to development that is the
+subject of an authorisation of the Minister under this Part (subject to the
+terms of the authorisation).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b2c41f6e-70ed-48c3-a99e-6fc0ecde6f2f"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An environmental planning instrument under that
+Act cannot prohibit, require development consent for or otherwise restrict the
+carrying out of the development.</txt></block>
+<note type="legtext" guid="_f2dcf5f6-7fc8-46c0-9e7b-1c406e6356dd"
+id="sec.9-ssec.2-note"><heading guid="_21cee85c-d924-4e89-bb7e-239fb247cb42"
+id="sec.9-ssec.2-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">The exclusion of the need for development consent
+also excludes any requirement for the payment of development contributions
+under that Act.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_af89574f-5147-47da-bfac-9fd0eac2e5bc"></attrib>
+<attrib name="id" value="sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Division 5.1 of that Act does not apply in
+respect of the carrying out of the development.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c150e2c4-644b-4d81-b890-1c806894563d"></attrib>
+<attrib name="id" value="sec.9-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A development control order does not have effect
+to the extent that it prevents or interferes with the carrying out of the
+development.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0780df3c-6d60-4784-83b2-184f450ac8ce"></attrib>
+<attrib name="id" value="sec.9-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Subsection (2) applies to an environmental
+planning instrument made before or after the commencement of this
+section.</txt></block></tier>
+
+<note type="legtext" guid="_66612b6d-7425-4f28-9dd3-495fd6cbdfa2"
+id="sec.9-note"><heading guid="_309e873c-9890-4050-a4a3-a61510d97115"
+id="sec.9-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">See section 20 (Regulations), which authorises
+regulations to restore the operation of the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1979-203"><name emphasis="yes"><i>Environmental
+Planning and Assessment Act 1979</i></name></legref> in relation to
+development carried out under this Act.</txt></block></note>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_453aec4d-b194-4be8-af3e-03893ef308a7"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_1cf433a5-3cab-42a9-83a1-07a6942cb254"
+id="sec.10-he"><b>Notification of exemptions and
+authorisations</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3064c7e3-6290-4466-aeeb-077dd0e2ee61"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may provide a copy of an
+authorisation under this Part to the local council of the local government
+area in which any development to which the authorisation relates is to be
+carried out.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5847a17f-b9b7-4054-aafa-a6bcdd42660e"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In that case, a planning certificate under
+section 10.7 of the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1979-203"><name emphasis="yes"><i>Environmental Planning and
+Assessment Act 1979</i></name></legref> in relation to any land concerned is
+to include advice about the authorisation.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_22a3c2f5-7bec-4c15-aef6-30f1d64005d3"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_a2b7c951-595d-4f71-b07e-5c82accf36cd"
+id="pt.4-he"><b>Application of <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2000-092"><name emphasis="yes"><i>Water Management Act
+2000</i></name></legref></b></heading></head>
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_99abbe8a-2b7c-4961-a5cf-36c4100fa408"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_7e9562a7-4736-4c4a-b3af-b1444402c6d8"
+id="sec.11-he"><b>Regulations may disapply or modify <legref type="act"
+jurisd="NSW" check="unknown" refid="act-2000-092"><name
+emphasis="yes"><i>Water Management Act
+2000</i></name></legref></b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8bcd55c7-59a8-48f0-8467-1471f5f316bb"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may make provision for or with
+respect to the disapplication or modification of the provisions of the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-2000-092"><name
+emphasis="yes"><i>Water Management Act 2000</i></name></legref>, or the
+regulations or any instrument made under that Act, in relation to critical
+town or locality water supplies.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3ba05568-3c48-42fe-8665-18d08c425aa6"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting subsection (1), the regulations
+under this section modifying the operation of provisions of the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-2000-092"><name
+emphasis="yes"><i>Water Management Act 2000</i></name></legref> may provide
+that&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_406e1a35-624d-49f1-9b0f-8ac0d8b4fe3b" id="sec.11-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Minister administering that Act has a
+function of directing a specified public authority in relation to critical
+town or locality water supplies, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e6ece1f5-31a3-4999-bfc6-0c4cccb19e58" id="sec.11-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a specified public authority must comply with
+that direction.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_89bfe5c9-2bea-4f3a-81e1-dc9cc4b76780"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Minister is not to recommend the making of a
+regulation under this section unless&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2aa21c99-2bc6-4622-b3b6-31153b990a44" id="sec.11-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if the Minister is not the Minister administering
+the <legref type="act" jurisd="NSW" check="unknown" refid="act-2016-063"><name
+emphasis="yes"><i>Biodiversity Conservation Act
+2016</i></name></legref>&#8212;the Minister certifies that the regulation is
+made with the concurrence of that Minister, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bd36c84a-2d90-4bf5-9cf1-10927de9a02e" id="sec.11-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the Minister is not the Minister administering
+the <legref type="act" jurisd="NSW" check="unknown" refid="act-2000-092"><name
+emphasis="yes"><i>Water Management Act 2000</i></name></legref>&#8212;the
+Minister certifies that the regulation is made with the concurrence of that
+Minister.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_4e6bb781-9d6a-4085-bb8c-d85a5f88204b"></attrib>
+<attrib name="id" value="pt.5"></attrib></parentattributes>
+
+<head>
+<no><b>Part 5</b></no><heading guid="_a6065704-7f5a-4676-beff-76157bedd705"
+id="pt.5-he"><b>Co-ordination and co-operation of public
+authorities</b></heading></head>
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9722031c-8558-4626-9209-3e830029f280"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_96f94ece-7ba0-4989-b28a-0f093af0d051"
+id="sec.12-he"><b>Obligations of public authorities</b></heading></head>
+<block><txt break.before="1">A public authority has the following obligations
+in respect of development for the purposes of a critical town or locality
+water supply&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c3373b18-351b-461a-8905-83e5bde5e797" id="sec.12-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to co-operate with the public authority
+responsible for the development for the purposes of a critical town or
+locality water supply (<defterm type="definition"
+guid="_b2a99c1f-d6bb-4f7e-89b3-df3761921590"
+id="sec.12-para1.a-def.responsibleauthority"><b><i>responsible
+authority</i></b></defterm>) in the exercise of the public authority&#8217;s
+functions, including complying with any reasonable request of the responsible
+authority for information to enable the responsible authority to exercise its
+functions,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d49c8223-81c2-4c64-941a-ab9758130286" id="sec.12-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to notify the responsible authority of any
+proposed exercise of the public authority&#8217;s functions that may impact
+adversely on the exercise of the responsible authority&#8217;s
+functions.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_33dba2a5-ed5d-48a9-82ee-9a102f74789b"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_5e663c34-7e50-4a50-a706-0a0fda24aeea"
+id="sec.13-he"><b>Powers of public authorities</b></heading></head>
+<block><txt break.before="1">Despite the provisions of any other Act or law, a
+public authority is&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d899af7a-2d12-4ce5-ba84-b4787184addc" id="sec.13-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">authorised to exercise any of its functions in
+order to comply with a request, direction or decision of a public authority
+made or given under this Act, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d1e488c6-77c4-4ad6-b55e-44015edee0ff" id="sec.13-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">authorised and empowered to enter into agreements
+for the purposes of this Act with a public authority and may do or suffer
+anything necessary or expedient for carrying any such agreement into
+effect.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d874f3d1-14e0-4a2a-b999-be66de15e479"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_36046fcb-0364-4b12-bc74-c3dbb7fd48f9"
+id="sec.14-he"><b>Minister may direct public authorities to
+co-operate</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_73d980d0-9520-4db9-8843-26758cf15d71"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may, by notice in writing given to a
+prescribed public authority, direct the authority to comply with a request,
+direction or decision of a public authority responsible for development for
+the purposes of a critical town or locality water supply that is made or given
+under this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8d17a9aa-0ce9-4e22-bdf9-401e6334dd60"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Before giving a direction under this section, the
+Minister is required to obtain the concurrence of the Minister responsible for
+the prescribed public authority concerned.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c27a0180-b3b7-42ee-9a67-a270f4dc4691"></attrib>
+<attrib name="id" value="sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_edc5ba9b-02ec-4210-86fc-12ee9d6260eb"
+id="sec.14-ssec.3-def.prescribedpublicauthority"><b><i>prescribed public
+authority</i></b></defterm> means a public authority prescribed by the
+regulations for the purposes of this section.</txt></block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_67f34f7e-8ae5-4651-a856-1eccba858a21"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_07f1ef6e-b212-42d5-9e6b-3ebeaba05adb"
+id="sec.15-he"><b>Dispute resolution</b></heading></head>
+
+<tier type="subclause" id="sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2d34a5a1-3656-4694-b17a-1b191b4e0843"></attrib>
+<attrib name="id" value="sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If there is a dispute between the public
+authority responsible for development for the purposes of a critical town or
+locality water supply and a public authority concerning the operation of any
+provision of this Act and the parties have after reasonable efforts been
+unable to resolve the dispute themselves, either party may request a review of
+the matter by the responsible Ministers (namely, the Minister responsible for
+the authority and the Minister responsible for the public authority
+concerned).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2e4cb607-2a2b-40c0-9b43-6d3d74a02432"></attrib>
+<attrib name="id" value="sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If the same Minister is responsible for both the
+authority and the public authority concerned, the review is to be by that
+Minister.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6a25ad32-d59b-4cf7-8f24-c9a18bdf08a9"></attrib>
+<attrib name="id" value="sec.15-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">If the dispute is not resolved by the responsible
+Ministers or Minister, the dispute is to be referred to the
+Premier.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1dfe9957-9ce4-46d3-9f6b-1a5a120bc0cc"></attrib>
+<attrib name="id" value="sec.15-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The authority and the public authority concerned
+are to give effect to any decision of the responsible Ministers, Minister or
+the Premier in resolution of the dispute.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1efaa308-65fe-43f4-a760-cba7ffdf25b7"></attrib>
+<attrib name="id" value="sec.15-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A reference in this section to the Minister
+responsible for a public authority is, in the case of a public authority that
+is a local council, a reference to the Minister administering the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1993-030"><name
+emphasis="yes"><i>Local Government Act
+1993</i></name></legref>.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_1288b2d4-013d-4820-8e4a-da8ea277a32c"></attrib>
+<attrib name="id" value="pt.6"></attrib></parentattributes>
+
+<head>
+<no><b>Part 6</b></no><heading guid="_f2c3200e-3059-41ca-aa73-f903aa6a8bab"
+id="pt.6-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8805611c-e6be-48cc-91b1-e5027c1588fc"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_6fbe791a-e9b8-4cfd-b564-b4079fd7b9e3"
+id="sec.16-he"><b>Delegation</b></heading></head>
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0e87cc23-d6e9-466a-9d93-715f6d83b344"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister or Planning Secretary may delegate
+the exercise of any function of the Minister or Planning Secretary under this
+Act (other than this power of delegation) to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9b2c0ec1-b02d-44c1-bd29-b030efcb5a62" id="sec.16-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any person employed in the Department of
+Planning, Industry and Environment, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7caebecc-cb0f-4d23-b94b-ea46b8a2a07a" id="sec.16-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any person, or any class of persons, authorised
+for the purposes of this section by the
+regulations.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_866f9c6b-2912-4266-9261-1ea88edddc86"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Planning Secretary may subdelegate any
+function delegated to the Planning Secretary by the Minister if authorised to
+do so by the Minister by instrument in writing.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_349e320c-89ef-4071-b2ac-7a43126cc7f0"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_8245b409-22fd-430b-879e-4fbb464dc4d0"
+id="sec.17-he"><b>Compensation not payable in respect of critical water
+supply-related matters</b></heading></head>
+
+<tier type="subclause" id="sec.17-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3ffb7e83-a01d-424b-8b46-a0700da181b9"></attrib>
+<attrib name="id" value="sec.17-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Compensation is not payable by or on behalf
+of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_03b385c5-d47d-4a95-b7fd-1cbb4c793ca8" id="sec.17-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the State, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b13ae2f3-2bff-4db4-9483-41511037cb2a" id="sec.17-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a public authority, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5fd4d1de-77eb-4c71-9b79-1747f9d06af1" id="sec.17-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a local council, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4634f9df-9049-4d5b-a9b2-4659b5004dc6" id="sec.17-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">an officer, employee or agent of the State, a
+public authority or a local council,</txt></block></li></list>
+
+<txt break.before="1">for an act or omission that is a critical water
+supply-related matter or that arises (directly or indirectly) from a critical
+water supply-related matter.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b5e608c1-bd02-47a9-966b-70659fec88fd"></attrib>
+<attrib name="id" value="sec.17-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subsection (1)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b3273111-45a1-45ef-8050-151225bd7f76" id="sec.17-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">applies only in respect of acts done or omitted
+to be done in good faith, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_53830dcc-85fa-4b48-9ad3-c6dc6e9882d5" id="sec.17-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">does not apply to acts or omissions that cause
+personal injury to a person or the death of a
+person.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_55cc2753-783d-4b01-96d4-5698a68f9216"></attrib>
+<attrib name="id" value="sec.17-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_7f43cd26-3d29-41ae-916c-890c37307ad0"
+id="sec.17-ssec.3-def.compensation"><b><i>compensation</i></b></defterm>
+includes damages and any other form of monetary compensation.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9625f664-c38d-4f16-8c8b-578cedc9b99b"
+id="sec.17-ssec.3-def.criticalwatersupplyrelatedmatter"><b><i>critical water
+supply-related matter</i></b></defterm> means the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_860f82cd-3819-4b8f-823b-ac452e9f98c3" id="sec.17-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">development carried out, works conducted or other
+things done under an authorisation given under this Act or the
+regulations,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_529d60e4-2152-4608-adaa-564603dcaaba" id="sec.17-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the administration or purported administration of
+this Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a45effd2-6acc-469c-89ec-c2d83f9df291" id="sec.17-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the exercise or purported exercise of functions
+under this Act.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_58128b34-3a90-4a71-a15a-5613d0ed5984"
+id="sec.17-ssec.3-def.thisAct"><b><i>this Act</i></b></defterm> includes
+provisions of the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2000-092"><name emphasis="yes"><i>Water Management Act
+2000</i></name></legref>, or of any regulations or other instruments under
+that Act, that apply to a matter, with or without modification, by operation
+of Part 4.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5e488a13-d853-4326-a928-e63fa48838d4"></attrib>
+<attrib name="id" value="sec.17-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">This section has effect despite anything in the
+<legref type="act" jurisd="NSW" check="unknown" refid="act-2000-092"><name
+emphasis="yes"><i>Water Management Act
+2000</i></name></legref>.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_96572aed-c022-42a3-9ad4-5bbe159ce184"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_2fcead99-5546-46af-849b-d17cb64dc78f"
+id="sec.18-he"><b>No liability in nuisance</b></heading></head>
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_55504bf8-a81b-4315-9f5d-c55de423c9b4"></attrib>
+<attrib name="id" value="sec.18-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Anything done or omitted to be done by any
+person&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6bb29f6b-7ddf-4393-8e35-54f942a70744" id="sec.18-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in the exercise of functions under this Act or
+the regulations, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e40aa358-57e9-4847-bfa4-9e7c5e68b928" id="sec.18-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">pursuant to any of the provisions of this Act or
+the regulations,</txt></block></li></list>
+
+<txt break.before="1">does not constitute a nuisance.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bcf0feb7-0f1a-4359-9514-02cf27450148"></attrib>
+<attrib name="id" value="sec.18-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_d171bad1-4838-46de-8000-8dfef05d1296"
+id="sec.18-ssec.2-def.thisAct"><b><i>this Act</i></b></defterm> includes
+provisions of the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2000-092"><name emphasis="yes"><i>Water Management Act
+2000</i></name></legref>, or of any regulations or other instruments under
+that Act, that apply to a matter, with or without modification, by operation
+of Part 4.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e2241e26-ae82-473b-8792-53774beadbff"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_cb3c914f-4917-4e99-b0b4-3afcb40c8fee"
+id="sec.19-he"><b>Personal liability</b></heading></head>
+
+<tier type="subclause" id="sec.19-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6a9dbbbe-2b3a-4839-bc67-4888fba8ebf8"></attrib>
+<attrib name="id" value="sec.19-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A matter or thing done or omitted to be done by a
+person acting under the direction of the Minister or Planning Secretary does
+not, if the matter or thing was done or omitted to be done in good faith for
+the purpose of exercising a function under this Act, subject the person so
+acting personally to any action, liability, claim or
+demand.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_17f82062-f8e5-4ef2-bc81-8bc0d372495a"></attrib>
+<attrib name="id" value="sec.19-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">However, any such liability attaches instead to
+the Crown.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_626dc9ad-6ab5-4411-8dfc-0d9134dd35d4"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_18e49635-146d-4dbc-84c5-8c36a6ef3bb7"
+id="sec.20-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sec.20-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0ecce226-64c0-4b33-beee-5058dadf8f08"></attrib>
+<attrib name="id" value="sec.20-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a53fff11-f5c6-49bd-85cf-5f3741281638"></attrib>
+<attrib name="id" value="sec.20-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The regulations may make provision for or with
+respect to restoring the operation of the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1979-203"><name emphasis="yes"><i>Environmental
+Planning and Assessment Act 1979</i></name></legref> and any other Act in
+relation to development that would otherwise be exempted from those Acts by
+this Act and, in particular, for or with respect to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cf18c93c-e1e6-4be5-b85b-84908327b3de" id="sec.20-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">declaring an authorisation of development by the
+Minister to be a development consent or other approval under the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1979-203"><name
+emphasis="yes"><i>Environmental Planning and Assessment Act
+1979</i></name></legref> and applying the provisions of that Act (with any
+specified modifications) to any such consent or approval,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9ab28e04-884f-4402-8b56-8a889a9fad2f" id="sec.20-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the operation of provisions relating to existing
+uses and the continuance of lawful uses in relation to development for the
+purposes of critical town or locality water supply.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.21">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a20b1c17-5dd9-40ea-be05-228b3efb9f99"></attrib>
+<attrib name="id" value="sec.21"></attrib></parentattributes>
+
+<head>
+<no>21</no><heading guid="_a1f578b7-1d19-49d6-9781-751114da1082"
+id="sec.21-he"><b>Expiry of provisions of Act</b></heading></head>
+
+<tier type="subclause" id="sec.21-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_89896ee6-ce14-4bc0-9a13-4f1034921bf8"></attrib>
+<attrib name="id" value="sec.21-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Parts 2&#8211;5 of, and Schedules 1&#8211;3 to,
+this Act expire on the date that is 2 years after the date of assent to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_14c5d18b-e29f-439d-9237-67ddb67cf29a"></attrib>
+<attrib name="id" value="sec.21-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The regulations may, from time to time, before an
+expiry under this section takes effect, postpone by one year the date on which
+those Parts of, and Schedules to, this Act expire.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3e8dff7f-e419-421f-a8e9-2c605d751621"></attrib>
+<attrib name="id" value="sec.21-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Minister must not recommend the making of a
+regulation under this section unless the Minister is satisfied that risks to
+the critical town or locality water supplies continue or new risks
+exist.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_38ecc252-8166-43d1-97c8-eff00e009fc9"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_4fea66fd-e954-4c3c-a843-e0e6505cd8e4" id="sch.1-he"><b>Critical town or
+locality water supplies</b></heading></head>
+<block><txt break.before="1">The locality that includes Bathurst, Raglan,
+Eglinton and Perthville and the area serviced by the Bathurst water supply
+system.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Am 2020 (171),
+cl 3(1).</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_854d4956-1cf1-4f7c-ad5b-72489e2e8c58"></attrib>
+<attrib name="id" value="sch.2"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading
+guid="_9c940270-d890-43a8-a630-1bd2d71d1e6b" id="sch.2-he"><b>Declared water
+supply development</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_a75f8879-82e3-4d85-9210-5983d530d584" id="sch.2-tbl">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="15.25pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="15.25pi"></colspec>
+
+<thead>
+
+<row guid="_472148cc-42ec-443b-8c17-e71b09efc243" id="sch.2-tbl-tblh-tblr">
+<entry colname="1" guid="_fd24b513-4caf-4a01-bba7-3e73305763cd"
+id="sch.2-tbl-tblh-tblr-tble1"><txt
+break.before="1">Development</txt></entry>
+<entry colname="2" guid="_7b40b049-9556-443f-97c4-8e7c02d3ff5d"
+id="sch.2-tbl-tblh-tblr-tble2"><txt break.before="1">Critical town or locality
+water supply</txt></entry></row>
+</thead>
+
+
+<tbody>
+
+<row guid="_2e12be41-9033-4016-a664-ad804b7b3a08" id="sch.2-tbl-tblr">
+<entry colname="1" guid="_c8907966-b998-4d4c-8a87-fffbec1a1a10"
+id="sch.2-tbl-tblr-tble1"><txt break.before="1">Burrendong Dam access point
+relocation project</txt></entry>
+<entry colname="2" guid="_a8bb1e36-4064-49e2-ad68-cfd7599196ca"
+id="sch.2-tbl-tblr-tble2"><txt break.before="1">the locality that includes
+Dubbo, Wellington, Warren, Nyngan and Cobar</txt></entry></row>
+
+
+<row guid="_3016c2b4-3a3a-4520-bc63-958542c85b2d" id="sch.2-tbl-tblr-oc.2">
+<entry colname="1" guid="_c08e1c27-dd20-4645-8b56-63bd25c66594"
+id="sch.2-tbl-tblr-oc.2-tble1"><txt break.before="1">Chaffey Dam to Dungowan
+Village pipeline</txt></entry>
+<entry colname="2" guid="_de4ba316-176e-4e0d-a0cd-56931768aefe"
+id="sch.2-tbl-tblr-oc.2-tble2"><txt break.before="1">the locality that
+includes Tamworth, Moonbi and Kootingal</txt></entry></row>
+
+
+<row guid="_5398e3c7-f1c2-41a8-8197-11a0f5599bc1" id="sch.2-tbl-tblr-oc.3">
+<entry colname="1" guid="_4560ba61-22ec-45c9-9334-e7aed8015682"
+id="sch.2-tbl-tblr-oc.3-tble1"><txt break.before="1">Macquarie River to Orange
+pipeline</txt></entry>
+<entry colname="2" guid="_a1b97fb3-fc63-41b2-88ef-19bd788fd104"
+id="sch.2-tbl-tblr-oc.3-tble2"><txt break.before="1">the locality that
+includes Orange, Spring Hill, Lucknow and Molong and the area serviced by the
+Central Tablelands Water County Council water supply
+system</txt></entry></row>
+
+
+<row guid="_7457e9d6-fb80-4146-a071-0a68c15e872a" id="sch.2-tbl-tblr-oc.4">
+<entry colname="1" guid="_4a657303-fd1b-44a2-9e90-f3c4d9b645ed"
+id="sch.2-tbl-tblr-oc.4-tble1"><txt break.before="1">Works to connect the
+Cobar and Nyngan town water supplies to alternative available groundwater
+sources</txt></entry>
+<entry colname="2" guid="_1e13b452-d7cb-4558-a821-a1da59154bec"
+id="sch.2-tbl-tblr-oc.4-tble2"><txt break.before="1">the locality that
+includes Cobar and Nyngan</txt></entry></row>
+
+
+<row guid="_5f4dd252-5e31-4635-84eb-f965ec3c0b67" id="sch.2-tbl-tblr-oc.5">
+<entry colname="1" guid="_61b295da-ead4-4b41-acb0-6bd63f83988b"
+id="sch.2-tbl-tblr-oc.5-tble1"><txt break.before="1">Walgett weir and Walgett
+water treatment plant project</txt></entry>
+<entry colname="2" guid="_a13c3039-1ada-474f-b93e-50c622dd9261"
+id="sch.2-tbl-tblr-oc.5-tble2"><txt break.before="1">the locality that
+includes Walgett</txt></entry></row>
+
+
+<row guid="_88cbfb68-dca8-422a-892b-4a2bed13f7e7" id="sch.2-tbl-tblr-oc.6">
+<entry colname="1" guid="_c12d11e9-e80c-4d52-9eb5-0d55a18ceba0"
+id="sch.2-tbl-tblr-oc.6-tble1"><txt break.before="1">Bourke weir, bore water
+supply and water treatment project</txt></entry>
+<entry colname="2" guid="_d9deb915-ae4c-48c7-ac76-4abdf1e7963c"
+id="sch.2-tbl-tblr-oc.6-tble2"><txt break.before="1">the locality that
+includes Bourke</txt></entry></row>
+
+
+<row guid="_c3154d54-4a6d-4a4b-b8c0-99ee18d05ed6" id="sch.2-tbl-tblr-oc.7">
+<entry colname="1" guid="_e0385352-4d12-480a-9cad-749ed869d3e5"
+id="sch.2-tbl-tblr-oc.7-tble1"><txt break.before="1">Re-establishment of
+natural rock weirs on the Darling River between Bourke and its junction with
+the Murray River</txt></entry>
+<entry colname="2" guid="_c5b17d99-138a-4658-bc0e-1eae83d7e163"
+id="sch.2-tbl-tblr-oc.7-tble2"><txt break.before="1">the locality that
+includes Bourke and the Darling River between Bourke and its junction with the
+Murray River</txt></entry></row>
+
+
+<row guid="_09f0ba4e-1a0a-469a-8cff-7da38b0455f4" id="sch.2-tbl-tblr-oc.8">
+<entry colname="1" guid="_9831675e-fb53-4c88-9331-e42aae36d449"
+id="sch.2-tbl-tblr-oc.8-tble1"><txt break.before="1">Works for the Warren town
+water supply, including bores, connecting piping and associated infrastructure
+for the Warren bore field</txt></entry>
+<entry colname="2" guid="_0aceddab-a5ad-4224-9e1d-bec8e2057a86"
+id="sch.2-tbl-tblr-oc.8-tble2"><txt break.before="1">the locality that
+includes Warren</txt></entry></row>
+
+
+<row guid="_8e6b846a-8abc-4322-8de1-bc3e5f26f07d" id="sch.2-tbl-tblr-oc.9">
+<entry colname="1" guid="_7ca56306-67e5-4b16-a7f7-c158f01c6180"
+id="sch.2-tbl-tblr-oc.9-tble1"><txt break.before="1">Works for the Bathurst
+water supply system, including a pumping station on the Macquarie River, a
+pre-treatment plant, pipelines, processing ponds, storage ponds and additional
+pumping stations to transfer water to the existing Bathurst water filtration
+plant</txt></entry>
+<entry colname="2" guid="_5564cd3c-9bdb-4955-8925-1aee9f10ab97"
+id="sch.2-tbl-tblr-oc.9-tble2"><txt break.before="1">the locality that
+includes Bathurst, Raglan, Eglinton and Perthville and the area serviced by
+the Bathurst water supply system</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>sch 2:</b> Am 2020 (171),
+cl 3(2).</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.3">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1adcc412-9bfb-466e-9dab-73649ba25466"></attrib>
+<attrib name="id" value="sch.3"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 3</b></no><heading
+guid="_88f5b460-6933-4451-9c06-91450f6ff348" id="sch.3-he"><b>Declaration of
+certain dam-related development as critical State significant
+infrastructure</b></heading></head>
+
+<level type="part" id="sch.3-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_c52ad450-ef7e-4e3a-8ed8-79f89fd0c6ea"></attrib>
+<attrib name="id" value="sch.3-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_fbd8bc3b-cbff-47bf-9097-62b9847a5ccf"
+id="sch.3-pt.1-he"><b>Declaration of development</b></heading></head>
+
+<level type="clause" id="sch.3-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_55b993b1-5515-4681-9842-5d04f9c1bb79"></attrib>
+<attrib name="id" value="sch.3-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_a128757c-86b0-4817-99a9-622bde7351da"
+id="sch.3-sec.1-he"><b>Critical State significant
+infrastructure</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d0edccd9-4aec-427d-a2d8-2b4174762770"></attrib>
+<attrib name="id" value="sch.3-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The development described in Part 2 of this
+Schedule&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9b730d8c-6a31-490c-908a-c1482adfc9f6" id="sch.3-sec.1-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is taken for the purposes of the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1979-203"><name
+emphasis="yes"><i>Environmental Planning and Assessment Act
+1979</i></name></legref> to be State significant infrastructure and critical
+State significant infrastructure, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1772f96c-9c37-4792-b0fd-38bb0534d6a3" id="sch.3-sec.1-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">may be carried out without development consent
+under Part 4 of that Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aa35e452-e9cf-4323-95b2-9ce5919394ba"></attrib>
+<attrib name="id" value="sch.3-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The regulations may amend Part 2 of this Schedule
+as follows&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cb6591ca-955f-4151-86a8-83faf1fab037" id="sch.3-sec.1-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to insert or alter a description of development
+that relates to the construction of a new dam or the increase in storage
+capacity of an existing dam,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e4f81488-a1d0-41c9-9393-88dfc901aa5c" id="sch.3-sec.1-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to omit a description of
+development.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a8b5920a-d5c6-4e6d-8b6d-866d755ce2eb"></attrib>
+<attrib name="id" value="sch.3-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Before making a recommendation to the Governor
+for the making of a regulation of a kind referred to in subclause (2)(a), the
+Minister is required to obtain the concurrence of the Minister administering
+the <legref type="act" jurisd="NSW" check="unknown" refid="act-2016-063"><name
+emphasis="yes"><i>Biodiversity Conservation Act
+2016</i></name></legref>.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="sch.3-pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_1acad37a-6b6b-4d42-9e27-3413294cc28f"></attrib>
+<attrib name="id" value="sch.3-pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_31a5294f-97ef-453e-93e6-2095d3fc7c81"
+id="sch.3-pt.2-he"><b>Description of development</b></heading></head>
+
+<level type="clause" id="sch.3-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a10e1573-9353-48f3-85ca-69cbd16b041a"></attrib>
+<attrib name="id" value="sch.3-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_65e09264-4664-4136-8df7-6322ad1352ef"
+id="sch.3-sec.2-he"><b>Wyangala Dam wall raising project</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ff2db4b3-b72f-45c1-a3d2-5be298b127e5"></attrib>
+<attrib name="id" value="sch.3-sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Development for the purposes of raising the
+Wyangala Dam in the Cowra local government area, including&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_22f8ffa6-3653-48cd-8c2a-6bbca5a8add0" id="sch.3-sec.2-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">raising the embankment and appurtenant structures
+to increase the storage capacity of the dam, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6b3dd432-717f-42b7-9cf1-20c369fc445a" id="sch.3-sec.2-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">relocating and reinstalling services and
+structures such as access bridges, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c78e4f49-55ec-4efd-b78c-fe82b0516d06" id="sch.3-sec.2-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">storing water using the new dam
+structures.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4959679e-51c0-4a47-a729-d9b312f39d84"></attrib>
+<attrib name="id" value="sch.3-sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Development that is ancillary to other
+development in this clause (including the upgrading or construction of access
+roads, utilities infrastructure, construction accommodation and construction
+compounds).</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.2-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4b1b5f63-4825-45ac-8652-70eb666faeb4"></attrib>
+<attrib name="id" value="sch.3-sec.2-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this clause&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_f7500bc0-a476-46c7-93ef-bf3c9c80e162"
+id="sch.3-sec.2-ssec.3-def.development"><b><i>development</i></b></defterm>
+does not include&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6a09b70b-a49b-4809-b201-5b1913df4b51" id="sch.3-sec.2-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the following for the purposes of the assessment
+of the dam wall raising project&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_af5a19b7-f682-425e-868b-f8d097979476"
+id="sch.3-sec.2-ssec.3-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">surveys,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fc5cf9f6-a579-4a5c-b911-14de4b24e12b"
+id="sch.3-sec.2-ssec.3-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">test drilling,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6435ee9d-a98c-4d9c-825e-f188eafe6a46"
+id="sch.3-sec.2-ssec.3-para1.a-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">test excavations,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_54e4d1bd-9480-465c-8ea7-6d34cd852599"
+id="sch.3-sec.2-ssec.3-para1.a-para2.iv">
+<no>(iv)</no>
+<block><txt break.before="1">geotechnical investigations,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b50af197-cbdf-4eb3-8d8c-f177955663a5"
+id="sch.3-sec.2-ssec.3-para1.a-para2.v">
+<no>(v)</no>
+<block><txt break.before="1">other tests, surveys, sampling or investigations,
+or</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0067e158-fd5f-42db-ab61-02678d851984" id="sch.3-sec.2-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the relocation of the Wyangala Waters Holiday
+Park and associated works, including the construction of a water treatment
+plant and access roads and the relocation and reinstallation of utilities
+infrastructure.</txt></block></li></list>
+</block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sch.3-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e65f3f04-3300-4c56-95f4-d97423046064"></attrib>
+<attrib name="id" value="sch.3-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_05db5ecc-630d-47d7-a0a7-d4f1d7b40ce2"
+id="sch.3-sec.3-he"><b>Mole River Dam</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_92eaf12f-5eff-4e87-b056-f6ba58ba4e8a"></attrib>
+<attrib name="id" value="sch.3-sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Development for the purposes of a new dam located
+at Mole River in the Tenterfield local government area.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_390627ff-ffd0-43f2-a981-91698c735bef"></attrib>
+<attrib name="id" value="sch.3-sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Development that is ancillary to other
+development in this clause (including the upgrading or construction of access
+roads, utilities infrastructure, construction accommodation and construction
+compounds).</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.3-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_54618c12-a0ea-4f8a-98d1-89daf82d7f61"></attrib>
+<attrib name="id" value="sch.3-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_200a9fd3-b8a1-458c-b6b1-e4df76b81d31"
+id="sch.3-sec.4-he"><b>Dungowan Dam</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e58bc6fc-2fe0-4077-9680-c605dbe7466d"></attrib>
+<attrib name="id" value="sch.3-sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Development for the purposes of a new dam located
+at Ogunbil in the Tamworth Regional local government area,
+including&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c4fb5a8a-3e36-4c95-8ec9-24c2ed2dec96" id="sch.3-sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the construction of a bulk water pipeline from
+the new dam to intersect with the pipeline from Chaffey Dam,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bde05898-de5c-453f-b85e-3ce9ec90d252" id="sch.3-sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">decommissioning the existing Dungowan Dam and
+related infrastructure and services, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f0a7619c-58a5-4a4a-9359-129ff241cc53" id="sch.3-sec.4-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">rehabilitating the storage area of the existing
+Dungowan Dam.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_954a1072-fcb3-4127-8e6e-98d8d76678bc"></attrib>
+<attrib name="id" value="sch.3-sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Development that is ancillary to other
+development in this clause (including the upgrading or construction of access
+roads, utilities infrastructure, construction accommodation and construction
+compounds).</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aec0b1ec-ecb8-4133-ad51-794db1f8130e"></attrib>
+<attrib name="id" value="sch.3-sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this clause&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_8a4252b4-4542-4bc5-90de-0e47fd5fe747"
+id="sch.3-sec.4-ssec.3-def.development"><b><i>development</i></b></defterm>
+does not include the following for the purposes of the assessment of the new
+dam&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f7042bdb-afb0-487d-853d-5b7a611df554" id="sch.3-sec.4-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">surveys,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_45a4567b-1fd4-4395-9e7a-7efe955cae6e" id="sch.3-sec.4-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">test drilling,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_79b27c0b-ad26-4203-9262-b3269d633bb4" id="sch.3-sec.4-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">test excavations,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5b1fe8e6-a8c2-40ba-9955-a24ce015a69d" id="sch.3-sec.4-ssec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">geotechnical investigations,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_23041221-5bd6-4643-892b-4486f6cbbbb8" id="sch.3-sec.4-ssec.3-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">other tests, surveys, sampling or
+investigations.</txt></block></li></list>
+</block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sch.3-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_498571f3-59fc-4f75-a071-c7d0195a14fb"></attrib>
+<attrib name="id" value="sch.3-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_2199d0df-b22e-4932-95ab-61c615f3139d"
+id="sch.3-sec.5-he"><b>Western Weirs program</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8bdd33be-cdbf-458d-92bf-c3de4d1e5a38"></attrib>
+<attrib name="id" value="sch.3-sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Development for the purposes of regulating the
+flows of water in the Barwon-Darling unregulated river system from the
+Queensland border to Menindee Lakes, and the Lower Darling regulated river
+system from downstream of the Menindee Lakes to the junction with the Murray
+River at Wentworth, including the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_02d2bc92-5efb-4a4f-812b-f7b2f7d24115" id="sch.3-sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the construction of new regulating
+structures,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ca5e15a1-d33b-47d4-a53a-b08f404b3209" id="sch.3-sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the removal or decommissioning of existing
+weirs,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_850c71f2-3726-4043-880e-e716946b1e06" id="sch.3-sec.5-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the construction of structures to enable the
+passage of fish.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6ebcd85f-bcbd-48e9-8623-56a9e74fb359"></attrib>
+<attrib name="id" value="sch.3-sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Development that is ancillary to other
+development in this clause (including the upgrading or construction of access
+roads, utilities infrastructure, construction accommodation and construction
+compounds).</txt></block></tier>
+</level>
+</level>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 3:</b> Am 2021 (282),
+Sch 1[1]&#8211;[3].</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.4">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a2e886e9-46c8-449d-8ea5-bdd211b1040f"></attrib>
+<attrib name="id" value="sch.4"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 4</b></no><heading
+guid="_9148e496-96a2-437c-b43c-984cae5b4dda" id="sch.4-he"><b>Savings,
+transitional and other provisions</b></heading></head>
+
+<level type="part" id="sch.4-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_fb9a0b70-ad30-41bb-b339-651be649b4fe"></attrib>
+<attrib name="id" value="sch.4-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_f8c657d4-f2ce-4db9-8334-b640f84f1552"
+id="sch.4-pt.1-he"><b>General</b></heading></head>
+
+<level type="clause" id="sch.4-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6afb43c5-a2f6-4eaf-851a-8445935018e9"></attrib>
+<attrib name="id" value="sch.4-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_34a4fe32-c055-4c28-a39e-d9b32e6c6aa7"
+id="sch.4-sec.1-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sch.4-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4417d0b2-42f6-4b5b-a613-bee34e377fad"></attrib>
+<attrib name="id" value="sch.4-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_95df6f57-d1e5-4fe1-a84e-e60cdc3c99ec" id="sch.4-sec.1-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the enactment of this Act or any Act that amends
+this Act, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5e08bdc2-1bc7-4b89-9db7-1abc2889fe0e" id="sch.4-sec.1-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the expiry of any Part of, or Schedule to, this
+Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_66083749-d48f-471e-9e40-b72bb41dbe86"></attrib>
+<attrib name="id" value="sch.4-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Before making a recommendation to the Governor
+for the making of a regulation of a kind referred to in subclause (1), the
+Minister is required to obtain the concurrence of the Minister administering
+the <legref type="act" jurisd="NSW" check="unknown" refid="act-2016-063"><name
+emphasis="yes"><i>Biodiversity Conservation Act
+2016</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d9e70543-6976-44a4-8a55-4cfdfa1f6dbf"></attrib>
+<attrib name="id" value="sch.4-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Any such provision&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e9337e22-6064-4ebc-aa0a-b27694f67c34" id="sch.4-sec.1-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">may, if the regulations so provide, take effect
+from the date of assent to the Act concerned or a later date,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5c3a787a-e6e9-4f7e-80eb-b24278aeafbd" id="sch.4-sec.1-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">has effect despite anything to the contrary in
+this Schedule.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.1-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1e74c485-2602-4915-a8d3-e793aebb5da9"></attrib>
+<attrib name="id" value="sch.4-sec.1-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication on the NSW
+legislation website, the provision does not operate so as&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_46f76e01-bb8b-4754-9ad9-62296030f695" id="sch.4-sec.1-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2eaf6227-4848-4d5a-b325-5d49549c6b09" id="sch.4-sec.1-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.4-sec.1-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0183cb99-f29d-4545-8b7c-e416037f4007"></attrib>
+<attrib name="id" value="sch.4-sec.1-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Without limiting subclauses (1) and (2),
+regulations made for the purposes of this clause may amend this Schedule to
+provide for additional or different savings and transitional provisions
+instead of including the provisions in the regulations.</txt></block></tier>
+</level>
+</level>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_87466a9b-7220-461b-a6ce-34cb0cfe4e53"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_65ff5d02-3f16-4fb2-bc44-2e01b10e1e59"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2019-016"><name emphasis="yes"><i>Water Supply (Critical Needs) Act
+2019</i></name> No 16</legref>. Assented to 21.11.2019. Date of commencement,
+assent, sec 2. This Act has been amended as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_4950ca27-c4d6-4d0a-a5c0-1fab467d1dca" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_b6fbbb9c-505f-4acd-8b12-67745249b4ca" id="ed-tbl-tblr">
+<entry colname="1" guid="_059efa70-5ec4-4522-8d9a-f75a83764171"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>2020</b></txt></entry>
+<entry colname="2" guid="_aea2543b-2243-4112-8a7a-f1823db5879d"
+id="ed-tbl-tblr-tble2"><txt break.before="1">(171)</txt></entry>
+<entry colname="3" guid="_1d971230-bb34-4c8c-ae94-28f2b0bbe786"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref type="subordleg" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Water Supply (Critical Needs)
+Amendment (Bathurst Water Supply) Regulation 2020</i></name></legref>. LW
+24.4.2020.</txt>
+<txt break.before="1">Date of commencement, on publication on LW, cl
+2.</txt></block></entry></row>
+
+
+<row guid="_104abe73-1d16-4753-b6a4-06c92a2bf19b" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_e20c4745-c4a0-4770-a803-f676f452fb96"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>2021</b></txt></entry>
+<entry colname="2" guid="_9e785e07-4b88-495f-9830-3fd11347bd36"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">(282)</txt></entry>
+<entry colname="3" guid="_8de03f84-8231-4172-a11b-39418a9e67d0"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref type="subordleg" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Water Supply (Critical Needs)
+(Wyangala Dam and Dungowan Dam) Regulation 2021</i></name></legref>. LW
+11.6.2021.</txt>
+<txt break.before="1">Date of commencement, on publication on LW, cl
+2.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_0435ce98-8ca6-4f1b-99c2-81d72836eaa2"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_dc066815-9777-4764-83ba-bd7b0fec9fb4" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_06f857de-2481-404c-ac69-ea2e3e6044f0" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_558183c5-bfd0-4f2b-adbe-bc2306e80131"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sch 1</txt></entry>
+<entry colname="2" guid="_7cbe9a84-98d2-4756-b031-0ea5d3d103d5"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 2020 (171), cl
+3(1).</txt></entry></row>
+
+
+<row guid="_72901404-f28b-4a1b-8f58-8eb8311c1e32" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_d8881a7b-6819-4a30-a3de-4889e399ffcc"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sch 2</txt></entry>
+<entry colname="2" guid="_4826d37b-8804-4f9a-9fec-6152f2f7e16d"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 2020 (171), cl
+3(2).</txt></entry></row>
+
+
+<row guid="_0b429196-76c4-4848-95c3-ebf4b6d35ebc" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_71f1de0d-461e-45fc-ae14-ae468dad7884"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sch 3</txt></entry>
+<entry colname="2" guid="_4d2df269-b55c-4441-9cdf-734cca3d9d4c"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Am 2021 (282), Sch
+1[1]&#8211;[3].</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

@@ -1,0 +1,1205 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2003-011"
+title="Gene Technology (New South Wales) Act 2003"
+year="2003"
+number="11"
+enact.or.made.date="2003-06-25"
+first.valid.date="2025-07-03"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2003</metacontent>
+<metacontent class="year.assent">2003</metacontent>
+<metacontent class="publication.date">2025-07-03</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2025-038</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="introduction.date">2003-05-21</metacontent>
+<metacontent class="la.second.reading.date">2003-05-30</metacontent>
+<metacontent class="amended.in.committee">0</metacontent>
+<metacontent class="id">act-2003-011</metacontent>
+<metacontent
+class="version.desc.id">353bf214-f4df-4b90-9d94-56e12d82eec4</metacontent>
+<metacontent
+class="version.series.id">619c2d4b-b3b9-47ba-91e6-db165d9bdfab</metacontent>
+<metacontent class="year.introduced">2003</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Gene Technology (New South Wales) Act
+2003"></attrib>
+<attrib name="year.passed" value="2003"></attrib>
+<attrib name="year.assent" value="2003"></attrib>
+<attrib name="no" value="11"></attrib>
+<attrib name="publication.date" value="2025-07-03"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2025-038"></attrib>
+<attrib name="first.valid.date" value="2025-07-03"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="introduction.date" value="2003-05-21"></attrib>
+<attrib name="la.second.reading.date" value="2003-05-30"></attrib>
+<attrib name="amended.in.committee" value="0"></attrib>
+<attrib name="assent.date" value="2003-06-25"></attrib>
+<attrib name="id" value="act-2003-011"></attrib>
+<attrib name="version.desc.id"
+value="353bf214-f4df-4b90-9d94-56e12d82eec4"></attrib>
+<attrib name="version.series.id"
+value="619c2d4b-b3b9-47ba-91e6-db165d9bdfab"></attrib>
+<attrib name="year.introduced" value="2003"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_3e250a1c-749c-467a-952f-14a71a1c24bf"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_1ed53caf-89ec-46d8-86da-4c9c3c337a6e"
+id="cd-status-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_05154380-e878-4300-9fda-65dbc43008e0"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to apply the <legref jurisd="CTH"
+type="act" check="unknown"><name emphasis="yes"><i>Gene Technology Act
+2000</i></name></legref> and the <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Gene Technology (Licence Charges) Act
+2000</i></name></legref> of the Commonwealth as a law of this State; and for
+other purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_b4e0913b-15a0-4de0-ac5b-508e75815440"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_77d1d3da-3eb3-4550-b3f4-852a59c37b6f"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_61c60af0-1798-4e2f-8058-dd821e5cdd64"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_19d4ee16-3990-47ea-ac26-cab94e04ffb6"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-2003-011"><name emphasis="yes"><i>Gene Technology
+(New South Wales) Act 2003</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c29d1b31-f07d-4f8f-88ad-a2b66e73ba5c"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_1a798a78-e1a0-497e-86ad-2823261e7db0"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on a day or days to be
+appointed by proclamation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_00676bb3-7e23-476c-a981-538539fb3ff5"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_4a30b023-66bb-4066-a9d4-eb628542caa6"
+id="sec.3-he"><b>Object of Act</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4b72ce9e-862f-48a2-b65f-8e95da7c0cda"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The object of this Act is to adopt in this State
+a uniform Australian approach to the regulation of genetically modified
+organisms.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c6943595-f202-4554-96b2-78f0eeeb924b"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For that purpose, this Act&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1cf85d1a-8079-47b7-ac3c-4a91d546904e" id="sec.3-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">applies the <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Gene Technology Act
+2000</i></name></legref> and the <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Gene Technology (Licence Charges) Act
+2000</i></name></legref> of the Commonwealth as a law of this State,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_61f9674d-c4e1-4ce3-b8ad-d739664a4021" id="sec.3-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">makes provision to help ensure that the
+Commonwealth Acts and the applied law of this State are administered on a
+uniform basis by the Commonwealth as if they constituted a single law of the
+Commonwealth.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8c9b2f3e-e13c-4721-a7ba-03f31d6e7e20"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_6121e8ae-8e6e-47fe-ba81-096191a498f1"
+id="sec.4-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b101e730-9be7-4b40-9bff-e8ecc707e59e"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c19bce3a-01c0-4a0e-9786-16ffb43fac10"
+id="sec.4-ssec.1-def.appliedprovisions"><b><i>applied
+provisions</i></b></defterm> means the Commonwealth gene technology laws that
+apply as a law of this State because of section 5.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_eb192bc3-c267-4555-bd4d-1794dcd42d4d"
+id="sec.4-ssec.1-def.Commonwealthadministrativelaws"><b><i>Commonwealth
+administrative laws</i></b></defterm> means the following Acts and regulations
+of the Commonwealth&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_351f02b3-523c-4816-a464-e05f48b80834" id="sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Administrative Review Tribunal Act
+2024</i></name></legref>, excluding Part 7,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7b599f85-461a-4cb8-a07b-c51fd71d7337" id="sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Freedom of Information Act
+1982</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7743b994-0ae0-4d1a-9710-c8f408d50154" id="sec.4-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Ombudsman Act
+1976</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_86aef3d5-c618-4e74-8a96-03b87d67dcfa" id="sec.4-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Privacy Act
+1988</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4a37d59d-66b4-4768-a2ee-aa7efb921e9b" id="sec.4-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the regulations in force under any of those
+Acts.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ead1f1f4-3bd0-4733-90c9-d1da1190c5ba"
+id="sec.4-ssec.1-def.CommonwealthGeneTechnologyAct"><b><i>Commonwealth Gene
+Technology Act</i></b></defterm> means the <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Gene Technology Act
+2000</i></name></legref> of the Commonwealth.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_4c60d655-243e-4ef6-a285-f8109d460eb6"
+id="sec.4-ssec.1-def.Commonwealthgenetechnologylaws"><b><i>Commonwealth gene
+technology laws</i></b></defterm> means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_99dad734-346b-4d3f-bbed-167bc7db8a25" id="sec.4-ssec.1-para1.a-oc.2">
+<no>(a)</no>
+<block><txt break.before="1">the Commonwealth Gene Technology Act,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_72dd4d11-16d3-4c5b-a0b4-e9b043a2b0c9" id="sec.4-ssec.1-para1.b-oc.2">
+<no>(b)</no>
+<block><txt break.before="1">the Commonwealth Licence Charges Act,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_14abc1fc-bb62-4349-b888-7bdb6e2c530b" id="sec.4-ssec.1-para1.c-oc.2">
+<no>(c)</no>
+<block><txt break.before="1">all regulations, guidelines, principles,
+standards and codes of practice in force under either of those
+Acts.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_000252f4-60a7-4214-83dc-c38cb99e61dc"
+id="sec.4-ssec.1-def.CommonwealthLicenceChargesAct"><b><i>Commonwealth Licence
+Charges Act</i></b></defterm> means the <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Gene Technology (Licence Charges) Act
+2000</i></name></legref> of the Commonwealth.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9ddac6ae-787f-4459-a8a9-e62078d72a1f"
+id="sec.4-ssec.1-def.CommonwealthRegulator"><b><i>Commonwealth
+Regulator</i></b></defterm> means the Gene Technology Regulator appointed
+under the Commonwealth Gene Technology Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_45d9623e-c7c3-416a-998b-1b3458d9bca5"
+id="sec.4-ssec.1-def.function"><b><i>function</i></b></defterm> includes
+duty.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bae82543-00fe-46af-a294-a4155ab6cb2e"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If an expression is defined in the Commonwealth
+Gene Technology Act and is also used in this Act, the expression as used in
+this Act has, unless the contrary intention appears, the same meaning as in
+that Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_04584684-6bb0-4615-87d1-587077a9822c"></attrib>
+<attrib name="id" value="sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this Act, a reference to a Commonwealth Act
+includes a reference to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6fb20c90-6cc5-40ef-a6cb-482157ccb700" id="sec.4-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">that Commonwealth Act, as amended and in force
+for the time being, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4d75bcf8-662e-4236-b53b-bc6f0623c40b" id="sec.4-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">an Act enacted in substitution for that Act and,
+if it is amended, as amended and in force for the time
+being.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 2007 No 86,
+Sch 2 [1] [2]; 2025 No 38, Sch 1.8[1].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_8a667a15-1e64-4375-bcf1-3a1d41033367"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_3f697fb1-a3ae-4e7e-96cb-13f6e3007625"
+id="pt.2-he"><b>The applied provisions</b></heading></head>
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_41e75ee3-ee49-4d40-a2cc-6ff505940444"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_8de64a92-0ab7-44d4-a3e9-dfdb363576da"
+id="sec.5-he"><b>Application of Commonwealth gene technology laws to this
+State</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e26211e5-16cd-4cb8-bf32-2ed7f300a311"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commonwealth gene technology laws, as in
+force for the time being, apply as a law of this State.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e7a3a197-61ba-46a0-9b45-921618b6c8e2"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Those Commonwealth gene technology laws so apply
+as if they extended to matters in relation to which this State may make
+laws&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a608569b-dba1-40ca-9f14-a1a649e83505" id="sec.5-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">whether or not the Commonwealth may make laws in
+relation to those matters, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8f567ab9-0edb-4229-97d0-ccd94a177737" id="sec.5-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">even though the Commonwealth gene technology laws
+provide that they apply only to specified matters with respect to which the
+Commonwealth may make laws.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 5:</b> Am 2007 No 86,
+Sch 2 [3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.6" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_39e38d8d-a957-4889-8124-5207b44bda1c"></attrib>
+<attrib name="id" value="sec.6"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>6</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 6:</b> Rep 2007 No 86,
+Sch 2 [4].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4a751c28-afd8-4aca-b193-d4aac83a0606"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_d130b797-1881-434f-a8b9-ed9abc7e98cf"
+id="sec.7-he"><b>Interpretation of Commonwealth gene technology
+laws</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f136c353-8400-4d1e-b441-d51b772035c3"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Acts Interpretation Act
+1901</i></name></legref> of the Commonwealth applies as a law of this State in
+relation to the interpretation of the applied provisions. That Act so applies
+as if the applied provisions were a Commonwealth Act or were regulations or
+other instruments under a Commonwealth Act, as the case
+requires.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_74bfdd2c-e3d2-4541-9bf1-d127ff7d76ed"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1987-015"><name emphasis="yes"><i>Interpretation
+Act 1987</i></name></legref> of New South Wales does not apply to the applied
+provisions.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_90f461fb-13fe-4dc4-bf90-1c9e8ac2b0ce"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_f6edd39b-11c0-45e7-bc7f-7c635dbf0549"
+id="pt.3-he"><b>Functions and powers under applied
+provisions</b></heading></head>
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7a6e50be-8d82-43c0-99ac-da334e3c0845"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_477ef595-e43c-40b7-92d7-6f77eb8358aa"
+id="sec.8-he"><b>Functions and powers of Commonwealth Regulator and other
+authorities and officers</b></heading></head>
+<block><txt break.before="1">The Commonwealth Regulator and other authorities
+and officers referred to in the applied provisions have the same functions and
+powers under the applied provisions as they have under the Commonwealth gene
+technology laws, as those laws apply to the
+Commonwealth.</txt></block></level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a4ec856a-a308-47c7-ab72-d71769a1c9ae"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_3ae8feff-9c5d-4eb6-b0d4-31e66f9eefa4"
+id="sec.9-he"><b>Delegations by the Commonwealth
+Regulator</b></heading></head>
+<block><txt break.before="1">Any delegation by the Commonwealth Regulator
+under the Commonwealth Gene Technology Act is taken to extend to, and have
+effect for the purposes of, the corresponding provision of the applied
+provisions.</txt></block></level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_53fc11ee-b76b-49b7-b5b8-a2626603cdc6"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_570f4c51-7d2b-4b6a-8adc-a852680a85f6"
+id="pt.4-he"><b>Offences</b></heading></head>
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_313727e4-2a5f-4d13-ab48-0cb68cc817f0"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_9ef0fee9-0d01-4c82-bafa-d5da799181f7"
+id="sec.10-he"><b>Object of this Part</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a8ce51b0-b43c-4bf9-9219-8ee69e3c04d9"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The object of this Part is to further the object
+of this Act by providing for an offence against the applied provisions to be
+treated as if it were an offence against a law of the
+Commonwealth.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3fad8896-7752-44d8-a0a5-3f4cdc1d585e"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The purposes for which an offence is to be
+treated as mentioned in subsection (1) include, for example (but are not
+limited to)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_69864b38-7713-49c9-9c58-84ffc59ba545" id="sec.10-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the investigation and prosecution of offences,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_32e68d0b-9c4c-4114-9d1c-a49126c0df11" id="sec.10-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the arrest, custody, bail, trial and conviction
+of offenders or persons charged with offences, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ecf1d64e-36ee-4901-b4c8-b4feb876e487" id="sec.10-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">proceedings relating to a matter referred to in
+paragraph (a) or (b), and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7da15b14-4629-4a02-bc90-86ff2b8bbb32" id="sec.10-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">appeals and reviews relating to criminal
+proceedings and to proceedings of the kind referred to in paragraph (c),
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e0669d72-406f-4065-99ce-7f3387789ef8" id="sec.10-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the sentencing, punishment and release of persons
+convicted of offences, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_40227df2-064c-4130-ba0e-fd9bfa1fdf40" id="sec.10-ssec.2-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">fines, penalties and forfeitures,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d03888f1-6760-466c-bf16-7446e70d200b" id="sec.10-ssec.2-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">liability to make reparation in connection with
+offences, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0e5c5a2b-47ef-405f-b69a-0fd0fecf4458" id="sec.10-ssec.2-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">proceeds of crime, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_60ae2db1-5274-489d-bd01-0ee89c106e82" id="sec.10-ssec.2-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">spent convictions.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_215edbd8-5837-466c-b4c2-5a42e18a43a7"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_ec5d15b9-c187-457c-a23b-f63f694d747e"
+id="sec.11-he"><b>Application of Commonwealth criminal laws to offences
+against applied provisions</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_94a1458b-9726-402e-bae3-eda352a542c7"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The relevant Commonwealth laws apply as laws of
+this State in relation to an offence against the applied provisions as if
+those provisions were a law of the Commonwealth and not a law of this
+State.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d569aaca-5859-488f-8a32-bfe6dfee4acc"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of a law of this State, an
+offence against the applied provisions&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f6600a3b-f1e9-48af-9e84-05e693416c64" id="sec.11-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is taken to be an offence against the laws of the
+Commonwealth, in the same way as if those provisions were a law of the
+Commonwealth, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_eaf01bd1-35bf-42ad-84fc-f5680b22be12" id="sec.11-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is taken not to be an offence against the laws of
+this State.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6c2b98fa-7a8f-4001-99ca-86aa855d8f68"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Subsection (2) has effect for the purposes of a
+law of this State except as provided by the regulations under this
+Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1038f8a7-922f-4b51-804d-544149de0bff"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_177b1d38-8632-4bcc-bdcb-e3c961d34c4e"
+id="sec.12-he"><b>Functions and powers conferred on Commonwealth officers and
+authorities relating to offences</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_acef982a-ecdf-4042-a3ae-1229f258ee68"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A Commonwealth law applying because of section 11
+that confers on a Commonwealth officer or authority a function or power in
+relation to an offence against the Commonwealth gene technology laws also
+confers on the officer or authority the same function or power in relation to
+an offence against the corresponding provision of the applied
+provisions.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_220d04ac-fd48-4dd5-b447-a5c5209aa628"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In performing a function or exercising a power
+conferred by this section, the Commonwealth officer or authority must act as
+nearly as practicable as the officer or authority would act in performing or
+exercising the same function or power in relation to an offence against the
+corresponding provision of the Commonwealth gene technology
+laws.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_59c81acd-725e-4d72-b2af-a08ae17fd7fb"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_25c790ae-4b32-4208-88c4-0191b20039c7"
+id="sec.13-he"><b>No double jeopardy for offences against applied
+provisions</b></heading></head>
+<block><txt break.before="1">If&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d4abde8f-6556-4f1b-87ee-70d334c9e4f9" id="sec.13-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">an act or omission is an offence against both the
+applied provisions and an offence against the Commonwealth gene technology
+laws, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c1b74995-f773-428f-a7fb-b6dcc41178a3" id="sec.13-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the offender has been punished for that offence
+under those Commonwealth laws,</txt></block></li></list>
+
+<txt break.before="1">the offender is not liable to be punished for the
+offence under the applied provisions.</txt></block></level>
+</level>
+
+
+<level type="part" id="pt.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_53c60d21-7ae7-42b3-b489-f6ef0f8a6166"></attrib>
+<attrib name="id" value="pt.5"></attrib></parentattributes>
+
+<head>
+<no><b>Part 5</b></no><heading guid="_9d23aac8-1406-4a2e-bcf2-de133e0d1282"
+id="pt.5-he"><b>Administrative laws</b></heading></head>
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fcff38d7-c943-4a14-9c5d-7bc2dda5778f"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_af6b589e-39f4-4c6e-be01-8efeb2daa1be"
+id="sec.14-he"><b>Application of Commonwealth administrative laws to applied
+provisions</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_495a957e-dbaa-40ab-a135-b77a6b89df8a"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commonwealth administrative laws apply as
+laws of this State to any matter arising in relation to the applied provisions
+as if those provisions were a law of the Commonwealth and not a law of this
+State.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_61e0c99f-5574-43e5-a26d-bdca147399da"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of a law of this State, a matter
+arising in relation to the applied provisions&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fd2880dd-17ee-42a7-9e57-1c9373bb000a" id="sec.14-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is taken to be a matter arising in relation to
+laws of the Commonwealth in the same way as if those provisions were a law of
+the Commonwealth, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_170a469b-b583-4f6e-bd56-4921491b3624" id="sec.14-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is taken not to be a matter arising in relation
+to laws of this State.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9709d4a3-b9bb-443b-9d26-a5b2c8a4c1dc"></attrib>
+<attrib name="id" value="sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Subsection (2) has effect for the purposes of a
+law of this State except as provided by the regulations under this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1f2c9da7-cf42-4280-a30b-592fddc654f9"></attrib>
+<attrib name="id" value="sec.14-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Any provision of a Commonwealth administrative
+law applying because of this section that purports to confer jurisdiction on a
+federal court is taken not to have that effect.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fa2d88dd-7603-416e-a740-850dbd6245d1"></attrib>
+<attrib name="id" value="sec.14-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">For this section, a reference in a provision of
+the <legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="yes"><i>Administrative Review Tribunal Act 2024</i></name></legref>
+of the Commonwealth, as the provision applies as a law of this jurisdiction,
+to the whole or a part of that Act, Part 7 is taken to be a reference to the
+whole or a part of that Act, Part 7 as it has effect as a law of the
+Commonwealth.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 14:</b> Am 2025 No 38,
+Sch 1.8[2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_71c51490-8251-48a1-8163-6b5c097b98ef"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_caca0ad6-198b-4534-a2e8-6e2ab255d9a2"
+id="sec.15-he"><b>Functions and powers conferred on Commonwealth officers and
+authorities</b></heading></head>
+
+<tier type="subclause" id="sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1351c7cf-0fe7-4e5b-b3f6-6b3ad3caa74e"></attrib>
+<attrib name="id" value="sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A Commonwealth administrative law applying
+because of section 14 that confers on a Commonwealth officer or authority a
+function or power also confers on the officer or authority the same function
+or power in relation to a matter arising in relation to the applied
+provisions.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b916ef87-50dc-4508-b0d7-12a4b3e25f30"></attrib>
+<attrib name="id" value="sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In performing a function or exercising a power
+conferred by this section, the Commonwealth officer or authority must act as
+nearly as practicable as the officer or authority would act in performing or
+exercising the same function or power under the Commonwealth administrative
+law.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_b100d499-af9c-4e6c-bc2a-b2c726661b17"></attrib>
+<attrib name="id" value="pt.6"></attrib></parentattributes>
+
+<head>
+<no><b>Part 6</b></no><heading guid="_500b0eb9-b13c-4091-a199-6ae6c674631e"
+id="pt.6-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d301722c-6489-40a5-9e79-3ca05aca1b42"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_45eb4ee7-92bb-4c06-bb6a-0c90fa184958"
+id="sec.16-he"><b>Act to bind Crown</b></heading></head>
+<block><txt break.before="1">This Act binds the Crown in right of New South
+Wales and, in so far as the legislative power of Parliament permits, the Crown
+in all its other capacities.</txt></block></level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4f7d5ded-f0e4-4795-b4df-ae9ef0df95e2"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_fc410e1b-d8db-4fcf-b730-dae45aad325c"
+id="sec.17-he"><b>Things done for multiple purposes</b></heading></head>
+<block><txt break.before="1">The validity of a licence, certificate or other
+thing issued, given or done for the purposes of the applied provisions is not
+affected only because it was issued, given or done also for the purposes of
+the Commonwealth gene technology laws.</txt></block></level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_99b61417-a46d-48e8-a5a3-48e793d9adb8"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_441fda04-e9fd-4afd-9672-a52ed7b658fd"
+id="sec.18-he"><b>Reference in Commonwealth law to a provision of another
+law</b></heading></head>
+<block><txt break.before="1">For the purposes of sections 11 and 14, a
+reference in a Commonwealth law to a provision of that or another Commonwealth
+law is taken to be a reference to that provision as applying because of that
+section.</txt></block></level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6c046f73-2895-465c-ba19-f03569be1870"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_2315c2a1-f596-4a76-964f-f9e93c52a7f5"
+id="sec.19-he"><b>Fees and other money</b></heading></head>
+<block><txt break.before="1">All fees, penalties, fines and other money that,
+under this Act and the applied provisions, are authorised or directed to be
+payable by or imposed on any person (but not including an amount ordered to be
+refunded to another person) must be paid to the
+Commonwealth.</txt></block></level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_06e664b3-5f8f-4516-8b38-7074e47b4b31"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_5cdd82e2-7026-4010-8e77-f05c8416eed2"
+id="sec.20-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.21" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a1f498f8-3320-4cd3-8edc-8d99f06cc001"></attrib>
+<attrib name="id" value="sec.21"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>21</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 21:</b> Rep 2011 No 62,
+Sch 5.</txt></content>
+</level>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_f5c7a160-a409-4e69-ba3f-a7433b2f5d34"
+id="ed-he"><b>Historical notes</b></heading></head>
+<block><txt break.before="1">See also <legref jurisd="NSW" type="act"
+check="unknown" refid="act-2003-012"><name emphasis="yes"><i>Gene Technology
+(GM Crop Moratorium) Act 2003</i></name></legref>.</txt></block>
+
+<level type="tableleg">
+<head><heading guid="_e23d5d0d-5e4c-4a7b-a9e4-0c950d35027e"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2003-011"><name emphasis="yes"><i>Gene Technology (New South Wales)
+Act 2003</i></name> No 11</legref>. Second reading speech made: Legislative
+Council, 21.5.2003; Legislative Assembly, 30.5.2003. Assented to 25.6.2003.
+Date of commencement, 11.7.2003, sec 2 and GG No 111 of 11.7.2003, p 7020.
+This Act has been amended as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_281a1a70-516e-4bfb-b7dd-ec789c33c45b" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_2ed47387-47b8-4348-bce8-ce3a01e86f19" id="ed-tbl-tblr">
+<entry colname="1" guid="_df400e99-7d78-48f0-98c7-a0085f3bbbc5"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>2007</b></txt></entry>
+<entry colname="2" guid="_912eeca5-9b11-495f-a406-e77f11478cf2"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 86</txt></entry>
+<entry colname="3" guid="_4c942443-e749-48be-8f63-226c52262f5e"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2007-086"><name emphasis="yes"><i>Gene Technology (GM Crop
+Moratorium) Amendment Act 2007</i></name></legref>. Assented to
+7.12.2007.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 11.1.2008, sec 2 (1) and
+GG No 4 of 11.1.2008, p 27.</txt></block></entry></row>
+
+
+<row guid="_1b8b4196-2e07-4a39-9f99-92715ec9e126" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_6c530691-24b2-4895-ae6b-565e5538e7b5"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>2011</b></txt></entry>
+<entry colname="2" guid="_21c4d046-3495-4f7e-8778-6733c1b5bc3f"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 62</txt></entry>
+<entry colname="3" guid="_ae7fa88c-121d-43c3-9b1c-d466c93c5bbe"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2011-062"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2011</i></name></legref>. Assented to
+16.11.2011.</txt>
+<txt break.before="1">Date of commencement of Sch 5, 6.1.2012, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_76d316b2-b5ab-4ce3-a2a4-183216d43555" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_36b70824-92d5-4909-885c-66ba8459d6d9"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>2025</b></txt></entry>
+<entry colname="2" guid="_66ebc34b-c4db-45e1-987b-78ad88dd4308"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 38</txt></entry>
+<entry colname="3" guid="_dc2f52c4-06aa-44c4-b66e-ae2871a02a98"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law Amendment (Administrative
+Appeals Tribunal) Act 2025</i></name></legref>. Assented to 3.7.2025.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_f3907d88-b2cf-4689-8f74-3f4c63242fca"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_4a9d764e-30fe-49f3-b1a2-ea77cbbaac65" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_69c3f350-dc94-43ab-b5e7-9106b9a2add7" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_fd9d5cd3-5c7a-4bfe-8a89-638f5835e471"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_7a301880-42b8-43b1-ae7c-f3f50f17f5b8"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 2007 No 86, Sch 2 [1]
+[2]; 2025 No 38, Sch 1.8[1].</txt></entry></row>
+
+
+<row guid="_24576a20-8a66-4ea5-86b4-af62770ae4db" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_4b3a7e95-fac0-405f-9c09-1c51d1b534f4"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 5</txt></entry>
+<entry colname="2" guid="_92fe61a6-8e7e-4b89-b182-6e0c32925638"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 2007 No 86, Sch 2
+[3].</txt></entry></row>
+
+
+<row guid="_ec4383b8-82ee-4df7-9b1f-a34c79971638" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_446c0e9e-9cfd-41c3-bcda-d0753d992295"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 6</txt></entry>
+<entry colname="2" guid="_26621c6e-27c0-4273-9c18-cbd38f3d7763"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Rep 2007 No 86, Sch 2
+[4].</txt></entry></row>
+
+
+<row guid="_a114a351-093e-4a9b-aa85-2fcefea0dab2" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_c95c0959-7fcc-4891-9f1f-69dc71fa48e1"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 14</txt></entry>
+<entry colname="2" guid="_d099566a-7fae-461d-92cb-16cfbff43fbd"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Am 2025 No 38, Sch
+1.8[2].</txt></entry></row>
+
+
+<row guid="_40a1eb33-8ec1-430d-93d6-e6e8c60b2474" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_f5e84b3b-0f7a-4c5e-a8bf-5c4aa308dbbb"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 21</txt></entry>
+<entry colname="2" guid="_0f9ad6d2-d1cb-4c91-a331-f1f2c54322f0"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Rep 2011 No 62, Sch
+5.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

@@ -1,0 +1,1017 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1969-059"
+title="Council of Law Reporting Act 1969"
+year="1969"
+number="59"
+enact.or.made.date="1969-10-27"
+first.valid.date="2024-07-01"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1969</metacontent>
+<metacontent class="year.assent">1969</metacontent>
+<metacontent class="publication.date">2024-07-01</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2024-035</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1969-059</metacontent>
+<metacontent
+class="version.desc.id">3a6709af-809d-4a20-b4c3-470b10cf8879</metacontent>
+<metacontent
+class="version.series.id">fa434fe0-23dd-4c24-a0ab-f0da99dc9b47</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Council of Law Reporting Act 1969"></attrib>
+<attrib name="year.passed" value="1969"></attrib>
+<attrib name="year.assent" value="1969"></attrib>
+<attrib name="no" value="59"></attrib>
+<attrib name="publication.date" value="2024-07-01"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2024-035"></attrib>
+<attrib name="first.valid.date" value="2024-07-01"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1969-10-27"></attrib>
+<attrib name="id" value="act-1969-059"></attrib>
+<attrib name="version.desc.id"
+value="3a6709af-809d-4a20-b4c3-470b10cf8879"></attrib>
+<attrib name="version.series.id"
+value="fa434fe0-23dd-4c24-a0ab-f0da99dc9b47"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_eb7aebc1-fe40-45ab-97a6-9a33a17b185a"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to constitute a Council of Law Reporting
+for New South Wales; to define its powers, authorities, duties and functions;
+and for purposes connected therewith.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c6d9f902-1269-47f7-a472-335d178bbdd9"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_36e6956c-5e21-42f3-8b2f-0bf3800a0006"
+id="sec.1-he"><b>Name of Act and commencement</b></heading></head>
+
+<tier type="subclause" id="sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b2237e3b-a8b7-4fb3-b5e0-9f8452914f62"></attrib>
+<attrib name="id" value="sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This Act may be cited as the <legref
+refid="act-1969-059" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Council of Law Reporting Act
+1969</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ade2653c-80cd-4049-a604-6b149f2d05e8"></attrib>
+<attrib name="id" value="sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This Act shall commence upon a day to be
+appointed by the Governor and notified by proclamation published in the
+Gazette.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_313e7aaa-941f-4022-80f6-58d46cbeeb83"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_a156061f-cc15-49bf-9e73-a1e998b4bffc"
+id="sec.2-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Act, except in so far as the context or
+subject matter otherwise indicates or requires&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9dac10d3-727d-4981-8d1a-be564aa2178f"
+id="def.Council"><b><i>Council</i></b></defterm> means the Council of Law
+Reporting.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_0e57f973-2b7e-4ae2-a677-a212dc12c0aa"
+id="def.Member"><b><i>Member</i></b></defterm> means a member of the
+Council.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0f423831-3fbf-446d-82df-0274b1113fab"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_8672cf18-fed4-4e52-9e0e-ba8f27528f52"
+id="sec.3-he"><b>The Council</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0b23756a-2d43-4a36-8310-1136bdcdf833"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There shall be a Council of Law Reporting which
+shall have and may exercise the powers, authorities, duties and functions
+conferred and imposed upon it by this Act.</txt></block>
+<block><txt break.before="1">In so far as other provision is not made in this
+Act the Council, in the exercise and discharge of its powers, authorities,
+duties and functions, shall, if the Minister gives any directions in that
+behalf, comply with those directions.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2ca6b606-f024-4841-9ba7-001c433f7ee7"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Council shall consist of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b4c19b4a-2fd0-4a49-bee4-e6160c121019" id="sec.3-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Attorney General,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_205e37b9-5c24-4788-b381-4a5e6d00ee3d" id="sec.3-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the Solicitor General,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0c38fc4c-4c88-4257-b6da-0a0f04f8ca10" id="sec.3-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the persons who, for the time being hold the
+following offices, that is to say&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5fc3cbec-9dda-42be-8c0b-9ffb1b4bcf7d"
+id="sec.3-ssec.2-para1.c-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">President of the Council of the New South Wales
+Bar Association,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6da28d48-e3e2-4133-a8ba-e797bcde8af7"
+id="sec.3-ssec.2-para1.c-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">President of the Law Society of New South Wales,
+and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ea081c60-27ae-4965-a981-15fae6e118d0" id="sec.3-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">seven other persons appointed by the
+Governor.</txt></block></li></list>
+</block>
+<block><txt break.before="1">The persons appointed pursuant to paragraph (d)
+are hereinafter referred to as <defterm type="definition"
+guid="_6131dbd3-957d-4ef7-bddd-f32928a14b81"
+id="sec.3-def.appointedmembers"><b><i>appointed
+members</i></b></defterm>.</txt></block>
+<block><txt break.before="1">The Attorney General may appoint a deputy to act
+on his or her behalf at any meeting of the Council which he or she is unable
+to attend and a deputy so appointed shall be entitled so to act and while so
+acting shall be deemed to be a member of the Council.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b0dd8919-53fa-479f-8e04-6f7acb31046c"></attrib>
+<attrib name="id" value="sec.3-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Of the appointed members, five shall be
+barristers appointed on the nomination of the Council of the New South Wales
+Bar Association, and two shall be solicitors appointed on the nomination of
+the Council of the Law Society of New South Wales.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f09e7496-71a4-457e-a2ef-c783632efb4b"></attrib>
+<attrib name="id" value="sec.3-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6ebf1754-1c19-4878-b4e0-463c4b714d5e" id="sec.3-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">An appointed member shall, subject to this Act,
+hold office for a period of three years from the date of
+appointment.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_daaafa32-c4c2-4cee-b264-78a0c92264e0" id="sec.3-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">Upon the expiration of his or her term of office
+as an appointed member, an appointed member shall, if otherwise qualified, be
+eligible for re-appointment from time to time. Any such re-appointment shall
+be for a term of three years.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_34d3bc08-b772-454f-b23c-dc84847c4946" id="sec.3-ssec.4-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">On the occurrence of a vacancy in the office of
+an appointed member, the person appointed to fill the vacant office shall,
+subject to this Act, hold office for the remainder of the unexpired term of
+the vacant office, but shall be eligible for
+re-appointment.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5a9eefab-6aba-4201-b184-37afafded855"></attrib>
+<attrib name="id" value="sec.3-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The persons named in the Schedule shall be deemed
+to have been appointed by the Governor under this Act as the first appointed
+members and to have been nominated as shown beside the name of each in that
+Schedule.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3d1961fc-2805-474d-a5b1-31b910530155"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_44737ca7-4382-4dae-baea-d75fd811a0b2"
+id="sec.4-he"><b>Vacation of office</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6cb44761-9c4a-4c73-ab14-8d0a3a099f41"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An appointed member shall be deemed to have
+vacated office if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f602ad02-8408-4280-b805-9405faead7e4" id="sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">for any cause which appears to the Governor
+sufficient the member is removed from office by the
+Governor,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a8b414e6-763f-4c82-aa22-bc67d7571f2c" id="sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the member becomes bankrupt, or compounds with
+his or her creditors,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_00bd34f5-2f15-4afe-8863-4083a50243ea" id="sec.4-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the member becomes a mentally ill person, a
+protected person, or an incapable person within the meaning of the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Mental Health
+Act 1958</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9d7e60b4-e742-4ea3-b241-314ad8af1c1f" id="sec.4-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the member is convicted in New South Wales of an
+indictable offence that is punishable by imprisonment for 12 months or more or
+is convicted elsewhere than in New South Wales of an indictable offence that
+if committed in New South Wales would be an offence so punishable,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fc394381-2467-45ca-a738-0e18689d8ef0" id="sec.4-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the member resigns office by writing under the
+member&#8217;s hand addressed to the Governor.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a677c662-3479-406b-8761-77d10aaf44d1"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Where a vacancy occurs in the office of an
+appointed member the Governor may, on the nomination of the person who
+nominated the member in whose office the vacancy has occurred, appoint a
+person to fill the vacant office.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 1999 No 94,
+Sch 4.96.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_05a24685-0775-46a6-9f60-a6c2deec5bf3"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_07da6840-1c07-42c1-8cdb-2d29cf5a5d94"
+id="sec.5-he"><b>Council to be body corporate</b></heading></head>
+<block><txt break.before="1">The Council shall be a body
+corporate.</txt></block>
+<block><txt break.before="1">The corporate name of the Council shall be
+&#8220;The Council of Law Reporting for New South
+Wales&#8221;.</txt></block></level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b6fdcf10-135e-424c-9e95-4c807e271a35"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_a15492ca-2653-498b-bd7a-5bdf01f1be72"
+id="sec.6-he"><b>Meetings of Council</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8f84ade2-31c0-4a1d-a07f-c47cbd688cef"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The appointed members shall elect from among
+their number a chairperson and a deputy chairperson.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ad958faa-a34a-4c95-941f-5935b3e6facd"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The chairperson shall preside at meetings of the
+Council at which the chairperson is present, and in his or her absence the
+deputy chairperson shall preside.</txt></block>
+<block><txt break.before="1">In the absence from a meeting of both the
+chairperson and the deputy chairperson, the members shall elect one of their
+number to preside.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_14bdf1f7-b177-4222-bccc-35b9a3ef725c"></attrib>
+<attrib name="id" value="sec.6-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">At any meeting of the Council three members shall
+constitute a quorum and any meeting at which a quorum is present shall be
+competent to transact any business of the Council, and shall have and may
+exercise and discharge all the powers, authorities, duties and functions of
+the Council.</txt></block>
+<block><txt break.before="1">A decision of the majority of members present at
+a meeting of the Council shall be the decision of the
+Council.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2ba07bbf-9bc1-44cd-a460-9700c3f63c48"></attrib>
+<attrib name="id" value="sec.6-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">At any meeting of the Council the chairperson or
+the deputy chairperson or the member presiding as chairperson shall have a
+deliberative vote, and if the voting is equal, a casting
+vote.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_610c2684-0e82-4a97-a725-7069801fa449"></attrib>
+<attrib name="id" value="sec.6-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The procedure for the calling of meetings of the
+Council and for the conduct of business at such meetings shall be as
+determined by the Council.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2b53e068-f540-4c73-a07c-31fbabef1f2b"></attrib>
+<attrib name="id" value="sec.6-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">No act or proceeding of the Council shall be
+invalidated or prejudiced by reason only of the fact that at the time when
+such act or proceeding was done, taken or commenced, there was a vacancy in
+the office of a member.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_340ff050-5ff9-4e0f-88bb-7bc4132e2738"></attrib>
+<attrib name="id" value="sec.6-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">No matter or thing done, and no contract entered
+into by the Council and no matter or thing done by any member or by any other
+person whomsoever acting under the direction of the Council shall, if the
+matter or thing was done or the contract was entered into bona fide for the
+purpose of executing this Act, subject them or any of them personally to any
+action, liability, claim or demand whatsoever.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e128823b-5a8d-4898-8252-d7f4ea32f11c"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_8ebc6ed7-2ec1-4daa-9c76-08f072ca4bcb"
+id="sec.7-he"><b>Powers of Council</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2657285d-cc43-49e3-aa71-9ae387c1036f"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Council may do all or any of the following
+things that is to say&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7363100e-2e50-40d2-965d-07de7e02f466" id="sec.7-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">prepare, publish and sell or arrange for the
+preparation, publication and sale of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fa53c0cd-90a7-4d15-af6d-738a902d85e5"
+id="sec.7-ssec.1-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">reports of such judicial decisions of any Court
+or such decisions of any tribunal constituted by or under any Act or of
+decisions in proceedings whether on appeal therefrom or otherwise as it may
+consider to be of interest to persons engaged in the administration or
+practice of law in New South Wales,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_70557ac1-bd06-42a5-98b3-c62fa3533455"
+id="sec.7-ssec.1-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">any summary extract or digest of any such
+reports,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a9293217-762d-4c25-a697-976453cc1874"
+id="sec.7-ssec.1-para1.a-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">any other legal works relating to such reports,
+and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c0b10ea3-9208-459c-b15a-55ef2c15d8f0" id="sec.7-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">all other acts or things incidental to or
+necessary to be done in connection with the foregoing
+powers.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4c6be6a5-f9ab-44df-926d-81a3adbdde84"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Where the business of any person, firm or
+corporation is the carrying on of or includes the carrying on of all or any of
+the activities or matters referred to in subsection (1), the Council may, if
+it thinks fit, on such terms as may be agreed upon between that person, firm
+or corporation and the Council, purchase the business relating to, or so much
+of the business as relates to, all or any of such activities or
+matters.</txt></block>
+<block><txt break.before="1">The Council may, as it thinks fit, discontinue
+any business so purchased, or continue it wholly or in
+part.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_84b25100-1a1f-46d7-941e-bdc306a261aa"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_cb043019-526d-4231-9efe-1cf415dff0b2"
+id="sec.8-he"><b>Employees</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a93a2d91-2ae5-4d92-854c-482acb702e06"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Council may appoint and employ such employees
+as may be necessary for the exercise and discharge of the powers, authorities,
+duties and functions conferred and imposed on the Council by this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_400ab1a6-c07f-4870-86bc-dcf30a814cc0"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of this Act, the Council
+may&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dcd781ab-625d-4b9a-bbd3-c21cc30f5632" id="sec.8-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">with the approval of the Minister to whom the
+Public Service agency concerned is responsible and of the Secretary of the
+Premier&#8217;s Department, and on such terms as may be arranged, make use of
+the services of persons employed in a Public Service agency,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b6f3bce8-3150-4ff2-9bed-b991fea528ac" id="sec.8-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">arrange with any person, firm or corporation for
+the use by the Council on such terms as may be agreed upon, of the services of
+any employee of such person, firm or corporation.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 8:</b> Am 2015 No 15,
+Sch 3.14; 2024 No 35, Sch 3.4.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2c411cb5-2d14-4b80-a4f3-1395279b47e4"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_e5832b1b-f690-4dcb-ae41-3e174f83ed1c"
+id="sec.9-he"><b>Contracts</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7fcb392d-2850-4b67-8061-7564c27f6ead"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Council may make and enter into contracts
+with any person, firm or corporation in connection with the exercise or
+discharge by the Council of its powers, authorities, duties and
+functions.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_27f5fa2b-f09a-492a-9168-702d74aa325a"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such contract shall be in the name of the
+Council and may be made as follows, that is to say&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1b215ca3-df03-4e4d-83ca-097739af1947" id="sec.9-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">with respect to any contract which, if made
+between private persons, would be by law required to be in writing and signed
+by the parties to be charged therewith, or in writing and under seal, the
+Council may make such contract in writing and under its common seal and in the
+same manner may vary or discharge the same,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0056c66f-da31-4d1f-b4aa-7301edb1f737" id="sec.9-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">with respect to any contract which, if made
+between private persons, would by law be valid although made by parol only and
+not reduced into writing, the chairperson may make such contract by parol only
+without writing and in the same manner may vary or discharge the
+same.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9d7d66f3-076c-4396-aa94-878a84ea1dfc"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_27e9a9fc-3bb0-4ddb-9738-242fdea59292"
+id="sec.10-he"><b>Exercise of powers etc</b></heading></head>
+<block><txt break.before="1">The exercise and discharge of the powers,
+authorities and functions conferred and imposed on the Council by subsection
+(2) of section 7, paragraph (b) of subsection (2) of section 8, and subsection
+(1) of section 9, shall be subject to the provision of funds being available
+for the purposes for which such powers, authorities and functions are
+exercised and discharged.</txt></block></level>
+
+
+<level type="clause" id="sec.11" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4dbd12e5-1409-4ea3-8917-db97d2373df5"></attrib>
+<attrib name="id" value="sec.11"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>11</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Rep 1983 No
+153, Sch 1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_34f7ef7c-84e8-4179-9c71-269162dcd42c"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_361d70ea-5537-40d4-994b-c3b426b626ad"
+id="sec.12-he"><b>Power to acquire by gift, bequest or
+devise</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8c1fac2f-ae48-4b8d-a177-c847a90ce4e8"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Council has power to acquire by gift inter
+vivos, bequest or devise, any property for any of the purposes of this Act,
+and to agree to and carry out the conditions of the gift, bequest or
+devise.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dc543f2f-cfac-45e1-b5d2-4fa584198bfc"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The rule of law relating to perpetuities does not
+apply to any such condition to which the Council has
+agreed.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fa6981e0-e016-4924-a2d4-7f436d0316b4"></attrib>
+<attrib name="id" value="sec.12-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Nothing contained in the <legref
+refid="act-1920-047" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Stamp Duties Act 1920</i></name></legref> shall apply to any
+real or personal property of any nature or kind whatsoever comprised in any
+gift inter vivos, bequest or devise, made, or to be made to the
+Council.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1b01f344-1dcd-41b2-b467-1abfcb93fcc8"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_97fa640e-527c-480c-970e-ae7cbf261bd7"
+id="sec.13-he"><b>Holding property on trust</b></heading></head>
+<block><txt break.before="1">The Council shall, subject to section 12, and to
+the terms of any trust or conditions affecting the same, hold any property
+acquired by it on trust to apply the property for the purposes of carrying out
+or giving effect to all or any of the powers, authorities, duties and
+functions of the Council.</txt></block></level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4577e3af-8521-49f0-947c-b3e1b367517e"></attrib>
+<attrib name="id" value="sch"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule</b></no></head>
+<block align="right" type="sourceref"><txt>(Section 3)</txt></block>
+<block><txt break.before="1">Richard Thornton Harvey Barbour, Esquire. The
+Council of the New South Wales Bar Association.</txt></block>
+<block><txt break.before="1">Malcolm Rodger Hardwick, Esquire. The Council of
+the New South Wales Bar Association.</txt></block>
+<block><txt break.before="1">Trevor Rees Morling, Esquire. The Council of the
+New South Wales Bar Association.</txt></block>
+<block><txt break.before="1">George Denys Needham, Esquire. The Council of the
+New South Wales Bar Association.</txt></block>
+<block><txt break.before="1">Arthur Francis Rath, Esquire. The Council of the
+New South Wales Bar Association.</txt></block>
+<block><txt break.before="1">George Lane Small, Esquire. The Council of the
+Law Society of New South Wales.</txt></block>
+<block><txt break.before="1">Bryce Ernest Ross Jones, Esquire. The Council of
+the Law Society of New South Wales.</txt></block></level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_6930833c-7236-4f8d-93f6-9ea93acfa3d1"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_ffc08a24-527c-46b6-a7d6-6f18b0d8ad68"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-1969-059" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Council of Law Reporting
+Act 1969</i></name> No 59</legref>. Assented to 27.10.1969. Date of
+commencement, 1.1.1970, sec 1 (2) and GG No 144 of 12.12.1969, p 5142. This
+Act has been amended as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_8456f2ce-2e48-439d-847f-4458fdf28648" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_df3f95bc-a94b-4dcd-b844-cadc774d67cc" id="ed-tbl-tblr">
+<entry colname="1" guid="_c01d17b1-5f25-453a-a972-1be630654d0e"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1983</b></txt></entry>
+<entry colname="2" guid="_8dd4f3ff-c02f-4aed-80f1-ca1943dc9966"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 153</txt></entry>
+<entry colname="3" guid="_4854e597-c7b8-4908-ab51-c32cd928ce44"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Public Finance and
+Audit) Repeal and Amendment Act 1983</i></name></legref>. Assented to
+29.12.1983.</txt>
+<txt break.before="1">Date of commencement of Sch 1, 6.1.1984, sec 2 (2) and
+GG No 4 of 6.1.1984, p 19.</txt></block></entry></row>
+
+
+<row guid="_3ae6ae5b-2470-4776-b034-4e049e248d2c" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_86cb8408-71ca-4af8-8b10-591069acff9f"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>1996</b></txt></entry>
+<entry colname="2" guid="_f10ab87d-2ecd-4346-ba9b-a9c300ec6e2c"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 121</txt></entry>
+<entry colname="3" guid="_fed9d9cb-efb8-4c54-a3d0-80e720beb1a0"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1996</i></name></legref>. Assented to 3.12.1996.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 3 months after assent,
+sec 2 (3).</txt></block></entry></row>
+
+
+<row guid="_6c207cfb-d263-48ad-825e-8b5e00c151ba" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_4e9a1f19-4a1b-478e-8251-47914553fe8f"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>1999</b></txt></entry>
+<entry colname="2" guid="_f2607b99-fe0f-45f4-b54c-b48ed8a12c02"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 94</txt></entry>
+<entry colname="3" guid="_d7d3f11b-e6f2-43a0-b53b-29bece2987e5"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Crimes Legislation Amendment
+(Sentencing) Act 1999</i></name></legref>. Assented to 8.12.1999.</txt>
+<txt break.before="1">Date of commencement of Sch 4.96, 1.1.2000, sec 2 (1)
+and GG No 144 of 24.12.1999, p 12184.</txt></block></entry></row>
+
+
+<row guid="_663f41c3-04b3-4fb4-b814-41812d6d2e74" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_07da52b0-8f9c-4876-829d-3d881b5f5ee5"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>2015</b></txt></entry>
+<entry colname="2" guid="_7085ca33-8acf-4981-86f6-376b2159b37f"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 15</txt></entry>
+<entry colname="3" guid="_949174fa-00c2-44f2-b8f8-3013441e2d9d"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref refid="act-2015-015" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2015</i></name></legref>. Assented to 29.6.2015.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 15.7.2015, sec 2
+(3).</txt></block></entry></row>
+
+
+<row guid="_a37da173-a57d-4c4e-8b3b-c491569900b1" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_bfe7e257-b55b-49db-8f70-a118f96e9b77"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>2024</b></txt></entry>
+<entry colname="2" guid="_ed404847-b7bb-4664-965f-4d76eb333796"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 35</txt></entry>
+<entry colname="3" guid="_176fec06-fca0-4e93-964d-5e6e39db416d"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Employment and Other
+Legislation Amendment Act 2024</i></name></legref>. Assented to
+24.6.2024.</txt>
+<txt break.before="1">Date of commencement, 1.7.2024, sec 2 and 2024 (235) LW
+26.6.2024.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">This Act has also been amended pursuant to an
+order under secs 8 (2) and 9 (3) of the <legref refid="act-1972-048"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Reprints Act
+1972</i></name> No 48</legref> (formerly <legref refid="act-1972-048"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Acts
+Reprinting Act 1972</i></name></legref>). Order dated 12.10.1981, and
+published in GG No 154 of 16.10.1981, p 5357, declaring that the <legref
+refid="act-1969-059" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Council of Law Reporting Act 1969</i></name></legref> is an
+enactment to which sec 8 (2) and sec 9 (3) of the <legref refid="act-1972-048"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Reprints Act
+1972</i></name></legref> apply.</txt></block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_fc7d9c70-bd84-4ce7-8896-64798e491690"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block><txt break.before="1">No reference is made to certain amendments made
+by the <legref refid="act-1972-048" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Reprints Act 1972</i></name></legref>,
+and Schedule 3 (amendments replacing gender-specific language) to the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Statute Law
+(Miscellaneous Provisions) Act (No 2) 1996</i></name></legref>.</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_634db797-9c74-4e66-b179-041f797f6f99" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_9487417c-bbb5-4e90-9137-85f3c349ed09" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_d464d1a4-1954-432b-9a1f-2dbf023fcf2a"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_ea27a74c-be4e-4e26-992f-d7c351b9e4f2"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 1999 No 94, Sch
+4.96.</txt></entry></row>
+
+
+<row guid="_58191951-0f5a-4f35-8c9c-262d7af86dbe" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_9387234f-1732-4b97-a4c7-4123791ea00a"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 8</txt></entry>
+<entry colname="2" guid="_09963215-6784-4013-a00a-e23fb5e208f5"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 2015 No 15, Sch
+3.14; 2024 No 35, Sch 3.4.</txt></entry></row>
+
+
+<row guid="_a20594fd-04b9-4fc0-a374-be2b08d43434" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_ea24a751-a092-433e-9e73-2347af90847d"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 11</txt></entry>
+<entry colname="2" guid="_6a8c6d36-dca1-415d-ae26-964e299f7083"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Rep 1983 No 153, Sch
+1.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

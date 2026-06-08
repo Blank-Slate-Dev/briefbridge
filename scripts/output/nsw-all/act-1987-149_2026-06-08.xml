@@ -1,0 +1,1033 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1987-149"
+title="Standard Time Act 1987"
+year="1987"
+number="149"
+enact.or.made.date="1987-10-23"
+first.valid.date="2007-11-01"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1987</metacontent>
+<metacontent class="year.assent">1987</metacontent>
+<metacontent class="publication.date">2026-05-28</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2007-044</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1987-149</metacontent>
+<metacontent
+class="version.desc.id">6f23dc4f-7a8e-4b2c-af70-09146a0ea8b7</metacontent>
+<metacontent
+class="version.series.id">e5e97e14-8dc8-42c8-88da-f54e79901163</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Standard Time Act 1987"></attrib>
+<attrib name="year.passed" value="1987"></attrib>
+<attrib name="year.assent" value="1987"></attrib>
+<attrib name="no" value="149"></attrib>
+<attrib name="publication.date" value="2026-05-28"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2007-044"></attrib>
+<attrib name="first.valid.date" value="2007-11-01"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1987-10-23"></attrib>
+<attrib name="id" value="act-1987-149"></attrib>
+<attrib name="version.desc.id"
+value="6f23dc4f-7a8e-4b2c-af70-09146a0ea8b7"></attrib>
+<attrib name="version.series.id"
+value="e5e97e14-8dc8-42c8-88da-f54e79901163"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_0ffc0377-5a45-4116-bb65-b68affc5b8db"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_935e26e7-7e8c-4c95-8b7d-968f33125033"
+id="cd-status-he"><b>See also&#8212;</b></heading></head>
+<block><txt break.before="1"><legref type="bill" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Standard Time Amendment (Reduction of
+Daylight Saving) Bill 2026</i></name></legref> [Non-government Bill&#8212; Mr
+Geoff Provest, MP]</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_6a2f9aae-01d0-4a0c-90c4-37f8579927a9"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act relating to standard time and daylight
+saving in New South Wales.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_ed419146-e6cb-46c6-81be-ca466f09f2d1"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_66cc957d-113c-4197-9f7e-af3457693d04"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_be20f590-0c1b-4c8d-8063-5962d42dc545"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_7cd9864a-cef2-450f-8b4f-963167ab3864"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act may be cited as the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1987-149"><name
+emphasis="yes"><i>Standard Time Act
+1987</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_30690c1a-a760-429f-bcf7-a4f67b1d0a77"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_620f5af9-5194-4a78-9fa3-36029efabf43"
+id="sec.2-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Act:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_7aee7b2c-3cda-4ced-b783-c49d1d08e44b"
+id="sec.2-def.BrokenHill"><b><i>Broken Hill</i></b></defterm> means the County
+of Yancowinna.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_2a45400e-142e-4de7-b3bf-c18dc8a6c4c1"
+id="sec.2-def.CoordinatedUniversalTime"><b><i>Co-ordinated Universal
+Time</i></b></defterm> means Co-ordinated Universal Time (UTC) as determined
+by the International Bureau of Weights and Measures and maintained under
+section 8AA of the <legref type="act" jurisd="CTH" check="unknown"><name
+emphasis="yes"><i>National Measurement Act 1960</i></name></legref> of the
+Commonwealth.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_966a57c4-dc8d-409f-bf29-fd6206527f11"
+id="sec.2-def.legalinstrument"><b><i>legal instrument</i></b></defterm>
+means:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fe92094e-451b-4bd6-9339-ee7a0648d79b" id="sec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">an Act (including this Act),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_604a91a1-9528-41e9-b5f3-dfeb3f6d25e6" id="sec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a regulation, ordinance, rule, by-law,
+proclamation, order, notice, notification or other instrument made under an
+Act (including this Act),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_35c27593-36ea-4961-9820-ed26230498ac" id="sec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any contract or agreement (whether oral or in
+writing or both), or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_db9d55d5-901c-47d2-b52d-c10e22a95448" id="sec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">any deed or other instrument having legal
+effect.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d859c120-3ec6-461d-b28a-357236662cdf"
+id="sec.2-def.NewSouthWalesstandardtime"><b><i>New South Wales standard
+time</i></b></defterm> means standard time as fixed by section
+3.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_8b32469e-41c8-4b39-9b83-7c9e1c3ab1fb"
+id="sec.2-def.NewSouthWalessummertime"><b><i>New South Wales summer
+time</i></b></defterm> means summer time as fixed by section 7.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_8b7d4f36-6b42-4671-9369-f827ab3f88f1"
+id="sec.2-def.summertimeperiod"><b><i>summer time
+period</i></b></defterm>&#8212;see section 2A.</txt></block></deflist>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 2:</b> Am 1989 No 1,
+sec 3; 1995 No 31, sec 3; 2005 No 7, Sch 1 [1]; 2005 No 71, Sch 1
+[1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.2A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b7b0cb19-3d37-4043-8a76-f06628ecf868"></attrib>
+<attrib name="id" value="sec.2A"></attrib></parentattributes>
+
+<head>
+<no>2A</no><heading guid="_5331311c-5747-4c43-aeb7-b0d67597a872"
+id="sec.2A-he"><b>Summer time period&#8212;definition</b></heading></head>
+
+<tier type="subclause" id="sec.2A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e0520035-d7f3-419e-8835-93496fcf5b3a"></attrib>
+<attrib name="id" value="sec.2A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act, <defterm type="definition"
+guid="_e0cead49-3c9c-4137-90bd-c7eb9441653c"
+id="sec.2A-ssec.1-def.summertimeperiod"><b><i>summer time
+period</i></b></defterm> means:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e62bfbd9-a509-47ae-8a66-301ed3350bd7" id="sec.2A-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a period starting at 2 am on the first Sunday in
+October in each year and ending at 2 am on the first Sunday in the following
+April, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6665c8ed-68e0-4202-b380-cf052b96655c" id="sec.2A-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if a summer time period is prescribed by the
+regulations&#8212;that prescribed period.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.2A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_573f2a2e-8e88-4a0d-bae2-9765ce6f3e39"></attrib>
+<attrib name="id" value="sec.2A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Despite subsection (1), the summer time period
+commencing in the year 2007 is taken to be the period starting at 2 am on
+Sunday 28 October 2007 and ending at 2 am on Sunday 6 April
+2008.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 2A:</b> Ins 2005 No 71,
+Sch 1 [2]. Am 2007 No 44, Sch 1 [1] [2].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_99b5cefd-a60c-438e-bddb-b0b173f89783"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_a51286ec-9b23-48b5-b90f-dfd0afefbc1c"
+id="pt.2-he"><b>Standard time</b></heading></head>
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_40874778-7e1c-485c-bc28-ec36bedcbdc0"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_05b71b00-20b9-4d33-86e7-ae6941dd62e7"
+id="sec.3-he"><b>Standard time in New South Wales (except certain
+areas)</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_13b27229-f15f-4f05-90ac-fcb03a63c3da"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Standard time in New South Wales is 10 hours in
+advance of Co-ordinated Universal Time.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_68fcf2c6-680f-40d2-b5a3-78090562df1a"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This section does not apply to Broken Hill or
+Lord Howe Island.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Subst 2005 No 7,
+Sch 1 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fdfcc749-ab83-422d-b2ca-13202bb62966"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_6ad2cc05-55ef-4389-8148-e9a362c39fb2"
+id="sec.4-he"><b>Standard time in Broken Hill</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4eef1643-0320-4e61-a314-9c516ecb4301"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Standard time in Broken Hill is:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_52393699-1e07-4024-a39a-6d84f2941470" id="sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if an order under this section is not in
+force&#8212;9 hours and 30 minutes in advance of Co-ordinated Universal Time,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_77fbdab2-a3bb-4253-8d40-bdff5b63e940" id="sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if such an order is in force&#8212;the time in
+advance of Co-ordinated Universal Time specified in the order as the standard
+time for Broken Hill.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4fdb9c11-e76d-470d-b903-c099cd1da0c7"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Governor may, by order published in the
+Gazette, specify as standard time for Broken Hill the time in advance of
+Co-ordinated Universal Time specified in the order.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Subst 2005 No 7,
+Sch 1 [3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1584c454-6679-4b3c-9d4c-852d572628a5"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_4adb3327-ad8c-40b5-a388-b2b0c5dfc8a6"
+id="sec.5-he"><b>Standard time in Lord Howe Island</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_df9a0e3a-5f9b-4afb-92a1-95bfa313fbd6"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Standard time in Lord Howe Island is:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7a3a4f78-6163-4a47-9d0b-aa67ab6bf82f" id="sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if an order under this section is not in
+force&#8212;10 hours and 30 minutes in advance of Co-ordinated Universal Time,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a8b8ffd0-1e10-4c58-a7c8-8e840702ce1a" id="sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if such an order is in force&#8212;the time in
+advance of Co-ordinated Universal Time specified in the order as the standard
+time for Lord Howe Island.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9a039959-527b-4f05-8e03-4564ac933c54"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Governor may, by order published in the
+Gazette, specify as standard time for Lord Howe Island the time in advance of
+Co-ordinated Universal Time specified in the order.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 5:</b> Subst 2005 No 7,
+Sch 1 [4].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_310d10e2-1ec2-4a4f-b5a2-a768d1fc5f48"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_eac25a41-9373-43af-a957-2ebbe4c24bf7"
+id="sec.6-he"><b>Construction of references to time (standard
+time)</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2cf97d94-f21c-429c-bcfa-e174be1c0055"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A reference (express or implied) in any legal
+instrument to any time or period of time shall be construed:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_afede291-6692-4ed2-a8ab-767ef4b99afd" id="sec.6-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in relation to an act or omission that occurs, or
+a state of affairs that exists, at a particular place:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e5d4a48c-5704-460b-8e3e-e40c99a2b620"
+id="sec.6-ssec.1-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">as a reference to standard time, as fixed by or
+under this Part, in that place, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5c276f2e-0ae0-4e2e-aaf3-ca5fbc022e98"
+id="sec.6-ssec.1-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">as a reference to that period as determined by
+reference to that standard time, and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e8938536-8fa2-4d76-bb50-163fd36806ba" id="sec.6-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">except as provided by paragraph (a):</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d09b266d-b145-42d1-99e0-4ba84a73a1c6"
+id="sec.6-ssec.1-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">as a reference to New South Wales standard time,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d269df5b-531a-4990-a78d-f16ad5c5bd63"
+id="sec.6-ssec.1-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">as a reference to that period as determined by
+reference to New South Wales standard time.</txt></block></li></list>
+</block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_406aa718-2ed4-4782-9f63-bb3ca6a9a85f"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subsection (1) does not apply to a reference to a
+time or period of time that is expressly required by the legal instrument in
+which the reference occurs or by any other legal instrument to be construed in
+some other way.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8f3dc45c-f6b2-4ec1-bfce-c0d1d643b804"></attrib>
+<attrib name="id" value="sec.6-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This section applies to a legal instrument even
+though it was made before the appropriate standard time was fixed by or under
+this Part.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_24b5a96a-916c-42b2-a855-2e9f9dd9df01"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_268215ab-a4ad-47db-be19-ff1ec774d627"
+id="pt.3-he"><b>Daylight saving</b></heading></head>
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d2f9281f-850c-4afb-bc54-8eaa454c7da6"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_a2a11077-ba47-4a20-9f0e-d8b604968129"
+id="sec.7-he"><b>Summer time in New South Wales (except certain
+areas)</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f73486e9-2820-4eda-a7d5-a07a72668eda"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">During a summer time period, summer time in New
+South Wales is one hour in advance of New South Wales standard
+time.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_18800e0d-42fe-426e-ba5c-6e82bae4e037"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This section does not apply to Broken Hill or
+Lord Howe Island.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_81d52e4e-c6f0-449f-93e2-37149aacedd5"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_3776461c-d6ea-4927-8b32-d4574b7e211a"
+id="sec.8-he"><b>Summer time in Broken Hill</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fb16a552-16c0-499d-9088-52b5e76f26a0"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">During a summer time period, summer time in
+Broken Hill is:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_829e67db-fd71-4603-8b5b-b8a7c95cfd2a" id="sec.8-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if an order under this section is not in force,
+one hour in advance of standard time as fixed for Broken Hill by or under
+section 4, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_adc78a6c-3d68-4dc0-8425-1705aab16e34" id="sec.8-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if such an order is in force&#8212;the time
+specified in the order as summer time for Broken
+Hill.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5a0569d3-c46d-4382-9843-d74076a869fb"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Governor may, by order published in the
+Gazette, specify as summer time for Broken Hill such time as the Governor
+thinks fit.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_08d9a0da-db44-4565-a190-33840a3a668e"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_3b711867-b094-4fe4-b39b-c379dcc4b2bd"
+id="sec.9-he"><b>Summer time in Lord Howe Island</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7aff4aa3-5e38-4ba7-aad3-773efbabde2c"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">During a summer time period, summer time in Lord
+Howe Island is:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8df4e229-a711-4ece-993a-f16fc66b6f43" id="sec.9-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if an order under this section is not in force,
+30 minutes in advance of standard time as fixed for Lord Howe Island by or
+under section 5, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b3bfb302-b2f2-488d-81fb-3000693ed201" id="sec.9-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if such an order is in force&#8212;the time
+specified in the order as summer time for Lord Howe
+Island.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d5b2b95d-85b8-42f5-a396-766bcd975216"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Governor may, by order published in the
+Gazette, specify as summer time for Lord Howe Island such time as the Governor
+thinks fit.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Am 2005 No 71,
+Sch 1 [3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5fc2be14-a237-49ef-a083-5bba0fae191f"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_3d75b55c-6f15-4211-9176-f1f6fe90266f"
+id="sec.10-he"><b>Construction of references to time (summer
+time)</b></heading></head>
+<block><txt break.before="1">In section 6:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fd5491dd-35ec-4ec9-a695-1960f786b041" id="sec.10-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a reference to standard time shall, in respect of
+a summer time period, be construed as a reference to the appropriate summer
+time as fixed by or under this Part, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_229d02a4-87fa-4e80-823f-82f9a36305cd" id="sec.10-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a reference to New South Wales standard time
+shall, in respect of a summer time period, be construed as a reference to New
+South Wales summer time.</txt></block></li></list>
+</block></level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_0539288b-be40-45ad-8f37-797f152dcbab"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_721a4843-5546-4e6a-9fdf-68090e3ce624"
+id="pt.4-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bb1a1ffc-2c0c-4b72-b8a8-6be0e3beb837"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_ad33fcf9-ea8b-4e44-a53f-ef31a1a7cee1"
+id="sec.11-he"><b>Savings</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1556c649-2860-4c2c-ac86-ab54be685a73"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Nothing in Part 3 affects:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_46f88960-9764-46fb-82e3-2674de04d8b0" id="sec.11-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the use of standard time, as fixed by or under
+Part 2, for the purposes of astronomy, meteorology or navigation,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dc3454cd-58f6-44d1-9e2f-8801099b7b43" id="sec.11-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the construction of any document mentioning or
+referring to a point of time in connection with any of those
+purposes.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_312aab14-7426-40f3-866e-bc15a0a01b49"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of section 30 of the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1987-015"><name
+emphasis="yes"><i>Interpretation Act 1987</i></name></legref>, an order under
+this Act shall be regarded as amending this Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a9ceb212-a6c4-472e-87d7-11d7557f7f4d"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_7e42ca04-7ae5-4ee4-91fd-dcd13498dbc5"
+id="sec.12-he"><b>Repeal and transitional provisions</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_442740a9-3ba2-4c66-9f06-694df8b9334e"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The <legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Standard Time Act
+1971</i></name></legref> is repealed.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dc42eaa1-009f-4299-8f3b-791e5e81ab55"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An amendment made by the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-2005-007"><name
+emphasis="yes"><i>Standard Time Amendment (Co-ordinated Universal Time) Act
+2005</i></name></legref> applies to a legal instrument even though the
+instrument was made before the commencement of the
+amendment.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.3" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3a555f37-4da5-4764-8f08-74887c8260e5"></attrib>
+<attrib name="id" value="sec.12-ssec.3"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(3)&#8211;(6)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 12:</b> Am 2005 No 7,
+Sch 1 [5].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_da9c019e-e1c0-40d0-86d0-36a1ec1b0932"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_f1fe6cd8-0897-49db-8d82-561f42e2329f"
+id="sec.13-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this Act.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 13:</b> Ins 2005 No 71,
+Sch 1 [4].</txt></content>
+</level>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_702b535e-dbe8-431e-8a6c-440e4a4403a8"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_d19bd8de-ebf1-474d-bb37-d700fd0e4f5e"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-1987-149"><name emphasis="yes"><i>Standard Time Act
+1987</i></name> No 149</legref>. Assented to 23.10.1987. Date of commencement,
+28 days after assent. This Act has been amended as follows:</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_447a8ead-4e61-4572-9d59-cda7df2b293c" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_33855c4e-1842-4a99-afec-cbcd3aba4a1d" id="ed-tbl-tblr">
+<entry colname="1" guid="_c3ea46dc-36ef-4ff3-9c2a-591af2b7e617"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1989</b></txt></entry>
+<entry colname="2" guid="_09c7a773-3f6f-4c4c-a8c9-ebd141f3c103"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 1</txt></entry>
+<entry colname="3" guid="_939d1b94-09e8-41ee-9c7c-1c5ea099908d"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Standard Time (Amendment) Act
+1988</i></name></legref>. Assented to 18.1.1989.</txt>
+<txt break.before="1">Date of commencement, assent, sec 2. Amended by <legref
+type="act" jurisd="NSW" check="unknown"><name emphasis="yes"><i>Standard Time
+(Amendment) Act 1989</i></name> No 2</legref>. Assented to 28.2.1989. Date of
+commencement, assent, sec 2.</txt></block></entry></row>
+
+
+<row guid="_aba6bce6-1037-477c-ab32-78f765f8cf38" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_ab593e59-d523-45d6-9841-cf6419de3fe1"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>1995</b></txt></entry>
+<entry colname="2" guid="_f4a8e393-fb74-4070-b3de-63b6a69e1eaa"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 31</txt></entry>
+<entry colname="3" guid="_1dc769eb-b3b1-486d-8207-b101b075839f"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Standard Time Amendment Act
+1995</i></name></legref>. Assented to 23.6.1995.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_25f3c66f-176c-4d8d-b091-2b4a5110dee1" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_66c4fd3f-ccd3-4014-8db0-444f43c7432b"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>2005</b></txt></entry>
+<entry colname="2" guid="_3df1f42d-7018-4e64-be9e-9bf2587883c6"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 7</txt></entry>
+<entry colname="3" guid="_87835cdf-42ab-4e64-9733-aab3b4eac6af"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2005-007"><name emphasis="yes"><i>Standard Time Amendment
+(Co-ordinated Universal Time) Act 2005</i></name></legref>. Assented to
+10.3.2005.</txt>
+<txt break.before="1">Date of commencement, 1.9.2005, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_b5d87cc0-fa5e-4cfb-b09f-760973ab162e" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_9777b073-dab3-4709-9e40-1e6c7ced3f2a"
+id="ed-tbl-tblr-oc.4-tble1"></entry>
+<entry colname="2" guid="_73edf07b-2c58-4f68-8f7f-480e7e864fd4"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 71</txt></entry>
+<entry colname="3" guid="_50ca0d85-8767-4c15-bf96-9ebd6b5ea0e9"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2005-071"><name emphasis="yes"><i>Standard Time Amendment (Daylight
+Saving) Act 2005</i></name></legref>. Assented to 19.10.2005.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_388d41e2-9bdc-42cc-9856-4463a4715ec6" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_dd5a7cae-0a22-449a-927d-def37d466b3d"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>2007</b></txt></entry>
+<entry colname="2" guid="_eb676efb-ba02-41be-8855-ecb471b43ca4"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 44</txt></entry>
+<entry colname="3" guid="_f78f157f-d9e1-442b-b36f-de214f846e62"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2007-044"><name emphasis="yes"><i>Standard Time Amendment (Daylight
+Saving) Act 2007</i></name></legref>. Assented to 1.11.2007.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_8e4da4a4-549f-4c5d-9686-bc298f1e58eb"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_8f73cfb1-f7c7-4de3-89e0-8bb1f4743305" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_8bcec228-afc1-45ce-8c00-75ca042722cb" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_1ed19bab-aba1-489d-994a-af3a464c0550"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 2</txt></entry>
+<entry colname="2" guid="_f3f850b1-4ac8-47e3-8fed-996ac8d5e0e6"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 1989 No 1, sec 3; 1995 No
+31, sec 3; 2005 No 7, Sch 1 [1]; 2005 No 71, Sch 1 [1].</txt></entry></row>
+
+
+<row guid="_2c31a563-84be-4f7f-9c78-63d074353b4b" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_4b14cf16-64a6-46c5-b2c6-cb8443e155d3"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 2A</txt></entry>
+<entry colname="2" guid="_a92f684c-17ed-4e29-a37f-39f97ebb6605"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Ins 2005 No 71, Sch 1
+[2]. Am 2007 No 44, Sch 1 [1] [2].</txt></entry></row>
+
+
+<row guid="_cab029f8-4967-43bf-a12a-932fc5aba67b" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_a674b17e-ad1f-4809-becf-04ce8195f248"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_6a469be4-4c58-4ac0-b51d-14b5966a5128"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Subst 2005 No 7, Sch 1
+[2].</txt></entry></row>
+
+
+<row guid="_26ce8508-30f2-433e-99ac-d0ac657268fe" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_ea35358a-b534-4cac-8daf-e8cceadd5029"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_3dbf19b9-a108-4234-92d6-d11619269f94"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Subst 2005 No 7, Sch 1
+[3].</txt></entry></row>
+
+
+<row guid="_980d3359-ccd9-42c7-bee7-97f8afb91d6c" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_1b29b34b-b9b4-4b4e-a991-bd7bbe29cbd0"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 5</txt></entry>
+<entry colname="2" guid="_a1b20341-d835-46d5-9f55-b4ab9123c14c"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Subst 2005 No 7, Sch 1
+[4].</txt></entry></row>
+
+
+<row guid="_0802604d-9bc8-4c4d-be02-45640612590a" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_e9be9048-80b5-4b50-96c3-68653921dd94"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_6e794a24-9244-486c-9c7e-3c64a52b20fb"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Am 2005 No 71, Sch 1
+[3].</txt></entry></row>
+
+
+<row guid="_87dfb0d0-8580-4b72-be9f-a92c59f67ff4" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_b89900ed-ceae-4add-ad0d-8d592a9895e1"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 12</txt></entry>
+<entry colname="2" guid="_a53d268c-2aa4-4f99-b56c-486bef2eb91a"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Am 2005 No 7, Sch 1
+[5].</txt></entry></row>
+
+
+<row guid="_0a797425-a616-406d-bbeb-8ce6c15a25a2" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_03c1fcc1-9bc6-4025-8079-180582351075"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sec 13</txt></entry>
+<entry colname="2" guid="_617ffce9-bd6b-4b85-b5bc-849bab280989"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Ins 2005 No 71, Sch 1
+[4].</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

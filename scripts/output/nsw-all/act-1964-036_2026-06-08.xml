@@ -1,0 +1,3243 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1964-036"
+title="Air Transport Act 1964"
+year="1964"
+number="36"
+enact.or.made.date="1964-10-16"
+first.valid.date="2016-01-15"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1964</metacontent>
+<metacontent class="year.assent">1964</metacontent>
+<metacontent class="publication.date">2016-01-15</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2015-058</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1964-036</metacontent>
+<metacontent
+class="version.desc.id">2eda7e99-2711-4ff9-af33-52e9b67e9e82</metacontent>
+<metacontent
+class="version.series.id">4e68a17c-a188-4b1b-8923-8433f7c4e458</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Air Transport Act 1964"></attrib>
+<attrib name="year.passed" value="1964"></attrib>
+<attrib name="year.assent" value="1964"></attrib>
+<attrib name="no" value="36"></attrib>
+<attrib name="publication.date" value="2016-01-15"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2015-058"></attrib>
+<attrib name="first.valid.date" value="2016-01-15"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1964-10-16"></attrib>
+<attrib name="id" value="act-1964-036"></attrib>
+<attrib name="version.desc.id"
+value="2eda7e99-2711-4ff9-af33-52e9b67e9e82"></attrib>
+<attrib name="version.series.id"
+value="4e68a17c-a188-4b1b-8923-8433f7c4e458"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_59bbed19-f5bb-436d-a8de-1327e3c8e7ed"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_1442ef1b-e309-4d8e-8c98-b9f146dfe081"
+id="cd-status-he"><b>Proposed repeal:</b></heading></head>
+<block><txt break.before="1">The Act is to be repealed on the commencement of
+sec 179 of the <legref refid="act-2014-046" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Passenger Transport Act
+2014</i></name> No 46</legref>.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>whole Act:</b> Am 2015 No
+58, Sch 3.6 [1] (&#8220;Director-General&#8221; and
+&#8220;Director-General&#8217;s&#8221; omitted wherever occurring,
+&#8220;Secretary&#8221; and &#8220;Secretary&#8217;s&#8221; inserted instead,
+respectively).</txt></content>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_ae695911-9e4f-4b64-b338-053c2e82ec9c"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to prohibit, in certain circumstances, the
+carriage by aircraft of passengers or goods from one place to another within
+New South Wales except under the authority of a licence granted by the
+Minister; to amend the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>State Transport (Co-ordination) Act
+1931</i></name></legref>, the <legref refid="act-1938-009" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Air Navigation Act
+1938</i></name></legref> and the <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Transport Act
+1930</i></name></legref>; and for purposes connected therewith.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>long title:</b> Am 1980
+No 148, Schs 1 (1), 2 (1).</txt></content>
+</tier>
+</content>
+
+
+<content type="body">
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_653910a5-d0cf-48d0-bdfe-a7800fafb134"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_2d05854f-744c-4d0b-bcd4-c7685cc858f5"
+id="sec.1-he"><b>Name of Act and construction</b></heading></head>
+
+<tier type="subclause" id="sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6afec834-fa07-4960-afec-14913864aac3"></attrib>
+<attrib name="id" value="sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This Act may be cited as the <legref
+refid="act-1964-036" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Air Transport Act
+1964</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e31699c3-7a29-4551-8158-e8f268f31b82"></attrib>
+<attrib name="id" value="sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This Act shall be read and construed subject to
+the <legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="no">Commonwealth of Australia Constitution Act</name></legref> and
+so as not to exceed the legislative power of the State, to the intent that
+where any provision of this Act or the application thereof to any person or
+circumstance is held invalid, the remainder of this Act and the application of
+the provision to other persons or circumstances shall not be
+affected.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.1-ssec.3" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c9f41424-6ad5-4a83-8eac-57051e43655e"></attrib>
+<attrib name="id" value="sec.1-ssec.3"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(3)&#8211;(5)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 1:</b> Am 1980 No 148,
+Sch 2 (2).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c567a85d-ff8c-404a-bac1-1620d30b88fa"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_31bcb3f8-28bf-444a-9dd8-e39e566f1e7f"
+id="sec.2-he"><b>Definitions</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b70e7a2b-9c46-4ab8-9294-ce5d1cc96e87"></attrib>
+<attrib name="id" value="sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act, unless the context or subject matter
+otherwise indicates or requires:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b93f1fe0-8110-4f24-8324-79d32cb4685d"
+id="sec.2-def.Carry"><b><i>Carry</i></b></defterm> means carry for reward or
+for any consideration or in the course of any trade or
+business.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_36b4003d-5ba3-4dc2-a6ce-fa833d0249ec"
+id="sec.2-def.deregulatedroute"><b><i>deregulated route</i></b></defterm>
+means a route that is declared to be a deregulated route by an order in force
+under section 4A.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_51ef2bd8-23d9-41a6-b413-0306ac588cc3"
+id="sec.2-def.Function"><b><i>Function</i></b></defterm> includes power,
+authority and duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_2e95f1e7-e633-4ce9-86b7-c64b3c70ba26"
+id="sec.2-def.Licence"><b><i>Licence</i></b></defterm> means licence issued
+under this Act and includes a renewal of any such licence.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9b5ef7b1-c960-4e04-9a96-1ca124ce8e20"
+id="sec.2-def.Secretary"><b><i>Secretary</i></b></defterm> means the Secretary
+of the Department of Transport.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_85857452-c7b4-4bde-94e5-844ef4e1e8b0"
+id="sec.2-def.WorkingGroup"><b><i>Working Group</i></b></defterm> means the
+State Aviation Working Group established by section
+12A.</txt></block></deflist>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.2-ssec.2" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4250f227-22b3-4901-80ab-128a79fba34c"></attrib>
+<attrib name="id" value="sec.2-ssec.2"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(2), (3)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<tier type="subclause" id="sec.2-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f90ee196-6457-4ec7-a33b-9957b5692887"></attrib>
+<attrib name="id" value="sec.2-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A reference in this Act to the exercise of a
+function includes, where the function is a duty, a reference to the discharge
+of that duty.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.5" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0e0a0f28-03c0-4c45-a3d3-eda8ce373c52"></attrib>
+<attrib name="id" value="sec.2-ssec.5"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 2:</b> Am 1980 No 148,
+Schs 1 (2), 2 (3); 1985 No 140, Sch 1; 1987 No 112, Sch 1 (1); 2006 No 21, Sch
+1 [1]; 2012 No 95, Sch 2.1 [1]; 2015 No 58, Sch 3.6 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.2A-2C" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4459689f-d186-45cd-ad59-60255005e183"></attrib>
+<attrib name="id" value="sec.2A-2C"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>2A&#8211;2C</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 2A:</b> Ins 1980 No
+148, Sch 1 (3). Subst 1987 No 112, Sch 1 (2). Rep 2006 No 21, Sch 1
+[2].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 2B:</b> Ins 1987 No
+112, Sch 1 (2). Rep 2006 No 21, Sch 1 [2].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 2C:</b> Ins 1987 No
+112, Sch 1 (2). Rep 2006 No 21, Sch 1 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_da044740-07e6-4bc0-b9da-94ffa7a7ebe6"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_3b9e6d23-997a-4091-907f-facce05c1d32"
+id="sec.3-he"><b>Licensing of persons for the carriage intrastate of
+passengers</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_59d52ec3-8af1-42a2-8139-2810fd9eae27"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person shall not carry by an aircraft from a
+place in New South Wales to another place in New South Wales any passengers
+unless:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_60b70941-3d69-4f08-bda4-e7478e287d57" id="sec.3-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the person is the holder of a licence under this
+Act, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_04985ea6-004e-49fa-b166-960ec9275f9a" id="sec.3-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the person is operating or providing a regular
+air transport service, the route over which the passengers are carried is a
+route in respect of which the licence was granted.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b9e834e9-b83c-4ded-b524-0cb55bd3f0c8" id="sec.3-ssec.1-para1.c"
+status="repealed">
+<no>(c)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.1A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8fafd334-a7ae-4238-8684-959e349fe407"></attrib>
+<attrib name="id" value="sec.3-ssec.1A"></attrib></parentattributes>
+
+<head>
+<no>(1A)</no></head>
+<block><txt break.before="1">For the purposes of subsection (1), a person is
+operating or providing a regular air transport service while carrying
+passengers over a particular route if aircraft operated by the person, whether
+alone or together with aircraft operated by some other person, are engaged in
+a service conducted by the person, whether alone or in association with any
+other such person:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a0ac82f3-eeb9-42f4-ac8d-0c027d14b2b4" id="sec.3-ssec.1A-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in accordance with fixed schedules over that
+route, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d9e637a4-dcbe-4c1f-8cbb-cd50c49b6ebf" id="sec.3-ssec.1A-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">unless otherwise authorised by the Secretary, on
+5 or more occasions within any period of 28 days over that
+route.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.3-ssec.1B">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b2bccd4a-a327-42b8-870e-b1642a5e1e42"></attrib>
+<attrib name="id" value="sec.3-ssec.1B"></attrib></parentattributes>
+
+<head>
+<no>(1B)</no></head>
+<block><txt break.before="1">In exercising powers under subsection (1A) (b),
+the Secretary shall have regard to such of the matters specified in section 6
+(3) as to the Secretary seems appropriate and to no other
+matters.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4bc4fd4f-d7b6-4893-ae24-b313920f70b2"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person who contravenes subsection (1) is guilty
+of an offence against this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_136856f2-e5f7-4eee-9c95-bdefa1e22385"></attrib>
+<attrib name="id" value="sec.3-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This section does not apply to:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_71ca6d12-0897-4cde-b75f-38bbed85c1b8" id="sec.3-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the provision of a charter service, being any air
+transport service that is operated or provided otherwise than as a regular
+service over a particular route, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4406a88b-5ddf-4295-80ff-3a50c7606b33" id="sec.3-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the provision of a regular air transport service
+over a deregulated route.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.4" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0641f536-3a7c-412c-826c-85a7c89e0712"></attrib>
+<attrib name="id" value="sec.3-ssec.4"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(4)&#8211;(7)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Am 1980 No 148,
+Schs 1 (4), 2 (4); 1987 No 112, Sch 1 (3); 2006 No 21, Sch 1
+[3]&#8211;[5].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.3A" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fcb3452d-8002-46dc-a4d3-3a5bfbdd37a1"></attrib>
+<attrib name="id" value="sec.3A"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>3A</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 3A:</b> Ins 1987 No
+112, Sch 1 (4). Rep 2006 No 21, Sch 1 [6].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4fc1ccec-8d0a-44f1-9f6f-e5de78f4fcca"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_72f5826e-7e68-49e3-9088-751741493a82"
+id="sec.4-he"><b>Powers of authorised persons</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1f4038eb-0ebe-4c0d-9c3c-889f3d22e554"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person (in this section referred to as an
+<defterm type="definition" guid="_2b4d829c-5485-47af-9686-bb0d1279b4b8"
+id="sec.4-def.authorisedperson"><b><i>authorised person</i></b></defterm>)
+authorised in writing to do so by the Minister may require any person who
+appears to that authorised person to be concerned in, or employed in
+connection with, the conduct of any services for the carriage of passengers by
+aircraft to answer any question with respect to the use, in connection with
+those services, of any aircraft for the carriage from one place in New South
+Wales to another place in New South Wales of any
+passengers.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_33961752-8f79-48c6-8da1-963e50c75280"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any person who fails to comply with a requirement
+of an authorised person made under subsection (1) or who answers in a false or
+misleading manner any question put to the person by an authorised person
+pursuant to that subsection is guilty of an offence against this
+Act.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_acdb4b18-31e4-4988-8ffc-ce487cf643bc"></attrib>
+<attrib name="id" value="sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A person shall not be guilty of an offence under
+subsection (2) by reason of the person&#8217;s failure to answer any question
+if the person proves to the satisfaction of the court that the person did not
+know and could not with reasonable diligence have ascertained the answer to
+the question.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b1fc943f-3540-4ea4-8359-306b62f1a024"></attrib>
+<attrib name="id" value="sec.4-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A person shall not be excused from answering any
+question, if required to do so under subsection (1), on the ground that the
+answer might tend to criminate the person or make the person liable to a
+penalty, but the answer given by the person shall not be admissible against
+the person in any proceedings civil or criminal, except in proceedings for an
+offence arising under subsection (2).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_db599460-b0ae-4fe8-9d60-51cd9739aa18"></attrib>
+<attrib name="id" value="sec.4-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Where any answer to a question referred to in
+subclause (1), or any information whatsoever, is given to an authorised person
+by the prescribed officer of a corporation, such answer and information shall,
+for the purposes of any proceedings against the corporation for an offence
+arising under the provisions of section 3, be binding upon and admissible in
+evidence against the corporation, unless it is proved that the answer or
+information was given in relation to a matter in respect of which the
+prescribed officer had no authority to bind the corporation.</txt></block>
+<block><txt break.before="1">The provisions of this subsection shall be in
+addition to and not in derogation from any rule of law relating to the binding
+effect and admissibility in evidence of statements made by any officer or
+employee of a corporation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6a029c30-80f1-49d9-950d-f28b2fb3d359"></attrib>
+<attrib name="id" value="sec.4-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">Any person who communicates any information
+acquired by the person in the course of the administration of this Act except
+in accordance with the instruction in writing of the Minister or for the
+purpose of proceedings in any court is guilty of an offence against this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e14da041-1cbe-40e2-a1fe-eb7ad6caa9c0"></attrib>
+<attrib name="id" value="sec.4-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">In this section <defterm type="definition"
+guid="_31024510-3979-40c2-9b75-7eb305f39469"
+id="sec.4-def.prescribedofficerofacorporation"><b><i>prescribed officer of a
+corporation</i></b></defterm> means the managing director, manager or other
+governing officer, by whatever name called or any member of the governing body
+of the corporation and, where any officer or employee of the corporation gives
+any information to an authorised person, whether in answer to a question or
+not, relating to any part of the operations of the corporation over which such
+officer or employee exercises any superintendence or control, includes that
+officer or employee.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 1980 No 148,
+Schs 1 (5), 2 (5); 1987 No 112, Sch 1 (5).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cf74d66f-7288-4dbc-864d-e51b4604892e"></attrib>
+<attrib name="id" value="sec.4A"></attrib></parentattributes>
+
+<head>
+<no>4A</no><heading guid="_9e8386a4-8261-46f5-a5cb-115b74b46f2e"
+id="sec.4A-he"><b>Deregulated routes</b></heading></head>
+
+<tier type="subclause" id="sec.4A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aa4892c1-6fe9-4c4c-a877-51550ba5608d"></attrib>
+<attrib name="id" value="sec.4A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may, by order published in the
+Gazette, declare specified routes or classes of routes to be deregulated
+routes for the purposes of this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_30e63448-e295-4ebb-90cb-aba2b34933f5"></attrib>
+<attrib name="id" value="sec.4A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In deciding whether to make such a declaration
+with respect to particular routes or classes of routes, the Minister must have
+regard to the following matters:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c58147f7-d3e8-4898-af9b-815d3458d372" id="sec.4A-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the needs of the public of New South Wales as a
+whole, and of the public of any area or district, for air transport services
+along the routes concerned,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d7425a86-91b7-443e-992f-f6dd3a76acfc" id="sec.4A-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">fostering competition between airlines in
+relation to the routes concerned,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5e107a05-a642-4a4f-b06d-df11e5d61a95" id="sec.4A-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the effect, if any, on the maintenance and
+development of adequate and reasonable public air transport services within
+New South Wales, of the operation of aircraft over the routes
+concerned,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5dbd18e3-1705-466e-81aa-a2e24e2ead6b" id="sec.4A-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the effect, if any, on the economic development
+of, or on the environment in, any area or district within New South Wales, of
+the operation of aircraft over the routes
+concerned.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4A:</b> Ins 2006 No 21,
+Sch 1 [7].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a029d511-bec7-4a7e-8489-1b506355cca5"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_6081f786-c815-4ff1-8fa9-399e6045381d"
+id="sec.5-he"><b>Applications for licences</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_48e53335-32c7-495f-b5ec-6fed91de00a7"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An application for a licence shall:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_69b6280d-01da-4738-9f49-b5c101270c6c" id="sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">be lodged at the head office of Transport for
+NSW,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b16062f0-2c0f-4a4f-8f0c-5e67cd65d77e" id="sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">be in writing and in a form approved by the
+Secretary,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_149b8c5c-edda-4332-91b5-26d80b1766dd" id="sec.5-ssec.1-para1.c"
+status="repealed">
+<no>(c)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_335a0275-6e38-48ef-a3ca-5f3796b800e5" id="sec.5-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">specify the route or routes, if any, in respect
+of which the application is made, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ae3e2788-91e5-4860-98ec-51815862b840" id="sec.5-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">specify such particulars and contain such
+information as the Secretary may require.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d7c816a9-c0c2-414b-b6e4-4fbecb10875d" id="sec.5-ssec.1-para1.f"
+status="repealed">
+<no>(f), (g)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_63be77c4-ce61-442e-b57f-dfd9cddd0c92"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An applicant for a licence shall furnish to the
+Secretary such additional particulars and information as the Secretary may
+require.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 5:</b> Am 1971 No 58,
+sec 4; 1974 No 57, sec 5, 1980 No 148, Sch 1 (6); 1985 No 140, Sch 1; 1987 No
+112, Sch 1 (6); 2006 No 21, Sch 1 [4] [8]; 2012 No 95, Sch 2.1
+[2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5a4233ea-b807-4ef1-80f3-e7f206190c83"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_d5a60bad-3284-43e8-85b9-9ffb9a40874b"
+id="sec.6-he"><b>Consideration of applications for
+licences</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_81b8c2cb-e893-4a43-8093-2ed2cc57fb52"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Secretary may grant or refuse any application
+for a licence.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6c85f1d4-bc8b-489a-b67b-1237c123f1f4"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A licence may be granted subject to or not
+subject to conditions.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_19fafe1e-ee59-406b-8931-09fbcadc753e"></attrib>
+<attrib name="id" value="sec.6-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In deciding whether to grant or refuse a licence
+and the conditions, if any, subject to which it should be granted, the
+Secretary shall have regard to such of the following matters as seem
+appropriate and to no other matters:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_470a827b-fdfc-41fa-8c6d-7ec6c5122681" id="sec.6-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the needs, in relation to air transport services,
+of the public of New South Wales as a whole and of the public of any area or
+district to be served by the route or routes, or by any of the routes,
+specified in the application for the licence,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fc71fa4f-c24c-42e2-93a9-45b34cc0d563" id="sec.6-ssec.3-para1.b"
+status="repealed">
+<no>(b)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_271779d7-0505-46fa-bf30-f7517e6ad954" id="sec.6-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the allocation of routes for public air transport
+services so as to foster as far as possible the existence of more than one
+airline operating in New South Wales capable of providing adequate and
+reasonable public air transport services within New South Wales and so as to
+discourage the development of any monopoly of public air transport services
+within New South Wales,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5d344cf0-44c4-4745-826d-9b83ccbee7ee" id="sec.6-ssec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">where the applicant is an individual, the
+applicant&#8217;s character and suitability and fitness to hold the licence
+applied for and, where the applicant is a corporation, the character of the
+persons responsible for the management or conduct of the corporation and the
+suitability and fitness of the corporation to hold the licence applied
+for,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3bbd6c17-c8e2-41e1-9d2e-489c81589d2b" id="sec.6-ssec.3-para1.e"
+status="repealed">
+<no>(e)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_262f374a-0a7d-471f-9a00-edd769ae7edf" id="sec.6-ssec.3-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">the effect, if any, on the maintenance and
+orderly development of adequate and reasonable public air transport services
+within New South Wales, of the operation of aircraft by the applicant over the
+route or routes specified in the application,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2b577338-85f3-49c3-aa0c-265429a5524a" id="sec.6-ssec.3-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">the effect, if any, on the economic development
+of, or on the environment in, any area within New South Wales, of the
+operation of aircraft by the applicant over the route or routes specified in
+the application,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_81e19b58-cbac-4af6-bef2-62a7720434ed" id="sec.6-ssec.3-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">whether the applicant and the applicant&#8217;s
+aircraft, pilots and passengers will be adequately
+insured,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4814ad2d-e61f-4e5a-b48e-c8058c96c56c" id="sec.6-ssec.3-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">the ownership of, or the extent of the
+applicant&#8217;s rights to operate, the aircraft to be used by the
+applicant.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 6:</b> Am 1980 No 148,
+Sch 1 (7); 1987 No 112, Sch 1 (7); 2006 No 21, Sch 1 [4] [9].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_eeea61ef-3413-4824-9d2e-27cb012d463d"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_a2ee6cd4-824e-411f-a665-0793df341a47"
+id="sec.7-he"><b>Licences</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_eb3380fa-c3be-4e6e-a25e-cc4ae21eeced"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A licence shall be in such form as the Secretary
+may determine and shall specify any route or routes in respect of which it is
+granted.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1a181fe1-2692-4160-88f1-3e2636f18554"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A licence shall commence and expire on such days
+as are specified in the licence.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_60830f9c-252b-4f80-99a8-79b61fb94568"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 7:</b> Am 1980 No 148,
+Sch 1 (8). Subst 1987 No 112, Sch 1 (8). Am 2006 No 21, Sch 1 [4]
+[10].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e3bf96a6-d74e-4350-95ad-eca1b34e6d17"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_a4ebf303-b1a0-44cb-85db-d1c34c8e04ed"
+id="sec.8-he"><b>Revocation, suspension and variation of
+licences</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9773fde0-8cb6-4baf-b71d-704e2a4145ce"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Where at any time, the Secretary, having regard
+to such of the matters specified in section 6 (3) as seem appropriate and to
+no other matters, is of opinion that it is desirable to do so, the Secretary
+may by notice in writing served on the holder of a licence:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5d5933bc-06ba-4236-ac12-b911a8bd00e5" id="sec.8-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">revoke or vary, as on and from a date specified
+in the notice, or suspend for a period or periods so specified, the licence or
+any of the particulars or conditions thereof, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_de218bd9-4a6b-4840-a5ea-6d366babba62" id="sec.8-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">attach to the licence, as on and from a date so
+specified, any further or new condition.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_92ddd050-9d3e-47c9-b585-59a959475b97"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A notice under subsection (1):</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9f4aabdd-534e-400f-a98f-c63248fba726" id="sec.8-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">shall have effect according to its tenor,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1a9cddf7-1845-4e69-8f87-2a6b09bd17ae" id="sec.8-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">may be served, in the case of an individual,
+personally or by sending it by post to the holder of the licence at the
+address last notified to the Secretary by the holder of the licence or, in the
+case of a corporation, in the manner mentioned in section 109X or 601CX of the
+<legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="yes"><i>Corporations Act 2001</i></name></legref> of the
+Commonwealth.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3455382d-98fd-482f-825c-5d2a93c45f10"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Without limiting the generality of subsection
+(1), the Secretary may revoke, or suspend for such period as the Secretary
+thinks fit, a licence if the holder fails to comply with any of the provisions
+of this Act or of the regulations or with any of the conditions attached to
+the licence.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f10fa654-74e0-4cdc-a246-3d80d19eb345"></attrib>
+<attrib name="id" value="sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Secretary may exercise any of the powers
+conferred by subsection (1) or (3) notwithstanding that at the time the power
+is exercised the licence is suspended.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 8:</b> Am 1980 No 148,
+Schs 1 (9), 2 (6); 1981 No 123, Sch 8; 1987 No 112, Sch 1 (9); 2001 No 34, Sch
+2.1; 2006 No 21, Sch 1 [4].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7741c8a5-3ad3-475f-af9b-37bbda4ac771"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_fc35c159-055d-4314-b879-07bad720f32e"
+id="sec.9-he"><b>Non-compliance with conditions</b></heading></head>
+<block><txt break.before="1">A person who neglects or fails to comply with any
+condition attached to a licence of which the person is the holder is guilty of
+an offence against this Act.</txt></block></level>
+
+
+<level type="clause" id="sec.10" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0531bf63-bd2e-42aa-911c-5e179d0e4335"></attrib>
+<attrib name="id" value="sec.10"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>10</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 10:</b> Rep 1980 No
+148, Sch 2 (7). Ins 1987 No 112, Sch 1 (10). Rep 2006 No 21, Sch 1
+[11].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.10A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8e2852ec-33cb-43c5-a52e-76ceaca44673"></attrib>
+<attrib name="id" value="sec.10A"></attrib></parentattributes>
+
+<head>
+<no>10A</no><heading guid="_16073149-0c7c-4f66-919a-fced95a92813"
+id="sec.10A-he"><b>Administrative review by Civil and Administrative
+Tribunal</b></heading></head>
+
+<tier type="subclause" id="sec.10A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1311591b-14c8-48d1-92cf-c82beb82e802"></attrib>
+<attrib name="id" value="sec.10A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An applicant for a licence may apply to the Civil
+and Administrative Tribunal for an administrative review under the <legref
+refid="act-1997-076" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Administrative Decisions Review Act
+1997</i></name></legref> of any decision made by the Secretary with respect to
+the application.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3a6aa12d-f1f7-4b47-8d33-f8af67568b2b"></attrib>
+<attrib name="id" value="sec.10A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person whose licence has been varied or revoked
+by the Secretary may apply to the Civil and Administrative Tribunal for an
+administrative review under the <legref refid="act-1997-076" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Administrative Decisions
+Review Act 1997</i></name></legref> of the Secretary&#8217;s decision to vary
+or revoke the licence.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 10A:</b> Ins 2006 No
+21, Sch 1 [12]. Subst 2013 No 95, Sch 2.5.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ebbee9a7-a58a-43b2-bf11-8b58c34a0814"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_8f5ad9b7-8169-420c-9815-333e3ddbd162"
+id="sec.11-he"><b>Evidence of licence</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9e44f9c6-ddaf-46b1-a669-7886f224e08c"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A certificate purporting to be signed by the
+officer for the time being in charge of the records kept under this Act
+stating that a person is or is not, or was or was not on any day or during any
+period, the holder of a licence, or that particulars or conditions are, or
+were, on a specified day, particulars or conditions contained in or attached
+to a licence, or that any particulars are not, or were not, on a specified
+day, contained in a licence, shall in all courts and before all persons be
+prima facie evidence of the matters stated in the certificate without proof of
+the signature or official character of the person purporting to sign the
+certificate.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d0637bef-6ce8-4861-970f-898e95a5b631"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister may give a certificate
+stating:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d025b5f8-84ef-4ffd-a24c-40534ef0e6e8" id="sec.11-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">that a specified person was or was not authorised
+under section 3 (1A) (b) to operate aircraft over a specified route on a
+specified day or during a specified period, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ad9b21f3-4c54-4761-b616-9b0a73167bb0" id="sec.11-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">where the person was so authorised, the terms of
+the authorisation.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cb16091a-a7ac-43c2-b139-994e480ca3e0"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A certificate purporting to have been given
+pursuant to subsection (2) shall in all courts and before all persons be prima
+facie evidence of the matters stated in the certificate without proof of the
+signature or official character of the person purporting to have signed the
+certificate.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Am 1982 No 106,
+Sch 1 (1).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.11A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0a5d0f06-7659-46e7-8654-fdefe32c0d41"></attrib>
+<attrib name="id" value="sec.11A"></attrib></parentattributes>
+
+<head>
+<no>11A</no><heading guid="_2e3ff3a3-5baa-4d46-9e39-8edccbad00f3"
+id="sec.11A-he"><b>Delegation of Secretary&#8217;s
+functions</b></heading></head>
+<block><txt break.before="1">The Secretary may delegate to any person any of
+the Secretary&#8217;s functions under this Act, other than this power of
+delegation.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 11A:</b> Ins 1980 No
+148, Sch 1 (10). Am 1982 No 106, Sch 1 (2); 1987 No 112, Sch 1 (11). Subst
+2006 No 21, Sch 1 [13].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0044950b-d883-4017-89e4-b9865df1631b"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_3e1bd5da-de6c-4cb5-b71e-90c380709a56"
+id="sec.12-he"><b>Penalties and proceedings for offences against Act or
+regulations</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7a8ce7e9-40ad-4ba6-af18-d57f39ed4a31"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person who is guilty of an offence against this
+Act is liable to a penalty not exceeding 50 penalty units or to imprisonment
+for a period not exceeding 12 months or to both that penalty and
+imprisonment.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_654fb276-8afd-413a-97d6-a61dc1c519af"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">All proceedings for offences against this Act or
+the regulations shall be disposed of summarily before the Local
+Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_22c6922f-649a-4d56-88eb-ab3c8f96ff12"></attrib>
+<attrib name="id" value="sec.12-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Proceedings for an offence against this Act may
+be commenced at any time within 2 years after the commission of the
+offence.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.4" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6afc1e4d-bb61-473c-9a9f-840569036379"></attrib>
+<attrib name="id" value="sec.12-ssec.4"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 12:</b> Am 1980 No 148,
+Sch 1 (11); 1982 No 106, Sch 1 (3); 1992 No 112, Sch 1; 1999 No 31, Sch 4.2;
+2001 No 121, Sch 2.8 [1] [2]; 2007 No 94, Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.12A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c11e2792-13a7-43f3-b8c0-5a040f950c91"></attrib>
+<attrib name="id" value="sec.12A"></attrib></parentattributes>
+
+<head>
+<no>12A</no><heading guid="_dd10a7c0-77c4-4fc3-892c-7ae815c7593b"
+id="sec.12A-he"><b>Establishment of State Aviation Working
+Group</b></heading></head>
+
+<tier type="subclause" id="sec.12A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_239e1969-0bad-4874-a6e9-147470612b11"></attrib>
+<attrib name="id" value="sec.12A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There is to be a State Aviation Working Group,
+whose members are to include:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b5e0bc7e-dda2-4b4e-992b-d757d6341442" id="sec.12A-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a person employed in the Transport Service who is
+appointed by the Secretary,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3b5e00cc-7049-4082-ae41-5b1d470b3b50" id="sec.12A-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a person employed in the Department of Planning
+and Environment who is appointed by the Secretary of that
+Department,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_668771a9-0332-4bbc-b3f7-da85128d6eef" id="sec.12A-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a member of staff of Destination NSW who is
+appointed by the Chief Executive Officer of Destination
+NSW,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3d4b0510-af59-4e29-b9e6-090b707ab15b" id="sec.12A-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">a person employed in the Department of Industry,
+Skills and Regional Development who is appointed by the Secretary of that
+Department,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e2a49fab-dccd-44f3-88b9-75327fc041d4" id="sec.12A-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">a person appointed by the Minister on the
+nomination of the Shires Association of New South Wales,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a2f73056-6ce8-4e15-be5d-0dd696d6f3fc" id="sec.12A-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">a person appointed by the Minister on the
+nomination of the Regional Aviation Association of
+Australia,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_57a4cad1-0994-48de-a7e0-488337c71314" id="sec.12A-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">a person appointed by the Minister on the
+nomination of the Australian Airports Association.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.12A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d13d003a-8983-4d4d-bdf0-8f30d09e6cef"></attrib>
+<attrib name="id" value="sec.12A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The member referred to in subsection (1) (a) is
+the Chairperson of the Working Group.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12A-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ce06853f-c9ba-478e-94f0-fc20d8fecf69"></attrib>
+<attrib name="id" value="sec.12A-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Schedule 1 has effect with respect to the
+constitution and procedure of the Working Group.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 12A:</b> Ins 2006 No
+21, Sch 1 [14]. Am 2012 No 95, Sch 2.1 [3]; 2015 No 58, Sch 3.6
+[3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.12B">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0784dbb8-cc09-4790-bd0c-29b83146eeee"></attrib>
+<attrib name="id" value="sec.12B"></attrib></parentattributes>
+
+<head>
+<no>12B</no><heading guid="_436bb640-5f1d-42c8-aecf-f3f6808409e5"
+id="sec.12B-he"><b>Functions of State Aviation Working
+Group</b></heading></head>
+<block><txt break.before="1">The Working Group has the following functions in
+relation to the provision of air transport services within New South
+Wales:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8be0a8c9-81a2-4ddb-b011-e0541346b010" id="sec.12B-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to advise the Secretary (and, through the
+Secretary, the Minister) on matters relating to the regulation of those
+services, including the policies and strategies to be adopted in relation to
+those services,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_546ad7b9-468c-440a-b19c-3120c8765052" id="sec.12B-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to provide information concerning the regulation
+of those services to persons having an interest in the provision of those
+services, including both State and local government
+agencies,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1cfcdadd-4cec-4c21-843f-718c4cb96b9a" id="sec.12B-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to seek the views of persons having an interest
+in the provision of those services in relation to the regulation of those
+services.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 12B:</b> Ins 2006 No
+21, Sch 1 [14].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4bfe4733-5ce1-4bd2-a037-7520a6e1fa08"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_4473d541-95e6-4f67-8950-135b97b1cf66"
+id="sec.13-he"><b>Regulations</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_60f0536c-583d-4e13-9519-ca1babab410c"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make regulations not
+inconsistent with this Act for or with respect to:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_43bbfca8-d5de-4cfe-8158-d0d891b8d4c7" id="sec.13-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the provision to the Secretary, by persons
+involved in the operation or provision of air transport services within New
+South Wales, of statistical information concerning the operation or provision
+of those services, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e042a4f1-1739-4101-ab20-df9be76c430c" id="sec.13-ssec.1-para1.a1"
+status="repealed">
+<no>(a1)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d72ee23d-103a-4c38-b251-020b75ac0349" id="sec.13-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">generally prescribing all matters which by this
+Act are required or permitted to be prescribed or which are necessary or
+convenient to be prescribed for carrying out or giving effect to this
+Act.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f6676e9f-978e-4e09-bba5-4dd0b9744911"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The regulations may impose a penalty not
+exceeding 2 penalty units for any breach thereof.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.3" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_62bbe278-a74c-4fa5-9b17-1a86994539bf"></attrib>
+<attrib name="id" value="sec.13-ssec.3"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<tier type="subclause" id="sec.13-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6a025355-a888-4344-9ac0-a9dff972190b"></attrib>
+<attrib name="id" value="sec.13-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A regulation may:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6b2bde2e-d335-47cc-bb89-6421fce2175e" id="sec.13-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">apply generally or be limited in its application
+by reference to specified exceptions or factors,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ec95bd0b-21fe-4ed2-bacf-5649e4792c94" id="sec.13-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">apply differently according to different factors
+of a specified kind, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_36947816-b03b-4755-ba07-43e402ad1512" id="sec.13-ssec.4-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">authorise any matter or thing to be from time to
+time determined, applied or regulated by any specified person or
+body,</txt></block></li></list>
+
+<txt break.before="1">or may do any combination of those
+things.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 13:</b> Am 1980 No 148,
+Schs 1 (12), 2 (8); 1985 No 140, Sch 1; 1987 No 48, Sch 32; 1987 No 112, Sch 1
+(12); 1992 No 112, Sch 1; 2006 No 21, Sch 1 [15].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.14-17" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_82aafbaf-04a3-437b-80db-f468b953df09"></attrib>
+<attrib name="id" value="sec.14-17"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>14&#8211;17</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 14:</b> Am 1980 No 148,
+Sch 2 (9). Rep 1999 No 85, Sch 4.</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 15:</b> Am 1980 No 148,
+Sch 2 (9). Rep 1999 No 85, Sch 4.</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 16:</b> Rep 1999 No 85,
+Sch 4.</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 17:</b> Rep 1980 No
+148, Sch 2 (10).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f120f2c0-7430-4cb5-81be-3bc2c9ab6e69"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_5e654a06-5e74-47c3-956a-1c3caa8d4660"
+id="sec.18-he"><b>Obligations under other laws</b></heading></head>
+<block><txt break.before="1">Nothing in this Act relieves a person of any
+obligation to hold or effect any licence or registration which the person is
+otherwise by law required to hold or effect.</txt></block></level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ff8f9685-f20c-4bf7-99c2-fe62e39ad46c"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_e3432116-d952-4606-b04f-565646eaa25a"
+id="sec.19-he"><b>Savings, transitional and other
+provisions</b></heading></head>
+<block><txt break.before="1">Schedule 2 has effect.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 19:</b> Rep 1980 No
+148, Sch 1 (13). Ins 2006 No 21, Sch 1 [16].</txt></content>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0e278960-e33b-47b7-b03e-5853edda93ae"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_8493b0f9-c5d6-42f9-9916-4edd4ef34962" id="sch.1-he"><b>Constitution and
+procedure of State Aviation Working Group</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Section 12A)</txt></block></pre>
+
+
+<level type="part" id="sch.1-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_1e66e5d2-0778-4c86-80eb-9887b69b0049"></attrib>
+<attrib name="id" value="sch.1-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_a5e36cd2-0097-4952-bf72-ed496154dfc0"
+id="sch.1-pt.1-he"><b>General</b></heading></head>
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_52417d90-dc81-4be5-8fc6-08a16f7cef27"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_2b43371c-3df9-4931-8863-df69682d87e4"
+id="sch.1-sec.1-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Schedule:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_35d59d5a-bf31-4aa5-b66a-56a55d5574b9"
+id="sch.1-def.Chairperson"><b><i>Chairperson</i></b></defterm> means the
+Chairperson of the Working Group.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6c1f5d83-88d1-4a11-aaf4-3ea88f849c0d"
+id="sch.1-def.member"><b><i>member</i></b></defterm> means any member of the
+Working Group.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_01591308-0f37-4471-8321-49e71dcbdd7d"
+id="sch.1-def.Ministerialappointee"><b><i>Ministerial
+appointee</i></b></defterm> means a person who is appointed by the Minister as
+a member of the Working Group.</txt></block></deflist>
+</block></level>
+</level>
+
+
+<level type="part" id="sch.1-pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_70ef09e6-2384-4a93-a11e-d0a79d12d543"></attrib>
+<attrib name="id" value="sch.1-pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_dd6acedb-9fa1-4cac-845b-e9bded852bee"
+id="sch.1-pt.2-he"><b>Constitution</b></heading></head>
+
+<level type="clause" id="sch.1-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_71f1435b-7b60-43f3-a603-3149ba6b736c"></attrib>
+<attrib name="id" value="sch.1-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_6c28c7ec-e67c-48b9-b0ae-b65dc127d556"
+id="sch.1-sec.2-he"><b>Terms of office of Ministerial
+appointees</b></heading></head>
+<block><txt break.before="1">Subject to this Schedule and the regulations, a
+Ministerial appointee holds office for such period (not exceeding 2 years) as
+is specified in his or her instrument of appointment, but is eligible (if
+otherwise qualified) for re-appointment.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1f4398b9-f469-4d9d-8fb8-5cb71fcb5f83"></attrib>
+<attrib name="id" value="sch.1-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_d1300c8a-4ca8-415e-aab1-4343948bd8dd"
+id="sch.1-sec.3-he"><b>Ministerial appointees to be part-time
+members</b></heading></head>
+<block><txt break.before="1">Ministerial appointees hold office as part-time
+members.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f67c15ce-e3cb-4082-882a-91800534ee64"></attrib>
+<attrib name="id" value="sch.1-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_a9f4b066-0f66-424b-ac7d-5cd65c0136bb"
+id="sch.1-sec.4-he"><b>Remuneration of Ministerial
+appointees</b></heading></head>
+<block><txt break.before="1">A Ministerial appointee is entitled to be paid
+such remuneration (including travelling and subsistence allowances) as the
+Minister may from time to time determine in respect of the
+appointee.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8180a2be-cd40-4868-87de-c6c4f20471d3"></attrib>
+<attrib name="id" value="sch.1-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_894d82b2-3813-465b-8c9f-52747fe8a1d3"
+id="sch.1-sec.5-he"><b>Vacancy in office of Ministerial
+appointee</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_40fb4509-886a-4380-a086-93f35fd6bde8"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The office of a Ministerial appointee becomes
+vacant if the appointee:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ce315d06-89eb-4f52-b506-0f5a2f59223d" id="sch.1-sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">dies, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_da1ea9ea-c7f7-4d6d-ae6d-9fb23a183c0a" id="sch.1-sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">completes a term of office and is not
+re-appointed, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_beb90567-6e81-48b2-8242-2657f2341a63" id="sch.1-sec.5-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">resigns the office by instrument in writing
+addressed to the Minister, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f4ade638-bd27-4305-a7dd-357ae21c0fda" id="sch.1-sec.5-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">is removed from office by the Minister under this
+clause or by the Governor under Part 6 of the <legref refid="act-2013-040"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Government
+Sector Employment Act 2013</i></name></legref>, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_73da577e-041b-49ae-b6e4-b90793857adf" id="sch.1-sec.5-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">is absent from 3 consecutive meetings of the
+Working Group of which reasonable notice has been given to the appointee
+personally or by post, except on leave granted by the Secretary or unless the
+appointee is excused by the Secretary for having been absent from those
+meetings, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a4327dac-18c4-4086-bcd7-be39ca614cff" id="sch.1-sec.5-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">becomes bankrupt, applies to take the benefit of
+any law for the relief of bankrupt or insolvent debtors, compounds with his or
+her creditors or makes an assignment of his or her remuneration for their
+benefit, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_69a1bca4-d6e5-4cd8-bda7-0055aa5e48ec" id="sch.1-sec.5-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">becomes a mentally incapacitated person,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_eb56d268-2258-4a00-8488-ad09f8c882ea" id="sch.1-sec.5-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">is convicted in New South Wales of an offence
+that is punishable by imprisonment for 12 months or more or is convicted
+elsewhere than in New South Wales of an offence that, if committed in New
+South Wales, would be an offence so punishable.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_df4131b2-062e-4334-b6e0-da8485e24529"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister may remove a Ministerial appointee
+from office at any time.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_78f8e86c-dae9-406c-9f3c-ec84248bf340"></attrib>
+<attrib name="id" value="sch.1-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_e3af7d99-e54b-47c5-9d3b-be7677efeb4c"
+id="sch.1-sec.6-he"><b>Filling of vacancy in office of Ministerial
+appointee</b></heading></head>
+<block><txt break.before="1">If the office of a Ministerial appointee becomes
+vacant, a person is, subject to this Act and the regulations, to be appointed
+to fill the vacancy.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ce190051-453d-4a15-a74d-8f8addf2c44f"></attrib>
+<attrib name="id" value="sch.1-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_ee39ac16-1644-40de-aa27-1d695c79da8f"
+id="sch.1-sec.7-he"><b>Disclosure of pecuniary interests</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_175b3259-3ef8-4569-b576-1d3e2b4daa92"></attrib>
+<attrib name="id" value="sch.1-sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_21c36046-7c80-42ca-b345-7a3cb175c62f" id="sch.1-sec.7-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a member has a direct or indirect pecuniary
+interest or other interest in a matter being considered or about to be
+considered at a meeting of the Working Group, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_864ec67f-0f87-4c19-a133-8ef8a1280274" id="sch.1-sec.7-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the interest appears to raise a conflict with the
+proper performance of the member&#8217;s duties in relation to the
+consideration of the matter,</txt></block></li></list>
+
+<txt break.before="1">the member must, as soon as possible after the relevant
+facts have come to the member&#8217;s knowledge, disclose the nature of the
+interest at a meeting of the Working Group.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9ab0f620-06d9-4a0f-9baa-61b944f3f2ec"></attrib>
+<attrib name="id" value="sch.1-sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A disclosure by a member at a meeting of the
+Working Group that the member:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4aedfd37-17f0-4337-b397-b69e277f06d4" id="sch.1-sec.7-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is a member, or is in the employment, of a
+specified company or other body, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0d822fc4-3f52-45cf-b9a7-a842a7bc0308" id="sch.1-sec.7-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is a partner, or is in the employment, of a
+specified person, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_499b2d8e-54c4-4b5e-aadc-b6cd3abe40fa" id="sch.1-sec.7-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">has some other specified interest relating to a
+specified company or other body or to a specified
+person,</txt></block></li></list>
+
+<txt break.before="1">is a sufficient disclosure of the nature of the interest
+in any matter relating to that company or other body or to that person that
+may arise after the date of the disclosure and that is required to be
+disclosed under subclause (1).</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b6e2061c-8220-478d-9c5f-144d2a45dba8"></attrib>
+<attrib name="id" value="sch.1-sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">After a member has disclosed the nature of an
+interest in any matter, the member must not, unless the Minister or the
+Working Group otherwise determines:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4a00333d-76c0-4278-a7fc-db4c5518f004" id="sch.1-sec.7-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">be present during any deliberation of the Working
+Group with respect to the matter, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_82d28793-4e5e-427f-8bde-57a3add3f792" id="sch.1-sec.7-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">take part in any decision of the Working Group
+with respect to the matter.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ff087ff9-2ffd-429f-bad5-0141534eca9d"></attrib>
+<attrib name="id" value="sch.1-sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">For the purposes of the making of a determination
+by the Working Group under subclause (3), a member who has a direct or
+indirect pecuniary interest or other interest in a matter to which the
+disclosure relates must not:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bc8b743c-ae5f-4d84-99f5-9bff06037a1c" id="sch.1-sec.7-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">be present during any deliberation of the Working
+Group for the purpose of making the determination, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dac00bd4-3d5b-4b32-91df-69ab9384826c" id="sch.1-sec.7-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">take part in the making by the Working Group of
+the determination.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.7-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7b68095e-d1e0-41e4-943b-8f4f1262196a"></attrib>
+<attrib name="id" value="sch.1-sec.7-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Subclauses (1) and (3) do not apply to an
+interest that the member has as:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e52eb547-c54d-42b2-8bd5-245a7d3497ff" id="sch.1-sec.7-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a member of any local government agency,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b745cdbb-07e2-4c5d-ab80-1f7f171df14c" id="sch.1-sec.7-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">an office bearer of any statutory body,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7f4ec27a-c4bb-4a01-a04f-f360c1dc5bd4" id="sch.1-sec.7-ssec.5-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a member of the Public Service or an employee of
+a statutory body.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.7-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bf8292a5-90e1-4985-bce0-3178eb78db07"></attrib>
+<attrib name="id" value="sch.1-sec.7-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">A contravention of this clause does not
+invalidate any decision of the Working Group.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.7-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_db96c964-e280-44f8-9342-76f80161ed77"></attrib>
+<attrib name="id" value="sch.1-sec.7-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">This clause applies to a member of a committee of
+the Working Group and the committee in the same way as it applies to a member
+of the Working Group and the Working Group.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3ac77552-9642-40ca-ad90-7b44d99f2fd5"></attrib>
+<attrib name="id" value="sch.1-sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_4836b6e2-b04b-4984-beca-f81bea736025"
+id="sch.1-sec.8-he"><b>Effect of certain other Acts</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f004faab-3f79-4226-b312-5cee880d72e6"></attrib>
+<attrib name="id" value="sch.1-sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The provisions of the <legref
+refid="act-2013-040" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Government Sector Employment Act 2013</i></name></legref>
+relating to the employment of Public Service employees do not apply to a
+Ministerial appointee.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b1a5789b-1e76-4965-a41b-f6302439b276"></attrib>
+<attrib name="id" value="sch.1-sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If by or under any Act provision is made:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6e24e758-ed59-4a7a-ad02-bcf908b4c3ff" id="sch.1-sec.8-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">requiring a person who is the holder of a
+specified office to devote the whole of his or her time to the duties of that
+office, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a56e28f6-045b-4faa-9d2f-c76f0061385f" id="sch.1-sec.8-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">prohibiting the person from engaging in
+employment outside the duties of that office,</txt></block></li></list>
+
+<txt break.before="1">the provision does not operate to disqualify the person
+from holding that office and also the office of a Ministerial appointee or
+from accepting and retaining any remuneration payable to the person under this
+Act as a Ministerial appointee.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="sch.1-pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_4e40d55e-3215-43a3-94e3-269f6a158106"></attrib>
+<attrib name="id" value="sch.1-pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_ae4ed1c5-57bf-47a0-852d-d59229a49122"
+id="sch.1-pt.3-he"><b>Procedure</b></heading></head>
+
+<level type="clause" id="sch.1-sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8633463f-946f-4f0a-9b98-3a385f175370"></attrib>
+<attrib name="id" value="sch.1-sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_17c0bc0f-93d5-4b7c-bf3c-295142ac5e89"
+id="sch.1-sec.9-he"><b>General procedure</b></heading></head>
+<block><txt break.before="1">The procedure for the calling of meetings of the
+Working Group and for the conduct of business at those meetings is, subject to
+this Act and the regulations, to be as determined by the Working
+Group.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0280b163-48a2-493a-84ac-17846dfa6889"></attrib>
+<attrib name="id" value="sch.1-sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_a8d2d9bf-7889-4f81-915a-23c587bb589e"
+id="sch.1-sec.10-he"><b>Quorum</b></heading></head>
+<block><txt break.before="1">The quorum for a meeting of the Working Group is
+4 members, of whom one is to be the Chairperson.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f8ef9601-2f33-4fa9-b49a-da33b69c1de4"></attrib>
+<attrib name="id" value="sch.1-sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_adacbef5-9a34-46a7-b628-4c3b87221f43"
+id="sch.1-sec.11-he"><b>Presiding member</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5417ee52-7956-4260-9287-e16a9b15ed07"></attrib>
+<attrib name="id" value="sch.1-sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">At any meeting of the Working Group, the
+Chairperson is to preside.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c1404a79-e756-4e51-b782-cd18e6afd82d"></attrib>
+<attrib name="id" value="sch.1-sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Chairperson has a deliberative vote and, in
+the event of an equality of votes, has a second or casting
+vote.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_75f3cb85-ea70-4c97-b4df-04836f4fb592"></attrib>
+<attrib name="id" value="sch.1-sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_a72b2e53-7fc5-4ff9-9718-e43a98d25142"
+id="sch.1-sec.12-he"><b>Voting</b></heading></head>
+<block><txt break.before="1">A decision supported by a majority of the votes
+cast at a meeting of the Working Group at which a quorum is present is the
+decision of the Working Group.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c1f30d8b-b88b-4ec4-8842-aac3f7f894eb"></attrib>
+<attrib name="id" value="sch.1-sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_8b6423a3-9fa6-4650-81e7-7850fe18e9f1"
+id="sch.1-sec.13-he"><b>Transaction of business outside meetings or by
+telephone</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c812ca26-b96f-47b2-aa4b-9d9744847f6d"></attrib>
+<attrib name="id" value="sch.1-sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Working Group may, if it thinks fit, transact
+any of its business by the circulation of papers among all the members of the
+Working Group for the time being, and a resolution in writing approved in
+writing by a majority of those members is taken to be a decision of the
+Working Group.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_15ef600d-55db-4593-a034-d4905b3eb03c"></attrib>
+<attrib name="id" value="sch.1-sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Working Group may, if it thinks fit, transact
+any of its business at a meeting at which members (or some members)
+participate by telephone, closed-circuit television or other means, but only
+if any member who speaks on a matter before the meeting can be heard by the
+other members.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.13-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c5c7e4ab-2402-4b51-8a28-59cee1eb22f2"></attrib>
+<attrib name="id" value="sch.1-sec.13-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purposes of:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9af06fcc-7cf2-41ca-8342-a4fe8b7d5070"
+id="sch.1-sec.13-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the approval of a resolution under subclause (1),
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_efd6f72f-9825-4704-929e-30b9458ee9e0"
+id="sch.1-sec.13-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a meeting held in accordance with subclause
+(2),</txt></block></li></list>
+
+<txt break.before="1">the Chairperson and each member have the same voting
+rights as they have at an ordinary meeting of the Working
+Group.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.13-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f95d70d1-6952-477d-9f6c-f95b88908a60"></attrib>
+<attrib name="id" value="sch.1-sec.13-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A resolution approved under subclause (1) is,
+subject to the regulations, to be recorded in the minutes of the meetings of
+the Working Group.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.13-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fb4f331f-12d6-44a3-8336-ad71a2f786ca"></attrib>
+<attrib name="id" value="sch.1-sec.13-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Papers may be circulated among the members for
+the purposes of subclause (1) by facsimile or other transmission of the
+information in the papers concerned.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_55ba582e-b822-4f9c-8859-7e9d5f975cdc"></attrib>
+<attrib name="id" value="sch.1-sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_72292831-13c6-48a7-b370-e1068d78193c"
+id="sch.1-sec.14-he"><b>Minutes</b></heading></head>
+<block><txt break.before="1">The Working Group must keep minutes of
+proceedings at its meetings.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1a8dabb8-16f9-47df-b831-cab505000eb3"></attrib>
+<attrib name="id" value="sch.1-sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_15b38fc9-f066-482b-843c-66d0cf89f26d"
+id="sch.1-sec.15-he"><b>First meeting</b></heading></head>
+<block><txt break.before="1">The Minister may call the first meeting of the
+Working Group in such manner as the Minister thinks
+fit.</txt></block></level>
+</level>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Ins 1980 No
+148, Sch 1 (14). Am 1987 No 48, Sch 32. Subst 1987 No 112, Sch 1 (13). Am 1991
+No 17, Sch 1; 1999 No 94, sec 7 (2) and Sch 5, Part 2. Subst 2006 No 21, Sch 1
+[17]. Am 2015 No 58, Sch 3.6 [4] [5].</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1fe059fd-1ac6-4b88-8831-7cdcf1d87882"></attrib>
+<attrib name="id" value="sch.2"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading
+guid="_c08f09ed-f253-426f-b304-4a2180baba0a" id="sch.2-he"><b>Savings,
+transitional and other provisions</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 19)</txt></block>
+
+<level type="part" id="sch.2-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_921ffc38-5b3f-4150-b2d2-a5b2e694c38d"></attrib>
+<attrib name="id" value="sch.2-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_87b5d1a7-d45f-45ca-959f-d562246d4edb"
+id="sch.2-pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sch.2-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d6d1bed5-fbc0-4946-a8bd-1d55f6ff7160"></attrib>
+<attrib name="id" value="sch.2-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_99345482-b6a7-4331-ace2-fea72a9bf718"
+id="sch.2-sec.1-he"><b>Savings and transitional
+regulations</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_66fc0d7b-c718-415e-bdaa-473c01928736"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of the following
+Acts:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2b5a3612-30af-4af6-b662-b2712b42af70" id="sch.2-sec.1-ssec.1-para1">
+<block><txt break.before="1"><legref refid="act-2006-021" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Air Transport Amendment Act
+2006</i></name></legref></txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_44843f7e-7878-4288-af3b-02b8851dc181"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Such a provision may, if the regulations so
+provide, take effect from the date of assent to the Act concerned or a later
+day.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_317d31d0-e882-4251-9a70-c00da2e9df4e"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which such a provision takes
+effect from a date that is earlier than the date of its publication in the
+Gazette, the provision does not operate so as:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ad9ba9fa-9843-46c3-9013-d8eb576e7cbe" id="sch.2-sec.1-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of that publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ac89e7db-a219-46f0-a4bc-5f6def6a8889" id="sch.2-sec.1-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of that publication.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="sch.2-pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_db5678f1-5884-452c-a064-80d68761e7c1"></attrib>
+<attrib name="id" value="sch.2-pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_659c8b57-4bee-49cd-80ff-a86c026e131a"
+id="sch.2-pt.2-he"><b>Provisions consequent on <legref refid="act-2006-021"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Air Transport
+Amendment Act 2006</i></name></legref></b></heading></head>
+
+<level type="clause" id="sch.2-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b07d6030-6b30-4f86-abf9-fc2936347ef6"></attrib>
+<attrib name="id" value="sch.2-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_426d2b62-715c-4c96-a06d-c199e63c5670"
+id="sch.2-sec.2-he"><b>Abolition of Air Transport
+Council</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ec0961c5-4783-4c6e-b669-4cb5a22e7c2d"></attrib>
+<attrib name="id" value="sch.2-sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Air Transport Council is
+abolished.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aa33da75-96e8-4d4e-9f5e-24161e941fc2"></attrib>
+<attrib name="id" value="sch.2-sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">No compensation is payable to any member of the
+Air Transport Council who is removed from office under this
+clause.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.2-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4c475e75-dac2-48b8-a258-7caca688b502"></attrib>
+<attrib name="id" value="sch.2-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_cc5d13e4-b90e-4f08-9390-2bf0264ab9ec"
+id="sch.2-sec.3-he"><b>Fees for applications and
+licences</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3960552a-fcdf-43aa-a10d-c08ca4459438"></attrib>
+<attrib name="id" value="sch.2-sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Fees that had been paid under section 7 of this
+Act before its amendment by the <legref refid="act-2006-021" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Air Transport Amendment Act
+2006</i></name></legref> do not have to be repaid.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e2a5bf61-c144-40a4-a376-f65b27627c68"></attrib>
+<attrib name="id" value="sch.2-sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Fees that had been payable under section 7 of
+this Act before its amendment by the <legref refid="act-2006-021" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Air Transport Amendment Act
+2006</i></name></legref>, but had not been paid, do not have to be
+paid.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.2-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1b9abad6-1087-4e30-8a95-cb2bb3d8ec2d"></attrib>
+<attrib name="id" value="sch.2-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_25df9522-9356-4b16-b959-ccfb59212c7b"
+id="sch.2-sec.4-he"><b>Appeals to Administrative Decisions
+Tribunal</b></heading></head>
+<block><txt break.before="1">Section 10A, as inserted by the <legref
+refid="act-2006-021" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Air Transport Amendment Act 2006</i></name></legref>, does
+not apply to any decision made before the commencement of that
+section.</txt></block></level>
+</level>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 2:</b> Ins 1987 No
+112, Sch 1 (13). Subst 2006 No 21, Sch 1 [17].</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_249c0109-625f-4283-ae58-c553333d4870"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_d9a0d757-0d0d-47dc-9eef-4388341b2e10"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-1964-036" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Air Transport Act
+1964</i></name> No 36</legref>. Assented to 16.10.1964. This Act has been
+amended as follows:</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_59f3241e-9ec2-4a33-9f06-b14b475f218f" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_2dc69d3e-e331-4bc8-b3cf-ea7fdab3b0c6" id="ed-tbl-tblr">
+<entry colname="1" guid="_166d399d-46b3-4a5c-8885-75c104fc6766"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1965</b></txt></entry>
+<entry colname="2" guid="_51cf529f-b7e7-40dd-a9ba-f1e852784c4f"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 33</txt></entry>
+<entry colname="3" guid="_a292a5cb-00b1-4077-8ee4-25e0a668b9b7"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref refid="act-1965-033" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Decimal Currency Act
+1965</i></name></legref>. Assented to 20.12.1965.</txt>
+<txt break.before="1">Date of commencement of sec 4, 14.2.1966, secs 1 (3), 2
+(1) and the <legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="yes"><i>Currency Act 1965</i></name></legref> (Commonwealth), sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_d492519a-7f51-4f92-9d1f-036c083cb662" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_616de737-c7f3-4675-bf5a-2da8b92aeed9"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>1971</b></txt></entry>
+<entry colname="2" guid="_a0c86973-2318-4d82-8738-399326a73f64"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 58</txt></entry>
+<entry colname="3" guid="_6783620f-4c77-41ca-b1a2-838396a9b39d"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Motor Traffic, Transport and Main
+Roads (Amendment) Act 1971</i></name></legref>. Assented to 14.12.1971.</txt>
+<txt break.before="1">Date of commencement, 1.1.1972, sec 1 (2) and GG No 149
+of 24.12.1971, p 4949.</txt></block></entry></row>
+
+
+<row guid="_0d295966-5015-4fe5-95cc-7f94a38e850d" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_e4de29e6-24e6-4cd1-bc91-cb6566ebe269"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>1972</b></txt></entry>
+<entry colname="2" guid="_b7842336-58e9-41ce-8892-f3ad290723f1"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 48</txt></entry>
+<entry colname="3" guid="_048204d6-9577-4ead-84c1-73d08cc1b13f"
+id="ed-tbl-tblr-oc.3-tble3"><txt break.before="1"><legref refid="act-1972-048"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Reprints Act
+1972</i></name></legref>. Assented to 9.10.1972.</txt></entry></row>
+
+
+<row guid="_cec03f05-a71e-4816-9c75-f6e55f51bb5f" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_bd577345-bbe1-4c5e-9129-170b124e854e"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>1974</b></txt></entry>
+<entry colname="2" guid="_e8245eb2-4b97-47b7-a7ef-1d294fca4b50"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 57</txt></entry>
+<entry colname="3" guid="_4acc59ef-d602-479e-8c17-2ad1c2743cea"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Motor Traffic and Transport (Further
+Amendment) Act 1974</i></name></legref>. Assented to 10.10.1974.</txt>
+<txt break.before="1">Date of commencement of sec 5, 1.11.1974, sec 2 (2) and
+GG No 129 of 25.10.1974, p 4115.</txt></block></entry></row>
+
+
+<row guid="_fce124d2-c296-45d5-956c-521b77f7e888" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_d05a8290-e827-46d8-8a88-a1f90f86b536"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>1980</b></txt></entry>
+<entry colname="2" guid="_7e72ec34-f70e-4508-81cc-d7c53d436a16"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 148</txt></entry>
+<entry colname="3" guid="_537fc7c0-fd15-483d-9459-7361a68ad1ea"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Air Transport (Amendment) Act
+1980</i></name></legref>. Assented to 10.12.1980.</txt>
+<txt break.before="1">Date of commencement of Schs 1 and 2, 23.2.1981, sec 2
+(2) and GG No 32 of 20.2.1981, p 931.</txt></block></entry></row>
+
+
+<row guid="_d4319390-d103-497d-a7d8-a64c6b2d7570" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_8a1cc026-275e-4f33-9869-4ef04ff4af3b"
+id="ed-tbl-tblr-oc.6-tble1"><txt break.before="1"><b>1981</b></txt></entry>
+<entry colname="2" guid="_6b40c359-2dcf-4485-84fc-d27ddee84591"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">No 123</txt></entry>
+<entry colname="3" guid="_f822b532-3e0d-4fcd-a747-904dc173c0f7"
+id="ed-tbl-tblr-oc.6-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Companies)
+Amendment Act 1981</i></name></legref>. Assented to 30.12.1981.</txt>
+<txt break.before="1">Date of commencement of Sch 8 (except as provided in sec
+2 (6) (a)&#8211;(c)), 1.7.1982, sec 2 (6) and GG No 90 of 30.6.1982, p
+2959.</txt></block></entry></row>
+
+
+<row guid="_753b1b55-556b-4ded-a53d-2ae2966512ad" id="ed-tbl-tblr-oc.7">
+<entry colname="1" guid="_94f4c141-e443-4a24-993b-da5108996fd2"
+id="ed-tbl-tblr-oc.7-tble1"><txt break.before="1"><b>1982</b></txt></entry>
+<entry colname="2" guid="_4b4134c4-73b1-42b6-a74e-9679ce4ba6aa"
+id="ed-tbl-tblr-oc.7-tble2"><txt break.before="1">No 106</txt></entry>
+<entry colname="3" guid="_41d11baa-e2a1-4a3c-bd2e-86fedd06cb80"
+id="ed-tbl-tblr-oc.7-tble3"><txt break.before="1"><legref jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Air Transport (Amendment)
+Act 1982</i></name></legref>. Assented to 19.11.1982.</txt></entry></row>
+
+
+<row guid="_551dab1c-28c8-4adc-8ad3-69a7b194dd1d" id="ed-tbl-tblr-oc.8">
+<entry colname="1" guid="_626bfbeb-1dbe-43f4-9ca7-898b1e289d0d"
+id="ed-tbl-tblr-oc.8-tble1"><txt break.before="1"><b>1985</b></txt></entry>
+<entry colname="2" guid="_13be6778-06e0-4872-bc35-7935e0dc9488"
+id="ed-tbl-tblr-oc.8-tble2"><txt break.before="1">No 140</txt></entry>
+<entry colname="3" guid="_ecd81e46-9b29-49d2-a04f-926b16837150"
+id="ed-tbl-tblr-oc.8-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Motor Transport
+Fees and Charges) Amendment Act 1985</i></name></legref>. Assented to
+25.11.1985.</txt>
+<txt break.before="1">Date of commencement of Sch 1, 1.7.1986, sec 2 (2) and
+GG No 90 of 6.6.1986, p 2556.</txt></block></entry></row>
+
+
+<row guid="_38683353-be04-4d8d-98f8-2174097917fd" id="ed-tbl-tblr-oc.9">
+<entry colname="1" guid="_05821b6f-5aca-4cbc-8fd3-9feb3c36996a"
+id="ed-tbl-tblr-oc.9-tble1"><txt break.before="1"><b>1987</b></txt></entry>
+<entry colname="2" guid="_efd74ada-9201-4378-87c5-fafcfd6a1095"
+id="ed-tbl-tblr-oc.9-tble2"><txt break.before="1">No 48</txt></entry>
+<entry colname="3" guid="_fb4c8ee6-e227-48ac-ab4b-9dbe8e79307f"
+id="ed-tbl-tblr-oc.9-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 1) 1987</i></name></legref>. Assented to 28.5.1987.</txt>
+<txt break.before="1">Date of commencement of Sch 32, except as provided by
+sec 2 (13), 1.9.1987, sec 2 (12) and GG No 136 of 28.8.1987, p
+4809.</txt></block></entry></row>
+
+
+<row guid="_53ecfa1b-5344-4405-9c05-571cfcdce527" id="ed-tbl-tblr-oc.10">
+<entry colname="1" guid="_d4e645f8-4991-4057-9df7-ae677bc6ef34"
+id="ed-tbl-tblr-oc.10-tble1"></entry>
+<entry colname="2" guid="_a68a822a-074b-4114-a776-9277f75bbbd6"
+id="ed-tbl-tblr-oc.10-tble2"><txt break.before="1">No 112</txt></entry>
+<entry colname="3" guid="_2acf3389-57fb-45fa-a9e3-aaa71e8d1aa4"
+id="ed-tbl-tblr-oc.10-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Air Transport (Amendment) Act
+1987</i></name></legref>. Assented to 16.6.1987.</txt>
+<txt break.before="1">Date of commencement of Sch 1 (4), 9.10.1987, sec 2 (2)
+and GG No 159 of 9.10.1987, p 5679.</txt></block></entry></row>
+
+
+<row guid="_d07644d5-5994-4e7d-86f2-ec2680c0f846" id="ed-tbl-tblr-oc.11">
+<entry colname="1" guid="_a3415689-b8f7-4501-9497-71b3c1cdbdb7"
+id="ed-tbl-tblr-oc.11-tble1"><txt break.before="1"><b>1991</b></txt></entry>
+<entry colname="2" guid="_8fe4555d-9fd8-4a30-a037-2e8df78d53af"
+id="ed-tbl-tblr-oc.11-tble2"><txt break.before="1">No 17</txt></entry>
+<entry colname="3" guid="_4b1333ea-5cbc-4598-97b0-365839a0d1ec"
+id="ed-tbl-tblr-oc.11-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act 1991</i></name></legref>. Assented to 3.5.1991.</txt>
+<txt break.before="1">Date of commencement of the provisions of Sch 1 relating
+to the <legref refid="act-1964-036" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Air Transport Act
+1964</i></name></legref>, assent, sec 2.</txt></block></entry></row>
+
+
+<row guid="_8af9487a-69cb-418a-ab4b-d546dbe1c173" id="ed-tbl-tblr-oc.12">
+<entry colname="1" guid="_f8c5a047-b726-4026-bf0b-49f9721479e1"
+id="ed-tbl-tblr-oc.12-tble1"><txt break.before="1"><b>1992</b></txt></entry>
+<entry colname="2" guid="_f3b1bb26-4da4-43f6-939b-685fdce3473d"
+id="ed-tbl-tblr-oc.12-tble2"><txt break.before="1">No 112</txt></entry>
+<entry colname="3" guid="_49707d1b-87c8-4744-95b2-2294d01694ef"
+id="ed-tbl-tblr-oc.12-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Penalties) Act
+1992</i></name></legref>. Assented to 8.12.1992.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_3d17a4ea-c0de-4166-9248-35bf721423de" id="ed-tbl-tblr-oc.13">
+<entry colname="1" guid="_dc60a768-3fe2-4ef7-9a26-ed28c22e15d0"
+id="ed-tbl-tblr-oc.13-tble1"><txt break.before="1"><b>1996</b></txt></entry>
+<entry colname="2" guid="_23eeaf37-08a6-4ce8-9529-29dbae8ae76f"
+id="ed-tbl-tblr-oc.13-tble2"><txt break.before="1">No 121</txt></entry>
+<entry colname="3" guid="_019c514f-0cb5-4a77-a51f-275aff6d5446"
+id="ed-tbl-tblr-oc.13-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1996</i></name></legref>. Assented to 3.12.1996.</txt>
+<txt break.before="1">Date of commencement of Sch 3.2, 3 months after assent,
+sec 2 (3).</txt></block></entry></row>
+
+
+<row guid="_59996908-f135-4528-99a6-cd6069bbbc4a" id="ed-tbl-tblr-oc.14">
+<entry colname="1" guid="_b0516a08-2a78-4ed6-8780-b15c8be1f2cf"
+id="ed-tbl-tblr-oc.14-tble1"><txt break.before="1"><b>1999</b></txt></entry>
+<entry colname="2" guid="_65e6555b-5925-4393-bf68-b2c23f462c6c"
+id="ed-tbl-tblr-oc.14-tble2"><txt break.before="1">No 31</txt></entry>
+<entry colname="3" guid="_ae84e535-89ca-430c-9bca-6dac066937e7"
+id="ed-tbl-tblr-oc.14-tble3">
+<block><txt break.before="1"><legref refid="act-1999-031" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 1999</i></name></legref>. Assented to 7.7.1999.</txt>
+<txt break.before="1">Date of commencement of Sch 4, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_f701ec19-e8de-4152-b9e0-7aad4834ed49" id="ed-tbl-tblr-oc.15">
+<entry colname="1" guid="_54558fc3-347b-40ae-b090-3b9f593981e2"
+id="ed-tbl-tblr-oc.15-tble1"></entry>
+<entry colname="2" guid="_ac2e79b1-e72b-44ce-ae2d-10f246d64f41"
+id="ed-tbl-tblr-oc.15-tble2"><txt break.before="1">No 85</txt></entry>
+<entry colname="3" guid="_ab4403a7-1224-436b-9c08-818b5920e0dc"
+id="ed-tbl-tblr-oc.15-tble3">
+<block><txt break.before="1"><legref refid="act-1999-085" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 1999</i></name></legref>. Assented to 3.12.1999.</txt>
+<txt break.before="1">Date of commencement of Sch 4, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_48010b8c-4fff-4c5d-97d8-6c3ce6c89ddf" id="ed-tbl-tblr-oc.16">
+<entry colname="1" guid="_cb74db6f-3ba2-4343-820b-757aef1dffaf"
+id="ed-tbl-tblr-oc.16-tble1"></entry>
+<entry colname="2" guid="_2f407778-4f40-40b5-a886-c58c02edfd7e"
+id="ed-tbl-tblr-oc.16-tble2"><txt break.before="1">No 94</txt></entry>
+<entry colname="3" guid="_1ac6c2b3-6c68-4a21-9123-167352f93192"
+id="ed-tbl-tblr-oc.16-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Crimes Legislation Amendment
+(Sentencing) Act 1999</i></name></legref>. Assented to 8.12.1999.</txt>
+<txt break.before="1">Date of commencement of sec 7 and Sch 5, 1.1.2000, sec 2
+(1) and GG No 144 of 24.12.1999, p 12184.</txt></block></entry></row>
+
+
+<row guid="_b904b75b-74ec-4814-88dd-518d701f1a0d" id="ed-tbl-tblr-oc.17">
+<entry colname="1" guid="_c8f5e7a3-3ee4-4a2f-be3b-223250d3dc3c"
+id="ed-tbl-tblr-oc.17-tble1"><txt break.before="1"><b>2001</b></txt></entry>
+<entry colname="2" guid="_508e8424-eaf7-48c2-98b1-8dd9c755f6d4"
+id="ed-tbl-tblr-oc.17-tble2"><txt break.before="1">No 34</txt></entry>
+<entry colname="3" guid="_ec585847-edc3-4579-ba41-0edcae9fa82d"
+id="ed-tbl-tblr-oc.17-tble3">
+<block><txt break.before="1"><legref refid="act-2001-034" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Corporations (Consequential
+Amendments) Act 2001</i></name></legref>. Assented to 28.6.2001.</txt>
+<txt break.before="1">Date of commencement of Sch 2.1, 15.7.2001, sec 2 (1)
+and Commonwealth Gazette No S 285 of 13.7.2001.</txt></block></entry></row>
+
+
+<row guid="_46bbdeb2-761e-4714-aebf-1c3ce7f840ea" id="ed-tbl-tblr-oc.18">
+<entry colname="1" guid="_a8d5596e-931f-4fee-8aa5-12c6613ce4f0"
+id="ed-tbl-tblr-oc.18-tble1"></entry>
+<entry colname="2" guid="_704576a0-af15-49c6-aed0-3c1cad979140"
+id="ed-tbl-tblr-oc.18-tble2"><txt break.before="1">No 121</txt></entry>
+<entry colname="3" guid="_47f7f757-cb44-4562-960e-9ecd32f08ca5"
+id="ed-tbl-tblr-oc.18-tble3">
+<block><txt break.before="1"><legref refid="act-2001-121" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Justices Legislation Repeal
+and Amendment Act 2001</i></name></legref>. Assented to 19.12.2001.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 7.7.2003, sec 2 and GG No
+104 of 27.6.2003, p 5978.</txt></block></entry></row>
+
+
+<row guid="_4afae66d-8f02-4262-801c-b636c2d6f077" id="ed-tbl-tblr-oc.19">
+<entry colname="1" guid="_aaf6fdfc-a326-4a82-917a-0be6af20d74a"
+id="ed-tbl-tblr-oc.19-tble1"><txt break.before="1"><b>2006</b></txt></entry>
+<entry colname="2" guid="_b70df1a7-90dd-4d5e-96a9-448e8e388d51"
+id="ed-tbl-tblr-oc.19-tble2"><txt break.before="1">No 21</txt></entry>
+<entry colname="3" guid="_122b753b-e4bb-46e0-a218-7bd428a8d043"
+id="ed-tbl-tblr-oc.19-tble3">
+<block><txt break.before="1"><legref refid="act-2006-021" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Air Transport Amendment Act
+2006</i></name></legref>. Assented to 17.5.2006.</txt>
+<txt break.before="1">Date of commencement, 1.7.2006, sec 2 and GG No 82 of
+23.6.2006, p 4563.</txt></block></entry></row>
+
+
+<row guid="_e4e0ab87-a657-4b34-8dbd-04e624d39ab3" id="ed-tbl-tblr-oc.20">
+<entry colname="1" guid="_c0311b29-1646-4a91-ad90-eadce62b5827"
+id="ed-tbl-tblr-oc.20-tble1"><txt break.before="1"><b>2007</b></txt></entry>
+<entry colname="2" guid="_cf6ab0ed-21dd-4cdd-8d5a-6a8ea9cc17e0"
+id="ed-tbl-tblr-oc.20-tble2"><txt break.before="1">No 94</txt></entry>
+<entry colname="3" guid="_0525d1c9-c579-46bc-bebc-0a6a84ed09dd"
+id="ed-tbl-tblr-oc.20-tble3">
+<block><txt break.before="1"><legref refid="act-2007-094" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Local
+Court) Amendment Act 2007</i></name></legref>. Assented to 13.12.2007.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 6.7.2009, sec 2 and 2009
+(314) LW 3.7.2009.</txt></block></entry></row>
+
+
+<row guid="_2696596b-dc26-4d1f-9f1c-97f1b8067893" id="ed-tbl-tblr-oc.21">
+<entry colname="1" guid="_9668f180-f313-4c4c-9a91-ca527fec7f29"
+id="ed-tbl-tblr-oc.21-tble1"><txt break.before="1"><b>2012</b></txt></entry>
+<entry colname="2" guid="_c5200c5b-8775-4bbf-bf1d-3b888e0645ab"
+id="ed-tbl-tblr-oc.21-tble2"><txt break.before="1">No 95</txt></entry>
+<entry colname="3" guid="_bf8eff5e-a3e1-4cab-b31f-49f3a603b793"
+id="ed-tbl-tblr-oc.21-tble3">
+<block><txt break.before="1"><legref refid="act-2012-095" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2012</i></name></legref>. Assented to
+21.11.2012.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 4.1.2013, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_fe1fc949-5d8a-4d21-b4b6-2e68688f1e21" id="ed-tbl-tblr-oc.22">
+<entry colname="1" guid="_dbede974-b37c-4378-b808-6f60dcbc8d63"
+id="ed-tbl-tblr-oc.22-tble1"><txt break.before="1"><b>2013</b></txt></entry>
+<entry colname="2" guid="_6675b3ae-6d10-4e51-845d-edd2e1b54f14"
+id="ed-tbl-tblr-oc.22-tble2"><txt break.before="1">No 95</txt></entry>
+<entry colname="3" guid="_f1d9ebb2-f165-444d-84bb-17a87371207c"
+id="ed-tbl-tblr-oc.22-tble3">
+<block><txt break.before="1"><legref refid="act-2013-095" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Civil and Administrative
+Legislation (Repeal and Amendment) Act 2013</i></name></legref>. Assented to
+20.11.2013.</txt>
+<txt break.before="1">Date of commencement, 1.1.2014, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_ab651004-b995-4f6c-8562-afd9c5e4aeb6" id="ed-tbl-tblr-oc.23">
+<entry colname="1" guid="_0986fbc6-7b26-4562-8090-8cb39a86dcce"
+id="ed-tbl-tblr-oc.23-tble1"><txt break.before="1"><b>2015</b></txt></entry>
+<entry colname="2" guid="_0b58a3c0-c4ef-49cf-89b8-a600fcec98b5"
+id="ed-tbl-tblr-oc.23-tble2"><txt break.before="1">No 58</txt></entry>
+<entry colname="3" guid="_e1867dab-75a1-48d2-a4c4-3f5a77a3f5e9"
+id="ed-tbl-tblr-oc.23-tble3">
+<block><txt break.before="1"><legref refid="act-2015-058" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2015</i></name></legref>. Assented to
+24.11.2015.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 15.1.2016, sec 2
+(3).</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_0931884d-a90b-489d-949c-b57b3582479a"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block><txt break.before="1">No reference is made to certain amendments made
+by the <legref refid="act-1965-033" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Decimal Currency Act
+1965</i></name></legref>, the <legref refid="act-1972-048" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Reprints Act
+1972</i></name></legref>, and Schedule 3 (amendments replacing gender-specific
+language) to the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Statute Law (Miscellaneous Provisions) Act (No 2)
+1996</i></name></legref>.</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_f021a080-0fbd-4de5-bb80-165b80c4babb" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_eae6f7ff-a21c-490d-b028-0c40d423b277" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_de4ca4e5-30fe-48a6-a001-b8ee28f6ae22"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Long title</txt></entry>
+<entry colname="2" guid="_85c0ec0c-e1cb-4e74-89b6-8a2192935bc2"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 1980 No 148, Schs 1 (1),
+2 (1).</txt></entry></row>
+
+
+<row guid="_23182da5-fc1b-42f8-9665-b84e5a92ba8e" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_08d1b008-79f2-4250-8433-b6d49ccd2669"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 1</txt></entry>
+<entry colname="2" guid="_088552f4-8f56-4667-94e5-490852575705"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 1980 No 148, Sch 2
+(2).</txt></entry></row>
+
+
+<row guid="_e6090f7c-e03a-4708-9b6b-29b868f97256" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_b92f4772-b6b2-48cd-848c-51f84e2488fb"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 2</txt></entry>
+<entry colname="2" guid="_99ab4486-8af6-4e36-b17c-8951e5df7d6a"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Am 1980 No 148, Schs 1
+(2), 2 (3); 1985 No 140, Sch 1; 1987 No 112, Sch 1 (1); 2006 No 21, Sch 1 [1];
+2012 No 95, Sch 2.1 [1]; 2015 No 58, Sch 3.6 [2].</txt></entry></row>
+
+
+<row guid="_bd716859-9727-454a-a91d-b3b25259d0e3" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_2d58c650-8ae5-4c81-b20b-120d1a3979cb"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 2A</txt></entry>
+<entry colname="2" guid="_32547db3-ecfc-4c14-b5f0-f0dd5bc56aca"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Ins 1980 No 148, Sch 1
+(3). Subst 1987 No 112, Sch 1 (2). Rep 2006 No 21, Sch 1
+[2].</txt></entry></row>
+
+
+<row guid="_e8b460b7-8580-4055-9908-3fe6af365e5c" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_f845836d-9d79-4378-9151-8fb30d7fac13"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Secs 2B,
+2C</txt></entry>
+<entry colname="2" guid="_de42423f-b804-482a-ba1f-b52d6d23e7c8"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Ins 1987 No 112, Sch 1
+(2). Rep 2006 No 21, Sch 1 [2].</txt></entry></row>
+
+
+<row guid="_a99ae847-38a1-4851-b9f4-8adb07c1d2a8" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_12bfd2c0-4d01-4539-ac43-b05603422606"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_f14fbe20-aab3-4aa2-a5ee-7695eb55efed"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Am 1980 No 148, Schs 1
+(4), 2 (4); 1987 No 112, Sch 1 (3); 2006 No 21, Sch 1
+[3]&#8211;[5].</txt></entry></row>
+
+
+<row guid="_52ba6b27-3137-46b4-bc2b-6c165fb20b82" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_3d6cc77c-eb79-4bb8-bcac-ef1c567b606b"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 3A</txt></entry>
+<entry colname="2" guid="_63e20385-e667-4716-b828-49372c8451c2"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Ins 1987 No 112, Sch 1
+(4). Rep 2006 No 21, Sch 1 [6].</txt></entry></row>
+
+
+<row guid="_653cb728-75f9-4460-8454-7f5cf8b7c761" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_bf2b57fc-4d6c-4daa-b25d-69ea70ff969e"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_812efc23-ca22-403f-baa4-9e7622874bf0"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Am 1980 No 148, Schs 1
+(5), 2 (5); 1987 No 112, Sch 1 (5).</txt></entry></row>
+
+
+<row guid="_6dad7ad1-d9cf-42d6-ba22-efc46de3ac03" id="ed-tbl-oc.2-tblr-oc.9">
+<entry colname="1" guid="_46700c5f-b7b1-4acf-a16a-ef9a2e873a9e"
+id="ed-tbl-oc.2-tblr-oc.9-tble1"><txt break.before="1">Sec 4A</txt></entry>
+<entry colname="2" guid="_343415fd-0343-4127-bd06-d534750ccda3"
+id="ed-tbl-oc.2-tblr-oc.9-tble2"><txt break.before="1">Ins 2006 No 21, Sch 1
+[7].</txt></entry></row>
+
+
+<row guid="_0c120251-ed12-4345-888f-9ba635ccb6c0"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry colname="1" guid="_08779506-f043-4202-a955-ab18cf0224ef"
+id="ed-tbl-oc.2-tblr-oc.10-tble1"><txt break.before="1">Sec 5</txt></entry>
+<entry colname="2" guid="_0e1a25d7-8949-4f4a-9147-b08646a9c5e2"
+id="ed-tbl-oc.2-tblr-oc.10-tble2"><txt break.before="1">Am 1971 No 58, sec 4;
+1974 No 57, sec 5, 1980 No 148, Sch 1 (6); 1985 No 140, Sch 1; 1987 No 112,
+Sch 1 (6); 2006 No 21, Sch 1 [4] [8]; 2012 No 95, Sch 2.1
+[2].</txt></entry></row>
+
+
+<row guid="_60541b72-8ac7-4ae3-b0e0-943e0aa7f982"
+id="ed-tbl-oc.2-tblr-oc.11">
+<entry colname="1" guid="_4a06bfe5-b27b-4448-86ab-3ee1ad00160b"
+id="ed-tbl-oc.2-tblr-oc.11-tble1"><txt break.before="1">Sec 6</txt></entry>
+<entry colname="2" guid="_868968a1-4b97-4b41-924f-4f52afede713"
+id="ed-tbl-oc.2-tblr-oc.11-tble2"><txt break.before="1">Am 1980 No 148, Sch 1
+(7); 1987 No 112, Sch 1 (7); 2006 No 21, Sch 1 [4] [9].</txt></entry></row>
+
+
+<row guid="_66af4d97-34c9-4f37-8f57-450719d53f0d"
+id="ed-tbl-oc.2-tblr-oc.12">
+<entry colname="1" guid="_59999704-1a07-46c2-8fe9-628180b5e329"
+id="ed-tbl-oc.2-tblr-oc.12-tble1"><txt break.before="1">Sec 7</txt></entry>
+<entry colname="2" guid="_cd4439ee-f464-43e5-aac7-f5ab6457a1ce"
+id="ed-tbl-oc.2-tblr-oc.12-tble2"><txt break.before="1">Am 1980 No 148, Sch 1
+(8). Subst 1987 No 112, Sch 1 (8). Am 2006 No 21, Sch 1 [4]
+[10].</txt></entry></row>
+
+
+<row guid="_6f048655-356c-4fa9-ab9c-aa4918fbf2e3"
+id="ed-tbl-oc.2-tblr-oc.13">
+<entry colname="1" guid="_9c6325bb-8303-405a-bebd-e31c9686641c"
+id="ed-tbl-oc.2-tblr-oc.13-tble1"><txt break.before="1">Sec 8</txt></entry>
+<entry colname="2" guid="_b0b027c1-54d8-4c95-b603-d25beed464f8"
+id="ed-tbl-oc.2-tblr-oc.13-tble2"><txt break.before="1">Am 1980 No 148, Schs 1
+(9), 2 (6); 1981 No 123, Sch 8; 1987 No 112, Sch 1 (9); 2001 No 34, Sch 2.1;
+2006 No 21, Sch 1 [4].</txt></entry></row>
+
+
+<row guid="_fd72ffd3-df41-45d0-8c28-f33482751146"
+id="ed-tbl-oc.2-tblr-oc.14">
+<entry colname="1" guid="_9951a0fb-8173-4d75-b75a-f8c1895ee5da"
+id="ed-tbl-oc.2-tblr-oc.14-tble1"><txt break.before="1">Sec 10</txt></entry>
+<entry colname="2" guid="_edd755a8-f877-4943-8b3d-d1a410280796"
+id="ed-tbl-oc.2-tblr-oc.14-tble2"><txt break.before="1">Rep 1980 No 148, Sch 2
+(7). Ins 1987 No 112, Sch 1 (10). Rep 2006 No 21, Sch 1
+[11].</txt></entry></row>
+
+
+<row guid="_345d63d7-912b-46a4-8683-d9af733311bd"
+id="ed-tbl-oc.2-tblr-oc.15">
+<entry colname="1" guid="_a04b13b0-9313-4595-82a7-21b250862842"
+id="ed-tbl-oc.2-tblr-oc.15-tble1"><txt break.before="1">Sec 10A</txt></entry>
+<entry colname="2" guid="_d84a7ed9-ef60-4007-a12d-1e6f9d886c91"
+id="ed-tbl-oc.2-tblr-oc.15-tble2"><txt break.before="1">Ins 2006 No 21, Sch 1
+[12]. Subst 2013 No 95, Sch 2.5.</txt></entry></row>
+
+
+<row guid="_256e60ba-903d-4d57-9e0c-38cafd70d1f9"
+id="ed-tbl-oc.2-tblr-oc.16">
+<entry colname="1" guid="_725e16d0-972b-48a2-a51b-fc1c5ffad297"
+id="ed-tbl-oc.2-tblr-oc.16-tble1"><txt break.before="1">Sec 11</txt></entry>
+<entry colname="2" guid="_1cdf72eb-efeb-4357-bbe5-95245706e122"
+id="ed-tbl-oc.2-tblr-oc.16-tble2"><txt break.before="1">Am 1982 No 106, Sch 1
+(1).</txt></entry></row>
+
+
+<row guid="_e254e5c1-fad8-4d75-a783-a9ee0488e222"
+id="ed-tbl-oc.2-tblr-oc.17">
+<entry colname="1" guid="_c090e553-4dc7-4200-96df-77b99a352e93"
+id="ed-tbl-oc.2-tblr-oc.17-tble1"><txt break.before="1">Sec 11A</txt></entry>
+<entry colname="2" guid="_2161eefc-c824-45cd-85f7-975813c49c95"
+id="ed-tbl-oc.2-tblr-oc.17-tble2"><txt break.before="1">Ins 1980 No 148, Sch 1
+(10). Am 1982 No 106, Sch 1 (2); 1987 No 112, Sch 1 (11). Subst 2006 No 21,
+Sch 1 [13].</txt></entry></row>
+
+
+<row guid="_99c5e691-3292-4d50-8e46-7066232ae41f"
+id="ed-tbl-oc.2-tblr-oc.18">
+<entry colname="1" guid="_7671afcb-1da3-4c76-80f6-29d67480ce91"
+id="ed-tbl-oc.2-tblr-oc.18-tble1"><txt break.before="1">Sec 12</txt></entry>
+<entry colname="2" guid="_59f9a927-1325-4ad8-bf13-2cea1fed4f92"
+id="ed-tbl-oc.2-tblr-oc.18-tble2"><txt break.before="1">Am 1980 No 148, Sch 1
+(11); 1982 No 106, Sch 1 (3); 1992 No 112, Sch 1; 1999 No 31, Sch 4.2; 2001 No
+121, Sch 2.8 [1] [2]; 2007 No 94, Sch 2.</txt></entry></row>
+
+
+<row guid="_6038e183-a42d-4b21-9897-671f8070143a"
+id="ed-tbl-oc.2-tblr-oc.19">
+<entry colname="1" guid="_0447eb63-16c7-43b3-93d0-36d67926a4b1"
+id="ed-tbl-oc.2-tblr-oc.19-tble1"><txt break.before="1">Sec 12A</txt></entry>
+<entry colname="2" guid="_504d3180-f037-4ecc-a028-c770b9ad2e49"
+id="ed-tbl-oc.2-tblr-oc.19-tble2"><txt break.before="1">Ins 2006 No 21, Sch 1
+[14]. Am 2012 No 95, Sch 2.1 [3]; 2015 No 58, Sch 3.6
+[3].</txt></entry></row>
+
+
+<row guid="_e20439f8-2e16-4cee-af5b-57b42e21003c"
+id="ed-tbl-oc.2-tblr-oc.20">
+<entry colname="1" guid="_abe0a0fe-b7df-4117-97a6-24ce12db32fe"
+id="ed-tbl-oc.2-tblr-oc.20-tble1"><txt break.before="1">Sec 12B</txt></entry>
+<entry colname="2" guid="_107f7dfa-b9eb-46ce-ad00-65770271c817"
+id="ed-tbl-oc.2-tblr-oc.20-tble2"><txt break.before="1">Ins 2006 No 21, Sch 1
+[14].</txt></entry></row>
+
+
+<row guid="_bcbacde4-aa43-450a-adcd-4100ded52381"
+id="ed-tbl-oc.2-tblr-oc.21">
+<entry colname="1" guid="_be4d8b8c-56db-456b-9fbc-79a8b25a32e3"
+id="ed-tbl-oc.2-tblr-oc.21-tble1"><txt break.before="1">Sec 13</txt></entry>
+<entry colname="2" guid="_9c204632-5422-4bd7-8259-70af8d2089d0"
+id="ed-tbl-oc.2-tblr-oc.21-tble2"><txt break.before="1">Am 1980 No 148, Schs 1
+(12), 2 (8); 1985 No 140, Sch 1; 1987 No 48, Sch 32; 1987 No 112, Sch 1 (12);
+1992 No 112, Sch 1; 2006 No 21, Sch 1 [15].</txt></entry></row>
+
+
+<row guid="_a6890d8b-4d3e-47ca-9b12-3e82262c0cdb"
+id="ed-tbl-oc.2-tblr-oc.22">
+<entry colname="1" guid="_504ec1ba-751c-4456-8a1a-34ee40054868"
+id="ed-tbl-oc.2-tblr-oc.22-tble1"><txt break.before="1">Secs 14,
+15</txt></entry>
+<entry colname="2" guid="_6b5c0e25-3a5e-4efa-80ec-331eff720548"
+id="ed-tbl-oc.2-tblr-oc.22-tble2"><txt break.before="1">Am 1980 No 148, Sch 2
+(9). Rep 1999 No 85, Sch 4.</txt></entry></row>
+
+
+<row guid="_9e50a47e-3e51-4dbf-964e-cb4e677623eb"
+id="ed-tbl-oc.2-tblr-oc.23">
+<entry colname="1" guid="_b0e0605f-9504-41bb-8d23-ac2bab2bf782"
+id="ed-tbl-oc.2-tblr-oc.23-tble1"><txt break.before="1">Sec 16</txt></entry>
+<entry colname="2" guid="_112a6650-ea74-4791-8e15-fba2f2261057"
+id="ed-tbl-oc.2-tblr-oc.23-tble2"><txt break.before="1">Rep 1999 No 85, Sch
+4.</txt></entry></row>
+
+
+<row guid="_455d49a7-c621-415d-bbbe-e153ca77f945"
+id="ed-tbl-oc.2-tblr-oc.24">
+<entry colname="1" guid="_39b748dc-b828-49e8-9c92-bd69c7428edb"
+id="ed-tbl-oc.2-tblr-oc.24-tble1"><txt break.before="1">Sec 17</txt></entry>
+<entry colname="2" guid="_5a19bfff-3804-45bc-8d15-1743368c66cb"
+id="ed-tbl-oc.2-tblr-oc.24-tble2"><txt break.before="1">Rep 1980 No 148, Sch 2
+(10).</txt></entry></row>
+
+
+<row guid="_f988dd51-124c-4db2-b131-3f231008d3a9"
+id="ed-tbl-oc.2-tblr-oc.25">
+<entry colname="1" guid="_47c696e1-9d8c-4ce4-a004-2be7f4a181dc"
+id="ed-tbl-oc.2-tblr-oc.25-tble1"><txt break.before="1">Sec 19</txt></entry>
+<entry colname="2" guid="_1f2b1fbf-a9dc-43b1-85a5-1d5f31a7c932"
+id="ed-tbl-oc.2-tblr-oc.25-tble2"><txt break.before="1">Rep 1980 No 148, Sch 1
+(13). Ins 2006 No 21, Sch 1 [16].</txt></entry></row>
+
+
+<row guid="_8877873d-1f3c-4c36-af46-b3ed814a9c4a"
+id="ed-tbl-oc.2-tblr-oc.26">
+<entry colname="1" guid="_6e1ee3f5-4bc2-4e2c-afa4-90cc8f5b40ea"
+id="ed-tbl-oc.2-tblr-oc.26-tble1"><txt break.before="1">Sch 1</txt></entry>
+<entry colname="2" guid="_cd0420c5-559d-4636-b103-9c0bc79d7794"
+id="ed-tbl-oc.2-tblr-oc.26-tble2"><txt break.before="1">Ins 1980 No 148, Sch 1
+(14). Am 1987 No 48, Sch 32. Subst 1987 No 112, Sch 1 (13). Am 1991 No 17, Sch
+1; 1999 No 94, sec 7 (2) and Sch 5, Part 2. Subst 2006 No 21, Sch 1 [17]. Am
+2015 No 58, Sch 3.6 [4] [5].</txt></entry></row>
+
+
+<row guid="_f7fec1ca-dc97-431f-a28a-3c28f0e82894"
+id="ed-tbl-oc.2-tblr-oc.27">
+<entry colname="1" guid="_b196bd99-8dd7-496a-a7be-00376f7a9805"
+id="ed-tbl-oc.2-tblr-oc.27-tble1"><txt break.before="1">Sch 2</txt></entry>
+<entry colname="2" guid="_0ed9234b-7b9a-479b-bded-ea8ced8bd74f"
+id="ed-tbl-oc.2-tblr-oc.27-tble2"><txt break.before="1">Ins 1987 No 112, Sch 1
+(13). Subst 2006 No 21, Sch 1 [17].</txt></entry></row>
+
+
+<row guid="_9f3bf7aa-11f4-47aa-94ef-b8ee7361a223"
+id="ed-tbl-oc.2-tblr-oc.28">
+<entry colname="1" guid="_fc36d652-e0c6-41d1-915f-5296919b912a"
+id="ed-tbl-oc.2-tblr-oc.28-tble1"><txt break.before="1">The whole
+Act</txt></entry>
+<entry colname="2" guid="_c7eaed90-e099-4dbf-8517-4fd3341b0940"
+id="ed-tbl-oc.2-tblr-oc.28-tble2"><txt break.before="1">Am 2015 No 58, Sch 3.6
+[1] (&#8220;Director-General&#8221; and &#8220;Director-General&#8217;s&#8221;
+omitted wherever occurring, &#8220;Secretary&#8221; and
+&#8220;Secretary&#8217;s&#8221; inserted instead,
+respectively).</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

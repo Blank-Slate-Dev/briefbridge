@@ -1,0 +1,2393 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2010-024"
+title="Court Information Act 2010"
+year="2010"
+number="24"
+enact.or.made.date="2010-05-26"
+first.valid.date="2024-07-01"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2010</metacontent>
+<metacontent class="year.assent">2010</metacontent>
+<metacontent class="publication.date">2024-07-01</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2023-041</metacontent>
+<metacontent class="in.force">alluncommenced</metacontent>
+<metacontent class="introduction.date">2010-03-19</metacontent>
+<metacontent class="la.second.reading.date">2010-03-19</metacontent>
+<metacontent class="amended.in.committee">1</metacontent>
+<metacontent class="id">act-2010-024</metacontent>
+<metacontent
+class="version.desc.id">e563ad12-b3ae-450c-8ce1-69e5d8f78632</metacontent>
+<metacontent
+class="version.series.id">fe341696-7071-4b3a-81e1-74162fa59f4e</metacontent>
+<metacontent class="year.introduced">2010</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Court Information Act 2010"></attrib>
+<attrib name="year.passed" value="2010"></attrib>
+<attrib name="year.assent" value="2010"></attrib>
+<attrib name="no" value="24"></attrib>
+<attrib name="publication.date" value="2024-07-01"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2023-041"></attrib>
+<attrib name="first.valid.date" value="2024-07-01"></attrib>
+<attrib name="in.force" value="alluncommenced"></attrib>
+<attrib name="introduction.date" value="2010-03-19"></attrib>
+<attrib name="la.second.reading.date" value="2010-03-19"></attrib>
+<attrib name="amended.in.committee" value="1"></attrib>
+<attrib name="assent.date" value="2010-05-26"></attrib>
+<attrib name="id" value="act-2010-024"></attrib>
+<attrib name="version.desc.id"
+value="e563ad12-b3ae-450c-8ce1-69e5d8f78632"></attrib>
+<attrib name="version.series.id"
+value="fe341696-7071-4b3a-81e1-74162fa59f4e"></attrib>
+<attrib name="year.introduced" value="2010"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_e5187b6a-bb1d-4f59-8bf7-76210e29f08f"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_6c2794bf-d73d-4682-880f-b887810679e0"
+id="cd-status-he"><b>Note&#8212;</b></heading></head>
+<block><txt break.before="1">Amending provisions are subject to automatic
+repeal pursuant to sec 30C of the <legref refid="act-1987-015" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Interpretation Act
+1987</i></name> No 15</legref> once the amendments have taken
+effect.</txt></block></tier>
+
+
+<tier type="statusrecord" id="cd-status-oc.2">
+<parentattributes>
+<attrib name="guid" value="_a9d91ad8-1df1-494b-beb8-2e6c50140fed"></attrib>
+<attrib name="id" value="cd-status-oc.2"></attrib></parentattributes>
+
+<head><heading guid="_8bed1e97-2c85-49b5-846f-e7f1c05c9387"
+id="cd-status-oc.2-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_970df3bf-6e9c-4bda-8d8f-bfe2a1c3561b"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to make provision for access to
+information held by courts.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_79bfc0dc-66dc-49f9-848a-7ecd6a830293"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_59b54e27-7728-4322-82ff-d3ad398c6575"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_75d2c8ab-7737-4217-8a8b-ed9f6a91a616"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_7dcc0bde-b0ce-4f68-adac-6050d5a765c8"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref refid="act-2010-024"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Court
+Information Act 2010</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d6731858-1bfe-4a92-99fa-27460248a643"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_c06a50ca-4978-4433-9e3b-1487cf23b3c2"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on a day or days to be
+appointed by proclamation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cf3bacd7-76d7-4958-bc3c-e0e78f5c220e"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_085137b7-5732-44a9-8e6a-cd521b46bb8c"
+id="sec.3-he"><b>Objects</b></heading></head>
+<block><txt break.before="1">The objects of this Act are as
+follows&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_22ceb6bd-3207-4eac-b413-b5c8e88d6d68" id="sec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to promote consistency in the provision of access
+to court information across NSW courts,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bc8284c5-ceba-4d0c-b1bd-d6d71823883e" id="sec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to provide for open access to the public to
+certain court information to promote transparency and a greater understanding
+of the justice system,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9e4d2417-578c-4b34-be2e-174a4f662f07" id="sec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to provide for additional access to the media to
+certain court information to facilitate fair and accurate reporting of court
+proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b9e04c28-1636-4d1d-8529-fe8abe1eb7bb" id="sec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to ensure that access to court information does
+not compromise the fair conduct of court proceedings, the administration of
+justice, or the privacy or safety of participants in court proceedings, by
+restricting access to certain court information.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_22292672-6f0e-45ba-987f-5e75a774e12b"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_83bb5d66-c45e-44ba-a311-bcaad6c97fd7"
+id="sec.4-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4fe6badc-2ec3-41e8-985d-cd782a39b686"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_af08e908-13b2-4c81-8812-c932412dad32"
+id="sec.4-def.civilproceedings"><b><i>civil proceedings</i></b></defterm>
+means any proceedings other than criminal proceedings.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_5ce6d7d1-d5c5-46b4-a53d-c1ee86f277a2"
+id="sec.4-def.conclusionofproceedings"><b><i>conclusion of
+proceedings</i></b></defterm>&#8212;see section 7.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_bf3321ce-b4a8-4d9a-b4da-f9cbcc843a58"
+id="sec.4-def.court"><b><i>court</i></b></defterm> means each of the Supreme
+Court, Land and Environment Court, Industrial Court, District Court, Local
+Court and Children&#8217;s Court.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_4e452efd-fd61-4a21-8d32-cbc62ce4d0f2"
+id="sec.4-def.courtinformation"><b><i>court information</i></b></defterm>
+means information contained in a court record.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ce5b2eda-85a8-4726-b654-028e439fd91f"
+id="sec.4-def.courtofficer"><b><i>court officer</i></b></defterm> includes any
+person employed in the Government Service to exercise functions in a court
+registry or other court office.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_1f77719e-c1a3-4786-a8c8-596012f146b3"
+id="sec.4-def.courtrecord"><b><i>court record</i></b></defterm> means any of
+the following records that a court has in its possession or custody (or that a
+court has in the possession or custody of some other person) in connection
+with the court&#8217;s judicial functions&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_eaa0b3ee-bb5f-4772-8ef5-19252f78ec2b" id="sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a record filed or tendered in the court by a
+party to proceedings before the court (including originating process to
+commence any such proceedings) or a record of or comprising written
+submissions made by a party to proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4eadf4e3-75bd-4760-b0ce-f21e8a1e137d" id="sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a record of any proceedings before the court
+(including a record of the dates on which proceedings are heard or to be heard
+and a record of the name of the judicial officer who heard or is officially
+listed to hear proceedings),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9fa6ea0d-6954-49d3-af71-dd51db11935a" id="sec.4-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a record of judgment given and any directions
+given or orders made in proceedings before the court, including in connection
+with case management and listing of proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_21d20bc1-bbd3-4879-b6ec-143e07af1749" id="sec.4-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">a record admitted into evidence by the court in
+connection with proceedings before the court.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_57a86b4c-6931-4599-ba77-ae6ce1beb70b"
+id="sec.4-def.criminalproceedings"><b><i>criminal
+proceedings</i></b></defterm> means proceedings against a person for an
+offence (whether summary or indictable), and includes the
+following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2f2d8c71-b164-4340-9bd1-4a7dc1320fff" id="sec.4-ssec.1-para1.a-oc.2">
+<no>(a)</no>
+<block><txt break.before="1">committal proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_63b610cf-3e1c-4d4b-b002-3a274afe30ce" id="sec.4-ssec.1-para1.b-oc.2">
+<no>(b)</no>
+<block><txt break.before="1">proceedings relating to bail,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bea49d42-168d-4401-8882-e2f6045e1a1b" id="sec.4-ssec.1-para1.c-oc.2">
+<no>(c)</no>
+<block><txt break.before="1">proceedings relating to
+sentence,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_771c8d3f-5443-48e6-a6f3-fb38d33164e2" id="sec.4-ssec.1-para1.d-oc.2">
+<no>(d)</no>
+<block><txt break.before="1">proceedings on an appeal against conviction or
+sentence.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_3947e18b-d95f-45f6-9624-1779505778b1"
+id="sec.4-def.criminalrecord"><b><i>criminal record</i></b></defterm> of a
+person means a record of the offences for which the person has been convicted
+or of the offences in respect of which&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ddd27ed4-b4c5-460c-9793-f4fd259e79d1" id="sec.4-ssec.1-para1.a-oc.3">
+<no>(a)</no>
+<block><txt break.before="1">the person has paid a penalty notice,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ffe78d42-092f-411f-ba4d-94e66258171b" id="sec.4-ssec.1-para1.b-oc.3">
+<no>(b)</no>
+<block><txt break.before="1">an order has been made against the person under
+section 10 (Dismissal of charges and conditional discharge of offender) of the
+<legref refid="act-1999-092" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Crimes (Sentencing Procedure) Act
+1999</i></name></legref>.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_656e996b-9505-40a7-a8d0-555c7bbd53c0"
+id="sec.4-def.openaccessinformation"><b><i>open access
+information</i></b></defterm>&#8212;see section 5.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_16df2f15-5a80-4c07-8ad7-60bbeb5a1dc2"
+id="sec.4-def.personalidentificationinformation"><b><i>personal identification
+information</i></b></defterm> means any of the following information
+concerning a person&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_903f5994-8be6-4084-a39b-a9af7ce6b1cc" id="sec.4-ssec.1-para1.a-oc.4">
+<no>(a)</no>
+<block><txt break.before="1">tax file number,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fc23b8c7-9537-4221-a549-5d38dccc9690" id="sec.4-ssec.1-para1.b-oc.4">
+<no>(b)</no>
+<block><txt break.before="1">social security number,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f8c4c652-331e-4ef9-8d4c-59b72aee944d" id="sec.4-ssec.1-para1.c-oc.3">
+<no>(c)</no>
+<block><txt break.before="1">medicare number,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d4891736-deba-422a-babc-6a0a3f08cda8" id="sec.4-ssec.1-para1.d-oc.3">
+<no>(d)</no>
+<block><txt break.before="1">financial account numbers,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_58a8ab3a-f905-4f0f-b3a1-a39bd0f5143c" id="sec.4-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">passport number,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b0c3b2ff-562f-4f56-b03d-cdb4a54de8da" id="sec.4-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">personal telephone number,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7e3aa10f-dad5-40e2-a04c-0a979260006d" id="sec.4-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">date of birth (other than year of
+birth),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_70a6af84-ffa9-46cd-ab7d-920f510f3548" id="sec.4-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">home address (other than suburb, city and State
+or Territory),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_678879ea-c014-4d7b-a95e-f7aa46d57f18" id="sec.4-ssec.1-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">other information that can be used to establish a
+person&#8217;s identity and that is prescribed by the regulations as personal
+identification information for the purposes of this
+Act.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_8a0fc426-96d6-42ba-8608-6368b9ca5f3a"
+id="sec.4-def.proceedings"><b><i>proceedings</i></b></defterm> means civil or
+criminal proceedings.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_802bb66f-f066-4f24-bd37-6503df67fb2b"
+id="sec.4-def.record"><b><i>record</i></b></defterm> means any document or
+other source of information compiled, recorded or stored in written form, or
+by electronic process, or in any other manner or by any other
+means.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_54199c39-5212-4e18-97af-7cd32b73a15d"
+id="sec.4-def.restrictedaccessinformation"><b><i>restricted access
+information</i></b></defterm>&#8212;see section 6.</txt></block></deflist>
+</block>
+<note type="legtext" guid="_aad55821-b9c2-4470-be3b-d923109cb9fd"
+id="sec.4-ssec.1-note"><heading guid="_d2bc0194-0626-4808-885b-71117cae4f8a"
+id="sec.4-ssec.1-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">The <legref refid="act-1987-015" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Interpretation Act
+1987</i></name></legref> contains definitions and other provisions that affect
+the interpretation and application of this Act.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d6060714-f17e-43d6-a79a-fc54f1bf3481"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 2016 No 48,
+Sch 2.10; 2023 No 41, Sch 2.10.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_befc7efb-4a48-4145-8ccf-32cb70d650fc"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_9c3b25ae-f779-4328-9c07-410c2b0f74b5"
+id="sec.5-he"><b>Open access information</b></heading></head>
+<note type="legtext" guid="_b3ed9616-a1ab-4df5-83d6-255390358417"
+id="sec.5-note"><heading guid="_55765a23-f782-426b-943b-cad7afb716fb"
+id="sec.5-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">An entitlement to access to open access
+information under this Act is subject to other laws or court orders that
+prohibit or restrict the publication or disclosure of court information. See
+section 13.</txt></block></note>
+
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_32300b33-942a-4a08-a64b-c67203d5ee4b"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no><heading guid="_42042299-bcaf-4430-ad8c-5055c3a29557"
+id="sec.5-ssec.1-he"><b>Criminal proceedings</b></heading></head>
+<block><txt break.before="1">Information contained in the following court
+records relating to criminal proceedings is <defterm type="definition"
+guid="_e29a988e-9b24-4270-bf36-42f7e81ec114"
+id="sec.5-def.openaccessinformation"><b><i>open access
+information</i></b></defterm>&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6b30aad1-6fdf-4454-9e4e-84ca18c209ac" id="sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">an indictment, court attendance notice or other
+document commencing proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4f80ef04-87d2-410b-9977-cf66d77f44cd" id="sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">written submissions made by a party to
+proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_698af9b0-f4a5-4865-bb2d-f65f1c9945cd" id="sec.5-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a police fact sheet, statement of facts or any
+similar document summarising the prosecution&#8217;s case, but not if the
+proceedings have been set down for trial by jury and have not
+concluded,</txt></block>
+<note type="legtext" guid="_9da20ec2-77d0-4045-badd-ea0d31ff1d79"
+id="sec.5-ssec.1-para1.c-note"><heading
+guid="_3f7f312e-ee7b-43c4-946e-64a5cdd78924"
+id="sec.5-ssec.1-para1.c-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">This information is restricted access information
+after proceedings have been set down for jury trial and during the trial. See
+section 6 (2) (d).</txt></block></note>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9df05794-d1fa-4ba8-b16d-496a552e6140" id="sec.5-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">a transcript of proceedings in open
+court,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1e4cdc29-7678-4456-b746-f64833f30d18" id="sec.5-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">statements and affidavits admitted into evidence
+in proceedings, including expert reports,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d05ddc72-19c4-4452-93a5-a9d23ecc7bff" id="sec.5-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">a record of any judgment given and any direction
+given or order made in proceedings, including in connection with case
+management and court listing of proceedings and including a record of a
+conviction in criminal proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1dd274df-add3-4dcc-9842-31550be3c839" id="sec.5-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">a record of the dates on which proceedings are
+heard or to be heard and a record of the name of the judicial officer who
+heard or is officially listed to hear proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8cf360d9-b050-4a96-9d4c-2e78e5b49a93" id="sec.5-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">such other records as may be prescribed by the
+regulations.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e48321bf-b398-4ff9-b0fd-0159fff3504d"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no><heading guid="_7be219e9-e4fa-4e26-91e2-a8b7aa4c12d7"
+id="sec.5-ssec.2-he"><b>Civil proceedings</b></heading></head>
+<block><txt break.before="1">Information contained in the following court
+records relating to civil proceedings is <defterm type="definition"
+guid="_a5e7603b-2a75-47bf-a085-5ec83e8dcc47"
+id="sec.5-def.openaccessinformation-oc.2"><b><i>open access
+information</i></b></defterm>&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9c230ceb-97f6-4a41-a607-49fffb35c393" id="sec.5-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">originating process and pleadings in proceedings,
+but only after the stage in proceedings when the court first has an
+opportunity to consider any objection by the parties to the inclusion of any
+information in the originating process or pleadings (including in any
+cross-claim) or the proceedings have concluded, whichever happens
+first,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f1e8af01-87d7-4210-8721-d43a23c732db" id="sec.5-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any notice filed by a party to
+proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9e7d88d7-6d8c-45c0-8982-546eb167e0b8" id="sec.5-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">written submissions made by a party to
+proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3c53be2c-acbe-4750-a16d-80c5a46a4521" id="sec.5-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">a transcript of proceedings in open
+court,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_06f6d3e4-bcdc-446c-b173-ad1388a78b68" id="sec.5-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">statements and affidavits admitted into evidence
+in proceedings, including expert reports,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e92a91eb-e861-40f5-9d9a-a570395dba4d" id="sec.5-ssec.2-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">a record of any judgment given and any direction
+given or order made in proceedings, including in connection with case
+management and court listing of proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8381b72b-2d30-4f8b-9289-4e8258319b13" id="sec.5-ssec.2-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">a record of the dates on which proceedings are
+heard or to be heard and a record of the name of the judicial officer who
+heard or is officially listed to hear proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7cfc4ac1-dc74-4dd5-a358-0155d5f3be6d" id="sec.5-ssec.2-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">such other records as may be prescribed by the
+regulations.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4bf8dbb9-fc1b-4099-938c-a95a94cd6afd"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_7e670899-cf57-487f-9934-212813724839"
+id="sec.6-he"><b>Restricted access information</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_914b6325-6eab-435d-ace7-ad7015515ffc"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Any court information that is not open access
+information is restricted access information.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bef1372f-9990-435c-ba8d-7d607b2cc0a0"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In addition, the following information that would
+otherwise be open access information is restricted access
+information&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8463a6d0-383d-4c0b-a39c-f81ea4b85730" id="sec.6-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">personal identification
+information,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c47be9ee-c35f-46e5-9133-62da8510a363" id="sec.6-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">information contained in an affidavit, pleading
+or statement that has been rejected, struck out or otherwise not
+admitted,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_728b73dc-692c-49e4-b3c4-69e7ddb7ee38" id="sec.6-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">information contained in a transcript of, and
+statements and affidavits admitted into evidence (including expert reports)
+in, proceedings on a voire dire,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_655a2e38-3fb3-4841-8d90-66486b63b3f2" id="sec.6-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">a police fact sheet, statement of facts or any
+similar document summarising the prosecution&#8217;s case in proceedings set
+down for trial by jury, but only after the proceedings have been set down for
+trial by jury and until the proceedings are concluded,</txt></block>
+<note type="legtext" guid="_c340ec06-3123-4c1a-a12c-c80304dbeb4b"
+id="sec.6-ssec.2-para1.d-note"><heading
+guid="_6ed6df67-6d79-4928-9ad9-cb25d28417e7"
+id="sec.6-ssec.2-para1.d-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">This information is open access information
+before the proceedings are set down for trial by jury and after the
+proceedings are concluded.</txt></block></note>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_258d6378-010c-4b8b-8ca8-137e7775ad7c" id="sec.6-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">information contained in a statement that
+comprises a medical, psychiatric, psychological or pre-sentence report, except
+information contained or summarised in a judgment given or orders made in
+proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_25aa84cb-53be-4a5c-83ce-d0a78e77d700" id="sec.6-ssec.2-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">information contained in a statement of a
+person&#8217;s criminal record, except information contained or summarised in
+a judgment given or orders made in proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_efa4c922-76d3-4747-9848-3824c50f8e10" id="sec.6-ssec.2-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">information contained in a transcript of, and
+statements and evidence admitted into evidence in, proceedings on an
+application to a court for an order to prohibit or restrict the publication or
+disclosure of information, but only while proceedings on the application are
+pending,</txt></block>
+<note type="legtext" guid="_7959b806-6732-4237-834f-8a88d4dece61"
+id="sec.6-ssec.2-para1.g-note"><heading
+guid="_119953ac-aaaa-412f-a2ae-f81d80866584"
+id="sec.6-ssec.2-para1.g-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">If the proceedings result in the making of an
+order prohibiting or restricting the publication or disclosure of information,
+section 13 may prevent access to the information.</txt></block></note>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5dfd45e7-aad8-42bc-9f15-2a56ce6258f9" id="sec.6-ssec.2-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">information contained in a victim impact
+statement, other than information contained in a transcript of proceedings in
+open court or in a record of any judgment given or order made in
+proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b3806965-600a-4e0a-b0cd-aebf11f77b40" id="sec.6-ssec.2-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">information contained in a letter of comfort
+provided by or on behalf of the prosecution in connection with criminal
+proceedings, other than information contained in a transcript of proceedings
+in open court or in a record of any judgment given or order made in
+proceedings.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4df573de-1302-4ae2-b624-ba329c6195b7"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_bf5c0ffc-d0b8-4d9f-8f8b-72ce667e634c"
+id="sec.7-he"><b>Conclusion of proceedings</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d4b2d9f5-7d45-461f-8cb9-eb9be72c5f62"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Civil proceedings are concluded when judgment is
+given or entered in the substantive proceedings or the substantive proceedings
+are withdrawn, dismissed or discontinued.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_762861b2-f1ef-4eb8-afc7-b322632fca4a"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Criminal proceedings are concluded when the
+accused person is discharged or acquitted or the court makes a finding (or
+accepts a plea) that the accused person is guilty. If an accused person
+convicted of an offence is to be sentenced, the proceedings are not concluded
+until sentence has been imposed.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3bb1fe7c-1634-4fb1-a72b-f8c5b3b75310"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The committal of an accused person for trial or
+sentence at the conclusion of committal proceedings is not the conclusion of
+the criminal proceedings of which the committal proceedings form
+part.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_68c07b11-ac7a-4a16-ab42-5d705cede204"></attrib>
+<attrib name="id" value="sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Proceedings in respect of bail are concluded when
+they are finally disposed of, including by being withdrawn, dismissed or
+discontinued.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ed10749d-07c0-45c2-bb3f-c280463dfcd3"></attrib>
+<attrib name="id" value="sec.7-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">An appeal against a decision in proceedings does
+not prevent the proceedings being regarded as concluded. Proceedings on the
+appeal are to be regarded as separate proceedings and a pending appeal does
+not prevent the decision appealed against constituting the conclusion of the
+earlier proceedings.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_262382c6-b6a0-4185-a8c1-21de044611a3"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_b00379fe-4d0b-4503-a380-cb3adc397539"
+id="pt.2-he"><b>Entitlement to access to court
+information</b></heading></head>
+
+<pre type="auto-inserted">
+<note type="legtext" guid="_e18f2dd8-2b1e-4578-a37f-9a6e8128ef76"
+id="pt.2-note"><heading guid="_e8aa428a-37cf-4c0f-b6fe-1c063ccb8251"
+id="pt.2-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">An entitlement to access to court information
+under this Act is subject to other laws or court orders that prohibit or
+restrict the publication or disclosure of court information. See section
+13.</txt>
+<txt break.before="1">This Act applies only to the providing of access to
+court information by courts. It does not prevent prosecuting authorities or a
+party to proceedings from giving access to documentary or physical exhibits
+returned at the conclusion of proceedings.</txt></block></note>
+</pre>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_61207e61-45c7-4781-a16e-4bb26f225351"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_769e4422-4094-4c69-9d26-19a218845ce7"
+id="sec.8-he"><b>Access to open access information</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4367766c-6ebc-439a-92b9-697fe7cb7e18"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Any person is entitled to access to court
+information that is open access information unless the court otherwise orders
+in a particular case.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dae4a9d2-1604-47eb-9112-b916a3bca846"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The court may in a particular case impose
+conditions on the way in which access to court information is to be provided
+under this section or that restrict the disclosure or use of court information
+to which access is provided under this section.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_88a96d79-35ad-463f-9c58-6846e6acdf4d"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_fe0f85bf-abd3-4e09-a084-d1d3c57cf557"
+id="sec.9-he"><b>Access to restricted access information</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_87e482c2-5368-48a6-ba8f-773b32a5b6c7"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person is entitled to access to court
+information that is restricted access information if access is
+permitted&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3e6a41f8-4df1-4b5e-9613-9271dc87a718" id="sec.9-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">by leave of the court, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8baa70c4-5de6-438c-a45f-b8b7433ad4c0" id="sec.9-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">by the regulations.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_739b565b-3fe2-4314-9354-0832d15afbe4"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In deciding whether to grant leave for access to
+information under this section, a court may take the following matters into
+account to the extent to which it considers them relevant&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_56114edb-4471-4c98-8cb6-7cdfc4fe0afe" id="sec.9-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the public interest in access to the information
+being provided,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b28b89b1-4e8b-4479-9b5b-22dd9b264505" id="sec.9-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the extent to which the principle of open justice
+will be adversely affected if access is not provided to the
+information,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5cc33263-725b-4b87-aee5-f538df83fcf5" id="sec.9-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the extent to which an individual&#8217;s privacy
+or safety will be compromised by providing access to the
+information,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ed6f8846-d58f-4afd-b384-84eda4769de8" id="sec.9-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the extent to which providing access to the
+information will adversely affect the administration of
+justice,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_30c3c3c8-b99c-42ad-89d5-50de13e39cf8" id="sec.9-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the extent of the person&#8217;s interest or
+involvement in the proceedings or other matter to which the information
+relates,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9a1ad510-1228-4ff0-a3f5-4a14de2c8497" id="sec.9-ssec.2-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">the reasons for which access is
+sought,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_21b93e44-c47c-4b2a-b1ff-d6cd8e27aca8" id="sec.9-ssec.2-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">such other matters as the court considers
+relevant in the particular circumstances of the
+case.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_41c24be2-4a66-4410-9549-a4d2b9ab37c5"></attrib>
+<attrib name="id" value="sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A court can impose conditions on access granted
+by leave of the court under this section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_64fce774-74e6-4090-b7b5-0210ad506401"></attrib>
+<attrib name="id" value="sec.9-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The regulations can impose conditions on access
+conferred by the regulations under this section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c912b153-5b40-41d4-a2a4-4feb6ba3d588"></attrib>
+<attrib name="id" value="sec.9-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Conditions imposed under this section by the
+court or the regulations can only relate to the way in which access is to be
+provided or restrict the disclosure or use of information to which access is
+provided.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9f45dca7-e3b6-4140-9f3a-076bf4ac2d36"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_d1fc8f93-3335-451d-842b-24c2251168c0"
+id="sec.10-he"><b>News media access to restricted access
+information</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c58ac2cf-cd4e-415d-b17f-21233fa45a12"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A news media organisation is entitled to access
+to any of the following court information that is restricted access
+information unless the court otherwise orders in a particular
+case&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_659f3f23-f8dc-4176-b25e-3ef638f2882f" id="sec.10-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">information contained in a transcript of
+proceedings in closed court,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cab48bfe-1b00-4187-a391-9ffc3019d786" id="sec.10-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">information contained in a transcript of, and
+statements and affidavits admitted into evidence in, proceedings on a voire
+dire, but only after the conclusion of the proceedings in the course of which
+the voire dire proceedings are held,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5b4b13ef-97fc-4402-919a-f1b157424a06" id="sec.10-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">information contained in a transcript of, and
+statements and evidence admitted into evidence in, proceedings on an
+application to a court for an order to prohibit or restrict the publication or
+disclosure of information,</txt></block>
+<note type="legtext" guid="_236c9e8d-4b5d-4fcd-ac19-6d9b5d54be38"
+id="sec.10-ssec.1-para1.c-note"><heading
+guid="_852a861a-31f2-4a26-b4c4-30c7b27c1dae"
+id="sec.10-ssec.1-para1.c-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">Information in a court record referred to in
+paragraph (c) is restricted access information only during the proceedings.
+After the proceedings are concluded, the information will be open access
+information but entitlement to access will be subject to any order restricting
+or prohibiting publication or disclosure that results from the
+proceedings.</txt></block></note>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_38ed0097-628d-4635-8f90-2d77519f6bed" id="sec.10-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">information contained in a court record if the
+only restricted access information the record contains is personal
+identification information,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ac9b73ed-2802-4dae-bce1-0a8dfa356bc0" id="sec.10-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">information contained in the brief of evidence in
+criminal proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_921e4f0e-c0be-4b89-afb3-06c7c25e7bc6" id="sec.10-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">information contained in a record admitted into
+evidence that is a document in written form or that can readily be reproduced
+as a document in written form.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0d57301d-d28f-4e66-a057-478be15be518"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The court may in a particular case impose
+conditions on the way in which access to court information is to be provided
+under this section or that restrict the disclosure or use of court information
+to which access is provided under this section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d02962eb-d092-4d2d-bfec-d8f56f051549"></attrib>
+<attrib name="id" value="sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A news media organisation must not publish any
+personal identification information to which it obtains access under this
+section except with the permission of the court or of the person to whom the
+personal identification information relates.</txt></block>
+
+<tier type="penalty" id="sec.10-ssec.3-pen">
+<parentattributes>
+<attrib name="guid" value="_7da4878a-eccb-4eb7-adf5-58f687c1e819"></attrib>
+<attrib name="id" value="sec.10-ssec.3-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Maximum penalty&#8212;250 penalty
+units.</txt></block></tier>
+</tier>
+
+
+<tier type="subclause" id="sec.10-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ce186455-2f76-497c-b01b-137cb6df0dbf"></attrib>
+<attrib name="id" value="sec.10-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The entitlement to access under this section is
+in addition to the entitlement to access to open access
+information.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6890234f-cd7b-4855-a2e5-419fb2bd5c1f"></attrib>
+<attrib name="id" value="sec.10-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_151a9e07-0422-499f-9837-3093ebd8eb2f"
+id="sec.10-def.newsmediaorganisation"><b><i>news media
+organisation</i></b></defterm> means a commercial enterprise that engages in
+the business of broadcasting or publishing news or a public broadcasting
+service that engages in the dissemination of news through a public news
+medium.</txt></block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a57c85ac-5d5f-4a1f-b5f2-75664505f824"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_ac987f76-0c3f-4703-b8bb-85e4323ba790"
+id="sec.11-he"><b>Access to court information by party to
+proceedings</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_147fd996-4f16-4f55-a264-913bb4ad0a22"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A party to proceedings and the party&#8217;s
+legal representative are entitled to access to any court information that
+relates to the proceedings unless the court otherwise orders in a particular
+case.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1b377b49-2cbd-4e32-93bd-fd0c6e3c4cf1"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The court may in a particular case impose
+conditions on the way in which access to court information is to be provided
+under this section or that restrict the disclosure or use of court information
+to which access is provided under this section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f6f59bc6-7af1-4eef-93b8-41313fe93c4f"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The entitlement to access under this section is
+in addition to the entitlement to access to open access
+information.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_13ccba1f-ea23-4fb6-83aa-9320870c9f9e"></attrib>
+<attrib name="id" value="sec.11-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">This section extends to proceedings that have
+been concluded.</txt></block>
+<note type="legtext" guid="_13440808-ae48-49cc-9a34-8da3a3313128"
+id="sec.11-ssec.4-note"><heading guid="_676991e2-180e-4dce-b66e-513da4defa85"
+id="sec.11-ssec.4-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">See section 7 for the meaning of <defterm
+type="definition" guid="_66fb4a41-266d-49ff-a1a4-17ab068d7482"
+id="sec.11-ssec.4-def.concluded"><b><i>concluded</i></b></defterm>.</txt></block></note>
+</tier>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2db7ecbe-6b4d-4200-81d8-b982503873f1"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_96ecfc3e-ce78-4adc-8cf5-8d7c323d361c"
+id="sec.12-he"><b>Access under other laws</b></heading></head>
+<block><txt break.before="1">This Act is not intended to prevent or otherwise
+interfere with the giving of access to court information as permitted or
+required by or under any other Act or law that entitles a person to access to
+court information.</txt></block></level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_46fcfa0c-0563-43f3-bdee-e64356783bed"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_324248eb-d656-4b09-bd70-227162f8ced5"
+id="sec.13-he"><b>Restrictions on access&#8212;court orders and other
+laws</b></heading></head>
+<block><txt break.before="1">There is no entitlement to access to court
+information under this Act if providing that access would
+contravene&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_117fa64c-9d24-4c45-a8bf-0e1628fd78f9" id="sec.13-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any order of a court that prohibits or restricts
+the publication or disclosure of information, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fee1f671-5ac7-436e-b73c-c354d4be3e6f" id="sec.13-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any provision made by or under any other Act or
+law that prohibits or restricts the publication or disclosure of
+information.</txt></block></li></list>
+</block></level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_4d610475-c9ef-483f-a555-c4b634a17fd6"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_3574295b-4bac-4b5e-9cce-48e1124ae576"
+id="pt.3-he"><b>How access to court information is
+provided</b></heading></head>
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4c3fa45a-65ff-4f15-9417-45216a6b6485"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_291cb5ec-d4e2-4f72-be54-b63dcc6089de"
+id="sec.14-he"><b>Methods of providing access</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4c6764f6-fe6b-4c24-b4d1-91f8b7bc4bfc"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person who is entitled under this Act to access
+to court information can be provided with that access in any of the following
+ways&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a1863a28-adcb-4af5-afdb-13d40304064a" id="sec.14-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">by being given a reasonable opportunity to
+inspect a court record (or a copy of a court record) that contains the
+information,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c65248d1-d25a-44a9-936a-f68ff7fdf7d3" id="sec.14-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">by being provided with a copy of a court record
+that contains the information,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6865c19b-9c87-4efd-95d0-1a5c50c00285" id="sec.14-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">by any means provided for by the
+rules,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c2f6e722-94d3-4f34-b7f8-5f2054190ef8" id="sec.14-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">by any other means that the court considers to be
+appropriate in a particular case.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_daedf4eb-5a9a-4dcd-89bd-30ed1b10a1f6"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In deciding how access to court information is to
+be provided to a person, the court is to consider any preference that the
+person expresses as to how access is to be provided.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_83ef42cc-f14b-4bd6-92da-1b257548439f"></attrib>
+<attrib name="id" value="sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The court can impose reasonable conditions on the
+provision of access for the purpose of ensuring the safe custody and proper
+preservation of court records.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fbed8a70-58c8-4130-bc0f-bee20d63cb0a"></attrib>
+<attrib name="id" value="sec.14-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The court may refuse to provide access to court
+information in a particular case if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_30d7f08f-b3dc-4622-81e2-199d2543ce23" id="sec.14-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">providing access would require an unreasonable
+diversion of the court&#8217;s resources, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c17abae3-418a-4e33-bf64-7dbd0f05f766" id="sec.14-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">it is necessary to refuse access to ensure the
+safe custody and proper preservation of court records (but only if this cannot
+be ensured by the imposition of reasonable conditions on the provision of
+access).</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_44caeac5-5d9b-402e-898d-a4fec4638cd5"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_d365229b-f32a-41df-bd5b-9d3c084c435d"
+id="sec.15-he"><b>Charging of fees for access</b></heading></head>
+
+<tier type="subclause" id="sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_15cc8512-35d2-4d33-a288-d156bf8b7c10"></attrib>
+<attrib name="id" value="sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A fee can be charged for providing access to
+court information under this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d5d3f727-25bc-4a7a-9c97-75dc49307a06"></attrib>
+<attrib name="id" value="sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Regulations under this Act or the <legref
+refid="act-2005-028" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Civil Procedure Act 2005</i></name></legref> may make
+provision for or with respect to the charging of fees for the provision of
+access to court information under this Act, including provision for or with
+respect to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dba910d3-bbc7-4587-b98d-98d19e44a556" id="sec.15-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the maximum fees that may be charged for
+providing access, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ba4b5b04-50f3-4c25-b1e1-999e5ed8ca27" id="sec.15-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the waiver, reduction or refund of any fee
+payable or paid for providing access.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_bc00929c-208c-4963-9768-076437a6c2eb"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_bd7e4fdd-cbf2-4d14-aaab-d81fb96345d5"
+id="pt.4-he"><b>Privacy protection</b></heading></head>
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_72c4a990-ad47-4db0-a2ee-0acb97e077b5"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_3b90216a-43be-42cf-9973-d9f8ab2f0534"
+id="sec.16-he"><b>Application of privacy laws</b></heading></head>
+<block><txt break.before="1">The <legref refid="act-1998-133" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Privacy and Personal
+Information Protection Act 1998</i></name></legref> and the <legref
+refid="act-2002-071" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Health Records and Information Privacy Act
+2002</i></name></legref> do not apply to the providing of access to court
+information pursuant to an entitlement arising under this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b1e0d4da-fd15-4763-afd7-7eac1d24e260"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_b9d6dd55-0b13-4a6c-ac28-0b07c01f788a"
+id="sec.17-he"><b>Courts to publicise privacy protection
+measures</b></heading></head>
+<block><txt break.before="1">Each court is to publish on its website, or by
+other appropriate means, general information that promotes awareness of the
+potential for information provided by a party to proceedings to be accessed by
+other persons pursuant to an entitlement under this Act and the court&#8217;s
+practices and procedures for preventing or limiting access to personal
+information.</txt></block></level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2c7f7243-b338-4035-8a20-74c57cf2031d"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_23bc80be-2e2e-4c5f-b9fb-7d55d9d3d604"
+id="sec.18-he"><b>Personal identification information</b></heading></head>
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5683b03d-afef-469b-8701-382aa4c35dba"></attrib>
+<attrib name="id" value="sec.18-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purpose of facilitating access to court
+records, a court must ensure to the maximum extent reasonably practicable that
+court records that contain open access information do not contain personal
+identification information.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6c2afd6c-abc4-49f9-903b-045f3ca0221f"></attrib>
+<attrib name="id" value="sec.18-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For that purpose, the rules may make provision
+for or with respect to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ba43e4e3-84c0-45f7-b9f0-657fd15355ef" id="sec.18-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the providing of access to open access
+information contained in a court record by providing access to a copy of the
+record from which personal identification information has been deleted or
+removed, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c738941a-9cf5-470b-9b9a-830a6caf3a88" id="sec.18-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the filing or tendering of court records that
+have had personal identification information deleted or removed from the
+record or contained in a separate record.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_dd5ca791-fb17-4b8e-9719-e8262d8273a0"></attrib>
+<attrib name="id" value="pt.5"></attrib></parentattributes>
+
+<head>
+<no><b>Part 5</b></no><heading guid="_a8301312-1b90-4734-881e-8febda29a781"
+id="pt.5-he"><b>Protection of court information</b></heading></head>
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9f9ef7bd-d39e-4b1d-89cd-7343f0a92961"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_fd956c77-ded5-4567-bfe2-fc7862f2d851"
+id="sec.19-he"><b>Security of court information</b></heading></head>
+<block><txt break.before="1">A court must take such security safeguards as are
+reasonable in the circumstances to ensure that the court information contained
+in court records is protected against misuse and unauthorised access, use or
+disclosure.</txt></block></level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bb2358a9-567e-43f7-a1d9-caaae72dd784"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_e7e79ce0-b856-4329-b27e-1941b042f4ad"
+id="sec.20-he"><b>Unauthorised disclosure and use of court
+information</b></heading></head>
+
+<tier type="subclause" id="sec.20-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ebda895a-fba3-4af9-bcec-d53816ff4583"></attrib>
+<attrib name="id" value="sec.20-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person must not disclose or use court
+information obtained in the exercise of the person&#8217;s functions as a
+court officer or in the execution or administration of this Act
+except&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8e5d6804-c762-41a4-8182-51b48306b52b" id="sec.20-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">with the consent of the person from whom the
+information was obtained, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5bcd003e-98fd-413c-a8e9-ca75919f9347" id="sec.20-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in the exercise of those functions or in the
+execution or administration of this Act, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3392c27d-9903-473c-8308-17cf2b17495c" id="sec.20-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">as authorised by the regulations,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b89f6972-0b7b-4d8e-9c47-105af63ca2e2" id="sec.20-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">as otherwise authorised or required by
+law.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0740fc9a-6e39-472e-afb6-9690fe84f002"></attrib>
+<attrib name="id" value="sec.20-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person must not induce or attempt to induce
+another person to disclose or use court information in contravention of
+subsection (1).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d0579ca1-0bb1-4813-aa9f-c6aedecc4126"></attrib>
+<attrib name="id" value="sec.20-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">If a court officer discloses court information by
+providing access to the information and believes in good faith when providing
+access to the information that this Act permits or requires that access to be
+provided, the officer is deemed to have disclosed the information in the
+execution of this Act.</txt></block></tier>
+
+
+<tier type="penalty" id="sec.20-pen">
+<parentattributes>
+<attrib name="guid" value="_754b5376-9daf-488f-a49f-c34b2f9eb12e"></attrib>
+<attrib name="id" value="sec.20-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Maximum penalty&#8212;100 penalty units or
+imprisonment for 2 years, or both.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.21">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d1d4e746-74e8-4aa0-a9c8-ddd3ee812dff"></attrib>
+<attrib name="id" value="sec.21"></attrib></parentattributes>
+
+<head>
+<no>21</no><heading guid="_df107b22-5190-48d6-8425-fb2de24c9934"
+id="sec.21-he"><b>Conditions of access to court
+information</b></heading></head>
+
+<tier type="subclause" id="sec.21-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a7b7955b-92b3-4e5e-847f-713a68d539b7"></attrib>
+<attrib name="id" value="sec.21-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person who is provided with access to court
+information pursuant to an entitlement under this Act must not disclose or use
+the information for a purpose or in a manner that the person knows is contrary
+to any condition of access.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c1ec6f37-cdc1-41b5-86fc-4380dba9b4eb"></attrib>
+<attrib name="id" value="sec.21-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A <defterm type="definition"
+guid="_c99457ff-4451-4a33-82ae-679eed1dde13"
+id="sec.21-def.conditionofaccess"><b><i>condition of access</i></b></defterm>
+is a condition imposed by the court or by the regulations that restricts the
+disclosure or use of court information to which access is provided pursuant to
+an entitlement under this Act.</txt></block></tier>
+
+
+<tier type="penalty" id="sec.21-pen">
+<parentattributes>
+<attrib name="guid" value="_b4ce5b13-c492-4e6b-8ea4-a6b6eb748ff2"></attrib>
+<attrib name="id" value="sec.21-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Maximum penalty&#8212;100 penalty
+units.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_4055530d-8f55-41f8-b29d-0914aad78de2"></attrib>
+<attrib name="id" value="pt.6"></attrib></parentattributes>
+
+<head>
+<no><b>Part 6</b></no><heading guid="_21a76be2-e74e-4fa9-a895-b6b13a765b21"
+id="pt.6-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.22">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e2312a18-ae9a-485e-9489-8c47c3c51f42"></attrib>
+<attrib name="id" value="sec.22"></attrib></parentattributes>
+
+<head>
+<no>22</no><heading guid="_d977a0c0-f19e-477c-bf39-6c18520bb215"
+id="sec.22-he"><b>Exercise of functions by court
+officers</b></heading></head>
+
+<tier type="subclause" id="sec.22-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b619d5f5-aaa2-48c9-b960-e9359cd963d2"></attrib>
+<attrib name="id" value="sec.22-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The senior judicial officer of a court may, by
+instrument in writing&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_571f1f46-b9fe-4519-8048-e5c26fe7df7e" id="sec.22-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">direct that any function of the court under this
+Act may be exercised by such registrars or other officers of the court, and in
+such circumstances and subject to such conditions, as are specified in the
+instrument, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_13145ed2-75d5-4d98-8709-0ad1805b526a" id="sec.22-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">vary or revoke any such
+instrument.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.22-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2d8251a8-82a0-4ced-beec-8231b46f8279"></attrib>
+<attrib name="id" value="sec.22-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting any other functions he or she
+may exercise, a registrar or other officer of a court may exercise any
+function conferred on such an officer by the rules.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.22-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_35e4de52-34a2-4d25-b75c-ff34e41402a5"></attrib>
+<attrib name="id" value="sec.22-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This section does not limit any provision of the
+Act by which a court is constituted with respect to the exercise of the
+court&#8217;s functions.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.23">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d01d07cc-e48d-4a6e-be51-86ca2cd3e359"></attrib>
+<attrib name="id" value="sec.23"></attrib></parentattributes>
+
+<head>
+<no>23</no><heading guid="_beecbd07-8b31-4853-80de-bfc4e9fd5761"
+id="sec.23-he"><b>Protection in respect of disclosure of court
+information</b></heading></head>
+
+<tier type="subclause" id="sec.23-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0127bdbc-5a5b-4c07-9408-2555d1b789cc"></attrib>
+<attrib name="id" value="sec.23-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If court information is disclosed pursuant to an
+entitlement under this Act&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3e71802e-1ed7-45fb-bead-c2fdb4985f2e" id="sec.23-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">no action for defamation or breach of confidence
+lies against the Crown, a court or a court officer by reason of the disclosure
+of the information, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bf67e36f-f127-433c-99cd-0ca896d18264" id="sec.23-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">no action for defamation or breach of confidence
+in respect of any publication involved in, or resulting from, the disclosure
+of the information lies against the author of a record containing the
+information or any other person by reason of the author or other person having
+supplied the record to a court, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4f25c2cc-f1f6-4d85-82d8-610ea62bc62f" id="sec.23-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">neither the person by whom the disclosure is made
+nor any other person concerned in disclosing the information is guilty of an
+offence merely because of the disclosing of the
+information.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3544fd1a-1b97-4187-a348-4da288ca4101"></attrib>
+<attrib name="id" value="sec.23-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The giving of access to court information
+pursuant to an entitlement under this Act does not constitute, for the
+purposes of the law relating to defamation or breach of confidence, an
+authorisation or approval of the publication of a record containing the
+information or its contents by the person to whom access to the information is
+given.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.24">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_077a7749-7ec2-42c0-ba9f-a73acdca4015"></attrib>
+<attrib name="id" value="sec.24"></attrib></parentattributes>
+
+<head>
+<no>24</no><heading guid="_fe6e8972-e88c-46a2-aebf-14b5f186faad"
+id="sec.24-he"><b>Personal liability</b></heading></head>
+<block><txt break.before="1">No matter or thing done by a court officer, or by
+any person acting under the direction of a court officer, if the matter or
+thing was done in good faith for the purposes of executing this Act, subjects
+the court officer or person so acting, personally to any action, liability,
+claim or demand.</txt></block></level>
+
+
+<level type="clause" id="sec.25">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2838022a-128c-43b6-b702-475731638237"></attrib>
+<attrib name="id" value="sec.25"></attrib></parentattributes>
+
+<head>
+<no>25</no><heading guid="_18be9228-c6ab-455b-9373-6a359ea7a67c"
+id="sec.25-he"><b>Rules of court</b></heading></head>
+
+<tier type="subclause" id="sec.25-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_64889486-9743-4ab1-a2ea-c89d36109c1d"></attrib>
+<attrib name="id" value="sec.25-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Uniform Rules Committee under the <legref
+refid="act-2005-028" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Civil Procedure Act 2005</i></name></legref> may make rules,
+not inconsistent with this Act, for or with respect to any matter that by this
+Act is required or permitted to be prescribed by rules or that is necessary or
+convenient to be prescribed by rules for carrying out or giving effect to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.25-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_416da1ea-8ebb-4055-90f3-e5298d80b21e"></attrib>
+<attrib name="id" value="sec.25-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In particular, the rules may make provision for
+or with respect to the following matters&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a2c89747-45eb-4c15-9abc-afb2cc8370aa" id="sec.25-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the practice and procedure to be followed in
+respect of proceedings under this Act and any matters incidental to or
+relating to that practice and procedure,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ad367bb7-e7e7-4fa5-bf8a-c27fa4307ada" id="sec.25-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the procedure for applying for access to court
+information under this Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b2ac0a30-653b-4004-8fd0-5047cb24c2d5" id="sec.25-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the means by which access can be provided to
+court information under this Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6cff23c1-847a-40f8-96e9-82fac16e9de4" id="sec.25-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the duties of registrars and other officers of a
+court in relation to or for the purpose of the operation of this
+Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5e6ed00e-1569-4e91-9dc9-6e31c67b800a" id="sec.25-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the forms to be used in connection with the
+operation of this Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.25-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9b273104-c02b-47c2-ac5f-0296b5ef6438"></attrib>
+<attrib name="id" value="sec.25-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Rules made by the Uniform Rules Committee for the
+purposes of this Act are to form part of the rules made by that Committee
+under the <legref refid="act-2005-028" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Civil Procedure Act
+2005</i></name></legref>.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.26">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_20abcfc3-192f-49c5-b52c-21765196be12"></attrib>
+<attrib name="id" value="sec.26"></attrib></parentattributes>
+
+<head>
+<no>26</no><heading guid="_d98cb003-4612-4fb1-a78b-8057ee74df9e"
+id="sec.26-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed by regulation or that is necessary
+or convenient to be prescribed by regulation for carrying out or giving effect
+to this Act.</txt></block></level>
+
+
+<level type="clause" id="sec.27">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4bb9e82a-710b-48d7-8b01-15d18ef138ff"></attrib>
+<attrib name="id" value="sec.27"></attrib></parentattributes>
+
+<head>
+<no>27</no><heading guid="_500e205d-3bee-4985-8bce-f0a872e86f3a"
+id="sec.27-he"><b>Nature of proceedings for offences</b></heading></head>
+<block><txt break.before="1">Proceedings for an offence under this Act may be
+dealt with summarily before the Local Court.</txt></block></level>
+
+
+<level type="clause" id="sec.28">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3f590c5b-7ae2-4ac5-98d1-9f3e5f7fe266"></attrib>
+<attrib name="id" value="sec.28"></attrib></parentattributes>
+
+<head>
+<no>28</no><heading guid="_8cf7e5bf-c8d7-4bcf-8c5f-b11fee5dd9fd"
+id="sec.28-he"><b>Review of Act</b></heading></head>
+
+<tier type="subclause" id="sec.28-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4ed8af0e-efc0-4e70-bc34-6704f310714e"></attrib>
+<attrib name="id" value="sec.28-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister is to review this Act to determine
+whether the policy objectives of the Act remain valid and whether the terms of
+the Act remain appropriate for securing those
+objectives.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_276efeaf-00e6-451f-a0a5-8353feab1c4b"></attrib>
+<attrib name="id" value="sec.28-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The review is to be undertaken as soon as
+possible after the period of 2 years from the date of assent to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f9e69718-8c3c-4b28-b9e3-a3ded327d051"></attrib>
+<attrib name="id" value="sec.28-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A report on the outcome of the review is to be
+tabled in each House of Parliament within 12 months after the end of the
+period of 2 years.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3e8b1e29-0c62-4d04-b188-8ead28e86610"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_1ab4511d-3865-439e-9b95-9959893ece60" id="sch.1-he"><b>Savings,
+transitional and other provisions</b></heading></head>
+
+<level type="part" id="sch.1-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_285774f4-a2e9-48e2-ad31-f8bf2aba2baf"></attrib>
+<attrib name="id" value="sch.1-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_1cb47eb1-f068-436d-987e-ae71d811c9c3"
+id="sch.1-pt.1-he"><b>General</b></heading></head>
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_192aec9c-962c-40de-acd5-97b178ce6694"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_15069dae-617e-4d96-9d29-467182830948"
+id="sch.1-sec.1-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_03891ce8-9dd9-46af-8113-97f8000635c4"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of the following
+Acts&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2308dfb9-7b5b-499a-9c0d-e8716f6e4abf" id="sch.1-sec.1-ssec.1-para1">
+<block><txt break.before="1">this Act</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8722b56a-07b1-42d5-a2b7-859c770298ba"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such provision may, if the regulations so
+provide, take effect from the date of assent to the Act concerned or a later
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2fa4d1f4-071f-4360-8e60-a2f7856e8ba9"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication on the NSW
+legislation website, the provision does not operate so as&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_111a208d-674a-4bfb-8a67-afea84604c73" id="sch.1-sec.1-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bab3f3d6-6e61-439f-93eb-558dc34d461b" id="sch.1-sec.1-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="sch.1-pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_34b82a08-037e-4a3d-ab7f-737440501b62"></attrib>
+<attrib name="id" value="sch.1-pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_94757145-8009-4cb3-975d-fd482515bd86"
+id="sch.1-pt.2-he"><b>Provisions consequent on enactment of this
+Act</b></heading></head>
+
+<level type="clause" id="sch.1-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_192ba2cd-f157-474a-ad75-e95987548e1b"></attrib>
+<attrib name="id" value="sch.1-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_86f6cc72-d93c-412b-b372-056d8dd41f9e"
+id="sch.1-sec.2-he"><b>Redaction of personal identification
+information</b></heading></head>
+<block><txt break.before="1">Section 18 (Personal identification information)
+does not apply in respect of a court record created before the commencement of
+that section.</txt></block></level>
+</level>
+</level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d292e33b-5484-426c-bfc0-00b2eb71f0f4"></attrib>
+<attrib name="id" value="sch.2"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading
+guid="_b99d46b4-9dab-4053-90d4-6634f423f72f"
+id="sch.2-he"><b>Amendments</b></heading></head>
+
+<level type="subschedule" id="sch.2-ssch.2.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="guid" value="_da73ae7d-2f30-4195-900a-a6903e6e0a6b"></attrib>
+<attrib name="id" value="sch.2-ssch.2.1"></attrib></parentattributes>
+
+<head>
+<no><b>2.1</b></no><heading guid="_9cbef74b-4d63-4f02-bfe6-ac9835ed17c9"
+id="sch.2-ssch.2.1-he"><b><legref refid="act-1986-209" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Criminal Procedure Act
+1986</i></name> No 209</legref></b></heading></head>
+
+<content type="amendments">
+
+<level type="clause" id="sch.2-sec">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b64af240-4440-4aca-bc6c-bae887a0cced"></attrib>
+<attrib name="id" value="sch.2-sec"></attrib></parentattributes>
+
+<head><heading guid="_44e5c1ca-6f79-4a42-acba-79308ea91b09"
+id="sch.2-sec-he"><b>Section 314 Media access to court
+documents</b></heading></head>
+<block><txt break.before="1">Omit the section.</txt></block></level>
+</content>
+</level>
+
+
+<level type="subschedule" id="sch.2-ssch.2.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="guid" value="_6d83f117-3e09-4516-a15c-aab1409eddfd"></attrib>
+<attrib name="id" value="sch.2-ssch.2.2"></attrib></parentattributes>
+
+<head>
+<no><b>2.2</b></no><heading guid="_baebf746-55be-4623-a1d6-008c6b432e90"
+id="sch.2-ssch.2.2-he"><b><legref refid="sl-2009-0589" jurisd="NSW"
+type="subordleg" check="unknown"><name emphasis="yes"><i>Local Court Rules
+2009</i></name></legref></b></heading></head>
+
+<content type="amendments">
+
+<level type="clause" id="sch.2-sec-oc.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ff4ffe1e-f977-4117-8bc5-99ddd0b3a2b9"></attrib>
+<attrib name="id" value="sch.2-sec-oc.2"></attrib></parentattributes>
+
+<head><heading guid="_9a1e1a16-3fb9-47d6-9e33-87ba16dd59e2"
+id="sch.2-sec-oc.2-he"><b>Rule 8.10 Copies of court
+records</b></heading></head>
+<block><txt break.before="1">Omit the rule.</txt></block></level>
+</content>
+</level>
+
+
+<level type="subschedule" id="sch.2-ssch.2.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="guid" value="_77ad0deb-611a-4952-a020-aab6888acc20"></attrib>
+<attrib name="id" value="sch.2-ssch.2.3"></attrib></parentattributes>
+
+<head>
+<no><b>2.3</b></no><heading guid="_8fe3072e-6c23-4a9e-9a9d-9e4489fca865"
+id="sch.2-ssch.2.3-he"><b><legref refid="sl-2005-0418" jurisd="NSW"
+type="subordleg" check="unknown"><name emphasis="yes"><i>Uniform Civil
+Procedure Rules 2005</i></name></legref></b></heading></head>
+
+<content type="amendments">
+
+<level type="clause" id="sch.2-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_de3758ed-db8d-46f5-a4f2-9a31b0b29907"></attrib>
+<attrib name="id" value="sch.2-sec.1"></attrib></parentattributes>
+
+<head>
+<no>[1]</no><heading guid="_549e8c8f-fac7-4874-8208-2186896c65c1"
+id="sch.2-sec.1-he"><b>Rule 36.12 Registrar to furnish copies of judgments and
+other documents</b></heading></head>
+<block><txt break.before="1">Omit rule 36.12 (2).</txt></block></level>
+
+
+<level type="clause" id="sch.2-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ad54765f-6bd2-43a0-ad34-fd87f989c415"></attrib>
+<attrib name="id" value="sch.2-sec.2"></attrib></parentattributes>
+
+<head>
+<no>[2]</no><heading guid="_395c42c3-c060-4202-8fbd-2f05ec38c2a3"
+id="sch.2-sec.2-he"><b>Rule 36.12 (3)</b></heading></head>
+<block><txt break.before="1">Omit &#8220;Despite subrules (1) and (2)&#8221;.
+Insert instead &#8220;Despite subrule (1)&#8221;.</txt></block></level>
+</content>
+</level>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_fc515a6e-26ac-4854-bbae-19c3f95c620f"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_015cd028-2056-4972-8cf1-04d02672127f"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-2010-024" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Court Information Act
+2010</i></name> No 24</legref>. Assented to 26.5.2010. Date of commencement:
+not in force. This Act has been amended as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_0d4a5157-164a-4e99-84fb-151057ed2b72" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_14b58dcb-4615-47b8-8171-73ecc246206b" id="ed-tbl-tblr">
+<entry colname="1" guid="_f43a892c-19b9-401a-a4c1-76cfdc62c286"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>2016</b></txt></entry>
+<entry colname="2" guid="_8a0e774a-489c-42ea-9e86-8578356a49d4"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 48</txt></entry>
+<entry colname="3" guid="_5a991b3a-ff79-43ee-9c9d-2b7637e27222"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref refid="act-2016-048" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Industrial Relations
+Amendment (Industrial Court) Act 2016</i></name></legref>. Assented to
+18.10.2016.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 8.12.2016, sec 2 (1) and
+2016 (674) LW 15.11.2016.</txt></block></entry></row>
+
+
+<row guid="_bf90b4bb-3b0b-4ad8-b34e-aaa2a397d494" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_051a6eaf-79e7-4e12-b590-604287366724"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>2023</b></txt></entry>
+<entry colname="2" guid="_e1b74117-35b2-4a09-938a-8a341872f155"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 41</txt></entry>
+<entry colname="3" guid="_20c34b32-01cd-419b-a647-705e98d0f124"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Industrial Relations Amendment Act
+2023</i></name></legref>. Assented to 5.12.2023.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 1.7.2024, sec 2 and 2024
+(131) LW 26.4.2024.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_041c4f2e-642d-484f-a588-a0e494146b19"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_7e8266ae-2e7c-4153-af64-6e85d64506e5" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_dec9e54c-c2c3-4484-9920-ebb3b2b9d1af" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_2df7bec5-6c6b-4b74-87ae-1e1ecf4e20d1"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_54a08c37-a334-4667-886b-313c8fda181a"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 2016 No 48, Sch 2.10;
+2023 No 41, Sch 2.10.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

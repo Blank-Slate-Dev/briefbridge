@@ -1,0 +1,3343 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1961-009"
+title="Sydney Opera House Trust Act 1961"
+year="1961"
+number="9"
+enact.or.made.date="1961-03-14"
+first.valid.date="2025-10-01"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1961</metacontent>
+<metacontent class="year.assent">1961</metacontent>
+<metacontent class="publication.date">2025-10-01</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2025-039</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1961-009</metacontent>
+<metacontent
+class="version.desc.id">1a8ec833-98c1-4144-a39b-8f6229a3180a</metacontent>
+<metacontent
+class="version.series.id">ce72511f-2f0c-45da-8c2f-4e4b6ef720a8</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Sydney Opera House Trust Act 1961"></attrib>
+<attrib name="year.passed" value="1961"></attrib>
+<attrib name="year.assent" value="1961"></attrib>
+<attrib name="no" value="9"></attrib>
+<attrib name="publication.date" value="2025-10-01"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2025-039"></attrib>
+<attrib name="first.valid.date" value="2025-10-01"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1961-03-14"></attrib>
+<attrib name="id" value="act-1961-009"></attrib>
+<attrib name="version.desc.id"
+value="1a8ec833-98c1-4144-a39b-8f6229a3180a"></attrib>
+<attrib name="version.series.id"
+value="ce72511f-2f0c-45da-8c2f-4e4b6ef720a8"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_673dddd7-c023-40ca-bf97-0322f43f0105"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_ad686f81-669f-41c4-97b7-88aa5117d893"
+id="cd-status-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>whole Act (s 5
+excepted):</b> Am 2002 No 53, Sch 1.26 [1] (&#8220;the Schedule&#8221; omitted
+wherever occurring, &#8220;Schedule 1&#8221; inserted
+instead).</txt></content>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_d9f116fd-bfb6-4379-9dac-bcaf18af7e24"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to make provisions with respect to the
+management and administration of the Sydney Opera House; to provide for the
+establishment and incorporation of The Sydney Opera House Trust and to define
+its powers, authorities, duties and functions; and for purposes connected
+therewith.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1ec31bd4-2789-4a18-891f-f1e433c653d9"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_aceddbf9-4d39-488a-9a2d-6061de73c98f"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act may be cited as the <legref
+refid="act-1961-009" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Sydney Opera House Trust Act
+1961</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7ae75a78-889b-44f4-bc76-43153d9a9893"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_ccf8aae1-4763-4ad4-8829-bd0a89613f3c"
+id="sec.2-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a556c6e1-a73c-4945-af10-3aff8da9ac0f"></attrib>
+<attrib name="id" value="sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act, unless the context or subject-matter
+otherwise indicates or requires&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_52cc4c38-96ea-4a56-8f4b-d8cc29ff46cc"
+id="sec.2-ssec.1-def.Bylaws"><b><i>By-laws</i></b></defterm> means by-laws
+made under this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_f33ada3b-b37a-4ea0-bb80-72d8e3f3d0f8"
+id="sec.2-ssec.1-def.OperaHouse"><b><i>Opera House</i></b></defterm> means the
+whole of the land comprised in Lot 4, Deposited Plan 787933, and Lot 5,
+Deposited Plan 775888, and includes any building, work or fixture on that
+land.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_44a4f400-167b-414f-9102-256dfd668ee6"
+id="sec.2-ssec.1-def.Trust"><b><i>Trust</i></b></defterm> means The Sydney
+Opera House Trust constituted and incorporated under this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_25f5e211-8bf3-490b-ae59-185f1df70b30"
+id="sec.2-ssec.1-def.Trustee"><b><i>Trustee</i></b></defterm> means a member
+of the Trust.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c7c34721-582b-47f3-8f8b-8df685fb30aa"></attrib>
+<attrib name="id" value="sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 2:</b> Am 1973 No 32,
+sec 3 (a); 2006 No 120, Sch 1.31 [1]; 2007 No 27, Sch 2.54.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cfd6bf63-2e7a-495a-a0f7-5978c322a21e"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_8783b1cb-0276-4641-aef2-f48ca2025704"
+id="sec.3-he"><b>Constitution of Sydney Opera House
+Trust</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3255ae79-dcc6-4ee8-a832-cee1f94a464f"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There shall be constituted under this Act a
+Sydney Opera House Trust which shall carry into effect the objects and
+purposes of this Act and shall have and may exercise the powers, authorities,
+duties and functions conferred or imposed on the Trust by or under this
+Act.</txt></block>
+<block><txt break.before="1">In the exercise and discharge of its powers,
+authorities, duties and functions the Trust shall, notwithstanding anything
+contained in this Act, be subject to the control and direction of the
+Minister.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2bfeed4b-773b-4732-832a-1af9a0da9d72"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Trust shall be a body corporate under the
+name of &#8220;The Sydney Opera House Trust&#8221; with perpetual succession
+and a common seal, and shall, for the purposes and subject to the provisions
+of this Act, be capable by that name of suing and being sued, and of
+purchasing, holding, granting, demising, disposing of or otherwise dealing
+with real and personal property and of doing and suffering all such other acts
+and things as bodies corporate may by law do and suffer.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b279bcbf-bb1d-4db9-9af9-b60c9f1935c6"></attrib>
+<attrib name="id" value="sec.3-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Trust may acquire and hold by purchase, lease
+or otherwise any real or personal property and any rights or privileges which
+the Trust may think necessary or convenient for its
+objects.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Am 1969 No 24,
+sec 2 (1) (a).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7bf82a94-6849-4fb0-a7e9-7bd6be0c29cc"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_3962db2a-bae2-4568-96b8-4c7316019299"
+id="sec.4-he"><b>Objects and functions of Trust</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1a91c90c-3c07-4935-ab1a-ae883c0b13b4"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust shall have the following objects and
+may exercise any or all of the following functions&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_40c00f1f-f58a-4ca3-a6fb-d2fc4e6b594c" id="sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the administration, care, control, management and
+maintenance of the Opera House,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b188d67d-8b86-4609-9cd6-1600c91dce25" id="sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the management and administration of the Opera
+House as a theatre, concert hall and place of assembly to be used as a place
+for the presentation of any of the branches of the musical, operatic,
+dramatic, terpsichorean, visual or auditory arts or as a meeting place in
+respect of matters of international, national or local
+significance,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3758c572-c462-4a6e-9d32-7fd8fec3b424" id="sec.4-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the promotion of artistic taste and achievement
+in any of the branches of the arts referred to in the foregoing provisions of
+this subsection,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ab391c24-5a4c-44e4-9b46-37b9c8744f7a" id="sec.4-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">scientific research into, and the encouragement
+of, new and improved forms of entertainment and methods of presentation of
+entertainment.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d0816b22-db7c-45fb-8423-1156208c2837"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In order that the Trust may attain any of its
+objects and effectively carry out any of its functions, it shall have power to
+do all such things as it may deem incidental or conducive to the profitable
+and effective carrying out thereof.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ecf1a92f-d908-45d1-b4f1-c5af64714d55"></attrib>
+<attrib name="id" value="sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Trust shall have in addition to any other
+powers conferred on it by this Act the specific powers set out in Schedule
+1.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_918336ee-91f6-4863-b330-9aabdf925648"></attrib>
+<attrib name="id" value="sec.4-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The mere enumeration of specific powers in
+Schedule 1 or the conferring upon the Trust of other specific powers by any
+other section of this Act shall not operate to limit the general powers
+conferred upon the Trust by this section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.5" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_01288770-56c2-4ea9-bb92-0deab2291155"></attrib>
+<attrib name="id" value="sec.4-ssec.5"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(5)&#8211;(7)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 1973 No 32,
+sec 3 (f); 1985 No 191, Sch 1 (1); 1989 No 132, Sch 2; 2006 No 2, Sch 4.69
+[1]; 2006 No 120, Sch 1.31 [2]; 2015 No 15, Sch 3.56 [1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.5" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_809a1e2a-8a7b-44c2-940f-4a308cd16a13"></attrib>
+<attrib name="id" value="sec.5"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>5</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 5:</b> Am 1969 No 24,
+sec 2 (1) (b); 1972 No 43, sec 3; 1973 No 32, sec 3 (c); 1985 No 191, Sch 1
+(1) (2). Rep 2006 No 120, Sch 1.31 [3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_56403503-5333-43a5-aff9-42c05f358ca0"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_bebf73f0-18b5-43e7-83d5-97b32cbedd48"
+id="sec.6-he"><b>Trustees</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1fe964f6-eae8-4431-88d4-b607409653bd"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust is to consist of 11 members appointed
+by the Governor on the nomination of the Minister.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_38ddf7f7-9254-4ad3-b054-3c016c44c36c"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The trustees must include&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c9dca07c-6243-4fc9-b522-ef8b554b38bf" id="sec.6-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">at least 2 persons who have knowledge of, or
+experience in, the performing arts, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9a19aebb-aaec-4796-9c83-14b3acabff42" id="sec.6-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">at least one young
+person.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.6-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e71b347d-c407-4505-b64b-bc9ff41579e8"></attrib>
+<attrib name="id" value="sec.6-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A trustee is to hold office for such period, not
+exceeding 3 years, as is specified in the trustee&#8217;s instrument of
+appointment but is, subject to subsection (4), eligible for
+re-appointment.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_51e2aa11-c7d0-4f5f-b3bb-13ec09ae63e7"></attrib>
+<attrib name="id" value="sec.6-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A trustee is not to hold office for 4 consecutive
+terms.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0bf05325-e4bb-4a89-b652-549faab085f9"></attrib>
+<attrib name="id" value="sec.6-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">On the occurrence of a vacancy in the office of a
+trustee otherwise than by the expiration of the trustee&#8217;s term of
+appointment, the Governor may, on the nomination of the Minister, appoint a
+person to fill the vacant office for the residue of the term of office of his
+or her predecessor.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.5A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_db25409a-b421-46f6-a292-f7515af2117a"></attrib>
+<attrib name="id" value="sec.6-ssec.5A"></attrib></parentattributes>
+
+<head>
+<no>(5A)</no></head>
+<block><txt break.before="1">For the purposes of subsection (4) only, an
+appointment under subsection (5) does not constitute (and is taken never to
+have constituted) an appointment for a term of office.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5f917566-597c-4c6f-a642-a09567328f20"></attrib>
+<attrib name="id" value="sec.6-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_bc7b173c-a5e9-4f09-816c-3033061e787b"
+id="sec.6-ssec.6-def.youngperson"><b><i>young person</i></b></defterm> means a
+person who, at the time of appointment as a trustee, is&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1f49a49c-19af-4e63-8873-4c6a735460f9" id="sec.6-ssec.6-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">at least 18 years of age, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d6f6caa5-24ed-4c34-8266-ad6ed437b5d7" id="sec.6-ssec.6-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">not more than 28 years of
+age.</txt></block></li></list>
+</block></deflist>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 6:</b> Subst 1969 No
+24, sec 2 (1) (c); 1989 No 110, Sch 1. Am 2002 No 53, Sch 1.26 [2]; 2003 No
+40, Sch 1.50 [1] [2]; 2009 No 56, Sch 1.41 [1]; 2025 No 39, Sch
+6[1]&#8211;[3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.7" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1ebb938f-8b1e-4208-b10d-a1950ba7fc91"></attrib>
+<attrib name="id" value="sec.7"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>7</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 7:</b> Rep 1969 No 24,
+sec 2 (1) (d).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f20e7d73-a4c6-4a9a-8e47-6a9611c1a92e"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_7d708b07-7e25-4fcb-bcd5-a11041c1c8f2"
+id="sec.8-he"><b>Casual vacancies</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0c59d160-966a-4ef0-a88a-5984534904ad"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A trustee shall be deemed to have vacated office
+if the trustee&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aa98709f-5dac-44a0-b5b4-856038b9d777" id="sec.8-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">dies,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e3145b98-c9b8-4459-b010-0bc304f695e6" id="sec.8-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">resigns office by writing under the
+trustee&#8217;s hand addressed to the Governor,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a8bb0232-bb9f-40f9-89ac-db4d707b5a13" id="sec.8-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">becomes a mentally incapacitated
+person,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e22e2d15-ee79-46e0-866c-f6964046c6ab" id="sec.8-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">is absent from three consecutive ordinary
+meetings of the Trust of which notice has been given to the trustee personally
+or in the ordinary course of post and is not before the expiration of six
+weeks after the last of such meetings excused by the Trust for his or her
+absence from such meetings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_82eafe53-1434-4379-8438-8cefa6f61607" id="sec.8-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">is removed from office by the
+Governor,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5fa7283e-25af-44f9-a011-31fffba3d7cf" id="sec.8-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">accepts or continues to hold after appointment as
+a trustee&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_13302abb-afb6-41d6-977e-0999ded33170"
+id="sec.8-ssec.1-para1.f-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">a position or employment with, or, whether in an
+honorary capacity or otherwise, membership of, the board or committee of
+management of any corporation, society, authority, organisation or association
+which is a party or becomes a party to a contract or arrangement with the
+Trust for the use or hire of the Opera House or any part thereof,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4a2b752f-dfbd-44fb-9074-e00d407ab197"
+id="sec.8-ssec.1-para1.f-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">a pecuniary interest or benefit whether direct or
+indirect in or from any contract or arrangement with the Trust for the use or
+hire of the Opera House or any part thereof,</txt></block></li></list>
+
+<txt break.before="1">and the Minister in the circumstances of the case
+considers that the office of the trustee should become
+vacant.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6822ce3d-5efd-45de-8483-93e47bbe6b62"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Governor may, for any cause which appears to
+the Governor to be sufficient, remove any trustee from
+office.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 8:</b> Am 1969 No 24,
+sec 2 (1) (e); 1973 No 32, sec 3 (d); 2002 No 53, Sch 1.26
+[3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_21e27ad9-7ea4-4e34-86ad-e536b0cff9e1"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_878c1341-f4f1-448f-9b0b-824ef38276ca"
+id="sec.9-he"><b>Application of <legref refid="act-2013-040" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Government Sector
+Employment Act 2013</i></name></legref></b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5b471618-7bd9-4c80-8d38-023bbc035565"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The provisions of the <legref
+refid="act-2013-040" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Government Sector Employment Act 2013</i></name></legref>
+relating to the employment of Public Service employees do not apply to a
+trustee.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a44511c8-f3ca-49d3-91c5-bc251bd3460e"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The office of a trustee is, for the purposes of
+the <legref refid="act-1902-032" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Constitution Act 1902</i></name></legref>, or any Act
+amending or replacing that Act, taken not to be an office or place of profit
+under the Crown.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Am 1989 No 132,
+Sch 2. Subst 2005 No 64, Sch 1.42 [1]. Am 2015 No 15, Sch 3.56
+[2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_96c33997-fe41-49a9-895e-003a3555bfa3"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_c3ac400a-10f5-4c4f-94e3-e1b28f81c047"
+id="sec.10-he"><b>Chairperson</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_18ea06d4-d029-4ebf-8cfd-27d818d1370d"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Chairperson of the Trust shall be such
+trustee as the Governor on the nomination of the Minister may appoint as
+Chairperson.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_57a22879-2cc7-4e42-9c4e-ae1232e43b7b"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">At every meeting of the Trust at which the
+Chairperson is present the Chairperson shall preside. In the absence of the
+Chairperson from any meeting of the Trust, the trustees present at the meeting
+shall select from amongst their number a Chairperson to preside at that
+meeting.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 10:</b> Subst 1969 No
+24, sec 2 (1) (f). Am 1989 No 132, Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7dfd8b99-5709-4027-bdd4-a2dce3880d63"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_ef23fb76-527a-4f66-956e-774a71b60eb7"
+id="sec.11-he"><b>Procedure of Trust and quorum</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_374125b6-5941-4b96-b3c0-12d9609d1cfc"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The procedure for the calling of meetings of the
+Trust and the conduct of business at such meetings shall, subject to any
+by-laws in relation thereto, be as determined by the
+trustees.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c56166c1-caa2-42c0-9066-a0fdaf133b1b"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A quorum for a meeting of the Trust is a majority
+of trustees for the time being.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_34ee2907-b3d9-4993-b31e-389352803951"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Any duly convened meeting of the Trust at which a
+quorum is present shall be competent to transact any business of the Trust and
+shall have and may exercise and perform all the powers, authorities, duties
+and functions by this Act conferred or imposed upon the
+Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ecda2a68-8acc-423e-8db1-310793adaa4e"></attrib>
+<attrib name="id" value="sec.11-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A decision of the majority of trustees present at
+a meeting of the Trust shall be the decision of the
+Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_53133716-7496-4b99-9968-ead0ec4bc5dc"></attrib>
+<attrib name="id" value="sec.11-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The Chairperson or other the trustee presiding at
+any meeting of the Trust shall have a deliberative vote and, in the event of
+an equality of votes, a second or casting vote.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Am 1969 No 24,
+sec 2 (1) (g); 1989 No 132, Sch 2; 2002 No 53, Sch 1.26 [4]; 2005 No 64, Sch
+1.42 [2]; 2025 No 39, Sch 6[4].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.11A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_002eac7a-dc65-4ced-8694-10363b110166"></attrib>
+<attrib name="id" value="sec.11A"></attrib></parentattributes>
+
+<head>
+<no>11A</no><heading guid="_668b6729-4c84-4b9b-bd45-c418900d4668"
+id="sec.11A-he"><b>Transaction of business outside meetings or by
+telephone</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.11A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f4997a60-3af2-4f83-942b-ec74cba6d7ea"></attrib>
+<attrib name="id" value="sec.11A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust may, if it thinks fit, transact any of
+its business by the circulation of papers among all the trustees for the time
+being, and a resolution in writing approved in writing by a majority of those
+trustees is taken to be a decision of the Trust.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.11A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ab2a98f7-c6ae-400b-a4ca-5aa9f5b58ca0"></attrib>
+<attrib name="id" value="sec.11A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Trust may, if it thinks fit, transact any of
+its business at a meeting at which trustees (or some trustees) participate by
+telephone, closed-circuit television or other means, but only if any trustee
+who speaks on a matter before the meeting can be heard by the other
+trustees.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11A-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_db4e2fba-974c-4fbf-8d43-d4ab463fc22a"></attrib>
+<attrib name="id" value="sec.11A-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purposes of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_135bfaba-07c9-4d44-972e-1dea382c33c6" id="sec.11A-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the approval of a resolution under subsection
+(1), or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f9cc35ee-709a-434a-a179-cc73eea5cf70" id="sec.11A-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a meeting held in accordance with subsection
+(2),</txt></block></li></list>
+
+<txt break.before="1">the Chairperson and each trustee have the same voting
+rights as they have at an ordinary meeting of the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11A-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_beab27b8-5d08-4af3-bb01-0da9df90993a"></attrib>
+<attrib name="id" value="sec.11A-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A resolution approved under subsection (1) is,
+subject to the by-laws, to be recorded in the minutes of the meetings of the
+Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11A-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b69d3cb0-474c-463c-850b-651f86c44130"></attrib>
+<attrib name="id" value="sec.11A-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Papers may be circulated among the trustees for
+the purposes of subsection (1) by facsimile or other transmission of the
+information in the papers concerned.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 11A:</b> Ins 2005 No
+64, Sch 1.42 [3]. Am 2010 No 59, Sch 1.27 [1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7d194c88-8748-4c90-8f9d-7e0df8970ec2"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_d95844f2-8f8f-4cb4-81bb-10d97554646d"
+id="sec.12-he"><b>Delegation to committees, and other
+persons</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0527249d-f561-449e-b460-8bddbde06fd4"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust may establish such committees as it
+thinks fit for the purpose of assisting it to carry out its objects and
+functions under this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2b600769-0ed4-4816-b3fa-901e31f3f38c"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person may be appointed to any such committee
+whether or not the person is a member of the Trust.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.12-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_caeb2a40-3a8b-4de2-a724-0c615f18873c"></attrib>
+<attrib name="id" value="sec.12-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Any such committee may exercise such of the
+Trust&#8217;s powers, authorities, duties and functions as may be delegated to
+it by the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_38378b84-c1e9-484b-b328-334ec0017bfa"></attrib>
+<attrib name="id" value="sec.12-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Any member of staff of the Trust may exercise
+such of the Trust&#8217;s powers, authorities, duties and functions as may be
+delegated to the member of staff by the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5e322375-e952-4abe-a460-f765b044d43c"></attrib>
+<attrib name="id" value="sec.12-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Notwithstanding any delegation made under this
+section, the Trust may continue to exercise and discharge any of the powers,
+authorities, duties and functions so delegated.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8ca1c17b-aa5e-4c62-9e36-e33d8dc64a9d"></attrib>
+<attrib name="id" value="sec.12-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">The Trust may at any time revoke any such
+delegation, either wholly or in part.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 12:</b> Am 2004 No 49,
+Sch 2 [1] [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.12A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f2cb5d84-7a85-4fad-a333-40d8b6255cf6"></attrib>
+<attrib name="id" value="sec.12A"></attrib></parentattributes>
+
+<head>
+<no>12A</no><heading guid="_a4aa09f2-b1aa-41dc-bb87-cc4e4a5ee005"
+id="sec.12A-he"><b>Disclosure of pecuniary interests</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.12A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fd8c6a54-9aa2-48df-a410-dae191e7ec71"></attrib>
+<attrib name="id" value="sec.12A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_939b9d8c-6e1e-4b43-9ee5-1e99fa9e99a9" id="sec.12A-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a trustee has a direct or indirect pecuniary
+interest in a matter being considered or about to be considered at a meeting
+of the Trust, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a3d696f5-0e3e-464b-90fe-879285ba79d6" id="sec.12A-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the interest appears to raise a conflict with the
+proper performance of the trustee&#8217;s duties in relation to the
+consideration of the matter,</txt></block></li></list>
+
+<txt break.before="1">the trustee must, as soon as possible after the relevant
+facts have come to the trustee&#8217;s knowledge, disclose the nature of the
+interest at a meeting of the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8ca4d81d-7f45-4001-b51d-04628c52cc84"></attrib>
+<attrib name="id" value="sec.12A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A disclosure by a trustee at a meeting of the
+Trust that the trustee&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8fdd6cc4-7003-4929-8156-208bc4f80ac4" id="sec.12A-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is a member, or is in the employment, of a
+specified company or other body, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5b093902-8bb0-448a-91a3-4cd6667bbd5c" id="sec.12A-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is a partner, or is in the employment, of a
+specified person, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f3f11658-3a9d-4d71-a91f-f54cf059ff21" id="sec.12A-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">has some other specified interest relating to a
+specified company or other body or to a specified
+person,</txt></block></li></list>
+
+<txt break.before="1">is a sufficient disclosure of the nature of the interest
+in any matter relating to that company or other body or to that person which
+may arise after the date of the disclosure and which is required to be
+disclosed under subsection (1).</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.12A-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b7a00fc1-f37e-4e11-b2b5-ba2d83159b05"></attrib>
+<attrib name="id" value="sec.12A-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Particulars of any disclosure made under this
+section must be recorded by the Trust in a book kept for the purpose and that
+book must be open at all reasonable hours to inspection by any person on
+payment of the fee determined by the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12A-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0cff6dfb-0a10-41b2-abd3-cb90fa2547ed"></attrib>
+<attrib name="id" value="sec.12A-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">After a trustee has disclosed the nature of an
+interest in any matter, the trustee must not, unless the Trust otherwise
+determines&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0e2bedeb-67b2-4a4c-8230-be1b2ba2ac57" id="sec.12A-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">be present during any deliberation of the Trust
+with respect to the matter, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e957341f-2b47-4225-bcce-91417b0965a9" id="sec.12A-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">take part in any decision of the Trust with
+respect to the matter.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.12A-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_71e2e749-cec7-424b-844e-dcb5e3f149db"></attrib>
+<attrib name="id" value="sec.12A-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">For the purposes of the making of a determination
+by the Trust under subsection (4), a trustee who has a direct or indirect
+pecuniary interest in a matter to which the disclosure relates must
+not&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_59982344-97d3-48be-a084-1edd53031fbf" id="sec.12A-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">be present during any deliberation of the Trust
+for the purpose of making the determination, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_44903c46-db42-48f0-a529-bd778c35ac61" id="sec.12A-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">take part in the making by the Trust of the
+determination.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.12A-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b70391cb-28a7-4255-9344-1c596c43b325"></attrib>
+<attrib name="id" value="sec.12A-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">A contravention of this section does not
+invalidate any decision of the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12A-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2873418f-bae6-424e-bcef-a90da113c1b3"></attrib>
+<attrib name="id" value="sec.12A-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">This section applies to a member of a committee
+of the Trust and the committee in the same way as it applies to a trustee of
+the Trust and the Trust.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 12A:</b> Ins 2006 No
+120, Sch 1.31 [4].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a229a66e-6f4e-4130-998f-d7fa687a16c3"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_b506d3cd-1b6b-4fe7-bb82-4691caf5d1b7"
+id="sec.13-he"><b>Allowances</b></heading></head>
+<block><txt break.before="1">The trustees shall be entitled to receive
+allowances for conveyance and subsistence in travelling to and from meetings
+of the Trust and upon the business of the Trust, in such amounts or at such
+rates as may be prescribed by or under the by-laws.</txt></block></level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d28f30a7-d068-420d-9f30-b020586d408a"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_963124d8-e50f-4c44-ad0d-13d5c17e2a9d"
+id="sec.14-he"><b>Validity of acts and proceedings</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b9ca4e6a-1439-4d15-8b8f-7d73f9fc28a9"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">No act or proceeding of the Trust or of any
+person acting pursuant to any direction of the Trust shall be invalidated or
+prejudiced by reason only of the fact that at the time when such act or
+proceeding was done, taken or commenced there was a vacancy in the office of
+any trustee.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a76bb16e-0baf-47c2-a61e-d7f84d93f476"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">All acts and proceedings of the Trust or of any
+person acting pursuant to any direction of the Trust shall, notwithstanding
+the subsequent discovery of any defect in the appointment of any trustee, or
+that any such trustee was disqualified from acting as or incapable of being a
+trustee, be as valid as if such trustee had been duly appointed and was
+qualified to act as or capable of being, and had acted as, a trustee and as if
+the Trust had been properly and fully constituted.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2a91f6a8-e881-47be-aa0d-3382a23c5b0a"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_45f6a522-86b5-4f09-9273-aa1c5af9b416"
+id="sec.15-he"><b>Common seal</b></heading></head>
+
+<tier type="subclause" id="sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c46cab9f-6d83-418f-83e4-fa67d9497eee"></attrib>
+<attrib name="id" value="sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The common seal of the Trust shall be kept in the
+custody of the Chairperson or such other trustee as the Trust may determine,
+and shall not be affixed to any instrument or writing except upon resolution
+of the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a747279f-086c-406b-85c0-c24d739b206c"></attrib>
+<attrib name="id" value="sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Every instrument to which the common seal is
+affixed shall be signed by two trustees and such other member of staff of the
+Trust as the Trust may appoint.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fc294373-4c3e-400d-ac95-db72ee5b78e1"></attrib>
+<attrib name="id" value="sec.15-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">All courts, judges and persons acting judicially
+shall take judicial notice of the common seal of the Trust, and shall presume
+that it was duly affixed.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 15:</b> Am 1989 No 132,
+Sch 2; 2004 No 49, Sch 2 [3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_68bc5ed9-3756-4213-9dea-b705940f352b"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_9ee73ece-6c85-47c5-95b9-e32bfb3f9437"
+id="sec.16-he"><b>Staff</b></heading></head>
+<block><txt break.before="1">Persons may be employed in the Public Service
+under the <legref refid="act-2013-040" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref> to enable the Trust to exercise its
+functions.</txt></block>
+<note type="legtext" guid="_007837ab-8f65-469d-9073-50dec2a1fbeb"
+id="sec.16-note"><heading guid="_73e0f41c-452f-422c-9821-380095a36f10"
+id="sec.16-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">Section 59 of the <legref refid="act-2013-040"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Government
+Sector Employment Act 2013</i></name></legref> provides that the persons so
+employed (or whose services the Trust makes use of) may be referred to as
+officers or employees, or members of staff, of the Trust. Section 47A of the
+<legref refid="act-1902-032" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Constitution Act 1902</i></name></legref> precludes the
+Trust from employing staff.</txt></block></note>
+
+
+<content type="historynote"><txt break.before="1"><b>s 16:</b> Am 1989 No 132,
+Sch 2. Subst 2004 No 49, Sch 2 [4]. Rep 2006 No 2, Sch 4.69 [2]. Ins 2015 No
+15, Sch 3.56 [3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.17" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_45289c63-c605-4505-ab93-1f3578d8ca69"></attrib>
+<attrib name="id" value="sec.17"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>17</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 17:</b> Am 1973 No 32,
+sec 3 (e); 1975 No 89, sec 6 (2); 1996 No 24, Sch 1; 2004 No 49, Sch 2 [5].
+Rep 2006 No 120, Sch 1.31 [5].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_601be2bc-b315-4481-a18b-d68378716627"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_06d836c1-0905-485b-97d0-33e5d96ab817"
+id="sec.18-he"><b>Gifts, endowments, bequests and
+devises</b></heading></head>
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_54a7553e-71c8-4995-b8fd-e1c875a813f1"></attrib>
+<attrib name="id" value="sec.18-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust shall have power to acquire by gift
+inter vivos, endowment, bequest or devise, any property for any of the
+purposes of this Act, and to agree to the condition of any such gift,
+endowment, bequest or devise.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6aeb4bee-9812-465b-9a67-1ca798ded132"></attrib>
+<attrib name="id" value="sec.18-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The rule of law relating to perpetuities shall
+not apply to any such condition to which the Trust has
+agreed.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f7e67fbe-d6d0-48a3-bf56-84cf809aab83"></attrib>
+<attrib name="id" value="sec.18-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The <legref refid="act-1997-123" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Duties Act
+1997</i></name></legref> does not apply to or in respect of any gift inter
+vivos, endowment, bequest or devise made or to be made to the Opera House or
+the Trust.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 18:</b> Am 1989 No 132,
+Sch 2; 2005 No 64, Sch 1.42 [4].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8481f57e-49e1-4fc9-953f-dd5ea5c85587"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_dc3c0c2c-b223-4682-bf34-c898e6858a37"
+id="sec.19-he"><b>Sale or disposal of certain property</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.19-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_75466205-c6d0-49a7-8838-bc5f2673921d"></attrib>
+<attrib name="id" value="sec.19-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Where the Trust adjudges any real or personal
+property for the time being vested in the Trust to be unfit for or not
+required for its objects, the Trust may notwithstanding the terms of any trust
+affecting the property or of any arrangement or condition made or agreed to by
+the Trust at the time of its acquisition by the Trust&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fa123a1f-8791-4246-b0a2-66297c75c5a0" id="sec.19-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">sell the property or exchange it for any other
+property, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4b8471fa-1e9e-4f2d-80c7-4ed4f178f302" id="sec.19-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">dispose of without consideration or in the case
+of personal property destroy the property if the Trust adjudges it to be of no
+salable value.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.19-ssec.1A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bbe77540-2cc7-480b-a483-f4d235b5150d"></attrib>
+<attrib name="id" value="sec.19-ssec.1A"></attrib></parentattributes>
+
+<head>
+<no>(1A)</no></head>
+<block><txt break.before="1">The proceeds of any sale under subsection (1) (a)
+are, after deducting the costs of the sale (including incidental costs), to be
+held by the Trust for the objects of the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f0e4f6f9-75cf-40f5-8222-9a5a2477fa47"></attrib>
+<attrib name="id" value="sec.19-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any property sold or disposed of by way of
+exchange or otherwise by the Trust purporting to exercise any of the powers
+conferred on the Trust by this section shall vest in the person acquiring it
+by virtue of the sale or other disposition freed and discharged from any
+trust, arrangement or condition relating to any sale or disposition of the
+property or to the use of the property to which the property was subject in
+the hands of the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d10f206e-7fe9-41d1-b12b-96e9b49d6c45"></attrib>
+<attrib name="id" value="sec.19-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">No person acquiring any property from the Trust
+purporting to exercise any of the powers conferred on the Trust by this
+section shall be concerned to inquire whether a case has arisen to authorise
+the sale or other disposition of the property or whether the power was
+otherwise properly and regularly exercised or to see the application of any
+purchase money paid to the Trust.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 19:</b> Am 2005 No 64,
+Sch 1.42 [5] [6].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f83028c9-32c0-4372-a709-7dbe24d43e61"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_3c2fb0f0-fbd7-43af-9660-285623d8ce84"
+id="sec.20-he"><b>Statutory endowment</b></heading></head>
+<block><txt break.before="1">For the purpose of assisting the Trust in
+carrying out its objects, there shall be paid by the Treasurer to the Trust
+such sum as Parliament may approve each year. Such sum shall be paid in such
+instalments as the Treasurer may approve.</txt></block></level>
+
+
+<level type="clause" id="sec.21-23" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f9893615-35b9-43d2-8685-20e905ebd48e"></attrib>
+<attrib name="id" value="sec.21-23"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>21&#8211;23</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 21:</b> Rep GG No 50 of
+18.3.1983, p 1255.</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 22:</b> Rep GG No 50 of
+18.3.1983, p 1255.</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 23:</b> Subst 1983 No
+153, Sch 2. Rep 2005 No 64, Sch 1.42 [7].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.24">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7c9c95d0-efe2-4731-bf07-7e0252590830"></attrib>
+<attrib name="id" value="sec.24"></attrib></parentattributes>
+
+<head>
+<no>24</no><heading guid="_295ee72b-c538-41a7-a45a-f5870240ba69"
+id="sec.24-he"><b>Investment of funds of the Trust</b></heading></head>
+
+<tier type="subclause" id="sec.24-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4b499b86-127b-4d45-9dc7-5c2cec97c9e2"></attrib>
+<attrib name="id" value="sec.24-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust may, subject to the provisions of any
+trust affecting its funds or to any directions or restrictions attached
+thereto or imposed by the donor thereof, from time to time invest any of its
+funds in any investment in which a trustee may invest trust funds in
+accordance with the <legref refid="act-1925-014" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Trustee Act
+1925</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.24-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d73017a5-ed20-4442-9f04-26935055f957"></attrib>
+<attrib name="id" value="sec.24-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Trust may retain and hold any investments
+which may be transferred to it otherwise than by way of purchase
+notwithstanding that such investments may not be of the nature authorised by
+subsection (1).</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 24:</b> Am 1997 No 102,
+Sch 2.11.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.25">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3985c611-04a0-4a14-a1e6-c02958063969"></attrib>
+<attrib name="id" value="sec.25"></attrib></parentattributes>
+
+<head>
+<no>25</no><heading guid="_2a025d36-1e26-4820-9f72-1f82ed272d2c"
+id="sec.25-he"><b>Charges and admission fees</b></heading></head>
+
+<tier type="subclause" id="sec.25-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f206c36b-c4ab-4337-bc45-a8c20d2eb3f0"></attrib>
+<attrib name="id" value="sec.25-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7c08f2ac-db53-4b19-ab53-7f1428de14c0" id="sec.25-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">may by resolution from time to time fix the scale
+of charges and admission fees to be made and levied by it for admission to the
+Opera House or any part of the Opera House at any time except during a period
+when the Trust has granted the use of the Opera House or such part to any
+person pursuant to section 26, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d4cce407-a559-4ded-85c2-d79a2750bd9e" id="sec.25-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">may, except during any such period, demand,
+recover and receive such charges and admission fees from any person entering
+the Opera House or the part of the Opera House in respect of which a charge or
+admission fee is payable.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.25-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4703ddba-0a7f-4d91-94a5-8118ed6255cf"></attrib>
+<attrib name="id" value="sec.25-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The scale of charges and admission fees to be
+made and levied for admission to the Opera House or part of the Opera House
+may vary according to the days on which, the times at which, the function to
+which, and the uses or purposes for which, admission is sought or
+allowed.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 25:</b> Am 1973 No 32,
+sec 3 (f).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.26">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4798b118-c067-4e9a-9036-a260ff161934"></attrib>
+<attrib name="id" value="sec.26"></attrib></parentattributes>
+
+<head>
+<no>26</no><heading guid="_ea0cabcd-34ba-4c21-ba82-9445aba468f5"
+id="sec.26-he"><b>Hiring</b></heading></head>
+<block><txt break.before="1">The Trust may permit the Opera House or any part
+of the Opera House to be used by any person at such times and upon such terms
+and conditions and subject to payment to the Trust of such hiring charges as
+the Trust may think fit and proper, or as may be prescribed by the by-laws,
+for or in connection with any purpose approved by the Trust.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 26:</b> Am 1973 No 32,
+sec 3 (g).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.26A" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c4303da5-b01f-4e65-829d-dd344004c608"></attrib>
+<attrib name="id" value="sec.26A"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>26A</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 26A:</b> Ins 1973 No
+32, sec 3 (h). Am 1985 No 191, Sch 1 (3). Rep 1990 No 15, sec
+4.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.27">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_44f70dae-c8fc-476f-9e24-3bcd11893382"></attrib>
+<attrib name="id" value="sec.27"></attrib></parentattributes>
+
+<head>
+<no>27</no><heading guid="_cc7d4ffb-be14-4a8e-bf83-8ad8f693f793"
+id="sec.27-he"><b>Personal liability</b></heading></head>
+
+<tier type="subclause" id="sec.27-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0cff49f9-99f9-42d8-a5ae-34b6d8b03792"></attrib>
+<attrib name="id" value="sec.27-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A matter or thing done or omitted to be done by
+the Trust, a trustee, the principal officer or a person acting under the
+direction of the Trust or the principal officer does not, if the matter or
+thing was done or omitted to be done in good faith for the purposes of
+executing this Act, subject a trustee, the principal officer or a person so
+acting personally to any action, liability, claim or
+demand.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.27-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cbc400e5-31b4-446b-b6e4-eb9fc2aed034"></attrib>
+<attrib name="id" value="sec.27-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_7c3f2fe2-a378-4727-89d6-10c999ad1542"
+id="sec.27-ssec.2-def.principalofficer"><b><i>principal
+officer</i></b></defterm> means the member of staff responsible for the
+day-to-day management and administration of the Opera
+House.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 27:</b> Rep 2005 No 64,
+Sch 1.42 [7]. Ins 2012 No 95, Sch 1.19.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.28">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5f8587a8-0995-4a70-994c-1f7d8f28285f"></attrib>
+<attrib name="id" value="sec.28"></attrib></parentattributes>
+
+<head>
+<no>28</no><heading guid="_be31f87f-1589-48f0-b798-c64fe2f48419"
+id="sec.28-he"><b>By-laws</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.28-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1292d0d5-0279-48b3-9de1-bf020abff0e1"></attrib>
+<attrib name="id" value="sec.28-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust may make by-laws not inconsistent with
+this Act for and with respect to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0cf56e50-01d3-42d3-b889-ba222bebfcb2" id="sec.28-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the general management and control of the Opera
+House or any part of the Opera House, including but without limiting the
+generality of the foregoing, by-laws for or with respect to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a825f7c8-5d3f-448e-be12-45cf6a28fd15"
+id="sec.28-ssec.1-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">the regulation of the use and enjoyment of the
+Opera House,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_60f37c5e-dcf3-4518-a7e5-6b262d8fb923"
+id="sec.28-ssec.1-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the leasing, letting or hiring of the Opera
+House,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e2988d7c-7576-414d-8fb6-fbc81698e91b"
+id="sec.28-ssec.1-para1.a-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">the securing of decency and order at the Opera
+House,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_666a5f94-6a93-4b73-8261-31fb8afd1c35"
+id="sec.28-ssec.1-para1.a-para2.iv">
+<no>(iv)</no>
+<block><txt break.before="1">the removal of trespassers from the Opera House
+and of other persons causing annoyance or inconvenience at the Opera
+House,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7d7c4533-e66b-4348-b000-30b0a52f56d4"
+id="sec.28-ssec.1-para1.a-para2.v">
+<no>(v)</no>
+<block><txt break.before="1">the regulation or prevention of the taking of
+intoxicants into the Opera House, or the consuming of intoxicants at the Opera
+House,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e0c6b97b-c408-4986-a37c-47c7b125d9a3"
+id="sec.28-ssec.1-para1.a-para2.vi">
+<no>(vi)</no>
+<block><txt break.before="1">the regulation or prevention of the taking of
+animals into the Opera House,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_60b9d439-adf4-4a45-85cf-254eea1785b6"
+id="sec.28-ssec.1-para1.a-para2.vii">
+<no>(vii)</no>
+<block><txt break.before="1">the regulation, control or prohibition of the
+parking of vehicles on any land under the control of the Trust, the making of
+charges for such parking, and the collecting and receiving of such charges by
+the Trust or by other persons,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a54f6522-6203-4be3-81cb-8cb731f04368"
+id="sec.28-ssec.1-para1.a-para2.viii">
+<no>(viii)</no>
+<block><txt break.before="1">admission to the Opera House or any part of the
+Opera House, and the making and levying of charges or admission fees, and the
+collecting and receiving of such charges and fees by the Trust or by other
+persons,</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4ad71a16-df3a-4efe-979e-63d28d892829" id="sec.28-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">regulating the affairs, business, management and
+meetings of the Trust and any committee thereof,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ca09469c-eddc-4d7d-8380-c38642df3b91" id="sec.28-ssec.1-para1.c"
+status="repealed">
+<no>(c)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9490b515-5168-46f5-9233-8a75d3acc2c7" id="sec.28-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">generally any matters necessary or convenient for
+carrying out or giving effect to this Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_32ea1a42-1b15-4e98-8a7b-f4c1edb74081"></attrib>
+<attrib name="id" value="sec.28-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The by-laws may impose a penalty not exceeding 50
+penalty units for any breach of the by-laws.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.28-ssec.2A" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ed62decf-42c3-46f2-8587-ba8d32a0d95a"></attrib>
+<attrib name="id" value="sec.28-ssec.2A"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(2A)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<tier type="subclause" id="sec.28-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b94baf0e-7320-4372-8150-5c0c8ff91dab"></attrib>
+<attrib name="id" value="sec.28-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A by-law has no effect unless approved by the
+Governor.</txt></block>
+<note type="legtext" guid="_6b68e079-d7e8-4a08-ab49-10177ffa9f23"
+id="sec.28-ssec.3-note"><heading guid="_f2a0c86c-428c-4d19-9766-c536fc5d5bda"
+id="sec.28-ssec.3-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">Any by-law made by a person or body that requires
+the approval of the Governor is a statutory rule for the purposes of the
+<legref refid="act-1987-015" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Interpretation Act 1987</i></name></legref>. Accordingly, it
+must be published on the NSW legislation website to come into
+force.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.28-ssec.4" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8d0cc586-878a-49fd-9f5f-5b31b1a7d47f"></attrib>
+<attrib name="id" value="sec.28-ssec.4"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<tier type="subclause" id="sec.28-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7597464c-f45c-4f7a-a7f9-e72c7d54fcd1"></attrib>
+<attrib name="id" value="sec.28-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A by-law shall not apply to a part of the Opera
+House which has not been specified in a notification under section 5
+(2).</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 28:</b> Am 1969 No 24,
+sec 2 (1) (h); 1973 No 32, sec 3 (i) (am 1984 No 153, Sch 16); 1985 No 191,
+Sch 1 (1); 1987 No 48, Sch 32; 1989 No 132, Sch 2; 1992 No 112, Sch 1; 1993 No
+46, Sch 1; 2001 No 121, Sch 2.194; 2004 No 49, Sch 2 [6] [7]; 2010 No 59, Sch
+1.27 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.28A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_707f87b0-8285-4d8d-99c7-a3d5d341c5fa"></attrib>
+<attrib name="id" value="sec.28A"></attrib></parentattributes>
+
+<head>
+<no>28A</no><heading guid="_fc7d243d-290e-4e99-a94b-7dca1eecbca2"
+id="sec.28A-he"><b>Trespassing at Opera House</b></heading></head>
+<block><txt break.before="1">A person who enters, or remains at, any part of
+the Opera House as a trespasser is guilty of an offence.</txt></block>
+
+<tier type="penalty" id="sec.28A-pen">
+<parentattributes>
+<attrib name="guid" value="_d8998343-949d-400e-a423-b673a792036c"></attrib>
+<attrib name="id" value="sec.28A-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Maximum penalty&#8212;200 penalty units or
+imprisonment for 2 years, or both.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>ss 28A&#8211;28D:</b> Ins
+2004 No 49, Sch 1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.28B">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8fde9c9d-112e-4469-adc4-874f4f7d4995"></attrib>
+<attrib name="id" value="sec.28B"></attrib></parentattributes>
+
+<head>
+<no>28B</no><heading guid="_f1d62f95-9dab-4d4d-b3fe-17ed8a0d53e3"
+id="sec.28B-he"><b>Trespassing at Opera House with
+intent</b></heading></head>
+<block><txt break.before="1">A person who enters, or remains at, any part of
+the Opera House as a trespasser with intent to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b0954a76-fea4-4958-87d1-125cfff84041" id="sec.28B-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">cause damage to the Opera House,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_571abf52-eea9-4bdf-b37a-3a6fca7c5e8e" id="sec.28B-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">seriously disrupt the operations of the Opera
+House, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b6fc5662-a0c1-4f05-984e-265b6a25372f" id="sec.28B-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">commit any offence punishable by imprisonment or
+arising under the <legref refid="act-1988-025" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Summary Offences Act
+1988</i></name></legref>,</txt></block></li></list>
+
+<txt break.before="1">is guilty of an offence.</txt></block>
+
+<tier type="penalty" id="sec.28B-pen">
+<parentattributes>
+<attrib name="guid" value="_754e822e-85a9-4699-b853-4399fb7eaf5d"></attrib>
+<attrib name="id" value="sec.28B-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Maximum penalty on indictment: imprisonment for 7
+years.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>ss 28A&#8211;28D:</b> Ins
+2004 No 49, Sch 1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.28C">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4ddcb7e9-778b-467e-a9f3-4692aa658a92"></attrib>
+<attrib name="id" value="sec.28C"></attrib></parentattributes>
+
+<head>
+<no>28C</no><heading guid="_5c09bd16-5375-4bda-ae71-390d7d050140"
+id="sec.28C-he"><b>Damage to Opera House</b></heading></head>
+<block><txt break.before="1">A person who intentionally or recklessly damages
+the Opera House is guilty of an offence.</txt></block>
+
+<tier type="penalty" id="sec.28C-pen">
+<parentattributes>
+<attrib name="guid" value="_f2c5cdcf-76d9-44da-ad47-d54dfff456fe"></attrib>
+<attrib name="id" value="sec.28C-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Maximum penalty on indictment: imprisonment for 5
+years.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>ss 28A&#8211;28D:</b> Ins
+2004 No 49, Sch 1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.28D">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_85ca602f-9f58-4dc8-a96c-8051d01f82ca"></attrib>
+<attrib name="id" value="sec.28D"></attrib></parentattributes>
+
+<head>
+<no>28D</no><heading guid="_9c00f5db-a613-4b71-8721-7fa09a23d403"
+id="sec.28D-he"><b>Penalty for attempt</b></heading></head>
+<block><txt break.before="1">A person who attempts to commit an offence under
+section 28B or 28C is liable to the penalty provided for the offence
+concerned.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>ss 28A&#8211;28D:</b> Ins
+2004 No 49, Sch 1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.28E">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7f9dab48-7431-4d31-a4f4-1b9a5b4497d0"></attrib>
+<attrib name="id" value="sec.28E"></attrib></parentattributes>
+
+<head>
+<no>28E</no><heading guid="_a4ea7b39-c25b-4add-802b-f2822cab80d8"
+id="sec.28E-he"><b>Proceedings for offences</b></heading></head>
+
+<tier type="subclause" id="sec.28E-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5aeeb305-f547-41cb-831e-86daac61cc4a"></attrib>
+<attrib name="id" value="sec.28E-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Proceedings for an offence against this Act or
+the by-laws, except sections 28B and 28C, are to be dealt with summarily
+before the Local Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.28E-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6c94332c-bf32-48a2-b6cb-c02591103a91"></attrib>
+<attrib name="id" value="sec.28E-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Chapter 5 of the <legref refid="act-1986-209"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Criminal
+Procedure Act 1986</i></name></legref> (which relates to the summary disposal
+of certain indictable offences unless an election is made to proceed on
+indictment) applies to and in respect of an offence under section 28B or
+28C.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 28E:</b> Ins 2004 No
+49, Sch 1. Am 2007 No 94, Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.29">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c2998c24-3d87-4397-bdaf-970920efe961"></attrib>
+<attrib name="id" value="sec.29"></attrib></parentattributes>
+
+<head>
+<no>29</no><heading guid="_905d165d-0571-4846-985b-9458ff1b76be"
+id="sec.29-he"><b>Savings and transitional provisions</b></heading></head>
+<block><txt break.before="1">Schedule 2 has effect.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 29:</b> Ins 2002 No 53,
+Sch 1.26 [5].</txt></content>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_de2207aa-ca80-4161-b730-aa65872a8227"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_4cd9a46c-9193-43fa-ab4e-48b9973a29bd" id="sch.1-he"><b>Specific powers
+of the Trust</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Section 4 (3),
+(4))</txt></block></pre>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1 (previously Sch),
+hdg:</b> Am 2002 No 53, Sch 1.26 [6].</txt></content>
+
+
+<pre type="auto-inserted">
+
+<tier type="clause" id="sch.1-sec.a">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4d804835-6f34-4f54-991d-8142ad11c11d"></attrib>
+<attrib name="id" value="sch.1-sec.a"></attrib></parentattributes>
+
+<head>
+<no>(a)</no></head>
+<block><txt break.before="1">To use or arrange for the use of the Opera House
+for&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f4ff4308-cfbb-4f4b-b27f-3171308fff31" id="sch.1-sec.a-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">the presentation of grand opera and ballet, and
+orchestral, instrumental, dramatic, choral and vocal concerts and
+recitals,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3ee35dc2-d447-4f07-ac23-165308de939c" id="sch.1-sec.a-para1.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the promotion and organisation of music, drama
+and dance festivals and similar entertainments,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7cdcfe13-315a-4cb1-85e3-edce329af750" id="sch.1-sec.a-para1.iii">
+<no>(iii)</no>
+<block><txt break.before="1">the holding of conferences and
+meetings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_82b85624-b302-491e-9398-204ada5d1938" id="sch.1-sec.a-para1.iv">
+<no>(iv)</no>
+<block><txt break.before="1">performances, entertainments, displays,
+exhibitions, recitals, lectures, film-screenings, broadcasts, telecasts and
+other purposes calculated, in the opinion of the Trust, to provide for the
+cultural welfare or education of the participants or
+audience.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="clause" id="sch.1-sec.b">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7f3d4897-dcaa-4718-a553-748da940a274"></attrib>
+<attrib name="id" value="sch.1-sec.b"></attrib></parentattributes>
+
+<head>
+<no>(b)</no></head>
+<block><txt break.before="1">To engage and enter into contracts with artists,
+entertainers, lecturers and performers to appear at the Opera House and to pay
+them such fees and remuneration as may be agreed upon.</txt></block></tier>
+</pre>
+
+
+<tier type="clause" id="sch.1-sec.c">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_19257b69-c017-4045-aab3-524c8b869b1e"></attrib>
+<attrib name="id" value="sch.1-sec.c"></attrib></parentattributes>
+
+<head>
+<no>(c)</no></head>
+<block><txt break.before="1">In or in connection with the Opera House and any
+entertainment or gathering therein to carry on the businesses of licensed
+victuallers, refreshment purveyors, caterers, tobacconists and confectioners
+and any like business.</txt></block></tier>
+
+
+<tier type="clause" id="sch.1-sec.d">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cc52d9a8-61c6-49d0-a842-d48cc1dab1e2"></attrib>
+<attrib name="id" value="sch.1-sec.d"></attrib></parentattributes>
+
+<head>
+<no>(d)</no></head>
+<block><txt break.before="1">To give and contribute towards prizes, cups and
+other rewards or prizes for competition at any entertainment or gathering held
+at the Opera House.</txt></block></tier>
+
+
+<tier type="clause" id="sch.1-sec.e">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_138428e1-22e6-4f8a-9792-b61029b4b582"></attrib>
+<attrib name="id" value="sch.1-sec.e"></attrib></parentattributes>
+
+<head>
+<no>(e)</no></head>
+<block><txt break.before="1">To grant rights and privileges to licensed
+victuallers, caterers, tobacconists, confectioners and other vendors to sell
+their wares at the Opera House upon such terms and conditions and subject to
+the payment of such charges as may be determined by the
+Trust.</txt></block></tier>
+
+
+<tier type="clause" id="sch.1-sec.f">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c506da99-fdb3-4300-aef0-dcbb331916d6"></attrib>
+<attrib name="id" value="sch.1-sec.f"></attrib></parentattributes>
+
+<head>
+<no>(f)</no></head>
+<block><txt break.before="1">To install, use, work and maintain film cameras
+and projectors and broadcasting and television apparatus, and to grant the
+right of installing, using, working and maintaining the same at the Opera
+House upon such terms and conditions and subject to the payment of such
+charges as may be determined by the Trust.</txt></block></tier>
+
+
+<tier type="clause" id="sch.1-sec.g">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d6dfff6e-b32c-4b44-8662-e1f7b64f2085"></attrib>
+<attrib name="id" value="sch.1-sec.g"></attrib></parentattributes>
+
+<head>
+<no>(g)</no></head>
+<block><txt break.before="1">To print and publish or to arrange for the
+printing or publishing of plays, music, programmes, posters and advertisements
+and such other publications as the Trust may deem expedient and to acquire the
+copyright therein.</txt></block></tier>
+
+
+<tier type="clause" id="sch.1-sec.h">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dd0dd79f-aaf1-4df8-a38f-e96022907f17"></attrib>
+<attrib name="id" value="sch.1-sec.h"></attrib></parentattributes>
+
+<head>
+<no>(h)</no></head>
+<block><txt break.before="1">To register, purchase or apply for or otherwise
+acquire either wholly or in part any invention, copyright, trade or other mark
+or design, patent, patent rights and privileges, licences, concessions or
+other like rights conferring any exclusive or non-exclusive or limited right
+to use any mark, device, brand, process or invention which may seem capable of
+being used in the exercise or in furtherance of any of the functions of the
+Trust or the acquisition of which may seem to be calculated directly or
+indirectly to benefit the Trust and to sell, dispose of, use, exercise and
+develop such rights or inventions or to grant licences or privileges in
+respect thereof.</txt></block></tier>
+
+
+<tier type="clause" id="sch.1-sec.i">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f95f9843-7cbd-4c79-9776-6fb7b5bfd74b"></attrib>
+<attrib name="id" value="sch.1-sec.i"></attrib></parentattributes>
+
+<head>
+<no>(i)</no></head>
+<block><txt break.before="1">To enter into any contract or arrangement with
+any person for the purpose of promoting the objects of the
+Trust.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1 (previously
+Sch):</b> Am 1973 No 32, sec 3 (j).</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e5734de3-048b-4f26-bc1f-db6295c6c8be"></attrib>
+<attrib name="id" value="sch.2"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading
+guid="_3c731e2b-dedf-4319-922a-22688d9909be" id="sch.2-he"><b>Savings and
+transitional provisions</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 29)</txt></block>
+
+<level type="clause" id="sch.2-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d7fa64d1-d6a7-4eae-abf7-ff687fa34171"></attrib>
+<attrib name="id" value="sch.2-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_71d4ba99-3e6f-464e-9877-4f3e16252af4"
+id="sch.2-sec.1-he"><b>Initial term of office of additional
+trustee</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_89cc819d-f01c-4b05-9d05-51f98c5dbd8c"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Despite section 6, the initial term of office of
+the additional trustee begins and ends (subject to subclause (2) and section
+8) on such dates as are specified for those purposes in the additional
+trustee&#8217;s instrument of appointment.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d0f151e0-3a4a-488e-953c-ddef9bead98b"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The initial term of office is not to exceed 3
+years.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_06d6dd5b-255b-4dc6-a234-f9413f69d454"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this clause, <defterm type="definition"
+guid="_f238d6db-e7fa-4136-9287-cb2633bc9f77"
+id="sch.2-sec.1-ssec.3-def.additionaltrustee"><b><i>additional
+trustee</i></b></defterm> means the trustee appointed in consequence of the
+amendment made to section 6 by the <legref refid="act-2002-053" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2002</i></name></legref>.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.2-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_309e0009-af14-448c-a49e-334150716f63"></attrib>
+<attrib name="id" value="sch.2-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_f0d7dd80-0d47-4c21-97f0-cc8862373057"
+id="sch.2-sec.2-he"><b>Provision consequent on enactment of <legref
+refid="act-2009-056" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Statute Law (Miscellaneous Provisions) Act
+2009</i></name></legref></b></heading></head>
+<block><txt break.before="1">The amendment to section 6 (3) made by the
+<legref refid="act-2009-056" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Statute Law (Miscellaneous Provisions) Act
+2009</i></name></legref> does not affect the term of office that a person
+holds as a trustee immediately before the amendment took
+effect.</txt></block></level>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 2:</b> Ins 2002 No
+53, Sch 1.26 [7]. Am 2009 No 56, Sch 1.41 [2].</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_c86baba6-c4c0-445b-8f3e-1b5aacf70144"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_9ced3b60-61b8-4331-9cb6-be7a469a7ea8"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-1961-009" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Sydney Opera House Trust
+Act 1961</i></name> No 9</legref>. Assented to 14.3.1961. This Act has been
+amended as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_8fed0ba2-68c9-4021-943a-67f5d6794687" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_7ea36526-ff80-415a-af0f-ed8743eb40b0" id="ed-tbl-tblr">
+<entry colname="1" guid="_8d8f6fdf-61fe-490a-a083-0872c82dcd3b"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1965</b></txt></entry>
+<entry colname="2" guid="_1dacb603-80f1-463d-879c-32f362dea04b"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 33</txt></entry>
+<entry colname="3" guid="_fc88ddfa-ac5d-4a4a-adc9-52853cd41eaf"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref refid="act-1965-033" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Decimal Currency Act
+1965</i></name></legref>. Assented to 20.12.1965.</txt>
+<txt break.before="1">Date of commencement of sec 4, 14.2.1966, secs 1 (3), 2
+(1) and the <legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="yes"><i>Currency Act 1965</i></name></legref> (Commonwealth), sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_5bd885f1-6738-4146-bb71-b5b960fa1409" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_b1ed35b4-c9e8-4f69-a4ff-fe0742615025"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>1969</b></txt></entry>
+<entry colname="2" guid="_d697ca6e-2537-4b73-9293-b65691370bf4"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 24</txt></entry>
+<entry colname="3" guid="_520ae462-3b0d-414d-b4a9-91c428c890d9"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Sydney Opera House Trust (Amendment)
+Act 1969</i></name></legref>. Assented to 2.4.1969.</txt>
+<txt break.before="1">Date of commencement, 1.5.1969, sec 1 (3) and GG No 51
+of 24.4.1969, p 1490.</txt></block></entry></row>
+
+
+<row guid="_89bbc09c-f918-4702-9162-f553699763eb" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_6a41c2fb-d5ef-4c0a-871b-5049f66954ce"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>1972</b></txt></entry>
+<entry colname="2" guid="_2c378996-15a2-436b-bf30-6247aa1ab075"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 43</txt></entry>
+<entry colname="3" guid="_e856dfb6-55e6-4833-a23d-a7d8ef98e094"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Sydney Opera House (Amendment) Act
+1972</i></name></legref>. Assented to 11.4.1972.</txt></block></entry></row>
+
+
+<row guid="_5d528c8e-0bdf-4a43-b66e-5bb75187261a" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_8650be11-b98c-44f6-97f5-bdee2afcfbfb"
+id="ed-tbl-tblr-oc.4-tble1"></entry>
+<entry colname="2" guid="_2016a415-3398-44e0-8882-17582fde2d40"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 48</txt></entry>
+<entry colname="3" guid="_68b84f15-bf03-4b73-95e7-a09fa896d6e7"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref refid="act-1972-048" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Reprints Act
+1972</i></name></legref>. Assented to 9.10.1972.</txt></block></entry></row>
+
+
+<row guid="_c6efbf3e-10e8-4448-a312-ed1b53c279a2" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_26befb9b-3ff9-404c-a5a2-9d17dbf8555b"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>1973</b></txt></entry>
+<entry colname="2" guid="_dc95492d-ec9e-4b25-a51a-7fe2aea7582c"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 32</txt></entry>
+<entry colname="3" guid="_b13b056d-ba84-4144-bcdf-f37f45b2953c"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Sydney Opera House Trust (Amendment)
+Act 1973</i></name></legref>. Assented to 2.5.1973.</txt>
+<txt break.before="1">Date of commencement, 19.4.1974, sec 2 and GG No 45 of
+19.4.1974, p 1420. Amended by <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Amendments)
+Act 1984</i></name> No 153</legref>. Assented to
+10.12.1984.</txt></block></entry></row>
+
+
+<row guid="_580e24a4-dedd-42cf-9046-a793acb8751e" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_5c25801c-e906-4bf5-9cb1-39be4ff991bc"
+id="ed-tbl-tblr-oc.6-tble1"><txt break.before="1"><b>1975</b></txt></entry>
+<entry colname="2" guid="_6af3b378-c2fd-41cb-a276-60d43488483b"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">No 89</txt></entry>
+<entry colname="3" guid="_e09dbe95-2bed-4aa8-b187-6ee494f7ae7d"
+id="ed-tbl-tblr-oc.6-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Sydney Opera House (Amendment) Act
+1975</i></name></legref>. Assented to 10.12.1975.</txt>
+<txt break.before="1">Date of commencement of sec 6, 8.3.1976, sec 2 (3) and
+GG No 15 of 30.1.1976, p 398.</txt></block></entry></row>
+
+
+<row guid="_f5f7eaa1-ccb4-46ce-8de4-705365b2cf23" id="ed-tbl-tblr-oc.7">
+<entry colname="1" guid="_05f4c90a-df1c-4f69-abd4-97603b207685"
+id="ed-tbl-tblr-oc.7-tble1"><txt break.before="1"><b>1983</b></txt></entry>
+<entry colname="2" guid="_9c55bba4-a91a-43e6-a518-342acbec699f"
+id="ed-tbl-tblr-oc.7-tble2"><txt break.before="1">No 153</txt></entry>
+<entry colname="3" guid="_51959f0c-5c39-4447-97e2-541d91965031"
+id="ed-tbl-tblr-oc.7-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Public Finance and
+Audit) Repeal and Amendment Act 1983</i></name></legref>. Assented to
+29.12.1983.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 6.1.1984, sec 2 (2) and
+GG No 4 of 6.1.1984, p 19.</txt></block></entry></row>
+
+
+<row guid="_16b88a3d-bd5d-44a9-af46-0418ae8405b6" id="ed-tbl-tblr-oc.8">
+<entry colname="1" guid="_5d088bfc-ce54-4f1b-8b21-196b0738fcc8"
+id="ed-tbl-tblr-oc.8-tble1"><txt break.before="1"><b>1985</b></txt></entry>
+<entry colname="2" guid="_9652c000-35b2-48a5-8638-59c7f3826847"
+id="ed-tbl-tblr-oc.8-tble2"><txt break.before="1">No 191</txt></entry>
+<entry colname="3" guid="_86502722-a42d-48fa-a9e7-a665db59ecfa"
+id="ed-tbl-tblr-oc.8-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Sydney Opera House Trust (Amendment)
+Act 1985</i></name></legref>. Assented to
+10.12.1985.</txt></block></entry></row>
+
+
+<row guid="_46d221c4-0f16-443d-8211-79c6fa20b305" id="ed-tbl-tblr-oc.9">
+<entry colname="1" guid="_d9afae04-fcbf-4b53-96f4-6b401ed69422"
+id="ed-tbl-tblr-oc.9-tble1"><txt break.before="1"><b>1987</b></txt></entry>
+<entry colname="2" guid="_9320b5ee-20b3-4f76-adcd-88ae6d121cd4"
+id="ed-tbl-tblr-oc.9-tble2"><txt break.before="1">No 48</txt></entry>
+<entry colname="3" guid="_30e56709-ec23-4035-9ef4-61b8cc1f2330"
+id="ed-tbl-tblr-oc.9-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 1) 1987</i></name></legref>. Assented to 28.5.1987.</txt>
+<txt break.before="1">Date of commencement of Sch 32, except as provided by
+sec 2 (13), 1.9.1987, sec 2 (12) and GG No 136 of 28.8.1987, p
+4809.</txt></block></entry></row>
+
+
+<row guid="_25e6bb6d-5944-4f59-a749-eb6f9fdac3b3" id="ed-tbl-tblr-oc.10">
+<entry colname="1" guid="_cbbba1b6-f179-4f65-8132-ec5c4d28dc93"
+id="ed-tbl-tblr-oc.10-tble1"><txt break.before="1"><b>1989</b></txt></entry>
+<entry colname="2" guid="_39a1188c-e105-4f63-b1d5-5d6917342596"
+id="ed-tbl-tblr-oc.10-tble2"><txt break.before="1">No 110</txt></entry>
+<entry colname="3" guid="_91a6c4a8-1f2d-4c9e-87cb-e6e6ed073b04"
+id="ed-tbl-tblr-oc.10-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Cultural Institutions (Miscellaneous
+Amendments) Act 1989</i></name></legref>. Assented to 24.8.1989.</txt>
+<txt break.before="1">Date of commencement, 6.10.1989, sec 2 and GG No 97 of
+22.9.1989, p 7312.</txt></block></entry></row>
+
+
+<row guid="_0d717438-b456-441b-a706-033babf75cae" id="ed-tbl-tblr-oc.11">
+<entry colname="1" guid="_f2bad32e-4c06-4f67-9dd8-f47460ed8574"
+id="ed-tbl-tblr-oc.11-tble1"></entry>
+<entry colname="2" guid="_d4009f1b-a443-46e6-97ff-2f7b904eb045"
+id="ed-tbl-tblr-oc.11-tble2"><txt break.before="1">No 132</txt></entry>
+<entry colname="3" guid="_28b61902-9715-4361-a897-b04d8eb62f52"
+id="ed-tbl-tblr-oc.11-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+(No 2) Act 1989</i></name></legref>. Assented to 5.9.1989.</txt>
+<txt break.before="1">Date of commencement of the provisions of Sch 2 relating
+to the <legref refid="act-1961-009" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Sydney Opera House Trust Act
+1961</i></name></legref>, assent, sec 2.</txt></block></entry></row>
+
+
+<row guid="_243a77b9-6330-4d1d-b0a9-110e67e30416" id="ed-tbl-tblr-oc.12">
+<entry colname="1" guid="_4afbdeb0-5a62-4502-b2a5-28f54dc3d958"
+id="ed-tbl-tblr-oc.12-tble1"><txt break.before="1"><b>1990</b></txt></entry>
+<entry colname="2" guid="_5e3987c6-8018-4031-8a61-3c2347ea471f"
+id="ed-tbl-tblr-oc.12-tble2"><txt break.before="1">No 15</txt></entry>
+<entry colname="3" guid="_6ec746ed-52f8-4de1-8c86-ecb51ef64304"
+id="ed-tbl-tblr-oc.12-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Water Board (Amendment) Act
+1990</i></name></legref>. Assented to 7.6.1990.</txt>
+<txt break.before="1">Date of commencement, 15.6.1990, sec 2 and GG No 76 of
+15.6.1990, p 4755.</txt></block></entry></row>
+
+
+<row guid="_3f001e06-cb3e-448f-b587-13bae3d34788" id="ed-tbl-tblr-oc.13">
+<entry colname="1" guid="_034d2702-89f0-4c89-965b-821e92c23a9a"
+id="ed-tbl-tblr-oc.13-tble1"><txt break.before="1"><b>1992</b></txt></entry>
+<entry colname="2" guid="_b1e8ee49-0f04-45ff-a31b-5c6afc3a3ce3"
+id="ed-tbl-tblr-oc.13-tble2"><txt break.before="1">No 112</txt></entry>
+<entry colname="3" guid="_9f2212fd-038f-422c-a401-ab78208177fb"
+id="ed-tbl-tblr-oc.13-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Penalties) Act
+1992</i></name></legref>. Assented to 8.12.1992.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_1663c494-0ec0-494c-9db1-fa81ad84a24a" id="ed-tbl-tblr-oc.14">
+<entry colname="1" guid="_3d5cc597-29f2-4298-8009-284a81b884fe"
+id="ed-tbl-tblr-oc.14-tble1"><txt break.before="1"><b>1993</b></txt></entry>
+<entry colname="2" guid="_ba8e12a7-0719-4025-bdf8-eb8ec48538e7"
+id="ed-tbl-tblr-oc.14-tble2"><txt break.before="1">No 46</txt></entry>
+<entry colname="3" guid="_ee3e5d62-a46d-44cf-91de-13332c44d76c"
+id="ed-tbl-tblr-oc.14-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act 1993</i></name></legref>. Assented to 15.6.1993.</txt>
+<txt break.before="1">Date of commencement of the provision of Sch 1 relating
+to the <legref refid="act-1961-009" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Sydney Opera House Trust Act
+1961</i></name></legref>, assent, Sch 1.</txt></block></entry></row>
+
+
+<row guid="_c1688aa0-6404-4312-bdde-433d04abd471" id="ed-tbl-tblr-oc.15">
+<entry colname="1" guid="_c1746713-2937-4071-85fa-2f841fa31743"
+id="ed-tbl-tblr-oc.15-tble1"><txt break.before="1"><b>1996</b></txt></entry>
+<entry colname="2" guid="_be4ee2cf-f58b-4030-a4ab-fc9b3146d169"
+id="ed-tbl-tblr-oc.15-tble2"><txt break.before="1">No 24</txt></entry>
+<entry colname="3" guid="_c0e66a93-3457-440d-931a-c2f764dafc90"
+id="ed-tbl-tblr-oc.15-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Financial Institutions (Miscellaneous
+Amendments) Act 1996</i></name></legref>. Assented to 21.6.1996.</txt>
+<txt break.before="1">Date of commencement, 12.7.1996, sec 2 and GG No 84 of
+12.7.1996, p 3984.</txt></block></entry></row>
+
+
+<row guid="_0a065a51-5bea-4db5-a65a-916039784ae0" id="ed-tbl-tblr-oc.16">
+<entry colname="1" guid="_45c30fe3-7e8c-4572-9aea-4526fe08fc04"
+id="ed-tbl-tblr-oc.16-tble1"></entry>
+<entry colname="2" guid="_1e698ee4-5939-4202-a760-1cc1af03a9e3"
+id="ed-tbl-tblr-oc.16-tble2"><txt break.before="1">No 121</txt></entry>
+<entry colname="3" guid="_311352c5-5ab7-4145-b499-b3e80bfdccc1"
+id="ed-tbl-tblr-oc.16-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1996</i></name></legref>. Assented to 3.12.1996.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 3 months after assent,
+sec 2 (3).</txt></block></entry></row>
+
+
+<row guid="_a3a740e6-ab84-46d2-b9a4-6d1446e50ffb" id="ed-tbl-tblr-oc.17">
+<entry colname="1" guid="_d5f161af-c12c-43dd-b8bd-fdccc390e6cf"
+id="ed-tbl-tblr-oc.17-tble1"><txt break.before="1"><b>1997</b></txt></entry>
+<entry colname="2" guid="_37796cc2-3dec-4523-b3c3-bbe23ddeaef1"
+id="ed-tbl-tblr-oc.17-tble2"><txt break.before="1">No 102</txt></entry>
+<entry colname="3" guid="_fbd16369-1324-4657-b255-2b1240a07ef0"
+id="ed-tbl-tblr-oc.17-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Trustee Amendment (Discretionary
+Investments) Act 1997</i></name></legref>. Assented to 25.11.1997.</txt>
+<txt break.before="1">Date of commencement, 13.3.1998, sec 2 and GG No 52 of
+13.3.1998, p 1381.</txt></block></entry></row>
+
+
+<row guid="_c7dc509d-c325-4e9f-9cde-e221298dc395" id="ed-tbl-tblr-oc.18">
+<entry colname="1" guid="_982eb97f-3ba3-4ee5-b3a7-b42c91aadd09"
+id="ed-tbl-tblr-oc.18-tble1"><txt break.before="1"><b>2001</b></txt></entry>
+<entry colname="2" guid="_eb035994-3075-47e6-8916-78c296333db5"
+id="ed-tbl-tblr-oc.18-tble2"><txt break.before="1">No 121</txt></entry>
+<entry colname="3" guid="_9b4d4a14-0c77-470a-9705-0d40cde563d9"
+id="ed-tbl-tblr-oc.18-tble3">
+<block><txt break.before="1"><legref refid="act-2001-121" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Justices Legislation Repeal
+and Amendment Act 2001</i></name></legref>. Assented to 19.12.2001.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 7.7.2003, sec 2 and GG No
+104 of 27.6.2003, p 5978.</txt></block></entry></row>
+
+
+<row guid="_a8a8ca33-0375-4dce-b715-f8554a38aa24" id="ed-tbl-tblr-oc.19">
+<entry colname="1" guid="_a73307e7-f4e5-449d-bdb2-bbfffa04e223"
+id="ed-tbl-tblr-oc.19-tble1"><txt break.before="1"><b>2002</b></txt></entry>
+<entry colname="2" guid="_98fcf9d5-dcb2-4e11-a363-53d3e5813494"
+id="ed-tbl-tblr-oc.19-tble2"><txt break.before="1">No 53</txt></entry>
+<entry colname="3" guid="_295a3ac1-902b-4c09-9ffb-3b79995e3f9c"
+id="ed-tbl-tblr-oc.19-tble3">
+<block><txt break.before="1"><legref refid="act-2002-053" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2002</i></name></legref>. Assented to 4.7.2002.</txt>
+<txt break.before="1">Date of commencement of Sch 1.26, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_570b39aa-1e43-403d-a779-5c17f33caba5" id="ed-tbl-tblr-oc.20">
+<entry colname="1" guid="_1883594f-7947-47b9-b2f0-d1a0a5068d23"
+id="ed-tbl-tblr-oc.20-tble1"><txt break.before="1"><b>2003</b></txt></entry>
+<entry colname="2" guid="_11e6bb93-7c69-4cb5-b20d-9bc302e62d0f"
+id="ed-tbl-tblr-oc.20-tble2"><txt break.before="1">No 40</txt></entry>
+<entry colname="3" guid="_52746deb-4957-4147-9b41-e676e88f3618"
+id="ed-tbl-tblr-oc.20-tble3">
+<block><txt break.before="1"><legref refid="act-2003-040" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2003</i></name></legref>. Assented to 22.7.2003.</txt>
+<txt break.before="1">Date of commencement of Sch 1.50, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_12b098fa-1462-43fc-aca2-a6033c469a1e" id="ed-tbl-tblr-oc.21">
+<entry colname="1" guid="_7fe75c6f-5c21-4e93-a55f-d69c558cbe8a"
+id="ed-tbl-tblr-oc.21-tble1"><txt break.before="1"><b>2004</b></txt></entry>
+<entry colname="2" guid="_cc7290c5-7759-4215-8b5a-9e19ea0a622f"
+id="ed-tbl-tblr-oc.21-tble2"><txt break.before="1">No 49</txt></entry>
+<entry colname="3" guid="_fb938b75-03f1-498d-9ff7-c6d423e20047"
+id="ed-tbl-tblr-oc.21-tble3">
+<block><txt break.before="1"><legref refid="act-2004-049" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Sydney Opera House Trust
+Amendment Act 2004</i></name></legref>. Assented to 6.7.2004.</txt>
+<txt break.before="1">Date of commencement, 5.11.2004, sec 2 and GG No 174 of
+5.11.2004, p 8351.</txt></block></entry></row>
+
+
+<row guid="_a083ed07-6f8a-4906-9229-cdf00f267fbc" id="ed-tbl-tblr-oc.22">
+<entry colname="1" guid="_0b6129c2-ea85-47d8-a44e-eeeb3fd48acf"
+id="ed-tbl-tblr-oc.22-tble1"><txt break.before="1"><b>2005</b></txt></entry>
+<entry colname="2" guid="_0d0f9d85-c1e5-443e-ba0a-8f80ee535f21"
+id="ed-tbl-tblr-oc.22-tble2"><txt break.before="1">No 64</txt></entry>
+<entry colname="3" guid="_3f1ef831-6f03-4040-8672-50577ae62371"
+id="ed-tbl-tblr-oc.22-tble3">
+<block><txt break.before="1"><legref refid="act-2005-064" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2005</i></name></legref>. Assented to 1.7.2005.</txt>
+<txt break.before="1">Date of commencement of Sch 1.42, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_ce64ad3b-2543-476c-8d21-ccaa8ba15ce3" id="ed-tbl-tblr-oc.23">
+<entry colname="1" guid="_e05ef3c5-09e0-4a0f-9892-e1c3550f58c9"
+id="ed-tbl-tblr-oc.23-tble1"><txt break.before="1"><b>2006</b></txt></entry>
+<entry colname="2" guid="_98ffc857-958e-481b-a968-c6b3615dd434"
+id="ed-tbl-tblr-oc.23-tble2"><txt break.before="1">No 2</txt></entry>
+<entry colname="3" guid="_0147fdb5-247b-4845-b958-c7d7b6f3ed19"
+id="ed-tbl-tblr-oc.23-tble3">
+<block><txt break.before="1"><legref refid="act-2006-002" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Public Sector Employment
+Legislation Amendment Act 2006</i></name></legref>. Assented to
+13.3.2006.</txt>
+<txt break.before="1">Date of commencement, 17.3.2006, sec 2 and GG No 35 of
+17.3.2006, p 1378.</txt></block></entry></row>
+
+
+<row guid="_5bf9b931-ecf3-4428-ae44-42dba461724c" id="ed-tbl-tblr-oc.24">
+<entry colname="1" guid="_6c1d2989-19bc-410f-80cc-f1e796bfcae9"
+id="ed-tbl-tblr-oc.24-tble1"></entry>
+<entry colname="2" guid="_326dc614-5ea3-4ec5-ba5e-3df3b8a91802"
+id="ed-tbl-tblr-oc.24-tble2"><txt break.before="1">No 120</txt></entry>
+<entry colname="3" guid="_f87fa81b-e066-4cc9-83e7-c7db282b11f4"
+id="ed-tbl-tblr-oc.24-tble3">
+<block><txt break.before="1"><legref refid="act-2006-120" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2006</i></name></legref>. Assented to 4.12.2006.</txt>
+<txt break.before="1">Date of commencement of Sch 1, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_4130fa86-997f-40e1-b3d3-1744424675ba" id="ed-tbl-tblr-oc.25">
+<entry colname="1" guid="_6b64e3f4-5d91-428c-9043-80f5f8772ef4"
+id="ed-tbl-tblr-oc.25-tble1"><txt break.before="1"><b>2007</b></txt></entry>
+<entry colname="2" guid="_036c5960-1107-4fce-abc8-9859a0e373a5"
+id="ed-tbl-tblr-oc.25-tble2"><txt break.before="1">No 27</txt></entry>
+<entry colname="3" guid="_a53427c9-de30-49ce-9092-fc29337399ee"
+id="ed-tbl-tblr-oc.25-tble3">
+<block><txt break.before="1"><legref refid="act-2007-027" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2007</i></name></legref>. Assented to 4.7.2007.</txt>
+<txt break.before="1">Date of commencement of Sch 2, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_008e01da-62dc-4734-9e95-0e0e289ab41c" id="ed-tbl-tblr-oc.26">
+<entry colname="1" guid="_04623fce-5613-4a0b-8e92-03b38a19a83e"
+id="ed-tbl-tblr-oc.26-tble1"></entry>
+<entry colname="2" guid="_4374b5e6-d1d0-40cd-a603-80f6886b78a8"
+id="ed-tbl-tblr-oc.26-tble2"><txt break.before="1">No 94</txt></entry>
+<entry colname="3" guid="_a5e38f33-eed7-4f39-9cd3-ca354948e2a8"
+id="ed-tbl-tblr-oc.26-tble3">
+<block><txt break.before="1"><legref refid="act-2007-094" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Local
+Court) Amendment Act 2007</i></name></legref>. Assented to 13.12.2007.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 6.7.2009, sec 2 and 2009
+(314) LW 3.7.2009.</txt></block></entry></row>
+
+
+<row guid="_fbddd2ab-e790-4baf-8037-bbe6dd7bd532" id="ed-tbl-tblr-oc.27">
+<entry colname="1" guid="_8d79eb54-7f3f-45f4-86bb-ea110a3bcfc1"
+id="ed-tbl-tblr-oc.27-tble1"><txt break.before="1"><b>2009</b></txt></entry>
+<entry colname="2" guid="_6fd5cf44-3cd0-49c0-990a-dab6c80d4bbb"
+id="ed-tbl-tblr-oc.27-tble2"><txt break.before="1">No 56</txt></entry>
+<entry colname="3" guid="_fd7cc269-60eb-47f7-a1d6-abfe44a30836"
+id="ed-tbl-tblr-oc.27-tble3">
+<block><txt break.before="1"><legref refid="act-2009-056" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2009</i></name></legref>. Assented to 1.7.2009.</txt>
+<txt break.before="1">Date of commencement of Sch 1.41, 17.7.2009, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_af7ccae4-56f2-4573-b348-e1a0977294d4" id="ed-tbl-tblr-oc.28">
+<entry colname="1" guid="_851a3d41-6b40-45b9-9ab2-d99146e4cc3d"
+id="ed-tbl-tblr-oc.28-tble1"><txt break.before="1"><b>2010</b></txt></entry>
+<entry colname="2" guid="_e92c9f83-dcd4-463f-b968-7e068b40eceb"
+id="ed-tbl-tblr-oc.28-tble2"><txt break.before="1">No 59</txt></entry>
+<entry colname="3" guid="_b812d98a-3d42-498c-b471-d49f4621d27d"
+id="ed-tbl-tblr-oc.28-tble3">
+<block><txt break.before="1"><legref refid="act-2010-059" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2010</i></name></legref>. Assented to 28.6.2010.</txt>
+<txt break.before="1">Date of commencement of Sch 1.27, 9.7.2010, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_cd1a8364-b962-4043-811b-68fbf75bb4f3" id="ed-tbl-tblr-oc.29">
+<entry colname="1" guid="_bb1c57c2-ab7f-47fa-9166-1cc315f12b98"
+id="ed-tbl-tblr-oc.29-tble1"><txt break.before="1"><b>2012</b></txt></entry>
+<entry colname="2" guid="_672705b3-278f-4a71-a87d-13e558991875"
+id="ed-tbl-tblr-oc.29-tble2"><txt break.before="1">No 95</txt></entry>
+<entry colname="3" guid="_c90a7f99-5208-48a6-9fcf-0ef485c2a5f5"
+id="ed-tbl-tblr-oc.29-tble3">
+<block><txt break.before="1"><legref refid="act-2012-095" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2012</i></name></legref>. Assented to
+21.11.2012.</txt>
+<txt break.before="1">Date of commencement of Sch 1.19, 4.1.2013, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_4b93e098-797f-47fb-adb0-44c5528853bf" id="ed-tbl-tblr-oc.30">
+<entry colname="1" guid="_a05b681b-73c2-4d40-9ef6-db0a9fc3d0a6"
+id="ed-tbl-tblr-oc.30-tble1"><txt break.before="1"><b>2015</b></txt></entry>
+<entry colname="2" guid="_8b467998-5f05-46ba-8ffc-5575a94c9850"
+id="ed-tbl-tblr-oc.30-tble2"><txt break.before="1">No 15</txt></entry>
+<entry colname="3" guid="_8470a263-a6b2-45a1-9506-45b5c0046680"
+id="ed-tbl-tblr-oc.30-tble3">
+<block><txt break.before="1"><legref refid="act-2015-015" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2015</i></name></legref>. Assented to 29.6.2015.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 15.7.2015, sec 2
+(3).</txt></block></entry></row>
+
+
+<row guid="_a3dad0cf-af2b-4b99-bfb0-aa8f7d76d1dd" id="ed-tbl-tblr-oc.31">
+<entry colname="1" guid="_7268be4b-5850-4cb1-aa2b-e671230b8940"
+id="ed-tbl-tblr-oc.31-tble1"><txt break.before="1"><b>2025</b></txt></entry>
+<entry colname="2" guid="_5715b1be-1358-4fbe-910e-0508420fa024"
+id="ed-tbl-tblr-oc.31-tble2"><txt break.before="1">No 39</txt></entry>
+<entry colname="3" guid="_8e51c9f7-b861-46d6-92b1-59616742252a"
+id="ed-tbl-tblr-oc.31-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Cultural Institutions Legislation
+Amendment Act 2025</i></name></legref>. Assented to 3.7.2025.</txt>
+<txt break.before="1">Date of commencement, 1.10.2025, sec
+2.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">This Act has also been amended&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b9985a84-bc96-4ea6-83f1-50540960e4e0" id="ed-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">by a regulation under the <legref jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Public Authorities
+(Financial Accommodation) Act 1981</i></name> No 82</legref> published in
+Gazette No 50 of 18.3.1983, p 1255, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3ce43924-4f8f-470a-a849-24ac1b8c168a" id="ed-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">pursuant to orders under secs 8 (2) and 9 (3) of
+the <legref refid="act-1972-048" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Reprints Act 1972</i></name> No 48</legref> (formerly
+<legref refid="act-1972-048" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Acts Reprinting Act 1972</i></name></legref>). Order dated
+22.6.1978, and published in Gazette No 73 of 23.6.1978, p 2405, declaring that
+the <legref refid="act-1961-009" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Sydney Opera House Trust Act 1961</i></name></legref> is an
+enactment to which sec 8 (2) and sec 9 (3) of the <legref refid="act-1972-048"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Acts
+Reprinting Act 1972</i></name></legref> apply.</txt></block></li></list>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_e514433f-e61b-4317-901d-bf7e26a74ed6"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block><txt break.before="1">No reference is made to certain amendments made
+by the <legref refid="act-1965-033" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Decimal Currency Act
+1965</i></name></legref>, the <legref refid="act-1972-048" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Reprints Act
+1972</i></name></legref>, and Schedule 3 (amendments replacing gender-specific
+language) to the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Statute Law (Miscellaneous Provisions) Act (No 2)
+1996</i></name></legref>.</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_70097fb7-2085-4e74-86c4-8ff3119d74e6" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_2f355e77-9e27-4863-bb45-2b6b456bdea9" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_268fe05a-9fd4-4d9c-98d7-507d4f326e6d"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 2</txt></entry>
+<entry colname="2" guid="_e83328d0-fc8f-497f-9caf-147d704f947a"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 1973 No 32, sec 3 (a);
+2006 No 120, Sch 1.31 [1]; 2007 No 27, Sch 2.54.</txt></entry></row>
+
+
+<row guid="_d44b5c30-7837-4702-b672-2fac94c67d85" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_e136af5d-0e63-4b77-9af5-3682003e28e2"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_d1e68191-524b-4517-8ec3-4f4ff99d050f"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 1969 No 24, sec 2
+(1) (a).</txt></entry></row>
+
+
+<row guid="_cef1ca26-4cb6-43eb-8c1f-d6a6a9b65e95" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_8c6ad4ca-bc00-4f92-9843-16f8c0f89bc1"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_622dc360-7f0b-48d7-8117-3560bea3389a"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Am 1973 No 32, sec 3
+(f); 1985 No 191, Sch 1 (1); 1989 No 132, Sch 2; 2006 No 2, Sch 4.69 [1]; 2006
+No 120, Sch 1.31 [2]; 2015 No 15, Sch 3.56 [1].</txt></entry></row>
+
+
+<row guid="_acd89c37-d1e5-4533-b378-bd6b605a5c01" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_e27dc055-b384-4601-91fb-b75a36253f01"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 5</txt></entry>
+<entry colname="2" guid="_32455583-46d0-4b6a-bc98-581ccf2bf883"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Am 1969 No 24, sec 2
+(1) (b); 1972 No 43, sec 3; 1973 No 32, sec 3 (c); 1985 No 191, Sch 1 (1) (2).
+Rep 2006 No 120, Sch 1.31 [3].</txt></entry></row>
+
+
+<row guid="_ad40022d-9ee9-4fa0-ab99-e80b580a2f6b" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_9e015026-414f-4a87-8171-c25309cbbc80"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 6</txt></entry>
+<entry colname="2" guid="_f0ce4b8f-79a3-4cc6-a77f-220213583c77"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Subst 1969 No 24, sec 2
+(1) (c); 1989 No 110, Sch 1. Am 2002 No 53, Sch 1.26 [2]; 2003 No 40, Sch 1.50
+[1] [2]; 2009 No 56, Sch 1.41 [1]; 2025 No 39, Sch
+6[1]&#8211;[3].</txt></entry></row>
+
+
+<row guid="_83e4dac8-1e2e-4693-90bc-f01b340e8ace" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_2e0251e9-c787-41cf-8590-cd7406ada5f5"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 7</txt></entry>
+<entry colname="2" guid="_a1290684-8ad2-4aa0-9572-5f5765e7a64e"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Rep 1969 No 24, sec 2
+(1) (d).</txt></entry></row>
+
+
+<row guid="_56e0c36e-578d-42bd-80a8-d7fa00d28dc2" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_f036e08b-ed8c-4156-85e4-9a85cac753fb"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 8</txt></entry>
+<entry colname="2" guid="_d2e31542-0f30-46dc-9de6-928c92f3dec4"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Am 1969 No 24, sec 2
+(1) (e); 1973 No 32, sec 3 (d); 2002 No 53, Sch 1.26 [3].</txt></entry></row>
+
+
+<row guid="_85d70cbd-525c-4cd2-83c5-6112b7623fd4" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_49269932-2459-4c4e-bbd2-788ac8507358"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_677ae16a-3a63-406c-a9ad-74dcc941c4a4"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Am 1989 No 132, Sch 2.
+Subst 2005 No 64, Sch 1.42 [1]. Am 2015 No 15, Sch 3.56
+[2].</txt></entry></row>
+
+
+<row guid="_2ff4c2a0-c846-4219-b9b7-186c1f88f874" id="ed-tbl-oc.2-tblr-oc.9">
+<entry colname="1" guid="_bce83465-f133-464f-9060-529af714eaa9"
+id="ed-tbl-oc.2-tblr-oc.9-tble1"><txt break.before="1">Sec 10</txt></entry>
+<entry colname="2" guid="_bdc5f4fc-ce97-4626-bc9f-21c6bc4aa9f1"
+id="ed-tbl-oc.2-tblr-oc.9-tble2"><txt break.before="1">Subst 1969 No 24, sec 2
+(1) (f). Am 1989 No 132, Sch 2.</txt></entry></row>
+
+
+<row guid="_e27663c7-6861-4b5a-9453-b653e6ae4f20"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry colname="1" guid="_1a07fe54-6ae7-460f-bd4d-31dd20dd726f"
+id="ed-tbl-oc.2-tblr-oc.10-tble1"><txt break.before="1">Sec 11</txt></entry>
+<entry colname="2" guid="_c5c11fae-54fc-4f3a-964a-7ad58eab42d7"
+id="ed-tbl-oc.2-tblr-oc.10-tble2"><txt break.before="1">Am 1969 No 24, sec 2
+(1) (g); 1989 No 132, Sch 2; 2002 No 53, Sch 1.26 [4]; 2005 No 64, Sch 1.42
+[2]; 2025 No 39, Sch 6[4].</txt></entry></row>
+
+
+<row guid="_95f6b9c9-ae54-43eb-9d62-0f0c76883bbe"
+id="ed-tbl-oc.2-tblr-oc.11">
+<entry colname="1" guid="_25f57b26-d6a6-4a13-8733-e71cd49d5b89"
+id="ed-tbl-oc.2-tblr-oc.11-tble1"><txt break.before="1">Sec 11A</txt></entry>
+<entry colname="2" guid="_e775fa2c-939c-402c-8617-9d4f3c6cb0b8"
+id="ed-tbl-oc.2-tblr-oc.11-tble2"><txt break.before="1">Ins 2005 No 64, Sch
+1.42 [3]. Am 2010 No 59, Sch 1.27 [1].</txt></entry></row>
+
+
+<row guid="_d3f2588c-02f8-499a-be2f-111cccf11ab8"
+id="ed-tbl-oc.2-tblr-oc.12">
+<entry colname="1" guid="_1f6ebd95-da72-40e3-ba90-38dc0a743e7a"
+id="ed-tbl-oc.2-tblr-oc.12-tble1"><txt break.before="1">Sec 12</txt></entry>
+<entry colname="2" guid="_67028c55-fb6a-4cc0-a2e9-e6899c3b2825"
+id="ed-tbl-oc.2-tblr-oc.12-tble2"><txt break.before="1">Am 2004 No 49, Sch 2
+[1] [2].</txt></entry></row>
+
+
+<row guid="_d1e9a2f2-a9fb-4112-9dba-3684220c5832"
+id="ed-tbl-oc.2-tblr-oc.13">
+<entry colname="1" guid="_15787978-befb-4fa0-97f0-5b903fbc8fc3"
+id="ed-tbl-oc.2-tblr-oc.13-tble1"><txt break.before="1">Sec 12A</txt></entry>
+<entry colname="2" guid="_744f6a63-e773-4c76-9df1-8712df7db597"
+id="ed-tbl-oc.2-tblr-oc.13-tble2"><txt break.before="1">Ins 2006 No 120, Sch
+1.31 [4].</txt></entry></row>
+
+
+<row guid="_3f1f4ce1-725e-45f7-bcc1-1c8e9e7ccb17"
+id="ed-tbl-oc.2-tblr-oc.14">
+<entry colname="1" guid="_fdacd1ee-f5d0-4a5d-99bf-7dac29f1bc58"
+id="ed-tbl-oc.2-tblr-oc.14-tble1"><txt break.before="1">Sec 15</txt></entry>
+<entry colname="2" guid="_92f6df6e-4d60-4e15-9bc6-95c38195df31"
+id="ed-tbl-oc.2-tblr-oc.14-tble2"><txt break.before="1">Am 1989 No 132, Sch 2;
+2004 No 49, Sch 2 [3].</txt></entry></row>
+
+
+<row guid="_93fe4d54-ca74-4681-9ead-05cfbabd2f0c"
+id="ed-tbl-oc.2-tblr-oc.15">
+<entry colname="1" guid="_a8e89998-cc1e-4a70-bca2-50d1273a06f5"
+id="ed-tbl-oc.2-tblr-oc.15-tble1"><txt break.before="1">Sec 16</txt></entry>
+<entry colname="2" guid="_f38c79ad-0e6e-4d3a-ab96-066f0d3bc818"
+id="ed-tbl-oc.2-tblr-oc.15-tble2"><txt break.before="1">Am 1989 No 132, Sch 2.
+Subst 2004 No 49, Sch 2 [4]. Rep 2006 No 2, Sch 4.69 [2]. Ins 2015 No 15, Sch
+3.56 [3].</txt></entry></row>
+
+
+<row guid="_8216e7a7-a387-4095-8dbb-de35479db914"
+id="ed-tbl-oc.2-tblr-oc.16">
+<entry colname="1" guid="_d109eb03-32ce-4538-b247-d0b92dfaaaa2"
+id="ed-tbl-oc.2-tblr-oc.16-tble1"><txt break.before="1">Sec 17</txt></entry>
+<entry colname="2" guid="_a4bcecac-7022-4bc6-8751-e8e2f8192807"
+id="ed-tbl-oc.2-tblr-oc.16-tble2"><txt break.before="1">Am 1973 No 32, sec 3
+(e); 1975 No 89, sec 6 (2); 1996 No 24, Sch 1; 2004 No 49, Sch 2 [5]. Rep 2006
+No 120, Sch 1.31 [5].</txt></entry></row>
+
+
+<row guid="_501c73e4-0a18-4a7b-ae29-b21422006162"
+id="ed-tbl-oc.2-tblr-oc.17">
+<entry colname="1" guid="_0b9b7bdf-ee73-4995-8d4f-0c06eb7301cd"
+id="ed-tbl-oc.2-tblr-oc.17-tble1"><txt break.before="1">Sec 18</txt></entry>
+<entry colname="2" guid="_2a7b67cb-4e7f-4ec7-bc82-decab84a7c23"
+id="ed-tbl-oc.2-tblr-oc.17-tble2"><txt break.before="1">Am 1989 No 132, Sch 2;
+2005 No 64, Sch 1.42 [4].</txt></entry></row>
+
+
+<row guid="_a49d2e81-90ca-46fa-beff-052c89f1892e"
+id="ed-tbl-oc.2-tblr-oc.18">
+<entry colname="1" guid="_4332a0d9-0fc3-4759-bc98-b88301fc9a11"
+id="ed-tbl-oc.2-tblr-oc.18-tble1"><txt break.before="1">Sec 19</txt></entry>
+<entry colname="2" guid="_0bdc1a54-700a-493e-b05b-087d42e4b3e7"
+id="ed-tbl-oc.2-tblr-oc.18-tble2"><txt break.before="1">Am 2005 No 64, Sch
+1.42 [5] [6].</txt></entry></row>
+
+
+<row guid="_e5eb4ec3-5f0d-4c70-9018-cc164216d0c3"
+id="ed-tbl-oc.2-tblr-oc.19">
+<entry colname="1" guid="_d0685ebd-d6a7-407f-8b70-7666669ed0b5"
+id="ed-tbl-oc.2-tblr-oc.19-tble1"><txt break.before="1">Secs 21,
+22</txt></entry>
+<entry colname="2" guid="_fd6fc04e-db8c-4ea6-bd34-8a2dbed0115b"
+id="ed-tbl-oc.2-tblr-oc.19-tble2"><txt break.before="1">Rep GG No 50 of
+18.3.1983, p 1255.</txt></entry></row>
+
+
+<row guid="_fe4c1e01-5f5f-4683-8177-b2ba959237d6"
+id="ed-tbl-oc.2-tblr-oc.20">
+<entry colname="1" guid="_44439b3a-f48b-45c9-9594-8f4bf002b9d6"
+id="ed-tbl-oc.2-tblr-oc.20-tble1"><txt break.before="1">Sec 23</txt></entry>
+<entry colname="2" guid="_9e1507ad-c076-45e0-8b02-bc4a80e1eaf6"
+id="ed-tbl-oc.2-tblr-oc.20-tble2"><txt break.before="1">Subst 1983 No 153, Sch
+2. Rep 2005 No 64, Sch 1.42 [7].</txt></entry></row>
+
+
+<row guid="_039ce143-449c-4b90-8898-13ec26eb5a77"
+id="ed-tbl-oc.2-tblr-oc.21">
+<entry colname="1" guid="_f1c2b6f5-8b51-4510-a34d-41916f74b8c9"
+id="ed-tbl-oc.2-tblr-oc.21-tble1"><txt break.before="1">Sec 24</txt></entry>
+<entry colname="2" guid="_0c3ffbd4-5918-4782-92b2-aad947838bbe"
+id="ed-tbl-oc.2-tblr-oc.21-tble2"><txt break.before="1">Am 1997 No 102, Sch
+2.11.</txt></entry></row>
+
+
+<row guid="_6936a937-134e-44a4-9f9b-56ebc0f8f609"
+id="ed-tbl-oc.2-tblr-oc.22">
+<entry colname="1" guid="_658629af-7e0d-4891-a6b5-b4e7d0dda8b7"
+id="ed-tbl-oc.2-tblr-oc.22-tble1"><txt break.before="1">Sec 25</txt></entry>
+<entry colname="2" guid="_3633a8a1-3af8-4713-8679-3a208709626c"
+id="ed-tbl-oc.2-tblr-oc.22-tble2"><txt break.before="1">Am 1973 No 32, sec 3
+(f).</txt></entry></row>
+
+
+<row guid="_d4ed8fe7-fbec-4bd4-9e4e-065c04120fc2"
+id="ed-tbl-oc.2-tblr-oc.23">
+<entry colname="1" guid="_12ac0f7a-4f8e-4e89-bb4b-92d927c12373"
+id="ed-tbl-oc.2-tblr-oc.23-tble1"><txt break.before="1">Sec 26</txt></entry>
+<entry colname="2" guid="_9531243b-b94d-44c6-b5b5-d7d834560ee8"
+id="ed-tbl-oc.2-tblr-oc.23-tble2"><txt break.before="1">Am 1973 No 32, sec 3
+(g).</txt></entry></row>
+
+
+<row guid="_21deaca6-7119-40e8-b75e-1c9ba6924a03"
+id="ed-tbl-oc.2-tblr-oc.24">
+<entry colname="1" guid="_dd4595d7-3083-475a-a1f8-406cf6e87658"
+id="ed-tbl-oc.2-tblr-oc.24-tble1"><txt break.before="1">Sec 26A</txt></entry>
+<entry colname="2" guid="_1f4c6d7b-5237-473a-9ce0-559b8cc7804f"
+id="ed-tbl-oc.2-tblr-oc.24-tble2"><txt break.before="1">Ins 1973 No 32, sec 3
+(h). Am 1985 No 191, Sch 1 (3). Rep 1990 No 15, sec 4.</txt></entry></row>
+
+
+<row guid="_7c7b35f2-d164-4342-82d6-320e14c62c36"
+id="ed-tbl-oc.2-tblr-oc.25">
+<entry colname="1" guid="_0a30ec13-534c-4862-8ebb-8d01b07ff0f0"
+id="ed-tbl-oc.2-tblr-oc.25-tble1"><txt break.before="1">Sec 27</txt></entry>
+<entry colname="2" guid="_9c4dccf9-b1a3-4a00-a321-d161584d910b"
+id="ed-tbl-oc.2-tblr-oc.25-tble2"><txt break.before="1">Rep 2005 No 64, Sch
+1.42 [7]. Ins 2012 No 95, Sch 1.19.</txt></entry></row>
+
+
+<row guid="_ac87031d-f83f-4f09-b273-846b36b5a355"
+id="ed-tbl-oc.2-tblr-oc.26">
+<entry colname="1" guid="_77f92c48-65eb-4ada-9789-b2c8ce4c6529"
+id="ed-tbl-oc.2-tblr-oc.26-tble1"><txt break.before="1">Sec 28</txt></entry>
+<entry colname="2" guid="_3ce90e18-93f7-4f8e-908b-d67c36dafbdb"
+id="ed-tbl-oc.2-tblr-oc.26-tble2"><txt break.before="1">Am 1969 No 24, sec 2
+(1) (h); 1973 No 32, sec 3 (i) (am 1984 No 153, Sch 16); 1985 No 191, Sch 1
+(1); 1987 No 48, Sch 32; 1989 No 132, Sch 2; 1992 No 112, Sch 1; 1993 No 46,
+Sch 1; 2001 No 121, Sch 2.194; 2004 No 49, Sch 2 [6] [7]; 2010 No 59, Sch 1.27
+[2].</txt></entry></row>
+
+
+<row guid="_16f68b61-a92c-4d05-96c9-b0fe0f1a2303"
+id="ed-tbl-oc.2-tblr-oc.27">
+<entry colname="1" guid="_41c5f4b4-0266-4186-9803-d10adae965b6"
+id="ed-tbl-oc.2-tblr-oc.27-tble1"><txt break.before="1">Secs
+28A&#8211;28D</txt></entry>
+<entry colname="2" guid="_12f663a2-7dbf-437d-8d0e-0bd72e6b038d"
+id="ed-tbl-oc.2-tblr-oc.27-tble2"><txt break.before="1">Ins 2004 No 49, Sch
+1.</txt></entry></row>
+
+
+<row guid="_91ded669-dcd7-4865-8837-6d5815cc3f3a"
+id="ed-tbl-oc.2-tblr-oc.28">
+<entry colname="1" guid="_490056ea-c6be-4213-973a-314ded499f8c"
+id="ed-tbl-oc.2-tblr-oc.28-tble1"><txt break.before="1">Sec 28E</txt></entry>
+<entry colname="2" guid="_6ee5bf18-76e3-471c-85e0-8d6926066dd0"
+id="ed-tbl-oc.2-tblr-oc.28-tble2"><txt break.before="1">Ins 2004 No 49, Sch 1.
+Am 2007 No 94, Sch 2.</txt></entry></row>
+
+
+<row guid="_1e663148-130a-4a88-afea-6ecf9af9d734"
+id="ed-tbl-oc.2-tblr-oc.29">
+<entry colname="1" guid="_d806fa58-43c0-46f2-bb09-c446af372888"
+id="ed-tbl-oc.2-tblr-oc.29-tble1"><txt break.before="1">Sec 29</txt></entry>
+<entry colname="2" guid="_33c76f6e-55c3-496c-b7d0-fe3232fb05f7"
+id="ed-tbl-oc.2-tblr-oc.29-tble2"><txt break.before="1">Ins 2002 No 53, Sch
+1.26 [5].</txt></entry></row>
+
+
+<row guid="_11675354-9d26-4776-afb6-079c12db0160"
+id="ed-tbl-oc.2-tblr-oc.30">
+<entry colname="1" guid="_d3fc1791-99dc-4c2b-b2a0-4bd9dad384e6"
+id="ed-tbl-oc.2-tblr-oc.30-tble1"><txt break.before="1">Sch 1 (previously
+Sch), heading</txt></entry>
+<entry colname="2" guid="_ac3e58cc-5528-44a0-a0df-dcbb63beb9e8"
+id="ed-tbl-oc.2-tblr-oc.30-tble2"><txt break.before="1">Am 2002 No 53, Sch
+1.26 [6].</txt></entry></row>
+
+
+<row guid="_529c5ccc-4c8b-43d6-8e0b-016fb135ca21"
+id="ed-tbl-oc.2-tblr-oc.31">
+<entry colname="1" guid="_843a94c8-6426-47f0-b29d-918df98c7677"
+id="ed-tbl-oc.2-tblr-oc.31-tble1"><txt break.before="1">Sch 1 (previously
+Sch)</txt></entry>
+<entry colname="2" guid="_2fc8dfcb-f437-467f-801d-1c9ba905ed1b"
+id="ed-tbl-oc.2-tblr-oc.31-tble2"><txt break.before="1">Am 1973 No 32, sec 3
+(j).</txt></entry></row>
+
+
+<row guid="_79df695d-6be4-4431-bec1-5855f5435a86"
+id="ed-tbl-oc.2-tblr-oc.32">
+<entry colname="1" guid="_c92b5f25-f778-4522-bfaf-68635b1fcc1a"
+id="ed-tbl-oc.2-tblr-oc.32-tble1"><txt break.before="1">Sch 2</txt></entry>
+<entry colname="2" guid="_236cfee7-fda2-48c6-afe8-1558fc4e4585"
+id="ed-tbl-oc.2-tblr-oc.32-tble2"><txt break.before="1">Ins 2002 No 53, Sch
+1.26 [7]. Am 2009 No 56, Sch 1.41 [2].</txt></entry></row>
+
+
+<row guid="_1997570b-521b-4480-92f1-73bb8b26ee41"
+id="ed-tbl-oc.2-tblr-oc.33">
+<entry colname="1" guid="_c2628e88-171f-48f9-92b3-4c0dd84a136b"
+id="ed-tbl-oc.2-tblr-oc.33-tble1"><txt break.before="1">The whole Act (sec 5
+excepted)</txt></entry>
+<entry colname="2" guid="_c6f43208-e404-48ff-a906-fbf5507388b8"
+id="ed-tbl-oc.2-tblr-oc.33-tble2"><txt break.before="1">Am 2002 No 53, Sch
+1.26 [1] (&#8220;the Schedule&#8221; omitted wherever occurring,
+&#8220;Schedule 1&#8221; inserted instead).</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

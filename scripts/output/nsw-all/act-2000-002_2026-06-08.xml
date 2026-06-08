@@ -1,0 +1,2727 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2000-002"
+title="Access to Neighbouring Land Act 2000"
+year="2000"
+number="2"
+enact.or.made.date="2000-05-01"
+first.valid.date="2009-07-06"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2000</metacontent>
+<metacontent class="year.assent">2000</metacontent>
+<metacontent class="publication.date">2010-10-12</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2007-094</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-2000-002</metacontent>
+<metacontent
+class="version.desc.id">483c852c-89db-4823-881b-7bb7fd0cf990</metacontent>
+<metacontent
+class="version.series.id">931e3bcc-ce3c-4246-89d4-f0971b329383</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Access to Neighbouring Land Act 2000"></attrib>
+<attrib name="year.passed" value="2000"></attrib>
+<attrib name="year.assent" value="2000"></attrib>
+<attrib name="no" value="2"></attrib>
+<attrib name="publication.date" value="2010-10-12"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2007-094"></attrib>
+<attrib name="first.valid.date" value="2009-07-06"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="2000-05-01"></attrib>
+<attrib name="id" value="act-2000-002"></attrib>
+<attrib name="version.desc.id"
+value="483c852c-89db-4823-881b-7bb7fd0cf990"></attrib>
+<attrib name="version.series.id"
+value="931e3bcc-ce3c-4246-89d4-f0971b329383"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata"></content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_769279b6-64c3-4c66-a4e0-bc83891a53ba"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to enable courts to make orders permitting
+access to land by persons not otherwise entitled to that access for the
+purpose of carrying out work on their own land or carrying out work on utility
+services on that land, and to provide for the payment of repair and
+maintenance costs relating to utility services by joint users of services; and
+for other purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_83c35f40-da86-4887-87c0-669c8ca45abc"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_040a0291-0d09-4574-ab54-c3ebe08e4613"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cf080079-c876-4662-b8f1-04725c6f304a"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_1fd3c028-b944-405d-902a-ab25e3441051"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref refid="act-2000-002"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Access to
+Neighbouring Land Act 2000</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_63aa0052-537b-44b7-ae3b-d2d6077b6364"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_b06c51b7-4dd9-48f8-a325-739cb37c1a2e"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on a day or days to be
+appointed by proclamation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_90250dcf-2652-429d-9840-86c2d951664a"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_f4a3120c-c0af-4af3-8491-104206186ca6"
+id="sec.3-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Act:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_5e3498b0-e110-49ef-9713-43c982c38b17" id="def.accessorder"><b><i>access
+order</i></b></defterm> means a neighbouring land access order or a utility
+service access order.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_f88e8493-a93c-4da4-96cf-5f07a3fd3d6a"
+id="def.function"><b><i>function</i></b></defterm> includes a power, authority
+or duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_46e9eeb2-c807-4788-a784-b85268b7489b"
+id="def.land"><b><i>land</i></b></defterm> includes a stratum of air above or
+a stratum of soil below the surface of the earth.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_87469f04-aef4-4d4b-840a-c88c59d8f5ec"
+id="def.neighbouringlandaccessorder"><b><i>neighbouring land access
+order</i></b></defterm> means an order made under this Act authorising access
+to adjoining or adjacent land.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_474d67f3-a5cc-4a34-86d3-38d69d9cf63c"
+id="def.owner"><b><i>owner</i></b></defterm> includes a joint owner or an
+occupier.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_737dd054-6de8-4310-a79a-26eb9ab6fccd"
+id="def.utilityservice"><b><i>utility service</i></b></defterm> means a
+sewerage, drainage, water, gas, electricity or telephone service or other
+service prescribed by the regulations for the purpose of this
+definition.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9d9b15c6-93cd-47f6-aa5d-f8a56409de7e"
+id="def.utilityserviceaccessorder"><b><i>utility service access
+order</i></b></defterm> means an order made under this Act authorising access
+to land to carry out work on or in connection with a utility
+service.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_eb7ac04e-34b8-4fcc-868c-bf8dcb010e2b"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_52c408a4-b9e3-4d1b-82ed-0b10bf97f789"
+id="sec.4-he"><b>Act binds Crown</b></heading></head>
+<block><txt break.before="1">This Act binds the Crown in right of New South
+Wales and also, in so far as the legislative power of Parliament permits, the
+Crown in all its other capacities.</txt></block></level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_958a09aa-73a6-4b64-b59d-16e5e7f2d37f"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_044a889f-46ad-47a0-8e86-611b31ec6c3d"
+id="sec.5-he"><b>Act does not authorise work or activity regulated by or under
+other Act and does not authorise access prohibited by or under other
+Act</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9e97678b-7c9e-482b-bbc5-7c98a828d8cc"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Nothing in this Act:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_89f14bfb-ddbd-4686-87f4-a4236e51700c" id="sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">enables a person to carry out any work or engage
+in any activity for which a consent or other authority must be obtained or
+granted under any other Act without the required consent or authority,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_24019aac-0d4c-49d0-b2c4-f3d1beba7b04" id="sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">enables a person to carry out any work or engage
+in any activity that is prohibited by or under any other
+Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ec5f5990-6fcd-4184-abd6-6c88aa65c1d0"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person may not apply for an access order under
+this Act if access to the land concerned, for the purposes for which access is
+required, is prohibited by or under another Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 5:</b> Am 2000 No 93,
+Sch 1.1 [1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2d892ba5-8b0d-4239-b00f-2350b14ac2ee"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_628655b7-88ae-4c30-837e-93a3e377310e"
+id="sec.6-he"><b>Act does not apply to land under <legref refid="act-1974-080"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>National Parks
+and Wildlife Act 1974</i></name></legref></b></heading></head>
+<block><txt break.before="1">This Act does not apply to or in respect of the
+following land under the <legref refid="act-1974-080" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>National Parks and Wildlife Act
+1974</i></name></legref>:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ace48501-9cad-46cf-9a08-d6a1dd76fe42" id="sec.6-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">land reserved as a national park, historic site,
+state conservation area, regional park, nature reserve, karst conservation
+reserve or Aboriginal area,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c03f363e-941b-4e38-afa7-2d670f6fbe85" id="sec.6-para1.b"
+status="repealed">
+<no>(b)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b7306aeb-ed99-4aa9-a85f-7ddc1b66e17f" id="sec.6-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">land declared under that Act to be an Aboriginal
+place.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 6:</b> Am 2006 No 120,
+Sch 2.1 [1].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_9e5900ed-587e-4f1c-bba1-3023af89d8a2"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_a357c24a-0a58-4008-b872-055800c71e68"
+id="pt.2-he"><b>Access orders</b></heading></head>
+
+<level type="division" id="pt.2-div.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_c92b2dfd-8eb0-470d-9d07-d996ad6ffefd"></attrib>
+<attrib name="id" value="pt.2-div.1"></attrib></parentattributes>
+
+<head>
+<no><b>Division 1</b></no><heading
+guid="_09bfcab4-d910-4083-9d62-a05c55421862"
+id="pt.2-div.1-he"><b>Applications for access orders and making of
+orders</b></heading></head>
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cd1db347-f0eb-4147-9752-2e7f43b4340d"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_263773f2-cb85-4dcc-997a-449fe978b639"
+id="sec.7-he"><b>Persons who may apply for a neighbouring land access
+order</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a85b325f-748e-44a9-9e31-8052f5e1ba1d"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person who, for the purpose of carrying out
+work on land owned by the person, requires access to adjoining or adjacent
+land may apply to the Local Court for a neighbouring land access
+order.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_90890b52-bd63-4f79-b9a8-a78044a33267"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person who, for the purpose of carrying out
+work on land owned by another person, requires access to adjoining or adjacent
+land may apply to the Local Court for a neighbouring land access order with
+the consent of the person on whose behalf the work is to be carried
+out.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_64d5d245-2250-49f8-ba3d-e21e54ef3256"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Local Court may waive the requirement for
+consent under subsection (2) if it thinks it appropriate to do so in the
+circumstances.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fb52647f-3c69-41f8-b537-b2a32f1a4242"></attrib>
+<attrib name="id" value="sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A person may apply for a neighbouring land access
+order even if access to the land concerned, for the purposes for which access
+is required, may be obtained by way of an easement imposed by an order under
+section 88K of the <legref refid="act-1919-006" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Conveyancing Act
+1919</i></name></legref>. However, a person may not apply for a neighbouring
+land access order if access to the land concerned, for the purposes for which
+access is required, may be obtained or granted under any other provision of an
+Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 7:</b> Am 2000 No 93,
+Sch 1.1 [2]; 2007 No 94, Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_26bd90ff-ae34-475a-a153-7778ab716cbc"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_3c9455dd-f8dd-4d25-a0a4-8a932b4ce81f"
+id="sec.8-he"><b>Persons who may apply for a utility service access
+order</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_419e2446-6d47-4aad-a3e6-4aef770c607c"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person who, either solely or jointly, is
+entitled to the use of a utility service or a proposed utility service but who
+is not the owner of the whole or part of the land on which it is located or
+proposed to be located and who requires access to that land for the purpose of
+carrying out work on or in connection with the utility service may apply to
+the Local Court for a utility service access order.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bbefa0d5-5d2c-42fc-941b-8d9aeb6f069d"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person may apply for a utility service access
+order even if:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6f4c88a9-7c02-4186-89c1-dd76ea5e4f65" id="sec.8-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">there is an easement or other right of access to
+the land concerned to carry out the work, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2af40f07-fe5f-482b-90f2-9ed07e47643b" id="sec.8-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">access to the land concerned, for the purposes
+for which access is required, may be obtained by way of an easement imposed by
+an order under section 88K of the <legref refid="act-1919-006" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Conveyancing Act
+1919</i></name></legref>.</txt></block></li></list>
+</block>
+<block><txt break.before="1">However, a person may not apply for a utility
+access order if access to the land concerned, for the purposes for which
+access is required, may be obtained or granted under any other provision of an
+Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 8:</b> Am 2000 No 93,
+Sch 1.1 [3]; 2007 No 94, Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_eb46ddc5-0e7a-41c5-b9fc-fad77a707fd3"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_08c2875f-745a-4ce8-9c35-bf657d54ba12"
+id="sec.9-he"><b>Person may apply for both orders</b></heading></head>
+<block><txt break.before="1">A person who requires access for purposes
+referred to in both sections 7 and 8 may apply to the Local Court for both a
+neighbouring land access order and a utility service access
+order.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Am 2007 No 94,
+Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1c77e091-b57a-42bb-a712-2523a55d8397"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_72b73eb0-fbc1-4d46-b70f-db44a5f32f4c"
+id="sec.10-he"><b>Notice of application for access order to be given to owners
+of affected land or services</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e4b0bad9-1b11-4e05-9643-443f530c89c9"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An applicant for an access order must give at
+least 21 days notice of the lodging of the application and the terms of any
+order sought:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ad0bb9ca-acbd-4f74-8116-7fa1b1483d6d" id="sec.10-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to the owner of the land to which access is
+sought under the application, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1cfde84a-2fda-45a8-854f-a86e4a23f1bc" id="sec.10-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to any other person entitled to the use of any
+utility service on which work is proposed to be carried out,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5af6bb13-5e02-4372-a7de-eed129cb9df5" id="sec.10-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to any other person the applicant has reason to
+believe will be affected by the order.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_47b3a4b9-4462-4e98-8982-4084448eea4e"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Local Court may direct that notice of an
+application be given to a person or that notice be given in a specified manner
+or within a specified period.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b3c572c2-4882-471c-9c02-f3bb5fb26f04"></attrib>
+<attrib name="id" value="sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Local Court may waive the requirement to give
+notice or vary the period of notice under this section if it thinks it
+appropriate to do so in the circumstances.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_92f3e3cd-1e9f-43f8-aaa7-104f72111e91"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_40ffeda6-18e8-44a9-a2e6-5c491362f56b"
+id="sec.11-he"><b>Jurisdiction to make neighbouring land access
+orders</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_53de76e4-4f3c-4f84-a8c2-d36409e2264c"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Local Court may make a neighbouring land
+access order if it is satisfied that, for the purpose of carrying out work on
+land, access to adjoining or adjacent land is required and it is satisfied
+that it is appropriate to make the order in the circumstances of the
+case.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5c5fb650-88ee-4b36-8940-2bb71bbd196a"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Local Court must not make a neighbouring land
+access order unless it is satisfied:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0a5ed2df-45e5-4939-8426-c04011dce311" id="sec.11-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">that the applicant has made a reasonable effort
+to reach agreement with every person whose consent to access is required as to
+the access and carrying out of the work, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ff5be0cf-0f8b-4803-a32d-edb3e7b26ca0" id="sec.11-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the requirement to give notice has not been
+waived, that the applicant has given notice of the application in accordance
+with section 10 and section 34 (if applicable).</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Am 2007 No 94,
+Sch 3.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a7374337-7861-48cb-8c08-0678732dd3bb"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_d8ccb038-0e9c-4656-8235-2f194f5dfbc0"
+id="sec.12-he"><b>Types of work for which neighbouring land access orders may
+be made</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a9c91014-f529-40b7-8db5-2f7b48b1b045"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A neighbouring land access order may be made for
+one or more of the following purposes in connection with the land on which the
+work is to be carried out:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_43bc05fd-3e80-4cd5-879a-826778bae69a" id="sec.12-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">carrying out work of construction, repair,
+maintenance, improvement, decoration, alteration, adjustment, renewal or
+demolition of buildings and other structures,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_af49b361-9fa9-4690-a6c8-ff1e066bb0e2" id="sec.12-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">carrying out inspections for the purpose of
+ascertaining whether any such work is required,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6c723c57-491d-49cb-aac8-c9193f8a9265" id="sec.12-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">making plans in connection with such
+work,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_33838066-b58c-41d5-bd64-51d6af718ee6" id="sec.12-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">ascertaining the course of drains, sewers, pipes
+or cables and renewing, repairing or clearing them,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_403f5cfa-0e6b-4612-bab2-c29393000b26" id="sec.12-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">ascertaining whether any hedge, tree or shrub is
+dangerous, dead, diseased, damaged or insecurely rooted,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f122990d-684e-49e9-99f9-89ac73a380cd" id="sec.12-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">replacing any hedge, tree or
+shrub,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_da1b5fe2-bcdb-4a58-9810-97f3b92510b3" id="sec.12-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">removing, felling, cutting back or treating any
+hedge, tree or shrub,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_45124787-c2b9-42d5-94a9-a1d497d58707" id="sec.12-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">clearing or filling in
+ditches,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fe09b323-371e-422e-bfdf-6c3f1987611f" id="sec.12-ssec.1-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">carrying out any work that is necessary for, or
+incidental to, anything referred to in paragraphs
+(a)&#8211;(h).</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_03956613-c178-4b7b-b14c-c81e708814fd"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This section does not limit the kinds of work
+with respect to land for which a neighbouring land access order may be
+made.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c24fe712-6afe-4886-ae46-569441a761c5"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_dac9a8e8-8d58-4c39-94b2-191dfa8edac0"
+id="sec.13-he"><b>Jurisdiction to make utility service access
+orders</b></heading></head>
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_76e68c2d-ac76-41fc-babf-fa1ca0d482df"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Local Court may make a utility service access
+order if it is satisfied that access to land is required for the purpose of
+carrying out work on or in connection with a utility service situated on the
+land and it is satisfied that it is appropriate to make the order in the
+circumstances of the case.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ecb2cbab-40f1-4057-bb34-34c4cd191582"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Court must not make a utility service access
+order unless it is satisfied:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6fadcdbd-0bae-4fb8-8a3f-379ee32026ec" id="sec.13-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">that the applicant has made a reasonable effort
+to reach agreement with every person whose consent to access is required as to
+the access and carrying out of the work, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2e229c9a-3517-491c-acdd-cd8b878a7182" id="sec.13-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the requirement to give notice has not been
+waived, that the applicant has given notice of the application in accordance
+with section 10 and section 34 (if applicable).</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 13:</b> Am 2007 No 94,
+Sch 3.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c4aee0b0-51ff-4af4-ad80-685693629e71"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_2d4d634b-e3ed-4e60-b283-6943fccf12a0"
+id="sec.14-he"><b>Types of work for which utility service access orders may be
+made</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_03241e76-bad8-4342-abe5-31c5ad595263"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A utility service access order may be made for
+one or more of the following purposes:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_beb509c8-c5a5-4484-8097-b1e3d2a7c84a" id="sec.14-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">carrying out work of construction, repair,
+maintenance, improvement, adjustment or renewal of the utility
+service,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ac646202-d422-42bb-90a9-99a659d9012e" id="sec.14-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">connecting or disconnecting the
+service,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_15e0b967-ff39-45ec-b8ee-fdd7a4f15e18" id="sec.14-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">carrying out inspections for the purpose of
+ascertaining whether any such work is required,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d0fed188-1698-4e0d-85a2-eb5b890a179b" id="sec.14-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">making plans in connection with any such
+work,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7d24c705-8a63-4cdf-b1f5-fa262be4c845" id="sec.14-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">carrying out any work that is necessary for, or
+incidental to, anything referred to in paragraphs
+(a)&#8211;(d).</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3debfe5a-9b82-44ef-85e7-01aef315d8e4"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This section does not limit the kinds of work
+with respect to a utility service for which a utility service access order may
+be made.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9de0bc38-e62c-417d-9be2-a3c8dd5e70cf"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_d30920b5-081c-4416-9865-9c575367d861"
+id="sec.15-he"><b>Matters to be considered by Local
+Court</b></heading></head>
+<block><txt break.before="1">Before determining an application for an access
+order the Local Court is to consider the following matters:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e2df8921-53aa-4329-a23b-ab360cb61fc8" id="sec.15-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">whether the work cannot be carried out or would
+be substantially more difficult or expensive to carry out without access to
+the land the subject of the application,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f9ab6913-6b00-43ba-b9fe-d67b8f43d6f6" id="sec.15-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">whether the access would cause unreasonable
+hardship to a person affected by the order.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d5e996dc-78cd-4662-92d1-9b90f2b6cff0"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_5d0f936c-eedf-4422-9806-f18e545f8f3f"
+id="sec.16-he"><b>Conditions of access orders</b></heading></head>
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dea25812-d4da-4d3f-af9f-b46f7796b709"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Local Court may specify such conditions in an
+access order as, in its opinion, are reasonably necessary in the
+circumstances.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e3fa7b67-4471-42e2-bad9-dcf3880a57dd"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting subsection (1), the conditions
+may include the following kinds of conditions:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_766ae4e1-ceaf-4bfb-ba51-663ce40d0934" id="sec.16-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">conditions imposed for the purpose of avoiding or
+minimising loss, damage or injury to the owner of the land to which access is
+granted or to any other person or to any other land or other
+property,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_76e0aab1-2a9c-4cb3-82e2-6e17128b43dd" id="sec.16-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">conditions imposed for the purpose of avoiding or
+minimising inconvenience or loss of privacy caused to the owner of the land to
+which access is granted or to any other person,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f23eea5b-6cd7-4fff-9e11-41f87b2cfbe3" id="sec.16-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">conditions specifying precautions and
+safeguards,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_be7007da-8564-47d0-b144-b772e245a0b1" id="sec.16-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">conditions requiring the taking out of insurance
+cover by the applicant against such risks, if any, as may be
+specified,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_403da195-bfe1-4636-beab-ce5c72513324" id="sec.16-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">conditions varying or dispensing with any or all
+of the provisions of Division 2,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9dfb82b2-9e3e-4846-9f91-39b052fa26c3" id="sec.16-ssec.2-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">conditions prohibiting or permitting access to a
+building or part of a building, or any other part of the
+land,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b205cd08-ec92-4898-81fc-acac853e72d7" id="sec.16-ssec.2-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">conditions providing for the reimbursement by the
+applicant of any expenses reasonably incurred by the owner of the land to
+which access is granted that are not recoverable as costs under section
+27.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_85dbeba2-65b2-425a-bcc5-838f5d45ad38"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_62c49632-e116-4f4e-9f89-c68cf00ffff2"
+id="sec.17-he"><b>Form of access orders</b></heading></head>
+<block><txt break.before="1">An access order is to specify:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b2427fca-b73b-40e2-9fde-bcb104d8cc09" id="sec.17-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the land to which it permits access,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cf0bd2bf-7504-4fc6-bae4-7b7e59fb1ed9" id="sec.17-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the work which may be carried out,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_62864c45-f9bf-47f5-9f28-b15512828bc1" id="sec.17-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the date on or from which access is permitted and
+the date when access ceases to be permitted and, if appropriate, the times
+during which access is permitted, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b9e49041-e79e-4902-9ced-cdaa2e195db6" id="sec.17-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">any conditions specified by the Local Court,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_690c79b5-1a0d-4003-94d9-3dab1f085c41" id="sec.17-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the provisions of Division 2, as applying to the
+order.</txt></block></li></list>
+</block></level>
+</level>
+
+
+<level type="division" id="pt.2-div.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_61440f57-f4ef-402f-93ae-331cca54fa6a"></attrib>
+<attrib name="id" value="pt.2-div.2"></attrib></parentattributes>
+
+<head>
+<no><b>Division 2</b></no><heading
+guid="_bd82bd3e-7099-49a0-aa9f-85c78994aba5" id="pt.2-div.2-he"><b>Effect of
+access orders</b></heading></head>
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1c2228d1-73e5-4d24-89db-5681ebabcc60"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_16f43441-afcf-4021-b9b8-33f2f9fe032c"
+id="sec.18-he"><b>General effect of neighbouring land access
+order</b></heading></head>
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c82a4d7b-352b-4af2-b554-98ed8dfbac2c"></attrib>
+<attrib name="id" value="sec.18-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A neighbouring land access order authorises, for
+the purpose of carrying out work on land, a person to have access to adjoining
+or adjacent land in accordance with the order.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_13d98bef-7837-478a-a05c-7d965fffbba0"></attrib>
+<attrib name="id" value="sec.18-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Unless the Local Court varies or dispenses with
+any or all of the authorities and obligations set out in sections 20&#8211;22,
+a neighbouring land access order also authorises the actions, and imposes the
+obligations, set out in those sections.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a732c981-1bdb-48a8-896a-3d5397edc5b2"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_e84ddafb-54b6-4419-94c0-03ab3661c8e6"
+id="sec.19-he"><b>General effect of utility service access
+order</b></heading></head>
+
+<tier type="subclause" id="sec.19-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_981f24be-15d9-4c8f-bfa5-45cdb9c4c96a"></attrib>
+<attrib name="id" value="sec.19-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A utility service access order authorises a
+person to have access to land to carry out work on or in connection with a
+utility service on the land concerned in accordance with the
+order.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_47be077f-db61-4b88-a1d6-1ad8a04c25e7"></attrib>
+<attrib name="id" value="sec.19-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Unless the Local Court varies or dispenses with
+any or all of the authorities and obligations set out in sections 20&#8211;22,
+a utility service access order also authorises the actions, and imposes the
+obligations, set out in those sections.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_096cc141-5910-4de8-9019-a573a7252d93"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_a946c2d4-8e41-496a-b6a5-f9a9337c4b43"
+id="sec.20-he"><b>Authority to carry out ancillary
+activities</b></heading></head>
+<block><txt break.before="1">An access order authorises:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9c35b9c3-856b-4a69-b899-fa7d13fc17d9" id="sec.20-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the access to and the remaining on the land
+concerned of such persons authorised by the applicant as are reasonably
+necessary to carry out the work, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_629a75bd-676b-41d1-a0e5-a2692a84273f" id="sec.20-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the applicant to bring on, leave on and remove
+from the land such materials, plant and equipment as are reasonably necessary
+for carrying out the work, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_37e69a82-b118-478c-9df1-fb8d4e645121" id="sec.20-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the applicant to remove from the land any waste
+that may arise from carrying out the work.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.21">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_11e96b02-f9ab-48cd-a73b-7b31fb40dc4e"></attrib>
+<attrib name="id" value="sec.21"></attrib></parentattributes>
+
+<head>
+<no>21</no><heading guid="_86461c05-d62d-44e0-a4da-9160c41c2dd7"
+id="sec.21-he"><b>Restoration of land and indemnity for
+damage</b></heading></head>
+<block><txt break.before="1">The applicant must:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8e7a857c-2f5d-4725-8b26-484ab673954a" id="sec.21-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">restore the land concerned to the same condition
+it was in before the access, so far as is reasonably practicable, on or before
+the date specified in the order for that purpose, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_66159538-a063-4cda-b545-93cc35590653" id="sec.21-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">indemnify the owner of the land to which access
+is granted against damage to the land or personal property arising from the
+access.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.22">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_eb47c5d5-a660-427b-ad39-626de26a477a"></attrib>
+<attrib name="id" value="sec.22"></attrib></parentattributes>
+
+<head>
+<no>22</no><heading guid="_4d803cc7-d5b5-4635-9720-adf91fc5da4a"
+id="sec.22-he"><b>Owner&#8217;s obligations</b></heading></head>
+<block><txt break.before="1">The owner of the land to which access is granted
+must permit access to the land in accordance with the order and this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.23">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7f5301f7-19a7-4c8e-8903-fee905141334"></attrib>
+<attrib name="id" value="sec.23"></attrib></parentattributes>
+
+<head>
+<no>23</no><heading guid="_774d71d9-d405-43ff-86c9-c5086e54f0e4"
+id="sec.23-he"><b>Persons bound by access order</b></heading></head>
+
+<tier type="subclause" id="sec.23-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3c42d113-f651-4564-8028-2f07edf8b693"></attrib>
+<attrib name="id" value="sec.23-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person who is not a party to the proceedings
+for an access order, or expressly bound by the order, is not bound by the
+access order.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_78e3f26a-bd43-41dd-b7f3-376fdf0b9e0e"></attrib>
+<attrib name="id" value="sec.23-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">However, a successor in title to an owner of land
+to which access is granted is bound by that order in the same way as that
+owner.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_baff8ed9-67f3-4227-8688-752bdc9d2e3b"></attrib>
+<attrib name="id" value="sec.23-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">An access order does not confer on any party to
+the order any interest in the land to which access is granted sufficient to
+enable any such person to place a caveat on the title to the land under the
+<legref refid="act-1900-025" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Real Property Act
+1900</i></name></legref>.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="division" id="pt.2-div.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_6d497111-4d49-45b9-8db3-4745489c5bd3"></attrib>
+<attrib name="id" value="pt.2-div.3"></attrib></parentattributes>
+
+<head>
+<no><b>Division 3</b></no><heading
+guid="_a6311fcc-5f20-428f-a5cb-c6d765fc3ff0" id="pt.2-div.3-he"><b>Other
+provisions relating to access orders</b></heading></head>
+
+<level type="clause" id="sec.24">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6c39bd40-b883-4446-802c-b3ab80d1f97c"></attrib>
+<attrib name="id" value="sec.24"></attrib></parentattributes>
+
+<head>
+<no>24</no><heading guid="_420b2bf0-ba19-4e46-92cf-fc2ae02ce7ea"
+id="sec.24-he"><b>Variation and revocation of access
+orders</b></heading></head>
+<block><txt break.before="1">The Local Court may vary or revoke an access
+order on application by the applicant for the order or by any other person
+affected by the order.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 24:</b> Am 2007 No 94,
+Sch 3.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.25">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_40b72350-dde8-411b-9f66-1974d4f3d72a"></attrib>
+<attrib name="id" value="sec.25"></attrib></parentattributes>
+
+<head>
+<no>25</no><heading guid="_46561a34-9070-4b4e-a625-5960d2cb98e0"
+id="sec.25-he"><b>When access orders cease to be in
+force</b></heading></head>
+
+<tier type="subclause" id="sec.25-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_164321ab-3594-42d6-a464-8e773d2af85b"></attrib>
+<attrib name="id" value="sec.25-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An access order ceases to have effect on the date
+specified in the order or on revocation under section
+24.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.25-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5edd5b9a-3319-41bb-a479-bdfd99cb0f51"></attrib>
+<attrib name="id" value="sec.25-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The cessation or revocation of an order does not
+affect the previous operation of the order.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.25-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5967280b-8a72-43f1-a284-e1a081683ced"></attrib>
+<attrib name="id" value="sec.25-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The cessation or revocation of an order does not
+prevent the enforcement by the owner of the land to which access is granted of
+any conditions of the order or obligations of the applicant imposed by this
+Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.26">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_df3bbbbe-2772-467a-9c42-0df350848199"></attrib>
+<attrib name="id" value="sec.26"></attrib></parentattributes>
+
+<head>
+<no>26</no><heading guid="_c914311c-3174-40cd-92ed-074d45b997d5"
+id="sec.26-he"><b>Compensation</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.26-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e6eba66b-8a41-426a-a7ac-0468ad44182d"></attrib>
+<attrib name="id" value="sec.26-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Local Court may order that a person to whom
+an access order is granted pay compensation to the owner of the land to which
+access is granted for loss, damage or injury, including damage to personal
+property, financial loss and personal injury arising from the
+access.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.26-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d2a600af-366b-41f4-a73a-6eb3c4287ff4"></attrib>
+<attrib name="id" value="sec.26-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Compensation is not payable under this section
+for loss of privacy or inconvenience suffered by the owner solely as a result
+of access authorised by the access order or solely because of the making of
+the order.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dfff5888-c6ca-4135-8bf6-52f9c2184249"></attrib>
+<attrib name="id" value="sec.26-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">An order for compensation may be made at any time
+and may be made whether or not the access order is in
+force.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c23e03d3-d669-40f4-a972-ab0b34c4f8be"></attrib>
+<attrib name="id" value="sec.26-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">An action for an order for compensation may not
+be brought more than 3 years after the last date on which access occurred
+under the order.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9207eff1-aea3-4084-92cb-e2b3a6430ae3"></attrib>
+<attrib name="id" value="sec.26-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Any such order is enforceable as if it were a
+judgment for that amount by the Local Court exercising jurisdiction under the
+<legref refid="act-2005-028" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Civil Procedure Act
+2005</i></name></legref>.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 26:</b> Am 2006 No 120,
+Sch 2.1 [2]; 2007 No 94, Schs 2, 3.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.27">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c48a38dc-c6ee-4631-ab1e-07824b1e5ddf"></attrib>
+<attrib name="id" value="sec.27"></attrib></parentattributes>
+
+<head>
+<no>27</no><heading guid="_cbdbda79-2b5d-4e80-a1fb-b95a4f71dc7d"
+id="sec.27-he"><b>Costs</b></heading></head>
+
+<tier type="subclause" id="sec.27-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a59bd21c-e032-4c74-ac27-833291309809"></attrib>
+<attrib name="id" value="sec.27-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The costs of an application for an access order
+are payable by the applicant for the order, subject to any order of the Local
+Court to the contrary.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.27-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_82e7b8d9-3700-486c-bb65-abe958ff98e9"></attrib>
+<attrib name="id" value="sec.27-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In determining whether the whole or part of the
+costs of an application for an access order are payable by a party, the Local
+Court may consider the following matters:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_943a58a7-a74a-4dcb-b04e-ee9814b0a01b" id="sec.27-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the conduct of the parties, including any
+attempts by the parties to reach agreement before the proceedings and whether
+the refusal to consent to access was unreasonable in the
+circumstances,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_130bfa6c-f5d9-4d73-aa7e-f145f9cb9148" id="sec.27-ssec.2-para1.b"
+status="repealed">
+<no>(b)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cab3d126-1b38-428f-b079-b78802ddbd4d" id="sec.27-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any other matter it thinks
+fit.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 27:</b> Am 2008 No 72,
+Sch 2.1 [1] [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.28">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c24ce71e-7195-465a-8682-f860ca9c00b2"></attrib>
+<attrib name="id" value="sec.28"></attrib></parentattributes>
+
+<head>
+<no>28</no><heading guid="_815b7f36-e8bb-44af-b8fc-088c4a6e89ba"
+id="sec.28-he"><b>Failure to comply with access order</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.28-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7251c306-191b-4bf9-80e4-94654076a0f4"></attrib>
+<attrib name="id" value="sec.28-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e82895ee-c37a-4b0c-a270-bc3d98892a1f" id="sec.28-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to whom an access order is granted or who obtains
+access to land under an access order, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b66899c2-d237-4045-8964-3fe694b566d1" id="sec.28-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">who is required to give access to land under an
+access order,</txt></block></li></list>
+
+<txt break.before="1">must not fail to comply with a condition or requirement
+of an access order that is applicable to the person.</txt></block>
+
+<tier type="penalty" id="sec.28-ssec.1-pen">
+<parentattributes>
+<attrib name="guid" value="_183cb06b-1690-4062-b04f-69e11beb9cd9"></attrib>
+<attrib name="id" value="sec.28-ssec.1-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Maximum penalty: 5 penalty
+units.</txt></block></tier>
+</tier>
+</pre>
+
+
+<tier type="subclause" id="sec.28-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_94de0480-c716-4654-b289-176298542a98"></attrib>
+<attrib name="id" value="sec.28-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">It is a defence in any proceedings for an offence
+under this section if the other party to the access order affected by the
+failure to comply with a condition or requirement of the order consented to
+the failure to comply.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_89e0ffce-eb95-46a1-99f5-9557e979681a"></attrib>
+<attrib name="id" value="sec.28-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In addition to any other remedy, the Local Court
+may make an order for payment of damages by a party to the proceedings who
+fails to comply with a condition or requirement of an access order or of
+Division 2 as applied to that order.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2556de6c-1493-4aa3-be9b-57dace270df7"></attrib>
+<attrib name="id" value="sec.28-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Any such order is enforceable as if it were a
+judgment for that amount by the Local Court exercising jurisdiction under the
+<legref refid="act-2005-028" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Civil Procedure Act
+2005</i></name></legref>.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 28:</b> Am 2006 No 120,
+Sch 2.1 [2]; 2007 No 94, Sch 2.</txt></content>
+</level>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_b5347fa8-8514-4c92-9f53-18a7cc484fe5"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_4464f0a0-ed2c-4192-870f-248e34b64656"
+id="pt.3-he"><b>Transfer of proceedings to other courts and
+appeals</b></heading></head>
+
+<level type="clause" id="sec.29">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_11a00944-036b-40bb-a953-136c135c0944"></attrib>
+<attrib name="id" value="sec.29"></attrib></parentattributes>
+
+<head>
+<no>29</no><heading guid="_637063a5-66f8-46e4-b409-aaba51eadaf0"
+id="sec.29-he"><b>Transfer of matters to other courts</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.29-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_beb902b3-5989-4c99-b24b-534f5da5255f"></attrib>
+<attrib name="id" value="sec.29-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Local Court must order the transfer of the
+whole or any part of proceedings for compensation under this Act to the Land
+and Environment Court, if the amount of any compensation or damages involved
+is likely to exceed the amount of the Local Court&#8217;s jurisdiction in an
+action for the recovery of a debt under the <legref refid="act-2005-028"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Civil
+Procedure Act 2005</i></name></legref>.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.29-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7528500c-0126-439c-83e0-4f1e8ccf2d2d"></attrib>
+<attrib name="id" value="sec.29-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Land and Environment Court may at any stage
+of proceedings transferred under subsection (1) order the transfer of the
+whole or any part of the proceedings back to the Local
+Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.29-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_57b1c659-c335-48dc-ab3f-8aff7896ec80"></attrib>
+<attrib name="id" value="sec.29-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">An order for the transfer of proceedings under
+this section may be made on the Court&#8217;s own motion or on the application
+of a party to the proceedings.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.29-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_55d784f8-8a03-446b-b880-5a8e9b2aaf9c"></attrib>
+<attrib name="id" value="sec.29-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Land and Environment Court has, in respect of
+proceedings transferred under this section and in addition to any other
+jurisdiction and functions it has, the same jurisdiction and functions as are
+conferred on the Local Court by or under this Act (other than sections 30 and
+31).</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 29:</b> Am 2006 No 120,
+Sch 2.1 [2]; 2007 No 94, Schs 2, 3.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.30">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5f1ff0a2-da9d-4c73-9cbb-29824d84bbd5"></attrib>
+<attrib name="id" value="sec.30"></attrib></parentattributes>
+
+<head>
+<no>30</no><heading guid="_4530177c-055e-4f5f-b4e6-84fe7ce7316f"
+id="sec.30-he"><b>Referral of questions of law by Local
+Court</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.30-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_acefd194-a067-47fa-9d50-28d44c156b3c"></attrib>
+<attrib name="id" value="sec.30-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If, in proceedings before it under this Act, a
+question of law arises, the Local Court may decide the question or refer it to
+the Land and Environment Court for decision.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.30-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5a36ba92-13c5-4e0a-9cd2-3a41f93da20f"></attrib>
+<attrib name="id" value="sec.30-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If a question of law is referred to the Land and
+Environment Court by the Local Court, the Local Court must not make an order
+or decision to which the question is relevant until the Land and Environment
+Court has decided the question.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.30-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b6386a97-8a9d-4c50-a1c5-8d08060ce864"></attrib>
+<attrib name="id" value="sec.30-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">On deciding the question, the Land and
+Environment Court must remit its decision to the Local Court and that Court
+must not proceed in a manner, or make an order or decision, that is
+inconsistent with the decision of the Land and Environment
+Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.30-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d28f83ac-068b-42e3-9645-28d01750ed24"></attrib>
+<attrib name="id" value="sec.30-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A reference under this section is to be made in
+accordance with rules of the Land and Environment Court.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 30:</b> Am 2007 No 94,
+Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.31">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b301d774-1b93-4f35-a2a3-f076ee358a33"></attrib>
+<attrib name="id" value="sec.31"></attrib></parentattributes>
+
+<head>
+<no>31</no><heading guid="_06d888ee-379f-4e06-a117-37a96cd5f8ff"
+id="sec.31-he"><b>Appeals from decisions of Local Court</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.31-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_003f4cfd-2ff6-4bb1-8ee5-8c11ba2e5375"></attrib>
+<attrib name="id" value="sec.31-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A party to proceedings before the Local Court for
+an access order may appeal to the Land and Environment Court, on a question of
+law, against a decision to grant or not to grant an access
+order.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.31-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2254d67f-bce9-42fd-91f9-776d9d56ccea"></attrib>
+<attrib name="id" value="sec.31-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The appeal must be made within 30 days after the
+decision to grant or not to grant the access order is
+made.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.31-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_29d7e7a3-1f7f-407e-b18f-853783adb12c"></attrib>
+<attrib name="id" value="sec.31-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">If a party to proceedings before the Local Court
+appeals to the Land and Environment Court under this section, either the Local
+Court or the Land and Environment Court, may suspend, until the appeal is
+determined, the operation of any order or decision made in the
+proceedings.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.31-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ee7a774f-cf2b-4bc9-a1ac-f717c53cb563"></attrib>
+<attrib name="id" value="sec.31-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Local Court may terminate a suspension of the
+operation of an order or a decision suspended by it. The Land and Environment
+Court may terminate a suspension of the operation of an order or decision
+suspended by it or by the Local Court.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 31:</b> Am 2007 No 94,
+Sch 2.</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e32640cf-08f6-4e14-acf4-d9b20958dac0"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_d7fe7331-0021-4894-84cf-b7f8ef07f32a"
+id="pt.4-he"><b>Miscellaneous provisions</b></heading></head>
+
+<level type="clause" id="sec.32">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_72fbd4df-c7cc-4469-a62f-e436afe28fad"></attrib>
+<attrib name="id" value="sec.32"></attrib></parentattributes>
+
+<head>
+<no>32</no><heading guid="_3ddc4884-c2d6-4738-b583-a0987fde595c"
+id="sec.32-he"><b>Repair and maintenance of joint
+services</b></heading></head>
+
+<tier type="subclause" id="sec.32-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d509ce06-2a88-4c19-acd0-e729001dee6c"></attrib>
+<attrib name="id" value="sec.32-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If 2 or more owners of land are jointly entitled
+to the use of a utility service, those persons are jointly liable for any
+repair or maintenance of that service by or on behalf of one of the owners
+if:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_15962cc6-1dc9-4f5b-9a29-d7e2dcb4f539" id="sec.32-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the owner who carried out the repair or
+maintenance or on whose behalf it is carried out is liable for that repair or
+maintenance as a user of the service, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d551bce9-9ae6-46b8-b3d0-969a213f5e70" id="sec.32-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">that liability does not arise from any fault of
+the owner by or on whose behalf the repair or maintenance is carried
+out.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.32-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ee5863f8-9853-4843-8e63-eff89c34d21f"></attrib>
+<attrib name="id" value="sec.32-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This section is subject to any contract or
+arrangement between the owner and the provider of the utility service and to
+the provisions of any other Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.33">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7ce7b71c-caa5-4a9b-9d9c-fe6c9acf9db8"></attrib>
+<attrib name="id" value="sec.33"></attrib></parentattributes>
+
+<head>
+<no>33</no><heading guid="_d4530036-d3e7-44c9-9dd4-1a908a218e3c"
+id="sec.33-he"><b>Agreements for access to neighbouring
+land</b></heading></head>
+
+<tier type="subclause" id="sec.33-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d628eefc-00fc-4d8e-a766-29b7fbb28f1d"></attrib>
+<attrib name="id" value="sec.33-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may make provision for or with
+respect to a model form of agreement or agreements for the following
+purposes:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f413c88f-21da-4aa0-bfd1-4832ac374f3b" id="sec.33-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to enable a person who requires access to
+adjoining or adjacent land, for the purpose of carrying out work on the
+person&#8217;s land, to gain access to the adjoining or adjacent
+land,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8f08bee8-7306-46ae-bbd5-37c76a716180" id="sec.33-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to enable a person who requires access to land on
+which a utility service which the person is entitled to use is situated, for
+the purpose of carrying out work on the utility service, to gain access to the
+land.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.33-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d7880c39-c2e5-4330-8b6b-b19c50bcf149"></attrib>
+<attrib name="id" value="sec.33-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such model agreement may apply rights and
+obligations under this Act to a party to the agreement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.33-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dc3a9f1b-01a4-496c-ba84-b2969507f655"></attrib>
+<attrib name="id" value="sec.33-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A person may, but is not required to, enter into
+a model agreement prescribed under this section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.33-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0970120c-3e9c-4a83-a336-57423c92fdd1"></attrib>
+<attrib name="id" value="sec.33-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Nothing in this Act prevents access to land being
+given by consent of the owner of the land.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.34">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_97959a3b-5fbd-4275-9e25-d5a0cc4ec38c"></attrib>
+<attrib name="id" value="sec.34"></attrib></parentattributes>
+
+<head>
+<no>34</no><heading guid="_15ee76c7-64da-4a06-b3f7-e0700a08662c"
+id="sec.34-he"><b>Native title interests</b></heading></head>
+
+<tier type="subclause" id="sec.34-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8c77674d-f035-4fbc-9d99-48747460588d"></attrib>
+<attrib name="id" value="sec.34-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person seeking an access order in respect of
+land in relation to which there is an approved determination of native title
+that native title exists must give notice under section 10 to the registered
+native title body corporate for that land.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.34-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_411933a5-29de-499a-ba21-5f495a8dfb40"></attrib>
+<attrib name="id" value="sec.34-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person seeking an access order in respect of
+land in relation to which there has not been an approved determination of
+native title that native title exists but in respect of which there may be
+native title holders must give notice under section 10 to:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_57ab573e-f4e1-4443-ae47-5424a4fc909e" id="sec.34-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any registered native title claimants in respect
+of the land, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_19c4c2d6-e34f-4d46-8c91-4d6024233ddf" id="sec.34-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any representative Aboriginal/Torres Strait
+Islander bodies for the area concerned.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.34-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bd13793c-87b3-49de-86b1-4b5ef83c60fb"></attrib>
+<attrib name="id" value="sec.34-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A registered native title body corporate has in
+respect of the land for which it is such a body corporate the same rights and
+obligations under this Act as any other owner of land.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.34-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8919c26c-3f7b-443e-86f8-59acab4e2f65"></attrib>
+<attrib name="id" value="sec.34-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">In this section:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b01c6faf-4bd6-41a2-872a-c66186bca79f"
+id="sec.34-def.approveddeterminationofnativetitle"><b><i>approved
+determination of native title</i></b></defterm> has the same meaning as it has
+in the <legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="yes"><i>Native Title Act 1993</i></name></legref> of the
+Commonwealth.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_09c56a34-0587-4f8a-a85b-276b46730201"
+id="sec.34-def.nativetitleholder"><b><i>native title holder</i></b></defterm>
+has the same meaning as it has in the <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Native Title Act
+1993</i></name></legref> of the Commonwealth.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d67c0980-0b61-4a1a-ae6b-063b0e7a35bd"
+id="sec.34-def.registerednativetitlebodycorporate"><b><i>registered native
+title body corporate</i></b></defterm> has the same meaning as it has in the
+<legref jurisd="CTH" type="act" check="unknown"><name emphasis="yes"><i>Native
+Title Act 1993</i></name></legref> of the Commonwealth.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6cdc783d-123a-4167-bba0-330b44eacb57"
+id="sec.34-def.registerednativetitleclaimant"><b><i>registered native title
+claimant</i></b></defterm> has the same meaning as it has in the <legref
+jurisd="CTH" type="act" check="unknown"><name emphasis="yes"><i>Native Title
+Act 1993</i></name></legref> of the Commonwealth.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_14280f62-791c-4a61-bed6-1f74b0b38345"
+id="sec.34-def.representativeAboriginalTorresStraitIslanderbody"><b><i>representative
+Aboriginal/Torres Strait Islander body</i></b></defterm> has the same meaning
+as it has in the <legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="yes"><i>Native Title Act 1993</i></name></legref> of the
+Commonwealth.</txt></block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.35">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7c6d6066-03bd-4f31-a630-7aa194a3c31e"></attrib>
+<attrib name="id" value="sec.35"></attrib></parentattributes>
+
+<head>
+<no>35</no><heading guid="_eb488af2-d94b-41c2-b1c5-dc2969fc043c"
+id="sec.35-he"><b>Contracting out of Act prohibited</b></heading></head>
+<block><txt break.before="1">Any agreement, whether made before or after the
+commencement of this section, which would have the effect of preventing or
+restricting a person from applying for an access order is void to the extent
+that it would have that effect.</txt></block></level>
+
+
+<level type="clause" id="sec.36">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aa64539a-b0a0-46b9-a1aa-8b80cb4b3a70"></attrib>
+<attrib name="id" value="sec.36"></attrib></parentattributes>
+
+<head>
+<no>36</no><heading guid="_69e59a35-e682-4316-aa46-6b3b91082307"
+id="sec.36-he"><b>How notices may be served</b></heading></head>
+
+<tier type="subclause" id="sec.36-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b6c0c1e9-e3c9-48ad-8add-0927c885d0dc"></attrib>
+<attrib name="id" value="sec.36-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A notice under this Act may be given to a person
+personally or by post addressed to the last known place of residence or
+business of the person to whom the notice is addressed.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.36-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dcbdfc27-f625-4fa7-a5ad-b30765d48234"></attrib>
+<attrib name="id" value="sec.36-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">However, a notice under this Act that is required
+to be given to a registered native title claimant or a representative
+Aboriginal/Torres Strait Islander body is to be served in accordance with
+section 103 (3) of the <legref refid="act-1994-045" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Native Title (New South Wales) Act
+1994</i></name></legref>.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.37">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_97cfab56-3e08-47b2-a8a0-b65d05b07e26"></attrib>
+<attrib name="id" value="sec.37"></attrib></parentattributes>
+
+<head>
+<no>37</no><heading guid="_20c4bea8-4e5c-4e51-bc94-52fdc66c550b"
+id="sec.37-he"><b>Proceedings for applications or
+offences</b></heading></head>
+<block><txt break.before="1">Proceedings for applications under this Act, or
+offences against this Act, are to be dealt with summarily before the Local
+Court.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 37:</b> Am 2001 No 121,
+Sch 2.2; 2007 No 94, Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.38">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cf1e4b59-d279-42b4-abbc-90d523936357"></attrib>
+<attrib name="id" value="sec.38"></attrib></parentattributes>
+
+<head>
+<no>38</no><heading guid="_3ec75034-0310-468d-ab58-a88712c64705"
+id="sec.38-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sec.38-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_56509841-5e74-4e17-9eaf-888b79cdfdf2"></attrib>
+<attrib name="id" value="sec.38-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.38-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5875345a-a8b3-4419-b933-2ae79e946df7"></attrib>
+<attrib name="id" value="sec.38-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In particular, the regulations may make provision
+for or with respect to the service of notices or orders where the owner of
+land or any other person cannot be found.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.38-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_96bbc7db-2491-49ef-8d93-6a79e90b37c7"></attrib>
+<attrib name="id" value="sec.38-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Local Court Rule Committee established under
+the <legref refid="act-2007-093" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Local Court Act 2007</i></name></legref> may make rules for
+or with respect to regulating the practice and procedures of the Local Court
+in proceedings under this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 38:</b> Am 2007 No 94,
+Schs 1.1, 7.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.39">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_89cc844a-b870-40fd-9031-48d3033b663d"></attrib>
+<attrib name="id" value="sec.39"></attrib></parentattributes>
+
+<head>
+<no>39</no><heading guid="_ccf937a2-7098-43f4-8fc1-80c271da5e5c"
+id="sec.39-he"><b>Savings, transitional and other
+provisions</b></heading></head>
+<block><txt break.before="1">Schedule 1 has effect.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 39:</b> Rep 2003 No 82,
+Sch 3. Ins 2008 No 72, Sch 2.1 [3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.40">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c6220853-bd7c-4c67-9d45-78565a9bf609"></attrib>
+<attrib name="id" value="sec.40"></attrib></parentattributes>
+
+<head>
+<no>40</no><heading guid="_1be0ab81-c151-4ae1-b58a-f4bb0b493a9e"
+id="sec.40-he"><b>Review of Act</b></heading></head>
+
+<tier type="subclause" id="sec.40-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2c2e8f8a-c25d-4a74-ad53-425b5be6e97f"></attrib>
+<attrib name="id" value="sec.40-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister is to review this Act to determine
+whether the policy objectives of the Act remain valid and whether the terms of
+the Act remain appropriate for securing those
+objectives.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.40-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_152cad10-1238-435a-bd1c-4e752a91ea2a"></attrib>
+<attrib name="id" value="sec.40-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The review is to be undertaken as soon as
+possible after the period of 5 years from the date of assent to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.40-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d751c08e-279e-4841-aa7d-0d03ea941acc"></attrib>
+<attrib name="id" value="sec.40-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A report of the outcome of the review is to be
+tabled in each House of Parliament within 12 months after the end of the
+period of 5 years.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9eaa16ce-1e8a-4309-8abe-f6a83505a8ba"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_1757e903-8827-41a8-afea-691aa3fe3b6e" id="sch.1-he"><b>Savings,
+transitional and other provisions</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 39)</txt></block>
+
+<level type="part" id="sch.1-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_533dbec4-cf83-4889-b91c-6571c772ffb7"></attrib>
+<attrib name="id" value="sch.1-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_867aa5b0-77c7-4069-9094-1bc040ceff5c"
+id="sch.1-pt.1-he"><b>General</b></heading></head>
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cc04fdc9-c06f-40a3-b492-94ebe18f58f5"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_aaed28b0-dcc5-4f22-9ad4-db889d30294c"
+id="sch.1-sec.1-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2f6d38e2-cf75-43fb-9531-6aaf919f8ebe"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of the following
+Acts:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a0a7729e-231f-4522-ac58-8ebc0ea84ce7" id="sch.1-sec.1-ssec.1-para1">
+<block><txt break.before="1"><legref refid="act-2008-072" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Dividing Fences and Other
+Legislation Amendment Act 2008</i></name></legref> (but only to the extent to
+which it amends this Act)</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a0c5a13e-fb02-4785-b4a0-df1cd32c5f16"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such provision may, if the regulations so
+provide, take effect from the date of assent to the Act concerned or a later
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b31bc3a5-8205-420a-8d0a-d623d628d174"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication in the
+Gazette, the provision does not operate so as:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_74bb0404-6cca-4204-b86d-678fd60e05b3" id="sch.1-sec.1-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fcbc3de5-f853-483b-9e53-91b08097fb2f" id="sch.1-sec.1-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="sch.1-pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_edc06e4b-2234-4c51-9365-edbed566122c"></attrib>
+<attrib name="id" value="sch.1-pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_e11b534f-a740-44bf-acad-7cc2b2068455"
+id="sch.1-pt.2-he"><b>Provision consequent on enactment of <legref
+refid="act-2008-072" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Dividing Fences and Other Legislation Amendment Act
+2008</i></name></legref></b></heading></head>
+
+<level type="clause" id="sch.1-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_02589c05-11fc-4214-924e-0ee68df606f6"></attrib>
+<attrib name="id" value="sch.1-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_cf5975de-34af-4324-85d5-358d16b1d343"
+id="sch.1-sec.2-he"><b>Costs</b></heading></head>
+<block><txt break.before="1">Section 27 (1) and (2) (a), as substituted by the
+<legref refid="act-2008-072" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Dividing Fences and Other Legislation Amendment Act
+2008</i></name></legref>, extend to an application for an access order made
+before the substitution of those provisions, but not so as to affect any
+determination of the Local Court made before that
+substitution.</txt></block></level>
+</level>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Rep 2003 No
+82, Sch 3. Ins 2008 No 72, Sch 2.1 [4].</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_72dfaeee-529b-4130-84e6-d22dd753d5b8"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_45189d1d-7123-494c-9c9f-848f62b69278"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-2000-002" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Access to Neighbouring Land
+Act 2000</i></name> No 2</legref>. Assented to 1.5.2000. Date of commencement,
+1.1.2001, sec 2 and GG No 162 of 15.12.2000, p 13168. This Act has been
+amended as follows:</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_19719cd7-7a1b-4840-8092-9da816f5f06c" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_b3c018e0-00c6-4736-b5c4-689b908ddeef" id="ed-tbl-tblr">
+<entry colname="1" guid="_b484aa9f-e7f8-48f3-8af6-5f51d875a957"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>2000</b></txt></entry>
+<entry colname="2" guid="_ea58a9c1-922e-4f87-8dfc-7afbbc24232b"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 93</txt></entry>
+<entry colname="3" guid="_f0bff4c2-806d-4e32-8aac-758aa580de8c"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref refid="act-2000-093" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2000</i></name></legref>. Assented to 8.12.2000.</txt>
+<txt break.before="1">Date of commencement of Sch 1.1, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_b63781ea-4e35-4424-9806-10b2184054fb" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_8cf2e439-2865-4a07-aaba-936b57a7038e"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>2001</b></txt></entry>
+<entry colname="2" guid="_50bfc1f3-e84c-4822-9685-182e97ac101e"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 121</txt></entry>
+<entry colname="3" guid="_7eaa2032-b178-4b16-add3-b3004dce3702"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref refid="act-2001-121" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Justices Legislation Repeal
+and Amendment Act 2001</i></name></legref>. Assented to 19.12.2001.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 7.7.2003, sec 2 and GG No
+104 of 27.6.2003, p 5978.</txt></block></entry></row>
+
+
+<row guid="_41cc0783-ed01-439d-8324-7e9729c3b40c" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_a182de85-70a8-4bce-ad8a-738bd40a092e"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>2003</b></txt></entry>
+<entry colname="2" guid="_87205827-7a6a-42a8-864e-247162649ac1"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 82</txt></entry>
+<entry colname="3" guid="_42a80b43-3613-494d-8563-9ba2a408e731"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref refid="act-2003-082" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2003</i></name></legref>. Assented to
+27.11.2003.</txt>
+<txt break.before="1">Date of commencement of Sch 3, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_17452291-006e-40ca-90e3-81111201a154" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_4130a691-6485-4e1d-a76d-a3bfeaaa4a38"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>2006</b></txt></entry>
+<entry colname="2" guid="_708bdd36-fe30-47f8-bd62-93972d0edc59"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 120</txt></entry>
+<entry colname="3" guid="_359c8d94-6742-49e0-8ff0-5c76d4616cc1"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref refid="act-2006-120" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2006</i></name></legref>. Assented to 4.12.2006.</txt>
+<txt break.before="1">Date of commencement of Sch 2, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_2ec84c7a-271d-4cce-9fa0-d0077dda7238" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_356f191b-573a-4df5-80f1-5535ef0da345"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>2007</b></txt></entry>
+<entry colname="2" guid="_e8da4a2d-ac0b-447d-b885-41d59fed89bf"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 94</txt></entry>
+<entry colname="3" guid="_ea9abfb6-5319-4cf3-afa7-2b95fe88dbee"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref refid="act-2007-094" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Local
+Court) Amendment Act 2007</i></name></legref>. Assented to 13.12.2007.</txt>
+<txt break.before="1">Date of commencement of Schs 1.1, 2, 3 and 7, 6.7.2009,
+sec 2 and 2009 (314) LW 3.7.2009.</txt></block></entry></row>
+
+
+<row guid="_0112f718-30f6-4397-bd3a-ca83c9932986" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_6d7ed7df-22f8-4483-a066-b560c7bb77fa"
+id="ed-tbl-tblr-oc.6-tble1"><txt break.before="1"><b>2008</b></txt></entry>
+<entry colname="2" guid="_4ef36388-c159-4d18-85d7-dc11a63617b7"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">No 72</txt></entry>
+<entry colname="3" guid="_e03db963-9701-40b0-913f-3d9cf3552209"
+id="ed-tbl-tblr-oc.6-tble3">
+<block><txt break.before="1"><legref refid="act-2008-072" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Dividing Fences and Other
+Legislation Amendment Act 2008</i></name></legref>. Assented to
+28.10.2008.</txt>
+<txt break.before="1">Date of commencement, 1.2.2009, sec 2 and GG No 20 of
+23.1.2009, p 392.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_b37cfab5-24fd-4b04-b034-276139b23f21"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_7a312c27-38e4-4850-9ba2-431abe7c87b9" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_cf0a74f2-28c7-460b-9788-c0fcd2056147" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_aeeeaf8e-5234-420e-9631-9aaab86de2ec"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 5</txt></entry>
+<entry colname="2" guid="_526ad2d3-595d-4ba2-ac6f-c72c4d85c534"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 2000 No 93, Sch 1.1
+[1].</txt></entry></row>
+
+
+<row guid="_c2c6160e-8b7a-43bf-a81c-2bcd2c3ee9b9" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_d2bf8247-4b8f-4b09-b2b3-9efa454b07f6"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 6</txt></entry>
+<entry colname="2" guid="_9adef551-7d5f-4f61-9d78-e2cde0f19e74"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 2006 No 120, Sch 2.1
+[1].</txt></entry></row>
+
+
+<row guid="_a9e12fde-174d-42b1-8dd4-211686ae8d24" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_28837ae1-6988-4f4c-86bd-0c1a3e1bb064"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 7</txt></entry>
+<entry colname="2" guid="_bd591295-8bb0-4911-877b-b6c0f4509e56"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Am 2000 No 93, Sch 1.1
+[2]; 2007 No 94, Sch 2.</txt></entry></row>
+
+
+<row guid="_7900c853-5151-477e-b006-1b5f6de04eb8" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_86b21ca6-be74-457b-b4ea-f805dba85757"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 8</txt></entry>
+<entry colname="2" guid="_0bab0d07-cbe4-42c8-a404-3fc8b0fe0fb4"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Am 2000 No 93, Sch 1.1
+[3]; 2007 No 94, Sch 2.</txt></entry></row>
+
+
+<row guid="_c17b1fa5-9141-4d46-84ea-00ada4e61d01" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_c3d9c9fa-118b-40e6-94e7-08268887dfe6"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_5423bc67-91d6-41af-b651-55d7ce4682b8"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Am 2007 No 94, Sch
+2.</txt></entry></row>
+
+
+<row guid="_f22401f0-156c-4d50-ab91-5dc4591c7cdd" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_2b070a78-39ad-434f-ae27-45814cb4acd0"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Secs 11, 13,
+24</txt></entry>
+<entry colname="2" guid="_1571850f-c91d-4ad6-ad35-39443da6f8b3"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Am 2007 No 94, Sch
+3.</txt></entry></row>
+
+
+<row guid="_02c64fd7-78c7-486d-b066-4d9e78768c9d" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_3f3392c8-87f6-4f91-bf21-d9bb6c533b0f"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 26</txt></entry>
+<entry colname="2" guid="_c1d39186-4a20-45a9-a0c1-b4cd3d25e906"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Am 2006 No 120, Sch 2.1
+[2]; 2007 No 94, Schs 2, 3.</txt></entry></row>
+
+
+<row guid="_2434b411-daa0-4098-bc69-15211439fa31" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_d5654f3e-3256-489d-b3e0-c78b32af21ad"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sec 27</txt></entry>
+<entry colname="2" guid="_5f5702b0-6585-485f-b946-df1051488124"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Am 2008 No 72, Sch 2.1
+[1] [2].</txt></entry></row>
+
+
+<row guid="_6bf56c15-a0fc-4284-b60a-b6b53a53bf65" id="ed-tbl-oc.2-tblr-oc.9">
+<entry colname="1" guid="_503e3a05-c483-43f4-aae9-fde1d6a29d8a"
+id="ed-tbl-oc.2-tblr-oc.9-tble1"><txt break.before="1">Sec 28</txt></entry>
+<entry colname="2" guid="_f2df9801-85bc-4635-af4b-d3e7538c3e03"
+id="ed-tbl-oc.2-tblr-oc.9-tble2"><txt break.before="1">Am 2006 No 120, Sch 2.1
+[2]; 2007 No 94, Sch 2.</txt></entry></row>
+
+
+<row guid="_6445fd98-1d4d-45d6-b0e9-8e3290c55088"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry colname="1" guid="_86f3e82f-b043-462e-8a17-38072dbd9519"
+id="ed-tbl-oc.2-tblr-oc.10-tble1"><txt break.before="1">Sec 29</txt></entry>
+<entry colname="2" guid="_2d3a6366-788c-4f69-9a61-20f29859a373"
+id="ed-tbl-oc.2-tblr-oc.10-tble2"><txt break.before="1">Am 2006 No 120, Sch
+2.1 [2]; 2007 No 94, Schs 2, 3.</txt></entry></row>
+
+
+<row guid="_36ce3b66-b624-4574-88a7-e73741c2a36d"
+id="ed-tbl-oc.2-tblr-oc.11">
+<entry colname="1" guid="_b2c25b81-4bc7-4e56-9b7d-e0b5bb8a63ff"
+id="ed-tbl-oc.2-tblr-oc.11-tble1"><txt break.before="1">Secs 30,
+31</txt></entry>
+<entry colname="2" guid="_2a6fdbe6-7dbc-4f8b-ba43-866d9be7fe0c"
+id="ed-tbl-oc.2-tblr-oc.11-tble2"><txt break.before="1">Am 2007 No 94, Sch
+2.</txt></entry></row>
+
+
+<row guid="_77bb22c9-748f-4c40-b7ac-eb8d2e124e99"
+id="ed-tbl-oc.2-tblr-oc.12">
+<entry colname="1" guid="_fb661da7-8b96-4fd4-a548-85c871373103"
+id="ed-tbl-oc.2-tblr-oc.12-tble1"><txt break.before="1">Sec 37</txt></entry>
+<entry colname="2" guid="_dd34ca95-c77f-4679-a9e6-0b81612478b1"
+id="ed-tbl-oc.2-tblr-oc.12-tble2"><txt break.before="1">Am 2001 No 121, Sch
+2.2; 2007 No 94, Sch 2.</txt></entry></row>
+
+
+<row guid="_d622bbf3-b9c0-4b71-828c-a2e618c0ec4a"
+id="ed-tbl-oc.2-tblr-oc.13">
+<entry colname="1" guid="_48074156-7957-4dae-99a8-face54cec1cd"
+id="ed-tbl-oc.2-tblr-oc.13-tble1"><txt break.before="1">Sec 38</txt></entry>
+<entry colname="2" guid="_15f71b4c-839b-4d58-982d-066bdeebc965"
+id="ed-tbl-oc.2-tblr-oc.13-tble2"><txt break.before="1">Am 2007 No 94, Schs
+1.1, 7.</txt></entry></row>
+
+
+<row guid="_4642eaeb-c29a-42f4-9f1e-d8d2776f17ba"
+id="ed-tbl-oc.2-tblr-oc.14">
+<entry colname="1" guid="_5957c7c5-a1f7-4222-955b-d88ace0c13bf"
+id="ed-tbl-oc.2-tblr-oc.14-tble1"><txt break.before="1">Sec 39</txt></entry>
+<entry colname="2" guid="_89c97ae8-6f9c-4dad-b184-7b74df953edf"
+id="ed-tbl-oc.2-tblr-oc.14-tble2"><txt break.before="1">Rep 2003 No 82, Sch 3.
+Ins 2008 No 72, Sch 2.1 [3].</txt></entry></row>
+
+
+<row guid="_ebfce332-eb61-4e3e-aef7-16fbe17bba9d"
+id="ed-tbl-oc.2-tblr-oc.15">
+<entry colname="1" guid="_b8317b8b-8967-4e30-9c12-f120f1671d5d"
+id="ed-tbl-oc.2-tblr-oc.15-tble1"><txt break.before="1">Sch 1</txt></entry>
+<entry colname="2" guid="_f510e854-31d7-47eb-ae94-49596dc921ff"
+id="ed-tbl-oc.2-tblr-oc.15-tble2"><txt break.before="1">Rep 2003 No 82, Sch 3.
+Ins 2008 No 72, Sch 2.1 [4].</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

@@ -1,0 +1,3432 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1980-065"
+title="Art Gallery of New South Wales Act 1980"
+year="1980"
+number="65"
+enact.or.made.date="1980-04-28"
+first.valid.date="2025-10-01"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1980</metacontent>
+<metacontent class="year.assent">1980</metacontent>
+<metacontent class="publication.date">2025-10-01</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2025-039</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1980-065</metacontent>
+<metacontent
+class="version.desc.id">44836199-40dd-4321-8b67-ae8a70dd3965</metacontent>
+<metacontent
+class="version.series.id">fd29e9ae-618c-4dc0-a461-ca2ee37677f8</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Art Gallery of New South Wales Act
+1980"></attrib>
+<attrib name="year.passed" value="1980"></attrib>
+<attrib name="year.assent" value="1980"></attrib>
+<attrib name="no" value="65"></attrib>
+<attrib name="publication.date" value="2025-10-01"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2025-039"></attrib>
+<attrib name="first.valid.date" value="2025-10-01"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1980-04-28"></attrib>
+<attrib name="id" value="act-1980-065"></attrib>
+<attrib name="version.desc.id"
+value="44836199-40dd-4321-8b67-ae8a70dd3965"></attrib>
+<attrib name="version.series.id"
+value="fd29e9ae-618c-4dc0-a461-ca2ee37677f8"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_7e31f41d-295a-4038-b05c-97c3d0836044"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_615df59a-a02b-43d0-bb8e-d822e07d5c26"
+id="cd-status-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+
+
+<tier type="statusrecord" id="cd-status-oc.2">
+<parentattributes>
+<attrib name="guid" value="_79c94169-f22b-468f-81e5-bd24f15604aa"></attrib>
+<attrib name="id" value="cd-status-oc.2"></attrib></parentattributes>
+
+<head><heading guid="_6b455a69-e990-456e-92e0-dc3e48e4ac6c"
+id="cd-status-oc.2-he"><b>Does not include amendments
+by&#8212;</b></heading></head>
+<block><txt break.before="1"><legref refid="act-2006-050" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>State Revenue and Other
+Legislation Amendment (Budget Measures) Act 2006</i></name> No 50</legref>
+(not commenced)</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_1e801cf8-ada1-429b-a89d-b7795c09100c"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to constitute the Art Gallery of New South
+Wales Trust and define its functions; to repeal the <legref jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Art Gallery of New South
+Wales Act 1958</i></name></legref>; to make provision with respect to the
+administration of the Art Gallery; and for certain other
+purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_2c7a2a5b-cc99-4bff-9c22-55d50295304b"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_9466d9d2-8d75-40dd-a685-5a3f5cccb7ec"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2b30f3e0-7b47-43e1-8137-b8c5bec1514c"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_a4759121-efbf-4e54-ad53-527c8e52d5be"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act may be cited as the <legref
+refid="act-1980-065" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Art Gallery of New South Wales Act
+1980</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4dfc9d97-18bb-43cd-a046-7a9865bb7dbd"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_9b06db0a-e77d-4fe5-9d23-96ed7f3d4aca"
+id="sec.2-he"><b>Commencement</b></heading></head>
+
+<tier type="subclause" id="sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c1baa6be-637b-4ba8-8455-90beb8b1aa81"></attrib>
+<attrib name="id" value="sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This section and section 1 shall commence on the
+date of assent to this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_83a07d5c-1e93-4076-a98e-15d4d9f67444"></attrib>
+<attrib name="id" value="sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Except as provided in subsection (1), this Act
+shall commence on such day as may be appointed by the Governor in respect
+thereof and as may be notified by proclamation published in the
+Gazette.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.3" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5b652758-7a6c-44de-8748-6272f170f2e3"></attrib>
+<attrib name="id" value="sec.3"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>3</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Rep 1989 No 132,
+Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d3a790e4-d9ac-43f0-b928-74f5311f9c07"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_4f62224d-3a1e-4fde-8901-401484ef0579"
+id="sec.4-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_81ecd4f7-4b4c-4275-a096-a08736d49403"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act, except in so far as the context or
+subject-matter otherwise indicates or requires&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ff23cc4a-8100-4446-9219-be51300522bd"
+id="sec.4-ssec.1-def.ArtGallery"><b><i>Art Gallery</i></b></defterm> means the
+Art Gallery of New South Wales.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c012f33d-e98a-493a-b73f-0aee2d9338a1"
+id="sec.4-ssec.1-def.bylaws"><b><i>by-laws</i></b></defterm> means by-laws
+made under this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_8f6a71a2-0b0a-4fa0-810f-85b009de6ac0"
+id="sec.4-ssec.1-def.Director"><b><i>Director</i></b></defterm> means the
+person employed in the Public Service as the Director of the Art
+Gallery.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9e530653-9a74-429c-a521-182a81c3d977"
+id="sec.4-ssec.1-def.functions"><b><i>functions</i></b></defterm> includes
+powers, authorities and duties.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a1160ac6-29bc-49a8-b3f0-349f36427558"
+id="sec.4-ssec.1-def.Trust"><b><i>Trust</i></b></defterm> means the Art
+Gallery of New South Wales Trust constituted by section 5.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9e287f7e-2bc4-4af8-9e27-f6bb0d6985bd"
+id="sec.4-ssec.1-def.trustee"><b><i>trustee</i></b></defterm> means a trustee
+referred to in section 6.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0e53a6c8-d216-4fc4-9bf6-0402dd865f6f"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A reference in this Act to the exercise of a
+function includes, where that function is a duty, the performance of that
+duty.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4c6e06da-f792-414b-9149-186d8bb6e9a2"></attrib>
+<attrib name="id" value="sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 2005 No 64,
+Sch 1.3 [1]; 2006 No 2, Sch 4.2 [1]; 2007 No 27, Sch 2.1; 2015 No 15, Sch 3.1
+[1].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_ecd45a04-036f-4ba7-9882-de51dbe79af9"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_78046a07-cde1-44b0-9525-e47d99ec6588"
+id="pt.2-he"><b>The Art Gallery of New South Wales Trust</b></heading></head>
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e851b003-4b9f-468c-9f08-f61276d9f9dc"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_7dc4969d-719c-405c-9b04-574a09c960aa"
+id="sec.5-he"><b>Constitution of Trust</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_adfdc499-58e2-4b1c-838c-64fc70f14923"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There is hereby constituted a corporation, to be
+known as the &#8220;Art Gallery of New South Wales
+Trust&#8221;.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_14fb4901-907f-4049-ab97-6230c51d9356"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Trust shall have and may exercise the
+functions conferred or imposed on it by or under this or any other Act or
+law.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bb16b408-c07a-4d0e-b010-9e683592d0db"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_48d25336-5629-44c8-825b-3d585233fe51"
+id="sec.6-he"><b>Appointment and procedure</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1314d4fe-417f-433f-ad86-2fe68ac82119"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust consists of 12 trustees appointed by
+the Governor on the recommendation of the Minister.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.6-ssec.1A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6c42e00b-1707-499c-ba64-5ee88e3d15b9"></attrib>
+<attrib name="id" value="sec.6-ssec.1A"></attrib></parentattributes>
+
+<head>
+<no>(1A)</no></head>
+<block><txt break.before="1">The trustees of the Trust must
+include&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5e6fb341-8a5c-4389-b76e-c215b48592aa" id="sec.6-ssec.1A-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">at least 2 persons who have knowledge of, and
+experience in, the visual arts, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_258f5ca6-585c-4390-9430-a4dab2b3d517" id="sec.6-ssec.1A-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">at least one young
+person.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_529f8e38-0dac-4d49-9434-fdfb2323ebb8"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Schedule 1 has effect.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_34bf6e6c-3d15-47a4-9894-56311529ccbd"></attrib>
+<attrib name="id" value="sec.6-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c209ee08-71b5-4963-9bb8-569e1f731b6d"
+id="sec.6-ssec.3-def.youngperson"><b><i>young person</i></b></defterm> means a
+person who, at the time of appointment as a trustee, is&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f860d582-259d-4429-aa96-eb7455bc16b5" id="sec.6-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">at least 18 years of age, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5a58aeb4-0120-40d1-a452-c7e69de87c62" id="sec.6-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">not more than 28 years of
+age.</txt></block></li></list>
+</block></deflist>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 6:</b> Am 2001 No 56,
+Sch 1.1 [1]; 2025 No 39, Sch 1[1] [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_debc57ae-6f5f-4109-aa2a-413c4e268f98"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_2f55ce4a-fcf1-425b-8cd5-e041074dacdf"
+id="sec.7-he"><b>Principal objects of Trust</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_393ca34a-9173-4c62-8728-5dbd6fa57ff6"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The principal objects of the Trust
+are&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c3c91648-822d-4b50-a1ba-ef256874c5d7" id="sec.7-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to develop and maintain a collection of works of
+art, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ea0fea8c-4480-45b3-81e5-506621980661" id="sec.7-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to propagate and increase knowledge and
+appreciation of art.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_82b7fd0d-ba3a-4de8-a7d2-6bffca9ec602"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">When acting in pursuance of its objects, the
+Trust shall give particular emphasis to the visual art of Australia and Asian
+or Pacific countries whose cultural traditions are of special interest to
+Australia.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 7:</b> Am 1985 No 231,
+Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_91b72057-b174-436a-a307-3c0991b74cea"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_0d0e0e52-45e8-4009-b56b-84df952d5276"
+id="sec.8-he"><b>Powers of Trust</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1d87358d-afc5-4920-a14d-a3c7c238c717"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust may&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5c5d6712-21fd-4980-b463-648fd8a9a27e" id="sec.8-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">maintain, or make arrangements for the
+maintenance of, Trust property or property in the custody of the Trust and, in
+pursuance of its objects, acquire works of art and other
+property,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4d7e19b6-dfc4-496e-be38-f7795f99033c" id="sec.8-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">promote and provide exhibitions, lectures, films,
+publications and other educational or cultural instruction or
+materials,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_538eea98-ad20-400d-b5ad-e3899b08bb81" id="sec.8-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">provide professional advice and services to the
+public or to any person or body with respect to any matter concerning art or
+works of art and their maintenance and preservation,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_367d13f1-f56f-4535-a5e9-d36c365c2afc" id="sec.8-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">subject to any conditions the Trust imposes,
+permit the use of any part of the Art Gallery or any branch thereof for
+activities of an educational or cultural nature, for social functions, State
+occasions or charitable or other promotional activities or for the holding of
+conferences or meetings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b32649e8-0a07-4de9-9ce1-a37a0b600302" id="sec.8-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">permit the use of the Art Gallery or any branch
+thereof for the taking of photographs, the making of films or sound recordings
+and the production of television or radio programmes or
+material,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2a3cce77-b316-432c-b872-252fd3c753c9" id="sec.8-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">in the Art Gallery or any branch thereof,
+provide, or permit the provision of, food or other refreshments and apply for,
+hold or dispose of any licence, permit or other authority in connection
+therewith,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0f9e9a48-2782-4b2c-b12a-e5665aeac77d" id="sec.8-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">engage and enter into contracts with artists,
+entertainers, lecturers and performers&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6aa690c8-8459-4b2b-9a20-bfcedfd17a2e"
+id="sec.8-ssec.1-para1.g-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">to appear at the Art Gallery or any branch
+thereof, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_480d3094-3c67-4a8e-98f9-74ccd73d2666"
+id="sec.8-ssec.1-para1.g-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">in connection with any service provided under
+this section or otherwise in pursuance of the objects of the
+Trust,</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_15f41e68-7370-4b2c-bc57-04fdb0c07092" id="sec.8-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">charge and receive fees or other amounts for or
+in connection with any advice or service provided, article sold or permission
+given by the Trust in its exercise of any of the functions conferred on it by
+this section, which fees and other amounts shall be the property of the
+Trust,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a72d9c9a-e789-43d9-b6a5-978eb51bcde8" id="sec.8-ssec.1-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">lend works of art to, or borrow works of art
+from, art galleries or museums for exhibition, upon such conditions as may be
+agreed to, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_76050ca6-3a88-40c3-b705-4461c1939d98" id="sec.8-ssec.1-para1.j">
+<no>(j)</no>
+<block><txt break.before="1">enter into any contract or arrangement with any
+person for the purpose of carrying out or promoting the objects of the
+Trust.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9062fab5-e64e-4d02-aba4-029b09118b7b"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subject to this Act and the by-laws, the Trust
+shall have the control and management of the Art Gallery and of all property
+vested in the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_eb52ee00-9ea9-4bb6-8bd1-0d2091152b3f"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Trust may agree to the imposition of any
+condition on its acquisition of any property, except where the condition is
+inconsistent with its objects.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_51ecd340-93a3-4314-a4e9-94a1767f1c2b"></attrib>
+<attrib name="id" value="sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Where, by gift inter vivos, devise or bequest,
+the Trust acquires property, it may retain the property in the form in which
+it is acquired, subject to any condition agreed to by the Trust under
+subsection (3) in relation to the property.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.8-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_df262c79-1a7c-47ba-b89c-b6bebdf67494"></attrib>
+<attrib name="id" value="sec.8-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The rule of law against remoteness of vesting
+does not apply to a condition to which the Trust has agreed under subsection
+(3).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_27f84d15-8bde-440c-b46b-f4c88385ae10"></attrib>
+<attrib name="id" value="sec.8-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">The <legref refid="act-1997-123" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Duties Act
+1997</i></name></legref> does not apply to or in respect of any gift inter
+vivos, devise or bequest made or to be made to the
+Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3412e7a6-eeb4-40cf-85d7-ed6581be53f3"></attrib>
+<attrib name="id" value="sec.8-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">The Trust may establish such committees as it
+thinks fit for the purpose of assisting it to exercise its
+functions.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e69e9d00-a2f1-4efe-b2d5-912c149bc237"></attrib>
+<attrib name="id" value="sec.8-ssec.8"></attrib></parentattributes>
+
+<head>
+<no>(8)</no></head>
+<block><txt break.before="1">A person may be appointed to a committee whether
+or not the person is a trustee.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1760e102-d02d-4ef3-a04d-910789963115"></attrib>
+<attrib name="id" value="sec.8-ssec.9"></attrib></parentattributes>
+
+<head>
+<no>(9)</no></head>
+<block><txt break.before="1">The trust may establish, control and manage
+branches or departments of the Art Gallery.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8dbd27ce-453d-41d6-82a4-53eed78639e9"></attrib>
+<attrib name="id" value="sec.8-ssec.10"></attrib></parentattributes>
+
+<head>
+<no>(10)</no></head>
+<block><txt break.before="1">The Trust shall have and may exercise such
+functions, in addition to those specified in this section, as are reasonably
+necessary for the attainment of its objects, but may borrow money only in
+accordance with Part 4.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_547516ca-afc7-4d34-954c-3dc7dc021cec"></attrib>
+<attrib name="id" value="sec.8-ssec.11"></attrib></parentattributes>
+
+<head>
+<no>(11)</no></head>
+<block><txt break.before="1">However, the Trust cannot employ any
+staff.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 8:</b> Am 2005 No 64,
+Sch 1.3 [2]; 2006 No 2, Sch 4.2 [2]; 2015 No 15, Sch 3.1 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7898e4a0-9444-4431-be25-7f02656b4ac9"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_b5251397-53b8-4520-a67d-63aaa72fb0ab"
+id="sec.9-he"><b>Dealings with property</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9056dd20-467f-4269-b285-1ffdb145c1a2"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_12b5eb61-f057-479a-94e9-85d3807c3514"
+id="sec.9-ssec.1-def.condition"><b><i>condition</i></b></defterm> means a
+condition to which the Trust has agreed under section 8
+(3).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2e43703d-430f-4cac-b236-75bf1027f270"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subject to subsection (3), the Trust shall not
+sell, mortgage, demise or otherwise dispose of any property acquired by gift
+inter vivos, devise or bequest or any real property otherwise acquired,
+except&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ba8c40c1-edd8-421d-a779-3db31f580c04" id="sec.9-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">where the property was acquired without any
+condition&#8212;with the approval of the Governor (which may be given in
+respect of any case or class of cases), or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d6ab21dd-acdb-4097-8a2a-bfe2902ef35c" id="sec.9-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">where the property was acquired subject to a
+condition&#8212;in accordance with the condition or section
+10.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f9a4eecb-4ffd-4feb-b4e6-d51668223fd9"></attrib>
+<attrib name="id" value="sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Subject to section 8 (4), and except to the
+extent that it would be in breach of a condition, the Trust shall invest any
+of its funds not immediately required for the purposes of the Trust in any
+manner authorised by law for the investment of trust
+funds.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_edd609a0-af59-40ad-aadc-a1fd282452b9"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_56136c74-43c6-4baf-9d7a-7ec6d4a897c3"
+id="sec.10-he"><b>Disposal of certain property</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_95df21db-9872-4ca9-bf9d-2ba008429e6b"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Subject to subsection (2), where the Trust
+resolves that any property that has been acquired by the Trust subject to a
+condition to which the Trust has agreed under section 8 (3) is not required
+for the purposes of the Trust, the Trust may&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_087c67ab-62e2-47f8-8d53-86ab3655e2b8" id="sec.10-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">sell the property and retain the proceeds of the
+sale as property of the Trust,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9d428215-48ee-4d20-8d10-a735a2e6ef2f" id="sec.10-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">exchange the property for other
+property,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dea1f6cd-3f09-4108-8df2-2735c81ec1c5" id="sec.10-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">give the property to an educational institution
+(including an art gallery), or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b5b4731d-087d-43a1-b76e-cbce0d7dd4be" id="sec.10-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">if the Trust is of the opinion that the property
+is of no commercial value&#8212;dispose of the property without valuable
+consideration,</txt></block></li></list>
+
+<txt break.before="1">notwithstanding the condition subject to which the
+property was acquired.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bd14c52f-0a9b-4a2c-98ea-270d2de33a31"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Trust shall not sell, exchange, give or
+dispose of any property under subsection (1) except with the consent of the
+Governor and in accordance with any condition the Governor may impose upon the
+grant of his or her consent.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_187aa696-cee5-40de-bf13-eaa131c1351c"></attrib>
+<attrib name="id" value="sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Governor may consent to the sale, exchange,
+gift or disposal of property for the purposes of this section and may impose
+any condition he or she thinks fit upon the grant of his or her
+consent.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 10:</b> Am 2005 No 64,
+Sch 1.3 [3].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_bf8193b0-4a3d-4ec2-b45a-ea530ea76935"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_b156ba87-c79c-44ea-9714-5fb132c905fa"
+id="pt.3-he"><b>Administration</b></heading></head>
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0f56ae82-3b0a-40ec-9b56-b43227316af0"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_b54ccc5a-3459-48ac-ab18-7c9cf0ee6ca8"
+id="sec.11-he"><b>Staff</b></heading></head>
+<block><txt break.before="1">Persons may be employed in the Public Service
+under the <legref refid="act-2013-040" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref> to enable the Trust to exercise its
+functions.</txt></block>
+<note type="legtext" guid="_3743ddcc-34ab-4612-bd8e-1c31ab688da0"
+id="sec.11-note"><heading guid="_d1544262-9df7-4bcb-8d3a-5eb1dccdac68"
+id="sec.11-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">Section 59 of the <legref refid="act-2013-040"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Government
+Sector Employment Act 2013</i></name></legref> provides that the persons so
+employed (or whose services the Trust makes use of) may be referred to as
+officers or employees, or members of staff, of the
+Trust.</txt></block></note>
+
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Am 1989 No 132,
+Sch 2. Subst 2005 No 64, Sch 1.3 [4]. Rep 2006 No 2, Sch 4.2 [3]. Ins 2015 No
+15, Sch 3.1 [3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2fcb56f5-3dc3-4526-957a-bfd6dbb47702"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_47f89540-7b68-41ea-a8bf-9a4f86004623"
+id="sec.12-he"><b>Director</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bfece3b0-aaba-42d4-8689-838481d99b74"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Director is responsible for the
+administration and management of the Art Gallery and any services provided in
+conjunction therewith.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6bd52351-f184-4874-949a-4495f8dc864c"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Director shall be the chief executive officer
+of the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5bafde10-cbde-4bb8-970c-6b4b211bcca8"></attrib>
+<attrib name="id" value="sec.12-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Director is, in the exercise of his or her
+functions under this Act, responsible to the Trust.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2cb75faf-471d-4e7c-8cab-8dcb36cb9894"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_813c73e9-9228-4521-b3e6-d73f8b6ad830"
+id="sec.13-he"><b>Delegation by Trust</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_18bba91d-30c7-4900-a93c-11402f51294c"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust may, by instrument in writing, delegate
+to a trustee or to an authorised person the exercise of such of its functions
+(other than this power of delegation) as are specified in the instrument of
+delegation and may, by a like instrument, revoke wholly or partly any such
+delegation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a446f68c-e177-4541-841e-f8644db97c55"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A delegation under this section may be made
+subject to such conditions or such limitations as to the exercise of any of
+the functions delegated, or as to time or circumstances, as are specified in
+the instrument of delegation.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.13-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_880f182a-b4af-474f-b99a-37fc61b9c2a2"></attrib>
+<attrib name="id" value="sec.13-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A function the exercise of which has been
+delegated under this section may, while the delegation remains unrevoked, be
+exercised from time to time in accordance with the terms of the
+delegation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_62e9353d-316f-45dc-98af-80e2ca5d01d3"></attrib>
+<attrib name="id" value="sec.13-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Notwithstanding any delegation under this
+section, the Trust may continue to exercise all or any of the functions
+delegated.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c8298770-c089-4264-b079-88d2aa172b5b"></attrib>
+<attrib name="id" value="sec.13-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Any act or thing done or suffered by a delegate
+under this section has the same force and effect as if the act or thing had
+been done or suffered by the Trust and shall be deemed to have been done or
+suffered by the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0146b860-818c-480c-bfe0-a283cea829ef"></attrib>
+<attrib name="id" value="sec.13-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_5f421aed-9971-46aa-9977-9d499d020b91"
+id="sec.13-ssec.6-def.authorisedperson"><b><i>authorised
+person</i></b></defterm> means the Director or a member of staff of the
+Trust.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 13:</b> Am 2006 No 2,
+Sch 4.2 [4] [5]; 2015 No 15, Sch 3.1 [4].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_53674c25-13f9-4cb6-b454-299ae39953b4"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_b1148dac-f324-40aa-b2b3-ff7739f56498"
+id="pt.4-he"><b>Finance</b></heading></head>
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6a701bc7-f723-4f02-b3de-8cc3606bddb1"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_67d8a191-b897-42c6-b897-c288139d39fd"
+id="sec.14-he"><b>Endowment</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6b4ea224-91cf-40c8-aaf3-b5d5dc6ba6af"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purpose of providing a statutory fund to
+be applied by the Trust towards&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ccccaa37-d9f0-4c4f-b729-f2f09065825c" id="sec.14-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the purchase and acquisition of works of
+art,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_17ce4717-c044-4298-b66c-730f1216d8c5" id="sec.14-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the remuneration, if any, to be paid under clause
+5 of Schedule 1 to trustees, deputies of trustees and members of committees
+established under section 8 (7) who are not trustees, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5350f762-b5da-46a1-adb3-3bc53b00fb63" id="sec.14-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">subject to subsection (2), other expenditure
+incurred by the Trust,</txt></block></li></list>
+
+<txt break.before="1">there shall be paid by the Treasurer to the Trust an
+annual endowment of such amount as Parliament approves.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c6367d59-e522-49b6-8d31-a7399475ebf9"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The statutory fund referred to in subsection (1)
+may not be applied towards&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6776728e-ce44-4049-b5de-aaab3dd71f0a" id="sec.14-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the remuneration of members of staff of the
+Trust, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aa95759d-5aa8-4789-80ce-65dbe4cfbc82" id="sec.14-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">general operating expenses, including those
+related to the maintenance of any property of the
+Trust.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0d852afa-85c5-45d5-a63d-d8333469e6b6"></attrib>
+<attrib name="id" value="sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The annual endowment referred to in subsection
+(1) shall be paid by such instalments as the Treasurer thinks
+fit.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cb4bf318-3eac-407b-a197-126bd99624a8"></attrib>
+<attrib name="id" value="sec.14-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Any money payable by the Treasurer under this
+section shall be paid out of money provided by
+Parliament.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 14:</b> Am 2006 No 2,
+Sch 4.2 [6]; 2015 No 15, Sch 3.1 [5].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.15" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_afd1e527-eb8b-45a5-8276-6c70020e5f70"></attrib>
+<attrib name="id" value="sec.15"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>15</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 15:</b> Rep GG No 50 of
+18.3.1983, p 1255.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2209c667-bb9b-40d6-9eb1-76230207e2e7"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_7f7fc439-4e42-4f03-ab46-16a2e78f7a9b"
+id="sec.16-he"><b>Trust instruments apply notwithstanding secs 17,
+18</b></heading></head>
+<block><txt break.before="1">The terms of any instrument creating a trust with
+respect to a fund held by the Trust shall have effect notwithstanding sections
+17 and 18.</txt></block></level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cc57f1db-b053-4490-b96a-717c65a8b783"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_bf9da956-2d0b-4c7d-9bdb-ec4e80cf98a2"
+id="sec.17-he"><b>Investment pools</b></heading></head>
+
+<tier type="subclause" id="sec.17-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b5bf99e1-9aa0-4e0a-bfd3-3c28fceaf17f"></attrib>
+<attrib name="id" value="sec.17-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust may establish and maintain one or more
+investment pools for the collective investment of funds held by the Trust
+whether or not those funds are, or any of those funds is, subject to a
+trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e4b92389-98fc-4967-bbd4-c430846a6c57"></attrib>
+<attrib name="id" value="sec.17-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Trust may from time to time bring into or
+withdraw from an investment pool the whole or any part of any fund referred to
+in subsection (1).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c19a4fcd-f66f-4ecc-b02f-63fab7ecd722"></attrib>
+<attrib name="id" value="sec.17-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Notwithstanding subsections (1) and (2), the
+Trust shall not bring into or retain in an investment pool the whole or any
+part of a fund subject to a trust if the investments in which the capital of
+the investment pool is invested are not investments made in accordance with
+and subject to the <legref refid="act-1925-014" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Trustee Act 1925</i></name></legref>
+or any other Act authorising the investment of trust
+funds.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_45e4ccef-464b-42ba-a6f5-6efc639b58b9"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_683212d5-b817-451c-86fd-46b6d04336fa"
+id="sec.18-he"><b>Distribution of income of investment
+pools</b></heading></head>
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_13970787-7fdf-41b2-92e5-a185fb15bcf6"></attrib>
+<attrib name="id" value="sec.18-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust shall, at the time the whole or any
+part of a fund referred to in subsection (2) (a) is withdrawn from an
+investment pool, and, in any event, at least once a year, distribute the
+income of an investment pool.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0a780457-72c6-4b22-bb91-e7dedd1afcc2"></attrib>
+<attrib name="id" value="sec.18-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Where the Trust distributes the income of an
+investment pool under subsection (1)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_75b5e2f7-a882-4182-a276-aaa6d716f91c" id="sec.18-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">it shall, in respect of a fund the subject of a
+trust which specifies that the income from the investment of that fund shall
+be applied for a purpose other than the general purposes of the Art Gallery,
+credit the income of that investment pool to the account kept by it in respect
+of that fund proportionately according to the value of that fund or part at
+the date of distribution and the period for which that fund or part has formed
+part of the capital of that investment pool, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_86b283cc-c464-4756-ac7b-7bdec8b00f55" id="sec.18-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">it may, in respect of a fund, other than a fund
+referred to in paragraph (a), credit the income of that investment pool to any
+account kept by it.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3e25070c-b607-48a2-82dd-efde589b1a04"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_16ad5f0f-9d7a-4452-9ad6-3692c508d1f1"
+id="sec.19-he"><b>Nature of funds not affected by
+pooling</b></heading></head>
+<block><txt break.before="1">The inclusion in an investment pool of the whole
+or any part of a fund held by the Trust does not affect&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_39d4d252-e12a-4320-96f1-587b50b2ef0d" id="sec.19-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the identity of that fund or part,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_317bf7af-1985-4592-9394-a85cbdeada9f" id="sec.19-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any trust to which that fund or part is
+subject.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.20" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_035ce4c4-38c5-4f39-a45c-86a16c110875"></attrib>
+<attrib name="id" value="sec.20"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>20, 21</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 20:</b> Am 1983 No 153,
+Sch 1. Rep 2005 No 64, Sch 1.3 [5].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 21:</b> Rep 1983 No
+153, Sch 1.</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_f0b10be1-f1b0-40cf-b443-5566c3c4099b"></attrib>
+<attrib name="id" value="pt.5"></attrib></parentattributes>
+
+<head>
+<no><b>Part 5</b></no><heading guid="_2f261231-caf6-4421-91b2-356a409fd86c"
+id="pt.5-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.22" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bc159fde-22c1-4323-9930-ac82574c3b1e"></attrib>
+<attrib name="id" value="sec.22"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>22</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 22:</b> Rep 2005 No 64,
+Sch 1.3 [5].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.23">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2d110f94-0acb-4062-a210-33f1e420d812"></attrib>
+<attrib name="id" value="sec.23"></attrib></parentattributes>
+
+<head>
+<no>23</no><heading guid="_21148b26-e2d1-4106-addf-65f7fbbd3baf"
+id="sec.23-he"><b>By-laws</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.23-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_260e373a-ed63-43a5-b968-005ed4377cf7"></attrib>
+<attrib name="id" value="sec.23-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make by-laws, not inconsistent
+with this Act, for or with respect to any matter that by this Act is required
+or permitted to be prescribed or that is necessary or convenient to be
+prescribed for carrying out or giving effect to this Act and, in particular,
+for or with respect to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3d10c3bb-ef2d-4259-a663-e41ba9feafb0" id="sec.23-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">meetings of the Trust,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5b6e9bd5-3402-4961-8960-81c7c8db9e9a" id="sec.23-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">committees of the Trust,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c68d7278-138d-4ecb-bff8-f6067c45bb98" id="sec.23-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the conditions upon which works of art or other
+property of the Trust may be borrowed, inspected or copied by any
+person,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d2c55619-941c-4d55-8828-9a5eae502f6b" id="sec.23-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the admission (including charges therefor) of the
+public or any person to the Art Gallery or any part thereof or any branch or
+part thereof or any exhibition held by the Trust,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_df8449f1-2fd3-4178-8cfb-0fd7f577832b" id="sec.23-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the exclusion of the public or any person from
+the Art Gallery or any part thereof or any branch or part thereof or any
+exhibition held by the Trust,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bd2a27bf-980b-4021-b68d-f8cf0410dcc5" id="sec.23-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">regulating or prohibiting the parking or movement
+of vehicles upon property of the Trust or land dedicated for the purposes of
+the Art Gallery,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_35a7f632-73d2-4204-a8ca-6f01813d6fb9" id="sec.23-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">regulating or prohibiting the taking of
+photographs by the public or by any person in the Art Gallery or any part
+thereof or any branch or part thereof or in any place where an exhibition is
+held by the Trust, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_29ed014c-4fc5-4a46-b878-2dcedf28fc2d" id="sec.23-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">the fees or other amounts to be charged for or in
+connection with any advice or service provided, article sold or permission
+given by the Trust.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.23-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_da38ca4f-940d-4028-b34a-c5a56eea6f54"></attrib>
+<attrib name="id" value="sec.23-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A provision of a by-law may&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d060a63a-be75-4386-b47f-42042f2014df" id="sec.23-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">apply differently according to such factors as
+are specified in the by-law, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d6aa189b-a925-4cfc-9e1d-c25469cb35d8" id="sec.23-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">authorise any matter or thing to be from time to
+time determined, applied or regulated by any person specified
+therein.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9d3e1638-6187-4f1c-aa3b-66fe1f4f9a88"></attrib>
+<attrib name="id" value="sec.23-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A provision of a by-law may impose a penalty not
+exceeding 5 penalty units for a breach of the by-law.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_940203ad-f1ac-4085-9171-b8276a8c4f8c"></attrib>
+<attrib name="id" value="sec.23-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Proceedings for an offence against a by-law are
+to be dealt with summarily before the Local Court.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 23:</b> Am 1989 No 132,
+Sch 2; 1993 No 47, Sch 1; 2001 No 121, Sch 2.18; 2007 No 94, Sch
+2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.24">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_117d2933-41d5-4864-b2df-8ccdce18c8d8"></attrib>
+<attrib name="id" value="sec.24"></attrib></parentattributes>
+
+<head>
+<no>24</no><heading guid="_53ae335e-c559-480c-b84a-f6ce36c01efc"
+id="sec.24-he"><b>Repeals</b></heading></head>
+<block><txt break.before="1">Each Act specified in Column 1 of Schedule 2 is,
+to the extent specified opposite that Act in Column 2 of that Schedule,
+repealed.</txt></block></level>
+
+
+<level type="clause" id="sec.25">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_13d4f05b-1922-43a8-a994-772ab8115f54"></attrib>
+<attrib name="id" value="sec.25"></attrib></parentattributes>
+
+<head>
+<no>25</no><heading guid="_538d9156-5088-4b1b-b13a-35b2f27f10cc"
+id="sec.25-he"><b>Savings, transitional and other
+provisions</b></heading></head>
+<block><txt break.before="1">Schedule 3 has effect.</txt></block></level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1ba28d16-e2f5-44b1-99d1-b6eab38419b3"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_678039e9-0e22-4a55-9e86-ab141e9ca437" id="sch.1-he"><b>Provisions
+relating to trustees and procedure of the Trust</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Section 6
+(2))</txt></block></pre>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.1" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_354c9676-9c76-4495-82a8-d48e218d7cb5"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>1</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e3428ad1-6842-49d7-a8a5-10b1de703e58"></attrib>
+<attrib name="id" value="sch.1-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_dd9cc2ce-8e70-47e5-8465-3c35116ccbec"
+id="sch.1-sec.2-he"><b>Appointment of deputy</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bcf7f184-cdb6-448a-bc17-97ccc4490a37"></attrib>
+<attrib name="id" value="sch.1-sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In the case of the illness or absence of any
+trustee the Minister may appoint a person as a deputy to act in the place of
+the trustee during his or her illness or absence.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aa566eb5-9bf5-4f52-a18d-ee55b88eb5ce"></attrib>
+<attrib name="id" value="sch.1-sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A deputy appointed under this clause shall, while
+he or she is acting as a deputy, have all the functions of a
+trustee.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.2-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b0f18956-5ab7-42cf-98e9-5073cd9c8de3"></attrib>
+<attrib name="id" value="sch.1-sec.2-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">No person shall be concerned to inquire whether
+or not any occasion has arisen requiring or authorising a person to act in the
+place of a trustee, or as to the necessity or propriety of any appointment of
+a deputy, and all acts and things done or omitted by a deputy when so acting
+shall be as valid and shall have the same consequences as if they had been
+done or omitted by the trustee for whom the deputy is
+acting.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1782c361-a92d-4149-8c35-8cef0e5e9b8f"></attrib>
+<attrib name="id" value="sch.1-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_a770322f-6d33-4fe1-b447-a1e67fcd4380"
+id="sch.1-sec.3-he"><b>Application of <legref refid="act-2013-040"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Government
+Sector Employment Act 2013</i></name></legref></b></heading></head>
+<block><txt break.before="1">The provisions of the <legref
+refid="act-2013-040" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Government Sector Employment Act 2013</i></name></legref>
+relating to the employment of Public Service employees do not apply to a
+trustee.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9d35a3df-520d-48b1-9ebd-c29e04bac423"></attrib>
+<attrib name="id" value="sch.1-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_663d6dcc-3bff-491a-81bc-5edc79957501"
+id="sch.1-sec.4-he"><b>Term of office and casual
+vacancies</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_69ed7a61-3c36-4013-9da5-f05f5e6077df"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The term of office of a trustee shall be, and
+(unless he or she vacates his or her office during his or her term) a trustee
+shall hold office for, such period not exceeding 3 years as may be specified
+in the instrument appointing him or her.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a8995659-1dbc-44fa-b5c3-376e2d9c25d0"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subject to subclause (3) of this clause and to
+clause 1, a trustee whose term of office has expired may be re-appointed as a
+trustee.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f56b7f36-8e8f-4c8b-9dae-949b7fd34d06"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">No trustee shall hold office for 4 consecutive
+terms.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.4-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_de184afc-3a67-4725-a144-17545daa0947"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">On the occurrence of a vacancy in the office of a
+trustee otherwise than by the expiration of his or her term of office, the
+Governor may appoint a person to hold that office for the balance of his or
+her predecessor&#8217;s term of office.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.4-ssec.4A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7bafcbe5-ad75-4e08-9c3b-d9048db5149b"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.4A"></attrib></parentattributes>
+
+<head>
+<no>(4A)</no></head>
+<block><txt break.before="1">For the purposes of subclause (3) only, an
+appointment under subclause (4) does not constitute (and is taken never to
+have constituted) an appointment for a term of office.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.4-ssec.5" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8c1df04c-4ea5-458e-80b6-700a3fb9fed4"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.5"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8fab80c8-7d0a-428c-b2dc-c2b545ab1d73"></attrib>
+<attrib name="id" value="sch.1-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_86c9a587-e2e7-411d-98f8-c34d20908d79"
+id="sch.1-sec.5-he"><b>Allowances for trustees</b></heading></head>
+<block><txt break.before="1">A trustee, a deputy of a trustee and a member of
+a committee established under section 8 (7) who is not a trustee are each
+entitled to be paid such remuneration (including travelling and subsistence
+allowances) as the Minister may from time to time determine in respect of
+them.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e75cf519-4e56-44d1-b18c-ed786f84a5ac"></attrib>
+<attrib name="id" value="sch.1-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_37856c1f-1bb3-4386-aac1-ced4385c441b"
+id="sch.1-sec.6-he"><b>Removal from office</b></heading></head>
+<block><txt break.before="1">The Governor may, for any cause which to the
+Governor seems sufficient, remove a trustee from
+office.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_85cb81cf-d915-4fed-8eb3-7a79f0ffd7b3"></attrib>
+<attrib name="id" value="sch.1-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_77f39c7e-3f5b-4cb8-bb21-1b85296d9ece"
+id="sch.1-sec.7-he"><b>Vacation of office</b></heading></head>
+<block><txt break.before="1">A trustee shall be deemed to have vacated his or
+her office if he or she&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3032b085-ccad-49fc-9eff-694024574049" id="sch.1-sec.7-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">dies,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_71fd392e-2246-445a-bb3f-e510d055842f" id="sch.1-sec.7-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">resigns his or her office by writing under his or
+her hand addressed to the Minister,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_521ac836-a2e0-4d85-a6ab-6dea43c09006" id="sch.1-sec.7-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">becomes bankrupt, applies to take the benefit of
+any law for the relief of bankrupt or insolvent debtors, compounds with his or
+her creditors or makes an assignment of his or her remuneration or estate for
+their benefit,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b3553399-5015-429f-80ab-9fe3c8739ef9" id="sch.1-sec.7-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">becomes a mentally incapacitated
+person,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_54489bbb-0c80-4173-9542-b26ce6dd621a" id="sch.1-sec.7-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">is absent from 3 consecutive ordinary meetings of
+the Trust of which notice has been given to the trustee personally or in the
+ordinary course of post and is not before the expiration of 6 weeks after the
+latest of those meetings excused by the Trust for his or her absence from the
+meetings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7f509bdd-e21f-4d6e-b86b-f913ca3c2c60" id="sch.1-sec.7-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">is removed from office by the Governor,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b4d39a0b-ec80-4462-a827-43349de14d9c" id="sch.1-sec.7-para1.g"
+status="repealed">
+<no>(g)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li></list>
+</block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_64faf2ab-af0c-4a45-9e53-ba6da59c8ada"></attrib>
+<attrib name="id" value="sch.1-sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_b0ca64a7-60b1-4299-a3cd-81183f69f7fb"
+id="sch.1-sec.8-he"><b>President and Vice-President</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b8b31043-6f5d-4088-baf7-60890573a5cf"></attrib>
+<attrib name="id" value="sch.1-sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The President of the Trust shall be such trustee
+as the Minister appoints as President.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9b53dd5a-9926-4665-8433-c3ea783aab3f"></attrib>
+<attrib name="id" value="sch.1-sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A President of the Trust holds office until his
+or her successor is appointed by the Minister or until he or she ceases to be
+a trustee, whichever first occurs.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8bc70682-afa6-4cfe-b3bc-4e89f57081d0"></attrib>
+<attrib name="id" value="sch.1-sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">At the first meeting of the Trust and at each
+meeting next following the expiry of the term of office of a Vice-President,
+the trustees shall elect a Vice-President from among their
+number.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_95fe7dc8-d403-439a-8b9b-fe3ebbe8dfb8"></attrib>
+<attrib name="id" value="sch.1-sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The term of office of a Vice-President
+expires&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9bb75d79-844b-40c6-a6cc-425365bef305" id="sch.1-sec.8-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if he or she vacates his or her office as
+trustee, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1f593108-7310-4b3a-b7da-dd724b99c07a" id="sch.1-sec.8-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if his or her term of office as trustee during
+which he or she was elected as Vice-President expires, notwithstanding that he
+or she may be subsequently re-appointed as a
+trustee.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.8-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b1f2495f-3b1b-4207-9edc-19a22d6c9150"></attrib>
+<attrib name="id" value="sch.1-sec.8-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A retiring President or Vice-President is, while
+he or she is a trustee, eligible for re-appointment or re-election, as the
+case may be.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.8-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_04b1eab9-416c-4f69-bf66-577f19cfb4a8"></attrib>
+<attrib name="id" value="sch.1-sec.8-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">At a meeting of the Trust&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cfcab4b9-5bc8-4008-a1c7-d3b09f8f4372" id="sch.1-sec.8-ssec.6-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the President,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9785acf1-0319-4f8c-952b-39be0c53005f" id="sch.1-sec.8-ssec.6-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in the absence of the President&#8212;the
+Vice-President, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4e344a6d-3a95-412c-8ce7-de591cd73cd2" id="sch.1-sec.8-ssec.6-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">in the absence of both the President and
+Vice-President&#8212;a chairperson elected by trustees present at the meeting
+from among their number,</txt></block></li></list>
+
+<txt break.before="1">shall preside.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_df200627-17c3-441f-a765-4e95b373a60f"></attrib>
+<attrib name="id" value="sch.1-sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_eebb6fcf-4866-415b-98df-7dc14d8529c6"
+id="sch.1-sec.9-he"><b>Procedure, quorum etc</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_73ef1730-8fd5-410e-957d-2d962ffd4235"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The procedure for the calling of meetings of the
+Trust and the conduct of business at those meetings shall, subject to this
+Schedule and any by-law, be as determined by the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.2" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9284b1b7-2ea9-45c8-a1b3-38823f0d81b6"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.2"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0d51ea3c-ef2e-4827-8dae-fbecf766381a"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A quorum for a meeting of the Trust is a majority
+of trustees for the time being.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f5ca72be-bebe-491a-9590-f06e860fe74c"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The person presiding at a meeting of the Trust
+shall, in the event of an equality of votes, have, in addition to a
+deliberative vote, a second or casting vote.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_37c1dc93-3c17-4d02-8d2d-cdc8545a0952"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A decision supported by a majority of the votes
+cast at a meeting of the Trust at which a quorum is present shall be the
+decision of the Trust.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ca2db7e8-bf73-444b-860e-2aec1b2d9c6a"></attrib>
+<attrib name="id" value="sch.1-sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_31d9702d-87e1-47d9-9780-19b1dba7e066"
+id="sch.1-sec.10-he"><b>Disclosure of interest</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5a4eac8e-c701-4d99-a5ae-359e23dccceb"></attrib>
+<attrib name="id" value="sch.1-sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A trustee present at a meeting of the Trust who
+has a direct or indirect pecuniary interest in a matter being considered or
+about to be considered by the Trust, otherwise than as a member of, and in
+common with the other members of, an incorporated company consisting of more
+than 25 persons, shall, as soon as practicable after the commencement of the
+meeting, disclose the nature of his or her interest.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1f272728-1673-4c1e-9d2a-bd886580492b"></attrib>
+<attrib name="id" value="sch.1-sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A disclosure under subclause (1) of this clause
+shall be recorded in the minutes of the Trust and the trustee&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_eac2f41a-d1af-487d-ae51-acb890a91fa4"
+id="sch.1-sec.10-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">shall not take part, after the disclosure, in any
+deliberation or decision of the Trust with respect to that matter,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e52ae1fb-dc3f-4ca0-b8c6-8b1e2d3557eb"
+id="sch.1-sec.10-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">shall be disregarded for the purpose of
+constituting a quorum of the Trust for any such deliberation or
+decision.</txt></block></li></list>
+</block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fe87630e-8067-4dba-982f-2b98ca65e9e3"></attrib>
+<attrib name="id" value="sch.1-sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_f23d44b6-1c20-42b3-9185-29504565fdbf"
+id="sch.1-sec.11-he"><b>Minutes of meetings</b></heading></head>
+<block><txt break.before="1">The secretary to the Trust shall cause minutes of
+each meeting of the Trust to be recorded and preserved.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_af285387-6123-48dd-b3c1-16e5280a1d7e"></attrib>
+<attrib name="id" value="sch.1-sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_966332c7-66a6-436d-805d-a7b39b155cbc"
+id="sch.1-sec.12-he"><b>The Director</b></heading></head>
+<block><txt break.before="1">The Director&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3db75d40-ef5e-45aa-8fe9-71401e8c7ba6" id="sch.1-sec.12-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is entitled to be present at each meeting of the
+Trust and is entitled to be heard by the Trust on any matter considered by the
+Trust, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ef13092d-acfa-45bc-8614-32b9b327683e" id="sch.1-sec.12-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is an ex officio member of each committee of the
+Trust.</txt></block></li></list>
+</block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1dd22e4b-ab56-456c-9196-cd049ce5ebb8"></attrib>
+<attrib name="id" value="sch.1-sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_c8212373-7eb5-4ade-8107-c0ebd15b20d9"
+id="sch.1-sec.13-he"><b>Common seal</b></heading></head>
+<block><txt break.before="1">The common seal of the Trust shall be kept by the
+secretary to the Trust.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4bf4125e-9e12-4e02-898e-c9f05a45b33e"></attrib>
+<attrib name="id" value="sch.1-sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_cb48b9d8-a08a-454f-b203-5b3ca31b9fdc"
+id="sch.1-sec.14-he"><b>Transaction of business outside meetings or by
+telephone</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_146fd93f-ff65-47aa-959b-77837e8311eb"></attrib>
+<attrib name="id" value="sch.1-sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust may, if it thinks fit, transact any of
+its business by the circulation of papers among all the trustees for the time
+being, and a resolution in writing approved in writing by a majority of those
+trustees is taken to be a decision of the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cd764da2-040a-4bfa-bc27-cbe8001d0215"></attrib>
+<attrib name="id" value="sch.1-sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Trust may, if it thinks fit, transact any of
+its business at a meeting at which trustees (or some trustees) participate by
+telephone, closed-circuit television or other means, but only if any trustee
+who speaks on a matter before the meeting can be heard by the other
+trustees.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_502d07b7-1421-4057-a9a6-9b00c17bd5fc"></attrib>
+<attrib name="id" value="sch.1-sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purposes of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a87d23eb-f235-4ac6-ab99-2617234e1d72"
+id="sch.1-sec.14-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the approval of a resolution under subclause (1),
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_594bf4cd-58ca-4fab-b63e-f3164733b74f"
+id="sch.1-sec.14-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a meeting held in accordance with subclause
+(2),</txt></block></li></list>
+
+<txt break.before="1">the President and each trustee have the same voting
+rights as they have at an ordinary meeting of the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.14-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c1cc306a-c78f-4d98-a674-d9f94ce98da6"></attrib>
+<attrib name="id" value="sch.1-sec.14-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A resolution approved under subclause (1) is,
+subject to the regulations, to be recorded in the minutes of the meetings of
+the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.14-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5f1a7a0b-0d1b-4997-a80d-bcf1a1e6bb24"></attrib>
+<attrib name="id" value="sch.1-sec.14-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Papers may be circulated among the trustees for
+the purposes of subclause (1) by facsimile or other transmission of the
+information in the papers concerned.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Am 1989 No
+110, Sch 1; 1989 No 132, Sch 2; 2001 No 56, Sch 1.1 [2] [3]; 2003 No 40, Sch
+1.3 [1]&#8211;[3]; 2005 No 64, Sch 1.3 [6] [7]; 2015 No 15, Sch 3.1 [6]; 2025
+No 39, Sch 1[3].</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_afaa9a36-1d1c-4df1-a6e6-70d2b625e475"></attrib>
+<attrib name="id" value="sch.2"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading
+guid="_1965da2d-f892-4616-97aa-15af4c5ac6d2"
+id="sch.2-he"><b>Repeals</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 24)</txt></block>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_ac7e7170-7938-47e6-be56-89fb88ac2e4a" id="sch.2-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="7pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="13pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="10pi"></colspec>
+
+<thead>
+
+<row valign="top" guid="_b0720980-b174-45b9-b914-a7efefd0f481"
+id="sch.2-tbl-tblh-tblr">
+<entry namest="1" nameend="col2" guid="_ef34460d-4094-4b37-b4d1-5f24ae3c2cb0"
+id="sch.2-tbl-tblh-tblr-tble1"><txt break.before="1">Column 1</txt></entry>
+<entry guid="_52349e7e-a3b4-45c0-bb74-0920fb4e1962"
+id="sch.2-tbl-tblh-tblr-tble3" colname="3"><txt break.before="1">Column
+2</txt></entry></row>
+
+
+<row valign="top" guid="_93a1f7d4-fc9b-4935-9444-2c7871461f12"
+id="sch.2-tbl-tblh-tblr-oc.2">
+<entry guid="_5b392a62-abdc-4851-98f7-e44e07dd5763"
+id="sch.2-tbl-tblh-tblr-oc.2-tble1" colname="1"><txt break.before="1">Year and
+number of Act</txt></entry>
+<entry guid="_c186e417-517e-4a4a-b8c4-3987670dc315"
+id="sch.2-tbl-tblh-tblr-oc.2-tble2" colname="2"><txt break.before="1">Short
+title of Act</txt></entry>
+<entry guid="_7c65c4ef-cc5f-4a02-84a9-6aaf9b4bfa1f"
+id="sch.2-tbl-tblh-tblr-oc.2-tble3" colname="3"><txt break.before="1">Extent
+of repeal</txt></entry></row>
+</thead>
+
+
+<tbody>
+
+<row valign="top" guid="_f9113ff4-85da-4e3d-84a1-4e908f26c858"
+id="sch.2-tbl-tblr">
+<entry guid="_7805a0dd-4596-4d77-a2e6-db4980f5b557" id="sch.2-tbl-tblr-tble1"
+colname="1"><txt break.before="1">1958 No 1</txt></entry>
+<entry guid="_98932ce4-7898-451b-a620-21b1009b7164" id="sch.2-tbl-tblr-tble2"
+colname="2"><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Art Gallery of New South Wales Act
+1958</i></name></legref>.</txt></entry>
+<entry guid="_d048073f-2bb6-4aaa-b34e-a994e77a6a5f" id="sch.2-tbl-tblr-tble3"
+colname="3"><txt break.before="1">The whole Act.</txt></entry></row>
+
+
+<row valign="top" guid="_793d984f-047c-4c8d-83e8-adb8251a94ac"
+id="sch.2-tbl-tblr-oc.2">
+<entry guid="_e604f86b-cb83-47b2-b6e5-c39f10259bc7"
+id="sch.2-tbl-tblr-oc.2-tble1" colname="1"><txt break.before="1">1973 No
+2</txt></entry>
+<entry guid="_c44cd54d-0d9b-4281-b368-edfb0c2e0d05"
+id="sch.2-tbl-tblr-oc.2-tble2" colname="2"><txt break.before="1"><legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Art Gallery of
+New South Wales (Amendment) Act 1973</i></name></legref>.</txt></entry>
+<entry guid="_bf6d6d13-586e-4c9f-be8f-b598dd2ce953"
+id="sch.2-tbl-tblr-oc.2-tble3" colname="3"><txt break.before="1">The whole
+Act.</txt></entry></row>
+
+
+<row valign="top" guid="_7577d22f-b220-4209-ad8c-6979ec65e5ce"
+id="sch.2-tbl-tblr-oc.3">
+<entry guid="_79955d56-7052-4307-9adb-a3da9a5fb33c"
+id="sch.2-tbl-tblr-oc.3-tble1" colname="1"><txt break.before="1">1975 No
+84</txt></entry>
+<entry guid="_2035960a-8c6d-417a-a3f9-e733489b8bb0"
+id="sch.2-tbl-tblr-oc.3-tble2" colname="2"><txt break.before="1"><legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Miscellaneous
+Acts (Administrative Changes) Amendment Act (No 2)
+1975</i></name></legref>.</txt></entry>
+<entry guid="_cf28dad0-74d8-4113-aada-2fb399e46607"
+id="sch.2-tbl-tblr-oc.3-tble3" colname="3"><txt break.before="1">Section
+7.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="schedule" id="sch.3">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f73c8d5c-f269-4a4b-9172-889208efcfbc"></attrib>
+<attrib name="id" value="sch.3"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 3</b></no><heading
+guid="_7516a656-5f8e-423b-8cd1-9a5a30ec6795" id="sch.3-he"><b>Savings,
+transitional and other provisions</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Section 25)</txt></block></pre>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.3-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4cfcb449-fdbb-4a66-9460-6d1da4e85213"></attrib>
+<attrib name="id" value="sch.3-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_e4a28662-3900-4a73-958a-3035d988f484"
+id="sch.3-sec.1-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Schedule&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_bd007b5c-12bb-4f9e-bc46-b32d34276fd9"
+id="sch.3-sec.1-def.commencement"><b><i>commencement</i></b></defterm> means
+the commencement of this Schedule.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_f66470a7-7709-478d-91a1-c80887486ece"
+id="sch.3-sec.1-def.formerAct"><b><i>former Act</i></b></defterm> means the
+<legref jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Art
+Gallery of New South Wales Act 1958</i></name></legref>, repealed by this
+Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_e696e09a-422b-4edd-a3c1-4c2432c3efe8"
+id="sch.3-sec.1-def.formertrustees"><b><i>former trustees</i></b></defterm>
+means the trustees incorporated by section 4 of the former Act, under the name
+of &#8220;The Trustees of the Art Gallery of New South
+Wales&#8221;.</txt></block></deflist>
+</block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.3-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2559ca91-326a-48c3-8b5e-103fe129ddcc"></attrib>
+<attrib name="id" value="sch.3-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_ed0c19e8-2861-4f54-a362-3623ffa9b0d8"
+id="sch.3-sec.2-he"><b>Construction of other instruments
+etc</b></heading></head>
+<block><txt break.before="1">A reference&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_832dc3d0-05ea-47dd-bf17-1927f20a264b" id="sch.3-sec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in any other Act, or in any by-law, regulation or
+ordinance or any other instrument or document whatever, to the former trustees
+in their capacity as trustees of any property under the former Act,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_720d105c-fea8-4983-87a1-392f246ec341" id="sch.3-sec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to the former trustees in any instrument in
+relation to any gift inter vivos, devise or bequest, which gift, devise or
+bequest would, but for the enactment of this Act, have vested in the former
+trustees in their capacity as trustees of any property under the former
+Act,</txt></block></li></list>
+
+<txt break.before="1">shall be construed as a reference to the
+Trust.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.3-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_713bbcfa-e602-4433-a65c-b1fae64a6e82"></attrib>
+<attrib name="id" value="sch.3-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_c1b86602-11d4-452f-8cc8-92e5e4257240"
+id="sch.3-sec.3-he"><b>Vesting of assets etc</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b775766f-720e-4b1a-a7ea-14e0ab2dab7e"></attrib>
+<attrib name="id" value="sch.3-sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purposes of subclause (2) of this clause,
+a reference in that subclause to the former trustees is a reference to those
+trustees in their capacity as trustees of any property under the former
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b592a291-96ed-4c7b-a4ba-f0d471ae29e8"></attrib>
+<attrib name="id" value="sch.3-sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">On and from the commencement&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_94b2fdbc-2b68-4a30-ad81-271737ab1860" id="sch.3-sec.3-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">all property, whether real or personal, all
+rights and interests therein and all control and management thereof that,
+immediately before the commencement, belonged to or was or were vested in the
+former trustees shall belong to and vest in the Trust,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5524806a-435a-4574-8cae-2fce297e4add" id="sch.3-sec.3-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">all money and liquidated and unliquidated claims
+that, immediately before the commencement, was or were payable to or
+recoverable by the former trustees shall be money and liquidated and
+unliquidated claims payable to or recoverable by the
+Trust,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bbb98040-6e6b-4614-81fa-05add721db8d" id="sch.3-sec.3-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">all money and liquidated and unliquidated claims
+for which the former trustees would, but for the enactment of this Act, have
+been liable shall be money and liquidated and unliquidated claims for which
+the Trust shall be liable,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4475c031-ad3c-4197-b587-af272835c9e6" id="sch.3-sec.3-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">all proceedings commenced by the former trustees
+and pending immediately before the commencement shall be deemed to be
+proceedings pending on the commencement by the Trust and all proceedings so
+commenced by any person against the former trustees and pending immediately
+before the commencement shall be deemed to be proceedings pending on the
+commencement by that person against the Trust,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_588801a4-5933-4dd0-acfa-80005386aa8a" id="sch.3-sec.3-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">all contracts, agreements, arrangements and
+undertakings entered into with the former trustees and in force immediately
+before the commencement shall be deemed to be contracts, agreements,
+arrangements and undertakings entered into with the Trust,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0a3f5a2d-67ce-4faf-bcb2-1e009882cb2a" id="sch.3-sec.3-ssec.2-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">the Trust may, in addition to pursuing any other
+remedies or exercising any other powers that may be available to it, pursue
+the same remedies for the recovery of money and claims referred to in this
+subclause and for the prosecution of proceedings so referred to, as the former
+trustees might have done but for the enactment of this Act,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8d1857e0-33f3-4d0d-a4e5-2b6e06e1ce63" id="sch.3-sec.3-ssec.2-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">all acts, matters and things done or omitted by,
+or done or suffered in relation to, the former trustees, being acts, matters
+or things not referred to in the foregoing provisions of this subclause, shall
+have the same force and effect as if they had been done or omitted by, or done
+or suffered in relation to, the Trust.</txt></block></li></list>
+</block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.3-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d2d40207-d4c7-4d3f-8d0a-e3552dc9ad6e"></attrib>
+<attrib name="id" value="sch.3-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_c304f687-1f14-4374-ad30-56fdaa1726e5"
+id="sch.3-sec.4-he"><b>Agreement to certain conditions</b></heading></head>
+<block><txt break.before="1">Where any property, right or interest referred to
+in clause 3 (2) (a)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_91c83efb-b16c-4fbd-a67d-d57799c70585" id="sch.3-sec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">was acquired by the former trustees before the
+commencement in their capacity as trustees of any property under the former
+Act, by gift inter vivos, devise or bequest, subject to a condition agreed to
+by the former trustees, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_824046f3-9d7e-4466-9154-1ff443aeb221" id="sch.3-sec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">was held by the former trustees in such a
+capacity immediately before the commencement,</txt></block></li></list>
+
+<txt break.before="1">the Trust shall, on the commencement, be deemed to have
+agreed under section 8 (3), to the condition subject to which the property,
+right or interest, as the case may be, was acquired.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.3-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8418e96c-d34a-494c-8beb-9a25dee96966"></attrib>
+<attrib name="id" value="sch.3-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_0e1f0b03-155a-40ac-b5fd-73d05425c2d4"
+id="sch.3-sec.5-he"><b>Savings</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_da5b33d2-9213-4075-bc4c-fe7684d0694a"></attrib>
+<attrib name="id" value="sch.3-sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The by-laws made under the former Act and in
+force immediately before the commencement shall, to the extent that they are
+not inconsistent with this Act, be deemed to be by-laws made under this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3b9aa904-ea5e-4366-967c-5b78cb423c8b"></attrib>
+<attrib name="id" value="sch.3-sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A reference, however expressed, in any other Act
+or instrument to by-laws made under the former Act shall be construed as a
+reference to by-laws made under this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.5-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5dc11405-1ed3-43a4-a664-a1899bf16ff3"></attrib>
+<attrib name="id" value="sch.3-sec.5-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Any person who&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_164ec8ae-7aa7-4914-bd0a-910f95f520dd" id="sch.3-sec.5-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">was employed as Director of the Art Gallery of
+New South Wales under the <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Public Service Act
+1979</i></name></legref> immediately before the commencement, shall, on the
+commencement, be deemed to be appointed and employed as the Director pursuant
+to section 11 (1), and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7e8cf993-5271-4361-bffa-895eb5cc089a" id="sch.3-sec.5-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">was employed under the <legref jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Public Service Act
+1979</i></name></legref> and was engaged in or in connection with the
+administration or management of any property, being property vested in the
+former trustees under the former Act, immediately before the commencement,
+shall, on the commencement, be deemed to be appointed and employed pursuant to
+section 11 (1).</txt></block></li></list>
+</block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.3-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e3cf0fee-aea9-445f-8430-c7b1071e3ed4"></attrib>
+<attrib name="id" value="sch.3-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_ea0c6290-3e1c-40c0-b5e6-458f543ed78d"
+id="sch.3-sec.6-he"><b>Protection from liability</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_216d24d7-fbeb-45fd-9d5e-cf3c5712389a"></attrib>
+<attrib name="id" value="sch.3-sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">No matter or thing done, and no contract entered
+into, by the Trust and no matter or thing done by a trustee or by any other
+person acting under the direction of the Trust shall, if the matter or thing
+was done, or the contract was entered into, in good faith for the purposes of
+executing this Act, subject a trustee or person so acting personally to any
+action, liability, claim or demand.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2dd1c6fb-afee-43a4-b0d9-23260e6d414d"></attrib>
+<attrib name="id" value="sch.3-sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">No matter or thing done, and no contract entered
+into, by the former trustees and no matter or thing done by a former trustee
+or by any person acting under the direction of the former trustees shall, if
+the matter or thing was done, or the contract was entered into, in good faith
+for the purposes of executing the former Act, subject a former trustee or
+person so acting personally to any action, liability, claim or
+demand.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.3-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_727941da-dd81-4039-a2f1-37f8581cd6fd"></attrib>
+<attrib name="id" value="sch.3-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_9204d5ff-ba9f-4618-b194-ef23828f2270"
+id="sch.3-sec.7-he"><b>Accounts and report</b></heading></head>
+<block><txt break.before="1">The former trustees shall&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_80396224-940c-4c4c-bea4-ab61fda10daa" id="sch.3-sec.7-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">prepare&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f976fa4a-8e25-40bf-acfa-3d1b6924b67d"
+id="sch.3-sec.7-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">statements of all accounts in respect of the
+administration of property held by them under the former Act, made up to the
+commencement in a form approved by the Auditor-General and exhibiting a true
+and complete view of the financial position and transactions in respect of
+that administration, for the period from 1st July immediately preceding the
+commencement and up to the commencement, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0c1ac460-1572-4f7b-80ff-833c681cc9c5"
+id="sch.3-sec.7-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">a report of their work and activities in relation
+to the exercise of their functions under the former Act from 1st January
+immediately preceding the commencement and up to the commencement,
+and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_54cac7b8-0ae6-4cb7-90d0-fbfd51660499" id="sch.3-sec.7-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">transmit the statements and report to the Trust
+as soon after the commencement as may be
+practicable.</txt></block></li></list>
+</block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.3-sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c6b6a12c-7a9c-4b53-ac7d-7162ef1215ab"></attrib>
+<attrib name="id" value="sch.3-sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_7412a3cf-81c6-4de4-bec6-0c7afdc215d1"
+id="sch.3-sec.8-he"><b>Dissolution of offices of former
+trustees</b></heading></head>
+<block><txt break.before="1">The former trustees shall, on the commencement,
+cease to hold the offices to which they were last appointed under the former
+Act.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.3-sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c4c0fbc5-4fb7-41de-997b-f02e91bb7e90"></attrib>
+<attrib name="id" value="sch.3-sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_81b26e6d-8206-4550-9bab-d9a98ed40735"
+id="sch.3-sec.9-he"><b>Members of Trust</b></heading></head>
+<block><txt break.before="1">The amendment to section 6 made by the <legref
+refid="act-2001-056" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Statute Law (Miscellaneous Provisions) Act
+2001</i></name></legref> does not affect the appointment or term of office of
+a person who held office as a trustee immediately before the amendment took
+effect.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.3-sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f500467d-7e5c-43d0-9140-9d2a77a47d07"></attrib>
+<attrib name="id" value="sch.3-sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_50832109-6cd9-4966-a2d2-c31fe76aaf31"
+id="sch.3-sec.10-he"><b>Additional trustees to take office on
+appointment</b></heading></head>
+<block><txt break.before="1">Clause 4 (5) of Schedule 1 does not apply to the
+initial term of a trustee appointed as a consequence of the amendment to
+section 6 made by the <legref refid="act-2001-056" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act 2001</i></name></legref>.</txt></block></level>
+</content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 3:</b> Am 2001 No 56,
+Sch 1.1 [4].</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_86a7b79f-debd-4dde-8685-7215a74fcc8b"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_fedaf29e-9462-4442-a5fa-7b94a70bbe55"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-1980-065" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Art Gallery of New South
+Wales Act 1980</i></name> No 65</legref>. Assented to 28.4.1980. Date of
+commencement, secs 1 and 2 excepted, 11.7.1980, sec 2 (2) and GG No 93 of
+11.7.1980, p 3567. This Act has been amended as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_db30f395-5e81-4f7f-b388-12a4bf19ca32" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_a786001f-17f9-44a9-9bea-ef5ccf08129d" id="ed-tbl-tblr">
+<entry guid="_c633ea8c-678d-4673-894f-ff017bb7d0b8" id="ed-tbl-tblr-tble1"
+colname="1"><txt break.before="1"><b>1983</b></txt></entry>
+<entry guid="_2a22344b-ad8f-479a-8274-e32003cc32cb" id="ed-tbl-tblr-tble2"
+colname="2"><txt break.before="1">No 153</txt></entry>
+<entry guid="_4d51c522-4ce7-4e8a-8519-96aa20de739d" id="ed-tbl-tblr-tble3"
+colname="3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Public Finance and
+Audit) Repeal and Amendment Act 1983</i></name></legref>. Assented to
+29.12.1983.</txt>
+<txt break.before="1">Date of commencement of Sch 1, 6.1.1984, sec 2 (2) and
+GG No 4 of 6.1.1984, p 19.</txt></block></entry></row>
+
+
+<row guid="_e86aabba-913a-4bc6-9016-12259c88664a" id="ed-tbl-tblr-oc.2">
+<entry guid="_69ecbab2-3bfe-4071-93f6-c7a08f726e82"
+id="ed-tbl-tblr-oc.2-tble1" colname="1"><txt
+break.before="1"><b>1985</b></txt></entry>
+<entry guid="_aca1c250-3c3c-40ad-8a02-e813c02dc460"
+id="ed-tbl-tblr-oc.2-tble2" colname="2"><txt break.before="1">No
+231</txt></entry>
+<entry guid="_c501219c-15c5-40ab-8f93-90f5d77eec79"
+id="ed-tbl-tblr-oc.2-tble3" colname="3"><txt break.before="1"><legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Statute Law
+(Miscellaneous Provisions) Act 1985</i></name></legref>. Assented to
+18.12.1985.</txt></entry></row>
+
+
+<row guid="_2dca2248-11cc-4351-96ae-a5a6300c7b0c" id="ed-tbl-tblr-oc.3">
+<entry guid="_c03b633e-e670-43cc-9558-1a3658921ba2"
+id="ed-tbl-tblr-oc.3-tble1" colname="1"><txt
+break.before="1"><b>1989</b></txt></entry>
+<entry guid="_31a2e7aa-47a5-47bf-ad86-7a3c98f3b67b"
+id="ed-tbl-tblr-oc.3-tble2" colname="2"><txt break.before="1">No
+110</txt></entry>
+<entry guid="_57037a16-ea0a-46a1-a612-faa3b69e3d1d"
+id="ed-tbl-tblr-oc.3-tble3" colname="3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Cultural Institutions (Miscellaneous
+Amendments) Act 1989</i></name></legref>. Assented to 24.8.1989.</txt>
+<txt break.before="1">Date of commencement, 6.10.1989, sec 2 and GG No 97 of
+22.9.1989, p 7312.</txt></block></entry></row>
+
+
+<row guid="_76cb378b-a865-4c17-b00b-ad34d50ebded" id="ed-tbl-tblr-oc.4">
+<entry guid="_dfc6a0b8-efeb-4e22-a67c-1e0b560b32fc"
+id="ed-tbl-tblr-oc.4-tble1" colname="1"></entry>
+<entry guid="_0a970d2f-c8ce-42c5-a71e-be5bf0567a90"
+id="ed-tbl-tblr-oc.4-tble2" colname="2"><txt break.before="1">No
+132</txt></entry>
+<entry guid="_51ea87ef-6f48-40c1-a1f6-697be9b37a08"
+id="ed-tbl-tblr-oc.4-tble3" colname="3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+(No 2) Act 1989</i></name></legref>. Assented to 5.9.1989.</txt>
+<txt break.before="1">Date of commencement of the provisions of Sch 2 relating
+to the <legref refid="act-1980-065" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Art Gallery of New South Wales Act
+1980</i></name></legref>, assent, sec 2.</txt></block></entry></row>
+
+
+<row guid="_1757df55-79ea-41c1-a25f-580ac492a3a5" id="ed-tbl-tblr-oc.5">
+<entry guid="_86de5b19-5461-46de-9047-56b8e181fe30"
+id="ed-tbl-tblr-oc.5-tble1" colname="1"><txt
+break.before="1"><b>1993</b></txt></entry>
+<entry guid="_3bffcdbf-59b7-4a61-8c19-fb82c1426083"
+id="ed-tbl-tblr-oc.5-tble2" colname="2"><txt break.before="1">No
+47</txt></entry>
+<entry guid="_83f223ae-6f78-4637-abdc-b7559daf2dcc"
+id="ed-tbl-tblr-oc.5-tble3" colname="3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Penalties) Act
+1993</i></name></legref>. Assented to 15.6.1993.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_dc7f9686-6a11-4e06-872b-b3e6e5145540" id="ed-tbl-tblr-oc.6">
+<entry guid="_1dd3cde3-5fb9-4468-b6e0-4a1789e90529"
+id="ed-tbl-tblr-oc.6-tble1" colname="1"><txt
+break.before="1"><b>1997</b></txt></entry>
+<entry guid="_df53eef9-9a1e-45c1-abd9-1758eea1ee75"
+id="ed-tbl-tblr-oc.6-tble2" colname="2"><txt break.before="1">No
+147</txt></entry>
+<entry guid="_191b9e36-2f88-400b-839b-b8068f91bba4"
+id="ed-tbl-tblr-oc.6-tble3" colname="3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1997</i></name></legref>. Assented to 17.12.1997.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 3 months after assent,
+sec 2 (3).</txt></block></entry></row>
+
+
+<row guid="_ecb3d3bf-dbcb-49ca-b27e-e0d41b8c2eab" id="ed-tbl-tblr-oc.7">
+<entry guid="_5fe57793-7ce8-40e6-8fae-29c4333965b7"
+id="ed-tbl-tblr-oc.7-tble1" colname="1"><txt
+break.before="1"><b>2001</b></txt></entry>
+<entry guid="_d101a848-7cf9-4195-babe-7aeb97637ea3"
+id="ed-tbl-tblr-oc.7-tble2" colname="2"><txt break.before="1">No
+56</txt></entry>
+<entry guid="_f602a2ab-56da-42c5-b06c-500df84feaae"
+id="ed-tbl-tblr-oc.7-tble3" colname="3">
+<block><txt break.before="1"><legref refid="act-2001-056" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2001</i></name></legref>. Assented to 17.7.2001.</txt>
+<txt break.before="1">Date of commencement of Sch 1.1, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_e45945ba-05cd-4874-a06f-ff40fb8f33c9" id="ed-tbl-tblr-oc.8">
+<entry guid="_285612c6-405a-4d82-b670-376e0375dc0e"
+id="ed-tbl-tblr-oc.8-tble1" colname="1"></entry>
+<entry guid="_b39354e0-d8c1-4972-8d76-b4739421ce34"
+id="ed-tbl-tblr-oc.8-tble2" colname="2"><txt break.before="1">No
+121</txt></entry>
+<entry guid="_ec2bb109-3848-4696-8f69-d06cd56ca464"
+id="ed-tbl-tblr-oc.8-tble3" colname="3">
+<block><txt break.before="1"><legref refid="act-2001-121" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Justices Legislation Repeal
+and Amendment Act 2001</i></name></legref>. Assented to 19.12.2001.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 7.7.2003, sec 2 and GG No
+104 of 27.6.2003, p 5978.</txt></block></entry></row>
+
+
+<row guid="_c5c4b315-d97d-4591-be08-0be15ebb1206" id="ed-tbl-tblr-oc.9">
+<entry guid="_507cd63c-f3b5-4896-bc2e-bddd51905a93"
+id="ed-tbl-tblr-oc.9-tble1" colname="1"><txt
+break.before="1"><b>2003</b></txt></entry>
+<entry guid="_83488f63-db94-464d-890f-5b67bd428181"
+id="ed-tbl-tblr-oc.9-tble2" colname="2"><txt break.before="1">No
+40</txt></entry>
+<entry guid="_b2a241de-1706-4fe5-9207-5308710a4df7"
+id="ed-tbl-tblr-oc.9-tble3" colname="3">
+<block><txt break.before="1"><legref refid="act-2003-040" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2003</i></name></legref>. Assented to 22.7.2003.</txt>
+<txt break.before="1">Date of commencement of Sch 1.3, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_b66dcdbc-6747-45f9-a0fe-1b7a4f4ee98b" id="ed-tbl-tblr-oc.10">
+<entry guid="_3dcef797-7971-4963-af51-db682fa5225e"
+id="ed-tbl-tblr-oc.10-tble1" colname="1"><txt
+break.before="1"><b>2005</b></txt></entry>
+<entry guid="_a20ccfbb-c207-4763-925a-f8a188f4b860"
+id="ed-tbl-tblr-oc.10-tble2" colname="2"><txt break.before="1">No
+64</txt></entry>
+<entry guid="_1642217f-ebf1-4586-a074-8ee3e2044b27"
+id="ed-tbl-tblr-oc.10-tble3" colname="3">
+<block><txt break.before="1"><legref refid="act-2005-064" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2005</i></name></legref>. Assented to 1.7.2005.</txt>
+<txt break.before="1">Date of commencement of Sch 1.3, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_b363f205-50d4-4c76-a822-85cdc2fa8f8d" id="ed-tbl-tblr-oc.11">
+<entry guid="_6207b6d0-e160-41fd-86d9-3addd8d64385"
+id="ed-tbl-tblr-oc.11-tble1" colname="1"><txt
+break.before="1"><b>2006</b></txt></entry>
+<entry guid="_66d39eaf-39fa-497e-bfec-830ddcab8794"
+id="ed-tbl-tblr-oc.11-tble2" colname="2"><txt break.before="1">No
+2</txt></entry>
+<entry guid="_75ab5cfa-7507-40fc-a40b-81f6bb77cc6c"
+id="ed-tbl-tblr-oc.11-tble3" colname="3">
+<block><txt break.before="1"><legref refid="act-2006-002" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Public Sector Employment
+Legislation Amendment Act 2006</i></name></legref>. Assented to
+13.3.2006.</txt>
+<txt break.before="1">Date of commencement, 17.3.2006, sec 2 and GG No 35 of
+17.3.2006, p 1378.</txt></block></entry></row>
+
+
+<row guid="_33c06b63-cf98-47ce-b97a-c3d133568669" id="ed-tbl-tblr-oc.12">
+<entry guid="_ccacd67c-651c-4246-9b8e-958352003cb8"
+id="ed-tbl-tblr-oc.12-tble1" colname="1"><txt
+break.before="1"><b>2007</b></txt></entry>
+<entry guid="_902c6e86-6fdf-4c58-a836-0a56124520b6"
+id="ed-tbl-tblr-oc.12-tble2" colname="2"><txt break.before="1">No
+27</txt></entry>
+<entry guid="_53a7bcd4-5b27-4738-8f30-10524e7999f4"
+id="ed-tbl-tblr-oc.12-tble3" colname="3">
+<block><txt break.before="1"><legref refid="act-2007-027" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2007</i></name></legref>. Assented to 4.7.2007.</txt>
+<txt break.before="1">Date of commencement of Sch 2, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_35742e7f-5dfa-4b3f-9826-a0eeebd9f570" id="ed-tbl-tblr-oc.13">
+<entry guid="_657460cb-9e12-4fbc-b1ba-021db3c2fcd4"
+id="ed-tbl-tblr-oc.13-tble1" colname="1"></entry>
+<entry guid="_6f78237d-1bcc-4e01-bac0-e94dd2a0bc13"
+id="ed-tbl-tblr-oc.13-tble2" colname="2"><txt break.before="1">No
+94</txt></entry>
+<entry guid="_ee6ccff3-fed8-4066-ab7c-c773e3c5a16b"
+id="ed-tbl-tblr-oc.13-tble3" colname="3">
+<block><txt break.before="1"><legref refid="act-2007-094" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Local
+Court) Amendment Act 2007</i></name></legref>. Assented to 13.12.2007.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 6.7.2009, sec 2 and 2009
+(314) LW 3.7.2009.</txt></block></entry></row>
+
+
+<row guid="_dc879bc4-ac2a-4992-9119-8ac401ff3126" id="ed-tbl-tblr-oc.14">
+<entry guid="_ddb4c560-d8ff-47b7-9ffd-936db0c91de9"
+id="ed-tbl-tblr-oc.14-tble1" colname="1"><txt
+break.before="1"><b>2015</b></txt></entry>
+<entry guid="_08b2eec0-d8dd-4362-93d1-7422fed58d02"
+id="ed-tbl-tblr-oc.14-tble2" colname="2"><txt break.before="1">No
+15</txt></entry>
+<entry guid="_f98a570b-3f67-45bb-bc35-fb30440d5852"
+id="ed-tbl-tblr-oc.14-tble3" colname="3">
+<block><txt break.before="1"><legref refid="act-2015-015" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2015</i></name></legref>. Assented to 29.6.2015.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 15.7.2015, sec 2
+(3).</txt></block></entry></row>
+
+
+<row guid="_c174adf1-47c9-48c4-855d-4dd43a0f7385" id="ed-tbl-tblr-oc.15">
+<entry guid="_22521360-94b1-4b08-a869-b1f77e94b0eb"
+id="ed-tbl-tblr-oc.15-tble1" colname="1"><txt
+break.before="1"><b>2025</b></txt></entry>
+<entry guid="_db7e2da9-7e70-4625-bdb3-192c1071712c"
+id="ed-tbl-tblr-oc.15-tble2" colname="2"><txt break.before="1">No
+39</txt></entry>
+<entry guid="_33a1fe21-c53c-4ede-9688-e2e860d63a81"
+id="ed-tbl-tblr-oc.15-tble3" colname="3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Cultural Institutions Legislation
+Amendment Act 2025</i></name></legref>. Assented to 3.7.2025.</txt>
+<txt break.before="1">Date of commencement, 1.10.2025, sec
+2.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">This Act has also been amended by a regulation
+under the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Public Authorities (Financial Accommodation) Act
+1981</i></name></legref>, published in Gazette No 50 of 18.3.1983, p
+1255.</txt></block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_d5210507-0f6e-421a-9147-89267bc94091"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block><txt break.before="1">No reference is made to certain amendments made
+by Schedule 3 (amendments replacing gender-specific language) to the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Statute Law
+(Miscellaneous Provisions) Act (No 2) 1997</i></name></legref>.</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_ee598671-bdef-45e2-9432-2083cc4a71fe" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_8d377a7b-ca1f-4f28-8fca-d97211a84b35" id="ed-tbl-oc.2-tblr">
+<entry guid="_95957808-d05c-427c-9e6e-2c5039642e88"
+id="ed-tbl-oc.2-tblr-tble1" colname="1"><txt break.before="1">Sec
+3</txt></entry>
+<entry guid="_420d3508-cb87-49ae-9ea9-b6e202a89303"
+id="ed-tbl-oc.2-tblr-tble2" colname="2"><txt break.before="1">Rep 1989 No 132,
+Sch 2.</txt></entry></row>
+
+
+<row guid="_91f0eea5-3892-4098-9932-57525a91e000" id="ed-tbl-oc.2-tblr-oc.2">
+<entry guid="_62c0adc6-b93f-4711-9a43-a390e3735665"
+id="ed-tbl-oc.2-tblr-oc.2-tble1" colname="1"><txt break.before="1">Sec
+4</txt></entry>
+<entry guid="_c0353308-888c-4f39-866d-ffe88f742f87"
+id="ed-tbl-oc.2-tblr-oc.2-tble2" colname="2"><txt break.before="1">Am 2005 No
+64, Sch 1.3 [1]; 2006 No 2, Sch 4.2 [1]; 2007 No 27, Sch 2.1; 2015 No 15, Sch
+3.1 [1].</txt></entry></row>
+
+
+<row guid="_f4843655-4e8c-4122-b8db-7d62213a0636" id="ed-tbl-oc.2-tblr-oc.3">
+<entry guid="_35b5f106-53a9-4272-bce5-45f86ff5f538"
+id="ed-tbl-oc.2-tblr-oc.3-tble1" colname="1"><txt break.before="1">Sec
+6</txt></entry>
+<entry guid="_1e775be5-43a1-4988-8593-03c9ed4c5aab"
+id="ed-tbl-oc.2-tblr-oc.3-tble2" colname="2"><txt break.before="1">Am 2001 No
+56, Sch 1.1 [1]; 2025 No 39, Sch 1[1] [2].</txt></entry></row>
+
+
+<row guid="_908db7c1-fef5-4fce-bf92-b2cf669c799d" id="ed-tbl-oc.2-tblr-oc.4">
+<entry guid="_b2c6f849-7103-4dba-a51e-4384db5e87ee"
+id="ed-tbl-oc.2-tblr-oc.4-tble1" colname="1"><txt break.before="1">Sec
+7</txt></entry>
+<entry guid="_17a2658d-fd5e-4702-8c15-d605ef6b61f0"
+id="ed-tbl-oc.2-tblr-oc.4-tble2" colname="2"><txt break.before="1">Am 1985 No
+231, Sch 2.</txt></entry></row>
+
+
+<row guid="_b39442c1-d399-4507-9025-f752b26aaaf9" id="ed-tbl-oc.2-tblr-oc.5">
+<entry guid="_6db2697d-2505-4db1-a907-388834c2f02c"
+id="ed-tbl-oc.2-tblr-oc.5-tble1" colname="1"><txt break.before="1">Sec
+8</txt></entry>
+<entry guid="_f04d7b80-850e-4e31-b798-6f9f5e582bbf"
+id="ed-tbl-oc.2-tblr-oc.5-tble2" colname="2"><txt break.before="1">Am 2005 No
+64, Sch 1.3 [2]; 2006 No 2, Sch 4.2 [2]; 2015 No 15, Sch 3.1
+[2].</txt></entry></row>
+
+
+<row guid="_717eeea5-0e42-487c-b1c5-09f36b1ed238" id="ed-tbl-oc.2-tblr-oc.6">
+<entry guid="_41c723ed-a3b9-45e2-8be4-6d4bef1b3840"
+id="ed-tbl-oc.2-tblr-oc.6-tble1" colname="1"><txt break.before="1">Sec
+10</txt></entry>
+<entry guid="_721f43cb-e488-4da2-9961-53ef64a0e5f0"
+id="ed-tbl-oc.2-tblr-oc.6-tble2" colname="2"><txt break.before="1">Am 2005 No
+64, Sch 1.3 [3].</txt></entry></row>
+
+
+<row guid="_03764077-7447-4618-bb44-6c433302d467" id="ed-tbl-oc.2-tblr-oc.7">
+<entry guid="_6bb2f3b9-8793-4a68-bf72-b6d8bb515e10"
+id="ed-tbl-oc.2-tblr-oc.7-tble1" colname="1"><txt break.before="1">Sec
+11</txt></entry>
+<entry guid="_c7eb246a-c24a-473a-844a-0ea0ba889f2e"
+id="ed-tbl-oc.2-tblr-oc.7-tble2" colname="2"><txt break.before="1">Am 1989 No
+132, Sch 2. Subst 2005 No 64, Sch 1.3 [4]. Rep 2006 No 2, Sch 4.2 [3]. Ins
+2015 No 15, Sch 3.1 [3].</txt></entry></row>
+
+
+<row guid="_4cfc51dc-2654-42bc-9170-35654d328816" id="ed-tbl-oc.2-tblr-oc.8">
+<entry guid="_72dd1326-8015-4765-97c6-fe2d66d9b505"
+id="ed-tbl-oc.2-tblr-oc.8-tble1" colname="1"><txt break.before="1">Sec
+13</txt></entry>
+<entry guid="_773b8ebc-23f8-4b3b-acb5-5b5a9da14410"
+id="ed-tbl-oc.2-tblr-oc.8-tble2" colname="2"><txt break.before="1">Am 2006 No
+2, Sch 4.2 [4] [5]; 2015 No 15, Sch 3.1 [4].</txt></entry></row>
+
+
+<row guid="_0448725c-1f29-463a-a69e-500978652115" id="ed-tbl-oc.2-tblr-oc.9">
+<entry guid="_f793f31f-9ab3-4269-9b92-74fe80369de3"
+id="ed-tbl-oc.2-tblr-oc.9-tble1" colname="1"><txt break.before="1">Sec
+14</txt></entry>
+<entry guid="_1a1a6ae7-6c11-4516-9e42-0ca6c4f48ab3"
+id="ed-tbl-oc.2-tblr-oc.9-tble2" colname="2"><txt break.before="1">Am 2006 No
+2, Sch 4.2 [6]; 2015 No 15, Sch 3.1 [5].</txt></entry></row>
+
+
+<row guid="_aca566aa-54d5-450a-9856-e0816154e908"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry guid="_fac0669e-4029-4f2b-9a57-8cd2c6283f9b"
+id="ed-tbl-oc.2-tblr-oc.10-tble1" colname="1"><txt break.before="1">Sec
+15</txt></entry>
+<entry guid="_725790d4-136f-4ed4-a3dd-40e085e9d2a1"
+id="ed-tbl-oc.2-tblr-oc.10-tble2" colname="2"><txt break.before="1">Rep GG No
+50 of 18.3.1983, p 1255.</txt></entry></row>
+
+
+<row guid="_8f2fcae7-c45f-4cba-babe-f1372a5b7506"
+id="ed-tbl-oc.2-tblr-oc.11">
+<entry guid="_3557504e-99f0-4296-8eb7-9f16cd92a284"
+id="ed-tbl-oc.2-tblr-oc.11-tble1" colname="1"><txt break.before="1">Sec
+20</txt></entry>
+<entry guid="_69ad9366-1e80-413e-8699-c445740c2ed1"
+id="ed-tbl-oc.2-tblr-oc.11-tble2" colname="2"><txt break.before="1">Am 1983 No
+153, Sch 1. Rep 2005 No 64, Sch 1.3 [5].</txt></entry></row>
+
+
+<row guid="_2fda6502-a069-42d9-8cd1-4b77485c7401"
+id="ed-tbl-oc.2-tblr-oc.12">
+<entry guid="_7afc231d-5dd7-421b-85d2-d46b43861953"
+id="ed-tbl-oc.2-tblr-oc.12-tble1" colname="1"><txt break.before="1">Sec
+21</txt></entry>
+<entry guid="_21f1e98c-7ff6-4765-8a22-14f10c88b33d"
+id="ed-tbl-oc.2-tblr-oc.12-tble2" colname="2"><txt break.before="1">Rep 1983
+No 153, Sch 1.</txt></entry></row>
+
+
+<row guid="_09108045-8784-4734-8a63-b9aaa7889102"
+id="ed-tbl-oc.2-tblr-oc.13">
+<entry guid="_110a07ea-89e8-410d-bb0e-0f229e74da30"
+id="ed-tbl-oc.2-tblr-oc.13-tble1" colname="1"><txt break.before="1">Sec
+22</txt></entry>
+<entry guid="_c4523b3f-b199-404f-9197-54b03dc41d31"
+id="ed-tbl-oc.2-tblr-oc.13-tble2" colname="2"><txt break.before="1">Rep 2005
+No 64, Sch 1.3 [5].</txt></entry></row>
+
+
+<row guid="_acce3897-99d1-4946-8145-0f816a0297aa"
+id="ed-tbl-oc.2-tblr-oc.14">
+<entry guid="_ad9d7c1d-187b-4b3e-95f3-4abee5dfe5b1"
+id="ed-tbl-oc.2-tblr-oc.14-tble1" colname="1"><txt break.before="1">Sec
+23</txt></entry>
+<entry guid="_02b2ca6d-b022-4694-8d4d-e9f323ae9fe1"
+id="ed-tbl-oc.2-tblr-oc.14-tble2" colname="2"><txt break.before="1">Am 1989 No
+132, Sch 2; 1993 No 47, Sch 1; 2001 No 121, Sch 2.18; 2007 No 94, Sch
+2.</txt></entry></row>
+
+
+<row guid="_847ec13a-3085-4935-a439-53470ca525b3"
+id="ed-tbl-oc.2-tblr-oc.15">
+<entry guid="_8847dd2f-ad38-4751-9355-44eea215ef98"
+id="ed-tbl-oc.2-tblr-oc.15-tble1" colname="1"><txt break.before="1">Sch
+1</txt></entry>
+<entry guid="_a7216cd5-27bc-42c9-b30f-4a5bb3b49e13"
+id="ed-tbl-oc.2-tblr-oc.15-tble2" colname="2"><txt break.before="1">Am 1989 No
+110, Sch 1; 1989 No 132, Sch 2; 2001 No 56, Sch 1.1 [2] [3]; 2003 No 40, Sch
+1.3 [1]&#8211;[3]; 2005 No 64, Sch 1.3 [6] [7]; 2015 No 15, Sch 3.1 [6]; 2025
+No 39, Sch 1[3].</txt></entry></row>
+
+
+<row guid="_2d818558-fde3-4d69-a39f-f0fac788c530"
+id="ed-tbl-oc.2-tblr-oc.16">
+<entry guid="_9281e78e-d928-4631-8223-14c2512e1253"
+id="ed-tbl-oc.2-tblr-oc.16-tble1" colname="1"><txt break.before="1">Sch
+3</txt></entry>
+<entry guid="_07dd7c4c-bdc2-4dd9-a1dc-8b3e9ba5b87b"
+id="ed-tbl-oc.2-tblr-oc.16-tble2" colname="2"><txt break.before="1">Am 2001 No
+56, Sch 1.1 [4].</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

@@ -1,0 +1,1446 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2022-062"
+title="Electronic Conveyancing Enforcement Act 2022"
+year="2022"
+number="62"
+enact.or.made.date="2022-11-14"
+first.valid.date="2022-11-14"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2022</metacontent>
+<metacontent class="year.assent">2022</metacontent>
+<metacontent class="publication.date">2022-11-14</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="introduction.date">2022-10-12</metacontent>
+<metacontent class="la.second.reading.date">2022-10-12</metacontent>
+<metacontent class="amended.in.committee">1</metacontent>
+<metacontent class="id">act-2022-062</metacontent>
+<metacontent
+class="version.desc.id">01c904bb-c11e-4de4-8aad-17ddfabbdcd1</metacontent>
+<metacontent
+class="version.series.id">4a3eb571-2816-4798-9e73-8dc6ee7142fc</metacontent>
+<metacontent class="year.introduced">2022</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Electronic Conveyancing Enforcement Act
+2022"></attrib>
+<attrib name="year.passed" value="2022"></attrib>
+<attrib name="year.assent" value="2022"></attrib>
+<attrib name="no" value="62"></attrib>
+<attrib name="publication.date" value="2022-11-14"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="first.valid.date" value="2022-11-14"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="introduction.date" value="2022-10-12"></attrib>
+<attrib name="la.second.reading.date" value="2022-10-12"></attrib>
+<attrib name="amended.in.committee" value="1"></attrib>
+<attrib name="assent.date" value="2022-11-14"></attrib>
+<attrib name="id" value="act-2022-062"></attrib>
+<attrib name="version.desc.id"
+value="01c904bb-c11e-4de4-8aad-17ddfabbdcd1"></attrib>
+<attrib name="version.series.id"
+value="4a3eb571-2816-4798-9e73-8dc6ee7142fc"></attrib>
+<attrib name="year.introduced" value="2022"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_3e691f51-aa01-4757-9697-e5fcf8aa3ac7"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to provide for the enforcement of the
+<legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Electronic Conveyancing National Law
+(NSW)</i></name></legref>; and for other purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_80b5efad-bbc3-458d-a64f-dae297e66dcd"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_a6c1fae7-41ce-4cbd-aba3-95817ab30535"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6c2946a8-2365-44fb-af44-6238d3cc314c"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_95a437cf-1e8d-454a-88fc-347b13f70c4e"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-2022-062"><name emphasis="yes"><i>Electronic
+Conveyancing Enforcement Act 2022</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c0930369-fc73-471e-accf-4a970f9fab95"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_7f391560-0e77-492b-ba71-35b10cdd7a4f"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on the date of assent to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b3e261b2-7b39-4864-809c-2c2552a510da"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_b3914d38-97c0-4759-837b-054c4a37a902"
+id="sec.3-he"><b>Object of Act</b></heading></head>
+<block><txt break.before="1">The object of this Act is to promote compliance
+with the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Electronic Conveyancing National Law
+(NSW)</i></name></legref> by establishing mechanisms for the enforcement of
+the Law.</txt></block></level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_397d1dd7-c853-4328-bc7a-e4dd65be5d65"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_b11b2dea-8af9-43ca-a3c7-b9c8cfe23684"
+id="sec.4-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7ec212e5-8ae2-4d72-a62a-ab524032ae5c"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_83500773-9637-4f22-b29a-3f699989cc2d"
+id="sec.4-def.enforceableundertaking"><b><i>enforceable
+undertaking</i></b></defterm>&#8212;see section 5.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b07a8a20-9ace-494e-a6a3-52e7aed41115"
+id="sec.4-def.enforcementorder"><b><i>enforcement
+order</i></b></defterm>&#8212;see section 16(1).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_975a847c-3484-489f-a1fa-cccafead35e8"
+id="sec.4-def.enforcementprovision"><b><i>enforcement
+provision</i></b></defterm> means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0b33c539-56b7-4ace-a7d7-9f230173f285" id="sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Electronic Conveyancing National Law
+(NSW)</i></name></legref>, section 18A, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aa51b8fd-e1a9-427d-9ef1-b23c8eadd13b" id="sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Electronic Conveyancing National Law
+(NSW)</i></name></legref>, section 34, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_61ef3c3b-079d-41fd-9510-a6b0d79a5348" id="sec.4-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a requirement of a remedial direction or an
+interim remedial direction.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_85ec24f8-ae7c-4f29-b708-e61ef09e606e"
+id="sec.4-def.interimremedialdirection"><b><i>interim remedial
+direction</i></b></defterm>&#8212;see section 11(1).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_63a6daf3-bfe7-4c8d-b451-9d78b63976e3"
+id="sec.4-def.remedialdirection"><b><i>remedial
+direction</i></b></defterm>&#8212;see section 10(1).</txt></block></deflist>
+</block>
+<note type="legtext" guid="_d8e7e25d-35ad-4e76-81c1-737223c7d14b"
+id="sec.4-ssec.1-note"><heading guid="_81361b56-d460-452f-83ba-e1c7f7b6597d"
+id="sec.4-ssec.1-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">The <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1987-015"><name emphasis="yes"><i>Interpretation
+Act 1987</i></name></legref> contains definitions and other provisions that
+affect the interpretation and application of this Act.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5cdf349c-83d1-4ed2-9b02-2c0a82e649e3"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Words and expressions used in this Act and also
+in the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Electronic Conveyancing National Law
+(NSW)</i></name></legref> have the same meanings as in the
+Law.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_c139f214-38e9-4a69-89c5-99e4b30a9544"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_1252f5b7-bd22-44df-99d1-9c036c0209ec"
+id="pt.2-he"><b>Enforcement of <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Electronic Conveyancing National Law
+(NSW)</i></name></legref></b></heading></head>
+
+<level type="division" id="pt.2-div.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_8205cbf3-e483-4e16-88b7-b775e33c005d"></attrib>
+<attrib name="id" value="pt.2-div.1"></attrib></parentattributes>
+
+<head>
+<no><b>Division 1</b></no><heading
+guid="_96f80ea4-dc5b-435a-a19e-11c633421cfa" id="pt.2-div.1-he"><b>Enforceable
+undertakings</b></heading></head>
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_57937a18-27a6-4e65-8818-9c34ada0cf7f"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_23632723-455a-42dc-b9f0-921ad773922c"
+id="sec.5-he"><b>Registrar may accept undertakings</b></heading></head>
+<block><txt break.before="1">The Registrar may accept a written undertaking
+(an <defterm type="definition" guid="_4872e64f-1e94-4c68-bde3-b73c938871b2"
+id="def.enforceableundertaking"><b><i>enforceable
+undertaking</i></b></defterm>) given by an ELNO if the Registrar reasonably
+believes the ELNO is contravening, has contravened or is about to
+contravene&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3cfc48d6-36d5-4434-b25d-9eca3206609c" id="sec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a provision of the <legref jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Electronic Conveyancing
+National Law (NSW)</i></name></legref>, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1bea8970-ff56-498f-8c58-0bcabc75de15" id="sec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a provision of the operating requirements,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_472a03a9-c2d9-4f20-b535-61f467e8a249" id="sec.5-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a condition of the approval under the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Electronic
+Conveyancing National Law (NSW)</i></name></legref>, section 15 to which the
+ELNO is subject.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5ae30024-0890-459b-90a6-812a9e417bde"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_d55dbc3d-741e-4013-b594-b9335f0fc875"
+id="sec.6-he"><b>Content of enforceable undertaking</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bd797da6-1554-4ba9-b2fb-c29d691f25c7"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An enforceable undertaking must
+specify&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8fc68287-019e-4939-93ce-c167f18952b8" id="sec.6-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the contravention to which the enforceable
+undertaking relates, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3a51b9c6-3e25-4887-ab3a-3da238dc3d9e" id="sec.6-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the measures the ELNO has agreed to implement to
+remedy or prevent the contravention, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_28faf8ea-dfbd-40d3-b9f8-795e09f24688" id="sec.6-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the period or periods by the end of which the
+measures must be implemented.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_13b8dafc-78de-4062-8ec2-c4fb54755986"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A failure to comply with this section does not
+affect the validity of an enforceable undertaking.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_12e4d959-dc9c-4823-920f-3bd87b0f56d1"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_9e8f3383-4f7d-4ad7-b049-f790958a6c69"
+id="sec.7-he"><b>When enforceable undertaking takes
+effect</b></heading></head>
+<block><txt break.before="1">An enforceable undertaking takes effect and
+becomes enforceable&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c5d6975a-43bb-49fc-bd09-b195447ee938" id="sec.7-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">when written notice of the Registrar&#8217;s
+decision to accept the undertaking is given to the ELNO who gave the
+undertaking, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b3004373-4435-4d9f-9ef5-ef256534b833" id="sec.7-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">on a later date specified by the Registrar in the
+notice.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b995e3fa-63a2-45ae-990e-f115149bdec1"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_42b53e02-543f-4b62-a318-88f3f9aeff9f"
+id="sec.8-he"><b>Withdrawal or variation of enforceable
+undertaking</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1c1f627a-c01c-494d-bbf8-27f779a19094"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An ELNO who has made an enforceable undertaking
+may, at any time, with the written agreement of the Registrar&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d2778602-e32a-4c50-8f3b-a406d0ca1967" id="sec.8-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">withdraw the undertaking, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4787922f-628e-4537-87bd-526116bd2244" id="sec.8-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">vary the undertaking.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f70a9ca7-d486-4ef0-932b-5c99e98e44b5"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Registrar may, at any time, with the written
+agreement of an ELNO who has made an enforceable undertaking, withdraw the
+Registrar&#8217;s acceptance of the undertaking.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_32e08bd8-a05d-45f9-a7be-2a5a7d32c5d0"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The provisions of an enforceable undertaking must
+not be varied to provide for a different alleged
+contravention.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_accf91e2-913d-48bd-9cbb-7d236a21e4b2"></attrib>
+<attrib name="id" value="sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">An enforceable undertaking ceases to have effect
+if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a02daeae-c253-47a8-bf99-5127d59bcde0" id="sec.8-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">it is withdrawn by the ELNO who made it, in
+accordance with this section, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2ada878c-45be-4e3b-b715-0291637333e5" id="sec.8-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">acceptance of the undertaking is withdrawn by the
+Registrar.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_44d097a4-c5ee-4d31-af7f-34736d810c6a"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_420f30c8-7948-4f4b-9f68-ebb8dce1d952"
+id="sec.9-he"><b>Enforcement of enforceable undertaking</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_79258681-bcd0-4336-a40c-53974a8b8a53"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Registrar may apply to the Supreme Court for
+an order under this section if the Registrar reasonably believes an ELNO has
+contravened an enforceable undertaking.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8b064510-d9c1-42be-a219-52eec5b5a15b"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If the Court is satisfied that the ELNO who gave
+the enforceable undertaking has contravened the undertaking, the Court may
+make 1 or both of the following orders&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7234c2d9-086a-4d85-b337-7b8855b80fca" id="sec.9-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">an order directing the ELNO to comply with the
+undertaking,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c27db745-ffa7-46ca-b883-b821533799b7" id="sec.9-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">an order discharging or varying the
+undertaking.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bf5bd1ad-cd47-4701-9628-606b805e0923"></attrib>
+<attrib name="id" value="sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In addition to the orders referred to in
+subsection (2), the Court may make other orders the Court considers
+appropriate in the circumstances, including orders directing the ELNO to pay
+either or both of the following to the State&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e2e74373-986d-412f-b681-c6639bd3a69f" id="sec.9-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the costs of the proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f54d610b-0dbc-477e-b9a8-d9a672753fd7" id="sec.9-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the reasonable costs of the Registrar in
+monitoring compliance with the enforceable undertaking in the
+future.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+
+
+<level type="division" id="pt.2-div.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_2b836dde-97d2-4ba9-ba12-6245e91b0fc5"></attrib>
+<attrib name="id" value="pt.2-div.2"></attrib></parentattributes>
+
+<head>
+<no><b>Division 2</b></no><heading
+guid="_97163f55-ff29-47b8-9367-8c59620080e3" id="pt.2-div.2-he"><b>Remedial
+directions</b></heading></head>
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a6de3145-ed67-4a55-9e85-00fb4c34a955"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_76b85c9b-77db-4fae-8a80-5d1926e3a09e"
+id="sec.10-he"><b>Registrar may give remedial direction</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f2486529-de0e-4ef9-916c-e6ae78da430b"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Registrar may give a written direction to an
+ELNO (a <defterm type="definition"
+guid="_52eb8078-3b1e-4858-adec-95d7dc0f2125"
+id="sec.10-def.remedialdirection"><b><i>remedial direction</i></b></defterm>)
+if the Registrar reasonably believes the ELNO has contravened or is
+contravening a requirement imposed by or under the <legref jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Electronic Conveyancing
+National Law (NSW)</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_62e779fd-604b-4964-969a-4f6020ebd79e"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Registrar must not give a remedial direction
+to an ELNO unless&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dcc6d134-daf2-4759-bf00-23093b690d27" id="sec.10-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Registrar has given written notice to the
+ELNO of the Registrar&#8217;s intention to give the direction,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1bb2026d-d5b0-4aca-b87f-10e00c597375" id="sec.10-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the notice states the ELNO may make submissions
+to the Registrar within 14 days after the date of the notice,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5a899dd8-2f2f-4116-9277-8d43d511bfb4" id="sec.10-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the Registrar has considered submissions made by
+the ELNO within that period.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_679eff46-63f5-487a-8f24-1a0d356c1f50"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_7022cdcb-8370-4e95-b0b2-f055dc7069a3"
+id="sec.11-he"><b>Interim remedial directions</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7b274334-fe1c-4270-825c-421dfd73ee05"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Registrar may give a written direction to an
+ELNO (an <defterm type="definition"
+guid="_663746e3-0ea9-454c-8971-e42cef83c4a2"
+id="sec.11-def.interimremedialdirection"><b><i>interim remedial
+direction</i></b></defterm>) if the Registrar&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5602f38b-1c14-46c9-ab56-5e2cdef6446a" id="sec.11-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">reasonably believes the ELNO has contravened or
+is contravening a requirement imposed by or under the <legref jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Electronic Conveyancing
+National Law (NSW)</i></name></legref>, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f81cb6ae-d5d3-4591-8643-3643d505eead" id="sec.11-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is satisfied the direction needs to be given
+urgently because an emergency situation exists.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_336c68bf-1d02-4a10-9277-c73cd1db4f06"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For subsection (1), an emergency situation exists
+if the Registrar considers that, because of the occurrence of an event or the
+existence of particular circumstances, the operation, security, integrity or
+stability of an ELN, the titles register or the land titles system is being,
+or is likely to be, jeopardised.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f89797f6-7193-4dc6-b027-909e92225e4f"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">An interim remedial direction given to an ELNO
+constitutes notice for section 10(2) of the Registrar&#8217;s intention to
+give a remedial direction on the same terms as the interim remedial
+direction.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b9f916cf-de4c-42e5-a6bd-8bf74f577d3e"></attrib>
+<attrib name="id" value="sec.11-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Subsection (3) does not prevent the Registrar
+specifying in a remedial direction a period or periods for implementation
+under section 12(1)(c) that is different from the period or periods for
+implementation specified in the interim direction.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1b4dc9fe-4982-4e89-b39c-2dbef0d47ee9"></attrib>
+<attrib name="id" value="sec.11-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Unless sooner revoked, an interim remedial
+direction for a contravention ceases to have effect on the earliest of the
+following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2e2eabb2-2ae4-45b3-b5dc-38c8df6c8877" id="sec.11-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the end of the period of 21 days after the date
+of the interim remedial direction,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_638984da-ddda-47b6-b266-bbac65dc0225" id="sec.11-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">when the Registrar gives a remedial direction to
+the ELNO in relation to the contravention.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_86a7ec3a-f190-4df2-b778-260f72496793"></attrib>
+<attrib name="id" value="sec.11-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">Sections 12&#8211;15 apply to an interim remedial
+direction in the same way as they apply to a remedial
+direction.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e6e80fbb-50d2-4a29-917a-e8bea9d9e196"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_8e268fe1-a75d-4f31-bc79-6604d621fce5"
+id="sec.12-he"><b>Content of remedial direction</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5ec5ddd2-3eb7-4c8b-b65b-bfd098b12776"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A remedial direction must specify&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c44d2ba5-b2d6-4266-923a-6286375e4d62" id="sec.12-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the contravention to which the remedial direction
+relates, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9ae24f9e-3b98-404b-b166-a779d5c38117" id="sec.12-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the measures the ELNO must implement to remedy
+the contravention or to prevent the contravention occurring again,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_116b7e83-f399-4653-9245-f433c7bf4dad" id="sec.12-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the period or periods by the end of which the
+measures must be implemented.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_495ffd20-ffdb-405b-b569-4be1c4e328aa"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The period or periods specified under subsection
+(1)(c) must be reasonable in the circumstances.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dec13fb6-aabe-4621-8da5-5c765b55885f"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_210e2423-ddce-44a6-a6dd-7ee683b07aeb"
+id="sec.13-he"><b>Revocation of remedial direction</b></heading></head>
+<block><txt break.before="1">The Registrar may, by written notice given to an
+ELNO, revoke a remedial direction relating to the ELNO.</txt></block></level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f370b7a6-0d57-47c9-9eb7-313578d1fe9d"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_97059e2c-2394-4b8d-987e-a151cfb3f26c"
+id="sec.14-he"><b>Registrar not to give remedial direction in certain
+circumstances</b></heading></head>
+<block><txt break.before="1">The Registrar must not give a remedial direction
+to an ELNO in relation to a contravention if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4c16e28b-7f5c-4fc8-b4f7-4be9a213b9ce" id="sec.14-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the ELNO has given an enforceable undertaking in
+relation to the contravention and the enforceable undertaking is in effect,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a6946e1a-bb93-4622-8082-5fd96dbbdb25" id="sec.14-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">proceedings for an enforcement order in relation
+to the contravention have been commenced but not
+determined.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_080fdf31-36d9-40a0-ab8a-c79f70bb7885"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_a4410a61-0fe0-4dec-aa79-29c3439c0b2d"
+id="sec.15-he"><b>Appeal against decision to give remedial
+direction</b></heading></head>
+<block><txt break.before="1">The <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Electronic Conveyancing National Law
+(NSW)</i></name></legref>, Part 3, Division 4 applies to a decision by the
+Registrar to give a remedial direction as if the decision were an appellable
+decision within the meaning of section 28 of the Law.</txt></block></level>
+</level>
+
+
+<level type="division" id="pt.2-div.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_f9a7ef99-58b3-4444-8f51-65237eb17f7c"></attrib>
+<attrib name="id" value="pt.2-div.3"></attrib></parentattributes>
+
+<head>
+<no><b>Division 3</b></no><heading
+guid="_a9a5ff54-d2d0-4893-bb17-3b7b00904747" id="pt.2-div.3-he"><b>Enforcement
+orders</b></heading></head>
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_01e96caf-3855-49dd-9b1a-c41d931d0445"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_e7164e20-db9e-4c01-b625-9103b59f65cd"
+id="sec.16-he"><b>Registrar may apply for enforcement
+order</b></heading></head>
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_451ada60-0171-4854-9cb5-e70a30f9ccbe"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Registrar may apply to the Supreme Court for
+an order under this section (an <defterm type="definition"
+guid="_7b2bf186-5398-42ff-97e3-785e8cead552"
+id="sec.16-def.enforcementorder"><b><i>enforcement order</i></b></defterm>) if
+the Registrar reasonably believes an ELNO has contravened an enforcement
+provision.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6babedf1-5e87-427b-a4e0-dc5710b86ba5"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If the Court is satisfied the ELNO has
+contravened the enforcement provision, the Court may make an order that the
+ELNO pay to the State an amount not exceeding the maximum
+amount.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_28453d6c-dac1-4403-bd33-9a6a8d35936b"></attrib>
+<attrib name="id" value="sec.16-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In addition to the order under subsection (2),
+the Court may make other orders the Court considers appropriate in the
+circumstances, including orders directing the ELNO to pay either or both of
+the following to the State&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8c6496c6-ca58-4730-9d97-8860a817692e" id="sec.16-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the costs of the proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_056869f1-084a-495d-95aa-056dd69d2c8e" id="sec.16-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the reasonable costs of the Registrar in
+monitoring compliance with the enforcement provision in the
+future.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dcd2c6e1-cc34-4871-86c5-5c8d1064bc4e"></attrib>
+<attrib name="id" value="sec.16-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Court must have regard to the following in
+determining the amount required to be paid under an enforcement
+order&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8177a75b-7412-42f0-9394-291248b61c86" id="sec.16-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the nature and extent of the
+contravention,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1ba9bcde-c430-460f-877f-2a3a79debbbc" id="sec.16-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the nature and extent of loss or damage suffered
+as a result of the contravention, including by third
+parties,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9b4f2fad-1d6a-4d64-9922-ba2acb12dfd4" id="sec.16-ssec.4-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the circumstances in which the contravention took
+place,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8e698201-dcf1-44d8-a673-b62c130c17cf" id="sec.16-ssec.4-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">whether the contravention was intentional or
+unintentional,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6755661a-bdc4-41ee-a6ca-91bbea54187a" id="sec.16-ssec.4-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">whether the ELNO has previously contravened the
+enforcement provision to which the order relates,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_33241a4b-ae5a-4731-8174-361978d0de24" id="sec.16-ssec.4-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">the amount necessary to deter the ELNO from
+engaging in the contravening conduct in the future,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1fa08095-b60e-4ed9-af1b-c5ef5684d66b" id="sec.16-ssec.4-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">the damage the contravention has caused to the
+security or integrity of the land titles system.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d2f91cb7-9e73-469a-ae67-fcc364da0f23"></attrib>
+<attrib name="id" value="sec.16-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">An amount payable under an order made under this
+section is recoverable by the State as a debt from the
+ELNO.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0b710336-17c8-43be-aa20-4919cdbe0e80"></attrib>
+<attrib name="id" value="sec.16-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_2f7fee91-f84f-4164-9d66-92ca4319b4ec"
+id="sec.16-def.maximumamount"><b><i>maximum amount</i></b></defterm>
+means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fbb786fb-dc50-486d-a930-5e4b0a04345c" id="sec.16-ssec.6-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">for a contravention of the <legref jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Electronic Conveyancing
+National Law (NSW)</i></name></legref>, section 18A&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8d6e0648-79ac-4ee5-bd9a-315fedb0db4b"
+id="sec.16-ssec.6-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">$10,000,000, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8a202c16-66f3-4043-8033-16c1615f8a81"
+id="sec.16-ssec.6-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">for a continuing contravention&#8212;a further
+$250,000 for each day the contravention continues,
+or</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9931dbd1-7d16-4667-a273-37fd8a798cbd" id="sec.16-ssec.6-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">for a contravention of the <legref jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Electronic Conveyancing
+National Law (NSW)</i></name></legref>, section 34&#8212;$250,000,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_996e1ed1-5855-4e1f-9a1c-e1c934015f7c" id="sec.16-ssec.6-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">for a contravention of a requirement of a
+remedial direction or an interim remedial
+direction&#8212;$10,000,000.</txt></block></li></list>
+</block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_498a0e44-10da-46c9-a91a-46d4706ca04d"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_1ac0052f-0838-4f34-bed8-cb3ed869432a"
+id="sec.17-he"><b>Time for commencing proceedings</b></heading></head>
+<block><txt break.before="1">The Registrar may not apply for an enforcement
+order against an ELNO in relation to a contravention of an enforcement
+provision more than 2 years after the Registrar becomes aware of the
+contravention.</txt></block></level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_958a5f7b-5913-47d3-a321-a4addfdf73a1"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_5d5f0d75-f4fb-43cc-86f7-78cc0af702ac"
+id="sec.18-he"><b>Effect of enforceable undertaking</b></heading></head>
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_34501bbc-a90e-4c0a-aa6a-663f40f52da7"></attrib>
+<attrib name="id" value="sec.18-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">No proceedings may be brought under this Division
+in relation to a contravention of an enforcement provision if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9f7cc8bd-25e0-4872-acd6-420731079d37" id="sec.18-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">there is an enforceable undertaking in effect in
+relation to the contravention, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_56a0a809-550f-4fb5-8fb5-083a3774de14" id="sec.18-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">an enforceable undertaking given by the ELNO in
+relation to the contravention has been completely
+discharged.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_405bb630-f5c0-4d73-a637-be95e4924f97"></attrib>
+<attrib name="id" value="sec.18-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If the Registrar accepts an enforceable
+undertaking in relation to a contravention of an enforcement provision after
+proceedings under this Division in relation to the contravention have been
+commenced, the Registrar must take all reasonable steps to have the
+proceedings discontinued as soon as practicable.</txt></block></tier>
+</level>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_c0713527-3f02-4622-8ceb-2d6148b30348"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_4f7b0c90-8776-491e-9594-4ffd3b933606"
+id="pt.3-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_70e464a1-d785-44ee-99f0-f8a1768f3f21"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_86543130-f58a-4c19-9776-556162766690"
+id="sec.19-he"><b>Act to bind Crown</b></heading></head>
+<block><txt break.before="1">This Act binds the Crown.</txt></block></level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_93c1e9d5-b2bc-4d45-b402-ed64e723b752"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_2c0d4ea0-2923-4452-8706-689bf7a91a62"
+id="sec.20-he"><b>Personal liability</b></heading></head>
+
+<tier type="subclause" id="sec.20-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_39bbad54-07f1-4608-b173-bbc101e699ec"></attrib>
+<attrib name="id" value="sec.20-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A protected person is not personally subject to
+liability for anything done&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6b053f43-404a-4ab9-82b4-c8053b86bfb7" id="sec.20-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in good faith, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4b10b05e-dfd1-487f-b906-d265a0041427" id="sec.20-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">for the purpose of exercising a function under
+this Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_82b65aed-23eb-400f-be06-e66a68c3aa9a"></attrib>
+<attrib name="id" value="sec.20-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The liability instead attaches to the
+Crown.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5bf7e300-5d47-4488-80c0-31ad3a696353"></attrib>
+<attrib name="id" value="sec.20-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_8c3d3018-e169-46cb-97e0-e673aae4eff7"
+id="sec.20-def.done"><b><i>done</i></b></defterm> includes omitted to be
+done.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_741676b7-8718-4d79-989d-fc544ef7c685"
+id="sec.20-def.liability"><b><i>liability</i></b></defterm> means civil
+liability and includes action, claim or demand.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_bef8fb1b-b263-43c6-9ecf-2e541d3995e2"
+id="sec.20-def.protectedperson"><b><i>protected person</i></b></defterm>
+means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_34060f06-0b91-4d34-8282-a3418717e786" id="sec.20-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Registrar, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6af0fbf1-f323-49a8-9c24-a2170829c8e6" id="sec.20-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a person acting under the direction of the
+Registrar.</txt></block></li></list>
+</block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.21">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4e9a25cd-c2c6-495e-9ae0-059e8d18fb4c"></attrib>
+<attrib name="id" value="sec.21"></attrib></parentattributes>
+
+<head>
+<no>21</no><heading guid="_2b702fb6-29df-4302-9055-5e723dd9d483"
+id="sec.21-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, about any matter that by this Act is required or
+permitted to be prescribed or that is necessary or convenient to be prescribed
+for carrying out or giving effect to this Act.</txt></block></level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8c8b6a3d-9d8b-47d0-909e-218ade34e14c"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_fa439839-703e-4c8f-bfb2-c6cf114a53ef" id="sch.1-he"><b>Savings,
+transitional and other provisions</b></heading></head>
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_242e3398-9808-440e-96d0-331ba1959a9f"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_fd093c2a-d128-4047-bd60-f12715bc696c"
+id="sch.1-sec.1-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2aad36de-57a1-4c54-a329-f33969d6fb4e"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the commencement of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b679d5ca-efef-4f13-b78c-27a81987c733" id="sch.1-sec.1-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a provision of this Act, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c9c9f42e-e911-427f-a6ef-bb360c481829" id="sch.1-sec.1-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a provision amending this
+Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_372099a5-d656-455d-b462-795e6b6a95b6"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A savings or transitional provision consequent on
+the commencement of a provision must not be made more than 2 years after the
+commencement.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a3139c0c-7e2d-41c0-acd1-b6b0bdff1f30"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A savings or transitional provision made
+consequent on the commencement of a provision is repealed 2 years after the
+commencement.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_31576c7e-f97b-4054-ad7c-08e36f220336"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A savings or transitional provision made
+consequent on the commencement of a provision may take effect before the
+commencement but not before&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5073c742-bc10-4143-8c88-d738ee5f08ed" id="sch.1-sec.1-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">for a provision of this Act&#8212;the date of
+assent to this Act, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_059e1192-68d4-4e63-b858-330327c35092" id="sch.1-sec.1-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">for a provision amending this Act&#8212;the date
+of assent to the amending Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c555f415-1491-4753-b3fa-7f60035aeed9"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A savings or transitional provision taking effect
+before its publication on the NSW legislation website does not&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5d25850a-1261-4590-98a2-bfb4e6056071" id="sch.1-sec.1-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">affect the rights of a person existing before the
+publication in a way prejudicial to the person, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3795d34d-82a5-4d39-8016-2eb67f182a45" id="sch.1-sec.1-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">impose liabilities on a person for anything done
+or omitted to be done before the publication.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7ad9610f-8c56-4c7c-8827-b3d082c179b7"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_90951b28-bb02-47fb-987d-8f6def2b5d3d"
+id="sch.1-sec.1-def.person"><b><i>person</i></b></defterm> does not include
+the State or an authority of the State.</txt></block></deflist>
+</block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_90e2339f-c396-48e5-a858-20bdda60b9d6"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_12d8f4f2-cf8e-4f84-8e02-13fab4edb8d4"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2022-062"><name emphasis="yes"><i>Electronic Conveyancing
+Enforcement Act 2022</i></name> No 62</legref>. Assented to 14.11.2022. Date
+of commencement, assent, sec 2.</txt></block></level>
+</level>
+</content>
+</exdoc>

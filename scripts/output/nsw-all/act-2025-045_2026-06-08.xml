@@ -1,0 +1,3017 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2025-045"
+title="Identity Protection and Recovery Act 2025"
+year="2025"
+number="45"
+enact.or.made.date="2025-08-15"
+first.valid.date="2025-08-16"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2025</metacontent>
+<metacontent class="year.assent">2025</metacontent>
+<metacontent class="publication.date">2025-08-16</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-1987-015</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="introduction.date">2025-05-06</metacontent>
+<metacontent class="la.second.reading.date">2025-05-06</metacontent>
+<metacontent class="amended.in.committee">0</metacontent>
+<metacontent class="id">act-2025-045</metacontent>
+<metacontent
+class="version.desc.id">23e37028-9710-4a8f-a3bd-35ba6562015b</metacontent>
+<metacontent
+class="version.series.id">48d0cc27-13a3-4e63-84e3-24888c8171b9</metacontent>
+<metacontent class="year.introduced">2025</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Identity Protection and Recovery Act
+2025"></attrib>
+<attrib name="year.passed" value="2025"></attrib>
+<attrib name="year.assent" value="2025"></attrib>
+<attrib name="no" value="45"></attrib>
+<attrib name="publication.date" value="2025-08-16"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-1987-015"></attrib>
+<attrib name="first.valid.date" value="2025-08-16"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="introduction.date" value="2025-05-06"></attrib>
+<attrib name="la.second.reading.date" value="2025-05-06"></attrib>
+<attrib name="amended.in.committee" value="0"></attrib>
+<attrib name="assent.date" value="2025-08-15"></attrib>
+<attrib name="id" value="act-2025-045"></attrib>
+<attrib name="version.desc.id"
+value="23e37028-9710-4a8f-a3bd-35ba6562015b"></attrib>
+<attrib name="version.series.id"
+value="48d0cc27-13a3-4e63-84e3-24888c8171b9"></attrib>
+<attrib name="year.introduced" value="2025"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_6f7aaebb-2f88-4767-ae1c-4390203bed95"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to enable the Secretary to exercise
+functions to support individuals and organisations in protecting, recovering
+and remediating personal information in relation to the compromise of personal
+information; to provide the necessary exemptions from privacy and other laws;
+and for related purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_03f11112-46bf-48c3-a2a5-69c7c9db6f55"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_aff5cf3f-8d58-45cf-b89b-649ab26b2c2c"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4954a149-c3da-421b-9f9d-f89a206dc3b4"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_5380e59e-166d-4b8b-8110-44c07e6e4a74"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref refid="act-2025-045"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Identity
+Protection and Recovery Act 2025</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_32ada722-8fdd-4425-a624-7c35c4514073"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_7f1265df-1742-4b2b-963f-902a16f813f8"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on the date of assent to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_63d7895c-ad19-4176-b474-b6ff11a6a245"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_41761c2e-ebf2-4b4d-bc0d-2e12cba541a6"
+id="sec.3-he"><b>Objects of Act</b></heading></head>
+<block><txt break.before="1">The objects of this Act are as
+follows&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_00e8ea0b-a052-4b2d-b87c-22b502d477e9" id="sec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to enable the Secretary to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2e9973e7-4e4a-4aa8-a581-33a0c762ac65" id="sec.3-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">carry out and facilitate the protection and
+recovery of personal information of individuals from personal data
+compromises, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5f3e61eb-2f3d-449e-b6c2-b767960e6d98" id="sec.3-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">facilitate the remediation of compromised
+personal information of individuals, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cc3923bc-127f-4276-bdc0-89b6c9abd4ae" id="sec.3-para1.a-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">carry out and facilitate the protection of
+organisations from personal data compromises, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aa4838b8-ff11-41d5-99ca-51f90bea2e37" id="sec.3-para1.a-para2.iv">
+<no>(iv)</no>
+<block><txt break.before="1">adopt and recommend best practice standards in
+the protection and recovery of personal
+information,</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2efad22f-a736-40eb-9bb4-0a55900555cb" id="sec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to permit the collection, holding, use and
+disclosure of information for the purpose of protecting organisations and the
+personal information of individuals from personal data
+compromises.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_87799126-3b6a-4a32-b532-a3052e81f204"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_edfbd0b3-d2af-44fa-8e20-568b76cfffc6"
+id="sec.4-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">The dictionary in Schedule 4 defines words used
+in this Act.</txt></block>
+<note type="legtext" guid="_a41b66a5-15a2-4134-a378-b9136ac3b369"
+id="sec.4-note"><heading guid="_fdf4a386-6074-4719-b529-b298a653503a"
+id="sec.4-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">The <legref refid="act-1987-015" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Interpretation Act
+1987</i></name></legref> contains definitions and other provisions that affect
+the interpretation and application of this Act.</txt></block></note>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e5599e6d-9211-4319-9e5f-92ef27745e49"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_e638aa76-e1f6-40ac-a635-1492b23398e8"
+id="sec.5-he"><b>Meaning of &#8220;compromised&#8221; personal
+information</b></heading></head>
+<block><txt break.before="1">In this Act, <defterm type="definition"
+guid="_10a05fc5-6243-4639-9374-16c6c1f0ec79"
+id="sec.5-def.compromised"><b><i>compromised</i></b></defterm>, in relation to
+personal information, means personal information known or suspected to have
+been&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8fc3376c-4531-413f-9d08-e15b02b1a38e" id="sec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">used, accessed, disclosed or lost unlawfully or
+without authorisation, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_24188281-39c9-4e73-a262-a0504900c25a" id="sec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">lost or disclosed
+unintentionally.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_62f1487a-03de-49c7-8388-d936d3894231"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_262c894a-3d03-4e29-af55-3e3b12cb201e"
+id="sec.6-he"><b>Meaning of &#8220;identity
+document&#8221;</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cff43b5d-9b50-4c31-b03d-bc80290d31be"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act, <defterm type="definition"
+guid="_62de89aa-5699-462d-891b-459f63d7b1e5"
+id="sec.6-ssec.1-def.identitydocument"><b><i>identity
+document</i></b></defterm> means the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fc754d65-ee0e-4784-8f17-140b3fa8d806" id="sec.6-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a document specified in Schedule
+1,</txt></block>
+<note type="legtext" guid="_be43600b-124e-45f5-b074-8c39be021a4d"
+id="sec.6-ssec.1-para1.a-note"><heading
+guid="_b6cff6d9-e707-4677-97f1-8618080dc3aa"
+id="sec.6-ssec.1-para1.a-note-he"><b>Examples&#8212;</b></heading>
+<block><txt break.before="1">driver licence</txt></block>
+<block><txt break.before="1">birth certificate</txt></block>
+<block><txt break.before="1">medicare card</txt></block></note>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8e0e4598-25b0-47d0-81f2-069606b7ac0b" id="sec.6-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a DVS document within the meaning of the <legref
+jurisd="CTH" type="act" check="unknown"><name emphasis="yes"><i>Identity
+Verification Services Act 2023</i></name></legref> of the Commonwealth that is
+not otherwise specified in Schedule 1,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_528fa30d-f8ee-423a-957e-df2cc5d0a1b1" id="sec.6-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">another document that is&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_83e8a6b9-8bee-4d26-b552-9fd6b6630c5e"
+id="sec.6-ssec.1-para1.c-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">issued by a government to an individual
+containing personal information relating to the individual,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_05c6598b-39a8-44c5-8d77-416ec94e14f7"
+id="sec.6-ssec.1-para1.c-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">prescribed by the
+regulations.</txt></block></li></list>
+</block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_50bda63b-a11a-46a3-883f-3e0961d55626"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A reference in this Act to an identity document
+includes information in relation to an individual&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_282a0bd3-d350-4eb0-afd8-c7cd9e54759e" id="sec.6-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">contained in an identity document related to the
+individual, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_421692e2-7799-4d0c-b226-f5960fa4a7a9" id="sec.6-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">associated, or reasonably expected to be
+associated, with an identity document related to the
+individual.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b5e0d470-1b91-4b4b-a250-423aab0cd82c"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_5f6ea863-1447-4085-ac7f-acb308904310"
+id="sec.7-he"><b>Meaning of &#8220;personal data
+compromise&#8221;</b></heading></head>
+<block><txt break.before="1">In this Act, a <defterm type="definition"
+guid="_9f62820b-ff87-4d76-a7c8-3d1b97007c4b"
+id="sec.7-def.personaldatacompromise"><b><i>personal data
+compromise</i></b></defterm> means a known or suspected&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6ec76a89-e1a0-4d70-9b83-523fafb1ce57" id="sec.7-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">unauthorised or unlawful use, access, disclosure
+or loss of personal information, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7c973844-c191-4709-a4b9-e7a928eb293f" id="sec.7-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">unintentional disclosure or loss of personal
+information.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d06abc00-c1af-4dcb-a60e-36437f5280da"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_a3273477-55a5-4989-9ad5-27dbffd48c7a"
+id="sec.8-he"><b>Act to bind Crown</b></heading></head>
+<block><txt break.before="1">This Act binds the Crown in right of New South
+Wales and, to the extent the legislative power of the Parliament of New South
+Wales permits, the Crown in all its other capacities.</txt></block></level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_76a1f7e7-8f75-4ef7-ab5b-305ea94dc66f"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_e964f636-c166-4f77-87e1-2264f33abaec"
+id="pt.2-he"><b>Identity protection and recovery
+functions</b></heading></head>
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5155055c-e491-4d4a-8754-20738e091913"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_1c8b2dc9-76c0-42df-a092-82d8047e1959"
+id="sec.9-he"><b>Functions of Secretary</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f0c382b4-0199-4c99-affc-4a663b6b33a7"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Secretary has the following functions
+(<defterm type="definition" guid="_1450f50b-b1bb-4897-8fe9-a1eb575e725c"
+id="sec.9-ssec.1-def.identityprotectionfunctions"><b><i>identity protection
+functions</i></b></defterm>)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0dac6c90-5405-4bdd-8b2b-6aa775354dda" id="sec.9-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">identity protection and recovery
+functions,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_94e07f25-b238-4ed1-927c-6a5a5703a2ce" id="sec.9-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">identity fraud control
+functions,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fbc46512-f356-4da4-8659-aea22253dffd" id="sec.9-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">another function specified to be an identity
+protection function by this Act or another Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_282caa4e-9bb0-4e5c-89ed-5f136b033205"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Secretary must not exercise an identity
+protection function unless&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bc25d22e-4b93-44fa-8427-84e62fff3641" id="sec.9-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in accordance with this Act,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_41e97c87-b130-42fb-a957-3abb3e679576" id="sec.9-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">consistent with the objects of this
+Act.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6d14ad9d-fb7e-44b8-99c1-2953d1b3120a"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_64ae33ae-181a-4cbb-9dd7-959ae92e7e74"
+id="sec.10-he"><b>Identity protection and recovery
+functions</b></heading></head>
+<block><txt break.before="1">The <defterm type="definition"
+guid="_ff3edfbe-6fd2-4b39-9cb2-3f0cef250ce3"
+id="sec.10-def.identityprotectionandrecoveryfunctions"><b><i>identity
+protection and recovery functions</i></b></defterm> are as
+follows&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8727dba0-3ec0-4ffa-a077-95d81efd4756" id="sec.10-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to advise on and recommend actions&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_36932af3-d9b4-4cd5-aba4-59dec9633c09" id="sec.10-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">to detect, prevent and mitigate the likelihood of
+personal data compromises, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c15013bb-1914-4bc6-ab57-d05336e35588" id="sec.10-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">to mitigate the risk of harm to individuals and
+impacted individuals in relation to personal data
+compromises,</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c2531b13-ae4f-4801-b00f-3027123c64f8" id="sec.10-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to increase resilience and protection of persons
+from personal data compromises, including by advising on the appropriate kind
+and use of information technology,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_65f94460-264a-4dc6-9e16-3f41e0c066b2" id="sec.10-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">in response to a personal data
+compromise&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_571bc5ae-b679-41ae-9168-24b2f386f67a" id="sec.10-para1.c-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">to advise on and recommend actions to take,
+including to replace or reissue identity documents and other actions to
+protect and recover personal information, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_57b72738-abde-4aab-b160-21621a8febf7" id="sec.10-para1.c-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">to advise on and assess the risk of harm to
+impacted individuals, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d658d35a-e700-4d5b-b13b-0e91734b4918" id="sec.10-para1.c-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">to notify and disclose information to impacted
+individuals and other persons, including to assist persons in notifying
+impacted individuals,</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c10b2893-6a5a-4c2d-b50d-08d4f1b696f3" id="sec.10-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">other functions prescribed by the
+regulations.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_838a7048-f2fd-4e6a-ae1c-c6faedec5334"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_11227997-247b-4400-b282-bb7a7a44c176"
+id="sec.11-he"><b>Identity fraud control functions</b></heading></head>
+<block><txt break.before="1">The <defterm type="definition"
+guid="_75ec3153-41f4-4bca-b408-6c2025f5ac19"
+id="sec.11-def.identityfraudcontrolfunctions"><b><i>identity fraud control
+functions</i></b></defterm> are as follows&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ac878dd2-ce45-4100-af74-e2caa0fd76e9" id="sec.11-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to advise on and recommend actions for the
+detection, prevention and mitigation of the likelihood of identity
+fraud,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_87b8a664-1816-405b-8867-b61e0d7ad060" id="sec.11-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to establish and keep the compromised ID
+register,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_af7d23ca-2ed1-4344-a6a7-8e55ac1f2e01" id="sec.11-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to disclose information on the compromised ID
+register to certain persons,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_694712b3-7a6c-444a-9f70-9908d3242cf2" id="sec.11-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to determine and disclose information about the
+life status of individuals to certain persons,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e1314191-7205-4cbc-a34a-a2547dd94d09" id="sec.11-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">other functions prescribed by the
+regulations.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f82da184-a2fc-47d4-875f-d9af7ff18d1f"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_506cb42f-4a5a-4c45-aaf0-0c281e4234fd"
+id="sec.12-he"><b>Exercise of functions</b></heading></head>
+<block><txt break.before="1">The Secretary must not exercise an identity
+protection function unless the exercise of the function is&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_111741e7-b814-4600-b367-49dfce2c52ce" id="sec.12-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">at the request of the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_92a132eb-daa9-4725-9ee8-cc0552a30f04" id="sec.12-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">a person who the Secretary is satisfied is, or
+may be, affected by a personal data compromise,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7e76cfb3-ec11-487a-83d7-6c67f9aa66fa" id="sec.12-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">a law enforcement agency,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5c823e71-be37-426f-a1f4-9ff6032e0e40" id="sec.12-para1.a-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">a fraud check user, or</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6e3bfeac-eb29-425b-b2a1-e8bd0fc5eabc" id="sec.12-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in response to the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f59c9129-9118-483a-8e52-636b3784b606" id="sec.12-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">a personal data compromise for which the source
+of the personal data cannot reasonably be determined,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3e8a837f-c9f9-47d1-9bb7-d6d17b16e303" id="sec.12-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">compromised personal data made available on the
+internet, whether on the clear or dark web, or</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_77429232-5bf4-43af-8d7e-f567aa0a5bcc" id="sec.12-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to establish, keep and disclose information on
+and in relation to the compromised ID register, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_217fb274-3115-49e0-866c-1ea8687ac628" id="sec.12-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to determine and disclose information about the
+life status of an individual, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_df8f4f74-a32c-4200-a243-8fc1df140a87" id="sec.12-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">to advise on and recommend actions for the
+detection, prevention and mitigation of the likelihood of personal data
+compromises, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_51b4f361-4a4c-4834-b16e-6e0ec6792221" id="sec.12-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">in other circumstances prescribed by the
+regulations.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_96e89d7d-14f9-4328-a6c5-b4bde38f3ecc"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_830ccbbd-da04-4cac-8dca-94dbc8c971b5"
+id="sec.13-he"><b>Coordination with privacy and other similar
+authorities</b></heading></head>
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3ae07424-b979-46f6-8fad-c8f9fc3563f5"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Secretary may exercise an identity protection
+function to coordinate with the following authorities (<defterm
+type="definition" guid="_9e2c87e1-f690-43c0-aef2-d670df1c669d"
+id="sec.13-ssec.1-def.partnerauthorities"><b><i>partner
+authorities</i></b></defterm>) in response to a personal data
+compromise&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e174ed43-f886-477e-8276-d8ca15818d53" id="sec.13-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Privacy Commissioner,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9e5351df-fd27-4a2d-b7d8-eadfa3fc8283" id="sec.13-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">an authority with functions to protect the
+privacy of individuals under an Act or law of another jurisdiction within
+Australia,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_75056c89-7046-43d8-b03a-2cf621705ab8" id="sec.13-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">an authority of another jurisdiction within
+Australia with functions that are the same as or similar to the identity
+protection functions,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_55e8cf7c-29f8-42ae-af46-a0be72b1f530" id="sec.13-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">an authority of the Commonwealth, prescribed by
+the regulations, with functions under an Act of the Commonwealth to manage
+cyber security incidents.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ba3df390-fe9d-4d43-abbb-53f8bc5cda61"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Secretary, in exercising an identity
+protection function, must act consistently with guidance and advice given by
+the following in relation to a notifiable data breach&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ff97f16e-bad2-45dd-a149-3c09a738c613" id="sec.13-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Privacy Commissioner,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d101f501-76ea-4102-a29b-8bf3dc7c7a0b" id="sec.13-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">an authority, prescribed by the regulations, with
+functions under an Act of the Commonwealth to protect the privacy of
+individuals.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2cfe1a82-0388-4ee6-9852-3fcfa9c934df"></attrib>
+<attrib name="id" value="sec.13-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Secretary must not act for or on behalf of a
+person for the purpose of discharging the person&#8217;s duties in relation to
+a notifiable data breach.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_34bb9036-5bc9-44a8-a645-7699b9185908"></attrib>
+<attrib name="id" value="sec.13-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_233e84b8-50dd-470e-8753-828558ce42fc"
+id="sec.13-ssec.4-def.notifiabledatabreach"><b><i>notifiable data
+breach</i></b></defterm> means a breach required to be notified under an Act
+or law of the State or another jurisdiction prescribed by the
+regulations.</txt></block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f8ea94ce-e059-4154-9506-d41e2bfbdacc"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_2271c04a-a820-4a3e-b22b-23905213a53b"
+id="sec.14-he"><b>Contracts for identity protection
+functions</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4cd3e5ec-55bc-4070-a415-516beb3ad7b5"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Secretary may make and enter into contracts
+or other agreements in connection with the exercise of an identity protection
+function.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a1b0113d-e1e5-4b4c-a2e6-27441d1765d1"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The regulations may provide for the form and
+content of the contracts or agreements.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3a38cbed-f8fc-4094-b081-8d7ff0aa0cfa"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_d2ae23ef-af6f-44c4-acd1-64f46d83f2a9"
+id="sec.15-he"><b>Functions outside New South Wales</b></heading></head>
+<block><txt break.before="1">The Secretary may exercise an identity protection
+function for or in relation to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3cc1bd4f-1f0b-4d82-bde2-0225b5c9f822" id="sec.15-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a person who resides or is located within another
+State or Territory, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f350c6e2-7399-4034-bc8a-e46dc5504556" id="sec.15-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a department or agency of the Commonwealth or
+another State or Territory.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ea57d09d-acc1-4a75-983b-adef613a4faf"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_15e0f043-9e37-497f-b6d9-0dd42aa2afde"
+id="sec.16-he"><b>Fees</b></heading></head>
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_eccc10ff-a5ea-4291-9e7b-5afada79ab4b"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Secretary may charge fees under this Act or
+the regulations for or in relation to the exercise of a function under this
+Act or the regulations, including for&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bf88862a-fb71-4388-8f5e-0f5297d5b79f" id="sec.16-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">an approval or other permission,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_699a0742-4d6e-4f46-8071-778b8b0892a9" id="sec.16-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">late payment of fees.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4cfc7220-d7b8-4b34-bf7c-4c4ddb9d42cd"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A fee or other charge payable to the Secretary
+may be recovered by the Secretary as a debt in a court of competent
+jurisdiction.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_002e6ce5-c5bb-4d70-a441-3dc6d6106020"></attrib>
+<attrib name="id" value="sec.16-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The regulations may&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_52696b5e-97c2-4b0c-bb71-2fb0f7102fcf" id="sec.16-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">prescribe the fees or the way in which the fees
+may be calculated, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fa643990-e7fe-4bd4-a76f-8d18095ed43b" id="sec.16-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">provide for the exemption from or waiver or
+refund of fees under this Act or in relation to this Act,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_18ec0193-4f78-4780-ae1f-aa192d0198b0" id="sec.16-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">provide for payment of a deposit or prepayment in
+relation to a fee.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dad48a46-c800-4c6e-8b7c-72d40c805782"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_7927053e-690a-422a-9188-3e0620952472"
+id="sec.17-he"><b>Delegation</b></heading></head>
+<block><txt break.before="1">The Secretary may delegate the exercise of a
+function of the Secretary under this Act, other than this power of delegation,
+to a member of staff of the Department.</txt></block></level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_c772699a-d4ac-4323-98cf-ffe7555fb28b"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_6ede41a9-3353-4f2e-8882-21397d199ec8"
+id="pt.3-he"><b>Identity fraud control</b></heading></head>
+
+<level type="division" id="pt.3-div.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_6e56f5ea-4274-42ec-836c-4340f5f7d657"></attrib>
+<attrib name="id" value="pt.3-div.1"></attrib></parentattributes>
+
+<head>
+<no><b>Division 1</b></no><heading
+guid="_3cc456bf-2fee-4faa-b85f-432b6ef0457f" id="pt.3-div.1-he"><b>Compromised
+ID register</b></heading></head>
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_09a8e312-f2bd-47aa-85a5-68b6515244ab"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_413acd22-16ef-4fdc-a824-9a59dafc0a19"
+id="sec.18-he"><b>Secretary to keep register</b></heading></head>
+<block><txt break.before="1">The Secretary must keep a register (the <defterm
+type="definition" guid="_438b7d85-b613-44db-9403-b99274ff55f9"
+id="sec.18-def.compromisedIDregister"><b><i>compromised ID
+register</i></b></defterm>) for compromised identity documents in a way
+prescribed by the regulations.</txt></block></level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8e457e05-8894-417a-99c3-8356d4468400"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_0df27041-c43e-4e72-b449-573dba87879c"
+id="sec.19-he"><b>Secretary to record compromised identity
+documents</b></heading></head>
+<block><txt break.before="1">The Secretary may record an identity document in
+the compromised ID register if, in the Secretary&#8217;s opinion, the identity
+document has or may have been compromised.</txt></block></level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ab641313-6fc4-4c3d-8673-916ba5d06b91"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_c6a701c7-d425-4ba8-88f6-68e2e6a71f8b"
+id="sec.20-he"><b>Removal of records from register at
+request</b></heading></head>
+
+<tier type="subclause" id="sec.20-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_61a5cf89-c840-4fce-abde-eb1371aa0b23"></attrib>
+<attrib name="id" value="sec.20-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Secretary must remove records about an
+individual from the compromised ID register if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4aaad837-df15-49b2-a805-002bde7abff3" id="sec.20-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">requested by the individual in the approved way,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_546f5ad5-dcc6-4a28-be32-07084259364c" id="sec.20-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the Secretary is satisfied the request is for a
+purpose prescribed by the regulations.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_067f03ff-6c4f-45ee-8e65-e6e08ff85686"></attrib>
+<attrib name="id" value="sec.20-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Secretary may remove records about an
+individual from the compromised ID register if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c9af76e6-134a-4fee-b9ec-8604a3d667eb" id="sec.20-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">requested by the issuer of an identity document
+or member of the NSW Police Force, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2c342fa8-bc15-492a-a0a4-271a478f9eef" id="sec.20-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the Secretary is satisfied the request is for a
+purpose prescribed by the regulations.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1191d9c4-dda0-47eb-ac99-ca2da7669f5c"></attrib>
+<attrib name="id" value="sec.20-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This section does not limit the exercise of the
+Secretary&#8217;s function to remove records from the compromised ID register
+for the purposes of maintaining the register.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="division" id="pt.3-div.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_c7d5f352-b9dc-46b3-bc06-0416b1f694ed"></attrib>
+<attrib name="id" value="pt.3-div.2"></attrib></parentattributes>
+
+<head>
+<no><b>Division 2</b></no><heading
+guid="_2117c7cb-82f3-4f9c-b7ff-0a300dbe60e6" id="pt.3-div.2-he"><b>Disclosure
+of information on register</b></heading></head>
+
+<level type="clause" id="sec.21">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6c30d60d-1aa9-4349-9b4c-30eabb727095"></attrib>
+<attrib name="id" value="sec.21"></attrib></parentattributes>
+
+<head>
+<no>21</no><heading guid="_ca28eb61-9679-406f-8e5d-94941295939e"
+id="sec.21-he"><b>Disclosure of information on register</b></heading></head>
+<block><txt break.before="1">The Secretary must not disclose information on
+the compromised ID register unless provided for by this part or required by
+another Act or law.</txt></block></level>
+
+
+<level type="clause" id="sec.22">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1a065f27-8133-434a-a483-2801bf4070a6"></attrib>
+<attrib name="id" value="sec.22"></attrib></parentattributes>
+
+<head>
+<no>22</no><heading guid="_1041b423-a9b5-463c-a20e-80c18ee0c0f7"
+id="sec.22-he"><b>Disclosure to impacted individuals</b></heading></head>
+
+<tier type="subclause" id="sec.22-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5634a718-bbb4-40de-a280-7f5c8593498d"></attrib>
+<attrib name="id" value="sec.22-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Secretary must, as soon as reasonably
+practicable, disclose to an individual when the individual&#8217;s identity
+document has been recorded on the compromised ID
+register.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.22-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8ef875c0-64f5-4493-b3cb-76bea152b94c"></attrib>
+<attrib name="id" value="sec.22-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Secretary may disclose information on the
+compromised ID register to an individual to whom the information relates at
+any time.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.23">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9a39dadf-63fd-4ca5-ad8e-804439c99156"></attrib>
+<attrib name="id" value="sec.23"></attrib></parentattributes>
+
+<head>
+<no>23</no><heading guid="_f3df14d4-b127-4823-b771-bd9d72b5dac6"
+id="sec.23-he"><b>Disclosure to issuers of identity
+documents</b></heading></head>
+
+<tier type="subclause" id="sec.23-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dd3f7c70-b1a4-4fa0-a471-4bae3e869c88"></attrib>
+<attrib name="id" value="sec.23-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Secretary must, as soon as reasonably
+practicable, disclose to the issuer of an identity document when the identity
+document is recorded on the compromised ID register.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6ad97fa7-1ab5-4629-89b5-996e95fe3f02"></attrib>
+<attrib name="id" value="sec.23-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Secretary must make the disclosure to the
+issuer by written notice.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d4af34fe-09a7-42be-9e6e-9f8a7651e4a0"></attrib>
+<attrib name="id" value="sec.23-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Secretary may&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e98d0275-406f-446b-aeec-7357225f1dbe" id="sec.23-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">give the issuer information that the Secretary
+considers relevant to the disclosure, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_96c0c1e7-d00f-48ee-9f4f-e5a24eda5a57" id="sec.23-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">recommend the issuer take certain steps in
+response to the identity document being recorded on the
+register.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4c94743e-6657-491e-baaa-c7f2002a97a8"></attrib>
+<attrib name="id" value="sec.23-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Secretary may disclose to the issuer when the
+identity document is removed from the compromised ID
+register.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="division" id="pt.3-div.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e746da4b-8a7b-4d72-9313-6d4f9803b149"></attrib>
+<attrib name="id" value="pt.3-div.3"></attrib></parentattributes>
+
+<head>
+<no><b>Division 3</b></no><heading
+guid="_e3b59d8f-ba48-48d2-8a75-735e7d7e1986" id="pt.3-div.3-he"><b>Identity
+fraud checks</b></heading></head>
+
+<level type="clause" id="sec.24">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f295e2ef-57ff-4a2c-96a4-a45849d3a6f3"></attrib>
+<attrib name="id" value="sec.24"></attrib></parentattributes>
+
+<head>
+<no>24</no><heading guid="_7a3efca9-210a-4338-8ba5-eed702b232f6"
+id="sec.24-he"><b>Definition</b></heading></head>
+<block><txt break.before="1">In this division&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_886f2389-b814-4281-97f0-15bd9cc3e2ba"
+id="sec.24-def.relevantpurpose"><b><i>relevant purpose</i></b></defterm>, in
+relation to a life status check&#8212;see section 27.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sec.25">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_811b237b-302d-42c2-8b5d-b35c9837bd4c"></attrib>
+<attrib name="id" value="sec.25"></attrib></parentattributes>
+
+<head>
+<no>25</no><heading guid="_15a1bb38-6072-4c89-8ba8-872de3365de5"
+id="sec.25-he"><b>Fraud check users</b></heading></head>
+
+<tier type="subclause" id="sec.25-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f20fd21f-5650-4789-ac7b-d5bb03526155"></attrib>
+<attrib name="id" value="sec.25-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person who wishes to be eligible to request one
+or both of the following disclosures may apply to the Secretary for
+eligibility&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e1acc1a8-cdb6-46e8-b05e-d324fd407b3a" id="sec.25-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the disclosure of information about whether an
+identity document is on the compromised ID register under section
+26,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e3335cd5-c4e2-4807-9d73-93364d18328f" id="sec.25-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the disclosure of information to verify the life
+status of an individual under section 28.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.25-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_86c0923a-b402-4f39-83b2-261eea1dd37d"></attrib>
+<attrib name="id" value="sec.25-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The application must be&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3bebbd6a-3019-47e7-826f-576277b0bdeb" id="sec.25-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">made in the approved way, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_039a14e4-7582-448e-a5f5-5bc2a5781418" id="sec.25-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">accompanied by the fee prescribed by the
+regulations, if any.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.25-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bac5cf59-d9d8-4686-a4fd-8daaeee0cda1"></attrib>
+<attrib name="id" value="sec.25-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Secretary may, by written notice to the
+applicant&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ec0c1b7f-18c7-4e7e-ac28-756737c18057" id="sec.25-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">approve the application with or without
+conditions, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d24b1d52-7d7f-4657-822e-ac74de0dbfab" id="sec.25-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">refuse the
+application.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.25-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d976268c-328b-4f78-8b5c-98829a60468d"></attrib>
+<attrib name="id" value="sec.25-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Secretary must not grant the approval unless
+the Secretary is satisfied the person meets the criteria prescribed by the
+regulations.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.25-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c61c42a7-3bb4-4d87-9902-6940901832ab"></attrib>
+<attrib name="id" value="sec.25-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The Secretary may, by written notice to the
+approval holder, cancel or suspend the approval with or without
+conditions.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.25-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4e0e3bc8-6876-47b7-b863-66875f3a7e63"></attrib>
+<attrib name="id" value="sec.25-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">The regulations may&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0552955e-47d9-42b1-ba12-fe04c541dca4" id="sec.25-ssec.6-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">make further provision about an approval,
+including the grant of an approval, under this section, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_755bc924-ea9f-4a9b-aa65-482d1624f692" id="sec.25-ssec.6-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">prescribe persons or classes of persons who may
+be taken to hold an approval under this section.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.26">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a7cf4ee9-d557-4e93-b365-6102a10b63b0"></attrib>
+<attrib name="id" value="sec.26"></attrib></parentattributes>
+
+<head>
+<no>26</no><heading guid="_984e3568-6710-4f69-9499-bb964be00d84"
+id="sec.26-he"><b>Compromised ID register checks</b></heading></head>
+
+<tier type="subclause" id="sec.26-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4760ae11-9b69-4e9f-8244-c76b694c5548"></attrib>
+<attrib name="id" value="sec.26-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An eligible fraud check user may apply to the
+Secretary for a disclosure of information about whether an identity document
+is recorded on the compromised ID register.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_52bdbdd1-fc01-4fb0-b147-214a64dbe6c4"></attrib>
+<attrib name="id" value="sec.26-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The application must be&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c56c0f6d-e1a4-486d-8b9c-58c300bec5bb" id="sec.26-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">made in the approved way, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a7ea0ac6-8050-42dc-9cba-1a614004c3fb" id="sec.26-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">accompanied by the prescribed fee, if
+any.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_65211e36-2db2-4a19-9255-f256fcd5a26c"></attrib>
+<attrib name="id" value="sec.26-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">After receiving the application, the Secretary
+may disclose, or refuse to disclose, the information to the fraud check
+user.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b6285cc5-0880-4d9e-a5af-bbed3b85371b"></attrib>
+<attrib name="id" value="sec.26-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Despite subsection (3), the Secretary must not
+disclose the information to the fraud check user unless the Secretary is
+reasonably satisfied that&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_44c6f7e2-855c-4783-963c-121ba2f0d675" id="sec.26-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the individual whose identity document or
+purported identity document is the subject of the disclosure has consented to
+the disclosure, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_71db13a7-acdb-4417-a8d3-8346b006aaee" id="sec.26-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the fraud check user will only use the
+information for one or more of the following purposes&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dd39a14f-d59e-4f09-aea8-d7964548942c"
+id="sec.26-ssec.4-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">to reduce the risk of fraudulent use of the
+individual&#8217;s identity, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3304c8f8-5264-49f0-a7ec-de477cadfb0a"
+id="sec.26-ssec.4-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">another purpose prescribed by the
+regulations.</txt></block></li></list>
+</block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6cccea8c-1d01-48a7-ab12-4deeaee6427d"></attrib>
+<attrib name="id" value="sec.26-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Despite subsections (3) and (4), the
+Secretary&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_79f47cdf-6297-4bd6-823b-e17ef09d82a2" id="sec.26-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">must not disclose the information to the fraud
+check user in circumstances prescribed by the regulations,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ce17a715-3711-4b31-ab65-3a535dc23395" id="sec.26-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">must only disclose information of a kind
+prescribed by the regulations.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.27">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_824b9dbc-918e-4f52-8696-c01f69af6e48"></attrib>
+<attrib name="id" value="sec.27"></attrib></parentattributes>
+
+<head>
+<no>27</no><heading guid="_8a436837-613e-410d-b79d-74a00309514b"
+id="sec.27-he"><b>Relevant purpose for life status
+checks</b></heading></head>
+<block><txt break.before="1">The Secretary must not use information about, or
+determine, the life status of an individual unless for one or more of the
+following purposes (a <defterm type="definition"
+guid="_f43cd0f3-316f-47d4-9c99-a361606adc0e"
+id="sec.27-def.relevantpurpose"><b><i>relevant
+purpose</i></b></defterm>)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c42cde1e-934c-439c-84e2-f40aec31f844" id="sec.27-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">for an individual whose personal information has
+or may have been compromised&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b11976b1-9b4f-4c8f-a4c0-af2eeb364a40" id="sec.27-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">to assess the risk of harm to the individual or
+another person caused by the compromise, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dab0a405-2bb8-423e-af7a-68f4a01dea38" id="sec.27-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">to identify and notify the individual in relation
+to the compromise,</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_29b7ae6a-85e1-4402-94a0-c1c950b58aa2" id="sec.27-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to reduce the risk of fraudulent use of the
+individual&#8217;s identity if the individual is
+deceased.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.28">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_943ffa7a-23fd-470d-9f62-9b24e75d3cc2"></attrib>
+<attrib name="id" value="sec.28"></attrib></parentattributes>
+
+<head>
+<no>28</no><heading guid="_b3226a65-fdb9-403e-ba85-1dbddeb0950b"
+id="sec.28-he"><b>Life status checks for fraud check
+users</b></heading></head>
+
+<tier type="subclause" id="sec.28-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_143d3c49-99d7-4fa5-b545-dece9f666ada"></attrib>
+<attrib name="id" value="sec.28-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An eligible fraud check user may apply to the
+Secretary for a disclosure of information about the life status of an
+individual.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a88564b1-3cb8-444a-a551-cf559812a25f"></attrib>
+<attrib name="id" value="sec.28-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The application must be&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_47509e8a-c823-4432-ac26-ac63873f9a01" id="sec.28-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">made in the approved way, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b89deb8b-06b4-45db-918f-99dd3c941716" id="sec.28-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">accompanied by the prescribed fee, if
+any.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4cffb5e6-e7f2-401b-a380-688d3958d74f"></attrib>
+<attrib name="id" value="sec.28-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">After receiving the application, the Secretary
+may disclose, or refuse to disclose, the information to the fraud check
+user.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_32de53af-4928-422b-9e4e-cec24ae71bf3"></attrib>
+<attrib name="id" value="sec.28-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Despite subsection (3), the
+Secretary&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_258e1e05-fe8c-49aa-89eb-46b01bdf9253" id="sec.28-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">must not disclose the information unless the
+Secretary is satisfied the fraud check user will only use the information for
+a relevant purpose, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6804c9b5-84cf-42c4-b42d-43fd012f42aa" id="sec.28-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">must only disclose information of a kind
+prescribed by the regulations.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_6d4b1ffe-cb34-4fbe-acf4-62faa7bb2109"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_620b6003-e240-4684-9380-98fd4829ba11"
+id="pt.4-he"><b>Exemptions from privacy and other laws</b></heading></head>
+
+<level type="division" id="pt.4-div.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_0132d81b-a89e-4b86-a41b-701238fe4799"></attrib>
+<attrib name="id" value="pt.4-div.1"></attrib></parentattributes>
+
+<head>
+<no><b>Division 1</b></no><heading
+guid="_9b8e01ee-5d47-4b55-b8b2-aa4aa610b071"
+id="pt.4-div.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.29">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b279d0f7-6314-4306-89cc-a1e6aafc2bf0"></attrib>
+<attrib name="id" value="sec.29"></attrib></parentattributes>
+
+<head>
+<no>29</no><heading guid="_e2825c27-ad85-4cf1-93b3-fd41c2452452"
+id="sec.29-he"><b>Definition</b></heading></head>
+<block><txt break.before="1">In this part&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_f1f95856-1081-46d5-8b7e-2e86fc158267"
+id="sec.29-def.publicsectoragency"><b><i>public sector
+agency</i></b></defterm> has the same meaning as in the <legref
+refid="act-1998-133" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Privacy and Personal Information Protection Act
+1998</i></name></legref>.</txt></block></deflist>
+</block></level>
+</level>
+
+
+<level type="division" id="pt.4-div.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_eade14b3-d912-4e93-8ebd-b8e04de35567"></attrib>
+<attrib name="id" value="pt.4-div.2"></attrib></parentattributes>
+
+<head>
+<no><b>Division 2</b></no><heading
+guid="_cb46de8d-4457-41a9-bc08-59a59cf05dca" id="pt.4-div.2-he"><b>Exemption
+from privacy laws</b></heading></head>
+
+<level type="clause" id="sec.30">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f7588da0-8cda-4b6b-9120-b5ca82ee3458"></attrib>
+<attrib name="id" value="sec.30"></attrib></parentattributes>
+
+<head>
+<no>30</no><heading guid="_e62a57e4-499a-4677-b0dc-37389e90cf1a"
+id="sec.30-he"><b>Application of division</b></heading></head>
+
+<tier type="subclause" id="sec.30-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9fb67169-a3d7-4488-8267-1d73f3e71404"></attrib>
+<attrib name="id" value="sec.30-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This division has effect despite any Act or law,
+including the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fe00a10a-3c4e-4485-8817-ac0af618f711" id="sec.30-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the <legref refid="act-1998-133" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Privacy and Personal
+Information Protection Act 1998</i></name></legref>, sections 9&#8211;11 and
+15&#8211;19,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e8df1b4b-338e-4b3a-98fc-4ddd19a3dd06" id="sec.30-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the <legref refid="act-2002-071" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Health Records and
+Information Privacy Act 2002</i></name></legref>, Schedule 1, clauses
+1&#8211;4 and 6&#8211;11.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.30-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_26516a6d-1745-4030-aa96-ce36b4f25da9"></attrib>
+<attrib name="id" value="sec.30-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This division does not limit the application of
+section 33.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.31">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_31da90be-8ede-44a1-aff2-1a0ee3fb8fc3"></attrib>
+<attrib name="id" value="sec.31"></attrib></parentattributes>
+
+<head>
+<no>31</no><heading guid="_45f96c5d-8bf3-4376-b1b9-0c091f35c422"
+id="sec.31-he"><b>Collection, holding, use and disclosure of personal
+information for identity protection functions</b></heading></head>
+
+<tier type="subclause" id="sec.31-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b673f766-55e5-4b1e-8c49-84d6ca04d711"></attrib>
+<attrib name="id" value="sec.31-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Secretary may collect, hold, use and disclose
+personal information when exercising an identity protection
+function.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.31-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5154a21f-e52e-4f70-8957-6ed012fae115"></attrib>
+<attrib name="id" value="sec.31-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A partner authority may collect, hold, use or
+disclose personal information to coordinate with the Secretary in response to
+a personal data compromise.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.31-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c2ff726c-4e90-4607-976f-f5b8f1662470"></attrib>
+<attrib name="id" value="sec.31-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A public sector agency may collect, hold, use or
+disclose personal information&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_19415633-5874-406b-ae9d-c8c69a9ec317" id="sec.31-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">for the purpose of the public sector agency
+requesting the Secretary to exercise an identity protection function,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2df24e3c-35f9-46ee-a844-e45f8bee6649" id="sec.31-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">for the purpose of the Secretary exercising an
+identity protection function, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b8b18f4b-0a43-4482-95a5-e515ea99e278" id="sec.31-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">for another reason in connection with the
+Secretary exercising an identity protection
+function.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.31-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b2a56382-8642-4c47-b3a1-a2a39eede3e5"></attrib>
+<attrib name="id" value="sec.31-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Without limiting subsections (1)&#8211;(3), a
+person may disclose personal information to the Secretary for the purpose of
+the Secretary exercising an identity protection
+function.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.32">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_503517c5-370e-42c6-b4a6-36b54ff9b660"></attrib>
+<attrib name="id" value="sec.32"></attrib></parentattributes>
+
+<head>
+<no>32</no><heading guid="_4ee0d5a7-e32d-4697-8273-6882134f685e"
+id="sec.32-he"><b>Unlawful conduct not exempt</b></heading></head>
+
+<tier type="subclause" id="sec.32-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9f6186ef-783f-4468-b212-b452f99951b3"></attrib>
+<attrib name="id" value="sec.32-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This division does not apply to a person if the
+person engages in unlawful conduct when collecting, holding, using or
+disclosing personal information in connection with the exercise of an identity
+protection function.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.32-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_78a85a95-8fc3-42f8-83b6-db462984b8b7"></attrib>
+<attrib name="id" value="sec.32-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting subsection (1), this division
+does not apply to a person who&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1ef5ffd4-24fb-49ba-849f-8f1809bea95c" id="sec.32-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is party to a contract or agreement with the
+Secretary that relates to the exercise of an identity protection function,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_09463d50-de89-41b1-815c-db84e4936972" id="sec.32-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">breaches a specified provision of the contract or
+agreement when collecting, holding, using or disclosing personal information
+in connection to the exercise of the identity protection
+function.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.32-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_95fa968a-1521-43ca-b83d-5c7d934ed017"></attrib>
+<attrib name="id" value="sec.32-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Subsection (2) does not have effect unless,
+before the breach, the Secretary has given written notice to the person
+specifying a provision or provisions for the purpose of subsection
+(2)(b).</txt></block></tier>
+</level>
+</level>
+
+
+<level type="division" id="pt.4-div.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_ef550ba3-2bdc-4663-9d66-374637f389f9"></attrib>
+<attrib name="id" value="pt.4-div.3"></attrib></parentattributes>
+
+<head>
+<no><b>Division 3</b></no><heading
+guid="_7469d98e-451f-41d3-a304-7381f42e7ca3" id="pt.4-div.3-he"><b>Protected
+disclosures</b></heading></head>
+
+<level type="clause" id="sec.33">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_64c708fe-20a0-460c-918f-b7c55aa1b8f5"></attrib>
+<attrib name="id" value="sec.33"></attrib></parentattributes>
+
+<head>
+<no>33</no><heading guid="_75ab7dc8-50e9-4deb-91c7-b38c8c8980f6"
+id="sec.33-he"><b>Exclusion of liability for disclosures otherwise
+prohibited</b></heading></head>
+
+<tier type="subclause" id="sec.33-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_791004a3-84f0-41e6-aab2-037c2104190b"></attrib>
+<attrib name="id" value="sec.33-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The disclosure of information between the
+following persons is a <defterm type="definition"
+guid="_5fcadf68-3c01-47db-8c40-f7cebea64c01"
+id="sec.33-ssec.1-def.protecteddisclosure"><b><i>protected
+disclosure</i></b></defterm> if the disclosure is for the exercise of an
+identity protection function&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ccef9048-0ca2-40f7-8730-57a365f45de0" id="sec.33-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a public sector agency and the
+Secretary,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1575fab2-5d4a-419b-a4a9-9077ecc88338" id="sec.33-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a law enforcement agency and the
+Secretary,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_85596e59-e5cc-4b46-b655-d1057b11d149" id="sec.33-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">another person and the
+Secretary.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.33-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4bd7c566-8b7d-4c59-85ed-5763f35045bc"></attrib>
+<attrib name="id" value="sec.33-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The following applies to a person referred to in
+subsection (1) who makes or is involved in a protected
+disclosure&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_61d81d10-2359-42d1-862c-c84842a2ad17" id="sec.33-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the person does not incur civil liability,
+including liability&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ef0cdf87-c543-4c13-8f84-dcf4cf315682"
+id="sec.33-ssec.2-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">for an action for defamation,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c69d2a71-15e8-4193-822a-fb84496f84f5"
+id="sec.33-ssec.2-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">for breaching a duty of secrecy or
+confidentiality, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_45e90857-742c-41a5-bc68-7ea38c9f63f8"
+id="sec.33-ssec.2-para1.a-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">for breaching another restriction on disclosure
+applicable to the person, whether or not imposed by this Act or another law,
+and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_241e1a86-857d-4dcc-8a9f-dc6186865aed" id="sec.33-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the person does not incur criminal liability,
+including liability for breaching&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_37329bd4-44ed-4666-aeb3-f0a14d5cf5fc"
+id="sec.33-ssec.2-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">a law or code of conduct imposing a duty of
+secrecy or confidentiality, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_81a32f2a-7d57-4060-abb4-afe2a6e45e12"
+id="sec.33-ssec.2-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">another restriction in relation to the disclosure
+of information, and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_626fdce6-63a4-4179-9e1c-52eaf69dc19e" id="sec.33-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the person is not liable to disciplinary
+action.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.33-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2f674612-5ed8-48d2-9146-07fe00dba350"></attrib>
+<attrib name="id" value="sec.33-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Subsection (2) does not apply to a person if the
+liability arises in relation to the person&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_23971768-e3fc-43c6-8a86-42d21f8447b2" id="sec.33-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">contravening a provision of this Act,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ce9a4f08-458f-43be-b35d-46ffd08f99d3" id="sec.33-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">breaching a contract or agreement that relates to
+the exercise of an identity protection function to which the Secretary is a
+party.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+</level>
+
+
+<level type="part" id="pt.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_4f9ca5c8-78d1-4375-8967-d9a4ed2ce1ca"></attrib>
+<attrib name="id" value="pt.5"></attrib></parentattributes>
+
+<head>
+<no><b>Part 5</b></no><heading guid="_3c4f2889-58c2-4c3b-9063-93eed413efc4"
+id="pt.5-he"><b>Identity Protection and Recovery Fund</b></heading></head>
+
+<level type="clause" id="sec.34">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cde384f3-96f2-4ff9-80c1-6766830cfa05"></attrib>
+<attrib name="id" value="sec.34"></attrib></parentattributes>
+
+<head>
+<no>34</no><heading guid="_1046ba03-4759-4cfe-a7d2-aa7131892666"
+id="sec.34-he"><b>Establishment of Fund</b></heading></head>
+
+<tier type="subclause" id="sec.34-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cd2964b6-1904-4527-b817-6af2047c301d"></attrib>
+<attrib name="id" value="sec.34-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A fund is established in the Special Deposits
+Account called the Identity Protection and Recovery Fund (the <defterm
+type="definition" guid="_c377db78-8176-45a9-8b8d-54a31a75890b"
+id="sec.34-ssec.1-def.Fund"><b><i>Fund</i></b></defterm>).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.34-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5e7eacbb-4d03-4128-9ec8-b2572a1a21b2"></attrib>
+<attrib name="id" value="sec.34-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Fund is administered by the
+Secretary.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.35">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0987077a-f845-4b0d-8fb2-1df68b8f23ab"></attrib>
+<attrib name="id" value="sec.35"></attrib></parentattributes>
+
+<head>
+<no>35</no><heading guid="_b0e7ba00-deb9-47bc-9a2d-5cfaf4c3c0f4"
+id="sec.35-he"><b>Payments into Fund</b></heading></head>
+<block><txt break.before="1">The following must be paid into the
+Fund&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5b6893aa-f5bb-4565-81a1-20a511260617" id="sec.35-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">money appropriated by Parliament for the
+Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_328a7c92-dcdb-42b4-a45e-b1d4804d3131" id="sec.35-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">money authorised by the Treasurer for the
+Fund,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ddfade73-ddc5-4b0c-b0b7-abc4f2db121e" id="sec.35-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">money directed or authorised to be paid into the
+Fund under this Act or another Act or law,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_866521e7-7008-4290-a14c-a192319ffc84" id="sec.35-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">money paid to the Secretary under a contract or
+agreement in connection with an identity protection
+function,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f4b7a65a-512e-4f7a-9339-829f6bd06ee8" id="sec.35-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">fees or other charges payable to the Secretary
+under this Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c4419aba-fb40-4271-8112-ca700488e4ba" id="sec.35-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">the proceeds of the investment of money in the
+Fund.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.36">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f928c6e7-a8f4-4bfc-ba1c-8df7a9e63c69"></attrib>
+<attrib name="id" value="sec.36"></attrib></parentattributes>
+
+<head>
+<no>36</no><heading guid="_f80741b4-00a0-4c6b-8890-5939f04c5002"
+id="sec.36-he"><b>Payments out of Fund</b></heading></head>
+<block><txt break.before="1">Money may be paid out of the Fund&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e1a6b233-8b49-4324-a81a-a3cbeff9b192" id="sec.36-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to meet expenses for the Secretary&#8217;s
+functions under this Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_77b9b39c-7297-4d9f-b1c4-084b614490a3" id="sec.36-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to meet expenses in relation to the
+administration of the Fund and this Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_699012d1-9d71-4d2b-8c36-de60a29a4f6e" id="sec.36-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to meet expenses incurred by a NSW Government
+agency in assisting the Secretary in the exercise of an identity protection
+function,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7cd759ed-3655-4596-8b0d-3eae9d68f37c" id="sec.36-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">for payments authorised or required under another
+Act or law consistent with the objects of this Act.</txt></block></li></list>
+</block></level>
+</level>
+
+
+<level type="part" id="pt.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_70ed323d-6b99-4de6-9651-6a184ce6af9a"></attrib>
+<attrib name="id" value="pt.6"></attrib></parentattributes>
+
+<head>
+<no><b>Part 6</b></no><heading guid="_702819d3-4543-439c-bb77-c4cd09d22bb1"
+id="pt.6-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.37">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c16611d3-da47-4f91-b8da-98945a983567"></attrib>
+<attrib name="id" value="sec.37"></attrib></parentattributes>
+
+<head>
+<no>37</no><heading guid="_b0752b9e-f11b-4af5-b1ad-e1f5195a8b90"
+id="sec.37-he"><b>Personal liability</b></heading></head>
+
+<tier type="subclause" id="sec.37-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ab663e3d-ca1e-47dc-878b-93f77cc57bcb"></attrib>
+<attrib name="id" value="sec.37-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A protected person is not personally subject to
+liability for anything done&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d91c2de5-fb4d-4c26-acbc-10d9cf3e85e1" id="sec.37-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in good faith, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6bc5a565-0220-4fea-9c5f-a70391a2cf64" id="sec.37-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">for the purpose of exercising a function under
+this Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.37-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7e006da8-19b6-48d9-843c-1d136e9a67d0"></attrib>
+<attrib name="id" value="sec.37-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The liability instead attaches to the
+Crown.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.37-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e4498733-c8ab-45a0-93d5-1f1b2bd94af2"></attrib>
+<attrib name="id" value="sec.37-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6aeb1a44-cdbb-4ab4-b0f1-a48f7ee1537e"
+id="sec.37-ssec.3-def.done"><b><i>done</i></b></defterm> includes omitted to
+be done.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_5826a05b-eeef-4560-80bc-7f56d3af7927"
+id="sec.37-ssec.3-def.liability"><b><i>liability</i></b></defterm> means civil
+liability and includes action, claim or demand.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_77c74cf6-0a2a-47e0-856e-9762570baad6"
+id="sec.37-ssec.3-def.protectedperson"><b><i>protected
+person</i></b></defterm> means the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_889ad3ae-8b67-4f8e-af76-033865e9e475" id="sec.37-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Minister,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aba16dd9-5ead-4425-8115-e1f48673ff86" id="sec.37-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the Secretary,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4f8de076-472f-472a-b1ce-545628730a3b" id="sec.37-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a person acting under the direction of the
+following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_61d0c90a-6033-445b-ac6d-ee80e85b5f7d"
+id="sec.37-ssec.3-para1.c-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">the Minister,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_31dedea2-0bfa-48e0-804c-10c51dd774da"
+id="sec.37-ssec.3-para1.c-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the Secretary,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_61259ba8-887b-431b-a56f-d2890412fc03"
+id="sec.37-ssec.3-para1.c-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">a NSW Government agency or statutory body
+representing the Crown.</txt></block></li></list>
+</block></li></list>
+</block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.38">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a70de24f-eb7e-4de2-b8da-68a1fe7a2238"></attrib>
+<attrib name="id" value="sec.38"></attrib></parentattributes>
+
+<head>
+<no>38</no><heading guid="_70d5019a-e99e-482a-9ac0-01d772e62b40"
+id="sec.38-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sec.38-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6843b7b1-72ab-44ce-8d52-48e462fdc4bb"></attrib>
+<attrib name="id" value="sec.38-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make regulations about a matter
+that is&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_620b2402-9d02-457c-85fe-ee65acdd5d4a" id="sec.38-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">required or permitted by this Act to be
+prescribed, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d55d4065-e362-4220-b435-b6d8f5396af3" id="sec.38-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">necessary or convenient to be prescribed for
+carrying out or giving effect to this Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.38-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9489ed1f-7c86-4fed-b2d9-acf0602bf516"></attrib>
+<attrib name="id" value="sec.38-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The regulations may apply, adopt or incorporate,
+wholly or in part and with or without modification, a publication in force at
+a particular time or from time to time.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.38-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e9dc2683-25b9-494b-8dd4-df859f5ab587"></attrib>
+<attrib name="id" value="sec.38-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Minister must consult with the Privacy
+Commissioner on regulations proposed to be made under the following sections
+before the regulations are recommended to the Governor&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_95708090-2302-49f6-b093-826ff976e859" id="sec.38-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">section 10,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_04d37e7f-3d58-4d10-9167-a65a67d637ea" id="sec.38-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">section 11,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_33dc637c-5f71-4e78-a201-a1362f3ab8a1" id="sec.38-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">section 26(5)(b),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_17629270-922a-4a7e-9916-5847a3e11681" id="sec.38-ssec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">section 28(4)(b).</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.39">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d688c40f-aedf-4d36-83b2-a6cd977bf2c2"></attrib>
+<attrib name="id" value="sec.39"></attrib></parentattributes>
+
+<head>
+<no>39</no><heading guid="_d37a3f43-7451-49bd-860e-e8c04ed4d8ee"
+id="sec.39-he"><b>Review of Act</b></heading></head>
+
+<tier type="subclause" id="sec.39-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7bc869ca-3e0d-466a-9040-fd4bb6ab9431"></attrib>
+<attrib name="id" value="sec.39-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister must review the operation of this
+Act to determine whether&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_08f21842-a4e4-42d9-8f63-58b7173a2751" id="sec.39-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the policy objectives of the Act remain valid,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fa6359d0-a663-4b1a-a0ac-8031793856fc" id="sec.39-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the terms of the Act remain appropriate for
+achieving the policy objectives.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.39-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0762c537-da45-43d7-ace9-ce9044f354cf"></attrib>
+<attrib name="id" value="sec.39-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The review must be undertaken as soon as
+practicable after the period of 2 years from the commencement of this
+Act.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c3b77a58-f0bd-4c95-8bb4-edace6e59c15"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_0d3a3f35-5288-4a35-9896-34c82805ed38" id="sch.1-he"><b>Identity
+documents</b></heading></head>
+<block align="right" type="sourceref"><txt>section 6(1)(a)</txt></block>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_16f8f96c-d573-4e25-adda-c535e3c2f996" id="sch.1-tbl">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="28.5pi"></colspec>
+
+<tbody>
+
+<row guid="_58f8306b-57cf-46d6-85c4-7b5c9bd52226" id="sch.1-tbl-tblr">
+<entry colname="1" guid="_79a2cb68-ba9c-45bb-995e-2bc74773c579"
+id="sch.1-tbl-tblr-tble1"><txt break.before="1">1</txt></entry>
+<entry colname="2" guid="_a6869074-893b-416a-bd16-e91fe96985b9"
+id="sch.1-tbl-tblr-tble2"><txt break.before="1">a birth certificate issued by
+or on behalf of an authority of the State or another State or
+Territory</txt></entry></row>
+
+
+<row guid="_c083dabf-cb28-453b-989a-65ac52240179" id="sch.1-tbl-tblr-oc.2">
+<entry colname="1" guid="_8b52274d-a27b-48f0-a7fb-15800d93d99d"
+id="sch.1-tbl-tblr-oc.2-tble1"><txt break.before="1">2</txt></entry>
+<entry colname="2" guid="_25c830a2-4355-44e4-b4b4-49a817d7340c"
+id="sch.1-tbl-tblr-oc.2-tble2"><txt break.before="1">a death certificate
+issued by or on behalf of an authority of the State or another State or
+Territory</txt></entry></row>
+
+
+<row guid="_e429bfc9-df82-4875-ae94-bd5f8d38090e" id="sch.1-tbl-tblr-oc.3">
+<entry colname="1" guid="_36231a8f-63a4-4afa-b959-aef3268c4b1d"
+id="sch.1-tbl-tblr-oc.3-tble1"><txt break.before="1">3</txt></entry>
+<entry colname="2" guid="_5e584c86-d698-4e13-bd9c-d45fc59b2033"
+id="sch.1-tbl-tblr-oc.3-tble2"><txt break.before="1">a concession card within
+the meaning of the <legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="yes"><i>Social Security Act 1991</i></name></legref> of the
+Commonwealth</txt></entry></row>
+
+
+<row guid="_2a0e3467-c9db-434d-ba12-c31cc894b475" id="sch.1-tbl-tblr-oc.4">
+<entry colname="1" guid="_27610637-2126-48bd-b2fc-f0cfdbdeb433"
+id="sch.1-tbl-tblr-oc.4-tble1"><txt break.before="1">4</txt></entry>
+<entry colname="2" guid="_9479cf8f-12e8-4657-89dc-0e7c55cb0363"
+id="sch.1-tbl-tblr-oc.4-tble2"><txt break.before="1">a notice given under the
+<legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="yes"><i>Australian Citizenship Act 2007</i></name></legref> of the
+Commonwealth, section 37, stating that a person is an Australian citizen at a
+particular time</txt></entry></row>
+
+
+<row guid="_622744c7-ae7a-4945-9bc5-a512c7920fde" id="sch.1-tbl-tblr-oc.5">
+<entry colname="1" guid="_dc9023e0-bbec-4981-9695-8e4185d0da0a"
+id="sch.1-tbl-tblr-oc.5-tble1"><txt break.before="1">5</txt></entry>
+<entry colname="2" guid="_ab52034c-a12a-4e64-9bef-f727ec96b219"
+id="sch.1-tbl-tblr-oc.5-tble2"><txt break.before="1">a certificate issued by
+an authority of the State or another State or Territory indicating that an
+individual has changed the individual&#8217;s name</txt></entry></row>
+
+
+<row guid="_139c8c0d-b5f1-413b-a1c0-5373a295709d" id="sch.1-tbl-tblr-oc.6">
+<entry colname="1" guid="_5a4a1734-6bad-45f4-bb78-f2a164de8f21"
+id="sch.1-tbl-tblr-oc.6-tble1"><txt break.before="1">6</txt></entry>
+<entry colname="2" guid="_87842056-8921-4542-8d41-642e53269c20"
+id="sch.1-tbl-tblr-oc.6-tble2"><txt break.before="1">a driver licence, however
+described, issued by or on behalf of an authority of the State or another
+State or Territory</txt></entry></row>
+
+
+<row guid="_a5658e0b-b5be-4eb3-bd95-110fbd67386a" id="sch.1-tbl-tblr-oc.7">
+<entry colname="1" guid="_0cf9581c-34f1-4ae3-9c5a-85b3f78141af"
+id="sch.1-tbl-tblr-oc.7-tble1"><txt break.before="1">7</txt></entry>
+<entry colname="2" guid="_01bdffe7-e856-471d-b8c6-dc949c6502f9"
+id="sch.1-tbl-tblr-oc.7-tble2"><txt break.before="1">a document issued by or
+on behalf of an authority of the State or another State or Territory to assist
+an individual to prove the individual&#8217;s age or
+identity</txt></entry></row>
+
+
+<row guid="_408e4679-fe25-4db6-8611-bec25f0eb844" id="sch.1-tbl-tblr-oc.8">
+<entry colname="1" guid="_ac99bc7c-b872-4116-aa0c-822c0c5eb8bf"
+id="sch.1-tbl-tblr-oc.8-tble1"><txt break.before="1">8</txt></entry>
+<entry colname="2" guid="_b33dd6c4-6823-4be7-902c-1442635ce545"
+id="sch.1-tbl-tblr-oc.8-tble2"><txt break.before="1">a document issued to an
+individual, as a person who is not an Australian citizen, by an authority of
+the Commonwealth in which the <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Migration Act
+1958</i></name></legref> of the Commonwealth is administered to assist the
+individual to prove the individual&#8217;s identity</txt></entry></row>
+
+
+<row guid="_59a110a8-8b6c-4e13-9206-e89af50664cd" id="sch.1-tbl-tblr-oc.9">
+<entry colname="1" guid="_fdce744d-3e44-401e-94d8-dcaec1475c4f"
+id="sch.1-tbl-tblr-oc.9-tble1"><txt break.before="1">9</txt></entry>
+<entry colname="2" guid="_43fcb883-7526-4b82-91b8-6590e60e215d"
+id="sch.1-tbl-tblr-oc.9-tble2"><txt break.before="1">a certificate of marriage
+issued by or on behalf of an authority of the State or another State or
+Territory whose function is to register marriages</txt></entry></row>
+
+
+<row guid="_2b79f05a-9c20-469a-a17a-e336caeff1e3" id="sch.1-tbl-tblr-oc.10">
+<entry colname="1" guid="_447ef626-9068-46f6-ab3a-1654c776ce83"
+id="sch.1-tbl-tblr-oc.10-tble1"><txt break.before="1">10</txt></entry>
+<entry colname="2" guid="_8d2734c9-8d0f-4a61-9084-45f50a96a678"
+id="sch.1-tbl-tblr-oc.10-tble2"><txt break.before="1">a document issued by a
+court setting out a divorce order made under the <legref jurisd="CTH"
+type="act" check="unknown"><name emphasis="yes"><i>Family Law Act
+1975</i></name></legref> of the Commonwealth</txt></entry></row>
+
+
+<row guid="_74902708-881e-4358-976a-6a5ed7726054" id="sch.1-tbl-tblr-oc.11">
+<entry colname="1" guid="_ad1ccdbf-f82c-483d-a9bd-7fe9f7d98b79"
+id="sch.1-tbl-tblr-oc.11-tble1"><txt break.before="1">11</txt></entry>
+<entry colname="2" guid="_01d91a27-0295-495e-92e9-ca998410074a"
+id="sch.1-tbl-tblr-oc.11-tble2"><txt break.before="1">an Australian travel
+document within the meaning of the <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Australian Passports Act
+2005</i></name></legref> of the Commonwealth</txt></entry></row>
+
+
+<row guid="_00f10b7a-af37-4c22-bb35-092d950c6523" id="sch.1-tbl-tblr-oc.12">
+<entry colname="1" guid="_c9975a0b-ba5c-4e55-b756-3c75f25aec36"
+id="sch.1-tbl-tblr-oc.12-tble1"><txt break.before="1">12</txt></entry>
+<entry colname="2" guid="_9eb2863f-544e-47c4-87ca-2929b99225f4"
+id="sch.1-tbl-tblr-oc.12-tble2"><txt break.before="1">a certificate signed by
+an officer within the meaning of the <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Migration Act
+1958</i></name></legref> of the Commonwealth stating that, at a specified time
+or during a specified period, a specified person was the holder of a visa that
+was in effect</txt></entry></row>
+
+
+<row guid="_31ae5575-0b48-4578-bb79-049027288e90" id="sch.1-tbl-tblr-oc.13">
+<entry colname="1" guid="_b1c7879b-dbd0-4be4-9930-9fa408f9ecae"
+id="sch.1-tbl-tblr-oc.13-tble1"><txt break.before="1">13</txt></entry>
+<entry colname="2" guid="_e36b3364-ed29-4fd0-9f8a-dfd03c67f5de"
+id="sch.1-tbl-tblr-oc.13-tble2"><txt break.before="1">an entry in a Roll
+within the meaning of the <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Commonwealth Electoral Act
+1918</i></name></legref> of the Commonwealth relating to a particular
+individual</txt></entry></row>
+
+
+<row guid="_aebbf1d5-b5cc-464d-8751-822dc6c155be" id="sch.1-tbl-tblr-oc.14">
+<entry colname="1" guid="_af008c47-e2b3-466c-8806-43feefc8c59a"
+id="sch.1-tbl-tblr-oc.14-tble1"><txt break.before="1">14</txt></entry>
+<entry colname="2" guid="_683e9b4f-1563-4570-a70d-1c233f0ed351"
+id="sch.1-tbl-tblr-oc.14-tble2"><txt break.before="1">an aviation security
+identification card issued under the <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Aviation Transport Security Act
+2004</i></name></legref> of the Commonwealth</txt></entry></row>
+
+
+<row guid="_7fd9f6d8-f780-47a8-b10f-7ff397b3d7ec" id="sch.1-tbl-tblr-oc.15">
+<entry colname="1" guid="_275c2555-3217-4eb5-8935-3826966e81be"
+id="sch.1-tbl-tblr-oc.15-tble1"><txt break.before="1">15</txt></entry>
+<entry colname="2" guid="_3042ba44-f6a2-48b0-8502-f2fcf2bf5466"
+id="sch.1-tbl-tblr-oc.15-tble2"><txt break.before="1">an MSIC issued under the
+<legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="yes"><i>Maritime Transport and Offshore Facilities Security Act
+2003</i></name></legref> of the Commonwealth</txt></entry></row>
+
+
+<row guid="_d84f450a-82df-4f68-b674-16342e0a76a3" id="sch.1-tbl-tblr-oc.16">
+<entry colname="1" guid="_b55614d9-7fd5-473d-9754-f7dfb6be6497"
+id="sch.1-tbl-tblr-oc.16-tble1"><txt break.before="1">16</txt></entry>
+<entry colname="2" guid="_d63f60d3-b1e6-4223-adb5-94b31314d704"
+id="sch.1-tbl-tblr-oc.16-tble2"><txt break.before="1">a medicare card within
+the meaning of the <legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="yes"><i>National Health Act 1953</i></name></legref> of the
+Commonwealth, section 84(1)</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_43473c46-fa61-4af8-9dac-5b16a436b52a"></attrib>
+<attrib name="id" value="sch.2"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading
+guid="_331e8464-659d-402f-a9e4-739dd623f8db" id="sch.2-he"><b>Savings,
+transitional and other provisions</b></heading></head>
+
+<level type="clause" id="sch.2-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4a51a967-0307-4358-b562-5fc32b9202a6"></attrib>
+<attrib name="id" value="sch.2-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_1717a11b-bddc-433e-ac1c-943065826f21"
+id="sch.2-sec.1-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_87c8c6ff-f80c-4d2c-b8bd-f2dbc283e7fa"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the commencement of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_44a74aa5-f593-45f8-b478-0ea57e1685ab" id="sch.2-sec.1-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a provision of this Act, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_43c5ad5b-8ce6-4adb-b25d-b2799e1fa6ac" id="sch.2-sec.1-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a provision amending this
+Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_533bbc12-0f64-491a-a65e-17e2fa01c2e0"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A savings or transitional provision consequent on
+the commencement of a provision must not be made more than 2 years after the
+commencement.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8a132612-8f06-469d-b332-002dc6b5b5dd"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A savings or transitional provision made
+consequent on the commencement of a provision is repealed 2 years after the
+commencement.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_11cf5778-a4ae-42cf-a701-684d5b7e1225"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A savings or transitional provision made
+consequent on the commencement of a provision may take effect before that
+commencement but not before&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f813ab97-b64a-44e4-8495-76de4d284f14" id="sch.2-sec.1-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">for a provision of this Act&#8212;the date of
+assent to this Act, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cdbf0b60-bad1-4a4c-89fc-a8586a38ef17" id="sch.2-sec.1-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">for a provision amending this Act&#8212;the date
+of assent to the amending Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_849d4401-aa1e-4f9b-9420-91751088dff2"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A savings or transitional provision taking effect
+before the provision&#8217;s publication on the NSW legislation website does
+not&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ecce082a-48ff-41fd-8132-93abe73a52a3" id="sch.2-sec.1-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">affect the rights of a person existing before the
+publication in a way prejudicial to the person, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_539f544f-5a3e-431e-b792-3cfef37624e8" id="sch.2-sec.1-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">impose liabilities on a person for anything done
+or omitted to be done before the publication.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7d7516f7-9b9d-4f69-94f3-38f3d764b65e"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_7b6ce472-8960-4007-8c7b-82c9975b1c5b"
+id="sch.2-sec.1-ssec.6-def.person"><b><i>person</i></b></defterm> does not
+include the State or an authority of the State.</txt></block></deflist>
+</block></tier>
+</level>
+</level>
+
+
+<level type="schedule" id="sch.3" status="repealed">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8be65db8-1af6-461d-aae4-bf8025227456"></attrib>
+<attrib name="id" value="sch.3"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 3</b></no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 3:</b> Rep 1987 No
+15, sec 30C.</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.4">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0f598e7b-3d3a-46ba-a2da-529d8a3736e8"></attrib>
+<attrib name="id" value="sch.4"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 4</b></no><heading
+guid="_9385aec6-345d-4b56-b1dd-dca0f07aa640"
+id="sch.4-he"><b>Dictionary</b></heading></head>
+<block align="right" type="sourceref"><txt>section 4</txt></block>
+<block>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_5346d98d-bc9f-46e4-9522-33273bde0113"
+id="sch.4-def.approvedway"><b><i>approved way</i></b></defterm> means in a way
+approved by the Secretary.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6fe96b8e-8407-49cc-b7f4-5c6258dd9c32"
+id="sch.4-def.compromised"><b><i>compromised</i></b></defterm>, in relation to
+personal information&#8212;see section 5.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_1a18f736-6493-414a-9af0-2d86e8cf514f"
+id="sch.4-def.compromisedIDregister"><b><i>compromised ID
+register</i></b></defterm>&#8212;section 18.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_0ef6da2c-17dc-4da4-ae40-1973c1322c1a"
+id="sch.4-def.Department"><b><i>Department</i></b></defterm> means the
+Department of Customer Service.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6ac266c6-6327-4338-8d79-46aaa5c80f72"
+id="sch.4-def.exercise"><b><i>exercise</i></b></defterm>, a function, includes
+perform a duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_37b6a5d8-fcef-4976-9c71-348e3cd70810"
+id="sch.4-def.fraudcheckuser"><b><i>fraud check user</i></b></defterm> means a
+person approved under section 25.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d6ebc85e-6524-47da-963d-8ec1b5fc353f"
+id="sch.4-def.function"><b><i>function</i></b></defterm> includes a power,
+authority or duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_16709a3d-f9b5-4521-949d-4a2877a682c6"
+id="sch.4-def.Fund"><b><i>Fund</i></b></defterm>&#8212;see section
+34(1).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_f46a7a98-38cc-46a0-a7aa-0f702b968933"
+id="sch.4-def.identitydocument"><b><i>identity
+document</i></b></defterm>&#8212;see section 6.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_0949fec2-46cd-445f-be7e-195b712b44d7"
+id="sch.4-def.identityfraudcontrolfunctions"><b><i>identity fraud control
+functions</i></b></defterm>&#8212;see section 11.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_daacd924-9fc0-4201-b484-951d62e0f1a5"
+id="sch.4-def.identityprotectionandrecoveryfunctions"><b><i>identity
+protection and recovery functions</i></b></defterm>&#8212;see section
+10.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_67591e70-3395-4ea0-93e7-22ddb7722c58"
+id="sch.4-def.identityprotectionfunctions"><b><i>identity protection
+functions</i></b></defterm>&#8212;see section 9(1).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_233f0e59-3b4b-444a-a329-da070c472e57"
+id="sch.4-def.impactedindividual"><b><i>impacted individual</i></b></defterm>
+means an individual whose personal information is the subject of a personal
+data compromise.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_4f1a8918-40ad-46cd-b2c3-d2ae24343576"
+id="sch.4-def.lawenforcementagency"><b><i>law enforcement
+agency</i></b></defterm> means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6b77bca4-cf41-4ed1-8cd8-9d8736673b26" id="sch.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a law enforcement agency within the meaning of
+the <legref refid="act-1998-133" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Privacy and Personal Information Protection Act
+1998</i></name></legref>, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a4f5c081-c0f1-4b1a-8f98-d5c692c8577a" id="sch.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">another person or body prescribed by the
+regulations.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9cc550a4-c10f-44dc-bd8b-6d6f27363d6c"
+id="sch.4-def.lifestatus"><b><i>life status</i></b></defterm> means whether a
+person is alive or dead.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_cbb0265e-3560-4d3a-9415-be84c532c2e1"
+id="sch.4-def.partnerauthorities"><b><i>partner
+authorities</i></b></defterm>&#8212;see section 13(1).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6817378a-7ae4-431b-bec3-6731a7347021"
+id="sch.4-def.personaldatacompromise"><b><i>personal data
+compromise</i></b></defterm>&#8212;see section 7.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_61ce0c32-2dc6-4149-846c-cf222d402014"
+id="sch.4-def.personalinformation"><b><i>personal
+information</i></b></defterm> includes&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f60db57b-d7fc-40d0-af0d-f55e2f914bb5" id="sch.4-para1.a-oc.2">
+<no>(a)</no>
+<block><txt break.before="1">personal information within the meaning of the
+<legref refid="act-1998-133" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Privacy and Personal Information Protection Act
+1998</i></name></legref>, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e82bb9c6-7f8d-4789-8f9d-0ef75d278f89" id="sch.4-para1.b-oc.2">
+<no>(b)</no>
+<block><txt break.before="1">health information within the meaning of the
+<legref refid="act-2002-071" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Health Records and Information Privacy Act
+2002</i></name></legref>, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8a4bf788-d06d-4883-b9a0-d03e4c249956" id="sch.4-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">an identity document.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_f0593e70-1689-40ef-be98-266643dbe89e"
+id="sch.4-def.publicsectoragency"><b><i>public sector
+agency</i></b></defterm>, for Part 4&#8212;see section 29.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c08bbcf9-b682-474a-b4d7-672af1b9d724"
+id="sch.4-def.relevantpurpose"><b><i>relevant purpose</i></b></defterm>, for
+Part 3, Division 3&#8212;see section 24.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_e5f7b0d8-fd15-4da9-968c-986f79ee0b69"
+id="sch.4-def.Secretary"><b><i>Secretary</i></b></defterm> means the Secretary
+of the Department.</txt></block></deflist>
+</block></level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_54ec9249-8a5e-49cf-8ff2-4dadaf561555"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_ac7ed4f4-e36b-456d-853d-0dbd86e23eb4"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-2025-045" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Identity Protection and
+Recovery Act 2025</i></name> No 45</legref>. Assented to 15.8.2025. Date of
+commencement, assent, sec 2.</txt></block>
+<block><txt break.before="1">This Act has been amended by sec 30C of the
+<legref refid="act-1987-015" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Interpretation Act 1987</i></name> No
+15</legref>.</txt></block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_f099c16b-7e7f-490a-a293-c4e3875a69ef"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_dcd3a255-5a18-452d-b5b4-1b5ef462ff2c" id="ed-tbl">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_6948b429-b2d3-43c0-8be2-d985120d3b0a" id="ed-tbl-tblr">
+<entry colname="1" guid="_b22a0f67-38e0-402c-a655-6ab1734973d3"
+id="ed-tbl-tblr-tble1"><txt break.before="1">Sch 3</txt></entry>
+<entry colname="2" guid="_80fb8e4f-c9a3-4996-a245-2be3ae4c94d7"
+id="ed-tbl-tblr-tble2"><txt break.before="1">Rep 1987 No 15, sec
+30C.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

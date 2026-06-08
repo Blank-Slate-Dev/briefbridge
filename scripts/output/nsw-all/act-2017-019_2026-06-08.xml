@@ -1,0 +1,585 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2017-019"
+title="Civil Liability (Third Party Claims Against Insurers) Act 2017"
+year="2017"
+number="19"
+enact.or.made.date="2017-06-01"
+first.valid.date="2017-06-02"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2017</metacontent>
+<metacontent class="year.assent">2017</metacontent>
+<metacontent class="publication.date">2017-06-02</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-1987-015</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="introduction.date">2017-05-03</metacontent>
+<metacontent class="la.second.reading.date">2017-05-24</metacontent>
+<metacontent class="amended.in.committee">0</metacontent>
+<metacontent class="id">act-2017-019</metacontent>
+<metacontent
+class="version.desc.id">62def04e-58e1-484e-990b-6fd98b388412</metacontent>
+<metacontent
+class="version.series.id">6b74d39b-78c4-4b8c-857b-e647e378539f</metacontent>
+<metacontent class="year.introduced">2017</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Civil Liability (Third Party Claims Against
+Insurers) Act 2017"></attrib>
+<attrib name="year.passed" value="2017"></attrib>
+<attrib name="year.assent" value="2017"></attrib>
+<attrib name="no" value="19"></attrib>
+<attrib name="publication.date" value="2017-06-02"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-1987-015"></attrib>
+<attrib name="first.valid.date" value="2017-06-02"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="introduction.date" value="2017-05-03"></attrib>
+<attrib name="la.second.reading.date" value="2017-05-24"></attrib>
+<attrib name="amended.in.committee" value="0"></attrib>
+<attrib name="assent.date" value="2017-06-01"></attrib>
+<attrib name="id" value="act-2017-019"></attrib>
+<attrib name="version.desc.id"
+value="62def04e-58e1-484e-990b-6fd98b388412"></attrib>
+<attrib name="version.series.id"
+value="6b74d39b-78c4-4b8c-857b-e647e378539f"></attrib>
+<attrib name="year.introduced" value="2017"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_59da89f3-d27c-4ad3-97ed-8adb1b19863d"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to make provision with respect to claims
+against insurers by third parties.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f1b860bc-9a37-46a7-bffd-efa4c1debfd9"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_2d199f52-0f4c-44a4-8d78-90124fa5a8b4"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref refid="act-2017-019"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Civil
+Liability (Third Party Claims Against Insurers) Act
+2017</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c08af4d9-1a7b-4bbd-8d6a-2e634427f472"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_548684e7-1a60-4eb6-bc1a-33282b0712e7"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on the date of assent to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9fc5b47c-eaab-40fc-aaee-d1ce321d2ad2"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_cc3921aa-c0ee-451a-9cab-deb79f23ebb8"
+id="sec.3-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d2155f42-4e70-4f5c-979a-acf04e81d247"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_0539609f-1afc-4d9d-b205-801558648ec6"
+id="sec.3-def.claimant"><b><i>claimant</i></b></defterm>&#8212;see section
+4.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d8f3656c-f655-438b-a239-c8114787ce27"
+id="sec.3-def.court"><b><i>court</i></b></defterm> means a court or tribunal
+of New South Wales.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_968ca319-4616-46fe-a061-bdffebffdb62"
+id="sec.3-def.insuredliability"><b><i>insured liability</i></b></defterm>
+means a liability in respect of which an insured person is entitled to be
+indemnified by the insurer.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b2639172-04b8-4ab2-bb12-cd9780c7eb48"
+id="sec.3-def.insuredperson"><b><i>insured person</i></b></defterm> means a
+person who is, in respect of a liability to a third party, entitled to
+indemnity pursuant to the terms of a contract of insurance, and includes a
+person who is not a party to the contract of insurance but is specified or
+referred to in the contract, whether by name or otherwise, as a person to whom
+the benefit of the insurance cover provided by the contract
+extends.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b1e82a20-119f-44f1-a61b-c361cc99a728"
+id="sec.3-def.liability"><b><i>liability</i></b></defterm> means a liability
+to pay damages, compensation or costs.</txt></block></deflist>
+</block>
+<note type="legtext" guid="_b96e037a-231a-41d1-ace6-f9407ccf60ad"
+id="sec.3-ssec.1-note"><heading guid="_f42c921f-cfa9-4a99-9656-56f94b4f12c0"
+id="sec.3-ssec.1-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">The <legref refid="act-1987-015" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Interpretation Act
+1987</i></name></legref> contains definitions and other provisions that affect
+the interpretation and application of this Act.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_be20dad6-c4da-4985-a603-23a7dd974ae1"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9e6c822f-6285-4ccf-98c6-b1279f010662"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_579207e0-9bc7-454d-8fa8-fc3820125ca6"
+id="sec.4-he"><b>Claimant may recover from insurer in certain
+circumstances</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8c0668ba-1584-4374-ac93-0d175745b3d3"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If an insured person has an insured liability to
+a person (the <defterm type="definition"
+guid="_da280c01-3188-421e-b07c-8b77363e4f8c"
+id="sec.4-def.claimant"><b><i>claimant</i></b></defterm>), the claimant may,
+subject to this Act, recover the amount of the insured liability from the
+insurer in proceedings before a court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9345be89-d90e-4c05-90ea-aaa61122ae62"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The amount of the insured liability is the amount
+of indemnity (if any) payable pursuant to the terms of the contract of
+insurance in respect of the insured person&#8217;s liability to the
+claimant.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2dfeed90-57e0-48e6-af2c-85020b7cdfb0"></attrib>
+<attrib name="id" value="sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In proceedings brought by a claimant against an
+insurer under this section, the insurer stands in the place of the insured
+person as if the proceedings were proceedings to recover damages, compensation
+or costs from the insured person. Accordingly (but subject to this Act), the
+parties have the same rights and liabilities, and the court has the same
+powers, as if the proceedings were proceedings brought against the insured
+person.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_df37b481-c83b-48f6-a634-92ed22e7386a"></attrib>
+<attrib name="id" value="sec.4-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">This section does not entitle a claimant to
+recover any amount from a re-insurer under a contract or arrangement for
+re-insurance.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fa08d99d-be57-4401-a579-0c55e78468d4"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_e86b6915-3a85-4e6e-b4c7-580e5280e591"
+id="sec.5-he"><b>Leave to proceed</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6136f5db-248e-4a48-aa27-9a6c48a45d46"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Proceedings may not be brought, or continued,
+against an insurer under section 4 except by leave of the court in which the
+proceedings are to be, or have been, commenced.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7f1bda73-676f-48c6-a13c-a4028fb1e996"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An application for leave may be made before or
+after proceedings under section 4 have been commenced.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2a483d4d-3be6-431b-8b30-25838fc20fe5"></attrib>
+<attrib name="id" value="sec.5-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Subject to subsection (4), the court may grant or
+refuse the claimant&#8217;s application for leave.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c9f6a3b1-4d01-4ed2-8543-994625c19d17"></attrib>
+<attrib name="id" value="sec.5-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Leave must be refused if the insurer can
+establish that it is entitled to disclaim liability under the contract of
+insurance or under any Act or law.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7085db50-e219-4383-9fc1-262b920216f7"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_f45b37b9-b1ab-45d7-a058-20a0e3be0a0c"
+id="sec.6-he"><b>Time for commencing proceedings</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_113f2419-a61c-4a58-8917-617135a95dfa"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Proceedings to recover an amount from the insurer
+under section 4 must be commenced within the same limitation period that
+applies under the <legref refid="act-1969-031" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Limitation Act
+1969</i></name></legref> or other Act to the claimant&#8217;s cause of action
+against the insured person in respect of the insured
+liability.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dd55e6a8-c105-487e-96db-bdbecb7599d3"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subsection (1) does not apply if the claimant has
+brought proceedings against the insured person in respect of the insured
+liability before the expiry of the limitation period applying to those
+proceedings, including any extension of the limitation period granted under
+the <legref refid="act-1969-031" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Limitation Act 1969</i></name></legref> or other Act by a
+court.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_351a68af-13d7-4474-aaa7-3767be571d6d"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_03f4d985-d403-4277-9783-983fbbc352d9"
+id="sec.7-he"><b>Matters on which insurer may rely</b></heading></head>
+<block><txt break.before="1">In proceedings brought under section 4, the
+insurer is entitled to rely on any defence or any other matter in answer to
+the claim or in reduction of its liability to the claimant:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_908e03ae-a7b8-43b7-ab67-c2e3db951b95" id="sec.7-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">that the insurer would have been entitled to rely
+on in a claim made by the insured person under the contract of insurance,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5d50832b-9018-4f30-b0dc-bf46f764b86e" id="sec.7-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">that the insured person would have been entitled
+to rely on in proceedings brought by the claimant against the insured person
+in respect of the insured liability.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a0b78404-199e-40f9-ac10-6b508a8adae3"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_a240bd3e-5f29-4a42-b695-1e6c94b716e5"
+id="sec.8-he"><b>Judgment against insured person no bar to claim against
+insurer</b></heading></head>
+<block><txt break.before="1">A judgment or order for damages, compensation or
+costs in favour of the claimant against the insured person in respect of an
+insured liability does not prevent the claimant from recovering an amount for
+the damages, compensation or costs under section 4, except to the extent that
+the judgment or order has been satisfied.</txt></block></level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a32d60fa-2e8a-4285-a997-73c35539d4bb"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_cff86d9c-5e7f-46f5-a5d7-6e8042477be1"
+id="sec.9-he"><b>Discharge of insurer&#8217;s liability</b></heading></head>
+<block><txt break.before="1">Any payment made by the insurer to the claimant
+under this Act in respect of an insured liability discharges, to the extent of
+the payment, the liability of the insurer to make a payment to the insured
+person under the contract of insurance in respect of the insured
+liability.</txt></block></level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_87dedf6c-5a4f-4ef1-8516-7e49aeb17a1e"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_278f9e0b-f0fd-43ac-b06a-0a91a38cdda8"
+id="sec.10-he"><b>Effect of payments made by insurer to insured
+person</b></heading></head>
+<block><txt break.before="1">An insurer&#8217;s liability to a claimant under
+this Act is not reduced, discharged or otherwise affected by:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ac1e98c5-3692-4c79-b942-be87c28723d2" id="sec.10-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any compromise or settlement between the insurer
+and the insured person in respect of the insured liability,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2ed090ed-7c5c-401f-a107-89045fbe16e4" id="sec.10-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any payment by the insurer to the insured person
+in respect of the insured liability unless and to the extent that the amount
+of the payment is or has been paid by the insured person to the claimant in
+respect of the insured liability.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e69bdb02-02c2-4d4e-9886-c887d010cf49"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_b4851298-75ca-48f0-a3c2-5ba97415e792"
+id="sec.11-he"><b>Application of Act</b></heading></head>
+<block><txt break.before="1">The rights conferred on claimants under this Act
+do not affect, and are in addition to, the rights conferred under the <legref
+refid="act-1987-070" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Workers Compensation Act 1987</i></name></legref> or any
+other law on a person who is not a party to a contract of insurance to make a
+claim against an insurer in respect of an insured
+liability.</txt></block></level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b6d8e45e-dec5-4846-b7cd-0e445969458e"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_1b1bc7b4-26ee-4652-a47b-fd044ec57c33"
+id="sec.12-he"><b>Preservation of existing proceedings</b></heading></head>
+<block><txt break.before="1">Section 6 of the <legref refid="act-1946-033"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Law Reform
+(Miscellaneous Provisions) Act 1946</i></name></legref> (as in force
+immediately before its repeal by this Act) continues to apply to actions
+brought against insurers under that section before the commencement of this
+Act as if that section had not been repealed.</txt></block></level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1" status="repealed">
+<parentattributes>
+<attrib name="status" value="repealed"></attrib>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_95ff3ad0-03ef-404e-80da-737778b4c046"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Rep 1987 No
+15, sec 30C.</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_3c4815ca-3fba-4294-92b7-9d3eafa04c46"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_85eac4d2-ee19-4191-97d3-696be569def4"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-2017-019" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Civil Liability (Third
+Party Claims Against Insurers) Act 2017</i></name> No 19</legref>. Assented to
+1.6.2017. Date of commencement, assent, sec 2.</txt></block>
+<block><txt break.before="1">This Act has been amended by sec 30C of the
+<legref refid="act-1987-015" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Interpretation Act 1987</i></name> No
+15</legref>.</txt></block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_8c57f92d-b3c9-4a8d-ab9f-3ea09e45d6de"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_77b7a524-116a-4add-b63b-47bd9761c1a2" id="ed-tbl">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_2f750bdf-7837-4709-9ca1-42f53ee2fc89" id="ed-tbl-tblr">
+<entry colname="1" guid="_b778fc43-9ff3-4282-985f-2db13fae001b"
+id="ed-tbl-tblr-tble1"><txt break.before="1">Sch 1</txt></entry>
+<entry colname="2" guid="_0eb09dfc-e988-4f35-a858-58ddbb0cc493"
+id="ed-tbl-tblr-tble2"><txt break.before="1">Rep 1987 No 15, sec
+30C.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

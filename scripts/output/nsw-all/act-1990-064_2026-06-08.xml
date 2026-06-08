@@ -1,0 +1,3528 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1990-064"
+title="Agricultural Tenancies Act 1990"
+year="1990"
+number="64"
+enact.or.made.date="1990-10-26"
+first.valid.date="2024-05-31"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1990</metacontent>
+<metacontent class="year.assent">1990</metacontent>
+<metacontent class="publication.date">2024-05-31</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2024-025</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1990-064</metacontent>
+<metacontent
+class="version.desc.id">51db5cdc-b4eb-466c-81ab-e398989d9dbc</metacontent>
+<metacontent
+class="version.series.id">28f05651-c0b4-4bb5-8b03-9fa73f98b933</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Agricultural Tenancies Act 1990"></attrib>
+<attrib name="year.passed" value="1990"></attrib>
+<attrib name="year.assent" value="1990"></attrib>
+<attrib name="no" value="64"></attrib>
+<attrib name="publication.date" value="2024-05-31"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2024-025"></attrib>
+<attrib name="first.valid.date" value="2024-05-31"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1990-10-26"></attrib>
+<attrib name="id" value="act-1990-064"></attrib>
+<attrib name="version.desc.id"
+value="51db5cdc-b4eb-466c-81ab-e398989d9dbc"></attrib>
+<attrib name="version.series.id"
+value="28f05651-c0b4-4bb5-8b03-9fa73f98b933"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_4ae52aa5-9e28-4197-8ac7-95038a2f1309"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_ac95cd6c-fa14-4caf-b6d6-9aad5e5f4467"
+id="cd-status-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_dcc7e6b7-68b7-415a-b740-74e521019719"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to regulate the rights of agricultural
+landowners, tenants and sharefarmers and to provide for the resolution of
+disputes between them; to repeal the <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Agricultural Holdings Act
+1941</i></name></legref>; and for other purposes.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>long title:</b> Am 2001
+No 14, Sch 1 [1]; 2012 No 2, Sch 1 [1].</txt></content>
+</tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_370e4afb-6c26-40df-92ff-ed19a13f1a7c"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_658483cc-86b5-44cc-86e0-44253bc32769"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ab11b3b6-68b1-4686-8504-2fe5fcba7511"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_c33be2df-9f1d-4752-90c4-d19153a95823"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act may be cited as the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1990-064"><name
+emphasis="yes"><i>Agricultural Tenancies Act
+1990</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_013cc198-04f1-461e-b15f-0902d14f86e6"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_66192cde-88cd-4555-8784-cd4181957826"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on a day or days to be
+appointed by proclamation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f3a031ce-9376-4168-8a4f-aba330dc13d4"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_af356805-1698-44cc-8e96-16817dcb9696"
+id="sec.3-he"><b>Objects</b></heading></head>
+<block><txt break.before="1">The objects of this Act are&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_efe7ec05-acd2-440c-bed3-d3c3b99d89c8" id="sec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to encourage agricultural landowners and their
+tenants and sharefarmers to have regard, in farming practices to the
+principles of ecologically sustainable development (as described by section 6
+(2) of the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1991-060"><name emphasis="yes"><i>Protection of the Environment
+Administration Act 1991</i></name></legref>) insofar as they are capable of
+applying to those farming practices and, to maintaining sustainable
+agricultural production and preventing the degradation of the environment,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f0434a8f-d105-446c-a097-cada60b79801" id="sec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to encourage the use of written agreements for
+agricultural tenancies and to set out terms that are taken to apply to all
+agricultural tenancies, including terms setting out rights of the parties,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f16e836f-0f6d-42eb-a46a-091762346597" id="sec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to provide a mechanism for settling disputes
+between parties to agricultural tenancies through applications to the Civil
+and Administrative Tribunal.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9d153ab1-4d14-4751-901b-c15518f6a349" id="sec.3-para1.d"
+status="repealed">
+<no>(d)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Subst 2001 No
+14, Sch 1 [2]. Am 2012 No 2, Sch 1 [2]; 2013 No 95, Sch 4.1
+[1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_46c31188-55da-46ad-80ef-bdabda043260"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_8c61da25-31b3-4d22-a54f-77274b469079"
+id="sec.4-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9990b837-b795-4545-a6f2-bc4e08e8143d"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_2bc964a0-53f3-41da-aa98-687acca93730"
+id="sec.4-def.agriculturalpurposes"><b><i>agricultural
+purposes</i></b></defterm> means grazing, dairying, pig-farming, poultry
+farming, viticulture, orcharding, bee-keeping, horticulture, vegetable
+growing, the growing of crops of any kind, forestry, or any combination of any
+of those things.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_889fb2ba-7e4b-4565-b20e-78e6329fe09f"
+id="sec.4-def.exercise"><b><i>exercise</i></b></defterm> a function includes
+perform a duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b73e902e-c836-4366-9b20-15bdea4a49a6"
+id="sec.4-def.farm"><b><i>farm</i></b></defterm> means a piece of land not
+less than 1 hectare in area occupied or used by a tenant and which is wholly
+or mostly used or intended to be used for agricultural
+purposes.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c95f7bba-48d6-49c9-92d6-7e46bc96fbae"
+id="sec.4-def.function"><b><i>function</i></b></defterm> includes a power,
+authority or duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c621c409-cde7-495c-a956-d733ba31cb21"
+id="sec.4-def.improvement"><b><i>improvement</i></b></defterm> means any work
+or thing carried out on a farm in the course of a tenancy, being a work or
+thing that would be of value to an incoming tenant, but does not include the
+repair or replacement of any work or thing on the farm when the tenant first
+became a tenant, except as provided by this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_5ada86e2-43d4-48dc-9d77-ab2f2bfd244f"
+id="sec.4-def.owner"><b><i>owner</i></b></defterm> means any person for the
+time being entitled to the rents and profits of a farm.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_4c8b0fba-61ed-4930-a4f1-52a96642e452"
+id="sec.4-def.sustainableagriculturalproduction"><b><i>sustainable
+agricultural production</i></b></defterm> is agricultural production that
+complies with the following criteria&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7dc00aee-f0a9-4108-a46b-cc7de3bb0122" id="sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">responsiveness to consumer needs for food and
+fibre products that are healthy and of high quality,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7984d626-64f1-4334-97c3-b3513b60def7" id="sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the taking into account of the cost of
+production, including environmental costs, and pricing that reflects those
+costs,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b5ad34b0-c168-4a66-94e6-33e08635b8c3" id="sec.4-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the protection and restoration of the natural
+resource base on which agricultural depends,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ad361e6e-49fd-47a3-acef-217a0ab6199a" id="sec.4-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the prevention of adverse on-site and off-site
+impacts on the environment and any sector of the
+community,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_806c1582-f11b-43e6-9b9b-27746079d91f" id="sec.4-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">be flexible in order to accommodate regional
+differences and changing economic, environmental and social circumstances such
+as drought or terms of trade,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_29f26ea0-ccfb-4fe5-a063-7367ecee830b" id="sec.4-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">financial viability.</txt></block></li></list>
+
+<txt break.before="1">These features of sustainable agriculture should be
+considered as a package, and no single feature should predominate over the
+others.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_264ccaf1-dc43-4fb4-8f46-9d0e8fa4ae4b"
+id="sec.4-def.tenancy"><b><i>tenancy</i></b></defterm> means a lease or
+licence, an agreement for a lease or licence, a tenancy at will or a
+sharefarming arrangement or any other arrangement by which a person who is not
+the owner of the farm has a right to occupy or use it.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_eaea2360-06a9-45be-8dbd-26ce2b3a18c0"
+id="sec.4-def.tenant"><b><i>tenant</i></b></defterm> includes a sharefarmer
+and any person whose right of occupancy or use of a farm is derived from the
+tenant, but does not include a tenant employed by the owner.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a222a348-7904-433e-b9e2-9a567da6c53b"
+id="sec.4-def.Tribunal"><b><i>Tribunal</i></b></defterm> means the Civil and
+Administrative Tribunal.</txt></block></deflist>
+</block>
+<note type="legtext" guid="_b73e4026-fa92-4f7b-af5a-6ae955f75c36"
+id="sec.4-ssec.1-note"><heading guid="_d6a0487a-9246-40d0-9207-5aff86d271ed"
+id="sec.4-ssec.1-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">The <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1987-015"><name emphasis="yes"><i>Interpretation
+Act 1987</i></name></legref> contains definitions and other provisions that
+affect the interpretation and application of this Act.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7db89d1a-d9e4-4fa1-a8e8-16e8a9c5c294"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 2001 No 14,
+Sch 1 [3]&#8211;[6]; 2012 No 2 [3] [4]; 2013 No 95, Sch 4.1
+[2].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_609550f7-5720-43fc-9367-155dd2b213f0"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_90263d58-fe8d-4fcc-b162-3d83fd3cf562"
+id="pt.2-he"><b>General rights of tenants and owners</b></heading></head>
+
+<content type="historynote"><txt break.before="1"><b>pt 2:</b> Subst 2001 No
+14, Sch 1 [7].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>pt 2, div 1, hdg:</b> Rep
+2001 No 14, Sch 1 [7].</txt></content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_db8cab46-275f-461f-9252-442bad979272"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_f6b8c763-c56a-417f-9835-1d6cca671cd6"
+id="sec.5-he"><b>Agreements to be in writing</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a3e16050-fd8e-4c94-83df-c278e33e055d"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An owner and a tenant each have the right to have
+the provisions of any agreement creating the tenancy reduced to writing signed
+by the other party.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1b5a29ec-c43e-4083-b5b1-57e88dad1dc3"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If the owner and the tenant cannot agree on the
+terms of an agreement that is to be reduced to writing, the terms of the
+agreement may be determined by the Tribunal.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 5:</b> Subst 2001 No
+14, Sch 1 [7]. Am 2012 No 2, Sch 1 [5].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_213e80e2-ae19-47a9-84a1-688f2119f739"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_0d6ea6d7-fc61-4ff4-a604-bf793f21d067"
+id="sec.6-he"><b>Improvements carried out by tenants with
+consent</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0dbdff8b-46e1-44aa-b2c5-bd364cc33919"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">It is a term of a tenancy that the tenant may
+carry out any improvement on the farm with the consent of the
+owner.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_072b80e1-ebaf-44dc-b21f-aceb206e30a0"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If an amount of compensation to the tenant for
+the improvement is fixed by agreement, the owner must pay the tenant the fixed
+amount, unless the agreed amount is unfair.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9ee21a14-4ae5-4f07-8933-e4b99eb8261a"></attrib>
+<attrib name="id" value="sec.6-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">If compensation is not fixed by agreement at a
+fair amount, or is not fixed at all, the owner must pay fair compensation to
+the tenant.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f55497bf-1ab7-499a-a032-8db5283216a0"></attrib>
+<attrib name="id" value="sec.6-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Compensation payable under this section is
+payable at the end of the tenancy or at such earlier time as may be agreed or
+determined by the Tribunal.</txt></block></tier>
+
+<note type="legtext" guid="_679c9cff-249c-4377-b834-f2e2124d6aa8"
+id="sec.6-note"><heading guid="_f74d8f87-7362-46f1-b517-aba5e2f9a21b"
+id="sec.6-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">Division 1 of Part 3 sets out the way
+compensation is to be determined for the purposes of this
+Part.</txt></block></note>
+
+
+<content type="historynote"><txt break.before="1"><b>s 6:</b> Subst 2001 No
+14, Sch 1 [7]. Am 2012 No 2 , Sch 1 [6].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_592e757d-371a-4168-a1ba-ca6f794cf36b"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_82cfa4be-7933-402c-817a-4c14f995c6af"
+id="sec.7-he"><b>Improvements carried out by tenants without
+consent</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d9ba57fe-a079-4023-92fb-1f97e00be433"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">It is a term of a tenancy that the tenant may
+carry out an improvement on the farm without the consent of the owner only
+if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f8c727af-dfe1-4f6c-a854-ec46991f3866" id="sec.7-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the improvement is mentioned in Schedule 1,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a27f36f4-fa43-447e-9db1-f2f94baf837a" id="sec.7-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the improvement is a work or thing of a kind
+prescribed by the regulations for the purposes of this section,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_355bfb64-733e-479f-b8b0-1ddf0df39d70" id="sec.7-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the improvement is first determined by the
+Tribunal to be suitable and desirable in the
+circumstances.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2eaa5721-69e1-443a-afe8-cad3e824172b"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The owner must pay fair compensation to the
+tenant for an improvement carried out by the tenant and referred to in
+subsection (1) (a) or (b).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7b09b0e6-6d82-4e93-8dd2-f450ea2ba322"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The owner must pay fair compensation to the
+tenant for an improvement carried out by the tenant and referred to in
+subsection (1) (c) if compensation is determined by the Tribunal to be
+payable.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f11acf44-7250-41fc-8fac-041be5fbab21"></attrib>
+<attrib name="id" value="sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Compensation payable under this section is
+payable at the end of the tenancy or at such earlier time as may be agreed or
+determined by the Tribunal.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 7:</b> Subst 2001 No
+14, Sch 1 [7]. Am 2012 No 2, Sch 1 [7].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b07ef49f-937f-4791-8c18-ad6b4b80065e"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_57c13040-be40-42bf-bba0-f03910ab9b04"
+id="sec.8-he"><b>Improvements carried out by owner with
+consent</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bb1f3f2d-6713-43e3-b34d-2af7a55c53ed"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">It is a term of a tenancy that the owner may
+carry out any improvement on the farm with the consent of the
+tenant.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_736892fc-25ff-4b09-8903-d5f705fa8ffe"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If an amount of compensation to the owner for the
+improvement is fixed by agreement, the tenant must pay the owner the fixed
+amount, unless the agreed amount is unfair.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ef7153a4-90ee-4a76-a724-97f22ebee4dc"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">If compensation is not fixed by agreement at a
+fair amount, or is not fixed at all, the tenant must pay fair compensation to
+the owner.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a90d5e40-09ef-4b45-926b-26e14f36df90"></attrib>
+<attrib name="id" value="sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Compensation payable under this section may be
+paid in instalments together with any rent or other consideration payable in
+respect of the tenancy or in such other manner as may be agreed or determined
+by the Tribunal.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 8:</b> Subst 2001 No
+14, Sch 1 [7]. Am 2012 No 2, Sch 1 [8].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_baaa1180-7a89-4ac1-9da2-a6f53e117516"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_b0745d0e-7f68-4122-b41b-ff5566a1a52a"
+id="sec.9-he"><b>Improvements carried out by owners without
+consent</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b375081b-01af-43f6-a3cc-da28450690a6"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">It is a term of a tenancy that the owner may
+carry out an improvement on the farm without the consent of the tenant only if
+the improvement is first determined by the Tribunal to be suitable and
+desirable in the circumstances.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_80402ee4-0998-4e52-93a8-25d7a142630a"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The tenant must pay fair compensation to the
+owner for an improvement carried out by the owner if compensation is
+determined by the Tribunal to be payable.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e3fb7709-297d-4a11-8da5-2b29eb43575a"></attrib>
+<attrib name="id" value="sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Compensation payable under this section may be
+paid in instalments together with any rent or other consideration payable in
+respect of the tenancy or in such other manner as may be agreed or determined
+by the Tribunal.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Subst 2001 No
+14, Sch 1 [7]. Am 2012 No 2, Sch 1 [9].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>pt 2, div 2, hdg:</b> Rep
+2001 No 14, Sch 1 [7].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f01a0b85-4433-47a9-8d52-7fa9ef672770"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_d689960a-e93b-49f5-a934-90fec54b179b"
+id="sec.10-he"><b>Tenants&#8217; fixtures</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1f1ef755-870d-4966-9904-6579d817e59f"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">It is a term of a tenancy that a fixture affixed
+to a farm by a tenant may be removed by the tenant before or within a
+reasonable time after the end of the tenancy.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_941bd321-159e-4b2b-b779-e573718c2d52"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subsection (1) does not apply to the following
+fixtures&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_72f359d1-3688-4e36-93ef-e1c834eb097f" id="sec.10-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a fixture for which the tenant claims or can
+claim compensation (for example, a fixture that is an
+improvement),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_00cc31bb-7a9a-4d52-95ff-e77fe3103643" id="sec.10-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a fixture that is affixed under an obligation to
+do so under a tenancy or other agreement or in place of a fixture belonging to
+the owner.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_950f2c5c-c038-409b-83fd-18d5de762d29"></attrib>
+<attrib name="id" value="sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">It is a term of a tenancy that a tenant must not
+remove a fixture affixed to the farm by the tenant without giving reasonable
+oral or written notice to the owner, and any occupier of the farm for the time
+being, of the tenant&#8217;s intention to remove the
+fixture.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_189bcd18-beed-4721-b78b-45e28d5d983f"></attrib>
+<attrib name="id" value="sec.10-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">It is a term of a tenancy that, at any time
+before the end of the notice period, the owner may serve written notice on the
+tenant of the owner&#8217;s decision to purchase the fixture. The tenant must
+then leave the fixture, which becomes the property of the owner, who must pay
+fair compensation to the tenant as if it were an improvement for which
+compensation is payable under section 7 (2).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c9c1a75b-2aea-4c42-9f1f-b2d7a65e68e2"></attrib>
+<attrib name="id" value="sec.10-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">It is a term of the tenancy that&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0f31e587-6dc8-4aff-9958-58c9d1340906" id="sec.10-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">before removing a fixture, the tenant must, as
+far as practicable, comply with all the tenant&#8217;s obligations to the
+owner in respect of the farm, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2907c02a-be3e-46d2-bbe5-e3ff2e593493" id="sec.10-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">when removing a fixture, the tenant must not do,
+or must make good, any damage to any other fixture or other part of the
+farm.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_26037a78-9306-4020-87f0-5a5e165f689f"></attrib>
+<attrib name="id" value="sec.10-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6f77c574-14c4-4909-9119-b58812f85630"
+id="sec.10-def.fixture"><b><i>fixture</i></b></defterm> includes a
+building.</txt></block></deflist>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 10:</b> Subst 2001 No
+14, Sch 1 [7].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fbbcd9b6-0637-40c8-937e-ce3d8a1f7bf5"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_dca1507a-2654-4201-bb64-c727208c3f49"
+id="sec.11-he"><b>Right of owner to enter farm</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3a3aae16-8433-4488-a1df-b9a06dbd08ac"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">It is a term of the tenancy that the owner, or
+any person authorised by the owner, may at all reasonable times, after giving
+reasonable notice, enter the farm for any of the following
+purposes&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e5e50074-f367-495e-b1d8-08fcedb80a46" id="sec.11-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to view its condition,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_09b67bb7-08a5-4b4e-a3b2-b710fcb5fab0" id="sec.11-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to perform a function of the owner under this
+Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ffc6fa64-bc2a-47c3-965f-a00b1bcd1c16" id="sec.11-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to carry out an improvement (if permitted by this
+Act).</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_78112bc0-5b78-4ac6-990f-746e12f053bf"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This section does not authorise the owner to
+enter any part of the farm used for residential purposes except with the
+consent of the tenant.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ec4f8bec-e563-4d14-a31d-847e73ae6b5f"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Nothing in this section limits any other right of
+entry conferred on the owner by or under any other Act or law or by an
+agreement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_536f90f5-4423-4931-a6fd-415f87d04d3d"></attrib>
+<attrib name="id" value="sec.11-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Notice under this section may be given orally or
+may be served in writing.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Subst 2001 No
+14, Sch 1 [7].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e17f90e7-cee4-43e3-a7b1-96e7610e67cf"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_7893dbc1-397a-477b-9ec2-194a852d3edf"
+id="sec.12-he"><b>Record of condition of farm</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e4e92c51-6091-4757-a051-975d8cba0559"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">It is a term of the tenancy that a record of the
+condition of the following matters must be made jointly by the owner and the
+tenant, if either so requires it, at the commencement of the tenancy and at
+reasonable intervals during the tenancy&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ef1a9077-8f62-47ec-85b2-c88ba7bcf2b7" id="sec.12-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the land and any cultivation of the
+land,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c3b1ccd8-c1c9-4676-ad0c-3f1a9e7caaef" id="sec.12-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any buildings, fences, gates, roads, drains or
+other works or things on the farm,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2a532b76-ff8c-49ab-8e47-ae3153a54997" id="sec.12-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any other
+improvements.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_645eda5b-6a6a-4d4a-a20d-eebcdd2924e8"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">It is a term of the tenancy that a record of any
+improvement carried out by the tenant or the owner, and a record of any
+fixture that the tenant may remove under this Act, must be made jointly by the
+owner and the tenant, if either so requires it, at reasonable intervals during
+the tenancy.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.3" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_13d68b2f-e504-4aa1-a238-ab611b7c694a"></attrib>
+<attrib name="id" value="sec.12-ssec.3"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(3), (4)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 12:</b> Subst 2001 No
+14, Sch 1 [7]. Am 2012 No 2, Sch 1 [10].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e4652bb5-c182-45e8-bf62-726e304b238d"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_4a268407-0382-4cb8-bbb7-c87b3f6a3dae"
+id="sec.13-he"><b>Accounts</b></heading></head>
+<block><txt break.before="1">It is a term of the tenancy that the owner and a
+tenant each have&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8eaafc0f-b9fb-4fb0-922c-1b4144d8e1c8" id="sec.13-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the duty to keep proper accounts in connection
+with the tenancy, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_38524b60-5443-4b12-a054-36bb42de1f7a" id="sec.13-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the right to receive, on request and within a
+reasonable period, a copy of the accounts kept by the other in connection with
+the tenancy.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 13:</b> Subst 2001 No
+14, Sch 1 [7]. Am 2024 No 25, Sch 5.1.</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_25051a32-8a21-46e6-a69a-047d7e1907f0"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_756f5a86-cc44-426e-8f6e-8fe6042635b4"
+id="sec.14-he"><b>Termination of tenancy</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_47317cd9-ff24-4394-999e-dd586d2deed5"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A tenancy for a fixed term with no provision for
+holding over terminates at the end of the fixed term without the necessity for
+any notice.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0775e219-e934-4784-b5ae-2cbba43ff1a0"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A periodic tenancy (other than a tenancy from
+year to year) cannot be terminated unless written notice of termination is
+served by a party on the other party so as to give notice at least equivalent
+to the length of the tenancy period.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5dbd8a40-0fa3-4146-afb1-d2f63c19f26e"></attrib>
+<attrib name="id" value="sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In addition to the requirements of subsection
+(2), a periodic tenancy (other than a tenancy from year to year) cannot be
+terminated unless written notice of the termination is served by a party on
+the other party so as to give notice of at least&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5fdff95c-41ac-46ab-8221-d2aea90c3346" id="sec.14-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in the case of a sharefarming arrangement for
+crop growing&#8212;a period of 1 month, ending at least 1 month after the end
+of the current annual cropping program, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_72caf7f4-c0f3-4850-88bc-dc693447734f" id="sec.14-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in any other case&#8212;a period of 1
+month.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_909442c6-24d5-4ffd-b70c-29dd8bbfd770"></attrib>
+<attrib name="id" value="sec.14-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A tenancy from year to year cannot be terminated
+unless written notice of termination is served by a party on the other party
+so as to give not less than 6 months&#8217; notice before the end of the
+tenancy period.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_608280e9-1c13-47ae-b5f3-a10477bf5487"></attrib>
+<attrib name="id" value="sec.14-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">In addition to the requirements of subsection
+(4), a tenancy from year to year cannot be terminated unless written notice of
+termination is served by a party on the other party so that the period of
+notice ends at least 1 month after the end of the annual cropping
+program.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b89e36b2-d283-4e46-9fe5-5cb9bde9e85e"></attrib>
+<attrib name="id" value="sec.14-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">This section does not apply to termination for a
+breach of the tenancy or where the tenant and the owner have otherwise agreed
+on the notice to be given.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 14:</b> Subst 2001 No
+14, Sch 1 [7].</txt></content>
+</level>
+</content>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_4a00270e-d5c1-42a1-af16-05b8cd5c3fbf"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_df6070d0-ccf3-4c76-aaaa-77fc48505919"
+id="pt.3-he"><b>Compensation</b></heading></head>
+
+<content type="historynote"><txt break.before="1"><b>pt 3:</b> Subst 2001 No
+14, Sch 1 [7].</txt></content>
+
+
+<content type="auto-inserted">
+
+<level type="division" id="pt.3-div.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_a4edf9db-36fc-4263-a2c5-ecf16fa29f5d"></attrib>
+<attrib name="id" value="pt.3-div.1"></attrib></parentattributes>
+
+<head>
+<no><b>Division 1</b></no><heading
+guid="_17166951-6496-4c46-9836-e6dd9257bc4a"
+id="pt.3-div.1-he"><b>Determination of compensation for
+improvements</b></heading></head>
+
+<content type="historynote"><txt break.before="1"><b>pt 3, div 1, hdg:</b> Ins
+2001 No 14, Sch 1 [7].</txt></content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4f94fc20-ca19-45a4-8e3b-0f8bd89fe41c"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_db5cda45-3ac0-40aa-a044-b08a06513e21"
+id="sec.15-he"><b>Determination of compensation payable for tenants&#8217;
+improvements</b></heading></head>
+
+<tier type="subclause" id="sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4c24ab5c-7a8e-413d-908a-f7a6741efd44"></attrib>
+<attrib name="id" value="sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purposes of determining the compensation
+payable under Part 2 for an improvement carried out by a tenant, the amount of
+compensation is the value of the improvement to an incoming tenant, taking
+into account the value of any consideration or benefit given by the owner to
+the tenant for carrying out the improvement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9cf86258-e574-43da-a78e-799b69bb5f4e"></attrib>
+<attrib name="id" value="sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The value of an improvement to an incoming tenant
+is to be calculated by taking into account the financial returns that might be
+expected to accrue to a (hypothetical) incoming tenant on account of the
+improvement or product, if the farm were to be subject to a further tenancy
+(not being a sharefarming arrangement).</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>ss 15&#8211;17:</b> Subst
+2001 No 14, Sch 1 [7].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_793657bf-a763-4254-8cf6-3f1c08b88aa4"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_65e07606-103b-4de8-a331-971bfbf83091"
+id="sec.16-he"><b>Determination of compensation payable for owners&#8217;
+improvements</b></heading></head>
+<block><txt break.before="1">For the purposes of determining the compensation
+payable under Part 2 for an improvement carried out by an owner, the amount of
+compensation is the value of the improvement to the incumbent tenant, taking
+into account the value of any consideration or benefit given by the tenant to
+the owner for carrying out the improvement.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>ss 15&#8211;17:</b> Subst
+2001 No 14, Sch 1 [7].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6fab5d70-b81e-48f7-9653-f24b69f49e7c"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_dd46e936-7b65-47ce-ad15-678f0558e8be"
+id="sec.17-he"><b>Fair compensation</b></heading></head>
+<block><txt break.before="1">In determining what constitutes fair compensation
+for the purposes of determining the compensation payable under Part 2 for an
+improvement carried out by a tenant or an owner, regard may be had to the
+financial resources of the parties, the financial returns that might be
+expected from the improvement and other factors.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>ss 15&#8211;17:</b> Subst
+2001 No 14, Sch 1 [7].</txt></content>
+</level>
+</content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="division" id="pt.3-div.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_079e1d65-a2bb-4d9b-be4a-44f19e8187be"></attrib>
+<attrib name="id" value="pt.3-div.2"></attrib></parentattributes>
+
+<head>
+<no><b>Division 2</b></no><heading
+guid="_1bb4a763-b4d9-48ff-a651-25e8328a940f" id="pt.3-div.2-he"><b>Other
+rights to compensation</b></heading></head>
+
+<content type="historynote"><txt break.before="1"><b>pt 3, div 2, hdg:</b> Ins
+2001 No 14, Sch 1 [7].</txt></content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c3e6db5d-9aa0-4314-b2ec-249a2c8840ca"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_51f050e3-f4dc-49a8-9cbb-c8d146d0f1bd"
+id="sec.18-he"><b>Compensation for general improvement to
+farm</b></heading></head>
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5dfdf93a-6d54-4c3f-9187-95a6fd22090e"></attrib>
+<attrib name="id" value="sec.18-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">It is a term of a tenancy that the owner must pay
+fair compensation to the tenant if there has been a general improvement to the
+farm by the adoption of better farm management by the tenant&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_565877d0-ceb1-46ea-93a4-e24d6ae78760" id="sec.18-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">than is normally practised on farms of the same
+character, and in the same neighbourhood, as the farm concerned,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e270c206-76af-4eed-81a1-963a18a2fff1" id="sec.18-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">than is required by any
+agreement.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_49d48474-c186-4737-8a04-597d16918569"></attrib>
+<attrib name="id" value="sec.18-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The compensation is to be reduced by the amount
+of any compensation paid or agreed to be paid, or determined by the Tribunal,
+for a particular improvement that caused or contributed to the general
+improvement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_65989312-51cd-40d6-941f-22dc56cab8f6"></attrib>
+<attrib name="id" value="sec.18-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In determining what constitutes fair compensation
+for the purposes of determining the compensation payable for a general
+improvement carried out by a tenant, regard may be had to the financial
+resources of the parties, the financial returns that might be expected from
+the improvement and other factors.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 18:</b> Subst 2001 No
+14, Sch 1 [7]. Am 2012 No 2, Sch 1 [11].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6dd3924d-7e70-43ef-a9bc-dd051247b90c"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_b0107649-3aa5-4cd6-b98a-1e75a56ea3ff"
+id="sec.19-he"><b>Compensation to tenant for stored
+products</b></heading></head>
+
+<tier type="subclause" id="sec.19-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d4940e14-9851-4fc4-a107-df2bb5fdefdb"></attrib>
+<attrib name="id" value="sec.19-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">It is a term of a tenancy that the owner must pay
+the tenant fair compensation for any products stored by the tenant during the
+tenancy and left on the farm at the end of the tenancy.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_084713d2-ebfa-4204-8ab3-f77793424a84"></attrib>
+<attrib name="id" value="sec.19-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of determining the compensation
+payable for any products stored by the tenant during the tenancy, the amount
+of compensation is&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9007f6d0-be9b-47b8-991a-16e3ad2139aa" id="sec.19-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">except in the case of a sharefarming arrangement,
+the value of the products to an incoming tenant, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6475d8f3-e60f-4587-bb14-5dafbd747c36" id="sec.19-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in the case of a sharefarming arrangement, a
+proportion of that value equal to the proportion of the farm produce (or value
+of the farm produce) to which the tenant is entitled under the
+arrangement.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_35070cd6-b422-4960-b451-d06c4b44a6d7"></attrib>
+<attrib name="id" value="sec.19-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_077c82d5-56e0-49e9-a470-b3a39c881ace"
+id="sec.19-def.products"><b><i>products</i></b></defterm> means grain, hay,
+silage, fertiliser or any other useful commodity, whether or not a product of
+the soil.</txt></block></deflist>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 19:</b> Subst 2001 No
+14, Sch 1 [7].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.19A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_306a33be-4772-4dda-8e01-2dc7226ba326"></attrib>
+<attrib name="id" value="sec.19A"></attrib></parentattributes>
+
+<head>
+<no>19A</no><heading guid="_b3ce9e7c-d8bc-4cb7-b3fb-7783f2cf5ea4"
+id="sec.19A-he"><b>Compensation for deterioration</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.19A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e6876435-3067-480d-b220-9249e9f5564d"></attrib>
+<attrib name="id" value="sec.19A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">It is a term of a tenancy that the tenant must
+pay the owner fair compensation for any deterioration of the farm during the
+tenancy owing to the failure of the tenant to manage the farm in accordance
+with good farm management or the provisions of any agreement creating the
+tenancy, or both.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.19A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a3e183e0-bd06-4222-b133-1b4ab27f67d5"></attrib>
+<attrib name="id" value="sec.19A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of determining the compensation
+payable for any deterioration of the farm, the amount of compensation is an
+amount representing the decrease in the value of the farm as a result of the
+deterioration.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19A-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9a34befd-7ed8-4496-8589-e41254e3d4bb"></attrib>
+<attrib name="id" value="sec.19A-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The compensation is payable when the
+deterioration is evident.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19A-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e333217a-a7f1-4d27-b677-e1142273f904"></attrib>
+<attrib name="id" value="sec.19A-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The rights of an owner under this section are
+displaced by an agreement&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_47a964e8-3989-4684-959e-e6ec73d0181e" id="sec.19A-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to the extent that those rights are expressly
+waived by the agreement, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d898622a-80fc-4008-8405-4954a5cc6f59" id="sec.19A-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to the extent that the management of the farm
+(being management that is material to any claim for compensation under this
+section) is expressly authorised by the agreement.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 19A:</b> Ins 2001 No
+14, Sch 1 [7].</txt></content>
+</level>
+</content>
+</level>
+</content>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_3458b970-986a-4799-9463-dbec134e984a"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_d486c30a-f6f6-4a63-ac20-2a4287eea776"
+id="pt.4-he"><b>Dispute resolution and remedies</b></heading></head>
+
+<content type="historynote"><txt break.before="1"><b>pt 4:</b> Subst 2001 No
+14, Sch 1 [8]; 2012 No 2, Sch 1 [12].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>pt 4, div 1, hdg:</b> Ins
+2001 No 14, Sch 1 [8]. Rep 2012 No 2, Sch 1 [12].</txt></content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f3cf82e9-8992-48a1-8b2f-5cdb5c74aab3"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_3a34d3a9-e17a-44e9-bb3b-d60e17a98583"
+id="sec.20-he"><b>Applications to Tribunal relating to
+disputes</b></heading></head>
+
+<tier type="subclause" id="sec.20-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c0aa9b9e-f39b-4c9a-a82d-8e43a4084e01"></attrib>
+<attrib name="id" value="sec.20-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An owner or tenant may apply to the Tribunal for
+determination of any of the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1bce07a9-572c-4f83-9d62-64301cc296df" id="sec.20-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a dispute relating to a right or obligation
+conferred by this Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8a384ab5-e8a7-4faf-bb01-b2c678bd9057" id="sec.20-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a dispute arising from, or relating to, an
+agreement creating a tenancy or any other dispute (not being a dispute
+referred to in paragraph (a)) arising from, or relating to, a
+tenancy,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e4f9f7f9-9a5c-40f2-81be-4998cf6eed95" id="sec.20-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any other matter that may be determined by the
+Tribunal under this Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_939bbe1a-b9db-4081-811e-1d2f5560b065"></attrib>
+<attrib name="id" value="sec.20-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An application to the Tribunal must be made not
+later than 3 months after the relevant dispute or other matter arises or the
+end of the tenancy, whichever is the later.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 20:</b> Subst 2001 No
+14, Sch 1 [8]; 2012 No 2, Sch 1 [12].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>pt 4, div 2, hdg:</b> Ins
+2001 No 14, Sch 1 [8]. Rep 2012 No 2, Sch 1 [12].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.21">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_df6f8da2-8b54-4480-83a5-ac44db6de5d3"></attrib>
+<attrib name="id" value="sec.21"></attrib></parentattributes>
+
+<head>
+<no>21</no><heading guid="_262f6131-8a91-4ad0-878d-f546cf526dd2"
+id="sec.21-he"><b>Orders that may be made by Tribunal</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.21-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ae144126-ab42-465d-b5e3-513a19440955"></attrib>
+<attrib name="id" value="sec.21-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Tribunal may, on application by an owner or
+tenant under this Act, or in any proceedings under this Act, make one or more
+of the following orders&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1ca9dd22-9448-4986-bf7d-6e1e3c5f43b6" id="sec.21-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">an order giving effect to a determination that
+may be made by the Tribunal under this Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ddd09411-4747-4964-8674-e012bf41d1b1" id="sec.21-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">an order that a record of the condition of a
+matter under section 12 must be amended or is not required to be
+amended,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3cc232e4-7253-41c6-87ee-b050a2cd15b6" id="sec.21-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">an order that restrains any action in breach of a
+term of a tenancy,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b23e51e8-3ec1-4523-8e62-1c86bd6ad3ad" id="sec.21-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">an order that requires an action in performance
+of a tenancy,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1ac236ba-2c82-4ff7-8f40-f94d518ebae4" id="sec.21-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">an order for the payment of an amount of
+money,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2e041c32-1148-446a-8793-a517f8d198c9" id="sec.21-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">an order as to compensation,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f54c4ffd-b372-49ab-98ed-61eb0aa72f1b" id="sec.21-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">an order that an owner or tenant perform such
+work or take such other steps as the order specifies to remedy a breach of a
+term of the tenancy,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9850091b-4094-4429-85c2-4257de3e462a" id="sec.21-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">an order directing an owner, an owner&#8217;s
+agent or a tenant to comply with a requirement of this Act or the
+regulations,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_be70a381-d3ef-4055-a36a-2772606fcd96" id="sec.21-ssec.1-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">an order terminating a tenancy or an order for
+the possession of a farm,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_13336839-4494-40d3-af3c-e25a0ef97f31" id="sec.21-ssec.1-para1.j">
+<no>(j)</no>
+<block><txt break.before="1">an order directing an owner or owner&#8217;s
+agent to give a former tenant or a person authorised by the former tenant
+access to a farm for the purposes of recovering goods or fixtures that the
+former tenant is entitled to remove.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e2ad3f5b-72eb-492c-954c-8b18aa2a5898"></attrib>
+<attrib name="id" value="sec.21-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An order under subsection (1) (c) or (d) may be
+made even though it provides a remedy in the nature of an injunction or order
+for specific performance in circumstances in which such a remedy would not
+otherwise be available.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.21-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0ee47079-26a0-4e48-91a2-5b6f7f5a1a1d"></attrib>
+<attrib name="id" value="sec.21-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Tribunal must not make an order
+for&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5205ed39-dd3e-489d-bc9a-79b911a36433" id="sec.21-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the payment of an amount that exceeds $500,000 or
+such other amount as may be prescribed by the regulations for the purposes of
+this section, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b64a2b0f-a873-4b3b-9aeb-aac4fb9c7b9f" id="sec.21-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the performance of work or the taking of steps
+the cost of which is likely to or will exceed $500,000 or such other amount as
+may be prescribed by the regulations for the purposes of this
+section.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e2f54cee-673c-4b60-b3a7-52ddf71afe8c"></attrib>
+<attrib name="id" value="sec.21-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Tribunal may, in any proceedings before it
+under this Act, make any one or more of the following orders&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_afeb98f5-cdcb-41f7-9ab7-b9c1e8d6689f" id="sec.21-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">an order that varies or sets aside, or stays or
+suspends the operation of, any order made in proceedings or earlier
+proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7f654bbb-7ef0-4851-9e7d-4088096d957d" id="sec.21-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any ancillary order the Tribunal thinks
+appropriate,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e6b76647-e992-4829-87d8-f0a7b8ee3d00" id="sec.21-ssec.4-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">an interim order.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_33e63b3d-de9c-472f-8ecf-122a56d95b6d"></attrib>
+<attrib name="id" value="sec.21-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A provision of this Act that enables an owner or
+tenant to apply for a determination by the Tribunal and the Tribunal to
+determine a matter or make an order also applies, where appropriate, to a
+former owner or former tenant.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5b5de60c-4577-4af0-8b3c-96e77b2ef861"></attrib>
+<attrib name="id" value="sec.21-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">This section does not limit the Tribunal&#8217;s
+powers under the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-2013-002"><name emphasis="yes"><i>Civil and Administrative Tribunal
+Act 2013</i></name></legref>.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 21:</b> Subst 2001 No
+14, Sch 1 [8]; 2012 No 2, Sch 1 [12]. Am 2013 No 95, Sch 4.1
+[3].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.22" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1949143c-ade8-418a-963f-41fed82175e5"></attrib>
+<attrib name="id" value="sec.22"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>22</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 22:</b> Subst 2001 No
+14, Sch 1 [8]; 2012 No 2, Sch 1 [12]. Rep 2013 No 95, Sch 4.1
+[4].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.23">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5d0981e3-397d-46bb-9ff8-2bfc0db2474b"></attrib>
+<attrib name="id" value="sec.23"></attrib></parentattributes>
+
+<head>
+<no>23</no><heading guid="_95a44223-651e-4325-a887-9fe4b8eb8110"
+id="sec.23-he"><b>Amount awarded to be charge on land of
+trustees</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.23-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bc92980b-e052-41f7-9314-3b115964dae5"></attrib>
+<attrib name="id" value="sec.23-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An amount ordered to be paid under this Act to a
+tenant and that is due from a trustee owner is a charge on the
+farm.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.23-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_275ad348-914d-4802-9dbd-74bb898689df"></attrib>
+<attrib name="id" value="sec.23-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The trustee owner is entitled to have the charge
+released if the trustee owner pays to the tenant the amount due to the
+tenant.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_41010b47-9ea4-40ee-b29f-65e9f7200b2b"></attrib>
+<attrib name="id" value="sec.23-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The tenant is entitled to the charge while the
+trustee owner fails to pay to the tenant the amount due to the
+tenant.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_25019932-a6c6-4435-b021-cc7081bfbbfb"></attrib>
+<attrib name="id" value="sec.23-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The charge may be registered in the General
+Register of Deeds under section 187 of the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1919-006"><name emphasis="yes"><i>Conveyancing Act
+1919</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_72cdac6d-c673-40e1-a07d-90a0c0045a57"></attrib>
+<attrib name="id" value="sec.23-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The amount due is not recoverable personally from
+the trustee owner.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 23:</b> Subst 2001 No
+14, Sch 1 [8]; 2012 No 2, Sch 1 [12].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.24-26M" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a9021a8a-dc5e-479c-adb0-fdc98dd43ae3"></attrib>
+<attrib name="id" value="sec.24-26M"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>24&#8211;26M</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>ss 24&#8211;26:</b> Rep
+2012 No 2, Sch 1 [12].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 26A:</b> Ins 2001 No
+14, Sch 1 [8]. Rep 2012 No 2, Sch 1 [12].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>pt 4, div 3 (ss
+26B&#8211;26H):</b> Ins 2001 No 14, Sch 1 [8]. Rep 2012 No 2, Sch 1
+[12].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>pt 4, div 3 (ss
+26B&#8211;26H):</b> Ins 2001 No 14, Sch 1 [8]. Rep 2012 No 2, Sch 1
+[12].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>pt 4, div 4:</b> Ins 2001
+No 14, Sch 1 [8]. Rep 2012 No 2, Sch 1 [12].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 26I:</b> Ins 2001 No
+14, Sch 1 [8]. Am 2006 No 120, Sch 3.1 [1]. Rep 2012 No 2, Sch 1
+[12].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 26J:</b> Ins 2001 No
+14, Sch 1 [8]. Rep 2012 No 2, Sch 1 [12].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 26K:</b> Ins 2001 No
+14, Sch 1 [8]. Am 2007 No 94, Sch 2; 2010 No 61, Sch 2.3 [1]&#8211;[4]; 2010
+No 119, Sch 2.2. Rep 2012 No 2, Sch 1 [12].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 26L:</b> Ins 2001 No
+14, Sch 1 [8]. Rep 2012 No 2, Sch 1 [12].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 26M:</b> Ins 2001 No
+14, Sch 1 [8]. Rep 2012 No 2, Sch 1 [12].</txt></content>
+</level>
+</content>
+</level>
+
+
+<level type="part" id="pt.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_5da857da-4586-4bbd-8aab-74a0941f6073"></attrib>
+<attrib name="id" value="pt.5"></attrib></parentattributes>
+
+<head>
+<no><b>Part 5</b></no><heading guid="_a800e3fd-4105-4194-ab36-ecc4a51b68a8"
+id="pt.5-he"><b>General</b></heading></head>
+
+<level type="clause" id="sec.27">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_edf5b840-d2f7-4d8f-864f-c629202186e8"></attrib>
+<attrib name="id" value="sec.27"></attrib></parentattributes>
+
+<head>
+<no>27</no><heading guid="_f57e56b5-7990-42b9-9817-c04a406ac6c5"
+id="sec.27-he"><b>Contracting out</b></heading></head>
+
+<tier type="subclause" id="sec.27-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cbbbf32d-2636-4d31-9f69-517924a836ee"></attrib>
+<attrib name="id" value="sec.27-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Any agreement purporting to waive or abrogate any
+right, power or duty created by this Act, or otherwise to defeat the purposes
+of this Act, is to that extent void.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.27-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7ec3622b-c56c-4a68-b48b-d152d0384cda"></attrib>
+<attrib name="id" value="sec.27-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Nothing in this section precludes a waiver of
+rights in accordance with a provision of this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 27:</b> Am 2001 No 14,
+Sch 1 [9].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.27A" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f0caa74a-bded-48c8-9e38-cead4ded7d5d"></attrib>
+<attrib name="id" value="sec.27A"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>27A</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 27A:</b> Ins 2001 No
+14, Sch 1 [10]. Rep 2012 No 2, Sch 1 [13].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.28">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_258d7c92-e2e3-483a-bb43-68e2d5a60ebb"></attrib>
+<attrib name="id" value="sec.28"></attrib></parentattributes>
+
+<head>
+<no>28</no><heading guid="_8239a5a7-3b60-4b3d-82dd-494ba1b16675"
+id="sec.28-he"><b>Service of documents</b></heading></head>
+
+<tier type="subclause" id="sec.28-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fbea8d0c-a07b-4add-9cd2-0ae4eaa4483b"></attrib>
+<attrib name="id" value="sec.28-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A document that is authorised or required by this
+Act or the regulations to be served on a person may be served by the following
+methods&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_325eca08-8ccb-433f-9cba-15bbb835becc" id="sec.28-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">for an individual&#8212;by personal delivery to
+the person,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b5ce706d-27f6-462a-8d47-6d0f1c1f51de" id="sec.28-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">by leaving the document at the residential or
+business address of the person last known to the person serving the
+document,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_93bcd2e1-25d1-4f86-91b7-4508aaa2f240" id="sec.28-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">by post to the address specified by the person
+for the service of documents of that kind,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6d14523a-b6f4-40f1-b115-8a540493ba8b" id="sec.28-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">for an individual who has not specified an
+address for service by post&#8212;by post to the residential or business
+address of the person last known to the person serving the
+document,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ecdd7e75-a297-4c0c-a370-e508eb92eac1" id="sec.28-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">for a corporation&#8212;by post to the registered
+or other office of the corporation or by leaving the document at the office
+with a person apparently over the age of 16 years,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_71661e60-1d34-4b1a-92ab-ac6e4691d4f2" id="sec.28-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">by email to an email address specified by the
+person for the service of documents of that kind,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a79ddfdd-12f6-4825-869f-14feace8a38e" id="sec.28-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">by other electronic means to an address or
+location specified by the person for the service of documents of that
+kind,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_de1abad5-4676-4b41-a38d-3578ffab8124" id="sec.28-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">by another method authorised by the regulations
+for the service of documents of that kind.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7213eb77-8176-4caf-a11d-10105e740638"></attrib>
+<attrib name="id" value="sec.28-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Nothing in this section affects the operation of
+a provision of a law or of the rules of a court authorising a document to be
+served on a person by another method.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_559ce3c7-e420-4010-b901-1b6aef5f7046"></attrib>
+<attrib name="id" value="sec.28-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_52b13934-7630-466b-b99e-d76764ea3d09"
+id="sec.28-def.serve"><b><i>serve</i></b></defterm> includes give or
+send.</txt></block></deflist>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 28:</b> Am 2006 No 120,
+Sch 3.1 [2]; 2012 No 2, Sch 1 [14] [15]; 2013 No 95, Sch 4.1 [5]; 2017 No 25,
+Sch 1.3. Subst 2024 No 25, Sch 6.1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.28-oc.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4049e64f-3235-435e-8510-8573d53bcb9c"></attrib>
+<attrib name="id" value="sec.28-oc.2"></attrib></parentattributes>
+
+<head>
+<no>28</no><heading guid="_c5a2e07b-64df-48c6-93b9-f53a816a1446"
+id="sec.28-oc.2-he"><b>Service of documents</b></heading></head>
+
+<tier type="subclause" id="sec.28-oc.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ae3955c7-b34c-4834-9da3-4b61d942eadb"></attrib>
+<attrib name="id" value="sec.28-oc.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Any document required or permitted to be served
+on a person for the purposes of this Act or the regulations may be
+served&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_09737061-4bd7-4b71-95da-96493c873dd8" id="sec.28-oc.2-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">by delivering the document to that person,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2785eac7-0459-4e22-894a-cfaea87dd7e8" id="sec.28-oc.2-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">by leaving the document at the last known place
+of residence or business of that person, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c9cfdbf4-e7d4-4f1e-aa07-9ac46d73e104" id="sec.28-oc.2-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">by sending the document by post, with the postage
+prepaid, in an envelope addressed to that person at the usual or last known
+place of residence or business of that person, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_acd5de5e-4398-4552-8e01-f624948d7c2c" id="sec.28-oc.2-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">by email to an email address specified by the
+person for the service of documents of that kind, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3ec54f58-b568-4f0a-8ef2-d3d8e22067d9" id="sec.28-oc.2-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">by any other method authorised by the regulations
+for the service of documents of that kind.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.28-oc.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1a64fd05-1e43-4add-90a3-16b1e77ff2dc"></attrib>
+<attrib name="id" value="sec.28-oc.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Service on an Australian legal practitioner, or
+an agent, currently acting for a person is also
+sufficient.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.28-oc.2-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f95bd2bd-ef7f-4553-919d-cf5a24ffa9a1"></attrib>
+<attrib name="id" value="sec.28-oc.2-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Nothing in this section precludes the use of any
+other means of service provided by or under the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-2013-002"><name emphasis="yes"><i>Civil
+and Administrative Tribunal Act 2013</i></name></legref> or any other law or
+by agreement between the parties.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.29">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1f997552-816a-4574-b327-81cc95651505"></attrib>
+<attrib name="id" value="sec.29"></attrib></parentattributes>
+
+<head>
+<no>29</no><heading guid="_f0d69211-3571-46f9-9090-8e6d230ce9bf"
+id="sec.29-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sec.29-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b67d1a9e-0c5a-48c3-b22c-6f0ca210368d"></attrib>
+<attrib name="id" value="sec.29-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, prescribing all matters that by this Act are
+required or permitted to be prescribed or that are necessary or convenient to
+be prescribed for carrying out or giving effect to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.29-ssec.2" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_21bbebdc-ca17-4cfe-97a6-bb19f95466a9"></attrib>
+<attrib name="id" value="sec.29-ssec.2"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 29:</b> Am 2001 No 14,
+Sch 1 [11] [12]; 2012 No 2, Sch 1 [16].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.30">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b863073a-a057-48ea-a3bb-8d0fde0ecbb4"></attrib>
+<attrib name="id" value="sec.30"></attrib></parentattributes>
+
+<head>
+<no>30</no><heading guid="_c0b6d36d-f2ef-4e05-b416-946af48686a2"
+id="sec.30-he"><b>Repeal and savings</b></heading></head>
+
+<tier type="subclause" id="sec.30-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6d07e590-e570-481f-8aae-da8f18acd5ed"></attrib>
+<attrib name="id" value="sec.30-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Agricultural Holdings Act
+1941</i></name></legref> is repealed.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.30-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_184d7ad3-e7af-416a-ac32-1f44617be323"></attrib>
+<attrib name="id" value="sec.30-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any regulations in force under that Act are
+repealed.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.30-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f3859834-9018-4e91-9ce6-e351062488e5"></attrib>
+<attrib name="id" value="sec.30-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Schedule 2 has effect.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_96c02c4b-f569-4773-aa2a-4d9f447281bf"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_d3f41c82-f65e-45cb-bfba-c5469644f9f3" id="sch.1-he"><b>Improvements
+that a tenant may make as of right</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Section 7 (1))</txt></block>
+
+<tier type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3ee09ae9-689b-4683-bb97-6c9c96480a08"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no></head>
+<block><txt break.before="1">Drainage.</txt></block></tier>
+
+
+<tier type="clause" id="sch.1-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1cbcee9a-19ee-4111-9124-ec5436dbce0a"></attrib>
+<attrib name="id" value="sch.1-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no></head>
+<block><txt break.before="1">Making or improvement of necessary roads or
+bridges.</txt></block></tier>
+
+
+<tier type="clause" id="sch.1-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b9611405-1214-49d5-bfb3-e81abab42dbc"></attrib>
+<attrib name="id" value="sch.1-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no></head>
+<block><txt break.before="1">Clearing and removal of stumps and
+logs.</txt></block></tier>
+
+
+<tier type="clause" id="sch.1-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_afb1e739-38b7-4bcf-9af7-945040639722"></attrib>
+<attrib name="id" value="sch.1-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no></head>
+<block><txt break.before="1">Destruction or control of pests (within the
+meaning of the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-2015-024"><name emphasis="yes"><i>Biosecurity Act
+2015</i></name></legref>) as authorised or required by an order, biosecurity
+direction, permit or regulation under that Act.</txt></block></tier>
+</pre>
+
+
+<tier type="clause" id="sch.1-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c3207d97-d840-41a6-81b0-61b7c0d95a83"></attrib>
+<attrib name="id" value="sch.1-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no></head>
+<block><txt break.before="1">Destruction of prickly pear and control of weeds
+on land.</txt></block></tier>
+
+
+<tier type="clause" id="sch.1-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_774b6b69-1076-4ef1-bdf4-08b17b71ed96"></attrib>
+<attrib name="id" value="sch.1-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no></head>
+<block><txt break.before="1">Making of permanent subdivision
+fences.</txt></block></tier>
+
+
+<tier type="clause" id="sch.1-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d7510085-cc39-48bc-b0db-ee951aef2900"></attrib>
+<attrib name="id" value="sch.1-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no></head>
+<block><txt break.before="1">Laying down of pastures.</txt></block></tier>
+
+
+<tier type="clause" id="sch.1-sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b48c9eb9-d14d-47d1-8c5e-a7fc1c3dffcb"></attrib>
+<attrib name="id" value="sch.1-sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no></head>
+<block><txt break.before="1">Application to land of fertilisers, liming
+materials and trace element products within the meaning of the <legref
+jurisd="NSW" type="act" check="unknown" refid="act-2015-024"><name
+emphasis="yes"><i>Biosecurity Act
+2015</i></name></legref>.</txt></block></tier>
+
+
+<tier type="clause" id="sch.1-sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f2776cc6-41aa-46e6-8078-924e1cac3b77"></attrib>
+<attrib name="id" value="sch.1-sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no></head>
+<block><txt break.before="1">Repairs to buildings (being buildings necessary
+for the proper management of the farm), other than repairs which the tenant is
+under an obligation to carry out or repairs referred to in item 10, but only
+if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ab9a9410-7925-46bb-901c-4db53bc90dc3" id="sch.1-sec.9-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">before beginning to carry out the repairs, the
+tenant gives notice to the owner of the tenant&#8217;s intention, together
+with particulars of the repairs, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c715754b-762c-46c1-93a6-d42b0b47707d" id="sch.1-sec.9-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the owner fails to carry out the repairs within a
+reasonable time after receiving the notice.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="clause" id="sch.1-sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fe317a45-7960-4540-bd02-ae241c7ac02f"></attrib>
+<attrib name="id" value="sch.1-sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no></head>
+<block><txt break.before="1">Repairs to or re-erection of buildings to meet
+the particular requirements of the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-2003-043"><name emphasis="yes"><i>Food Act
+2003</i></name></legref> or any other Act.</txt></block></tier>
+
+
+<tier type="clause" id="sch.1-sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3b154a9e-5efd-4235-8c82-75f280e5b0fd"></attrib>
+<attrib name="id" value="sch.1-sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no></head>
+<block><txt break.before="1">Repairs to and the cleaning of silt from wells,
+bores, dams, reservoirs and ground tanks.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Am 1993 No 11,
+Sch 3; 2000 No 54, Sch 1.1; 2001 No 14, Sch 1 [13]&#8211;[15]; 2004 No 16, Sch
+2.1; 2013 No 51, Sch 7.4; 2014 No 33, Sch 2.2; 2015 No 24, Sch 8.2
+[1]&#8211;[3].</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5205f23e-2dcb-4d18-a1d8-d6e3a069c6c0"></attrib>
+<attrib name="id" value="sch.2"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading
+guid="_8d1c222d-8557-4dc7-98e9-a82dddf17c36" id="sch.2-he"><b>Savings and
+transitional provisions</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Section 30)</txt></block></pre>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3948ae1f-69cd-4320-b584-9fea3111a069"></attrib>
+<attrib name="id" value="sch.2-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_e180de75-2ce0-410f-b370-0d2f7949517d"
+id="sch.2-sec.1-he"><b>Definition</b></heading></head>
+<block><txt break.before="1">In this Schedule, the <defterm type="definition"
+guid="_27aa41f5-8743-4de3-9372-92a2e4032e26"
+id="sch.2-def.formerAct"><b><i>former Act</i></b></defterm> means the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Agricultural
+Holdings Act 1941</i></name></legref>.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a8599842-35a4-4f48-8a00-4c87f3a41409"></attrib>
+<attrib name="id" value="sch.2-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_e9a07a2b-3c34-4bf1-93a8-1951541a6336"
+id="sch.2-sec.2-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8f6506ed-b2c7-46ec-9f1f-21166f8ed414"></attrib>
+<attrib name="id" value="sch.2-sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of the following
+Acts&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d11c87d8-fd9e-45a2-b04d-027f31c2884d" id="sch.2-sec.2-ssec.1-para1">
+<block><txt break.before="1">this Act</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e442b3bd-fdbc-446e-b775-e72cee838e6b"
+id="sch.2-sec.2-ssec.1-para1-oc.2">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2001-014"><name emphasis="yes"><i>Agricultural Tenancies Amendment
+Act 2001</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ce61f863-7490-4704-ba22-654cee0bfa6c"
+id="sch.2-sec.2-ssec.1-para1-oc.3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2012-002"><name emphasis="yes"><i>Agricultural Tenancies Amendment
+Act 2012</i></name></legref></txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a07f3487-4055-469f-ac33-45d5cc459be6"></attrib>
+<attrib name="id" value="sch.2-sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such provision may, if the regulations so
+provide, take effect from the date of assent to this Act or a later
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.2-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0a719c23-a808-4270-bef2-d114f9cee58a"></attrib>
+<attrib name="id" value="sch.2-sec.2-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication in the
+Gazette, the provision does not operate so as&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_18ea1c8d-be39-4613-84d0-4f94f7fd0e29" id="sch.2-sec.2-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9726d183-00dd-4c2d-bd24-916b71c7f0ec" id="sch.2-sec.2-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7889490d-cac7-4361-bb74-ad19a2002114"></attrib>
+<attrib name="id" value="sch.2-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_fa77d5a6-127a-4aca-b41a-6fc8a24f4ec6"
+id="sch.2-sec.3-he"><b>Existing tenancies</b></heading></head>
+<block><txt break.before="1">This Act, as amended by the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-2001-014"><name
+emphasis="yes"><i>Agricultural Tenancies Amendment Act
+2001</i></name></legref>, extends to a tenancy in existence immediately before
+the repeal of the former Act or created by the exercise of an option granted
+before that repeal.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_65d727b7-cf8d-4f3c-86d8-2cde12957548"></attrib>
+<attrib name="id" value="sch.2-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_7f425c26-c64d-4681-8afb-fa35d663b1ae"
+id="sch.2-sec.4-he"><b>Transitional provisions</b></heading></head>
+<block><txt break.before="1">If a matter arising under the former Act is
+referred to arbitration after the commencement of this clause, the arbitration
+is to be conducted under and according to the provisions of this
+Act.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a401d0f2-aeec-4c6c-9ad2-f583f6051d70"></attrib>
+<attrib name="id" value="sch.2-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_98d96d30-de9c-47fd-8f30-7b0f0732a158"
+id="sch.2-sec.5-he"><b>Continuation of arbitration
+provisions</b></heading></head>
+<block><txt break.before="1">This Act and the <legref jurisd="NSW"
+type="subordleg" check="unknown" refid="sl-2006-0448"><name
+emphasis="yes"><i>Agricultural Tenancies Regulation 2006</i></name></legref>,
+as in force immediately before the substitution of Part 4 of this Act by the
+<legref jurisd="NSW" type="act" check="unknown" refid="act-2012-002"><name
+emphasis="yes"><i>Agricultural Tenancies Amendment Act
+2012</i></name></legref>, continue to apply to a dispute or other matter the
+subject of an application for arbitration made but not finally determined
+before that substitution.</txt></block></level>
+</content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 2:</b> Am 2001 No 14,
+Sch 1 [16] [17]; 2012 No 2 , Sch 1 [17] [18].</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_ec7dfe1e-7546-4a87-83cf-74245b8f639e"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_c7272071-fd6d-4603-ab1d-fb44037a203b"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1990-064"><name emphasis="yes"><i>Agricultural Tenancies Act
+1990</i></name> No 64</legref>. Assented to 26.10.1990. Date of commencement,
+1.5.1991, sec 2 and GG No 59 of 19.4.1991, p 2927. This Act has been amended
+as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_a1ee8011-c3c2-4427-a3e5-00c815cfeb03" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_9175c483-dec4-4a2d-9f9a-4f541b3d5fa1" id="ed-tbl-tblr">
+<entry colname="1" guid="_23cf415a-07a7-4a43-8390-af6608e29b8a"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1993</b></txt></entry>
+<entry colname="2" guid="_9c6afeb1-19d8-43bc-9d8a-e2cf6d81ddb8"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 11</txt></entry>
+<entry colname="3" guid="_156e3400-7d48-405f-a2d9-1b7de92ca118"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1993-011"><name emphasis="yes"><i>Noxious Weeds Act
+1993</i></name></legref>. Assented to 4.5.1993.</txt>
+<txt break.before="1">Date of commencement, 1.7.1993, sec 2 and GG No 65 of
+25.6.1993, p 3140.</txt></block></entry></row>
+
+
+<row guid="_baaa093e-27bc-4521-b513-c6de18a3a435" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_034ac2cd-ae2e-41d1-90d5-5188a336c3d6"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>2000</b></txt></entry>
+<entry colname="2" guid="_cfa83e05-0198-43a8-937d-3cac5d8f9a87"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 54</txt></entry>
+<entry colname="3" guid="_54db2dad-793c-47eb-b78b-1145a292f47a"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2000-054"><name emphasis="yes"><i>Dairy Industry Act
+2000</i></name></legref>. Assented to 30.6.2000.</txt>
+<txt break.before="1">Date of commencement, 1.7.2000, sec 2 and GG No 84 of
+30.6.2000, p 6049.</txt></block></entry></row>
+
+
+<row guid="_2c5da932-17b4-4830-98d3-ecd50bfdbd8f" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_4aa7e341-16b1-4846-b418-20f5c7a79471"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>2001</b></txt></entry>
+<entry colname="2" guid="_ffc61048-4903-4881-9699-eb029898674f"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 14</txt></entry>
+<entry colname="3" guid="_0f54f618-f677-4679-80b8-5291587c3e6d"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2001-014"><name emphasis="yes"><i>Agricultural Tenancies Amendment
+Act 2001</i></name></legref>. Assented to 30.4.2001.</txt>
+<txt break.before="1">Date of commencement, Sch 1 [13] excepted, 1.9.2001, sec
+2 (1) and GG No 129 of 24.8.2001, p 6185; date of commencement of Sch 1 [13],
+28.9.2001, sec 2 (2) and GG No 146 of 28.9.2001, p
+8183.</txt></block></entry></row>
+
+
+<row guid="_297d66a1-d2e8-4c2a-aab9-af7fef1c994d" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_73bfde07-9a28-47fc-8b41-7798369e57c6"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>2004</b></txt></entry>
+<entry colname="2" guid="_39c98d3b-681a-4600-93cf-95b586f0486d"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 16</txt></entry>
+<entry colname="3" guid="_b292b758-3c4d-44f6-9c84-9345c0278f8e"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2004-016"><name emphasis="yes"><i>Food Legislation Amendment Act
+2004</i></name></legref>. Assented to 24.3.2004.</txt>
+<txt break.before="1">Date of commencement, 5.4.2004, sec 2 and GG No 69 of
+2.4.2004, p 1795.</txt></block></entry></row>
+
+
+<row guid="_806cb9fd-bba1-4d54-9df7-83647fc024f0" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_d52026d0-f061-4e27-9946-f5bd3bd8629f"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>2006</b></txt></entry>
+<entry colname="2" guid="_8c723d6b-733c-4454-90c4-5bae9550f891"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 120</txt></entry>
+<entry colname="3" guid="_8aa93c69-e5e8-4d14-a7ca-6c156052c375"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2006-120"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2006</i></name></legref>. Assented to 4.12.2006.</txt>
+<txt break.before="1">Date of commencement of Sch 3, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_bbe4489b-2a19-4dad-bfb7-c7982c4df889" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_7192a78e-649b-4feb-9b08-ab195aa973eb"
+id="ed-tbl-tblr-oc.6-tble1"><txt break.before="1"><b>2007</b></txt></entry>
+<entry colname="2" guid="_5e1edf2f-0c12-435b-9809-6ca0d7f04de6"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">No 94</txt></entry>
+<entry colname="3" guid="_f473c1c9-c323-417d-a923-317d00a48505"
+id="ed-tbl-tblr-oc.6-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2007-094"><name emphasis="yes"><i>Miscellaneous Acts (Local Court)
+Amendment Act 2007</i></name></legref>. Assented to 13.12.2007.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 6.7.2009, sec 2 and 2009
+(314) LW 3.7.2009.</txt></block></entry></row>
+
+
+<row guid="_52864dd9-2ad5-4427-9693-f94d14349255" id="ed-tbl-tblr-oc.7">
+<entry colname="1" guid="_acfedc46-a457-418b-87f5-d4b9b54f7cf1"
+id="ed-tbl-tblr-oc.7-tble1"><txt break.before="1"><b>2010</b></txt></entry>
+<entry colname="2" guid="_b14d6ae3-608b-42a0-bbb1-f5500a804901"
+id="ed-tbl-tblr-oc.7-tble2"><txt break.before="1">No 61</txt></entry>
+<entry colname="3" guid="_74fd6b9e-1389-46bb-935e-4c83bcc74a37"
+id="ed-tbl-tblr-oc.7-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2010-061"><name emphasis="yes"><i>Commercial Arbitration Act
+2010</i></name></legref>. Assented to 28.6.2010.</txt>
+<txt break.before="1">Date of commencement, 1.10.2010, sec 1B and 2010 (541)
+LW 24.9.2010.</txt></block></entry></row>
+
+
+<row guid="_072dd11a-3200-4d7a-9bd2-14f86289f28f" id="ed-tbl-tblr-oc.8">
+<entry colname="1" guid="_a956dba7-3b3d-4818-9cb5-404d702aeb4c"
+id="ed-tbl-tblr-oc.8-tble1"></entry>
+<entry colname="2" guid="_cecb235e-995d-43c0-8aa4-a935d4196bd0"
+id="ed-tbl-tblr-oc.8-tble2"><txt break.before="1">No 119</txt></entry>
+<entry colname="3" guid="_27b4769a-bdb2-4ff2-9c79-e3affbe4cc7d"
+id="ed-tbl-tblr-oc.8-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2010-119"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2010</i></name></legref>. Assented to
+29.11.2010.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 7.1.2011, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_524718ae-af11-4623-8a89-9a54fe8e9193" id="ed-tbl-tblr-oc.9">
+<entry colname="1" guid="_c3b95270-97ed-47e8-b9d9-d9418a731fce"
+id="ed-tbl-tblr-oc.9-tble1"><txt break.before="1"><b>2012</b></txt></entry>
+<entry colname="2" guid="_b44ef00a-995f-42c1-93fd-5207c3b2deea"
+id="ed-tbl-tblr-oc.9-tble2"><txt break.before="1">No 2</txt></entry>
+<entry colname="3" guid="_ba742eec-997f-4893-9364-184377d6cb27"
+id="ed-tbl-tblr-oc.9-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2012-002"><name emphasis="yes"><i>Agricultural Tenancies Amendment
+Act 2012</i></name></legref>. Assented to 28.2.2012.</txt>
+<txt break.before="1">Date of commencement, 1.8.2012, sec 2 and 2012 (336) LW
+27.7.2012.</txt></block></entry></row>
+
+
+<row guid="_4a82ceb8-172d-42f5-b539-b715ed50ee18" id="ed-tbl-tblr-oc.10">
+<entry colname="1" guid="_b45af57c-3c8e-42ee-abd7-a07435328121"
+id="ed-tbl-tblr-oc.10-tble1"><txt break.before="1"><b>2013</b></txt></entry>
+<entry colname="2" guid="_d1968c21-ad04-4b49-8a08-0ffc6ce42145"
+id="ed-tbl-tblr-oc.10-tble2"><txt break.before="1">No 51</txt></entry>
+<entry colname="3" guid="_b2016d9d-043e-4701-a8c7-7e9f30606511"
+id="ed-tbl-tblr-oc.10-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2013-051"><name emphasis="yes"><i>Local Land Services Act
+2013</i></name></legref>. Assented to 1.7.2013.</txt>
+<txt break.before="1">Date of commencement of Sch 7, 1.1.2014, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_156ea522-c6da-41c0-89c4-59caad25d70b" id="ed-tbl-tblr-oc.11">
+<entry colname="1" guid="_aa54d7d9-6f6d-495e-b999-7bb47a30168d"
+id="ed-tbl-tblr-oc.11-tble1"></entry>
+<entry colname="2" guid="_ce8ba067-2cb0-460c-b749-d39265db5402"
+id="ed-tbl-tblr-oc.11-tble2"><txt break.before="1">No 95</txt></entry>
+<entry colname="3" guid="_24422106-d186-413e-84a7-897081064c3e"
+id="ed-tbl-tblr-oc.11-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2013-095"><name emphasis="yes"><i>Civil and Administrative
+Legislation (Repeal and Amendment) Act 2013</i></name></legref>. Assented to
+20.11.2013.</txt>
+<txt break.before="1">Date of commencement, 1.1.2014, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_6eae2837-f608-4770-9ff4-56ad32b8f835" id="ed-tbl-tblr-oc.12">
+<entry colname="1" guid="_c470fecc-3e9f-4b3b-8b30-1e8e96b9d637"
+id="ed-tbl-tblr-oc.12-tble1"><txt break.before="1"><b>2014</b></txt></entry>
+<entry colname="2" guid="_b1595447-8dd9-4d6e-b9f3-32a1665a7035"
+id="ed-tbl-tblr-oc.12-tble2"><txt break.before="1">No 33</txt></entry>
+<entry colname="3" guid="_db4b6ec5-c868-465f-86e6-be89a8df00d6"
+id="ed-tbl-tblr-oc.12-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2014-033"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2014</i></name></legref>. Assented to 24.6.2014.</txt>
+<txt break.before="1">Date of commencement of Sch 2.2, 4.7.2014, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_01f6e556-e768-427d-b50a-cc7b8a322019" id="ed-tbl-tblr-oc.13">
+<entry colname="1" guid="_2875b90d-8066-4331-b5c0-99af6383a554"
+id="ed-tbl-tblr-oc.13-tble1"><txt break.before="1"><b>2015</b></txt></entry>
+<entry colname="2" guid="_7b92fc44-111f-4a0c-9a7a-32bcc894a6c8"
+id="ed-tbl-tblr-oc.13-tble2"><txt break.before="1">No 24</txt></entry>
+<entry colname="3" guid="_6dd625ae-eccb-47ed-9701-0600571d1921"
+id="ed-tbl-tblr-oc.13-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2015-024"><name emphasis="yes"><i>Biosecurity Act
+2015</i></name></legref>. Assented to 22.9.2015.</txt>
+<txt break.before="1">Date of commencement of Sch 8.2, 1.7.2017, sec 2 and
+2017 (227) LW 2.6.2017.</txt></block></entry></row>
+
+
+<row guid="_e3f73ea7-a01e-4fbe-a08e-01f24d861571" id="ed-tbl-tblr-oc.14">
+<entry colname="1" guid="_64583059-bc17-4207-aab2-b103015f67af"
+id="ed-tbl-tblr-oc.14-tble1"><txt break.before="1"><b>2017</b></txt></entry>
+<entry colname="2" guid="_35b2e5fa-ad82-4e0f-bf39-a01e7350ba23"
+id="ed-tbl-tblr-oc.14-tble2"><txt break.before="1">No 25</txt></entry>
+<entry colname="3" guid="_217778c4-2f0a-4524-8d14-c6ede4e6ec3b"
+id="ed-tbl-tblr-oc.14-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2017-025"><name emphasis="yes"><i>Electronic Transactions
+Legislation Amendment (Government Transactions) Act 2017</i></name></legref>.
+Assented to 27.6.2017.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_57389f5d-290d-409a-ae3a-7ac1399ad77d" id="ed-tbl-tblr-oc.15">
+<entry colname="1" guid="_90ee150b-85c9-45ff-84fc-c0b94af5a2d1"
+id="ed-tbl-tblr-oc.15-tble1"><txt break.before="1"><b>2024</b></txt></entry>
+<entry colname="2" guid="_10193c88-335e-4262-b616-6dd6573362a2"
+id="ed-tbl-tblr-oc.15-tble2"><txt break.before="1">No 25</txt></entry>
+<entry colname="3" guid="_fca7d038-1663-4420-b5ac-ab1539a7f18c"
+id="ed-tbl-tblr-oc.15-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Better Regulation, Fair Trading and
+Other Legislation Amendment Act 2024</i></name></legref>. Assented to
+31.5.2024.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_7cdf3d86-d396-420e-ab00-f235fc0f54fa"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_76151289-5a2b-49b0-aaf7-859707ca0de8" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_e6cc1b8c-41f1-42b8-8dff-295e73db452e" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_52120b10-df7a-4856-86cc-e0aa5de0fb07"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Long title</txt></entry>
+<entry colname="2" guid="_19945dd4-755f-4426-b54e-23af11ea432c"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 2001 No 14, Sch 1 [1];
+2012 No 2, Sch 1 [1].</txt></entry></row>
+
+
+<row guid="_4a9fc8fc-9dd3-47bc-935f-55a3a57eb954" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_52687422-2c67-4596-9328-f97fd3e37d57"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_7f4c4cc0-e710-499d-af20-707a9328cd73"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Subst 2001 No 14, Sch 1
+[2]. Am 2012 No 2, Sch 1 [2]; 2013 No 95, Sch 4.1 [1].</txt></entry></row>
+
+
+<row guid="_49cba333-9c19-4177-b33a-a35bfff3be5a" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_df3d19e7-d3d7-4889-a374-6d4ad47cd1bc"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_bb4709fc-a0c5-4f0a-ae27-689dfbf43087"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Am 2001 No 14, Sch 1
+[3]&#8211;[6]; 2012 No 2 [3] [4]; 2013 No 95, Sch 4.1
+[2].</txt></entry></row>
+
+
+<row guid="_1d0f5a27-cf86-4e9e-8a35-c55eef327e1e" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_f89d73b0-698b-472a-b577-22df51601262"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Part 2</txt></entry>
+<entry colname="2" guid="_740f4bde-bf0e-4f6b-80c6-16213248cfe0"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Subst 2001 No 14, Sch 1
+[7].</txt></entry></row>
+
+
+<row guid="_26cf61f0-58ee-4017-af40-e968865f276c" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_0d020487-6272-4d93-a9cf-3af7383cd79a"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Part 2, Div 1,
+heading</txt></entry>
+<entry colname="2" guid="_30ab9741-60cd-4071-9ae6-e5224d8c3ed7"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Rep 2001 No 14, Sch 1
+[7].</txt></entry></row>
+
+
+<row guid="_7a3520d9-13fd-4207-8103-29e92dd190a9" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_f355d63c-1d76-4ece-94bb-181ac0572142"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 5</txt></entry>
+<entry colname="2" guid="_67769738-d875-452a-a8cd-0305e36ccbc9"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Subst 2001 No 14, Sch 1
+[7]. Am 2012 No 2, Sch 1 [5].</txt></entry></row>
+
+
+<row guid="_ddf15905-69eb-44b6-9faf-ccfed9da6111" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_97e86b53-b110-4fa7-95e6-6af653f533c5"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 6</txt></entry>
+<entry colname="2" guid="_228bdf3d-bac8-42eb-be26-16a85028a7d6"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Subst 2001 No 14, Sch 1
+[7]. Am 2012 No 2 , Sch 1 [6].</txt></entry></row>
+
+
+<row guid="_e8c10785-57da-4ac4-a4bb-39610869b1ce" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_a6e2c962-6046-4727-9d84-e7602e309e0f"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sec 7</txt></entry>
+<entry colname="2" guid="_40dc46d8-4929-4c1a-8b32-cb13c6c28848"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Subst 2001 No 14, Sch 1
+[7]. Am 2012 No 2, Sch 1 [7].</txt></entry></row>
+
+
+<row guid="_74e09887-5ccc-4dd2-a5c3-6355842d550a" id="ed-tbl-oc.2-tblr-oc.9">
+<entry colname="1" guid="_b970c2fe-67c4-449b-ab2e-8800206b220d"
+id="ed-tbl-oc.2-tblr-oc.9-tble1"><txt break.before="1">Sec 8</txt></entry>
+<entry colname="2" guid="_9a5ee4e3-7525-4e5b-9b67-b31238b89ffd"
+id="ed-tbl-oc.2-tblr-oc.9-tble2"><txt break.before="1">Subst 2001 No 14, Sch 1
+[7]. Am 2012 No 2, Sch 1 [8].</txt></entry></row>
+
+
+<row guid="_76b2e28b-fddc-4261-a171-4fa2d23580b8"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry colname="1" guid="_239b9da2-f326-496e-a577-cd10ac8b47b2"
+id="ed-tbl-oc.2-tblr-oc.10-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_7075e837-1819-47f1-acf8-fbaac00973f1"
+id="ed-tbl-oc.2-tblr-oc.10-tble2"><txt break.before="1">Subst 2001 No 14, Sch
+1 [7]. Am 2012 No 2, Sch 1 [9].</txt></entry></row>
+
+
+<row guid="_b58b86e7-9d79-453c-8278-471b76d00ae6"
+id="ed-tbl-oc.2-tblr-oc.11">
+<entry colname="1" guid="_5d1b8ac4-b4d7-4892-8d27-274a65e41b83"
+id="ed-tbl-oc.2-tblr-oc.11-tble1"><txt break.before="1">Part 2, Div 2,
+heading</txt></entry>
+<entry colname="2" guid="_5a8130f5-b81d-4c6e-ad67-dd18d4b6fd5a"
+id="ed-tbl-oc.2-tblr-oc.11-tble2"><txt break.before="1">Rep 2001 No 14, Sch 1
+[7].</txt></entry></row>
+
+
+<row guid="_91d9d817-10d5-4d33-8ffb-f1437684b09a"
+id="ed-tbl-oc.2-tblr-oc.12">
+<entry colname="1" guid="_b1ea3a9d-7d17-48dd-99ed-3f9044e679c6"
+id="ed-tbl-oc.2-tblr-oc.12-tble1"><txt break.before="1">Secs 10,
+11</txt></entry>
+<entry colname="2" guid="_7de74c3b-e81d-456d-ad8c-5f447c30c6cf"
+id="ed-tbl-oc.2-tblr-oc.12-tble2"><txt break.before="1">Subst 2001 No 14, Sch
+1 [7].</txt></entry></row>
+
+
+<row guid="_32771d15-92af-4aa4-b92e-58dcdee5caba"
+id="ed-tbl-oc.2-tblr-oc.13">
+<entry colname="1" guid="_d66dc097-aefc-461f-9af3-ed35461c7bd0"
+id="ed-tbl-oc.2-tblr-oc.13-tble1"><txt break.before="1">Sec 12</txt></entry>
+<entry colname="2" guid="_dfc9e6ba-d3c4-481d-b3e7-ecfbd66745cb"
+id="ed-tbl-oc.2-tblr-oc.13-tble2"><txt break.before="1">Subst 2001 No 14, Sch
+1 [7]. Am 2012 No 2, Sch 1 [10].</txt></entry></row>
+
+
+<row guid="_1e4be5ad-5cf2-48b0-a620-d56e78ea96fa"
+id="ed-tbl-oc.2-tblr-oc.14">
+<entry colname="1" guid="_b03a7876-1526-465b-84de-22115a6a3b80"
+id="ed-tbl-oc.2-tblr-oc.14-tble1"><txt break.before="1">Sec 13</txt></entry>
+<entry colname="2" guid="_c2e5cd7b-604e-47d8-b62c-8329f966a28d"
+id="ed-tbl-oc.2-tblr-oc.14-tble2"><txt break.before="1">Subst 2001 No 14, Sch
+1 [7]. Am 2024 No 25, Sch 5.1.</txt></entry></row>
+
+
+<row guid="_dd5cb0c6-a42a-412f-a104-b94c9cf92fd1"
+id="ed-tbl-oc.2-tblr-oc.15">
+<entry colname="1" guid="_df6ccfa7-96aa-4fbf-b298-d69a382a7c75"
+id="ed-tbl-oc.2-tblr-oc.15-tble1"><txt break.before="1">Sec 14</txt></entry>
+<entry colname="2" guid="_96665485-3ee7-4d2d-bebb-ec1dedd84cdc"
+id="ed-tbl-oc.2-tblr-oc.15-tble2"><txt break.before="1">Subst 2001 No 14, Sch
+1 [7].</txt></entry></row>
+
+
+<row guid="_d4a46b68-7d51-4ca5-a1be-1cd57c467a7c"
+id="ed-tbl-oc.2-tblr-oc.16">
+<entry colname="1" guid="_510b9f9d-1880-4590-ad3d-da1a110ff06a"
+id="ed-tbl-oc.2-tblr-oc.16-tble1"><txt break.before="1">Part 3</txt></entry>
+<entry colname="2" guid="_8386defe-3a12-40d0-a83e-b78b4912db2c"
+id="ed-tbl-oc.2-tblr-oc.16-tble2"><txt break.before="1">Subst 2001 No 14, Sch
+1 [7].</txt></entry></row>
+
+
+<row guid="_3f77568c-6b7d-4adf-a189-7b1af619428d"
+id="ed-tbl-oc.2-tblr-oc.17">
+<entry colname="1" guid="_e036fc42-36ba-4657-aaa3-7088bee83ca5"
+id="ed-tbl-oc.2-tblr-oc.17-tble1"><txt break.before="1">Part 3, Div 1,
+heading</txt></entry>
+<entry colname="2" guid="_51e802cd-e2db-4186-8adf-e8b3fb4a76b2"
+id="ed-tbl-oc.2-tblr-oc.17-tble2"><txt break.before="1">Ins 2001 No 14, Sch 1
+[7].</txt></entry></row>
+
+
+<row guid="_bb718eb8-26b9-42c6-8a0f-f35fa507f384"
+id="ed-tbl-oc.2-tblr-oc.18">
+<entry colname="1" guid="_53632be8-7aa4-494c-b698-a91b64ed0e6a"
+id="ed-tbl-oc.2-tblr-oc.18-tble1"><txt break.before="1">Secs
+15&#8211;17</txt></entry>
+<entry colname="2" guid="_d8efb46e-7d4b-4149-961d-e0e33e5d8099"
+id="ed-tbl-oc.2-tblr-oc.18-tble2"><txt break.before="1">Subst 2001 No 14, Sch
+1 [7].</txt></entry></row>
+
+
+<row guid="_b96434be-000a-4b79-a9d0-069791983a9b"
+id="ed-tbl-oc.2-tblr-oc.19">
+<entry colname="1" guid="_0c308bc8-9187-4f45-bdd9-d327063bb024"
+id="ed-tbl-oc.2-tblr-oc.19-tble1"><txt break.before="1">Part 3, Div 2,
+heading</txt></entry>
+<entry colname="2" guid="_3af95568-a279-4ea1-b51d-93fac7c6543d"
+id="ed-tbl-oc.2-tblr-oc.19-tble2"><txt break.before="1">Ins 2001 No 14, Sch 1
+[7].</txt></entry></row>
+
+
+<row guid="_13a380cf-796a-4b9c-9183-270a2996f125"
+id="ed-tbl-oc.2-tblr-oc.20">
+<entry colname="1" guid="_d5a2ee3a-2885-4009-9ff6-587f036c46b7"
+id="ed-tbl-oc.2-tblr-oc.20-tble1"><txt break.before="1">Sec 18</txt></entry>
+<entry colname="2" guid="_81541673-8323-4992-b6e1-2fcb05e75df6"
+id="ed-tbl-oc.2-tblr-oc.20-tble2"><txt break.before="1">Subst 2001 No 14, Sch
+1 [7]. Am 2012 No 2, Sch 1 [11].</txt></entry></row>
+
+
+<row guid="_ea6eb3a7-9638-433e-b4f7-6fa619032453"
+id="ed-tbl-oc.2-tblr-oc.21">
+<entry colname="1" guid="_f8f1bd71-4742-4fa7-8bba-a1c5bcefa4de"
+id="ed-tbl-oc.2-tblr-oc.21-tble1"><txt break.before="1">Sec 19</txt></entry>
+<entry colname="2" guid="_bd229b4b-c536-4b7d-a87e-9ee878ee4303"
+id="ed-tbl-oc.2-tblr-oc.21-tble2"><txt break.before="1">Subst 2001 No 14, Sch
+1 [7].</txt></entry></row>
+
+
+<row guid="_453237fb-bf3c-40e8-8a94-ba53c836b4ca"
+id="ed-tbl-oc.2-tblr-oc.22">
+<entry colname="1" guid="_a141e9ad-3b89-4261-a5cc-d1483d2cfbf7"
+id="ed-tbl-oc.2-tblr-oc.22-tble1"><txt break.before="1">Sec 19A</txt></entry>
+<entry colname="2" guid="_89314188-4e0b-4c34-9c38-6cc6248d880c"
+id="ed-tbl-oc.2-tblr-oc.22-tble2"><txt break.before="1">Ins 2001 No 14, Sch 1
+[7].</txt></entry></row>
+
+
+<row guid="_083d9226-10cc-4e3e-adf0-ae25d991c156"
+id="ed-tbl-oc.2-tblr-oc.23">
+<entry colname="1" guid="_241d3893-3c07-424f-957d-03bf6a0eba59"
+id="ed-tbl-oc.2-tblr-oc.23-tble1"><txt break.before="1">Part 4</txt></entry>
+<entry colname="2" guid="_35ad5ae8-a572-4890-abaf-a86ab5901313"
+id="ed-tbl-oc.2-tblr-oc.23-tble2"><txt break.before="1">Subst 2001 No 14, Sch
+1 [8]; 2012 No 2, Sch 1 [12].</txt></entry></row>
+
+
+<row guid="_f236779b-ae26-4f14-95c2-d2a1c1fcfb34"
+id="ed-tbl-oc.2-tblr-oc.24">
+<entry colname="1" guid="_84f3a7c5-8e03-4d56-a049-bbc1709eaeca"
+id="ed-tbl-oc.2-tblr-oc.24-tble1"><txt break.before="1">Part 4, Div 1,
+heading</txt></entry>
+<entry colname="2" guid="_29a884ab-749d-42eb-b145-780e13836603"
+id="ed-tbl-oc.2-tblr-oc.24-tble2"><txt break.before="1">Ins 2001 No 14, Sch 1
+[8]. Rep 2012 No 2, Sch 1 [12].</txt></entry></row>
+
+
+<row guid="_64dc313a-d1fe-4cb6-9f7d-d586d1e28d76"
+id="ed-tbl-oc.2-tblr-oc.25">
+<entry colname="1" guid="_d749e3e9-fea7-4e40-9f5b-ae755b302cd3"
+id="ed-tbl-oc.2-tblr-oc.25-tble1"><txt break.before="1">Sec 20</txt></entry>
+<entry colname="2" guid="_0698858e-8b4b-4c71-8ed7-01abbce36cb3"
+id="ed-tbl-oc.2-tblr-oc.25-tble2"><txt break.before="1">Subst 2001 No 14, Sch
+1 [8]; 2012 No 2, Sch 1 [12].</txt></entry></row>
+
+
+<row guid="_5a58c76c-bd16-4bd1-8af8-d37b5f68dee3"
+id="ed-tbl-oc.2-tblr-oc.26">
+<entry colname="1" guid="_0d74cd50-a132-4b33-90b7-0c58d68811c2"
+id="ed-tbl-oc.2-tblr-oc.26-tble1"><txt break.before="1">Part 4, Div 2,
+heading</txt></entry>
+<entry colname="2" guid="_5376331c-6971-4c43-b314-2592ca9a9ff8"
+id="ed-tbl-oc.2-tblr-oc.26-tble2"><txt break.before="1">Ins 2001 No 14, Sch 1
+[8]. Rep 2012 No 2, Sch 1 [12].</txt></entry></row>
+
+
+<row guid="_3c2d2139-df55-4030-bf57-1853abb6d3bb"
+id="ed-tbl-oc.2-tblr-oc.27">
+<entry colname="1" guid="_29408fb9-c181-405c-96ee-55c214c1ef25"
+id="ed-tbl-oc.2-tblr-oc.27-tble1"><txt break.before="1">Sec 21</txt></entry>
+<entry colname="2" guid="_f8aa2514-ab0d-4a2f-b14d-44d24cc6df36"
+id="ed-tbl-oc.2-tblr-oc.27-tble2"><txt break.before="1">Subst 2001 No 14, Sch
+1 [8]; 2012 No 2, Sch 1 [12]. Am 2013 No 95, Sch 4.1 [3].</txt></entry></row>
+
+
+<row guid="_444e2c18-cfdf-4961-a57f-043eae37bd91"
+id="ed-tbl-oc.2-tblr-oc.28">
+<entry colname="1" guid="_23237939-de44-4972-a614-b8136ca0b3af"
+id="ed-tbl-oc.2-tblr-oc.28-tble1"><txt break.before="1">Sec 22</txt></entry>
+<entry colname="2" guid="_9c945dbb-cbc3-42d7-8790-1fa05c9bfade"
+id="ed-tbl-oc.2-tblr-oc.28-tble2"><txt break.before="1">Subst 2001 No 14, Sch
+1 [8]; 2012 No 2, Sch 1 [12]. Rep 2013 No 95, Sch 4.1
+[4].</txt></entry></row>
+
+
+<row guid="_a4a95b93-f566-485c-8910-db017f651af0"
+id="ed-tbl-oc.2-tblr-oc.29">
+<entry colname="1" guid="_028d53b4-7979-4bff-bcf8-233cb3cd4b16"
+id="ed-tbl-oc.2-tblr-oc.29-tble1"><txt break.before="1">Sec 23</txt></entry>
+<entry colname="2" guid="_f001ce09-e48f-4a0b-b16b-32474a8c56d2"
+id="ed-tbl-oc.2-tblr-oc.29-tble2"><txt break.before="1">Subst 2001 No 14, Sch
+1 [8]; 2012 No 2, Sch 1 [12].</txt></entry></row>
+
+
+<row guid="_9adf9f58-4ee9-4647-8abe-b6274f09f81e"
+id="ed-tbl-oc.2-tblr-oc.30">
+<entry colname="1" guid="_e8ec82a9-0c36-4a1f-bf55-58d06ffcfcbe"
+id="ed-tbl-oc.2-tblr-oc.30-tble1"><txt break.before="1">Secs
+24&#8211;26</txt></entry>
+<entry colname="2" guid="_8d47cb32-705e-4c03-93e0-c6567323f3ee"
+id="ed-tbl-oc.2-tblr-oc.30-tble2"><txt break.before="1">Rep 2012 No 2, Sch 1
+[12].</txt></entry></row>
+
+
+<row guid="_75af3418-cb67-45b6-bb7a-ba023b365e58"
+id="ed-tbl-oc.2-tblr-oc.31">
+<entry colname="1" guid="_e13bf2b9-651c-4fa7-a2f7-e792a1e8ad19"
+id="ed-tbl-oc.2-tblr-oc.31-tble1"><txt break.before="1">Sec 26A</txt></entry>
+<entry colname="2" guid="_68f4127a-140c-46d8-9703-fb16eab21ffe"
+id="ed-tbl-oc.2-tblr-oc.31-tble2"><txt break.before="1">Ins 2001 No 14, Sch 1
+[8]. Rep 2012 No 2, Sch 1 [12].</txt></entry></row>
+
+
+<row guid="_c124b55c-3d22-4923-a243-58b635043039"
+id="ed-tbl-oc.2-tblr-oc.32">
+<entry colname="1" guid="_bf11fc96-ab92-49ae-87f2-33e45cd2b013"
+id="ed-tbl-oc.2-tblr-oc.32-tble1"><txt break.before="1">Part 4, Div 3 (secs
+26B&#8211;26H)</txt></entry>
+<entry colname="2" guid="_2bb49dff-209c-43db-ae83-3c4a53be9dfa"
+id="ed-tbl-oc.2-tblr-oc.32-tble2"><txt break.before="1">Ins 2001 No 14, Sch 1
+[8]. Rep 2012 No 2, Sch 1 [12].</txt></entry></row>
+
+
+<row guid="_d09b1bf9-2d71-4ca7-9b23-ea818e4e12cc"
+id="ed-tbl-oc.2-tblr-oc.33">
+<entry colname="1" guid="_8f081be4-3fce-4a8a-847c-84dba374974e"
+id="ed-tbl-oc.2-tblr-oc.33-tble1"><txt break.before="1">Part 4, Div
+4</txt></entry>
+<entry colname="2" guid="_e52a22c6-505a-4680-855b-cc327ff6d252"
+id="ed-tbl-oc.2-tblr-oc.33-tble2"><txt break.before="1">Ins 2001 No 14, Sch 1
+[8]. Rep 2012 No 2, Sch 1 [12].</txt></entry></row>
+
+
+<row guid="_f7e4be78-6bca-4fd3-9723-5a8bc8d4a617"
+id="ed-tbl-oc.2-tblr-oc.34">
+<entry colname="1" guid="_3e08463f-7199-4744-815c-731e5593c408"
+id="ed-tbl-oc.2-tblr-oc.34-tble1"><txt break.before="1">Sec 26I</txt></entry>
+<entry colname="2" guid="_5201b2a4-3b7e-4688-a5f9-8f69dc249647"
+id="ed-tbl-oc.2-tblr-oc.34-tble2"><txt break.before="1">Ins 2001 No 14, Sch 1
+[8]. Am 2006 No 120, Sch 3.1 [1]. Rep 2012 No 2, Sch 1
+[12].</txt></entry></row>
+
+
+<row guid="_f7a8c309-41be-45bd-9841-599a5ca9208a"
+id="ed-tbl-oc.2-tblr-oc.35">
+<entry colname="1" guid="_1751beb7-b179-43e8-8bb6-c4b674427fc9"
+id="ed-tbl-oc.2-tblr-oc.35-tble1"><txt break.before="1">Sec 26J</txt></entry>
+<entry colname="2" guid="_2995a258-365d-4886-ad6a-f9af3600a91b"
+id="ed-tbl-oc.2-tblr-oc.35-tble2"><txt break.before="1">Ins 2001 No 14, Sch 1
+[8]. Rep 2012 No 2, Sch 1 [12].</txt></entry></row>
+
+
+<row guid="_aeb1b7ed-e63d-4ddd-a0e3-a8024953e9e8"
+id="ed-tbl-oc.2-tblr-oc.36">
+<entry colname="1" guid="_81d7c4ef-c431-4030-9ba9-5955a950445b"
+id="ed-tbl-oc.2-tblr-oc.36-tble1"><txt break.before="1">Sec 26K</txt></entry>
+<entry colname="2" guid="_bf013766-1180-49c9-ba2b-8bdec8940912"
+id="ed-tbl-oc.2-tblr-oc.36-tble2"><txt break.before="1">Ins 2001 No 14, Sch 1
+[8]. Am 2007 No 94, Sch 2; 2010 No 61, Sch 2.3 [1]&#8211;[4]; 2010 No 119, Sch
+2.2. Rep 2012 No 2, Sch 1 [12].</txt></entry></row>
+
+
+<row guid="_9d817c54-085b-496a-b49b-4701c11fa147"
+id="ed-tbl-oc.2-tblr-oc.37">
+<entry colname="1" guid="_4f37c291-1f81-48f0-85a1-c34c10be9374"
+id="ed-tbl-oc.2-tblr-oc.37-tble1"><txt break.before="1">Secs 26L,
+26M</txt></entry>
+<entry colname="2" guid="_b87217b1-40b7-49ac-aad4-f671afb53986"
+id="ed-tbl-oc.2-tblr-oc.37-tble2"><txt break.before="1">Ins 2001 No 14, Sch 1
+[8]. Rep 2012 No 2, Sch 1 [12].</txt></entry></row>
+
+
+<row guid="_08663672-4260-49b2-91e2-1689c6d3a600"
+id="ed-tbl-oc.2-tblr-oc.38">
+<entry colname="1" guid="_05b28f4a-4d9c-4cee-8a43-12b1ff0bbe56"
+id="ed-tbl-oc.2-tblr-oc.38-tble1"><txt break.before="1">Sec 27</txt></entry>
+<entry colname="2" guid="_3750cad4-5ae6-44e7-b9d8-bbaca85e2051"
+id="ed-tbl-oc.2-tblr-oc.38-tble2"><txt break.before="1">Am 2001 No 14, Sch 1
+[9].</txt></entry></row>
+
+
+<row guid="_42c1ab22-728a-46e6-8441-913593a3c60b"
+id="ed-tbl-oc.2-tblr-oc.39">
+<entry colname="1" guid="_5478d108-a4a4-4cdf-8abc-b2419efd0b75"
+id="ed-tbl-oc.2-tblr-oc.39-tble1"><txt break.before="1">Sec 27A</txt></entry>
+<entry colname="2" guid="_969a38ba-5767-4305-8525-ac7d02957353"
+id="ed-tbl-oc.2-tblr-oc.39-tble2"><txt break.before="1">Ins 2001 No 14, Sch 1
+[10]. Rep 2012 No 2, Sch 1 [13].</txt></entry></row>
+
+
+<row guid="_d13a5e1f-890c-4001-9eb6-9ec9e4951ba3"
+id="ed-tbl-oc.2-tblr-oc.40">
+<entry colname="1" guid="_d1bc151f-1314-480e-b84e-cfe9fbc403c5"
+id="ed-tbl-oc.2-tblr-oc.40-tble1"><txt break.before="1">Sec 28</txt></entry>
+<entry colname="2" guid="_9445632a-baac-4d01-af06-5ba6334d0b1f"
+id="ed-tbl-oc.2-tblr-oc.40-tble2"><txt break.before="1">Am 2006 No 120, Sch
+3.1 [2]; 2012 No 2, Sch 1 [14] [15]; 2013 No 95, Sch 4.1 [5]; 2017 No 25, Sch
+1.3. Subst 2024 No 25, Sch 6.1.</txt></entry></row>
+
+
+<row guid="_4ee477b8-38fa-4199-ba4b-3843f89c6bba"
+id="ed-tbl-oc.2-tblr-oc.41">
+<entry colname="1" guid="_65c06eb4-15b9-447a-b0d7-185353f7a4c6"
+id="ed-tbl-oc.2-tblr-oc.41-tble1"><txt break.before="1">Sec 29</txt></entry>
+<entry colname="2" guid="_49f7c03a-0351-4708-b109-0375a77aba3e"
+id="ed-tbl-oc.2-tblr-oc.41-tble2"><txt break.before="1">Am 2001 No 14, Sch 1
+[11] [12]; 2012 No 2, Sch 1 [16].</txt></entry></row>
+
+
+<row guid="_6dca4e3c-0884-4b0f-a61c-8042ddc6bd87"
+id="ed-tbl-oc.2-tblr-oc.42">
+<entry colname="1" guid="_abb953de-daec-4ff8-a0b5-db6af52ed3e9"
+id="ed-tbl-oc.2-tblr-oc.42-tble1"><txt break.before="1">Sch 1</txt></entry>
+<entry colname="2" guid="_4ed95bf6-b4cf-47e8-959b-84977fdba752"
+id="ed-tbl-oc.2-tblr-oc.42-tble2"><txt break.before="1">Am 1993 No 11, Sch 3;
+2000 No 54, Sch 1.1; 2001 No 14, Sch 1 [13]&#8211;[15]; 2004 No 16, Sch 2.1;
+2013 No 51, Sch 7.4; 2014 No 33, Sch 2.2; 2015 No 24, Sch 8.2
+[1]&#8211;[3].</txt></entry></row>
+
+
+<row guid="_376e5f9c-aec6-4549-b614-d51405d47064"
+id="ed-tbl-oc.2-tblr-oc.43">
+<entry colname="1" guid="_cad8865f-afb8-4309-a10e-c797ebfa2767"
+id="ed-tbl-oc.2-tblr-oc.43-tble1"><txt break.before="1">Sch 2</txt></entry>
+<entry colname="2" guid="_b51c75f6-6b9e-41a2-b083-cf50d1204cf0"
+id="ed-tbl-oc.2-tblr-oc.43-tble2"><txt break.before="1">Am 2001 No 14, Sch 1
+[16] [17]; 2012 No 2 , Sch 1 [17] [18].</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

@@ -1,0 +1,809 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2014-051"
+title="Mutual Recognition (Automatic Licensed Occupations Recognition) Act
+2014"
+year="2014"
+number="51"
+enact.or.made.date="2014-09-25"
+first.valid.date="2014-09-25"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2014</metacontent>
+<metacontent class="year.assent">2014</metacontent>
+<metacontent class="publication.date">2014-12-01</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="introduction.date">2014-05-28</metacontent>
+<metacontent class="la.second.reading.date">2014-09-17</metacontent>
+<metacontent class="amended.in.committee">1</metacontent>
+<metacontent class="id">act-2014-051</metacontent>
+<metacontent
+class="version.desc.id">7d04e865-f557-4397-810c-fa9b7d62fed9</metacontent>
+<metacontent
+class="version.series.id">aabf40f3-8b8e-457d-88e1-031b68003309</metacontent>
+<metacontent class="year.introduced">2014</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Mutual Recognition (Automatic Licensed Occupations
+Recognition) Act 2014"></attrib>
+<attrib name="year.passed" value="2014"></attrib>
+<attrib name="year.assent" value="2014"></attrib>
+<attrib name="no" value="51"></attrib>
+<attrib name="publication.date" value="2014-12-01"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="first.valid.date" value="2014-09-25"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="introduction.date" value="2014-05-28"></attrib>
+<attrib name="la.second.reading.date" value="2014-09-17"></attrib>
+<attrib name="amended.in.committee" value="1"></attrib>
+<attrib name="assent.date" value="2014-09-25"></attrib>
+<attrib name="id" value="act-2014-051"></attrib>
+<attrib name="version.desc.id"
+value="7d04e865-f557-4397-810c-fa9b7d62fed9"></attrib>
+<attrib name="version.series.id"
+value="aabf40f3-8b8e-457d-88e1-031b68003309"></attrib>
+<attrib name="year.introduced" value="2014"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_a6f63867-9f09-41c5-a606-23825f84d907"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to provide for the automatic recognition
+of the licensing of certain occupations in other jurisdictions, and for other
+purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_c64d22eb-99f3-4026-9d01-08612d5824f8"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_fb1d20a4-5c47-4ecf-8e24-cbaccfe593ba"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6eb11756-7d25-4445-bba8-634b72210d0a"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_6bd9c749-3569-4a33-8eba-a78d07ced4d6"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref refid="act-2014-051"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Mutual
+Recognition (Automatic Licensed Occupations Recognition) Act
+2014</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_26553022-eccb-4550-83e2-dd7e0f9b2872"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_d07fc8f0-9ab6-4d21-9a87-336ff6816b03"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on a day or days to be
+appointed by proclamation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0e3e2684-4258-43d0-b506-58c88ca22ab2"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_fcd0b543-8b95-4110-83cb-1ae0b0d927f8"
+id="sec.3-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3f716d84-6a5f-4a08-b254-2e8fe7912987"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_cce7aee2-8877-4ee4-857c-dd88f152738e"
+id="sec.3-def.anotherjurisdiction"><b><i>another
+jurisdiction</i></b></defterm> means another State or a Territory or New
+Zealand.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_23b122a2-4d95-4ccd-b870-441cb49890dc"
+id="sec.3-def.deemedlocallicence"><b><i>deemed local
+licence</i></b></defterm> means a local licence that a person is deemed to
+hold under this Act as a result of being the holder in another jurisdiction of
+a recognised licence.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_3ef1440e-237f-4f3b-b805-7e2606f7fbc2"
+id="sec.3-def.interstatelicensingauthority"><b><i>interstate licensing
+authority</i></b></defterm> means a person or body having the function of
+issuing a recognised licence under the law of another
+jurisdiction.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9027320f-4e15-4818-8257-8cc8947390a8"
+id="sec.3-def.licence"><b><i>licence</i></b></defterm> means a licence,
+permit, certificate, registration or other authorisation.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_7c15cdeb-827f-4a5a-ba27-a8697cd0b813"
+id="sec.3-def.locallaw"><b><i>local law</i></b></defterm> means the law of
+this jurisdiction under which a local licence is issued.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_f4b732e4-3c98-4947-835e-3a368abab421"
+id="sec.3-def.locallicence"><b><i>local licence</i></b></defterm> means a
+licence that is prescribed by the regulations as a local licence for the
+purposes of this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_0b515894-41d0-4e5c-9d05-d9ae5d13ab46"
+id="sec.3-def.locallicensingauthority"><b><i>local licensing
+authority</i></b></defterm> means the person or body having the function of
+issuing a local licence.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_614feaed-fe12-4110-9a20-3b45f22ddc4d"
+id="sec.3-def.person"><b><i>person</i></b></defterm> means an
+individual.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_af628b7a-aa85-4fba-8020-7e56462ff1f5"
+id="sec.3-def.recognisedlicence"><b><i>recognised licence</i></b></defterm>
+means a licence issued under a law of another jurisdiction that is prescribed
+by the regulations under this Act as a recognised
+licence.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a85f10ce-c8bb-4b7e-83f2-58b5a53cb91a"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_0c9d7a41-31f6-46b3-80d5-aeedc1fa0e76"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_60fc3eb3-54d4-40a8-b3c5-a28b9d86496f"
+id="pt.2-he"><b>Mutual recognition of licences</b></heading></head>
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3155e332-b734-4f0c-aaab-4a09dffc94a1"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_7a025cf0-72aa-4b4d-a403-2e652fe8ffc1"
+id="sec.4-he"><b>Recognised licence to be a deemed local
+licence</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d0e28c65-1436-4303-aa80-739dadc0477e"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person who holds a recognised licence under the
+law of another jurisdiction is deemed to hold the local licence (a <defterm
+type="definition" guid="_872afaff-c819-42b5-86a6-035d2bc14dda"
+id="sec.4-def.deemedlocallicence"><b><i>deemed local
+licence</i></b></defterm>) that is prescribed by the regulations as equivalent
+to that recognised licence, but only if the person&#8217;s principal place of
+residence is in that other jurisdiction.</txt></block>
+<note type="legtext" guid="_c5434407-b10e-41c2-b22f-a4f82756d269"
+id="sec.4-ssec.1-note"><heading guid="_92a9262f-9cda-4804-9971-856a2d8f9b7e"
+id="sec.4-ssec.1-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">The person is deemed to hold a local licence only
+while the recognised licence in the other jurisdiction is in
+force.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f4fd3a73-3fb2-42d4-930e-85d23ed3f2c6"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of this section, a
+person&#8217;s principal place of residence includes any jurisdiction that
+was, within the last 3 months, the person&#8217;s principal place of
+residence.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_077b243d-2671-4849-89af-6c7ff0da027a"></attrib>
+<attrib name="id" value="sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A person does not hold a deemed local licence in
+New South Wales if the person actually holds the local licence
+concerned.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7242d86c-58cc-4fe8-9b87-1dd75d40ae28"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_ee632d5b-5945-4dbb-bf0e-8073c2b53eb0"
+id="sec.5-he"><b>Application of laws to deemed local licence
+holders</b></heading></head>
+<block><txt break.before="1">A person who holds a deemed local licence is
+taken to hold the local licence for the purposes of the laws of New South
+Wales except any provision of such a law that is prescribed by the regulations
+as not applying to a deemed local licence holder, either generally or in
+specified circumstances.</txt></block>
+<note type="legtext" guid="_03fd7e4f-a8c4-4a1f-9d81-170a0a6ef990"
+id="sec.5-note"><heading guid="_dabfc254-d6ed-4057-bdc8-c36f79d96fa1"
+id="sec.5-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">Because a deemed local licence is treated as a
+local licence for all purposes, disciplinary and enforcement action can be
+taken against the holder of a deemed local licence in the same circumstances
+as that action can be taken against the holder of a local licence. The same
+rights of appeal and review will apply in respect of any such action as apply
+in respect of a local licence.</txt></block></note>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_65b36315-7143-4646-bde7-68f59a436e5d"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_e453a15e-bcab-427e-8934-abd5eb5d1ef0"
+id="sec.6-he"><b>Effect of local licence
+disqualification</b></heading></head>
+<block><txt break.before="1">A person does not hold a deemed local licence
+under this Act if the person is disqualified in New South Wales from holding
+or applying for the local licence concerned.</txt></block></level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6eea80ea-1db5-4a41-a20f-a93b947886f5"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_c3afa915-405c-4abd-94ea-29bd90bc22bd"
+id="sec.7-he"><b>Effect of suspension of recognised
+licence</b></heading></head>
+<block><txt break.before="1">The suspension in another jurisdiction of a
+recognised licence issued in that jurisdiction operates to suspend the deemed
+local licence that is equivalent to that recognised
+licence.</txt></block></level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_88a36226-2113-41e4-bdf8-f8fd8b3fe581"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_bdb81744-1852-4a38-badb-6e9be47d0136"
+id="sec.8-he"><b>Conditions or limitations of deemed local
+licence</b></heading></head>
+<block><txt break.before="1">If a person&#8217;s recognised licence in another
+jurisdiction is subject to a condition or limitation, the person&#8217;s
+deemed local licence in New South Wales is taken to be subject to the same
+condition or limitation.</txt></block></level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_35da63ac-17c3-4a76-9f3e-aa1b1b219c0f"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_18d28bc9-7324-438e-bcd2-20e535ba346b"
+id="sec.9-he"><b>Arrangements between local and interstate licensing
+authorities</b></heading></head>
+<block><txt break.before="1">A local licensing authority may enter into
+arrangements with relevant interstate licensing authorities for the purposes
+of establishing a shared register of recognised licence holders and for other
+purposes related to the recognition of recognised licences issued in other
+jurisdictions.</txt></block></level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_7ead561d-86cd-4617-943e-3f49d9d1abbc"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_937e3c32-82c3-430b-a9c6-2aea05c63fab"
+id="pt.3-he"><b>Disciplinary and enforcement action</b></heading></head>
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_639611ca-8ba9-44b1-a8d0-3ba03ba53470"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_b0f1a4d3-766b-4a1e-857a-32cb58586233"
+id="sec.10-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Part:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_e7633157-d39a-41d7-ae54-6ada06f66a06"
+id="def.disciplinaryaction"><b><i>disciplinary action</i></b></defterm> in
+respect of a licence means:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ffae53ca-cd60-4294-9137-090532cd6a9a" id="sec.10-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the cancellation or suspension of the licence,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4adf0186-1354-4d03-b3fc-151e5ec024f8" id="sec.10-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the imposition of conditions on the licence,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0b5a0158-7dc8-4793-8fe1-b6fa918e7ce9" id="sec.10-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the imposition of any disqualification on the
+holder of the licence, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1edde54b-7038-4f66-9f81-cf5577b418cf" id="sec.10-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the making of an adverse finding or determination
+against the holder of the licence, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5b68ecb2-e3b0-4b40-83b5-f059f0609770" id="sec.10-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the issue of a reprimand or caution to the holder
+of the licence, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4623dc4b-d3b7-46d0-bd04-9ad64d148345" id="sec.10-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">the requiring of an undertaking from the holder
+of the licence, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_70fb2a88-7157-4435-8566-c2d867d0aabc" id="sec.10-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">the imposition of a monetary penalty on the
+holder of the licence, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_96853073-853b-4c7a-8017-b5861718e817" id="sec.10-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">any other action in respect of a licence that is
+prescribed by the regulations as disciplinary action for the purposes of this
+Part.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_73a639db-061a-42f1-961c-2cb4997aa762"
+id="def.enforcementaction"><b><i>enforcement action</i></b></defterm> in
+respect of a licence means:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_15cff304-a453-49b3-abee-94eb322d4997" id="sec.10-para1.a-oc.2">
+<no>(a)</no>
+<block><txt break.before="1">the prosecution or conviction of, or the issue of
+a penalty notice to, the holder of the licence for an offence,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ba41d873-a008-47c4-aabc-64bdf18c70ca" id="sec.10-para1.b-oc.2">
+<no>(b)</no>
+<block><txt break.before="1">any other action in respect of a licence that is
+prescribed by the regulations as enforcement action for the purposes of this
+Part.</txt></block></li></list>
+</block></deflist>
+</block></level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b1dec6ce-78f2-4297-af26-2342584bb9ed"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_c1547af6-7d02-4712-bb37-66a6f541ff9c"
+id="sec.11-he"><b>Notification of disciplinary and enforcement action against
+deemed local licence holder to interstate licensing
+authorities</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a4295043-97a3-4d82-9ae5-cca8879e764d"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A local licensing authority must notify the
+appropriate interstate licensing authority of any disciplinary action or
+enforcement action taken by the local licensing authority against a person in
+respect of a deemed local licence held by the person. The <defterm
+type="definition" guid="_83e185c6-c820-4002-8f00-94e45ec3f347"
+id="sec.11-def.appropriateinterstatelicensingauthority"><b><i>appropriate
+interstate licensing authority</i></b></defterm> is the interstate licensing
+authority that issued the recognised licence that results in the person
+holding the deemed local licence concerned.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f856d2fc-c638-4a1f-829e-01133f0c697d"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A local licensing authority is authorised to act
+under this section despite any law relating to secrecy, privacy or
+confidentiality.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9a3c5925-7a13-4911-b90b-c06349a9707d"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This section does not affect any obligation or
+power to provide information under the <legref jurisd="CTH" type="act"
+check="unknown"><name emphasis="yes"><i>Mutual Recognition Act
+1992</i></name></legref> of the Commonwealth or the <legref jurisd="CTH"
+type="act" check="unknown"><name emphasis="yes"><i>Trans-Tasman Mutual
+Recognition Act 1997</i></name></legref> of the
+Commonwealth.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_912380ea-c1c0-4b60-8c1b-5c83989fca16"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_a6fdee3f-5a4b-43b1-b15d-cdfcf8cd7284"
+id="sec.12-he"><b>Recording of particulars about disciplinary and enforcement
+action in another jurisdiction</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f00a1da8-8efc-4301-b147-b169a66a631e"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A local licensing authority may record in a
+relevant register kept by the local licensing authority particulars of any
+disciplinary action or enforcement action taken in another jurisdiction
+against a person in respect of a recognised licence that the person is deemed
+to hold in that jurisdiction as a result of holding a local licence issued by
+the local licensing authority.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_98f3e522-ce18-448c-bfa2-94a3529497e2"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An entry in a register pursuant to this section
+may be made in terms used to describe the action in information provided to
+the local licensing authority by the interstate licensing authority in the
+jurisdiction in which the action was taken.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5e710b4f-3249-48ec-aaab-9876380a8a88"></attrib>
+<attrib name="id" value="sec.12-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A <defterm type="definition"
+guid="_d88bbecd-cd6a-4744-84b0-ad7a552f52b3"
+id="sec.12-def.relevantregister"><b><i>relevant register</i></b></defterm> is
+a register kept under a local law in which particulars about disciplinary
+action or enforcement action concerning a local licence are authorised or
+required to be included.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_48a274ff-8119-4d92-9e64-1cf4106a3ddc"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_bdb2ed32-4463-4382-822b-ed89b46740f0"
+id="pt.4-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b5ddd500-d679-487a-afe3-d3ce3a6a26ec"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_76c522ab-6c09-4e79-917c-7700ddca9e08"
+id="sec.13-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a71c2391-3980-4e5d-925b-fff6b0a74a20"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_136b01fb-7df1-40b7-86a3-8e26a08ff210"
+id="sec.14-he"><b>Review of Act</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4aec2b0a-b3be-4bc1-a62c-3db51a929093"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister is to review this Act to determine
+whether the policy objectives of the Act remain valid and whether the terms of
+the Act remain appropriate for securing those
+objectives.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6cb057b5-e86b-4912-83e6-7a2b9cc93359"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The review is to be undertaken as soon as
+possible after the period of 5 years from the date of assent to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ee092761-553d-49a3-a8bd-b2cf7b35fe14"></attrib>
+<attrib name="id" value="sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A report on the outcome of the review is to be
+tabled in each House of Parliament within 12 months after the end of the
+period of 5 years.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9319fb11-1eb7-43ef-a52d-25d6b7954b0b"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_e1b9e1de-0075-40d8-bc4d-fbc2e456a84d" id="sch.1-he"><b>Savings,
+transitional and other provisions</b></heading></head>
+
+<level type="part" id="sch.1-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_84f5ae70-f460-4671-9fb0-8ff326ef4056"></attrib>
+<attrib name="id" value="sch.1-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_a1b7639a-1eac-437e-bba4-3ec63b0695fa"
+id="sch.1-pt.1-he"><b>General</b></heading></head>
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f0c99916-5fd2-43d9-85e3-421f4d4c590c"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_6b83e842-dc19-4be8-b524-43d4aef23465"
+id="sch.1-sec.1-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6a9f2274-69a4-4a28-847e-62bfd8ee399e"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of this Act or any
+Act that amends this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4ca8732d-4cbb-477f-a4c5-daa58bc16e26"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such provision may, if the regulations so
+provide, take effect from the date of assent to the Act concerned or a later
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4467a824-b2ef-469e-8b02-28c298c6669c"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication on the NSW
+legislation website, the provision does not operate so as:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3b8c9f55-6a30-4587-bcf7-3bcd5d2426a5" id="sch.1-sec.1-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_33bd7e89-2c67-41bf-88b1-ea7542b93fd3" id="sch.1-sec.1-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_f1aa985c-b4b9-48f7-a8af-e1cdc710bedc"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_68b466ed-013b-4f0e-ac41-4ee66d23016b"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-2014-051" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Mutual Recognition
+(Automatic Licensed Occupations Recognition) Act 2014</i></name> No
+51</legref>. Assented to 25.9.2014. Date of commencement, 1.12.2014, sec 2 and
+2014 (748) LW 28.11.2014.</txt></block></level>
+</level>
+</content>
+</exdoc>

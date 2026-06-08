@@ -1,0 +1,677 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1903-009"
+title="Senators’ Elections Act 1903"
+year="1903"
+number="9"
+enact.or.made.date="1903-11-26"
+first.valid.date="2007-06-06"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1903</metacontent>
+<metacontent class="year.assent">1903</metacontent>
+<metacontent class="publication.date">2007-06-06</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2007-001</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1903-009</metacontent>
+<metacontent
+class="version.desc.id">bd2bf600-3763-4ffa-a85e-38a4021a86cd</metacontent>
+<metacontent
+class="version.series.id">7b8932dd-beaf-4ac2-baf0-5bcdd5dafd5f</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Senators’ Elections Act 1903"></attrib>
+<attrib name="year.passed" value="1903"></attrib>
+<attrib name="year.assent" value="1903"></attrib>
+<attrib name="no" value="9"></attrib>
+<attrib name="publication.date" value="2007-06-06"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2007-001"></attrib>
+<attrib name="first.valid.date" value="2007-06-06"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1903-11-26"></attrib>
+<attrib name="id" value="act-1903-009"></attrib>
+<attrib name="version.desc.id"
+value="bd2bf600-3763-4ffa-a85e-38a4021a86cd"></attrib>
+<attrib name="version.series.id"
+value="7b8932dd-beaf-4ac2-baf0-5bcdd5dafd5f"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata"></content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_9eaca279-6949-4202-a978-afbf6f597574"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to provide for certain matters relating to
+the election of Senators for New South Wales; and for other
+purposes.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>long title:</b> Am 2007
+No 1, Sch 1 [1].</txt></content>
+</tier>
+</content>
+
+
+<content type="body">
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d9026500-4c0d-49bd-a4ab-fcc1238adc26"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_aea62337-444c-4143-9947-813307c2aabe"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act may be cited as the <legref
+refid="act-1903-009" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Senators&#8217; Elections Act
+1903</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_13c86523-8ee2-45a2-8564-438603b1ba75"></attrib>
+<attrib name="id" value="sec.2"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>2</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 2:</b> Rep 2007 No 1,
+Sch 1 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bc2f8713-3b67-476a-8fab-776e1b234d88"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_b6d356f3-f524-4e7c-b397-fe58e3f979ab"
+id="sec.3-he"><b>Power to fix dates for election and place of
+nomination</b></heading></head>
+<block><txt break.before="1">For the purpose of elections of Senators for New
+South Wales of the Parliament of the Commonwealth, the Governor may, from time
+to time, by order published in the Gazette, fix the dates for:</txt>
+<list unnumbered.indent="1" number.type="default">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_07084891-c1f9-481a-b49c-b35e26d3a116" id="sec.3-para1">
+<block><txt break.before="1">the issue of the writ,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e3abf530-9e25-4bcf-8909-c88b5eeb6e3f" id="sec.3-para1-oc.2">
+<block><txt break.before="1">the close of the electoral
+rolls,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3fe5a4ec-fd73-4aba-bb49-b6a9ae02495f" id="sec.3-para1-oc.3">
+<block><txt break.before="1">the nomination of the
+candidates,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7aa95d51-d1bb-4e6f-aa0b-f82d49cb716e" id="sec.3-para1-oc.4">
+<block><txt break.before="1">the polling, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f8638895-3b84-4cec-bd03-1fc975ea79a2" id="sec.3-para1-oc.5">
+<block><txt break.before="1">the return of the
+writ.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Am 1984 No 112,
+Sch 1 (1).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_26d73fce-426e-4910-b5f6-ae6903c35bd8"></attrib>
+<attrib name="id" value="sec.4"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>4</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 1912 No 75,
+secs 2, 3. Subst 1984 No 112, Sch 1 (2). Rep 2007 No 1, Sch 1
+[3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ec33794f-3479-4d43-a51d-e20f2d2acd84"></attrib>
+<attrib name="id" value="sec.4A"></attrib></parentattributes>
+
+<head>
+<no>4A</no><heading guid="_f1fb9d1f-4d06-4927-96f2-7f96ccfa8485"
+id="sec.4A-he"><b>Date of nomination</b></heading></head>
+
+<tier type="subclause" id="sec.4A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f075dcb7-631e-48d5-8cd7-508e033c9a78"></attrib>
+<attrib name="id" value="sec.4A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Subject to subsection (2), the date fixed for the
+nomination of the candidates shall not be less than 10 days nor more than 27
+days after the date of the writ.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c5108ced-326f-4496-8f2b-f4898b0dc196"></attrib>
+<attrib name="id" value="sec.4A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Where a candidate for an election dies, after
+being nominated and before 12 o&#8217;clock noon on the day fixed as the date
+of nomination for the election, the day fixed as the date of nomination for
+the election shall, except for the purposes of section 4B, be taken to be the
+day next succeeding the day so fixed.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4A:</b> Ins 1984 No
+112, Sch 1 (2). Am 2000 No 93, Sch 1.24 [1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4B">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a9e15a84-1eff-4a31-8ec4-e5006611a34d"></attrib>
+<attrib name="id" value="sec.4B"></attrib></parentattributes>
+
+<head>
+<no>4B</no><heading guid="_a54cd400-b96c-43f0-9870-8376687e5e77"
+id="sec.4B-he"><b>Date of polling</b></heading></head>
+<block><txt break.before="1">The date fixed for the polling shall not be less
+than 23 days nor more than 31 days after the date of
+nomination.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 4B:</b> Ins 1984 No
+112, Sch 1 (2). Am 2000 No 93, Sch 1.24 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4C">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_686208e5-54ac-4d2b-a457-fd368fbe154a"></attrib>
+<attrib name="id" value="sec.4C"></attrib></parentattributes>
+
+<head>
+<no>4C</no><heading guid="_4820ba09-dd61-444c-846e-541e548c6d6d"
+id="sec.4C-he"><b>Polling to be on a Saturday</b></heading></head>
+<block><txt break.before="1">The day fixed for the polling shall be a
+Saturday.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 4C:</b> Ins 1984 No
+112, Sch 1 (2).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4D">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_04acd41c-d8c0-4471-8f99-bba40c5c927e"></attrib>
+<attrib name="id" value="sec.4D"></attrib></parentattributes>
+
+<head>
+<no>4D</no><heading guid="_95b41409-43aa-46c9-8351-d41384d57046"
+id="sec.4D-he"><b>Date of return of writ</b></heading></head>
+<block><txt break.before="1">The date fixed for the return of the writ shall
+not be more than 100 days after the issue of the writ.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 4D:</b> Ins 1984 No
+112, Sch 1 (2). Am 1988 No 92, Sch 19 (1).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3685aa37-7ce0-4348-9641-daf0c958cca1"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_021c6afe-6a7d-4850-b71e-28cf9d99904c"
+id="sec.5-he"><b>Writs</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_830b3ce9-10e0-4df2-a34f-48cd3ab85935"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The writ shall specify the date for:</txt>
+<list unnumbered.indent="0" number.type="default">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b410bf82-6426-42a7-ba21-6369c2389a5d" id="sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the close of the electoral
+rolls,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d80a66e8-6b42-468e-b418-685bbeb9adb6" id="sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the nomination,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e022a934-f6ff-42dd-83b4-c767ccbc208e" id="sec.5-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the polling, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_61f329fd-8496-4741-8f24-3ebca4afc454" id="sec.5-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the return of the
+writ.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fbbf747f-ff32-428d-8e4b-b9e1fadd9fac"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The writ shall be deemed to have been issued at
+the hour of 6 o&#8217;clock in the afternoon of the day on which the writ was
+issued.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 5:</b> Subst 1984 No
+112, Sch 1 (2).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5e9dc30b-f7af-432a-bdd9-55ff2211159f"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_24e8d4c2-ab70-4ac0-a97c-058f5f9bc798"
+id="sec.6-he"><b>Time for nomination</b></heading></head>
+<block><txt break.before="1">Nomination may be made at any time after the
+issue of the writ but before twelve o&#8217;clock noon on the day of
+nomination.</txt></block></level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_00626987-e037-4cee-b188-be5c1edc62ea"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_715dc138-d77c-443f-b0d5-7a2f722e981e"
+id="sec.7-he"><b>Polling places</b></heading></head>
+<block><txt break.before="1">The polling shall be taken at all polling places
+within the State appointed under the law of the Commonwealth for the time
+being in force for the regulation of Parliamentary
+elections.</txt></block></level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_751de598-201e-429c-8605-c4be0f0f5a8a"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_760201b3-4bf3-4a8d-954d-dd955f926003"
+id="sec.8-he"><b>Hours of polling</b></heading></head>
+<block><txt break.before="1">The poll shall be open at 8 o&#8217;clock in the
+morning, and shall not close until all electors in the polling booth at 6
+o&#8217;clock in the afternoon and desiring to vote have voted.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 8:</b> Am 1912 No 75,
+sec 4; 1984 No 112, Sch 1 (3).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9f9aa8a2-3f58-4f52-b799-2f9e7d498143"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_d4739cdc-e6ab-41ac-8dc9-57766795accc"
+id="sec.9-he"><b>Power to extend time and make provision to meet
+difficulties</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8d72e71b-f5a1-4441-8e1e-70d3ada0671e"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Notwithstanding any other provision of this Act,
+before or after the day appointed for the polling the Governor may, by notice
+published in the Gazette, provide for extending the time for holding the
+election or for returning the writ, or meeting any difficulty which might
+otherwise interfere with the due course of the election; and any provision so
+made shall be valid and sufficient and any date provided for in lieu of a date
+specified by the writ shall be deemed to be the date so
+specified.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d384c97a-932b-45f4-a950-c18cae9a69f1"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Am 1984 No 112,
+Sch 1 (4); 1988 No 92, Sch 19 (2).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c716883c-9c31-4891-9ea7-2a8ac2ddaf6f"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_cb6fd13f-c21b-49b4-862f-ff2b4d7841d6"
+id="sec.10-he"><b>Place of nomination</b></heading></head>
+<block><txt break.before="1">The office of the Australian Electoral Officer
+for the State shall be the place of nomination for the
+election.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 10:</b> Ins 1984 No
+112, Sch 1 (5).</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_23d8d83b-3767-471f-b027-13afe5c91082"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_dd94fd95-a321-4019-a2cd-f62439945294"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-1903-009" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Senators&#8217; Elections
+Act 1903</i></name> No 9</legref>. Assented to 26.11.1903. This Act has been
+amended as follows:</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_0cfcd91b-7adc-44a7-ae58-f2cb7c838c85" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_db3fbcb4-dd59-4d37-9d1b-6103c6f44305" id="ed-tbl-tblr">
+<entry colname="1" guid="_513e5bed-9455-441a-8152-9923b8825896"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1912</b></txt></entry>
+<entry colname="2" guid="_e1997f71-2c4c-4fe6-be77-042c32a98fb4"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 75</txt></entry>
+<entry colname="3" guid="_4adba747-f93a-420d-805b-ed10e31fba6e"
+id="ed-tbl-tblr-tble3"><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Senators&#8217; Elections (Amendment)
+Act 1912</i></name></legref>. Assented to 20.12.1912.</txt></entry></row>
+
+
+<row guid="_769d5d86-c6f5-4204-99f9-c93436a60356" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_c22688b3-e063-4c97-ae10-75a4ae04a405"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>1984</b></txt></entry>
+<entry colname="2" guid="_1fb483f6-e4a4-4b3d-8e9d-42141a416b9f"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 112</txt></entry>
+<entry colname="3" guid="_fe569b72-1bb9-4111-9cc9-c75867467202"
+id="ed-tbl-tblr-oc.2-tble3"><txt break.before="1"><legref jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Senators&#8217; Elections
+(Amendment) Act 1984</i></name></legref>. Assented to
+28.9.1984.</txt></entry></row>
+
+
+<row guid="_df909daa-b189-49ae-b88d-ebbc2b8e24bd" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_cbd284d1-eb88-4d8f-9c33-1bf31965fae1"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>1988</b></txt></entry>
+<entry colname="2" guid="_e62241fc-7bd0-4082-ab08-ffc261875198"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 92</txt></entry>
+<entry colname="3" guid="_fc46cae9-3167-4e36-affe-c1621fdc995f"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1988</i></name></legref>. Assented to 19.12.1988.</txt>
+<txt break.before="1">Date of commencement of Sch 19, 29.1.1996, sec 2 (3) and
+GG No 12 of 29.1.1996, p 401.</txt></block></entry></row>
+
+
+<row guid="_9d826c23-0c3a-4f34-8d98-f307639566a2" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_62f9ee0a-e34a-4ee0-9037-bd8099bbbbe3"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>2000</b></txt></entry>
+<entry colname="2" guid="_9b18f6ce-0d09-445b-805e-ccfc81acb55c"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 93</txt></entry>
+<entry colname="3" guid="_31d35d2b-3e55-4ded-8392-314757597913"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref refid="act-2000-093" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2000</i></name></legref>. Assented to 8.12.2000.</txt>
+<txt break.before="1">Date of commencement of Sch 1.24, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_27d0ec46-a1bf-4f52-81a8-ce328e4c35dd" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_57f97953-d310-4d72-99d0-d6434e340c98"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>2007</b></txt></entry>
+<entry colname="2" guid="_30879aba-5e86-4350-9d8e-3e2e9120e4d8"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 1</txt></entry>
+<entry colname="3" guid="_91578527-8ff4-4c54-bec8-c1d3e4bec0ac"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref refid="act-2007-001" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Senators&#8217; Elections
+Amendment Act 2007</i></name></legref>. Assented to 6.6.2007.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_f67d7de7-9e4e-4ffb-8208-ccd53af34f81"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_00099c8e-9993-459f-a8b2-d3a039b615ce" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_7c64c8cc-355f-41e1-8126-2c469a822c17" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_52c55b3a-ec85-4c2d-85c9-5dd512c54cc0"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Long title</txt></entry>
+<entry colname="2" guid="_620f9c6c-9019-4e06-a426-b014d2ce4f25"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 2007 No 1, Sch 1
+[1].</txt></entry></row>
+
+
+<row guid="_3c1cd245-d923-43c2-a195-be3fa122fabe" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_3fdb52f6-2282-4213-b4cd-46b5fbe784b9"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 2</txt></entry>
+<entry colname="2" guid="_9ed58464-9170-4c4c-9495-768a7f3fa86d"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Rep 2007 No 1, Sch 1
+[2].</txt></entry></row>
+
+
+<row guid="_23762555-3216-4de8-b4ef-20d1c5d99564" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_3fe66f01-2201-4d12-b712-6e8f9c9ea0ce"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_0b6fbee9-f284-4ace-8282-e5d8a4f7c9f7"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Am 1984 No 112, Sch 1
+(1).</txt></entry></row>
+
+
+<row guid="_04d92675-620b-4854-b7d9-e45dd1e8d470" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_8584693e-ad66-4b29-a22c-422470cd451b"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_f68eb9ae-613d-4732-862b-126d18aebd53"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Am 1912 No 75, secs 2,
+3. Subst 1984 No 112, Sch 1 (2). Rep 2007 No 1, Sch 1
+[3].</txt></entry></row>
+
+
+<row guid="_244eacd3-1980-4595-b753-3202dc76d555" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_474ef150-d4c6-45f0-9ea0-f2ecc6343cfd"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 4A</txt></entry>
+<entry colname="2" guid="_7ff90784-efd9-43d5-9084-e78a4527fcd9"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Ins 1984 No 112, Sch 1
+(2). Am 2000 No 93, Sch 1.24 [1].</txt></entry></row>
+
+
+<row guid="_068a343a-70ba-4195-9829-6c551699734d" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_fc432971-4e6d-47c6-b04b-20802427b2fa"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 4B</txt></entry>
+<entry colname="2" guid="_0b6dd063-7235-4779-9ffa-c7b937af929b"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Ins 1984 No 112, Sch 1
+(2). Am 2000 No 93, Sch 1.24 [2].</txt></entry></row>
+
+
+<row guid="_88e3c2de-244d-493e-bd33-d3bee58d6b81" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_036f88f8-1b18-4465-a6ad-66ccceb80ecc"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 4C</txt></entry>
+<entry colname="2" guid="_f54ffaea-8264-461d-82a4-2f7e149d703d"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Ins 1984 No 112, Sch 1
+(2).</txt></entry></row>
+
+
+<row guid="_bf3886e9-d07a-4b21-8aeb-fde6d2aeb934" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_2e72ac23-9a46-4653-9bea-8271179f1722"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sec 4D</txt></entry>
+<entry colname="2" guid="_2220132f-3646-4bb6-8edc-6153bb23ab61"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Ins 1984 No 112, Sch 1
+(2). Am 1988 No 92, Sch 19 (1).</txt></entry></row>
+
+
+<row guid="_9d47db4d-6fb0-48bc-8b27-97136db5e433" id="ed-tbl-oc.2-tblr-oc.9">
+<entry colname="1" guid="_17e8fe69-dd20-4655-9709-fd87bb1a846b"
+id="ed-tbl-oc.2-tblr-oc.9-tble1"><txt break.before="1">Sec 5</txt></entry>
+<entry colname="2" guid="_9593bf7b-89e2-4a83-9844-fffaf7495378"
+id="ed-tbl-oc.2-tblr-oc.9-tble2"><txt break.before="1">Subst 1984 No 112, Sch
+1 (2).</txt></entry></row>
+
+
+<row guid="_181eed50-989e-4cc7-bb7a-833e06189eb0"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry colname="1" guid="_9111c533-99c2-4532-aacc-5e39a81317a1"
+id="ed-tbl-oc.2-tblr-oc.10-tble1"><txt break.before="1">Sec 8</txt></entry>
+<entry colname="2" guid="_0aaca6d8-54ee-47ba-bb91-caaf13dbd471"
+id="ed-tbl-oc.2-tblr-oc.10-tble2"><txt break.before="1">Am 1912 No 75, sec 4;
+1984 No 112, Sch 1 (3).</txt></entry></row>
+
+
+<row guid="_2ff54aa5-af8c-4c10-969a-4880ac7b67d2"
+id="ed-tbl-oc.2-tblr-oc.11">
+<entry colname="1" guid="_614ce450-e57e-49f2-a72f-75583a4c8e13"
+id="ed-tbl-oc.2-tblr-oc.11-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_f9ded605-f590-4d6e-9250-071f083aa1ad"
+id="ed-tbl-oc.2-tblr-oc.11-tble2"><txt break.before="1">Am 1984 No 112, Sch 1
+(4); 1988 No 92, Sch 19 (2).</txt></entry></row>
+
+
+<row guid="_17e8090b-7b77-4dd6-a19b-4eae4e4836cf"
+id="ed-tbl-oc.2-tblr-oc.12">
+<entry colname="1" guid="_e021b5a0-651b-4b55-9277-2c429e1260e0"
+id="ed-tbl-oc.2-tblr-oc.12-tble1"><txt break.before="1">Sec 10</txt></entry>
+<entry colname="2" guid="_ffc42624-37b3-4984-9962-139592ccf496"
+id="ed-tbl-oc.2-tblr-oc.12-tble2"><txt break.before="1">Ins 1984 No 112, Sch 1
+(5).</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

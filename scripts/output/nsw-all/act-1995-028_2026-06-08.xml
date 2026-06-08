@@ -1,0 +1,2898 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1995-028"
+title="Public Defenders Act 1995"
+year="1995"
+number="28"
+enact.or.made.date="1995-06-19"
+first.valid.date="2015-07-15"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1995</metacontent>
+<metacontent class="year.assent">1995</metacontent>
+<metacontent class="publication.date">2015-07-15</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2015-015</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1995-028</metacontent>
+<metacontent
+class="version.desc.id">6bb2480d-cae2-422a-aa1b-7e7cb33197e8</metacontent>
+<metacontent
+class="version.series.id">705b6cb0-db56-4dd0-ad25-19588189c978</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Public Defenders Act 1995"></attrib>
+<attrib name="year.passed" value="1995"></attrib>
+<attrib name="year.assent" value="1995"></attrib>
+<attrib name="no" value="28"></attrib>
+<attrib name="publication.date" value="2015-07-15"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2015-015"></attrib>
+<attrib name="first.valid.date" value="2015-07-15"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1995-06-19"></attrib>
+<attrib name="id" value="act-1995-028"></attrib>
+<attrib name="version.desc.id"
+value="6bb2480d-cae2-422a-aa1b-7e7cb33197e8"></attrib>
+<attrib name="version.series.id"
+value="705b6cb0-db56-4dd0-ad25-19588189c978"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata"></content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_3a004ff5-a3ea-4324-ab94-9466175a8eb8"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to provide for the appointment and
+functions of Public Defenders; and for other purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e913d12b-4a33-4198-b617-f99189611fdd"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_98a8357a-cccb-48d7-b724-ccec16da866e"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7523fb7e-9ff8-4e29-9b0a-302bd990b61b"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_09681f36-d104-4352-869e-a22e2611375a"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref refid="act-1995-028"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Public
+Defenders Act 1995</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_01c1d523-1c0b-44ae-b848-318b42fb386e"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_a5256746-f5cc-475f-bf7d-46ff5cfc76f8"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on a day or days to be
+appointed by proclamation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_44917ce1-cffb-470b-aa27-f12205e2cf72"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_0d0f13c6-83fa-4416-81c7-80c1ac3be6f9"
+id="sec.3-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Act:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_252f4c65-432a-4375-9ebb-2770fd63e8e9"
+id="def.communitylegalcentre"><b><i>community legal centre</i></b></defterm>
+means an Aboriginal legal service or other community legal service within the
+meaning of the <legref refid="act-2014-16a" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Legal Profession Uniform Law
+(NSW)</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_4a3b40ef-632c-4081-a413-46e6e3c1a717"
+id="def.exercise"><b><i>exercise</i></b></defterm> a function includes perform
+a duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d529f1cf-b76a-402c-a832-f47007dd2005"
+id="def.function"><b><i>function</i></b></defterm> includes a power, authority
+or duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_1e429e2f-749e-4ca5-a946-3a074f2420a0"
+id="def.legallyassistedperson"><b><i>legally assisted
+person</i></b></defterm> means a person who is a legally assisted person
+within the meaning of the <legref refid="act-1979-078" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Legal Aid Commission Act
+1979</i></name></legref> or who is receiving legal assistance through a
+community legal centre.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_bcd2fa5f-49ae-4264-9736-5459d7ac3f5f"
+id="def.parttimePublicDefender"><b><i>part-time Public
+Defender</i></b></defterm> means a Public Defender exercising his or her
+functions as a Public Defender on a part-time basis, as provided by an
+agreement referred to in section 6 (2A).</txt></block></deflist>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Am 2006 No 23,
+Sch 9 [1]; 2007 No 51, Sch 3 [1]; 2015 No 7, Sch 2.35.</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_86d273a3-0ba4-46a9-a77b-fc652610345c"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_27e92c48-2d01-4e36-badd-6c8983f19cb6"
+id="pt.2-he"><b>Appointment of Public Defenders</b></heading></head>
+
+<level type="clause" id="sec.3A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f752e490-4d98-4fad-bb6b-f40a852df1c6"></attrib>
+<attrib name="id" value="sec.3A"></attrib></parentattributes>
+
+<head>
+<no>3A</no><heading guid="_739cc100-74b8-4b13-b263-d568a064d249"
+id="sec.3A-he"><b>Guidelines for appointments</b></heading></head>
+<block><txt break.before="1">The Attorney General may issue guidelines as to
+the process for the selection of a person to be proposed for appointment
+(including reappointment) to any office under this Part. The guidelines are
+not mandatory and a failure to comply with them does not affect the validity
+of an appointment.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 3A:</b> Ins 2007 No 51,
+Sch 3 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e223f864-adde-459a-b633-07f6d352a346"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_312848e7-8389-49e1-998d-480523ae05fe"
+id="sec.4-he"><b>Appointment of Senior Public Defender</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2937800b-0d02-4bb1-8c61-b321db77346b"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may appoint a Senior Public
+Defender.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d9b4a5ea-b957-452d-972b-0e33e906ce7a"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Senior Public Defender has such functions as
+are conferred or imposed on the Senior Public Defender by or under this or any
+other Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_db5b0484-872d-422c-856c-20177fc52d59"></attrib>
+<attrib name="id" value="sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Senior Public Defender is responsible to the
+Attorney General for the due exercise of the Senior Public Defender&#8217;s
+functions, but nothing in this subsection affects or derogates from the
+authority of the Senior Public Defender in respect of the conduct of any
+proceedings.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f68e4f7d-e914-45d8-bb49-80249bc3534d"></attrib>
+<attrib name="id" value="sec.4-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Schedule 1 has effect in relation to the Senior
+Public Defender.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_143487dc-7e13-4497-b29b-1c34bfd56920"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_36f11d3b-8422-4c1f-84e0-76ad291af52c"
+id="sec.5-he"><b>Appointment of Deputy Senior Public
+Defenders</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_82c12237-c127-4e13-8ea1-7d391886e926"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may appoint one or more Deputy
+Senior Public Defenders.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_78c2c3b4-ffb0-454b-a59d-3dba3d2b6631"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A Deputy Senior Public Defender has such
+functions as are conferred or imposed on Deputy Senior Public Defenders by or
+under this or any other Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7842d796-f674-4cdf-be13-7128c80cd41c"></attrib>
+<attrib name="id" value="sec.5-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A Deputy Senior Public Defender is responsible to
+the Senior Public Defender for the due exercise of the Deputy Senior Public
+Defender&#8217;s functions, but nothing in this subsection affects or
+derogates from the authority of a Deputy Senior Public Defender in respect of
+the conduct of any proceedings.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fe059943-eda7-476f-86cf-1360178506fc"></attrib>
+<attrib name="id" value="sec.5-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Schedule 1 has effect in relation to a Deputy
+Senior Public Defender.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e20151a9-3589-4b1e-ad20-030372aac805"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_0518f43b-4c63-47b2-9623-e04ef14fa651"
+id="sec.6-he"><b>Appointment of Public Defenders</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_88e6ea70-1dab-4658-a1ee-b5f065caaf9f"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may appoint such number of Public
+Defenders as the Governor thinks necessary.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_997c0e39-7c31-46d6-97dd-d3674c68c32c"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A Public Defender has such functions as are
+conferred or imposed on Public Defenders by or under this or any other
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5f63312a-49b1-4a60-b4d6-98997bfde818"></attrib>
+<attrib name="id" value="sec.6-ssec.2A"></attrib></parentattributes>
+
+<head>
+<no>(2A)</no></head>
+<block><txt break.before="1">A Public Defender may, by agreement in writing
+entered into with the Senior Public Defender, exercise his or her functions as
+a Public Defender on a part-time basis.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_61910420-c629-4922-87a9-eae78c4fa07c"></attrib>
+<attrib name="id" value="sec.6-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A Public Defender is responsible to the Senior
+Public Defender for the due exercise of the Public Defender&#8217;s functions,
+but nothing in this subsection affects or derogates from the authority of a
+Public Defender in respect of the conduct of any
+proceedings.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7c323e25-783b-4d7f-8b1c-5520b03ea27b"></attrib>
+<attrib name="id" value="sec.6-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Schedule 1 has effect in relation to a Public
+Defender.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 6:</b> Am 2006 No 23,
+Sch 9 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8af4929f-8e95-4d66-a54f-bf5261d5fce9"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_3f968b1b-04db-4bf0-9f9b-a0f7cbf2fc9a"
+id="sec.7-he"><b>Acting appointments</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ca5990e0-f064-4402-9a6d-287871dc69b2"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Attorney General may appoint a person who is
+eligible for appointment as such to act in the office of Senior Public
+Defender, Deputy Senior Public Defender or Public
+Defender.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6afb0374-7364-4c8b-8050-f40fd6e036e8"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Attorney General:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_762bfdf7-dfcb-4678-a888-3f7b934ecbab" id="sec.7-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">may, subject to this section, determine the terms
+and conditions of appointment, including remuneration and allowances, of a
+person acting in the office of Senior Public Defender, Deputy Senior Public
+Defender or Public Defender, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6076e1df-a7a0-4624-8adf-71d0d2a1270d" id="sec.7-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">may terminate such an appointment at any
+time.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c1aaebf3-7ef0-4608-b697-3443918dbee3"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A person may not act or be appointed to act under
+this section for a period of more than 12 months at a
+time.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_665129e0-2602-470b-8440-0bc1993b59d6"></attrib>
+<attrib name="id" value="sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">While a person is acting in the office of Senior
+Public Defender, Deputy Senior Public Defender or Public Defender, the person
+has all the functions of that office and is taken to be the holder of that
+office.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7d0259fc-616b-4f29-aee7-3267ac6f5a0d"></attrib>
+<attrib name="id" value="sec.7-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A person may be appointed to act in an office
+under this section (and may act in that office) even if the person is of or
+above the age at which a holder of the office would vacate the
+office.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 7:</b> Am 2007 No 51,
+Sch 3 [3].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_899096d0-1db7-45af-a821-e0a6736a7491"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_e1adb84f-fcfb-401f-acdf-2a958ce85174"
+id="pt.3-he"><b>Functions of Public Defenders</b></heading></head>
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_efdef304-1a8b-41f9-be70-6cfbf80c9604"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_ed8e61f6-984f-4da4-b113-3b092ed29cd9"
+id="sec.8-he"><b>Functions of Senior Public Defender</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b69160a1-c3e3-49df-b235-f98de6b22896"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The functions of the Senior Public Defender
+include the following:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cbda880e-11d4-45b0-a694-db32e771d2f8" id="sec.8-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to make arrangements and give directions for the
+disposition of the work of Public Defenders and so to ensure the effective and
+efficient conduct of that work,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cfb927b6-b523-4db4-9a5f-dfd4a3a68de8" id="sec.8-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to provide advice and assistance to, and to
+monitor the work and activities of, Public Defenders,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_120bc163-5c27-4f1d-916b-af75648034b7" id="sec.8-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to consult with the Legal Aid Commission and with
+community legal centres about, and to enter into arrangements with the Legal
+Aid Commission and community legal centres for, the provision of legal
+assistance to legally assisted persons,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ca53565a-f826-4e8b-beb6-e64494781818" id="sec.8-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to advise the Attorney General, whether on the
+request of the Attorney General or otherwise, on matters relating to the
+reform of the law relevant to the work and activities of Public
+Defenders.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6a23f455-b825-4b4d-b8b3-37c89862bd77"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Senior Public Defender also has all the
+functions of a Public Defender.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b90bad42-cdb7-4f4d-9c7d-97c8e2e15e2c"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_05bd1e50-0923-4cde-a9c8-ae7798bf0be9"
+id="sec.9-he"><b>Functions of Deputy Senior Public
+Defenders</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0f3d5a05-6c2b-4860-bbbb-460853f73376"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The functions of a Deputy Senior Public Defender
+include that of assisting the Senior Public Defender, as the Senior Public
+Defender requires.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7206da98-8640-4eed-a7ba-f06cae529526"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A Deputy Senior Public Defender also has all the
+functions of a Public Defender.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2abb45b6-9705-4971-ac35-5b9ddb4323c5"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_4e5ca276-7945-440f-b0e3-f4568cfaaea2"
+id="sec.10-he"><b>Functions of Public Defenders</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bda1ae39-1eb0-4b3c-961a-153ff59b1dfd"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The functions of a Public Defender include the
+following:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_85b44614-39a4-47ec-aaeb-e1ff03a37dfe" id="sec.10-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to advise and appear in criminal proceedings, and
+other proceedings in the nature of criminal proceedings, on behalf of legally
+assisted persons,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d6f49476-d408-44c1-9c99-e5367fe5ad77" id="sec.10-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to advise on matters referred to the Public
+Defender by the Senior Public Defender,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c39fda6b-cce1-4064-a5e7-447cfb4a70c0" id="sec.10-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to carry out such other related functions as may
+be specified by the Attorney General after consultation with the Senior Public
+Defender.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_58e6f1c3-e845-430b-aa52-96f13514cb21"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The reference in subsection (1) (a) to
+proceedings in the nature of criminal proceedings extends to:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7c334d93-b699-44b6-95f9-e5229186ee6f" id="sec.10-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">committals, trials, appeals and ancillary
+proceedings (such as bail applications), and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bee170ca-d7d4-4db5-847c-584817c61918" id="sec.10-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">proceedings that are brought against a person for
+the purpose of obtaining an order for the detention of the person in prison,
+in a hospital for the detention of mentally incapacitated persons or in any
+other place of detention, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_81bff09d-59f0-4335-9c25-fe2ffcc7a562" id="sec.10-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">proceedings that are brought by a person for the
+purpose of securing the person&#8217;s release from detention in prison, in a
+hospital for the detention of mentally incapacitated persons or in any other
+place of detention.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_27fcd94c-0202-4ab1-959b-02785442a46c"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_eb84619c-1178-46e3-be42-5f162b4da780"
+id="sec.11-he"><b>Guidelines</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_330c9bb4-58e5-460d-8643-246e85e16f0d"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Senior Public Defender may, by order in
+writing, establish guidelines with respect to the exercise of the Public
+Defenders&#8217; functions under this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6df64a89-2b23-4745-b4ca-89af7533df08"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Guidelines may not be established in relation to
+particular cases.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2dc2b421-549b-4846-9869-a733a19d17de"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A Public Defender is subject to any guidelines in
+force under this section.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ca43f085-f2c7-4b6d-8bc0-9c867cc8e6e9"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_90609f82-f0b3-4bab-a63b-2b284780621c"
+id="sec.12-he"><b>Recovery of costs from community legal
+centres</b></heading></head>
+<block><txt break.before="1">The Senior Public Defender may, after
+consultation with the Legal Aid Commission, enter into arrangements with
+community legal centres for the recovery of costs associated with the
+provision by Public Defenders of legal assistance to persons who are referred
+to Public Defenders by community legal centres.</txt></block></level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_13de66e5-194b-40ba-a7b8-35452c7a49ee"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_3dc81afd-6b43-4163-a196-62d25849577a"
+id="pt.4-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dfcaae5b-0f43-4e7d-8800-25bf28778fb8"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_a4345a35-17b6-4138-9dad-dd825f9633f7"
+id="sec.13-he"><b>Staff</b></heading></head>
+<block><txt break.before="1">Persons may be employed in the Public Service
+under the <legref refid="act-2013-040" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref> to enable the Senior Public Defender to exercise his
+or her functions.</txt></block>
+<note type="legtext" guid="_f5e447f0-1ca4-452c-b698-917b26732cf9"
+id="sec.13-note"><heading guid="_f7089e60-bc3a-4bae-bb77-1cef75cdb7c4"
+id="sec.13-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">Section 59 of the <legref refid="act-2013-040"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Government
+Sector Employment Act 2013</i></name></legref> provides that the persons so
+employed (or whose services the Senior Public Defender makes use of) may be
+referred to as officers or employees, or members of staff, of the Senior
+Public Defender. Section 47A of the <legref refid="act-1902-032" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Constitution Act
+1902</i></name></legref> precludes the Senior Public Defender from employing
+staff.</txt></block></note>
+
+
+<content type="historynote"><txt break.before="1"><b>s 13:</b> Subst 2015 No
+15, Sch 3.50 [1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2e8c5711-6a78-4903-8910-f1243976da8c"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_932ce3e0-68e9-43ec-b989-19226f43aaf0"
+id="sec.14-he"><b>Delegation</b></heading></head>
+<block><txt break.before="1">The Senior Public Defender may delegate
+to:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f69a8927-5f4d-4b94-9c99-a1cf75d002a6" id="sec.14-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a Deputy Senior Public Defender,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_12f72a8d-4d65-4b85-a531-19f24451cf85" id="sec.14-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a Public Defender,</txt></block></li></list>
+
+<txt break.before="1">the exercise of any of the Senior Public
+Defender&#8217;s functions (other than this power of
+delegation).</txt></block></level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_62006231-df95-442b-b688-9a33a4042c21"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_2091b68d-76e5-4425-92e2-c12434bed256"
+id="sec.15-he"><b>Attorney General may arrange
+secondments</b></heading></head>
+<block><txt break.before="1">The Attorney General may make arrangements with
+the Senior Public Defender for the secondment of Public Defenders to act as
+Crown Prosecutors or to assist in the conduct of inquiries or investigations
+under the <legref refid="act-1923-029" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Royal Commissions Act
+1923</i></name></legref> or the <legref refid="act-1988-035" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Independent Commission
+Against Corruption Act 1988</i></name></legref> or other such inquiries or
+investigations.</txt></block></level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_33d62b0c-e628-4767-98f9-afa96d555339"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_2d2af823-17b4-4d71-9009-d1ecb1188f64"
+id="sec.16-he"><b>Protection from liability</b></heading></head>
+<block><txt break.before="1">A matter or thing done or omitted by the Senior
+Public Defender, a Deputy Senior Public Defender or a Public Defender does not
+subject the Senior Public Defender, Deputy Senior Public Defender or Public
+Defender to any action, liability, claim or demand, if the matter or thing was
+done or omitted in good faith for the purposes of executing this or any other
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d9628ac8-69fa-444e-ae20-391314bca56d"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_4f96fba0-033d-4d4c-b20f-4b433ca601f7"
+id="sec.17-he"><b>Annual report</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.17-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_34e5e2f5-0485-40cd-86f0-db24aaf7b06a"></attrib>
+<attrib name="id" value="sec.17-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">As soon as practicable after 30 June, but on or
+before 31 December, in each year, the Senior Public Defender must prepare and
+forward to the Attorney General a report of the work and activities of Public
+Defenders for the 12 months ending on 30 June in that
+year.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.17-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3732d515-02e1-4c11-84a9-7cfc2fad5867"></attrib>
+<attrib name="id" value="sec.17-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Attorney General must lay the report or cause
+it to be laid before both Houses of Parliament as soon as practicable after
+receiving the report.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c092cd81-cd6c-46bc-93fc-de3ce0153f34"></attrib>
+<attrib name="id" value="sec.17-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">If a House of Parliament is not sitting when the
+Attorney General seeks to lay the report before it, the Attorney General is to
+cause a copy of the report to be presented to the Clerk of that House of
+Parliament.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_daaa96af-5dd8-407b-9c3e-869120258f06"></attrib>
+<attrib name="id" value="sec.17-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A report presented under subsection (3):</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e8321cda-c4ab-46f1-a8da-cfac856266a0" id="sec.17-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is, on presentation and for all purposes, taken
+to have been laid before the House, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2139ed3d-3c28-472b-a8ce-8ccf1f84a87b" id="sec.17-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">may be printed by authority of the Clerk of the
+House, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f4146069-2fac-4727-97c8-7cc06ab405bb" id="sec.17-ssec.4-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">if so printed, is taken to be a document
+published by or under the authority of the House, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_594db418-b6b0-4584-8418-f7ecc96eda7a" id="sec.17-ssec.4-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">is to be recorded:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7f596db4-b482-4a2d-9eca-374a8c47f307"
+id="sec.17-ssec.4-para1.d-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">in the case of the Legislative Council&#8212;in
+the Minutes of the Proceedings of the Legislative Council,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8b48d0c4-50bb-40d7-b198-016fc82dde8c"
+id="sec.17-ssec.4-para1.d-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">in the case of the Legislative Assembly&#8212;in
+the Votes and Proceedings of the Legislative
+Assembly,</txt></block></li></list>
+
+<txt break.before="1">on the first sitting day of the House after receipt of
+the copy of the report by the Clerk.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 17:</b> Am 2014 No 14,
+Sch 1.4.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f0937e32-c266-4fd8-8d11-5d77e4c558ef"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_af708c96-2a10-4154-9506-3098cfa92d4e"
+id="sec.18-he"><b>External review committee</b></heading></head>
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fe95a3ff-4b09-4318-89fd-cc8ee8b0d951"></attrib>
+<attrib name="id" value="sec.18-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Attorney General may establish an external
+review committee to monitor the work and activities of Public
+Defenders.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7d243363-0f18-42b9-99f5-8a540c47a19a"></attrib>
+<attrib name="id" value="sec.18-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The constitution, procedure and functions of the
+committee are to be as prescribed by the regulations.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8564054b-d953-402f-b25d-0b72856d5587"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_aa9b14c9-c9c7-4a29-8e51-af20f7808c5c"
+id="sec.19-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b65b50fe-2726-413e-802a-22f94fd2f775"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_ae39ca25-5c5b-4cca-8a03-4463d3c87a8b"
+id="sec.20-he"><b>Repeal of <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Public Defenders Act
+1969</i></name></legref></b></heading></head>
+<block><txt break.before="1">The <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Public Defenders Act
+1969</i></name></legref> is repealed.</txt></block></level>
+
+
+<level type="clause" id="sec.21" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4c0e6c16-80fb-492e-8faa-cff93930b6af"></attrib>
+<attrib name="id" value="sec.21"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>21</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 21:</b> Rep 1999 No 85,
+Sch 4.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.22">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_00cc212c-1b83-44d0-b67e-b694254f050b"></attrib>
+<attrib name="id" value="sec.22"></attrib></parentattributes>
+
+<head>
+<no>22</no><heading guid="_99baa4da-52b9-468c-91dd-f5679faf019d"
+id="sec.22-he"><b>Savings, transitional and other
+provisions</b></heading></head>
+<block><txt break.before="1">Schedule 3 has effect.</txt></block></level>
+
+
+<level type="clause" id="sec.23">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5a47e6a4-eedf-40d0-9f95-63bf91abaf41"></attrib>
+<attrib name="id" value="sec.23"></attrib></parentattributes>
+
+<head>
+<no>23</no><heading guid="_425d5971-020d-4e71-9298-c2786bc96f8d"
+id="sec.23-he"><b>Review of Act</b></heading></head>
+
+<tier type="subclause" id="sec.23-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0ecb42ea-20c1-4e2f-80ac-6a7340a83521"></attrib>
+<attrib name="id" value="sec.23-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Attorney General is to review this Act to
+determine whether the policy objectives of the Act remain valid and whether
+the terms of the Act remain appropriate for securing those
+objectives.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5045d9fe-9639-4ba8-9c83-425cfc31e962"></attrib>
+<attrib name="id" value="sec.23-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The review is to be undertaken as soon as
+possible after the period of 5 years from the date of assent to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_96a24b2e-cd3e-4e00-8279-794aef82e633"></attrib>
+<attrib name="id" value="sec.23-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A report on the outcome of the review is to be
+tabled in each House of Parliament within 12 months after the end of the
+period of 5 years.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4a3b9c41-6266-4d86-b7b1-f3ab5c7c89bf"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_f2b382c0-63a5-4815-9985-5d6585c296d5" id="sch.1-he"><b>Provisions
+relating to Public Defenders</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Sections 4, 5 and
+6)</txt></block></pre>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_37d3bfc1-7da5-4ccd-97d7-a3dcb971507c"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_c1fe3d6c-62b2-40d3-9fe4-e88d8c07b0e6"
+id="sch.1-sec.1-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Schedule:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_caee9fc4-d635-4908-8544-c70ee8a1734d"
+id="sch.1-def.Officer"><b><i>Officer</i></b></defterm> means the Senior Public
+Defender, a Deputy Senior Public Defender or a Public Defender.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_07d56db4-a350-4729-b63e-f87f4f1cfcc6"
+id="sch.1-def.publicservant"><b><i>public servant</i></b></defterm> means a
+person employed in the Public Service or a member of staff of a statutory
+body.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_e9383212-a834-4e2c-93c0-0d290863d621"
+id="sch.1-def.SeniorOfficer"><b><i>Senior Officer</i></b></defterm> means the
+Senior Public Defender or a Deputy Senior Public Defender.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_1efa9e3d-4c63-43b4-8235-3f1c018b124e"
+id="sch.1-def.statutorybody"><b><i>statutory body</i></b></defterm> means any
+body constituted by or under an Act that is declared by proclamation to be a
+statutory body for the purposes of this Schedule.</txt></block></deflist>
+</block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8963bbaa-6614-4ce2-868d-8a763cbc5492"></attrib>
+<attrib name="id" value="sch.1-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_0f5369b1-5266-4d19-ac32-1e5423b687e9"
+id="sch.1-sec.2-he"><b>Eligibility for appointment</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9714c419-6009-42c6-b73a-e87f195da5af"></attrib>
+<attrib name="id" value="sch.1-sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person must be an Australian lawyer of at least
+7 years&#8217; standing to be eligible for appointment as the Senior Public
+Defender.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4688ad3d-194b-4b54-b2b1-f7ad152cde74"></attrib>
+<attrib name="id" value="sch.1-sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person must be an Australian lawyer of at least
+5 years&#8217; standing to be eligible for appointment as a Deputy Senior
+Public Defender.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.2-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a888a9be-1bd2-45fe-90d3-7a47a3b6601e"></attrib>
+<attrib name="id" value="sch.1-sec.2-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A person must be an Australian lawyer to be
+eligible for appointment as a Public Defender.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a7f190be-4b0d-461f-96cd-c911232a728d"></attrib>
+<attrib name="id" value="sch.1-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_488c89d3-7393-4a2e-957d-0e96002a499b"
+id="sch.1-sec.3-he"><b>Term of office</b></heading></head>
+<block><txt break.before="1">An Officer is to be appointed by the Governor for
+a term of 7 years or for such shorter term as may be necessary to ensure that
+the person&#8217;s term of office extends to (but not beyond) the date on
+which the person reaches the age of 72 years. An Officer is eligible (if
+otherwise qualified) for reappointment.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_82d4bec7-da6c-4285-a55a-298b8bad7c76"></attrib>
+<attrib name="id" value="sch.1-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_d0e9d01e-8cf7-4516-b6c3-72bff7e025f1"
+id="sch.1-sec.4-he"><b>Remuneration and leave</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f786851b-78bc-4adf-ae80-772aa1e10ba6"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An Officer is entitled to be paid:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a133da0b-681a-4b55-9626-9934743b4423" id="sch.1-sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">remuneration in accordance with the <legref
+refid="act-1976-004" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Statutory and Other Offices Remuneration Act
+1975</i></name></legref>, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7e3681e2-653a-4cb2-b4f1-3323ce11fb5f" id="sch.1-sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">such travelling and subsistence allowances as the
+Attorney General may from time to time determine in respect of the
+Officer.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_11972cbf-0c08-4c2e-ae55-3e2a51438f56"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The leave that may be granted to an Officer is to
+be as the Attorney General may from time to time determine in respect of the
+Officer.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f8e8774d-a994-4821-9710-b23beec75483"></attrib>
+<attrib name="id" value="sch.1-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_4e8e2ef6-e8c5-4a0f-a100-788cf1c1cd27"
+id="sch.1-sec.5-he"><b>Vacation of office</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c6d70665-158e-4dcc-b3d0-1b553ec403cc"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An Officer vacates office if the person:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_81b85407-60ab-4e46-a173-efeb84c6978d" id="sch.1-sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">dies, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cb21545a-d097-40a1-8309-20294ab4cbcf" id="sch.1-sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">resigns the office by instrument in writing
+addressed to the Governor, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fd108457-05bc-4198-8fad-bee5051f95cf" id="sch.1-sec.5-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">reaches the age of 72 years,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_614e4346-8857-46d5-9b5a-eeb1fe8f7ba9" id="sch.1-sec.5-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">ceases to be an Australian lawyer,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cced19e2-a4b2-4ba0-aa55-09cfefde7f5e" id="sch.1-sec.5-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">is removed from office by the Governor under
+subclause (2), (3) or (4).</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ea871a1a-d698-43b2-b9ae-f5e94df66759"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An Officer who fails, without reasonable excuse,
+to comply with clause 6 is to be removed from office by the
+Governor.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c1d8a112-46c0-4b4b-b354-75f9a73ffd6d"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Governor may remove an Officer from office
+for incapacity, incompetence, misbehaviour or unsatisfactory
+performance.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aebb531e-cb8e-4aee-83b1-659f35f61273"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Governor may also remove an Officer from
+office if the Officer:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_59b32a30-ad4f-40e4-8bd2-9efeccfce12f" id="sch.1-sec.5-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">becomes bankrupt, applies to take the benefit of
+any law for the relief of bankrupt or insolvent debtors, compounds with his or
+her creditors or makes an assignment of his or her remuneration for their
+benefit, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a5f02ed7-60db-43a5-9bd6-22776a33aa62" id="sch.1-sec.5-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">becomes a mentally incapacitated person,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_18c9c9ef-88c6-4394-ace3-4c7d82647270" id="sch.1-sec.5-ssec.4-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">absents himself or herself from duty for 14 days
+(whether or not wholly or partly consecutive) in any period of 12 months,
+except on leave granted by the Attorney General or unless the absence is
+occasioned by illness or other unavoidable cause, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e34fd7d9-e013-4951-9f44-f661f421c55d" id="sch.1-sec.5-ssec.4-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">is convicted in New South Wales of an offence
+that is punishable by imprisonment for 12 months or more,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_162d2876-3f36-42a6-afea-e47527265521" id="sch.1-sec.5-ssec.4-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">is convicted elsewhere than in New South Wales of
+an offence that if committed in New South Wales would be an offence so
+punishable.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d52dbb2a-281f-4e7b-acc3-64632c9ed92c"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Anything done or purporting to have been done by
+the Officer after the Officer reaches the age of 72 years is nevertheless as
+valid as if the Officer had not reached that age.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.5A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0e21d826-492d-4522-abd6-f31a2bb7dab9"></attrib>
+<attrib name="id" value="sch.1-sec.5A"></attrib></parentattributes>
+
+<head>
+<no>5A</no><heading guid="_aeb2da42-5b74-440f-9611-8730847f3e73"
+id="sch.1-sec.5A-he"><b>Suspension from duty pending decision in relation to
+misconduct</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.5A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_390e13e0-04e7-4039-bf37-f166de62941b"></attrib>
+<attrib name="id" value="sch.1-sec.5A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If of the opinion that there may be grounds for
+an Officer&#8217;s removal from office, the Senior Public Defender may suspend
+the Officer from duty pending a decision being made as to whether or not he or
+she should be so removed.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6c92b935-ae57-4dfb-879d-d88132a413ed"></attrib>
+<attrib name="id" value="sch.1-sec.5A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If the Senior Public Defender so directs, any
+salary payable to the Officer in relation to the period during which he or she
+is under suspension is to be withheld.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5A-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_01cca1b8-ecea-426e-84e8-7b873ace375e"></attrib>
+<attrib name="id" value="sch.1-sec.5A-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">If the Officer is removed from office, any salary
+so withheld is forfeited to the State unless the Senior Public Defender
+otherwise directs.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5A-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9e7199cb-a351-4d0a-a20e-4901b0f00307"></attrib>
+<attrib name="id" value="sch.1-sec.5A-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A suspension imposed under this clause may be
+removed by the Senior Public Defender at any time.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3dc73c97-e2f1-4857-a50e-9057cfb0af9d"></attrib>
+<attrib name="id" value="sch.1-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_15aa6a38-9908-427c-8911-12ded764c401"
+id="sch.1-sec.6-he"><b>Other work</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_77c01048-45b9-4e2e-97ad-6dcaa8c38ae4"></attrib>
+<attrib name="id" value="sch.1-sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An Officer must not, without the consent of the
+Attorney General or (except in the case of the Senior Public Defender) the
+Senior Public Defender:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0c93bda4-7a30-4ab1-9200-8a0f30c7b1f1" id="sch.1-sec.6-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">engage in the practice of law (whether within or
+outside New South Wales) outside the duties of his or her office,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e5040d32-641a-476a-9f82-b2ef93102a38" id="sch.1-sec.6-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">engage in paid employment outside the duties of
+his or her office.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_77064ef9-1437-4fad-beac-6f610722dc9d"></attrib>
+<attrib name="id" value="sch.1-sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An Officer must not contravene or fail to comply
+with any conditions attached to any such consent.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e4563297-ad6c-469c-add5-9ffefb76023c"></attrib>
+<attrib name="id" value="sch.1-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_8c34f218-3ab4-4cb5-bafa-742a92d3ef8c"
+id="sch.1-sec.7-he"><b><legref refid="act-2013-040" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref></b></heading></head>
+<block><txt break.before="1">The office of an Officer is a statutory office
+and the <legref refid="act-2013-040" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref> (including Part 6) does not apply to that
+office.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_90c1cadf-c8df-42b3-b742-7dd8fcd17414"></attrib>
+<attrib name="id" value="sch.1-sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_a2f836e2-498e-4a46-95fb-c8b907d0a28d"
+id="sch.1-sec.8-he"><b>Rights of certain former public
+servants</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_493f71c3-88bb-4d7b-b974-f8d3165aea3e"></attrib>
+<attrib name="id" value="sch.1-sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This clause applies to an Officer who,
+immediately before being appointed as an Officer, was:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6dc1f986-1192-49c5-b2a6-64e435e21c58" id="sch.1-sec.8-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a public servant, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cddf130a-ea58-4118-8f81-9efe4e7bccad" id="sch.1-sec.8-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a person in respect of whom provision was made by
+any Act for the retention of any rights accrued or accruing to the person as a
+public servant.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_84085bbc-153f-4d67-a9a5-5131fe91aa7c"></attrib>
+<attrib name="id" value="sch.1-sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subject to the terms of his or her appointment as
+an Officer, an Officer:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f782929b-b0ac-4e6e-ac27-f935bb7d76c3" id="sch.1-sec.8-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">retains any rights accruing to the Officer as a
+public servant, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ef94957f-8a8a-4dfd-8bf6-6c96e91d5975" id="sch.1-sec.8-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is entitled to receive any deferred or extended
+leave,</txt></block></li></list>
+
+<txt break.before="1">as if he or she had continued to be a public servant
+during his or her term of office as an Officer.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c5b15929-cb8e-4a67-9773-7198b9fb09d1"></attrib>
+<attrib name="id" value="sch.1-sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">An Officer&#8217;s service as an Officer is taken
+to be service as a public servant for the purposes of any law under which any
+rights of the kind referred to in subclause (2) (a) accrued or were accruing
+or by which any entitlement referred to in subclause (2) (b) is
+conferred.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dd6ff09a-0fc9-4492-9ab1-55ccd44ea5e0"></attrib>
+<attrib name="id" value="sch.1-sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_fcce1130-2723-437f-907a-862d9a4edbd6"
+id="sch.1-sec.9-he"><b>Entitlement to reappointment to former employment in
+certain cases</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e277f474-6eaf-4c2e-af0a-7e77dff1f215"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person who:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d18b8bc1-f44e-4d4d-9e44-708e97fb13c6" id="sch.1-sec.9-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">ceases to be an Officer by resignation or who
+completes a term of office as an Officer and is not reappointed,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f6ebcb03-9945-4c1e-90bc-a9610531d3b6" id="sch.1-sec.9-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">was, immediately before being appointed as an
+Officer:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d4e65add-0f7c-4ebe-b3af-2522b0bb9b6b"
+id="sch.1-sec.9-ssec.1-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">a person employed in the Public Service, the
+Teaching Service or the NSW Health Service, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ec7193cc-9980-4dac-ac18-30b78c330be4"
+id="sch.1-sec.9-ssec.1-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">a member of staff of a statutory
+body,</txt></block></li></list>
+</block></li></list>
+
+<txt break.before="1">is entitled to be employed in the Public Service, the
+Teaching Service or the NSW Health Service or as a member of staff of that
+statutory body, as the case requires, at a work level and salary not lower
+than the level at which the person was employed immediately before being
+appointed as an Officer.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1b51a7aa-9adf-4918-a3da-756fd1ef8f18"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Where subclause (1) does not apply to a person
+who:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2cbb9eee-268d-471e-8344-59de24c5c469" id="sch.1-sec.9-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">was, immediately before being appointed to a
+full-time office constituted by an Act, an employee or member of staff
+referred to in subclause (1) (b), and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_25ba3e75-6808-4f85-8a95-7fcdeacf2c89" id="sch.1-sec.9-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is after that appointment appointed as an
+Officer,</txt></block></li></list>
+
+<txt break.before="1">the person is to have such rights, if any, to
+appointment as such an employee or member of staff, in the event of ceasing to
+be an Officer, as are specified in the instrument of appointment as an Officer
+or as are agreed on by the person and by or on behalf of the
+Government.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Am 1999 No 94,
+Sch 4.155; 2005 No 31, Sch 12 [1]; 2007 No 51, Sch 1 [4]&#8211;[10]; 2008 No
+107, Sch 25 [1] [2]; 2011 No 34, Sch 3 [1]; 2015 No 15, Sch 3.50
+[2]&#8211;[5].</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.2" status="repealed">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a452a1dc-b760-4441-a4cd-c39ad27dab58"></attrib>
+<attrib name="id" value="sch.2"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 2:</b> Rep 1999 No
+85, Sch 4.</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.3">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_165454d8-2239-45e0-9625-8592ab3119ff"></attrib>
+<attrib name="id" value="sch.3"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 3</b></no><heading
+guid="_3bed92b6-74f6-4e1b-ab8a-4d077e287a0f" id="sch.3-he"><b>Savings,
+transitional and other provisions</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Section 22)</txt></block></pre>
+
+
+<content type="auto-inserted">
+
+<level type="part" id="sch.3-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_cdcf892c-af63-4168-9c0e-97c74b40a2d0"></attrib>
+<attrib name="id" value="sch.3-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_b752f161-d3ae-4807-a8e7-d655da05f5b3"
+id="sch.3-pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sch.3-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_25675331-c436-4bef-b110-3888324d6415"></attrib>
+<attrib name="id" value="sch.3-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_62407202-7345-4ed5-b170-f71ba7135528"
+id="sch.3-sec.1-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ae198c37-ad62-45e3-a9e2-3d4902dca887"></attrib>
+<attrib name="id" value="sch.3-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of the following
+Acts:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6a673218-f9e7-4650-9d4b-508fb5754c4a" id="sch.3-sec.1-ssec.1-para1">
+<block><txt break.before="1">this Act</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3c911ca9-83fa-466a-bdb5-2aa610eebb74"
+id="sch.3-sec.1-ssec.1-para1-oc.2">
+<block><txt break.before="1"><legref refid="act-2005-031" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Courts Legislation
+Amendment Act 2005</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a83bfe3b-d69b-4e64-904b-d64d0278b3c1"
+id="sch.3-sec.1-ssec.1-para1-oc.3">
+<block><txt break.before="1"><legref refid="act-2006-023" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Courts Legislation
+Amendment Act 2006</i></name></legref>, to the extent that it amends this
+Act</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4623cd67-6f91-4333-8a16-215a5561c4d0"
+id="sch.3-sec.1-ssec.1-para1-oc.4">
+<block><txt break.before="1"><legref refid="act-2011-034" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Crown Law Officers
+Legislation Amendment (Retirement Age) Act
+2011</i></name></legref></txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d4cb9618-4cc3-40ff-97d6-d2d25ec9e8da"></attrib>
+<attrib name="id" value="sch.3-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such provision may, if the regulations so
+provide, take effect from the date of assent to the Act concerned or a later
+day.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f20cc964-bdfc-4045-97ca-6c6135e06a34"></attrib>
+<attrib name="id" value="sch.3-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication in the
+Gazette, the provision does not operate so as:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bab3e08c-d5ac-43a4-aeb8-ddcf16472981" id="sch.3-sec.1-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_836a8f81-5c04-41d5-a7d5-320e148e97dc" id="sch.3-sec.1-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="part" id="sch.3-pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_f389f67f-703c-4c26-91d4-268deca5e89d"></attrib>
+<attrib name="id" value="sch.3-pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_e32fe5a4-7163-4534-88bd-1032dfbb860b"
+id="sch.3-pt.2-he"><b>Provisions consequent on the enactment of this
+Act</b></heading></head>
+
+<level type="clause" id="sch.3-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_752cd2c3-5394-4e46-8015-bfd1f28ba062"></attrib>
+<attrib name="id" value="sch.3-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_bdcf5bc4-f583-4d15-afbd-6dfe3ea7b6e8"
+id="sch.3-sec.2-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Part:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9800a764-51a5-43d5-95c9-7a1df280b387"
+id="sch.3-def.formerAct"><b><i>former Act</i></b></defterm> means the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Public
+Defenders Act 1969</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ea1bb25e-3379-4a0e-be6d-72c76478c867"
+id="sch.3-def.publicservant"><b><i>public servant</i></b></defterm> means an
+officer or employee of the Public Service or an employee of a statutory
+body.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6fcdc247-ae56-46b1-b8b5-08e8d674dc88"
+id="sch.3-def.statutorybody"><b><i>statutory body</i></b></defterm> means any
+body constituted by or under an Act that is declared by proclamation to be a
+statutory body for the purposes of this Part.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sch.3-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_50e1fa90-ef21-4ef2-90e7-ba3c21e86ef5"></attrib>
+<attrib name="id" value="sch.3-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_3f661370-5d70-4fa1-b0be-fa08e394f03d"
+id="sch.3-sec.3-he"><b>Saving of existing appointments</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6abd348b-9d29-4c7f-8aca-d7017e553b92"></attrib>
+<attrib name="id" value="sch.3-sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Any person who, immediately before the
+commencement of this subclause, was a Public Defender under the former Act
+(including both the Senior Public Defender and the Deputy Senior Public
+Defender) is taken to have been appointed under this Act as a Public Defender
+on the same conditions as to remuneration and allowances (subject to
+subclauses (2) and (3)) as those on which the person held office as Public
+Defender immediately before that commencement.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2f3c7816-1db3-4112-9fb1-b4fb1f4226bd"></attrib>
+<attrib name="id" value="sch.3-sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The person who, immediately before the
+commencement of this subclause, was the Senior Public Defender (Martin
+Langford SIDES, Q.C.) is taken to have been appointed under this Act, for a
+period of 7 years beginning on the commencement of this subclause, as the
+Senior Public Defender on the same conditions as to remuneration and
+allowances as those on which the person held office as Senior Public Defender
+immediately before that commencement.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.3-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9ed188b3-e58b-4ebf-862e-0e0a23ca91ff"></attrib>
+<attrib name="id" value="sch.3-sec.3-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The person who, immediately before the
+commencement of this subclause, was the Deputy Senior Public Defender (Michael
+Anthony GREEN, Q.C.) is taken to have been appointed under this Act, for a
+period of 5 years beginning on the commencement of this subclause, as a Deputy
+Senior Public Defender on the same conditions as to remuneration and
+allowances as those on which the person held office as Deputy Senior Public
+Defender immediately before that commencement.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.3-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fac16ab5-91ce-411e-969e-b9d77f9fde11"></attrib>
+<attrib name="id" value="sch.3-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_9a66159e-b7ac-4483-af06-aa1eba9ca525"
+id="sch.3-sec.4-he"><b>Preservation of rights of certain former public
+servants</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c733c579-b570-4bf3-bcfb-256d671e3f7c"></attrib>
+<attrib name="id" value="sch.3-sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This clause applies to a Public Defender
+appointed under the former Act who, immediately before being so appointed,
+was:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c7952352-9e1a-44de-9eae-8efbb0fdd1b2" id="sch.3-sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a public servant, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8bb2b0ce-a30a-4dc4-969c-e89a7336c617" id="sch.3-sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a person in respect of whom provision was made by
+any Act for the retention of any rights accrued or accruing to the person as a
+public servant.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cacdc405-9e43-4b76-8cda-ab80fe7ccdf1"></attrib>
+<attrib name="id" value="sch.3-sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person who ceases to be a Public Defender by
+resignation is entitled to be appointed to some position in the Public Service
+or in the relevant statutory body, as the case requires, not lower in
+classification and salary than that which the person held immediately before
+being appointed as a Public Defender under the former
+Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.3-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a3befcb5-c5fe-48d8-96cb-06cdcb61cb2b"></attrib>
+<attrib name="id" value="sch.3-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_646aa987-d92c-4ad5-9696-967e67ca9259"
+id="sch.3-sec.5-he"><b>Preservation of rights of other former public
+servants</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_af56cd73-b06a-4506-8e54-ac6683b578a5"></attrib>
+<attrib name="id" value="sch.3-sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This clause applies to a Public Defender
+appointed under the former Act who, immediately before being so appointed, was
+the holder of a full-time office constituted by an Act and who, immediately
+before being appointed to that office, was:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2583c491-698a-4d76-886c-dd77a85b9a75" id="sch.3-sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a public servant, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_49b92ae9-7bb4-4274-b611-54b57d36ec54" id="sch.3-sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a person in respect of whom provision was made by
+any Act for the retention of any rights accrued or accruing to the person as a
+public servant.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_220e91fd-3ea1-42c7-b6d7-5e66f0c9ba2a"></attrib>
+<attrib name="id" value="sch.3-sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person who ceases to be a Public Defender has
+such rights, if any, to appointment to a position in the Public Service or in
+the relevant statutory body, as the case requires, as were set out in the
+terms of his or her appointment as a Public Defender under the former Act or
+as are agreed on by the person and by or on behalf of the
+Government.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="part" id="sch.3-pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_2ee443d4-3385-469c-bc15-4d1a06464d64"></attrib>
+<attrib name="id" value="sch.3-pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_af10cda4-cacc-4d5e-92ee-d3d21be82402"
+id="sch.3-pt.3-he"><b>Provision consequent on enactment of <legref
+refid="act-2006-023" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Courts Legislation Amendment Act
+2006</i></name></legref></b></heading></head>
+
+<level type="clause" id="sch.3-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_917af06e-64c4-4a7e-925c-db5bcdd6d515"></attrib>
+<attrib name="id" value="sch.3-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_45aa7f8d-1c93-468b-988f-02524cd6dede"
+id="sch.3-sec.6-he"><b>Part-time Public Defender</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_29e00abf-4dee-47e4-95eb-71cbac805a26"></attrib>
+<attrib name="id" value="sch.3-sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Section 6 (2A) applies to a Public Defender
+appointed before the commencement of that subsection.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4682a599-6790-4fab-827d-92780ae758ef"></attrib>
+<attrib name="id" value="sch.3-sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Until a relevant determination is made and takes
+effect under the <legref refid="act-1976-004" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statutory and Other Offices
+Remuneration Act 1975</i></name></legref>, a part-time Public Defender is
+entitled to be paid in accordance with the determination in force for the time
+being for Public Defenders, but on a pro rata basis (according to time spent
+in service), as calculated by the Attorney General.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="part" id="sch.3-pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_6d165cbc-a936-468d-b3ae-78f2f66706fe"></attrib>
+<attrib name="id" value="sch.3-pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_95f4789a-042d-404c-ad32-c5573a3bd023"
+id="sch.3-pt.4-he"><b>Provisions consequent on enactment of <legref
+refid="act-2007-051" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Crown Law Officers Legislation Amendment (Abolition of Life
+Tenure) Act 2007</i></name></legref></b></heading></head>
+
+<level type="clause" id="sch.3-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7b30d310-f4fd-4505-bce2-3fcfc0035266"></attrib>
+<attrib name="id" value="sch.3-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_bbe05e2c-05b7-41dc-9df0-0b5702d0ea48"
+id="sch.3-sec.7-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Part:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c572344b-08bb-4f64-a4c1-88403b74c180"
+id="sch.3-def.2007amendingAct"><b><i>2007 amending Act</i></b></defterm> means
+the <legref refid="act-2007-051" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Crown Law Officers Legislation Amendment (Abolition of Life
+Tenure) Act 2007</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d1465d97-2481-4691-8a1a-6777adb43f1a"
+id="sch.3-def.SeniorOfficer"><b><i>Senior Officer</i></b></defterm> has the
+same meaning as in Schedule 1.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sch.3-sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f401876e-ea01-4715-b788-f7f67cc6e4cc"></attrib>
+<attrib name="id" value="sch.3-sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_e2ff7238-26ac-4c73-8c72-ea9489f639a2"
+id="sch.3-sec.8-he"><b>Transitional arrangements for existing
+Officers</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_37394834-62b2-4378-a96b-e82ee9e48d9d"></attrib>
+<attrib name="id" value="sch.3-sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This clause applies to the following persons
+(<defterm type="definition" guid="_09075ba7-9304-4180-af2a-c2a854e99d39"
+id="sch.3-sec.8-def.transitionalofficeholders"><b><i>transitional office
+holders</i></b></defterm>):</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_95bb898c-175c-4d71-b4ce-85e2d381684e" id="sch.3-sec.8-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a Public Defender who held office as a Public
+Defender immediately before the commencement of the 2007 amending
+Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8839e43a-b33b-4d84-8bdb-d9e616860f4e" id="sch.3-sec.8-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a Senior Officer holding office immediately
+before the commencement of the 2007 amending Act who was a Public Defender or
+Crown Prosecutor immediately before being appointed as a Senior
+Officer,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_57135ee8-a8a7-48b1-b767-32db302b8d02" id="sch.3-sec.8-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a Senior Officer appointed after the commencement
+of the 2007 amending Act who held office as a Public Defender or Crown
+Prosecutor since before that commencement and until the person&#8217;s
+appointment as a Senior Officer.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f2a5adde-1311-4624-a900-8ce564555fe4"></attrib>
+<attrib name="id" value="sch.3-sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A transitional office holder holds office as a
+Public Defender while continuing to be a transitional office holder and,
+subject to this Act, after ceasing to be a transitional office
+holder.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_88181679-c92a-45c8-bafa-5dc0167ed65a"></attrib>
+<attrib name="id" value="sch.3-sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A person who holds office as a Public Defender
+pursuant to this clause holds that office until the Public Defender vacates
+the office under this Act as in force immediately before the commencement of
+the 2007 amending Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_921cd813-0164-49a0-b4b1-6253964b25db"></attrib>
+<attrib name="id" value="sch.3-sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The amendments made to Schedule 1 by the 2007
+amending Act do not apply to the office held by a person as a transitional
+office holder.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.3-sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2103522b-b531-4487-8239-c6dcd6dc6ec5"></attrib>
+<attrib name="id" value="sch.3-sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_499b68b2-5b90-4b7b-b283-4c73d5bf0c76"
+id="sch.3-sec.9-he"><b>Right of reappointment of existing Public
+Defenders</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_459d138a-ceb9-4c6e-8c09-22894a0994e8"></attrib>
+<attrib name="id" value="sch.3-sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person who holds office as a Public Defender
+immediately before the commencement of the 2007 amending Act and who is
+subsequently appointed to a Crown law office is, on ceasing to hold the Crown
+law office as a result of resignation or completion of a term of office,
+entitled to be reappointed to the office of Public
+Defender.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ef7edd1d-4936-41ef-a722-e0eee87f945e"></attrib>
+<attrib name="id" value="sch.3-sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This clause ceases to apply to a person if the
+person does not take up that reappointment within 3 months of ceasing to hold
+the Crown law office unless, within that 3-month period, the person is
+reappointed to that Crown law office or appointed to another Crown law
+office.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_02fd801f-f78c-4968-a68e-9958b9bfffe4"></attrib>
+<attrib name="id" value="sch.3-sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Clause 3 of Schedule 1 (as substituted by the
+2007 amending Act) and clause 5 (1) (b1) of Schedule 1 (as inserted by the
+2007 amending Act) do not apply to the office of Public Defender to which a
+person is reappointed under this clause, and a person continues to hold that
+office until the person vacates the office under this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.9-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f6df1bce-7dd3-4acb-8414-792d627fc477"></attrib>
+<attrib name="id" value="sch.3-sec.9-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">This clause is capable of operation in relation
+to the same person on more than one occasion.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.9-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d27101ce-63c3-4e3c-a6ac-46ef78e92b7b"></attrib>
+<attrib name="id" value="sch.3-sec.9-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">In this clause, <defterm type="definition"
+guid="_1b3f8a7c-857a-4d1b-9470-0cb9221a6303"
+id="sch.3-sec.9-def.Crownlawoffice"><b><i>Crown law office</i></b></defterm>
+means the office of Director of Public Prosecutions, Deputy Director of Public
+Prosecutions, Solicitor for Public Prosecutions, Crown Prosecutor, Senior
+Crown Prosecutor, Deputy Senior Crown Prosecutor, Senior Public Defender,
+Deputy Senior Public Defender or Solicitor General.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="part" id="sch.3-pt.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e468a342-9302-4e32-8e69-860367bf2626"></attrib>
+<attrib name="id" value="sch.3-pt.5"></attrib></parentattributes>
+
+<head>
+<no><b>Part 5</b></no><heading guid="_20735215-cd65-42f1-9e5a-1c08cfdabfd4"
+id="sch.3-pt.5-he"><b>Provisions consequent on enactment of <legref
+refid="act-2011-034" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Crown Law Officers Legislation Amendment (Retirement Age)
+Act 2011</i></name></legref></b></heading></head>
+
+<level type="clause" id="sch.3-sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1ed1f93e-50ae-4f43-9b13-9753618df327"></attrib>
+<attrib name="id" value="sch.3-sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_2f37402b-22f6-4a54-8494-067f7e669baa"
+id="sch.3-sec.10-he"><b>Application of amendments</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_10888629-a883-488a-b3bb-2c0aa0671313"></attrib>
+<attrib name="id" value="sch.3-sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person who holds office as a Public Defender,
+Senior Public Defender or Deputy Senior Public Defender immediately before the
+commencement of the <legref refid="act-2011-034" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Crown Law Officers Legislation
+Amendment (Retirement Age) Act 2011</i></name></legref> and who was appointed
+for a specified term of office shorter than 7 years is taken to have been
+appointed for a term of 7 years.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_29cafe6d-f90b-4ba1-900a-7e5f19d59d71"></attrib>
+<attrib name="id" value="sch.3-sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subclause (1) does not apply to the term of
+office of a person appointed to act in any such office.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6c1b7b14-2184-4347-a385-4ed32a1b8964"></attrib>
+<attrib name="id" value="sch.3-sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The amendments made to this Act by the <legref
+refid="act-2011-034" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Crown Law Officers Legislation Amendment (Retirement Age)
+Act 2011</i></name></legref> do not affect any right preserved by this
+Schedule to hold office beyond a retiring age provided by this
+Act.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 3:</b> Am 2005 No 31,
+Sch 12 [2] [3]; 2006 No 23, Sch 9 [3] [4]; 2007 No 51, Sch 3 [11]; 2011 No 34,
+Sch 3 [2] [3].</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_c33c27ac-4c6f-4241-b565-6789b044fc18"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_56cabf6b-1288-4f53-a540-be6d5e9f1760"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-1995-028" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Public Defenders Act
+1995</i></name> No 28</legref>. Assented to 19.6.1995. Date of commencement,
+1.7.1995, sec 2 and GG No 79 of 30.6.1995, p 3435. This Act has been amended
+as follows:</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_eb24d778-e318-4566-b621-b2828bea2cfa" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_cc6349b9-9b55-4749-bcbc-dc073b4223fd" id="ed-tbl-tblr">
+<entry colname="1" guid="_ebfcb4f0-4d09-4d5c-84db-ab33b4295c16"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1999</b></txt></entry>
+<entry colname="2" guid="_fc87886a-96aa-4e6f-bddd-62b31e45fbba"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 85</txt></entry>
+<entry colname="3" guid="_677ca259-e4cd-4873-9ce0-8247e959297a"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref refid="act-1999-085" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 1999</i></name></legref>. Assented to 3.12.1999.</txt>
+<txt break.before="1">Date of commencement of Sch 4, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_dd5f2e79-e867-4637-a96e-0bda885231c8" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_c9203cd6-ac9c-44ff-8e20-8b86bd05a05f"
+id="ed-tbl-tblr-oc.2-tble1"></entry>
+<entry colname="2" guid="_cc99ad4b-8b3b-488b-8e5c-2528e71d4b88"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 94</txt></entry>
+<entry colname="3" guid="_5291f6ed-e291-43d3-984f-1104b0dea72c"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Crimes Legislation Amendment
+(Sentencing) Act 1999</i></name></legref>. Assented to 8.12.1999.</txt>
+<txt break.before="1">Date of commencement of Sch 4.155, 1.1.2000, sec 2 (1)
+and GG No 144 of 24.12.1999, p 12184.</txt></block></entry></row>
+
+
+<row guid="_4dd07d72-847f-43a5-ad3a-f545b3a753c7" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_d46123b8-2ef9-4b34-92ff-c8abc2aea69a"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>2005</b></txt></entry>
+<entry colname="2" guid="_5070a3fa-7ec3-4ed6-8747-a15610467ddf"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 31</txt></entry>
+<entry colname="3" guid="_d0b04f59-fcbf-4547-b177-258c09338985"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref refid="act-2005-031" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Courts Legislation
+Amendment Act 2005</i></name></legref>. Assented to 15.6.2005.</txt>
+<txt break.before="1">Date of commencement of Sch 12, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_5b647680-b787-4b20-afda-ab32ffa1625a" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_d2044b11-4584-4616-8991-c34c6ecf32e6"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>2006</b></txt></entry>
+<entry colname="2" guid="_5ee313e3-b1cd-466c-b432-dd4b6a5b0d26"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 23</txt></entry>
+<entry colname="3" guid="_89e4bff9-2866-4ccf-9f07-ecf1e32cddc1"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref refid="act-2006-023" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Courts Legislation
+Amendment Act 2006</i></name></legref>. Assented to 17.5.2006.</txt>
+<txt break.before="1">Date of commencement of Sch 9, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_846fecec-9bfc-4063-92cb-44ee02262b3b" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_17012417-0f6a-45bb-8e13-eba34b41013c"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>2007</b></txt></entry>
+<entry colname="2" guid="_fbbd4b32-b34a-459a-bd72-c5ee57866415"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 51</txt></entry>
+<entry colname="3" guid="_f4becc96-9be9-44c0-9ddd-77b2d689f36c"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref refid="act-2007-051" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Crown Law Officers
+Legislation Amendment (Abolition of Life Tenure) Act 2007</i></name></legref>.
+Assented to 1.11.2007.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_4927f45b-a322-4fd7-b87d-1a0984fae975" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_a116634b-fa77-4b04-ad0e-5006544475ea"
+id="ed-tbl-tblr-oc.6-tble1"><txt break.before="1"><b>2008</b></txt></entry>
+<entry colname="2" guid="_5952dd1b-0930-4952-ab66-1e7ae15d36e3"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">No 107</txt></entry>
+<entry colname="3" guid="_1cdb8082-cc22-410f-b518-33de3a8b993d"
+id="ed-tbl-tblr-oc.6-tble3">
+<block><txt break.before="1"><legref refid="act-2008-107" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Courts and Crimes
+Legislation Further Amendment Act 2008</i></name></legref>. Assented to
+8.12.2008.</txt>
+<txt break.before="1">Date of commencement of Sch 25, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_6f072d40-65ce-46f7-8443-3b744c900eb6" id="ed-tbl-tblr-oc.7">
+<entry colname="1" guid="_07c5b193-b790-4033-b2d2-eb1aebfeded3"
+id="ed-tbl-tblr-oc.7-tble1"><txt break.before="1"><b>2011</b></txt></entry>
+<entry colname="2" guid="_2fc8a611-13bb-4412-be7e-9b7d2529e8b5"
+id="ed-tbl-tblr-oc.7-tble2"><txt break.before="1">No 34</txt></entry>
+<entry colname="3" guid="_5371c33f-afd2-46f8-8f3c-15f1f48a6bf3"
+id="ed-tbl-tblr-oc.7-tble3">
+<block><txt break.before="1"><legref refid="act-2011-034" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Crown Law Officers
+Legislation Amendment (Retirement Age) Act 2011</i></name></legref>. Assented
+to 13.9.2011.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_7ddde6ec-3dad-44d5-82bf-dee7f8b64769" id="ed-tbl-tblr-oc.8">
+<entry colname="1" guid="_0723e3b5-7bdd-49ce-b6af-e47c7efb022d"
+id="ed-tbl-tblr-oc.8-tble1"><txt break.before="1"><b>2014</b></txt></entry>
+<entry colname="2" guid="_e7220fff-06fd-4b18-ab5b-d4b8dbcb6f93"
+id="ed-tbl-tblr-oc.8-tble2"><txt break.before="1">No 14</txt></entry>
+<entry colname="3" guid="_e806d84f-4963-481f-be65-fa1dfaeae20a"
+id="ed-tbl-tblr-oc.8-tble3">
+<block><txt break.before="1"><legref refid="act-2014-014" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Courts and Other
+Legislation Amendment Act 2014</i></name></legref>. Assented to
+20.5.2014.</txt>
+<txt break.before="1">Date of commencement of Sch 1.4, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_65fd1af2-0805-4b87-ad07-6c19fec3ea47" id="ed-tbl-tblr-oc.9">
+<entry colname="1" guid="_d5a5ce23-51c0-4a61-bab7-a7971fbb0577"
+id="ed-tbl-tblr-oc.9-tble1"><txt break.before="1"><b>2015</b></txt></entry>
+<entry colname="2" guid="_c4519150-a891-42e4-b020-66b590881955"
+id="ed-tbl-tblr-oc.9-tble2"><txt break.before="1">No 7</txt></entry>
+<entry colname="3" guid="_cde27dd3-c6aa-4978-bd2c-32e5e716e928"
+id="ed-tbl-tblr-oc.9-tble3">
+<block><txt break.before="1"><legref refid="act-2015-007" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Legal Profession Uniform
+Law Application Legislation Amendment Act 2015</i></name></legref>. Assented
+to 9.6.2015.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 1.7.2015, sec 2 (2) and
+2015 (299) LW 19.6.2015.</txt></block></entry></row>
+
+
+<row guid="_bde48168-2a46-49d0-8d31-d987ef50df91" id="ed-tbl-tblr-oc.10">
+<entry colname="1" guid="_aba0106d-a220-4db8-82a1-bae4cd6c7a20"
+id="ed-tbl-tblr-oc.10-tble1"></entry>
+<entry colname="2" guid="_ef7d8101-c171-4ea6-b199-d6b425b5606b"
+id="ed-tbl-tblr-oc.10-tble2"><txt break.before="1">No 15</txt></entry>
+<entry colname="3" guid="_adb16be4-11dd-4756-a1cc-8ac8545b644c"
+id="ed-tbl-tblr-oc.10-tble3">
+<block><txt break.before="1"><legref refid="act-2015-015" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2015</i></name></legref>. Assented to 29.6.2015.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 15.7.2015, sec 2
+(3).</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_c02c54e8-1cad-4bcb-b02a-8074b0cedc47"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_45a528db-fb50-4e09-ba74-14bfaf69ae94" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_b7b3b353-23e6-4873-84f8-ae017dc51bfe" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_bbecff72-6014-48e3-b0ee-50f7cb97b575"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_d200562a-6aab-4b0a-ae44-70bd7cbd0a95"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 2006 No 23, Sch 9 [1];
+2007 No 51, Sch 3 [1]; 2015 No 7, Sch 2.35.</txt></entry></row>
+
+
+<row guid="_71ddc3d0-b216-474a-a5db-8a53c8373440" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_192cb717-6301-485a-9e78-0bd7e50021d4"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 3A</txt></entry>
+<entry colname="2" guid="_a22e83ea-80ce-4098-b9fd-5380458edfe2"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Ins 2007 No 51, Sch 3
+[2].</txt></entry></row>
+
+
+<row guid="_eb500ff0-dafd-4db4-806f-87a6d056d199" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_b6664552-017d-4b83-8ceb-48f15548a54c"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 6</txt></entry>
+<entry colname="2" guid="_bd629e51-2a36-48bb-85a8-e987dc700b7a"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Am 2006 No 23, Sch 9
+[2].</txt></entry></row>
+
+
+<row guid="_22c36e59-4741-4894-8064-31ea011fa0a3" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_a6acaf52-afa7-4221-9bd8-c6322dd781f9"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 7</txt></entry>
+<entry colname="2" guid="_be0c6dc0-3352-4e68-8f64-1ff5d4799d84"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Am 2007 No 51, Sch 3
+[3].</txt></entry></row>
+
+
+<row guid="_e8b2cf8e-f7fa-4c1d-a981-4fff03f75824" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_d0824992-658d-4526-befb-cd0100a88455"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 13</txt></entry>
+<entry colname="2" guid="_2141e2d1-b391-44c3-97a5-f71d6f9d2dcd"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Subst 2015 No 15, Sch
+3.50 [1].</txt></entry></row>
+
+
+<row guid="_4bd1b355-e9d2-4a32-84a7-b723dd6341c7" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_b906e6bb-0bf7-4195-9ab7-36eebffbba16"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 17</txt></entry>
+<entry colname="2" guid="_37cbb58b-189a-4fa3-9263-2adbaef20cd1"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Am 2014 No 14, Sch
+1.4.</txt></entry></row>
+
+
+<row guid="_e57601f1-fa9e-41e2-9d84-4fd4e94a641f" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_da28c368-3902-4610-a74c-c296340e0715"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 21</txt></entry>
+<entry colname="2" guid="_e4ef17c9-3aec-48f8-93b7-cdbdac339758"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Rep 1999 No 85, Sch
+4.</txt></entry></row>
+
+
+<row guid="_9dbcd0be-623c-47ac-b326-1fe1b3ac49d5" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_6db7ce63-6c29-4529-964d-df49f4ffed1a"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sch 1</txt></entry>
+<entry colname="2" guid="_86e37461-6d06-4974-a066-199828537c89"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Am 1999 No 94, Sch
+4.155; 2005 No 31, Sch 12 [1]; 2007 No 51, Sch 1 [4]&#8211;[10]; 2008 No 107,
+Sch 25 [1] [2]; 2011 No 34, Sch 3 [1]; 2015 No 15, Sch 3.50
+[2]&#8211;[5].</txt></entry></row>
+
+
+<row guid="_2bd1cf46-579a-4f68-9327-82cba0084fa9" id="ed-tbl-oc.2-tblr-oc.9">
+<entry colname="1" guid="_cb4de514-791b-4909-820a-e64031da20d0"
+id="ed-tbl-oc.2-tblr-oc.9-tble1"><txt break.before="1">Sch 2</txt></entry>
+<entry colname="2" guid="_aa32a5bf-1c36-49a8-8b87-e888f9bd4934"
+id="ed-tbl-oc.2-tblr-oc.9-tble2"><txt break.before="1">Rep 1999 No 85, Sch
+4.</txt></entry></row>
+
+
+<row guid="_c2429eee-7672-4a13-b614-0f1b4ea39f1b"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry colname="1" guid="_0e6e5781-f14c-44b4-84ed-97d08d5d7536"
+id="ed-tbl-oc.2-tblr-oc.10-tble1"><txt break.before="1">Sch 3</txt></entry>
+<entry colname="2" guid="_209ba1a4-b424-403f-9da0-5c168a5caa02"
+id="ed-tbl-oc.2-tblr-oc.10-tble2"><txt break.before="1">Am 2005 No 31, Sch 12
+[2] [3]; 2006 No 23, Sch 9 [3] [4]; 2007 No 51, Sch 3 [11]; 2011 No 34, Sch 3
+[2] [3].</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

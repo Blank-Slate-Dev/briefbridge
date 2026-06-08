@@ -1,0 +1,2038 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2017-051"
+title="Aboriginal Languages Act 2017"
+year="2017"
+number="51"
+enact.or.made.date="2017-10-24"
+first.valid.date="2019-12-05"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2017</metacontent>
+<metacontent class="year.assent">2017</metacontent>
+<metacontent class="publication.date">2020-03-05</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2019-014</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="introduction.date">2017-10-11</metacontent>
+<metacontent class="la.second.reading.date">2017-10-18</metacontent>
+<metacontent class="amended.in.committee">1</metacontent>
+<metacontent class="id">act-2017-051</metacontent>
+<metacontent
+class="version.desc.id">50647de2-d90d-41f8-a787-df61e8dec35c</metacontent>
+<metacontent
+class="version.series.id">21ad9ac5-1f84-48c1-8b25-d062f572c9e9</metacontent>
+<metacontent class="year.introduced">2017</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Aboriginal Languages Act 2017"></attrib>
+<attrib name="year.passed" value="2017"></attrib>
+<attrib name="year.assent" value="2017"></attrib>
+<attrib name="no" value="51"></attrib>
+<attrib name="publication.date" value="2020-03-05"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2019-014"></attrib>
+<attrib name="first.valid.date" value="2019-12-05"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="introduction.date" value="2017-10-11"></attrib>
+<attrib name="la.second.reading.date" value="2017-10-18"></attrib>
+<attrib name="amended.in.committee" value="1"></attrib>
+<attrib name="assent.date" value="2017-10-24"></attrib>
+<attrib name="id" value="act-2017-051"></attrib>
+<attrib name="version.desc.id"
+value="50647de2-d90d-41f8-a787-df61e8dec35c"></attrib>
+<attrib name="version.series.id"
+value="21ad9ac5-1f84-48c1-8b25-d062f572c9e9"></attrib>
+<attrib name="year.introduced" value="2017"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_8d43be09-f27a-48ed-8a18-fe9ab2195948"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_1dada93b-e452-4487-8707-70142b05eb14"
+id="cd-status-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_29e15dff-9c46-4d53-8d24-e574e46f0449"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act relating to Aboriginal
+languages.</txt></block></tier>
+
+
+<tier type="preamble" id="frnt-preamble">
+<parentattributes>
+<attrib name="guid" value="_4004277f-e088-45c0-98ca-10452dece5db"></attrib>
+<attrib name="id" value="frnt-preamble"></attrib></parentattributes>
+
+<head><heading guid="_d9ae7b54-adb4-42fe-a395-f51930ce00bf"
+id="frnt-preamble-he"><b>WHEREAS</b></heading></head>
+<block>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_72e6342b-55eb-4fc9-aaf3-0dadae949e02" id="frnt-preamble-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">The languages of the first peoples of the land
+comprising New South Wales are an integral part of the world&#8217;s oldest
+living culture and connect Aboriginal people to each other and to their
+land&#8212;</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8c946f1b-70e6-4925-8218-87b7f0b2521c" id="frnt-preamble-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">As a result of past Government decisions
+Aboriginal languages were almost lost, but they were spoken in secret and
+passed on through Aboriginal families and
+communities&#8212;</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8e00b280-a9e1-4201-bd87-8758c37c8d38" id="frnt-preamble-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">Aboriginal people will be reconnected with their
+culture and heritage by the reawakening, growing and nurturing of Aboriginal
+languages&#8212;</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_54ce91f9-5284-42aa-a1fb-d0757fee9c54" id="frnt-preamble-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">Aboriginal languages are part of the cultural
+heritage of New South Wales&#8212;</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4c069eac-5665-4d02-b0ec-a6d752c8d350" id="frnt-preamble-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">It is acknowledged that Aboriginal people are the
+custodians of Aboriginal languages and have the right to control their growth
+and nurturing&#8212;</txt></block></li></list>
+</block></tier>
+
+
+<tier type="enact" id="frnt-enact">
+<parentattributes>
+<attrib name="guid" value="_fa6be9ff-888b-4710-a7cf-948d81e3ec98"></attrib>
+<attrib name="id" value="frnt-enact"></attrib></parentattributes>
+
+<block><txt break.before="1"><b>The Legislature of New South Wales therefore
+enacts:</b></txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_2fbf6288-73d7-4877-8751-0bf76f03af47"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_66c9de8a-a673-4728-9090-f8f568a9fc63"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_70d34c1b-59dc-48d6-895c-b9b6261746bf"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_622cb2ba-f861-4008-8ef1-14760444a78d"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref refid="act-2017-051"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Aboriginal
+Languages Act 2017</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_15c9e61f-4340-4b02-ad4a-ef8bdd078ff5"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_9bdd9cbc-29ee-4503-8fc2-c62f6aef4f70"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on a day or days to be
+appointed by proclamation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5ea9a157-ffaf-4b51-b427-c8e83350559e"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_2d10e0bf-a999-44e3-9460-84fd9effe374"
+id="sec.3-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6fbbf3c0-2a1a-4bf8-8249-c3bc2181a628"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_bbb2463b-950c-4d0d-9040-cec659507e7c"
+id="sec.3-def.Aboriginallanguage"><b><i>Aboriginal language</i></b></defterm>
+means a language, or dialect of a language, of the traditional custodians of
+the land comprising New South Wales.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_92fbdb89-c99f-4b9c-b449-075c3ccc3563"
+id="sec.3-def.Aboriginallanguageactivity"><b><i>Aboriginal language
+activity</i></b></defterm> means an activity intended to reawaken, grow,
+nurture, promote or raise awareness of Aboriginal languages.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_054410e3-75d8-4cb0-8606-01fe89e62f7a"
+id="sec.3-def.Aboriginallanguagesstrategicplan"><b><i>Aboriginal languages
+strategic plan</i></b></defterm> means the plan for the growth and nurturing
+of Aboriginal languages prepared and approved under section 13 (as amended
+under section 14).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_2c9a3819-ee19-4f8f-9d6c-25fa5cd433ce"
+id="sec.3-def.Aboriginalperson"><b><i>Aboriginal person</i></b></defterm> has
+the same meaning as in the <legref refid="act-1983-042" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Aboriginal Land Rights Act
+1983</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ee90f739-b141-4c81-90da-faa3808bae1d"
+id="sec.3-def.function"><b><i>function</i></b></defterm> includes a power,
+authority or duty, and <defterm type="definition"
+guid="_c8273f1e-a012-4b39-899f-3b5e76b4c1bd"
+id="sec.3-def.exercise"><b><i>exercise</i></b></defterm> a function includes
+perform a duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_8a4e64c2-0dd3-47bb-81c5-6c10db237191"
+id="sec.3-def.Trust"><b><i>Trust</i></b></defterm> means the Aboriginal
+Languages Trust constituted by this Act.</txt></block></deflist>
+</block>
+<note type="legtext" guid="_6f8c30e2-2265-4945-a53c-62707d914374"
+id="sec.3-ssec.1-note"><heading guid="_87b2cbb9-8fd7-4215-9e74-9aea2fa075cf"
+id="sec.3-ssec.1-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">The <legref refid="act-1987-015" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Interpretation Act
+1987</i></name></legref> contains definitions and other provisions that affect
+the interpretation and application of this Act.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ebb3a691-7c91-4fdc-8094-723efb6b4d08"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_67b848c8-7646-4b23-aab3-d51086d515a0"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_958cf042-da23-4a0b-9ec1-a5ecf6852040"
+id="pt.2-he"><b>Aboriginal Languages Trust</b></heading></head>
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ee657da9-6283-4628-ae30-790f5c1214db"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_3fe1526d-751a-4003-a793-dffd468bda48"
+id="sec.4-he"><b>Constitution of Trust</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_98bd12d9-7956-4300-b52c-ae7f17aa4df1"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There is constituted by this Act a body corporate
+with the corporate name of the Aboriginal Languages
+Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_30195b09-3d21-4349-8705-7c233e8becca"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Trust is a NSW Government
+agency.</txt></block>
+<note type="legtext" guid="_5f938302-38f1-433c-93fb-9d54149e6333"
+id="sec.4-ssec.2-note"><heading guid="_f3163e6a-85bb-4e42-a33f-37b073d33749"
+id="sec.4-ssec.2-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">See section 13A of the <legref
+refid="act-1987-015" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Interpretation Act
+1987</i></name></legref>.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1fec29ff-28ac-450c-b150-f9157b79d169"></attrib>
+<attrib name="id" value="sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The affairs of the Trust are to be conducted on a
+not-for-profit basis.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6c3586a3-1a2a-4ca7-91e8-1e38f0659ced"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_a52e22de-ffc3-49c7-bf88-56661d85b3aa"
+id="sec.5-he"><b>Objective of Trust</b></heading></head>
+<block><txt break.before="1">The objective of the Trust is to provide a
+focused, coordinated and sustained effort in relation to Aboriginal language
+activities at local, regional and State levels.</txt></block></level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9ce0a244-0091-475f-a78e-3cd1dd0bbf02"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_ed1d88a9-75cd-4414-98d3-265751f14da2"
+id="sec.6-he"><b>Functions of Trust</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f1c3b451-2600-443a-a4c8-543036478287"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust has the following
+functions&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a0608cba-faf1-4867-8972-6be1b8c731bb" id="sec.6-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to bring together persons with relevant
+professional qualifications in languages and persons with knowledge of
+Aboriginal languages to provide advice and direction for Aboriginal language
+activities,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_84829132-f1bc-476b-865d-b3649f2f98d7" id="sec.6-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to promote effective Aboriginal language
+activities,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_55b6bfe8-0af3-4a45-9454-93642f39dbc6" id="sec.6-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to identify priorities for Aboriginal language
+activities,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ec3d75c1-6727-4a6d-96c6-51bfb964d1b9" id="sec.6-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to manage the funding for, coordination of and
+investment in Aboriginal language activities at local, regional and State
+levels,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9365a806-59c3-46a0-9160-17e2736f6dfb" id="sec.6-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">to promote education and employment opportunities
+in Aboriginal language activities,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7d79fff4-e6d0-46ea-bfcd-2febc90b7580" id="sec.6-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">to develop resources to support Aboriginal
+language activities,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7301477e-3686-48b8-a440-ecc82eb23108" id="sec.6-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">to provide guidance to the Government and its
+agencies on Aboriginal languages,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_992cbf21-a56c-4177-83c4-c9764bb4663e" id="sec.6-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">to liaise with the Geographical Names Board on
+the use of Aboriginal languages in the naming of geographical
+places,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b6ff3b96-7de6-41cb-a4dd-89f53ae4ea5e" id="sec.6-ssec.1-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">to encourage the wider use and appreciation of
+Aboriginal languages,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_41617344-2a69-4b1f-a0c5-4e9336db028c" id="sec.6-ssec.1-para1.j">
+<no>(j)</no>
+<block><txt break.before="1">such other functions as are conferred or imposed
+on it by or under this or any other Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_36c2f8b2-9db2-4a3a-bf6e-863709aa252d"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Trust has power to do all things that are
+necessary or convenient to be done for or in connection with the exercise of
+its functions or that are supplemental or incidental to, or consequential on,
+the exercise of its functions.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ff26856f-2cfe-40d1-a607-cc1e4f017d9b"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_99fa745d-bba0-46db-8d7f-6a7e29548871"
+id="sec.7-he"><b>Board of Trust</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4c58e8f8-be1e-446d-9759-2c491929c1e0"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There is to be a Board of the
+Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_48498a0c-0960-4806-88d0-31cd0fade4f2"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The affairs of the Trust are to be managed by the
+Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_01a31d3a-7e82-485e-a345-0664a8f74305"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Any act, matter or thing done in the name of, or
+on behalf of, the Trust by the Board is taken to have been done by the
+Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7dd37566-6400-4c6c-aa7d-1a9088c2dd86"></attrib>
+<attrib name="id" value="sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Schedule 1 contains provisions relating to the
+members and procedure of the Board.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8feaa4aa-786a-4f6d-a256-f21925b649ed"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_1c72170c-4a55-46d7-acf9-02c70c799d7f"
+id="sec.8-he"><b>Members of Board of Trust</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_15ec1280-db69-4fb9-b05b-9a886581b0ab"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Board of the Trust is to consist of not less
+than 5 members and not more than 11 members appointed by the
+Minister.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2178abb8-3e56-45fb-92a6-9ff0b480d599"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person is eligible to be appointed as a member
+of the Board if the person&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_21c2260b-1d0c-452f-b88d-e5b1f54f356c" id="sec.8-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is an Aboriginal person, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1685a1c5-3e9f-4619-93cc-7f8a549b52b3" id="sec.8-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">has skills, expertise or experience relevant to
+the functions of the Trust, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8bd45d28-1386-4dd2-9875-5d0c15042c6e" id="sec.8-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">has appropriate standing in the Aboriginal
+community.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_88329411-69f7-46be-ba5e-99c1da2b87eb"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The regulations may make further provision with
+respect to the qualification of persons for appointment to the
+Board.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_101d1267-9c9c-4094-ac1f-8180a526ae6e"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_362f914d-4348-4421-9651-7a22d9f1b8ca"
+id="sec.9-he"><b>Trust to conduct activities in accordance with strategic plan
+and any directions of Minister</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d03ed112-1d18-4b3b-aa2a-039ef6ace5fa"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust must conduct its activities, as far as
+is practicable, in accordance with the Aboriginal languages strategic plan and
+any directions given by the Minister.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_152c7aa3-0c06-4ef7-ba54-b24bc9105e21"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Trust is to publish, on a publicly accessible
+website, any directions given to the Trust by the
+Minister.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f253dbdd-e6d7-4e6f-85f6-31cbc40043df"></attrib>
+<attrib name="id" value="sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent of any inconsistency between the
+Aboriginal languages strategic plan and a direction given by the Minister, the
+Trust must conduct its activities in accordance with the Aboriginal languages
+strategic plan.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_608f9b04-3c34-4cd7-b3ea-068349eb0a15"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_dcda4808-f33b-415a-bda6-131af4307b85"
+id="sec.10-he"><b>Staff of Trust</b></heading></head>
+<block><txt break.before="1">Persons may be employed in the Public Service to
+enable the Trust to exercise its functions.</txt></block>
+<note type="legtext" guid="_5e620141-757c-4bd5-be30-c8fbb77a0db6"
+id="sec.10-note"><heading guid="_2518bf72-684f-4b8b-b190-89064554b29b"
+id="sec.10-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">Section 59 of the <legref refid="act-2013-040"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Government
+Sector Employment Act 2013</i></name></legref> provides that the persons so
+employed (or whose services the Trust makes use of) may be referred to as
+officers or employees, or members of staff, of the Trust. Section 47A of the
+<legref refid="act-1902-032" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Constitution Act 1902</i></name></legref> precludes the
+Trust from employing staff.</txt></block></note>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ca6da90c-d0a7-4c2d-ba83-a555dc2ea9cc"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_f99ebcd3-ea5a-4727-82b9-c9615b9b9846"
+id="sec.11-he"><b>Committees</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_801ca906-b26c-4772-a325-a14714921f22"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust may establish committees to assist the
+Trust in connection with any of its functions.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5ecaeaa7-0893-49ac-9cb2-8dbcfda2ed27"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A committee established by the Trust may, but
+need not, include a member of the Board of the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5355b3e7-53a6-4891-9250-ecb4d8983e0d"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The procedure for calling meetings of a committee
+of the Trust and for the conduct of business at those meetings is to be as
+determined by the Trust or (subject to any determination of the Trust) by the
+committee.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_47618a1e-9bc3-47f8-a5c2-930c5e6663fe"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_d5c9c42e-8ecb-4b64-a31f-02f0bfe8de3f"
+id="sec.12-he"><b>Delegation</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_eec91b16-a237-44bd-9bb7-b76abc462b1e"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust may delegate to an authorised person
+the exercise of any function of the Trust under this Act, other than this
+power of delegation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8ffb908a-11cf-41fe-8e47-5c03b5c2cbf5"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_bd343633-220e-4ac5-ab92-5e40b039f598"
+id="sec.12-def.authorisedperson"><b><i>authorised person</i></b></defterm>
+means any of the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6841e3bb-950f-45f5-b67a-c5506bc287a3" id="sec.12-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a member of the Board of the
+Trust,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c60eae7c-5532-4261-b68d-35344824253c" id="sec.12-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a committee of the Trust,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d60a9df1-bd4c-4249-8281-6e57be44bac3" id="sec.12-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any member of staff of the
+Trust,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f4248312-8c0d-4652-aae3-635ef67d5778" id="sec.12-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">any other person, or person of a class,
+prescribed by the regulations.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_0f5f1d51-2ec2-48e4-8405-e099f625ad02"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_fd3792c7-9e5a-4c78-ac31-7b2958400d09"
+id="pt.3-he"><b>Aboriginal languages strategic plan</b></heading></head>
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_97fb220a-a8f0-44db-96a6-61a4a2974652"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_16e2e156-431e-43c1-8cdb-50b9f64315c3"
+id="sec.13-he"><b>Strategic plan for growth and nurturing of Aboriginal
+languages</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_98e50173-b0bf-44d5-a6c9-a318d78356a1"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust must, no later than 2 years after the
+commencement of this Act and at least every 5 years thereafter, prepare and
+submit to the Minister a draft strategic plan for the growth and nurturing of
+Aboriginal languages.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9264f4ba-4328-4e4a-84d2-37b09f4c0888"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister may approve a draft strategic plan
+submitted by the Trust, with such modifications (if any) as the Minister
+considers appropriate.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0519c2c4-5208-49ea-9615-9a355642de80"></attrib>
+<attrib name="id" value="sec.13-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Minister is to consult with the Trust about
+any modification that the Minister proposes to make to a draft strategic plan
+submitted by the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f1e10223-8732-450f-84f1-522c3741c1f2"></attrib>
+<attrib name="id" value="sec.13-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">As soon as practicable after the Minister has
+approved the strategic plan, the Trust is to cause a copy of the Aboriginal
+languages strategic plan to be published on a publicly accessible
+website.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_085dc5a2-1551-417c-9636-3ccb7f0ff0b4"></attrib>
+<attrib name="id" value="sec.13-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The regulations may make provision with respect
+to the preparation, approval and publication of an Aboriginal languages
+strategic plan.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 13:</b> Am 2019 No 14,
+Sch 2.1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_52b8c537-7079-4a5f-a0c0-3639f3ed4989"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_805c8292-6863-4436-ac6f-55c0f9f4cc73"
+id="sec.14-he"><b>Amendment of Aboriginal languages strategic
+plan</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9bf16e12-5e99-47ec-b01c-de775bae00cc"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may at any time, at the request of
+the Trust or on the Minister&#8217;s own initiative, approve of amendments to
+the Aboriginal languages strategic plan.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f3191c15-4439-4f81-9a88-802f85420455"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any proposed amendment that is to be made on the
+Minister&#8217;s own initiative requires the approval of the
+Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_83ab9e98-dfbd-4c83-8c72-877cd959f126"></attrib>
+<attrib name="id" value="sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">As soon as practicable after the Minister
+approves any proposed amendment, the Trust is to cause a copy of the
+Aboriginal languages strategic plan, as amended, to be published on a publicly
+accessible website.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1779ad14-cfa7-4506-ab0c-57b5f86ff151"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_bf303c9f-3e66-4ea5-80aa-0ae2fa30ad67"
+id="sec.15-he"><b>Review of implementation of Aboriginal languages strategic
+plan</b></heading></head>
+
+<tier type="subclause" id="sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ac868d10-4e3b-4687-b2ba-721dbeee8d11"></attrib>
+<attrib name="id" value="sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust is to conduct an annual review of the
+implementation of the Aboriginal languages strategic plan and to prepare, and
+submit to the Minister, a report on the review.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0ae46bd9-869d-4660-9c1a-fe3a93bb5bdd"></attrib>
+<attrib name="id" value="sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister is to table the report or cause it
+to be tabled in both Houses of Parliament as soon as practicable after the
+report is forwarded to the Minister.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_9dd60319-d8fc-48df-8059-e074261d7588"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_a69e8c7b-75e7-442c-9ff2-ee5e7cc62448"
+id="pt.4-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0fdd70db-ee37-42e8-87d8-3c82cd90fa60"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_b1128182-2c45-43de-8867-f859e74a3143"
+id="sec.16-he"><b>Acquisition of property by gift</b></heading></head>
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b917c2e5-0c7b-45dc-af59-901099b59e1a"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Trust may acquire property by gift (whether
+on trust or otherwise) for the purposes of this Act and may agree to, and
+carry out, the conditions of any such gift, but only if the carrying out of
+any such condition is not inconsistent with the functions of the
+Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cec79c66-0a79-46ce-92eb-c43460541d61"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The rule of law against remoteness of vesting
+does not apply to any condition of a gift to which the Trust has agreed under
+this section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c7693ee8-d876-49d2-8f0f-2e38baaa5c9e"></attrib>
+<attrib name="id" value="sec.16-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The <legref refid="act-1997-123" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Duties Act
+1997</i></name></legref> does not apply to or in respect of any gift made or
+to be made to the Trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_812a0de1-8653-42e0-a3bc-6816d13b9250"></attrib>
+<attrib name="id" value="sec.16-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_81d64b23-aa29-4110-b300-3a7603b11caf"
+id="sec.16-def.gift"><b><i>gift</i></b></defterm> includes a devise or
+bequest.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c51ee38f-8df9-45e8-a314-b475d7148b11"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_1c887192-db27-4239-971b-c54e39492777"
+id="sec.17-he"><b>Annual report</b></heading></head>
+<block><txt break.before="1">An annual report of the activities of the Trust,
+including its financial statements, may be included in the annual report of
+the Public Service agency in which the staff of the Trust are
+employed.</txt></block></level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_972106e0-2686-4fa4-93b6-b0dc313486c7"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_80a958e7-0622-4e7b-bfe8-cccff3296642"
+id="sec.18-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_94c3d80d-9bdd-4d17-97d2-7bd50c0b48bb"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_96615b28-7acf-4028-92ae-b4c0ae4e5263" id="sch.1-he"><b>Members and
+procedure of Board</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 7 (4))</txt></block>
+
+<level type="part" id="sch.1-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_28e3474d-97fe-42d4-8811-a29bfefbdf04"></attrib>
+<attrib name="id" value="sch.1-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_0a0cdbea-ad04-43ef-83f9-c465919b5b88"
+id="sch.1-pt.1-he"><b>General</b></heading></head>
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e04f59e1-4c6f-4119-9963-97edd0348a5f"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_ab5651ef-fd76-4cf8-9e35-ebfb96301b52"
+id="sch.1-sec.1-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Schedule&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_0bb62abf-15a7-491f-8842-577d5bbfe9c4"
+id="sch.1-def.Board"><b><i>Board</i></b></defterm> means the Board of the
+Trust.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_845b8770-e2e8-4e9f-b6c8-af9513ff199e"
+id="sch.1-def.Chairperson"><b><i>Chairperson</i></b></defterm> means the
+Chairperson of the Board.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_03aa5d38-5a22-4867-824f-c8651f7c9ada"
+id="sch.1-def.DeputyChairperson"><b><i>Deputy Chairperson</i></b></defterm>
+means the Deputy Chairperson of the Board.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_534d4e72-2bb0-426c-8355-d8b243aa6e4d"
+id="sch.1-def.member"><b><i>member</i></b></defterm> means any member of the
+Board.</txt></block></deflist>
+</block></level>
+</level>
+
+
+<level type="part" id="sch.1-pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e2db8049-8369-4990-83b3-0206f3e0f008"></attrib>
+<attrib name="id" value="sch.1-pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_036e468b-7715-4c82-a38e-b787c81952ff"
+id="sch.1-pt.2-he"><b>Members</b></heading></head>
+
+<level type="clause" id="sch.1-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dc9db344-1006-4645-91aa-3e44e907b15b"></attrib>
+<attrib name="id" value="sch.1-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_3107c6eb-ec2f-4641-ba94-58b1203cdbaa"
+id="sch.1-sec.2-he"><b>Terms of office of members</b></heading></head>
+<block><txt break.before="1">Subject to this Schedule, a member holds office
+for such period (not exceeding 5 years) as is specified in the member&#8217;s
+instrument of appointment, but is eligible (if otherwise qualified) for
+re-appointment.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c0fcee48-05a9-4a3d-bb79-d7ab27f10775"></attrib>
+<attrib name="id" value="sch.1-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_f0f227fa-6c4a-46f1-afab-4e65066e7913"
+id="sch.1-sec.3-he"><b>Part-time appointments</b></heading></head>
+<block><txt break.before="1">A member holds office on a part-time
+basis.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7afb5b1c-435a-45b3-8c68-9bd91e8db539"></attrib>
+<attrib name="id" value="sch.1-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_6f421292-cc6f-4303-bf6a-e9d19ca807d6"
+id="sch.1-sec.4-he"><b>Remuneration</b></heading></head>
+<block><txt break.before="1">A member is entitled to be paid such remuneration
+(including travelling and subsistence allowances) as the Minister may from
+time to time determine in respect of the member.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2a1d5f91-ecc9-421e-aa9c-6e8d27d787c2"></attrib>
+<attrib name="id" value="sch.1-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_f59a43f6-cc16-4b42-81ec-f15ed6778a04"
+id="sch.1-sec.5-he"><b>Deputies</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_32a1dfed-8603-451c-b57d-d783c8be5cea"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A member may, from time to time, appoint a person
+to be the deputy of the member, and may revoke any such
+appointment.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a01f96f6-5ff9-412b-af14-f8321a42fe36"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In the absence of a member, the member&#8217;s
+deputy may, if available, act in the place of the
+member.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_588fed1f-6138-4c6d-9d9c-b0bdf6c3b5bc"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">While acting in the place of a member, a person
+has all the functions of the member and is taken to be a
+member.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_82d5b8df-7d49-453f-bc32-0ba0da942bf5"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">For the purposes of this clause, a vacancy in the
+office of a member is taken to be an absence of the
+member.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_057beadc-537f-45c5-b603-24a47ddfb4b5"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">This clause does not operate to confer on the
+deputy of a member who is the Chairperson or Deputy Chairperson the
+member&#8217;s functions as Chairperson or Deputy
+Chairperson.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ea79260a-394b-4588-b8f7-cb624b453ed3"></attrib>
+<attrib name="id" value="sch.1-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_2625c84a-bd82-4207-8908-eba3bd082e54"
+id="sch.1-sec.6-he"><b>Vacancy in office of member</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ee3c367e-df8b-4e1b-8af0-4c2198af91d8"></attrib>
+<attrib name="id" value="sch.1-sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The office of a member becomes vacant if the
+member&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a30f5195-4f5f-4779-84b9-bcfc97fd1d6e" id="sch.1-sec.6-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">dies, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dee5b171-8ac7-4fbd-80c5-4ac37f36ec2c" id="sch.1-sec.6-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">completes a term of office and is not
+re-appointed, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c07154f9-8751-4179-b379-fdd494370590" id="sch.1-sec.6-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">resigns the office by instrument in writing
+addressed to the Minister, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7f6ae62f-4409-4e2b-83fa-d1498d933e99" id="sch.1-sec.6-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">is removed from office by the Minister under this
+clause, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7321222a-be87-42a2-a8dc-21af9860ff81" id="sch.1-sec.6-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">is absent from 3 consecutive meetings of the
+Board of which reasonable notice has been given to the member personally or by
+post, except on leave granted by the Minister or unless the member is excused
+by the Minister for having been absent from those meetings,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bbee0384-9853-4118-90ac-da8d5808d762" id="sch.1-sec.6-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">becomes bankrupt, applies to take the benefit of
+any law for the relief of bankrupt or insolvent debtors, compounds with his or
+her creditors or makes an assignment of his or her remuneration for their
+benefit, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_811c9a79-6c81-4323-a401-21d700fccc26" id="sch.1-sec.6-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">becomes a mentally incapacitated person,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_577a201b-1f02-4aa9-bd8a-43defc491988" id="sch.1-sec.6-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">is convicted in New South Wales of an offence
+that is punishable by imprisonment for 12 months or more or is convicted
+elsewhere than in New South Wales of an offence that, if committed in New
+South Wales, would be an offence so punishable.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c4238858-9045-46aa-9500-1663fc829a98"></attrib>
+<attrib name="id" value="sch.1-sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister may remove a member from office at
+any time.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6eae6c56-f39b-4cc7-b9b3-868f8203729f"></attrib>
+<attrib name="id" value="sch.1-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_1b32c328-c2dd-4251-99bf-2d6c6cf507fa"
+id="sch.1-sec.7-he"><b>Filling of vacancy in office of
+member</b></heading></head>
+<block><txt break.before="1">If the office of any member becomes vacant, a
+person is, subject to this Act, to be appointed to fill the
+vacancy.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_218f93b9-2044-4c23-8894-dbf3faaea85f"></attrib>
+<attrib name="id" value="sch.1-sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_e848e33b-4219-4119-acf2-c72f07b9e38f"
+id="sch.1-sec.8-he"><b>Chairperson and Deputy
+Chairperson</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_535e1c2c-ab1c-4874-9a46-bfe5a625a2c8"></attrib>
+<attrib name="id" value="sch.1-sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may, in a member&#8217;s instrument
+of appointment or by subsequent instrument, appoint a member to be Chairperson
+or Deputy Chairperson.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e92465f8-d536-4629-9477-6dc2154c1973"></attrib>
+<attrib name="id" value="sch.1-sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Chairperson or Deputy Chairperson vacates
+office as Chairperson or Deputy Chairperson if he or she&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_99e809e6-ec05-4811-bc43-eb22dde9e028" id="sch.1-sec.8-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is removed from that office by the Minister under
+this clause, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_47c9d436-ec3d-4ac5-b3f9-fc190c7657e0" id="sch.1-sec.8-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">resigns that office by instrument in writing
+addressed to the Minister, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f82a5e0e-dca0-44ad-9028-0788daacafca" id="sch.1-sec.8-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">ceases to be a member of the
+Board.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3b7e4c24-1723-417b-89c1-b0bdfde7155d"></attrib>
+<attrib name="id" value="sch.1-sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Minister may at any time remove the
+Chairperson or Deputy Chairperson from office as Chairperson or Deputy
+Chairperson.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_496db28f-544e-447b-8fba-9e3d06d0860a"></attrib>
+<attrib name="id" value="sch.1-sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_6ea59b37-79a4-47df-a7c2-9813834b2a6d"
+id="sch.1-sec.9-he"><b>Disclosure of pecuniary interests</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5bbe9abe-55fb-4c13-af6a-392276fc53bc"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_98ee17f9-e25d-45dc-8534-2e8782522bf8" id="sch.1-sec.9-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a member has a direct or indirect pecuniary
+interest in a matter being considered or about to be considered at a meeting
+of the Board, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_071b098e-69ad-4bf5-bf79-182cba2d5b05" id="sch.1-sec.9-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the interest appears to raise a conflict with the
+proper performance of the member&#8217;s duties in relation to the
+consideration of the matter,</txt></block></li></list>
+
+<txt break.before="1">the member must, as soon as possible after the relevant
+facts have come to the member&#8217;s knowledge, disclose the nature of the
+interest at a meeting of the Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b7b48808-8ebb-4bcb-81f8-8b238897b615"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A disclosure by a member at a meeting of the
+Board that the member&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f70aacaa-7aa8-46b3-89ac-08e659ac997e" id="sch.1-sec.9-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is a member, or is in the employment, of a
+specified company or other body, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a234d1ac-77b9-4705-a6cb-fdbd4f4accc8" id="sch.1-sec.9-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is a partner, or is in the employment, of a
+specified person, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_88d6dbaa-9818-40f9-a724-873eaf1648cf" id="sch.1-sec.9-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">has some other specified interest relating to a
+specified company or other body or to a specified
+person,</txt></block></li></list>
+
+<txt break.before="1">is a sufficient disclosure of the nature of the interest
+in any matter relating to that company or other body or to that person that
+may arise after the date of the disclosure and that is required to be
+disclosed under subclause (1).</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bc61c3b8-bf8b-4ba7-b0bf-88e0434ac8be"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Particulars of any disclosure made under this
+clause must be recorded by the Board in a book kept for the purpose and that
+book must be open at all reasonable hours to inspection by any
+person.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_36cc8edf-1e4d-4bd7-a250-dae6bf9fee6d"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">After a member has disclosed the nature of an
+interest in any matter, the member must not, unless the Minister or the Board
+otherwise determines&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d06ff887-6979-4981-8bf8-67373271ffc7" id="sch.1-sec.9-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">be present during any deliberation of the Board
+with respect to the matter, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e8776b4f-2ef7-4881-824e-90d847fd65f4" id="sch.1-sec.9-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">take part in any decision of the Board with
+respect to the matter.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8694ebb3-89fc-48c2-b41d-db0d7b6c2d7a"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">For the purposes of the making of a determination
+by the Board under subclause (4), a member who has a direct or indirect
+pecuniary interest in a matter to which the disclosure relates must
+not&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_05442510-cbee-4f41-b04c-51945411f006" id="sch.1-sec.9-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">be present during any deliberation of the Board
+for the purpose of making the determination, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_469012ef-5d80-45c2-a899-92c6896d32f8" id="sch.1-sec.9-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">take part in the making by the Board of the
+determination.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_01583af8-0ce0-443c-a752-ece7197ac896"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">A contravention of this clause does not
+invalidate any decision of the Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_edaa9e00-4077-433e-9b03-639e3a8d6e94"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">This clause applies to a member of a committee of
+the Trust and the committee in the same way as it applies to a member of the
+Board and the Board.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_09957584-8904-4d2a-83be-2d5f0cc99ba2"></attrib>
+<attrib name="id" value="sch.1-sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_d14ff941-10e6-49ed-b76e-964db7f1001f"
+id="sch.1-sec.10-he"><b>Effect of certain other Acts</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0cffbe8f-0d39-4079-9470-f72914ecd1c6"></attrib>
+<attrib name="id" value="sch.1-sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The provisions of the <legref
+refid="act-2013-040" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Government Sector Employment Act 2013</i></name></legref>
+relating to the employment of Public Service employees do not apply to a
+member.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_18b5c267-60e4-4747-9490-dc8216147892"></attrib>
+<attrib name="id" value="sch.1-sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If by or under any Act provision is
+made&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_47c77ffe-7d0d-4485-ae92-ff405b4fd4ce"
+id="sch.1-sec.10-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">requiring a person who is the holder of a
+specified office to devote the whole of his or her time to the duties of that
+office, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_605faa58-5cab-477a-855e-555d83626cfe"
+id="sch.1-sec.10-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">prohibiting the person from engaging in
+employment outside the duties of that office,</txt></block></li></list>
+
+<txt break.before="1">the provision does not operate to disqualify the person
+from holding that office and also the office of a member or from accepting and
+retaining any remuneration payable to the person under this Act as a
+member.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1b204d91-6fac-46c8-976c-ddc7d0b01f82"></attrib>
+<attrib name="id" value="sch.1-sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_ba60f17c-c1f6-4e18-8f97-a9bb603fca78"
+id="sch.1-sec.11-he"><b>Personal liability</b></heading></head>
+<block><txt break.before="1">A matter or thing done or omitted to be done by
+the Board, a member of the Board, a committee of the Trust or a person acting
+under the direction of the Board does not, if the matter or thing was done or
+omitted to be done in good faith for the purpose of executing this or any
+other Act, subject a member or a person so acting personally to any action,
+liability, claim or demand.</txt></block></level>
+</level>
+
+
+<level type="part" id="sch.1-pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_4f3b3137-2dbb-4cd8-8ac1-d8f9dcfbdf6e"></attrib>
+<attrib name="id" value="sch.1-pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_16416e00-7923-4ee1-8b76-c3d1de1a2af5"
+id="sch.1-pt.3-he"><b>Procedure</b></heading></head>
+
+<level type="clause" id="sch.1-sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f4e87f07-99ed-424e-baa0-8695ddbd68c0"></attrib>
+<attrib name="id" value="sch.1-sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_2db8cf94-6cd5-4ee1-96ca-d0bc5ea085c7"
+id="sch.1-sec.12-he"><b>General procedure</b></heading></head>
+<block><txt break.before="1">The procedure for the calling of meetings of the
+Board and for the conduct of business at those meetings is, subject to this
+Act, to be as determined by the Board.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_227a7e9b-96ee-4ef6-8c26-84199d4bf22f"></attrib>
+<attrib name="id" value="sch.1-sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_2d188a3b-d4b1-44f0-8738-e452025706c4"
+id="sch.1-sec.13-he"><b>Quorum</b></heading></head>
+<block><txt break.before="1">The quorum for a meeting of the Board is a
+majority of its members for the time being.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_290d41e4-c44d-421d-b7ab-94de296a8fa0"></attrib>
+<attrib name="id" value="sch.1-sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_53f3c2ab-7e2e-45e3-b2cc-00114372fefa"
+id="sch.1-sec.14-he"><b>Presiding member</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bcc1680c-894c-405e-b75b-9f062badb1ac"></attrib>
+<attrib name="id" value="sch.1-sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Chairperson (or, in the absence of the
+Chairperson, the Deputy Chairperson, or in the absence of both the Chairperson
+and the Deputy Chairperson, a person elected by the members of the Board who
+are present at a meeting of the Board) is to preside at a meeting of the
+Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3c5418a9-726c-40e7-aa5b-8be3ed5c7b99"></attrib>
+<attrib name="id" value="sch.1-sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The presiding member has a deliberative vote and,
+in the event of an equality of votes, has a second or casting
+vote.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_85972592-b907-48ab-a86e-294ffb2ae650"></attrib>
+<attrib name="id" value="sch.1-sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_2dc7befc-0cec-4b19-9873-556b5d368535"
+id="sch.1-sec.15-he"><b>Voting</b></heading></head>
+<block><txt break.before="1">A decision supported by a majority of the votes
+cast at a meeting of the Board at which a quorum is present is the decision of
+the Board.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_973a3536-5244-4e1e-849d-b733bbf1b124"></attrib>
+<attrib name="id" value="sch.1-sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_776da03b-12c9-4cf3-9555-07d65138d5b1"
+id="sch.1-sec.16-he"><b>Transaction of business outside meetings or by
+telephone etc</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f6525fea-0a52-4fe1-9ea2-39b387663305"></attrib>
+<attrib name="id" value="sch.1-sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Board may, if it thinks fit, transact any of
+its business by the circulation of papers among all the members of the Board
+for the time being, and a resolution in writing approved in writing by a
+majority of those members is taken to be a decision of the Board made at a
+meeting of the Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3734c740-6cc1-4d1f-8331-c63766217240"></attrib>
+<attrib name="id" value="sch.1-sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Board may, if it thinks fit, transact any of
+its business at a meeting at which members (or some members) participate by
+telephone or other electronic means, but only if any member who speaks on a
+matter before the meeting can be heard by the other
+members.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.16-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9856b569-6121-4954-9d55-676df9b3b9c4"></attrib>
+<attrib name="id" value="sch.1-sec.16-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purposes of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c5e6b011-8f5c-40f0-b924-264d0a4bda25"
+id="sch.1-sec.16-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the approval of a resolution under subclause (1),
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b8cc8748-6c78-49aa-a087-57ec03d4e489"
+id="sch.1-sec.16-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a meeting held in accordance with subclause
+(2),</txt></block></li></list>
+
+<txt break.before="1">the Chairperson and each other member have the same
+voting rights as they have at an ordinary meeting of the
+Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.16-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_85f1593f-bcbd-46c7-8081-e246f68e9731"></attrib>
+<attrib name="id" value="sch.1-sec.16-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A resolution approved under subclause (1) is,
+subject to the regulations, to be recorded in the minutes of the meetings of
+the Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.16-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6d2d1b09-34f8-4bc4-b01c-f7aa492cd309"></attrib>
+<attrib name="id" value="sch.1-sec.16-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Papers may be circulated among the members for
+the purposes of subclause (1) by electronic means.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f5318d64-b478-45db-bc98-97036bc5d608"></attrib>
+<attrib name="id" value="sch.1-sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_ff28c8a4-5a46-4197-9081-17d51d3d3aca"
+id="sch.1-sec.17-he"><b>First meeting</b></heading></head>
+<block><txt break.before="1">The Minister may call the first meeting of the
+Board in such manner as the Minister thinks fit.</txt></block></level>
+</level>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_754cc942-971a-4163-ad21-4afb6ce77c8b"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_251528ca-027e-4530-8b8e-adb44a994ead"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-2017-051" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Aboriginal Languages Act
+2017</i></name> No 51</legref>. Assented to 24.10.2017. Date of commencement,
+5.3.2020, sec 2 and 2020 (76) LW 4.3.2020. This Act has been amended as
+follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_8c3ca0dc-8850-4cfa-9933-36116b38a292" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_db844a24-d7b6-4cbb-8c1e-5adeabf7941a" id="ed-tbl-tblr">
+<entry colname="1" guid="_0a6edf84-0b40-4b97-915c-2ff3f7af946d"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>2019</b></txt></entry>
+<entry colname="2" guid="_56e6559c-d8c3-4bf9-9679-b28721729f0b"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 14</txt></entry>
+<entry colname="3" guid="_e5d0112a-3769-444f-847b-21b340f1b00b"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref refid="act-2019-014" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2019</i></name></legref>. Assented to
+21.11.2019.</txt>
+<txt break.before="1">Date of commencement of Sch 2.1, 14 days after assent,
+sec 2(1).</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_c113f016-12b3-44a3-9f12-b55e5974cca3"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_8f160fc7-dc45-43f5-9bd7-e922763208aa" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_5b186739-c444-418d-9fa1-235e7c86e828" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_113ccfc9-d29b-4ce2-be2d-3c79adc18a6e"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 13</txt></entry>
+<entry colname="2" guid="_0f928632-417d-4f91-a923-615ceba500d1"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 2019 No 14, Sch
+2.1.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

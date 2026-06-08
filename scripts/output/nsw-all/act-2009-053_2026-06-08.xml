@@ -1,0 +1,3634 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2009-053"
+title="Government Information (Information Commissioner) Act 2009"
+year="2009"
+number="53"
+enact.or.made.date="2009-06-26"
+first.valid.date="2023-10-30"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2009</metacontent>
+<metacontent class="year.assent">2009</metacontent>
+<metacontent class="publication.date">2026-05-06</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2023-035</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="introduction.date">2009-06-17</metacontent>
+<metacontent class="la.second.reading.date">2009-06-17</metacontent>
+<metacontent class="amended.in.committee">0</metacontent>
+<metacontent class="id">act-2009-053</metacontent>
+<metacontent
+class="version.desc.id">04b37f39-c8db-4c67-9199-9df2918b7cf4</metacontent>
+<metacontent
+class="version.series.id">17b78bc2-7079-448e-ac18-e7ccc99373cb</metacontent>
+<metacontent class="year.introduced">2009</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Government Information (Information Commissioner)
+Act 2009"></attrib>
+<attrib name="year.passed" value="2009"></attrib>
+<attrib name="year.assent" value="2009"></attrib>
+<attrib name="no" value="53"></attrib>
+<attrib name="publication.date" value="2026-05-06"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2023-035"></attrib>
+<attrib name="first.valid.date" value="2023-10-30"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="introduction.date" value="2009-06-17"></attrib>
+<attrib name="la.second.reading.date" value="2009-06-17"></attrib>
+<attrib name="amended.in.committee" value="0"></attrib>
+<attrib name="assent.date" value="2009-06-26"></attrib>
+<attrib name="id" value="act-2009-053"></attrib>
+<attrib name="version.desc.id"
+value="04b37f39-c8db-4c67-9199-9df2918b7cf4"></attrib>
+<attrib name="version.series.id"
+value="17b78bc2-7079-448e-ac18-e7ccc99373cb"></attrib>
+<attrib name="year.introduced" value="2009"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_24f42bf9-adad-47e0-bfbf-58e4bddffdb8"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_565d10e8-32b1-43dd-9f51-b139c4ec694b"
+id="cd-status-he"><b>See also&#8212;</b></heading></head>
+<block><txt break.before="1"><legref type="bill" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Bill 2026</i></name></legref></txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_37918f98-2ff2-4bca-90c3-e1fccecfaf9c"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to create the office of Information
+Commissioner; and for other purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_7b187178-5cce-43b1-afcc-a75f618cc36c"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_8038545e-80e1-4b58-9cb4-9f35251218de"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f4d00516-6779-4bc6-8ab7-34cf84f7dace"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_9811f686-a238-495c-80c5-0736305308f8"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-2009-053"><name emphasis="yes"><i>Government
+Information (Information Commissioner) Act
+2009</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5a4b7ed9-c3af-4ee3-b750-3577be0fd3f7"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_84646f6f-4b68-4c27-a4f2-af599ce721c0"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on a day or days to be
+appointed by proclamation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f634e594-cd1b-43ee-aeba-9bc5ae982605"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_7ed99d74-b1c0-4391-93ef-bc7118586534"
+id="sec.3-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d472f82d-5ae3-4dda-86ed-3029e7a18440"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_287ab0f7-65e3-4799-b345-7140ee3d0a3f"
+id="sec.3-ssec.1-def.agency"><b><i>agency</i></b></defterm> has the same
+meaning as in the GIPA Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_89b2e887-934f-4d4d-a86d-cd9847ef25f9"
+id="sec.3-ssec.1-def.Commissioner"><b><i>Commissioner</i></b></defterm> means
+the Information Commissioner appointed under this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_45fb0a6e-a62c-4fc6-a4fe-002ad2f555d9"
+id="sec.3-ssec.1-def.exercise"><b><i>exercise</i></b></defterm> a function
+includes perform a duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_e5a3d219-1fe3-408c-a6a9-753e45289614"
+id="sec.3-ssec.1-def.function"><b><i>function</i></b></defterm> includes a
+power, authority or duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_00cf3e3a-f609-4a14-9f54-0c7c329ad120"
+id="sec.3-ssec.1-def.GIPAAct"><b><i>GIPA Act</i></b></defterm> means the
+<legref type="act" jurisd="NSW" check="unknown" refid="act-2009-052"><name
+emphasis="yes"><i>Government Information (Public Access) Act
+2009</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_7678c266-9f90-4f9a-8c60-39225b03b15b"
+id="sec.3-ssec.1-def.InformationAct"><b><i>Information Act</i></b></defterm>
+means the GIPA Act and any other Act that is declared by the regulations to be
+an Information Act for the purposes of this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_5a9108ca-068a-49ce-9378-a6af34e7feec"
+id="sec.3-ssec.1-def.JointCommittee"><b><i>Joint Committee</i></b></defterm>
+means the Committee on the Ombudsman, the Law Enforcement Conduct Commission
+and the Crime Commission constituted under the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1974-068"><name emphasis="yes"><i>Ombudsman Act
+1974</i></name></legref> or such other joint committee of members of
+Parliament as may be appointed to exercise the functions of the Joint
+Committee under this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_2724289c-4106-42a9-83fc-89df9e97faec"
+id="sec.3-ssec.1-def.person"><b><i>person</i></b></defterm> has the same
+meaning as in the GIPA Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9ccf053c-7833-4e0e-a5d2-173353d1de04"
+id="sec.3-ssec.1-def.PrivacyCommissioner"><b><i>Privacy
+Commissioner</i></b></defterm> means the Privacy Commissioner under the
+<legref type="act" jurisd="NSW" check="unknown" refid="act-1998-133"><name
+emphasis="yes"><i>Privacy and Personal Information Protection Act
+1998</i></name></legref>.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a9e63e9f-1000-4c7a-b577-02ee3bee8347"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Am 2010 No 71,
+Sch 2 [1]; 2016 No 61, Sch 6.21 [1].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_35c0a626-e7c4-4786-8360-983d71438330"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_60be6b85-9c5c-4467-a65e-727c2df7cc57"
+id="pt.2-he"><b>Appointment of Information Commissioner</b></heading></head>
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2d7e7256-234d-46d3-be50-b4d267903725"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_913ee930-757e-44f2-9ab3-a9c912a13aa2"
+id="sec.4-he"><b>Appointment of Information Commissioner</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5e7294ad-b044-436c-a93d-1576eecd166d"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may appoint an Information
+Commissioner.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_65158234-d5dc-499a-8875-6166183b5226"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Commissioner holds office for such term not
+exceeding 5 years as may be specified in the instrument of appointment, but is
+eligible (if otherwise qualified) for re-appointment.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e56c9c9d-0ac3-4478-a838-ab06acd569e9"></attrib>
+<attrib name="id" value="sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A person is not eligible to be appointed for more
+than 2 terms of office as Commissioner (whether or not consecutive
+terms).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.3A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4d4abfb5-4095-4ad3-a23f-a84497420795"></attrib>
+<attrib name="id" value="sec.4-ssec.3A"></attrib></parentattributes>
+
+<head>
+<no>(3A)</no></head>
+<block><txt break.before="1">A person is not eligible to be appointed as
+Information Commissioner or to act in that office if the person is the Privacy
+Commissioner.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5a910788-144c-4fe4-a229-a6603f02d629"></attrib>
+<attrib name="id" value="sec.4-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A person is not eligible to be appointed as
+Commissioner or to act in that office if the person is a member of the
+Legislative Council or of the Legislative Assembly or is a member of a House
+of Parliament or legislature of another State or Territory or of the
+Commonwealth.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_01c21c63-1a0f-4489-a626-b4a9e6faba6c"></attrib>
+<attrib name="id" value="sec.4-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The office of Commissioner is a full-time office
+and the holder of the office is required to hold it on that basis, except to
+the extent permitted by the Governor.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 2010 No 71,
+Sch 2 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_07848e6a-7c13-4708-a167-0aaf4ef91cc4"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_6756288e-7d2e-4329-b833-69c148daff1e"
+id="sec.5-he"><b>Veto of proposed appointment of
+Commissioner</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_69b3d5bb-605e-4ecc-9491-35721fa788ec"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person is not to be appointed as Commissioner
+until&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4feaeda2-54d0-4dab-8ca0-43165872cf3f" id="sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a proposal that the person be so appointed has
+been referred to the Joint Committee under section 31BA of the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1974-068"><name
+emphasis="yes"><i>Ombudsman Act 1974</i></name></legref>,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_96342d18-f722-4471-8a7c-319299442520" id="sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the period that the Committee has under that
+section to veto the proposed appointment has ended without the Committee
+having vetoed the proposed appointment or the Committee notifies the Minister
+that it has decided not to veto the proposed
+appointment.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_511717c6-dd54-4b61-8391-a2dd6a275f3c"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person may be proposed for appointment on more
+than one occasion.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ad14b532-fcef-4d6b-97a6-0271f0aefc1b"></attrib>
+<attrib name="id" value="sec.5-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_57aa9aa6-d023-46de-8101-60e93629f6a5"
+id="sec.5-ssec.3-def.appointment"><b><i>appointment</i></b></defterm> includes
+re-appointment.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e6e904df-13f3-42de-b3a4-047f809f00fc"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_e0b7a7a2-d082-465a-a9f3-aa046232751b"
+id="sec.6-he"><b>Remuneration</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_95ba7330-4127-4347-862f-5ff63f0a02d8"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commissioner is entitled to be
+paid&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4aedfb29-40d6-4fc7-9636-56b238fdca77" id="sec.6-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">remuneration in accordance with the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1976-004"><name
+emphasis="yes"><i>Statutory and Other Offices Remuneration Act
+1975</i></name></legref>, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_40beb1af-bd14-4824-92ea-e6928477e73b" id="sec.6-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">such travelling and subsistence allowances as the
+Minister may from time to time determine.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_86711487-14fb-40c2-a45f-5ec1eb2341d9"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Commissioner is not, if a Judge of a New
+South Wales Court and while receiving remuneration as such a Judge, entitled
+to remuneration under this Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c5b67912-a6ef-4ba5-97e6-b9eb3eafd80d"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_6eae737e-2eeb-456e-9946-c91b2369d0c0"
+id="sec.7-he"><b>Vacancy in office</b></heading></head>
+<block><txt break.before="1">The office of Commissioner becomes vacant if the
+holder&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5bfb7b47-1a1e-4727-bdbd-0fa979600fb8" id="sec.7-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">dies, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e59a09b9-4712-4648-a800-5f034feec0cb" id="sec.7-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">completes a term of office and is not
+re-appointed, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9d8dbe49-c2ae-47bc-a4fb-9849b3c6b66e" id="sec.7-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">resigns the office by instrument in writing
+addressed to the Governor, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ad978a62-0c34-4b49-8c58-e41c8ea347cf" id="sec.7-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">is nominated for election as a member of the
+Legislative Council or of the Legislative Assembly or as a member of a House
+of Parliament or a legislature of another State or Territory or of the
+Commonwealth, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c6fcfc01-04b6-462e-b3e7-1558f9421b09" id="sec.7-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">becomes bankrupt, applies to take the benefit of
+any law for the relief of bankrupt or insolvent debtors, compounds with his or
+her creditors or makes an assignment of his or her remuneration for their
+benefit, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_131b6f5a-7b69-4d03-91d6-7c3df6737b04" id="sec.7-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">becomes a mentally incapacitated person,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c29ba633-9129-4ae7-9260-7ede0d3cd5cf" id="sec.7-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">is convicted in New South Wales of an offence
+that is punishable by imprisonment for 12 months or more or is convicted
+elsewhere than in New South Wales of an offence that, if committed in New
+South Wales, would be an offence so punishable, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ecdbca32-890b-43d8-9e99-67467b915736" id="sec.7-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">is removed from office under section
+8.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f4311dc5-2bf8-4bb5-8023-60660922cbe0"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_5bf540f5-636b-4e76-b512-ebbb63c524d3"
+id="sec.8-he"><b>Removal from office</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f4b152c9-d013-4d95-b87e-3e08ce8dd026"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may remove the Commissioner from
+office on the address of both Houses of Parliament.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7206434f-6c6c-49d2-94a4-a9ad4960b0e4"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Governor may suspend the Commissioner from
+office&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_00e43721-a1f8-4c8e-ac57-9d16dbc41b01" id="sec.8-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">for misbehaviour, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8e2e932f-40d4-4c61-8eac-cb940d799d51" id="sec.8-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">for incapacity, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_daf9c5c4-2d31-4c26-a52e-738564c9bbf0" id="sec.8-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">if the Commissioner is absent from duty for a
+period in excess of his or her leave entitlement as approved by the Governor
+unless the absence is caused by illness or other unavoidable
+cause.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_09c3fce5-1213-473c-b280-e1280408990b"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Minister is to lay or cause to be laid before
+each House of Parliament, within 7 sitting days of that House after the
+Commissioner has been suspended from office, a full statement of the grounds
+for the suspension.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6cf61e38-c65e-41e6-b84b-80bd7b255ce3"></attrib>
+<attrib name="id" value="sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The suspension is to be lifted unless each House
+of Parliament, within 21 sitting days from the time when the statement was
+laid before it, declares by resolution that the Commissioner ought to be
+removed from office.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_300a3dc9-3f63-43bd-8a05-8ab75b6e634e"></attrib>
+<attrib name="id" value="sec.8-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">If each House does so declare within that period,
+the Commissioner is to be removed from office by the
+Governor.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bdab5f46-c181-4916-8c36-343ea559cf54"></attrib>
+<attrib name="id" value="sec.8-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">For the purposes of this section, sitting days
+are to be counted whether or not they occur in the same
+session.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6fb6dad9-b908-4a3e-a63f-8f79ce85d0e9"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_c1d11997-44c6-488a-ae0f-bb7a5d0826ff"
+id="sec.9-he"><b>Filling of vacancy</b></heading></head>
+<block><txt break.before="1">If the office of Commissioner becomes vacant, a
+person is, subject to this Act, to be appointed to fill the
+vacancy.</txt></block></level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7535436b-0eab-434a-b017-94d328724c0d"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_32e5a39a-9c43-446f-a796-a0c374b13abc"
+id="sec.10-he"><b>Commissioner not Public Service
+employee</b></heading></head>
+<block><txt break.before="1">The office of Commissioner is a statutory office
+and the provisions of the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2013-040"><name emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref> relating to the employment of Public Service
+employees do not apply to that office.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 10:</b> Subst 2014 No
+33, Sch 3.7 [1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_08d59760-ec22-4730-9346-e37b3d74f61f"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_5595556b-cfe3-4976-b6fe-45e70e21a70c"
+id="sec.11-he"><b>Appointment of acting Commissioner</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a3e5f8f1-8522-443d-b6ea-e8127c20cf24"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may, from time to time, appoint a
+person to act in the office of the Commissioner during the illness or absence
+of the Commissioner or during a vacancy in the office of the Commissioner. The
+person, while so acting, has all the functions of the Commissioner and is
+taken to be the Commissioner (including as Chairperson of the Information and
+Privacy Advisory Committee under the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1998-133"><name emphasis="yes"><i>Privacy and
+Personal Information Protection Act
+1998</i></name></legref>).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f964fe0f-73e9-4dca-a9a2-cf56b580c494"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister may, at any time, remove a person
+from office as acting Commissioner.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f61091b1-c27b-4d13-845e-c7a619a7c601"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">An acting Commissioner is entitled to be paid
+such remuneration (including travelling and subsistence allowances) as the
+Minister may from time to time determine.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Am 2010 No 71,
+Sch 2 [3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_46efad70-302c-42da-a733-1c6b9fcaa1ba"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_9875ad52-31f4-48b4-8685-534cffcd76fa"
+id="sec.12-he"><b>Staff of Commissioner</b></heading></head>
+<block><txt break.before="1">Persons may be employed in the Public Service
+under the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2013-040"><name emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref> to enable the Commissioner to exercise his or her
+functions.</txt></block>
+<note type="legtext" guid="_6220f6a0-83da-426b-b13e-3dbad6953872"
+id="sec.12-note"><heading guid="_4e99aa59-9e4f-4a57-bd4a-ae1a13912a16"
+id="sec.12-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">Section 59 of the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-2013-040"><name emphasis="yes"><i>Government Sector
+Employment Act 2013</i></name></legref> provides that the persons so employed
+(or whose services the Commissioner makes use of) may be referred to as
+officers or employees, or members of staff, of the Commissioner. Section 47A
+of the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1902-032"><name emphasis="yes"><i>Constitution Act
+1902</i></name></legref> precludes the Commissioner from employing
+staff.</txt></block></note>
+
+
+<content type="historynote"><txt break.before="1"><b>s 12:</b> Subst 2014 No
+33, Sch 3.7 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ead1ce44-2f92-4dec-b52f-eec2ed7775bc"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_914d86db-32bb-447d-8105-0add26cc74d8"
+id="sec.13-he"><b>Delegation</b></heading></head>
+<block><txt break.before="1">The Commissioner may delegate the exercise of any
+function of the Commissioner (other than this power of delegation)
+to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_86a300b9-11be-4b46-9588-26380682234f" id="sec.13-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any member of staff of the Commissioner,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f4f70ae1-7840-4daa-9814-33c8eba81809" id="sec.13-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any person, or any class of persons, authorised
+for the purposes of this section by the
+regulations.</txt></block></li></list>
+</block></level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e444acdf-3b36-486c-a4b7-f0a089d494fc"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_45fa9e64-ed06-4ab2-bd56-81c2fafdc70c"
+id="pt.3-he"><b>Functions of Commissioner</b></heading></head>
+
+<level type="division" id="pt.3-div.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_9f9351a6-adf2-45d8-ac92-54ad85ca6db8"></attrib>
+<attrib name="id" value="pt.3-div.1"></attrib></parentattributes>
+
+<head>
+<no><b>Division 1</b></no><heading
+guid="_e5634a6b-3a30-448d-b4b4-23a8c4a99beb" id="pt.3-div.1-he"><b>General
+functions of Commissioner</b></heading></head>
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dc41e7f5-b4ac-4630-bb44-0595385f8012"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_578b3c89-23b5-4cde-b427-fb4af754e1fe"
+id="sec.14-he"><b>General functions</b></heading></head>
+<block><txt break.before="1">The Commissioner has such functions as may be
+conferred or imposed on the Commissioner by or under this or any other
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_60cfdd61-32cd-4ca6-8f84-2647a6f2d26e"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_0ef02e66-f63f-4226-be6b-ff3de606bc4d"
+id="sec.15-he"><b>General procedures of Commissioner</b></heading></head>
+<block><txt break.before="1">The Commissioner&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f81e200d-d096-47ab-b457-3caec3b2ff2a" id="sec.15-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is to act in an informal manner (including
+avoiding conducting formal hearings) as far as possible,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_30e50632-6570-4d11-a7d1-5b2499397490" id="sec.15-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is to act according to the substantial merits of
+the case without undue regard to technicalities, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_85a2994b-eb55-4acd-8ab9-faea01a2d06f" id="sec.15-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">may determine the procedures to be followed in
+exercising the Commissioner&#8217;s functions under this Act, including the
+procedures to be followed at an inquiry or investigation conducted by the
+Commissioner, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_70e67829-12e4-4502-bd7e-ccd3ea721acb" id="sec.15-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">is not bound by the rules of evidence and may
+inform himself or herself on any matter in any way that the Commissioner
+considers to be just.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5796fbaf-2da3-4d55-bc33-6c572fe95494"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_0e7d51cb-f934-4b53-a11f-e01fd8e1e86e"
+id="sec.16-he"><b>Expert assistance</b></heading></head>
+<block><txt break.before="1">For the purposes of the exercise of any of the
+Commissioner&#8217;s functions, the Commissioner may engage the services of
+any person for the purpose of getting expert
+assistance.</txt></block></level>
+</level>
+
+
+<level type="division" id="pt.3-div.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e033eb57-8b76-45f1-82c3-9bd2dcf3d1b0"></attrib>
+<attrib name="id" value="pt.3-div.2"></attrib></parentattributes>
+
+<head>
+<no><b>Division 2</b></no><heading
+guid="_d3b1b383-7365-42ff-bd13-121506a8e68d"
+id="pt.3-div.2-he"><b>Complaints</b></heading></head>
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a96e21a5-5d3f-4238-9d9c-f68d153752f9"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_85ae72db-7183-4e96-a21a-9564cc7d8c80"
+id="sec.17-he"><b>Making of complaint</b></heading></head>
+<block><txt break.before="1">Any person may complain to the Commissioner about
+the conduct (including action or inaction) of an agency in the exercise of
+functions under an Information Act, including conduct that is alleged by the
+person to constitute a contravention of an Information Act.</txt></block>
+<note type="legtext" guid="_557204df-d36b-4a1e-b5d7-4277a6d55be7"
+id="sec.17-note"><heading guid="_96af32be-09cc-4a9e-88ff-8f284d8a9a7d"
+id="sec.17-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">A decision of an agency that is reviewable under
+the GIPA Act cannot be the subject of a complaint to the Commissioner (even if
+the person is out of time to apply for review of the decision). See section 89
+(4) of the GIPA Act.</txt></block></note>
+</level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_38c8c1e8-3917-4ede-8ebe-988140a57c35"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_78b8fe3a-0b4f-4173-9e83-ada29e3d5322"
+id="sec.18-he"><b>Decision to deal with complaint</b></heading></head>
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4ac9e9b8-d175-4e4e-bb50-76cb85a0dfa6"></attrib>
+<attrib name="id" value="sec.18-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commissioner may decide to deal with a
+complaint or to decline to deal with a complaint.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2600b63e-9666-40eb-b847-33d610fa0ab9"></attrib>
+<attrib name="id" value="sec.18-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Commissioner may make preliminary inquiries
+for the purposes of deciding how to deal with a complaint and may request
+further information from the complainant.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_19058fea-3cd0-411d-abb9-e24a646742bd"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_bf7e9e2a-11fe-44fd-867c-2fa1aeda1dab"
+id="sec.19-he"><b>How complaints are dealt with</b></heading></head>
+
+<tier type="subclause" id="sec.19-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_42beb5d0-d0ef-4319-9511-c328de6e2ffc"></attrib>
+<attrib name="id" value="sec.19-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commissioner deals with a complaint by taking
+appropriate measures to assist in the resolution of the complaint, including
+(but not limited to) any of the following measures&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5f349813-7269-4262-9160-ce2d5b79dce8" id="sec.19-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">providing information to the parties to the
+complaint,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_36819cc8-61ee-4fce-a478-3538235a4509" id="sec.19-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">undertaking discussions concerning the complaint
+with the parties to the complaint,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cb980cdf-20e6-4300-98c2-14a162ef1c67" id="sec.19-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">facilitating the direct resolution of the
+complaint by the parties to the complaint (including by conciliation or other
+informal process).</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e83ad5aa-a36f-4dea-b921-56caa8c48385"></attrib>
+<attrib name="id" value="sec.19-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Commissioner can also deal with a complaint
+by investigating the complaint under Division 3.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_de90cd1e-53f3-4195-a133-5dad0e51b0f9"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_f5bd5064-bd08-415a-acab-9884312d6511"
+id="sec.20-he"><b>Notice to complainant</b></heading></head>
+<block><txt break.before="1">The Commissioner must give notice to the
+complainant of the Commissioner&#8217;s decision on whether to deal with the
+complaint and (if the Commissioner decides to deal with the complaint) how the
+complaint is to be dealt with.</txt></block></level>
+</level>
+
+
+<level type="division" id="pt.3-div.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_0450fd36-65ee-4f2b-9bbd-b25078dd7423"></attrib>
+<attrib name="id" value="pt.3-div.3"></attrib></parentattributes>
+
+<head>
+<no><b>Division 3</b></no><heading
+guid="_4dc7d5ba-f47a-4002-a541-a036702b62fc"
+id="pt.3-div.3-he"><b>Investigations</b></heading></head>
+
+<level type="clause" id="sec.21">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f1e3cb6b-3955-4b7d-9d24-ad8bd006d7ce"></attrib>
+<attrib name="id" value="sec.21"></attrib></parentattributes>
+
+<head>
+<no>21</no><heading guid="_86282637-1cb6-4848-bcdf-4b5697dfcab5"
+id="sec.21-he"><b>Investigation of agency systems, policies and
+practices</b></heading></head>
+
+<tier type="subclause" id="sec.21-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9ff1b72f-b938-48ae-b053-5c0362f8d529"></attrib>
+<attrib name="id" value="sec.21-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commissioner may investigate and report on
+the exercise of any functions of one or more agencies under an Information
+Act, including the systems, policies and practices of agencies (or of agencies
+generally) that relate to functions of agencies under an Information
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_17b16837-67f4-4cc4-9cf6-e6e5e65c71ff"></attrib>
+<attrib name="id" value="sec.21-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Commissioner is to give a report under this
+section&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_37c4e108-2f8d-411a-8cee-1b3bd912c764" id="sec.21-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to the Minister responsible for any agency to
+which the report relates, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4000d7ca-d831-45b4-a368-3e8d306afa6a" id="sec.21-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to the principal officer of an agency that is the
+subject of the report.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.22">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d7c00d27-81c2-4e9e-92cf-a827bfb47f82"></attrib>
+<attrib name="id" value="sec.22"></attrib></parentattributes>
+
+<head>
+<no>22</no><heading guid="_0b16247b-5c37-4ee1-9d81-09f58db7f8df"
+id="sec.22-he"><b>Investigation of complaints</b></heading></head>
+
+<tier type="subclause" id="sec.22-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a6093f85-764a-4300-9d41-a71e02dffaa7"></attrib>
+<attrib name="id" value="sec.22-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If the Commissioner decides to investigate a
+complaint, the Commissioner must give notice to the complainant of the
+decision to investigate and must give notice to an agency of the
+Commissioner&#8217;s decision to investigate a complaint about the
+agency.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.22-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4db2447f-a92d-487d-a341-6a5ea8c56ef4"></attrib>
+<attrib name="id" value="sec.22-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Commissioner may discontinue an investigation
+of a complaint at any time and is to give notice of the discontinuation of an
+investigation to the complainant and the agency
+concerned.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.23">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0507c283-ccd3-478c-9b66-8a5244df3837"></attrib>
+<attrib name="id" value="sec.23"></attrib></parentattributes>
+
+<head>
+<no>23</no><heading guid="_65636343-728c-4755-88a8-5098c4da6c5d"
+id="sec.23-he"><b>Procedure for investigations</b></heading></head>
+
+<tier type="subclause" id="sec.23-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1fcbc569-e85f-494f-8d94-06ce30440876"></attrib>
+<attrib name="id" value="sec.23-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An investigation under this Act is to be made in
+the absence of the public.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e02e4e8b-16a8-4870-95cb-c8c686c042a8"></attrib>
+<attrib name="id" value="sec.23-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In an investigation under this Act, the
+Commissioner must give an opportunity to make submissions on the matter the
+subject of the investigation&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f5fa1651-982f-481f-9361-1a4a6ec1e1a2" id="sec.23-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if practicable, to the agency whose conduct is
+the subject of investigation, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5f3ee21f-1941-4733-8048-8df84de53498" id="sec.23-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in the case of an investigation of a
+complaint&#8212;to the complainant.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_882fd76e-0ce0-4e53-a4b1-1089d8744da6"></attrib>
+<attrib name="id" value="sec.23-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Where, in an investigation under this Act, the
+Commissioner considers that there are grounds for adverse comment in respect
+of any person, the Commissioner, before making any such comment in any report,
+must, in so far as it is practicable to do so&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_129fa509-0856-4676-b018-1978386bdd3e" id="sec.23-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">inform that person of the substance of the
+grounds of the adverse comment, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1ff73c81-69c3-43f9-8575-71aa58151f25" id="sec.23-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">give the person an opportunity to make
+submissions.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3bb6aa5e-5be4-49ff-837c-fe6ce366cde7"></attrib>
+<attrib name="id" value="sec.23-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Before publishing a report on an investigation
+that makes an adverse comment in respect of an agency, the Commissioner must
+inform the Minister responsible for the agency that the Commissioner proposes
+to publish such a report and must, at the request of that Minister, consult
+the Minister.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.24">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a60c62e0-328f-45ba-9904-c7500b09b32d"></attrib>
+<attrib name="id" value="sec.24"></attrib></parentattributes>
+
+<head>
+<no>24</no><heading guid="_a8882988-24b3-4e19-a18a-b97981a58445"
+id="sec.24-he"><b>Report on compliance with Information
+Act</b></heading></head>
+
+<tier type="subclause" id="sec.24-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e24cc1f0-79ae-4977-aa12-35c9923edeb7"></attrib>
+<attrib name="id" value="sec.24-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Where, in an investigation under this Act, the
+Commissioner finds that any conduct of an agency the subject of the
+investigation is conduct that constitutes a failure to exercise its functions
+properly in accordance with any provision of an Information Act, the
+Commissioner must report the matter&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5d3b5aaf-b7f2-4744-93b0-2126f9a7d599" id="sec.24-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to the Minister responsible for the agency,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_254f1e4e-30ba-4a72-92a9-88f47af75d1f" id="sec.24-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to the principal officer of the agency,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0ab72cb9-edf7-48b0-9ac4-0de46c1cdc7d" id="sec.24-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">where the conduct concerns the conduct of a
+Public Service employee, to the Secretary of the Premier&#8217;s
+Department.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.24-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f6a8be0f-ccc7-4560-82b0-6b8201a19529"></attrib>
+<attrib name="id" value="sec.24-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Commissioner may give a copy of the
+report&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6dbb3dcd-92d8-4409-9d58-9edab6ed6e98" id="sec.24-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">where the investigation arises out of a complaint
+to the Commissioner, to the complainant, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3b0b9672-0b81-4419-b898-959061096d4a" id="sec.24-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to the agency to whose conduct the report
+relates.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.24-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8fd0dce0-2203-4171-9e9f-0f2f4f1d2180"></attrib>
+<attrib name="id" value="sec.24-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">An agency to whose conduct the report relates who
+is given a copy of the report may, and on request by the Commissioner must,
+notify the Commissioner of any action taken or proposed in consequence of the
+report.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 24:</b> Am 2014 No 33,
+Sch 3.7 [3]; 2023 No 35, Sch 4.12[1].</txt></content>
+</level>
+</level>
+
+
+<level type="division" id="pt.3-div.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_33009e4b-8164-4481-a3db-055ef46955f5"></attrib>
+<attrib name="id" value="pt.3-div.4"></attrib></parentattributes>
+
+<head>
+<no><b>Division 4</b></no><heading
+guid="_36550061-8e97-451e-8805-70e8baaa69ce" id="pt.3-div.4-he"><b>Powers of
+Commissioner</b></heading></head>
+
+<level type="clause" id="sec.25">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_68717e52-897e-4a21-a035-8dc5b0217d3f"></attrib>
+<attrib name="id" value="sec.25"></attrib></parentattributes>
+
+<head>
+<no>25</no><heading guid="_524116eb-b584-4508-819a-4ed76ce69466"
+id="sec.25-he"><b>Agencies to give information etc</b></heading></head>
+
+<tier type="subclause" id="sec.25-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7db720f0-b4b4-40fc-8827-76687256f721"></attrib>
+<attrib name="id" value="sec.25-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purposes of or in connection with the
+exercise of any function of the Commissioner, the Commissioner may require an
+agency&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fa91acb8-4e60-4ac0-a061-df7e26f699b0" id="sec.25-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to give the Commissioner a statement of
+information, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c20c3aaa-9bb0-4ad2-8537-c97284a98e6d" id="sec.25-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to produce to the Commissioner any record or
+other thing, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e2668fae-fdf5-4dbd-b751-d1dc5e8d1baf" id="sec.25-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to give the Commissioner a copy of any
+record.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.25-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cc9898b9-020e-4788-bbfc-33f262863e2c"></attrib>
+<attrib name="id" value="sec.25-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A requirement under this section must be in
+writing, must specify or describe the information, record or thing required,
+and must fix a time and specify a place for compliance.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.25-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b4abdaa3-63f3-4231-b342-802e52132640"></attrib>
+<attrib name="id" value="sec.25-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The disclosure of information by an agency in
+compliance with a requirement imposed by or under this or any other Act does
+not constitute the waiver of any privilege of the agency against disclosure of
+the information.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.26">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_49a86816-6f39-45ce-88c5-09a6694158fc"></attrib>
+<attrib name="id" value="sec.26"></attrib></parentattributes>
+
+<head>
+<no>26</no><heading guid="_f18b71e2-6d67-4d29-a646-ac35bc6397d1"
+id="sec.26-he"><b>Entry of premises</b></heading></head>
+<block><txt break.before="1">For the purposes of any investigation under this
+Act, the Commissioner may, at any time&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6c64e24e-9aa9-4146-ab0f-21f5f66ccdb4" id="sec.26-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">enter and inspect any premises occupied or used
+by an agency, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_50cf8013-3e12-466f-9b64-23efc9b8ea18" id="sec.26-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">inspect any record or thing in or on the
+premises.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.27">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ad8e990b-c6a4-4cbd-8bfc-8102a7c57b4a"></attrib>
+<attrib name="id" value="sec.27"></attrib></parentattributes>
+
+<head>
+<no>27</no><heading guid="_30075e3c-25c6-4eb2-a87f-80f46ebbb3fe"
+id="sec.27-he"><b>Limits on coercive powers because of privilege
+etc</b></heading></head>
+
+<tier type="subclause" id="sec.27-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6d4c0708-8793-4996-9fa9-4712f765c278"></attrib>
+<attrib name="id" value="sec.27-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commissioner must not exercise a coercive
+entry power and must set aside any requirement imposed under a coercive
+investigative power if it appears to the Commissioner that any person has a
+ground of privilege, whereby, in proceedings in a court of law, the person
+might resist a like requirement or the exercise of a like power,
+unless&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ad12d532-68a0-44cc-b45f-2cda78fd5043" id="sec.27-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the privilege is a privilege of an agency,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2db6ae75-cdbf-4e25-afd6-93619d132c70" id="sec.27-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">it appears to the Commissioner that the person
+has waived the privilege.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.27-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_65414eb6-c84b-4fd0-9256-79cbe00d9fa9"></attrib>
+<attrib name="id" value="sec.27-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">However, the Commissioner may exercise a coercive
+entry or investigative power despite (and is not required to set aside any
+requirement imposed under a coercive investigative power merely because
+of)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2858a08a-95e4-4127-8cfb-2b0cceac6c68" id="sec.27-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any rule of law that, in proceedings in a court
+of law, might justify an objection to compliance with a like requirement or
+the exercise of a like power on grounds of public interest,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_860cde7a-1773-4076-8bfc-6d9ee1195c98" id="sec.27-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any duty of secrecy or other restriction on
+disclosure applying to an agency.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.27-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_42c3a999-4377-466b-ae9e-957c33760364"></attrib>
+<attrib name="id" value="sec.27-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_1bfc2b89-0314-4683-a3b3-8d9514128853"
+id="sec.27-ssec.3-def.coerciveentrypower"><b><i>coercive entry
+power</i></b></defterm> means a power to inspect any premises or any record or
+thing on premises.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ab5742e3-24c9-4887-af62-6ddd8a29ac8b"
+id="sec.27-ssec.3-def.coerciveinvestigativepower"><b><i>coercive investigative
+power</i></b></defterm> means a power to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_775f6a84-5e30-478f-8bf9-b1452d3cab74" id="sec.27-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">require any person to give any statement of
+information, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_209f353e-6214-4929-96e3-78005a4e564f" id="sec.27-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">require any person to produce any record or other
+thing, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_83b1312b-5227-40ac-a7e9-1c9f3c74337d" id="sec.27-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">require any person to give a copy of any record,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ce40fa5d-3d0e-4b14-9c13-fcfb26f5a938" id="sec.27-ssec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">require any person to answer any
+question.</txt></block></li></list>
+</block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.28">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c3629a3f-c55b-441e-8e26-2b174818f969"></attrib>
+<attrib name="id" value="sec.28"></attrib></parentattributes>
+
+<head>
+<no>28</no><heading guid="_f9370868-eb14-447f-93fa-dd7ee56d3b52"
+id="sec.28-he"><b>Powers to prevent contravention of Information
+Act</b></heading></head>
+
+<tier type="subclause" id="sec.28-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b606e8af-da82-44b5-8a58-67684961510a"></attrib>
+<attrib name="id" value="sec.28-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If a person has engaged, is engaged or is
+proposing to engage in any conduct that constituted, constitutes or would
+constitute a contravention of any provision of an Information Act, the Supreme
+Court may, on the application of the Commissioner, grant an injunction
+restraining the person from engaging in that conduct and, if in the opinion of
+the Court it is desirable to do so, requiring that person to do any act or
+thing.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3badd186-e888-4434-bd70-d2993d5ca29e"></attrib>
+<attrib name="id" value="sec.28-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If a person has refused or failed, is refusing or
+failing, or is proposing to refuse or fail, to do any act or thing that the
+person is required to do by or under an Information Act, the Supreme Court
+may, on the application of the Commissioner, grant an injunction requiring the
+person to do that act or thing.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_602400ae-5aa4-4b52-8d72-3dcd764c63e4"></attrib>
+<attrib name="id" value="sec.28-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">If an application is made to the Court for an
+injunction under subsection (1), the Court may, if in its opinion it is
+desirable to do so, before considering the application, grant an interim
+injunction restraining a person from engaging in the conduct concerned pending
+the determination of the application.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_05600c78-5757-4dd2-b1ba-866ec454987d"></attrib>
+<attrib name="id" value="sec.28-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Court may rescind or vary an injunction
+granted under this section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bb326eab-46f8-40d8-815c-2d2261de9bfc"></attrib>
+<attrib name="id" value="sec.28-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The Commissioner has standing to bring
+proceedings by way of judicial review in connection with the exercise of the
+functions of an agency under the GIPA Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7f521f6b-2f23-4ed5-9bfb-34be2cc407cd"></attrib>
+<attrib name="id" value="sec.28-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">The Commissioner does not have the function of
+bringing proceedings for an offence under an Information
+Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.29">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_324c897a-163b-4def-8d95-1bd8cddaed18"></attrib>
+<attrib name="id" value="sec.29"></attrib></parentattributes>
+
+<head>
+<no>29</no><heading guid="_3fc3acfe-1006-466f-9309-c351dcaa61d6"
+id="sec.29-he"><b>Formal inquiries</b></heading></head>
+
+<tier type="subclause" id="sec.29-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_652d3acf-51bd-4e83-b173-9349751e5020"></attrib>
+<attrib name="id" value="sec.29-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commissioner may make or hold inquiries for
+the purposes of an investigation that the Commissioner conducts under this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.29-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_834cbab0-31a9-4a5e-99fc-0031cfc253b1"></attrib>
+<attrib name="id" value="sec.29-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of any inquiry under this
+section, the Commissioner has the powers, authorities, protections and
+immunities conferred on a commissioner by Division 1 of Part 2 of the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1923-029"><name
+emphasis="yes"><i>Royal Commissions Act 1923</i></name></legref> and that Act
+(section 13 and Division 2 of Part 2 excepted) applies to any witness summoned
+by or appearing before the Commissioner in the same way as it applies to a
+witness summoned by or appearing before a commissioner, but section 11 (2) of
+that Act is to have effect subject to section 27 (Limits on coercive powers
+because of privilege etc) of this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.29-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_72ff99d9-aea9-423d-a6f3-0cfcbe464b38"></attrib>
+<attrib name="id" value="sec.29-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A witness appearing before the Commissioner is to
+be paid such amount as the Commissioner determines, but not exceeding the
+amount that would be payable to such a witness if he or she were a Crown
+witness subpoenaed by the Crown to give evidence.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.30">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0ff62d74-618c-4db1-8ad2-cb0b365fbef5"></attrib>
+<attrib name="id" value="sec.30"></attrib></parentattributes>
+
+<head>
+<no>30</no><heading guid="_23b3376d-f9bf-40c9-9a5f-8488f74b7b56"
+id="sec.30-he"><b>Cabinet proceedings</b></heading></head>
+
+<tier type="subclause" id="sec.30-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_72a9f9a3-ca50-4de7-a064-36655525fce5"></attrib>
+<attrib name="id" value="sec.30-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This Act does not enable the
+Commissioner&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a3ea537c-e667-4f8d-810d-a32c79270067" id="sec.30-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to require any person&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b0db41ee-48c3-49f6-828c-0dd9e4696ab1"
+id="sec.30-ssec.1-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">to give any statement of information,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4d093db9-8c0d-4251-b7e5-c0d48c41015f"
+id="sec.30-ssec.1-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">to produce any record or other thing,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1d7419ba-3345-4c62-bc9d-b4da4a72889c"
+id="sec.30-ssec.1-para1.a-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">to give a copy of any record,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1aad2bc2-578a-48f5-8027-4488cc76fd5f"
+id="sec.30-ssec.1-para1.a-para2.iv">
+<no>(iv)</no>
+<block><txt break.before="1">to answer any
+question,</txt></block></li></list>
+
+<txt break.before="1">if compliance with the requirement would disclose
+information that is Cabinet information, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cc6b94d3-f3ee-4e83-bb94-3b9212db50eb" id="sec.30-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to inspect any such record or
+thing.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.30-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aa9b255d-7868-4bdf-826a-a07fa927da5b"></attrib>
+<attrib name="id" value="sec.30-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A certificate of the Secretary or General Counsel
+of the Cabinet Office that any information, record or thing or the answer to
+any question comprises, contains or would reveal Cabinet information is
+conclusive of that fact for the purposes of this
+section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.30-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c2bbe5b3-cd62-42a6-b86b-e925619d4af7"></attrib>
+<attrib name="id" value="sec.30-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a5ef0057-b8b1-40bf-b23d-a8883728a9af"
+id="sec.30-ssec.3-def.Cabinetinformation"><b><i>Cabinet
+information</i></b></defterm> means information that is Cabinet information
+under clause 2 of Schedule 1 to the GIPA Act.</txt></block></deflist>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 30:</b> Am 2015 No 15,
+Sch 3.29; 2023 No 35, Sch 4.12[2].</txt></content>
+</level>
+</level>
+
+
+<level type="division" id="pt.3-div.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_ac5fc9f1-dfb1-49a2-a415-ca63c29e2fe5"></attrib>
+<attrib name="id" value="pt.3-div.5"></attrib></parentattributes>
+
+<head>
+<no><b>Division 5</b></no><heading
+guid="_209764b6-c3fa-45dc-9e8f-b5393bb6f14f" id="pt.3-div.5-he"><b>Disclosure
+of information</b></heading></head>
+
+<level type="clause" id="sec.31">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9603bb30-679e-4e4a-a29f-bf54843325a2"></attrib>
+<attrib name="id" value="sec.31"></attrib></parentattributes>
+
+<head>
+<no>31</no><heading guid="_5935d346-72c3-491d-8652-ead76aaa6b0d"
+id="sec.31-he"><b>Commissioner may furnish information to
+Ombudsman</b></heading></head>
+
+<tier type="subclause" id="sec.31-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3522197d-18c7-4208-ae48-946a3ea94675"></attrib>
+<attrib name="id" value="sec.31-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commissioner may, at any time, furnish to the
+Ombudsman information obtained by the Commissioner in discharging functions
+under this or any other Act if the Commissioner is of the opinion that the
+information relates to conduct of an agency that could be the subject of a
+complaint under the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1974-068"><name emphasis="yes"><i>Ombudsman Act
+1974</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.31-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a2d2c2b0-b947-4f83-9c2a-f6e4d40ad8c8"></attrib>
+<attrib name="id" value="sec.31-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">However, the Commissioner must not disclose
+information that could not otherwise be disclosed under this Act or could not
+be obtained by the Ombudsman under the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1974-068"><name emphasis="yes"><i>Ombudsman Act
+1974</i></name></legref> or any other Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.31A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_abd7b5ac-4ce7-42a5-b9ea-92cb3394dfc9"></attrib>
+<attrib name="id" value="sec.31A"></attrib></parentattributes>
+
+<head>
+<no>31A</no><heading guid="_8492d9f4-8cde-4b22-bf3a-8119cee0b188"
+id="sec.31A-he"><b>Commissioner may furnish information to Children&#8217;s
+Guardian</b></heading></head>
+
+<tier type="subclause" id="sec.31A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_83dc143d-e879-45c6-b4c6-fb008aa29992"></attrib>
+<attrib name="id" value="sec.31A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commissioner may, at any time, furnish to the
+Children&#8217;s Guardian, information obtained by the Commissioner in
+discharging functions under this or any other Act if the Commissioner is of
+the opinion that the information relates to the conduct of an agency that
+could be the subject of a complaint under the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-2019-025"><name emphasis="yes"><i>Children&#8217;s
+Guardian Act 2019</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.31A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7eedfd4a-1bdc-452d-9fd0-e1cf5dd88a66"></attrib>
+<attrib name="id" value="sec.31A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">However, the Commissioner must not disclose
+information that could not otherwise be disclosed under this Act or could not
+be obtained by the Children&#8217;s Guardian under the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-2019-025"><name
+emphasis="yes"><i>Children&#8217;s Guardian Act
+2019</i></name></legref>.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 31A:</b> Ins 2019 No
+25, Sch 5.20.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.32">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_58144d55-de48-451d-b341-6294300546a7"></attrib>
+<attrib name="id" value="sec.32"></attrib></parentattributes>
+
+<head>
+<no>32</no><heading guid="_b0eb533e-5d87-446c-8b5c-57a402269e42"
+id="sec.32-he"><b>Commissioner may furnish information to ICAC, DPP and
+LECC</b></heading></head>
+
+<tier type="subclause" id="sec.32-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3560f0a9-46b5-4ff1-91c0-0d4bcc217f74"></attrib>
+<attrib name="id" value="sec.32-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commissioner may, at any time, furnish
+information obtained by the Commissioner in discharging functions under this
+or any other Act to the Director of Public Prosecutions, the Independent
+Commission Against Corruption or the Law Enforcement Conduct
+Commission.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.32-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b53d3d8f-f077-43eb-90e9-11b0c27d0381"></attrib>
+<attrib name="id" value="sec.32-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">However, the Commissioner must not disclose
+information that could not otherwise be disclosed under this Act or could
+not&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d263bcd3-e0d3-4bce-8049-bd81b55fd53f" id="sec.32-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in the case of the Director of Public
+Prosecutions&#8212;be obtained by the Director under the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1986-207"><name
+emphasis="yes"><i>Director of Public Prosecutions Act
+1986</i></name></legref> or any other Act, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c53c6e44-33f3-4c04-8380-753baf610167" id="sec.32-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in the case of the Independent Commission Against
+Corruption&#8212;be obtained by the Commission under the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1988-035"><name
+emphasis="yes"><i>Independent Commission Against Corruption Act
+1988</i></name></legref> or any other Act, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_606ff4d9-3435-43af-8a20-a22c0c1c8b5c" id="sec.32-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">in the case of the Law Enforcement Conduct
+Commission&#8212;be obtained by the Commission under the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-2016-061"><name emphasis="yes"><i>Law
+Enforcement Conduct Commission Act 2016</i></name></legref> or any other
+Act.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 32:</b> Am 2016 No 61,
+Sch 6.21 [2] [3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.33">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_113d5990-4d64-4c18-91cf-f37aeb82a447"></attrib>
+<attrib name="id" value="sec.33"></attrib></parentattributes>
+
+<head>
+<no>33</no><heading guid="_daa07909-0de1-40ba-9e94-2df8515c80f6"
+id="sec.33-he"><b>Commissioner may furnish information to
+agency</b></heading></head>
+
+<tier type="subclause" id="sec.33-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f98e2a2e-9ed3-4817-9d87-941d38018d67"></attrib>
+<attrib name="id" value="sec.33-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commissioner may, at any time&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_13c373cd-14f1-4ccf-9b42-169889ebda52" id="sec.33-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">furnish to an agency information obtained by the
+Commissioner in discharging functions under this Act with respect to a
+complaint against or relating to the agency, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_81d4f403-f861-4806-89b5-5002004c0379" id="sec.33-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">make such comments to the agency with respect to
+the complaint as the Commissioner thinks fit.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.33-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f52293a9-97b2-4269-b3e5-f3fc5172261a"></attrib>
+<attrib name="id" value="sec.33-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Commissioner may also furnish any or all of
+the information referred to in subsection (1) to any other agency, and may
+make such comments (if any) to that agency as the Commissioner considers
+appropriate, if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e0c8c896-f998-4a44-b9e9-b1d9b62384bb" id="sec.33-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Commissioner is satisfied that the
+information concerned is relevant to the functions, policies, procedures or
+practices of that other agency, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2c409641-c674-4b5c-b5e0-56d55b875f6a" id="sec.33-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the information does not disclose any personal
+information (within the meaning of either the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1998-133"><name emphasis="yes"><i>Privacy and
+Personal Information Protection Act 1998</i></name></legref> or the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-2002-071"><name
+emphasis="yes"><i>Health Records and Information Privacy Act
+2002</i></name></legref>).</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.34">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_39d3cb20-d138-4878-8d41-10ff872035da"></attrib>
+<attrib name="id" value="sec.34"></attrib></parentattributes>
+
+<head>
+<no>34</no><heading guid="_11f95679-9329-48ff-9f10-14288930fd4b"
+id="sec.34-he"><b>Ombudsman may furnish information to
+Commissioner</b></heading></head>
+
+<tier type="subclause" id="sec.34-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_59c8b82c-05d0-4c20-a317-9b7222d0c3fe"></attrib>
+<attrib name="id" value="sec.34-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Ombudsman may at any time furnish to the
+Commissioner information obtained by the Ombudsman in discharging functions
+under the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1974-068"><name emphasis="yes"><i>Ombudsman Act
+1974</i></name></legref> or any other Act if the Ombudsman is of the opinion
+that the information relates to conduct of an agency that could be the subject
+of a complaint to the Commissioner under this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.34-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_af4dc2c4-3c46-49bb-bc18-61ea1d99f62f"></attrib>
+<attrib name="id" value="sec.34-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">However, the Ombudsman must not disclose
+information that could not otherwise be disclosed under the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1974-068"><name
+emphasis="yes"><i>Ombudsman Act 1974</i></name></legref> or could not be
+obtained by the Commissioner under this or any other
+Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.35">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bc5b08c1-73fe-4f1d-95d3-b24fff1d19eb"></attrib>
+<attrib name="id" value="sec.35"></attrib></parentattributes>
+
+<head>
+<no>35</no><heading guid="_c1f26289-625e-49a7-8f6a-d3092828704e"
+id="sec.35-he"><b>Restriction on disclosure of information by
+Commissioner</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.35-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4d9f6576-5c77-4f21-9222-139472ab0ca4"></attrib>
+<attrib name="id" value="sec.35-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commissioner must not, in the exercise of
+functions under this Act, disclose any information for which there is (or for
+which an agency claims there is) an overriding public interest against
+disclosure, as provided by the GIPA Act, unless the disclosure is authorised
+under this Division.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.35-ssec.1A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a41825f8-8c59-4587-93da-cbd5ca05eb9f"></attrib>
+<attrib name="id" value="sec.35-ssec.1A"></attrib></parentattributes>
+
+<head>
+<no>(1A)</no></head>
+<block><txt break.before="1">Despite subsection (1), the Commissioner may, in
+the exercise of functions under this Act, disclose&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_52155d3d-05a2-4d74-874e-cab63092fc93" id="sec.35-ssec.1A-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">identifying information, if the information is
+disclosed for a reason mentioned in the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-2022-014"><name emphasis="yes"><i>Public Interest
+Disclosures Act 2022</i></name></legref>, section 64(2),
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7a09ab87-d1b7-410e-872b-cbc7cced5e34" id="sec.35-ssec.1A-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">information authorised or required to be
+disclosed by or under the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2022-014"><name emphasis="yes"><i>Public Interest Disclosures Act
+2022</i></name></legref>.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.35-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_100bd6da-e49b-4b0e-a2e8-9a49de34067e"></attrib>
+<attrib name="id" value="sec.35-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Despite section 91 of the GIPA Act, the
+Commissioner may disclose information to the Privacy Commissioner in the
+course of consulting with the Privacy Commissioner under section 94 of the
+GIPA Act before making a recommendation against a decision of an agency that
+there is an overriding public interest against disclosure of the
+information.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.35-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_67dcfe2a-6af7-4299-9578-65b81f3274b7"></attrib>
+<attrib name="id" value="sec.35-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_eff81f49-0ea1-4e5e-9d2a-6b9a0d970e08"
+id="sec.35-ssec.3-def.identifyinginformation"><b><i>identifying
+information</i></b></defterm> has the same meaning as in the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-2022-014"><name
+emphasis="yes"><i>Public Interest Disclosures Act 2022</i></name></legref>,
+section 64.</txt></block></deflist>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 35:</b> Am 2012 No 60,
+Sch 7; 2022 No 14, Sch 8.8[1] [2].</txt></content>
+</level>
+</level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_d6c27e2a-638a-4374-a4e1-54e175f7d07c"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_8b86405c-ebab-40eb-a442-563d04196b41"
+id="pt.4-he"><b>Reports by Commissioner</b></heading></head>
+
+<level type="clause" id="sec.36">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9ff6df66-d2ad-4674-a632-877908099e17"></attrib>
+<attrib name="id" value="sec.36"></attrib></parentattributes>
+
+<head>
+<no>36</no><heading guid="_35d07dd2-4d41-42c8-b7bb-4b5b9f104bd5"
+id="sec.36-he"><b>Annual report</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.36-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_36412092-77ab-4152-b5c0-03fc1d91bb21"></attrib>
+<attrib name="id" value="sec.36-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commissioner is, as soon as practicable after
+30 June in each year, to prepare a report of the Commissioner&#8217;s work and
+activities for the 12 months preceding that date and is to furnish the report
+to the Presiding Officer of each House of Parliament.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.36-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_731c25be-3b58-4071-89fa-4f22fb59e8d5"></attrib>
+<attrib name="id" value="sec.36-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A copy of the report is to be provided to the
+Minister.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.36-ssec.2A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1c0f7c53-2683-48cb-b59b-4fc51b504344"></attrib>
+<attrib name="id" value="sec.36-ssec.2A"></attrib></parentattributes>
+
+<head>
+<no>(2A)</no></head>
+<block><txt break.before="1">The report is to be included as part of the
+annual reporting information prepared for the Information and Privacy
+Commission under the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-2018-055"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.36-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_14bbf561-9008-427e-95e5-2583c25e8350"></attrib>
+<attrib name="id" value="sec.36-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Division 7.3 of the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-2018-055"><name
+emphasis="yes"><i>Government Sector Finance Act 2018</i></name></legref> is,
+in its application to the annual reporting information prepared for the
+Information and Privacy Commission, modified as follows&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_397bd67a-1ca6-4fb8-aa3a-01c3e7dd9f77" id="sec.36-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the annual reporting information is to be given
+to the Presiding Officer of each House of Parliament and not to the
+responsible Minister for the Information and Privacy
+Commission,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_95c55bca-a207-4105-83b5-e24b48ee7ae3" id="sec.36-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">provisions of that Act relating to the giving of
+annual reporting information to the responsible Minister for a GSF agency and
+to the public availability of annual reporting information do not apply to the
+Commissioner or the Information and Privacy
+Commission.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.36-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_56c866ea-0a97-4d77-b990-b6c9c0018648"></attrib>
+<attrib name="id" value="sec.36-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Section 39 (Procedure for reporting) applies to
+the annual reporting information for the Information and Privacy Commission as
+if it were a report made or furnished under this Part.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 36:</b> Am 2010 No 71,
+Sch 2 [4]&#8211;[7]; 2018 No 70, Sch 4.39[1] [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.37">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1b93a933-2551-4782-9b4c-8fbf038c3812"></attrib>
+<attrib name="id" value="sec.37"></attrib></parentattributes>
+
+<head>
+<no>37</no><heading guid="_db7b777f-5c1d-4fc1-a1b1-838255393642"
+id="sec.37-he"><b>Report on operation of GIPA Act</b></heading></head>
+
+<tier type="subclause" id="sec.37-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0dadb64c-c0b9-461b-8445-bd2fa20488c8"></attrib>
+<attrib name="id" value="sec.37-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commissioner is, as soon as practicable after
+30 June in each year, to prepare and publish a report on the operation of the
+GIPA Act (generally, across all agencies) for the 12 months preceding that
+date and is to furnish the report to the Presiding Officer of each House of
+Parliament.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.37-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fc397947-416b-4b95-878e-1f8ad30abbba"></attrib>
+<attrib name="id" value="sec.37-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A copy of the report is to be provided to the
+Minister.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.38">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_91fb8286-feae-40a8-ac9d-17a9b7eb3c51"></attrib>
+<attrib name="id" value="sec.38"></attrib></parentattributes>
+
+<head>
+<no>38</no><heading guid="_de820591-701c-4896-b688-6878cf49386c"
+id="sec.38-he"><b>Special report to Parliament</b></heading></head>
+
+<tier type="subclause" id="sec.38-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a0abad85-066c-4639-a779-dccc6fae8489"></attrib>
+<attrib name="id" value="sec.38-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commissioner may, at any time, make a special
+report on any matter relating to the functions of the Commissioner to the
+Presiding Officer of each House of Parliament and must also provide the
+Minister with a copy of the report.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.38-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_530e5515-a82b-4ef3-9ef0-4ae96c44b013"></attrib>
+<attrib name="id" value="sec.38-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Commissioner may include in a report under
+this section a recommendation that the report be made public
+immediately.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.39">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7df3c391-e97f-4f68-8d1c-2f7eb232771a"></attrib>
+<attrib name="id" value="sec.39"></attrib></parentattributes>
+
+<head>
+<no>39</no><heading guid="_1749d80f-2bdf-47ab-8bae-5ac0189bf1f2"
+id="sec.39-he"><b>Procedure for reporting</b></heading></head>
+
+<tier type="subclause" id="sec.39-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c25bde50-3c2c-482c-a653-c83c68fceb13"></attrib>
+<attrib name="id" value="sec.39-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no><heading guid="_d9aa5772-33f2-430b-ad8e-1cdf67445c5d"
+id="sec.39-ssec.1-he"><b>Tabling</b></heading></head>
+<block><txt break.before="1">A copy of a report made or furnished to the
+Presiding Officer of a House of Parliament under this Part must be laid before
+that House on the next sitting day of that House after it is received by the
+Presiding Officer.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.39-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dc27848e-3a4c-4d2b-9acf-53dab262236b"></attrib>
+<attrib name="id" value="sec.39-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no><heading guid="_b6b31301-1900-4fc7-9781-c51c1a9d531b"
+id="sec.39-ssec.2-he"><b>Public reports</b></heading></head>
+<block><txt break.before="1">If a report includes a recommendation by the
+Commissioner that the report be made public forthwith, the Presiding Officer
+of a House of Parliament may make it public whether or not that House is in
+session and whether or not the report has been laid before that
+House.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.39-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e3008926-c5a2-4482-ab41-11387c39e2b0"></attrib>
+<attrib name="id" value="sec.39-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no><heading guid="_94e1e3a3-2bf9-4d11-b24a-f5f00298ef05"
+id="sec.39-ssec.3-he"><b>Privileges and immunities</b></heading></head>
+<block><txt break.before="1">A report that is made public by the Presiding
+Officer of a House of Parliament before it is laid before that House attracts
+the same privileges and immunities as it would if it had been laid before that
+House.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.39-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_067ec9b9-ed24-4eaf-91fe-7a328970073d"></attrib>
+<attrib name="id" value="sec.39-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no><heading guid="_4f4969b7-9b6c-4736-be64-1beaed2a6e9e"
+id="sec.39-ssec.4-he"><b>Report procedures</b></heading></head>
+<block><txt break.before="1">A Presiding Officer need not inquire whether all
+or any conditions precedent have been satisfied as regards a report purporting
+to have been made or furnished in accordance with this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.39-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2d113d1c-ed36-4f99-89ae-1836ee81ef1e"></attrib>
+<attrib name="id" value="sec.39-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no><heading guid="_0b9e77f4-fe5f-481c-bdf8-671f228480f9"
+id="sec.39-ssec.5-he"><b>Reference to Presiding Officer</b></heading></head>
+<block><txt break.before="1">In this Part, a reference to a Presiding Officer
+of a House of Parliament is a reference to the President of the Legislative
+Council or the Speaker of the Legislative Assembly. If there is a vacancy in
+the office of President, the reference to the President is taken to be a
+reference to the Clerk of the Legislative Council and, if there is a vacancy
+in the office of Speaker, the reference to the Speaker is taken to be a
+reference to the Clerk of the Legislative Assembly.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_05b5fd61-261a-4721-95a1-b10d697ba03d"></attrib>
+<attrib name="id" value="pt.5"></attrib></parentattributes>
+
+<head>
+<no><b>Part 5</b></no><heading guid="_16eabdf8-87ec-4dc4-bb34-8ee97afd2697"
+id="pt.5-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.40">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b15f0880-5590-435f-9e2b-110b21c58ae9"></attrib>
+<attrib name="id" value="sec.40"></attrib></parentattributes>
+
+<head>
+<no>40</no><heading guid="_c2840644-fa16-4b74-9342-88a8ef6995a2"
+id="sec.40-he"><b>Ombudsman required to consult</b></heading></head>
+
+<tier type="subclause" id="sec.40-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3fff91c0-1e7e-46f8-9fec-ddf01d60ae6b"></attrib>
+<attrib name="id" value="sec.40-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If the Ombudsman receives a complaint under the
+<legref type="act" jurisd="NSW" check="unknown" refid="act-1974-068"><name
+emphasis="yes"><i>Ombudsman Act 1974</i></name></legref> about conduct of an
+agency that it appears could be the subject of a complaint to the Commissioner
+under this Act, the Ombudsman is to consult with the Commissioner on the
+matter.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.40-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5731592a-777f-4151-a3c6-3ce9d7e43717"></attrib>
+<attrib name="id" value="sec.40-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If the Commissioner decides to deal with the
+matter as a complaint under this Act&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a081a171-ddfe-4f8d-ac75-5d315ed75464" id="sec.40-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the complaint is (to the extent that it relates
+to conduct that could be the subject of a complaint under this Act) to be
+transferred to the Commissioner and dealt with as a complaint made to the
+Commissioner under this Act, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_65d18624-f7ff-4e58-9d12-b91051d38e46" id="sec.40-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the Ombudsman is not to investigate the matter
+(and is to discontinue any investigation already commenced) to the extent that
+it relates to conduct that could be the subject of a complaint under this
+Act.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.41">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e0e6c6e5-96ef-44f0-80cd-13725898d070"></attrib>
+<attrib name="id" value="sec.41"></attrib></parentattributes>
+
+<head>
+<no>41</no><heading guid="_c3fc7e09-9605-4f10-9372-286b1319cd68"
+id="sec.41-he"><b>Commissioner, officer or expert as
+witness</b></heading></head>
+
+<tier type="subclause" id="sec.41-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3c7b19ea-37b1-4132-afb8-3c75ffadc15f"></attrib>
+<attrib name="id" value="sec.41-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Neither the Commissioner nor a member of staff of
+the Commissioner is competent or compellable to give evidence or produce any
+document in any legal proceedings in respect of any information obtained by
+the Commissioner or member of staff in the course of the exercise of functions
+under this or any other Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.41-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_409b6b5c-5b36-4567-ab83-f4d4d8f71190"></attrib>
+<attrib name="id" value="sec.41-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subsection (1) does not apply to any legal
+proceedings&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6e7900d7-6def-48b9-a2cc-7ad3d92ceed6" id="sec.41-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">under section 27 (Limits on coercive powers
+because of privilege etc), 42 (Immunity of Commissioner and others) or 43
+(Offences), or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1c758805-5836-4480-8201-1b6ab688638e" id="sec.41-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">under Part 3 of the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1923-029"><name
+emphasis="yes"><i>Royal Commissions Act 1923</i></name></legref>,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c32307a1-dd19-45e6-944f-3ae760f02e0b" id="sec.41-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">under Part 4 of the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1983-090"><name
+emphasis="yes"><i>Special Commissions of Inquiry Act
+1983</i></name></legref>.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.41-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c0530578-2c0d-424a-adc8-b092842ec760"></attrib>
+<attrib name="id" value="sec.41-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This section applies to a person whose services
+are engaged under section 16 in the same way as it applies to a member of
+staff of the Commissioner.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.42">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_45bb8a12-6629-4d13-9738-2f85309a54ad"></attrib>
+<attrib name="id" value="sec.42"></attrib></parentattributes>
+
+<head>
+<no>42</no><heading guid="_c3a4850e-8e1d-4f35-8e00-95e95a820deb"
+id="sec.42-he"><b>Immunity of Commissioner and others</b></heading></head>
+
+<tier type="subclause" id="sec.42-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_64a93c7f-87a9-424e-99a3-ea238fea959b"></attrib>
+<attrib name="id" value="sec.42-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Neither the Commissioner nor a member of staff of
+the Commissioner is liable, whether on the ground of want of jurisdiction or
+on any other ground, to any civil or criminal proceedings in respect of any
+act, matter or thing done or omitted to be done for the purpose of executing
+this or any other Act unless the act, matter or thing was done, or omitted to
+be done, in bad faith.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.42-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_051a4791-6527-49f2-8fb0-d3793f546b8c"></attrib>
+<attrib name="id" value="sec.42-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Civil or criminal proceedings in respect of any
+act or omission referred to in subsection (1) cannot be brought against the
+Commissioner or a member of staff of the Commissioner without the leave of the
+Supreme Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.42-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_091c66dd-944a-4a0d-beae-4201caa313f2"></attrib>
+<attrib name="id" value="sec.42-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Supreme Court is not to grant leave under
+subsection (2) unless it is satisfied that there is substantial ground for the
+contention that the person to be proceeded against has acted, or omitted to
+act, in bad faith.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.43">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ea2b9b7a-6de8-4e18-9b2b-79c08f7d54d3"></attrib>
+<attrib name="id" value="sec.43"></attrib></parentattributes>
+
+<head>
+<no>43</no><heading guid="_6002fa47-228b-4ef0-b213-05dfe4abee59"
+id="sec.43-he"><b>Offences</b></heading></head>
+
+<tier type="subclause" id="sec.43-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a0b5c313-cc7a-4aa6-b7c6-9fb80c79a0d9"></attrib>
+<attrib name="id" value="sec.43-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person must not&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_627c1eaf-9a23-40be-aae3-ee4855b1d600" id="sec.43-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">without lawful excuse, wilfully obstruct, hinder
+or resist the Commissioner or a member of staff of the Commissioner in the
+exercise of functions under this or any other Act, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5a867a98-66ed-453d-9da8-862d4e7febe4" id="sec.43-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">without lawful excuse, refuse or wilfully fail to
+comply with any lawful requirement of the Commissioner under this or any other
+Act, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ebe84710-9d68-40e9-b97e-efd3e4154ac0" id="sec.43-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">wilfully make any false statement to or mislead,
+or attempt to mislead, the Commissioner or a member of staff of the
+Commissioner in the exercise of functions under this or any other
+Act.</txt></block></li></list>
+</block>
+
+<tier type="penalty" id="sec.43-ssec.1-pen">
+<parentattributes>
+<attrib name="guid" value="_ec465e1d-1a9c-4502-803b-244a4745e4a3"></attrib>
+<attrib name="id" value="sec.43-ssec.1-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Maximum penalty&#8212;10 penalty
+units.</txt></block></tier>
+</tier>
+
+
+<tier type="subclause" id="sec.43-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_717fb96d-4409-4d99-991c-4c9037ce9ed4"></attrib>
+<attrib name="id" value="sec.43-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person must not directly or
+indirectly&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bba2f70c-183b-4234-96f9-7eef6790c7bd" id="sec.43-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">falsely represent that he or she is the
+Commissioner or acting Commissioner, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cfa7e469-dc29-4cd2-8c06-2bd12853b30f" id="sec.43-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">falsely represent that he or she is a member of
+staff of the Commissioner.</txt></block></li></list>
+</block>
+
+<tier type="penalty" id="sec.43-ssec.2-pen">
+<parentattributes>
+<attrib name="guid" value="_c056b787-8b15-4ba3-bb4f-0fb394734e45"></attrib>
+<attrib name="id" value="sec.43-ssec.2-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Maximum penalty&#8212;10 penalty
+units.</txt></block></tier>
+</tier>
+
+
+<tier type="subclause" id="sec.43-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_68641212-b83d-47e4-b317-a68e3dde751d"></attrib>
+<attrib name="id" value="sec.43-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purposes of subsection (2), a person
+represents that a state of affairs exists if the person does or says anything,
+or causes, permits or suffers anything to be done or said, whereby it is
+represented, or whereby a belief may be induced, that the state of affairs
+exists.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.43-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c94af743-9143-4a63-ab6a-1cf55384c3b1"></attrib>
+<attrib name="id" value="sec.43-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A person who uses, causes, inflicts or procures
+any violence, punishment, damage, loss or disadvantage to any person for or on
+account of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_75da22ae-c1e2-4649-a568-ca0d9e57e659" id="sec.43-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">his or her making a complaint to the
+Commissioner, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_53a0d182-f96e-474f-a305-1538520dcbe1" id="sec.43-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">his or her assisting the Commissioner,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e449f393-beba-4230-9c42-bbc012e3db0e" id="sec.43-ssec.4-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any evidence given by him or her to the
+Commissioner,</txt></block></li></list>
+
+<txt break.before="1">is guilty of an indictable offence.</txt></block>
+
+<tier type="penalty" id="sec.43-ssec.4-pen">
+<parentattributes>
+<attrib name="guid" value="_31254f12-89c1-4c06-97aa-b612936a5913"></attrib>
+<attrib name="id" value="sec.43-ssec.4-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Maximum penalty&#8212;200 penalty units or
+imprisonment for 5 years, or both.</txt></block></tier>
+</tier>
+
+
+<tier type="subclause" id="sec.43-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4e126a7e-ebb3-4efe-b77f-de75cb050562"></attrib>
+<attrib name="id" value="sec.43-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">An employer who dismisses any employee from his
+or her employment, or prejudices any employee in his or her employment, for or
+on account of the employee assisting the Commissioner is guilty of an
+indictable offence.</txt></block>
+
+<tier type="penalty" id="sec.43-ssec.5-pen">
+<parentattributes>
+<attrib name="guid" value="_4a1b2c53-d85b-4e21-9b67-23ddd4346f50"></attrib>
+<attrib name="id" value="sec.43-ssec.5-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Maximum penalty&#8212;200 penalty units or
+imprisonment for 5 years, or both.</txt></block></tier>
+</tier>
+
+
+<tier type="subclause" id="sec.43-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ae70c2e9-c766-41fd-837e-e16f6ef86d40"></attrib>
+<attrib name="id" value="sec.43-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">In any proceedings for an offence against
+subsection (5), it lies on the employer to prove that any employee shown to
+have been dismissed or prejudiced in his or her employment was so dismissed or
+prejudiced for some reason other than the reasons mentioned in subsection
+(5).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.43-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c17f4d8d-c96b-46e6-84fa-ff631770e041"></attrib>
+<attrib name="id" value="sec.43-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">In this section, a reference to a person
+assisting the Commissioner is a reference to a person who&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_42d4846d-0a4e-4f61-b238-1fffe281895c" id="sec.43-ssec.7-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">has appeared, is appearing or is to appear as a
+witness before the Commissioner, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5e62a5dd-fc0d-45f6-b166-0954958ceeea" id="sec.43-ssec.7-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">has complied with or proposes to comply with a
+requirement under section 25 (Agencies to give information etc),
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6f268d02-f262-4f53-a648-438cd84b2c94" id="sec.43-ssec.7-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">has assisted, is assisting or is to assist the
+Commissioner in some other manner.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.44">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_442e94e9-8882-4c3b-b0e0-a86a979bc2a6"></attrib>
+<attrib name="id" value="sec.44"></attrib></parentattributes>
+
+<head>
+<no>44</no><heading guid="_9e4da195-f936-45b6-bd11-8d0fdd5e2a91"
+id="sec.44-he"><b>Oversight of Commissioner&#8217;s functions by Joint
+Committee</b></heading></head>
+
+<tier type="subclause" id="sec.44-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a57779fa-2516-4d5b-a550-69351e7af124"></attrib>
+<attrib name="id" value="sec.44-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Joint Committee has the following functions
+under this Act&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c3972e25-79b5-4618-bf3e-cb0ae13d148e" id="sec.44-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to monitor and review the exercise by the
+Commissioner of the Commissioner&#8217;s functions,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2f0e3844-17e4-4c83-9002-a9dc362d8a10" id="sec.44-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to report to both Houses of Parliament, with such
+comments as it thinks fit, on any matter appertaining to the Commissioner or
+connected with the exercise of the Commissioner&#8217;s functions to which, in
+the opinion of the Joint Committee, the attention of Parliament should be
+directed,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_02fd131c-ce26-4160-b257-b4a4c23f67b0" id="sec.44-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to examine each annual and other report of the
+Commissioner and report to both Houses of Parliament on any matter appearing
+in, or arising out of, any such report,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_06b8ebe7-afbd-4c3c-9fd2-5db85461febb" id="sec.44-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to recommend to both Houses of Parliament any
+changes to the functions of the Commissioner that the Joint Committee thinks
+desirable,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d5f033c5-c8ac-4797-8cc1-462161695df7" id="sec.44-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">to inquire into any question in connection with
+its functions which is referred to it by both Houses of Parliament, and report
+to both Houses on that question.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.44-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4892f69f-f09e-4c88-a7ef-980b0c5a1745"></attrib>
+<attrib name="id" value="sec.44-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Nothing in this section authorises the Joint
+Committee&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d73fad45-dcfb-4ce9-b692-7eb15ae88e01" id="sec.44-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to investigate a matter relating to any
+particular conduct, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_66cc18b6-04b6-4106-ad30-fb24959788c0" id="sec.44-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to reconsider any decision to investigate, not to
+investigate or to discontinue investigation of any particular matter,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f8ad0ded-9d9b-442d-9a84-34256ac687f6" id="sec.44-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to reconsider the findings, recommendations or
+other decisions of the Commissioner in relation to any particular
+matter.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.44-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0d400600-91b7-455d-a140-24cc2c844e44"></attrib>
+<attrib name="id" value="sec.44-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The provisions of Part 4A of the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1974-068"><name
+emphasis="yes"><i>Ombudsman Act 1974</i></name></legref> apply in relation to
+the Joint Committee&#8217;s functions under this Act in the same way as they
+apply in relation to the Joint Committee&#8217;s functions under that
+Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.45">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_12ee658e-53fb-4457-a93c-a414b90d101d"></attrib>
+<attrib name="id" value="sec.45"></attrib></parentattributes>
+
+<head>
+<no>45</no><heading guid="_915edef0-106b-41c1-953f-8ebf8425d18e"
+id="sec.45-he"><b>Personal liability of Commissioner and
+others</b></heading></head>
+<block><txt break.before="1">A matter or thing done (or omitted to be done) by
+the Commissioner, a member of staff of the Commissioner or a person acting
+under the direction of the Commissioner does not, if the matter or thing was
+done (or omitted to be done) in good faith for the purpose of executing this
+Act or any other Act, subject the Commissioner, the member of staff or the
+person so acting personally to any action, liability, claim or
+demand.</txt></block></level>
+
+
+<level type="clause" id="sec.46">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cd7932c0-d78d-4358-a75e-4a97cf3b40a5"></attrib>
+<attrib name="id" value="sec.46"></attrib></parentattributes>
+
+<head>
+<no>46</no><heading guid="_37d30a03-2b58-457c-9c78-dcc3994c0586"
+id="sec.46-he"><b>Proceedings for offences</b></heading></head>
+
+<tier type="subclause" id="sec.46-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d360c622-7a0f-4090-9d37-e52ef42cf3cc"></attrib>
+<attrib name="id" value="sec.46-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Except where otherwise expressly provided by this
+Act, proceedings for an offence against this Act are to be dealt with
+summarily before the Local Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.46-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_43f1e2b1-7384-4bdc-961c-3a3e42557b6a"></attrib>
+<attrib name="id" value="sec.46-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If an offence against this Act is an indictable
+offence, the Local Court may nevertheless hear and determine the proceedings
+in respect of such an offence if the court is satisfied that it is proper to
+do so and the defendant and prosecutor consent.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.46-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e8f70b29-e3e2-4238-8e8d-173db4fb2599"></attrib>
+<attrib name="id" value="sec.46-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">If, in accordance with subsection (2), the Local
+Court convicts a person of such an offence, the maximum penalty that the court
+may impose is&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d27f63f6-3d5e-4a2c-8676-68d86bae77ce" id="sec.46-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in the case of an individual&#8212;the smaller
+of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6b0da5ca-611f-4744-9258-a9a31e7367c7"
+id="sec.46-ssec.3-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">a fine of 50 penalty units or imprisonment for 2
+years, or both, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_13736577-377a-4a39-a9df-b759b196dc81"
+id="sec.46-ssec.3-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the maximum penalty otherwise applicable to the
+offence when committed by an individual, or</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_09721ac8-c5f7-4d98-8c90-a667765099b6" id="sec.46-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in the case of a corporation&#8212;the smaller
+of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fb5005cc-89ec-48e5-8de9-76c4d22d8278"
+id="sec.46-ssec.3-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">a fine of 100 penalty units,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7ae3579f-70be-4ca8-babb-6d2e33dcdd0f"
+id="sec.46-ssec.3-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the maximum penalty otherwise applicable to the
+offence when committed by a corporation.</txt></block></li></list>
+</block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 46:</b> Am 2009 No 106,
+Sch 4.17.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.47">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_75e76269-eaa2-49cf-91cf-f78b6859783e"></attrib>
+<attrib name="id" value="sec.47"></attrib></parentattributes>
+
+<head>
+<no>47</no><heading guid="_f8fb2690-d3c4-4178-83f9-392b77abbf6e"
+id="sec.47-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.48">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2ff7e87e-4ed2-43b4-b3d7-daa83b6a8981"></attrib>
+<attrib name="id" value="sec.48"></attrib></parentattributes>
+
+<head>
+<no>48</no><heading guid="_b6d78e31-7b10-47c4-a55a-e3635bdefdfe"
+id="sec.48-he"><b>Review of Act</b></heading></head>
+
+<tier type="subclause" id="sec.48-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ceca3bd6-5853-43b8-9261-0d9482e3872b"></attrib>
+<attrib name="id" value="sec.48-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister is to review this Act to determine
+whether the policy objectives of the Act remain valid and whether the terms of
+the Act remain appropriate for securing those
+objectives.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.48-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c7c62a93-c2fe-4b6b-a2ff-63c8375ec01e"></attrib>
+<attrib name="id" value="sec.48-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The review is to be undertaken as soon as
+possible after the period of 5 years from the date of assent to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.48-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_250a0c26-6e18-4ecd-9cc9-43bcde69d8f8"></attrib>
+<attrib name="id" value="sec.48-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A report on the outcome of the review is to be
+tabled in each House of Parliament within 12 months after the end of the
+period of 5 years.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1" status="repealed">
+<parentattributes>
+<attrib name="status" value="repealed"></attrib>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b97bf7c7-4bf3-41ac-ba8c-43cee1183227"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Rep 1987 No
+15, sec 30C.</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_5ede6fef-5027-4e1f-a29b-08eae7784e6d"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_65136d77-394e-447e-ae95-a8ab3e0aff41"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2009-053"><name emphasis="yes"><i>Government Information
+(Information Commissioner) Act 2009</i></name> No 53</legref>. Assented to
+26.6.2009. Date of commencement, 17.7.2009, sec 2 and 2009 (329) LW 17.7.2009.
+This Act has been amended as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_f5d5e626-416a-48d7-bcf4-0ded11bc144c" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_3b480d72-8fb4-4846-a6b8-39c4a359f6db" id="ed-tbl-tblr">
+<entry colname="1" guid="_978272a3-63ce-4515-9a32-9fcb87817b79"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>2009</b></txt></entry>
+<entry colname="2" guid="_e0966996-0392-44c8-adf1-24ba90c8033a"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 106</txt></entry>
+<entry colname="3" guid="_28809fdc-cb3e-47c3-95f6-f7307d9d8cb8"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2009-106"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2009</i></name></legref>. Assented to
+14.12.2009.</txt>
+<txt break.before="1">Date of commencement of Sch 4, 8.1.2010, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_a2eebd09-ea76-4c48-9473-285cba9dc3c2" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_b1cb8cbb-8d66-497c-b7da-ec3b74594918"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>2010</b></txt></entry>
+<entry colname="2" guid="_c75a7f5c-2028-4f49-aa7b-1a0b85d137b7"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 71</txt></entry>
+<entry colname="3" guid="_e1b21682-ed8a-4de5-a788-5a3e912d2c1c"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2010-071"><name emphasis="yes"><i>Privacy and Government
+Information Legislation Amendment Act 2010</i></name></legref>. Assented to
+28.9.2010.</txt>
+<txt break.before="1">Date of commencement, 1.1.2011, sec 2 and 2010 (657) LW
+3.12.2010.</txt></block></entry></row>
+
+
+<row guid="_a22933ae-c3bd-45a3-aff6-cb2d5cf76ee2" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_7ba0c34c-c45d-4cb2-9d0c-9d984f7434d9"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>2012</b></txt></entry>
+<entry colname="2" guid="_1b7ae2a7-3bd2-42fa-85e3-74de156312fd"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 60</txt></entry>
+<entry colname="3" guid="_af596aa1-f809-4a73-bd7d-a944913d9a51"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2012-060"><name emphasis="yes"><i>Courts and Other Legislation
+Amendment Act 2012</i></name></legref>. Assented to 10.9.2012.</txt>
+<txt break.before="1">Date of commencement of Sch 7, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_8bc97aab-18ed-495c-8da7-9f7ed287cd1b" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_e60cdd5f-d554-428b-8ab3-357f999b46b4"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>2014</b></txt></entry>
+<entry colname="2" guid="_2a50f502-caaa-4fa4-8a89-9af64b9d7aae"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 33</txt></entry>
+<entry colname="3" guid="_02dd8207-72be-4d8e-a71d-e0d3acd06f98"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2014-033"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2014</i></name></legref>. Assented to 24.6.2014.</txt>
+<txt break.before="1">Date of commencement of Sch 3.7, 4.7.2014, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_b3fed2f9-7aee-4b59-adb9-dabcd8a60d9e" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_cef9e70e-d167-413f-983b-a3853e4001ff"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>2015</b></txt></entry>
+<entry colname="2" guid="_73fee58b-136a-4b9e-b648-55743cec5f12"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 15</txt></entry>
+<entry colname="3" guid="_8be4074f-9aec-4c5d-8f5d-b2de4ef639d2"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2015-015"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2015</i></name></legref>. Assented to 29.6.2015.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 15.7.2015, sec 2
+(3).</txt></block></entry></row>
+
+
+<row guid="_c6f8c2a5-c94b-4277-a653-6f63f54b2e63" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_05736471-a2ee-4b24-af9b-5a5db595fa70"
+id="ed-tbl-tblr-oc.6-tble1"><txt break.before="1"><b>2016</b></txt></entry>
+<entry colname="2" guid="_9c9f7e6c-fbf1-4f38-8dca-a24f97ddaa67"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">No 61</txt></entry>
+<entry colname="3" guid="_7fb26f0d-63fc-4a72-9dde-c3bae7643d90"
+id="ed-tbl-tblr-oc.6-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2016-061"><name emphasis="yes"><i>Law Enforcement Conduct
+Commission Act 2016</i></name></legref>. Assented to 14.11.2016.</txt>
+<txt break.before="1">Date of commencement of Sch 6.21, 1.7.2017, sec 2 (1)
+and 2017 (256) LW 16.6.2017.</txt></block></entry></row>
+
+
+<row guid="_441d80af-629a-421c-8662-8f0b41785573" id="ed-tbl-tblr-oc.7">
+<entry colname="1" guid="_7a16e30e-59eb-4d19-946d-cdcc32601ef6"
+id="ed-tbl-tblr-oc.7-tble1"><txt break.before="1"><b>2018</b></txt></entry>
+<entry colname="2" guid="_e005b897-6b2c-4533-9989-3cef49c5e194"
+id="ed-tbl-tblr-oc.7-tble2"><txt break.before="1">No 70</txt></entry>
+<entry colname="3" guid="_33104d4a-0a9d-4f09-9b42-15416c80a13f"
+id="ed-tbl-tblr-oc.7-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2018-070"><name emphasis="yes"><i>Government Sector Finance
+Legislation (Repeal and Amendment) Act 2018</i></name></legref>. Assented to
+22.11.2018.</txt>
+<txt break.before="1">Date of commencement of Sch 4.39, 1.7.2023, sec 2(1) and
+2023 (91) LW 2.3.2023.</txt></block></entry></row>
+
+
+<row guid="_947e56c4-dcf4-47e4-a369-766356979306" id="ed-tbl-tblr-oc.8">
+<entry colname="1" guid="_d011c8b2-7dd6-4456-87be-44676648b2cb"
+id="ed-tbl-tblr-oc.8-tble1"><txt break.before="1"><b>2019</b></txt></entry>
+<entry colname="2" guid="_d7f360c6-e57a-4025-bfd6-70fc77c24553"
+id="ed-tbl-tblr-oc.8-tble2"><txt break.before="1">No 25</txt></entry>
+<entry colname="3" guid="_e9e3b098-a8c6-43a4-a6b6-6cf79a3d9ac9"
+id="ed-tbl-tblr-oc.8-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2019-025"><name emphasis="yes"><i>Children&#8217;s Guardian Act
+2019</i></name></legref>. Assented to 4.12.2019.</txt>
+<txt break.before="1">Date of commencement of Sch 5.20, 1.3.2020, sec
+2(1).</txt></block></entry></row>
+
+
+<row guid="_3794ad03-e5a2-4606-9d1b-68ceb1c47a0c" id="ed-tbl-tblr-oc.9">
+<entry colname="1" guid="_0c852e36-6571-4ed4-b076-581ea8dbf612"
+id="ed-tbl-tblr-oc.9-tble1"><txt break.before="1"><b>2022</b></txt></entry>
+<entry colname="2" guid="_e0c6dff0-a44b-4943-9100-a5de2608865c"
+id="ed-tbl-tblr-oc.9-tble2"><txt break.before="1">No 14</txt></entry>
+<entry colname="3" guid="_029d2269-8860-45b9-a05d-1f96dd234ea5"
+id="ed-tbl-tblr-oc.9-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2022-014"><name emphasis="yes"><i>Public Interest Disclosures Act
+2022</i></name></legref>. Assented to 13.4.2022.</txt>
+<txt break.before="1">Date of commencement, 1.10.2023, sec 2 and 2023 (11) LW
+20.1.2023.</txt></block></entry></row>
+
+
+<row guid="_0aa8571b-4063-49bd-a2a7-ff7dea00d0d7" id="ed-tbl-tblr-oc.10">
+<entry colname="1" guid="_19060bc8-6b4b-46c6-a51d-0e2dcbac63f3"
+id="ed-tbl-tblr-oc.10-tble1"><txt break.before="1"><b>2023</b></txt></entry>
+<entry colname="2" guid="_6257a91d-10c5-4c2c-85ee-aa2bd2d0f89e"
+id="ed-tbl-tblr-oc.10-tble2"><txt break.before="1">No 35</txt></entry>
+<entry colname="3" guid="_b9777220-3208-463e-a8ab-51e7493350a0"
+id="ed-tbl-tblr-oc.10-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2023-035"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2023</i></name></legref>. Assented to
+30.10.2023.</txt>
+<txt break.before="1">Date of commencement of Sch 4, assent, sec
+2(c).</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">This Act has been amended by sec 30C of the
+<legref type="act" jurisd="NSW" check="unknown" refid="act-1987-015"><name
+emphasis="yes"><i>Interpretation Act 1987</i></name> No
+15</legref>.</txt></block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_b0b45a29-296a-471e-8c42-19f5e382ea04"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_40a29cac-63cc-4976-9cfa-3c314768c52f" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_a3acd5e0-873c-4893-bb38-760e5f5193e8" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_790db601-57ef-4f75-bbdb-1ec2c55da12a"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_287c3180-4dd6-40ea-8992-40818f740d60"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 2010 No 71, Sch 2 [1];
+2016 No 61, Sch 6.21 [1].</txt></entry></row>
+
+
+<row guid="_04f4e0d4-57f3-4bfa-8de7-97e4e3a487a3" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_11d1339e-c885-489a-b2c6-ef72b1a7e5a3"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_ef24747a-bfd3-4c02-a0fe-ef2dcef5b34a"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 2010 No 71, Sch 2
+[2].</txt></entry></row>
+
+
+<row guid="_056390d9-54b8-460f-bb3a-e8daf4203034" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_e8aad26a-33cd-4d9e-a39a-93d55fb40ec4"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 10</txt></entry>
+<entry colname="2" guid="_c9b39474-173f-4bb0-b1ae-9200db6c85b7"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Subst 2014 No 33, Sch
+3.7 [1].</txt></entry></row>
+
+
+<row guid="_f853cef9-238b-4e6e-9e69-c90e6271ff44" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_72497804-9054-44c5-9c7c-fc8bbcc2eec9"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 11</txt></entry>
+<entry colname="2" guid="_1b489ccc-5e90-4b84-8f0c-7e63f51372bf"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Am 2010 No 71, Sch 2
+[3].</txt></entry></row>
+
+
+<row guid="_079058aa-6203-47a9-8006-8243e0d24e40" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_6c145901-0967-4921-8e33-a7e780ddb492"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 12</txt></entry>
+<entry colname="2" guid="_e9319713-d5e7-449f-b430-496f0b7b5a80"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Subst 2014 No 33, Sch
+3.7 [2].</txt></entry></row>
+
+
+<row guid="_b0ce3ca8-5e91-43f5-aabc-b41a81168f10" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_f8336fb6-2da3-44a1-ab7c-74a0bbc8ac8d"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 24</txt></entry>
+<entry colname="2" guid="_470f233f-f205-416b-87a1-9354830ca421"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Am 2014 No 33, Sch 3.7
+[3]; 2023 No 35, Sch 4.12[1].</txt></entry></row>
+
+
+<row guid="_5569b720-b952-4204-9be4-97fa6d553eb2" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_3097947b-2959-4cbb-9548-fa89218ed1b2"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 30</txt></entry>
+<entry colname="2" guid="_0e119f0a-bd2d-48d0-9136-f733e8d5b451"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Am 2015 No 15, Sch
+3.29; 2023 No 35, Sch 4.12[2].</txt></entry></row>
+
+
+<row guid="_7933afb0-08ae-48b4-b798-cbdfda9addd9" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_0430eae3-13f4-4a06-862d-6527c34b8c9f"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sec 31A</txt></entry>
+<entry colname="2" guid="_9297219f-322f-458d-9b23-6c07c67cfeb8"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Ins 2019 No 25, Sch
+5.20.</txt></entry></row>
+
+
+<row guid="_fe662716-445f-449a-90ea-18eff50a6905" id="ed-tbl-oc.2-tblr-oc.9">
+<entry colname="1" guid="_355ecdeb-71fe-44c7-bdc0-08b3935aa1f8"
+id="ed-tbl-oc.2-tblr-oc.9-tble1"><txt break.before="1">Sec 32</txt></entry>
+<entry colname="2" guid="_bd0b9504-5cbe-4821-a228-94d86409a76a"
+id="ed-tbl-oc.2-tblr-oc.9-tble2"><txt break.before="1">Am 2016 No 61, Sch 6.21
+[2] [3].</txt></entry></row>
+
+
+<row guid="_fa9a7e5d-bbfa-4f5a-8a0e-65a780152556"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry colname="1" guid="_749a139d-7505-474b-bb6c-8ff25b58d3dd"
+id="ed-tbl-oc.2-tblr-oc.10-tble1"><txt break.before="1">Sec 35</txt></entry>
+<entry colname="2" guid="_1d833b8e-fb98-4985-8fce-c5f47e9042e4"
+id="ed-tbl-oc.2-tblr-oc.10-tble2"><txt break.before="1">Am 2012 No 60, Sch 7;
+2022 No 14, Sch 8.8[1] [2].</txt></entry></row>
+
+
+<row guid="_47748e73-ab75-40a7-9566-c7414aaa62b4"
+id="ed-tbl-oc.2-tblr-oc.11">
+<entry colname="1" guid="_9719d69a-f8d4-44f1-9b3e-82b57e4bd59d"
+id="ed-tbl-oc.2-tblr-oc.11-tble1"><txt break.before="1">Sec 36</txt></entry>
+<entry colname="2" guid="_f21afef9-a749-41a3-8cf3-47ae2e93bae1"
+id="ed-tbl-oc.2-tblr-oc.11-tble2"><txt break.before="1">Am 2010 No 71, Sch 2
+[4]&#8211;[7]; 2018 No 70, Sch 4.39[1] [2].</txt></entry></row>
+
+
+<row guid="_218be450-ebe0-4da1-90f9-47d4b18f6adc"
+id="ed-tbl-oc.2-tblr-oc.12">
+<entry colname="1" guid="_c531ef97-b08e-4fc3-a15d-20eeb3918d3c"
+id="ed-tbl-oc.2-tblr-oc.12-tble1"><txt break.before="1">Sec 46</txt></entry>
+<entry colname="2" guid="_b771854e-8bfd-4c73-a01b-03a8e705707e"
+id="ed-tbl-oc.2-tblr-oc.12-tble2"><txt break.before="1">Am 2009 No 106, Sch
+4.17.</txt></entry></row>
+
+
+<row guid="_923b1f84-da0d-4809-a857-68e080978603"
+id="ed-tbl-oc.2-tblr-oc.13">
+<entry colname="1" guid="_09643d11-a99f-4159-8910-5df3af46e4d1"
+id="ed-tbl-oc.2-tblr-oc.13-tble1"><txt break.before="1">Sch 1</txt></entry>
+<entry colname="2" guid="_305aeba8-09b5-40dc-9e98-29f05d1fb61b"
+id="ed-tbl-oc.2-tblr-oc.13-tble2"><txt break.before="1">Rep 1987 No 15, sec
+30C.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

@@ -1,0 +1,4024 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1973-034"
+title="Zoological Parks Board Act 1973"
+year="1973"
+number="34"
+enact.or.made.date="1973-05-02"
+first.valid.date="2026-03-28"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1973</metacontent>
+<metacontent class="year.assent">1973</metacontent>
+<metacontent class="publication.date">2026-03-28</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2025-061</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1973-034</metacontent>
+<metacontent
+class="version.desc.id">2961be2f-5d19-4749-a2a3-7a33b9aa558d</metacontent>
+<metacontent
+class="version.series.id">46154bdc-6a56-4746-8c76-26e31e865f71</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Zoological Parks Board Act 1973"></attrib>
+<attrib name="year.passed" value="1973"></attrib>
+<attrib name="year.assent" value="1973"></attrib>
+<attrib name="no" value="34"></attrib>
+<attrib name="publication.date" value="2026-03-28"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2025-061"></attrib>
+<attrib name="first.valid.date" value="2026-03-28"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1973-05-02"></attrib>
+<attrib name="id" value="act-1973-034"></attrib>
+<attrib name="version.desc.id"
+value="2961be2f-5d19-4749-a2a3-7a33b9aa558d"></attrib>
+<attrib name="version.series.id"
+value="46154bdc-6a56-4746-8c76-26e31e865f71"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_704ca16f-4a6e-4d1a-854e-2bdda55ec52b"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_e6fa29ae-3e33-44a6-9e68-4296027d3bd3"
+id="cd-status-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_bcc8c7d1-ce67-4838-abad-38cc7e9fc048"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to constitute the Zoological Parks Board
+of New South Wales and to confer and impose on that Board powers, authorities,
+duties and functions relating to the establishment, maintenance and control of
+zoological parks; to repeal the <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Taronga Zoological Park Act
+1956</i></name></legref> and certain other Acts; to amend the <legref
+jurisd="NSW" type="act" check="unknown" refid="act-1919-041"><name
+emphasis="yes"><i>Local Government Act 1919</i></name></legref> and the
+<legref jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Closer
+Settlement and Public Reserves Fund Act 1970</i></name></legref>; and for
+purposes connected therewith.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_5270c60e-a439-4fe0-a9ac-e706aeb8ff4d"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_77a9504c-6b8b-4505-b59b-f30539fca63a"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_78ba167a-8980-49de-b99a-35679c86bec1"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_ab594b12-cf16-4ba4-bfae-42616306f57f"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act may be cited as the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1973-034"><name
+emphasis="yes"><i>Zoological Parks Board Act
+1973</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_83e2da38-1101-47d6-8751-654f15be0d8d"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_72a99399-9954-4aae-b31b-41c422486937"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act shall commence on such day as may be
+appointed by the Governor in respect thereof and as may be notified by
+proclamation published in the Gazette.</txt></block></level>
+
+
+<level type="clause" id="sec.3" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_258776c6-4e68-49cc-b5cf-543e2e012b13"></attrib>
+<attrib name="id" value="sec.3"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>3</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Am GG No 9 of
+20.1.1984, p 172. Rep 1999 No 31, Sch 5.116.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d9d4d85b-75f9-47da-8083-87aa09539cda"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_45c1ac26-e3f7-4b51-be4e-377f5e19b59e"
+id="sec.4-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ecd637ea-604c-435d-949a-e2745f77147c"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act, except in so far as the context or
+subject-matter otherwise indicates or requires&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ec162666-3cd5-459a-a9af-dad78aae7c95"
+id="sec.4-ssec.1-def.animal"><b><i>animal</i></b></defterm> includes any bird,
+fish, reptile or other living zoological specimen.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_4f32506e-9503-4afe-94ae-98dd2dadb7ce"
+id="sec.4-ssec.1-def.Board"><b><i>Board</i></b></defterm> means the Zoological
+Parks Board of New South Wales constituted under this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_570d219c-ad80-4dfd-adbe-794974d00c0d"
+id="sec.4-ssec.1-def.Chairperson"><b><i>Chairperson</i></b></defterm> means
+the Chairperson of the Board.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9b13cb26-679d-477f-938a-d289ae1906bb"
+id="sec.4-ssec.1-def.DeputyChairperson"><b><i>Deputy
+Chairperson</i></b></defterm> means the Deputy Chairperson of the
+Board.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9ab91094-2f0e-4bfb-b968-7baf063ce22b"
+id="sec.4-ssec.1-def.member"><b><i>member</i></b></defterm> means member of
+the Board.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a3b8cb4d-fe30-4efa-880c-922db5102fb3"
+id="sec.4-ssec.1-def.regulations"><b><i>regulations</i></b></defterm> means
+regulations under this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b7047d8b-b311-445d-85b2-a2d5265fe49b"
+id="sec.4-ssec.1-def.zoologicalpark"><b><i>zoological park</i></b></defterm>
+means a zoological garden, aquarium or similar institution in which animals
+are kept or displayed for conservation, scientific, educational, cultural or
+recreational purposes.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c99297a3-b266-4313-b136-e98056c6aa04"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 1992 No 44,
+Sch 1 (1); 2007 No 27, Sch 2.65.</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_89c3d8fc-8c9f-46b5-b7e2-d4fcc349bdd3"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_07e45097-c729-4fa7-9667-5ceac5370141"
+id="pt.2-he"><b>Constitution of the Zoological Parks Board of New South
+Wales</b></heading></head>
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c42c8139-c0bc-46c0-afa3-908266f031c3"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_b4243d68-30d4-4fc6-8452-1d5b52017f23"
+id="sec.5-he"><b>Constitution of Board</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6b8882df-0306-4520-890e-3475dc453278"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There is hereby constituted a corporation under
+the corporate name of the &#8220;Zoological Parks Board of New South
+Wales&#8221;.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.5-ssec.1A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_069fa5cd-229b-4a86-9e86-6a72f8f6565e"></attrib>
+<attrib name="id" value="sec.5-ssec.1A"></attrib></parentattributes>
+
+<head>
+<no>(1A)</no></head>
+<block><txt break.before="1">The Board may also be called the Taronga
+Conservation Society Australia and the use of that name has the same effect
+for all purposes as the use of its corporate name.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fffcd28f-a6ac-4e4d-ac30-bd7afc21214a"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Board&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a91878c6-5455-43f4-8cc4-626fb4449316" id="sec.5-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">shall have and may exercise and perform the
+powers, authorities, duties and functions conferred or imposed on it by or
+under this or any other Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8d7fabbd-8d28-46cd-8209-0d3964804b3b" id="sec.5-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">shall, for the purposes of any Act, be deemed to
+be a statutory body representing the Crown, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2f63b29e-5820-4f7b-b214-88f0ab882af5" id="sec.5-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">shall, in the exercise of its powers,
+authorities, duties and functions (except in relation to the contents of a
+recommendation or report made by it to the Minister), be subject to the
+control and direction of the Minister.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2cdfbb2f-10a7-4522-bcf3-0530eb69f782"></attrib>
+<attrib name="id" value="sec.5-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Persons may be employed in the Public Service
+under the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-2013-040"><name emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref> to enable the Board to exercise its
+functions.</txt></block>
+<note type="legtext" guid="_a0d0754d-5eb5-47c9-99b3-e50b0d91b261"
+id="sec.5-ssec.3-note"><heading guid="_18174d6c-06cb-48d2-b924-e69c25e25ef7"
+id="sec.5-ssec.3-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">Section 59 of the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-2013-040"><name emphasis="yes"><i>Government Sector
+Employment Act 2013</i></name></legref> provides that the persons so employed
+(or whose services the Board makes use of) may be referred to as officers or
+employees, or members of staff, of the Board. Section 47A of the <legref
+jurisd="NSW" type="act" check="unknown" refid="act-1902-032"><name
+emphasis="yes"><i>Constitution Act 1902</i></name></legref> precludes the
+Board from employing staff.</txt></block></note>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 5:</b> Am 2006 No 2,
+Sch 4.83 [1]; 2008 No 62, Sch 1.42; 2014 No 33, Sch 3.36 [1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b724327a-f7c0-4f10-b0d6-dfefa01aca13"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_87213717-9f18-46e8-b2eb-b73ec80467a9"
+id="sec.6-he"><b>Appointment of members</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dca19e29-0c30-4c22-94bc-fb290b634de6"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Board is to consist of 10 members appointed
+by the Minister, of whom&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_12f3d08b-526f-484b-b963-969c44de2305" id="sec.6-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">5 are to be persons who have, in the opinion of
+the Minister, qualifications, knowledge, expertise or experience appropriate
+to the powers, authorities, duties and functions of the Board,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2459545f-9544-4a49-8644-3527729ecc4e" id="sec.6-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">one is to be a person who has, in the opinion of
+the Minister, expertise in zoology, veterinary science or animal welfare, or
+in research relating to any one or more of those fields,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_872c4f2b-67c7-48a2-9498-ee44643cc120" id="sec.6-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">one is to be chosen by the Minister from a panel
+of 2 persons nominated by an organisation determined by the Minister, the
+principal activity of which is the voluntary provision of financial or other
+support to the zoological park in Mosman, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bcf78b41-942a-454f-a0ba-0f6242280f13" id="sec.6-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">one is to be chosen by the Minister from a panel
+of 2 persons nominated by an organisation determined by the Minister, the
+principal activity of which is the voluntary provision of financial or other
+support to the zoological park in Dubbo, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e06a3e77-870e-47ae-a160-9fead630e700" id="sec.6-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">one is to be chosen by the Minister from a panel
+of 2 persons nominated by the council of the local government area that
+includes the zoological park in Mosman, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_03573f48-f450-4c8a-a66e-314a0032b0f9" id="sec.6-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">one is to be a person chosen by the Minister from
+a panel of 2 persons nominated by the council of the local government area
+that includes the zoological park in Dubbo.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_148b8930-19af-45d4-8ac9-08d52d88b32b"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In making appointments to the Board, the Minister
+is to have regard to the powers, authorities, duties and functions of the
+Board referred to in section 15.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7529dd0d-abef-4c23-895e-3b71a3086b06"></attrib>
+<attrib name="id" value="sec.6-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">If the Minister would, but for this subsection,
+be unable to appoint a member referred to in subsection (1) (c)&#8211;(f)
+because a panel of persons has not been nominated&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3e9148e4-fa93-42d9-8c23-9080d4d3115c" id="sec.6-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Minister may instead appoint a person who is,
+in the opinion of the Minister, suitable to hold that office,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4d11fabb-08a3-4eec-a747-9831797fb2e3" id="sec.6-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the person so appointed is taken to have been
+appropriately appointed.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_53c2dc2b-3d5a-41d4-a18c-612606d1e413"></attrib>
+<attrib name="id" value="sec.6-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A member&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1965fef5-dd6a-4055-8ed9-1555724eefe0" id="sec.6-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">holds office, subject to this Act, for the term,
+not exceeding 5 years, that is specified in the member&#8217;s instrument of
+appointment or (if not so specified) in a later instrument executed by the
+Minister, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8c5984e1-ca7b-4aa7-a0b8-7e01b4d7fd7d" id="sec.6-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is (if otherwise qualified) eligible for
+re-appointment.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 6:</b> Subst 1988 No 4,
+Sch 1 (1). Am 1990 No 46, Sch 1; 1995 No 11, Sch 1. Subst 2000 No 7, Sch 1
+[1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6c3349a0-bb76-4c30-aa8d-fca34b1a8224"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_a86d4765-0ab7-4807-9c48-8c53214b1d97"
+id="sec.7-he"><b>Chairperson and Deputy Chairperson</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_77de4b5e-4f42-4342-ac73-a9ce6cbeaa8c"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">One of the members referred to in section 6 (1)
+(a) is to be appointed as Chairperson by the instrument appointing the person
+as a member or by a subsequent instrument executed by the
+Minister.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_de2bdaff-8d22-45cf-a579-4ec01bf355cd"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Another of the members referred to in section 6
+(1) (a) is to be appointed as Deputy Chairperson by the instrument appointing
+the person as a member or by a subsequent instrument executed by the
+Minister.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_55f33984-cba1-4cfe-adf8-0e21127c29ff"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Chairperson and Deputy Chairperson are each
+to hold office as such for such period, not exceeding 5 years, as the Minister
+may determine by instrument in writing, and are eligible (if otherwise
+qualified) for re-appointment.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fb749620-0b8f-4162-bfb7-2301a710ddcb"></attrib>
+<attrib name="id" value="sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Minister may remove a member from the office
+of Chairperson or Deputy Chairperson at any time.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a742fac1-56e5-4414-ad94-aeabc3f895c8"></attrib>
+<attrib name="id" value="sec.7-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A person who is Chairperson or Deputy Chairperson
+vacates office as such if the person&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c36d28fd-7800-471d-9f26-9cb4022248fc" id="sec.7-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is removed from office by the Minister,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_35b7d81c-47bb-4db2-b40d-8ad37fc06d02" id="sec.7-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">resigns that office by instrument in writing
+addressed to the Minister, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5619b444-2329-4c5c-8ed0-a37759b7036d" id="sec.7-ssec.5-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">ceases to be a member.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d36e2d38-50a4-4479-bd26-94b59cd08d18"></attrib>
+<attrib name="id" value="sec.7-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">A person does not cease to be a member merely
+because of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a37985fc-88f8-4c9a-aff7-c7b6a52c8717" id="sec.7-ssec.6-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the person&#8217;s resignation from the office of
+Chairperson or Deputy Chairperson, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2fc6bf5d-ae17-4c35-bc88-432ba39df808" id="sec.7-ssec.6-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the expiration of the person&#8217;s term of
+office as Chairperson or Deputy Chairperson.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f6c9961a-8ff0-4529-95e8-970b7484ecaf"></attrib>
+<attrib name="id" value="sec.7-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">During the illness or absence from duty of the
+Chairperson or a vacancy in the office of Chairperson, the Deputy
+Chairperson&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aef5ae3e-bfa7-45f0-bfec-98a2af4ba595" id="sec.7-ssec.7-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">shall act in the office of Chairperson,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9c1a7f6c-a847-48ab-b158-43abdde2624d" id="sec.7-ssec.7-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">while so acting, has and may exercise and perform
+the powers, authorities, duties and functions of the
+Chairperson.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_44354d62-8a97-430d-af4a-4fe384362b34"></attrib>
+<attrib name="id" value="sec.7-ssec.8"></attrib></parentattributes>
+
+<head>
+<no>(8)</no></head>
+<block><txt break.before="1">While acting in the office of
+Chairperson&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_51e84eb2-73d4-422f-b1b7-8f40b792faa9" id="sec.7-ssec.8-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Deputy Chairperson shall be taken to be duly
+doing so, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a17e6c39-30a0-46a0-bfac-7c007db7dd1c" id="sec.7-ssec.8-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">anything done or omitted by the Deputy
+Chairperson, while so acting, shall be taken to have been done or omitted by
+the Chairperson.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 7:</b> Subst 1988 No 4,
+Sch 1 (1). Am 1992 No 34, Sch 1; 2000 No 7, Sch 1 [2] [3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.8" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9566fbe3-f729-4abd-8643-7c99ce944cd7"></attrib>
+<attrib name="id" value="sec.8"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>8</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 8:</b> Rep 2000 No 7,
+Sch 1 [4].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4aa42d5f-15d6-40d7-aef2-fd82f16f4819"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_a1d38eeb-5915-41d4-940c-cb5364dade8e"
+id="sec.9-he"><b>General provisions relating to members</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dd01f913-a03d-47fa-8c13-078b0fb204d2"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Each member shall be entitled to receive such
+expenses and, if the Minister so approves, such fees and allowances for
+attending meetings and transacting business of the Board as the Minister may
+from time to time determine in respect of that member.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_853156c1-f1d0-438b-beac-a9823996ee3a"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Where by or under any Act provision is made
+requiring the holder of an office specified therein to devote the whole of his
+or her time to the duties of his or her office, or prohibiting him or her from
+engaging in employment outside the duties of his or her office, that provision
+shall not operate to disqualify him or her from holding that office and also
+the office of a member or from retaining any expenses, fees or allowances
+payable to him or her under this section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_919498b1-4383-48c2-9a9f-b0012b51b3bd"></attrib>
+<attrib name="id" value="sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The office of a member shall not for the purposes
+of any Act be deemed to be an office or place of profit under the
+Crown.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_71d27adb-fdb6-41f9-bb33-70d4d45e1906"></attrib>
+<attrib name="id" value="sec.9-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The provisions of the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-2013-040"><name
+emphasis="yes"><i>Government Sector Employment Act 2013</i></name></legref>
+relating to the employment of Public Service employees do not apply to a
+member.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Am 2014 No 33,
+Sch 3.36 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_54503a29-2efb-4163-b22f-aabf20f8abad"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_82e020ea-3df2-4ab4-b304-3664f754da6f"
+id="sec.10-he"><b>Vacation of office</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2bea39ca-efd7-4153-9e83-30dc7ffe0b01"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A member shall be deemed to have vacated his or
+her office&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d401b4fc-b5c0-4a9b-9dde-872e0304fabb" id="sec.10-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if the member dies,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cfd8d24a-9675-41fc-bc06-934f255011df" id="sec.10-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the member becomes a bankrupt, applies to take
+the benefit of any law for the relief of bankrupt or insolvent debtors,
+compounds with his or her creditors, or makes any assignment of his or her
+estate for their benefit,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_61d4e7de-ed26-43da-ac19-5f2635d0aadc" id="sec.10-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">if the member is absent from four consecutive
+ordinary meetings of the Board of which reasonable notice has been given to
+him or her personally or in the ordinary course of post except on leave
+granted by the Board, unless the member is, before the expiration of four
+weeks after the last of those meetings, excused by the Board for his or her
+absence from those meetings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3a2ae505-f010-4059-bc3d-5cf6332664cd" id="sec.10-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">if the member becomes a mentally incapacitated
+person,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a9437a06-6edc-489d-8e3d-06fee8cfc251" id="sec.10-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">if he or she is convicted in New South Wales of
+an indictable offence that is punishable by imprisonment for 12 months or more
+or is convicted elsewhere than in New South Wales of an offence that, if
+committed in New South Wales, would be an offence so
+punishable,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_814b57d5-a919-464b-b358-334ddf4f40de" id="sec.10-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">if the member resigns his or her office by
+writing under his or her hand addressed to the Minister and the Minister
+accepts his or her resignation, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6cc13fd3-5233-46ba-898e-123f9352e64f" id="sec.10-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">if the member is removed from office by the
+Minister.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_58ae14e8-e764-4ec6-8aa1-6c14c78fc32c" id="sec.10-ssec.1-para1.h"
+status="repealed">
+<no>(h)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6761f6cf-3cb3-4a2f-9804-77b8edbae176"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister may, for any cause which appears to
+the Minister sufficient, remove any appointed member from
+office.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 10:</b> Am 1990 No 46,
+Sch 1; 1999 No 94, sec 7 (1) and Sch 5, Part 1; 2000 No 7, Sch 1 [3]
+[5]&#8211;[7].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_99152356-1dc6-433b-b456-6b6764372927"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_36fbbee9-d0be-47c1-b3fb-8e29265e3154"
+id="sec.11-he"><b>Proceedings of Board</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dca7d412-d003-474f-968d-b3a050601455"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The procedure for the calling of meetings of the
+Board and for the conduct of business at those meetings shall, subject to this
+Act and the regulations, be as determined by the Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a2df4f53-003c-45ec-936e-fc1065564256"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Chairperson or, in the absence of the
+Chairperson, the Deputy Chairperson or, in the absence of the Chairperson and
+the Deputy Chairperson, the member chosen by the members present at the
+meeting to act as chairperson may preside at any meeting of the
+Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7bd98ce1-c103-45e8-9e6c-7f839becbe83"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The quorum for a meeting of the Board is a
+majority of its members for the time being. Any duly convened meeting of the
+Board at which a quorum is present is competent to transact any business of
+the Board and has and may exercise and perform all the powers, authorities,
+duties and functions of the Board.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.11-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d895135f-805b-4337-9388-0ae6eba8d6e9"></attrib>
+<attrib name="id" value="sec.11-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The person presiding at any meeting of the Board
+shall, in the event of an equality of votes, have in addition to a
+deliberative vote a second or casting vote.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8614ed29-9696-4e5a-9436-a4f528ba88bd"></attrib>
+<attrib name="id" value="sec.11-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Subject to subsection (4), a decision of a
+majority of the members present at a meeting of the Board at which a quorum is
+present shall be the decision of the Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_09d14f58-8939-4b38-8f32-500eb11a7fe4"></attrib>
+<attrib name="id" value="sec.11-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">The Board shall cause a record of its decisions
+and full and accurate minutes of the proceedings at its meeting to be
+kept.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_134b464c-59cc-4f00-a49d-15647eefc4ce"></attrib>
+<attrib name="id" value="sec.11-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">No matter or thing done, and no contract entered
+into, by the Board, and no matter or thing done by a member or by any other
+person acting under the direction or as delegate of the Board shall, if the
+matter or thing was done, or the contract was entered into, bona fide for the
+purpose of executing this Act or any other Act conferring or imposing powers,
+authorities, duties or functions on the Board, subject the member or person so
+acting personally to any action, liability, claim or
+demand.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e0631248-7de0-4d2c-a51a-8297b5a3a5d9"></attrib>
+<attrib name="id" value="sec.11-ssec.8"></attrib></parentattributes>
+
+<head>
+<no>(8)</no></head>
+<block><txt break.before="1">Nothing in subsection (7) shall exempt any member
+or other person from liability to be surcharged with the amount of any payment
+which is disallowed by the Auditor-General in the accounts of or relating to
+the Board, and which the member or other person authorised or joined in
+authorising.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Am 1988 No 4,
+Sch 1 (2); 2000 No 7, Sch 1 [8].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8bd2edd5-2bc3-4527-8b33-c3f420eedcc1"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_f229a541-7d40-49c2-9570-8a2826c94fbb"
+id="sec.12-he"><b>Director of Zoological Parks Board</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_32800c57-2d0a-45f1-8a36-5aa6b24c1e94"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Director of the Zoological Parks Board is the
+person employed in the Public Service as the Director.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_04e5cf51-5202-42e6-951e-4e8d66e602e8"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Board is to be consulted on any proposed
+appointment of a Director of the Zoological Parks Board.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 12:</b> Am 1989 No 105,
+Sch 1. Subst 2006 No 2, Sch 4.83 [2]; 2014 No 33, Sch 3.36
+[3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.12A" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_43a493ae-5062-4574-ae27-30eb1efd56a7"></attrib>
+<attrib name="id" value="sec.12A"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>12A, 13</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 12A:</b> Ins 1987 No
+209, Sch 42 (1). Am 1989 No 105, Sch 1. Rep 2006 No 2, Sch 4.83
+[3].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 13:</b> Am 1986 No 125,
+Sch 1 (1). Rep 2006 No 2, Sch 4.83 [4].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_896088e3-24cd-4c52-9b99-4b69c8a52917"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_dd3b908d-81bd-46e5-a3dd-3522fcb4f56b"
+id="sec.14-he"><b>Delegation</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d70d2a7b-8d6b-4d50-99ee-f1c4ce4d72ac"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Board may, by instrument in writing under
+seal, delegate to a member or an employee of the Board or an officer or
+employee of the Public Service or a public authority constituted under an Act
+the exercise or performance of such of the powers (other than this power of
+delegation), authorities, duties and functions conferred or imposed on the
+Board by or under this or any other Act as may be specified in the instrument
+of delegation, and may, by such an instrument, revoke wholly or in part any
+such delegation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_784402ca-9d6e-478f-8c49-5a694fda523a"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A power, authority, duty or function, the
+exercise or performance of which has been delegated under this section may,
+while the delegation remains unrevoked, be exercised or performed from time to
+time in accordance with the terms of the delegation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a87b80f0-d38a-42ce-9e07-595b707f928c"></attrib>
+<attrib name="id" value="sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A delegation under this section may be made
+subject to such conditions or such limitations as to the exercise or
+performance of any of the powers, authorities, duties or functions delegated,
+or as to time or circumstance, as may be specified in the instrument of
+delegation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_19c1fb92-0207-44f8-9f53-4a81bdd442ec"></attrib>
+<attrib name="id" value="sec.14-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Notwithstanding any delegation under this
+section, the Board may continue to exercise or perform all or any of the
+powers, authorities, duties or functions delegated.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e73d1758-854d-4431-8c0b-41bf9c4d3cf1"></attrib>
+<attrib name="id" value="sec.14-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Any act or thing done or suffered by a delegate
+while acting in the exercise of a delegation under this section shall have the
+same force and effect as if the act or thing had been done or suffered by the
+Board and shall be deemed to have been done or suffered by the
+Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fe278e3c-b755-4bdc-ba26-c03f3e7a4d4d"></attrib>
+<attrib name="id" value="sec.14-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">An instrument purporting to be signed by a
+delegate of the Board in his or her capacity as such a delegate shall in all
+courts and before all persons acting judicially be received in evidence as if
+it were an instrument executed by the Board under seal and, until the contrary
+is proved, shall be deemed to be an instrument signed by a delegate of the
+Board under this section.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_16cc3cc4-ceb0-4687-b4af-cf274e91e1f9"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_ec9b2e7c-b1de-444b-8142-21986efadcdf"
+id="pt.3-he"><b>Establishment, maintenance and control of zoological parks by
+the Board</b></heading></head>
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_83940cf6-ed71-4654-af1b-b98047634ae8"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_e8e97325-b64a-409b-a0b6-d3e39bf58803"
+id="sec.15-he"><b>Powers, authorities etc of the Board</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_598d428c-b0c5-4475-a6bf-8a0ff9f4d69d"></attrib>
+<attrib name="id" value="sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Board may establish, maintain and control
+zoological parks for the following purposes&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_39a04b7b-8b57-4d21-8b49-3d2451549ef5" id="sec.15-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">carrying out research and breeding programs for
+the preservation of endangered species,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6674131c-7c8c-46d3-899c-2a3e6bb32e06" id="sec.15-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">carrying out research programs for the
+conservation and management of other species,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2e6f03b3-82c8-48df-850b-1720ce59c94a" id="sec.15-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">conducting public education and awareness
+programs about species conservation and management,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ec218645-01b6-4f61-8e5d-7d59cbc21539" id="sec.15-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">displaying animals for educational, cultural and
+recreational purposes.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_247a4508-021f-4829-80df-df9b4a12a0b5"></attrib>
+<attrib name="id" value="sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Board may also maintain and
+control&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1c152290-a6ed-4d2e-95db-d3cc0fc22675" id="sec.15-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the zoological park established before the
+commencement of this Act on the land described in Schedules 3 and 4, under the
+name of &#8220;Taronga Zoological Park&#8221;, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_72c5bb8a-3b2c-4a5d-ab95-346e1b907330" id="sec.15-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">other zoological parks on land or premises vested
+in or held by the Board, whether or not those parks were established by the
+Board,</txt></block></li></list>
+
+<txt break.before="1">for the purposes referred to in this
+section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_20442e36-7884-4119-8e4d-92ae12a4b33b"></attrib>
+<attrib name="id" value="sec.15-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Board&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d1c24627-2ab6-421c-8f9d-e03e414812dd" id="sec.15-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">may co-operate with, and provide funds and other
+assistance to, such scientific and other institutions, governments and other
+bodies and individuals as the Board may determine in connection with species
+conservation and management and for other scientific and zoological purposes,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8eced150-5314-4739-a625-7d601a64f07d" id="sec.15-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">may investigate and carry out research
+into&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_52e1c623-eb6e-40fa-bb71-fb1d24970916"
+id="sec.15-ssec.3-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">the design of, and equipment and procedures in,
+zoological parks, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b1ce679b-791f-46b2-9ed4-aa09149dc61f"
+id="sec.15-ssec.3-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the care and well-being of animals kept in
+zoological parks,</txt></block></li></list>
+
+<txt break.before="1">whether or not those zoological parks are maintained and
+controlled by the Board, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d80b556b-bc8b-4b7b-887d-b1ccd4d4c35b" id="sec.15-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">may provide educational services for the public
+(whether in the nature of lectures, broadcasts, films, publications or
+otherwise) about species conservation and management, zoological parks and the
+biology of animals, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1663f774-7e53-4aad-a607-e3fbb82f39db" id="sec.15-ssec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">may provide and charge for such services in
+connection with zoological parks maintained and controlled by the Board as the
+Board may determine, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b817fc4f-1e3e-4ea4-b1e5-b3f57dea7774" id="sec.15-ssec.3-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">may make recommendations or reports to the
+Minister with respect to matters connected with the Board&#8217;s powers,
+authorities, duties and functions or the administration of this
+Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4913515a-58fd-4338-a1d6-952a6398002b"></attrib>
+<attrib name="id" value="sec.15-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Minister may request the Board to make
+recommendations or reports to the Minister with respect to matters connected
+with the Board&#8217;s powers, authorities, duties and functions or the
+administration of this Act and the Board is to comply with any such
+request.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8121e567-a501-4a8d-9bfc-efb9cce1e909"></attrib>
+<attrib name="id" value="sec.15-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The Board may exercise and perform such other
+powers, authorities, duties and functions as may be conferred or imposed on
+the Board by or under this or any other Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 15:</b> Am 1986 No 125,
+Sch 1 (2). Subst 1992 No 44, Sch 1 (2) (am 1994 No 95, Sch
+2).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a88e4b79-ab4c-4f65-b420-996a087b7a1d"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_28acdf44-ee7d-4263-8a3d-ef1553a98291"
+id="sec.16-he"><b>Property</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a5df726f-6910-441e-a511-2fdd98830ffa"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The powers of the Board to acquire or dispose of
+lands shall not be exercised except with the consent of the
+Minister.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4d818a64-c14f-4e99-88b5-264c5569a931"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Board may, pursuant to its powers conferred
+by section 50 of the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1987-015"><name emphasis="yes"><i>Interpretation Act
+1987</i></name></legref>, acquire and hold lands for purposes connected with
+the establishment, maintenance or control of zoological parks by it, and may
+maintain and control any lands so held by it.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fc2976df-2177-48e7-9a30-1116c780718c"></attrib>
+<attrib name="id" value="sec.16-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Notwithstanding anything in the <legref
+jurisd="NSW" type="act" check="unknown" refid="act-2016-058"><name
+emphasis="yes"><i>Crown Land Management Act
+2016</i></name></legref>&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_89fccf86-bd32-47d9-8b41-fc251208dfe4" id="sec.16-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Minister may transfer an estate in fee simple
+in&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2cb8c2cf-6821-46ce-bbe2-a1faecd95c10"
+id="sec.16-ssec.3-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">any Crown land (within the meaning of that Act),
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dd8cc64e-7d95-4721-981a-32bf4fa80ba7"
+id="sec.16-ssec.3-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">any of the lands described in Schedules 3 and
+4,</txt></block></li></list>
+
+<txt break.before="1">to the Board, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_67404a7f-0e6e-48a0-916f-8f7a46a2f87d" id="sec.16-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the lands transferred to the Board under
+paragraph (a)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_16e0adb0-7aa5-468a-bb1a-cb8d3267dd37"
+id="sec.16-ssec.3-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">shall vest in and be held, for the purposes of
+this Act, by the Board, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_65b4a666-c27a-4bfb-8fcb-d6fcaf9f6758"
+id="sec.16-ssec.3-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">may, subject to subsection (1), be disposed of or
+otherwise dealt with by the Board,</txt></block></li></list>
+
+<txt break.before="1">as if the lands had, immediately before the transfer,
+been freehold lands and had been acquired by the Board by
+purchase.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.16-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9b8d7650-ad52-44a3-94cd-e020b051c491"></attrib>
+<attrib name="id" value="sec.16-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A grant under subsection (3) shall be subject to
+such exceptions, reservations and conditions as are specified in the
+transfer.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dbd224dd-eb4c-485c-bf06-baf456122f3a"></attrib>
+<attrib name="id" value="sec.16-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Upon the transfer of lands under subsection (3),
+all trusts, conditions, provisos, encumbrances, restrictions on alienation,
+appropriations, dedications and reservations are, to the extent to which,
+immediately before the transfer, they affected those lands, revoked and
+annulled.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8f138fd9-3ff1-48cc-8290-5fe383325443"></attrib>
+<attrib name="id" value="sec.16-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">Nothing in subsection (3) affects the power of
+the Minister to appoint the Board to be a Crown land manager of any land
+dedicated or reserved under the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-2016-058"><name emphasis="yes"><i>Crown Land
+Management Act 2016</i></name></legref>, or the power of the Minister to
+transfer land to the Board under that Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3eca1ef3-d2f8-4f24-9cf7-c69d2f7af1aa"></attrib>
+<attrib name="id" value="sec.16-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">Lands acquired by the Board (otherwise than under
+section 17) shall, in respect of that acquisition, be exempt from stamp duty
+under the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1920-047"><name emphasis="yes"><i>Stamp Duties Act
+1920</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0723f78f-4fa0-4355-9cc6-588ac6fcf56e"></attrib>
+<attrib name="id" value="sec.16-ssec.8"></attrib></parentattributes>
+
+<head>
+<no>(8)</no></head>
+<block><txt break.before="1">Without affecting the generality of section 50 of
+the <legref jurisd="NSW" type="act" check="unknown" refid="act-1987-015"><name
+emphasis="yes"><i>Interpretation Act 1987</i></name></legref>, the
+Board&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c4978bf7-3bcf-40dd-884a-861f7640a56e" id="sec.16-ssec.8-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">may lend or donate animals, plant or machinery to
+or for zoological parks not maintained or controlled by it,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_08a81894-4cd9-459e-80a3-d4fcacf7b34e" id="sec.16-ssec.8-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">may borrow animals to be kept or displayed in
+zoological parks maintained and controlled by it.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.9" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9ff316d7-d448-4ecb-b5b9-cb3f2e517e12"></attrib>
+<attrib name="id" value="sec.16-ssec.9"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(9), (10)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 16:</b> Am 1980 No 196,
+Sch 1; GG No 9 of 20.1.1984, p 172; 1987 No 48, Sch 32; 1989 No 89, Sch 2;
+2017 No 17, Sch 4.112 [1]&#8211;[3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2bf06664-fe42-4de8-b48f-16ddf3fec6ff"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_fb10d66e-393d-4a41-9e80-6240935f83af"
+id="sec.17-he"><b>Power of Board to accept gifts etc</b></heading></head>
+
+<tier type="subclause" id="sec.17-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4fe6f786-87a8-4bb7-bee7-aa5fdd220d85"></attrib>
+<attrib name="id" value="sec.17-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Board shall have power to acquire, by gift
+inter vivos, devise or bequest, any property for the purposes of this Act and
+to agree to the conditions of any such gift, devise or
+bequest.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4da715c1-7084-4adc-926f-3c7dec88d8fb"></attrib>
+<attrib name="id" value="sec.17-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The rule of law against remoteness of vesting
+shall not apply to any such condition to which the Board has
+agreed.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.17A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_121a69b0-a086-4278-bc8a-e4135f9c1f8a"></attrib>
+<attrib name="id" value="sec.17A"></attrib></parentattributes>
+
+<head>
+<no>17A</no><heading guid="_610598a1-c54d-4e6e-9e25-120f42f057ba"
+id="sec.17A-he"><b>Board may be trustee</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.17A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f7be1185-9d9a-44ac-981d-d55a5c9c69cc"></attrib>
+<attrib name="id" value="sec.17A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Board may be and act as a trustee under the
+terms of a gift, devise or bequest. The Board may do so even if some but not
+all of the purposes of the trust are not related to the functions of the
+Board, and even if the Board is or could be a beneficiary under the
+trust.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.17A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3e8cf645-73c5-4c84-b8ad-3a074576a59e"></attrib>
+<attrib name="id" value="sec.17A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Board is taken always to have had these
+powers.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17A-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_36d8db53-8884-401c-b31d-9f5be41ca7c5"></attrib>
+<attrib name="id" value="sec.17A-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This section does not authorise the Board to
+contravene any express provisions of this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17A-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0ca84d4e-a274-45b9-9372-0cfc8029fe6c"></attrib>
+<attrib name="id" value="sec.17A-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Despite subsection (3), the Board may invest
+trust money in any way authorised by the trust or by any other
+law.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17A-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_617d3ca3-65e8-42b1-b438-7bd5ca168b7d"></attrib>
+<attrib name="id" value="sec.17A-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">This section does not limit any powers the Board
+has apart from this section.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 17A:</b> Ins 1993 No
+108, Sch 1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d1aeeaee-4a92-41b4-9131-5b57c4fd41be"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_913e2b32-1adb-4fdb-9f30-e5d85debe3ce"
+id="sec.18-he"><b>Contracts and agreements</b></heading></head>
+<block><txt break.before="1">The Board may make and enter into contracts or
+agreements with any person&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e4368cc3-6346-4b08-b538-632f2993ea6f" id="sec.18-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">for the performance of services, or for the
+supply of goods, plant, machinery or material with respect to the exercise of
+its powers, authorities, duties and functions,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_18ce3a25-e2fb-4306-a6a2-eca9ca01ebd0" id="sec.18-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">for the use of lands and premises vested in or
+held by the Board for social or other functions,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ecb7a256-736e-42f1-99fe-41a751876a34" id="sec.18-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">for the right to take photographs, for fee or
+reward, in or on any such lands or premises, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_598c2309-b2b7-4e23-a23f-7849430c3925" id="sec.18-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">for the use of any such lands or premises for
+cinematograph, radio or television purposes.</txt></block></li></list>
+</block></level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e7dc10d3-f78a-4418-8390-c8cd91b66e28"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_21bc049d-0ad1-4e8a-a15e-6799bf757ffa"
+id="pt.4-he"><b>Finance</b></heading></head>
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c340b1ea-1b65-491c-990b-58eced7edc8f"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_8bd663ce-6fb9-4960-86a1-3b866ce1f540"
+id="sec.19-he"><b>Costs of administration of this Act</b></heading></head>
+<block><txt break.before="1">The costs of administration of this Act, and the
+expenses, fees and allowances payable to a member, shall be paid by the Board
+out of the funds of the Board.</txt></block></level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b5682f86-bf09-49fe-8b52-e9f5ac226ed3"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_ccf3e4fc-9a35-418a-ab06-5e8e1fb827a1"
+id="sec.20-he"><b>Financial year of the Board</b></heading></head>
+<block><txt break.before="1">The financial year of the Board shall
+be&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6336410c-c61b-4936-9682-66913d904156" id="sec.20-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">where no period is prescribed as referred to in
+paragraph (b)&#8212;the year commencing on 1 July, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2a1444af-e944-4094-b21b-651da488955f" id="sec.20-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the period prescribed for the purposes of this
+section.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 20:</b> Subst 1983 No
+153, Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.21" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_51cfd70e-defa-429b-a8a3-8f933b46d5c7"></attrib>
+<attrib name="id" value="sec.21"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>21</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 21:</b> Rep 1983 No
+153, Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.22">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_be366fca-6cf3-4571-bac5-df1c2ec51661"></attrib>
+<attrib name="id" value="sec.22"></attrib></parentattributes>
+
+<head>
+<no>22</no><heading guid="_1c3935ef-4ff3-4e5f-b1a9-43ec499c93f2"
+id="sec.22-he"><b>Investment of funds</b></heading></head>
+<block><txt break.before="1">The Board may invest money held by it in
+Government securities of the Commonwealth or of the State of New South Wales,
+or in any securities guaranteed by the Government of that State, or on call or
+on fixed deposit or partly on call and partly on fixed deposit with the
+Treasurer or with any bank, building society or credit union, or in such other
+manner as the Governor may approve or as may be prescribed.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 22:</b> Am 1996 No 24,
+Sch 1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.23-29" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1bd82f43-056d-49ef-b91f-9611e07e7963"></attrib>
+<attrib name="id" value="sec.23-29"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>23&#8211;29</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>ss 23&#8211;29:</b> Rep
+GG No 9 of 20.1.1984, p 172.</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_deffb25a-25dc-4ac0-9d18-cb577d84e232"></attrib>
+<attrib name="id" value="pt.5"></attrib></parentattributes>
+
+<head>
+<no><b>Part 5</b></no><heading guid="_7f70d331-0e85-42ba-9f4d-bbe66a693b08"
+id="pt.5-he"><b>General</b></heading></head>
+
+<level type="clause" id="sec.30">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2827cded-59a9-4e47-93a7-163565cf52a1"></attrib>
+<attrib name="id" value="sec.30"></attrib></parentattributes>
+
+<head>
+<no>30</no><heading guid="_ea64b5d2-8b85-47ae-8b5c-2e0f3225b834"
+id="sec.30-he"><b>Regulations</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.30-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2cf814b4-ea1d-4f39-8ebd-9bf24121497b"></attrib>
+<attrib name="id" value="sec.30-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter which, by this
+Act, is required or permitted to be prescribed or which is necessary or
+convenient to be prescribed for carrying out or giving effect to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.30-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_214f8f20-9c9c-4511-aa3f-5b59e147a8cd"></attrib>
+<attrib name="id" value="sec.30-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without prejudice to the generality of the power
+conferred by subsection (1), the Governor may make regulations for or with
+respect to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fb25c000-1bf9-45ec-bb51-e0a86c9b6f19" id="sec.30-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any of the powers conferred on or duties imposed
+upon the Board,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b6e86089-8c02-4361-b889-5b04de7c948a" id="sec.30-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the regulation of meetings of the Board and the
+conduct of business thereat,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_096ebd8c-ecbd-4839-b23d-ddade22924ce" id="sec.30-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the regulation of the use and enjoyment of lands
+of the Board,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cd5f629d-1be4-4ef2-8177-706d9850620e" id="sec.30-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the securing of decency and order on those
+lands,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b0d051ab-ad0c-4235-a5c8-e20d5a566055" id="sec.30-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the removal of trespassers and other persons
+causing annoyance or inconvenience on those lands,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b8fad18b-fa28-4583-8ad1-9733fc8820b7" id="sec.30-ssec.2-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">the regulation or prevention of the taking of
+intoxicants onto, and the consuming thereof on, those
+lands,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4327ca05-9f42-4568-b2c2-f8e3c3d84b49" id="sec.30-ssec.2-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">the regulation or prevention of the taking of
+animals onto those lands or the permitting or suffering of animals to be on
+those lands,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6c8fd525-b615-4fa8-a9dc-37757b440f3a" id="sec.30-ssec.2-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">the control of animals taken onto, or permitted
+or suffered to be on, those lands,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7a3f8273-f322-4e1a-a737-785a12992e55" id="sec.30-ssec.2-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">the regulation, control or prohibition of
+parking, camping or residing on those lands, the making of charges for
+parking, camping, or residing on those lands and the collecting and receiving
+of those charges by the Board or by other persons,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_edb4e92c-dff9-40b4-bb4f-b3870715371c" id="sec.30-ssec.2-para1.j">
+<no>(j)</no>
+<block><txt break.before="1">the preservation or protection of, or prevention
+of damage to, trees, shrubs, ferns, creepers, vines, palms, plants, flowers,
+herbage or other vegetative cover on those lands,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b3f33ec5-60a3-4c8c-9a7b-06f6fec2a54e" id="sec.30-ssec.2-para1.k">
+<no>(k)</no>
+<block><txt break.before="1">the protection or removal of all dead timber,
+logs and stumps on those lands, whether standing or
+fallen,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3d8ad44b-53d5-4fd9-91a9-04884d0894d4" id="sec.30-ssec.2-para1.l">
+<no>(l)</no>
+<block><txt break.before="1">the preservation, protection or removal of any
+rocks, soil, sand, stone or similar substances on or under or comprising part
+of those lands,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_641e6b15-eeef-44e1-978a-7227a9eb698b" id="sec.30-ssec.2-para1.m">
+<no>(m)</no>
+<block><txt break.before="1">the preservation or protection of any animals,
+whether natural or introduced, on those lands,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1054c9c5-306e-479f-ad6e-6ae7b9d36f08" id="sec.30-ssec.2-para1.n">
+<no>(n)</no>
+<block><txt break.before="1">the making of charges or entrance fees on
+persons, clubs, or associations or for vehicles using or entering upon those
+lands, or on any specified part or parts of those lands, and the collecting
+and receiving of those charges and fees by the Board or by other
+persons,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a3dcf7bf-1a3e-414a-b84d-4c7528711163" id="sec.30-ssec.2-para1.o">
+<no>(o)</no>
+<block><txt break.before="1">the reservation of any portion of those lands for
+such separate or exclusive use as the regulations may
+prescribe,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4eb708a4-3832-43a2-9786-5bb3434c91a7" id="sec.30-ssec.2-para1.p">
+<no>(p)</no>
+<block><txt break.before="1">the closing of those lands or parts thereof and
+the conditions to be observed with regard thereto,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8f3ca923-404e-4bc0-b7e2-1eec1a522c12" id="sec.30-ssec.2-para1.q">
+<no>(q)</no>
+<block><txt break.before="1">the regulation, control or prohibition of private
+trading on those lands,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_99590412-c361-49b2-b2d8-897870fb62c3" id="sec.30-ssec.2-para1.r">
+<no>(r)</no>
+<block><txt break.before="1">the regulation of the use of motor vehicles or
+any other vehicles and the conditions under which they may be used on those
+lands,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4e9bf398-2f4b-4479-88e7-0f74d11c8b49" id="sec.30-ssec.2-para1.s">
+<no>(s)</no>
+<block><txt break.before="1">the regulation of the speed of motor vehicles or
+any other vehicles on those lands,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fbd1b71f-f8f0-465f-a7fd-40a3f0d099b1" id="sec.30-ssec.2-para1.t">
+<no>(t)</no>
+<block><txt break.before="1">the regulation, control or prohibition of the
+erection of buildings, signs or other structures on those
+lands,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_524471f4-5d96-4a4d-9ff4-0fb83a040aae" id="sec.30-ssec.2-para1.u">
+<no>(u)</no>
+<block><txt break.before="1">the protection of buildings, structures, signs
+and other improvements on those lands,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c6990155-701c-4a6e-9fd6-4033c3148b13" id="sec.30-ssec.2-para1.v">
+<no>(v)</no>
+<block><txt break.before="1">the regulation, control or prohibition of exotic
+plants on those lands,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5317c21e-9bb0-4dfb-a586-6836f77d4491" id="sec.30-ssec.2-para1.w">
+<no>(w)</no>
+<block><txt break.before="1">the regulation, control or prohibition of the use
+of firearms or other weapons and the carrying of firearms or other weapons on
+those lands, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a37bfe81-d6f3-4154-bae3-1daa1fa68d9c" id="sec.30-ssec.2-para1.x">
+<no>(x)</no>
+<block><txt break.before="1">the powers and duties of employees of the
+Board.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.30-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_723e2ba2-0f37-445a-a2b7-6acffdf95747"></attrib>
+<attrib name="id" value="sec.30-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A regulation may&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4fa6cbc3-6e03-4f08-bab2-d061234ffe74" id="sec.30-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">impose a penalty for any breach thereof and also
+impose distinct penalties in case of successive breaches thereof but no such
+penalty shall exceed 1 penalty unit, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6ad85bd1-2156-4f79-a776-a028c5ae73de" id="sec.30-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">impose also a daily penalty for any continuing
+breach thereof not exceeding 0.1 penalty unit per
+day.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.30-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_021cdaa3-6909-4272-a518-1fd7e3103615"></attrib>
+<attrib name="id" value="sec.30-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Regulations may be made to apply generally to all
+lands of the Board or any part thereof specified in the regulations and unless
+so limited shall be taken to apply to all lands of the
+Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.30-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_72e7152d-6a87-464e-9578-b6bbf1c8e457"></attrib>
+<attrib name="id" value="sec.30-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Where any provision of a regulation made to apply
+to any specified part of lands of the Board is inconsistent with a provision
+of any regulation relating to all lands of the Board generally, the
+firstmentioned provision shall prevail.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.30-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2c1b726a-64d0-423c-aadd-818f171b4226"></attrib>
+<attrib name="id" value="sec.30-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_3377b00f-2b78-47f3-8ae1-c7b96f44d19a"
+id="sec.30-ssec.6-def.landsoftheBoard"><b><i>lands of the
+Board</i></b></defterm> means lands or premises vested in or held by the
+Board.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 30:</b> Am 1992 No 112,
+Sch 1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.31">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_64c47493-1c9d-487e-9ad6-7e48a49f0f1f"></attrib>
+<attrib name="id" value="sec.31"></attrib></parentattributes>
+
+<head>
+<no>31</no><heading guid="_c3e288d0-6e94-4c6c-8e00-279a585487ad"
+id="sec.31-he"><b>Proof of certain matters not required</b></heading></head>
+<block><txt break.before="1">In any proceedings by or against the Board no
+proof shall be required (until evidence is given to the contrary)
+of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0c78c27c-6e10-49d3-996f-fe49487a74bf" id="sec.31-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the constitution of the
+Board,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ea95fa16-4fb3-4159-a388-cac32e4e92fd" id="sec.31-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any resolution of the Board,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7b578ed8-8b14-4ede-910c-c9699cc1c312" id="sec.31-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the appointment of any member or any employee of
+the Board, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5b8644fd-aea7-4dfd-b5e2-7352a9f2c1dd" id="sec.31-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the presence of a quorum at any meeting of the
+Board.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.32">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3bb3d520-5b03-4fcf-aae5-56528b5c2073"></attrib>
+<attrib name="id" value="sec.32"></attrib></parentattributes>
+
+<head>
+<no>32</no><heading guid="_cb5394b7-1b31-4370-92f4-4b56408c251d"
+id="sec.32-he"><b>Recovery of penalty</b></heading></head>
+
+<tier type="subclause" id="sec.32-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_83cb07d8-4f60-441a-adb0-97524d059cea"></attrib>
+<attrib name="id" value="sec.32-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Any penalty imposed by the regulations may be
+recovered in a summary manner before the Local Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.32-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_823e14f2-d119-4bf5-9422-d7a0effd89fe"></attrib>
+<attrib name="id" value="sec.32-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Where the penalty is a daily penalty it may be
+recovered either under a separate information or under an information for the
+sum of the daily penalties.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 32:</b> Am 1999 No 31,
+Sch 4.109 [1]; 2001 No 121, Sch 2.205 [1]; 2007 No 94, Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.33">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ac434a2b-5f46-4527-a902-efdfd4bf31ae"></attrib>
+<attrib name="id" value="sec.33"></attrib></parentattributes>
+
+<head>
+<no>33</no><heading guid="_2494dfbf-064d-4f6f-8141-94a6917648e4"
+id="sec.33-he"><b>Compensation for loss, damage or
+injury</b></heading></head>
+
+<tier type="subclause" id="sec.33-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a901475e-5fac-4da1-af0d-af17b17c7c4b"></attrib>
+<attrib name="id" value="sec.33-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Where any person is convicted of an offence
+against the regulations which results in or causes loss or damage to any lands
+vested in or held by the Board or to any structure, improvements, goods,
+machinery or materials thereon or therein, or loss of or injury to any animals
+kept by the Board the Judge of the Local Court before whom the person was
+convicted may order payment of such sum as the judge thinks fit by way of
+compensation for the loss, damage or injury.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.33-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dc794ffd-7746-4455-9cd2-33d3b8f3fd5b"></attrib>
+<attrib name="id" value="sec.33-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such order is taken to be an ancillary money
+order within the meaning of Part 6 of the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1996-099"><name emphasis="yes"><i>Fines Act
+1996</i></name></legref>.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 33:</b> Am 1999 No 31,
+Sch 4.109 [2]; 2001 No 121, Sch 2.205 [2]; 2025 No 61, Sch 2.94[1]
+[2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.34">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_02138234-1b43-4e86-9d8e-675e42a7cf50"></attrib>
+<attrib name="id" value="sec.34"></attrib></parentattributes>
+
+<head>
+<no>34</no><heading guid="_30656e3a-6f9f-477a-ad4b-a0cb01db7610"
+id="sec.34-he"><b>Recovery of charges etc</b></heading></head>
+<block><txt break.before="1">Any charge, fee or money due to the Board under
+the provisions of this Act or the regulations may be recovered as a debt or
+liquidated demand in a court of competent jurisdiction.</txt></block></level>
+
+
+<level type="clause" id="sec.35" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c465116a-ae7e-4c88-972a-84b58692f872"></attrib>
+<attrib name="id" value="sec.35"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>35</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 35:</b> Rep 1977 No 19,
+Sch 1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.36">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_386de58d-bbe6-49ab-9543-b2c7415e136d"></attrib>
+<attrib name="id" value="sec.36"></attrib></parentattributes>
+
+<head>
+<no>36</no><heading guid="_29714957-45bd-4c61-b1e6-5061837272e9"
+id="sec.36-he"><b>Manner of service of certain documents on the
+Board</b></heading></head>
+<block><txt break.before="1">Any notice, summons, writ or other proceedings to
+be served on the Board may be served&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4883d488-3297-4034-811d-3c1637c13d01" id="sec.36-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">by being left, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f466254d-4e83-4f03-a772-de94f19f107b" id="sec.36-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in the case of a notice, by posting it addressed
+to the Board,</txt></block></li></list>
+
+<txt break.before="1">at its office or, if it has more than one office, at one
+of its offices.</txt></block></level>
+
+
+<level type="clause" id="sec.37">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_94334241-1453-4da6-83f7-4b5489246cb1"></attrib>
+<attrib name="id" value="sec.37"></attrib></parentattributes>
+
+<head>
+<no>37</no><heading guid="_decf29e4-a3d4-4ada-88d2-2f9c892c118d"
+id="sec.37-he"><b>Annual report for Parliament</b></heading></head>
+
+<tier type="subclause" id="sec.37-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3e69ed08-1dba-4610-8978-3859510b7b11"></attrib>
+<attrib name="id" value="sec.37-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Board shall, as soon as practicable after the
+thirtieth day of June in each year, forward to the Minister a report of its
+work and activities for the twelve months preceding that
+day.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.37-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d5f1904a-3856-4d8e-8e7e-150396e5e7db"></attrib>
+<attrib name="id" value="sec.37-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister shall lay that report, or cause it
+to be laid, before both Houses of Parliament as soon as practicable after the
+receipt by the Minister of the report.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_a1ea866a-57f6-42c1-aaef-3ae816204054"></attrib>
+<attrib name="id" value="pt.6"></attrib></parentattributes>
+
+<head>
+<no><b>Part 6</b></no><heading guid="_cc88edf4-4961-485c-ac6c-520dc16fdb86"
+id="pt.6-he"><b>Repeals, amendments, savings and transitional
+provisions</b></heading></head>
+
+<level type="clause" id="sec.38">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bd7288be-2cde-4042-b4a7-15b709c7bc22"></attrib>
+<attrib name="id" value="sec.38"></attrib></parentattributes>
+
+<head>
+<no>38</no><heading guid="_329c0b07-3507-497c-be9d-33751938511b"
+id="sec.38-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Part&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_aa799499-8854-48b4-a0e5-483a20872f27"
+id="sec.38-def.appointedday"><b><i>appointed day</i></b></defterm> means the
+day appointed and notified under section 2.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b5806506-f872-4d7f-8c3d-4930e1b064ad"
+id="sec.38-def.formertrustees"><b><i>former trustees</i></b></defterm> means
+the Trustees of Taronga Zoological Park, as referred to in section 3 of the
+<legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Taronga Zoological Park Act
+1956</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_1c840db6-cf3a-49bb-b644-c7ad15b28ebf"
+id="sec.38-def.Parklands"><b><i>Park lands</i></b></defterm> means the lands
+described in Schedules 3 and 4.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sec.39" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e05a93ce-2516-45a0-a8c8-0bd29093ac39"></attrib>
+<attrib name="id" value="sec.39"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>39, 40</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 39:</b> Rep 1987 No
+209, Sch 42 (2).</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 40:</b> Rep 1999 No 85,
+Sch 4.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.41">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ccdb1816-4daf-4c10-94c3-7607ca2c6c29"></attrib>
+<attrib name="id" value="sec.41"></attrib></parentattributes>
+
+<head>
+<no>41</no><heading guid="_73e17a3b-dce1-48c5-928a-f9afca9e37eb"
+id="sec.41-he"><b>Revocation of dedication of Park lands
+etc</b></heading></head>
+
+<tier type="subclause" id="sec.41-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d3baf7ce-cd4d-483f-80f7-1a415be1f468"></attrib>
+<attrib name="id" value="sec.41-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The dedication as a public park under the name of
+the &#8220;Taronga Zoological Park&#8221; of the Park lands under the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Taronga
+Zoological Park Act 1956</i></name></legref> is revoked.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.41-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4cbc7f75-d331-460d-842f-e73df7f87fbb"></attrib>
+<attrib name="id" value="sec.41-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The persons who, immediately before the appointed
+day, were trustees of the Park lands shall, upon that day, cease to hold
+office as those trustees.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.41-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_52248a67-20ff-41f0-bb3b-a4060028c5c4"></attrib>
+<attrib name="id" value="sec.41-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The body corporate comprised of the former
+trustees is dissolved.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.41-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_da937339-b5d9-4e32-85ef-3ec103764827"></attrib>
+<attrib name="id" value="sec.41-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Any estate or interest in the Park lands that,
+immediately before the appointed day, was vested in or held by any person is,
+subject to this Part, divested.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.41-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c0a34448-03e9-440a-bfed-105f681d7cf1"></attrib>
+<attrib name="id" value="sec.41-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A person referred to in subsection (2) shall, if
+otherwise qualified, be entitled to be appointed under section 6 as an
+appointed member of the Board.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.42">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_78dac1d8-bffc-4f08-bfc4-701c30b8e6b2"></attrib>
+<attrib name="id" value="sec.42"></attrib></parentattributes>
+
+<head>
+<no>42</no><heading guid="_d2afb789-0b74-4c4c-a57b-e86cc2091cb9"
+id="sec.42-he"><b>Dedication of Park lands</b></heading></head>
+<block><txt break.before="1">Upon the appointed day&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f5da7ab1-a3d9-4ca0-bc6e-431f31fff3e9" id="sec.42-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Park lands shall be deemed to have been
+dedicated as a public park under the <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Crown Lands Consolidation Act
+1913</i></name></legref>, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_116320e9-a15b-4bac-9ae1-aa574744f498" id="sec.42-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the Board shall be deemed to have been appointed
+as trustees of the Park lands under the <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Public Trusts Act
+1897</i></name></legref>.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.43">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_004746ab-4c65-4645-a3e3-101178aa73b5"></attrib>
+<attrib name="id" value="sec.43"></attrib></parentattributes>
+
+<head>
+<no>43</no><heading guid="_094388c2-ffaf-4902-9eec-1e7c084f3035"
+id="sec.43-he"><b>Preservation of certain leases etc</b></heading></head>
+
+<tier type="subclause" id="sec.43-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_52508e2f-1a73-4803-9eab-3868ff4a3ec8"></attrib>
+<attrib name="id" value="sec.43-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Any lease or licence of or over the Park lands
+entered into before the appointed day shall&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_52eddff3-489a-41e5-b000-f5421376d5b4" id="sec.43-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to the extent to which it was valid and effectual
+immediately before the appointed day&#8212;continue to be valid and effectual
+after that day, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e0efe73c-50db-436e-b47f-0107ab20c441" id="sec.43-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to the extent to which it was valid and effectual
+immediately before the grant of any of the Park lands under section 16
+(3)&#8212;continue to be valid and effectual after the
+grant,</txt></block></li></list>
+
+<txt break.before="1">as if the dedication referred to in section 41 (1) were
+still in force and notwithstanding anything in section 41
+(4).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.43-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cdab7bc5-e175-42f7-9a57-d42ae1d0a777"></attrib>
+<attrib name="id" value="sec.43-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Nothing in this Part affects the proclamation
+published under the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Main Roads Act 1924</i></name></legref> in Gazette No 11 of
+24 January 1958, in respect of Main Road No 400 passing through the Park
+lands.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.44">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cc0b4230-d65d-4a98-957d-929ca52b0430"></attrib>
+<attrib name="id" value="sec.44"></attrib></parentattributes>
+
+<head>
+<no>44</no><heading guid="_f9786d8e-afbd-45c8-95a2-e83d885bfa08"
+id="sec.44-he"><b>Transfer of rights, liabilities and property to
+Board</b></heading></head>
+
+<tier type="subclause" id="sec.44-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_db1b55f9-7f89-4fc0-9061-3f30d36ca2ee"></attrib>
+<attrib name="id" value="sec.44-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">On and from the appointed day&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b5702d3d-84b5-432e-b0d6-8fa28e9bf8be" id="sec.44-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">all real and personal property and all right and
+interest therein and all management and control thereof that, immediately
+before that day, was vested in or belonged to the former trustees shall vest
+in and belong to the Board,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d5d60ad4-c926-4c5b-8b7d-4329352b4739" id="sec.44-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">all moneys and liquidated and unliquidated claims
+that, immediately before that day, were payable to or recoverable by the
+former trustees shall be moneys and liquidated and unliquidated claims payable
+to or recoverable by the Board,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_17cda63f-16c4-4105-9de8-38c75ef06aee" id="sec.44-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">all proceedings commenced before that day by the
+former trustees and pending immediately before that day shall be deemed to be
+proceedings pending by the Board and all proceedings so commenced by any
+person against the former trustees and pending immediately before that day
+shall be deemed to be proceedings pending by that person against the
+Board,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7a2f1d46-e416-4369-a365-70d5118fdfe8" id="sec.44-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">all contracts, agreements, arrangements and
+undertakings entered into with, and all securities lawfully given to or by,
+the former trustees and in force immediately before that day shall be deemed
+to be contracts, agreements, arrangements and undertakings entered into with
+and securities given to or by the Board,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2045f28c-8729-40fb-852c-3d9eed1bc36f" id="sec.44-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the Board may, in addition to pursuing any other
+remedies or exercising any other powers that may be available to it, pursue
+the same remedies for the recovery of moneys and claims referred to in this
+subsection and for the prosecution of proceedings so referred to as the former
+trustees might have done but for the enactment of this
+Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_907a97e6-170f-4a4b-9064-9f7a27cd8e65" id="sec.44-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">the Board may enforce and realise any security or
+charge existing immediately before that day in favour of the former trustees
+and may exercise any powers thereby conferred on the body corporate as if the
+security or charge were a security or charge in favour of the
+Board,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5190925a-c804-48a1-b606-f914179ba492" id="sec.44-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">all debts, moneys and claims, liquidated and
+unliquidated, that, immediately before that day, were due or payable by, or
+recoverable against, the former trustees shall be debts due, moneys payable by
+and claims recoverable against, the Board, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d580538c-dcd9-4aea-a18a-aacebc67d70a" id="sec.44-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">all liquidated or unliquidated claims for which
+the former trustees would, but for the enactment of this Act, have been liable
+shall be liquidated and unliquidated claims for which the Board shall be
+liable.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.44-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a426bf84-abda-47eb-9fe9-42747811a854"></attrib>
+<attrib name="id" value="sec.44-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This section extends so as to apply to and in
+respect of the Park lands, but not so as to transfer to the Board the estate
+or interest of the former trustees under section 3 (1) of the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Taronga
+Zoological Park Act 1956</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.44-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9551d58e-b914-4ccb-8edf-1a40b1f651c7"></attrib>
+<attrib name="id" value="sec.44-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">No attornment to the Board by a lessee from the
+former trustees shall be required.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.44-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ab607b69-9a73-4516-8b94-cc073b68a949"></attrib>
+<attrib name="id" value="sec.44-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A reference (however expressed) in any other Act
+or in any by-law, regulation or statutory instrument or in any other document,
+whether of the same kind or of a different kind, to the former trustees shall
+be read and construed as a reference to the Board.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.44-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f92ab065-8439-4e4a-82e7-7c8efcd1e792"></attrib>
+<attrib name="id" value="sec.44-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A by-law made by the former trustees under the
+<legref jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Public
+Parks Act 1912</i></name></legref> shall, to the extent to which it was in
+force immediately before the appointed day, and to the extent to which it is
+not inconsistent with this Act, be deemed to be a regulation made under this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.44-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_42c8c4de-00f7-47c0-8fbd-ba7d202176c0"></attrib>
+<attrib name="id" value="sec.44-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">The persons who, immediately before the appointed
+day, were employees of the former trustees shall, on that day, become and be
+employees of the Board, and&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_086c59ae-ca3b-474c-9b97-f6c16549d570" id="sec.44-ssec.6-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">where the salary or wages payable to any such
+person was or were, immediately before that day, regulated by an award or
+industrial agreement, that person shall be paid salary or wages at a rate not
+less than the rate which was payable to him or her immediately before that day
+as an employee of the former trustees, subject to any adjustment necessary to
+give effect to any fluctuation in the basic wage for adult males, or adult
+females, as the case may be, for the time being in force within the meaning of
+Part 5 of the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Industrial Arbitration Act 1940</i></name></legref>, until
+that salary or those wages is or are varied by an award by which the Board is
+bound made by a competent tribunal or by an industrial agreement to which the
+Board is a party, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_67ad2253-4596-47d2-baec-ba375bade38e" id="sec.44-ssec.6-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">where any condition of employment of any such
+person was, immediately before that day, regulated by an award or industrial
+agreement, that condition shall continue to be so regulated until it is varied
+by an award by which the Board is bound made by a competent tribunal, or that
+condition is regulated by an industrial agreement to which the Board is a
+party,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9240c552-f070-4289-acf3-68e9dfc9418b" id="sec.44-ssec.6-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">annual, sick and long service leave shall
+continue to accrue to any such person on the same basis as they accrued to him
+or her as an employee of the former trustees immediately before that day,
+until that basis is varied or altered in accordance with this Act or any other
+Act or law,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aa04ad1e-7e0d-43cc-a009-e9dfb89ee6f0" id="sec.44-ssec.6-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">for the purpose of calculating the entitlement to
+long service leave of any such person under this subsection&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_60cc524d-22f5-4f5e-a02c-e58bf272f6d1"
+id="sec.44-ssec.6-para1.d-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">any service of the person which by the terms of
+any Act or of any staff agreement or of any award or industrial agreement was,
+immediately before that day, required to be taken into account for the purpose
+of determining his or her entitlement to that leave as an employee of the
+former trustees shall be deemed to be service with the Board,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1e5e5494-9c9b-4309-a8a2-a5dbb57be5f3"
+id="sec.44-ssec.6-para1.d-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">there shall be deducted from any long service
+leave to which the employee of the Board becomes entitled, as such an
+employee, any long service leave taken by him or her in respect of any period
+of service referred to in subparagraph (i), and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bc4803a7-ad60-424c-a59d-9ebf57b0b108" id="sec.44-ssec.6-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">any such person shall be entitled to receive as
+an employee of the Board any annual leave or sick leave accrued to him or her
+as an employee of the former trustees immediately before that
+day.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.44-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6a7b642e-8d92-4382-87e7-049d69b80366"></attrib>
+<attrib name="id" value="sec.44-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">Nothing in subsection (6) affects the operation
+of subsection (1) (d) in relation to any contracts, agreements or arrangements
+entered into by the former trustees with respect to any staff superannuation
+scheme.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.44-ssec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e9b11ab4-bc07-428b-922d-e06c923562be"></attrib>
+<attrib name="id" value="sec.44-ssec.8"></attrib></parentattributes>
+
+<head>
+<no>(8)</no></head>
+<block><txt break.before="1">A person referred to in subsection (6) shall not
+be entitled to receive benefits under this Act as well as any other Act in
+respect of the same period of service.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.44-ssec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_14c18adb-9882-465f-9e37-b55712a6b27b"></attrib>
+<attrib name="id" value="sec.44-ssec.9"></attrib></parentattributes>
+
+<head>
+<no>(9)</no></head>
+<block><txt break.before="1">Nothing in this section affects the operation of
+the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Industrial Arbitration Act
+1940</i></name></legref>.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.45">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_63813333-1dcd-4c24-a45b-884949ce2493"></attrib>
+<attrib name="id" value="sec.45"></attrib></parentattributes>
+
+<head>
+<no>45</no><heading guid="_eadd40ec-0bb5-4561-b6f4-2f853831eadc"
+id="sec.45-he"><b>Certain easement extinguished</b></heading></head>
+<block><txt break.before="1">The right in the nature of a negative easement
+vested in The Metropolitan Water Sewerage and Drainage Board, as appurtenant
+to the land comprised in Certificate of Title Volume 2879 Folio 46, by section
+7 of the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Taronga Zoological Park Act 1956</i></name></legref>, is
+extinguished.</txt></block></level>
+
+
+<level type="clause" id="sec.46">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6cbe9603-3c57-49fd-a339-c508cd4ff110"></attrib>
+<attrib name="id" value="sec.46"></attrib></parentattributes>
+
+<head>
+<no>46</no><heading guid="_7588e510-477b-491c-820e-e31cd1a37cd7"
+id="sec.46-he"><b>Use of certain lands for agriculture under sec 7 of <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Taronga
+Zoological Park Act 1956</i></name></legref> continued</b></heading></head>
+<block><txt break.before="1">Despite any provision of the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1979-203"><name
+emphasis="yes"><i>Environmental Planning and Assessment Act
+1979</i></name></legref> or any instrument made under the Act, the Board may
+use any of the lands described in the Second Schedule to the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Taronga
+Zoological Park Act 1956</i></name></legref> for the purposes of
+agriculture.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 46:</b> Am 1995 No 11,
+Sch 1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.47">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ec4a5d2c-c3fe-4bd4-9fd4-900e9428b9a3"></attrib>
+<attrib name="id" value="sec.47"></attrib></parentattributes>
+
+<head>
+<no>47</no><heading guid="_25ece7e1-3f21-42b0-b9e0-ed812039907b"
+id="sec.47-he"><b>Savings and transitional regulations</b></heading></head>
+
+<tier type="subclause" id="sec.47-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0a00ddf0-3574-4674-9304-6cea2185c9dd"></attrib>
+<attrib name="id" value="sec.47-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of the following
+Acts&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a5ad4c89-0f2f-4ebf-a2ef-18718c49c8e0" id="sec.47-ssec.1-para1">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2000-007"><name emphasis="yes"><i>Zoological Parks Board Amendment
+Act 2000</i></name></legref></txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.47-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9bb03d65-c83e-4b25-b438-0f0c913a0b36"></attrib>
+<attrib name="id" value="sec.47-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such provision may, if the regulations so
+provide, take effect from the date of assent to the Act concerned or a later
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.47-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_61e0b6fa-48a9-4e28-b74a-04426f61524c"></attrib>
+<attrib name="id" value="sec.47-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication in the
+Gazette, the provision does not operate so as&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7b538f23-1865-4c81-97bf-2a7e71d33507" id="sec.47-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_82bd097b-9e77-4af8-b7f0-0d5adc02fd70" id="sec.47-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 47:</b> Ins 2000 No 7,
+Sch 1 [9].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.48">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_519a0b31-5b29-4aa9-bb08-4973cac5393a"></attrib>
+<attrib name="id" value="sec.48"></attrib></parentattributes>
+
+<head>
+<no>48</no><heading guid="_94c58f8e-c799-47fa-977a-a14040f7b478"
+id="sec.48-he"><b>Provisions consequent on enactment of <legref jurisd="NSW"
+type="act" check="unknown" refid="act-2000-007"><name
+emphasis="yes"><i>Zoological Parks Board Amendment Act
+2000</i></name></legref></b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.48-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_79e3accf-0d4b-41df-bf64-89e2b602473d"></attrib>
+<attrib name="id" value="sec.48-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_b4e12368-96bc-4373-9509-5c6fab67bc32"
+id="sec.48-ssec.1-def.amendingAct"><b><i>amending Act</i></b></defterm> means
+the <legref jurisd="NSW" type="act" check="unknown" refid="act-2000-007"><name
+emphasis="yes"><i>Zoological Parks Board Amendment Act
+2000</i></name></legref>.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.48-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8dfc647f-f93d-4282-aa3d-ace226502db3"></attrib>
+<attrib name="id" value="sec.48-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">On the day of repeal of section 6 by the amending
+Act&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4d35f18d-71ab-4127-b9a0-b68f6c5c7fc6" id="sec.48-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a person holding office under section 6 (2)
+(a)&#8211;(c) or (5) immediately before that day ceases to hold that office,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_69d968b8-d546-477a-aa3d-2a6bc0e367d0" id="sec.48-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a person holding office under section 6 (2) (d),
+(e), (f) or (g) immediately before that day is taken to be appointed as a
+member under section 6 (1) (c), (d), (e) or (f) (as inserted by the amending
+Act), respectively, for the balance of the person&#8217;s term of office,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aacb4155-da1f-4b3d-bade-8c3705a9f319" id="sec.48-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any other person holding office under section 6
+(2) immediately before that day is taken to be appointed as a member under
+section 6 (1) (a) (as inserted by the amending Act) for the balance of the
+person&#8217;s term of office.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.48-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0b6c77a8-05f1-421f-8167-a0019b257a09"></attrib>
+<attrib name="id" value="sec.48-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A person who ceases to hold office under
+subsection (2) (a)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e1acc338-eb11-4630-8188-1b9e8e40867f" id="sec.48-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is not entitled to any remuneration or
+compensation because of loss of that office, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e53df33e-4d27-46bf-9e29-fb8e2e6526a9" id="sec.48-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is eligible (if otherwise qualified) to be
+appointed as a member.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.48-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ed65bbb4-fcde-41e1-b619-c0ac663ba1b3"></attrib>
+<attrib name="id" value="sec.48-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">On the day of commencement of the amendment made
+to section 7 (1)&#8211;(3) by the amending Act, the persons holding office as
+Chairperson and Deputy Chairperson immediately before that day are taken to be
+appointed as Chairperson and Deputy Chairperson, respectively, under section 7
+(as amended by the amending Act) for the balance of their respective terms of
+office as such.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 48:</b> Ins 2000 No 7,
+Sch 1 [9].</txt></content>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1" status="repealed">
+<parentattributes>
+<attrib name="status" value="repealed"></attrib>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_af4e510e-6cc1-47db-b479-2ea9167c4cf9"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedules 1, 2</b></no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Subst 1987 No
+209, Sch 42 (3). Am 2004 No 114, Sch 2.25. Rep 2006 No 2, Sch 4.83
+[5].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 2:</b> Am 1987 No
+180, Sch 1. Rep 1999 No 85, Sch 4.</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.3">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a1d9feb2-6a28-4231-a0f4-59c49430cef3"></attrib>
+<attrib name="id" value="sch.3"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 3</b></no></head>
+<block align="right" type="sourceref"><txt>(Sections 15, 16,
+38)</txt></block>
+<block><txt break.before="1">ALL THAT piece or parcel of land containing by
+admeasurement 29.15 hectares be the same more or less, Municipality of Mosman,
+Parish of Willoughby, County of Cumberland, being portion 1220 as shown on
+plan catalogued C 10341-2030 roll in the Department of Lands,
+Sydney.</txt></block></level>
+
+
+<level type="schedule" id="sch.4">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fd0f05b7-53cd-4ba1-abd3-f1429afcfcd5"></attrib>
+<attrib name="id" value="sch.4"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 4</b></no></head>
+<block align="right" type="sourceref"><txt>(Sections 15, 16,
+38)</txt></block>
+<block><txt break.before="1">ALL THAT piece or parcel of land containing by
+admeasurement 1 239 square metres be the same more or less, Municipality of
+Mosman, Parish of Willoughby, County of Cumberland, being portion 1209 as
+shown on plan catalogued C 9638-2030 in the Department of Lands,
+Sydney.</txt></block></level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_9bd818b7-938e-4177-9a98-73ce01be6d80"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_28352165-8281-41bb-9215-cb43dc193fb5"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1973-034"><name emphasis="yes"><i>Zoological Parks Board Act
+1973</i></name> No 34</legref>. Assented to 2.5.1973. Date of commencement,
+4.6.1973, sec 2 and GG No 68 of 25.5.1973, p 1900. This Act has been amended
+as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_6d7d376b-404f-4f8e-9608-6f0756e9e424" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_b5862e38-765c-4f12-9a2a-33a75b74614f" id="ed-tbl-tblr">
+<entry colname="1" guid="_c2aa1aa4-f631-4acd-a837-6b37524d440e"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1977</b></txt></entry>
+<entry colname="2" guid="_62e5c937-eff8-4843-80d1-e61508cc3b82"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 19</txt></entry>
+<entry colname="3" guid="_57040d0c-14b4-414b-9a61-4c105107a2c2"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1977-019"><name emphasis="yes"><i>Notice of Action and Other
+Privileges Abolition Act 1977</i></name></legref>. Assented to
+24.3.1977.</txt>
+<txt break.before="1">Date of commencement, 19.8.1977, sec 2 and GG No 92 of
+19.8.1977, p 3541.</txt></block></entry></row>
+
+
+<row guid="_ab26764a-fb93-496c-b295-5bd05142587f" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_1a379188-21f8-4c4b-b98b-463f3463e649"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>1980</b></txt></entry>
+<entry colname="2" guid="_66ded3cb-9aa1-4e67-874a-7f6e9de8e2b8"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 196</txt></entry>
+<entry colname="3" guid="_06b002a0-8466-40b1-aa9e-46a55f03b074"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Crown Land Titles)
+Amendment Act 1980</i></name></legref>. Assented to 22.12.1980.</txt>
+<txt break.before="1">Date of commencement of Sch 1 (except as provided in sec
+2 (4)&#8211;(6)), 1.10.1981, sec 2 (3) and GG No 141 of 25.9.1981, p
+5107.</txt></block></entry></row>
+
+
+<row guid="_68143173-fcb0-4ae2-bb36-fd2096a58d90" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_bddbc405-b411-4c67-8427-8b2efd5e4891"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>1983</b></txt></entry>
+<entry colname="2" guid="_6eaa0790-9d93-4972-968f-c187395c9c53"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 153</txt></entry>
+<entry colname="3" guid="_5afaab07-c9ea-4f94-8554-39b2ea9ac0ff"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Public Finance and
+Audit) Repeal and Amendment Act 1983</i></name></legref>. Assented to
+29.12.1983.</txt>
+<txt break.before="1">Date of commencement, 6.1.1984, sec 2 (2) and GG No 4 of
+6.1.1984, p 19.</txt></block></entry></row>
+
+
+<row guid="_628f0e1f-3a7a-40b9-8454-4541012137ac" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_921d1ff9-2121-4aca-a605-40fa2364aa6f"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>1986</b></txt></entry>
+<entry colname="2" guid="_01085e9c-dc5f-49a8-be8f-2ee19b090ae5"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 125</txt></entry>
+<entry colname="3" guid="_4a7ab158-656c-483e-a4fe-e7f06788c096"
+id="ed-tbl-tblr-oc.4-tble3"><txt break.before="1"><legref jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Zoological Parks Board
+(Exhibited Animals) Amendment Act 1986</i></name></legref>. Assented to
+27.11.1986.</txt></entry></row>
+
+
+<row guid="_fe683ce9-f1e9-4933-a11d-c077dfa867f5" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_a556bceb-4565-43ce-8a8c-912ef6f19924"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>1987</b></txt></entry>
+<entry colname="2" guid="_0150dedb-5316-4a65-8af0-a6a24524cc13"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 48</txt></entry>
+<entry colname="3" guid="_7df602b2-c623-44a6-86e9-1d45b311bb5b"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 1) 1987</i></name></legref>. Assented to 28.5.1987.</txt>
+<txt break.before="1">Date of commencement of Sch 32, except as provided by
+sec 2 (13), 1.9.1987, sec 2 (12) and GG No 136 of 28.8.1987, p
+4809.</txt></block></entry></row>
+
+
+<row guid="_b1e2b151-f64b-48d4-b35d-7d285163cc8d" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_022b6244-6acf-46f2-b3f3-f08e32f8f181"
+id="ed-tbl-tblr-oc.6-tble1"></entry>
+<entry colname="2" guid="_66d4e4ae-3e1f-440a-8b52-097623d529af"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">No 180</txt></entry>
+<entry colname="3" guid="_b5631f68-e012-4de1-98e4-660b1c1709d1"
+id="ed-tbl-tblr-oc.6-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Closer Settlement (Miscellaneous
+Repeals and Amendments) Act 1987</i></name></legref>. Assented to
+4.12.1987.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_fa69283f-320f-4bff-bdbf-7b666284a791" id="ed-tbl-tblr-oc.7">
+<entry colname="1" guid="_6feac312-bf6c-4199-a19a-e5a5c046ccb2"
+id="ed-tbl-tblr-oc.7-tble1"></entry>
+<entry colname="2" guid="_5701c280-985b-4834-a9a7-e282114ae049"
+id="ed-tbl-tblr-oc.7-tble2"><txt break.before="1">No 209</txt></entry>
+<entry colname="3" guid="_834fa756-291f-4332-a637-75748f37ff4d"
+id="ed-tbl-tblr-oc.7-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1987</i></name></legref>. Assented to 9.12.1987.</txt>
+<txt break.before="1">Date of commencement of Sch 42, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_bc2a5217-e435-4042-9db3-9f3907ccd801" id="ed-tbl-tblr-oc.8">
+<entry colname="1" guid="_214b6693-5c6b-4962-b9b0-ed056c226116"
+id="ed-tbl-tblr-oc.8-tble1"><txt break.before="1"><b>1988</b></txt></entry>
+<entry colname="2" guid="_b2060828-535a-429a-959e-2006f3929e0c"
+id="ed-tbl-tblr-oc.8-tble2"><txt break.before="1">No 4</txt></entry>
+<entry colname="3" guid="_a5c81dac-a280-4787-979f-ac6f086fdc03"
+id="ed-tbl-tblr-oc.8-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Zoological Parks Board (Amendment) Act
+1988</i></name></legref>. Assented to 14.6.1988.</txt>
+<txt break.before="1">Date of commencement, 22.7.1988, sec 2 and GG No 121 of
+22.7.1988, p 3963.</txt></block></entry></row>
+
+
+<row guid="_04f0c7e7-a5a6-4cea-b9c4-e97c8b8df50d" id="ed-tbl-tblr-oc.9">
+<entry colname="1" guid="_e12fcc77-0ced-4d38-bff4-fb9beac20716"
+id="ed-tbl-tblr-oc.9-tble1"><txt break.before="1"><b>1989</b></txt></entry>
+<entry colname="2" guid="_bc43b154-5706-4f47-ac14-2b8c59324926"
+id="ed-tbl-tblr-oc.9-tble2"><txt break.before="1">No 89</txt></entry>
+<entry colname="3" guid="_97a35c01-51c7-431e-8dde-7e366e53e473"
+id="ed-tbl-tblr-oc.9-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act 1989</i></name></legref>. Assented to 13.6.1989.</txt>
+<txt break.before="1">Date of commencement of the provisions of Sch 2 relating
+to the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1973-034"><name emphasis="yes"><i>Zoological Parks Board Act
+1973</i></name></legref>, assent, sec 2 (1).</txt></block></entry></row>
+
+
+<row guid="_9757ae33-d453-4448-a9ad-84dfd19053d4" id="ed-tbl-tblr-oc.10">
+<entry colname="1" guid="_ee4bb955-493c-494d-9ca5-a4f91eef3a02"
+id="ed-tbl-tblr-oc.10-tble1"></entry>
+<entry colname="2" guid="_55692814-bbea-4137-888e-605658a97ec7"
+id="ed-tbl-tblr-oc.10-tble2"><txt break.before="1">No 105</txt></entry>
+<entry colname="3" guid="_eaf4b289-c378-4efd-b8cc-06d8ad4babbb"
+id="ed-tbl-tblr-oc.10-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Public Sector
+Executives Employment) Amendment Act 1989</i></name></legref>. Assented to
+15.8.1989.</txt>
+<txt break.before="1">Date of commencement of the provisions of Sch 1 relating
+to the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1973-034"><name emphasis="yes"><i>Zoological Parks Board Act
+1973</i></name></legref>, 1.10.1989, sec 2 and GG No 98 of 29.9.1989, p
+7742.</txt></block></entry></row>
+
+
+<row guid="_a973c616-2222-4a7f-ac42-4c4428e4694c" id="ed-tbl-tblr-oc.11">
+<entry colname="1" guid="_9874a0a7-a4b9-4d12-b2ee-c7e572f43fd0"
+id="ed-tbl-tblr-oc.11-tble1"><txt break.before="1"><b>1990</b></txt></entry>
+<entry colname="2" guid="_eac43837-db6f-493e-9bfc-497aa0690976"
+id="ed-tbl-tblr-oc.11-tble2"><txt break.before="1">No 46</txt></entry>
+<entry colname="3" guid="_e2afe028-4ed6-4f54-9b4b-cd88d337fd29"
+id="ed-tbl-tblr-oc.11-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act 1990</i></name></legref>. Assented to 22.6.1990.</txt>
+<txt break.before="1">Date of commencement of the provisions of Sch 1 relating
+to the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1973-034"><name emphasis="yes"><i>Zoological Parks Board Act
+1973</i></name></legref>, assent, sec 2.</txt></block></entry></row>
+
+
+<row guid="_a3e4e0c0-68d6-4dd6-8dfb-ecdde71ab39c" id="ed-tbl-tblr-oc.12">
+<entry colname="1" guid="_62b2e0db-4556-4ae9-bb9e-081ca202d2f6"
+id="ed-tbl-tblr-oc.12-tble1"><txt break.before="1"><b>1992</b></txt></entry>
+<entry colname="2" guid="_0d2154b8-444d-4d8f-a964-77470cdfbdc3"
+id="ed-tbl-tblr-oc.12-tble2"><txt break.before="1">No 34</txt></entry>
+<entry colname="3" guid="_dab8219a-cb4d-4941-99a5-6325cd5074b5"
+id="ed-tbl-tblr-oc.12-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act 1992</i></name></legref>. Assented to 18.5.1992.</txt>
+<txt break.before="1">Date of commencement of the provision of Sch 1 relating
+to the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1973-034"><name emphasis="yes"><i>Zoological Parks Board Act
+1973</i></name></legref>, assent, Sch 1.</txt></block></entry></row>
+
+
+<row guid="_d6088f13-105a-4b5e-b9e5-b89ad1485f61" id="ed-tbl-tblr-oc.13">
+<entry colname="1" guid="_abe83a31-da13-4257-ae7f-9b37a025375e"
+id="ed-tbl-tblr-oc.13-tble1"></entry>
+<entry colname="2" guid="_e95afa52-72f6-4a9b-b80e-b3af35a6cb36"
+id="ed-tbl-tblr-oc.13-tble2"><txt break.before="1">No 44</txt></entry>
+<entry colname="3" guid="_7862d2d7-2d01-4c3e-a4d3-876321eedc22"
+id="ed-tbl-tblr-oc.13-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Zoological Parks Board (Conservation
+and Environmental Objectives) Amendment Act 1992</i></name></legref>. Assented
+to 19.5.1992.</txt>
+<txt break.before="1">Date of commencement, 1.3.1997, sec 2 and GG No 22 of
+28.2.1997, p 1009. Amended by <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1994</i></name> No 95</legref>. Assented to 12.12.1994. Date of
+commencement of the provision of Sch 2 relating to the <legref jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Zoological Parks Board
+(Conservation and Environmental Objectives) Amendment Act
+1992</i></name></legref>, assent, Sch 2.</txt></block></entry></row>
+
+
+<row guid="_a7cc680c-d5e3-4049-aec1-ed4cc50b38d9" id="ed-tbl-tblr-oc.14">
+<entry colname="1" guid="_3f27f05c-8149-4f59-a5b5-cb854d30bfc3"
+id="ed-tbl-tblr-oc.14-tble1"></entry>
+<entry colname="2" guid="_15eb3601-1d9e-414f-8a27-4d15d811642e"
+id="ed-tbl-tblr-oc.14-tble2"><txt break.before="1">No 57</txt></entry>
+<entry colname="3" guid="_f2657efe-ae5a-4f77-a22d-18480c2ad56b"
+id="ed-tbl-tblr-oc.14-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1992</i></name></legref>. Assented to 8.10.1992.</txt>
+<txt break.before="1">The amendment was without effect as the provision being
+amended had been amended by the <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1994</i></name> No 95</legref>.</txt></block></entry></row>
+
+
+<row guid="_8ac816b8-6376-4dc5-8f72-6f9dfc1a96af" id="ed-tbl-tblr-oc.15">
+<entry colname="1" guid="_7f16bdc8-dc69-4e7d-9e16-fd40d71f7677"
+id="ed-tbl-tblr-oc.15-tble1"></entry>
+<entry colname="2" guid="_e180f6e2-ebbd-40ae-9f24-ca1e853caac6"
+id="ed-tbl-tblr-oc.15-tble2"><txt break.before="1">No 112</txt></entry>
+<entry colname="3" guid="_91e13a6d-0638-4a0f-aaad-a059a9b43369"
+id="ed-tbl-tblr-oc.15-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Penalties) Act
+1992</i></name></legref>. Assented to 8.12.1992.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_da6830a0-3ed9-415b-aa09-38fdeccff687" id="ed-tbl-tblr-oc.16">
+<entry colname="1" guid="_d2d8c836-8791-462f-8237-64c64710970a"
+id="ed-tbl-tblr-oc.16-tble1"><txt break.before="1"><b>1993</b></txt></entry>
+<entry colname="2" guid="_b1e5a849-94d8-4904-8bf5-a751a3be8ffc"
+id="ed-tbl-tblr-oc.16-tble2"><txt break.before="1">No 108</txt></entry>
+<entry colname="3" guid="_50ca563b-70ae-466a-b699-e7d44b53ed63"
+id="ed-tbl-tblr-oc.16-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1993</i></name></legref>. Assented to 2.12.1993.</txt>
+<txt break.before="1">Date of commencement of the provision of Sch 1 relating
+to the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1973-034"><name emphasis="yes"><i>Zoological Parks Board Act
+1973</i></name></legref>, assent, Sch 1.</txt></block></entry></row>
+
+
+<row guid="_0f40f9cc-45f8-4870-b416-d8e2062221f4" id="ed-tbl-tblr-oc.17">
+<entry colname="1" guid="_f35d7293-0d51-4491-89a8-ce5add7fc39d"
+id="ed-tbl-tblr-oc.17-tble1"><txt break.before="1"><b>1995</b></txt></entry>
+<entry colname="2" guid="_603a8384-d31a-41ec-9c13-8fa3830d3e33"
+id="ed-tbl-tblr-oc.17-tble2"><txt break.before="1">No 11</txt></entry>
+<entry colname="3" guid="_d2b5cad7-bad4-4496-884b-8cffd5ac4175"
+id="ed-tbl-tblr-oc.17-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law Revision (Local
+Government) Act 1995</i></name></legref>. Assented to 9.6.1995.</txt>
+<txt break.before="1">Date of commencement of the provisions of Sch 1 relating
+to the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1973-034"><name emphasis="yes"><i>Zoological Parks Board Act
+1973</i></name></legref>, 23.6.1995, sec 2 (1) and GG No 77 of 23.6.1995, p
+3279.</txt></block></entry></row>
+
+
+<row guid="_0d6bde1f-d867-48c5-83c1-e08cf8ee3dcd" id="ed-tbl-tblr-oc.18">
+<entry colname="1" guid="_712e039a-f815-4156-88db-f4f2877b6d01"
+id="ed-tbl-tblr-oc.18-tble1"><txt break.before="1"><b>1996</b></txt></entry>
+<entry colname="2" guid="_20bdc3a3-2498-40ae-89f7-71453bc84e27"
+id="ed-tbl-tblr-oc.18-tble2"><txt break.before="1">No 24</txt></entry>
+<entry colname="3" guid="_39925435-47bf-4c65-931b-1cbe1bcc788a"
+id="ed-tbl-tblr-oc.18-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Financial Institutions (Miscellaneous
+Amendments) Act 1996</i></name></legref>. Assented to 21.6.1996.</txt>
+<txt break.before="1">Date of commencement, 12.7.1996, sec 2 and GG No 84 of
+12.7.1996, p 3984.</txt></block></entry></row>
+
+
+<row guid="_e7b006f5-1529-4013-9bb1-c8274b415c74" id="ed-tbl-tblr-oc.19">
+<entry colname="1" guid="_77243b4d-f047-43f2-b47c-3a16ce18d504"
+id="ed-tbl-tblr-oc.19-tble1"><txt break.before="1"><b>1997</b></txt></entry>
+<entry colname="2" guid="_6cec0ea3-c370-44a0-b1f8-f46b246d1aeb"
+id="ed-tbl-tblr-oc.19-tble2"><txt break.before="1">No 147</txt></entry>
+<entry colname="3" guid="_f697166c-3ff6-46af-9c07-876efa64f045"
+id="ed-tbl-tblr-oc.19-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1997</i></name></legref>. Assented to 17.12.1997.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 3 months after assent,
+sec 2 (3).</txt></block></entry></row>
+
+
+<row guid="_7a152472-8735-48f0-aca2-741c5a66c676" id="ed-tbl-tblr-oc.20">
+<entry colname="1" guid="_9c6f04da-ae3a-4ed6-89f1-5d920a9d9584"
+id="ed-tbl-tblr-oc.20-tble1"><txt break.before="1"><b>1999</b></txt></entry>
+<entry colname="2" guid="_5ef72592-0ce5-4428-9aa4-c4b07d190034"
+id="ed-tbl-tblr-oc.20-tble2"><txt break.before="1">No 31</txt></entry>
+<entry colname="3" guid="_5e35a472-1438-4d0d-96ac-8d78149ed469"
+id="ed-tbl-tblr-oc.20-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1999-031"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 1999</i></name></legref>. Assented to 7.7.1999.</txt>
+<txt break.before="1">Date of commencement of Schs 4 and 5, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_1aac7142-8161-4193-85a0-0a49053b8919" id="ed-tbl-tblr-oc.21">
+<entry colname="1" guid="_6a837fc2-90f2-4a97-92c5-a68351602114"
+id="ed-tbl-tblr-oc.21-tble1"></entry>
+<entry colname="2" guid="_5628de9e-4219-472d-a155-974e62544779"
+id="ed-tbl-tblr-oc.21-tble2"><txt break.before="1">No 85</txt></entry>
+<entry colname="3" guid="_14e78863-2371-46d9-9d85-cf4617a6764c"
+id="ed-tbl-tblr-oc.21-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1999-085"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 1999</i></name></legref>. Assented to 3.12.1999.</txt>
+<txt break.before="1">Date of commencement of Sch 4, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_a2623dec-a950-41c1-a120-93eac4b4c05e" id="ed-tbl-tblr-oc.22">
+<entry colname="1" guid="_ef56c8f3-0655-4e9c-959c-31194aef230c"
+id="ed-tbl-tblr-oc.22-tble1"></entry>
+<entry colname="2" guid="_ef6d4297-039f-41f6-8ad3-4ff15cb24025"
+id="ed-tbl-tblr-oc.22-tble2"><txt break.before="1">No 94</txt></entry>
+<entry colname="3" guid="_0fb9d0bb-f84b-44d5-a47b-33acccf4cf51"
+id="ed-tbl-tblr-oc.22-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Crimes Legislation Amendment
+(Sentencing) Act 1999</i></name></legref>. Assented to 8.12.1999.</txt>
+<txt break.before="1">Date of commencement of sec 7 and Sch 5, 1.1.2000, sec 2
+(1) and GG No 144 of 24.12.1999, p 12184.</txt></block></entry></row>
+
+
+<row guid="_c9d72f65-3ebd-4f32-b17f-83e1d655016a" id="ed-tbl-tblr-oc.23">
+<entry colname="1" guid="_2ef45504-1afb-492d-8f39-2d258ef8c2c2"
+id="ed-tbl-tblr-oc.23-tble1"><txt break.before="1"><b>2000</b></txt></entry>
+<entry colname="2" guid="_c3faec37-ed20-4929-9c62-eff09141c594"
+id="ed-tbl-tblr-oc.23-tble2"><txt break.before="1">No 7</txt></entry>
+<entry colname="3" guid="_a897a590-3f17-4580-9982-05a67a6b775b"
+id="ed-tbl-tblr-oc.23-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2000-007"><name emphasis="yes"><i>Zoological Parks Board Amendment
+Act 2000</i></name></legref>. Assented to 1.5.2000.</txt>
+<txt break.before="1">Date of commencement, 1.7.2000, sec 2 and GG No 66 of
+2.6.2000, p 4504.</txt></block></entry></row>
+
+
+<row guid="_5ef4d05d-75d4-4b34-be20-bdf6d616db35" id="ed-tbl-tblr-oc.24">
+<entry colname="1" guid="_6c852798-3a65-495c-8fec-5115fa3b25b9"
+id="ed-tbl-tblr-oc.24-tble1"><txt break.before="1"><b>2001</b></txt></entry>
+<entry colname="2" guid="_7b49e6b7-8620-4216-abd0-da21e0432f71"
+id="ed-tbl-tblr-oc.24-tble2"><txt break.before="1">No 121</txt></entry>
+<entry colname="3" guid="_40c42c78-a834-45b1-afcd-00d8e89da02a"
+id="ed-tbl-tblr-oc.24-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2001-121"><name emphasis="yes"><i>Justices Legislation Repeal and
+Amendment Act 2001</i></name></legref>. Assented to 19.12.2001.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 7.7.2003, sec 2 and GG No
+104 of 27.6.2003, p 5978.</txt></block></entry></row>
+
+
+<row guid="_0328a572-bf6b-4f46-8530-6111c20b1f5f" id="ed-tbl-tblr-oc.25">
+<entry colname="1" guid="_27091b98-a5cb-41d7-9dad-131011d2adcb"
+id="ed-tbl-tblr-oc.25-tble1"><txt break.before="1"><b>2004</b></txt></entry>
+<entry colname="2" guid="_60d0adc6-1c73-4fa4-95cb-30067033a376"
+id="ed-tbl-tblr-oc.25-tble2"><txt break.before="1">No 114</txt></entry>
+<entry colname="3" guid="_c566d8e8-8626-4811-9526-c49e32f1d8b9"
+id="ed-tbl-tblr-oc.25-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2004-114"><name emphasis="yes"><i>Teaching Services Amendment Act
+2004</i></name></legref>. Assented to 21.12.2004.</txt>
+<txt break.before="1">Date of commencement, 17.1.2005, sec 2 and GG No 7 of
+14.1.2005, p 97.</txt></block></entry></row>
+
+
+<row guid="_e44a2cf9-f788-4fd4-b427-8b8837159f97" id="ed-tbl-tblr-oc.26">
+<entry colname="1" guid="_676daf86-9cb5-4bd6-9afa-aab8d3f3fce8"
+id="ed-tbl-tblr-oc.26-tble1"><txt break.before="1"><b>2006</b></txt></entry>
+<entry colname="2" guid="_0d15af7b-303e-4eaa-a02f-29108903a95d"
+id="ed-tbl-tblr-oc.26-tble2"><txt break.before="1">No 2</txt></entry>
+<entry colname="3" guid="_1d114e9e-9182-4440-98fd-66d77aa308aa"
+id="ed-tbl-tblr-oc.26-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2006-002"><name emphasis="yes"><i>Public Sector Employment
+Legislation Amendment Act 2006</i></name></legref>. Assented to
+13.3.2006.</txt>
+<txt break.before="1">Date of commencement, 17.3.2006, sec 2 and GG No 35 of
+17.3.2006, p 1378.</txt></block></entry></row>
+
+
+<row guid="_852ffeba-9440-4032-ae89-013bb8bb6035" id="ed-tbl-tblr-oc.27">
+<entry colname="1" guid="_782709ed-da28-4ee8-a9be-7260614dbe30"
+id="ed-tbl-tblr-oc.27-tble1"><txt break.before="1"><b>2007</b></txt></entry>
+<entry colname="2" guid="_464d4753-ea33-47e5-8e21-bb45e5bfa144"
+id="ed-tbl-tblr-oc.27-tble2"><txt break.before="1">No 27</txt></entry>
+<entry colname="3" guid="_c84c1c18-34a7-4540-8574-a73cc33f9cb1"
+id="ed-tbl-tblr-oc.27-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2007-027"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2007</i></name></legref>. Assented to 4.7.2007.</txt>
+<txt break.before="1">Date of commencement of Sch 2, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_2b998876-6026-4245-a1ee-c836f006d2a4" id="ed-tbl-tblr-oc.28">
+<entry colname="1" guid="_3dd84809-9bd5-4821-b80d-7583f46b8e24"
+id="ed-tbl-tblr-oc.28-tble1"></entry>
+<entry colname="2" guid="_eb507672-a5a3-4a8c-ad37-5f8109638997"
+id="ed-tbl-tblr-oc.28-tble2"><txt break.before="1">No 94</txt></entry>
+<entry colname="3" guid="_c93fbf12-5a91-4fc2-9402-5b3e6840f92f"
+id="ed-tbl-tblr-oc.28-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2007-094"><name emphasis="yes"><i>Miscellaneous Acts (Local Court)
+Amendment Act 2007</i></name></legref>. Assented to 13.12.2007.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 6.7.2009, sec 2 and 2009
+(314) LW 3.7.2009.</txt></block></entry></row>
+
+
+<row guid="_304344d8-f157-467f-a22f-aac9f72304cb" id="ed-tbl-tblr-oc.29">
+<entry colname="1" guid="_3fcd4a25-752f-4736-9423-ba25a94f8dee"
+id="ed-tbl-tblr-oc.29-tble1"><txt break.before="1"><b>2008</b></txt></entry>
+<entry colname="2" guid="_3db83424-c5b5-4dfe-ac22-869e6b16222d"
+id="ed-tbl-tblr-oc.29-tble2"><txt break.before="1">No 62</txt></entry>
+<entry colname="3" guid="_f08c186e-bd6f-47c1-8b88-f070ba826554"
+id="ed-tbl-tblr-oc.29-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2008-062"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2008</i></name></legref>. Assented to 1.7.2008.</txt>
+<txt break.before="1">Date of commencement of Sch 1.42, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_5f2653d4-ce3b-4ee7-871a-d620fc464635" id="ed-tbl-tblr-oc.30">
+<entry colname="1" guid="_c7968c6d-db20-41d5-afd4-7be533f8c018"
+id="ed-tbl-tblr-oc.30-tble1"><txt break.before="1"><b>2014</b></txt></entry>
+<entry colname="2" guid="_2de3b6cf-a4b6-413a-933c-d37c5cdb4ece"
+id="ed-tbl-tblr-oc.30-tble2"><txt break.before="1">No 33</txt></entry>
+<entry colname="3" guid="_20b49a4d-e209-4480-ad02-a479d0523f9b"
+id="ed-tbl-tblr-oc.30-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2014-033"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2014</i></name></legref>. Assented to 24.6.2014.</txt>
+<txt break.before="1">Date of commencement of Sch 3.36, 4.7.2014, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_d605d35e-afa4-423f-9cad-0e2295a2e3f4" id="ed-tbl-tblr-oc.31">
+<entry colname="1" guid="_1c46a216-99e5-4f54-802e-e6a5fb137502"
+id="ed-tbl-tblr-oc.31-tble1"><txt break.before="1"><b>2017</b></txt></entry>
+<entry colname="2" guid="_fb371391-437d-4308-880f-68a8e895cdc4"
+id="ed-tbl-tblr-oc.31-tble2"><txt break.before="1">No 17</txt></entry>
+<entry colname="3" guid="_01aedce8-696e-47a3-a4d2-ade0538f0c83"
+id="ed-tbl-tblr-oc.31-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-2017-017"><name emphasis="yes"><i>Crown Land Legislation Amendment
+Act 2017</i></name></legref>. Assented to 17.5.2017.</txt>
+<txt break.before="1">Date of commencement of Sch 4, 1.7.2018, sec 2 (1) and
+2018 (225) LW 1.6.2018.</txt></block></entry></row>
+
+
+<row guid="_39bcd153-3279-49a2-af88-94071fda4cb6" id="ed-tbl-tblr-oc.32">
+<entry colname="1" guid="_78c7516a-8e53-47e9-bb3c-3c4377231363"
+id="ed-tbl-tblr-oc.32-tble1"><txt break.before="1"><b>2025</b></txt></entry>
+<entry colname="2" guid="_445d8fd2-5a4a-44a3-95ad-00269cfd6068"
+id="ed-tbl-tblr-oc.32-tble2"><txt break.before="1">No 61</txt></entry>
+<entry colname="3" guid="_951e075b-a4f2-4ba2-8d35-5bc384272a68"
+id="ed-tbl-tblr-oc.32-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Local Court and Bail Legislation
+Amendment Act 2025</i></name></legref>. Assented to 28.10.2025.</txt>
+<txt break.before="1">Date of commencement of Sch 2.94, 28.3.2026, sec 2(b)
+and 2026 (82) LW 13.3.2026.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">This Act has also been amended by a regulation
+under the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Public Authorities (Financial Accommodation) Act
+1981</i></name> No 82</legref>, published in Gazette No 9 of 20.1.1984, p
+172.</txt></block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_13809a98-1483-47fd-8ed2-7a6fb67e98bf"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block><txt break.before="1">No reference is made to certain amendments made
+by Schedule 3 (amendments replacing gender-specific language) to the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Statute Law
+(Miscellaneous Provisions) Act (No 2) 1997</i></name></legref>.</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_f43d179d-5683-4309-a087-5a740327ce5c" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_7073bcc2-038b-4e22-9864-34036f4f4a90" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_4ff0b6d7-ede3-4a16-8933-9d6dc98b1287"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_59ff0a6f-27d8-4418-b3a5-164809111e5e"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am GG No 9 of 20.1.1984, p
+172. Rep 1999 No 31, Sch 5.116.</txt></entry></row>
+
+
+<row guid="_74e95c50-eacc-482b-b34b-269b31fb3f52" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_a8aa91b1-4aa1-4880-8edf-57ea227b63f2"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_5419d893-714b-4de7-9488-0df0d7aca1f6"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 1992 No 44, Sch 1
+(1); 2007 No 27, Sch 2.65.</txt></entry></row>
+
+
+<row guid="_832febbd-7337-4205-b82a-13ba27d9adba" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_a1483346-ab67-4e68-bf98-dafdaa009485"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 5</txt></entry>
+<entry colname="2" guid="_6a67b93d-e7af-4592-af9c-cfc73b487aa8"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Am 2006 No 2, Sch 4.83
+[1]; 2008 No 62, Sch 1.42; 2014 No 33, Sch 3.36 [1].</txt></entry></row>
+
+
+<row guid="_a6914790-b14b-45f9-b979-7e366d6ce4a8" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_c72a6956-afda-4ef7-a113-2e42d7953746"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 6</txt></entry>
+<entry colname="2" guid="_9edcf003-4c4a-4505-8356-c5b35bd7dea3"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Subst 1988 No 4, Sch 1
+(1). Am 1990 No 46, Sch 1; 1995 No 11, Sch 1. Subst 2000 No 7, Sch 1
+[1].</txt></entry></row>
+
+
+<row guid="_1fe9af55-4fb8-4963-b028-570d62235250" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_f1ce7c6a-a589-49fb-bb96-e48e47eaf2aa"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 7</txt></entry>
+<entry colname="2" guid="_5ace5002-995d-48cb-821c-9b8dc119ee83"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Subst 1988 No 4, Sch 1
+(1). Am 1992 No 34, Sch 1; 2000 No 7, Sch 1 [2] [3].</txt></entry></row>
+
+
+<row guid="_665e79c7-8890-4ab8-93a0-17caaf675c65" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_00f81070-390e-46e8-b24f-2f667ad3c0b1"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 8</txt></entry>
+<entry colname="2" guid="_41470180-0359-437e-9f12-59eb24255810"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Rep 2000 No 7, Sch 1
+[4].</txt></entry></row>
+
+
+<row guid="_db9cdc2f-b6b3-43e4-b4d4-b70cea5eba3b" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_82f1febf-9b45-4cb7-85a5-ba944fdd55a8"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_e981ef52-04ec-4d8e-ad18-2c0f33d710de"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Am 2014 No 33, Sch 3.36
+[2].</txt></entry></row>
+
+
+<row guid="_0790a0de-4a4e-4ca2-8bd1-545a67959681" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_d4344af4-8379-465a-90c0-d20a97805303"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sec 10</txt></entry>
+<entry colname="2" guid="_dd2afbc0-9860-40a1-a51c-9d2071df5bf7"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Am 1990 No 46, Sch 1;
+1999 No 94, sec 7 (1) and Sch 5, Part 1; 2000 No 7, Sch 1 [3]
+[5]&#8211;[7].</txt></entry></row>
+
+
+<row guid="_1988aa47-116f-4474-87ae-d1e8ecfea3b0" id="ed-tbl-oc.2-tblr-oc.9">
+<entry colname="1" guid="_2d4f4002-9c84-483d-aa28-af578558f055"
+id="ed-tbl-oc.2-tblr-oc.9-tble1"><txt break.before="1">Sec 11</txt></entry>
+<entry colname="2" guid="_7aaf2795-27dd-4e6a-a49c-5ac3620f9975"
+id="ed-tbl-oc.2-tblr-oc.9-tble2"><txt break.before="1">Am 1988 No 4, Sch 1
+(2); 2000 No 7, Sch 1 [8].</txt></entry></row>
+
+
+<row guid="_3a1175dd-0385-491e-9360-fe0c0f4cc68b"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry colname="1" guid="_af334f39-758b-4a5c-8fee-7c078afc29e9"
+id="ed-tbl-oc.2-tblr-oc.10-tble1"><txt break.before="1">Sec 12</txt></entry>
+<entry colname="2" guid="_cf2870f9-5405-4d56-982a-d6b95edce493"
+id="ed-tbl-oc.2-tblr-oc.10-tble2"><txt break.before="1">Am 1989 No 105, Sch 1.
+Subst 2006 No 2, Sch 4.83 [2]; 2014 No 33, Sch 3.36 [3].</txt></entry></row>
+
+
+<row guid="_b74ea505-f8df-433c-bb78-a6af05132a6b"
+id="ed-tbl-oc.2-tblr-oc.11">
+<entry colname="1" guid="_972fac40-4aaf-465d-a8ee-b68866855886"
+id="ed-tbl-oc.2-tblr-oc.11-tble1"><txt break.before="1">Sec 12A</txt></entry>
+<entry colname="2" guid="_26aacce8-ffe1-4db5-ac34-74aee116c0c3"
+id="ed-tbl-oc.2-tblr-oc.11-tble2"><txt break.before="1">Ins 1987 No 209, Sch
+42 (1). Am 1989 No 105, Sch 1. Rep 2006 No 2, Sch 4.83
+[3].</txt></entry></row>
+
+
+<row guid="_ab1e8e62-7180-4ebf-afd0-c721f661b1ba"
+id="ed-tbl-oc.2-tblr-oc.12">
+<entry colname="1" guid="_6121a9d2-a945-4909-ae25-44467ba59b3c"
+id="ed-tbl-oc.2-tblr-oc.12-tble1"><txt break.before="1">Sec 13</txt></entry>
+<entry colname="2" guid="_f31609fb-e988-4c40-82fc-d90278de94bc"
+id="ed-tbl-oc.2-tblr-oc.12-tble2"><txt break.before="1">Am 1986 No 125, Sch 1
+(1). Rep 2006 No 2, Sch 4.83 [4].</txt></entry></row>
+
+
+<row guid="_cb068357-fd2a-44c5-99d6-49ead990c2db"
+id="ed-tbl-oc.2-tblr-oc.13">
+<entry colname="1" guid="_157bfdf7-95ed-44bc-9091-5b1c5569f959"
+id="ed-tbl-oc.2-tblr-oc.13-tble1"><txt break.before="1">Sec 15</txt></entry>
+<entry colname="2" guid="_039edb01-4375-4989-a23a-6a92fd96ff4a"
+id="ed-tbl-oc.2-tblr-oc.13-tble2"><txt break.before="1">Am 1986 No 125, Sch 1
+(2). Subst 1992 No 44, Sch 1 (2) (am 1994 No 95, Sch 2).</txt></entry></row>
+
+
+<row guid="_0386725e-c6e9-4e85-82ae-762ba03ca14b"
+id="ed-tbl-oc.2-tblr-oc.14">
+<entry colname="1" guid="_90df014f-3798-49d3-bdda-f25dc07e5092"
+id="ed-tbl-oc.2-tblr-oc.14-tble1"><txt break.before="1">Sec 16</txt></entry>
+<entry colname="2" guid="_f693452e-4510-4cdb-b05c-c4c3ac935d97"
+id="ed-tbl-oc.2-tblr-oc.14-tble2"><txt break.before="1">Am 1980 No 196, Sch 1;
+GG No 9 of 20.1.1984, p 172; 1987 No 48, Sch 32; 1989 No 89, Sch 2; 2017 No
+17, Sch 4.112 [1]&#8211;[3].</txt></entry></row>
+
+
+<row guid="_9cc2c3fd-6b04-4854-a3e1-7d0e33b2bbd2"
+id="ed-tbl-oc.2-tblr-oc.15">
+<entry colname="1" guid="_172ffece-f573-455b-83f7-1ac9d706f93e"
+id="ed-tbl-oc.2-tblr-oc.15-tble1"><txt break.before="1">Sec 17A</txt></entry>
+<entry colname="2" guid="_3d71410d-b7a0-4f62-98e9-6b641aecfc4b"
+id="ed-tbl-oc.2-tblr-oc.15-tble2"><txt break.before="1">Ins 1993 No 108, Sch
+1.</txt></entry></row>
+
+
+<row guid="_c4391bbb-a4e4-4da1-9e8f-05f8b0fc3546"
+id="ed-tbl-oc.2-tblr-oc.16">
+<entry colname="1" guid="_374997e5-d6ac-49ac-8fe9-b0d912654fa2"
+id="ed-tbl-oc.2-tblr-oc.16-tble1"><txt break.before="1">Sec 20</txt></entry>
+<entry colname="2" guid="_bc5fc8b8-e131-452f-80ef-002fa0f2bfe4"
+id="ed-tbl-oc.2-tblr-oc.16-tble2"><txt break.before="1">Subst 1983 No 153, Sch
+2.</txt></entry></row>
+
+
+<row guid="_94037674-78cd-4e7e-a014-432fd727dfa8"
+id="ed-tbl-oc.2-tblr-oc.17">
+<entry colname="1" guid="_7fb83564-dd28-4e2e-93d0-f07ad53cfe00"
+id="ed-tbl-oc.2-tblr-oc.17-tble1"><txt break.before="1">Sec 21</txt></entry>
+<entry colname="2" guid="_91827f53-4202-47d1-ad41-b113d5ba638d"
+id="ed-tbl-oc.2-tblr-oc.17-tble2"><txt break.before="1">Rep 1983 No 153, Sch
+2.</txt></entry></row>
+
+
+<row guid="_6186bfdc-0a61-40af-9e9d-02615b14638b"
+id="ed-tbl-oc.2-tblr-oc.18">
+<entry colname="1" guid="_ac753224-e52e-40e2-800d-87fd2b0db855"
+id="ed-tbl-oc.2-tblr-oc.18-tble1"><txt break.before="1">Sec 22</txt></entry>
+<entry colname="2" guid="_3544fd78-68be-45a2-adb9-a5b8b7170825"
+id="ed-tbl-oc.2-tblr-oc.18-tble2"><txt break.before="1">Am 1996 No 24, Sch
+1.</txt></entry></row>
+
+
+<row guid="_e284d8d2-5501-471a-a1e2-58d9cdac1bed"
+id="ed-tbl-oc.2-tblr-oc.19">
+<entry colname="1" guid="_0035b7b9-1596-4ed6-a38b-26d69b1a9a12"
+id="ed-tbl-oc.2-tblr-oc.19-tble1"><txt break.before="1">Secs
+23&#8211;29</txt></entry>
+<entry colname="2" guid="_c776ab85-eae3-4a40-8d1e-596e21422190"
+id="ed-tbl-oc.2-tblr-oc.19-tble2"><txt break.before="1">Rep GG No 9 of
+20.1.1984, p 172.</txt></entry></row>
+
+
+<row guid="_d89eeec9-3c1c-4fe6-9e3f-662136793636"
+id="ed-tbl-oc.2-tblr-oc.20">
+<entry colname="1" guid="_042b2e60-a317-43bb-ab8d-755108490463"
+id="ed-tbl-oc.2-tblr-oc.20-tble1"><txt break.before="1">Sec 30</txt></entry>
+<entry colname="2" guid="_cef53c67-29ff-4b84-9f8a-4994b71d2b4f"
+id="ed-tbl-oc.2-tblr-oc.20-tble2"><txt break.before="1">Am 1992 No 112, Sch
+1.</txt></entry></row>
+
+
+<row guid="_22d3cf2e-fba0-40de-8280-74a2ed12c941"
+id="ed-tbl-oc.2-tblr-oc.21">
+<entry colname="1" guid="_86395f1e-2737-4a42-b4c8-dfe0a8a1f6dc"
+id="ed-tbl-oc.2-tblr-oc.21-tble1"><txt break.before="1">Sec 32</txt></entry>
+<entry colname="2" guid="_553a292f-3443-4c8d-9485-21f45bdf8545"
+id="ed-tbl-oc.2-tblr-oc.21-tble2"><txt break.before="1">Am 1999 No 31, Sch
+4.109 [1]; 2001 No 121, Sch 2.205 [1]; 2007 No 94, Sch 2.</txt></entry></row>
+
+
+<row guid="_c5d3a5a3-87c4-431f-8bb5-19ab1b9f4b56"
+id="ed-tbl-oc.2-tblr-oc.22">
+<entry colname="1" guid="_ca1a7f6f-6c35-4afa-8b78-545f4536d859"
+id="ed-tbl-oc.2-tblr-oc.22-tble1"><txt break.before="1">Sec 33</txt></entry>
+<entry colname="2" guid="_8afdc986-7429-47f4-80a9-cc0ccf4b554a"
+id="ed-tbl-oc.2-tblr-oc.22-tble2"><txt break.before="1">Am 1999 No 31, Sch
+4.109 [2]; 2001 No 121, Sch 2.205 [2]; 2025 No 61, Sch 2.94[1]
+[2].</txt></entry></row>
+
+
+<row guid="_27e296a6-563f-419e-a515-5c8e8651fb60"
+id="ed-tbl-oc.2-tblr-oc.23">
+<entry colname="1" guid="_28f43cea-feb4-4195-864a-b4fc6949311f"
+id="ed-tbl-oc.2-tblr-oc.23-tble1"><txt break.before="1">Sec 35</txt></entry>
+<entry colname="2" guid="_9db8097e-83dc-4633-a71e-ce5a9831d29e"
+id="ed-tbl-oc.2-tblr-oc.23-tble2"><txt break.before="1">Rep 1977 No 19, Sch
+1.</txt></entry></row>
+
+
+<row guid="_53bee178-9753-4bff-9f0a-07b820c50f41"
+id="ed-tbl-oc.2-tblr-oc.24">
+<entry colname="1" guid="_b990d9d6-c9fe-4699-a9bc-9065ba993878"
+id="ed-tbl-oc.2-tblr-oc.24-tble1"><txt break.before="1">Sec 39</txt></entry>
+<entry colname="2" guid="_389442c2-057c-41a4-a9a4-37ac86e15b07"
+id="ed-tbl-oc.2-tblr-oc.24-tble2"><txt break.before="1">Rep 1987 No 209, Sch
+42 (2).</txt></entry></row>
+
+
+<row guid="_69dd78e5-9255-4305-904e-d80b1c275d27"
+id="ed-tbl-oc.2-tblr-oc.25">
+<entry colname="1" guid="_e555cfdb-b2d7-4761-aa07-915d0482962d"
+id="ed-tbl-oc.2-tblr-oc.25-tble1"><txt break.before="1">Sec 40</txt></entry>
+<entry colname="2" guid="_c83854a5-6ec8-47b9-9790-bbbbe1576a68"
+id="ed-tbl-oc.2-tblr-oc.25-tble2"><txt break.before="1">Rep 1999 No 85, Sch
+4.</txt></entry></row>
+
+
+<row guid="_651577e0-f491-4aa3-b736-e4858af55e9b"
+id="ed-tbl-oc.2-tblr-oc.26">
+<entry colname="1" guid="_24927875-5048-4233-adb6-c548a314a716"
+id="ed-tbl-oc.2-tblr-oc.26-tble1"><txt break.before="1">Sec 46</txt></entry>
+<entry colname="2" guid="_cc0b0e38-5cda-4925-b753-446a1b694679"
+id="ed-tbl-oc.2-tblr-oc.26-tble2"><txt break.before="1">Am 1995 No 11, Sch
+1.</txt></entry></row>
+
+
+<row guid="_da29e605-cfe7-43da-987b-1a9c6d08c68d"
+id="ed-tbl-oc.2-tblr-oc.27">
+<entry colname="1" guid="_d7b143ce-98f3-43b5-84f3-2049415eb8a4"
+id="ed-tbl-oc.2-tblr-oc.27-tble1"><txt break.before="1">Secs 47,
+48</txt></entry>
+<entry colname="2" guid="_44e22fba-4b28-49e3-abd1-c7a1274a450d"
+id="ed-tbl-oc.2-tblr-oc.27-tble2"><txt break.before="1">Ins 2000 No 7, Sch 1
+[9].</txt></entry></row>
+
+
+<row guid="_c4278a1d-753c-44ef-b8bd-38b82b3a88f9"
+id="ed-tbl-oc.2-tblr-oc.28">
+<entry colname="1" guid="_f45ef49d-26e7-48d5-a4a0-3aee9d7c8124"
+id="ed-tbl-oc.2-tblr-oc.28-tble1"><txt break.before="1">Sch 1</txt></entry>
+<entry colname="2" guid="_c600177f-dad4-4ae7-bfc5-8cb024ff4a19"
+id="ed-tbl-oc.2-tblr-oc.28-tble2"><txt break.before="1">Subst 1987 No 209, Sch
+42 (3). Am 2004 No 114, Sch 2.25. Rep 2006 No 2, Sch 4.83
+[5].</txt></entry></row>
+
+
+<row guid="_5fd1b437-fa60-428e-ac68-23337599dd55"
+id="ed-tbl-oc.2-tblr-oc.29">
+<entry colname="1" guid="_2bee9744-9150-4673-9e2e-d8b3c6782abd"
+id="ed-tbl-oc.2-tblr-oc.29-tble1"><txt break.before="1">Sch 2</txt></entry>
+<entry colname="2" guid="_897bf8aa-afa4-4459-86b3-cbcd153f1ba5"
+id="ed-tbl-oc.2-tblr-oc.29-tble2"><txt break.before="1">Am 1987 No 180, Sch 1.
+Rep 1999 No 85, Sch 4.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

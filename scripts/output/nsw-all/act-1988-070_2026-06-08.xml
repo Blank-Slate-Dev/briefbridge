@@ -1,0 +1,575 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1988-070"
+title="Crown Proceedings Act 1988"
+year="1988"
+number="70"
+enact.or.made.date="1988-11-23"
+first.valid.date="1999-12-03"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1988</metacontent>
+<metacontent class="year.assent">1988</metacontent>
+<metacontent class="publication.date">1999-12-16</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-1999-085</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1988-070</metacontent>
+<metacontent
+class="version.desc.id">33b28090-1c71-49c4-b448-19ceb4ab26fe</metacontent>
+<metacontent
+class="version.series.id">a476e429-7617-49ec-b94e-50482ced44db</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Crown Proceedings Act 1988"></attrib>
+<attrib name="year.passed" value="1988"></attrib>
+<attrib name="year.assent" value="1988"></attrib>
+<attrib name="no" value="70"></attrib>
+<attrib name="publication.date" value="1999-12-16"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-1999-085"></attrib>
+<attrib name="first.valid.date" value="1999-12-03"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1988-11-23"></attrib>
+<attrib name="id" value="act-1988-070"></attrib>
+<attrib name="version.desc.id"
+value="33b28090-1c71-49c4-b448-19ceb4ab26fe"></attrib>
+<attrib name="version.series.id"
+value="a476e429-7617-49ec-b94e-50482ced44db"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata"></content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_f76dc1da-6d0e-4f8e-8535-72f9e58438bb"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act relating to civil proceedings by and
+against the Crown; to repeal the <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Claims against the Government and
+Crown Suits Act 1912</i></name></legref>; and for other
+purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ef316d77-2328-4253-99c8-4770893c855d"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_238132b3-a0cd-48b2-a96f-c73d1146ea91"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act may be cited as the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1988-070"><name emphasis="yes"><i>Crown
+Proceedings Act 1988</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5165f1a5-8785-4909-a135-93fb237f5f06"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_62a6f75a-75e5-41c7-9fc7-1694c0065b30"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on a day or days to be
+appointed by proclamation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7f4b7fab-a260-450e-b174-39dddba630ab"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_3e4b8615-5d50-47b9-b66a-173021d0f477"
+id="sec.3-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Act:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a226bb51-707d-4692-b7af-f2fc8e36296b"
+id="def.civilproceedings"><b><i>civil proceedings</i></b></defterm> includes
+civil proceedings at law or in equity, and also includes proceedings by way of
+preliminary discovery, cross-claim, counterclaim, cross-action, set-off,
+third-party claim and interpleader.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_af0868c0-f408-4a09-9162-bc9a7f08b5e0"
+id="def.Crown"><b><i>Crown</i></b></defterm> means the Crown in right of New
+South Wales, and includes:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4b5809f9-c382-42bd-ab13-a631d20e5c22" id="sec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Government of New South Wales,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_25e3a965-5f0f-44fa-8256-07c8d89037a2" id="sec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a Minister of the Crown in right of New South
+Wales, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c62c6289-4fdc-4453-8e72-7327652e1ead" id="sec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a statutory corporation, or other body,
+representing the Crown in right of New South Wales.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_56b78a1c-5d48-449e-accf-896e01738684"
+id="def.judgment"><b><i>judgment</i></b></defterm> includes every species of
+relief which a court can grant, whether interlocutory or final, and whether by
+way of order that anything be done or not done or otherwise, and also includes
+a declaration.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4ad3b881-28a5-4375-9838-cff934bd6050"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_49480523-e381-4ddd-8278-200159b558ad"
+id="sec.4-he"><b>Crown may sue</b></heading></head>
+<block><txt break.before="1">The Crown may bring civil proceedings under the
+title &#8220;State of New South Wales&#8221; against any person in any
+competent court.</txt></block></level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_25189242-963f-4fd1-afaa-c43b4eb34011"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_bdb0bea8-eda6-4ad7-840c-8e56c4f0ea3e"
+id="sec.5-he"><b>Crown may be sued</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_94d52495-7ab4-4c82-9d28-4e426bd2fd9e"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Any person, having or deeming himself, herself or
+itself to have any just claim or demand whatever against the Crown (not being
+a claim or demand against a statutory corporation representing the Crown) may
+bring civil proceedings against the Crown under the title &#8220;State of New
+South Wales&#8221; in any competent court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_29dcc30c-47cc-48e7-be11-195d3b66ce52"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Civil proceedings against the Crown shall be
+commenced in the same way, and the proceedings and rights of the parties in
+the case shall as nearly as possible be the same, and judgment and costs shall
+follow or may be awarded on either side, and shall bear interest, as in an
+ordinary case between subject and subject.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 5:</b> Am 1998 No 49,
+Sch 9.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_44d459b8-d3cc-4f4c-aee3-5c7247a44f8f"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_f465c6d2-e162-42dc-8404-71600ea0eecf"
+id="sec.6-he"><b>Service of documents on the Crown</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cf7a59f7-c3ca-4744-ac0e-1a372ba41e13"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In connection with civil proceedings by or
+against the Crown under the title &#8220;State of New South Wales&#8221; a
+document required to be served on the Crown shall be served (subject to any
+other Act or law) on the Crown Solicitor.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_38c745fc-c5bd-49c2-aab1-613fd2ed986a"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Rules of court may be made with respect to the
+mode of service of documents on the Crown Solicitor for the purposes of this
+section, including rules that personal service may be duly effected by leaving
+a document at the office of the Crown Solicitor.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_72198a60-f891-46df-a3de-9da78d1a6a8b"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_214a7e58-7fff-4960-b57c-c26fdf98972e"
+id="sec.7-he"><b>Satisfaction of judgment</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f86f8b61-e4f3-4bcd-b74c-396d1b9b7536"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Treasurer shall pay (out of any money legally
+available) all money payable by the Crown under any judgment, including any
+interest, except to the extent that the money is paid by some person other
+than the Treasurer.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5604fd3c-f986-4a6f-b602-d86bf2ebc8c5"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Execution, attachment or similar process shall
+not be issued out of any court against the Crown or any property of the
+Crown.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c8a744b0-c437-4f30-b229-2cccb752f551"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_d9070dbd-5d4a-4300-be0c-87f8b7a91827"
+id="sec.8-he"><b>Demise of the Crown</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cbfeb3bf-5c13-4d73-abc7-c343a362a2d3"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">No proceedings (whether civil or criminal)
+involving the Crown shall abate or be affected by the demise of the
+Crown.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_744fe5c1-26c3-4151-ab9d-9cf8fcad2865"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of this section, <defterm
+type="definition" guid="_4ecf7689-1c34-4c09-9044-8d52ea77adea"
+id="sec.8-def.demise"><b><i>demise</i></b></defterm> includes a demise by or
+on abdication.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0808c593-6730-416a-843d-b877574daeb7"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_bdc6b099-6a4a-46cf-b4ae-3895b9034992"
+id="sec.9-he"><b>Certain matters not affected</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_62b6614e-ca32-4808-992a-96c4d14bbdeb"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This Act (except for section 10) does not affect
+any law, custom or procedure under which civil proceedings may be brought by
+or against the Crown under any title.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ce13bf46-f6d9-4721-be47-f1da42975361"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting subsection (1), this Act does
+not affect any law, custom or procedure under which the Attorney General is
+entitled or liable to sue, or be sued, or to intervene in any proceedings on
+behalf of the Crown, on the relation of, or on behalf of, any other person or
+in any other capacity or for any other purpose whatever.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_06ca58b7-5a27-49a2-a692-7aeca5771aa9"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_42a3221d-52ee-4c7c-bde6-8aa18ab6280b"
+id="sec.10-he"><b>Repeal of <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Claims against the Government and
+Crown Suits Act 1912</i></name> No 27</legref></b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6c9ea232-7d40-4e54-ad06-12f401cdaa26"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Claims against the Government and
+Crown Suits Act 1912</i></name></legref> is repealed.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9106aeea-1e7c-4046-83df-e0bb2ef804d7"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Nothing in this Act affects proceedings commenced
+before the commencement of this section, and the repealed Act continues to
+apply in relation to any such proceedings as if this Act had not been
+enacted.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.11" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f7f4b83c-17d9-4ba6-9545-b3ad07e9628b"></attrib>
+<attrib name="id" value="sec.11"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>11</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Rep 1999 No 85,
+Sch 4.</txt></content>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1" status="repealed">
+<parentattributes>
+<attrib name="status" value="repealed"></attrib>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a1c51571-223b-4d60-a4b0-954724149998"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Rep 1999 No
+85, Sch 4.</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_4aae649c-4ea5-4d56-943c-054eee0cbba5"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_32cc97e9-d17c-41cd-91fd-312459212752"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1988-070"><name emphasis="yes"><i>Crown Proceedings Act
+1988</i></name> No 70</legref>. Assented to 23.11.1988. Date of commencement,
+1.2.1989, sec 2 and GG No 10 of 27.1.1989, p 406. This Act has been amended as
+follows:</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_475d12f3-9da0-45c9-ad11-669a87eba8ba" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_73e33476-81b2-487f-9516-7e70a524f6bd" id="ed-tbl-tblr">
+<entry colname="1" guid="_f4ca23c5-91c7-42da-a15f-d1d14ee2d26b"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1998</b></txt></entry>
+<entry colname="2" guid="_f1e5a5c6-9a54-4368-82de-c1c1a88f4b35"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 49</txt></entry>
+<entry colname="3" guid="_4135fb77-4e7e-402f-90c7-6fb21400ae59"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Courts Legislation Amendment Act
+1998</i></name></legref>. Assented to 29.6.1998.</txt>
+<txt break.before="1">Date of commencement of Sch 9, 3.8.1998, sec 2 and GG No
+112 of 24.7.1998, p 5602.</txt></block></entry></row>
+
+
+<row guid="_5750e7b8-9c51-43a5-b20b-4a788754b511" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_fcba43d2-b422-420a-bc87-e4f8f4355143"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>1999</b></txt></entry>
+<entry colname="2" guid="_0dd1cefb-b3d1-434c-9b86-6ee30efe52b2"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 85</txt></entry>
+<entry colname="3" guid="_d3106786-f1b6-4f88-9c1c-af8d3110f981"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1999-085"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 1999</i></name></legref>. Assented to 3.12.1999.</txt>
+<txt break.before="1">Date of commencement of Sch 4, assent, sec 2
+(1).</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_27629227-f990-4f11-ba8e-f970a772c557"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_1a0c0070-e172-45b9-bbe4-e603591cb36a" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_c9ff85bd-9a83-46c4-b5da-3aeb9b895594" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_ccbdcf37-80dd-4e1e-9dd5-c97c04f37a41"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 5</txt></entry>
+<entry colname="2" guid="_d7a28d55-ad6b-4c5c-b523-1a5f2f6ae9c7"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 1998 No 49, Sch
+9.</txt></entry></row>
+
+
+<row guid="_efdd35ae-78fb-42f7-952c-342494cf3b4c" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_3cfdf397-eeff-423c-bb4a-7c34977fb2bb"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 11</txt></entry>
+<entry colname="2" guid="_f14c92ff-db38-4ae7-a351-6479dacee9a7"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Rep 1999 No 85, Sch
+4.</txt></entry></row>
+
+
+<row guid="_b5049052-164c-4151-81a2-561e601a3fd7" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_5ba33c80-bc4f-43db-870a-eda472a7286d"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sch 1</txt></entry>
+<entry colname="2" guid="_3bfdbcb0-9655-4fb6-aab7-a2a8640050d5"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Rep 1999 No 85, Sch
+4.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

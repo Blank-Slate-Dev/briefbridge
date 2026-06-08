@@ -1,0 +1,1625 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2015-060"
+title="Data Sharing (Government Sector) Act 2015"
+year="2015"
+number="60"
+enact.or.made.date="2015-11-24"
+first.valid.date="2023-07-01"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2015</metacontent>
+<metacontent class="year.assent">2015</metacontent>
+<metacontent class="publication.date">2023-07-01</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2018-070</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="introduction.date">2015-10-28</metacontent>
+<metacontent class="la.second.reading.date">2015-11-18</metacontent>
+<metacontent class="amended.in.committee">0</metacontent>
+<metacontent class="id">act-2015-060</metacontent>
+<metacontent
+class="version.desc.id">fa9ff813-05cb-48f3-a82c-b2721363e217</metacontent>
+<metacontent
+class="version.series.id">69188d07-e242-421c-8723-ed775d7f2ecf</metacontent>
+<metacontent class="year.introduced">2015</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Data Sharing (Government Sector) Act
+2015"></attrib>
+<attrib name="year.passed" value="2015"></attrib>
+<attrib name="year.assent" value="2015"></attrib>
+<attrib name="no" value="60"></attrib>
+<attrib name="publication.date" value="2023-07-01"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2018-070"></attrib>
+<attrib name="first.valid.date" value="2023-07-01"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="introduction.date" value="2015-10-28"></attrib>
+<attrib name="la.second.reading.date" value="2015-11-18"></attrib>
+<attrib name="amended.in.committee" value="0"></attrib>
+<attrib name="assent.date" value="2015-11-24"></attrib>
+<attrib name="id" value="act-2015-060"></attrib>
+<attrib name="version.desc.id"
+value="fa9ff813-05cb-48f3-a82c-b2721363e217"></attrib>
+<attrib name="version.series.id"
+value="69188d07-e242-421c-8723-ed775d7f2ecf"></attrib>
+<attrib name="year.introduced" value="2015"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_2f564aab-44b7-4eb2-9314-23f253aa6117"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_e5c342f1-239e-419d-a544-7a19573ce923"
+id="cd-status-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_b60b23dd-3647-4107-988b-f363f601451f"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act with respect to the sharing of government
+sector data with a government data analytics centre and between other
+government sector agencies and to the privacy and other safeguards that apply
+to the sharing of that data.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_379e3e8a-02e4-40c6-9eae-5197f5736252"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_ba1d6625-a833-40ca-aba1-28df888f3d46"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0030d7c5-49ed-4cd0-a5c3-9042f8ec6216"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_d4018341-f065-46e4-960a-5d2cd3ef1d46"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref refid="act-2015-060"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Data Sharing
+(Government Sector) Act 2015</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_31b4f16b-a5ed-4879-b177-6c51dbf031ee"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_e065a40e-8571-40ac-9f53-90a8a78a864e"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on the date of assent to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1b7c0465-d2a5-4d65-b0cf-3979402353ef"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_b12ed160-b0a8-43c0-975d-91f2f9cf219f"
+id="sec.3-he"><b>Objects of Act</b></heading></head>
+<block><txt break.before="1">The objects of this Act are&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2a5e2abd-36a3-4df0-9d19-292dd65e095b" id="sec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to promote, in a manner that recognises the
+protection of privacy as an integral component, the management and use of
+government sector data as a public resource that supports good Government
+policy making, program management and service planning and delivery,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7d324383-88b0-4dc5-b349-c615bebdcac5" id="sec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to remove barriers that impede the sharing of
+government sector data with the DAC or between other government sector
+agencies, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2dd97b5b-7592-4419-abf7-e9899146e947" id="sec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to facilitate the expeditious sharing of
+government sector data with the DAC or between other government sector
+agencies, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4e22da3f-c111-4edf-ab82-5a6955bf02a3" id="sec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to provide protections in connection with data
+sharing under this Act by&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9b404f37-5ac4-4d51-a2ab-a7bbb8752b1c" id="sec.3-para1.d-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">specifying the purposes for, and the
+circumstances in, which data sharing is permitted or required,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_847315a9-0485-4498-961e-03974e1bdd48" id="sec.3-para1.d-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">ensuring that data sharing involving health
+information or personal information continues to be in compliance with the
+requirements of the privacy legislation concerning the collection, use,
+disclosure, protection, keeping, retention or disposal of such information,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_278147b3-70b4-499a-9799-92a29835d413" id="sec.3-para1.d-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">requiring compliance with data sharing safeguards
+in connection with data sharing.</txt></block></li></list>
+</block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9ada1398-eb15-4201-8dc6-be7b01c5e4c2"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_1e92bddd-49d1-455d-82f0-760a9435517f"
+id="sec.4-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_82360f82-55d6-4c84-a422-8bf436d7c5d7"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d710890a-713c-442d-b9ca-5626dc3b44da"
+id="sec.4-def.control"><b><i>control</i></b></defterm> in relation to
+data&#8212;see subsection (2).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_436935af-c8bd-4be2-b3a7-5d3b95bb2d9c"
+id="sec.4-def.DAC"><b><i>DAC</i></b></defterm> means that part of the
+Department known as the Data Analytics Centre or such other government sector
+agency (or part of a government sector agency) as may be prescribed by the
+regulations.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_fbf308c5-61ae-4ded-8c7b-674ae122380f"
+id="sec.4-def.data"><b><i>data</i></b></defterm> means any facts, statistics,
+instructions, concepts or other information in a form that is capable of being
+communicated, analysed or processed (whether by an individual or by a computer
+or other automated means).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_2b402d03-9ccc-4f81-804c-60e16e31add3"
+id="sec.4-def.dataanalyticswork"><b><i>data analytics work</i></b></defterm>
+means the examination and analysis of data for the purpose of drawing
+conclusions about that data (including, for example, conclusions about the
+efficacy of Government policies, program management or service planning and
+delivery by government sector agencies).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_bd7b50af-9279-47cd-8ad8-327ccdff3705"
+id="sec.4-def.dataprovider"><b><i>data provider</i></b></defterm> means the
+government sector agency that controls government sector data that is provided
+under this Act to a data recipient.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_3dce5d83-fcb7-4016-8bad-8bceb2d07285"
+id="sec.4-def.datarecipient"><b><i>data recipient</i></b></defterm> means the
+government sector agency to which government sector data is provided under
+this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d0c94d8e-0a76-4122-a135-7ca72a1449a0"
+id="sec.4-def.datasharingsafeguards"><b><i>data sharing
+safeguards</i></b></defterm>&#8212;see Part 3.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a156c766-c8a5-45b3-93b8-d4c6004741ea"
+id="sec.4-def.Department"><b><i>Department</i></b></defterm> means the
+Department of Finance, Services and Innovation.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_de87c9d0-b720-4d3e-bd6f-b28b381e262d"
+id="sec.4-def.function"><b><i>function</i></b></defterm> includes a power,
+authority or duty, and <defterm type="definition"
+guid="_89e1ff81-4ee0-4275-9477-d02796d5555c"
+id="sec.4-def.exercise"><b><i>exercise</i></b></defterm> a function includes
+perform a duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_8159930b-eccd-4c8d-95bb-9218e3e9ce78"
+id="sec.4-def.governmentsectoragency"><b><i>government sector
+agency</i></b></defterm> means each of the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9557c3cf-1be6-4c29-afe4-14c014fb6124" id="sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the DAC,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fa391acf-fe9f-48ae-b53c-0efc0087fecb" id="sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a government sector agency within the meaning of
+the <legref refid="act-2013-040" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fa218ec7-1805-4740-9d2e-6c473a36995d" id="sec.4-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a statutory body representing the
+Crown,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c382e99e-67ff-49c4-93a1-52aa61349cdb" id="sec.4-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">a council, county council or joint organisation
+within the meaning of the <legref refid="act-1993-030" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Local Government Act
+1993</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_faf01a21-4610-48a8-9cd9-dee593caf037" id="sec.4-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">a State owned corporation,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d742370b-38e8-4cd5-8dcd-9de5fb3c1133" id="sec.4-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">a body (whether incorporated or unincorporated)
+established or continued for a public purpose by or under the provisions of an
+Act or statutory instrument,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ba019437-1502-44c6-baca-4a9b2cae689d" id="sec.4-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">a wholly-owned subsidiary of the Crown in right
+of the State or an agency, council, corporation or other body referred to in
+paragraph (a), (b), (c), (d), (e) or (f),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_85adb20c-705b-4785-80ce-c4410fd0c97f" id="sec.4-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">a person or body exercising public official
+functions declared by the regulations to be a government sector agency for the
+purposes of this Act.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_0cdc6091-3aaf-434a-a9a9-dd8587761414"
+id="sec.4-def.governmentsectordata"><b><i>government sector
+data</i></b></defterm> means any data that a government sector agency
+controls, but does not include data of a kind excluded by the
+regulations.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_297c8df3-880f-466d-8937-833cda68e1b9"
+id="sec.4-def.head"><b><i>head</i></b></defterm> of a government sector agency
+means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a250749f-6535-4078-9f1f-cefe5ef11c3a" id="sec.4-ssec.1-para1.a-oc.2">
+<no>(a)</no>
+<block><txt break.before="1">in the case of a government sector agency within
+the meaning of the <legref refid="act-2013-040" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref>&#8212;the head of the agency within the meaning of
+that Act, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_679d0252-78ea-40e6-ba63-dadc5407c7d1" id="sec.4-ssec.1-para1.b-oc.2">
+<no>(b)</no>
+<block><txt break.before="1">in the case of any other government sector
+agency&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7d6fb440-72a2-4816-ac83-d9281d535932"
+id="sec.4-ssec.1-para1.b-oc.2-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">the chief executive officer or other principal
+officer of the agency, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bcd43ad3-f4c2-4e80-92d0-62953e0bacea"
+id="sec.4-ssec.1-para1.b-oc.2-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">any other person who is declared by the
+regulations to be the head of the agency for the purposes of this
+definition.</txt></block></li></list>
+</block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_32ecf505-2da4-4f40-b191-348d9e4983f9"
+id="sec.4-def.healthinformation"><b><i>health information</i></b></defterm>
+has the same meaning as in the <legref refid="act-2002-071" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Health Records and
+Information Privacy Act 2002</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d96e9fc4-6b33-47f0-a41d-c7b2334d8ab2"
+id="sec.4-def.personalinformation"><b><i>personal
+information</i></b></defterm> has the same meaning as in the <legref
+refid="act-1998-133" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Privacy and Personal Information Protection Act
+1998</i></name></legref>.</txt>
+<note type="legtext" guid="_9203b1ce-267f-401a-9783-9fc0fc68cc24"
+id="sec.4-ssec.1-note"><heading guid="_a117953e-cca8-473a-b536-b2455fd38c17"
+id="sec.4-ssec.1-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">Section 4A of the <legref refid="act-1998-133"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Privacy and
+Personal Information Protection Act 1998</i></name></legref> excludes health
+information from the definition of <defterm type="definition"
+guid="_e5bbf064-1c85-4096-ae43-5180859299df"
+id="sec.4-ssec.1-def.personalinformation"><b><i>personal
+information</i></b></defterm> in section 4 of that Act.</txt></block></note>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_51113e23-7e0c-4b2d-b3aa-b0a62e4a04d3"
+id="sec.4-def.privacylegislation"><b><i>privacy legislation</i></b></defterm>
+means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ffa21254-51d3-4195-a9fb-b65009f423dc" id="sec.4-ssec.1-para1.a-oc.3">
+<no>(a)</no>
+<block><txt break.before="1">the <legref refid="act-1998-133" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Privacy and Personal
+Information Protection Act 1998</i></name></legref> or the <legref
+refid="act-2002-071" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Health Records and Information Privacy Act
+2002</i></name></legref>, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b7d99911-cf8c-4902-970c-903752a5ee64" id="sec.4-ssec.1-para1.b-oc.3">
+<no>(b)</no>
+<block><txt break.before="1">any regulation or code of practice made, and any
+public interest directions or guidelines issued, under either of those
+Acts.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_55eba507-5f56-43cd-91ad-2ac2fc1842c8"
+id="sec.4-def.share"><b><i>share</i></b></defterm>, in relation to government
+sector data, means to provide (or be provided with) the
+data.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4f1b66d9-ce28-4da9-9b92-bf4ad92d9f25"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of this Act, a person or body is
+taken to have <defterm type="definition"
+guid="_5fe3a0e5-0dc3-4af6-b6c2-312543087b1f"
+id="sec.4-def.control-oc.2"><b><i>control</i></b></defterm> of data
+if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_52c47d52-3e54-4ce6-8fa5-5c253aa71835" id="sec.4-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the person or body has possession or custody of
+the data, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ad04cfb4-b46a-4b8e-9135-f0f42d1629aa" id="sec.4-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the person or body has the data in the possession
+or custody of some other person or body.</txt></block></li></list>
+</block>
+<block><txt break.before="1">A person or body is, for example, taken to have
+control of data held by the person or body in storage with a commercial
+storage provider (including a storage provider who provides cloud storage
+facilities).</txt></block>
+<note type="legtext" guid="_26d42a6d-3a75-4c2a-a0f9-ace810eb6c73"
+id="sec.4-ssec.2-note"><heading guid="_f5886e9b-268d-4c6b-aeec-06092f952b6b"
+id="sec.4-ssec.2-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">The <legref refid="act-1987-015" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Interpretation Act
+1987</i></name></legref> contains definitions and other provisions that affect
+the interpretation and application of this Act.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d0b08862-083c-4abb-bbcb-48416226b71c"></attrib>
+<attrib name="id" value="sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 2017 No 65,
+Sch 2.6.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_62f54eb1-c346-448d-aea2-b70f591320a2"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_89031e38-3c10-4e42-bd60-dbd2220285d1"
+id="sec.5-he"><b>Relationship of Act with other laws</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c4fe1b11-6d81-48da-957b-537b162835cc"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Subject to subsection (2), a disclosure of
+government sector data by a government sector agency to the DAC or to another
+government sector agency is lawful for the purposes of any other Act or law
+that would otherwise operate to prohibit that disclosure (whether or not the
+prohibition is subject to specified qualifications or exceptions)
+if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_de6a8a4f-73cd-4f53-aed8-446ac850ec26" id="sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">this Act provides that the agency is authorised
+to share the data with the DAC or other government sector agency,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ac11338e-6d74-4fa4-855f-fcf38668974c" id="sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the agency provides the data to the data
+recipient only for the purpose to which the authorisation to share
+relates.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b0097ab2-a553-45ac-adaf-06801f4c5532"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Nothing in this Act authorises, permits or
+requires the DAC or another government sector agency&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_999e8e43-bf06-409c-a7a1-703bf1c5be50" id="sec.5-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to collect, use, disclose, protect, keep, retain
+or dispose of any government sector data that is health information or
+personal information otherwise than in compliance with the privacy
+legislation, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dad930f8-0b9e-4e9a-bf69-c8344c772263" id="sec.5-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to disclose any government sector data that
+is&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c50fadc0-67bb-4921-a896-7041f2beab59"
+id="sec.5-ssec.2-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">excluded information of an agency specified in
+Schedule 2 to the <legref refid="act-2009-052" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Information (Public Access)
+Act 2009</i></name></legref> (being any information that relates to any
+function specified in that Schedule in relation to the agency),
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6a8b5201-488f-49ad-9c0c-d345dce0f5f4"
+id="sec.5-ssec.2-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">information of a kind described in Schedule 1 to
+that Act, or</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0a5ffb5e-e228-409a-b99e-3a79a80345c3" id="sec.5-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to deal with any government sector data to which
+the <legref refid="act-1998-017" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>State Records Act 1998</i></name></legref> applies after it
+is shared under this Act otherwise than in compliance with the <legref
+refid="act-1998-017" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>State Records Act
+1998</i></name></legref>.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8565931d-7e34-4fc3-aa87-6af2bcc95037"></attrib>
+<attrib name="id" value="sec.5-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This Act is not intended to prevent or discourage
+the sharing of government sector data by government sector agencies as
+permitted or required by or under any Act or other law (apart from this
+Act).</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_cd9e0d5d-f604-4903-977d-76179fdc8e97"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_1fd31447-8e9e-4fe6-bb88-747b525bc4d2"
+id="pt.2-he"><b>Facilitating government sector data
+sharing</b></heading></head>
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_43dec238-9405-4923-a563-c98e0c7828bb"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_729e4608-a1e3-476b-8f1b-7ca74a4aa9af"
+id="sec.6-he"><b>Voluntary data sharing with DAC or between other government
+sector agencies</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2962b70e-cf8c-4119-84f1-1fa3f5376937"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A government sector agency (other than the DAC)
+is, subject to section 5 (2), authorised to share government sector data that
+it controls with the DAC or with another government sector agency for any of
+the following purposes&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_deb5f06d-d81d-455a-8541-165572cf0d02" id="sec.6-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to enable data analytics work to be carried out
+on the data to identify issues and solutions regarding Government policy
+making, program management and service planning and delivery by the government
+sector agencies,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_22bd51c6-90e1-4eb0-bc4c-df62a9f7d90d" id="sec.6-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to enable related government sector agencies
+(such as branches, offices and other agencies within or otherwise related to a
+Public Service agency) to develop better Government policy making, program
+management and service planning and delivery by the
+agencies,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a148fd13-bf99-43c7-8cc7-09932102783b" id="sec.6-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">such other purposes as may be prescribed by the
+regulations.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_43f6550e-b25c-434d-a9b0-1cf8d76c7f99"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If government sector data is shared under this
+section, the data provider and the data recipient must comply with all data
+sharing safeguards that are applicable to them in connection with the
+sharing.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d768c536-fc17-4642-8aad-3388a9bcfb51"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_37b5d64e-ff66-4958-a0d9-48998f27958d"
+id="sec.7-he"><b>Minister may give directions for data sharing with
+DAC</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ff970425-36e1-4247-a71a-6d61158ab9e5"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may direct a government sector
+agency in writing to provide specified government sector data that it controls
+to the DAC within 14 days or such longer period specified in the direction,
+but only if the Premier has advised the Minister that the data concerned is
+required to be shared for the purpose of advancing a Government
+policy.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6a77d7fd-9a1a-4074-9703-e9619c40cded"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A copy of a direction given under this section
+must be provided to the head of the government sector agency to which the
+direction is given.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b7e65e14-3ee5-4dcf-98a7-4990aa3b8acb"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">If a direction is given under this
+section&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b216a9a9-f4e7-4d9c-bcce-aa73a610c857" id="sec.7-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the specified data provider is, subject to
+section 5 (2), authorised and required to provide the specified government
+sector data in compliance with the direction, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b962de7a-00f3-46ad-9f5e-8466f907cf9a" id="sec.7-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the specified data provider and the DAC must
+comply with all data sharing safeguards that are applicable to them in
+connection with the sharing of the data.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_859de597-76fb-44e3-ae9c-a22a1e100b74"></attrib>
+<attrib name="id" value="sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Premier may certify, in writing, that the
+Premier has advised the Minister that a specified provision of government
+sector data by a government sector agency is required for the purpose of
+advancing a Government policy. The certificate is conclusive evidence of the
+matter stated in the certificate.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_728c7ef3-9060-41d2-be78-44a219b0b97d"></attrib>
+<attrib name="id" value="sec.7-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The head of a government sector agency to which a
+direction is given under this section must ensure that the direction is
+complied with in accordance with subsection (3).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3ee5e2ba-125e-4da7-8249-e43b2eee4fb3"></attrib>
+<attrib name="id" value="sec.7-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">A direction cannot be given under this section to
+a government sector agency that is a university.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8f1d0e3c-f8c7-43a3-b0b6-d2c08a331794"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_5357f1a2-2b1d-4aac-8f20-6a6e87e37c64"
+id="sec.8-he"><b>Minister may obtain information for DAC concerning government
+sector data sets</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3af30eb4-9514-49b9-ad93-e4344b2e56b7"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may direct a government sector
+agency in writing to provide the DAC with such information concerning the
+government sector data that it controls as the Minister may require so as to
+enable the DAC to determine the number and kinds of sets of data that the
+agency controls and the kind of information collected in those data
+sets.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e3d9bb28-d60b-43fd-93d2-2a7bbf7df3be"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A copy of a direction given under this section
+must be provided to the head of the government sector agency to which the
+direction is given.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0206c7b3-4faa-4e2f-9173-62027b41f26f"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The government sector agency is (subject to
+section 5 (2)) authorised and required to comply with a direction given to it
+under this section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3c19d3d8-ea62-4a9e-8997-ba8dce8b8e8e"></attrib>
+<attrib name="id" value="sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">This section does not require a government sector
+agency to provide government sector data to the DAC.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_785e4072-3863-495f-8bc2-5acb48c25293"></attrib>
+<attrib name="id" value="sec.8-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Nothing in this section affects or limits the
+functions of the Privacy Commissioner under the privacy
+legislation.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_27ba3b18-778e-43d1-9af5-3b64840084a1"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_a5ccb9c4-b2d7-4790-9cf2-ea7da053464a"
+id="sec.9-he"><b>Sharing of results of data analytics work carried out by the
+DAC</b></heading></head>
+<block><txt break.before="1">The DAC is, subject to section 5 (2), authorised
+to share with government sector agencies the results of data analytics work
+that it has carried out on data provided to it by a government sector agency
+under this Act, but is not authorised to share that data with any other
+agency, person or body.</txt></block></level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_156822e7-29aa-4901-8333-145ea1a7c6bd"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_d6b8f228-718b-490b-bc1a-65905ef02258"
+id="sec.10-he"><b>Directions to State owned corporations</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ed9a38e2-cfb4-45ee-a247-d12a01ad9b83"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A direction may be given under this Part to a
+State owned corporation only if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0a44f88a-56b2-45ac-b1d7-c1ba7b620244" id="sec.10-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the direction is given with the approval of the
+Premier, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ace1fd6a-11af-40b6-b34d-312d71fda405" id="sec.10-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">where the portfolio Minister of the State owned
+corporation is neither the Premier nor the Minister administering this
+Act&#8212;the Minister administering this Act has consulted the portfolio
+Minister about the direction before it is given.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1de8c9ad-9f88-43ed-a373-9d90de161ad0"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If the direction to provide the government sector
+data is given in circumstances where the board of the State owned corporation
+considers that it is not in the commercial interests of the State owned
+corporation to provide the data, a State owned corporation is entitled to be
+reimbursed for the activity of providing the data in accordance with the
+provisions of section 20N (3)&#8211;(5) of the <legref refid="act-1989-134"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>State Owned
+Corporations Act 1989</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5178c461-fa94-43fa-902f-5a75914c5857"></attrib>
+<attrib name="id" value="sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d66dd780-6289-4fc1-828a-20ca14004520"
+id="sec.10-def.portfolioMinister"><b><i>portfolio Minister</i></b></defterm>,
+in relation to a State owned corporation, has the same meaning as in the
+<legref refid="act-1989-134" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>State Owned Corporations Act
+1989</i></name></legref>.</txt></block></deflist>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_5ed54675-5d44-4d6f-83ff-8376ef03a9ff"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_5ffe382e-c422-4920-80c2-3e0e973a6b60"
+id="pt.3-he"><b>Data sharing safeguards</b></heading></head>
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_01a7d864-6b50-495b-ac2e-a81ab9db15cd"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_ce15348a-136c-473b-9379-c52223e09f21"
+id="sec.11-he"><b>The data sharing safeguards</b></heading></head>
+<block><txt break.before="1">This Part sets out the <defterm type="definition"
+guid="_ffe95a9c-23ff-47c3-87f7-5aab38f76d3d"
+id="def.datasharingsafeguards"><b><i>data sharing
+safeguards</i></b></defterm> for the purposes of this Act that are applicable
+to the sharing of government sector data under this Act with the DAC or
+between other government sector agencies.</txt></block></level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9184fe68-3bae-4def-b3e2-5385d5ac059a"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_2fabdb14-6d00-472f-8f37-2de4d28b5bc9"
+id="sec.12-he"><b>Privacy safeguards</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d7aa54fa-47b6-441c-bec6-1a3145b01fb0"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Without limiting section 5 (2), a data provider
+and data recipient must ensure that health information or personal information
+contained in government sector data that is shared is not collected, used,
+disclosed, protected, kept, retained or disposed of otherwise than in
+compliance with the privacy legislation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_65d5288e-67c7-45d9-97dd-9ab031ba9a2f"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If a data recipient that is provided with
+government sector data that contains health information or personal
+information becomes aware that the privacy legislation has been (or is likely
+to have been) contravened in relation to that information while in the
+recipient&#8217;s control, the data recipient must, as soon as is practicable
+after becoming aware of it, inform the data provider and the Privacy
+Commissioner of the contravention or likely
+contravention.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5f0f4a98-171f-4c34-9a42-79737f2d03c3"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_7fe280cd-fe8c-4f53-a7d5-8e14470d6fd9"
+id="sec.13-he"><b>Confidentiality and
+commercial-in-confidence</b></heading></head>
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3f73f31e-047e-4f59-9a78-3d57a403effb"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A data recipient that is provided with government
+sector data that contains confidential or commercially sensitive information
+must ensure that the information is dealt with in a way that complies with any
+contractual or equitable obligations of the data provider concerning how it is
+to be dealt with.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0b9719d3-5ee6-46c7-9512-7c686685e4b5"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_073eecf3-2bed-4cba-9ee6-3fee318d0419"
+id="sec.13-def.confidentialorcommerciallysensitiveinformation"><b><i>confidential
+or commercially sensitive information</i></b></defterm> means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_32ed9472-cbda-4da1-bb16-371ac35ebaf8" id="sec.13-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">information a person or body controls that the
+person or body is required to keep confidential because of a contractual or
+equitable obligation, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2d40136c-fe91-494e-baa6-0b59ebceb744" id="sec.13-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">without limiting paragraph (a), information about
+commercial-in-confidence provisions of a contract (within the meaning of the
+<legref refid="act-2009-052" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Government Information (Public Access) Act
+2009</i></name></legref>), or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_44a054a1-543c-4dcc-8a8b-0b7b3736ba00" id="sec.13-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any other information the disclosure of which
+would prejudice any person&#8217;s legitimate business, commercial,
+professional or financial interests.</txt></block></li></list>
+</block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f889472d-f94b-417a-a4f7-1c68e34c925d"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_c7632225-b99b-48f8-bf39-9178befcf0e0"
+id="sec.14-he"><b>Data custody and control safeguards</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d9b09bfe-ad72-4ae7-a9af-ba260504fb29"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A data provider and data recipient must ensure
+that the government sector data that is shared is maintained and managed in
+compliance with any legal requirements concerning its custody and control
+(including, for example, requirements under the <legref refid="act-2009-052"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Government
+Information (Public Access) Act 2009</i></name></legref> or <legref
+refid="act-1998-017" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>State Records Act 1998</i></name></legref>) that are
+applicable to them.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_20dfd400-0c6c-43d7-86f5-43634877000a"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If a data recipient that arranges for a person or
+body (other than another government sector agency) to conduct data analytics
+work using government sector data with which it has been provided, the head of
+the data recipient is to ensure that appropriate contractual arrangements are
+in place before the data is provided to ensure that the person or body deals
+with the data in compliance with any requirements of the privacy legislation,
+the <legref refid="act-1998-017" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>State Records Act 1998</i></name></legref> and any
+Government data security policies that are applicable to the data
+recipient.</txt>
+<note type="legtext" guid="_c00c37e3-64a2-4491-8f64-f48ce6f8a43c"
+id="sec.14-ssec.2-note"><heading guid="_22e689e4-b764-4fe4-af7c-d7919b7107a3"
+id="sec.14-ssec.2-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">See, also, the offences in Part 6 of the <legref
+refid="act-1900-040" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Crimes Act 1900</i></name></legref> in connection with
+unauthorised access to, or the modification or impairment of, data held in
+computers.</txt></block></note>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_224fded3-1623-4503-8375-8702085b0deb"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_b22410f4-18f6-4b23-b494-d379f706741b"
+id="sec.15-he"><b>Other data sharing safeguards</b></heading></head>
+
+<tier type="subclause" id="sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b9700aaf-b52c-45db-b03f-f6b7bc102e0d"></attrib>
+<attrib name="id" value="sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A data provider and data recipient must comply
+with such other requirements as may be prescribed by the regulations for the
+provider or recipient in connection with the sharing of government sector
+data.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6d39bab8-29f3-4e3c-afc2-9e9562221b96"></attrib>
+<attrib name="id" value="sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting subsection (1), a requirement
+prescribed by the regulations for the purposes of that subsection may require
+a data provider or data recipient to comply with any of the following in
+connection with the sharing of government sector data&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_40570259-584a-4f09-a644-734ddedfd53d" id="sec.15-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">specified instruments, or specified provisions of
+instruments, forming part of the privacy legislation (for example, codes of
+practice, guidelines or directions),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b20ac3ca-c37e-49b9-be1d-5a121bdfa62f" id="sec.15-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any other codes of practice, guidelines,
+directions or publications specified (or issued, made or published as
+provided) by the regulations.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_29826e08-a003-497e-86b2-ec6730c07538"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_468941fb-dc68-4396-8f5e-ba7f5f1b9d22"
+id="pt.4-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fc368b30-875e-4f57-a56e-9e84ab5feaba"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_ff1107b8-9343-4f1e-a9e2-75f827a40ba1"
+id="sec.16-he"><b>Act binds the Crown</b></heading></head>
+<block><txt break.before="1">This Act binds the State and, in so far as the
+legislative power of the Parliament of New South Wales permits, the other
+States, the Territories and the Commonwealth.</txt></block></level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_06898c88-7eeb-46bd-9efa-bff4ef83742b"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_4c2ae7fb-fe3e-438b-ad11-3f9c8688ad1f"
+id="sec.17-he"><b>Reports by Secretary of Department about
+compliance</b></heading></head>
+
+<tier type="subclause" id="sec.17-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a8f3c2af-6a43-482d-839d-90679570518b"></attrib>
+<attrib name="id" value="sec.17-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Secretary of the Department may report to the
+Minister responsible for a government sector agency or the Public Service
+Commissioner any failure by the agency to comply with the requirements of this
+Act or the regulations or any other matter of concern to the Secretary with
+regard to the agency&#8217;s obligations under this Act or the
+regulations.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_df68bff6-c750-482d-8624-294b7aa5b041"></attrib>
+<attrib name="id" value="sec.17-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Secretary of the Department can include in
+the annual reporting information prepared for the Department under the <legref
+refid="act-2018-055" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Government Sector Finance Act 2018</i></name></legref> a
+report of any incidences of failure by government sector agencies to comply
+with the requirements of this Act or the regulations. A report of any such
+incident is to include any response provided to the Secretary by the agency
+concerned about the matter.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 17:</b> Am 2018 No 70,
+Sch 4.23.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cefc23a8-e8f9-40c0-a28d-6c0293ea4984"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_787f0547-f4e5-4a46-a729-65cce3cbfbcf"
+id="sec.18-he"><b>Delegation</b></heading></head>
+<block><txt break.before="1">The Minister may delegate to the Secretary of the
+Department any function of the Minister under this Act, except this power of
+delegation.</txt></block></level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9910bc33-7262-4532-82be-7e068303b8ce"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_cf2df57e-5f93-4204-afb8-5e14c7e055f4"
+id="sec.19-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sec.19-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_84853b91-4229-41cc-ad4b-3a508b35d644"></attrib>
+<attrib name="id" value="sec.19-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4f698615-7585-411b-bbe3-4d433970ce04"></attrib>
+<attrib name="id" value="sec.19-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The regulations may apply, adopt or incorporate
+(with or without changes) any publication (including any guidelines or
+standards) as in force at a particular time or from time to
+time.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_93a698c0-81a6-4f62-bff0-f9ff4ae2e9c9"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_dd155c6d-3f45-4a73-be43-7b8030e3d240"
+id="sec.20-he"><b>Review of Act</b></heading></head>
+
+<tier type="subclause" id="sec.20-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8d27625c-5ea3-4ca5-b863-2c89012cce59"></attrib>
+<attrib name="id" value="sec.20-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister is to review this Act to determine
+whether the policy objectives of the Act remain valid and whether the terms of
+the Act remain appropriate for securing those
+objectives.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_91f54190-16ec-4456-bcb8-816ac3283f86"></attrib>
+<attrib name="id" value="sec.20-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The review is to be undertaken as soon as
+possible after the period of 5 years from the date of assent to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e1098b3b-5519-4606-8c29-8f81606cfbb0"></attrib>
+<attrib name="id" value="sec.20-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A report on the outcome of the review is to be
+tabled in each House of Parliament within 12 months after the end of the
+period of 5 years.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_255716d6-7bbf-4178-9d21-aa7663a3f917"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_4c2be1c3-03b4-426b-9125-75aa08533f4e" id="sch.1-he"><b>Savings,
+transitional and other provisions</b></heading></head>
+
+<level type="part" id="sch.1-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e4e77c32-c076-4f81-a1e8-d7a8acb135a9"></attrib>
+<attrib name="id" value="sch.1-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_2d6e4c4b-e2da-40db-b905-e0eed06d90e7"
+id="sch.1-pt.1-he"><b>General</b></heading></head>
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_08a202dc-afdc-406c-af6e-ca15376654ed"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_9bce0239-adef-423a-8b55-185b5d167e87"
+id="sch.1-sec.1-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f5607de7-93f2-4fa5-a046-9d5daf1eb9ab"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of this Act or any
+Act that amends this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e58adbbb-d62e-4835-8805-1ee11e30473e"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such provision may, if the regulations so
+provide, take effect from the date of assent to the Act concerned or a later
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_18913434-a013-4364-91ad-d5f98eb3b6a3"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication on the NSW
+legislation website, the provision does not operate so as&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d66ecff0-d730-4bcc-9b03-8c326cf4e9b4" id="sch.1-sec.1-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b9e59334-4f91-4d2e-b051-e07380b4639d" id="sch.1-sec.1-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_49c8d089-8b6f-40e9-b7c3-81dce7ffea20"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_c67952ec-a379-4c1f-8052-3183349c236e"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-2015-060" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Data Sharing (Government
+Sector) Act 2015</i></name> No 60</legref>. Assented to 24.11.2015. Date of
+commencement, assent, sec 2.</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_540b3770-db55-4521-b0fb-dfe857b71ca8" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_6c6e7271-afa1-4f22-8326-30d4d8426561" id="ed-tbl-tblr">
+<entry colname="1" guid="_113a7ce4-b943-436b-9937-d4407a20adfb"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>2017</b></txt></entry>
+<entry colname="2" guid="_b209e524-0e94-4bf1-b2cd-9820a708ddd1"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 65</txt></entry>
+<entry colname="3" guid="_c3e806fa-52db-4730-a2de-2a871a247a01"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref refid="act-2017-065" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Local Government Amendment
+(Regional Joint Organisations) Act 2017</i></name></legref>. Assented to
+30.11.2017.</txt>
+<txt break.before="1">Date of commencement, 15.12.2017, sec 2 and 2017 (730)
+LW 15.12.2017.</txt></block></entry></row>
+
+
+<row guid="_b8ff038a-1869-4532-ab62-a7d8e6e9d30c" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_0bc18e5f-eb22-40b3-9c9c-741919b02e7a"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>2018</b></txt></entry>
+<entry colname="2" guid="_d63dd328-e9f2-45fe-bde5-4c8f383e1d8a"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 70</txt></entry>
+<entry colname="3" guid="_ff517478-e656-474f-a319-1084f8986ec3"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref refid="act-2018-070" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Government Sector Finance
+Legislation (Repeal and Amendment) Act 2018</i></name></legref>. Assented to
+22.11.2018.</txt>
+<txt break.before="1">Date of commencement of Sch 4.23, 1.7.2023, sec 2(1) and
+2023 (91) LW 2.3.2023.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_31b3ba7e-86b6-4851-be8e-0cdf2f582d5a"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_0385cb86-f5fe-4e56-bc52-d60a25235f12" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_a8d20698-e7df-44f7-b079-b180be03de33" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_49495ec5-9589-4c9c-a0dd-8f1ac89f55e8"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_535dbdcc-db0e-4ec2-b52b-2df07862b1dc"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 2017 No 65, Sch
+2.6.</txt></entry></row>
+
+
+<row guid="_fb2a4ff1-50d3-4353-8f54-38254af684f8" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_48da7d26-6155-4adb-8fb2-67503aa58362"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 17</txt></entry>
+<entry colname="2" guid="_3c38fd77-eec5-47be-92cb-d9b9e1a4ec57"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 2018 No 70, Sch
+4.23.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

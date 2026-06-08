@@ -1,0 +1,2360 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2012-013"
+title="Mental Health Commission Act 2012"
+year="2012"
+number="13"
+enact.or.made.date="2012-03-21"
+first.valid.date="2025-12-01"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2012</metacontent>
+<metacontent class="year.assent">2012</metacontent>
+<metacontent class="publication.date">2025-12-01</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2025-055</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="introduction.date">2011-11-24</metacontent>
+<metacontent class="la.second.reading.date">2011-11-24</metacontent>
+<metacontent class="amended.in.committee">1</metacontent>
+<metacontent class="id">act-2012-013</metacontent>
+<metacontent
+class="version.desc.id">fc763ccc-70d1-447f-b0fb-a2e27a9bb9b4</metacontent>
+<metacontent
+class="version.series.id">73062fde-ed85-48db-a2fa-3a741e64471f</metacontent>
+<metacontent class="year.introduced">2011</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Mental Health Commission Act 2012"></attrib>
+<attrib name="year.passed" value="2012"></attrib>
+<attrib name="year.assent" value="2012"></attrib>
+<attrib name="no" value="13"></attrib>
+<attrib name="publication.date" value="2025-12-01"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2025-055"></attrib>
+<attrib name="first.valid.date" value="2025-12-01"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="introduction.date" value="2011-11-24"></attrib>
+<attrib name="la.second.reading.date" value="2011-11-24"></attrib>
+<attrib name="amended.in.committee" value="1"></attrib>
+<attrib name="assent.date" value="2012-03-21"></attrib>
+<attrib name="id" value="act-2012-013"></attrib>
+<attrib name="version.desc.id"
+value="fc763ccc-70d1-447f-b0fb-a2e27a9bb9b4"></attrib>
+<attrib name="version.series.id"
+value="73062fde-ed85-48db-a2fa-3a741e64471f"></attrib>
+<attrib name="year.introduced" value="2011"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_bf905692-de9e-4fb8-86c8-53610a4457e4"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_2777a42c-cd21-4251-b3e4-a3c3dcd6c806"
+id="cd-status-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_988385d6-9d94-4aac-a6bc-08035e0d1491"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to establish and confer functions on the
+Mental Health Commission; and for other purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_43e50960-7884-4e44-a25a-f9e80d8240d2"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_a4a5f41f-80e7-494a-b7cc-2ac59ff2d159"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_153eb878-0a1e-4470-8707-40501584e7cf"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_6fe93553-435b-4c7f-b21d-116467a56ea2"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref refid="act-2012-013"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Mental Health
+Commission Act 2012</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a4a28fdd-fe33-4b60-b014-94ab4cc46214"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_49a63149-57c0-4958-b0a2-ed580448782e"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on a day or days to be
+appointed by proclamation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4a22d50e-cb62-4d2a-bb02-c87ae7a7066e"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_e14a697c-e38e-4915-90c9-23d8dec5c5d8"
+id="sec.3-he"><b>Objects of Act</b></heading></head>
+<block><txt break.before="1">The objects of this Act are&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aa190d91-fff2-4114-8d0b-9d4efcda3eaa" id="sec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to establish the Mental Health Commission of New
+South Wales for the purpose of monitoring, reviewing and improving the mental
+health and well-being of the people of New South Wales,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dbd44179-4494-4999-94ff-72c07ffedcd3" id="sec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to promote the governing principles,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_72cc0d46-23eb-4574-b567-a2f9a32f7b3d" id="sec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to require the Commission and public sector
+agencies that provide mental health services or are involved in supporting
+people who have a mental illness to work co-operatively in the exercise of
+their respective functions.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Subst 2018 No
+73, Sch 5 [1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.3A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_816201b3-f31c-4478-a229-bab0763d32ba"></attrib>
+<attrib name="id" value="sec.3A"></attrib></parentattributes>
+
+<head>
+<no>3A</no><heading guid="_83af02af-19d0-4ea6-a41b-8fe0c5451d04"
+id="sec.3A-he"><b>Governing principles</b></heading></head>
+
+<tier type="subclause" id="sec.3A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d3d529b7-d6ea-4ec4-8b83-2b72ac506ff8"></attrib>
+<attrib name="id" value="sec.3A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The following are the <defterm type="definition"
+guid="_42d94b0f-d80e-42b1-aa17-4ba43cea1bcd"
+id="sec.3A-ssec.1-def.governingprinciples"><b><i>governing
+principles</i></b></defterm> for the purposes of this Act&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b3e0d088-8bc1-4608-81a4-b9976b4bca8d" id="sec.3A-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">people who have a mental illness, wherever they
+live, should have access to the best possible mental health care and
+support,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_beb15fe8-6b84-4f40-b21e-a6730fa57375" id="sec.3A-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">people who have a mental illness and their
+families and carers should be treated with respect and
+dignity,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7a8b9d1f-e86b-4ef5-b150-49dafb351e23" id="sec.3A-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the primary objective of the mental health system
+should be to support people who have a mental illness to participate fully in
+community life and lead meaningful lives,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5a40ae29-b793-4feb-aa6d-ffb591de0731" id="sec.3A-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the promotion of good mental health and the
+effective provision of mental health services are the shared responsibility of
+the government and non-government sectors,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d05d69e5-d637-4b6a-bc1f-259d2dc3a3f5" id="sec.3A-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">an effective mental health system
+requires&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_24853afd-9575-4d1b-8ef4-e78924521506"
+id="sec.3A-ssec.1-para1.e-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">a co-ordinated and integrated approach across all
+levels of government and the non-government sector, including in the areas of
+health, housing, employment, education and justice, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0162a8c7-9694-4caa-b7fc-522bb31c1ad5"
+id="sec.3A-ssec.1-para1.e-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">communication and collaboration between people
+who have a mental illness and their families and carers, providers of mental
+health services and the whole community.</txt></block></li></list>
+</block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9a883d20-7032-4587-b585-7a9e5495a523"></attrib>
+<attrib name="id" value="sec.3A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A public sector agency should have regard to the
+governing principles in exercising its functions.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 3A:</b> Ins 2018 No 73,
+Sch 5 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d5e143a7-2461-4a83-80b5-34e913ad93ed"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_63c88857-115c-4baf-934c-a89d2ccab9de"
+id="sec.4-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3c87fd82-f684-4629-be73-62dea17a04e5"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_2ad361b5-d3dd-4292-9377-add37c9f0fe5"
+id="sec.4-ssec.1-def.Commission"><b><i>Commission</i></b></defterm> means the
+Mental Health Commission of New South Wales constituted by this
+Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6ec1ef1e-147f-4485-bd88-1f8a191661ab"
+id="sec.4-ssec.1-def.Commissioner"><b><i>Commissioner</i></b></defterm> means
+the Mental Health Commissioner appointed by the Governor under section
+6.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_30c792f4-10c9-4102-8b37-c9cf301e8784"
+id="sec.4-ssec.1-def.DeputyCommissioner"><b><i>Deputy
+Commissioner</i></b></defterm> means a Deputy Mental Health Commissioner
+appointed by the Governor under section 7.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_5c85ee15-61d8-435c-9b9a-ed03e2112584"
+id="sec.4-ssec.1-def.function"><b><i>function</i></b></defterm> includes a
+power, authority or duty, and <defterm type="definition"
+guid="_53847cca-445c-45d2-976b-26dd5d985473"
+id="sec.4-ssec.1-def.exercise"><b><i>exercise</i></b></defterm> a function
+includes perform a duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c208dc9b-813f-4461-940a-64aa470318b1"
+id="sec.4-ssec.1-def.governingprinciples"><b><i>governing
+principles</i></b></defterm>&#8212;see section 3A.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d6026625-0517-4ae5-a106-b235329b9738"
+id="sec.4-ssec.1-def.nongovernmentsector"><b><i>non-government
+sector</i></b></defterm> includes the private sector.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b63841f3-6bb3-4824-8c41-5725c7d9273a"
+id="sec.4-ssec.1-def.publicsectoragency"><b><i>public sector
+agency</i></b></defterm> means any of the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a0eb18f5-8e4d-4d01-af43-9d968dc4135e" id="sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a Public Service agency,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8e7c6b57-742d-4edf-bcb1-e754b663cbbf" id="sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a NSW Government agency,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_87f1b1a5-daf5-44b7-8707-d3fe1977c897" id="sec.4-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the NSW Police Force,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0a943171-0a1f-407e-8db7-f834a7fa8354" id="sec.4-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the Teaching Service,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_86120fdf-5d34-4053-9f2d-6f254883a9bc" id="sec.4-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">a local health district or statutory health
+corporation (within the meaning of the <legref refid="act-1997-154"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Health
+Services Act 1997</i></name></legref>),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_61edb0f3-0749-4689-8648-6243e0b341ef" id="sec.4-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">a local council or other local
+authority,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3f4a43bc-ca44-4fe9-bc66-d6caef41fe46" id="sec.4-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">any other person or body prescribed by the
+regulations.</txt></block></li></list>
+</block></deflist>
+</block>
+<note type="legtext" guid="_eb70dd08-aba8-4d8d-9884-6e55ae9372a6"
+id="sec.4-ssec.1-note"><heading guid="_2f157cce-b11e-4655-a547-7a90849318cd"
+id="sec.4-ssec.1-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">The <legref refid="act-1987-015" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Interpretation Act
+1987</i></name></legref> contains definitions and other provisions that affect
+the interpretation and application of this Act.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8f24f677-88c5-4e75-bec4-3bc52089b691"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A reference in this Act to a public sector agency
+includes a reference to the person who is the chief executive officer (however
+described) of the agency.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_051e32eb-353f-4a25-b758-5111bb2d255e"></attrib>
+<attrib name="id" value="sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 2015 No 15,
+Sch 3.42 [1]; 2018 No 73, Sch 5 [3].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_9560f4bd-005e-4aad-9a69-67545a9b5a51"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_8be64dc1-c912-42f5-9dda-719347dd4e5f"
+id="pt.2-he"><b>Mental Health Commission</b></heading></head>
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_84521dd2-57d0-48eb-a1b3-459d5aa25944"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_08eaa3fb-235f-4324-b2ae-a24d30036841"
+id="sec.5-he"><b>Constitution of Mental Health
+Commission</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4aa98627-f4f1-4924-b162-101053966c6b"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There is constituted by this Act a corporation
+with the corporate name of the Mental Health Commission of New South
+Wales.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_893e6c4e-3f9f-4ee7-81d8-25d96ddb3cad"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Commission is not and does not represent the
+Crown.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ba0886c6-de20-4f18-9c73-b10cc0ab1f48"></attrib>
+<attrib name="id" value="sec.5-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Commission has the functions conferred or
+imposed on it by or under this or any other Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f6e83d9f-f6e2-422d-97d4-5efbb1bbe286"></attrib>
+<attrib name="id" value="sec.5-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The functions of the Commission are exerciseable
+by the Commissioner, and any act, matter or thing done in the name of, or on
+behalf of, the Commission by the Commissioner, or with the authority of the
+Commissioner, is taken to have been done by the
+Commission.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.5" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_da590068-3734-4096-a4c7-29d5d0eb1691"></attrib>
+<attrib name="id" value="sec.5-ssec.5"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 5:</b> Am 2015 No 15,
+Sch 3.42 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c2ec23c8-b562-42c9-b9c9-4b32175ffa5d"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_cfd538d8-3c0e-47fd-af09-1ece6141a9df"
+id="sec.6-he"><b>Mental Health Commissioner</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bbc1f90f-05d3-466a-b9d0-4175a1244ca8"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may appoint a Mental Health
+Commissioner.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7215ddbf-02b4-4a57-b58f-0108c8b8aada"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Commissioner holds office for the period (not
+exceeding 5 years) specified in the instrument of appointment and may not be
+appointed for more than 2 successive terms of office.</txt></block></tier>
+
+<note type="legtext" guid="_a970ae08-2648-4ccc-a6a6-642800a1f42d"
+id="sec.6-note"><heading guid="_82a53a49-a7fd-40de-b4da-bfae9a8e2398"
+id="sec.6-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">Schedule 1 contains ancillary provisions relating
+to the Commissioner.</txt></block></note>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_363972ac-d63a-446a-8fbd-f5736229a433"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_a4a7b8d6-a9e5-4894-9ee3-3852ed7c4a2f"
+id="sec.7-he"><b>Deputy Mental Health Commissioners</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c6441cc7-cbbc-46f1-b7fb-3f8b20ea7f0e"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may appoint one or more Deputy
+Mental Health Commissioners.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7d580fae-ce42-4675-b71e-31c309cfd727"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A Deputy Commissioner holds office for the period
+(not exceeding 3 years) specified in the instrument of appointment and may be
+re-appointed provided he or she does not hold office for more than 6 years in
+total.</txt></block></tier>
+
+<note type="legtext" guid="_a1d0d315-f419-4bfc-87f3-149bc1f57e62"
+id="sec.7-note"><heading guid="_14d06631-a995-4593-96fb-c8522a806e9c"
+id="sec.7-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">Schedule 1 contains ancillary provisions relating
+to Deputy Commissioners.</txt></block></note>
+
+
+<content type="historynote"><txt break.before="1"><b>s 7:</b> Am 2016 No 55,
+Sch 1.16.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d86e5ccc-bdf3-45d7-8d7b-4ad5bbed670c"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_cbe90a38-4c3b-4cdf-93fb-7095eb905f3a"
+id="sec.8-he"><b>Commissioner or Deputy Commissioner to have personal
+experience of mental illness</b></heading></head>
+<block><txt break.before="1">The Commissioner or at least one Deputy
+Commissioner must be a person who has or has had a mental
+illness.</txt></block></level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4f873ad2-c83f-43d5-beba-56087dbfb8c0"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_93059b71-8e72-4814-b970-50ce8c47c0f5"
+id="sec.9-he"><b>Ministerial control</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6dc7a164-3d20-463a-bb33-559ae2898bb6"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commission is subject to the direction and
+control of the Minister, except in relation to the preparation and contents of
+any plan or report prepared by the Commission.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f6e422ea-6d80-4377-b062-9b2bfb3ec4e1"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">To avoid doubt, subsection (1) applies to the
+Commission in exercising functions under the <legref refid="act-2025-055"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Suicide
+Prevention Act 2025</i></name></legref>.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Am 2018 No 73,
+Sch 5 [4]; 2025 No 55, Sch 2[1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1f4df243-88e4-43b0-8959-a2fe701e52ab"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_1b59e53e-bab1-44b4-b15c-39cdceaf0f64"
+id="sec.10-he"><b>Mental Health Community Advisory
+Council</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_459fdadb-8d02-4abb-82e8-5acab05e1b89"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There is to be a Mental Health Community Advisory
+Council.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0fbbe85e-6279-4c6f-88e9-9541243a3b3f"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The function of the Council is to advise the
+Commission on any mental health issue it considers appropriate or that is
+referred to it by the Commission.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4ba6d4c7-9058-4521-8c5f-57428779eac4"></attrib>
+<attrib name="id" value="sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Council is to consist of the Commissioner and
+such persons as are appointed by the Minister (the <defterm type="definition"
+guid="_461ab757-4b4b-4c50-bb58-5aaf73d5f54e"
+id="sec.10-ssec.3-def.appointedmembers"><b><i>appointed
+members</i></b></defterm>). The Minister is to consider any recommendations
+made by the Commission in relation to the appointment of persons to the
+Council.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3f83dbf4-c24e-4aab-9db9-2b954ed7edc6"></attrib>
+<attrib name="id" value="sec.10-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Minister must ensure that the composition of
+the Council reflects the diversity of the community and includes
+representatives of the following groups&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d091f519-f53f-40e7-ade3-be20326732ee" id="sec.10-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">people who have a mental illness and their
+families and carers,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_60ac783a-9ffe-42ba-b31a-00eab694babc" id="sec.10-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">mental health service
+providers,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f518f8e6-17ee-418a-b8d3-8513956f6ebe" id="sec.10-ssec.4-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">people living in regional and remote New South
+Wales,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4a9a50ff-09e7-4fec-9b8a-fc247b1e2f32" id="sec.10-ssec.4-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">culturally and linguistically diverse
+communities,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a0d34081-6d7c-474f-8529-8d8347d666dc" id="sec.10-ssec.4-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">Aboriginal persons.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_55231fb6-7ec3-493d-9f4f-7c8c4df1be2b"></attrib>
+<attrib name="id" value="sec.10-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">An appointed member is to be appointed to the
+Council for a period of 3 years or less.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2c23a736-3cbd-437d-98f8-17a3a64370fc"></attrib>
+<attrib name="id" value="sec.10-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">One of the appointed members of the Council is,
+by the member&#8217;s instrument of appointment or a further instrument signed
+by the Minister, to be appointed as the chairperson of the
+Council.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ee1b7639-ac1f-4e72-ba07-b5ef2f3c849b"></attrib>
+<attrib name="id" value="sec.10-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">The procedure for the calling of meetings of the
+Council and for the conduct of those meetings is to be determined by the
+Commissioner.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c8bc0382-a078-4a5c-9629-bac8a88b9a1a"></attrib>
+<attrib name="id" value="sec.10-ssec.8"></attrib></parentattributes>
+
+<head>
+<no>(8)</no></head>
+<block><txt break.before="1">An appointed member of the Council is entitled to
+be paid such fees and allowances (if any) as the Minister may from time to
+time determine for the member.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dd3276bb-8c5f-4042-9ed6-f51ce59e030d"></attrib>
+<attrib name="id" value="sec.10-ssec.9"></attrib></parentattributes>
+
+<head>
+<no>(9)</no></head>
+<block><txt break.before="1">The Minister may remove an appointed member from
+the Council at any time.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_5fa4fdc3-20a3-44c2-ad69-e8922f9e38f1"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_81ea94d4-ddeb-4e41-a3fc-6e83bda50a17"
+id="pt.3-he"><b>Functions of Commission</b></heading></head>
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_acb2e220-6f40-485c-8f65-1ce5387c0430"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_abcebbfc-70a3-4cd9-a407-c0d52c5faa2b"
+id="sec.11-he"><b>Commission&#8217;s work to be governed by the governing
+principles</b></heading></head>
+<block><txt break.before="1">The governing principles are to govern the work
+of the Commission.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Subst 2018 No
+73, Sch 5 [5].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_87acf4c8-e9be-42fb-a284-7bc7d462ae6f"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_5d1b62e8-0e4e-472f-b779-33ca3b4f0bb9"
+id="sec.12-he"><b>Functions of Commission</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_31319c18-c1b8-4a3d-8fd9-625236e63b0c"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commission has the following
+functions&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e033411e-f310-4573-a79c-39836fc81c36" id="sec.12-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to prepare strategic plans relating to mental
+health when directed to do so by the Minister,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2e248015-ca4d-4333-8334-fac6e387bf77" id="sec.12-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to monitor and report on the implementation of
+strategic plans prepared by the Commission and approved by the
+Minister,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c4340d41-9e4b-4bc1-b85e-f538c46e1fa4" id="sec.12-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to review and evaluate, and report and advise on,
+the mental health and well-being of the people of New South Wales including
+conducting systemic reviews of services and programs provided to people who
+have a mental illness and other issues affecting people who have a mental
+illness,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_613ea5d7-52b6-41dc-b5be-c43a95b2e42c" id="sec.12-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to promote and facilitate the sharing of
+knowledge and ideas about mental health issues,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_572013a4-145f-4165-b5db-adce08c674ea" id="sec.12-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">to undertake and commission research and
+innovation in relation to mental health issues,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a9b844c6-4d8c-4223-8dee-19d78e9c055d" id="sec.12-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">to advocate for and promote the general health
+and well-being of people who have a mental illness and their families and
+carers,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_daf574ae-5d01-4bc7-9ee1-76568dfba206" id="sec.12-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">to educate the community about mental health
+issues, including for the purpose of reducing the stigma associated with
+mental illness and discrimination against people who have a mental
+illness,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_59392e2f-bb78-49bf-8c34-2145b9e81b0a" id="sec.12-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">to advocate for and promote the prevention of
+mental illness and early intervention strategies for mental
+health,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dc686cb4-be54-451b-a7dc-b005b4efde66" id="sec.12-ssec.1-para1.h1">
+<no>(h1)</no>
+<block><txt break.before="1">other functions given to the Commission by this
+Act or another Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_93dccea1-9fc8-4ddf-bef4-3bbf0438f180" id="sec.12-ssec.1-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">such other functions relating to mental health as
+may be prescribed by the regulations.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_38cc88e0-7298-41bd-b79c-2c31e1b1356b"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In exercising its functions under this Act, the
+Commission is&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d4ab3d43-a436-4dc7-9631-43d80e8eb363" id="sec.12-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to focus on systemic mental health issues,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a934259e-cd29-434c-bb6b-4c75f4315851" id="sec.12-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to take into account co-morbid issues associated
+with mental illness, such as drug and alcohol use and disability,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_857ae715-3f9b-4979-9bdf-b678518ab19a" id="sec.12-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to take into account issues related to the
+interaction between people who have a mental illness and the criminal justice
+system, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_68f5971b-fb47-4434-a8a0-a3b932c5463d" id="sec.12-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to engage and consult with and to take into
+account the particular views of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bd5706db-30c9-4091-8d23-292ad69516c0"
+id="sec.12-ssec.2-para1.d-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">people who have a mental illness and their
+families and carers, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_68eb55dc-225e-4aa0-a051-874aadfa94bc"
+id="sec.12-ssec.2-para1.d-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the government and non-government sectors,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_790577a7-651c-45ce-b594-2184174aecd1"
+id="sec.12-ssec.2-para1.d-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">the whole community,
+and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8de38127-a0a3-410d-a90e-eff7d7b7771b" id="sec.12-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">to take into account the particular views and
+needs of different sections of the community, including Aboriginal
+communities, culturally and linguistically diverse communities, gay, lesbian,
+bisexual, transgender and intersex communities, young people and regional and
+remote communities.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 12:</b> Am 2018 No 73,
+Sch 5 [6]&#8211;[10]; 2025 No 55, Sch 2[2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5bfd5659-1632-43d6-9489-d02a40eb436d"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_6f569457-ae83-406d-b8b4-06f39960b397"
+id="sec.13-he"><b>Special reports</b></heading></head>
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a3c304ab-6c10-4f73-b894-4cbdb7217954"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may direct the Commission to prepare
+a special report on any significant systemic issue affecting people who have a
+mental illness (not being an issue that relates only to a particular
+specialist mental health service).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8f27eab2-77d2-4aad-84b1-8661cbea514e"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Commission may include in a special report a
+recommendation that the report be made public.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7ca8e217-0e58-4801-bc52-601e2281720f"></attrib>
+<attrib name="id" value="sec.13-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Minister may cause a copy of a special report
+to be provided to the Presiding Officer of each House of
+Parliament.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c9f06f27-ff25-4585-acf6-76f4b50c01b2"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_a9b69625-49a7-41b5-bee4-a2c1ed0338c4"
+id="sec.14-he"><b>Other reports</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c3c6fd42-5c2f-48e3-b0d1-00b677ad5a63"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commission may, at any time, prepare a report
+on any of the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_85bacc80-afdb-4366-829d-b0a9d593f866" id="sec.14-ssec.1-para1.a"
+status="repealed">
+<no>(a)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c4f32347-39cd-4fd6-ba38-66ef79779989" id="sec.14-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the implementation of any strategic plan prepared
+by the Commission and approved by the Minister,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_23927bcc-388d-4886-bc8e-67b5e86bed9f" id="sec.14-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a systemic issue relating to the mental health
+system or affecting people who have a mental illness,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9f36eb11-1a55-4322-b95e-f13829925c40" id="sec.14-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the funding of mental health services in New
+South Wales.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f8990334-4e9e-4283-9113-98bce57b32e1"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Commission is to notify the Minister before
+preparing a report on a systemic issue referred to in subsection (1)
+(c).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_02773688-dbc7-47d7-a571-ee795f135168"></attrib>
+<attrib name="id" value="sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In the course of preparing a report on a systemic
+issue referred to in subsection (1) (c), the Commission is to consult with any
+public sector agencies and non-government agencies that the Commission
+considers are significantly affected by the issues contained in the report,
+including by providing a draft report to, and considering submissions by, the
+agency.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.14-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_05dc6313-3d3d-4e0e-83a0-a4f87a0fd49e"></attrib>
+<attrib name="id" value="sec.14-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Commission must provide the Minister with a
+copy of any report prepared under this section and the Minister must cause a
+copy of the report to be provided to the Presiding Officer of each House of
+Parliament as soon as practicable after receiving the report from the
+Commission.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d90076e6-baab-4af0-ace6-83fb471ccff3"></attrib>
+<attrib name="id" value="sec.14-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The Commission may, after a report has been
+prepared and provided to the Minister under this section, give a copy of the
+report to the head of a public sector agency and request the head, in writing,
+to consider either or both of the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_489ad798-27ca-4dd8-a75d-c919cb9f298f" id="sec.14-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the report or any specified matter in the
+report,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6651204c-b7de-4ebc-ad3d-5e0a233d19c4" id="sec.14-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the steps (if any) that the agency has taken, or
+plans to take, in relation to a particular recommendation in the
+report.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2a1e874b-b5c1-4b56-80e0-fbe3d6512f25"></attrib>
+<attrib name="id" value="sec.14-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">The head of a public sector agency to whom a
+report is given must provide a written response to the Minister within a
+reasonable time and no later than 6 months after the report is
+given.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3675cafc-28ca-45ce-9c17-f32793a83354"></attrib>
+<attrib name="id" value="sec.14-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">The response is to address any matters that the
+head has been requested to consider by the Commission.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_74af00f5-edbc-4ffa-803a-04e34fbaacae"></attrib>
+<attrib name="id" value="sec.14-ssec.8"></attrib></parentattributes>
+
+<head>
+<no>(8)</no></head>
+<block><txt break.before="1">The head of a public sector agency must also
+provide a copy of the response to the Commission.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4f82e018-a95c-4303-a408-05aea61decab"></attrib>
+<attrib name="id" value="sec.14-ssec.9"></attrib></parentattributes>
+
+<head>
+<no>(9)</no></head>
+<block><txt break.before="1">The Commission is to include the response or a
+summary of the response in its annual report.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 14:</b> Am 2018 No 73,
+Sch 5 [11]&#8211;[13].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.14A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c532470d-af0b-4264-af22-1d0e284c8955"></attrib>
+<attrib name="id" value="sec.14A"></attrib></parentattributes>
+
+<head>
+<no>14A</no><heading guid="_1ef67363-3564-4c70-ad15-95ee852e8b16"
+id="sec.14A-he"><b>Staff</b></heading></head>
+<block><txt break.before="1">Persons may be employed in the Public Service
+under the <legref refid="act-2013-040" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref> to enable the Commission to exercise its functions
+under this Act or another Act.</txt></block>
+<note type="legtext" guid="_fa82d14d-2b96-4e9f-a929-cf5770218c38"
+id="sec.14A-note"><heading guid="_38bab67a-fc4f-4300-9474-955c867901e6"
+id="sec.14A-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">Section 59 of the <legref refid="act-2013-040"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Government
+Sector Employment Act 2013</i></name></legref> provides that the persons so
+employed (or whose services the Commission makes use of) may be referred to as
+officers or employees, or members of staff, of the Commission. Section 47A of
+the <legref refid="act-1902-032" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Constitution Act 1902</i></name></legref> precludes the
+Commission from employing staff.</txt></block></note>
+
+
+<content type="historynote"><txt break.before="1"><b>s 14A:</b> Ins 2015 No
+15, Sch 3.42 [3]. Am 2025 No 55, Sch 2[3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0a83dfbf-890e-437a-8d1a-5f576f5937c7"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_b484652e-feaf-4cbe-b142-cf6fd499109a"
+id="sec.15-he"><b>Delegation of Commission&#8217;s
+functions</b></heading></head>
+<block><txt break.before="1">The Commission may delegate any of its functions
+under this Act or another Act, other than this power of delegation, to a
+Deputy Commissioner or a member of staff of the Commission.</txt></block>
+<note type="legtext" guid="_7a99f1f0-3c29-465c-b907-c3992cf5f3c4"
+id="sec.15-note"><heading guid="_75a2f862-d032-4047-a2ba-a596c7fc886a"
+id="sec.15-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">Section 5 (4) provides that the Commissioner acts
+for the Commission.</txt></block></note>
+
+
+<content type="historynote"><txt break.before="1"><b>s 15:</b> Am 2025 No 55,
+Sch 2[4]</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_d222f4bf-2b1a-4b44-b262-e3f2ddc5dd76"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_90054ace-f9f2-4798-9f4e-5cd463b44a71"
+id="pt.4-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_be096e00-ff0a-4dfd-84d7-2a0f762042e6"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_596aa156-03dd-4bdd-99f8-ae01c11c5fba"
+id="sec.16-he"><b>Co-operation between Commission and public sector
+agencies</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_78800a24-38d9-49b4-b4ba-450f27d25c09"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">It is the duty of the Commission and public
+sector agencies that provide mental health services or are involved in dealing
+with people who have a mental illness to work co-operatively in the exercise
+of their respective functions.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.2" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_255e5de3-d4bc-4dbb-bd6c-d816a8633a71"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+</pre>
+
+
+<tier type="subclause" id="sec.16-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9a2533d0-0a34-4fd9-aebe-961849061d20"></attrib>
+<attrib name="id" value="sec.16-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Commission may enter into arrangements with
+any public sector agency in relation to the provision by the agency of
+information that is required by the Commission for the exercise of its
+functions.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ad1dda83-9fd8-4be6-82a3-e25f396a397c"></attrib>
+<attrib name="id" value="sec.16-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Commission may request a public sector agency
+to provide the Commission with any information held by the agency that is
+reasonably required by the Commission for the exercise of its functions and
+the agency must comply with such a request if it is reasonable to do
+so.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cd2751bc-d30b-435e-978a-e4a05ef0927b"></attrib>
+<attrib name="id" value="sec.16-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Any dispute arising between the Commission and a
+public sector agency about a request for information under subsection (4) is
+to be resolved between the Minister administering this Act and the Minister
+responsible for the public sector agency.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0193b6f0-f330-4aa5-9d16-2770fddfe270"></attrib>
+<attrib name="id" value="sec.16-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">Information provided to the Commission under this
+section is not to include personal information within the meaning of the
+<legref refid="act-2002-071" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Health Records and Information Privacy Act
+2002</i></name></legref>.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 16:</b> Am 2018 No 73,
+Sch 5 [14].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8d3fa8e4-f4aa-4ab9-b6a0-725a4a129ee3"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_eb570c07-cf3f-4745-b98e-b3f39738140b"
+id="sec.17-he"><b>Provisions relating to reports</b></heading></head>
+
+<tier type="subclause" id="sec.17-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b7c4de97-ec30-4c7f-a2d1-5f682d51f640"></attrib>
+<attrib name="id" value="sec.17-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A copy of a report provided to the Presiding
+Officer of a House of Parliament under this Act must be laid before that House
+within 15 sitting days of that House after it is received by the Presiding
+Officer.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_200f084b-8d85-4ca3-a8ca-dcec3d53cbf7"></attrib>
+<attrib name="id" value="sec.17-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If a report includes a recommendation by the
+Commission that the report be made public immediately, the Presiding Officer
+of a House of Parliament may make it public whether or not that House is in
+session and whether or not the report has been laid before that
+House.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ea3981e8-7b93-44ec-ad80-1bb414f6eda5"></attrib>
+<attrib name="id" value="sec.17-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A report that is made public by the Presiding
+Officer of a House of Parliament before it is laid before that House attracts
+the same privileges and immunities as it would if it had been laid before that
+House.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_83db9456-47a1-4ceb-931e-8cde6d75ba1e"></attrib>
+<attrib name="id" value="sec.17-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A Presiding Officer need not inquire whether all
+or any conditions precedent have been satisfied in relation to a report
+purporting to have been provided to the Presiding Officer in accordance with
+this Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_72378fe4-8e50-4302-bdf5-c12632ae6119"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_f52307f8-a9a3-44d9-80cd-075ac800cd41"
+id="sec.18-he"><b>Personal liability</b></heading></head>
+<block><txt break.before="1">A matter or thing done or omitted to be done by
+the Commission, the Commissioner, a Deputy Commissioner, a member of the
+Mental Health Community Advisory Council or a person acting under the
+direction of the Commission or a Council member does not, if the matter or
+thing was done or omitted to be done in good faith for the purpose of
+executing this Act, subject the Commissioner, the Deputy Commissioner, the
+member or the person so acting personally to any action, liability, claim or
+demand.</txt></block></level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a946cc0e-dfad-437a-92ef-dd012e217f32"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_20c0d160-7ac1-470e-98b3-9586f4c36ba3"
+id="sec.19-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_38655ff8-46c0-45cc-b2e2-47ff3d672531"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_788909fb-a958-4ab5-8fef-336001c56342"
+id="sec.20-he"><b>Review of Commission and Act</b></heading></head>
+
+<tier type="subclause" id="sec.20-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9032f1b1-ccdb-4f06-a7cf-5f59f1abf74d"></attrib>
+<attrib name="id" value="sec.20-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">As soon as possible after the period of 5 years
+from the commencement of this Act, the Minister is to undertake the following
+reviews&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fa61631a-582e-4fde-a726-a0b52c3f63dd" id="sec.20-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a review of the work of the Commission taking
+into account the functions of the Commission and the principles governing the
+work of the Commission,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b056d302-6ff9-44eb-83af-b4a3d468d5be" id="sec.20-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a review of this Act to determine whether the
+policy objectives of the Act remain valid and whether the terms of the Act
+remain appropriate for securing those objectives.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7864cfd6-a5d4-43f5-bc8a-502b3f2b025c"></attrib>
+<attrib name="id" value="sec.20-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister is to undertake a further review of
+the work of the Commission at least once every 5 years after the first
+review.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_87885f9e-c958-4723-83d3-efbbd65b801d"></attrib>
+<attrib name="id" value="sec.20-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A report on the outcome of a review under this
+section is to be tabled in each House of Parliament within 12 months after the
+end of the relevant 5-year period.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_014f9f88-20d4-4a8b-89c4-3de25a3b90f5"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_d35003dc-0ea7-41e1-a238-0b8a8b83a99e" id="sch.1-he"><b>Provisions
+relating to Commissioner and Deputy Commissioners</b></heading></head>
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_88b06ed3-1550-47e0-8b15-131d1054305d"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_bb0c3269-f3fa-4a17-8882-f40f339eeaed"
+id="sch.1-sec.1-he"><b>Basis of offices</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f9d2bd03-483d-4876-a405-f30538dc6ccd"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The office of Commissioner is a full-time
+office.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8531aacf-cb9a-4e0e-bfa3-cf7b4da91ff1"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The office of Deputy Commissioner may be a
+full-time or part-time office.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_be5b29b1-4cda-4e4f-91dc-7628dfca5b2a"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The holder of a full-time office is required to
+hold it on that basis, except to the extent permitted by the
+Minister.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9899d3eb-08c1-4bbf-a53c-72a6ad33b807"></attrib>
+<attrib name="id" value="sch.1-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_45c45130-b1c3-49d3-8e15-7af7f12b7e12"
+id="sch.1-sec.2-he"><b>Remuneration</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e53126cf-f454-4704-bb73-63c103234077"></attrib>
+<attrib name="id" value="sch.1-sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Commissioner and any full-time Deputy
+Commissioners are entitled to be paid&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7859fa1e-2d97-4e45-85f8-fb150741070a" id="sch.1-sec.2-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">remuneration in accordance with the <legref
+refid="act-1976-004" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Statutory and Other Offices Remuneration Act
+1975</i></name></legref>, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d5144e17-f286-4c1d-baf1-8ec7b0473dd9" id="sch.1-sec.2-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">allowances as the Minister may from time to time
+determine.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4d00833d-d9f5-4ea0-be18-84f230cf563b"></attrib>
+<attrib name="id" value="sch.1-sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A part-time Deputy Commissioner is entitled to be
+paid such remuneration and allowances as the Minister may from time to time
+determine.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_00e0b114-eb96-40de-a26f-fdf449d376ca"></attrib>
+<attrib name="id" value="sch.1-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_6515087b-4d74-4406-a465-d9c6090bc711"
+id="sch.1-sec.3-he"><b>Acting Commissioner and Deputy
+Commissioners</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_589939e5-18dd-4af3-bb5f-29c3ec09cc78"></attrib>
+<attrib name="id" value="sch.1-sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may appoint a person to act in the
+office of Commissioner or the office of Deputy Commissioner during the illness
+or absence of, or a vacancy in, that office.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d5540603-ab5f-4999-bbf3-94fab23da358"></attrib>
+<attrib name="id" value="sch.1-sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person, while acting in the office of
+Commissioner or Deputy Commissioner, has all the functions of the Commissioner
+or Deputy Commissioner (as the case requires).</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.3-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1bee1869-16fb-4990-8093-00070a8c75a8"></attrib>
+<attrib name="id" value="sch.1-sec.3-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Minister may remove a person acting in the
+office of Commissioner or Deputy Commissioner from that office at any
+time.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.3-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e3573a6e-30f5-47e8-93ce-68b305104d62"></attrib>
+<attrib name="id" value="sch.1-sec.3-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A person acting in the office of Commissioner or
+Deputy Commissioner is entitled to be paid such remuneration and allowances as
+are determined by the Minister from time to time.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b81c5918-3fd7-4e07-9070-b812389d1984"></attrib>
+<attrib name="id" value="sch.1-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_58bef64a-62f0-4959-8590-a19ec81a8026"
+id="sch.1-sec.4-he"><b>Vacancy in office</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7dc3a900-bd44-442c-84d7-d960de990d8b"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The office of Commissioner or Deputy Commissioner
+becomes vacant if the holder&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2fb89b82-a262-4cd9-9886-aafda63075c7" id="sch.1-sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">dies, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d1f08015-333e-4ffe-8bbc-7ffd3e5e319b" id="sch.1-sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">completes a term of office and is not
+re-appointed, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a63ddaa7-de31-4f27-90f8-932b10049309" id="sch.1-sec.4-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">resigns the office by instrument in writing
+addressed to the Governor, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c361ea93-7dd9-426d-9483-b6d800741d52" id="sch.1-sec.4-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">is removed from office by the Governor under this
+clause, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a2c4187a-b286-48a7-9fe6-fb6827b76194" id="sch.1-sec.4-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">becomes bankrupt, applies to take the benefit of
+any law for the relief of bankrupt or insolvent debtors, compounds with his or
+her creditors or makes an assignment of his or her remuneration for their
+benefit, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_581f031b-2fa9-49ef-b3ed-3482262fa72b" id="sch.1-sec.4-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">is convicted in New South Wales of an offence
+that is punishable by imprisonment for 12 months or more or is convicted
+outside of New South Wales of an offence that, if committed in New South
+Wales, would be an offence so punishable.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ddf66020-81a9-4d25-9693-70d48b0f1956"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Governor may remove the Commissioner or a
+Deputy Commissioner for misbehaviour, incompetence or
+incapacity.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_43838d78-ca06-43df-a668-a8ca4328f7fb"></attrib>
+<attrib name="id" value="sch.1-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_3bfd44d8-30fa-42ea-be92-b3cb6dda9d91"
+id="sch.1-sec.5-he"><b>Filling of vacancy</b></heading></head>
+<block><txt break.before="1">If the office of Commissioner or Deputy
+Commissioner becomes vacant, a person is, subject to this Act, to be appointed
+to fill the vacancy.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_604d8e67-012f-4e7e-9fb0-5000f77c23c4"></attrib>
+<attrib name="id" value="sch.1-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_1e149ae9-5ef7-43f5-a58e-34507b8463da"
+id="sch.1-sec.6-he"><b>Effect of certain other Acts</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_541cd18c-e894-41b6-96ce-ef0feb6c3157"></attrib>
+<attrib name="id" value="sch.1-sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The offices of Commissioner and Deputy
+Commissioner are statutory offices and the provisions of the <legref
+refid="act-2013-040" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Government Sector Employment Act 2013</i></name></legref>
+relating to the employment of Public Service employees do not apply to those
+offices.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e6fe3b1d-dbe4-4a43-a171-9ea55f84311e"></attrib>
+<attrib name="id" value="sch.1-sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If by or under any Act provision is
+made&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_14e8e48e-6a67-4987-bbfa-aa297abffc29" id="sch.1-sec.6-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">requiring a person who is the holder of a
+specified office to devote the whole of his or her time to the duties of that
+office, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0ab2e39c-a390-4081-a2d5-1b929b8c2818" id="sch.1-sec.6-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">prohibiting the person from engaging in
+employment outside the duties of that office,</txt></block></li></list>
+
+<txt break.before="1">the provision does not operate to disqualify the person
+from holding that office and also the office of Commissioner or Deputy
+Commissioner or from accepting and retaining any remuneration payable to the
+person under this Act as Commissioner or Deputy
+Commissioner.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Am 2015 No 15,
+Sch 3.42 [4].</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ff9cc4b5-c47d-497b-9f7a-705a42f550ed"></attrib>
+<attrib name="id" value="sch.2"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading
+guid="_5009d865-c83a-4185-9fa0-96494e709166" id="sch.2-he"><b>Savings,
+transitional and other provisions</b></heading></head>
+
+<level type="part" id="sch.2-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e6a88e9a-4d76-4c61-81a2-eac7aba04d7c"></attrib>
+<attrib name="id" value="sch.2-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_889dc64f-9315-42e4-8d93-9ef8b87a6106"
+id="sch.2-pt.1-he"><b>General</b></heading></head>
+
+<level type="clause" id="sch.2-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7e5b22b2-08cd-4d36-b06e-8f247afbfa97"></attrib>
+<attrib name="id" value="sch.2-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_b7e07326-3d32-4df7-b877-c05b643d8eff"
+id="sch.2-sec.1-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4770846d-448d-420a-af44-dfa6b60bdf10"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of the following
+Acts&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b765a48d-6973-4bc4-b929-bef6dbdddee4" id="sch.2-sec.1-ssec.1-para1">
+<block><txt break.before="1">this Act</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7890685d-2f70-4e07-9d0b-1d6817a72154"
+id="sch.2-sec.1-ssec.1-para1-oc.2">
+<block><txt break.before="1">any Act that amends this
+Act</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_82db8013-171d-4d7e-b381-8a0244e2420b"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such provision may, if the regulations so
+provide, take effect from the date of assent to the Act concerned or a later
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8f51e545-7b46-4ffd-b615-1e969ed8ee07"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication on the NSW
+legislation website, the provision does not operate so as&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8627142e-445c-43af-a0dc-78d273fb59c6" id="sch.2-sec.1-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_caecc385-44a4-4a19-9f24-8d676ad11c3b" id="sch.2-sec.1-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 2:</b> Am 2018 No 73,
+Sch 5 [15].</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.3" status="repealed">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dc135386-f4a2-423e-aae5-5d0cdc4b73a9"></attrib>
+<attrib name="id" value="sch.3"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 3</b></no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 3:</b> Rep 1987 No
+15, sec 30C.</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_63975243-5f4c-4000-a4dc-8499a707306f"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_6c05b0d6-bee8-41fe-97f8-46ee18c01fc6"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-2012-013" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Mental Health Commission
+Act 2012</i></name> No 13</legref>. Assented to 21.3.2012. Date of
+commencement, 1.7.2012, sec 2 and 2012 (241) LW 8.6.2012. This Act has been
+amended as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_f12d15fd-b834-4ee9-808f-ef77da7973d9" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_313f23fd-1bf4-4b7e-bacc-8016236bb73d" id="ed-tbl-tblr">
+<entry colname="1" guid="_7a530fde-44ca-416a-adf0-f6a9f1d37709"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>2015</b></txt></entry>
+<entry colname="2" guid="_22499664-f453-418a-950d-89f2e4b1f62e"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 15</txt></entry>
+<entry colname="3" guid="_02172f43-6419-4e75-8413-bda10cfcc6e5"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref refid="act-2015-015" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2015</i></name></legref>. Assented to 29.6.2015.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 15.7.2015, sec 2
+(3).</txt></block></entry></row>
+
+
+<row guid="_8f0c246c-28e6-4517-b7f6-34518251fc06" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_8652775d-378d-48bd-a605-83040639a79a"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>2016</b></txt></entry>
+<entry colname="2" guid="_56b211dc-f654-4b79-819b-2c309b2a3749"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 55</txt></entry>
+<entry colname="3" guid="_eeb53cfa-d0e3-458c-8d94-35ef8e12381f"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref refid="act-2016-055" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2016</i></name></legref>. Assented to
+25.10.2016.</txt>
+<txt break.before="1">Date of commencement of Sch 1.16, assent, Sch
+1.16.</txt></block></entry></row>
+
+
+<row guid="_ee6a6f99-35d9-4883-ac46-6a72c5ff3e60" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_b356c5a0-3537-4afd-9597-f185089eb33d"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>2018</b></txt></entry>
+<entry colname="2" guid="_fc19046b-52d9-4d35-b611-288ef937e38c"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 73</txt></entry>
+<entry colname="3" guid="_afe3e5e9-007f-4815-8ee5-7c069e1f9d68"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref refid="act-2018-073" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Health Legislation
+Amendment Act (No 3) 2018</i></name></legref>. Assented to 22.11.2018.</txt>
+<txt break.before="1">Date of commencement of Sch 5, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_5aaf09aa-0be5-4a9b-a612-c2d390918ecf" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_967fcd03-bc7a-4398-a17f-570b849c8f23"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>2025</b></txt></entry>
+<entry colname="2" guid="_cc64d81c-b922-4af9-8b40-b633cbd09ec5"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 55</txt></entry>
+<entry colname="3" guid="_a8d34249-3ed7-4aba-8ea4-ac1b17c86c0e"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref refid="act-2025-055" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Suicide Prevention Act
+2025</i></name></legref>. Assented to 17.9.2025.</txt>
+<txt break.before="1">Date of commencement, 1.12.2025, sec 2 and 2025 (582) LW
+31.10.2025.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">This Act has been amended by sec 30C of the
+<legref refid="act-1987-015" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Interpretation Act 1987</i></name> No
+15</legref>.</txt></block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_9e932679-322c-4fe5-a375-a07a1d25664b"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_f9496e7d-6c48-4b06-a9f0-8f8bf1bdf474" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_8f3de1ba-6a60-4cc9-b529-b5472c871ab6" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_585c1883-cc04-4aae-b46c-5507856330b0"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_d5d778b0-07fb-46db-ace7-34f86fe27ce5"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Subst 2018 No 73, Sch 5
+[1].</txt></entry></row>
+
+
+<row guid="_2400d59b-c82b-410a-bd77-9ea500a87855" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_e4514654-3243-46b6-8e4f-51470f092232"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 3A</txt></entry>
+<entry colname="2" guid="_27b6d949-9346-4be5-84cd-53665c344fd8"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Ins 2018 No 73, Sch 5
+[2].</txt></entry></row>
+
+
+<row guid="_34f8c55b-d0f5-4f89-8a15-a8d863ad0cc5" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_e6efdd72-f8fc-4037-a6ab-5d7245fec469"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_1debcc9d-4675-41cb-84e6-d8f58731f87e"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Am 2015 No 15, Sch 3.42
+[1]; 2018 No 73, Sch 5 [3].</txt></entry></row>
+
+
+<row guid="_e0ce8d6d-05b3-437c-9cc6-40b9e35eed20" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_dab98211-224c-4441-9598-7128f81e126b"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 5</txt></entry>
+<entry colname="2" guid="_a8fe9d38-9b45-4760-8ff3-aa1d96af6035"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Am 2015 No 15, Sch 3.42
+[2].</txt></entry></row>
+
+
+<row guid="_17bcf93e-26cf-4f77-aee1-aa83f6b8d206" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_d03044b2-01fe-41b2-836b-c038752d1ee1"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 7</txt></entry>
+<entry colname="2" guid="_a26f91bd-23b6-426f-b133-f95e5202ad6e"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Am 2016 No 55, Sch
+1.16.</txt></entry></row>
+
+
+<row guid="_1c14d5db-d8a3-4d50-bbee-ba2dc8a81900" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_c36ea48b-0582-4ee1-a8c7-c7ba55eac527"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_2da5ee9e-3a85-4f20-b035-ac0027f742de"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Am 2018 No 73, Sch 5
+[4]; 2025 No 55, Sch 2[1].</txt></entry></row>
+
+
+<row guid="_2484a8ca-0e59-4d91-a777-b74fad7e8716" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_5fdf37e0-b0e2-4c06-93cc-83c5122abdbc"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 11</txt></entry>
+<entry colname="2" guid="_b5c9a33f-f143-485a-8b9a-7bde41ad1f70"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Subst 2018 No 73, Sch 5
+[5].</txt></entry></row>
+
+
+<row guid="_48b4aa3d-cd06-41a5-8455-cb8882ff105f" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_58853391-05d2-403d-9b88-3c0629d68850"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sec 12</txt></entry>
+<entry colname="2" guid="_0be27adf-e1aa-43a8-aba5-0a8d71fc3008"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Am 2018 No 73, Sch 5
+[6]&#8211;[10]; 2025 No 55, Sch 2[2].</txt></entry></row>
+
+
+<row guid="_3b2b951b-991c-40eb-9a73-ce53d2415def" id="ed-tbl-oc.2-tblr-oc.9">
+<entry colname="1" guid="_07ac455d-b823-400e-91a2-539e6208a871"
+id="ed-tbl-oc.2-tblr-oc.9-tble1"><txt break.before="1">Sec 14</txt></entry>
+<entry colname="2" guid="_17f6dc84-241a-48b3-a26b-2e4648dd9593"
+id="ed-tbl-oc.2-tblr-oc.9-tble2"><txt break.before="1">Am 2018 No 73, Sch 5
+[11]&#8211;[13].</txt></entry></row>
+
+
+<row guid="_3ddbdf59-e49a-4d19-9886-ab012d218ac8"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry colname="1" guid="_65a20168-0def-4b18-b772-78be4bfcafec"
+id="ed-tbl-oc.2-tblr-oc.10-tble1"><txt break.before="1">Sec 14A</txt></entry>
+<entry colname="2" guid="_8e7e8be5-287d-4ad0-8b36-f92e4a9a8d79"
+id="ed-tbl-oc.2-tblr-oc.10-tble2"><txt break.before="1">Ins 2015 No 15, Sch
+3.42 [3]. Am 2025 No 55, Sch 2[3].</txt></entry></row>
+
+
+<row guid="_a31e3c41-49db-4282-a9dc-1e5f25c14bf8"
+id="ed-tbl-oc.2-tblr-oc.11">
+<entry colname="1" guid="_7d80e1b7-3f7f-4ed4-b55c-3281b56385c1"
+id="ed-tbl-oc.2-tblr-oc.11-tble1"><txt break.before="1">Sec 15</txt></entry>
+<entry colname="2" guid="_e9e9ca77-b5c4-4c8f-b738-255c0ea16362"
+id="ed-tbl-oc.2-tblr-oc.11-tble2"><txt break.before="1">Am 2025 No 55, Sch
+2[4]</txt></entry></row>
+
+
+<row guid="_0d1eea0a-4c0d-4a91-9474-b5f6ad5add9d"
+id="ed-tbl-oc.2-tblr-oc.12">
+<entry colname="1" guid="_697a4665-a126-4b41-97e2-078f3864c798"
+id="ed-tbl-oc.2-tblr-oc.12-tble1"><txt break.before="1">Sec 16</txt></entry>
+<entry colname="2" guid="_e5f90470-64a5-4c3b-ab62-64a060d0c2da"
+id="ed-tbl-oc.2-tblr-oc.12-tble2"><txt break.before="1">Am 2018 No 73, Sch 5
+[14].</txt></entry></row>
+
+
+<row guid="_a9980ac0-6cef-4b0e-b2d5-454caccd50fe"
+id="ed-tbl-oc.2-tblr-oc.13">
+<entry colname="1" guid="_217f86a2-0727-446a-856d-52a8716a0165"
+id="ed-tbl-oc.2-tblr-oc.13-tble1"><txt break.before="1">Sch 1</txt></entry>
+<entry colname="2" guid="_c045d52b-fae5-466e-a916-1a2dadb4b8a4"
+id="ed-tbl-oc.2-tblr-oc.13-tble2"><txt break.before="1">Am 2015 No 15, Sch
+3.42 [4].</txt></entry></row>
+
+
+<row guid="_f2572847-57c0-4d9c-9e05-a70a9710baf2"
+id="ed-tbl-oc.2-tblr-oc.14">
+<entry colname="1" guid="_04fe9306-ea9e-4542-9416-b5800f2bc1f9"
+id="ed-tbl-oc.2-tblr-oc.14-tble1"><txt break.before="1">Sch 2</txt></entry>
+<entry colname="2" guid="_07419ee6-fa7b-46e6-ae43-21dccd7ba98e"
+id="ed-tbl-oc.2-tblr-oc.14-tble2"><txt break.before="1">Am 2018 No 73, Sch 5
+[15].</txt></entry></row>
+
+
+<row guid="_a243f19f-2da0-428f-ab45-d1dfce37d24d"
+id="ed-tbl-oc.2-tblr-oc.15">
+<entry colname="1" guid="_e4989c13-d2ae-4e1a-9820-9131109ef17c"
+id="ed-tbl-oc.2-tblr-oc.15-tble1"><txt break.before="1">Sch 3</txt></entry>
+<entry colname="2" guid="_7b12a6a3-6a9c-404d-a579-ad6771f8da35"
+id="ed-tbl-oc.2-tblr-oc.15-tble2"><txt break.before="1">Rep 1987 No 15, sec
+30C.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

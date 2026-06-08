@@ -1,0 +1,4219 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1970-072"
+title="Marketable Securities Act 1970"
+year="1970"
+number="72"
+enact.or.made.date="1970-11-27"
+first.valid.date="1979-05-04"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1970</metacontent>
+<metacontent class="year.assent">1970</metacontent>
+<metacontent class="publication.date">2021-07-27</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicspecial</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-1972-048</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1970-072</metacontent>
+<metacontent
+class="version.desc.id">f23bf4db-6b33-41a1-8d92-43cb0aea94d1</metacontent>
+<metacontent
+class="version.series.id">498f4e83-b1e0-47c3-a115-0cd31068477c</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Marketable Securities Act 1970"></attrib>
+<attrib name="year.passed" value="1970"></attrib>
+<attrib name="year.assent" value="1970"></attrib>
+<attrib name="no" value="72"></attrib>
+<attrib name="publication.date" value="2021-07-27"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicspecial"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-1972-048"></attrib>
+<attrib name="first.valid.date" value="1979-05-04"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1970-11-27"></attrib>
+<attrib name="id" value="act-1970-072"></attrib>
+<attrib name="version.desc.id"
+value="f23bf4db-6b33-41a1-8d92-43cb0aea94d1"></attrib>
+<attrib name="version.series.id"
+value="498f4e83-b1e0-47c3-a115-0cd31068477c"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata"></content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_d86a346a-3f4f-49a7-8c3d-50ce20a7a405"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to make provisions with respect to
+instruments of transfer of certain marketable securities; to repeal the
+<legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Marketable Securities Act 1967</i></name></legref>; to amend
+the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Companies Act 1961</i></name></legref>; and for purposes
+connected therewith.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a6affa59-dd78-4655-8cff-12b64be0583f"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_1ecd55f2-f8ae-4bd6-acfc-a085fc42ab3e"
+id="sec.1-he"><b>Name of Act, commencement and
+construction</b></heading></head>
+
+<tier type="subclause" id="sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d8c0e957-2116-4b1c-921d-c01f370851a4"></attrib>
+<attrib name="id" value="sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This Act may be cited as the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1970-072"><name
+emphasis="yes"><i>Marketable Securities Act
+1970</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_61bc4b04-2dac-483c-a771-9241bbd4aada"></attrib>
+<attrib name="id" value="sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This Act shall commence upon a day to be
+appointed by the Governor and notified by proclamation published in the
+Gazette.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d8554092-860d-4ad2-977a-2d0aa213d1ac"></attrib>
+<attrib name="id" value="sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This Act shall be read and construed with, and
+shall be taken to be part of, the <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Companies Act
+1961</i></name></legref>.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3f2e956a-344a-4c13-95a5-3e66c83a5443"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_15bc9e52-1c3c-4b4d-9f0c-4f53e11ef13a"
+id="sec.2-he"><b>Repeal of Act No 30, 1967, and savings</b></heading></head>
+
+<tier type="subclause" id="sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ac81b137-8c75-4be4-85c6-23d4f4573bf5"></attrib>
+<attrib name="id" value="sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Marketable Securities Act
+1967</i></name></legref> is hereby repealed.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f34e60c2-76b0-43a1-b50b-24dcf986d0a3"></attrib>
+<attrib name="id" value="sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A prescribed instrument under the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Marketable
+Securities Act 1967</i></name></legref> that was duly completed before the
+commencement of this Act shall have the same effect and may be used and dealt
+with as if that Act had not been repealed.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ea69cb0b-8de6-4fa8-9e0b-a190f985e2bb"></attrib>
+<attrib name="id" value="sec.2-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">An agreement, warranty or indemnity deemed by the
+<legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Marketable Securities Act 1967</i></name></legref> to have
+been made or given by any person shall continue to operate and shall have the
+same force and effect as if that Act had not been
+repealed.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6b5ff033-5696-44b7-b872-4a57ba3cf549"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_5fe122e1-802d-4911-99df-08f90622aace"
+id="sec.3-he"><b>Interpretation</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_77fc4b42-a665-4d60-b4ff-6fe272e54af8"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act, except in so far as the context or
+subject-matter otherwise indicates or requires:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6abe1956-b6b5-4517-b1e2-2d8a135deeeb"
+id="sec.3-def.authorizedtrusteecorporation"><b><i>authorized trustee
+corporation</i></b></defterm> means a body corporate that is under the
+regulations an authorized trustee corporation.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_49fcbb1a-3cc2-4e77-a080-169f515fa0b9"
+id="sec.3-def.beneficialowner"><b><i>beneficial owner</i></b></defterm> in
+relation to a marketable security or a right to a marketable security means a
+person for whom an authorized trustee corporation is holding the security or
+right in trust in the ordinary course of its business.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_cc1c805f-a8c1-46a2-8f84-a1cc6a866c51"
+id="sec.3-def.broker"><b><i>broker</i></b></defterm> means any person who is a
+dealer as defined in subsection (1) of section 97A of the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1920-047"><name emphasis="yes"><i>Stamp
+Duties Act 1920</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d1b768b9-9bad-49f4-86c0-e0a3f4572b35"
+id="sec.3-def.correspondinglaw"><b><i>corresponding law</i></b></defterm>
+means a law in respect of which a declaration under subsection (2) is in force
+and includes regulations in force under that law.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_93dda150-1750-497a-85a8-64db750dca61"
+id="sec.3-def.legalrepresentative"><b><i>legal
+representative</i></b></defterm> means the executor, original or by
+representation, of a will, or administrator of the estate of a deceased
+person.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6372ac03-1130-4e24-b453-0d14df9a7244"
+id="sec.3-def.marketablesecurity"><b><i>marketable security</i></b></defterm>
+means:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b9ebd897-135e-4734-82f7-9c3aeecc1629" id="sec.3-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a share in or a debenture of a company or
+prescribed corporation, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d727b7f1-3ffb-41b3-88c4-96bfd5dd7766" id="sec.3-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a prescribed security.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9245300b-d526-43b3-ad8c-1c2f4e874a90"
+id="sec.3-def.prescribedcorporation"><b><i>prescribed
+corporation</i></b></defterm> means:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e35e0cd4-e1df-4463-951c-f192ac39ac34" id="sec.3-ssec.1-para1.a-oc.2">
+<no>(a)</no>
+<block><txt break.before="1">a body corporate incorporated in the State not
+being a company, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_031e4ff5-e2ac-4c8f-b144-4df984ac034b" id="sec.3-ssec.1-para1.b-oc.2">
+<no>(b)</no>
+<block><txt break.before="1">an unincorporated society, association or other
+body formed or established in the State any shares in or debentures of which
+are quoted on or in respect of which permission to list has been granted by a
+prescribed stock exchange,</txt></block></li></list>
+
+<txt break.before="1">that is under the regulations a prescribed
+corporation.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b32e0963-42b2-4731-aae9-eefb1588927a"
+id="sec.3-def.prescribedsecurity"><b><i>prescribed security</i></b></defterm>
+means an interest to which Division 5 of Part 4 of the <legref jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Companies Act
+1961</i></name></legref> applies and that is under the regulations a
+prescribed security or that is one of a class of such interests that are under
+the regulations prescribed securities.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ebea7789-e587-46e5-b87d-f2917241d07f"
+id="sec.3-def.prescribedstockexchange"><b><i>prescribed stock
+exchange</i></b></defterm> means a stock exchange in the State that is under
+the regulations a prescribed stock exchange.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_818e4f19-527e-42db-aba9-890b3182d758"
+id="sec.3-def.regulations"><b><i>regulations</i></b></defterm> means
+regulations under this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d47bbb37-b6c3-49c1-9d70-51a56234f875"
+id="sec.3-def.righttoamarketablesecurity"><b><i>right to a marketable
+security</i></b></defterm> means a right, whether existing or future, and
+whether contingent or not, of a person to have issued to him a marketable
+security, whether or not on payment of any money or for any other
+consideration.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_3cb5fa0b-dee6-4508-addf-7bdadb5ab160"
+id="sec.3-def.transfer"><b><i>transfer</i></b></defterm> in relation to a
+right to a marketable security means the renunciation and transfer of that
+right.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_294b85cf-94c6-45d4-8f83-e73267364b93"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister may by notice in writing published
+in the Gazette declare a law in force in another State or in a Territory of
+the Commonwealth the provisions of which correspond substantially with the
+provisions of this Act to be a corresponding law and may by notice so
+published revoke a declaration made under this subsection.</txt></block>
+<note type="editorial" guid="_81cfe4be-0964-41f9-aec7-9f09dae7d3fc"
+id="sec.3-ssec.2-note"><heading guid="_81eb0231-5a97-449a-8d74-8d0f0192784c"
+id="sec.3-ssec.2-note-he"><b>Editorial note&#8212;</b></heading>
+<block><txt break.before="1">For notices under this subsection, see Gazettes
+No 70 of 29.6.1971, p 2289 and No 5 of 21.1.1972, p 192. From April 2021, PCO
+is no longer updating notes in provisions of in force titles about related
+gazette notices. To search for related gazette notices, please use the Gazette
+Search functionality.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.3-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_101abb4c-a813-4f43-a8b0-c1b988505454"></attrib>
+<attrib name="id" value="sec.3-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A reference in this Act to a form by number is a
+reference to the form so numbered in the Schedule or to a form to the like
+effect.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5993bb13-35a0-4d95-adf3-dfd0d4689649"></attrib>
+<attrib name="id" value="sec.3-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A reference in a form in the Schedule to the full
+name of the transferor of marketable securities or rights to marketable
+securities includes a reference to the name of the person shown in the records
+of the company or prescribed corporation that issued those securities or
+rights as the holder of those securities or rights.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_81030a1b-e4f9-441a-9b29-39300ae77b19"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_42ac082f-488c-407a-a5f8-06f723cf3281"
+id="sec.4-he"><b>Sufficient instrument of transfer</b></heading></head>
+<block><txt break.before="1">A document that is a sufficient instrument of
+transfer under this Act may be used:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f02b84a6-5860-47b9-a8db-0fb5d810dce2" id="sec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">where it relates to a transfer of marketable
+securities, as a proper instrument of transfer for the purposes of section 95
+of the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Companies Act 1961</i></name></legref>, and as an instrument
+of transfer for the purposes of any other law or instrument governing or
+relating to those securities, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b261458a-5c34-4ee8-b7b9-e57adcfc6889" id="sec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">where it relates to a transfer of rights to
+marketable securities, as an instrument of transfer of those rights for the
+purposes of any law or instrument governing or relating to those rights or
+securities.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7f45085e-0bc3-4406-a5d2-4db751b0fbdd"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_f8a1918a-3e3c-4d61-9128-9b54570a8b68"
+id="sec.5-he"><b>Transfers of marketable securities</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fd40ec81-9540-46f7-ab5f-82d66e77774d"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A document is a sufficient instrument of transfer
+of marketable securities if:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6e468c24-b925-4526-95ba-919c76fa173d" id="sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">it is an instrument relating to those marketable
+securities duly completed in accordance with or to the effect of:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2dcb727a-11dc-4870-b1c2-4ed3f08f77ef"
+id="sec.5-ssec.1-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">Form One,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_faad517a-0207-4961-96d1-663faaf55df4"
+id="sec.5-ssec.1-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">Part 1 of Form One and Parts 1 and 2 of Form Two,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8ce8f4f4-72f6-4409-97b4-62919f66e1ab"
+id="sec.5-ssec.1-para1.a-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">Part 1 of Form One and Parts 1 and 2 of Form
+Three, and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_64746965-5bf3-4d92-a7bb-db268f0e019f" id="sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">where the document relates to marketable
+securities on which there is an uncalled liability (not being marketable
+securities that are partly paid shares in a no-liability company), the
+transferee&#8217;s acceptance of the marketable securities duly completed in
+accordance with or to the effect of Form Four is included in or attached to
+the instrument referred to in paragraph (a).</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cfd28416-c8d5-446a-b2bf-0f45f06fb046"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A document is a sufficient instrument of transfer
+of rights to marketable securities if:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8fa6e90e-9757-46c9-8408-a1b24ce5de3e" id="sec.5-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">it is an instrument relating to those rights duly
+completed in accordance with or to the effect of:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f754204c-3984-4d85-b76d-f713f6537935"
+id="sec.5-ssec.2-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">Form Five,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f138db03-25e8-4ac9-94bf-ad374b93311c"
+id="sec.5-ssec.2-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">Part 1 of Form Five and Parts 1 and 2 of Form
+Six, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7f9e06f8-8c8f-4417-a253-893f141fe256"
+id="sec.5-ssec.2-para1.a-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">Part 1 of Form Five and Parts 1 and 2 of Form
+Seven, and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bd9da569-83b2-412e-91cb-9288a013c91e" id="sec.5-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">where the document relates to rights to
+marketable securities (not being marketable securities that are shares in a
+no-liability company) for which the whole of the moneys to be subscribed is
+not payable in full on application being made for them, the transferee&#8217;s
+acceptance of the securities duly completed in accordance with or to the
+effect of Form Four is included in or attached to the instrument referred to
+in paragraph (a).</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b7fc6d7a-135c-4563-a227-7be75f24a26b"></attrib>
+<attrib name="id" value="sec.5-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purposes of this section an instrument is
+not duly completed in accordance with or to the effect of Form One, Two,
+Three, Five, Six or Seven or a part of one of those forms unless:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7e5142ce-6d26-42f7-a0a1-74317c592b44" id="sec.5-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">where the form or part refers to the name and
+address of the transferee, the instrument purports to state that name and
+address,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e1e74756-e7c7-4d7d-a3fb-00d417b6ca6d" id="sec.5-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">where the form or part refers to the stamp of the
+transferor&#8217;s broker, the instrument bears a stamp which purports to be
+such a stamp,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7329f7e1-54b2-4a16-9b8f-eb59a7710c8a" id="sec.5-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">where the form or part refers to the stamp of the
+transferee&#8217;s broker, the instrument bears a stamp which purports to be
+such a stamp, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d420edd6-33e7-47cb-b80c-2f89bd096355" id="sec.5-ssec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">where the form or part refers to a stock exchange
+stamp, the instrument bears a stamp which purports to be a stamp of a
+prescribed stock exchange or of a prescribed stock exchange under a
+corresponding law.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_91695ec6-3b30-42c5-8769-35367a3fd716"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_8661fc7b-282e-4145-b115-f85b196ba28b"
+id="sec.6-he"><b>Transfers by authorized trustee
+corporations</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_545f6c27-b120-4b9d-bed7-41f81da9ccf4"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In respect of the transfer of marketable
+securities by an authorized trustee corporation to the beneficial owner of
+those marketable securities, being a transfer that is not made by way of a
+sale, gift or exchange of the marketable securities, a document is a
+sufficient instrument of transfer if:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f9d898a4-b748-40c9-a3ff-4c866c2533fd" id="sec.6-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">it is an instrument relating to those marketable
+securities duly completed in accordance with or to the effect of Form Eight,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b91e4671-e3fc-4024-b01d-afa0a15b32b9" id="sec.6-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">where the document relates to marketable
+securities on which there is an uncalled liability (not being marketable
+securities that are partly paid shares in a no-liability company), the
+transferee&#8217;s acceptance of the marketable securities duly completed in
+accordance with or to the effect of Form Nine is included in or attached to
+the instrument referred to in paragraph (a).</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d47c9374-227d-4d77-b8d0-b3f0973c7c6a"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In respect of the transfer of rights to
+marketable securities by an authorized trustee corporation in favour of the
+beneficial owner of those rights, being a transfer that is not made by way of
+a sale, gift or exchange of the rights, a document is a sufficient instrument
+of transfer if:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8f2a7572-3dfe-45e3-a206-6ef1b2f59417" id="sec.6-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">it is an instrument relating to those rights duly
+completed in accordance with or to the effect of Form Ten,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_54c5b5f5-0b03-4606-8c9f-5f0a9972d3a4" id="sec.6-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">where the document relates to rights to
+marketable securities (not being marketable securities that are shares in a
+no-liability company) for which the whole of the moneys to be subscribed is
+not payable in full on application being made for them, the transferee&#8217;s
+acceptance of the rights duly completed in accordance with or to the effect of
+Form Eleven is included in or attached to the instrument referred to in
+paragraph (a).</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9ebb8531-5833-4e55-b75a-137f082442fc"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_049ace85-3813-42c5-82ba-1fea45d22215"
+id="sec.7-he"><b>Execution of transfers by transferee</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_78b69c9a-ee2e-4d08-acb9-d6292cdfb5df"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Where marketable securities in a company or
+prescribed corporation are transferred by means of a sufficient instrument of
+transfer under this Act, the transferee shall be deemed to have agreed at the
+relevant time to accept the marketable securities subject to the several terms
+and conditions on which the transferor held them at that time, being the terms
+and conditions applicable as between the company or prescribed corporation and
+the holder for the time being of the marketable
+securities.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6d77434e-a1b4-4abf-9ef6-d9ca58cf69f5"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Where rights to marketable securities in a
+company or prescribed corporation, for which the whole of the moneys to be
+subscribed is payable in full on application being made for them, are
+transferred by means of a sufficient instrument of transfer under this Act,
+the transferee shall be deemed:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8c3f7bcf-359a-4fcb-adb0-f3ca080cb01b" id="sec.7-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to have made application at the relevant time to
+the company or prescribed corporation for the allotment to him of the
+marketable securities, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0bc16673-49d1-4e08-aea3-8930d2dedf27" id="sec.7-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to have agreed at the relevant time to accept the
+marketable securities subject to the terms and conditions upon which they are
+offered by the company or prescribed corporation for
+subscription.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d7c0ab9f-4f99-452b-97a7-c918fd69a012"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Where marketable securities that are shares in a
+company or prescribed corporation are transferred by means of a sufficient
+instrument of transfer under this Act, the transferee shall be deemed to have
+agreed at the relevant time:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a70d2812-ebf6-4e5c-ad38-6c8ff25cc09a" id="sec.7-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to become a member of the company or prescribed
+corporation, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9f17934e-a6eb-42c8-931d-960544a6e555" id="sec.7-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to be bound by the memorandum and articles or by
+the constitution of the company or prescribed
+corporation.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_afe25a65-826b-49c9-9a72-4692feeb740b"></attrib>
+<attrib name="id" value="sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_e5e9c217-2678-4b62-88d3-93ece0fe55a1"
+id="sec.7-def.therelevanttime"><b><i>the relevant time</i></b></defterm>
+means:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2445c2d8-7775-4a3b-a9e1-76f4d47213f8" id="sec.7-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in relation to a sufficient instrument of
+transfer under section 5, the time of the affixing of a stamp which purports
+to be that of the transferee&#8217;s broker, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d8667974-8053-4411-bfe7-614a2eafd283" id="sec.7-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in relation to a sufficient instrument of
+transfer under section 6, the time of execution by the
+transferor.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_367c07c5-30c1-4c05-bc70-46c9bce07d1c"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_31441ad0-33ff-4ff7-ba32-b117fc66eeff"
+id="sec.8-he"><b>Effect of certain stamps on prescribed
+instruments</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a0826fe3-a5ed-4e1a-87ff-e6f9a4a2221e"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Where a duly completed instrument of transfer
+bears a stamp that purports to be that of the transferor&#8217;s broker, a
+prescribed stock exchange or a prescribed stock exchange under a corresponding
+law and to have been affixed in the State, the broker (not being a
+broker&#8217;s agent) or stock exchange whose stamp that stamp purports to be
+and, if the stamp purports to be that of the transferor&#8217;s broker
+(whether or not he is a broker&#8217;s agent), any associate of that
+broker:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a796c02a-ffd2-4b72-9098-8a75dc0e0a8e" id="sec.8-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">shall be deemed to have warranted the accuracy of
+the statements in his or its certificate set out in the
+instrument,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_01867b55-7158-4e7a-b66d-b9487bfce9f7" id="sec.8-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">shall be deemed to have warranted that the
+transferor is the registered holder of or is entitled to be registered as the
+holder of the marketable securities to which the instrument relates or is
+entitled to the rights to marketable securities to which the instrument
+relates and is legally entitled or authorized to sell or dispose of those
+marketable securities or rights, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0ac1483d-16ed-42e3-b254-5b5354a040f2" id="sec.8-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">shall be liable to indemnify:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4cd771e7-7a79-405a-8436-04305bf96fee"
+id="sec.8-ssec.1-para1.c-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">the company, prescribed corporation, foreign
+company or prescribed corporation under the corresponding law that has issued
+or proposes to issue the marketable securities or rights to marketable
+securities to which the instrument relates,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_af23ea43-b03c-4770-a625-f912c2f7b223"
+id="sec.8-ssec.1-para1.c-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the transferee, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c80b3d31-ca60-4934-946f-4965de6d97d8"
+id="sec.8-ssec.1-para1.c-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">the transferee&#8217;s
+broker,</txt></block></li></list>
+
+<txt break.before="1">against any loss or damage arising from a forged or
+unauthorized signature of the transferor appearing in the
+instrument.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8b43e668-cd77-42ca-9407-823cd517448a"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting the operation of subsection (1),
+where a duly completed instrument of transfer, which bears a stamp that
+purports to be that of the transferor&#8217;s broker and to have been affixed
+in the State, relates to marketable securities or rights to marketable
+securities to which or to any of which a duly completed instrument of
+transfer, which bears a stamp that purports to be that of a prescribed stock
+exchange or a prescribed stock exchange under a corresponding law relates, the
+broker (not being a broker&#8217;s agent) whose stamp that first-mentioned
+stamp purports to be and (whether or not that broker is a broker&#8217;s
+agent) any associate of that broker shall be liable to indemnify that stock
+exchange against any loss or damage arising from a forged or unauthorized
+signature of the transferor appearing in the instrument.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0213399b-f92e-4a07-99f2-fea53a734976"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A reference in subsection (1) or (2):</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d32c27e2-1677-4978-a91d-2e0e800eba9d" id="sec.8-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to a duly completed instrument of transfer is a
+reference to an instrument:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d8e865c4-0e71-4461-96eb-a535e011cbf7"
+id="sec.8-ssec.3-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">that is in accordance with or to the effect of
+Part 1 of Form One, Two, Three, Five, Six or Seven and that has been duly
+completed within the meaning of section 5, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ca645a74-f5f5-4623-95f1-fc053e941fdc"
+id="sec.8-ssec.3-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">that is in accordance with or to the effect of a
+like part of a like form under a corresponding law and that has been duly
+completed within the meaning of the provision of that corresponding law that
+corresponds to section 5, and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3b97d433-eee6-4aed-81c7-de8ea8b24f64" id="sec.8-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to an associate of a broker is a
+reference:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3d6c0773-dd0c-4178-81eb-ec060d97bd99"
+id="sec.8-ssec.3-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">where the broker, whose stamp the stamp on the
+instrument purports to be, is a member of a firm of brokers and is not a
+broker&#8217;s agent&#8212;to each other member of that firm,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8a0282fa-4e5a-4ea7-97ea-bed01ee1e029"
+id="sec.8-ssec.3-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">where the broker, whose stamp the stamp on the
+instrument purports to be, is a broker&#8217;s agent&#8212;to the broker for
+whom he is a broker&#8217;s agent and, if the broker for whom he is a
+broker&#8217;s agent is a member of a firm of brokers, to each other member of
+that firm.</txt></block></li></list>
+</block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_09c5d60f-ce24-46af-ab18-64453ca32502"></attrib>
+<attrib name="id" value="sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">In this section:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_20c3ec90-1673-4dfe-a67c-653211d7680a"
+id="sec.8-def.brokersagent"><b><i>broker&#8217;s agent</i></b></defterm> means
+a broker&#8217;s agent as defined in section 97A of the <legref jurisd="NSW"
+type="act" check="unknown" refid="act-1920-047"><name emphasis="yes"><i>Stamp
+Duties Act 1920</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d5dd8627-7ea9-405c-bf9f-583ee0bde7b1"
+id="sec.8-def.marketablesecurity"><b><i>marketable security</i></b></defterm>,
+in relation to a duly completed instrument of transfer under a corresponding
+law, means a marketable security within the meaning of the corresponding
+law.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_96bb8d1a-895f-439e-9a5c-bdfe1c088330"
+id="sec.8-def.righttoamarketablesecurity"><b><i>right to a marketable
+security</i></b></defterm>, in relation to a duly completed instrument of
+transfer under a corresponding law, means a right to a marketable security
+within the meaning of the corresponding law.</txt></block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ae65a20d-6d01-4274-9337-9a3c23428202"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_41c04a68-780a-423d-8b99-27ae4257a825"
+id="sec.9-he"><b>Registration by company of prescribed
+instrument</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5f4df80c-0a90-4606-a84e-0c82efebaefe"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A company or prescribed corporation with which a
+sufficient instrument of transfer under section 5 is lodged for the purpose of
+registering a transfer of marketable securities or obtaining the allotment of
+marketable securities, is and its officers are, in the absence of knowledge to
+the contrary, entitled to assume without inquiry:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_21bb4b62-6b9a-4bbc-80bd-b05c80af72f4" id="sec.9-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">that a stamp upon the instrument which purports
+to be the stamp of the transferee&#8217;s broker is the stamp of that
+broker,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d900aab2-4838-48a4-8879-a0dc80cd21fd" id="sec.9-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">that a stamp upon the instrument which purports
+to be the stamp of the transferor&#8217;s broker is the stamp of that broker,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8e51f597-9b36-4cbc-85c2-8547653db39e" id="sec.9-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">that a stamp upon the instrument which purports
+to be the stamp of a prescribed stock exchange or a prescribed stock exchange
+under a corresponding law is the stamp of that stock
+exchange.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6d779b60-a31d-4f9a-a02c-52f6b0a56a0f"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A company or prescribed corporation with which a
+sufficient instrument of transfer under section 6 is lodged for the purpose of
+registering a transfer of marketable securities or obtaining the allotment of
+marketable securities, is and its officers are, in the absence of knowledge to
+the contrary, entitled to assume without inquiry that:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a88bb4d3-6985-4bf0-9ba8-acba7ce84da6" id="sec.9-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">at the time of the execution of the instrument,
+the authorized trustee corporation named in the instrument was holding the
+marketable securities or the rights to the marketable securities in the
+ordinary course of its business in trust for or on behalf of the transferee,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b98e3e7d-8569-4d53-9257-23cb084d09af" id="sec.9-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the transfer was not made by way of a sale, gift
+or exchange of the marketable securities or rights.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4d9dfd9d-ad9f-4ba0-8f8e-78f8a3bf0a97"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_c91de2f5-505a-4e30-9d99-478decde2659"
+id="sec.10-he"><b>Operation of Act</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4e007691-0397-47bc-864f-b71c16a44c67"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This Act applies and has effect in relation to
+the transfer of marketable securities and to the transfer of rights to
+marketable securities notwithstanding anything to the contrary in any other
+enactment or in any instrument relating to the transfer of the securities or
+the transfer of the rights.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1f9946a9-f19f-4d3f-b85b-2b6c68d7c9ce"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Except as provided in this Act, this Act does not
+affect the terms and conditions on which marketable securities or rights to
+marketable securities are sold.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_54b4b899-c2d5-4a64-a7af-55c6dedfb96e"></attrib>
+<attrib name="id" value="sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Nothing in this Act affects any right of a
+company or prescribed corporation to refuse to acknowledge or register a
+person as the holder of marketable securities or to allot marketable
+securities to a person on any ground other than an objection to the form of an
+instrument lodged with the company or prescribed corporation relating to the
+transfer of the marketable securities or of rights to the marketable
+securities.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b872e61a-fe19-42e3-b77d-381e105979be"></attrib>
+<attrib name="id" value="sec.10-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The registration of a transfer of a marketable
+security or the allotment of a marketable security pursuant to a sufficient
+instrument of transfer under this Act does not constitute a breach of any
+provision of any memorandum or articles or of a trust deed or other instrument
+or an enactment that relates to marketable securities.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0fc3f79f-cba0-4a3a-9b3f-9151570bb12a"></attrib>
+<attrib name="id" value="sec.10-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">This Act does not prevent or affect the use of
+any other form of transfer of marketable securities or form of transfer of
+rights to marketable securities, as the case may be, or mode of execution of
+an instrument of transfer of marketable securities or mode of execution of an
+instrument of transfer of rights to marketable securities that is otherwise
+permitted by law.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_69280bd9-1549-4a0b-a291-e007976088c3"></attrib>
+<attrib name="id" value="sec.10-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">A transfer of marketable securities or of rights
+to marketable securities by or to a trustee or legal representative may,
+notwithstanding any law or the provisions of the instrument, if any, creating
+or having effect in relation to the trust or will under which he is appointed
+trustee or legal representative, be effected by means of a sufficient
+instrument of transfer under this Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3d2d6800-c9d9-416a-b311-ee734329580e"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_8912acff-fbc8-4e0c-bacc-f994fc609798"
+id="sec.11-he"><b>Omission from register of certain
+matters</b></heading></head>
+<block><txt break.before="1">The omission from any register, certificate or
+other document relating to marketable securities of a statement of the
+occupation of the person who is, or is entitled to be, registered as the
+holder of the marketable securities does not constitute a breach of any
+provision of any memorandum or articles or of a trust deed or other instrument
+or enactment that relates to the marketable securities.</txt></block></level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_52a04b0d-66d8-422d-9d9f-791451574910"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_933a85e5-b51e-48a2-a2e7-f94534f8ced7"
+id="sec.12-he"><b>Transfers, whether or not prescribed instruments, need not
+include certain matters</b></heading></head>
+<block><txt break.before="1">Notwithstanding anything contained in the
+memorandum or articles of a company or prescribed corporation or in the terms
+or conditions upon which marketable securities or rights to marketable
+securities in a company or prescribed corporation are created or issued it
+shall not be necessary in any instrument of transfer of marketable securities
+or of rights to marketable securities to state the occupation of the
+transferee or transferor or to have the signature of the transferee or
+transferor witnessed.</txt></block></level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1bf1e5fe-a26f-4172-8a18-5d30d3b39c0f"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_fdb18b2c-7742-4d80-a8c2-3cf05319d24a"
+id="sec.13-he"><b>Offences</b></heading></head>
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_771fc7f2-b46d-4f92-9bd0-4bd1f2488ea1"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A broker shall not in the State affix a
+broker&#8217;s stamp to an instrument that may be used as a sufficient
+instrument of transfer under this Act or under a corresponding law unless the
+instrument relates to a sale or purchase made in the ordinary course of
+business of the broker for a consideration of not less than the unencumbered
+market value (at the time of the sale or purchase) of the marketable
+securities or rights to marketable securities to which the instrument
+relates.</txt></block>
+
+<tier type="penalty" id="sec.13-ssec.1-pen">
+<parentattributes>
+<attrib name="guid" value="_d012e05e-63d3-465d-861f-87f26727dbe4"></attrib>
+<attrib name="id" value="sec.13-ssec.1-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Penalty: $1,000.</txt></block></tier>
+</tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_affc92bb-048a-4e4a-a268-28d02175c7d4"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A prescribed stock exchange or a prescribed stock
+exchange under a corresponding law shall not in the State affix a stock
+exchange stamp to an instrument that may be used as a sufficient instrument of
+transfer under this Act or under a corresponding law unless:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d36acde0-8da1-4ded-9ec2-194b50dff0e8" id="sec.13-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">there has been lodged, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4a530379-c4de-4e56-b325-1fcd339123a1" id="sec.13-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the stock exchange holds a duly completed
+instrument of transfer bearing a certificate which purports to be that of the
+transferor&#8217;s broker, that there has been or will be
+lodged,</txt></block></li></list>
+
+<txt break.before="1">with the company or prescribed corporation that has
+issued or proposes to issue the marketable securities or rights to marketable
+securities to which that first-mentioned instrument relates a duly completed
+instrument of transfer, being Part 1 of Form One, relating to those marketable
+securities or rights.</txt></block>
+
+<tier type="penalty" id="sec.13-ssec.2-pen">
+<parentattributes>
+<attrib name="guid" value="_b7771910-5f04-4b24-9020-96c7a3089d0a"></attrib>
+<attrib name="id" value="sec.13-ssec.2-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Penalty: $1,000.</txt></block></tier>
+</tier>
+
+
+<tier type="subclause" id="sec.13-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4d56f04c-703b-4100-b7f9-370f77ad1bc7"></attrib>
+<attrib name="id" value="sec.13-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">An authorized trustee corporation shall not in
+the State execute an instrument that may be used as a sufficient instrument of
+transfer under section 6 or under a like provision of a corresponding law if
+the instrument relates to a transfer of marketable securities or of rights to
+marketable securities:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_adcf6a14-6fe1-44cb-b443-a18f00a7ac02" id="sec.13-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">made by way of a sale, gift or exchange of the
+marketable securities or rights, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_285d0a62-4296-48c4-b295-73a5b1a9b0ff" id="sec.13-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to or in favour of a person who is not the
+beneficial owner of the marketable securities or
+rights.</txt></block></li></list>
+</block>
+
+<tier type="penalty" id="sec.13-ssec.3-pen">
+<parentattributes>
+<attrib name="guid" value="_d5728017-0970-4a7f-b16d-d4e48b2a9916"></attrib>
+<attrib name="id" value="sec.13-ssec.3-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Penalty: $1,000.</txt></block></tier>
+</tier>
+
+
+<tier type="subclause" id="sec.13-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_84c6e5c5-b016-432e-83d0-89b1c7048715"></attrib>
+<attrib name="id" value="sec.13-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A person other than an authorized trustee
+corporation shall not in the State knowingly cause, authorize or permit to be
+executed an instrument that may be used as a sufficient instrument of transfer
+under section 6 or under a like provision of a corresponding law if it is not
+a sufficient instrument of transfer within the meaning of that section or
+provision as the case may be.</txt></block>
+
+<tier type="penalty" id="sec.13-ssec.4-pen">
+<parentattributes>
+<attrib name="guid" value="_12d713e8-c6d4-4731-99cb-d34ae1f499dc"></attrib>
+<attrib name="id" value="sec.13-ssec.4-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Penalty: $1,000.</txt></block></tier>
+</tier>
+
+
+<tier type="subclause" id="sec.13-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c8ef73c0-473c-43e5-9635-d0e37f6499f3"></attrib>
+<attrib name="id" value="sec.13-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A person shall not knowingly lodge or cause to be
+lodged with a company or prescribed corporation an instrument to which a stamp
+has been affixed in contravention of subsection (1) or (2), or which has been
+executed in contravention of subsection (3), for the purpose of securing the
+registration of the transfer of marketable securities or the allotment of
+marketable securities to the transferee named therein.</txt></block>
+
+<tier type="penalty" id="sec.13-ssec.5-pen">
+<parentattributes>
+<attrib name="guid" value="_f363f99f-8db9-4cce-942c-77d3683f3204"></attrib>
+<attrib name="id" value="sec.13-ssec.5-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Penalty: $1,000.</txt></block></tier>
+</tier>
+
+
+<tier type="subclause" id="sec.13-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a5bf6c98-d31b-41b8-b68c-db978f7d3fa6"></attrib>
+<attrib name="id" value="sec.13-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">References in this section to the expression
+&#8220;a duly completed instrument of transfer&#8221;, &#8220;marketable
+securities&#8221; or &#8220;rights to marketable securities&#8221; shall be
+construed in the same way as references to those expressions are to be
+construed for the purposes of section 8.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_81a6ef8e-9ccf-4568-bfc3-4655ee8b01e6"></attrib>
+<attrib name="id" value="sec.13-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_967062cf-cf6d-40bb-adeb-c09168303d2e"
+id="sec.13-def.beneficialowner"><b><i>beneficial owner</i></b></defterm>, in
+relation to a sufficient instrument of transfer under a corresponding law,
+means a beneficial owner within the meaning of the corresponding
+law.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_297a32ea-cf17-4c37-be2e-7ffacdc24968"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_5ed3a26a-51ac-471a-93d8-fccd9fa0e342"
+id="sec.14-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_acd515d9-bd71-49b4-ad2d-4cd25249f710"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make regulations for or with
+respect to any one or more of the following:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ba18f296-6257-4225-89d0-df471e9340ac" id="sec.14-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">prescribing bodies corporate as authorized
+trustee corporations,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_467ab466-2744-4b29-bc8c-55757171bc77" id="sec.14-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">prescribing interests to which or interests of a
+class to which Division 5 of Part 4 of the <legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Companies Act
+1961</i></name></legref> applies as prescribed securities,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e40cb4c5-1783-43fe-a47e-8950746ce689" id="sec.14-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">prescribing stock exchanges in the State as
+prescribed stock exchanges,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6b7e99c0-d105-460e-9b0a-7314bfcfb251" id="sec.14-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">prescribing any matter or thing that is required
+or necessary or expedient to be prescribed or provided for the purposes of
+this Act and without limiting the generality of the foregoing providing for a
+penalty not exceeding $200 for a breach of or non-compliance with a provision
+of the regulations.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9caf4e99-fc9b-46c4-b5f1-d8cd278794c0"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The regulations shall not prescribe a body
+corporate as an authorized trustee corporation unless it is a body corporate
+that in the opinion of the Minister holds in the ordinary course of its
+business marketable securities for or on behalf of another
+person.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_61f75a0e-e3d3-43df-b4bf-4449cf17bdf0"></attrib>
+<attrib name="id" value="sch"></attrib></parentattributes>
+
+<head>
+<no><b>The Schedule</b></no></head>
+
+<level type="form" id="sch-form.One">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_504190ae-33ed-4edf-9ebc-6712525df4b9"></attrib>
+<attrib name="id" value="sch-form.One"></attrib></parentattributes>
+
+<head align="left" break.before.heading="0"
+guid="_5ddb54c6-3925-4ac6-b297-96fa60e3f385" id="sch-form.One-hd">
+<no><b>Form One</b></no></head>
+<block align="right" type="sourceref"><txt>(Section 5)</txt></block>
+<block>
+
+<table frame="topbot" orient="port" heading.align="left" font.size="12.pt"
+guid="_886169d2-4d51-40b0-bda7-7cf218e00a43" id="sch-form.One-tbl">
+
+<tgroup cols="6" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="9.75pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="0.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="2.5pi"></colspec>
+<colspec colnum="4" colname="4" colwidth="3pi"></colspec>
+<colspec colnum="5" colname="5" colwidth="3pi"></colspec>
+<colspec colnum="6" colname="6" colwidth="9.75pi"></colspec>
+
+<thead>
+
+<row guid="_536a64f3-c84d-4ffd-b00b-f6b90d8f3ead"
+id="sch-form.One-tbl-tblh-tblr">
+<entry namest="1" nameend="col4" align="center"
+guid="_cf89710c-a60d-49b4-99ae-090a15e815cd"
+id="sch-form.One-tbl-tblh-tblr-tble1"><txt break.before="1">SECURITY TRANSFER
+FORM</txt></entry>
+<entry namest="5" nameend="col6" align="center"
+guid="_0e80d718-3d4a-44fe-9445-55d3c17a297b"
+id="sch-form.One-tbl-tblh-tblr-tble5"><txt break.before="1">MARKING
+STAMP</txt></entry></row>
+</thead>
+
+
+<tbody>
+
+<row guid="_f1bc2819-f364-4e1a-9058-c93c7a407290" id="sch-form.One-tbl-tblr">
+<entry guid="_9e9a2344-63f9-4a48-88db-e54fc6f6136d"
+id="sch-form.One-tbl-tblr-tble1" colname="1"><txt break.before="1">Full Name
+of Company or Prescribed Corporation</txt></entry>
+<entry namest="2" nameend="col5" align="center"
+guid="_003d932f-a405-4484-938e-18bd3f47c9f9" id="sch-form.One-tbl-tblr-tble2"
+colsep="0"><txt break.before="1">PART 1&#8212;</txt></entry>
+<entry guid="_b42ff76e-e224-48ee-996d-3b6eea17a12d"
+id="sch-form.One-tbl-tblr-tble6" colname="6"></entry></row>
+
+
+<row guid="_556b3d1b-0148-46bd-aa0a-2f6702487f37"
+id="sch-form.One-tbl-tblr-oc.2">
+<entry guid="_635620b9-c3ed-424f-95c0-e4e85cad7f8e"
+id="sch-form.One-tbl-tblr-oc.2-tble1" colname="1"><txt
+break.before="1">Description of Securities</txt></entry>
+<entry namest="2" nameend="col5" guid="_d47edd05-2a41-4d73-ae07-abbe45484772"
+id="sch-form.One-tbl-tblr-oc.2-tble2"><txt break.before="1">Class. If not
+fully paid, paid to</txt></entry>
+<entry align="center" guid="_cdb917cf-bc8a-4302-82e4-36b0a43a37d2"
+id="sch-form.One-tbl-tblr-oc.2-tble6" colname="6"><txt
+break.before="1">Register</txt></entry></row>
+
+
+<row guid="_1d772505-9d9b-489b-8650-aa9a73ecb73d"
+id="sch-form.One-tbl-tblr-oc.3">
+<entry guid="_46761cc0-4998-4962-9adb-9c334066b3f6"
+id="sch-form.One-tbl-tblr-oc.3-tble1" colname="1"><txt
+break.before="1">Quantity</txt></entry>
+<entry namest="2" nameend="col3" align="center"
+guid="_f21695e0-69d1-4411-9ca5-0f5ec13cd0a5"
+id="sch-form.One-tbl-tblr-oc.3-tble2" colsep="0"><txt
+break.before="1">Words</txt></entry>
+<entry align="center" guid="_61618900-7f44-46c7-875d-a6cd27be2c1f"
+id="sch-form.One-tbl-tblr-oc.3-tble4" colname="4"><txt
+break.before="1">Figures</txt></entry>
+<entry namest="5" nameend="col6" guid="_e7ea131c-c374-4095-9cba-a2ec8e0eda7b"
+id="sch-form.One-tbl-tblr-oc.3-tble5" morerows="5">
+<block><txt break.before="1">Transferor&#8217;s Broker hereby
+certifies:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c59cd9d4-00f0-4214-9e44-cc79ce64d733"
+id="sch-form.One-tbl-tblr-oc.3-tble5-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">As to the Validity of
+Documents.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_50c2586f-cbce-48a1-a212-bdc214ceb9a9"
+id="sch-form.One-tbl-tblr-oc.3-tble5-para1.ii">
+<no>(ii)</no>
+<block><txt break.before="1">That Stamp Duty (if payable) has been or will be
+paid.</txt></block></li></list>
+</block>
+<block><txt break.before="1">(Transferor&#8217;s Broker&#8217;s
+Stamp)</txt></block></entry></row>
+
+
+<row guid="_ed0753c2-10ec-4610-adad-d8f3adc7c57c"
+id="sch-form.One-tbl-tblr-oc.4">
+<entry guid="_7290f6cc-5fa8-4f4e-abb3-059ea94c02ce"
+id="sch-form.One-tbl-tblr-oc.4-tble1" colname="1"><txt
+break.before="1">Transfer Identification Number</txt></entry>
+<entry namest="2" nameend="col3" guid="_e3c34b76-6d9f-4f5b-9b30-91f9f8416d16"
+id="sch-form.One-tbl-tblr-oc.4-tble2"></entry>
+<entry guid="_118638d8-656b-4707-912a-c981dca535d2"
+id="sch-form.One-tbl-tblr-oc.4-tble4" colname="4" rowsep="0"></entry></row>
+
+
+<row guid="_083aa4b2-f8af-48a6-af7c-1d7a1d952145"
+id="sch-form.One-tbl-tblr-oc.5">
+<entry guid="_523166bb-3857-40bd-aa7e-e175c0190c56"
+id="sch-form.One-tbl-tblr-oc.5-tble1" colname="1" rowsep="0"><txt
+break.before="1">Full Name(s) of Transferor(s)</txt></entry>
+<entry namest="2" nameend="col4" guid="_2d1f3d80-8b47-4c56-afb3-53f102285f56"
+id="sch-form.One-tbl-tblr-oc.5-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="20"></field></txt></entry></row>
+
+
+<row guid="_f4018685-4611-4875-a20a-6c54d143bc06"
+id="sch-form.One-tbl-tblr-oc.6">
+<entry guid="_eb20a9d8-831f-487a-8d3b-f8c52ca09227"
+id="sch-form.One-tbl-tblr-oc.6-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_a24b7250-23f2-4ab9-adf8-4b61a0cd9ca7"
+id="sch-form.One-tbl-tblr-oc.6-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="20"></field></txt></entry></row>
+
+
+<row guid="_38fbd756-d17f-4375-9bee-31e8b967ed0e"
+id="sch-form.One-tbl-tblr-oc.7">
+<entry guid="_5037d1ec-ee29-4ad7-a16e-12229669bac8"
+id="sch-form.One-tbl-tblr-oc.7-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_65156b24-f8f0-47a8-8c20-907255514abd"
+id="sch-form.One-tbl-tblr-oc.7-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="20"></field></txt></entry></row>
+
+
+<row guid="_0431da83-7f77-4a1b-9dc8-8404512d6a1e"
+id="sch-form.One-tbl-tblr-oc.8">
+<entry guid="_474e5472-7052-4628-973c-6aaf21f7055e"
+id="sch-form.One-tbl-tblr-oc.8-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col3" guid="_6351cd9b-3a9f-4a82-9bc1-e41478d39e40"
+id="sch-form.One-tbl-tblr-oc.8-tble2" colsep="0"></entry>
+<entry guid="_6c3674d6-e7a6-4fa5-954e-b9cd5c312841"
+id="sch-form.One-tbl-tblr-oc.8-tble4" colname="4"></entry></row>
+
+
+<row guid="_d7216af9-2d32-41c4-8c54-e8056c8b7d48"
+id="sch-form.One-tbl-tblr-oc.9">
+<entry guid="_de7162fc-6f56-4311-8e0a-1a8024e3f315"
+id="sch-form.One-tbl-tblr-oc.9-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col3" guid="_7b99dbd6-622b-45f3-af83-2845d3c9907e"
+id="sch-form.One-tbl-tblr-oc.9-tble2" colsep="0" rowsep="0"></entry>
+<entry guid="_69923574-f0f0-489c-ad52-cb94dbc569b7"
+id="sch-form.One-tbl-tblr-oc.9-tble4" colname="4" rowsep="0"></entry>
+<entry namest="5" nameend="col6" guid="_1dc7a673-c48f-4029-809d-80b3ce040279"
+id="sch-form.One-tbl-tblr-oc.9-tble5" morerows="1">
+<block><txt break.before="1">Affixed at <field type="dotleader"
+length="30"></field></txt>
+<txt break.before="1">on <field type="dotleader" length="40"></field></txt>
+<txt break.before="1">(place and date of affixing
+stamp)</txt></block></entry></row>
+
+
+<row guid="_52a6447a-dc1c-4f76-a285-95fb4993d141"
+id="sch-form.One-tbl-tblr-oc.10">
+<entry guid="_98494674-49c1-4515-a6e4-6576f5e9cc35"
+id="sch-form.One-tbl-tblr-oc.10-tble1" colname="1"></entry>
+<entry namest="2" nameend="col3" guid="_a74bf2a8-8f87-498f-bb05-f6370cc64d54"
+id="sch-form.One-tbl-tblr-oc.10-tble2" colsep="0"></entry>
+<entry guid="_0492476d-97fe-4ab4-83bc-9673c144c3b1"
+id="sch-form.One-tbl-tblr-oc.10-tble4" colname="4"></entry></row>
+
+
+<row guid="_16426579-2be4-4c76-9099-8b36d5f45b30"
+id="sch-form.One-tbl-tblr-oc.11">
+<entry namest="1" nameend="col6" guid="_4be2e7aa-b2c1-4d3a-bca2-8a35524e2243"
+id="sch-form.One-tbl-tblr-oc.11-tble1" rowsep="0">
+<block><txt break.before="1">I (<i>or</i> We) hereby transfer the above
+securities to the transferee(s) named in Part 2 hereof or to the several
+transferees named in Part 2 of Broker&#8217;s Transfer Form(s) or Split
+Transfer Form(s) relating to the above securities.</txt></block>
+<block><txt break.before="1">*I (<i>or</i> We) have no notice of revocation of
+the power of attorney under which this transfer is
+signed.</txt></block></entry></row>
+
+
+<row guid="_379cf9b2-dbea-4628-b0e6-e94beaee1acf"
+id="sch-form.One-tbl-tblr-oc.12">
+<entry guid="_136214ac-048a-4b44-98b9-d5f8b76d93f4"
+id="sch-form.One-tbl-tblr-oc.12-tble1" colname="1" morerows="2"
+rowsep="0"><txt break.before="1">Transferor(s) sign here</txt></entry>
+<entry namest="2" nameend="col6" guid="_11060f1d-6f93-4c7a-976a-0a6172d32260"
+id="sch-form.One-tbl-tblr-oc.12-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="70"></field></txt></entry></row>
+
+
+<row guid="_8661e2a3-1b28-40f4-bb62-b8d2151f7721"
+id="sch-form.One-tbl-tblr-oc.13">
+<entry namest="2" nameend="col6" guid="_cd3ad7bc-0a50-48da-a856-273acd0e667a"
+id="sch-form.One-tbl-tblr-oc.13-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="70"></field></txt></entry></row>
+
+
+<row guid="_9d9d3d08-1be5-4c38-b8c2-d85201182ae5"
+id="sch-form.One-tbl-tblr-oc.14">
+<entry namest="2" nameend="col6" guid="_de9761b9-1c77-4743-a6d5-e8b1b37b30ed"
+id="sch-form.One-tbl-tblr-oc.14-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="70"></field></txt></entry></row>
+
+
+<row guid="_3be68e21-8dcb-4fa1-849a-a589170c0b3b"
+id="sch-form.One-tbl-tblr-oc.15">
+<entry guid="_668acbb8-7783-4646-b77b-ab5aa852e76e"
+id="sch-form.One-tbl-tblr-oc.15-tble1" colname="1" rowsep="0"><txt
+break.before="1">Dates signed</txt></entry>
+<entry namest="2" nameend="col6" guid="_765019aa-66a4-4d42-b241-30e1c08e7334"
+id="sch-form.One-tbl-tblr-oc.15-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="70"></field></txt></entry></row>
+
+
+<row guid="_a5be897c-7b96-48aa-8f79-91a89c05ace6"
+id="sch-form.One-tbl-tblr-oc.16">
+<entry align="center" guid="_dffa99d4-45b2-46b9-ad54-f7e6ecd8eacc"
+id="sch-form.One-tbl-tblr-oc.16-tble1" colname="1"><txt
+break.before="1">(<field type="blank" length="10"></field>)</txt></entry>
+<entry namest="2" nameend="col6" guid="_064fb8cb-54b4-4ddd-b790-04752d85774e"
+id="sch-form.One-tbl-tblr-oc.16-tble2"></entry></row>
+
+
+<row guid="_0345a45d-dd8e-4e25-99ae-bb84c6ffdbc4"
+id="sch-form.One-tbl-tblr-oc.17">
+<entry guid="_a223280d-8e1e-4bce-b383-759d837fa8ca"
+id="sch-form.One-tbl-tblr-oc.17-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col5" align="center"
+guid="_bd2f621d-d1c2-4255-ae87-b682e31a9bca"
+id="sch-form.One-tbl-tblr-oc.17-tble2" rowsep="0"><txt break.before="1">PART
+2&#8212;</txt></entry>
+<entry guid="_8fe50e75-1982-4290-b2ee-9218108e75e2"
+id="sch-form.One-tbl-tblr-oc.17-tble6" colname="6" rowsep="0"></entry></row>
+
+
+<row guid="_0c0ac2f9-6693-4297-9050-d09a04858c65"
+id="sch-form.One-tbl-tblr-oc.18">
+<entry guid="_e442a590-7c92-46dc-ab99-4fe2a67e18b5"
+id="sch-form.One-tbl-tblr-oc.18-tble1" colname="1" rowsep="0"><txt
+break.before="1">Full Name(s) and Address(es) of Transferee(s)</txt></entry>
+<entry guid="_2a1bebb7-b462-42bb-aa00-395c1793b847"
+id="sch-form.One-tbl-tblr-oc.18-tble2" colname="2" colsep="0"
+rowsep="0"><brace height="3" orient="right"></brace></entry>
+<entry namest="3" nameend="col5" guid="_54d8ef67-2d6f-4c33-aa18-10de8bb26d4d"
+id="sch-form.One-tbl-tblr-oc.18-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader" length="30"></field></txt></entry>
+<entry guid="_644a242e-037c-4335-94b1-67f9b509971d"
+id="sch-form.One-tbl-tblr-oc.18-tble6" colname="6" morerows="5">
+<block><txt break.before="1">Transferee&#8217;s Broker hereby
+certifies:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_60cc8488-f0d8-4b35-9df6-c42138ef2f92"
+id="sch-form.One-tbl-tblr-oc.18-tble6-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">That the securities set out in Part 1 above,
+having been purchased in the ordinary course of business are to be registered
+in the name(s) of the transferee(s) named in this Part.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_af15a49f-9a82-4f73-b3f6-30de80be43ce"
+id="sch-form.One-tbl-tblr-oc.18-tble6-para1.ii">
+<no>(ii)</no>
+<block><txt break.before="1">That Stamp Duty (if payable) has been or will be
+paid,</txt></block></li></list>
+
+<txt break.before="1">and hereby requests that such entries be made in the
+register as are necessary to give effect to this transfer.</txt></block>
+<block><txt break.before="1">(Transferee&#8217;s Broker&#8217;s
+Stamp)</txt></block></entry></row>
+
+
+<row guid="_eae20c24-5865-47c2-9a40-bc544cc3e4fa"
+id="sch-form.One-tbl-tblr-oc.19">
+<entry guid="_db1d558d-3a44-4564-9b2f-272037b979f0"
+id="sch-form.One-tbl-tblr-oc.19-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_619ff037-5c52-4d84-a638-89e43d8ffd5c"
+id="sch-form.One-tbl-tblr-oc.19-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_95f0aad2-f1a9-4d43-b8a0-04ecd60a8649"
+id="sch-form.One-tbl-tblr-oc.19-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_d81f9cdd-1b7e-475d-a70a-9596c497de9e"
+id="sch-form.One-tbl-tblr-oc.20">
+<entry guid="_50a6fa61-b806-4296-8d80-d8dd580fc26e"
+id="sch-form.One-tbl-tblr-oc.20-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_d45f13f9-1499-439e-9193-c80bc7b09ec7"
+id="sch-form.One-tbl-tblr-oc.20-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_f0cfca31-a5fa-42d9-a928-07ad69b2306e"
+id="sch-form.One-tbl-tblr-oc.20-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_5aa24e8e-114f-4d26-b082-a9c0ff6e19f1"
+id="sch-form.One-tbl-tblr-oc.21">
+<entry guid="_38107fe3-80df-4f92-8eb1-82ae04503fe0"
+id="sch-form.One-tbl-tblr-oc.21-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_2484727c-08e0-45be-bc1e-adf5c9e668fc"
+id="sch-form.One-tbl-tblr-oc.21-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_c28ef95f-16c3-41a1-b2e9-7c87b21ce19b"
+id="sch-form.One-tbl-tblr-oc.21-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_dab61ce6-5644-4fdf-bc63-ebbd72c5f777"
+id="sch-form.One-tbl-tblr-oc.22">
+<entry guid="_8f9fc334-28d8-4bd4-8dfc-1fe6c20836b8"
+id="sch-form.One-tbl-tblr-oc.22-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_00a7d7dc-5edc-4d78-9b93-4203cbfcf2c6"
+id="sch-form.One-tbl-tblr-oc.22-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_694e4c98-47dc-4bba-bd47-91ee771ec161"
+id="sch-form.One-tbl-tblr-oc.22-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_012eab65-265a-42ff-89cf-39882689a3f7"
+id="sch-form.One-tbl-tblr-oc.23">
+<entry guid="_198eac3f-4ac2-426e-97a1-f9292d5a3326"
+id="sch-form.One-tbl-tblr-oc.23-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_16cbc699-aafa-424e-8f24-34b826ba9839"
+id="sch-form.One-tbl-tblr-oc.23-tble2" colname="2" colsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_81ccc966-6477-4dbe-b037-a40250489304"
+id="sch-form.One-tbl-tblr-oc.23-tble3" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_ee150576-6bd7-4a71-8c52-b552e1b31d1b"
+id="sch-form.One-tbl-tblr-oc.24">
+<entry guid="_62c0c9dd-4c0c-4005-b927-80dd75e7cec3"
+id="sch-form.One-tbl-tblr-oc.24-tble1" colname="1" colsep="0"
+rowsep="0"></entry>
+<entry guid="_e13a11f9-e3d6-4b47-88ab-3bfdc7544db9"
+id="sch-form.One-tbl-tblr-oc.24-tble2" colname="2" colsep="0"
+rowsep="0"></entry>
+<entry guid="_477ddba1-58c3-4299-9ba7-fb9177046dbf"
+id="sch-form.One-tbl-tblr-oc.24-tble3" colname="3" colsep="0"></entry>
+<entry guid="_c75d7187-ce51-4107-b12e-ba2bab997a1f"
+id="sch-form.One-tbl-tblr-oc.24-tble4" colname="4" colsep="0"></entry>
+<entry guid="_5cd0494c-1f85-4fae-a1c8-991fff6b14ef"
+id="sch-form.One-tbl-tblr-oc.24-tble5" colname="5"></entry>
+<entry guid="_4650ab2d-df0f-47ec-af82-6787ea2632ef"
+id="sch-form.One-tbl-tblr-oc.24-tble6" colname="6"><txt break.before="1">Date
+of affixing stamp</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">* Delete if not
+applicable.</txt></block></level>
+
+
+<level type="form" id="sch-form.Two">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_46c1131e-6f86-499b-95dd-59b5f129b45c"></attrib>
+<attrib name="id" value="sch-form.Two"></attrib></parentattributes>
+
+<head align="left" break.before.heading="0"
+guid="_c356724e-4121-4b37-8124-c4f2755c599a" id="sch-form.Two-hd">
+<no><b>Form Two</b></no></head>
+<block align="right" type="sourceref"><txt>(Section 5)</txt></block>
+<block>
+
+<table frame="topbot" orient="port" heading.align="left" font.size="12.pt"
+guid="_857b0e28-0d4d-468a-aef3-1f460dcf1944" id="sch-form.Two-tbl">
+
+<tgroup cols="6" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="9.75pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="0.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="2.5pi"></colspec>
+<colspec colnum="4" colname="4" colwidth="3pi"></colspec>
+<colspec colnum="5" colname="5" colwidth="3pi"></colspec>
+<colspec colnum="6" colname="6" colwidth="9.75pi"></colspec>
+
+<thead>
+
+<row guid="_1eb59ba7-085f-4d73-ad43-0da56f45ae50"
+id="sch-form.Two-tbl-tblh-tblr">
+<entry namest="1" nameend="col4" align="center"
+guid="_580285e8-ae40-4ff4-8c05-bf1341f3feca"
+id="sch-form.Two-tbl-tblh-tblr-tble1"><txt break.before="1">BROKER&#8217;S
+TRANSFER FORM</txt></entry>
+<entry namest="5" nameend="col6" align="center"
+guid="_a527efa4-8ec0-4ce0-8a6d-486a9c0c9f40"
+id="sch-form.Two-tbl-tblh-tblr-tble5"><txt break.before="1">MARKING
+STAMP</txt></entry></row>
+</thead>
+
+
+<tbody>
+
+<row guid="_e4ef5815-d848-4318-8f4b-bdec2bcab024" id="sch-form.Two-tbl-tblr">
+<entry guid="_f98b6016-b377-42b6-bc33-726cecda2570"
+id="sch-form.Two-tbl-tblr-tble1" colname="1"><txt break.before="1">Full Name
+of Company or Prescribed Corporation</txt></entry>
+<entry namest="2" nameend="col5" align="center"
+guid="_261d93e3-7dfa-4363-961e-0719b82ec9ad" id="sch-form.Two-tbl-tblr-tble2"
+colsep="0"><txt break.before="1">PART 1&#8212;</txt></entry>
+<entry guid="_35017bd4-39d0-475a-95d9-a2362aa819fe"
+id="sch-form.Two-tbl-tblr-tble6" colname="6"></entry></row>
+
+
+<row guid="_39ae866b-2a6e-4575-9baa-cb741753ff55"
+id="sch-form.Two-tbl-tblr-oc.2">
+<entry guid="_eeb25667-be5b-4067-9821-5d071079a097"
+id="sch-form.Two-tbl-tblr-oc.2-tble1" colname="1"><txt
+break.before="1">Description of Securities</txt></entry>
+<entry namest="2" nameend="col5" guid="_e9983a2d-bab4-48c9-b2d7-b18481c0f306"
+id="sch-form.Two-tbl-tblr-oc.2-tble2"><txt break.before="1">Class. If not
+fully paid, paid to</txt></entry>
+<entry align="center" guid="_6c27d07a-ee04-4cf9-ba0e-7b5710987422"
+id="sch-form.Two-tbl-tblr-oc.2-tble6" colname="6"><txt
+break.before="1">Register</txt></entry></row>
+
+
+<row guid="_7ea5eb58-e720-4ac6-8d77-9a28f2e6df91"
+id="sch-form.Two-tbl-tblr-oc.3">
+<entry guid="_62ceecab-4d8a-47c0-b824-accc35f2206c"
+id="sch-form.Two-tbl-tblr-oc.3-tble1" colname="1"><txt
+break.before="1">Quantity</txt></entry>
+<entry namest="2" nameend="col5" align="center"
+guid="_d55859b3-ec03-421d-aec7-4fe8b97f3386"
+id="sch-form.Two-tbl-tblr-oc.3-tble2" colsep="0"><txt
+break.before="1">Words</txt></entry>
+<entry align="center" guid="_4c1205aa-af37-49e2-ace2-99ea1daeded7"
+id="sch-form.Two-tbl-tblr-oc.3-tble6" colname="6"><txt
+break.before="1">Figures</txt></entry></row>
+
+
+<row guid="_55131b10-6557-4020-bcd5-c307995b5437"
+id="sch-form.Two-tbl-tblr-oc.4">
+<entry guid="_9e79d99d-84f0-4789-a91d-24070ee93cb0"
+id="sch-form.Two-tbl-tblr-oc.4-tble1" colname="1"><txt
+break.before="1">Transfer Identification Number</txt></entry>
+<entry namest="2" nameend="col3" guid="_81554104-fcca-4b27-bb83-6546df0d2e69"
+id="sch-form.Two-tbl-tblr-oc.4-tble2"></entry>
+<entry guid="_69bce094-8bc5-4e18-a90c-e4a8b2738c3d"
+id="sch-form.Two-tbl-tblr-oc.4-tble4" colname="4" rowsep="0"></entry>
+<entry namest="5" nameend="col6" guid="_13d91312-7b2f-4c10-8d26-0bcd08166c2b"
+id="sch-form.Two-tbl-tblr-oc.4-tble5" morerows="4">
+<block><txt break.before="1">Transferor&#8217;s Broker hereby
+certifies:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_566acc12-a6a0-4343-80d4-6430663e7970"
+id="sch-form.Two-tbl-tblr-oc.4-tble5-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">That the Security Transfer Form relating to the
+securities set out above has been or will be lodged at the company&#8217;s or
+corporation&#8217;s office.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2e215412-5f06-4fc9-b101-ad7fec32ab8c"
+id="sch-form.Two-tbl-tblr-oc.4-tble5-para1.ii">
+<no>(ii)</no>
+<block><txt break.before="1">That Stamp Duty (if payable) has been or will be
+paid.</txt></block></li></list>
+</block>
+<block><txt break.before="1">(Transferor&#8217;s Broker&#8217;s
+Stamp)</txt></block></entry></row>
+
+
+<row guid="_cda28710-ce2c-4f1a-a792-4c9e94bc0cca"
+id="sch-form.Two-tbl-tblr-oc.5">
+<entry guid="_60888af9-e8c8-485b-8554-b1f544987d80"
+id="sch-form.Two-tbl-tblr-oc.5-tble1" colname="1" rowsep="0"><txt
+break.before="1">Full Name(s) of Transferor(s)</txt></entry>
+<entry namest="2" nameend="col4" guid="_814af1ef-abeb-42d2-9a30-979d87822405"
+id="sch-form.Two-tbl-tblr-oc.5-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="20"></field></txt></entry></row>
+
+
+<row guid="_9b9fd60d-0426-4ce9-8369-e30de32dcb85"
+id="sch-form.Two-tbl-tblr-oc.6">
+<entry guid="_f3fb69fc-3838-4ec7-aba9-f8c04e12f625"
+id="sch-form.Two-tbl-tblr-oc.6-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_6e2b441a-a9b8-4c19-b17a-8061b3d8025b"
+id="sch-form.Two-tbl-tblr-oc.6-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="20"></field></txt></entry></row>
+
+
+<row guid="_45546814-be0f-47e3-9f74-fa6ae81b6c3b"
+id="sch-form.Two-tbl-tblr-oc.7">
+<entry guid="_8824392d-6ae8-4e14-9317-2eb500ed62b6"
+id="sch-form.Two-tbl-tblr-oc.7-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_b8303fa8-a9f7-469a-ae72-5f1274ca0259"
+id="sch-form.Two-tbl-tblr-oc.7-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="20"></field></txt></entry></row>
+
+
+<row guid="_c68384f6-cfc4-4cce-bf23-f608b279fb9e"
+id="sch-form.Two-tbl-tblr-oc.8">
+<entry guid="_a06c290c-3665-4c54-85cd-2c6a4f095305"
+id="sch-form.Two-tbl-tblr-oc.8-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_59d3bf9d-2dc4-4185-8362-80afddd4e933"
+id="sch-form.Two-tbl-tblr-oc.8-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="20"></field></txt></entry></row>
+
+
+<row guid="_3634a7ff-7510-43a9-88c3-fb423fce561a"
+id="sch-form.Two-tbl-tblr-oc.9">
+<entry guid="_0eb55d01-eccb-400a-8d66-cd8100eaee4d"
+id="sch-form.Two-tbl-tblr-oc.9-tble1" colname="1"></entry>
+<entry namest="2" nameend="col3" guid="_baf31d67-bf3d-4e83-af3b-652812b153c2"
+id="sch-form.Two-tbl-tblr-oc.9-tble2" colsep="0" rowsep="1"></entry>
+<entry guid="_6c8bbdd0-7874-4b81-80e3-aa88008b1f92"
+id="sch-form.Two-tbl-tblr-oc.9-tble4" colname="4" rowsep="1"></entry>
+<entry namest="5" nameend="col6" guid="_3f4895ba-8bc7-464e-b4e5-428506990abf"
+id="sch-form.Two-tbl-tblr-oc.9-tble5">
+<block><txt break.before="1">Affixed at <field type="dotleader"
+length="30"></field></txt>
+<txt break.before="1">on <field type="dotleader" length="40"></field></txt>
+<txt break.before="1">(place and date of affixing
+stamp)</txt></block></entry></row>
+
+
+<row guid="_657934ba-1731-4739-a41d-2f9fd2b23c3e"
+id="sch-form.Two-tbl-tblr-oc.10">
+<entry guid="_a26f9097-d11f-4105-8b1a-1e22bf3d25ea"
+id="sch-form.Two-tbl-tblr-oc.10-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col5" align="center"
+guid="_8491e624-84ff-43a3-ac5a-34d2bedef3be"
+id="sch-form.Two-tbl-tblr-oc.10-tble2" rowsep="0"><txt break.before="1">PART
+2&#8212;</txt></entry>
+<entry guid="_9a92b217-ab7e-4c72-9c18-a2356bd42770"
+id="sch-form.Two-tbl-tblr-oc.10-tble6" colname="6" rowsep="0"></entry></row>
+
+
+<row guid="_48e00dab-d512-4e81-b9c6-5f223dffdf0d"
+id="sch-form.Two-tbl-tblr-oc.11">
+<entry guid="_b0c97c2a-a679-4c08-8a12-7b57a02ca484"
+id="sch-form.Two-tbl-tblr-oc.11-tble1" colname="1" rowsep="0"><txt
+break.before="1">Full Name(s) and Address(es) of Transferee(s).</txt></entry>
+<entry guid="_7f237469-f8cf-4d35-8bcb-efc15eb0df9d"
+id="sch-form.Two-tbl-tblr-oc.11-tble2" colname="2" colsep="0"
+rowsep="0"><brace height="3" orient="right"></brace></entry>
+<entry namest="3" nameend="col5" guid="_7cc56a81-caec-449d-9124-7e6b64730bc8"
+id="sch-form.Two-tbl-tblr-oc.11-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader" length="30"></field></txt></entry>
+<entry guid="_38e3d7d2-e4f6-42a2-9f52-0ee7d6f3eb76"
+id="sch-form.Two-tbl-tblr-oc.11-tble6" colname="6" morerows="6" rowsep="1">
+<block><txt break.before="1">Transferee&#8217;s Broker hereby
+certifies:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_22e4061b-d735-4a57-aea4-c984d03d323a"
+id="sch-form.Two-tbl-tblr-oc.11-tble6-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">That the securities set out in Part 1 above
+having been purchased in the ordinary course of business are to be registered
+in the name(s) of the transferee(s) named in this Part.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_31925570-843a-46a3-8cb8-c99672ed2550"
+id="sch-form.Two-tbl-tblr-oc.11-tble6-para1.ii">
+<no>(ii)</no>
+<block><txt break.before="1">That Stamp Duty (if payable) has been or will be
+paid,</txt></block></li></list>
+
+<txt break.before="1">and hereby requests that such entries be made in the
+register as are necessary to give effect to this transfer.</txt></block>
+<block><txt break.before="1">(Transferee&#8217;s Broker&#8217;s
+Stamp)</txt></block></entry></row>
+
+
+<row guid="_f9c3bf79-f15a-46c1-bfd9-55f49eed0ef8"
+id="sch-form.Two-tbl-tblr-oc.12">
+<entry guid="_65bc2eab-bed1-46e7-84f8-0f7c5831be95"
+id="sch-form.Two-tbl-tblr-oc.12-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_4494d092-2c6b-49f1-be1f-0189d60e2d2b"
+id="sch-form.Two-tbl-tblr-oc.12-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_3c9e4b5f-b7b9-45ea-9346-3c29bddd4dff"
+id="sch-form.Two-tbl-tblr-oc.12-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_553f035a-1908-44af-b50d-be01971325f9"
+id="sch-form.Two-tbl-tblr-oc.13">
+<entry guid="_cadc9b27-aa15-4ccc-8085-c8464d5279e2"
+id="sch-form.Two-tbl-tblr-oc.13-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_0b11683f-98f2-4916-9b0b-a243c91b92bd"
+id="sch-form.Two-tbl-tblr-oc.13-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_7f858cb5-a7bc-458f-a623-93793079f0e2"
+id="sch-form.Two-tbl-tblr-oc.13-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_9f086918-8061-439a-9793-2c15c684e95e"
+id="sch-form.Two-tbl-tblr-oc.14">
+<entry guid="_112b2b62-9f89-4267-be2f-e1665209bc83"
+id="sch-form.Two-tbl-tblr-oc.14-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_8b04f47d-1b8c-4bf7-ac88-e1134990cd6f"
+id="sch-form.Two-tbl-tblr-oc.14-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_194854d7-4539-4a94-8e75-0a0edb04bf05"
+id="sch-form.Two-tbl-tblr-oc.14-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_8927fcbd-4152-4469-8f10-a321448baeee"
+id="sch-form.Two-tbl-tblr-oc.15">
+<entry guid="_35af6b27-6c25-4dcd-a647-f173a2637c3b"
+id="sch-form.Two-tbl-tblr-oc.15-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_0c1af71a-94d9-4957-b9a8-bad8bd419c3a"
+id="sch-form.Two-tbl-tblr-oc.15-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_3ac91c76-46a3-4533-a705-78f9ef8fdd39"
+id="sch-form.Two-tbl-tblr-oc.15-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_92cd817e-710f-4a0e-8076-4f4b07d32a82"
+id="sch-form.Two-tbl-tblr-oc.16">
+<entry guid="_cff8cc6c-5e69-4499-8340-5307cf19b9f5"
+id="sch-form.Two-tbl-tblr-oc.16-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_6238f2e4-3c23-4042-9880-747928a6a1e6"
+id="sch-form.Two-tbl-tblr-oc.16-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_d2527a3b-d256-4a25-b006-c2f43154a176"
+id="sch-form.Two-tbl-tblr-oc.16-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_5c10faae-aebb-4949-8763-0b62d88c0923"
+id="sch-form.Two-tbl-tblr-oc.17">
+<entry guid="_cfe0639e-69ac-4be0-9924-8d6293fc3b2e"
+id="sch-form.Two-tbl-tblr-oc.17-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_a98d96dd-a467-4737-b69b-e8dd024e49ce"
+id="sch-form.Two-tbl-tblr-oc.17-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_06944fae-3999-4bb4-9eea-94f03763df64"
+id="sch-form.Two-tbl-tblr-oc.17-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_34b6930f-42b8-4f0e-9596-e91f1495f75f"
+id="sch-form.Two-tbl-tblr-oc.18">
+<entry guid="_4d696f47-474c-457a-932a-1965f580153b"
+id="sch-form.Two-tbl-tblr-oc.18-tble1" colname="1"></entry>
+<entry guid="_4a8a0e20-061a-4f1d-a46b-da3233587c5d"
+id="sch-form.Two-tbl-tblr-oc.18-tble2" colname="2" colsep="0"></entry>
+<entry guid="_7b6610a2-f758-42ce-9b53-e5ecc7e2add4"
+id="sch-form.Two-tbl-tblr-oc.18-tble3" colname="3" colsep="0"></entry>
+<entry guid="_015ccc43-df5d-4a2f-bba7-38ca0f2a42ff"
+id="sch-form.Two-tbl-tblr-oc.18-tble4" colname="4" colsep="0"></entry>
+<entry guid="_91998968-6d32-49e8-a841-ddb8dff36c52"
+id="sch-form.Two-tbl-tblr-oc.18-tble5" colname="5"></entry>
+<entry guid="_37efca41-0bce-405e-b7fd-3b80ca5a0a81"
+id="sch-form.Two-tbl-tblr-oc.18-tble6" colname="6"><txt break.before="1">Date
+of affixing stamp</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="form" id="sch-form.Three">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_6ad143b8-809e-4a30-b71f-7be8cb22c238"></attrib>
+<attrib name="id" value="sch-form.Three"></attrib></parentattributes>
+
+<head align="left" break.before.heading="0"
+guid="_48206bed-37bb-4eae-8316-64e7ff0dbe34" id="sch-form.Three-hd">
+<no><b>Form Three</b></no></head>
+<block align="right" type="sourceref"><txt>(Section 5)</txt></block>
+<block>
+
+<table frame="topbot" orient="port" heading.align="left" font.size="12.pt"
+guid="_80d85f59-275c-4907-be81-d9b4e185be25" id="sch-form.Three-tbl">
+
+<tgroup cols="6" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="9.75pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="0.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="2.5pi"></colspec>
+<colspec colnum="4" colname="4" colwidth="3pi"></colspec>
+<colspec colnum="5" colname="5" colwidth="3pi"></colspec>
+<colspec colnum="6" colname="6" colwidth="9.75pi"></colspec>
+
+<thead>
+
+<row guid="_9ea202dd-b68b-4dda-968e-d6ba709ced08"
+id="sch-form.Three-tbl-tblh-tblr">
+<entry namest="1" nameend="col4" align="center"
+guid="_ca126538-c311-4472-bc90-09722ec284ff"
+id="sch-form.Three-tbl-tblh-tblr-tble1"><txt break.before="1">SPLIT TRANSFER
+FORM</txt></entry>
+<entry namest="5" nameend="col6" align="center"
+guid="_743377c4-1807-4bb8-893d-533b476bc30e"
+id="sch-form.Three-tbl-tblh-tblr-tble5"><txt break.before="1">MARKING
+STAMP</txt></entry></row>
+</thead>
+
+
+<tbody>
+
+<row guid="_eb4069e7-5340-4ee4-aae8-3bb79300c183"
+id="sch-form.Three-tbl-tblr">
+<entry guid="_4741f2af-bc99-471d-bf88-8dd1dee4a6f5"
+id="sch-form.Three-tbl-tblr-tble1" colname="1"><txt break.before="1">Full Name
+of Company or Prescribed Corporation</txt></entry>
+<entry namest="2" nameend="col5" align="center"
+guid="_0414cd29-9052-4c52-a841-c4e9f5a995e2"
+id="sch-form.Three-tbl-tblr-tble2" colsep="0"><txt break.before="1">PART
+1&#8212;</txt></entry>
+<entry guid="_541f69b2-c08a-4458-815e-506a840c4e7e"
+id="sch-form.Three-tbl-tblr-tble6" colname="6"></entry></row>
+
+
+<row guid="_b9f2f67d-8741-4269-b109-fb4b7682ab35"
+id="sch-form.Three-tbl-tblr-oc.2">
+<entry guid="_7bd60cea-f336-4be5-859b-4f7a01d41fb6"
+id="sch-form.Three-tbl-tblr-oc.2-tble1" colname="1"><txt
+break.before="1">Description of Securities</txt></entry>
+<entry namest="2" nameend="col5" guid="_bf42a529-76ad-4217-a709-0bf7fe2a24b4"
+id="sch-form.Three-tbl-tblr-oc.2-tble2"><txt break.before="1">Class. If not
+fully paid, paid to</txt></entry>
+<entry align="center" guid="_a93cbbb8-928b-4dcf-8f4f-3cf34bb2e746"
+id="sch-form.Three-tbl-tblr-oc.2-tble6" colname="6"><txt
+break.before="1">Register</txt></entry></row>
+
+
+<row guid="_9fb8cc7c-42bc-4eef-9e42-0b2a7f4bfc36"
+id="sch-form.Three-tbl-tblr-oc.3">
+<entry guid="_d1228872-542b-4eb3-992f-f0dea34c7098"
+id="sch-form.Three-tbl-tblr-oc.3-tble1" colname="1"><txt
+break.before="1">Quantity</txt></entry>
+<entry namest="2" nameend="col5" align="center"
+guid="_cbb39554-cd14-4be1-ae37-22b5b4db028c"
+id="sch-form.Three-tbl-tblr-oc.3-tble2" colsep="0"><txt
+break.before="1">Words</txt></entry>
+<entry align="center" guid="_ea3ad08e-f24a-4eca-ab12-07bc1e9ee78a"
+id="sch-form.Three-tbl-tblr-oc.3-tble6" colname="6"><txt
+break.before="1">Figures</txt></entry></row>
+
+
+<row guid="_c94f22c6-a454-4e5d-8927-065d58f941a2"
+id="sch-form.Three-tbl-tblr-oc.4">
+<entry guid="_2912da70-847b-4533-a99b-d5a2a86f73be"
+id="sch-form.Three-tbl-tblr-oc.4-tble1" colname="1"><txt
+break.before="1">Transfer Identification Number</txt></entry>
+<entry namest="2" nameend="col3" guid="_587699e3-74ce-44f0-9fb1-ba7626d28cf8"
+id="sch-form.Three-tbl-tblr-oc.4-tble2"></entry>
+<entry guid="_cf5d71a0-7d4e-439c-8088-88720d31258c"
+id="sch-form.Three-tbl-tblr-oc.4-tble4" colname="4" rowsep="0"></entry>
+<entry namest="5" nameend="col6" guid="_17ea0abc-d282-43e6-b232-acc833b4ac2e"
+id="sch-form.Three-tbl-tblr-oc.4-tble5" morerows="4" rowsep="0"><txt
+break.before="1">The <field type="dotleader" length="20"></field> Stock
+Exchange hereby certifies that the Security Transfer Form or the
+Broker&#8217;s Transfer Form, relating to the securities set out above has
+been or will be lodged at the company&#8217;s or corporation&#8217;s
+office.</txt></entry></row>
+
+
+<row guid="_5ce609ad-3cc5-4d52-995e-32f0fcd117b6"
+id="sch-form.Three-tbl-tblr-oc.5">
+<entry guid="_d8154722-dc2a-4e02-ac2f-76bddf092e69"
+id="sch-form.Three-tbl-tblr-oc.5-tble1" colname="1" rowsep="0"><txt
+break.before="1">Full Name(s) of Transferor(s)</txt></entry>
+<entry namest="2" nameend="col4" guid="_d0f9f30c-4601-4733-8034-e3c9f08e9453"
+id="sch-form.Three-tbl-tblr-oc.5-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="20"></field></txt></entry></row>
+
+
+<row guid="_bf3b6671-5efc-47bc-9590-e623228fee1f"
+id="sch-form.Three-tbl-tblr-oc.6">
+<entry guid="_4d103dd7-db11-4967-8d07-d4b0bf3bd8c8"
+id="sch-form.Three-tbl-tblr-oc.6-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_0fa558f4-6774-4188-a5a8-5b6a5b4af6ed"
+id="sch-form.Three-tbl-tblr-oc.6-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="20"></field></txt></entry></row>
+
+
+<row guid="_309362dc-30ce-4250-8a16-09b5f55920f9"
+id="sch-form.Three-tbl-tblr-oc.7">
+<entry guid="_c524f324-0f42-43dc-82b2-ce8994978738"
+id="sch-form.Three-tbl-tblr-oc.7-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_2319bfab-6e84-4e5c-95a4-7201a82d9b7d"
+id="sch-form.Three-tbl-tblr-oc.7-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="20"></field></txt></entry></row>
+
+
+<row guid="_bcb55c58-dd0a-4ca2-bf20-fbd8da1c909d"
+id="sch-form.Three-tbl-tblr-oc.8">
+<entry guid="_ff11392a-5c18-4e86-baee-a77b488754b7"
+id="sch-form.Three-tbl-tblr-oc.8-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_ae399157-7156-4d7e-87f2-b0e9ebd3cc5f"
+id="sch-form.Three-tbl-tblr-oc.8-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="20"></field></txt></entry></row>
+
+
+<row guid="_c32eef52-12d4-482c-8b89-c5b04ea3cb7a"
+id="sch-form.Three-tbl-tblr-oc.9">
+<entry guid="_961da6bb-1a6d-47ef-aa51-2d75b5c3806f"
+id="sch-form.Three-tbl-tblr-oc.9-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_58605c43-dc3f-401d-9897-a1664533b08c"
+id="sch-form.Three-tbl-tblr-oc.9-tble2" rowsep="0"></entry>
+<entry namest="5" nameend="col6" guid="_af29f945-e350-4e0f-bcf0-3dbc380759ab"
+id="sch-form.Three-tbl-tblr-oc.9-tble5"><txt break.before="1">(Stock Exchange
+Stamp)</txt></entry></row>
+
+
+<row guid="_11c828ea-0edb-4a47-8706-d2a6f7900f46"
+id="sch-form.Three-tbl-tblr-oc.10">
+<entry guid="_2b722d89-c82f-4c23-9d36-455f2acf43e5"
+id="sch-form.Three-tbl-tblr-oc.10-tble1" colname="1"></entry>
+<entry namest="2" nameend="col3" guid="_2a107539-ba0f-41ab-9073-c8b950e4e565"
+id="sch-form.Three-tbl-tblr-oc.10-tble2" colsep="0"></entry>
+<entry guid="_97ee86c0-2877-45a8-8ede-2be2cf0672b0"
+id="sch-form.Three-tbl-tblr-oc.10-tble4" colname="4"></entry>
+<entry namest="5" nameend="col6" guid="_593d5c8a-d0dd-4fc2-b89a-253b3ac4d38e"
+id="sch-form.Three-tbl-tblr-oc.10-tble5">
+<block><txt break.before="1">Affixed at <field type="dotleader"
+length="30"></field></txt>
+<txt break.before="1">on <field type="dotleader" length="40"></field></txt>
+<txt break.before="1">(place and date of affixing
+stamp)</txt></block></entry></row>
+
+
+<row guid="_c9cf6ad2-9e39-45a4-a344-bb077e82e82b"
+id="sch-form.Three-tbl-tblr-oc.11">
+<entry guid="_0e500722-23a0-44be-bc8c-35c761dc46d7"
+id="sch-form.Three-tbl-tblr-oc.11-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col5" align="center"
+guid="_144e5ce3-c703-49db-93a0-3600a6514761"
+id="sch-form.Three-tbl-tblr-oc.11-tble2" rowsep="0"><txt break.before="1">PART
+2&#8212;</txt></entry>
+<entry guid="_de3781da-96b8-49b0-aede-56a47e1968a4"
+id="sch-form.Three-tbl-tblr-oc.11-tble6" colname="6"
+rowsep="0"></entry></row>
+
+
+<row guid="_77d1c90b-ad8d-478f-976a-7550f97ca366"
+id="sch-form.Three-tbl-tblr-oc.12">
+<entry guid="_c1335b0c-7cee-472a-b1e6-d688229f4226"
+id="sch-form.Three-tbl-tblr-oc.12-tble1" colname="1" rowsep="0"><txt
+break.before="1">Full Name(s) and Address(es) of Transferee(s)</txt></entry>
+<entry guid="_52689cec-5d27-442f-ba73-ce99680a1a23"
+id="sch-form.Three-tbl-tblr-oc.12-tble2" colname="2" colsep="0"
+rowsep="0"><brace height="3" orient="right"></brace></entry>
+<entry namest="3" nameend="col5" guid="_297edcbf-68b2-4fc5-9662-f20d1ced15d1"
+id="sch-form.Three-tbl-tblr-oc.12-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader" length="30"></field></txt></entry>
+<entry guid="_679ee449-7ed8-4504-a4fc-87dcd035f3cf"
+id="sch-form.Three-tbl-tblr-oc.12-tble6" colname="6" morerows="6">
+<block><txt break.before="1">Transferee&#8217;s Broker hereby
+certifies:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8989794a-f05e-4b16-8eed-baedf1164c26"
+id="sch-form.Three-tbl-tblr-oc.12-tble6-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">That the securities set out in Part 1 above
+having been purchased in the ordinary course of business are to be registered
+in the name(s) of the transferee(s) named in this Part.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_63ca6584-4bfe-4873-aaa4-218ee115af39"
+id="sch-form.Three-tbl-tblr-oc.12-tble6-para1.ii">
+<no>(ii)</no>
+<block><txt break.before="1">That Stamp Duty (if payable) has been or will be
+paid,</txt></block></li></list>
+
+<txt break.before="1">and hereby requests that such entries be made in the
+register as are necessary to give effect to this transfer.</txt></block>
+<block><txt break.before="1">(Transferee&#8217;s Broker&#8217;s
+Stamp)</txt></block></entry></row>
+
+
+<row guid="_8b4af247-3392-4ca1-97e4-6f1046014de6"
+id="sch-form.Three-tbl-tblr-oc.13">
+<entry guid="_44087232-7c95-41cb-9cb9-f5f98870c94d"
+id="sch-form.Three-tbl-tblr-oc.13-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_e2d10b6f-601e-4059-bf7f-bf9608be8e47"
+id="sch-form.Three-tbl-tblr-oc.13-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_1654e48e-880b-4048-9265-f932c3ae2f87"
+id="sch-form.Three-tbl-tblr-oc.13-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_ffdaedd1-9534-49a6-ae17-22651cf443b6"
+id="sch-form.Three-tbl-tblr-oc.14">
+<entry guid="_a0b57d03-1711-46ca-bfbe-78dd0ec26c6e"
+id="sch-form.Three-tbl-tblr-oc.14-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_81fcf54b-98bd-43cb-8c68-d27b31c825b0"
+id="sch-form.Three-tbl-tblr-oc.14-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_95a134ad-9682-46ec-934f-e261156261d4"
+id="sch-form.Three-tbl-tblr-oc.14-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_32a6100b-3c9d-4bce-9980-d6bfda640519"
+id="sch-form.Three-tbl-tblr-oc.15">
+<entry guid="_9d01683f-b1a9-45d5-aae1-ad7eee6920d6"
+id="sch-form.Three-tbl-tblr-oc.15-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_428b7336-7942-4757-a937-f318a827b00d"
+id="sch-form.Three-tbl-tblr-oc.15-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_707daf3d-58cc-401d-a697-b38b73a160d8"
+id="sch-form.Three-tbl-tblr-oc.15-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_b35b56ee-0743-4c1a-8bdc-94048e955eab"
+id="sch-form.Three-tbl-tblr-oc.16">
+<entry guid="_b2c5f275-f56b-4470-b707-4de5ab749bd2"
+id="sch-form.Three-tbl-tblr-oc.16-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_8bcd8e12-cb51-4f74-abeb-5f77051a2994"
+id="sch-form.Three-tbl-tblr-oc.16-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_7042d539-f9ac-4cea-b9d0-82e39dd6a5d1"
+id="sch-form.Three-tbl-tblr-oc.16-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_4ca7faac-e94e-4c93-ac25-813a0b7489d3"
+id="sch-form.Three-tbl-tblr-oc.17">
+<entry guid="_8e742d92-295a-4c43-876c-32ae483ef667"
+id="sch-form.Three-tbl-tblr-oc.17-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_db6606eb-bca2-456a-9384-261fbe4b2946"
+id="sch-form.Three-tbl-tblr-oc.17-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_6320bc0b-b6bc-45db-ab68-9da7b29096eb"
+id="sch-form.Three-tbl-tblr-oc.17-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_037e275c-668f-46fb-8254-0d664616dfc2"
+id="sch-form.Three-tbl-tblr-oc.18">
+<entry guid="_8c139ee1-7a5a-4629-839b-8a275f74fb17"
+id="sch-form.Three-tbl-tblr-oc.18-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_25379538-d1b1-4032-8e86-5edc18111dd2"
+id="sch-form.Three-tbl-tblr-oc.18-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col5" guid="_7e1eceb7-cce5-4f64-9c9e-623fc0afc401"
+id="sch-form.Three-tbl-tblr-oc.18-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_1c8114f7-63cd-4b3b-8c0d-edc96233fad8"
+id="sch-form.Three-tbl-tblr-oc.19">
+<entry guid="_7e44146d-cd2f-4f81-938e-5ffad3d1f9a2"
+id="sch-form.Three-tbl-tblr-oc.19-tble1" colname="1"></entry>
+<entry guid="_fcbe8bb5-afd3-4be0-8b33-c6ad53c61615"
+id="sch-form.Three-tbl-tblr-oc.19-tble2" colname="2" colsep="0"></entry>
+<entry guid="_fdeffa63-c01b-4250-ac38-d5fb9eb83740"
+id="sch-form.Three-tbl-tblr-oc.19-tble3" colname="3" colsep="0"></entry>
+<entry guid="_11faa85c-de04-4892-be35-30a162972f3b"
+id="sch-form.Three-tbl-tblr-oc.19-tble4" colname="4" colsep="0"></entry>
+<entry guid="_63be135b-06c4-4b65-a5ac-3058ed7e8e2f"
+id="sch-form.Three-tbl-tblr-oc.19-tble5" colname="5"></entry>
+<entry guid="_b4881642-8a86-4db0-8f18-1d67dd87e380"
+id="sch-form.Three-tbl-tblr-oc.19-tble6" colname="6"><txt
+break.before="1">Date of affixing stamp</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="form" id="sch-form.Four">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_77786b0d-1df9-4b0a-8792-2402b347d8f0"></attrib>
+<attrib name="id" value="sch-form.Four"></attrib></parentattributes>
+
+<head align="left" break.before.heading="0"
+guid="_13f46691-acbe-48dd-af7c-eb1ba9d8d42e" id="sch-form.Four-hd">
+<no><b>Form Four</b></no><heading guid="_18180f94-0743-4055-8f4d-5a0e028a64a0"
+id="sch-form.Four-hd-he"><b>Transferee&#8217;s
+acceptance</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 5)</txt></block>
+<block><txt break.before="1"><i>For completion:</i></txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d8e64371-dada-48d7-ae24-3a69bfab380a" id="sch-form.Four-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">by transferee(s) of securities with an uncalled
+liability (not being partly paid shares in a no-liability company),
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_73790bc8-f9ed-4b83-ad72-d113103b78c1" id="sch-form.Four-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">by transferee(s) of rights where the whole of the
+moneys to be subscribed for marketable securities to which the rights relate
+is not payable in full on application and the securities are not shares in a
+no-liability company.</txt></block></li></list>
+</block>
+<block><txt break.before="1">To <field type="dotleader"
+length="endofline"></field></txt></block>
+<block align="center"><txt break.before="1">(Name of company or prescribed
+corporation whose securities are involved.)</txt></block>
+<block><txt break.before="1">I (<i>or</i> We) <field type="dotleader"
+length="endofline"></field></txt></block>
+<block><txt break.before="1">of <field type="dotleader"
+length="endofline"></field></txt></block>
+<block><txt break.before="1">being the transferee(s) of <field
+type="dotleader" length="endofline"></field></txt></block>
+<block align="right"><txt break.before="1">(Quantity and Description of
+securities or rights)</txt></block>
+<block><txt break.before="1"><field type="dotleader"
+length="endofline"></field></txt></block>
+<block><txt break.before="1">in the abovenamed company or corporation,
+comprised in the <field type="dotleader"
+length="endofline"></field></txt></block>
+<block align="right"><txt break.before="1">(number)</txt></block>
+<block><txt break.before="1">instrument(s) of transfer (<i>or</i> renunciation
+and transfer) attached in respect of which there is an uncalled liability of
+<field type="dotleader" length="40"></field> per security (after payment of
+application moneys, if any) and being the person(s) named as transferee(s) in
+the security transfer form, broker&#8217;s transfer form or split transfer
+form (<i>or</i> security renunciation and transfer form, broker&#8217;s
+renunciation and transfer form or renunciation and split transfer form)
+relating to those securities (<i>or</i> rights), and having attained the age
+of twenty-one years, HEREBY AGREE:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f9214d11-3375-4b95-a5a9-9b677378b3ae" id="sch-form.Four-para1.a-oc.2">
+<no>(a)</no>
+<block><txt break.before="1">to accept the said securities subject to the
+several terms and conditions upon which:</txt>
+<list number.type="none" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4a6ce114-9fe9-4616-97cc-c145b97e574d"
+id="sch-form.Four-para1.a-oc.2-para2">
+<block><txt break.before="1">*the transferor(s) held them at the time of the
+transfer thereof by the transferor(s) to me (<i>or</i>
+us),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0ee4a895-7049-45c3-bda3-7539f02ea39e"
+id="sch-form.Four-para1.a-oc.2-para2-oc.2">
+<block><txt break.before="1">*the securities were offered by the company or
+corporation for subscription, and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d62dd5e4-1356-494e-8d5f-ae5919b3dfcc" id="sch-form.Four-para1.b-oc.2">
+<no>(b)</no>
+<block><txt break.before="1">to become a member (<i>or</i> members) of the
+company or corporation and to be bound by the memorandum and articles or by
+the constitution of the company or corporation upon being registered as the
+holder(s) of the securities.</txt></block></li></list>
+</block>
+<block><txt break.before="1">*I (<i>or</i> We) have no notice of revocation of
+the Power of Attorney under which this instrument is signed.</txt></block>
+<block align="right"><txt break.before="1">Signature(s) of Transferee(s)
+<field type="dotleader" length="50"></field></txt></block>
+<block><txt break.before="1">DATED the <field type="dotleader"
+length="30"></field> day of <field type="dotleader" length="30"></field>
+19<field type="dotleader" length="10"></field></txt></block>
+<block><txt break.before="1">* Delete if not
+applicable.</txt></block></level>
+
+
+<level type="form" id="sch-form.Five">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_758b1916-0657-43c1-98d6-966a71025822"></attrib>
+<attrib name="id" value="sch-form.Five"></attrib></parentattributes>
+
+<head align="left" break.before.heading="0"
+guid="_2f6fa4e0-0c2d-42d8-a654-593f05cbe5f8" id="sch-form.Five-hd">
+<no><b>Form Five</b></no></head>
+<block align="right" type="sourceref"><txt>(Section 5)</txt></block>
+<block>
+
+<table frame="topbot" orient="port" heading.align="left" font.size="12.pt"
+guid="_297386ae-b7ff-4543-9d19-bcb02bab95c7" id="sch-form.Five-tbl">
+
+<tgroup cols="5" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="10pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="0.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="3.75pi"></colspec>
+<colspec colnum="4" colname="4" colwidth="4.25pi"></colspec>
+<colspec colnum="5" colname="5" colwidth="10.5pi"></colspec>
+
+<thead>
+
+<row guid="_020f5321-1503-4d55-ac3c-17ae96d92468"
+id="sch-form.Five-tbl-tblh-tblr">
+<entry namest="1" nameend="col4" align="center"
+guid="_2a483600-9593-48fa-a3b3-29b4221e6f30"
+id="sch-form.Five-tbl-tblh-tblr-tble1"><txt break.before="1">SECURITY
+RENUNCIATION AND TRANSFER FORM</txt></entry>
+<entry align="center" guid="_6b13982b-02f0-4789-b747-2d20e6fcc7f4"
+id="sch-form.Five-tbl-tblh-tblr-tble5" colname="5"><txt
+break.before="1">MARKING STAMP</txt></entry></row>
+</thead>
+
+
+<tbody>
+
+<row guid="_0d2ff2cc-d0c0-4804-8846-1dfe08aadd14"
+id="sch-form.Five-tbl-tblr">
+<entry guid="_aa24e4d6-d5aa-4aa0-8bf0-3b506e16f730"
+id="sch-form.Five-tbl-tblr-tble1" colname="1"><txt break.before="1">Full Name
+of Company or Prescribed Corporation</txt></entry>
+<entry namest="2" nameend="col4" align="center"
+guid="_d7a61fd5-c660-4e59-be28-2ef94746eafb" id="sch-form.Five-tbl-tblr-tble2"
+colsep="0"><txt break.before="1">PART 1&#8212;</txt></entry>
+<entry guid="_9605be6f-df1d-4f19-9566-2cb7bbb8b1b4"
+id="sch-form.Five-tbl-tblr-tble5" colname="5"></entry></row>
+
+
+<row guid="_35fda82f-a339-47a3-811e-4787aefcaf35"
+id="sch-form.Five-tbl-tblr-oc.2">
+<entry guid="_b46902fe-1f51-4abd-86a4-7b75a49a5188"
+id="sch-form.Five-tbl-tblr-oc.2-tble1" colname="1"><txt
+break.before="1">Description of Rights</txt></entry>
+<entry namest="2" nameend="col3" guid="_49a2e9fd-c5c4-4453-91dc-271ba2d33e25"
+id="sch-form.Five-tbl-tblr-oc.2-tble2" colsep="0"></entry>
+<entry guid="_6c6331ac-f301-4ef5-969d-da385a7f48bf"
+id="sch-form.Five-tbl-tblr-oc.2-tble4" colname="4"></entry>
+<entry align="center" guid="_ce0a97f8-838c-4b75-9292-31401b73a509"
+id="sch-form.Five-tbl-tblr-oc.2-tble5" colname="5"><txt
+break.before="1">Register</txt></entry></row>
+
+
+<row guid="_8e763064-375f-4d34-9c57-65b09de60bb2"
+id="sch-form.Five-tbl-tblr-oc.3">
+<entry guid="_a8436612-12ac-4317-90d0-a97e7b5a506b"
+id="sch-form.Five-tbl-tblr-oc.3-tble1" colname="1"><txt
+break.before="1">Quantity</txt></entry>
+<entry namest="2" nameend="col3" align="center"
+guid="_0d4d54c1-054c-4536-9e3f-32753f0ba05e"
+id="sch-form.Five-tbl-tblr-oc.3-tble2" colsep="0"><txt
+break.before="1">Words</txt></entry>
+<entry align="center" guid="_e6b5574d-634b-4443-a953-1c9efea275f9"
+id="sch-form.Five-tbl-tblr-oc.3-tble4" colname="4"><txt
+break.before="1">Figures</txt></entry>
+<entry guid="_0653eb17-f19f-45f1-b66b-64b82df6c3df"
+id="sch-form.Five-tbl-tblr-oc.3-tble5" colname="5" morerows="5">
+<block><txt break.before="1">Transferor&#8217;s Broker hereby
+certifies:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_be4a78a7-1f93-45b3-9dac-c7c084744f59"
+id="sch-form.Five-tbl-tblr-oc.3-tble5-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">As to the Validity of
+Documents.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_00d7c56f-a8aa-4ec8-bc14-f946873e5440"
+id="sch-form.Five-tbl-tblr-oc.3-tble5-para1.ii">
+<no>(ii)</no>
+<block><txt break.before="1">That Stamp Duty (if payable) has been or will be
+paid.</txt></block></li></list>
+
+<txt break.before="1">(Transferor&#8217;s Broker&#8217;s
+Stamp)</txt></block></entry></row>
+
+
+<row guid="_71fb7a83-73c6-48e9-9d7c-d5cf38237f66"
+id="sch-form.Five-tbl-tblr-oc.4">
+<entry guid="_ae54617e-7c3e-4b2c-a1af-db69e6c038c7"
+id="sch-form.Five-tbl-tblr-oc.4-tble1" colname="1"><txt
+break.before="1">Transfer Identification Number</txt></entry>
+<entry namest="2" nameend="col3" guid="_8348a9fd-e361-4165-b1c5-f890c06ee499"
+id="sch-form.Five-tbl-tblr-oc.4-tble2"></entry>
+<entry guid="_e3b06a93-a8c5-4bc5-b601-1a5f372b3459"
+id="sch-form.Five-tbl-tblr-oc.4-tble4" colname="4" rowsep="0"></entry></row>
+
+
+<row guid="_4a78ca99-a259-47c0-9201-c6150c06b29e"
+id="sch-form.Five-tbl-tblr-oc.5">
+<entry guid="_48eec4f6-581f-42bb-af22-0911450a5466"
+id="sch-form.Five-tbl-tblr-oc.5-tble1" colname="1" rowsep="0"><txt
+break.before="1">Full Name(s) of Transferor(s)</txt></entry>
+<entry namest="2" nameend="col4" guid="_d58a727d-81eb-4f6a-9940-b6b047866a74"
+id="sch-form.Five-tbl-tblr-oc.5-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_d3774e67-c835-446a-b874-cd2b1751d1b1"
+id="sch-form.Five-tbl-tblr-oc.6">
+<entry guid="_c7ccb3bd-0693-4c9b-9a60-c5187b091e4b"
+id="sch-form.Five-tbl-tblr-oc.6-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_5fa4b898-ffc0-4ae8-b76b-be86ec3215d7"
+id="sch-form.Five-tbl-tblr-oc.6-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_54caefc8-9438-4306-8b0c-f5f4886a72fc"
+id="sch-form.Five-tbl-tblr-oc.7">
+<entry guid="_87013771-fce9-4e1b-8f12-57fa10279f2d"
+id="sch-form.Five-tbl-tblr-oc.7-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_413c426d-7f8a-4c0b-9777-5b003db76a80"
+id="sch-form.Five-tbl-tblr-oc.7-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_bbf3e8f7-f000-4fc0-a1a7-a26365ab2a88"
+id="sch-form.Five-tbl-tblr-oc.8">
+<entry guid="_74d9ce22-8bad-4f79-98e3-10b68f7428ed"
+id="sch-form.Five-tbl-tblr-oc.8-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_9aa92959-e1a2-4386-80e4-a250409b04be"
+id="sch-form.Five-tbl-tblr-oc.8-tble2" colname="2" colsep="0"></entry>
+<entry guid="_66199c6d-4148-4f29-980b-cc5468dfc9ab"
+id="sch-form.Five-tbl-tblr-oc.8-tble3" colname="3" colsep="0"></entry>
+<entry guid="_d63e3ee1-24f2-4a1e-b854-5f99ab70bcc8"
+id="sch-form.Five-tbl-tblr-oc.8-tble4" colname="4"></entry></row>
+
+
+<row guid="_04d14383-cb06-47f0-ba98-f744414fe95b"
+id="sch-form.Five-tbl-tblr-oc.9">
+<entry guid="_b6181121-1d85-4c9d-97b7-5ccd1611a28a"
+id="sch-form.Five-tbl-tblr-oc.9-tble1" colname="1"></entry>
+<entry guid="_2f91c6f6-fad8-4f56-b7e9-97c492847e3f"
+id="sch-form.Five-tbl-tblr-oc.9-tble2" colname="2" colsep="0"></entry>
+<entry guid="_25870516-a072-4e89-9750-44fc0b8b2610"
+id="sch-form.Five-tbl-tblr-oc.9-tble3" colname="3" colsep="0"></entry>
+<entry guid="_7d5c6ca3-5c8d-4d18-bedf-5e03fa128119"
+id="sch-form.Five-tbl-tblr-oc.9-tble4" colname="4"></entry>
+<entry guid="_cc2a04a6-8448-4da1-8c7c-76eea9913e87"
+id="sch-form.Five-tbl-tblr-oc.9-tble5" colname="5">
+<block><txt break.before="1">Affixed at <field type="dotleader"
+length="30"></field></txt>
+<txt break.before="1">on <field type="dotleader" length="30"></field></txt>
+<txt break.before="1">(place and date of affixing
+stamp)</txt></block></entry></row>
+
+
+<row guid="_a147464f-22a4-4d3e-9f08-2144d8b2dd8d"
+id="sch-form.Five-tbl-tblr-oc.10">
+<entry namest="1" nameend="col5" guid="_c4b07288-dd42-4693-94aa-d6bde47d0926"
+id="sch-form.Five-tbl-tblr-oc.10-tble1">
+<block><txt break.before="1">I (<i>or</i> We) hereby renounce and transfer the
+above rights in favour of the transferee(s) named in Part 2 hereof or to the
+several transferee(s) named in Part 2 of the Broker&#8217;s Renunciation and
+Transfer Form(s) or Renunciation and Split Transfer Form(s) relating to the
+above rights.</txt></block>
+<block><txt break.before="1">*I (<i>or</i> We) have no notice of revocation of
+the power of attorney under which this renunciation and transfer is
+signed.</txt></block></entry></row>
+
+
+<row guid="_f07edcc3-0def-44af-837e-611b8d6f03c1"
+id="sch-form.Five-tbl-tblr-oc.11">
+<entry guid="_704dca73-bfee-43af-8df0-833e86ed7a38"
+id="sch-form.Five-tbl-tblr-oc.11-tble1" colname="1" rowsep="0"><txt
+break.before="1">Transferor(s) sign here</txt></entry>
+<entry namest="2" nameend="col4" guid="_c9db14e2-39f8-4be7-856a-3c4b497c62d5"
+id="sch-form.Five-tbl-tblr-oc.11-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader" length="30"></field></txt></entry>
+<entry guid="_0a0b43ed-34ce-4b75-9ccd-4a553bc34547"
+id="sch-form.Five-tbl-tblr-oc.11-tble5" colname="5" rowsep="0"></entry></row>
+
+
+<row guid="_fe1cf674-fe52-4d56-9477-ea5e56aa396e"
+id="sch-form.Five-tbl-tblr-oc.12">
+<entry guid="_38fbeb95-50f3-40fa-9908-23afc8ad6835"
+id="sch-form.Five-tbl-tblr-oc.12-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_6aa3b155-a505-4de7-9e4b-3b9958420f18"
+id="sch-form.Five-tbl-tblr-oc.12-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader" length="30"></field></txt></entry>
+<entry guid="_f0570c71-79cb-4fe0-8c3e-78e46ffcd893"
+id="sch-form.Five-tbl-tblr-oc.12-tble5" colname="5" rowsep="0"></entry></row>
+
+
+<row guid="_9358707b-a248-41d9-a132-1fee5f5a1e37"
+id="sch-form.Five-tbl-tblr-oc.13">
+<entry guid="_1767ab92-64fc-4576-ae6d-e043a06744dc"
+id="sch-form.Five-tbl-tblr-oc.13-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_acbefdc8-c91c-44e0-abf6-0c3596180e04"
+id="sch-form.Five-tbl-tblr-oc.13-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader" length="30"></field></txt></entry>
+<entry guid="_3dc71086-7457-4f58-9093-91c4f0438d89"
+id="sch-form.Five-tbl-tblr-oc.13-tble5" colname="5" rowsep="0"></entry></row>
+
+
+<row guid="_3bb6044e-a9b7-4d75-bd5a-96c421d8db3e"
+id="sch-form.Five-tbl-tblr-oc.14">
+<entry guid="_2d4a1f09-5409-4b55-88b6-20dda45879a8"
+id="sch-form.Five-tbl-tblr-oc.14-tble1" colname="1"><txt break.before="1">Date
+signed</txt></entry>
+<entry namest="2" nameend="col4" guid="_d79f33ca-3ad6-4c79-b5a9-dd0511529d70"
+id="sch-form.Five-tbl-tblr-oc.14-tble2"><txt break.before="1"><field
+type="blank" length="5"></field> / <field type="blank" length="10"></field>
+/</txt></entry>
+<entry guid="_ccceb6e9-2372-40a8-bd11-cc2ee05c3359"
+id="sch-form.Five-tbl-tblr-oc.14-tble5" colname="5"></entry></row>
+
+
+<row guid="_a4e2cce1-cb5b-4cc4-bd88-ae16ae658a72"
+id="sch-form.Five-tbl-tblr-oc.15">
+<entry guid="_163d6d8f-4274-41ea-bf34-0e874adb4b57"
+id="sch-form.Five-tbl-tblr-oc.15-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" align="center"
+guid="_28dbf46d-dbdd-4499-97c4-2f7684038f92"
+id="sch-form.Five-tbl-tblr-oc.15-tble2" rowsep="0"><txt break.before="1">PART
+2&#8212;</txt></entry>
+<entry guid="_2cbd2cb1-d155-431d-936b-7835d0d42d9b"
+id="sch-form.Five-tbl-tblr-oc.15-tble5" colname="5" morerows="6">
+<block><txt break.before="1">Transferee&#8217;s Broker hereby
+certifies:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ca0f32d4-e163-41c1-bcaa-c1485128aef2"
+id="sch-form.Five-tbl-tblr-oc.15-tble5-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">That, the rights set out in Part 1 above having
+been purchased in the ordinary course of business, the marketable securities
+to which the rights relate are to be allotted to the transferee(s) named in
+this Part.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7f7703f9-28c2-49ab-b0a1-741ee1193a64"
+id="sch-form.Five-tbl-tblr-oc.15-tble5-para1.ii">
+<no>(ii)</no>
+<block><txt break.before="1">That Stamp Duty (if payable) has been or will be
+paid,</txt></block></li></list>
+
+<txt break.before="1">and hereby requests that the marketable securities be
+allotted by the company or corporation to the transferee(s) and such entries
+be made in the register as are necessary to give effect to this renunciation
+and transfer.</txt>
+<txt break.before="1">(Transferee&#8217;s Broker&#8217;s
+Stamp)</txt></block></entry></row>
+
+
+<row guid="_c8f5de6a-481f-4d96-91dc-abd9615a0cfb"
+id="sch-form.Five-tbl-tblr-oc.16">
+<entry guid="_b8163226-904a-4f66-b27d-6b097a1dad29"
+id="sch-form.Five-tbl-tblr-oc.16-tble1" colname="1" rowsep="0"><txt
+break.before="1">Full Name(s) and Address(es) of Transferee(s)</txt></entry>
+<entry guid="_5be6166d-35e7-4821-b273-481819865c91"
+id="sch-form.Five-tbl-tblr-oc.16-tble2" colname="2" colsep="0"
+rowsep="0"><brace height="3" orient="right"></brace></entry>
+<entry namest="3" nameend="col4" guid="_3c76bc63-7671-4d4e-ba9a-2a610a0f7c27"
+id="sch-form.Five-tbl-tblr-oc.16-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_76d48bf4-2877-4224-938f-d17c89f7cb30"
+id="sch-form.Five-tbl-tblr-oc.17">
+<entry guid="_b8c32f91-0eba-4e02-a9b4-d5d0fe84824c"
+id="sch-form.Five-tbl-tblr-oc.17-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_440cc167-e03a-4e1b-ac5f-f137868213ab"
+id="sch-form.Five-tbl-tblr-oc.17-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_15738eb4-ff85-49d1-a318-54d4b1bc89db"
+id="sch-form.Five-tbl-tblr-oc.17-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_d9b5258f-d717-4ef9-bd36-2f2e2fb86282"
+id="sch-form.Five-tbl-tblr-oc.18">
+<entry guid="_ebf21be9-cc0b-444d-b4c0-1e52bb5f10ea"
+id="sch-form.Five-tbl-tblr-oc.18-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_47db7d24-208d-4f97-97b0-36448fdf3504"
+id="sch-form.Five-tbl-tblr-oc.18-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_9e76d3dc-9321-4cce-b66a-8aa8ce04272b"
+id="sch-form.Five-tbl-tblr-oc.18-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_e073efe6-cc2f-4ec2-ab1b-cca52c8ff38f"
+id="sch-form.Five-tbl-tblr-oc.19">
+<entry guid="_808a51d1-f2dd-4c4c-b9ea-3032d4bfdcfd"
+id="sch-form.Five-tbl-tblr-oc.19-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_4933fd41-d6ca-4542-946b-7a220d969f2c"
+id="sch-form.Five-tbl-tblr-oc.19-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_3672270a-8f92-4503-8096-0497ba688b66"
+id="sch-form.Five-tbl-tblr-oc.19-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_090585fa-456e-4517-8271-e264231bd88e"
+id="sch-form.Five-tbl-tblr-oc.20">
+<entry guid="_e8652d3a-e3fc-4e05-853d-efeed0774578"
+id="sch-form.Five-tbl-tblr-oc.20-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_4f1a4111-d679-44f5-a11f-1f307806b55d"
+id="sch-form.Five-tbl-tblr-oc.20-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_72850807-ac05-4db7-969e-63ed224712f0"
+id="sch-form.Five-tbl-tblr-oc.20-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_0941cd7c-62a7-4d9b-bb5d-d5d0ad6b07ea"
+id="sch-form.Five-tbl-tblr-oc.21">
+<entry guid="_4c8efdd0-f77e-4633-b2ad-41f69e62c436"
+id="sch-form.Five-tbl-tblr-oc.21-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_6a5dd6ef-e13a-4cbe-9302-6ea16b117ede"
+id="sch-form.Five-tbl-tblr-oc.21-tble2" colname="2" colsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_72a17e61-3a0c-4dad-88ab-a8d7a6aebe79"
+id="sch-form.Five-tbl-tblr-oc.21-tble3" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_cd4fa1ce-722f-4cbe-831d-a19216d0facc"
+id="sch-form.Five-tbl-tblr-oc.22">
+<entry guid="_d4b38a8d-fc9d-4b4c-bc4e-f6b6d31680d2"
+id="sch-form.Five-tbl-tblr-oc.22-tble1" colname="1" colsep="0"></entry>
+<entry guid="_ba9d390c-c273-42a8-81f3-86a81a7fe3d1"
+id="sch-form.Five-tbl-tblr-oc.22-tble2" colname="2" colsep="0"></entry>
+<entry guid="_38592fed-96de-4821-ae3f-db2f1521a3d1"
+id="sch-form.Five-tbl-tblr-oc.22-tble3" colname="3" colsep="0"></entry>
+<entry guid="_71daab43-b6fb-46b0-b5a3-3de900814085"
+id="sch-form.Five-tbl-tblr-oc.22-tble4" colname="4"></entry>
+<entry guid="_31d01745-e7a9-41af-9337-bf111597f966"
+id="sch-form.Five-tbl-tblr-oc.22-tble5" colname="5"><txt break.before="1">Date
+of affixing stamp</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">* Delete if not
+applicable.</txt></block></level>
+
+
+<level type="form" id="sch-form.Six">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_37ca85d8-6afd-4583-9dab-f3ecdcaa4219"></attrib>
+<attrib name="id" value="sch-form.Six"></attrib></parentattributes>
+
+<head align="left" break.before.heading="0"
+guid="_94d79cd4-d85e-4cd3-8d0c-39d0bb651e65" id="sch-form.Six-hd">
+<no><b>Form Six</b></no></head>
+<block align="right" type="sourceref"><txt>(Section 5)</txt></block>
+<block>
+
+<table frame="topbot" orient="port" heading.align="left" font.size="12.pt"
+guid="_735822a6-aaeb-45a3-adea-0d36d4e937f4" id="sch-form.Six-tbl">
+
+<tgroup cols="5" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="10pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="0.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="3.75pi"></colspec>
+<colspec colnum="4" colname="4" colwidth="4.25pi"></colspec>
+<colspec colnum="5" colname="5" colwidth="10.5pi"></colspec>
+
+<thead>
+
+<row guid="_b1245d92-fb31-4a68-89fe-9e35a9ff7e8e"
+id="sch-form.Six-tbl-tblh-tblr">
+<entry namest="1" nameend="col4" align="center"
+guid="_74b5e010-a459-4f6b-88fe-e18234edde74"
+id="sch-form.Six-tbl-tblh-tblr-tble1"><txt break.before="1">BROKER&#8217;S
+RENUNCIATION AND TRANSFER FORM</txt></entry>
+<entry align="center" guid="_5c65ff06-12ab-42d0-9ddd-ec40c828819b"
+id="sch-form.Six-tbl-tblh-tblr-tble5" colname="5"><txt
+break.before="1">MARKING STAMP</txt></entry></row>
+</thead>
+
+
+<tbody>
+
+<row guid="_d877b323-83b3-4af1-b075-5c80d91ae32a" id="sch-form.Six-tbl-tblr">
+<entry guid="_151e3859-487e-4082-95c2-6d07cf6207ee"
+id="sch-form.Six-tbl-tblr-tble1" colname="1"><txt break.before="1">Full Name
+of Company or Prescribed Corporation</txt></entry>
+<entry namest="2" nameend="col4" align="center"
+guid="_fafb7c34-cc07-4e3d-a23b-aa63977275e6" id="sch-form.Six-tbl-tblr-tble2"
+colsep="0"><txt break.before="1">PART 1&#8212;</txt></entry>
+<entry guid="_dce5fe0c-61df-4cd6-9fd1-0d2a241af83a"
+id="sch-form.Six-tbl-tblr-tble5" colname="5"></entry></row>
+
+
+<row guid="_9ef979bd-c5a3-4dd8-b869-e641145ae2e2"
+id="sch-form.Six-tbl-tblr-oc.2">
+<entry guid="_aaf31717-d458-4beb-88bd-32e53608f666"
+id="sch-form.Six-tbl-tblr-oc.2-tble1" colname="1"><txt
+break.before="1">Description of Rights</txt></entry>
+<entry guid="_2b2bf8c8-d78c-4440-8a35-39d0ccfadd61"
+id="sch-form.Six-tbl-tblr-oc.2-tble2" colname="2" colsep="0"></entry>
+<entry guid="_1070226e-857d-479f-9bcf-660a9d6476f1"
+id="sch-form.Six-tbl-tblr-oc.2-tble3" colname="3" colsep="0"></entry>
+<entry guid="_2cda78f3-7be1-4b2c-9b31-0b6d97f763c7"
+id="sch-form.Six-tbl-tblr-oc.2-tble4" colname="4"></entry>
+<entry align="center" guid="_3a8d4053-c719-48e3-add0-7b6bec13b7a4"
+id="sch-form.Six-tbl-tblr-oc.2-tble5" colname="5"><txt
+break.before="1">Register</txt></entry></row>
+
+
+<row guid="_7f6f9892-a925-4ab4-b937-7e3c176e170e"
+id="sch-form.Six-tbl-tblr-oc.3">
+<entry guid="_53fd803e-6817-4061-a55f-cba34ec97114"
+id="sch-form.Six-tbl-tblr-oc.3-tble1" colname="1"><txt
+break.before="1">Quantity</txt></entry>
+<entry namest="2" nameend="col3" align="center"
+guid="_3f557d19-eb2d-487a-8007-a4419db9ba3b"
+id="sch-form.Six-tbl-tblr-oc.3-tble2" colsep="0"><txt
+break.before="1">Words</txt></entry>
+<entry align="center" guid="_7f4f9a7d-f15d-4ba0-9244-61e95887bd79"
+id="sch-form.Six-tbl-tblr-oc.3-tble4" colname="4"><txt
+break.before="1">Figures</txt></entry>
+<entry guid="_9a7108b6-ac63-47ce-92a9-5aef30490fc3"
+id="sch-form.Six-tbl-tblr-oc.3-tble5" colname="5"></entry></row>
+
+
+<row guid="_2c0a4ea8-1e88-4a5c-b277-a07d9cd8b65e"
+id="sch-form.Six-tbl-tblr-oc.4">
+<entry guid="_d3902993-ece9-4c9a-aa9c-dbc55025a0d6"
+id="sch-form.Six-tbl-tblr-oc.4-tble1" colname="1"><txt
+break.before="1">Transfer Identification Number</txt></entry>
+<entry guid="_4dd2ea83-324e-409b-9d30-32cf9fb6d764"
+id="sch-form.Six-tbl-tblr-oc.4-tble2" colname="2" colsep="0"></entry>
+<entry guid="_ab66cdc1-164a-4399-bee5-00b0b4e6be3a"
+id="sch-form.Six-tbl-tblr-oc.4-tble3" colname="3"></entry>
+<entry guid="_4bdae447-6868-4fa6-a521-188da8f4307d"
+id="sch-form.Six-tbl-tblr-oc.4-tble4" colname="4" rowsep="0"></entry>
+<entry guid="_2ee844e7-10d3-4af0-8fe4-2b59be6407d8"
+id="sch-form.Six-tbl-tblr-oc.4-tble5" colname="5" morerows="3">
+<block><txt break.before="1">Transferor&#8217;s Broker hereby
+certifies:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_28281ae6-5178-429a-9b20-edc1378741d3"
+id="sch-form.Six-tbl-tblr-oc.4-tble5-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">That the Security Renunciation and Transfer Form
+relating to the rights set out above has been or will be lodged at the
+company&#8217;s or corporation&#8217;s office.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_400a8a5a-dae4-4b2b-b963-a8f7ee7b148b"
+id="sch-form.Six-tbl-tblr-oc.4-tble5-para1.ii">
+<no>(ii)</no>
+<block><txt break.before="1">That Stamp Duty (if payable) has been or will be
+paid.</txt></block></li></list>
+
+<txt break.before="1">(Transferor&#8217;s Broker&#8217;s
+Stamp)</txt></block></entry></row>
+
+
+<row guid="_3689d091-db24-42cb-8b0c-66742762e5a9"
+id="sch-form.Six-tbl-tblr-oc.5">
+<entry guid="_bd90656b-4c06-4a25-aa89-cbfe6cb37263"
+id="sch-form.Six-tbl-tblr-oc.5-tble1" colname="1" rowsep="0"><txt
+break.before="1">Full Name(s) of Transferor(s)</txt></entry>
+<entry namest="2" nameend="col4" guid="_d33054bb-fe0e-491a-968f-9bc4d1e7d34b"
+id="sch-form.Six-tbl-tblr-oc.5-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_2998a832-e3e6-48e0-b67b-afac56a1d401"
+id="sch-form.Six-tbl-tblr-oc.6">
+<entry guid="_d7fa2a91-6ffd-4658-8021-dda30cf463bd"
+id="sch-form.Six-tbl-tblr-oc.6-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_30b4f535-6530-40bd-b87d-ee35fe441f5f"
+id="sch-form.Six-tbl-tblr-oc.6-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_1a6c3af8-cae7-43f8-bf55-052327be84e9"
+id="sch-form.Six-tbl-tblr-oc.7">
+<entry guid="_a7f6e946-a96a-4925-862f-377e543514fe"
+id="sch-form.Six-tbl-tblr-oc.7-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_21376253-1abb-4be2-8258-d0e1fc2e7461"
+id="sch-form.Six-tbl-tblr-oc.7-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_1ffdefc8-5c24-453e-9b2f-2632f3e4778e"
+id="sch-form.Six-tbl-tblr-oc.8">
+<entry guid="_4135f64a-aaf7-4e1e-8da6-98f1141b1ce6"
+id="sch-form.Six-tbl-tblr-oc.8-tble1" colname="1"></entry>
+<entry guid="_33782317-1e10-4a36-81e3-b1ab86544a63"
+id="sch-form.Six-tbl-tblr-oc.8-tble2" colname="2" colsep="0"></entry>
+<entry guid="_9ccd2905-26f0-4083-b889-7f30fa406e44"
+id="sch-form.Six-tbl-tblr-oc.8-tble3" colname="3" colsep="0"></entry>
+<entry guid="_d2cbd09e-9301-493e-9f78-bba7b66751d0"
+id="sch-form.Six-tbl-tblr-oc.8-tble4" colname="4"></entry>
+<entry guid="_7d24fde0-8a1b-433f-a9f2-478054f4220a"
+id="sch-form.Six-tbl-tblr-oc.8-tble5" colname="5">
+<block><txt break.before="1">Affixed at <field type="dotleader"
+length="30"></field></txt>
+<txt break.before="1">on <field type="dotleader" length="40"></field></txt>
+<txt break.before="1">(place and date of affixing
+stamp)</txt></block></entry></row>
+
+
+<row guid="_6a6aac19-38ed-4601-95dd-9aa368d401aa"
+id="sch-form.Six-tbl-tblr-oc.9">
+<entry guid="_2d482dc2-390b-4c79-8367-9f9e6961c974"
+id="sch-form.Six-tbl-tblr-oc.9-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" align="center"
+guid="_189efd23-adda-438c-965a-fa0d80952bcc"
+id="sch-form.Six-tbl-tblr-oc.9-tble2" rowsep="0"><txt break.before="1">PART
+2&#8212;</txt></entry>
+<entry guid="_5c9029f9-92b6-4ed6-b59f-53919f11e6ce"
+id="sch-form.Six-tbl-tblr-oc.9-tble5" colname="5" rowsep="0"></entry></row>
+
+
+<row guid="_6190b7fc-a52c-4d4c-b97d-bd204cbf4a84"
+id="sch-form.Six-tbl-tblr-oc.10">
+<entry guid="_17f2d2a3-ac30-4388-a4b2-8c7fc6b76c69"
+id="sch-form.Six-tbl-tblr-oc.10-tble1" colname="1" rowsep="0"><txt
+break.before="1">Full Name(s) and Address(es) of Transferee(s)</txt></entry>
+<entry guid="_1fa994c6-61c6-443f-ab75-0bbc853c3c36"
+id="sch-form.Six-tbl-tblr-oc.10-tble2" colname="2" colsep="0"
+rowsep="0"><brace height="3" orient="right"></brace></entry>
+<entry namest="3" nameend="col4" guid="_f80005b4-151e-48f9-8fec-753f9ae8de51"
+id="sch-form.Six-tbl-tblr-oc.10-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader" length="30"></field></txt></entry>
+<entry guid="_dad4d62f-8b03-4e38-af13-cfbc1705d493"
+id="sch-form.Six-tbl-tblr-oc.10-tble5" colname="5" morerows="6">
+<block><txt break.before="1">Transferee&#8217;s Broker hereby
+certifies:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3061d0c9-e7b3-41d1-8fd2-56dab257a5fc"
+id="sch-form.Six-tbl-tblr-oc.10-tble5-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">That, the rights set out in Part 1 above having
+been purchased in the ordinary course of business, the marketable securities
+to which the rights relate are to be allotted to the transferee(s) named in
+this Part.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4ba920a7-4dda-4e21-83ac-4e8dcc30675f"
+id="sch-form.Six-tbl-tblr-oc.10-tble5-para1.ii">
+<no>(ii)</no>
+<block><txt break.before="1">That Stamp Duty (if payable) has been or will be
+paid,</txt></block></li></list>
+
+<txt break.before="1">and hereby requests that the marketable securities be
+allotted by the company or corporation to the transferee(s) and such entries
+be made in the register as are necessary to give effect to this renunciation
+and transfer.</txt>
+<txt break.before="1">(Transferee&#8217;s Broker&#8217;s
+Stamp)</txt></block></entry></row>
+
+
+<row guid="_8e7ea360-d6b5-46ba-8e7c-a5b38e110dd4"
+id="sch-form.Six-tbl-tblr-oc.11">
+<entry guid="_680928c3-8cbb-4477-8c42-396443748b08"
+id="sch-form.Six-tbl-tblr-oc.11-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_bbb612db-9ca7-452a-b769-2bd02b9f6589"
+id="sch-form.Six-tbl-tblr-oc.11-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_3964ec5e-c436-4537-8dfa-a77300ef4497"
+id="sch-form.Six-tbl-tblr-oc.11-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_a91cedac-cb7a-4595-8550-a038cc6676ae"
+id="sch-form.Six-tbl-tblr-oc.12">
+<entry guid="_b3c59740-c272-40d2-826d-d5cd96665024"
+id="sch-form.Six-tbl-tblr-oc.12-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_0432ae81-0969-436a-b52c-7c6dc864d99e"
+id="sch-form.Six-tbl-tblr-oc.12-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_058cc8ec-f2bd-4450-af24-25adeca70151"
+id="sch-form.Six-tbl-tblr-oc.12-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_4aa230ee-8f85-4309-981a-55f3109b65a6"
+id="sch-form.Six-tbl-tblr-oc.13">
+<entry guid="_38b8b51e-9cfa-4fbd-9546-5b87002d6a88"
+id="sch-form.Six-tbl-tblr-oc.13-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_db95f9e8-3c00-4221-91a1-144abdb3c55c"
+id="sch-form.Six-tbl-tblr-oc.13-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_eeaab58c-8114-4156-9620-781db598c431"
+id="sch-form.Six-tbl-tblr-oc.13-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_927b943e-3e29-4360-9183-d31312619c74"
+id="sch-form.Six-tbl-tblr-oc.14">
+<entry guid="_53c621e2-f68b-4de0-b052-314cc15f1513"
+id="sch-form.Six-tbl-tblr-oc.14-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_c5c5eada-879b-46d8-93eb-6f15b618b649"
+id="sch-form.Six-tbl-tblr-oc.14-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_86e4b5b4-2e3b-4598-8bf3-2c8c7f14d667"
+id="sch-form.Six-tbl-tblr-oc.14-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_84767eae-489d-4a05-bab6-4a69d63ad23f"
+id="sch-form.Six-tbl-tblr-oc.15">
+<entry guid="_f7ced03a-0237-42b2-ba46-b3a9246bc796"
+id="sch-form.Six-tbl-tblr-oc.15-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_58e6011e-ab82-481a-955d-9dfa4cb33579"
+id="sch-form.Six-tbl-tblr-oc.15-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_a36fa92d-43ae-483c-8e10-db6fc4989e6a"
+id="sch-form.Six-tbl-tblr-oc.15-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_58dafb85-5c65-467a-9b48-84ea876a152a"
+id="sch-form.Six-tbl-tblr-oc.16">
+<entry guid="_3ed63344-60e3-462f-bb84-c2398935c8e6"
+id="sch-form.Six-tbl-tblr-oc.16-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_9f7d75ff-3816-4b66-a53a-781cbd22344b"
+id="sch-form.Six-tbl-tblr-oc.16-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_9d278a52-1ccc-4aaa-9723-944c815a9022"
+id="sch-form.Six-tbl-tblr-oc.16-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_33042b54-54f4-4502-9e7f-efcc65e440f4"
+id="sch-form.Six-tbl-tblr-oc.17">
+<entry guid="_e18193f5-008a-4069-94ad-b5998f7a03d9"
+id="sch-form.Six-tbl-tblr-oc.17-tble1" colname="1"></entry>
+<entry guid="_ab42c658-9c3f-43c2-8383-08f33e952283"
+id="sch-form.Six-tbl-tblr-oc.17-tble2" colname="2" colsep="0"></entry>
+<entry guid="_d3288ae9-2673-4e60-8c6b-3454862b2522"
+id="sch-form.Six-tbl-tblr-oc.17-tble3" colname="3" colsep="0"></entry>
+<entry guid="_a8900812-0251-4c91-9ec6-7a7b067a23a9"
+id="sch-form.Six-tbl-tblr-oc.17-tble4" colname="4"></entry>
+<entry guid="_6ea6c572-5c5f-4c43-812a-38ae17af9e04"
+id="sch-form.Six-tbl-tblr-oc.17-tble5" colname="5"><txt break.before="1">Date
+of affixing stamp</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="form" id="sch-form.Seven">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_522bd55f-4a17-4d95-a113-31c3d02e65e9"></attrib>
+<attrib name="id" value="sch-form.Seven"></attrib></parentattributes>
+
+<head align="left" break.before.heading="0"
+guid="_2a516fdb-4e15-4ebd-b073-8ff62bdd12e1" id="sch-form.Seven-hd">
+<no><b>Form Seven</b></no></head>
+<block align="right" type="sourceref"><txt>(Section 5)</txt></block>
+<block>
+
+<table frame="topbot" orient="port" heading.align="left" font.size="12.pt"
+guid="_1fadffee-ffd2-40b1-b16b-741912442ac3" id="sch-form.Seven-tbl">
+
+<tgroup cols="5">
+<colspec colnum="1" colname="1" colwidth="10pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="0.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="3.75pi"></colspec>
+<colspec colnum="4" colname="4" colwidth="4.25pi"></colspec>
+<colspec colnum="5" colname="5" colwidth="10.5pi"></colspec>
+
+<thead>
+
+<row guid="_3b9927c1-d0b6-4dac-89fc-335b0c1ed2cb"
+id="sch-form.Seven-tbl-tblh-tblr">
+<entry namest="1" nameend="col4" align="center"
+guid="_c2f4e5bc-3469-40af-ae69-9111371aeb09"
+id="sch-form.Seven-tbl-tblh-tblr-tble1"><txt break.before="1">RENUNCIATION AND
+SPLIT TRANSFER FORM</txt></entry>
+<entry align="center" guid="_d91a5e28-6f67-4932-9c85-7522745b5a5a"
+id="sch-form.Seven-tbl-tblh-tblr-tble5" colname="5"><txt
+break.before="1">MARKING STAMP</txt></entry></row>
+</thead>
+
+
+<tbody>
+
+<row guid="_70fc455f-c220-4a33-9af6-3b37123e74ef"
+id="sch-form.Seven-tbl-tblr">
+<entry guid="_75ec9510-812d-4514-a774-9c9e46a3550e"
+id="sch-form.Seven-tbl-tblr-tble1" colname="1"><txt break.before="1">Full Name
+of Company or Prescribed Corporation</txt></entry>
+<entry namest="2" nameend="col4" align="center"
+guid="_13275159-bb52-4921-8f7e-63b7cb4e6b12"
+id="sch-form.Seven-tbl-tblr-tble2" colsep="0"><txt break.before="1">PART
+1&#8212;</txt></entry>
+<entry guid="_6dc273ab-519b-40fa-9492-3ae6c8e98456"
+id="sch-form.Seven-tbl-tblr-tble5" colname="5"></entry></row>
+
+
+<row guid="_20fa7dc6-6280-47e2-b5fc-d4b0f55f54e8"
+id="sch-form.Seven-tbl-tblr-oc.2">
+<entry guid="_f71c5f10-dc9e-4c7e-a06d-4eb55582cfb6"
+id="sch-form.Seven-tbl-tblr-oc.2-tble1" colname="1"><txt
+break.before="1">Description of Rights</txt></entry>
+<entry guid="_f183f0d1-1eb1-419a-a1b3-901f2c590232"
+id="sch-form.Seven-tbl-tblr-oc.2-tble2" colname="2" colsep="0"></entry>
+<entry guid="_430ff466-d334-448f-8730-7d2a5331a6c6"
+id="sch-form.Seven-tbl-tblr-oc.2-tble3" colname="3" colsep="0"></entry>
+<entry guid="_ce871c46-e905-48a0-9df8-70b47e77b293"
+id="sch-form.Seven-tbl-tblr-oc.2-tble4" colname="4"></entry>
+<entry align="center" guid="_ccc8c77b-8b1a-41ac-82c0-651cc1509a4c"
+id="sch-form.Seven-tbl-tblr-oc.2-tble5" colname="5"><txt
+break.before="1">Register</txt></entry></row>
+
+
+<row guid="_73ef651c-94cf-4586-8a41-9b57fd1dda86"
+id="sch-form.Seven-tbl-tblr-oc.3">
+<entry guid="_f4c4aaaa-6599-4d6f-8d99-f0c6b65cb85c"
+id="sch-form.Seven-tbl-tblr-oc.3-tble1" colname="1"><txt
+break.before="1">Quantity</txt></entry>
+<entry namest="2" nameend="col3" align="center"
+guid="_6ba89e31-7878-4d5b-bcab-59efc37a663f"
+id="sch-form.Seven-tbl-tblr-oc.3-tble2" colsep="0"><txt
+break.before="1">Words</txt></entry>
+<entry align="center" guid="_7e9bf7d7-f895-422d-9e25-dc338a727863"
+id="sch-form.Seven-tbl-tblr-oc.3-tble4" colname="4"><txt
+break.before="1">Figures</txt></entry>
+<entry guid="_8e76df98-622b-4914-88d2-9ef95f678400"
+id="sch-form.Seven-tbl-tblr-oc.3-tble5" colname="5"></entry></row>
+
+
+<row guid="_59f671c5-1e9c-4be9-b39c-ca72e1668f01"
+id="sch-form.Seven-tbl-tblr-oc.4">
+<entry guid="_2f5a520c-4a89-473d-afcd-7cc2dea50c11"
+id="sch-form.Seven-tbl-tblr-oc.4-tble1" colname="1"><txt
+break.before="1">Transfer Identification Number</txt></entry>
+<entry namest="2" nameend="col3" guid="_496d2c91-480c-4abb-8c4d-81826bc570de"
+id="sch-form.Seven-tbl-tblr-oc.4-tble2"></entry>
+<entry guid="_20f3a547-406d-4438-aa8a-37804ec7319f"
+id="sch-form.Seven-tbl-tblr-oc.4-tble4" colname="4" rowsep="0"></entry>
+<entry guid="_73d2ede4-21db-4050-9341-b004945d1e91"
+id="sch-form.Seven-tbl-tblr-oc.4-tble5" colname="5" morerows="3"
+rowsep="0"><txt break.before="1">The <field type="dotleader"
+length="20"></field> Stock Exchange hereby certifies that the Security
+Renunciation and Transfer Form or the Broker&#8217;s Renunciation and Transfer
+Form, relating to the rights set out above has been or will be lodged at the
+company&#8217;s or corporation&#8217;s office.</txt></entry></row>
+
+
+<row guid="_4452b460-5955-41af-b225-c74f91c3cc37"
+id="sch-form.Seven-tbl-tblr-oc.5">
+<entry guid="_f31bc6e1-044f-4eca-8bce-99a89756a19e"
+id="sch-form.Seven-tbl-tblr-oc.5-tble1" colname="1" rowsep="0"><txt
+break.before="1">Full Name(s) of Transferor(s)</txt></entry>
+<entry namest="2" nameend="col4" guid="_6ceda08a-1242-4bac-8451-1e6d4ae28124"
+id="sch-form.Seven-tbl-tblr-oc.5-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_b9840765-db0e-46b6-9c2c-e00ff65fb58f"
+id="sch-form.Seven-tbl-tblr-oc.6">
+<entry guid="_c21de6b6-ef2f-44d4-92b3-d8a5c1648302"
+id="sch-form.Seven-tbl-tblr-oc.6-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_e413d943-601e-45fa-ad3e-da27c4521faa"
+id="sch-form.Seven-tbl-tblr-oc.6-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_dfdff06e-3971-4753-b83f-71d5f4e5caad"
+id="sch-form.Seven-tbl-tblr-oc.7">
+<entry guid="_35ab58eb-6f8c-4d82-93ee-c3b5cb360856"
+id="sch-form.Seven-tbl-tblr-oc.7-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_d550698b-ecc2-4be6-abed-d4293b49b7f1"
+id="sch-form.Seven-tbl-tblr-oc.7-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_137a7583-bd30-4765-a615-e9c4cb902e8e"
+id="sch-form.Seven-tbl-tblr-oc.8">
+<entry guid="_2a7a4221-fd66-4b79-ac90-64b44ecaeea5"
+id="sch-form.Seven-tbl-tblr-oc.8-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_8f0ea14b-fbe6-4495-8063-3dfb7d77572a"
+id="sch-form.Seven-tbl-tblr-oc.8-tble2" colname="2" colsep="0"
+rowsep="0"></entry>
+<entry guid="_ea148c1c-321f-4f15-841e-0a6889e6706a"
+id="sch-form.Seven-tbl-tblr-oc.8-tble3" colname="3" colsep="0"
+rowsep="0"></entry>
+<entry guid="_cf22b39e-d98b-40bf-b7fc-4ac60d4b9ec6"
+id="sch-form.Seven-tbl-tblr-oc.8-tble4" colname="4" rowsep="0"></entry>
+<entry guid="_c50eb6a0-4cd5-4990-91a6-431d3f315add"
+id="sch-form.Seven-tbl-tblr-oc.8-tble5" colname="5"><txt
+break.before="1">(Stock Exchange Stamp)</txt></entry></row>
+
+
+<row guid="_c6c94f18-5d8d-47de-ab7b-97cf24fe8fed"
+id="sch-form.Seven-tbl-tblr-oc.9">
+<entry guid="_14e962e5-5751-4cc8-a0b6-30bc51b169b1"
+id="sch-form.Seven-tbl-tblr-oc.9-tble1" colname="1"></entry>
+<entry guid="_176730e1-d9b3-4264-99ce-8f502e4fb93c"
+id="sch-form.Seven-tbl-tblr-oc.9-tble2" colname="2" colsep="0"></entry>
+<entry guid="_015c6dc6-6020-489d-bbce-b8d00dc63e26"
+id="sch-form.Seven-tbl-tblr-oc.9-tble3" colname="3" colsep="0"></entry>
+<entry guid="_759e0f26-d41a-4701-a82a-830a70724bf1"
+id="sch-form.Seven-tbl-tblr-oc.9-tble4" colname="4"></entry>
+<entry guid="_82ed5bed-078e-47b6-bf07-db4274ecf3e4"
+id="sch-form.Seven-tbl-tblr-oc.9-tble5" colname="5">
+<block><txt break.before="1">Affixed at <field type="dotleader"
+length="30"></field></txt>
+<txt break.before="1">on <field type="dotleader" length="30"></field></txt>
+<txt break.before="1">(place and date of affixing
+stamp)</txt></block></entry></row>
+
+
+<row guid="_38ae5687-037c-40a8-91ee-647f7e4fdeb5"
+id="sch-form.Seven-tbl-tblr-oc.10">
+<entry guid="_687ad2cb-fb3c-4980-8fd9-af710277eae3"
+id="sch-form.Seven-tbl-tblr-oc.10-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" align="center"
+guid="_a2b12098-8ca4-498d-87e2-b371e7d9fb74"
+id="sch-form.Seven-tbl-tblr-oc.10-tble2" rowsep="0"><txt break.before="1">PART
+2&#8212;</txt></entry>
+<entry guid="_a0e80959-8098-4398-b922-665d4d967ebb"
+id="sch-form.Seven-tbl-tblr-oc.10-tble5" colname="5"
+rowsep="0"></entry></row>
+
+
+<row guid="_56ebd829-d911-46de-a6f7-28b9dc436aed"
+id="sch-form.Seven-tbl-tblr-oc.11">
+<entry guid="_c7dcfac4-0427-4905-9857-aa3c92d4f2cb"
+id="sch-form.Seven-tbl-tblr-oc.11-tble1" colname="1" rowsep="0"><txt
+break.before="1">Full Name(s) and Address(es) of Transferee(s)</txt></entry>
+<entry guid="_fcca7a23-28cf-457e-adff-e6a8eb126435"
+id="sch-form.Seven-tbl-tblr-oc.11-tble2" colname="2" colsep="0"
+rowsep="0"><brace height="3" orient="right"></brace></entry>
+<entry namest="3" nameend="col4" guid="_00cb5ad9-fdd3-403d-9150-191110e71510"
+id="sch-form.Seven-tbl-tblr-oc.11-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader" length="30"></field></txt></entry>
+<entry guid="_3b4114ce-079e-4b39-b5e3-39b0958bb7d8"
+id="sch-form.Seven-tbl-tblr-oc.11-tble5" colname="5" morerows="6">
+<block><txt break.before="1">Transferee&#8217;s Broker hereby
+certifies:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_13f23bff-13aa-45d9-9598-ba4c93721fa0"
+id="sch-form.Seven-tbl-tblr-oc.11-tble5-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">That, the rights set out in Part 1 above having
+been purchased in the ordinary course of business, the marketable securities
+to which the rights relate are to be allotted to the transferee(s) named in
+this Part.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_69dd6cfe-c113-4572-9a88-263475dbbd82"
+id="sch-form.Seven-tbl-tblr-oc.11-tble5-para1.ii">
+<no>(ii)</no>
+<block><txt break.before="1">That Stamp Duty (if payable) has been or will be
+paid,</txt></block></li></list>
+
+<txt break.before="1">and hereby requests that the marketable securities be
+allotted by the company or corporation to the transferee(s) and such entries
+be made in the register as are necessary to give effect to this renunciation
+and transfer.</txt>
+<txt break.before="1">(Transferee&#8217;s Broker&#8217;s
+Stamp)</txt></block></entry></row>
+
+
+<row guid="_4340f901-d6c2-44ce-9792-99caa5bc09d3"
+id="sch-form.Seven-tbl-tblr-oc.12">
+<entry guid="_709ce83f-0b17-4244-88e7-de4f552d9f2d"
+id="sch-form.Seven-tbl-tblr-oc.12-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_20508bc1-70f4-48d0-8405-4b9f372694dd"
+id="sch-form.Seven-tbl-tblr-oc.12-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_352010c7-1565-4af9-a2ec-e2d9a27709ab"
+id="sch-form.Seven-tbl-tblr-oc.12-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_635f54c0-6025-4c63-b51f-958d6e0ab38f"
+id="sch-form.Seven-tbl-tblr-oc.13">
+<entry guid="_3e985fc4-d6f5-4f8c-bbc7-a3c91d2aa86b"
+id="sch-form.Seven-tbl-tblr-oc.13-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_b0fad507-fed2-4d60-9b27-e8592165d580"
+id="sch-form.Seven-tbl-tblr-oc.13-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_6c65499c-0c8d-45e8-848a-7d0c9ae177a5"
+id="sch-form.Seven-tbl-tblr-oc.13-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_18f46c44-d6b5-4c09-b102-451c9cace120"
+id="sch-form.Seven-tbl-tblr-oc.14">
+<entry guid="_e8503128-4297-407d-ba6f-690d345a4c9a"
+id="sch-form.Seven-tbl-tblr-oc.14-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_9a720b53-1803-4848-a505-112ca54b07ae"
+id="sch-form.Seven-tbl-tblr-oc.14-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_0e720731-b564-4c47-a638-c15f912d7cb5"
+id="sch-form.Seven-tbl-tblr-oc.14-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_bd10af50-aa3e-416c-bd9d-bcea4c7ddc1c"
+id="sch-form.Seven-tbl-tblr-oc.15">
+<entry guid="_2e705948-211b-407c-b3df-0df744ef2bfb"
+id="sch-form.Seven-tbl-tblr-oc.15-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_73ad4249-69a5-4501-ada3-9a917e8d74f6"
+id="sch-form.Seven-tbl-tblr-oc.15-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_4ddabf9a-ff56-4de4-bd9e-dab14deb3d6d"
+id="sch-form.Seven-tbl-tblr-oc.15-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_1437a334-6314-4b60-9cd6-eb7fca06afd0"
+id="sch-form.Seven-tbl-tblr-oc.16">
+<entry guid="_51a848d1-9f18-442e-9499-3566021cc52f"
+id="sch-form.Seven-tbl-tblr-oc.16-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_91ef8d77-d8c1-4d0a-b11f-a0e016d9ccc2"
+id="sch-form.Seven-tbl-tblr-oc.16-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_43422a24-d750-458a-8fc5-8f873f56834e"
+id="sch-form.Seven-tbl-tblr-oc.16-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_c79a6ede-2d6c-4909-b99d-153972ce6715"
+id="sch-form.Seven-tbl-tblr-oc.17">
+<entry guid="_8e6a2dfe-977d-410a-81ae-24b1b0b5e4ad"
+id="sch-form.Seven-tbl-tblr-oc.17-tble1" colname="1"></entry>
+<entry guid="_8b8270a4-c14e-4eb9-b7d8-ec2bca0740a8"
+id="sch-form.Seven-tbl-tblr-oc.17-tble2" colname="2" colsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_64f4471e-a7cb-442d-8a1b-10f8867291e4"
+id="sch-form.Seven-tbl-tblr-oc.17-tble3" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_3a632f49-e1af-4e21-bc30-ff5a42c9b71b"
+id="sch-form.Seven-tbl-tblr-oc.18">
+<entry guid="_fd4e5450-7f3e-4752-8688-29fed2d01a40"
+id="sch-form.Seven-tbl-tblr-oc.18-tble1" colname="1" colsep="0"></entry>
+<entry guid="_543426f2-43fa-49c5-b452-5d2a1c00a04b"
+id="sch-form.Seven-tbl-tblr-oc.18-tble2" colname="2" colsep="0"></entry>
+<entry guid="_9f0584b5-64a4-4bdb-bd58-afd46ac4ecdc"
+id="sch-form.Seven-tbl-tblr-oc.18-tble3" colname="3" colsep="0"></entry>
+<entry guid="_1ffaf1c9-d238-4f61-a8e5-1bf0b7080765"
+id="sch-form.Seven-tbl-tblr-oc.18-tble4" colname="4"></entry>
+<entry guid="_973a93a3-8cb0-49a2-83dd-e200f55bf151"
+id="sch-form.Seven-tbl-tblr-oc.18-tble5" colname="5"><txt
+break.before="1">Date of affixing stamp</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="form" id="sch-form.Eight">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_cb95afe7-1c3e-46be-8560-9f660d00ec0b"></attrib>
+<attrib name="id" value="sch-form.Eight"></attrib></parentattributes>
+
+<head align="left" break.before.heading="0"
+guid="_11cca818-4c93-40cd-82df-6e66e61e374d" id="sch-form.Eight-hd">
+<no><b>Form Eight</b></no></head>
+<block align="right" type="sourceref"><txt>(Section 6)</txt></block>
+<block>
+
+<table frame="topbot" orient="port" heading.align="left" font.size="12.pt"
+guid="_4df78975-7d4d-4286-954c-1b0a76cb8d90" id="sch-form.Eight-tbl">
+
+<tgroup cols="5">
+<colspec colnum="1" colname="1" colwidth="10pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="0.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="3.75pi"></colspec>
+<colspec colnum="4" colname="4" colwidth="4.25pi"></colspec>
+<colspec colnum="5" colname="5" colwidth="10.5pi"></colspec>
+
+<thead>
+
+<row guid="_9eea74df-0389-4ef3-af50-1dbf126264b8"
+id="sch-form.Eight-tbl-tblh-tblr">
+<entry namest="1" nameend="col4" align="center"
+guid="_b98f74fd-db32-4547-bbec-2a7db8f6292d"
+id="sch-form.Eight-tbl-tblh-tblr-tble1"><txt break.before="1">TRUSTEE TRANSFER
+FORM</txt></entry>
+<entry align="center" guid="_3a7c8faa-e9c3-435b-a933-ecc158095e70"
+id="sch-form.Eight-tbl-tblh-tblr-tble5" colname="5"><txt
+break.before="1">MARKING STAMP</txt></entry></row>
+</thead>
+
+
+<tbody>
+
+<row guid="_6c34cb35-0801-4e4e-8cea-a30fd8cf36e6"
+id="sch-form.Eight-tbl-tblr">
+<entry guid="_d6ccc728-e859-4918-8a27-6caa2f37a2d9"
+id="sch-form.Eight-tbl-tblr-tble1" colname="1"><txt break.before="1">Full Name
+of Company or Prescribed Corporation</txt></entry>
+<entry namest="2" nameend="col4" align="center"
+guid="_eff64720-e6a5-43a6-b9a3-9037a915f702"
+id="sch-form.Eight-tbl-tblr-tble2" colsep="0"><txt break.before="1">PART
+1&#8212;</txt></entry>
+<entry guid="_e6d7229c-ee62-4e04-b258-2c6d876bdef1"
+id="sch-form.Eight-tbl-tblr-tble5" colname="5"></entry></row>
+
+
+<row guid="_b692212b-eb65-4946-bd06-f19ccf8fad58"
+id="sch-form.Eight-tbl-tblr-oc.2">
+<entry guid="_0be57a3b-0c7e-4aba-90f7-dd81115ecfa1"
+id="sch-form.Eight-tbl-tblr-oc.2-tble1" colname="1"><txt
+break.before="1">Description of Securities</txt></entry>
+<entry namest="2" nameend="col3" align="center"
+guid="_db8ad051-4256-4732-b744-1b070f198e58"
+id="sch-form.Eight-tbl-tblr-oc.2-tble2" colsep="0"><txt
+break.before="1">Class</txt></entry>
+<entry align="center" guid="_5bb4de64-50fa-4713-8356-7f2a248830de"
+id="sch-form.Eight-tbl-tblr-oc.2-tble4" colname="4">
+<block><txt break.before="1">if not fully paid</txt>
+<txt break.before="1">paid to</txt></block></entry>
+<entry align="center" guid="_ab56fc4e-7300-44a1-8751-edb20406301a"
+id="sch-form.Eight-tbl-tblr-oc.2-tble5" colname="5"><txt
+break.before="1">Register</txt></entry></row>
+
+
+<row guid="_51670586-9f1d-46a9-952b-3e8c6e562801"
+id="sch-form.Eight-tbl-tblr-oc.3">
+<entry guid="_9d3a7324-d9fd-4a9c-b082-9854a39e6be5"
+id="sch-form.Eight-tbl-tblr-oc.3-tble1" colname="1"><txt
+break.before="1">Quantity</txt></entry>
+<entry namest="2" nameend="col3" align="center"
+guid="_3c5ace3e-6ed1-433d-8ddb-63df599f5765"
+id="sch-form.Eight-tbl-tblr-oc.3-tble2" colsep="0"><txt
+break.before="1">Words</txt></entry>
+<entry align="center" guid="_021fbc17-c6a6-4a2d-9a10-920ffd455474"
+id="sch-form.Eight-tbl-tblr-oc.3-tble4" colname="4"><txt
+break.before="1">Figures</txt></entry>
+<entry guid="_c30adb46-e80b-499d-9c5d-6d5dc664b1f7"
+id="sch-form.Eight-tbl-tblr-oc.3-tble5" colname="5"></entry></row>
+
+
+<row guid="_5255e571-4f16-454c-977a-6dae7ff9c125"
+id="sch-form.Eight-tbl-tblr-oc.4">
+<entry guid="_fb7837d7-6b74-4f49-b817-070770522ca1"
+id="sch-form.Eight-tbl-tblr-oc.4-tble1" colname="1"><txt
+break.before="1">Transfer Identification Number (where
+appropriate)</txt></entry>
+<entry guid="_73a1544e-84bc-4c93-a39b-fcb808c8cefa"
+id="sch-form.Eight-tbl-tblr-oc.4-tble2" colname="2" colsep="0"></entry>
+<entry namest="3" nameend="col4" guid="_64e87ce4-6fa9-4702-9ca3-4b02a52eea0e"
+id="sch-form.Eight-tbl-tblr-oc.4-tble3"></entry>
+<entry guid="_fcd12659-5dd9-42a1-bcc7-104497c60bcc"
+id="sch-form.Eight-tbl-tblr-oc.4-tble5" colname="5"></entry></row>
+
+
+<row guid="_4f534fda-fa58-4a16-8a7e-bac20ebc5bba"
+id="sch-form.Eight-tbl-tblr-oc.5">
+<entry guid="_795117c8-d618-46cc-84c9-80912a378f2c"
+id="sch-form.Eight-tbl-tblr-oc.5-tble1" colname="1" morerows="2"><txt
+break.before="1">Full Name of Transferor (Authorized trustee
+corporation)</txt></entry>
+<entry namest="2" nameend="col5" guid="_c793b1ca-1dd1-4fbb-bf5f-c17464ce10f4"
+id="sch-form.Eight-tbl-tblr-oc.5-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="70"></field></txt></entry></row>
+
+
+<row guid="_23370fd0-e4ad-4a01-9944-fa58316339d5"
+id="sch-form.Eight-tbl-tblr-oc.6">
+<entry namest="2" nameend="col5" guid="_418910fd-76e2-4a33-8bc7-7cc130f4f68e"
+id="sch-form.Eight-tbl-tblr-oc.6-tble2" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="70"></field></txt></entry></row>
+
+
+<row guid="_0245fcd9-f87a-4b9b-a0aa-4c4d0e9d9864"
+id="sch-form.Eight-tbl-tblr-oc.7">
+<entry guid="_34994267-e987-45cd-9851-80537ed55679"
+id="sch-form.Eight-tbl-tblr-oc.7-tble2" colname="2" colsep="0"></entry>
+<entry namest="3" nameend="col5" guid="_1d9366b4-26e4-4579-a142-435442754784"
+id="sch-form.Eight-tbl-tblr-oc.7-tble3"></entry></row>
+
+
+<row guid="_3bda3e0c-051d-46b4-a914-74b575c919ca"
+id="sch-form.Eight-tbl-tblr-oc.8">
+<entry guid="_02e4e1e5-b080-4ed2-833c-ae8ddcce94d3"
+id="sch-form.Eight-tbl-tblr-oc.8-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" align="center"
+guid="_7dad7f99-1789-41b9-80d9-3c4a3c4911b1"
+id="sch-form.Eight-tbl-tblr-oc.8-tble2" rowsep="0"><txt break.before="1">PART
+2&#8212;</txt></entry>
+<entry guid="_8203ad2d-ead3-4da2-b513-8a4c4eabf885"
+id="sch-form.Eight-tbl-tblr-oc.8-tble5" colname="5" morerows="6"><txt
+break.before="1">Transferor hereby certifies that the securities set out in
+Part 1 above are to be registered in the name(s) of the transferee(s) named in
+this Part being the person(s) for or on whose behalf the transferor held them
+in the ordinary course of business immediately before the execution of this
+transfer, and hereby requests that such entries be made in the register as are
+necessary to give effect to this transfer.</txt></entry></row>
+
+
+<row guid="_70c4068a-780c-413d-82ad-57b76b1f2e41"
+id="sch-form.Eight-tbl-tblr-oc.9">
+<entry guid="_0acf35a0-5750-4308-9a44-86b2d6f7f3b3"
+id="sch-form.Eight-tbl-tblr-oc.9-tble1" colname="1" rowsep="0"><txt
+break.before="1">Full Name(s) and Address(es) of Transferee(s)</txt></entry>
+<entry guid="_dee6780b-8201-44e9-9521-ac6804878238"
+id="sch-form.Eight-tbl-tblr-oc.9-tble2" colname="2" colsep="0"
+rowsep="0"><brace height="3" orient="right"></brace></entry>
+<entry namest="3" nameend="col4" guid="_39f726bd-3fd3-4065-9599-3f3dcee3781c"
+id="sch-form.Eight-tbl-tblr-oc.9-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_3b00fcdf-d0b5-4dab-b838-07272250b76c"
+id="sch-form.Eight-tbl-tblr-oc.10">
+<entry guid="_d4498a22-081d-4825-ab83-3f2ba5d12691"
+id="sch-form.Eight-tbl-tblr-oc.10-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_e2141a3b-9711-4b0f-be05-4cbab3112c78"
+id="sch-form.Eight-tbl-tblr-oc.10-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_02230cf2-ecc7-4b7f-bfe9-374840e42bd5"
+id="sch-form.Eight-tbl-tblr-oc.10-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_00fca246-153c-4196-9d74-795a9996ddea"
+id="sch-form.Eight-tbl-tblr-oc.11">
+<entry guid="_e6ae325c-cd7e-4707-aeea-827cc573fad4"
+id="sch-form.Eight-tbl-tblr-oc.11-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_2517d3ba-f8e6-4655-9b1d-0dd549d2214b"
+id="sch-form.Eight-tbl-tblr-oc.11-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_66789a0e-79bf-4530-b58e-5424f48f967d"
+id="sch-form.Eight-tbl-tblr-oc.11-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_c6eaac2d-4d08-42e1-bae1-806cfb55fa49"
+id="sch-form.Eight-tbl-tblr-oc.12">
+<entry guid="_963b69ac-6554-411a-b8e1-8fab72c23e0b"
+id="sch-form.Eight-tbl-tblr-oc.12-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_7da19455-ed87-41f0-a407-dc3a0a3859ef"
+id="sch-form.Eight-tbl-tblr-oc.12-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_a3f20a53-8d5b-443d-87e0-87ccd128f81f"
+id="sch-form.Eight-tbl-tblr-oc.12-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_6a37083f-0287-4c68-a5c7-69ba4aa6efca"
+id="sch-form.Eight-tbl-tblr-oc.13">
+<entry guid="_d27c294c-a107-4aa3-97a4-b479fc03be5e"
+id="sch-form.Eight-tbl-tblr-oc.13-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_514d0316-fbc4-49c5-89ec-da8d8b3f84d2"
+id="sch-form.Eight-tbl-tblr-oc.13-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_3ae01b6e-7de3-4dac-b325-bf3a67e56905"
+id="sch-form.Eight-tbl-tblr-oc.13-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_92de2f83-3c5c-4318-8865-3a9fc9c152de"
+id="sch-form.Eight-tbl-tblr-oc.14">
+<entry guid="_5f93dcbd-369a-4801-8c36-18a488dd222e"
+id="sch-form.Eight-tbl-tblr-oc.14-tble1" colname="1"></entry>
+<entry guid="_fc69817c-36bc-451f-92e9-a147d5103355"
+id="sch-form.Eight-tbl-tblr-oc.14-tble2" colname="2" colsep="0"></entry>
+<entry namest="3" nameend="col4" guid="_cae94507-e7d0-4a9a-81bb-914083d792a9"
+id="sch-form.Eight-tbl-tblr-oc.14-tble3"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">The transferor, being an authorized trustee
+corporation, hereby transfers the above securities out of the name in Part 1
+hereof to the transferee(s) named in Part 2 hereof.</txt></block>
+<block><txt break.before="1">Execution by the Transferor.</txt></block>
+<block align="center"><txt break.before="1">Date of execution <field
+type="dotleader" length="10"></field>/<field type="dotleader"
+length="10"></field>/<field type="dotleader"
+length="10"></field></txt></block></level>
+
+
+<level type="form" id="sch-form.Nine">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_23e0294a-c0ca-4b2f-9f74-e7b133c154f4"></attrib>
+<attrib name="id" value="sch-form.Nine"></attrib></parentattributes>
+
+<head align="left" break.before.heading="0"
+guid="_245078be-fb94-4198-bedb-a299106dd784" id="sch-form.Nine-hd">
+<no><b>Form Nine</b></no><heading guid="_7ca0f7da-4ba9-4a71-b4a2-737fa7dfd891"
+id="sch-form.Nine-hd-he"><b>Transferee&#8217;s
+acceptance</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 6)</txt></block>
+<block><txt break.before="1"><i>For completion:</i></txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fcd95050-c23c-498f-a95c-4dd2133b9bd2" id="sch-form.Nine-para1">
+<block><txt break.before="1">by transferee(s) of securities with an uncalled
+liability (not being partly paid shares in a no-liability company) where the
+securities are transferred by an authorized trustee corporation to the
+person(s) for or on whose behalf it held them in the ordinary course of its
+business immediately before the execution of this
+transfer.</txt></block></li></list>
+</block>
+<block><txt break.before="1">To <field type="dotleader"
+length="endofline"></field></txt></block>
+<block align="center"><txt break.before="1">(Name of company or prescribed
+corporation whose securities are involved)</txt></block>
+<block><txt break.before="1">I (<i>or</i> We) <field type="dotleader"
+length="endofline"></field></txt></block>
+<block><txt break.before="1">of <field type="dotleader"
+length="endofline"></field></txt></block>
+<block><txt break.before="1">being the transferee(s) of <field
+type="dotleader" length="endofline"></field></txt></block>
+<block align="right"><txt break.before="1">(Quantity and Description of
+securities)</txt></block>
+<block><txt break.before="1">(comprised in the <field type="dotleader"
+length="endofline"></field></txt></block>
+<block align="right"><txt break.before="1">(number)</txt></block>
+<block><txt break.before="1">instrument(s) of transfer
+attached)</txt></block>
+<block><txt break.before="1">each paid to <field type="dotleader"
+length="50"></field> in the abovenamed company or corporation and being the
+person(s) named as the transferee(s) in the Trustee Transfer Form relating to
+those securities and having attained the age of twenty-one years HEREBY AGREE
+to accept the said securities subject to the several terms and conditions on
+which the transferor held them at the time of the transfer of the said
+securities by the transferor to me (<i>or</i> us) and FURTHER AGREE to become
+a member (<i>or</i> members) of the company or corporation and to be bound by
+the memorandum and articles or by the constitution of the company or
+corporation upon being registered as the holder(s) of the
+securities.</txt></block>
+<block align="right"><txt break.before="1">Signature(s) of Transferee(s)
+<field type="dotleader" length="70"></field></txt></block>
+<block><txt break.before="1">Dated the <field type="dotleader"
+length="40"></field> day of <field type="dotleader" length="40"></field>,
+19<field type="dotleader" length="20"></field></txt></block></level>
+
+
+<level type="form" id="sch-form.Ten">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_20be2d62-eab2-4744-a541-a89de7c06b02"></attrib>
+<attrib name="id" value="sch-form.Ten"></attrib></parentattributes>
+
+<head align="left" break.before.heading="0"
+guid="_e13f68b5-4eab-4df9-a1c5-3ad828b8d8b1" id="sch-form.Ten-hd">
+<no><b>Form Ten</b></no></head>
+<block align="right" type="sourceref"><txt>(Section 6)</txt></block>
+<block>
+
+<table frame="topbot" orient="port" heading.align="left" font.size="12.pt"
+guid="_ec51ab09-7aaa-4f5a-a5ac-52b5527639bd" id="sch-form.Ten-tbl">
+
+<tgroup cols="5">
+<colspec colnum="1" colname="1" colwidth="10pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="0.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="3.75pi"></colspec>
+<colspec colnum="4" colname="4" colwidth="4.25pi"></colspec>
+<colspec colnum="5" colname="5" colwidth="10.5pi"></colspec>
+
+<thead>
+
+<row guid="_1521fe8c-9d9f-4802-84f7-a4d02ff10124"
+id="sch-form.Ten-tbl-tblh-tblr">
+<entry namest="1" nameend="col4" align="center"
+guid="_42829636-86c6-4d47-b3f7-655cca02ab2b"
+id="sch-form.Ten-tbl-tblh-tblr-tble1"><txt break.before="1">TRUSTEE
+RENUNCIATION AND TRANSFER FORM</txt></entry>
+<entry guid="_077bfda0-ae06-43ba-90ac-8a17b57cb46e"
+id="sch-form.Ten-tbl-tblh-tblr-tble5" colname="5"></entry></row>
+</thead>
+
+
+<tbody>
+
+<row guid="_ee77fb8e-66d6-49a8-8495-03e6281e0aa3" id="sch-form.Ten-tbl-tblr">
+<entry guid="_3a69c20b-580d-468d-b9d1-77adb30f9033"
+id="sch-form.Ten-tbl-tblr-tble1" colname="1"><txt break.before="1">Full Name
+of Company or Prescribed Corporation</txt></entry>
+<entry namest="2" nameend="col4" align="center"
+guid="_dec78458-318b-4ba2-bf76-b5595f55e8a3" id="sch-form.Ten-tbl-tblr-tble2"
+colsep="0"><txt break.before="1">PART 1&#8212;</txt></entry>
+<entry guid="_424afd1c-9d55-42b7-bc5c-4de86ebabae4"
+id="sch-form.Ten-tbl-tblr-tble5" colname="5"></entry></row>
+
+
+<row guid="_d6152352-77c1-40ff-91fd-b89be8f9b83f"
+id="sch-form.Ten-tbl-tblr-oc.2">
+<entry guid="_edf03eec-a710-4f2b-88e5-78cc3127a5bb"
+id="sch-form.Ten-tbl-tblr-oc.2-tble1" colname="1"><txt
+break.before="1">Description of Rights</txt></entry>
+<entry guid="_b9b5d066-4ac6-46be-ac34-eaae41c1a0da"
+id="sch-form.Ten-tbl-tblr-oc.2-tble2" colname="2" colsep="0"></entry>
+<entry guid="_98bb4202-67dc-4fe7-91d3-7101580ef8e0"
+id="sch-form.Ten-tbl-tblr-oc.2-tble3" colname="3" colsep="0"></entry>
+<entry guid="_fa045ba9-edf5-449c-a855-02b34bd1efac"
+id="sch-form.Ten-tbl-tblr-oc.2-tble4" colname="4"></entry>
+<entry align="center" guid="_670ff105-d4b4-43ce-8a32-566f1319ba7e"
+id="sch-form.Ten-tbl-tblr-oc.2-tble5" colname="5"><txt
+break.before="1">Register</txt></entry></row>
+
+
+<row guid="_156f3fe2-cbc6-433c-87e0-3389707d4b86"
+id="sch-form.Ten-tbl-tblr-oc.3">
+<entry guid="_d0cf2c13-ace2-4f7b-aae2-b57d5e1fc923"
+id="sch-form.Ten-tbl-tblr-oc.3-tble1" colname="1"><txt
+break.before="1">Quantity</txt></entry>
+<entry namest="2" nameend="col3" align="center"
+guid="_49cf6912-1bad-4dcd-a6cb-b2d0698138d4"
+id="sch-form.Ten-tbl-tblr-oc.3-tble2" colsep="0"><txt
+break.before="1">Words</txt></entry>
+<entry align="center" guid="_7c13bb2e-005b-4f2c-85f8-2f6a1f061bbb"
+id="sch-form.Ten-tbl-tblr-oc.3-tble4" colname="4"><txt
+break.before="1">Figures</txt></entry>
+<entry guid="_ecaa1aaf-f2a5-4a1d-ab40-05ab04155431"
+id="sch-form.Ten-tbl-tblr-oc.3-tble5" colname="5"></entry></row>
+
+
+<row guid="_76b12135-b869-483c-b2c0-056422eed4a7"
+id="sch-form.Ten-tbl-tblr-oc.4">
+<entry guid="_b539d155-46fc-4e34-bfff-ea2a6eda09ad"
+id="sch-form.Ten-tbl-tblr-oc.4-tble1" colname="1"><txt
+break.before="1">Transfer Identification Number (where
+appropriate)</txt></entry>
+<entry guid="_8105237a-b43d-4bf9-a966-c03c5b39b832"
+id="sch-form.Ten-tbl-tblr-oc.4-tble2" colname="2" colsep="0"></entry>
+<entry namest="3" nameend="col4" guid="_5230a9ac-5dcd-4aaf-82f9-8e6d7bd084af"
+id="sch-form.Ten-tbl-tblr-oc.4-tble3"></entry>
+<entry guid="_e58babcf-e8b4-49e5-9f29-3e21091f8633"
+id="sch-form.Ten-tbl-tblr-oc.4-tble5" colname="5"></entry></row>
+
+
+<row guid="_6a5794b1-c6a1-44cc-b4fa-c081b03f54de"
+id="sch-form.Ten-tbl-tblr-oc.5">
+<entry guid="_61e17347-d205-40f1-9535-8a58564695a3"
+id="sch-form.Ten-tbl-tblr-oc.5-tble1" colname="1" morerows="2"><txt
+break.before="1">Full Name of Transferor (Authorized trustee
+corporation)</txt></entry>
+<entry namest="2" nameend="col5" guid="_93777e5c-5b0e-4c60-88c4-5b81320310c3"
+id="sch-form.Ten-tbl-tblr-oc.5-tble2" rowsep="0"><txt break.before="1"><field
+type="dotleader" length="70"></field></txt></entry></row>
+
+
+<row guid="_3b456482-33af-4555-adaa-004741cdb731"
+id="sch-form.Ten-tbl-tblr-oc.6">
+<entry namest="2" nameend="col5" guid="_4f7f32f1-a308-41c1-ad1e-651182da0e1c"
+id="sch-form.Ten-tbl-tblr-oc.6-tble2" rowsep="0"><txt break.before="1"><field
+type="dotleader" length="70"></field></txt></entry></row>
+
+
+<row guid="_7d0c8321-b145-404e-be1a-80e0700f96aa"
+id="sch-form.Ten-tbl-tblr-oc.7">
+<entry guid="_926b7e10-fe9f-47b5-abb9-68eaf8685620"
+id="sch-form.Ten-tbl-tblr-oc.7-tble2" colname="2" colsep="0"></entry>
+<entry namest="3" nameend="col5" guid="_ab54fddb-2b99-4589-a941-d23f7a5184d0"
+id="sch-form.Ten-tbl-tblr-oc.7-tble3"></entry></row>
+
+
+<row guid="_6a5125a3-9562-4758-bf30-a1e99b7cc935"
+id="sch-form.Ten-tbl-tblr-oc.8">
+<entry guid="_28deea8c-8777-473c-ad42-f4a9f24f8f80"
+id="sch-form.Ten-tbl-tblr-oc.8-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" align="center"
+guid="_055cb794-5284-48fc-ae07-f2a2ba2211ae"
+id="sch-form.Ten-tbl-tblr-oc.8-tble2" rowsep="0"><txt break.before="1">PART
+2&#8212;</txt></entry>
+<entry guid="_821d9026-c5ff-42f7-993c-7a431eadfab8"
+id="sch-form.Ten-tbl-tblr-oc.8-tble5" colname="5" morerows="7"><txt
+break.before="1">Transferor hereby certifies that, the rights set out in Part
+1 above having been transferred to the person(s) for or on whose behalf the
+transferor held them in the ordinary course of business immediately before the
+transfer, the marketable securities to which the rights relate are to be
+allotted to the transferee(s) named in this Part and hereby requests that the
+marketable securities be allotted by the company or corporation to the
+transferee(s) and such entries be made in the register as are necessary to
+give effect to this renunciation and transfer.</txt></entry></row>
+
+
+<row guid="_acbf0ccb-c13b-4381-b5fd-2284c7ec4a02"
+id="sch-form.Ten-tbl-tblr-oc.9">
+<entry guid="_631d9e48-625f-45e3-bca7-ed6f4bca7cba"
+id="sch-form.Ten-tbl-tblr-oc.9-tble1" colname="1" rowsep="0"><txt
+break.before="1">Full Name(s) and Address(es) of Transferee(s)</txt></entry>
+<entry guid="_40707a95-86f1-4cdb-aa7f-ea4a18ca2091"
+id="sch-form.Ten-tbl-tblr-oc.9-tble2" colname="2" colsep="0" rowsep="0"><brace
+height="3" orient="right"></brace></entry>
+<entry namest="3" nameend="col4" guid="_95fdfcc1-9d10-43b9-a4df-497dead64bd7"
+id="sch-form.Ten-tbl-tblr-oc.9-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_7e803af7-b786-45f1-8a45-bb644946c4aa"
+id="sch-form.Ten-tbl-tblr-oc.10">
+<entry guid="_582583d9-d6a4-46df-a6d0-87dedc8ad300"
+id="sch-form.Ten-tbl-tblr-oc.10-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_a69e4578-be53-46ac-82bd-302d0275655c"
+id="sch-form.Ten-tbl-tblr-oc.10-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_4ccd66cd-8b0a-46ab-9a4a-1a5ac520b8cc"
+id="sch-form.Ten-tbl-tblr-oc.10-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_2e9fc33d-fb93-4917-b73a-362b810d7195"
+id="sch-form.Ten-tbl-tblr-oc.11">
+<entry guid="_24dac15a-6c4c-406c-a4dc-815e98e8f922"
+id="sch-form.Ten-tbl-tblr-oc.11-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_66dd31cb-6130-4410-9bb9-3a70af1cef89"
+id="sch-form.Ten-tbl-tblr-oc.11-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_5613b00d-f128-474a-9df3-206575574e76"
+id="sch-form.Ten-tbl-tblr-oc.11-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_3f4b2010-dcad-4d13-b608-b35ea191b9c9"
+id="sch-form.Ten-tbl-tblr-oc.12">
+<entry guid="_8b7b3156-8b81-4e12-ab4c-824623cf3c40"
+id="sch-form.Ten-tbl-tblr-oc.12-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_3972ab1b-21fb-4436-90dc-20a4febd3e4c"
+id="sch-form.Ten-tbl-tblr-oc.12-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_aadeb7c2-4e82-4ce2-930f-ceec9e64939b"
+id="sch-form.Ten-tbl-tblr-oc.12-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_b87c8384-e72f-44fb-8f34-630a7e16bd3c"
+id="sch-form.Ten-tbl-tblr-oc.13">
+<entry guid="_1b6a4db9-90e8-43b3-80d8-229405cebb0d"
+id="sch-form.Ten-tbl-tblr-oc.13-tble1" colname="1" rowsep="0"></entry>
+<entry guid="_10c104c4-08f8-4dd5-baee-7f1203af4ce5"
+id="sch-form.Ten-tbl-tblr-oc.13-tble2" colname="2" colsep="0" rowsep="0"
+valign="middle"></entry>
+<entry namest="3" nameend="col4" guid="_ef55edf5-04cd-4bf7-afce-288a5e38ec6e"
+id="sch-form.Ten-tbl-tblr-oc.13-tble3" rowsep="0" valign="middle"><txt
+break.before="1"><field type="dotleader"
+length="30"></field></txt></entry></row>
+
+
+<row guid="_e230a2e8-5a5d-498a-8a8a-4840c7240e5f"
+id="sch-form.Ten-tbl-tblr-oc.14">
+<entry guid="_ee97ad6e-73d8-4b9a-9dd5-5674550559e3"
+id="sch-form.Ten-tbl-tblr-oc.14-tble1" colname="1" rowsep="0"></entry>
+<entry namest="2" nameend="col4" guid="_75b1f6c4-6128-45ec-82f9-e680d8bcf5ca"
+id="sch-form.Ten-tbl-tblr-oc.14-tble2" rowsep="0" valign="middle"><txt
+break.before="1">State <field type="dotleader"
+length="20"></field></txt></entry></row>
+
+
+<row guid="_87e7e42c-854c-4f89-aa74-1353c0c628d3"
+id="sch-form.Ten-tbl-tblr-oc.15">
+<entry guid="_679cdff5-d1f5-4840-9959-18277f65b5c2"
+id="sch-form.Ten-tbl-tblr-oc.15-tble1" colname="1"></entry>
+<entry guid="_9949cc39-edff-46ad-a2a1-cf2ca82c3bab"
+id="sch-form.Ten-tbl-tblr-oc.15-tble2" colname="2" colsep="0"></entry>
+<entry namest="3" nameend="col4" guid="_7ed66e27-ff40-44dd-8a76-2c8ba1dff290"
+id="sch-form.Ten-tbl-tblr-oc.15-tble3"></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">The transferor, being an authorized trustee
+corporation, hereby renounces and transfers the above rights in favour of the
+transferee(s) named in Part 2 hereof.</txt></block>
+<block><txt break.before="1">Execution by the Transferor.</txt></block>
+<block align="center"><txt break.before="1">Date of execution <field
+type="dotleader" length="10"></field>/<field type="dotleader"
+length="10"></field>/<field type="dotleader"
+length="10"></field></txt></block></level>
+
+
+<level type="form" id="sch-form.Eleven">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_4e7ef83f-297e-488f-84db-376ee3b77066"></attrib>
+<attrib name="id" value="sch-form.Eleven"></attrib></parentattributes>
+
+<head align="left" break.before.heading="0"
+guid="_66f165e0-0176-4fc1-9c69-06be67dbcaf1" id="sch-form.Eleven-hd">
+<no><b>Form Eleven</b></no><heading
+guid="_6319a56b-6169-4173-9a3a-93f4bac5d7ad"
+id="sch-form.Eleven-hd-he"><b>Transferee&#8217;s
+acceptance</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 6)</txt></block>
+<block><txt break.before="1"><i>For completion:</i></txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3f7bc2aa-cf54-43ef-98d0-36c8a096eb0a" id="sch-form.Eleven-para1">
+<block><txt break.before="1">by persons to whom rights are transferred by an
+authorized trustee corporation where whole of moneys to be subscribed for
+marketable securities to which rights relate is not payable in full on
+application and the securities are not shares in a no-liability company and
+the rights were held for or on behalf of the person(s) by the authorized
+trustee corporation.</txt></block></li></list>
+</block>
+<block><txt break.before="1">To <field type="dotleader"
+length="endofline"></field></txt></block>
+<block align="right"><txt break.before="1">(Name of company or prescribed
+corporation whose securities are involved.)</txt></block>
+<block><txt break.before="1">I (<i>or</i> We) <field type="dotleader"
+length="endofline"></field></txt>
+<txt break.before="1"><field type="dotleader"
+length="endofline"></field></txt></block>
+<block><txt break.before="1">of <field type="dotleader"
+length="endofline"></field></txt></block>
+<block><txt break.before="1">being the transferee(s) of <field
+type="dotleader" length="endofline"></field></txt></block>
+<block align="right"><txt break.before="1">(Quantity and Description of
+Rights)</txt></block>
+<block><txt break.before="1">(comprised in the <field type="dotleader"
+length="endofline"></field></txt></block>
+<block align="right"><txt break.before="1">(number)</txt></block>
+<block><txt break.before="1">instrument(s) of renunciation and transfer
+attached) to marketable securities in respect of which there is an uncalled
+liability of <field type="dotleader" length="30"></field> per unit (after the
+payment of application moneys, if any) and being the person(s) named as
+transferee(s) in the Trustee Renunciation and Transfer Form and having
+attained the age of twenty-one years HEREBY AGREE to accept the marketable
+securities to which the rights relate subject to the several terms and
+conditions upon which the marketable securities were offered by the company or
+corporation for subscription and I (<i>or</i> we) HEREBY AGREE to become a
+member (<i>or</i> members) of the company or corporation and to be bound by
+the memorandum and articles or by the constitution of the company or
+corporation upon being registered as the holder(s) of the marketable
+securities.</txt></block>
+<block align="right"><txt break.before="1">Signature(s) of Transferee(s)
+<field type="dotleader" length="50"></field></txt></block>
+<block><txt break.before="1">Dated the <field type="dotleader"
+length="30"></field> day of <field type="dotleader" length="30"></field>,
+19<field type="dotleader" length="10"></field></txt></block></level>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_b13bca6d-7522-4c09-bda8-d71b8f7011e9"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_238c6c08-5e80-4a20-b5ff-9b86ad49b4c4"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1970-072"><name emphasis="yes"><i>Marketable Securities Act
+1970</i></name> No 72</legref>. Assented to 27.11.1970. Date of commencement,
+1.7.1971, sec 1 (2) and GG No 70 of 29.6.1971, p 2289. This Act has been
+amended as follows:</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_a2f6adf7-c508-4f59-bfa8-93b7647ae7ec" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_644bb345-2cf6-4973-a8b0-9a21053d5754" id="ed-tbl-tblr">
+<entry guid="_b4bcc13d-f55d-4e2d-8f96-7c04dee0078e" id="ed-tbl-tblr-tble1"
+colname="1"><txt break.before="1"><b>1972</b></txt></entry>
+<entry guid="_5e9ac1c5-520a-417c-9f4a-5f3394ade10f" id="ed-tbl-tblr-tble2"
+colname="2"><txt break.before="1">No 48</txt></entry>
+<entry guid="_6031cefc-dbf1-43f1-a7f1-0bee4ad5dc65" id="ed-tbl-tblr-tble3"
+colname="3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act" check="unknown"
+refid="act-1972-048"><name emphasis="yes"><i>Reprints Act
+1972</i></name></legref>. Assented to 9.10.1972.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">This Act has also been amended pursuant to an
+order under secs 8 (2) and 9 (3) of the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1972-048"><name emphasis="yes"><i>Reprints Act
+1972</i></name> No 48</legref> (formerly <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1972-048"><name emphasis="yes"><i>Acts Reprinting
+Act 1972</i></name></legref>). Order dated 3.5.1979, and published in GG No 62
+of 4.5.1979, p 2152, declaring that the <legref jurisd="NSW" type="act"
+check="unknown" refid="act-1970-072"><name emphasis="yes"><i>Marketable
+Securities Act 1970</i></name></legref> is an enactment to which sec 8 (2) and
+sec 9 (3) of the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1972-048"><name emphasis="yes"><i>Acts Reprinting Act
+1972</i></name></legref> apply.</txt></block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_372adcb4-f9b8-485e-bead-7c26ff9e445d"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block><txt break.before="1">No reference is made to certain amendments made
+by the <legref jurisd="NSW" type="act" check="unknown"
+refid="act-1972-048"><name emphasis="yes"><i>Reprints Act
+1972</i></name></legref>.</txt></block></level>
+</level>
+</content>
+</exdoc>

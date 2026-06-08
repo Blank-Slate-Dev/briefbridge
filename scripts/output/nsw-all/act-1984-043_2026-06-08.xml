@@ -1,0 +1,1477 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1984-043"
+title="Perpetuities Act 1984"
+year="1984"
+number="43"
+enact.or.made.date="1984-06-13"
+first.valid.date="1984-10-31"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1984</metacontent>
+<metacontent class="year.assent">1984</metacontent>
+<metacontent class="publication.date">2001-08-13</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-1991-057</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1984-043</metacontent>
+<metacontent
+class="version.desc.id">50f608c9-3987-4745-beb7-027ca8fd043a</metacontent>
+<metacontent
+class="version.series.id">045dce63-c5f6-4189-991e-11197b7cadc6</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Perpetuities Act 1984"></attrib>
+<attrib name="year.passed" value="1984"></attrib>
+<attrib name="year.assent" value="1984"></attrib>
+<attrib name="no" value="43"></attrib>
+<attrib name="publication.date" value="2001-08-13"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-1991-057"></attrib>
+<attrib name="first.valid.date" value="1984-10-31"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1984-06-13"></attrib>
+<attrib name="id" value="act-1984-043"></attrib>
+<attrib name="version.desc.id"
+value="50f608c9-3987-4745-beb7-027ca8fd043a"></attrib>
+<attrib name="version.series.id"
+value="045dce63-c5f6-4189-991e-11197b7cadc6"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata"></content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_35b187ea-d93f-4ab4-9b45-9208ad0b1845"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to effect reforms in the rules of law
+relating to perpetuities; and to repeal certain provisions of the <legref
+refid="act-1919-006" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Conveyancing Act 1919</i></name></legref> and the <legref
+refid="act-1925-014" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Trustee Act 1925</i></name></legref>.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ddb523c4-2ae3-4be2-abf9-5b8f3a4214ae"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_a3ebb909-bea4-40d3-8041-feec3bf79118"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act may be cited as the <legref
+refid="act-1984-043" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Perpetuities Act
+1984</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_38814aee-9167-4b05-8e4c-c89a95f9b852"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_7ff02003-6072-4b63-8a61-908ef1891257"
+id="sec.2-he"><b>Commencement</b></heading></head>
+
+<tier type="subclause" id="sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4bcbe710-2eb6-425e-83a9-33f5921c50c3"></attrib>
+<attrib name="id" value="sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Sections 1 and 2 shall commence on the date of
+assent to this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_927c913c-6f3a-4b61-a3f9-2011d1a34319"></attrib>
+<attrib name="id" value="sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Except as provided by subsection (1), this Act
+shall commence on such day as may be appointed by the Governor in respect
+thereof and as may be notified by proclamation published in the
+Gazette.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_63c234da-feb8-489d-bae1-29c74b810bb3"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_d0d0b149-ca54-4982-910d-3bf17a73ad6b"
+id="sec.3-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4d41047c-83ec-466e-b033-edf46b5aa091"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act, except in so far as the context or
+subject-matter otherwise indicates or requires:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_4cf8723e-a1cc-4e52-a513-f7974686f1f8"
+id="sec.3-def.appointedday"><b><i>appointed day</i></b></defterm> means the
+day appointed and notified under section 2 (2).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_2c15972a-49f0-4f01-be4a-bf7036d87035"
+id="sec.3-def.disposition"><b><i>disposition</i></b></defterm>
+includes:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5e6a1a0c-d5da-42ae-8cc6-4445d7d940bc" id="sec.3-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the conferring or exercising of a power of
+appointment and any other power or authority to dispose of property,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a6d7adfb-687a-4939-89bb-6d632ce571c4" id="sec.3-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any alienation of
+property.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a9738798-9d86-4891-81e9-4aa54cd45e7b"
+id="sec.3-def.interest"><b><i>interest</i></b></defterm> includes any estate
+and any right.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_bcb5f6bb-f024-494b-b20b-604cd5543210"
+id="sec.3-def.powerofappointment"><b><i>power of
+appointment</i></b></defterm> includes any discretionary power to make a
+disposition.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_9b127a1a-0fe5-4a26-8ef5-a9f99c321a30"
+id="sec.3-def.property"><b><i>property</i></b></defterm> includes any interest
+in real or personal property and any thing in action.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_284d2ccc-60d0-4e03-be27-d5059d03ad36"
+id="sec.3-def.settlement"><b><i>settlement</i></b></defterm> includes:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_da174f29-691d-410d-a9cc-c11c1bf911a3" id="sec.3-ssec.1-para1.a-oc.2">
+<no>(a)</no>
+<block><txt break.before="1">a will,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_46f721f5-02eb-4596-86b1-f5d41436a493" id="sec.3-ssec.1-para1.b-oc.2">
+<no>(b)</no>
+<block><txt break.before="1">an instrument, testamentary or otherwise,
+exercising a power of appointment, whether general or special,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_83c1afbb-5148-495c-90b9-5f430886c679" id="sec.3-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any other instrument, transaction or dealing
+whereby a person makes a disposition,</txt></block></li></list>
+
+<txt break.before="1">but does not include an Act of
+Parliament.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_7b226476-3126-4c34-81ad-f2a8526a1e48"
+id="sec.3-def.theruleagainstperpetualtrusts"><b><i>the rule against perpetual
+trusts</i></b></defterm> means the common law rule that invalidates a trust
+(not otherwise invalid) for a purpose which is not charitable where the
+duration of the trust will or may exceed the perpetuity period.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_5420d3f7-8225-4a7f-b738-84c76b5a77d5"
+id="sec.3-def.trust"><b><i>trust</i></b></defterm> and <defterm
+type="definition" guid="_9bdc717d-8d38-4227-b6d1-253e73c8b3c0"
+id="sec.3-def.trustee"><b><i>trustee</i></b></defterm> have the meanings
+respectively ascribed thereto in the <legref refid="act-1925-014" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Trustee Act
+1925</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_91a7856f-dd47-47da-9a9d-c48884fa3df7"
+id="sec.3-def.will"><b><i>will</i></b></defterm> includes a
+codicil.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_48374ac4-def1-4091-bcaa-5d93ed24ed24"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of this Act, a will shall, in
+relation to a disposition contained in it, be deemed to take effect on the
+death of the testator.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1040c376-0269-4543-9146-f64ab376f699"></attrib>
+<attrib name="id" value="sec.3-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purposes of this Act:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4f1f895c-0adf-4a3b-bed0-081e4430fc5c" id="sec.3-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a person shall be treated as a member of a class
+if in that person&#8217;s case each and every condition identifying a member
+of the class is satisfied, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f7032b59-04e3-4970-94cc-2c03b599d9a6" id="sec.3-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a person shall be treated as a potential member
+of a class if in that person&#8217;s case only one or some of the conditions
+identifying a member of the class is or are satisfied but there is a
+possibility that the remainder of those conditions will in time be
+satisfied.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8f8dcb8f-a9ec-4240-bcac-ed5467d85cad"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_8b4ad80b-585f-4e6d-9592-8ffb85e5ec09"
+id="sec.4-he"><b>Application</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2dfb7310-94f0-41f7-92d5-762c26475ef1"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Except as provided by sections 11, 12 and 13,
+this Act does not apply in relation to a settlement taking effect before the
+appointed day.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f3128cd4-548b-48d9-a3d8-6d39e5ac51a1"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This Act applies in relation to a settlement
+exercising a power of appointment, whether general or special, and taking
+effect on or after the appointed day, whether or not it applies in relation to
+the settlement creating the power of appointment.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bd2976ad-4674-4c40-a91e-5e38f243607b"></attrib>
+<attrib name="id" value="sec.4-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This Act does not apply to render invalid, at the
+outset or at some future time, an interest created by a provision of a will
+executed before the appointed day, but taking effect on or after the appointed
+day, if the provision would not have infringed the rule against perpetuities
+had this Act not been enacted and had the will taken effect when it was
+executed.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ed09475e-fbf8-4ddb-9edd-1029e22b393c"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_ad33bec2-746a-46ff-8b89-7db14d023f00"
+id="sec.5-he"><b>The Crown</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_96830c9f-5546-4bc4-bddb-6ec093aaa0ee"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Except as provided by subsection (2) or by any
+other Act, the rule against perpetuities, the rule against perpetual trusts
+and this Act bind the Crown not only in right of New South Wales but also, so
+far as the legislative power of Parliament permits, the Crown in all its other
+capacities.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2d2f082f-88d0-4ab5-96de-324537368c02"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Nothing in the rule against perpetuities, in the
+rule against perpetual trusts or in this Act affects any settlement made by
+the Crown.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f6e30709-6aff-4783-97cf-bdf8d97b5acb"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_973a6872-65e8-48dd-a427-5de72884af2d"
+id="sec.6-he"><b>Powers of appointment</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f1508673-9d59-445f-849b-be1c7ca13a7a"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purposes of the rule against
+perpetuities, a power of appointment shall at any particular time be treated
+as a special power unless, at that time, the appointor has, by the settlement
+creating the power, unconditional authority at his or her own discretion to
+exercise the power by appointing the interest the subject of the power to
+himself or herself.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7bc99c34-495b-4df9-9cba-17e19374045e"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notwithstanding subsection (1), an appointment of
+an interest made by will under a power of appointment that would, but for the
+fact that it was made exercisable only by will, have been a general power
+shall be treated as a general power for the purposes of determining whether
+the appointment of the interest infringes the rule against
+perpetuities.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0bcabebe-3aa8-476b-80ae-5e13893c7a78"></attrib>
+<attrib name="id" value="sec.6-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purposes of this section, an authority is
+unconditional notwithstanding any formal condition relating to the mode of
+exercise of the power.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b9188663-b89f-4436-aa49-0656e10b1fcb"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_b5d60ea9-77c1-4060-a22b-54bcd59d5bd2"
+id="sec.7-he"><b>The perpetuity period</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f9d0efe9-4ca2-465d-be53-6374ee1976fc"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purposes of the rule against
+perpetuities, the perpetuity period applicable to an interest created by a
+settlement shall be 80 years from the date on which the settlement takes
+effect.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c95d960f-7260-4064-bac6-f7ca3029548e"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Where an appointment of an interest is made under
+a special power of appointment, the perpetuity period shall be reckoned from
+the date on which the settlement creating the power takes
+effect.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e267767b-ccd2-4bfd-b1ef-57368b8c7476"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_a172b823-f4ce-401b-a4ee-13fe7c681ffd"
+id="sec.8-he"><b>Wait-and-see</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a5e4e10f-737d-486f-9655-8d8daf1d5148"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Where a provision of a settlement which creates
+an interest would, but for this section and section 9, infringe the rule
+against perpetuities, the interest shall be treated, until such time (if any)
+as it becomes certain that it must vest, if at all, after the end of the
+perpetuity period, as if the provision did not infringe that rule, and its
+becoming so certain does not affect the validity of any thing previously done
+in relation to the interest.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2c9f8344-a3d9-441c-81c6-72e23cfd7e4d"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Where a provision of a settlement which creates
+an interest consisting of the conferring of a general power of appointment
+would, but for this section and section 9, infringe the rule against
+perpetuities, the interest shall be treated, until such time (if any) as it
+becomes certain that the power will not be exercisable within the perpetuity
+period, as if the provision did not infringe that rule.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5653a019-7164-4d8f-93e4-b8e8e4d1383f"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Where a provision of a settlement which creates
+an interest consisting of the conferring of any power or right (except a
+general power of appointment) would, but for this section and section 9,
+infringe the rule against perpetuities, the interest shall be treated as
+regards any exercise of the power or right within the perpetuity period as if
+the provision did not infringe that rule, and the provisions shall be treated
+as infringing that rule only if and so far as the power or right is not fully
+exercised within the perpetuity period.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cb1422e6-735d-4f75-a521-498668201898"></attrib>
+<attrib name="id" value="sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">This section does not affect the operation of
+section 15.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_80b7c5db-9449-49ce-b50d-9691ba73947a"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_19bb05b6-6769-4486-93fa-01645176fc76"
+id="sec.9-he"><b>Reduction of age and exclusion of class
+members</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a94b1f13-1714-4493-8448-dd4d74625fbe"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Where:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0eee2af2-817e-4703-9ba4-20181a65b2f5" id="sec.9-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a provision of a settlement creates an interest
+and the vesting of the interest depends on the attainment by any person of a
+specified age, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_68473c96-072c-4ff6-9fab-8586acba9cb9" id="sec.9-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">it becomes apparent that the provision would, but
+for this subsection, infringe the rule against perpetuities but that it would
+not infringe that rule if the specified age had been a lesser
+age,</txt></block></li></list>
+
+<txt break.before="1">the interest shall, for all purposes, be treated as if,
+instead of its vesting depending on the attainment by the person of the
+specified age, its vesting depended on the attainment by the person of the
+greatest age which, if put in place of the specified age, would save the
+provision from infringing that rule.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_620fc8d0-f066-4197-9ee6-388d013f938d"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Where an interest to which subsection (1) applies
+is ulterior to any other interest created by the settlement, that other
+interest shall not be defeated or otherwise adversely affected by the
+operation of subsection (1).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_86359baf-8880-474f-8860-28681c8c0a40"></attrib>
+<attrib name="id" value="sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Where, in relation to an interest created by a
+provision of a settlement, different ages are specified in relation to
+different persons:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fccf08d9-2451-49ed-98cc-69a05da4a9d1" id="sec.9-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the reference in subsection (1) to the specified
+age shall be construed as a reference to all the specified ages,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c5d2fa15-e855-480c-be45-101aa2ee2509" id="sec.9-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">subsection (1) shall operate to reduce each such
+age so far as is necessary to save the provision from infringing the rule
+against perpetuities.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2eda1416-4b39-4e4f-b5ba-5ab0725b0040"></attrib>
+<attrib name="id" value="sec.9-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Where a provision of a settlement creates an
+interest which is to be taken by a class of persons and it becomes apparent
+that the inclusion of a person, being a member of the class or an unborn
+person who at birth would become a member or potential member of the class,
+would, but for this subsection:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_371a367a-1ac8-4e98-8c78-cda00f799e8c" id="sec.9-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">cause the provision to infringe the rule against
+perpetuities, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4e61a894-229e-4212-a78e-e941e3058607" id="sec.9-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">prevent subsection (1) from operating to save the
+provision from infringing that rule,</txt></block></li></list>
+
+<txt break.before="1">then, upon its so becoming apparent, the person shall,
+unless the exclusion of the person would exhaust the class, be treated in
+relation to the interest as if the person were not a member of the class, and,
+where subsection (1) applies that subsection shall thereupon have effect
+accordingly.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7432cfd8-cc9d-4463-805d-06ef88372aa8"></attrib>
+<attrib name="id" value="sec.9-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Where this section has effect in relation to a
+provision to which section 8 applies, the operation of this section does not
+affect the validity of any thing previously done in relation to the interest
+created by the provision.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bab36ad1-b5ef-4b5b-a9d0-46020d3d31ce"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_8a607015-5faf-48d1-b84d-8f788edd8018"
+id="sec.10-he"><b>Order of application of remedial
+provisions</b></heading></head>
+<block><txt break.before="1">The following provisions shall, for the purposes
+of the rule against perpetuities, be applied in the following order:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_db818055-06d8-4e59-a52b-8224a117fe50" id="sec.10-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">section 8,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1a1ce547-ff32-4436-a77c-0a1a54700652" id="sec.10-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">section 9 (1),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3805466e-dafd-4ca4-be2e-23bede607bcd" id="sec.10-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">section 9 (4).</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6dc2dc59-b9d5-4858-88e1-9b312e016cf9"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_1ade8207-0b03-4555-839c-5375d6fac6ef"
+id="sec.11-he"><b>Administrative powers of trustees</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d68046ce-82fc-4376-b5af-17b231999736"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this section, <defterm type="definition"
+guid="_22da419e-5307-41af-b380-085185d8f82e"
+id="sec.11-def.administrativepower"><b><i>administrative
+power</i></b></defterm> means a power of a trustee to sell, lease or exchange
+trust property and any other power of a trustee, but does not include a power
+to appoint, pay, transfer, advance, apply, distribute or otherwise deal with
+trust property in or towards satisfaction of the interest of a beneficiary
+under the trust or in or towards satisfaction of a purpose of the
+trust.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ca263f68-f01b-49e8-bf83-cc5d2b77576a"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The rule against perpetuities does not invalidate
+an administrative power in relation to trust property during the subsistence
+of a beneficial interest in the trust property.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8d497828-7de3-4631-8cd6-8b92c6835c3f"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This section applies to an administrative power
+taking effect, and to any exercise of an administrative power, before, on or
+after the appointed day.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_015d9748-b6ee-46c8-8393-7519257260b5"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_067955cb-7fcb-40d8-addc-124ee385bed0"
+id="sec.12-he"><b>Remuneration of trustees</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4393afaa-e3d4-4154-a459-3b1757e19cc5"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The rule against perpetuities does not invalidate
+a power or other provision for remunerating a trustee for the trustee&#8217;s
+services.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_61d0d19f-2055-4d75-a80d-f4c8f1734618"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This section applies to a power or other
+provision for remunerating a trustee taking effect before, on or after the
+appointed day.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1cb651ff-2674-4944-bab7-22539e897cb6"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_1214abdc-08c2-4481-b1e2-818633707b0f"
+id="sec.13-he"><b>Superannuation and other funds</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a4e0ae99-49e6-4d2a-b569-38a8a85c41cd"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this section:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_903e6b02-1f3f-4fe0-b58e-8ce8c6760463"
+id="sec.13-def.employees"><b><i>employees</i></b></defterm> includes
+directors, officers, servants and employees of any employer.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c89cb86a-3d73-4d62-80b0-538e683a671b"
+id="sec.13-def.fund"><b><i>fund</i></b></defterm> means a provident,
+superannuation, sick, accident, assurance, unemployment, pension or
+co-operative benefit fund, scheme, arrangement or provision or other like
+fund, scheme, arrangement or provision.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c8828641-077e-46a3-9456-370d58e20552"
+id="sec.13-def.selfemployedpersons"><b><i>self-employed
+persons</i></b></defterm> includes persons engaged in any lawful profession,
+trade, occupation or calling.</txt></block></deflist>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_94cdbccc-2333-4186-8e48-0710784c3578"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The rule against perpetuities does not invalidate
+a fund established by a settlement for the benefit of:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ccfb3e6a-b821-44d4-9442-d09fdfaeb922" id="sec.13-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">employees,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_41ded034-9335-473c-9f79-ed73239473ab" id="sec.13-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">self-employed persons,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a822b693-b630-428d-b0dc-c43b8d6533ba" id="sec.13-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">spouses, children, grandchildren, parents,
+dependants or legal personal representatives of employees or self-employed
+persons, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_eaa82e0f-bed5-4a88-9952-687bdbffc217" id="sec.13-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">persons duly selected or nominated for that
+purpose by employees or self-employed persons pursuant to the provisions of
+the settlement.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_192ee75c-1d4f-4b2f-9572-7f129f5355b9"></attrib>
+<attrib name="id" value="sec.13-ssec.2A"></attrib></parentattributes>
+
+<head>
+<no>(2A)</no></head>
+<block><txt break.before="1">The rule against perpetuities does not invalidate
+a trust established by a settlement and used for investing the assets of a
+fund referred to in subsection (2) (whether or not it is also used for
+investing other assets). This subsection does not affect the generality of
+subsection (2).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b30223ab-4153-46ae-abba-989fe43dfc97"></attrib>
+<attrib name="id" value="sec.13-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This section applies to settlements taking effect
+before, on or after the appointed day.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 13:</b> Am 1991 No 57,
+sec 3.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8e58ff97-5d8e-4dc1-b52d-a04128077dc3"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_d9b3bc99-6145-4bc8-9fb2-af4e40e92211"
+id="sec.14-he"><b>Determinable interests</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_75fe0cb6-bd19-4fbb-9560-68711338f94d"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this section:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a7616be5-3e62-4b72-ab19-d018b17b5100"
+id="sec.14-def.determinableinterest"><b><i>determinable
+interest</i></b></defterm> means an interest created by a settlement, being an
+interest which is, by a provision of the settlement, determinable on a
+contingency.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_06308ebb-e573-4c65-8a7f-53893b53164d"
+id="sec.14-def.subsequentinterest"><b><i>subsequent
+interest</i></b></defterm>, in relation to a determinable interest created by
+a settlement, means an interest, whether vested or contingent:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3356da30-4bb2-40b1-8e0d-a2262364fea8" id="sec.14-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">created by the settlement, or remaining
+undisposed of by the settlement, or taking effect by way of reverter,
+resulting trust, residuary gift or otherwise on a possibility arising under
+the settlement, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ab30966e-eb36-4b0c-857c-3eebb7947dfe" id="sec.14-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">as regards which the determinable interest is a
+prior interest.</txt></block></li></list>
+</block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c95f9201-c13b-4024-a5cd-220fd0298631"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The rule against perpetuities applies to render
+invalid the provision for determination of a determinable interest created by
+a settlement in the same manner as the rule would apply to render invalid a
+condition subsequent in the settlement for defeasance of the determinable
+interest on the same contingency, and where that rule does so apply:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a536762d-bdef-482b-a571-9cad8977462d" id="sec.14-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the determinable interest shall not be so
+determinable, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4ad2d839-1266-40c4-85d5-a054d5a81de0" id="sec.14-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a subsequent interest not itself rendered invalid
+by that rule shall be postponed or defeated to the extent necessary to allow
+the determinable interest to have effect free from the provision for
+determination.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cd1218ff-205e-410e-8dfd-d4c72f2179bf"></attrib>
+<attrib name="id" value="sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purposes of this section, an interest
+created by, or a provision in, an appointment or other exercise of a power in
+a settlement (except a general power of appointment) shall be treated as an
+interest created by, or a provision in, the settlement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aba5a8ab-5629-4e3d-a46a-7188ee50d68f"></attrib>
+<attrib name="id" value="sec.14-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Notwithstanding subsection (2), the rule against
+perpetuities shall not apply to a gift over from one charity to
+another.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_817835c3-9c23-4061-8c46-e2e2eb55b3d6"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_270e06b3-215e-43e8-b5c8-c33cd1eb0bd4"
+id="sec.15-he"><b>Options</b></heading></head>
+<block><txt break.before="1">The rule against perpetuities does not apply
+to:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0f081acb-9c15-4bd8-bff7-08a6e9fe243d" id="sec.15-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any option to renew a lease of
+property,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_87dd1299-daef-4293-9183-5a87d53ff4be" id="sec.15-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any option to acquire a reversionary interest in
+property comprised in a lease,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0eb35ee8-f1b3-4dc1-82c2-ceadde86f3f5" id="sec.15-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any right of pre-emption given for valuable
+consideration or by will in respect of property, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_daf3a438-d280-4d0e-97b8-c6ed5f429247" id="sec.15-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">any other option given for valuable consideration
+or by will to acquire an interest in property.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_de240099-bf81-42fb-8a42-45d4a8085fc0"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_ea5ad4b5-fbab-4627-a2e2-a8c64372df8b"
+id="sec.16-he"><b>Trusts for purposes which are not
+charitable</b></heading></head>
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0408166e-808d-4c2f-a3bb-763407a46d9a"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Except as provided by this section, this Act
+shall not affect the operation of the rule against perpetual
+trusts.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_62050d5b-3972-41a4-bb84-44c76e271c3a"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Where, by a settlement, there is a disposition
+for a purpose, the perpetuity period applicable to the disposition shall, for
+the purposes of the rule against perpetual trusts, be 80 years from the date
+on which the settlement takes effect.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_70a59872-5df0-427f-951c-79a594d771c7"></attrib>
+<attrib name="id" value="sec.16-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Where, by a settlement, there is a disposition
+for a purpose and the disposition would, but for this Act, infringe the rule
+against perpetual trusts, the disposition shall be treated, until such time
+(if any) as it becomes certain that the disposition must infringe that rule,
+as if it did not infringe that rule, and its so becoming certain does not
+affect the validity of any thing previously done in relation to the
+disposition.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_26e2face-e194-4000-acfe-fc5f06df6a6f"></attrib>
+<attrib name="id" value="sec.16-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">This section does not apply to a disposition for
+a purpose which is charitable.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3e2ca56d-065b-4b50-b160-760e6d1f9b5d"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_750ab4ff-1ebd-4004-84cd-c37cbeafcf92"
+id="sec.17-he"><b>Dependent interests</b></heading></head>
+
+<tier type="subclause" id="sec.17-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2c286b99-0df0-47bd-a57e-40844b766ac8"></attrib>
+<attrib name="id" value="sec.17-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Where a provision of a settlement creates an
+interest, the provision is not rendered invalid by the rule against
+perpetuities or the rule against perpetual trusts by reason only that the
+interest is ulterior to and dependent upon an interest which is so
+invalid.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_923e32f6-2077-413a-8145-7949837bf7d0"></attrib>
+<attrib name="id" value="sec.17-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Where a provision of a settlement creates an
+interest which is ulterior to another interest and the other interest is
+rendered invalid by the rule against perpetuities or the rule against
+perpetual trusts, the acceleration of the vesting of the ulterior interest
+shall not be affected by reason only that the other interest is so
+invalid.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0d722369-ff13-4879-a7a8-a0aedaf5d953"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_b1736800-db5d-4396-96b9-fb6e85bff8cf"
+id="sec.18-he"><b>Accumulation of income</b></heading></head>
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1311a2ca-9452-42a5-9ef7-69df312a1fac"></attrib>
+<attrib name="id" value="sec.18-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Where property is disposed of in such a manner
+that the income of the property may be or is directed to be accumulated wholly
+or in part, the power or direction to accumulate that income is valid if the
+disposition of the accumulated income is, or may be, valid, but not
+otherwise.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cf33372a-9d52-496b-aa17-9d04df31ebb1"></attrib>
+<attrib name="id" value="sec.18-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This section does not affect the power of any
+person to terminate an accumulation that is for the person&#8217;s benefit, or
+any jurisdiction or power of a court to maintain or advance out of
+accumulations, or any power of a trustee under the <legref
+refid="act-1925-014" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Trustee Act 1925</i></name></legref>, or under any other Act
+or law or under any settlement.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5276871b-75e2-4671-9088-df729747549a"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_481b6824-1c0c-480b-9a72-a71da9b30bf6"
+id="sec.19-he"><b>Repeals</b></heading></head>
+<block><txt break.before="1">Each Act specified in Column 1 of Schedule 1 is,
+to the extent specified opposite that Act in Column 2 of that Schedule,
+repealed.</txt></block></level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3b3421e2-6caa-457e-8908-d9c6e0ff894f"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_e4bf7ff9-60e3-4b97-ba50-c8be37c81da9"
+id="sec.20-he"><b>Savings and transitional provisions</b></heading></head>
+
+<tier type="subclause" id="sec.20-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_89aac3c1-ed16-4aa3-930e-b2024633b748"></attrib>
+<attrib name="id" value="sec.20-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Section 12 does not affect any rights arising
+under a judgment or an order which has taken effect before the appointed day
+or arising under any agreement made before the appointed
+day.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c977c667-f7c9-4799-8f50-50db3753be2d"></attrib>
+<attrib name="id" value="sec.20-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notwithstanding the repeal of sections 31, 31A
+and 36 of the <legref refid="act-1919-006" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Conveyancing Act
+1919</i></name></legref>, the provisions of those sections continue to apply
+in relation to a settlement taking effect before the appointed
+day.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2fb4d154-eb42-469c-a36e-ba2e970a3448"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_f9a832d0-06f5-4c6e-9d0e-1dc422ad7e26"
+id="sch.1-he"><b>Repeals</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 19)</txt></block>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_a881ed23-d857-41ab-b1ae-85aeb255e548" id="sch.1-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="7pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="13pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="10pi"></colspec>
+
+<thead>
+
+<row valign="top" guid="_1441d0c3-5bde-4314-8681-8632e6acf9e5"
+id="sch.1-tbl-tblh-tblr">
+<entry colname="1" namest="1" nameend="col2"
+guid="_94563b72-4bb8-4519-bc36-1fe49838e184"
+id="sch.1-tbl-tblh-tblr-tble1"><txt break.before="1">Column 1</txt></entry>
+<entry colname="3" guid="_298114b6-a9e6-426d-ad2b-0703ba7b0d75"
+id="sch.1-tbl-tblh-tblr-tble3"><txt break.before="1">Column
+2</txt></entry></row>
+
+
+<row valign="top" guid="_729c33ed-f58b-43d3-90f7-b08345beb037"
+id="sch.1-tbl-tblh-tblr-oc.2">
+<entry colname="1" guid="_cf72b366-b6ea-4503-943f-9849707bbd6a"
+id="sch.1-tbl-tblh-tblr-oc.2-tble1"><txt break.before="1">Year and number of
+Act</txt></entry>
+<entry colname="2" guid="_5fa06d96-55b1-4a0e-a7a1-047e8bab232e"
+id="sch.1-tbl-tblh-tblr-oc.2-tble2"><txt break.before="1">Short title of
+Act</txt></entry>
+<entry colname="3" guid="_d41ccc20-5166-424a-944d-d8fc45c64769"
+id="sch.1-tbl-tblh-tblr-oc.2-tble3"><txt break.before="1">Extent of
+repeal</txt></entry></row>
+</thead>
+
+
+<tbody>
+
+<row valign="top" guid="_95b31f81-767f-421e-8461-9e7f5d8654c2"
+id="sch.1-tbl-tblr">
+<entry colname="1" guid="_21583058-e898-4173-8509-0e03c1d70e0d"
+id="sch.1-tbl-tblr-tble1"><txt break.before="1">1919, No 6</txt></entry>
+<entry colname="2" guid="_04eb2ae9-3dad-4c7b-9ede-9d72b5fe085f"
+id="sch.1-tbl-tblr-tble2"><txt break.before="1"><legref refid="act-1919-006"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Conveyancing
+Act 1919</i></name></legref></txt></entry>
+<entry colname="3" guid="_332b9d8b-6cfe-4d08-9dff-f505536e4dba"
+id="sch.1-tbl-tblr-tble3"><txt break.before="1">Sections 31, 31A and
+36</txt></entry></row>
+
+
+<row valign="top" guid="_1e5ebb35-bfc6-4ac0-826b-91112a56eb38"
+id="sch.1-tbl-tblr-oc.2">
+<entry colname="1" guid="_b30a5eba-91bc-45d8-8028-190e3c0fce94"
+id="sch.1-tbl-tblr-oc.2-tble1"><txt break.before="1">1925, No
+14</txt></entry>
+<entry colname="2" guid="_bba60b4e-8455-4b62-a35d-63941204d498"
+id="sch.1-tbl-tblr-oc.2-tble2"><txt break.before="1"><legref
+refid="act-1925-014" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Trustee Act 1925</i></name></legref></txt></entry>
+<entry colname="3" guid="_fee4d906-dde5-419a-97c5-55ec7142800b"
+id="sch.1-tbl-tblr-oc.2-tble3"><txt break.before="1">Section
+27A</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_0f9959f8-d644-4ec2-a2f2-0aa66a70a24e"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_b56962b4-dca7-4189-b852-4e466566ab59"
+id="ed-he-oc.2"><b>Table of Act</b></heading></head>
+<block><txt break.before="1"><legref refid="act-1984-043" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Perpetuities Act
+1984</i></name> No 43</legref>. Assented to 13.6.1984. Date of commencement,
+secs 1 and 2 excepted, 31.10.1984, sec 2 and GG No 147 of 19.10.1984, p
+5077.</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_72d55ee9-bde4-4ff0-955c-6ba61bbc56c1" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_b186d255-b8f2-41dd-8742-d586321f8fa7" id="ed-tbl-tblr">
+<entry colname="1" guid="_e48b2eb0-9e5e-46e4-9240-87c5b6630e51"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1991</b></txt></entry>
+<entry colname="2" guid="_13f5095b-0a76-42ed-b60a-269b476e7600"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 57</txt></entry>
+<entry colname="3" guid="_b352e5bc-66ff-4c0e-84c6-c43d441aa327"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Perpetuities (Amendment) Act
+1991</i></name></legref>. Assented to 11.12.1991.</txt>
+<txt break.before="1">Date of commencement, 31.10.1984, sec
+2.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_6df5a490-7699-40b6-8d04-bfc9c3e6eb10"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_cc7545b9-768f-4be6-be5e-6096a762c359" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_232c4c9d-1488-4814-b1d1-6507c9efc9f0" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_aaee437e-f91e-45bf-9adf-281118051bf6"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 13</txt></entry>
+<entry colname="2" guid="_49a72949-301f-4921-817b-5857f53dab58"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 1991 No 57, sec
+3.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

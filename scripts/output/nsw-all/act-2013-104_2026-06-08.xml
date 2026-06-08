@@ -1,0 +1,3955 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2013-104"
+title="National Disability Insurance Scheme (NSW Enabling) Act 2013"
+year="2013"
+number="104"
+enact.or.made.date="2013-11-27"
+first.valid.date="2021-07-01"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2013</metacontent>
+<metacontent class="year.assent">2013</metacontent>
+<metacontent class="publication.date">2021-07-01</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="bill.type">government</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2018-070</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="introduction.date">2013-10-23</metacontent>
+<metacontent class="la.second.reading.date">2013-10-30</metacontent>
+<metacontent class="amended.in.committee">0</metacontent>
+<metacontent class="id">act-2013-104</metacontent>
+<metacontent
+class="version.desc.id">d11a3007-32aa-4215-8698-b3d77cf6510b</metacontent>
+<metacontent
+class="version.series.id">0b61a95a-75e2-4758-84df-9c490507074b</metacontent>
+<metacontent class="year.introduced">2013</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="National Disability Insurance Scheme (NSW
+Enabling) Act 2013"></attrib>
+<attrib name="year.passed" value="2013"></attrib>
+<attrib name="year.assent" value="2013"></attrib>
+<attrib name="no" value="104"></attrib>
+<attrib name="publication.date" value="2021-07-01"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="bill.type" value="government"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2018-070"></attrib>
+<attrib name="first.valid.date" value="2021-07-01"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="introduction.date" value="2013-10-23"></attrib>
+<attrib name="la.second.reading.date" value="2013-10-30"></attrib>
+<attrib name="amended.in.committee" value="0"></attrib>
+<attrib name="assent.date" value="2013-11-27"></attrib>
+<attrib name="id" value="act-2013-104"></attrib>
+<attrib name="version.desc.id"
+value="d11a3007-32aa-4215-8698-b3d77cf6510b"></attrib>
+<attrib name="version.series.id"
+value="0b61a95a-75e2-4758-84df-9c490507074b"></attrib>
+<attrib name="year.introduced" value="2013"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_2b975de3-431d-49fa-a695-7af6e31c624f"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_468607e0-3471-494a-95df-55c12dc867a6"
+id="cd-status-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_f85fcec9-c68c-4a38-a748-51b3c6551a95"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to provide for the transfer of the
+disability services assets of the State in connection with the National
+Disability Insurance Scheme of the Commonwealth; and for other
+purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_412bbe9b-5980-4fc9-8d18-cb3f7b020107"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_5335f660-fc74-4ead-a4e0-3ef77bbb9687"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ee117106-19bf-4984-8ef4-b01e9c6cd825"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_858213cb-8d92-4537-bdb9-b5d76c8809c3"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref refid="act-2013-104"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>National
+Disability Insurance Scheme (NSW Enabling) Act
+2013</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5ec58903-257a-4420-b479-fc2e783d689e"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_d3051dfa-b767-47b7-8a9c-24ab95e3608e"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on the date of assent to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_881b1023-0189-4776-9f9c-885fb2036c6c"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_d5295c8b-ffe6-4c40-8dd7-5e7fff0a126e"
+id="sec.3-he"><b>Objects</b></heading></head>
+<block><txt break.before="1">The objects of this Act are as
+follows&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_73f1e61d-5489-4587-8831-0ae99a429907" id="sec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to ensure that implementation of the National
+Disability Insurance Scheme of the Commonwealth is managed in a way that
+promotes service continuity for people receiving disability services and
+community care supports,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7aa163d5-1f40-44b4-bd60-42421b060550" id="sec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to provide arrangements for the transfer of staff
+to promote retention of a skilled disability services workforce and continuity
+of services,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9e7e5fd6-d7a1-4195-be19-93e16524d474" id="sec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to provide for the transfer of disability
+services assets to maximise the capacity of the disability services sector and
+ensure continuity of service while achieving value for the
+State.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_53155f04-7bf6-48e5-abb8-eec3ce7d5533"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_ea09c62f-3bfe-4834-aa7e-5e0732912487"
+id="sec.4-he"><b>Interpretation&#8212;key definitions</b></heading></head>
+<note type="legtext" guid="_b624e2b3-557c-4a2c-b35b-b05e1e72d993"
+id="sec.4-note"><heading guid="_9a56087a-1336-47bb-b9cf-d7287563b640"
+id="sec.4-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">Schedule 1 contains other interpretative
+provisions.</txt></block></note>
+
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_41c70642-4c25-4072-b808-be0f51f3fc92"
+id="def.authorisedimplementation"><b><i>authorised
+implementation</i></b></defterm> means a transfer of disability services
+assets authorised by section 5.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_af2acd4e-b5f9-446a-bbcd-76322ad6cdeb"
+id="def.disabilityservicesagency"><b><i>disability services
+agency</i></b></defterm> means a public sector agency of the State in which
+disability services assets are vested.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_87b904df-40cf-403d-b17b-cbd9f6752b7c"
+id="def.disabilityservicesassets"><b><i>disability services
+assets</i></b></defterm> means assets, rights and liabilities of a public
+sector agency of the State that are assets, rights and liabilities of the
+public sector agency in connection with the exercise of disability services
+functions by the public sector agency or another public sector agency of the
+State.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b6f50630-0b78-4ea9-a6a3-dff67961abd5"
+id="def.disabilityservicesemployee"><b><i>disability services
+employee</i></b></defterm> means a person employed in a public sector agency
+of the State who is engaged in the exercise of disability services
+functions.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_03275c45-4628-443e-913e-247d6b71967f"
+id="def.disabilityservicesfunctions"><b><i>disability services
+functions</i></b></defterm> means functions under disability services
+legislation and functions exercised in the course of or in connection with the
+administration or execution of disability services legislation.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6000a98a-d3a0-4bf8-8349-7639031dd4b0"
+id="def.disabilityserviceslegislation"><b><i>disability services
+legislation</i></b></defterm> means the following Acts and the regulations or
+other instruments under those Acts&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_45659a1b-6698-4dc7-8995-a997d282fc3c" id="sec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1"><legref refid="act-2014-041" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Disability Inclusion Act
+2014</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_17a1ee72-cfa9-44c0-897c-d8641ec03d5f" id="sec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1"><legref refid="act-1987-052" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Community Welfare Act
+1987</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a2769e77-42cc-4342-9eb1-a5660bf46fc4" id="sec.4-para1.c">
+<no>(c)</no>
+<block><txt break.before="1"><legref refid="act-1988-006" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Home Care Service Act
+1988</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_19c149ae-d056-4d9e-8798-639162762524" id="sec.4-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">any other Act prescribed by the regulations for
+the purposes of this definition.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_17da4207-4350-4773-b610-ecfcdd753a97"
+id="def.NDISarrangements"><b><i>NDIS arrangements</i></b></defterm> means any
+agreement, understanding or other arrangement entered into by the State with
+the Commonwealth in connection with the operation of the National Disability
+Insurance Scheme of the Commonwealth.</txt></block></deflist>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 2014 No 41,
+Sch 5.7 [1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7bd894a2-d59a-4232-aaf3-c465254b27a0"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_26cb2471-d41e-4a4b-bfb7-6908c718f953"
+id="sec.5-he"><b>Authorised implementation</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3c38061f-3178-429d-a125-ae9472fef2bf"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purposes of the implementation of the
+NDIS arrangements, disability services assets are authorised to be transferred
+from a public sector agency of the State to the non-government sector or from
+a public sector agency of the State to any other public sector agency (whether
+or not a public sector agency of the State).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4262e5f1-0867-4259-9a12-31764d9a90fc"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A transfer of disability services assets is for
+the purposes of the implementation of the NDIS arrangements if the transfer is
+for the purposes of facilitating or assisting in the implementation of the
+NDIS arrangements or for any purpose that is ancillary or incidental to or
+consequential on the implementation of the NDIS
+arrangements.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_39162b1c-62da-4644-a9b2-4a64b5690ff6"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_82ea9550-3a07-4c71-b6c3-b4a155a1a252"
+id="sec.6-he"><b>Provision of financial assistance</b></heading></head>
+<block><txt break.before="1">The Minister may provide financial assistance to
+a person in the non-government sector to whom disability services assets are
+transferred for the purposes of the authorised
+implementation.</txt></block></level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_d9fc67fd-c01e-4e96-b03d-43c214e0d74c"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_22d608cd-6a1e-4089-a486-41f4f90bf565"
+id="pt.2-he"><b>Facilitating the authorised
+implementation</b></heading></head>
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_87a5a38a-d5c7-4322-be87-7b7b452685ae"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_7be14d63-b487-46e7-b20a-4aad919087b6"
+id="sec.7-he"><b>Minister&#8217;s functions</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aba51e4b-3758-49dd-ac28-5f27becdd7aa"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister has and may exercise all such
+functions as are necessary or convenient for the purposes of the authorised
+implementation. The functions conferred on the Minister by any other provision
+of this Act do not limit the Minister&#8217;s functions under this
+section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7853de88-79d3-4f6c-9f90-bb664d48b0ab"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister requires the approval of the
+Treasurer before exercising a function under section 8 (1), 9, 10 (3), 11 (2),
+13, 14 or 18 or Schedule 2. The Treasurer&#8217;s approval can be given for
+the exercise of such a function in a specific case or in a class of
+cases.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c95fe15c-0c02-4530-97ca-6070ab461323"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_5262ea0b-9f25-40fa-a833-710d6ca39c3f"
+id="sec.8-he"><b>Manner of effecting authorised
+implementation</b></heading></head>
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_98fef844-659c-4145-a209-2af5c5983d55"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The authorised implementation is to be effected
+as directed by the Minister and can be effected in any manner considered
+appropriate by the Minister.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d7385664-0543-40e4-a047-12cfd32ccbbd"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">There are no limitations as to the nature of the
+transactions or arrangements that can be entered into or used for the purposes
+of the authorised implementation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_10730c0e-2603-4c9b-a292-dacc70e94804"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The provisions of this Act for the establishment
+of implementation companies do not limit the nature of the legal entities or
+arrangements that can be used for the purposes of the authorised
+implementation.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b1448fe7-4fdb-4fe8-90f8-ab38ead2d049"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_844277ba-4733-41f0-9900-e65c4804af97"
+id="sec.9-he"><b>Implementation companies</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_82ddf5c6-bc1d-4704-8737-1a87b65e94ce"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may for the purposes of the
+authorised implementation establish, or direct the establishment of, companies
+as implementation companies in any of the following ways&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fc302cd9-5853-4a03-9f58-56a5b0f9b1b3" id="sec.9-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the formation or acquisition by or on behalf of
+the State of a company limited by shares, so that all the issued shares in the
+company are held by or on behalf of the State,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1d371cee-6163-4bce-bf46-1b858121998c" id="sec.9-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the formation or acquisition of a company as a
+wholly owned subsidiary company of an implementation
+company.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_92ce1f4e-aa9c-4408-a399-243fd517d152"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An implementation company that is a public sector
+agency of the State may be converted from one kind of company to any other
+kind of company.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e6b6f89b-0a88-40c6-863c-702d931d91a9"></attrib>
+<attrib name="id" value="sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Except by express agreement with the
+Minister&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6a55075c-94c6-4da4-a1c9-a748c8806f3f" id="sec.9-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">an implementation company is not and does not
+represent the State, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fa6f3f9f-4bfb-42a7-ab7e-1e453dca82d2" id="sec.9-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the debts, liabilities and obligations of an
+implementation company are not guaranteed by the
+State.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ca288bd4-82be-4c88-9574-5fa439678e66"></attrib>
+<attrib name="id" value="sec.9-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Minister may act for or on behalf of the
+State or an implementation company that is a public sector agency of the State
+in connection with the rights, privileges and benefits, and the duties,
+liabilities and obligations, of the State or an implementation company as the
+holder of shares or other securities in or issued by an implementation
+company.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_54644cb6-f1d6-42a1-acca-5582105285dc"></attrib>
+<attrib name="id" value="sec.9-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Shares and other securities in or issued by an
+implementation company that is a public sector agency of the State may be
+issued, sold or transferred in accordance with the directions of the Minister.
+The Minister may on behalf of the State or an implementation company that is a
+public sector agency of the State enter into and carry out implementation
+arrangements for the issue, sale or transfer of shares and other securities in
+or issued by an implementation company.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_22713798-9bd7-4244-b42e-124c27267e2b"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_23180db0-bee1-40c4-a1f2-c9d92164cb69"
+id="sec.10-he"><b>Additional functions of disability services agencies and
+implementation companies</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_38484a9c-2bcc-4f8f-92cf-876cb1ef90fc"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Each disability services agency and
+implementation company has and may exercise all such functions as are
+necessary or convenient for the purposes of the authorised
+implementation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b88cc347-cc44-4d67-acdd-772de062e5b2"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The functions conferred by this section are in
+addition to any other functions that a disability services agency or an
+implementation company has apart from this section and those other functions
+do not prevent or otherwise limit the exercise of the additional functions
+conferred by this section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_709dc5c9-b8be-4717-a71b-deb3a30f91a8"></attrib>
+<attrib name="id" value="sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Minister may act for or on behalf of a
+disability services agency or an implementation company in the exercise of any
+of its functions for the purposes of the authorised implementation while it is
+a public sector agency of the State.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_225874b9-f6ae-4818-b8ce-4d7b2d3b643b"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_143f1ab5-7261-4eab-b726-171e0ca53b37"
+id="sec.11-he"><b>Direction and control of disability services agencies and
+implementation companies</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_152bf5fb-b279-4479-81dc-04aa2e93910f"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Each disability services agency and
+implementation company is subject to the direction and control of the Minister
+in the exercise of any of its functions for the purposes of the authorised
+implementation while it is a public sector agency of the
+State.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_166fdc2d-aebf-4f3a-827e-ec8cebe22c3a"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister may give directions for the purposes
+of the authorised implementation to a disability services agency and
+implementation company, and to the directors and other officers of a
+disability services agency and implementation company. Any such directions
+must be complied with by the disability services agency, the implementation
+company or the directors or other officers concerned.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4ebce7d5-648a-40e2-bb51-e5b72a3e264d"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Directions to an implementation company (or its
+directors and other officers) can only be given and are only required to be
+complied with while the implementation company is a public sector agency of
+the State.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_401a0908-a8af-4767-8565-fbe2217e5840"></attrib>
+<attrib name="id" value="sec.11-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The power to give directions under this section
+extends to directions with respect to the way in which a disability services
+agency or implementation company is to conduct its business and other
+affairs.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_60436484-51e8-47c9-a03e-836901c54a70"></attrib>
+<attrib name="id" value="sec.11-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Anything done or omitted to be done by a director
+or other officer of an implementation company in complying with a direction
+given by the Minister under this Act does not subject the director or officer
+personally to any action, liability, claim or demand.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3da2a5d9-dd78-48b9-a8a4-b7e8e6a53751"></attrib>
+<attrib name="id" value="sec.11-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">The provisions of this section are declared to be
+Corporations legislation displacement provisions for the purposes of section
+5G of the Corporations Act in relation to the provisions of the Corporations
+legislation generally.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_947dfb59-c3f8-4fbe-b093-4b60c2269384"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_d4966c42-d816-4f35-8639-cc23b1c3eac0"
+id="sec.12-he"><b>Proceeds of authorised implementation</b></heading></head>
+<block><txt break.before="1">All proceeds of the transfer of disability
+services assets to the non-government sector pursuant to the authorised
+implementation belong to and are payable to the State.</txt></block></level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_03f6b211-f4bb-4afd-bad7-a94a064fcc00"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_32f3ba18-9afe-497d-8db4-3df58f486805"
+id="pt.3-he"><b>Arrangements for transfer of staff</b></heading></head>
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8d6ef647-71ad-4455-a5ed-d39c54418626"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_0e33df6e-6169-4319-ac1f-e70e9ea7716f"
+id="sec.13-he"><b>Transfers within public sector</b></heading></head>
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5efb4e8f-f73a-4f5b-8d77-9e125fd581c6"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may, for the purposes of the
+authorised implementation, by order in writing transfer the employment of a
+disability services employee to the employment of another public sector
+agency.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_95d0f68d-1748-4f3f-9a49-01afc64dec5a"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A transfer of employment under this section does
+not require the consent of the person transferred.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cb65010d-1cb5-490b-bc12-4465cecdec61"></attrib>
+<attrib name="id" value="sec.13-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">An employee whose employment is transferred under
+this section is (until other provision is duly made under any Act or law) to
+be employed in accordance with any relevant statutory provisions, awards,
+agreements and determinations that would have applied to the employee had the
+employee remained a disability services employee.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ebd3c516-5168-4eb1-ae9d-2f820e75fe3c"></attrib>
+<attrib name="id" value="sec.13-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Minister may negotiate and enter into
+agreements or industrial instruments concerning workplace relations for or on
+behalf of a public sector agency of the State in connection with the operation
+of this section.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c281dc64-f8e6-4a4b-a29b-68622e1aabf0"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_cb5c81f6-fddc-49d1-b957-021849f59098"
+id="sec.14-he"><b>Transfers to non-government sector
+employment</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a8814f58-d777-43c4-885e-ac8cf3d60ac8"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may, for the purposes of the
+authorised implementation, enter into an agreement (a <defterm
+type="definition" guid="_566e68b0-1294-43b1-bd93-eec42a59a768"
+id="sec.14-def.transferagreement"><b><i>transfer agreement</i></b></defterm>)
+with an employer in the non-government sector for the transfer of the
+employment of a disability services employee to the employment of that
+employer as the <defterm type="definition"
+guid="_38361b2b-be72-4243-b653-2a6c419cbc59"
+id="sec.14-def.newemployer"><b><i>new employer</i></b></defterm> of the
+employee.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5e9b2c4c-820c-44f2-9507-cceaf53cbb4e"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister may by order in writing transfer the
+employment of a disability services employee to the employment of the new
+employer to give effect to a transfer agreement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_67b9c0fc-7c9c-4baf-a1eb-22c53d2cab38"></attrib>
+<attrib name="id" value="sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A transfer of employment under this section does
+not require the consent of the person transferred.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_01b0d047-db38-4e95-b20f-43f695e57b44"></attrib>
+<attrib name="id" value="sec.14-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A transfer agreement must contain provision to
+give effect to the following requirements&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f040503c-a7d5-4fd8-8de2-fddd5c1fcb91" id="sec.14-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the employment of a transferred employee with the
+new employer is to be on the same terms and conditions as applied under an
+industrial instrument to the employee as a disability services employee
+immediately before the transfer of employment,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0f127f99-b04e-40de-923a-146575266977" id="sec.14-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in the case of a transferred employee who is an
+apprentice or trainee under the <legref refid="act-2001-080" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Apprenticeship and
+Traineeship Act 2001</i></name></legref>, the new employer must apply under
+section 20 of that Act for approval to the transfer of the apprenticeship or
+traineeship to the new employer,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7655325a-8b51-46d3-80df-7e147ace7e04" id="sec.14-ssec.4-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the provisions of section 15 apply in respect of
+the transferred employee.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2a1d885f-c1f7-44ec-abc1-290593cb56ec"></attrib>
+<attrib name="id" value="sec.14-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A transfer agreement may specify an employment
+guarantee period for the transferred employee and if it does so must contain
+provision to give effect to the following requirements&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_39755d3e-50fe-4fdb-ae0f-4123b33b6c61" id="sec.14-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the terms and conditions of employment of the
+transferred employee with the new employer under an industrial instrument
+cannot be varied during the employment guarantee period for the transferred
+employee except by agreement entered into by or on behalf of the transferred
+employee in accordance with any applicable industrial law,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_efda4687-5818-4cc8-8b3f-2d91bb24d611" id="sec.14-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the employment of a transferred employee with the
+new employer cannot be terminated by the new employer during the employment
+guarantee period for the transferred employee, except&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f8b974d3-bd7b-4912-a965-083f6790dee7"
+id="sec.14-ssec.5-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">for serious misconduct, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_26c5351a-729d-4968-9c98-40f7d17b2c37"
+id="sec.14-ssec.5-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">pursuant to the proper application of reasonable
+disciplinary procedures, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_17f2d8c8-c0ac-43ce-ac9c-c7b3ee450648"
+id="sec.14-ssec.5-para1.b-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">by agreement with the
+employee.</txt></block></li></list>
+</block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_533c8739-ae33-4b0f-89de-bb24218320b0"></attrib>
+<attrib name="id" value="sec.14-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">A transfer agreement may include provision with
+respect to any other matters concerning the terms and conditions of employment
+of the transferred employee.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_099fd0d4-d8d2-442c-afa3-e7d419ef98e1"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_780911fb-f9e3-472b-94e4-583d4d06a5d7"
+id="sec.15-he"><b>Continuity of entitlements of transferred
+employees</b></heading></head>
+
+<tier type="subclause" id="sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a3b4a59a-a0f3-4a95-a6c1-31f8788bb440"></attrib>
+<attrib name="id" value="sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">On the transfer by order under this Part of an
+employee&#8217;s employment from one employer (the <defterm type="definition"
+guid="_c5974f55-3995-419b-be65-d830a765f861"
+id="sec.15-def.currentemployer"><b><i>current employer</i></b></defterm>) to
+another employer (the <defterm type="definition"
+guid="_abc92b6d-f0a8-4b5d-9b83-93ccc01a5378"
+id="sec.15-def.newemployer"><b><i>new employer</i></b></defterm>) the
+following provisions have effect&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aaf36048-0194-4926-b644-1ed85e498263" id="sec.15-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the employee is entitled to continue as a
+contributor, member or employee for the purposes of any superannuation scheme
+in respect of which he or she was a contributor, member or employee (as an
+employee of the current employer) immediately before the transfer of
+employment and remains so entitled subject to any variation to that
+entitlement made either by agreement or otherwise in accordance with
+law,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_507859e5-e62b-493c-96ab-203da4f9fb3c" id="sec.15-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the new employer is taken to be an employer for
+the purposes of any superannuation scheme in respect of which the employee
+continues as a contributor, member or employee pursuant to an entitlement
+under this section,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_10094e31-4fd1-49f2-89ab-84a04ef108bd" id="sec.15-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the continuity of the employee&#8217;s contract
+of employment is taken not to have been broken by the transfer of employment,
+and service of the employee with the current employer (including service
+deemed to be service with the current employer) that is continuous service up
+to the time of transfer is taken for all purposes to be service with the new
+employer,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e6a7cd99-da02-42bd-942a-e539345a5fd1" id="sec.15-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the employee retains any rights to annual leave,
+sick leave, extended or long service leave accrued or accruing immediately
+before the transfer (except accrued leave for which the employee has, on
+ceasing to be an employee of the current employer, been paid the monetary
+value in pursuance of any other entitlement of the
+employee).</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3f366b38-773d-497e-abd8-eb03c8a6cc47"></attrib>
+<attrib name="id" value="sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An employee is not entitled in respect of the
+same period of service to claim a benefit under this section and another law
+or instrument.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8c32ff8e-e735-4bf4-a0b7-732855cdb5ac"></attrib>
+<attrib name="id" value="sec.15-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Minister may in connection with the transfer
+of an employee&#8217;s employment under this Part give a certificate in
+writing as to the extent of the accrued rights to annual leave, sick leave,
+extended or long service leave that are retained by the employee under this
+section, and such a certificate is evidence of the matters
+certified.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_418035af-c248-4157-914a-db522b2e163e"></attrib>
+<attrib name="id" value="sec.15-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Nothing in the <legref refid="act-1955-038"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Long Service
+Leave Act 1955</i></name></legref> prevents payment in connection with the
+transfer under this Part of the employment of a disability services employee
+to the employment of an employer in the non-government sector of the monetary
+value of long service leave in lieu of an entitlement to that leave accrued as
+a disability services employee before the transfer of the employee&#8217;s
+employment.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ac0446d3-8b1a-4c94-b731-e5b0d128258b"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_c09ec825-b9f8-4d8c-b8f1-49a77f6f1655"
+id="sec.16-he"><b>Operation of other laws and
+entitlements</b></heading></head>
+<block><txt break.before="1">The following provisions apply in relation to the
+transfer of a person&#8217;s employment under this Part&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_701077bf-2618-49de-a6ec-8f7e216edf01" id="sec.16-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the transfer has effect despite any other law,
+contract or instrument under a law,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ad2baef0-cfd5-49b6-ac68-01437960af94" id="sec.16-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the transfer does not constitute a retrenchment,
+redundancy or termination of employment at the initiative of the Crown or any
+other public sector agency,</txt></block>
+<note type="legtext" guid="_041c954f-9c49-42c3-ad67-8e5b24bbda22"
+id="sec.16-para1.b-note"><heading guid="_7d5c9cef-31a9-4dc4-81cb-aaf677f2d480"
+id="sec.16-para1.b-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">For example, the transfer is not a termination
+for the purposes of clause 4 (Payment of accrued leave on termination of
+employment) of Schedule 3 to the <legref refid="act-2002-043" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Public Sector Employment
+and Management Act 2002</i></name></legref>.</txt></block></note>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_af2d8ed2-c442-4a62-bb9b-86fc91da5f01" id="sec.16-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the person transferred is not entitled to any
+payment or other benefit by reason only of having ceased to be an employee of
+a public sector agency as a result of the transfer,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5752e4a9-77dd-4fcd-93f5-dde308a3954f" id="sec.16-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">a public sector agency is not required to make
+any payment to the transferred person in relation to the transferred
+person&#8217;s accrued rights in respect of annual leave, sick leave or
+extended or long service leave.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_029ec32e-1ffa-4d84-ba1e-8862be8d8903"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_99675874-7954-4e13-9282-e17a3a4f56a6"
+id="sec.17-he"><b>Operation of Commonwealth law</b></heading></head>
+<block><txt break.before="1">A provision of this Part (including a provision
+to the extent that it imposes or continues a term or condition of employment)
+has no effect to the extent of any inconsistency with any provision of the
+<legref jurisd="CTH" type="act" check="unknown"><name emphasis="yes"><i>Fair
+Work Act 2009</i></name></legref> of the Commonwealth or of any instrument
+under that Act.</txt></block></level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_d49b8670-d8fa-4e63-b60c-365d2475312b"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_f4a168dc-e6a0-4a87-b211-6b5f00da220e"
+id="pt.4-he"><b>Arrangements for transfer of assets and
+functions</b></heading></head>
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_671fc786-5921-4646-8839-655326db3d01"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_cf290264-7097-4242-bbbf-895416cfa27f"
+id="sec.18-he"><b>Vesting orders</b></heading></head>
+<block><txt break.before="1">The Minister may make vesting orders under
+Schedule 2 for the purposes of the authorised
+implementation.</txt></block></level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5d5e50aa-0912-48a5-8d19-ad52b10b23aa"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_fb52bb97-b905-4016-bec1-1ac6e117610b"
+id="sec.19-he"><b>Severance of fixtures</b></heading></head>
+
+<tier type="subclause" id="sec.19-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2f0182e5-34cf-4096-898e-04d14d0228ed"></attrib>
+<attrib name="id" value="sec.19-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may by order in writing for the
+purposes of the authorised implementation direct that specified fixtures to
+which this section applies are severed from the land on which they are
+situated.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c513a1ec-b407-4a4d-bf34-9d5d8a1423b5"></attrib>
+<attrib name="id" value="sec.19-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The effect of such an order is that the fixtures
+concerned are deemed to be severed from the land on which they are situated
+and may be dealt with as personal property separate from the land for the
+purposes of the authorised implementation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_097a923c-c364-4033-ab53-8ae0b6d7f8e2"></attrib>
+<attrib name="id" value="sec.19-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This section applies to fixtures that are
+disability services assets situated on land owned by a public sector agency of
+the State and that are designated by the Minister by order in writing to be
+fixtures to which this section applies.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_82d54853-83a2-4431-8ae4-f35d76d5a537"></attrib>
+<attrib name="id" value="sec.19-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The severance of a fixture from land under this
+section does not affect the right of the fixture to be situated on that land
+and does not affect any right to drain water or sewage from the fixture across
+and through the land or to use any means of drainage of water or sewage from
+the fixture across and through the land.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f5b3744f-f5cf-4d8c-90ec-a49b70e784df"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_3a55c667-2f3f-45de-861a-ab861d983cf9"
+id="sec.20-he"><b>Grant of relevant authorisations</b></heading></head>
+
+<tier type="subclause" id="sec.20-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_21e25f21-1b6b-496a-a09e-07f197686f29"></attrib>
+<attrib name="id" value="sec.20-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may give directions to a public
+sector agency for or with respect to the grant of any relevant authorisation
+to a person who becomes or who it is proposed will become the new operator of
+any disability services assets pursuant to the authorised implementation,
+including directions for or with respect to any of the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0971f703-52f1-4847-a3ae-92777a624001" id="sec.20-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">requiring the grant of any such relevant
+authorisation without the necessity for the making or determination of any
+application,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ff30ef39-bcfc-495b-a373-07935761879e" id="sec.20-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the displacement or modification of any provision
+of a relevant law in its application to the grant of any such relevant
+authorisation,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_21fd5241-fa2f-4276-adb9-11263be7a2e9" id="sec.20-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the conditions or endorsements subject to which
+any such relevant authorisation is to be granted or that are to be attached to
+any such relevant authorisation.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_57dc6133-3de2-474b-8ba8-3d78d3b92374"></attrib>
+<attrib name="id" value="sec.20-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A direction may only be given under this section
+for the grant of a relevant authorisation that&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_55b326c1-bed1-4948-b32d-acbc9b1849d8" id="sec.20-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">operates to transfer or replace an existing
+relevant authorisation that is currently in force, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e64ea84f-9336-472f-906c-b824a9a5f1e2" id="sec.20-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is subject to terms, conditions or endorsements
+that are the same (or to substantially the same effect) as those to which that
+existing relevant authorisation is subject.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_592131ff-d8ec-4d0f-bb39-da4c3e1b7d11"></attrib>
+<attrib name="id" value="sec.20-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Minister must consult with a public sector
+agency before giving a direction to the public sector agency under this
+section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_98237a3f-c42e-40f0-a95a-e8538b853cdc"></attrib>
+<attrib name="id" value="sec.20-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A public sector agency exercising functions under
+a relevant law must comply with a direction of the Minister under this
+section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d3552812-a354-4824-9e5a-52182630a752"></attrib>
+<attrib name="id" value="sec.20-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Anything done by a disability services agency in
+compliance with a condition or endorsement of a relevant authorisation in
+relation to disability services assets of which a person is the new operator
+is taken to have been done by the new operator for the purposes of any
+corresponding condition or endorsement of a relevant authorisation granted to
+the new operator pursuant to a direction under this
+section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c7ade170-6008-48c3-811e-06c7eab94689"></attrib>
+<attrib name="id" value="sec.20-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">A relevant authorisation granted to a disability
+services agency or to the new operator of disability services assets may not
+be suspended or cancelled on the ground of the conversion of the new operator
+to a company or on the ground of any change that has occurred in the officers
+or shareholders of the company as a result of that conversion or pursuant to
+an implementation arrangement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_749e70c5-7aa3-4953-acf7-f3fc2c9c470a"></attrib>
+<attrib name="id" value="sec.20-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_949f3dc1-6ab7-4762-be4e-d087022c2163"
+id="sec.20-def.grant"><b><i>grant</i></b></defterm> includes issue and
+transfer.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_3c39c79e-ebc9-4f15-a694-ba888cc590e9"
+id="sec.20-def.newoperator"><b><i>new operator</i></b></defterm> of disability
+services assets means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_83f56a9c-d026-44bd-8c5a-0973eafa9a27" id="sec.20-ssec.7-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a public sector agency to which any disability
+services assets are transferred for the purposes of the authorised
+implementation, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8c7df08b-852e-4927-9e59-fc86daf7ef7b" id="sec.20-ssec.7-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a person (or the nominee of a person) in whom
+disability services assets are vested, or to whom disability services assets
+are transferred, pursuant to the authorised
+implementation.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_e71ab851-f958-4b66-8abe-83c6a53d743a"
+id="sec.20-def.publicsectoragency"><b><i>public sector
+agency</i></b></defterm> means a public sector agency of the State and
+includes a council under the <legref refid="act-1993-030" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Local Government Act
+1993</i></name></legref> and a State owned corporation under the <legref
+refid="act-1989-134" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>State Owned Corporations Act
+1989</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a6ec592f-1fbf-4662-86f5-58f44be96161"
+id="sec.20-def.relevantauthorisation"><b><i>relevant
+authorisation</i></b></defterm> means a licence, permit, consent, entitlement,
+accreditation, exemption or other authorisation under a relevant
+law.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_fd58210e-de0f-42fc-ae4e-7b2ac9085997"
+id="sec.20-def.relevantlaw"><b><i>relevant law</i></b></defterm> means any of
+the following Acts and any regulations or instruments under those
+Acts&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e810847a-edbc-405e-acf2-77ddf6e4523c" id="sec.20-ssec.7-para1">
+<block><txt break.before="1"><legref refid="act-1991-053" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Hunter Water Act
+1991</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8c9824f0-240d-41c7-9be8-7b386192a58b" id="sec.20-ssec.7-para1-oc.2">
+<block><txt break.before="1"><legref refid="act-1993-030" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Local Government Act
+1993</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_50b04159-9e63-46e8-ba5e-bbe3dc1cad3a" id="sec.20-ssec.7-para1-oc.3">
+<block><txt break.before="1"><legref refid="act-1994-088" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Sydney Water Act
+1994</i></name></legref></txt></block></li></list>
+</block></deflist>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_9b88135f-29ac-4e4f-9a0a-3b751e413618"></attrib>
+<attrib name="id" value="pt.5"></attrib></parentattributes>
+
+<head>
+<no><b>Part 5</b></no><heading guid="_a5ec3f4b-8367-4d8d-9788-e381611c28e2"
+id="pt.5-he"><b>Operation of other laws</b></heading></head>
+
+<level type="clause" id="sec.21">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6ea94c78-e926-492d-adaf-a18971fd1f35"></attrib>
+<attrib name="id" value="sec.21"></attrib></parentattributes>
+
+<head>
+<no>21</no><heading guid="_b6da2090-6a8a-4ce1-9fc4-f0a9759083c6"
+id="sec.21-he"><b>State taxes</b></heading></head>
+
+<tier type="subclause" id="sec.21-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_08cb0e8e-3f1c-4188-bbf8-19efa0106f0c"></attrib>
+<attrib name="id" value="sec.21-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_41a7d5af-799d-470c-83da-91e7c3faed51"
+id="sec.21-def.relevantmatter"><b><i>relevant matter</i></b></defterm> means
+any of the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_984ff9c2-5e11-4ca7-b47d-dfb9de26b588" id="sec.21-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any implementation
+arrangement,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_02174753-6ba9-4fea-8250-cdeb1a1654cf" id="sec.21-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a vesting of assets, rights or liabilities by
+operation of Schedule 2 (Vesting of assets, rights and liabilities) and
+anything certified by the Treasurer as having been done in consequence of such
+a vesting (for example, the transfer or registration of an interest in
+land),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f12dbb3f-0adf-42eb-967e-d614098d4c42" id="sec.21-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the issue, disposal or purchase of shares or
+other securities in or issued by a company for the purposes of the authorised
+implementation,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bfa9c226-3bd3-40d6-ba5e-83513156f456" id="sec.21-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">such other matters for the purposes of the
+authorised implementation as may be prescribed by the
+regulations,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6263d722-12b5-4c7d-b3cb-3d749d4768b2" id="sec.21-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">any transaction occurring within 6 months after
+completion of the authorised implementation and certified by the Treasurer to
+be a transaction entered into in connection with the transfer of disability
+services assets to the non-government sector pursuant to the authorised
+implementation.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_2a7b3b27-fef8-48b4-9f50-449f1de58944"
+id="sec.21-def.Statetax"><b><i>State tax</i></b></defterm> means application
+or registration fees, duty under the <legref refid="act-1997-123" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Duties Act
+1997</i></name></legref> or any other tax, duty, fee or charge imposed by any
+Act or law of the State.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4f1ced71-8d89-4245-9362-59168e9a0146"></attrib>
+<attrib name="id" value="sec.21-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">State tax is not payable by a public sector
+agency in relation to a relevant matter.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_eef36190-99fc-45b3-9cd5-ae0df7e911ae"></attrib>
+<attrib name="id" value="sec.21-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">State tax is not payable by a person or body
+(other than a public sector agency) in relation to a relevant matter to such
+extent (if any) as the Treasurer may direct by order in writing, either
+generally or in a particular case.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_50b16b37-94cd-4064-bd40-49099c7289ca"></attrib>
+<attrib name="id" value="sec.21-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">An order may be made by the Treasurer under this
+section before or after the liability to pay the State tax concerned
+accrues.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_83832abe-c134-4278-aa71-cb622c37c6bc"></attrib>
+<attrib name="id" value="sec.21-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The Treasurer must give a copy of an order under
+this section to the Chief Commissioner of State Revenue.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.22">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7e832042-cc8c-477d-91cf-3d576179c873"></attrib>
+<attrib name="id" value="sec.22"></attrib></parentattributes>
+
+<head>
+<no>22</no><heading guid="_4e19be7e-31e7-4818-a8b5-e48d8a5f93bc"
+id="sec.22-he"><b>General relationship of Act with other State
+legislation</b></heading></head>
+
+<tier type="subclause" id="sec.22-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7117d510-2bb8-4889-8c20-38560fcc075c"></attrib>
+<attrib name="id" value="sec.22-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">None of the following provisions operate to
+prevent, restrict or otherwise limit the carrying out of an implementation
+arrangement or the exercise of a function for the purposes of the authorised
+implementation&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a69c3162-e6a2-4b48-bd9f-e01e6e0b8d3d" id="sec.22-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any provision of the <legref refid="act-1993-010"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Charitable
+Trusts Act 1993</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_78c8785d-1d58-45de-9851-3730f04021b4" id="sec.22-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any provision of the <legref refid="act-1987-052"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Community
+Welfare Act 1987</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_88ebb04b-e876-4ab4-bbac-4f8e460f76d7" id="sec.22-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any provision of the <legref refid="act-2014-041"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Disability
+Inclusion Act 2014</i></name></legref> or a condition of any grant of
+financial assistance under that Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_acb311c0-ad20-45ff-ba05-99067fe0d14b" id="sec.22-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">any provision of the <legref refid="act-1988-006"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Home Care
+Service Act 1988</i></name></legref>.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.22-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d5577349-4d6f-4756-882c-7e86803fde6e"></attrib>
+<attrib name="id" value="sec.22-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In the event of any inconsistency between the
+provisions of this Act or the regulations and a provision of any other State
+legislation that is prescribed by the regulations as an inconsistent provision
+for the purposes of this section, the provisions of this Act or the
+regulations (as the case may be) prevail to the extent of the
+inconsistency.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.22-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_575f2f1a-d20e-4600-98b9-66dd07a70e73"></attrib>
+<attrib name="id" value="sec.22-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The requirements of any other Act (whether
+enacted before or after this Act) for the approval by resolution of either or
+both Houses of Parliament (or by Act) of any act that constitutes the transfer
+of disability services assets for the purposes of the authorised
+implementation is satisfied by the enactment of this
+Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 22:</b> Am 2014 No 41,
+Sch 5.7 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.23">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c7ff41d4-aee3-4353-a7bd-31faa5b211bc"></attrib>
+<attrib name="id" value="sec.23"></attrib></parentattributes>
+
+<head>
+<no>23</no><heading guid="_04e98acc-7eea-469b-a3fe-40989a577044"
+id="sec.23-he"><b>Part 6 of <legref refid="act-2018-055" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Government Sector Finance
+Act 2018</i></name></legref></b></heading></head>
+
+<tier type="subclause" id="sec.23-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5da3f2a0-076c-4a1c-addd-3f67d3cf68f2"></attrib>
+<attrib name="id" value="sec.23-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Part 6 of the <legref refid="act-2018-055"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Government
+Sector Finance Act 2018</i></name></legref> does not apply to any
+implementation arrangement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b7b02527-2161-4635-93ed-62ff9ea93b82"></attrib>
+<attrib name="id" value="sec.23-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An implementation arrangement requires the
+approval of the Treasurer before it is entered into if the implementation
+arrangement involves a public sector agency of the State&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c2922f85-34ff-415b-afd5-0ae9ec84e2d0" id="sec.23-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">receiving borrowings, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_22669cd1-d50b-4964-a987-34b078f7e87c" id="sec.23-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">entering into a joint financing arrangement,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_02ead78e-511c-49bd-b336-942b27a37f23" id="sec.23-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">carrying on a joint
+venture.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7aedf2b9-099f-4a9e-919f-4c465c35375f"></attrib>
+<attrib name="id" value="sec.23-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The expressions <defterm type="definition"
+guid="_274bc081-cfe1-4113-8b7c-189c885127c1"
+id="sec.23-def.borrowings"><b><i>borrowings</i></b></defterm>, <defterm
+type="definition" guid="_c9cd88b9-cc98-47d2-94a6-796ab2fc3c39"
+id="sec.23-def.jointfinancingarrangement"><b><i>joint financing
+arrangement</i></b></defterm> and <defterm type="definition"
+guid="_d6b0b799-daad-4fe2-9463-71e446906d7c"
+id="sec.23-def.jointventure"><b><i>joint venture</i></b></defterm> have the
+same meanings as in the <legref refid="act-2018-055" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Finance Act
+2018</i></name></legref>.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 23:</b> Subst 2018 No
+70, Sch 3.45.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.24">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_347c3913-f71e-4a39-9254-beb157050268"></attrib>
+<attrib name="id" value="sec.24"></attrib></parentattributes>
+
+<head>
+<no>24</no><heading guid="_39f4c321-3dd9-433c-abba-f148b0c821c2"
+id="sec.24-he"><b>Release of information by
+Auditor-General</b></heading></head>
+<block><txt break.before="1">Section 38 (Secrecy) of the <legref
+refid="act-1983-152" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Government Sector Audit Act 1983</i></name></legref> does
+not apply to or in respect of a report or communication that the Minister
+authorises the Auditor-General to make to a person for the purposes of the
+authorised implementation or for the purposes of the audit (before or after
+the completion of the authorised implementation) of records relating to
+disability services assets transferred pursuant to the authorised
+implementation.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 24:</b> Am 2018 No 70,
+Sch 4.70.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.25">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e57a9176-39c5-44db-9e11-b4f884e2dbee"></attrib>
+<attrib name="id" value="sec.25"></attrib></parentattributes>
+
+<head>
+<no>25</no><heading guid="_2f78db72-06d3-4029-89ad-3f5b69fbf1e0"
+id="sec.25-he"><b>Contracts for sale of land</b></heading></head>
+<block><txt break.before="1">Section 52A (Contracts for sale of land) of the
+<legref refid="act-1919-006" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Conveyancing Act 1919</i></name></legref> does not apply to
+a contract for the sale of land that is entered into for the purposes of the
+authorised implementation.</txt></block></level>
+
+
+<level type="clause" id="sec.26">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_02f280be-09f8-40a4-9850-a8663243dbc7"></attrib>
+<attrib name="id" value="sec.26"></attrib></parentattributes>
+
+<head>
+<no>26</no><heading guid="_040a2d57-0884-4ca5-89a2-bec849709645"
+id="sec.26-he"><b>Protection of contractual and other
+obligations</b></heading></head>
+
+<tier type="subclause" id="sec.26-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7f1f54f3-427e-4b5e-bc51-f99e1bcd7c02"></attrib>
+<attrib name="id" value="sec.26-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This section applies to the
+following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d2504cce-7472-405d-9d45-99b25d080ac1" id="sec.26-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the operation of this Act (including any order
+under this Act and anything done or omitted to be done under or for the
+purposes of this Act),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a11baffa-8f1e-4642-8c59-e4e58ca686f5" id="sec.26-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the transfer of disability services assets for
+the purposes of the authorised implementation,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d7c58422-d6fc-4e9d-af79-c1d9c57d3642" id="sec.26-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the entering into or performance of obligations
+under an implementation arrangement by a public sector
+agency,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5fcfa43b-8657-4ad4-9785-c7b4ec3c57e9" id="sec.26-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">a disclosure of information by, on behalf of or
+with the consent of a public sector agency for the purposes of the authorised
+implementation.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_09e826c1-3e10-4284-a4a2-423b772a20b0"></attrib>
+<attrib name="id" value="sec.26-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">None of the matters or things to which this
+section applies are to be regarded as&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_00bb4094-fd8e-4e90-8c5b-24fd85e723ca" id="sec.26-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a breach of contract or confidence or otherwise
+as a civil wrong, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_10be4648-97bc-40f0-86fd-a09febfe55d7" id="sec.26-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a breach of any instrument (including, without
+limitation, any provision prohibiting, restricting or regulating the
+assignment or transfer of assets, rights or liabilities) or as requiring any
+act to be done under an instrument, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_82838f08-5e4a-4fca-afdd-56de3467dc1a" id="sec.26-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">giving rise to any right or remedy by a party to
+a contract or other instrument, or as causing or permitting the termination
+of, or exercise of rights under, any contract or other instrument,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_321735a0-7f57-4a28-84a5-c3e5eec403f6" id="sec.26-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">an event of default under any contract or other
+instrument, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_86b741f0-ebf1-4688-808c-f2d16599f47d" id="sec.26-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">giving rise to a breach of, a complaint under or
+an offence against a provision of an Act that prohibits or restricts the
+disclosure of information, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8003ccbd-17e4-41bb-b80a-a555766f40a1" id="sec.26-ssec.2-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">releasing a surety or other obligee wholly or in
+part from an obligation.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_71eda261-cbc5-4bcf-848a-35e47ba62976"></attrib>
+<attrib name="id" value="sec.26-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This section does not affect the rights and
+obligations of the parties to an implementation arrangement in respect of the
+performance of obligations under the implementation
+arrangement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.26-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0c75b81f-4791-4f23-beac-4b41ea1b68b8"></attrib>
+<attrib name="id" value="sec.26-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d272e1b2-5398-40cb-948a-503626be5ec8"
+id="sec.26-def.instrument"><b><i>instrument</i></b></defterm> means an
+instrument (other than an instrument made under this Act) or any other
+document that creates, modifies or extinguishes rights or liabilities (or
+would do so if lodged, filed or registered in accordance with any law), and
+includes any judgment, order, process or other instrument issued by a court or
+tribunal.</txt></block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.27">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9a456b4e-43f1-409b-b0b4-11c2bc131dc7"></attrib>
+<attrib name="id" value="sec.27"></attrib></parentattributes>
+
+<head>
+<no>27</no><heading guid="_d252785a-5d74-45bc-b12c-5af758fd62d4"
+id="sec.27-he"><b>Compensation not payable</b></heading></head>
+
+<tier type="subclause" id="sec.27-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ceebb6bb-d786-4614-9f68-c19f8aa1486e"></attrib>
+<attrib name="id" value="sec.27-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Compensation is not payable by or on behalf of
+the State&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fbce419a-0f1c-4619-adce-e84915853687" id="sec.27-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">because of the enactment or operation of this
+Act, or for any consequence of that enactment or operation,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7aab9b46-c7f0-411f-9f7a-734f07d88748" id="sec.27-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">because of any statement or conduct relating to
+the enactment of this Act.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.27-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1b359207-6dd1-44f7-92d1-d6e63a3b8966"></attrib>
+<attrib name="id" value="sec.27-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This section does not extend to compensation
+payable under an implementation arrangement to a party to the implementation
+arrangement in connection with the performance of obligations under the
+implementation arrangement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.27-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4303276c-4fa2-4856-9d10-4627418852fe"></attrib>
+<attrib name="id" value="sec.27-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_195c365c-79e2-4016-a856-f3995d93d9c3"
+id="sec.27-def.compensation"><b><i>compensation</i></b></defterm> includes
+damages or any other form of monetary compensation.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c8fbf259-6422-4526-a929-9bb645fa4172"
+id="sec.27-def.conduct"><b><i>conduct</i></b></defterm> includes any act or
+omission, whether unconscionable, misleading, deceptive or
+otherwise.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_3ff4d144-08dc-407f-95d5-32b8fda0fa84"
+id="sec.27-def.operationofthisAct"><b><i>operation of this
+Act</i></b></defterm> includes the operation of any notice or order under this
+Act and any agreement entered into under or for the purposes of this
+Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_4fab77b8-b01e-4ece-a21c-44dcb18e821e"
+id="sec.27-def.statement"><b><i>statement</i></b></defterm> includes a
+representation of any kind&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6b70e31a-7bd3-4eb0-914f-84fccbf3220c" id="sec.27-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">whether made verbally or in writing,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0ac838de-45ce-4b08-8c65-46df4c2561da" id="sec.27-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">whether negligent, false, misleading or
+otherwise.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_1e32442d-84bb-4657-8f4e-916308752bcc"
+id="sec.27-def.theState"><b><i>the State</i></b></defterm> means the Crown
+within the meaning of the <legref refid="act-1988-070" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Crown Proceedings Act
+1988</i></name></legref>, and includes a public sector agency of the State and
+an officer, employee or agent of the Crown or a public sector agency of the
+State.</txt></block></deflist>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e5b1e908-8ba4-480b-8b6e-cba6974a20a9"></attrib>
+<attrib name="id" value="pt.6"></attrib></parentattributes>
+
+<head>
+<no><b>Part 6</b></no><heading guid="_f1ac8777-d53d-4664-856b-2fe775ba91ad"
+id="pt.6-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.28">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_09352619-ff12-4883-aea9-6c3bf59c4d36"></attrib>
+<attrib name="id" value="sec.28"></attrib></parentattributes>
+
+<head>
+<no>28</no><heading guid="_3681d77c-2233-4a53-9a6a-2f2b53ecb28a"
+id="sec.28-he"><b>Delegation</b></heading></head>
+
+<tier type="subclause" id="sec.28-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5b52aad2-738f-4427-9e5e-dd57a956460c"></attrib>
+<attrib name="id" value="sec.28-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may delegate any function of the
+Minister under this Act except this power of delegation to any of the
+following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4d4e88dc-335a-410d-8ded-54e9d1e7573e" id="sec.28-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any other Minister,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aa3d9d87-f84b-4124-ad38-edd6a2666f17" id="sec.28-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the Secretary or any officer of the Department of
+Family and Community Services,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c91d5a48-fc34-43fb-9209-bb2883e062c3" id="sec.28-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any person employed in the Public Service
+prescribed by the regulations.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dce933db-dc86-4141-a71a-d2e1369fcb50"></attrib>
+<attrib name="id" value="sec.28-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Treasurer may delegate to the Secretary of
+the Treasury, or to any other person employed in the Public Service prescribed
+by the regulations, any function of the Treasurer under this Act except this
+power of delegation.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 28:</b> Am 2018 No 68,
+Sch 2.26.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.29">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_796b5a69-004b-45e8-9b06-11bfac2869f4"></attrib>
+<attrib name="id" value="sec.29"></attrib></parentattributes>
+
+<head>
+<no>29</no><heading guid="_347e957c-e079-40ba-a98c-8b3d64406061"
+id="sec.29-he"><b>Act to bind State and other
+jurisdictions</b></heading></head>
+
+<tier type="subclause" id="sec.29-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_394a6681-6ee2-4c2b-a24e-df100f3a6f71"></attrib>
+<attrib name="id" value="sec.29-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This Act binds the State and, in so far as the
+legislative power of the Parliament of New South Wales permits, the other
+States, the Territories and the Commonwealth.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.29-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_39b27625-5e73-400e-8d49-d1c9463ec518"></attrib>
+<attrib name="id" value="sec.29-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting subsection (1), this Act has
+effect despite any privilege or immunity of the Crown in any of its
+capacities.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.29-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e0417e74-b8b1-47fc-87b5-248caf56d8e3"></attrib>
+<attrib name="id" value="sec.29-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This Act does not make any State or Territory,
+the Commonwealth, or the Crown in any of its capacities, liable to be
+prosecuted for an offence.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.29-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3b148e92-c176-41e2-98d8-f5c12ea0943d"></attrib>
+<attrib name="id" value="sec.29-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A reference in this section to a State, Territory
+or the Commonwealth includes a reference to the Government of the State,
+Territory or Commonwealth.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.30">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f30476e5-8576-4d9b-bd08-147a5686c3c4"></attrib>
+<attrib name="id" value="sec.30"></attrib></parentattributes>
+
+<head>
+<no>30</no><heading guid="_3920dc4f-917d-4511-b779-1df03a2aebdc"
+id="sec.30-he"><b>Extraterritorial operation of Act</b></heading></head>
+
+<tier type="subclause" id="sec.30-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9920aeb3-ca27-4d23-8648-0f0b9ff06096"></attrib>
+<attrib name="id" value="sec.30-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">It is the intention of the Parliament of New
+South Wales that the operation of this Act should, as far as possible, include
+operation in relation to the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_abbcbff7-009e-4387-93f1-266bfc6331cf" id="sec.30-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">things situated in or outside the territorial
+limits of the State,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f51d1c9e-835f-4fb5-8bdc-d8c1b484daf7" id="sec.30-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">acts, transactions and matters done, entered into
+or occurring in or outside the territorial limits of the
+State,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e67c2a2a-5572-420d-b55b-99ce0c0bab70" id="sec.30-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">things, acts, transactions and matters (wherever
+situated, done, entered into or occurring) that would, apart from this Act, be
+governed or otherwise affected by the law of another State, a Territory, the
+Commonwealth or a foreign country.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.30-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b7dd8d36-1f4b-44c5-ba68-767bf7f859a2"></attrib>
+<attrib name="id" value="sec.30-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without limiting subsection (1), it is the
+intention of the Parliament of New South Wales that the provisions of this Act
+have an operation in relation to the things, acts, transactions and matters
+referred to in that subsection even if the rules of private international law
+(whether at general law or as provided by legislation) would require the
+application of a law other than this Act instead of the provisions of this
+Act.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.31">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_43c32b55-f44f-490a-888d-d9a0b1988a89"></attrib>
+<attrib name="id" value="sec.31"></attrib></parentattributes>
+
+<head>
+<no>31</no><heading guid="_d205bd0f-5083-4f56-a37b-c85d649cd7f5"
+id="sec.31-he"><b>Orders</b></heading></head>
+
+<tier type="subclause" id="sec.31-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_70521af3-324b-48a8-b26f-bf8f361ab1b4"></attrib>
+<attrib name="id" value="sec.31-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An order made under a provision of this Act takes
+effect at the beginning of the day on which it is made, unless the order
+otherwise provides.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.31-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9146c9a4-36ba-4f4b-9b4f-0b4a88268158"></attrib>
+<attrib name="id" value="sec.31-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An order cannot provide for the order to take
+effect earlier than the beginning of the day on which it is made (but can
+provide for the order to take effect at a time on the day on which it is made
+that is earlier than the time at which it is made).</txt></block></tier>
+
+
+<tier type="subclause" id="sec.31-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5ec11415-7cfe-45f1-bb60-f0c43640d4a7"></attrib>
+<attrib name="id" value="sec.31-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A document purporting to be an order made under a
+provision of this Act is, unless the contrary is established, taken to be such
+an order and to have been properly made.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.31-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c94872a5-8c51-452e-a12b-b3255993c5cd"></attrib>
+<attrib name="id" value="sec.31-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A certificate purporting to be signed by the
+Minister or an officer prescribed by the regulations certifying that an order
+specified or referred to in the certificate is an order made under a specified
+provision of this Act is admissible in evidence in any legal proceedings and
+is evidence of the matters certified.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.31-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f93f4f3b-2065-498d-808d-928f1f59d2d7"></attrib>
+<attrib name="id" value="sec.31-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A provision of another Act that results from an
+amendment made by this Act and that provides for the making of an order is
+deemed for the purposes of this section to be a provision of this Act (and the
+order is deemed to be an order made under a provision of this
+Act).</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.32">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1398e60a-d2b0-4e69-a5a0-839e9d05407f"></attrib>
+<attrib name="id" value="sec.32"></attrib></parentattributes>
+
+<head>
+<no>32</no><heading guid="_5ef8ae6c-3994-4b26-b992-80a9de94ec1d"
+id="sec.32-he"><b>Service or giving of documents</b></heading></head>
+
+<tier type="subclause" id="sec.32-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_33c05acb-a6e3-42d0-836d-7922d5c95307"></attrib>
+<attrib name="id" value="sec.32-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A document that is authorised or required by this
+Act or the regulations to be served on or given to any person may be served or
+given&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8e5e17b8-c5af-409b-88ef-10b6dd351816" id="sec.32-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in the case of a natural person&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_320d8f40-9388-41f8-808f-af311e84848d"
+id="sec.32-ssec.1-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">by delivering it to the person personally,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_457788b7-82f3-48d9-bf4d-171301a64ed7"
+id="sec.32-ssec.1-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">by sending it by post to the address specified by
+the person for the giving or service of documents or, if no such address is
+specified, the residential or business address of the person last known to the
+person giving or serving the document, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_acc86666-1aff-434b-a330-9ae7f6ffaf1a"
+id="sec.32-ssec.1-para1.a-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">by sending it by facsimile transmission to the
+facsimile number of the person, or</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f1ceba2b-9ae9-4eca-a1f5-aabcb36e03d3" id="sec.32-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in the case of a body corporate&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ea35a2e6-fdde-4d0e-8e19-9a1966b80372"
+id="sec.32-ssec.1-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">by leaving it with a person apparently of or
+above the age of 16 years at, or by sending it by post to, the head office, a
+registered office or a principal office of the body corporate or to an address
+specified by the body corporate for the giving or service of documents,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0cd1547d-fb55-4749-927f-630fa42a83ca"
+id="sec.32-ssec.1-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">by sending it by facsimile transmission to the
+facsimile number of the body corporate.</txt></block></li></list>
+</block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.32-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4eba7419-d305-4ee4-8fe3-519f20c830f1"></attrib>
+<attrib name="id" value="sec.32-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Nothing in this section affects the operation of
+any provision of a law or of the rules of a court authorising a document to be
+served on or given to a person in any other manner.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.33">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cad3d1ad-354d-4d00-83f1-9a8dad33947f"></attrib>
+<attrib name="id" value="sec.33"></attrib></parentattributes>
+
+<head>
+<no>33</no><heading guid="_4c9f3865-5f61-4d4c-8851-233a590d3ab8"
+id="sec.33-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_63d91e24-ff02-4b06-87ca-7dda18fd6485"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_01a7309f-03fb-47a3-97d1-1b53bf75bb66" id="sch.1-he"><b>Interpretative
+provisions</b></heading></head>
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_89317015-ef4b-445e-b5ca-0c1d1fdc7372"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_ca74f7e2-545c-43e1-97db-9a5d673a707b"
+id="sch.1-sec.1-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ccc5e4a4-d6e7-4c2e-b30d-d75b80f24538"
+id="sch.1-def.assets"><b><i>assets</i></b></defterm> means any legal or
+equitable estate or interest (whether present or future, whether vested or
+contingent and whether personal or assignable) in real or personal property of
+any description (including money), and includes securities, choses in action
+and documents.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_2cb5d92a-e8c2-448f-be65-a172845259a9"
+id="sch.1-def.completion"><b><i>completion</i></b></defterm> of the authorised
+implementation occurs on such date as may be designated by the Minister by
+order in writing as the date of completion of the authorised
+implementation.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d6e3b64e-fd24-4890-9ff0-968095ab55f7"
+id="sch.1-def.CorporationsAct"><b><i>Corporations Act</i></b></defterm> means
+the <legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="yes"><i>Corporations Act 2001</i></name></legref> of the
+Commonwealth.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_0e56d189-bedc-418c-873c-1f3680c98b17"
+id="sch.1-def.Corporationslegislation"><b><i>Corporations
+legislation</i></b></defterm> means the Corporations legislation to which Part
+1.1A of the Corporations Act applies.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ae84b23f-f5c7-4438-bbe8-6f74e4a74348"
+id="sch.1-def.disabilityservicesagency"><b><i>disability services
+agency</i></b></defterm>&#8212;see section 4.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_673f4bfe-9ace-4e19-b453-f59e9ff99ed1"
+id="sch.1-def.disabilityservicesassets"><b><i>disability services
+assets</i></b></defterm>&#8212;see section 4.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_dd6c24f7-f8cc-4deb-88b0-dd5203d04ccf"
+id="sch.1-def.disabilityservicesemployee"><b><i>disability services
+employee</i></b></defterm>&#8212;see section 4.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d7632d77-9225-413a-90cb-90a1a6ce16e7"
+id="sch.1-def.disabilityservicesfunctions"><b><i>disability services
+functions</i></b></defterm>&#8212;see section 4.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_de331c92-7a55-45de-ab03-b3312f9ef835"
+id="sch.1-def.disabilityserviceslegislation"><b><i>disability services
+legislation</i></b></defterm>&#8212;see section 4.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_52dea277-5f27-42a7-82c1-e7e16f37e9c9"
+id="sch.1-def.function"><b><i>function</i></b></defterm> includes a power,
+authority or duty, and <defterm type="definition"
+guid="_f8520b7d-44a6-4d3d-90ad-97e491e585c6"
+id="sch.1-def.exercise"><b><i>exercise</i></b></defterm> a function includes
+perform a duty.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_101c47cb-9d32-471a-998b-968eff7842bb"
+id="sch.1-def.generallaw"><b><i>general law</i></b></defterm> means the common
+law and equity (as modified from time to time by legislation).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_58ec0b0f-1912-4a9e-95ba-b31da2f2c16c"
+id="sch.1-def.implementationarrangement"><b><i>implementation
+arrangement</i></b></defterm> means a transaction, agreement or other
+arrangement entered into by or on behalf of a public sector agency of the
+State for the purposes of the authorised implementation.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_1056de5f-97c2-4337-b399-62849b16cc51"
+id="sch.1-def.implementationcompany"><b><i>implementation
+company</i></b></defterm> means a company established as an implementation
+company pursuant to this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_f833258a-9fb7-42ed-b387-6eb55c22e67e"
+id="sch.1-def.legislation"><b><i>legislation</i></b></defterm>
+includes&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_843f6f38-f0d3-4ced-b394-b998c22c87de" id="sch.1-sec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any statute of a legislature (whether enacted or
+made in Australia or elsewhere), and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7da1f5fb-65e9-4e67-9068-c4b22aa17d4c" id="sch.1-sec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any proclamation, regulation, rule, by-law, order
+or any other kind of subordinate legislation (however described) made under
+the authority of a statute (whether enacted or made in Australia or
+elsewhere).</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_3be18193-4387-4a26-89b4-09e3504ba152"
+id="sch.1-def.liabilities"><b><i>liabilities</i></b></defterm> means any
+liabilities, debts or obligations (whether present or future, whether vested
+or contingent and whether personal or assignable).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_0946dceb-5f36-4fa3-8217-e8e71bfa92ec"
+id="sch.1-def.modification"><b><i>modification</i></b></defterm> includes
+addition, exception, omission or substitution.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_7e8203c5-35cf-45d4-9827-3c7a22be75dd"
+id="sch.1-def.nongovernmentsector"><b><i>non-government
+sector</i></b></defterm> means any person other than a public sector agency
+and includes a public sector agency of another State or
+Territory.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d62b5996-1c45-483b-804b-d962408d5006"
+id="sch.1-def.publicsectoragency"><b><i>public sector
+agency</i></b></defterm> means each of the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4dfd0507-1d96-436f-a101-d04cf310cb03" id="sch.1-sec.1-para1.a-oc.2">
+<no>(a)</no>
+<block><txt break.before="1">the State or the Commonwealth (including the
+Crown in right of the State or the Commonwealth),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6ef174f1-a99b-469c-b41a-f77579c89f87" id="sch.1-sec.1-para1.b-oc.2">
+<no>(b)</no>
+<block><txt break.before="1">a Minister of the government of the State or the
+Commonwealth,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5263f196-d65a-4128-a157-243639985c09" id="sch.1-sec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a government sector agency (within the meaning of
+the <legref refid="act-2013-040" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Government Sector Employment Act 2013</i></name></legref>)
+or a Department or other agency of the Commonwealth
+government,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_838266fd-461c-42f5-b5a9-45f479a6c395" id="sch.1-sec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">a public authority of the State or the
+Commonwealth,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ab3e54ff-d2cd-45cb-add3-e86b5d9d1001" id="sch.1-sec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">a statutory health corporation under the <legref
+refid="act-1997-154" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Health Services Act
+1997</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1719b9c8-ed6b-438b-821b-ce53146619e1" id="sch.1-sec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">the Home Care Service of New South Wales
+constituted by the <legref refid="act-1988-006" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Home Care Service Act
+1988</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cd418580-c3d0-49a4-8043-9b2b25787007" id="sch.1-sec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">any other person acting on behalf of the State or
+the Commonwealth (or the Crown in right of the State or the
+Commonwealth),</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4132a4ea-437f-4193-ad07-35809b71cb17" id="sch.1-sec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">an implementation company, but only while all the
+shares in the company are held by or on behalf of the State or the company is
+the subsidiary of another implementation company all the shares in which are
+held by or on behalf of the State,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7670be60-6b75-4bd3-8ffb-222317ca8d69" id="sch.1-sec.1-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">a wholly owned subsidiary of a public sector
+agency.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6e9e8345-1412-471c-b81a-9f69c08dbf9f"
+id="sch.1-def.rights"><b><i>rights</i></b></defterm> means any rights, powers,
+privileges or immunities (whether present or future, whether vested or
+contingent and whether personal or assignable).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_32983608-2834-4dca-8852-f899036c8fb4"
+id="sch.1-def.Statelegislation"><b><i>State legislation</i></b></defterm>
+means any legislation of the State.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_250243d0-0c0b-45fe-921d-54f476b5b789" id="sch.1-def.theState"><b><i>the
+State</i></b></defterm> means the State of New South Wales.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_97f886e0-97d1-4f68-8c80-89d87a0497e1"
+id="sch.1-def.transfer"><b><i>transfer</i></b></defterm> of disability
+services assets includes the sale or lease of disability services assets and
+the creation and transfer of any interest in disability services
+assets.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sch.1-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6ac2166b-14aa-408a-b641-5d6e189425cd"></attrib>
+<attrib name="id" value="sch.1-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_3b1c8221-7627-442a-8675-46d518c40297"
+id="sch.1-sec.2-he"><b>Disability services assets</b></heading></head>
+<block><txt break.before="1">In this Act, <defterm type="definition"
+guid="_4a93b65b-9e16-4cdc-ab40-661d41d50ab3"
+id="sch.1-def.disabilityservicesassets-oc.2"><b><i>disability services
+assets</i></b></defterm> includes assets, rights and liabilities vested in a
+public sector agency of the State that were disability services assets before
+their transfer to a public sector agency for the purposes of the authorised
+implementation. Assets, rights and liabilities cease to be disability services
+assets when they are transferred to the non-government sector or to a public
+sector agency of the Commonwealth for the purposes of the authorised
+implementation.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_09924f3b-96c4-427e-9a3b-ddb1d29f5caa"></attrib>
+<attrib name="id" value="sch.1-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_2e3a0509-e65d-466f-934b-d71ed442c7a2"
+id="sch.1-sec.3-he"><b>Functions for the purposes of the authorised
+implementation</b></heading></head>
+<block><txt break.before="1">For the purposes of this Act, any act, matter or
+thing is done or has effect for the purposes of the authorised implementation
+if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aecc0ffd-d80f-45ba-aa5d-84cc76c4bd60" id="sch.1-sec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">it is done or has effect for the purpose of
+effecting or facilitating the authorised implementation,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_917937c2-994f-4848-9364-e5fca8dc326e" id="sch.1-sec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">it is done or has effect for any purpose that is
+ancillary or incidental to or consequential on the authorised implementation,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2f455e71-a8cb-4ed5-9b53-b42cccc77d57" id="sch.1-sec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">it is done or has effect for any purpose
+connected with the vesting of disability services assets in, or the transfer
+of a disability services employee to, a public sector agency at any time after
+completion of the authorised implementation.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sch.1-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8bb6673c-4513-4f48-a1cc-ba5601ef7020"></attrib>
+<attrib name="id" value="sch.1-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_24d4f56a-5994-40f0-b743-f4511b737af3"
+id="sch.1-sec.4-he"><b>Transfer and acquisition of assets, rights and
+liabilities</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b87088ba-27a1-4f2d-be1f-dfde6636cce3"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The assets, rights and liabilities of a body
+corporate include the assets, rights and liabilities of a wholly owned
+subsidiary of the body corporate and accordingly the following principles
+apply in the interpretation of this Act&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4c5c659e-74ce-47a5-bcf8-e95a7d8ad646" id="sch.1-sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">assets, rights and liabilities of a body
+corporate can be transferred to another person (the <defterm type="definition"
+guid="_4940c5aa-93a0-4402-8d4d-9110a1024675"
+id="sch.1-sec.4-ssec.1-def.transferee"><b><i>transferee</i></b></defterm>) by
+a transfer of shares or any other transaction that results in the body
+corporate becoming a wholly owned subsidiary of the
+transferee,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_13e242d2-f9ea-4143-b56c-98e1fad5b3d2" id="sch.1-sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">assets, rights and liabilities of a body
+corporate are acquired by (and become assets, rights and liabilities of) a
+transferee when the body corporate becomes a wholly owned subsidiary of the
+transferee.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_62be93cd-63bb-4244-85c5-31ba3b9e884b"></attrib>
+<attrib name="id" value="sch.1-sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This clause does not limit the ways in which
+assets, rights and liabilities can be transferred for the purposes of the
+authorised implementation and does not prevent the direct transfer of assets,
+rights and liabilities to a transferee.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.1-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9f224a72-c090-434d-92d0-1ac24870afe4"></attrib>
+<attrib name="id" value="sch.1-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_1852dfd0-efb0-4313-9cc4-8adbc9c89611"
+id="sch.1-sec.5-he"><b>Words and expressions defined in Corporations
+Act</b></heading></head>
+<block><txt break.before="1">Words and expressions used in this Act that are
+defined in section 9 of the Corporations Act have the same meanings as in that
+section, except in so far as they are defined differently in this Act or the
+context or subject-matter otherwise indicates or
+requires.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_880c30dc-58b3-4a9b-9c6b-f989a90e25e8"></attrib>
+<attrib name="id" value="sch.1-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_71516f4b-881d-4ade-bf2b-8b8cda1d3f20"
+id="sch.1-sec.6-he"><b>When events occur</b></heading></head>
+<block><txt break.before="1">If this Act provides for an event or other thing
+to occur on a particular day, that event or thing is taken to occur at the
+beginning of that day.</txt></block></level>
+
+
+<level type="clause" id="sch.1-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_28c7e1db-ae62-4087-84e5-5ed74c1bcd9b"></attrib>
+<attrib name="id" value="sch.1-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_6f9355c6-c042-4c00-9374-bee1b66802ac"
+id="sch.1-sec.7-he"><b>Notes</b></heading></head>
+<block><txt break.before="1">Notes included in this Act do not form part of
+this Act.</txt></block></level>
+</level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2639036a-e9ef-42be-8f2e-e479789e39a2"></attrib>
+<attrib name="id" value="sch.2"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading
+guid="_7618bd03-ed74-4317-b422-7cad0b730a3c" id="sch.2-he"><b>Vesting of
+assets, rights and liabilities</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Section 18)</txt></block></pre>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c0d013dc-9557-4b14-b7e3-0a0baf8d16ce"></attrib>
+<attrib name="id" value="sch.2-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_23e0a56f-0384-4b51-8c16-22705f63f197"
+id="sch.2-sec.1-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Schedule&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b97ffb51-b70d-4df1-b3c5-00988c310062"
+id="sch.2-def.transferee"><b><i>transferee</i></b></defterm> means the person
+or body in whom any assets, rights or liabilities are vested by a vesting
+order.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ec0ab8b1-f3aa-4723-8873-673d3e22d293"
+id="sch.2-def.transferor"><b><i>transferor</i></b></defterm> means the person
+or body from whom any assets, rights or liabilities are divested by a vesting
+order.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b6b612f6-5007-4e2d-a466-67cae42e6ac0"
+id="sch.2-def.vestingorder"><b><i>vesting order</i></b></defterm> means a
+vesting order under this Schedule.</txt></block></deflist>
+</block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_821713e1-e0c4-437c-8f75-91d7c3f401dd"></attrib>
+<attrib name="id" value="sch.2-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_baba62b7-956c-4527-aa01-9ac0e57f41f5"
+id="sch.2-sec.2-he"><b>Making of vesting order</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8bcf5995-5f34-4ef7-92da-36f419cb73e2"></attrib>
+<attrib name="id" value="sch.2-sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may, by order in writing (a <defterm
+type="definition" guid="_229daf69-b6da-45da-9b4c-0fe6028e1252"
+id="sch.2-sec.2-def.vestingorder"><b><i>vesting order</i></b></defterm>), vest
+assets, rights and liabilities comprising disability services assets in a
+person specified in the order as the transferee.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e7eb040f-3c69-4277-90b7-ae432f598b45"></attrib>
+<attrib name="id" value="sch.2-sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A vesting order can vest an asset, right or
+liability in more than one transferee.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.2-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bcd3929a-12ad-4676-ad02-15eac76284dc"></attrib>
+<attrib name="id" value="sch.2-sec.2-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The power to vest an asset by means of a vesting
+order includes the power to vest an interest in the asset. The vesting of an
+interest in an asset operates to create the interest in such terms as are
+specified in the vesting order if the interest does not already exist as a
+separate interest.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.2-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_87595178-3727-4e6e-a981-1aeedb12e982"></attrib>
+<attrib name="id" value="sch.2-sec.2-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A vesting order vests an asset subject to any
+trusts, estates, interests, dedications, conditions, restrictions and
+covenants to which the asset was subject immediately before the
+vesting.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_30a21d8a-b70a-46b1-87d5-823f213802bb"></attrib>
+<attrib name="id" value="sch.2-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_13301b6b-b1bc-4a2b-8bcd-3bac9070e5a9"
+id="sch.2-sec.3-he"><b>Vesting of assets, rights and liabilities in
+transferee</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ea752514-f622-4f90-ae7b-90ba01de2179"></attrib>
+<attrib name="id" value="sch.2-sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">When any assets, rights or liabilities are vested
+by a vesting order, the following provisions have effect (subject to the
+vesting order)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_61fcf45a-648f-4130-a296-b0c29eb45694" id="sch.2-sec.3-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the assets vest in the transferee by virtue of
+this clause and without the need for any conveyance, transfer, assignment or
+assurance,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_598b5a0c-e1e5-4f51-a1b9-e21776f2f990" id="sch.2-sec.3-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the rights and liabilities become, by virtue of
+this clause, the rights and liabilities of the transferee,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_61d24936-de5a-42ac-a15f-26e7b6f15108" id="sch.2-sec.3-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">all proceedings relating to the assets, rights or
+liabilities pending by or against the transferor are taken to be proceedings
+pending by or against the transferee,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_49360d17-d951-4d38-9658-bec800edcc5e" id="sch.2-sec.3-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the transferee has all the entitlements and
+obligations of the transferor in relation to the assets, rights and
+liabilities that the transferor would have had but for the order, whether or
+not those entitlements and obligations were actual or potential at the time
+the order took effect,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_14aef653-6404-4d2c-b040-247ba3aba961" id="sch.2-sec.3-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">any act, matter or thing done or omitted to be
+done in relation to the assets, rights or liabilities by, to or in respect of
+the transferor is (to the extent that the act, matter or thing has any force
+or effect) taken to have been done or omitted by, to or in respect of the
+transferee,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_595037d5-7394-45bf-b1ba-9e13d6a72e18" id="sch.2-sec.3-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">a reference in any Act, in any instrument made
+under any Act or in any document of any kind to the transferor or a
+predecessor of the transferor is (to the extent that it relates to those
+assets or liabilities but subject to the regulations) to be read as, or as
+including, a reference to the transferee.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2d12b3d8-bf93-411c-ade9-61ba8490fcff"></attrib>
+<attrib name="id" value="sch.2-sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">No attornment to the transferee by a lessee from
+the transferor is required.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e4d8ab87-d8fc-439d-9177-c3ee66a18a7e"></attrib>
+<attrib name="id" value="sch.2-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_564be7e6-18a7-42ec-a58e-38d581a5ce27"
+id="sch.2-sec.4-he"><b>Terms and conditions of vesting</b></heading></head>
+<block><txt break.before="1">A vesting order may be made on such terms and
+conditions as are specified in the order.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ab2ebd9a-0d23-4dac-ac76-ab13915e6f04"></attrib>
+<attrib name="id" value="sch.2-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_188f2718-b5cf-4a7c-bdb8-0cd5fc613583"
+id="sch.2-sec.5-he"><b>Consideration for vesting</b></heading></head>
+<block><txt break.before="1">A vesting order may specify the consideration for
+which a vesting to which it applies is made and the value or values at which
+assets, rights or liabilities are vested.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ecaa67f7-17db-491d-9f8e-b10148d5058f"></attrib>
+<attrib name="id" value="sch.2-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_04427590-f547-4167-b552-e18a5c264d9e"
+id="sch.2-sec.6-he"><b>Variation of contracts</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_56afd679-b0fa-4810-aa9e-cf6a0b4b02c0"></attrib>
+<attrib name="id" value="sch.2-sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If disability services assets comprise rights and
+liabilities arising under a contract for the provision of goods or services, a
+vesting order for the vesting of assets related to the contract can provide
+for the variation of the terms of the contract so that the contract provides
+for the provision of goods or services to one or more transferees under the
+vesting order (in addition to or instead of providing for the provision of
+goods or services under the existing terms of the
+contract).</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4160def9-b7e8-42fa-b0f9-e064c6f31cc7"></attrib>
+<attrib name="id" value="sch.2-sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Assets are related to a contract if the contract
+provides for the provision of goods or services in connection with the use or
+operation of the assets.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.6-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2a897742-8ff5-4cf8-adb2-220246a2271d"></attrib>
+<attrib name="id" value="sch.2-sec.6-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A variation of the terms of a contract by a
+vesting order has effect in accordance with the terms of the vesting
+order.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bf016e29-77d9-4786-95bf-ec15df5c50fd"></attrib>
+<attrib name="id" value="sch.2-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_1d6fdaab-0298-45de-9d1c-a931c3e44d17"
+id="sch.2-sec.7-he"><b>Registration of interest to prevent dealings in land
+transferred</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_845c1cf0-ef7e-4d03-a7f2-6e478ca260c8"></attrib>
+<attrib name="id" value="sch.2-sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A vesting order that vests land in the transferee
+may be made subject to a condition that the land is subject to this
+clause.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c365ee36-7125-4244-9807-ddfee8e9f1a4"></attrib>
+<attrib name="id" value="sch.2-sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The transferee must not transfer or otherwise
+deal with land that is subject to this clause unless the Minister consents to
+the transfer or other dealing. The Minister must not unreasonably withhold
+consent to the transfer or other dealing.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_081e6aca-9ee8-4204-a854-c9774a0b440f"></attrib>
+<attrib name="id" value="sch.2-sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Registrar-General must, on application by the
+Minister, make a recording in the Register kept under the <legref
+refid="act-1900-025" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Real Property Act 1900</i></name></legref> to signify that
+the land specified in the application is subject to this
+clause.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_771015b5-8544-4bb5-a2af-a15b7a577d30"></attrib>
+<attrib name="id" value="sch.2-sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">If such a recording is made, the
+Registrar-General is not to register under the <legref refid="act-1900-025"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Real Property
+Act 1900</i></name></legref> a transfer of that land or any other dealing that
+is otherwise registrable under that Act unless the consent of the Minister to
+the transfer or other dealing has been endorsed on the transfer or other
+dealing.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.7-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ef8c8651-2f70-4c35-87d4-7d0539d53341"></attrib>
+<attrib name="id" value="sch.2-sec.7-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The Registrar-General must, on the application of
+the Minister, make a recording in the Register to signify that a recording
+made under this clause has ceased to have effect.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.7-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_55d581bf-3033-43ac-ac32-032b593975d4"></attrib>
+<attrib name="id" value="sch.2-sec.7-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">If an application is made for the making of a
+recording under this clause, the Registrar-General is not to inquire into
+whether the land is or is not subject to this clause.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.7-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_33f8becf-d369-48a8-972c-68db690cd0e2"></attrib>
+<attrib name="id" value="sch.2-sec.7-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">This clause does not affect the operation of any
+other prohibition or restriction relating to transfers or other dealings in
+land.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7dc0f456-7c51-437e-9b36-bd83cf74e8b4"></attrib>
+<attrib name="id" value="sch.2-sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_7b5e957d-0aa6-48b5-b1c7-07f17daa3250"
+id="sch.2-sec.8-he"><b>Confirmation of vesting</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_04eb41f6-d68c-4f4f-b418-8a8161c48ae6"></attrib>
+<attrib name="id" value="sch.2-sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may by order in writing confirm a
+vesting of particular assets, rights or liabilities by operation of this
+Schedule.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5b373dc1-1219-4f08-8de9-5a7ec267e6d8"></attrib>
+<attrib name="id" value="sch.2-sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Such an order is evidence of that
+vesting.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c1841998-8681-40d7-a3f7-3525ef20d6d2"></attrib>
+<attrib name="id" value="sch.2-sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_1710d6d3-bcc0-426d-b3a9-9e80d423951c"
+id="sch.2-sec.9-he"><b>Determinations by Minister</b></heading></head>
+<block><txt break.before="1">For the purposes of the making of a vesting
+order, the Minister may determine whether or not particular assets, rights or
+liabilities comprise disability services assets, and such a determination is
+conclusive as to the matters determined.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_16a9a80d-e02d-4512-9c0b-95381f6e696d"></attrib>
+<attrib name="id" value="sch.2-sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_9bd0dc2d-d5e5-4577-8e52-70eec3a32685"
+id="sch.2-sec.10-he"><b>Certification to registration
+authorities</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e4c4f6c4-d6d2-4836-b0c4-1da41ce429ab"></attrib>
+<attrib name="id" value="sch.2-sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this clause&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_bf69e60b-7c75-4687-b0bd-e19d83c1926a"
+id="sch.2-sec.10-def.registrationauthority"><b><i>registration
+authority</i></b></defterm> means a person or body that has functions under
+any law in connection with the keeping of a register in respect of assets,
+rights or liabilities.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e65e63bd-97c9-4a9d-86ab-feae07c22ed4"></attrib>
+<attrib name="id" value="sch.2-sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A public sector agency that is the transferee or
+transferor under a vesting order may lodge with a registration authority a
+certificate certifying as to such information as may reasonably be required by
+the registration authority to enable the registration authority to exercise
+any function of the authority arising in connection with the vesting of any
+asset, right or liability pursuant to the vesting order.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ba03fef4-691d-480b-982a-3dd1083c7b85"></attrib>
+<attrib name="id" value="sch.2-sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Such a certificate is to be accepted and acted
+upon by the registration authority and, despite any other law, the
+registration authority is not entitled to require that the information
+concerned be provided to it in any particular form or in any particular
+manner.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.10-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cdc17857-a752-4bd4-a93d-bbfd18328c65"></attrib>
+<attrib name="id" value="sch.2-sec.10-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">No fee or charge is payable by the transferee to
+a registration authority for or in respect of the exercise of any function by
+the registration authority in connection with the vesting of an asset, right
+or liability by a vesting order.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.10-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1858b076-115c-424b-b697-12a4474c9425"></attrib>
+<attrib name="id" value="sch.2-sec.10-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A document purporting to be a certificate given
+under this clause is, unless the contrary is established, taken to be such a
+certificate and to have been properly given.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.2-sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_264db46e-2602-41cd-ac40-d5edc46fafd3"></attrib>
+<attrib name="id" value="sch.2-sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_415b0b61-d552-4fcc-8074-20490f626be5"
+id="sch.2-sec.11-he"><b>Public sector accounting
+policies</b></heading></head>
+<block><txt break.before="1">The Treasurer may give directions to public
+sector agencies of the State for or with respect to accounting policies to be
+applied by public sector agencies of the State in connection with the transfer
+between public sector agencies of assets, rights and liabilities comprising
+disability services assets for the purposes of the authorised implementation
+(in place of public sector accounting policies that would otherwise be
+applicable in respect of any such transfer).</txt></block></level>
+</content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 2:</b> Am 2017 No 22,
+Sch 2.30.</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.3">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f455260f-9b1b-4526-bdc3-d95c14a2d9ed"></attrib>
+<attrib name="id" value="sch.3"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 3</b></no><heading
+guid="_7cb0a9a8-5595-45fc-a124-fe2f2934d8e7" id="sch.3-he"><b>Savings,
+transitional and other provisions</b></heading></head>
+
+<level type="part" id="sch.3-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_7e3f697d-6fde-4f01-b8cc-7885adfc5946"></attrib>
+<attrib name="id" value="sch.3-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_c2c66dc2-0874-4e26-8374-61a44c218849"
+id="sch.3-pt.1-he"><b>General</b></heading></head>
+
+<level type="clause" id="sch.3-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_49f4cdd1-3be9-4251-96c5-10e8e3b071e5"></attrib>
+<attrib name="id" value="sch.3-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_325d27c2-fbaa-40b9-8559-eec31bf4d229"
+id="sch.3-sec.1-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8fbefdb5-a0be-44b2-95c6-7b848ad3cd92"></attrib>
+<attrib name="id" value="sch.3-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the enactment of this Act or any
+Act that amends this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f55bb2bb-6f88-4284-91c1-d5b03e6973b1"></attrib>
+<attrib name="id" value="sch.3-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such provision may, if the regulations so
+provide, take effect from the date of assent to the Act concerned or a later
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_800e279f-e1cb-40b5-9f41-ff9c2677db02"></attrib>
+<attrib name="id" value="sch.3-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication on the NSW
+legislation website, the provision does not operate so as&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_66ca09f6-b7e2-4040-a0db-28781e4a0606" id="sch.3-sec.1-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f3de0ae1-2dbc-48a7-9bf3-0d7aabd8c818" id="sch.3-sec.1-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="sch.3-pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_3dab5fbc-5383-43c1-ba48-cff9df5a6d59"></attrib>
+<attrib name="id" value="sch.3-pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_36524c53-ee34-4f22-9da7-e470fc5cf834"
+id="sch.3-pt.2-he"><b>Provisions consequent on repeal of <legref
+refid="act-1988-006" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Home Care Service Act 1988</i></name></legref> by <legref
+refid="act-2016-027" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Statute Law (Miscellaneous Provisions) Act
+2016</i></name></legref></b></heading></head>
+
+<level type="clause" id="sch.3-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6d77934f-2171-4ce2-9443-7714e3517a1a"></attrib>
+<attrib name="id" value="sch.3-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_bc5fb70d-0cb1-4501-80e4-d30cb0b94c49"
+id="sch.3-sec.2-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Part&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c79f58d1-6785-4da3-b2b4-bffc7055cdb9"
+id="sch.3-def.dissolutionday"><b><i>dissolution day</i></b></defterm> means
+the day on which the <legref refid="act-1988-006" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Home Care Service Act
+1988</i></name></legref> is repealed by the <legref refid="act-2016-027"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Statute Law
+(Miscellaneous Provisions) Act 2016</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_3da6ae26-94e2-451a-abe2-39ef998b1d02"
+id="sch.3-def.formerauthority"><b><i>former authority</i></b></defterm> means
+the Home Care Service of New South Wales.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sch.3-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_321701b5-29c1-4d05-a374-76ef93c5b243"></attrib>
+<attrib name="id" value="sch.3-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_9c393d41-39b9-43ec-a5ad-49049e61b1c0"
+id="sch.3-sec.3-he"><b>Dissolution of Home Care Service of New South
+Wales</b></heading></head>
+<block><txt break.before="1">The former authority is dissolved on the
+dissolution day.</txt></block></level>
+
+
+<level type="clause" id="sch.3-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f43134ef-5c33-48fb-a54c-63de4c6d8923"></attrib>
+<attrib name="id" value="sch.3-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_f5f00cbf-c197-420b-83a3-dd48b8478d9f"
+id="sch.3-sec.4-he"><b>Transfer of assets, rights and
+liabilities</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a2ecfe8f-856c-4fb5-ae04-126f1d02a202"></attrib>
+<attrib name="id" value="sch.3-sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">On the dissolution day, any assets, rights and
+liabilities of the former authority immediately before its dissolution by this
+Part are transferred to the Crown.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_43cf9dab-ad98-4ba3-8ac4-0ef4c58632da"></attrib>
+<attrib name="id" value="sch.3-sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Clause 3 of Schedule 2 applies in relation to the
+transfer of assets, rights and liabilities under this clause. For that
+purpose&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_879ba7b7-5cad-44c3-afb8-e7411e407a4e" id="sch.3-sec.4-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a reference in clause 3 of Schedule 2 to the
+vesting of assets, rights and liabilities by a vesting order is taken to be a
+reference to the transfer of assets, rights and liabilities by this clause,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_25178e10-b31b-4451-8dad-c93480a370b1" id="sch.3-sec.4-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a reference in clause 3 of Schedule 2 to the
+transferee is taken to be a reference to the Crown, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7c24b23f-70f6-4ce6-8f45-7f96272f9dc7" id="sch.3-sec.4-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a reference in clause 3 of Schedule 2 to the
+transferor is taken to be a reference to the former
+authority.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 3:</b> Am 2016 No 27,
+Sch 1.20.</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.4" status="repealed">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1c77ff5f-9f54-4496-a91b-b2c85f890f10"></attrib>
+<attrib name="id" value="sch.4"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 4</b></no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 4:</b> Rep 1987 No
+15, sec 30C.</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_b4a4a19e-f7df-4f07-9876-122c65884430"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_a17df762-48e2-4259-9d72-814fb996983b"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-2013-104" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>National Disability
+Insurance Scheme (NSW Enabling) Act 2013</i></name> No 104</legref>. Assented
+to 27.11.2013. Date of commencement, assent, sec 2. This Act has been amended
+as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_ca7c426f-d52d-4be0-9eb2-f30f17b9cdab" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_ee5e2501-1ffc-4a1b-9a80-25d58a33fbae" id="ed-tbl-tblr">
+<entry colname="1" guid="_fef42a2d-fe3a-408c-afd3-d6f02878944b"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>2014</b></txt></entry>
+<entry colname="2" guid="_ac9cde24-9fae-4cc5-8159-d42bc06564ab"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 41</txt></entry>
+<entry colname="3" guid="_e1acdba2-3a7f-43d7-afa1-9bf0d0d3fb73"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref refid="act-2014-041" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Disability Inclusion Act
+2014</i></name></legref>. Assented to 26.8.2014.</txt>
+<txt break.before="1">Date of commencement, 3.12.2014, sec 2 and 2014 (745) LW
+28.11.2014.</txt></block></entry></row>
+
+
+<row guid="_0c8bec20-3352-4163-bdf9-a8a1135d4426" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_376759ae-aeee-42fc-acce-129a1ad79983"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>2016</b></txt></entry>
+<entry colname="2" guid="_1177e4f4-001d-4aab-bcd9-0be1f8f03f4c"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 27</txt></entry>
+<entry colname="3" guid="_f9ade1dd-3387-447c-b1f4-e93fe12e07b3"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref refid="act-2016-027" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2016</i></name></legref>. Assented to 7.6.2016.</txt>
+<txt break.before="1">Date of commencement of Sch 1.20, 8.7.2016, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_9abe955a-394a-4f44-bbfb-e35b85f0bb18" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_2d0d700a-7645-40bf-a54a-a5abaac5faf1"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>2017</b></txt></entry>
+<entry colname="2" guid="_f470fdc3-4d02-48e5-8bb2-92551f6f33dd"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 22</txt></entry>
+<entry colname="3" guid="_839e75b2-1c98-4c20-b789-c6558a83cc1e"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref refid="act-2017-022" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2017</i></name></legref>. Assented to 1.6.2017.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 7.7.2017, sec 2
+(3).</txt></block></entry></row>
+
+
+<row guid="_936cf255-e9a8-4cb7-89ec-f6b58846626e" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_85875767-ac48-46b2-88a8-49a8585ed5d1"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>2018</b></txt></entry>
+<entry colname="2" guid="_92f3f7ba-3ffc-45e4-a6c5-db6b0bc0510b"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 68</txt></entry>
+<entry colname="3" guid="_2a34cbfd-5730-49e9-b5b1-48d15847192b"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref refid="act-2018-068" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2018</i></name></legref>. Assented to
+31.10.2018.</txt>
+<txt break.before="1">Date of commencement of Sch 2.26, 8.1.2019, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_9046f3c6-6c0c-4fc4-8da0-87709a597cb9" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_138fc9b5-a5d1-4d4e-a3cf-7fb6b0184322"
+id="ed-tbl-tblr-oc.5-tble1"></entry>
+<entry colname="2" guid="_f986579a-c954-46ef-896a-bbce75830ad5"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 70</txt></entry>
+<entry colname="3" guid="_e2158ae9-692d-4dc2-b964-845e4a65dc3d"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref refid="act-2018-070" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Government Sector Finance
+Legislation (Repeal and Amendment) Act 2018</i></name></legref>. Assented to
+22.11.2018.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 1.12.2018, sec 2 (1) and
+2018 (673) LW 30.11.2018; date of commencement of Sch 4.70, 1.7.2021, sec 2(1)
+and 2021 (305) LW 25.6.2021.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block>
+<block><txt break.before="1">This Act has been amended by sec 30C of the
+<legref refid="act-1987-015" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Interpretation Act 1987</i></name> No
+15</legref>.</txt></block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_ddd0fc77-7fdc-4584-b82c-4505e077da3e"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_4bec5dee-fffb-4ef4-916a-7a513213bfaf" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_46f6cd1a-370b-4aff-b4c3-5a9f57e67b1c" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_9e086ae3-5911-4b5b-b923-cc7be0de0271"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_ad3a4144-a0ed-42a1-a2b8-44de662356d0"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 2014 No 41, Sch 5.7
+[1].</txt></entry></row>
+
+
+<row guid="_036af3c8-959b-4beb-b185-46c1ee29abae" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_009a8c4e-64ac-4101-bd62-320219d2ed74"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 22</txt></entry>
+<entry colname="2" guid="_748ec2a5-658a-4db0-891b-910486aa72ee"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 2014 No 41, Sch 5.7
+[2].</txt></entry></row>
+
+
+<row guid="_baec9e74-8552-477b-bfdf-32ad01ffdac3" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_3481318f-1495-4026-9d81-2b9ea4abaa5c"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 23</txt></entry>
+<entry colname="2" guid="_932e3262-752d-48a6-96e5-dbb5fce98741"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Subst 2018 No 70, Sch
+3.45.</txt></entry></row>
+
+
+<row guid="_9900f0c8-1eec-41b4-9028-cd6221921cb8" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_a186f55a-e063-4a4b-b2c5-aa5e57d866b5"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 24</txt></entry>
+<entry colname="2" guid="_965ce7aa-554e-4c3d-898a-49fa555111e1"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Am 2018 No 70, Sch
+4.70.</txt></entry></row>
+
+
+<row guid="_aad14273-3c37-49a6-8689-bcab1aff6682" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_0971b7c6-b08f-42cd-902d-564ea00edfe5"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 28</txt></entry>
+<entry colname="2" guid="_657ca121-bf5d-429f-9411-9679ba286193"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Am 2018 No 68, Sch
+2.26.</txt></entry></row>
+
+
+<row guid="_29add25d-14e8-45bf-9186-3fc4e4c3c4f8" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_1c8a62c0-afe3-4393-8eeb-ac519e6186c0"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sch 2</txt></entry>
+<entry colname="2" guid="_7468b8f4-e92e-4116-8a04-e5fe652981ec"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Am 2017 No 22, Sch
+2.30.</txt></entry></row>
+
+
+<row guid="_90d57771-b8fc-48bf-8990-9d692037135b" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_c5be75ae-7218-44ec-a7f5-5a4707ce9d7e"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sch 3</txt></entry>
+<entry colname="2" guid="_86b18c1d-1c4a-4b83-b16b-9e5925d52a09"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Am 2016 No 27, Sch
+1.20.</txt></entry></row>
+
+
+<row guid="_d1ea65b3-dc78-4705-84d5-ccf089410c53" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_e0b2943b-6f41-4ef0-bc06-2db8d75ed1c8"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sch 4</txt></entry>
+<entry colname="2" guid="_4ee37f98-55fa-4edf-9c6e-1a0663b5e195"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Rep 1987 No 15, sec
+30C.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

@@ -1,0 +1,3803 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1987-053"
+title="Children’s Court Act 1987"
+year="1987"
+number="53"
+enact.or.made.date="1987-05-29"
+first.valid.date="2026-03-28"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1987</metacontent>
+<metacontent class="year.assent">1987</metacontent>
+<metacontent class="publication.date">2026-03-28</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2025-061</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1987-053</metacontent>
+<metacontent
+class="version.desc.id">5fed26fa-8958-412c-a0ea-e4ec2df21e7e</metacontent>
+<metacontent
+class="version.series.id">919fba48-e26e-446d-90e9-c940ca2f4a9f</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Children’s Court Act 1987"></attrib>
+<attrib name="year.passed" value="1987"></attrib>
+<attrib name="year.assent" value="1987"></attrib>
+<attrib name="no" value="53"></attrib>
+<attrib name="publication.date" value="2026-03-28"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2025-061"></attrib>
+<attrib name="first.valid.date" value="2026-03-28"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1987-05-29"></attrib>
+<attrib name="id" value="act-1987-053"></attrib>
+<attrib name="version.desc.id"
+value="5fed26fa-8958-412c-a0ea-e4ec2df21e7e"></attrib>
+<attrib name="version.series.id"
+value="919fba48-e26e-446d-90e9-c940ca2f4a9f"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_0f32cdf4-678d-4b90-9632-1c22e6fb4d16"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_4fca87aa-d901-4a3a-959f-418e1f12c2b5"
+id="cd-status-he"><b>Editorial note</b></heading></head>
+<block><txt break.before="1">The Parliamentary Counsel&#8217;s Office is
+progressively updating certain formatting styles in versions of NSW in force
+legislation published from 29 July 2019. For example, colons are being
+replaced by em-rules (em-dashes). Text of the legislation is not
+affected.</txt></block>
+<block><txt break.before="1">This version has been
+updated.</txt></block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_a0337bd3-cee9-4f36-8a25-49a4bec1fc7f"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to establish a Children&#8217;s Court of
+New South Wales.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_c168c051-47a1-4fa4-b8a0-05fc41ca01ec"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_275dbb19-2493-44d8-aa3c-1f5d421b3158"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d30b6f27-58a2-4918-a2dd-ae5f0926ec67"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_bb5530ef-d167-4cce-8262-8fa6495037fd"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act may be cited as the <legref
+refid="act-1987-053" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Children&#8217;s Court Act
+1987</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6e5d243d-e0fc-4195-b3ca-29a075cdd2f0"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_df977cc3-0486-4985-b4e7-023392b9b6ff"
+id="sec.2-he"><b>Commencement</b></heading></head>
+
+<tier type="subclause" id="sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_180cc622-87a5-4d36-aee8-3a55d5af6681"></attrib>
+<attrib name="id" value="sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Sections 1 and 2 shall commence on the date of
+assent to this Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3aa9fe39-6ac5-445c-929a-4fe9e907f3cf"></attrib>
+<attrib name="id" value="sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Except as provided by subsection (1), this Act
+shall commence on such day as may be appointed by the Governor and notified by
+proclamation published in the Gazette.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_daf17d67-894a-4d50-a0b0-09a589ba5ba3"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_8df933e7-eb59-4adc-b47a-02c2fd482b19"
+id="sec.3-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3f998216-f9d7-4a79-a484-d8f77a87a8ac"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act, except in so far as the context or
+subject-matter otherwise indicates or requires&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_654990b2-d129-4743-8062-f4f52823f092"
+id="sec.3-ssec.1-def.ChiefJudge"><b><i>Chief Judge</i></b></defterm> has the
+same meaning as in the <legref refid="act-2007-093" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Local Court Act
+2007</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_26adb982-1195-4db8-ab72-14b931333e31"
+id="sec.3-ssec.1-def.ChildrensJudge"><b><i>Children&#8217;s
+Judge</i></b></defterm> means a person appointed under this Act to be a
+Children&#8217;s Judge.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_17214b7c-5131-42a9-af9e-bb33eb0f3462"
+id="sec.3-ssec.1-def.ChildrensRegistrar"><b><i>Children&#8217;s
+Registrar</i></b></defterm> means a person employed as a Children&#8217;s
+Registrar as referred to in section 10A.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a89f37da-1977-40da-9c8e-6c9b0576ad83"
+id="sec.3-ssec.1-def.President"><b><i>President</i></b></defterm> means the
+person appointed under section 6A as the President of the Children&#8217;s
+Court.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_5dacbce3-2a04-465d-8f1b-890fd59a6a9c"
+id="sec.3-ssec.1-def.rule"><b><i>rule</i></b></defterm> means a rule made
+under this Act.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_bd61e081-2371-478e-aae8-43eb5611ef41"
+id="sec.3-ssec.1-def.theCourt"><b><i>the Court</i></b></defterm> means the
+Children&#8217;s Court of New South Wales constituted by this
+Act.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1b52645b-4250-481a-8352-5ee2cc2aaa66"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b9bf3d24-04f2-4404-bf51-f86b17074919" id="sec.3-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a reference to a function includes a reference to
+a power, authority and duty, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fa3de099-a9a1-4449-bc62-4a19979c58eb" id="sec.3-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a reference to the exercise of a function
+includes, where the function is a duty, a reference to the performance of the
+duty.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 3:</b> Am 1987 No 268,
+Sch 1 (1); 1998 No 158, Sch 1 [1] [2]; 2007 No 94, Sch 1.11 [1]; 2009 No 13,
+Sch 2.2 [1]; 2025 No 61, Sch 2.11[1].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_05e70a53-38a1-4905-9a63-376d587bb2ad"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_91ea2330-c60e-484c-a143-1a719b757596"
+id="pt.2-he"><b>Constitution of the Court</b></heading></head>
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ea1b3867-e6f9-495d-ac03-0d8d6650d63e"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_83ad3c11-e0cd-4987-b355-928f37c3b242"
+id="sec.4-he"><b>Constitution of the Court</b></heading></head>
+<block><txt break.before="1">There is constituted by this Act a court of
+record to be known as the Children&#8217;s Court of New South
+Wales.</txt></block></level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e9bcd46e-8392-4b68-9256-469f5be119a2"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_f24dca7a-aca8-4536-8f83-d3ffaedebfc4"
+id="sec.5-he"><b>Seal of the Court</b></heading></head>
+<block><txt break.before="1">There shall be a seal of the Court, and any
+document required by or under this or any other Act or law to be sealed or
+stamped with the seal of the Court shall be so sealed or
+stamped.</txt></block></level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fbe49612-e54b-4fe8-9c0a-133c49ed94a6"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_ae103f96-fa30-4774-a242-61af868b4465"
+id="sec.6-he"><b>Composition of the Court</b></heading></head>
+<block><txt break.before="1">The Court is composed of the President and such
+Children&#8217;s Judges as are appointed under this Act.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 6:</b> Am 1987 No 268,
+Sch 1 (2). Subst 2009 No 13, Sch 2.2 [2]. Am 2025 No 61, Sch
+2.11[2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.6A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_34f38ed1-5a40-43fb-9507-fe2497f23661"></attrib>
+<attrib name="id" value="sec.6A"></attrib></parentattributes>
+
+<head>
+<no>6A</no><heading guid="_dcd3c0b0-fad6-45b9-85a2-999737a0a58b"
+id="sec.6A-he"><b>President of Children&#8217;s Court</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.6A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b9d073e1-0a1f-4b4e-94c2-28e1ce9d03f9"></attrib>
+<attrib name="id" value="sec.6A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may, by commission under the public
+seal of the State, appoint a qualified person as the President of the
+Children&#8217;s Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4d0d7bd8-e9fc-4583-8d14-21dad148972a"></attrib>
+<attrib name="id" value="sec.6A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person is qualified to be appointed as the
+President only if the person holds office as a Judge of the District
+Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6A-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3526f998-36e4-4c30-b3e0-017f1814a745"></attrib>
+<attrib name="id" value="sec.6A-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Subject to this section, the President holds
+office for such term (not exceeding 5 years) as is specified in his or her
+instrument of appointment.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.6A-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bebcbdb9-5b97-44a5-8a8e-f248ac0a9a20"></attrib>
+<attrib name="id" value="sec.6A-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The appointment of a person as the President does
+not affect&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_539f5336-5c9b-49ca-b761-b89f9c15fc2e" id="sec.6A-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the person&#8217;s tenure as a Judge of the
+District Court, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d6072f41-d6e7-4259-9b1c-948b5dc8bc72" id="sec.6A-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the person&#8217;s rank, title, status,
+remuneration or other rights or privileges as a Judge of the District
+Court.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6A-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6973c6ef-a75c-45d3-a89d-d1e99f95bb16"></attrib>
+<attrib name="id" value="sec.6A-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">Service in the office of the President is, for
+all purposes, taken to be service in the office of Judge of the District
+Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6A-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8f934c6f-bd9d-4703-a1e1-f9e068352fb0"></attrib>
+<attrib name="id" value="sec.6A-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">A person is taken to have vacated office as the
+President if the person&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3f516e83-c8d5-4c9f-b042-ced722d1c2e6" id="sec.6A-ssec.6-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">ceases to be a Judge of the District Court,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9cca8919-e7e2-43e8-abe5-696c03c7e4fc" id="sec.6A-ssec.6-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">resigns office by instrument in writing addressed
+to the Governor.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6A-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_07149db5-0258-4618-b401-117ffe7769bc"></attrib>
+<attrib name="id" value="sec.6A-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">A person does not cease to be a Judge of the
+District Court merely because of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_769b3871-6f5f-4fb2-89a1-0d3a3a2fbe87" id="sec.6A-ssec.7-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">his or her resignation from office as the
+President, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_410abf57-1b79-43a9-829b-f46b4c014d0c" id="sec.6A-ssec.7-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the expiration of his or her term of office as
+the President.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6A-ssec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d238bbcd-5c5c-4e28-a53e-be6c47079ba8"></attrib>
+<attrib name="id" value="sec.6A-ssec.8"></attrib></parentattributes>
+
+<head>
+<no>(8)</no></head>
+<block><txt break.before="1">The President may, while holding office as the
+President, exercise the jurisdiction of the District Court if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5c4a7841-344b-4273-a1ad-601b921bd7ce" id="sec.6A-ssec.8-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the President is requested to do so by the Chief
+Judge of the District Court in relation to particular proceedings before that
+Court, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_682eec5e-0597-4d42-9b64-da592f95ad2f" id="sec.6A-ssec.8-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the President agrees to the
+request.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 6A:</b> Ins 2009 No 13,
+Sch 2.2 [2]. Am 2010 No 63, Sch 1.5.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.6B">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7d46d037-23b8-4d49-b382-394ef573823b"></attrib>
+<attrib name="id" value="sec.6B"></attrib></parentattributes>
+
+<head>
+<no>6B</no><heading guid="_6f252ad6-b222-4997-8aac-400a49fb108d"
+id="sec.6B-he"><b>Acting President of Children&#8217;s
+Court</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.6B-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_063c11d7-bfb2-4a3a-ab4d-78576d07a9be"></attrib>
+<attrib name="id" value="sec.6B-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may, by instrument in writing,
+appoint a Children&#8217;s Judge to be the Acting President&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_55c4833f-2dca-43ec-a215-633d27441943" id="sec.6B-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">during any vacancy in the office of the
+President, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e922a209-fb81-4049-859f-41de5d139b3d" id="sec.6B-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">during any period for which the President is
+absent from duty.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.6B-ssec.1A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2eb0cd3e-b729-4101-836f-bf4095b98ad6"></attrib>
+<attrib name="id" value="sec.6B-ssec.1A"></attrib></parentattributes>
+
+<head>
+<no>(1A)</no></head>
+<block><txt break.before="1">Unless the Governor has made an appointment under
+subsection (1) (and without limiting subsection (1)), the Attorney General
+may, by instrument in writing, appoint a Children&#8217;s Judge to be Acting
+President&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9258c809-bb88-49de-ba84-cc67f113d172" id="sec.6B-ssec.1A-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">during any vacancy in the office of the
+President, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f8e59f6d-062e-46ef-afb5-8d28f3b6ceac" id="sec.6B-ssec.1A-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">during any period for which the President is
+absent from duty.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6B-ssec.1B">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7e9991e9-8874-4091-9191-09bd96ffc59a"></attrib>
+<attrib name="id" value="sec.6B-ssec.1B"></attrib></parentattributes>
+
+<head>
+<no>(1B)</no></head>
+<block><txt break.before="1">An appointment under this section may be made for
+a particular vacancy or absence or for any vacancy or absence that occurs from
+time to time.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.6B-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_04a464e0-8bd3-46ad-95e5-4c6067fac0f8"></attrib>
+<attrib name="id" value="sec.6B-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">While acting as the President, the person
+appointed as the Acting President&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b01d241f-a386-4d10-89a2-dd439527099f" id="sec.6B-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">has and may exercise the functions of the
+President, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c88cc261-a153-45bb-a64a-ac18dd979063" id="sec.6B-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is entitled to be paid the same remuneration as
+the President.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6B-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1a563080-affc-46b7-9175-b31d47ffdbd6"></attrib>
+<attrib name="id" value="sec.6B-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">However, service in the office of the Acting
+President is not taken to be service in the office of Judge of the District
+Court.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 6B:</b> Ins 2009 No 13,
+Sch 2.2 [2]. Am 2015 No 2, Sch 3.1; 2025 No 61, Sch 2.11[3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e07f5075-ed6c-4a99-a305-693b4dd67831"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_76c506f6-dd92-4d36-a208-6ca183d75e4a"
+id="sec.7-he"><b>Appointment of Children&#8217;s Judges</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_10524ab1-c40a-4270-8ebe-68e212605e9f"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Chief Judge may, by instrument in writing,
+appoint any qualified person to be a Children&#8217;s
+Judge.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.1A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ed346f0e-b17c-44f8-904e-d9f50637727c"></attrib>
+<attrib name="id" value="sec.7-ssec.1A"></attrib></parentattributes>
+
+<head>
+<no>(1A)</no></head>
+<block><txt break.before="1">Any such appointment may only be made in
+consultation with the President.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_94790319-9e36-4c79-b0d8-70db10840ae4"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person is qualified to be appointed as a
+Children&#8217;s Judge if the person&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9b0d61b8-a0c8-4305-b277-1733d9e53387" id="sec.7-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is a Judge of the Local Court,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_eb4406d0-5bc0-46c7-971a-205770414de1" id="sec.7-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">has, in the opinion of the Chief Judge and the
+President, such knowledge, qualifications, skills and experience in the law
+and the social or behavioural sciences, and in dealing with children and young
+people and their families, as the Chief Judge and President each consider
+necessary to enable the person to exercise the functions of a Children&#8217;s
+Judge.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_491158c8-f163-439e-b4cc-1a9c656aadc5"></attrib>
+<attrib name="id" value="sec.7-ssec.2A"></attrib></parentattributes>
+
+<head>
+<no>(2A)</no></head>
+<block><txt break.before="1">A Children&#8217;s Judge is to undertake and
+complete such ongoing courses of training as the President may, in
+consultation with the Chief Judge, require.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6ec33608-a99d-492d-80c3-0ca6cc7f927b"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Schedule 1 has effect with respect to the
+Children&#8217;s Judges.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e57c2e7c-ce10-4007-9f1f-217f5239d193"></attrib>
+<attrib name="id" value="sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Schedule 3 has effect.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 7:</b> Am 1987 No 268,
+Sch 1 (3) (4); 1998 No 158, Sch 1 [3] [4]; 2000 No 93, Sch 2.6 [1]; 2009 No
+13, Sch 2.2 [3]&#8211;[5]; 2025 No 61, Sch 2.11[2]&#8211;[6].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.8-10" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_851cc659-797e-43cf-aed8-fea5d7b20a81"></attrib>
+<attrib name="id" value="sec.8-10"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>8&#8211;10</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 8:</b> Am 1987 No 268,
+Sch 1 (3) (5) (6); 1998 No 158, Sch 1 [5]. Rep 2009 No 13, Sch 2.2
+[6].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Am 1987 No 268,
+Sch 1 (3) (6) (7). Rep 2009 No 13, Sch 2.2 [6].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 10:</b> Rep 1998 No
+158, Sch 1 [6].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.10A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7ba07545-d382-4e65-a0b3-060a7e056f95"></attrib>
+<attrib name="id" value="sec.10A"></attrib></parentattributes>
+
+<head>
+<no>10A</no><heading guid="_b0d6bb55-9323-4537-ad04-531611104392"
+id="sec.10A-he"><b>Children&#8217;s Registrars</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.10A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_00fba08f-79e8-4fec-b6f1-1a97e5e9a225"></attrib>
+<attrib name="id" value="sec.10A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Such Children&#8217;s Registrars as may be
+necessary to enable the Court to exercise its jurisdiction are to be employed
+under the <legref refid="act-2013-040" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref>.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10A-ssec.1A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0e7f4ea0-4a22-4bc6-80ad-0469c4b24eed"></attrib>
+<attrib name="id" value="sec.10A-ssec.1A"></attrib></parentattributes>
+
+<head>
+<no>(1A)</no></head>
+<block><txt break.before="1">A person cannot be employed as a Children&#8217;s
+Registrar unless the person is an Australian lawyer.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.10A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d7db6057-bd40-4125-83d2-4fefa0e90edf"></attrib>
+<attrib name="id" value="sec.10A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A Children&#8217;s Registrar has such functions
+as may be conferred or imposed on a Children&#8217;s Registrar by the rules or
+by or under any other Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10A-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c95797fa-9629-401f-a609-5a318d6d954d"></attrib>
+<attrib name="id" value="sec.10A-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Despite the provisions of the <legref
+refid="act-1998-157" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Children and Young Persons (Care and Protection) Act
+1998</i></name></legref> and the other provisions of this Act, the functions
+that may be conferred or imposed on a Children&#8217;s Registrar by the rules
+include&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7313f9f5-66d1-4ea2-8466-020e78c17502" id="sec.10A-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any function of the Court or a Children&#8217;s
+Judge under the <legref refid="act-1998-157" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Children and Young Persons (Care and
+Protection) Act 1998</i></name></legref>, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_189aa8cb-5bb5-4379-b3e0-3ab97c28d68e" id="sec.10A-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any function of the Court or a Children&#8217;s
+Judge under this Act that relates to a function referred to in paragraph
+(a).</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.10A-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_16c9f9b8-6391-42f3-b8a5-b3217aeb037a"></attrib>
+<attrib name="id" value="sec.10A-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A function referred to in subsection (3) that is
+exercised by a Children&#8217;s Registrar is taken to have been exercised by
+the Court or a Children&#8217;s Judge, as the case
+requires.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10A-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_566849c6-de19-423e-b97d-181076b511d1"></attrib>
+<attrib name="id" value="sec.10A-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A decision or order made or direction given by a
+Children&#8217;s Registrar when exercising a function referred to in
+subsection (3) may be set aside or varied by the Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10A-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cbb77ed8-ebde-4075-bda3-a270c080a9a7"></attrib>
+<attrib name="id" value="sec.10A-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">The conferring or imposing of a function of the
+Court or a Children&#8217;s Judge on a Children&#8217;s Registrar does not
+prevent the exercise of the function by the Court or a Children&#8217;s
+Judge.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 10A:</b> Ins 1998 No
+158, Sch 1 [7]. Am 2000 No 58, Sch 1; 2009 No 13, Sch 2.2 [7]; 2015 No 15, Sch
+3.9 [1]; 2025 No 61, Sch 2.11[3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ade4c78f-9dba-4e54-a84b-4de411ae6faf"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_b90576bc-d6cf-417a-a3c3-5fa9cd2f0660"
+id="sec.11-he"><b>Other Registrars and other officers of the
+Court</b></heading></head>
+<block><txt break.before="1">Other Registrars of the Court, and such other
+staff as may be necessary to enable the Court to exercise its jurisdiction,
+shall be employed under the <legref refid="act-2013-040" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Government Sector
+Employment Act 2013</i></name></legref>.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Am 1987 No 268,
+Sch 1 (8); 1998 No 158, Sch 1 [8]; 2015 No 15, Sch 3.9 [2].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_67a75605-e130-48c1-aec7-da2919f1e4ee"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_3ad188cd-0ca2-4944-be7c-589b066db135"
+id="pt.3-he"><b>Jurisdiction of the Court</b></heading></head>
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_56dd2271-c7d8-402d-9e88-094c308ffcce"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_33f60885-4b8b-4d2c-9959-91f23b468707"
+id="sec.12-he"><b>Jurisdiction generally</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_066f0bf0-0957-4f27-af84-bc59b8f2a2ee"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Court shall have such jurisdiction as may be
+conferred or imposed on it by or under this or any other
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f8673239-393c-4980-a3e2-c30528cd534f"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Court may exercise its jurisdiction
+throughout the whole of New South Wales.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3ed62ebc-ff82-44d2-8af0-599716589cf4"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_60930c97-c3bf-4db9-8dd5-36b4093c7112"
+id="sec.13-he"><b>Single member to exercise jurisdiction of the
+Court</b></heading></head>
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_008fd49b-323b-47cc-9f52-0e3b4eb527a5"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The jurisdiction of the Court may be
+exercised&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e93de4a4-fe6e-4fb2-95aa-7d766eabdaa6" id="sec.13-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">by the President, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_23cb5058-1222-4bbe-8422-4d32557a3b53" id="sec.13-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">by a Children&#8217;s Judge,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_754e482d-ccc6-466c-8a1e-37824918f136" id="sec.13-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">by a Judge of the Local Court authorised by the
+President and Chief Judge to exercise a function conferred or imposed on a
+Children&#8217;s Judge by or under this Act or another
+Act,</txt></block></li></list>
+
+<txt break.before="1">sitting alone.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_385c3e16-78bf-4cad-82f0-a46393598c4d"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 13:</b> Am 1987 No 268,
+Sch 1 (3); 1998 No 158, Sch 1 [9]. Subst 2009 No 13, Sch 2.2 [8]. Am 2009 No
+77, Sch 2.5 [1] [2]; 2025 No 61, Sch 2.11[3] [7] [8].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7115e94f-d26d-4592-ad93-2317680846ab"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_a9db05f2-d21a-4c9f-8237-1ffc37a39201"
+id="sec.14-he"><b>Sittings of the Court</b></heading></head>
+<block><txt break.before="1">More than one sitting of the Court may be held at
+the same time.</txt></block></level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3aeb7a86-938a-48b6-9f7e-b5cca345b677"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_480b7a23-d3ce-46e0-babd-08ad7f99f3d1"
+id="sec.15-he"><b>Orders of the Court</b></heading></head>
+<block><txt break.before="1">The Court may, in relation to all matters in
+respect of which it has jurisdiction, make such orders, including
+interlocutory orders, as it thinks appropriate.</txt></block></level>
+</level>
+
+
+<level type="part" id="pt.3A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e448bf64-4508-4945-8fb7-fbf521edfca0"></attrib>
+<attrib name="id" value="pt.3A"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3A</b></no><heading guid="_e8528f21-5057-4ca5-8f5c-d6ac935156b1"
+id="pt.3A-he"><b>Advisory Committee and Clinic</b></heading></head>
+
+<content type="historynote"><txt break.before="1"><b>pt 3A:</b> Ins 1998 No
+158, Sch 1 [10].</txt></content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.15A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8fbc87f4-b308-4f24-91c9-f16f2dd10d21"></attrib>
+<attrib name="id" value="sec.15A"></attrib></parentattributes>
+
+<head>
+<no>15A</no><heading guid="_566b4743-5891-400a-8561-ce4275d21493"
+id="sec.15A-he"><b>Children&#8217;s Court Advisory
+Committee</b></heading></head>
+
+<tier type="subclause" id="sec.15A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_adb0dd4c-d8fa-46a6-9022-84af22797f13"></attrib>
+<attrib name="id" value="sec.15A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Attorney General is to establish, in
+accordance with the rules, a Children&#8217;s Court Advisory
+Committee.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e39997c0-94d1-4db2-b26e-a665d4752e57"></attrib>
+<attrib name="id" value="sec.15A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The President is to be the Chairperson of the
+Committee.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15A-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0b521c7c-4002-40fa-9b76-a67a49dcb177"></attrib>
+<attrib name="id" value="sec.15A-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Committee has the following
+functions&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_eaee42c0-8834-4ec6-893e-01541b3313dc" id="sec.15A-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">consulting with persons using the
+Court,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b2180110-b640-4006-983c-47e470a06210" id="sec.15A-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">providing advice to the Attorney General and the
+Minister for Community Services,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_96f27d83-16b3-4f75-bcf3-ba2161985150" id="sec.15A-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">providing advice to the Court on the rules of the
+Court, on practice directions and on procedures before the
+Court,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e763e7b9-ace2-442d-87a5-4429d2905b14" id="sec.15A-ssec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">such other functions as may be conferred or
+imposed on the Committee by the rules or by or under any other
+Act.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 15A:</b> Ins 1998 No
+158, Sch 1 [10]. Am 2009 No 13, Sch 2.2 [9].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.15B">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a3591207-006a-4297-9ea1-17f762085e2d"></attrib>
+<attrib name="id" value="sec.15B"></attrib></parentattributes>
+
+<head>
+<no>15B</no><heading guid="_4e149290-a26e-43fe-94eb-fbd68d33e533"
+id="sec.15B-he"><b>Children&#8217;s Court Clinic</b></heading></head>
+
+<tier type="subclause" id="sec.15B-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9f08a2e7-e48c-4a2f-8465-275371cd84c4"></attrib>
+<attrib name="id" value="sec.15B-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister for Health is to establish and
+maintain, in accordance with the rules, a Children&#8217;s Court
+Clinic.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.15B-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2deaf80a-d752-41cb-9b54-8f440e2dcc60"></attrib>
+<attrib name="id" value="sec.15B-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Children&#8217;s Court Clinic has the
+following functions&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7f7a3706-080e-42a1-8584-451847b15c4d" id="sec.15B-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">making clinical assessments of
+children,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_09451d46-9a1d-4947-84cf-cb5be83afaf2" id="sec.15B-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">submitting reports to courts,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b3d5642d-0229-4912-b752-33e95ba36315" id="sec.15B-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">such other functions as may be prescribed by the
+rules.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 15B:</b> Ins 1998 No
+158, Sch 1 [10]. Am 2009 No 13, Sch 2.2 [10].</txt></content>
+</level>
+</content>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_c3095b66-8f0d-461e-aa28-e26a5f5e8489"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_8c42d9b2-0dd1-46e8-b770-d1f1eb8510a5"
+id="pt.4-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4012b015-14b3-47fe-b80a-e7ce2930ee3f"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_bf289304-56f3-40d0-9a6a-6a07f7a9ce1b"
+id="sec.16-he"><b>Functions of the President</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_75c69fc6-fab8-4bd3-979c-2423ef682a57"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The President has the following
+functions&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ee9f2837-c5af-4e71-80db-e1344e68c5b6" id="sec.16-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to administer the Court,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aa5ca347-f2de-45c5-9819-d383c27546bf" id="sec.16-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to arrange sittings of the
+Court,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_61344bdb-b676-4ad3-8d09-899bc09cc4b7" id="sec.16-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to convene, at least once every 6 months, a
+meeting of Children&#8217;s Judges and such other persons as the President
+thinks fit,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f8c9cd01-5709-4bbe-aefb-6b65b67599dc" id="sec.16-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to confer regularly with community groups and
+social agencies on matters involving children and the
+Court,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_08c1907a-a887-4749-b998-5c2872834a87" id="sec.16-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">to provide judicial leadership to the
+Court,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a26b6397-2d9a-4686-be60-65dd763ad37b" id="sec.16-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">to develop recommendations for
+rules,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_326d65f2-c63a-4281-a908-f85ac1d90456" id="sec.16-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">to oversee the training of Children&#8217;s
+Judges and prospective Children&#8217;s Judges.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9032655a-7d83-4def-ad53-7b0d90de5def"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The President may also exercise any of the
+functions that are conferred or imposed on a Children&#8217;s Judge under this
+or any other Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8dcf708b-6195-4191-9b2a-37dd162152ec"></attrib>
+<attrib name="id" value="sec.16-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The President may require specified functions of
+Children&#8217;s Judges to be exercised by specified Children&#8217;s Judges
+or Children&#8217;s Judges of a specified class, and any Children&#8217;s
+Judge of whom a requirement is made under this subsection must comply with the
+requirement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6fe0566a-3d90-49e4-b798-5df71e29d079"></attrib>
+<attrib name="id" value="sec.16-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The President may delegate to a Children&#8217;s
+Judge any of the President&#8217;s functions under this section, other than
+this power of delegation.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 16:</b> Am 1987 No 268,
+Sch 1 (4) (6) (9); 1998 No 158, Sch 1 [11]&#8211;[13]. Subst 2009 No 13, Sch
+2.2 [11]. Am 2013 No 1, Sch 1.5; 2025 No 61, Sch 2.11[2] [3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.17" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9484fe48-fd78-4697-b03c-8acca3cad9cd"></attrib>
+<attrib name="id" value="sec.17"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>17</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 17:</b> Am 1987 No 268,
+Sch 1 (3) (6) (10); 1998 No 158, Sch 1 [14]. Rep 2009 No 13, Sch 2.2
+[6].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_82a9dc4d-75a2-4e67-9f37-4509396b055b"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_6bf8c95f-1baa-4270-8095-e3ba05ac2139"
+id="sec.18-he"><b>Reports</b></heading></head>
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9513f6c9-f494-4077-b915-ea24e2480297"></attrib>
+<attrib name="id" value="sec.18-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The President shall submit to the Attorney
+General, at such times and in respect of such periods as the Attorney General
+directs, reports on the activities of the Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ca49e183-444d-4a50-a4e0-f13b43886723"></attrib>
+<attrib name="id" value="sec.18-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A report shall deal with such matters as the
+Attorney General directs and with such other matters as the President
+considers appropriate to include in the report.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 18:</b> Am 1987 No 268,
+Sch 1 (6); 2009 No 13, Sch 2.2 [9].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6103612c-52c9-4695-a3b7-3a4e7f2a1487"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_26b227f1-5155-4083-949c-ee06cb34aea9"
+id="sec.19-he"><b>Venue</b></heading></head>
+
+<tier type="subclause" id="sec.19-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4e182db8-acc9-4e74-a2b2-e9183fc56821"></attrib>
+<attrib name="id" value="sec.19-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Sittings of the Court shall be held&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1f57f3b7-6c88-4516-9c65-90ff747cbda6" id="sec.19-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in a building or room approved for that purpose
+by the Attorney General, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_abed3df8-6f4a-4c9c-a2f3-3f87d49f074d" id="sec.19-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if, in the opinion of the Court in a particular
+case, it is expedient that a sitting of the Court be held in some other
+building or room, in that other building or room.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.19-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0ff53af3-aaa5-47c5-a237-3cb15722d4bc"></attrib>
+<attrib name="id" value="sec.19-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If a room used or occupied by another court is
+approved under this section, sittings of the Court shall not be held in the
+room while the ordinary business of that other court is being
+transacted.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f23abd24-c53d-4ee4-a3b1-2cf693902542"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_3de62fb8-511e-4d9f-93ce-22faf11b4f6d"
+id="sec.20-he"><b>Change of venue</b></heading></head>
+<block><txt break.before="1">If it appears to the Court that any matter within
+the jurisdiction of the Court can be more conveniently or fairly heard at a
+sitting of the Court at some other place, the Court may&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a749367a-2ed4-42c5-a3be-b074eaea88ed" id="sec.20-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">adjourn the hearing of the matter, whether any
+party appears or not,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b2da00c8-0774-4876-aa89-160b891a5d4d" id="sec.20-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">remand any person charged before it to a sitting
+of the Court at some other place specified by it, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0c2fe447-15cd-43c6-9761-410ab125e5b1" id="sec.20-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">appoint a day for the
+hearing.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.21">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e9501751-cca0-4917-91b5-0a6e4301e79e"></attrib>
+<attrib name="id" value="sec.21"></attrib></parentattributes>
+
+<head>
+<no>21</no><heading guid="_2a1917f7-b3b7-41ca-9b52-76ae90846f1b"
+id="sec.21-he"><b>Contempt</b></heading></head>
+
+<tier type="subclause" id="sec.21-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9e1cbcae-ad08-4a2d-b524-ded6f2f6343f"></attrib>
+<attrib name="id" value="sec.21-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person shall not commit contempt in the face of
+the Court.</txt></block>
+
+<tier type="penalty" id="sec.21-ssec.1-pen">
+<parentattributes>
+<attrib name="guid" value="_8e55969c-f8dc-488c-a798-91cf39b7a7ad"></attrib>
+<attrib name="id" value="sec.21-ssec.1-pen"></attrib></parentattributes>
+
+<block><txt break.before="1">Maximum penalty&#8212;10 penalty units or
+imprisonment for 14 days.</txt></block></tier>
+</tier>
+
+
+<tier type="subclause" id="sec.21-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0f54eec1-4543-44c9-95f4-78c7bbfa04df"></attrib>
+<attrib name="id" value="sec.21-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Proceedings for contempt shall be dealt with
+summarily before the Children&#8217;s Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_950087dc-3750-4da8-9283-bf528fe26afd"></attrib>
+<attrib name="id" value="sec.21-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purpose of dealing with proceedings for
+contempt by a person in respect of whom the Children&#8217;s Court would not,
+but for this subsection, have jurisdiction, the Children&#8217;s
+Court&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e6ab24e4-afa2-409d-b878-cd9b89620f17" id="sec.21-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">shall have, and may exercise, the jurisdiction of
+the Local Court, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_811f9942-8cf0-4ca3-a438-87db623b91dc" id="sec.21-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">shall not have, and may not exercise, the
+jurisdiction of the Children&#8217;s Court,</txt></block></li></list>
+
+<txt break.before="1">as regards that person.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 21:</b> Am 1991 No 71,
+Sch 1; 2007 No 94, Sch 2.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.22">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7eb27275-1889-42a1-bd7a-70addff8e7b0"></attrib>
+<attrib name="id" value="sec.22"></attrib></parentattributes>
+
+<head>
+<no>22</no><heading guid="_1111354e-26e8-47f5-95bd-bc5b0bc2ce1b"
+id="sec.22-he"><b>Judicial notice of signatures</b></heading></head>
+<block><txt break.before="1">Judicial notice shall be taken of the signatures
+of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3faa9c70-8a2a-4b29-ac70-7c5b3bac278b" id="sec.22-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the President,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5d861fb6-812d-4b9a-bcfa-0b5f6390e52c" id="sec.22-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a Children&#8217;s Judge,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e759cd14-d05e-4778-b036-9d0ef874d85d" id="sec.22-para1.c"
+status="repealed">
+<no>(c)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_da89d967-cc22-41d1-b783-2e4e3bf6f7ce" id="sec.22-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">a Children&#8217;s Registrar or other Registrar
+of the Court,</txt></block></li></list>
+
+<txt break.before="1">where appearing on a document issuing out of the
+Court.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 22:</b> Am 1987 No 268,
+Sch 1 (3) (6) (11); 1998 No 158, Sch 1 [15] [16]; 2009 No 13, Sch 2.2 [9];
+2025 No 61, Sch 2.11[3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.22A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_409c06c9-6cb0-4eae-a524-8e70b006e6a1"></attrib>
+<attrib name="id" value="sec.22A"></attrib></parentattributes>
+
+<head>
+<no>22A</no><heading guid="_7711fdc1-d205-4414-8c87-83982dabd9d6"
+id="sec.22A-he"><b>Appeals in relation to decisions of Presidential
+Children&#8217;s Court</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.22A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bf1d516b-c81a-4785-86e3-a3c5d5e42f47"></attrib>
+<attrib name="id" value="sec.22A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this section&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_bada4c6e-4197-4e38-b8c8-8625826ebd9b"
+id="sec.22A-ssec.1-def.appeal"><b><i>appeal</i></b></defterm> includes the
+referral of any matter.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_ccb574d4-963e-4323-9fdb-1855c03888f5"
+id="sec.22A-ssec.1-def.decision"><b><i>decision</i></b></defterm> includes any
+order or judgment.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_40c1d704-1ceb-4de0-af58-bc496ef8f02e"
+id="sec.22A-ssec.1-def.PresidentialChildrensCourt"><b><i>Presidential
+Children&#8217;s Court</i></b></defterm> means the Children&#8217;s Court
+constituted by the President.</txt></block></deflist>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.22A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5580c049-038d-4742-84f6-3bbfc0be325e"></attrib>
+<attrib name="id" value="sec.22A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An appeal to the District Court under any Act or
+other law in relation to a decision of the Presidential Children&#8217;s Court
+is, despite the provisions of that Act or law, taken to be an appeal to the
+Supreme Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.22A-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_176ac5a2-8db5-46ab-a0ee-b8de711daf8b"></attrib>
+<attrib name="id" value="sec.22A-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Subsection (2) has effect only to the extent
+provided by the regulations.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.22A-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_42dbd71d-cd5e-464a-8a0a-78deee3b708b"></attrib>
+<attrib name="id" value="sec.22A-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">For the purposes of subsection (2), the
+provisions of any Act or law relating to appeals are subject to such
+modifications as may be prescribed by the regulations.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.22A-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7d5a29ba-2bb8-4fc6-8fcc-8261b8b74fa2"></attrib>
+<attrib name="id" value="sec.22A-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The Governor may make regulations for the
+purposes of this section.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 22A:</b> Ins 2009 No
+13, Sch 2.2 [12].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.23">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d3f661b9-6422-4868-a5a7-38aa1b496f5b"></attrib>
+<attrib name="id" value="sec.23"></attrib></parentattributes>
+
+<head>
+<no>23</no><heading guid="_34e916ea-5574-4897-ad01-d45747da0195"
+id="sec.23-he"><b>Rules</b></heading></head>
+
+<tier type="subclause" id="sec.23-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2aa6f50b-388b-45f3-a856-0d4d93ac1a1e"></attrib>
+<attrib name="id" value="sec.23-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make rules, not inconsistent
+with this Act, for or with respect to any matter that is required or permitted
+to be prescribed by rules, or that is necessary or convenient to be prescribed
+by rules, in relation to the practice or procedure of the
+Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e992b313-de00-4c01-a228-2867e3e8a7fe"></attrib>
+<attrib name="id" value="sec.23-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In particular, the rules may make provision for
+or with respect to the following matters&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d23a3b09-2085-4324-8284-f48e472feb8e" id="sec.23-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the practice or procedure to be followed in
+criminal proceedings,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aa71c804-7c3f-4a26-8298-e5b383612640" id="sec.23-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the functions of Children&#8217;s Registrars and
+other officers of the Court,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_14ea79d7-f7a9-4209-acb7-9371fea9073a" id="sec.23-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the review of orders or decisions of
+Children&#8217;s Registrars, other registrars and other officers of the
+Court,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4a23940a-4115-4594-a197-5dedb8dbd01f" id="sec.23-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the practice or procedure to be followed in any
+proceedings under any other law under which jurisdiction or any function is
+conferred on the Court,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8eb6e14d-b4b1-4778-a323-080ad2159993" id="sec.23-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">any matter incidental to, or relating to, any
+practice or procedure referred to in this section,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_87846cca-ba20-41a2-96d1-feed0f5002ee" id="sec.23-ssec.2-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">courses of training to be attended by
+Children&#8217;s Judges and persons proposed to be appointed as
+Children&#8217;s Judges.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b208ec57-4653-437c-9ba0-7b3346a723ae"></attrib>
+<attrib name="id" value="sec.23-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A rule may be made under this Act in relation to
+any matter for which a rule-making power is conferred on the Court by or under
+any other Act or law.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 23:</b> Am 1987 No 268,
+Sch 1 (4); 2005 No 93, Sch 2; 2017 No 57, Sch 4.2. Subst 2017 No 55, Sch 3.2.
+Am 2025 No 61, Sch 2.11[2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.23A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_80a17a47-01ea-4f23-8992-d8fc5dace49a"></attrib>
+<attrib name="id" value="sec.23A"></attrib></parentattributes>
+
+<head>
+<no>23A</no><heading guid="_2348514d-90dc-4d57-9964-31a95f16dea1"
+id="sec.23A-he"><b>Practice notes</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.23A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4e772519-9cc4-4fce-b188-3ece10474dd9"></attrib>
+<attrib name="id" value="sec.23A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Subject to the rules, the President may issue
+practice notes in relation to any matter with respect to which rules may be
+made.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.23A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_68ccd3f6-ca00-4f7f-81b0-98604ccd44ff"></attrib>
+<attrib name="id" value="sec.23A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A practice note issued under this
+section&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c3619b25-8182-4e87-8d74-681ade9dbefc" id="sec.23A-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">must be published in the Gazette,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_953247fe-8c76-4f79-acfe-e86f92ce7935" id="sec.23A-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">takes effect on the day on which it is published
+in the Gazette or, if a later day or days are specified in the practice note
+for that purpose, on the later day or days so
+specified.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.23A-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_62255836-303c-4fc2-9f81-76cf6e27a670"></attrib>
+<attrib name="id" value="sec.23A-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A practice note issued under this section may be
+amended or repealed by a further practice note issued under this
+section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23A-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_00f8b45a-330f-48c7-afc8-60ff5e8a58a1"></attrib>
+<attrib name="id" value="sec.23A-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Subject to subsection (5), sections 40 and 41 of
+the <legref refid="act-1987-015" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Interpretation Act 1987</i></name></legref> apply to a
+practice note issued under this section in the same way as they apply to a
+statutory rule.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23A-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ed035a67-9642-4178-94a0-cac5b2fdca27"></attrib>
+<attrib name="id" value="sec.23A-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">For the purpose of applying section 40 of the
+<legref refid="act-1987-015" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Interpretation Act 1987</i></name></legref> to a practice
+note issued under this section, a reference in that section to the publication
+of a statutory rule is to be read as a reference to the publication of the
+practice note as provided by subsection (2).</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 23A:</b> Ins 2009 No
+13, Sch 2.2 [13].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.23B">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d11aef78-caeb-4c23-9d73-1fe5317a7922"></attrib>
+<attrib name="id" value="sec.23B"></attrib></parentattributes>
+
+<head>
+<no>23B</no><heading guid="_6067beca-0156-4ae2-9d6c-925fc7b918cf"
+id="sec.23B-he"><b>Court may give directions in circumstances not covered by
+rules or practice notes</b></heading></head>
+
+<tier type="subclause" id="sec.23B-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f690a0c3-d6e9-4a5b-b3a3-a95b38ff6454"></attrib>
+<attrib name="id" value="sec.23B-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In relation to particular proceedings, the Court
+may, in respect of any matter for which the rules or practice notes do not
+make provision, give directions that the Court considers appropriate in
+connection with the practice and procedure to be followed in relation to that
+matter.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23B-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2dcf6309-14e6-4bae-9c00-6f07b5aa2af7"></attrib>
+<attrib name="id" value="sec.23B-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such direction has no effect to the extent
+that it is inconsistent with any provision of the <legref refid="act-1998-157"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Children and
+Young Persons (Care and Protection) Act 1998</i></name></legref> relating to
+proceedings before the Court.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23B-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8f9fcdc0-879a-42d2-9b3e-191fcdd9ef64"></attrib>
+<attrib name="id" value="sec.23B-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Anything done in accordance with a direction
+under this section (including the commencing of proceedings and the taking of
+any step in proceedings) is taken to have been validly
+done.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 23B:</b> Ins 2009 No
+13, Sch 2.2 [13].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.24">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ca59c64a-6a77-4e8e-91b6-f4e4b8c2ea0f"></attrib>
+<attrib name="id" value="sec.24"></attrib></parentattributes>
+
+<head>
+<no>24</no><heading guid="_d4437668-54cf-4d1e-97ab-3ae9f91b6428"
+id="sec.24-he"><b>Savings and transitional provisions</b></heading></head>
+<block><txt break.before="1">Schedule 2 has effect.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 24:</b> Ins 1998 No
+158, Sch 1 [17].</txt></content>
+</level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_960544d4-b67e-499a-8812-a52b657c4fd6"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_a35bc00d-4836-4172-bb4a-c39e1e9ba014" id="sch.1-he"><b>Provisions
+relating to Children&#8217;s Judges</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Section 7)</txt></block></pre>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1, hdg:</b> Am 2025
+No 61, Sch 2.11[2].</txt></content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4b3fa65e-18c7-4fc0-bc41-f5023793aba3"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_ba3a26b3-21d3-4997-b4c0-94aae9e35b18"
+id="sch.1-sec.1-he"><b>Judicial status not affected</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9a70f4ff-17c3-48bd-a735-eb4a9678a002"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A Children&#8217;s Judge does not cease to be a
+Judge of the Local Court, nor is the Children&#8217;s Judge&#8217;s rank,
+title, status and precedence as a Judge of the Local Court affected, merely
+because of the judge&#8217;s appointment as a Children&#8217;s
+Judge.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d135cc6e-d802-4546-adbd-8d2f95208595"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The service of a Children&#8217;s Judge as a
+Children&#8217;s Judge is, for all purposes, taken to be service as a Judge of
+the Local Court.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_16cd16e1-b56b-4d16-bce5-f326824e06a5"></attrib>
+<attrib name="id" value="sch.1-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_46f274fa-e9ef-485e-b5fd-2c8002a06f97"
+id="sch.1-sec.2-he"><b>Term of office</b></heading></head>
+<block><txt break.before="1">A Children&#8217;s Judge shall hold office for
+such period (not exceeding 5 years) as may be specified in the
+Children&#8217;s Judge&#8217;s instrument of appointment, but is eligible (if
+otherwise qualified) for reappointment.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.2A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_61d8d1e3-1ba3-4121-abef-e8e357c81710"></attrib>
+<attrib name="id" value="sch.1-sec.2A"></attrib></parentattributes>
+
+<head>
+<no>2A</no><heading guid="_cd341872-2952-4cbe-bb43-f412dc5bf4ad"
+id="sch.1-sec.2A-he"><b>Conditions of service</b></heading></head>
+<block><txt break.before="1">A person holding office as Children&#8217;s Judge
+is taken to hold the office on either a full-time or part-time basis,
+according to whether the person holds the office of Judge on a full-time or
+part-time basis under the <legref refid="act-2007-093" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Local Court Act
+2007</i></name></legref>.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ec40c1f9-4af2-4137-8466-ff7086858da7"></attrib>
+<attrib name="id" value="sch.1-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_89cc6437-1e78-45df-9abd-4c791fcbe78f"
+id="sch.1-sec.3-he"><b>Remuneration</b></heading></head>
+<block><txt break.before="1">A Children&#8217;s Judge is entitled to be
+paid&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_571164aa-aa0c-4529-977a-09ecaac52c72" id="sch.1-sec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">remuneration in accordance with the <legref
+refid="act-1976-004" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Statutory and Other Offices Remuneration Act
+1975</i></name></legref>, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_620a370b-e8bc-4660-b23d-972caa32c8b3" id="sch.1-sec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">such travelling and subsistence allowances as the
+Attorney General may from time to time determine in respect of the
+Children&#8217;s Judge.</txt></block></li></list>
+</block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2e868c9c-5e22-40b2-8aad-508835188109"></attrib>
+<attrib name="id" value="sch.1-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_51d38b26-f889-49be-9701-64af9f6e65b1"
+id="sch.1-sec.4-he"><b><legref refid="act-2013-040" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref> not to apply</b></heading></head>
+<block><txt break.before="1">The office of Children&#8217;s Judge is a
+statutory office and the <legref refid="act-2013-040" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Government Sector Employment Act
+2013</i></name></legref> does not apply to that office.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_44c86851-1942-4781-9930-b339f2f0c047"></attrib>
+<attrib name="id" value="sch.1-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_bf48b543-5424-4f86-bb9b-118bf640fcb0"
+id="sch.1-sec.5-he"><b>Casual vacancies</b></heading></head>
+<block><txt break.before="1">A person shall be deemed to have vacated office
+as a Children&#8217;s Judge if the person&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_65e15f52-c37e-46c5-ac9c-a6549128ef07" id="sch.1-sec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">ceases to be a Judge of the Local Court,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9cc41134-fbf3-4404-b9e5-2426836de42f" id="sch.1-sec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">resigns office by instrument in writing addressed
+to the Chief Judge and to the President.</txt></block></li></list>
+</block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8562d4a6-c315-4d52-b9c4-faa32b181ded"></attrib>
+<attrib name="id" value="sch.1-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_6c0e26f9-a2f7-40c4-85f4-cf135e8f76d7"
+id="sch.1-sec.6-he"><b>Appointment as Judge unaffected by resignation
+etc</b></heading></head>
+<block><txt break.before="1">A person does not cease to be a Judge of the
+Local Court merely because of&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_be9adcc2-7145-4365-b25b-0aa13d0b3297" id="sch.1-sec.6-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">his or her resignation from office as a
+Children&#8217;s Judge, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7759bae6-6d3e-469a-abb6-ed6bd14ce8f8" id="sch.1-sec.6-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the expiration of his or her term of office as a
+Children&#8217;s Judge.</txt></block></li></list>
+</block></level>
+</content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1:</b> Am 1987 No
+268, Sch 1 (12)&#8211;(16); 1999 No 69, Sch 2.1 [1]; 2007 No 94, Sch 7; 2009
+No 13, Sch 2.2 [14]; 2010 No 135, Sch 5; 2015 No 15, Sch 3.9 [3]; 2025 No 61,
+Sch 2.11[3] [9]&#8211;[12].</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_16f858ca-7157-44f7-afa0-098721a5a2e0"></attrib>
+<attrib name="id" value="sch.2"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading
+guid="_92531dce-baa2-4e94-b6bb-fad645c3bb12" id="sch.2-he"><b>Savings and
+transitional provisions</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Section 24)</txt></block></pre>
+
+
+<content type="auto-inserted">
+
+<level type="part" id="sch.2-pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_4b03c678-78ea-470e-9b8e-4ad7645f2a93"></attrib>
+<attrib name="id" value="sch.2-pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_6b0f1ce3-0691-492e-946e-68fa19dbfaa1"
+id="sch.2-pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sch.2-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e22d0a58-5f0d-4514-92ed-68ab177fd2ee"></attrib>
+<attrib name="id" value="sch.2-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_2546761a-162f-4870-bf0c-0928a94ec9d8"
+id="sch.2-sec.1-he"><b>Saving and transitional
+regulations</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_16ea825a-63cb-45ce-b2e4-34527af1e338"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, containing provisions of a savings or transitional
+nature consequent on the enactment of the following Acts&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c50bda95-7366-4b4b-99d7-2d87af551ee9" id="sch.2-sec.1-ssec.1-para1">
+<block><txt break.before="1"><legref refid="act-1998-157" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Children and Young Persons
+(Care and Protection) Act 1998</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f28eaf30-e08f-4482-83dd-b440095a4901"
+id="sch.2-sec.1-ssec.1-para1-oc.2">
+<block><txt break.before="1"><legref refid="act-1998-158" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Children and Young Persons
+Legislation (Repeal and Amendment) Act
+1998</i></name></legref></txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d1408353-cd9a-4ee6-8e63-4559c2adf6fa"
+id="sch.2-sec.1-ssec.1-para1-oc.3">
+<block><txt break.before="1"><legref refid="act-2009-013" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Children Legislation
+Amendment (Wood Inquiry Recommendations) Act 2009</i></name></legref>, to the
+extent that it amends this Act</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_df16e8ab-a652-4f1c-af47-bacfc1b360e1"
+id="sch.2-sec.1-ssec.1-para1-oc.4">
+<block><txt break.before="1">another Act that amends this
+Act</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8dca9939-93e2-4d19-86ee-3f718cd0f823"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such provision may, if the regulations so
+provide, take effect from the date of assent to the Act concerned or a later
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f0b41cdc-7790-4f11-a8d6-c7413865135e"></attrib>
+<attrib name="id" value="sch.2-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication in the
+Gazette, the provision does not operate so as&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_250bdc72-5900-438b-982a-0f858d4f8b13" id="sch.2-sec.1-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_238074fb-8b8e-49b4-ae33-7583b8efef7d" id="sch.2-sec.1-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="part" id="sch.2-pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_7e6b5fde-bebd-45ec-8622-4cad5262cd71"></attrib>
+<attrib name="id" value="sch.2-pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_a12ff8c4-0ff8-4573-b4fc-0f51ca55beca"
+id="sch.2-pt.2-he"><b>Provisions consequent on enactment of <legref
+refid="act-1998-158" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Children and Young Persons Legislation (Repeal and
+Amendment) Act 1998</i></name></legref></b></heading></head>
+
+<level type="clause" id="sch.2-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7ad60f07-9f87-4466-9d29-af69595fd883"></attrib>
+<attrib name="id" value="sch.2-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_33f97cff-0777-4fbf-9694-22bb1dcf18ed"
+id="sch.2-sec.2-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Part, <defterm type="definition"
+guid="_f690ce65-70ab-4331-a09a-10b6fe363cb4"
+id="sch.2-sec.2-def.theamendingAct"><b><i>the amending Act</i></b></defterm>
+means the <legref refid="act-1998-158" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Children and Young Persons Legislation
+(Repeal and Amendment) Act 1998</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sch.2-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8c343339-3d92-49a5-924b-339d8b4c44e6"></attrib>
+<attrib name="id" value="sch.2-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_e2a82b72-f510-472b-b647-5703fe7ad8ea"
+id="sch.2-sec.3-he"><b>Children&#8217;s Magistrates</b></heading></head>
+<block><txt break.before="1">A person holding the office of Children&#8217;s
+Magistrate immediately before the repeal and re-enactment of section 7 (2) by
+the amending Act may be reappointed to that office for one further term if the
+person is qualified under that subsection as in force immediately before its
+repeal and re-enactment.</txt></block></level>
+
+
+<level type="clause" id="sch.2-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_acabe48b-6e5c-452f-b416-41ec5602cd72"></attrib>
+<attrib name="id" value="sch.2-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_07f68552-93a1-4b86-b272-81695acbb55f"
+id="sch.2-sec.4-he"><b>Authorised Magistrates</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_22fa9e02-0d62-43f3-a279-f0a5bf189f6a"></attrib>
+<attrib name="id" value="sch.2-sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Despite the repeal of section 10 (2) by the
+amending Act, the Governor may, by proclamation published in the Gazette,
+revoke a proclamation under section 10 (1).</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dc569c43-b988-4784-bb73-d3154e980400"></attrib>
+<attrib name="id" value="sch.2-sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The provisions of this Act relating to authorised
+Magistrates continue to apply (as if they had not been repealed by the
+amending Act) to and in respect of each place specified in a proclamation
+under section 10 (1) (being a proclamation that had not been revoked before
+the repeal of section 10) until such time as the proclamation is revoked under
+subclause (1).</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.2-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ea664476-8b74-453a-8105-17985d95c9a1"></attrib>
+<attrib name="id" value="sch.2-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_78db91d8-0a1e-40e7-af4b-017e8deecfea"
+id="sch.2-sec.5-he"><b>Venue</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fb65686b-ee8d-4294-96c2-74969b03a5cf"></attrib>
+<attrib name="id" value="sch.2-sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Sittings of the Court may be held in the Court
+House&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c667e23d-f6bc-4fd9-9f74-6fcd47cad15f" id="sch.2-sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">at any place at which sittings of the Local Court
+are held for the time being under section 22 of the <legref
+refid="act-2007-093" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Local Court Act 2007</i></name></legref>,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_10843ef4-943d-478a-8b4c-071b46e8fc49" id="sch.2-sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">at any of the places specified in the Schedule to
+the proclamation under section 10 published in the Gazette on 27 November 1992
+at page 8552.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3e38a051-eea6-4658-bb93-66ca2ce1847c"></attrib>
+<attrib name="id" value="sch.2-sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Each Court House referred to in subclause (1) is
+taken to be a building approved under section 19 (1) (a). The Attorney General
+may, by notice published in the Gazette, revoke an approval under that
+section.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="part" id="sch.2-pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_2cdca3b5-f3a8-483c-a8de-f339a89c59df"></attrib>
+<attrib name="id" value="sch.2-pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_96f4ee09-af8d-4b4d-a92d-22adb4a6193a"
+id="sch.2-pt.3-he"><b>Provisions consequent on enactment of <legref
+refid="act-2009-013" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Children Legislation Amendment (Wood Inquiry
+Recommendations) Act 2009</i></name></legref></b></heading></head>
+
+<level type="clause" id="sch.2-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dc50c5d4-b3ee-4fe5-bbf6-227620fe2bd7"></attrib>
+<attrib name="id" value="sch.2-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_77d6e5c7-b194-412f-9e17-449651065db3"
+id="sch.2-sec.6-he"><b>Definition</b></heading></head>
+<block><txt break.before="1">In this Part&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_1e75a1a5-4400-4fb0-af2c-60922c4b9f08"
+id="sch.2-sec.6-def.amendingAct"><b><i>amending Act</i></b></defterm> means
+the <legref refid="act-2009-013" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Children Legislation Amendment (Wood Inquiry
+Recommendations) Act 2009</i></name></legref>.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sch.2-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_050d3749-80f9-4d7e-8080-4d93339427ef"></attrib>
+<attrib name="id" value="sch.2-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_a9d821b8-cbc0-4a3a-8196-9a29f5291bbe"
+id="sch.2-sec.7-he"><b>Provisions relating to abolished office of Senior
+Children&#8217;s Magistrate</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6886b89a-a2d8-4356-a69f-ea3f812dab4f"></attrib>
+<attrib name="id" value="sch.2-sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In accordance with section 56 (2) of the <legref
+refid="act-1902-032" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Constitution Act 1902</i></name></legref>, the person who,
+immediately before the repeal of section 8 of this Act by the amending Act,
+held office as Senior Children&#8217;s Magistrate is entitled (without loss of
+remuneration) to hold office as a Magistrate or Children&#8217;s Magistrate
+for the remainder of the term for which the person was appointed as Senior
+Children&#8217;s Magistrate.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_72c0b5f0-17ed-4df5-84db-6fe4b07d98a2"></attrib>
+<attrib name="id" value="sch.2-sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A reference to the Senior Children&#8217;s
+Magistrate in any other Act (other than the <legref refid="act-1902-032"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Constitution
+Act 1902</i></name></legref>) or statutory instrument is to be construed as a
+reference to the President.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.2-sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dade019e-aeb0-4b73-8016-b87d18e5e264"></attrib>
+<attrib name="id" value="sch.2-sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_a374f3af-44fd-405a-a9d0-5c94c84ba403"
+id="sch.2-sec.8-he"><b>Provisions relating to Children&#8217;s Court
+Clinic</b></heading></head>
+<block><txt break.before="1">The regulations made under clause 1 (1) may make
+provision for or with respect to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a8bf7ed8-d9f2-44a1-98a9-7d33766ce22b" id="sch.2-sec.8-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">transferring the staff of the Children&#8217;s
+Court Clinic, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9fd67b69-87a2-4758-8829-9168ca8c08a0" id="sch.2-sec.8-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">requiring references to the Children&#8217;s
+Court Clinic in this or any other Act or statutory instrument, or any other
+instrument, or any contract or agreement, to be construed as a
+reference,</txt></block></li></list>
+
+<txt break.before="1">to such public sector agency (or part of a public sector
+agency) as may be prescribed by the regulations.</txt></block></level>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="part" id="sch.2-pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_c10acca9-04f4-4b1c-8a57-4231a67693f1"></attrib>
+<attrib name="id" value="sch.2-pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_230809cf-a890-4262-9800-6a7d3e94a888"
+id="sch.2-pt.4-he"><b>Provision consequent on enactment of <legref
+refid="act-2009-077" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Courts and Crimes Legislation Amendment Act
+2009</i></name></legref></b></heading></head>
+
+<level type="clause" id="sch.2-sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7337000a-4bdc-4f57-84dc-a5cd2a4657c9"></attrib>
+<attrib name="id" value="sch.2-sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_59871808-0413-4cd2-9c1d-0ee88600a94c"
+id="sch.2-sec.9-he"><b>Authorised Magistrates</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_db136b8c-d64a-460c-b8d9-756092af78a8"></attrib>
+<attrib name="id" value="sch.2-sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Anything done before the commencement of this
+clause by an authorised Magistrate in the purported exercise of jurisdiction
+conferred by the proclamation referred to in clause 4 in accordance with the
+directions of the President or Chief Magistrate and which would have been
+validly done had section 13 (c) and (2) (as inserted by the amending Act) been
+in force when it was done is validated.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d4d47524-eb03-4ba0-9b02-ecb925a7d9db"></attrib>
+<attrib name="id" value="sch.2-sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In this clause&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_1ca23e5a-2c37-4c31-bcdf-5e667db898e9"
+id="sch.2-sec.9-ssec.2-def.amendingAct"><b><i>amending Act</i></b></defterm>
+means the <legref refid="act-2009-077" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Courts and Crimes Legislation
+Amendment Act 2009</i></name></legref>.</txt></block></deflist>
+</block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="part" id="sch.2-pt.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_25b2667f-1165-4108-979f-86aa0712a979"></attrib>
+<attrib name="id" value="sch.2-pt.5"></attrib></parentattributes>
+
+<head>
+<no><b>Part 5</b></no><heading guid="_c736329f-cc6c-45eb-acf1-45ae88f70654"
+id="sch.2-pt.5-he"><b>Provisions consequent on enactment of <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Local Court
+and Bail Legislation Amendment Act
+2025</i></name></legref></b></heading></head>
+
+<level type="clause" id="sch.2-sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9fba8413-e238-42e3-9e97-4d9d929285e0"></attrib>
+<attrib name="id" value="sch.2-sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_842b0ca4-caa9-453b-a8fd-2101ef9a20a0"
+id="sch.2-sec.10-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this part&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_35a42acc-b860-4fb3-94e3-e0faed5758bd"
+id="sch.2-sec.10-def.amendingAct"><b><i>amending Act</i></b></defterm> means
+the <legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Local Court and Bail Legislation Amendment Act
+2025</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_3ee06b34-e147-420d-af1f-f39884ee954c"
+id="sch.2-sec.10-def.commencementdate"><b><i>commencement
+date</i></b></defterm> means the date on which the amending Act, Schedules 1
+and 2 commence.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sch.2-sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ddfb95b9-156b-4630-9534-248f8bceba31"></attrib>
+<attrib name="id" value="sch.2-sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_c07e6f96-5744-4442-bd21-eb3c26674b23"
+id="sch.2-sec.11-he"><b>Abolition of office of Children&#8217;s Magistrate and
+appointment as Children&#8217;s Judge</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_22703598-48fe-4a55-9388-ee67a3fbdac9"></attrib>
+<attrib name="id" value="sch.2-sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The office of Children&#8217;s Magistrate is
+abolished on the commencement date.</txt></block>
+<note type="legtext" guid="_654251f6-7558-4a80-bbb6-39e931fe0bfc"
+id="sch.2-sec.11-ssec.1-note"><heading
+guid="_ca522c27-e17a-4b51-af2b-fa9dd8daa967"
+id="sch.2-sec.11-ssec.1-note-he"><b>Note&#8212;</b></heading>
+<block><txt break.before="1">See the <legref refid="act-1902-032" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Constitution Act
+1902</i></name></legref>, section 56(2), which provides for the consequences
+of abolishing a judicial office.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sch.2-sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_485c1953-164d-440c-a9d1-62ad06a49a29"></attrib>
+<attrib name="id" value="sch.2-sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">On the commencement date, a person holding office
+as a Children&#8217;s Magistrate immediately before the abolition of the
+office is appointed as a Children&#8217;s Judge.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4a9f2e33-c9ee-4410-995d-38d113c48f8d"></attrib>
+<attrib name="id" value="sch.2-sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The person is taken to hold the office of
+Children&#8217;s Judge subject to the terms and conditions, including
+remuneration, that applied to the office of Children&#8217;s Magistrate as
+held by the person immediately before the commencement
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.11-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_446b2a97-2f9a-4a89-a931-3086ad20f8e4"></attrib>
+<attrib name="id" value="sch.2-sec.11-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Unless the contrary intention appears, a
+person&#8217;s service as a Children&#8217;s Magistrate must be reckoned for
+all purposes as service as a Children&#8217;s Judge.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.2-sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9e31b5cf-686b-4c14-9984-14fdaf6059ad"></attrib>
+<attrib name="id" value="sch.2-sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_b9a3095a-3497-47b0-a984-8915a4017bbe"
+id="sch.2-sec.12-he"><b>Abolition of office of Children&#8217;s Magistrate has
+no effect on proceedings</b></heading></head>
+<block><txt break.before="1">A person appointed as a Children&#8217;s Judge by
+this part may continue to hear and determine or otherwise deal with
+proceedings that, immediately before the commencement date, were pending
+before or being heard by the person in the person&#8217;s capacity as a
+Children&#8217;s Magistrate.</txt></block></level>
+
+
+<level type="clause" id="sch.2-sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8d3e0f5e-9138-4d42-b07a-b04a51b2ee3d"></attrib>
+<attrib name="id" value="sch.2-sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_d5cb4158-bbc9-4de8-ac0f-7ac892f2d837"
+id="sch.2-sec.13-he"><b>Continuing effect of things done before commencement
+of amending Act</b></heading></head>
+<block><txt break.before="1">An act, matter or thing done under this Act, or
+another Act, by a person holding the office of Children&#8217;s Magistrate
+immediately before the commencement date is taken to have been done by the
+person&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fef910eb-2c54-4b44-9305-46948f56d07b" id="sch.2-sec.13-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in the person&#8217;s capacity as a
+Children&#8217;s Judge, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ebe0ed6d-fdcf-4d2a-94e0-32b44631414d" id="sch.2-sec.13-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">under this Act, or the other Act, as amended by
+the amending Act.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sch.2-sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3cc79599-a591-4d0d-a1c2-480d284dc0a6"></attrib>
+<attrib name="id" value="sch.2-sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_2deec494-d591-4c89-ba06-b8d0c853a87a"
+id="sch.2-sec.14-he"><b>Continuation of positions relating to former
+offices</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7a417ec8-bf28-4af9-86bc-e39f47f4775c"></attrib>
+<attrib name="id" value="sch.2-sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This clause applies to a person who, immediately
+before the commencement date, holds a position, role or office (a <defterm
+type="definition" guid="_a23e7cf3-c5ea-460d-a7ae-90b3ab92d7d9"
+id="sch.2-sec.14-ssec.1-def.relevantposition"><b><i>relevant
+position</i></b></defterm>) under this Act or another Act that the person is
+eligible to hold because the person is, or was, a Children&#8217;s
+Magistrate.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4d39fe35-b62c-4f1b-a679-0cdde92eebd8"></attrib>
+<attrib name="id" value="sch.2-sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The person continues to hold the relevant
+position despite&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7e164ca4-ff73-4b2e-b07f-a086cfda21c2"
+id="sch.2-sec.14-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the abolition of the office of Children&#8217;s
+Magistrate by this part, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_197f097c-96b3-432f-a989-992e81f4618d"
+id="sch.2-sec.14-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the amendments made to this Act or the other Act
+by the amending Act.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sch.2-sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a14de752-955a-46d3-b4a0-bec22751345e"></attrib>
+<attrib name="id" value="sch.2-sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_eb61485a-4585-42b6-9926-70e8b6ed1593"
+id="sch.2-sec.15-he"><b>Judicial oaths</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8eace16c-4d97-49f1-8eaf-283c8bc6907e"></attrib>
+<attrib name="id" value="sch.2-sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A person appointed as a Children&#8217;s Judge by
+this part is not required to take a judicial oath in relation to the office of
+Children&#8217;s Judge.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fb761149-6046-4d43-aecb-fa39b171865c"></attrib>
+<attrib name="id" value="sch.2-sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In this clause&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_854dde50-caa1-47d8-a155-b6537c121aca"
+id="sch.2-sec.15-ssec.2-def.judicialoath"><b><i>judicial
+oath</i></b></defterm> means the oath prescribed in the <legref
+refid="act-1900-020" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Oaths Act 1900</i></name></legref>, Fourth
+Schedule.</txt></block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sch.2-sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_27215119-4364-401d-b7e6-21a8a16ec73a"></attrib>
+<attrib name="id" value="sch.2-sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_b48f2497-fe65-4f24-81ee-d11fe6150915"
+id="sch.2-sec.16-he"><b>Construction of references to retired Children&#8217;s
+Magistrates</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_eab67037-cd06-4ae3-b432-3f155fa84963"></attrib>
+<attrib name="id" value="sch.2-sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A relevant reference to a retired or former
+Children&#8217;s Judge is taken to include a person who, immediately before
+the commencement date, is a retired or former Children&#8217;s
+Magistrate.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d1815300-31ea-4e1f-90ed-29d381a0b2e6"></attrib>
+<attrib name="id" value="sch.2-sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In this clause&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6956bd1c-9a0c-4644-b6c3-c32eeb2d954a"
+id="sch.2-sec.16-ssec.2-def.relevantreference"><b><i>relevant
+reference</i></b></defterm> means a reference in&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6a8b45d1-f46c-46a6-a072-0e1f5a29b133"
+id="sch.2-sec.16-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">this Act or another Act, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3cea76b3-a7ba-45bf-adce-cf3fcfafa554"
+id="sch.2-sec.16-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">an instrument made under this Act or another
+Act.</txt></block></li></list>
+</block></deflist>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sch.2-sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_71e8a5e6-db88-47e3-b467-3d77fc1e3310"></attrib>
+<attrib name="id" value="sch.2-sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_658b78d4-cf49-45f6-9ece-6e6c0e7f5418"
+id="sch.2-sec.17-he"><b>Construction of references to Children&#8217;s
+Magistrate</b></heading></head>
+<block><txt break.before="1">Unless the contrary intention appears, a
+reference to a Children&#8217;s Magistrate in this Act or another Act, other
+than the <legref refid="act-1902-032" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Constitution Act
+1902</i></name></legref>, in an instrument made under this Act or another Act
+or in another document must be read as a reference a Children&#8217;s
+Judge.</txt></block></level>
+</level>
+</content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 2:</b> Ins 1998 No
+158, Sch 1 [18]. Am 2007 No 94, Sch 1.11 [3]; 2009 No 13, Sch 2.2 [15] [16];
+2009 No 77, Sch 2.5 [3]; 2025 No 61, Sch 2.11[13] [14].</txt></content>
+</level>
+
+
+<level type="schedule" id="sch.3">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_55c952e1-cd6b-48c7-ab5c-76251d280f7d"></attrib>
+<attrib name="id" value="sch.3"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 3</b></no><heading
+guid="_38fb6943-233e-4396-85f2-e907bb4c5916" id="sch.3-he"><b>Savings and
+transitional provisions relating to part-time Children&#8217;s
+Magistrates</b></heading></head>
+
+<content type="historynote"><txt break.before="1"><b>sch 3, hdg (previously
+Sch 2, heading):</b> Ins 1999 No 69, Sch 2.1. [2]. Subst 2000 No 93, Sch 2.6
+[2].</txt></content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.3-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a3f946d7-073c-4260-8f9f-e9918b17f252"></attrib>
+<attrib name="id" value="sch.3-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_7eacb50f-a874-40fc-8d9b-8206df584151"
+id="sch.3-sec.1-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sch.3-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_47f3899c-194a-457e-9af1-61a7acc8fddf"></attrib>
+<attrib name="id" value="sch.3-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make regulations that contain
+provisions of a savings or transitional nature consequent on the enactment of
+the following Acts&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dd7ec760-4cb8-469c-97dd-217322548696" id="sch.3-sec.1-ssec.1-para1">
+<block><txt break.before="1"><legref refid="act-1999-069" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Local Courts Amendment
+(Part-time Magistrates) Act
+1999</i></name></legref></txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c5e3aa25-d81c-4004-a7a6-a5500f208374"></attrib>
+<attrib name="id" value="sch.3-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such provision may, if the regulations so
+provide, take effect from the date of assent to the Act concerned or a later
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.3-sec.1-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0f19888b-ed49-4708-9c04-4ea3b2156053"></attrib>
+<attrib name="id" value="sch.3-sec.1-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">To the extent to which any such provision takes
+effect from a date that is earlier than the date of its publication in the
+Gazette, the provision does not operate so as&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_74093340-f9ed-4e7c-9c78-b0b3e7a30cc5" id="sch.3-sec.1-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to affect, in a manner prejudicial to any person
+(other than the State or an authority of the State), the rights of that person
+existing before the date of its publication, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_02624582-b6c5-4a0a-87a9-4b48dad8d9c1" id="sch.3-sec.1-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to impose liabilities on any person (other than
+the State or an authority of the State) in respect of anything done or omitted
+to be done before the date of its publication.</txt></block></li></list>
+</block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.3-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2db3505c-2e3a-4448-bfd6-a675bfe075d8"></attrib>
+<attrib name="id" value="sch.3-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_b0f14e45-8ee9-4d2a-bb1f-6e48a328c8dc"
+id="sch.3-sec.2-he"><b>Remuneration of part-time Children&#8217;s
+Magistrates</b></heading></head>
+<block><txt break.before="1">Until a relevant determination is made and takes
+effect under the <legref refid="act-1976-004" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statutory and Other Offices
+Remuneration Act 1975</i></name></legref>, a Children&#8217;s Magistrate
+holding office on a part-time basis is entitled to be paid in accordance with
+the determination in force for the time being for Children&#8217;s
+Magistrates, but on a pro rata basis (according to time spent in service), as
+calculated by the Attorney General.</txt></block></level>
+</content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 3 (previously Sch
+2):</b> Ins 1999 No 69, Sch 2.1. [2]. Am 2000 No 93, Sch 2.6
+[3].</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_062c681f-f245-48d2-abea-cd129c49cbd4"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_d25a5ea3-fada-4ac0-90b3-45ecab4f11bb"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-1987-053" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Children&#8217;s Court Act
+1987</i></name> No 53</legref>. Assented to 29.5.1987. Date of commencement of
+secs 1 and 2, assent, sec 2 (1); date of commencement, secs 1 and 2 excepted,
+18.1.1988, sec 2 (2) and GG No 8 of 15.1.1988, p 172. This Act has been
+amended as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_e49c84e6-1cdd-41bc-92a7-adb97037a98b" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_ea4c8629-981a-48be-9bd9-db7eaa6c1ff7" id="ed-tbl-tblr">
+<entry colname="1" guid="_b8c2ac4b-bac2-440d-8f65-ab1b0377876b"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1987</b></txt></entry>
+<entry colname="2" guid="_09bf0394-7d99-4fe0-abc6-7492f97df263"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 268</txt></entry>
+<entry colname="3" guid="_073b170c-6b6c-4574-bb7b-3c5cece21a27"
+id="ed-tbl-tblr-tble3"><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Children&#8217;s Court (Amendment) Act
+1987</i></name></legref>. Assented to 16.12.1987.</txt></entry></row>
+
+
+<row guid="_0f83cb2c-985c-4970-a0f5-e6920ccd4063" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_0401356d-4c57-4eca-bf7b-9076ff0af188"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>1991</b></txt></entry>
+<entry colname="2" guid="_1957256e-c7cb-4d77-9d5d-2a92f870486d"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 71</txt></entry>
+<entry colname="3" guid="_72b14482-4409-4d47-b5ca-ca6ec569b530"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Courts Legislation (Contempt)
+Amendment Act 1991</i></name></legref>. Assented to 17.12.1991.</txt>
+<txt break.before="1">Date of commencement, 28 days after
+assent.</txt></block></entry></row>
+
+
+<row guid="_1f2a756b-7111-403e-b653-db5a267b1e3d" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_71c00fca-611a-4ef0-a10b-9eae2679fcdf"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>1998</b></txt></entry>
+<entry colname="2" guid="_7b301f8e-1fe1-4002-b54d-b174d706c2dd"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 158</txt></entry>
+<entry colname="3" guid="_55c3636f-3a76-49f1-9a4b-79a9aa9ba4d8"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref refid="act-1998-158" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Children and Young Persons
+Legislation (Repeal and Amendment) Act 1998</i></name></legref>. Assented to
+14.12.1998.</txt>
+<txt break.before="1">Date of commencement of Sch 1 [1]&#8211;[4] and
+[6]&#8211;[18], 18.12.2000, sec 2 and GG No 159 of 8.12.2000, p 12781; date of
+commencement of Sch 1 [5], 17.4.2000, sec 2 and GG No 48 of 17.4.2000, p
+3349.</txt></block></entry></row>
+
+
+<row guid="_48613bad-8383-467b-98ce-d233c2d9dc90" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_0308f6f2-31eb-4053-8075-ee6f4a28f6f0"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>1999</b></txt></entry>
+<entry colname="2" guid="_b676cb70-5027-41ba-b7d2-0ce27a6ecb9a"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 69</txt></entry>
+<entry colname="3" guid="_cda22823-25c0-4730-80b7-40289c434b61"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref refid="act-1999-069" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Local Courts Amendment
+(Part-time Magistrates) Act 1999</i></name></legref>. Assented to
+30.11.1999.</txt>
+<txt break.before="1">Date of commencement, 17.12.1999, sec 2 and GG No 141 of
+17.12.1999, p 11905.</txt></block></entry></row>
+
+
+<row guid="_29e593cc-a4a7-4129-996b-9eba2ddb0465" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_d910d959-3d70-47ac-a710-323ec2dab01c"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>2000</b></txt></entry>
+<entry colname="2" guid="_7b80a7e6-b0c6-4bd6-aa22-b6bd5fba2f06"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 58</txt></entry>
+<entry colname="3" guid="_6d28dd63-d8af-4602-9e5c-ab4daa5aaa9e"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref refid="act-2000-058" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Children&#8217;s Court
+Amendment Act 2000</i></name></legref>. Assented to 5.7.2000.</txt>
+<txt break.before="1">Date of commencement, immediately after the commencement
+of Sch 1 [7] to the <legref refid="act-1998-158" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Children and Young Persons Legislation
+(Repeal and Amendment) Act 1998</i></name></legref> (ie 18.12.2000), sec 2 and
+GG No 159 of 8.12.2000, p 12781.</txt></block></entry></row>
+
+
+<row guid="_046e28d7-4159-4d50-835a-c7c1004efb58" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_c5392f3a-9d8a-455f-b0a3-55dad1a5d83a"
+id="ed-tbl-tblr-oc.6-tble1"></entry>
+<entry colname="2" guid="_cbde6b63-462e-4578-8c9d-1a38a58297f9"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">No 93</txt></entry>
+<entry colname="3" guid="_68a904b4-0ea9-4b60-ba24-e193c6f32215"
+id="ed-tbl-tblr-oc.6-tble3">
+<block><txt break.before="1"><legref refid="act-2000-093" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2000</i></name></legref>. Assented to 8.12.2000.</txt>
+<txt break.before="1">Date of commencement of Sch 2.6, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_1ae8cdec-2b71-4171-8a58-a95533d69956" id="ed-tbl-tblr-oc.7">
+<entry colname="1" guid="_42540159-a479-430d-a752-52b10811fe7b"
+id="ed-tbl-tblr-oc.7-tble1"><txt break.before="1"><b>2005</b></txt></entry>
+<entry colname="2" guid="_1e5567b5-64bc-4f26-b491-2e107960f11e"
+id="ed-tbl-tblr-oc.7-tble2"><txt break.before="1">No 93</txt></entry>
+<entry colname="3" guid="_31a24085-4e5a-4e38-add2-cd3baf0227cb"
+id="ed-tbl-tblr-oc.7-tble3">
+<block><txt break.before="1"><legref refid="act-2005-093" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Children and Young Persons
+(Care and Protection) Amendment Act 2005</i></name></legref>. Assented to
+24.11.2005.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 31.12.2005, sec 2 and GG
+No 164 of 23.12.2005, p 11221.</txt></block></entry></row>
+
+
+<row guid="_14261f2f-15d3-407d-a8b0-e028d72e2b7e" id="ed-tbl-tblr-oc.8">
+<entry colname="1" guid="_912af8af-6957-4ff4-ba64-739722168463"
+id="ed-tbl-tblr-oc.8-tble1"><txt break.before="1"><b>2007</b></txt></entry>
+<entry colname="2" guid="_a3e54dd2-9b6d-4088-85dc-28448c0d3cf0"
+id="ed-tbl-tblr-oc.8-tble2"><txt break.before="1">No 94</txt></entry>
+<entry colname="3" guid="_57413759-0065-467b-9bfb-bc7857571360"
+id="ed-tbl-tblr-oc.8-tble3">
+<block><txt break.before="1"><legref refid="act-2007-094" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Miscellaneous Acts (Local
+Court) Amendment Act 2007</i></name></legref>. Assented to 13.12.2007.</txt>
+<txt break.before="1">Date of commencement of Schs 1.11, 2 and 7, 6.7.2009,
+sec 2 and 2009 (314) LW 3.7.2009. The amendment made by Sch 1.11 [2] was
+without effect as the provision being amended was repealed by the <legref
+refid="act-2009-013" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Children Legislation Amendment (Wood Inquiry
+Recommendations) Act 2009</i></name></legref>.</txt></block></entry></row>
+
+
+<row guid="_1476aa15-7a7a-4594-9a24-1ca1d4e8ba6e" id="ed-tbl-tblr-oc.9">
+<entry colname="1" guid="_73702fc5-5db2-44d7-bf00-ecb9af05e036"
+id="ed-tbl-tblr-oc.9-tble1"><txt break.before="1"><b>2009</b></txt></entry>
+<entry colname="2" guid="_03e48f83-7de5-4afa-bd88-b51d22e6de77"
+id="ed-tbl-tblr-oc.9-tble2"><txt break.before="1">No 13</txt></entry>
+<entry colname="3" guid="_c6ab1425-6d7e-41fd-91ac-df47b1c9c68c"
+id="ed-tbl-tblr-oc.9-tble3">
+<block><txt break.before="1"><legref refid="act-2009-013" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Children Legislation
+Amendment (Wood Inquiry Recommendations) Act 2009</i></name></legref>.
+Assented to 7.4.2009.</txt>
+<txt break.before="1">Date of commencement of Sch 2.2 [1]&#8211;[6] [8] [9]
+[11]&#8211;[15] and [16] (except to the extent that it inserts cl 8 in Sch 2),
+1.6.2009, sec 2 and 2009 (178) LW 22.5.2009; date of commencement of Sch 2.2
+[7], 24.1.2010, sec 2 and 2010 (8) LW 22.1.2010; date of commencement of Sch
+2.2 [10] and [16] (to the extent that it inserts cl 8 in Sch 2), 1.7.2011, sec
+2 and 2011 (311) LW 1.7.2011.</txt></block></entry></row>
+
+
+<row guid="_55d6a5af-ead2-41e1-b798-a965ae84feca" id="ed-tbl-tblr-oc.10">
+<entry colname="1" guid="_640602d3-ff3a-4518-9296-4eac37a1cb16"
+id="ed-tbl-tblr-oc.10-tble1"></entry>
+<entry colname="2" guid="_3afcd5ed-d183-4aa8-b3a0-dee44f33ea8a"
+id="ed-tbl-tblr-oc.10-tble2"><txt break.before="1">No 77</txt></entry>
+<entry colname="3" guid="_dda32c3f-115a-4c1c-b92d-15da6351c172"
+id="ed-tbl-tblr-oc.10-tble3">
+<block><txt break.before="1"><legref refid="act-2009-077" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Courts and Crimes
+Legislation Amendment Act 2009</i></name></legref>. Assented to
+3.11.2009.</txt>
+<txt break.before="1">Date of commencement of Sch 2.5, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_ef74b22f-32be-485b-a8b7-868ac4423c52" id="ed-tbl-tblr-oc.11">
+<entry colname="1" guid="_8d914a10-b756-4e49-992f-07c4c0eef34f"
+id="ed-tbl-tblr-oc.11-tble1"><txt break.before="1"><b>2010</b></txt></entry>
+<entry colname="2" guid="_9a7a9f3e-480d-400f-8add-77bc3321f8f1"
+id="ed-tbl-tblr-oc.11-tble2"><txt break.before="1">No 63</txt></entry>
+<entry colname="3" guid="_d3e839f3-5598-4918-a347-c96720aac2c8"
+id="ed-tbl-tblr-oc.11-tble3">
+<block><txt break.before="1"><legref refid="act-2010-063" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Courts Legislation
+Amendment Act 2010</i></name></legref>. Assented to 28.6.2010.</txt>
+<txt break.before="1">Date of commencement of Sch 1.5, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_409ef9f7-533f-4196-af3f-9c308c00422f" id="ed-tbl-tblr-oc.12">
+<entry colname="1" guid="_8f989339-d5f6-4fb4-b2ae-6bb2e40fd382"
+id="ed-tbl-tblr-oc.12-tble1"></entry>
+<entry colname="2" guid="_1766b80f-9fc7-472f-a67d-364a295d1923"
+id="ed-tbl-tblr-oc.12-tble2"><txt break.before="1">No 135</txt></entry>
+<entry colname="3" guid="_8d985387-b14a-4ac8-8136-2b7ce98f04c6"
+id="ed-tbl-tblr-oc.12-tble3">
+<block><txt break.before="1"><legref refid="act-2010-135" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Courts and Crimes
+Legislation Further Amendment Act 2010</i></name></legref>. Assented to
+7.12.2010.</txt>
+<txt break.before="1">Date of commencement of Sch 5, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_fe3e41be-0f91-4ba6-b19d-c1d10c2edda2" id="ed-tbl-tblr-oc.13">
+<entry colname="1" guid="_b549a178-c2e1-485f-a77b-2f68a9802e7e"
+id="ed-tbl-tblr-oc.13-tble1"><txt break.before="1"><b>2013</b></txt></entry>
+<entry colname="2" guid="_1d9583be-97fe-43c7-9bb4-40377eb6cff0"
+id="ed-tbl-tblr-oc.13-tble2"><txt break.before="1">No 1</txt></entry>
+<entry colname="3" guid="_57cafb56-7632-4941-9ed3-18030fd94833"
+id="ed-tbl-tblr-oc.13-tble3">
+<block><txt break.before="1"><legref refid="act-2013-001" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Courts and Other
+Legislation Further Amendment Act 2013</i></name></legref>. Assented to
+28.2.2013.</txt>
+<txt break.before="1">Date of commencement of Sch 1.5, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_a8df2625-d758-4afd-9759-4cf33747738c" id="ed-tbl-tblr-oc.14">
+<entry colname="1" guid="_6388bfef-6274-4b24-b79e-e6a0ac391f7b"
+id="ed-tbl-tblr-oc.14-tble1"><txt break.before="1"><b>2015</b></txt></entry>
+<entry colname="2" guid="_b902d2f5-80c7-4887-8445-42e59b0a9864"
+id="ed-tbl-tblr-oc.14-tble2"><txt break.before="1">No 2</txt></entry>
+<entry colname="3" guid="_62df609b-62bf-4a42-8005-a4095220303b"
+id="ed-tbl-tblr-oc.14-tble3">
+<block><txt break.before="1"><legref refid="act-2015-002" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Courts and Crimes
+Legislation Amendment Act 2015</i></name></legref>. Assented to
+15.5.2015.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_0623d96b-fed5-4c32-ae5d-8d7ba5ad5dc9" id="ed-tbl-tblr-oc.15">
+<entry colname="1" guid="_6e7a76d6-6775-4d57-9e70-1b51ea67699a"
+id="ed-tbl-tblr-oc.15-tble1"></entry>
+<entry colname="2" guid="_3adb74c3-8958-4a78-b65e-28557b4c0862"
+id="ed-tbl-tblr-oc.15-tble2"><txt break.before="1">No 15</txt></entry>
+<entry colname="3" guid="_41d8cafb-4a10-414f-9ef8-721d93f8dba4"
+id="ed-tbl-tblr-oc.15-tble3">
+<block><txt break.before="1"><legref refid="act-2015-015" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2015</i></name></legref>. Assented to 29.6.2015.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 15.7.2015, sec 2
+(3).</txt></block></entry></row>
+
+
+<row guid="_1facf784-903e-4f5e-a0e8-b9cbf3fcdf58" id="ed-tbl-tblr-oc.16">
+<entry colname="1" guid="_5d5f2b2a-a81b-4907-86c8-19295e17bc9c"
+id="ed-tbl-tblr-oc.16-tble1"><txt break.before="1"><b>2017</b></txt></entry>
+<entry colname="2" guid="_9e58b7a1-3f0e-4f33-beeb-f4e6a41d81f3"
+id="ed-tbl-tblr-oc.16-tble2"><txt break.before="1">No 55</txt></entry>
+<entry colname="3" guid="_03a71c1f-34d0-4641-bf61-fbc2c07e0441"
+id="ed-tbl-tblr-oc.16-tble3">
+<block><txt break.before="1"><legref refid="act-2017-055" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Justice Legislation
+Amendment (Committals and Guilty Pleas) Act 2017</i></name></legref>. Assented
+to 24.10.2017.</txt>
+<txt break.before="1">Date of commencement, 30.4.2018, sec 2 and 2018 (164) LW
+27.4.2018.</txt></block></entry></row>
+
+
+<row guid="_8c2b3258-452a-4746-b590-7215a9e97be9" id="ed-tbl-tblr-oc.17">
+<entry colname="1" guid="_f742754d-a4d6-457b-954d-b9ae2ec53b64"
+id="ed-tbl-tblr-oc.17-tble1"></entry>
+<entry colname="2" guid="_a9c72c1d-cc9f-4d5f-8a07-8f93f10385e9"
+id="ed-tbl-tblr-oc.17-tble2"><txt break.before="1">No 57</txt></entry>
+<entry colname="3" guid="_1fd90ed6-c5a6-4f00-ab0a-b385199c89d7"
+id="ed-tbl-tblr-oc.17-tble3">
+<block><txt break.before="1"><legref refid="act-2017-057" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Parole Legislation
+Amendment Act 2017</i></name></legref>. Assented to 24.10.2017.</txt>
+<txt break.before="1">Date of commencement of Sch 4.2, 26.2.2018, sec 2 and
+2018 (53) LW 23.2.2018.</txt></block></entry></row>
+
+
+<row guid="_7a648747-109f-4a8e-bb86-da6b8ce5867b" id="ed-tbl-tblr-oc.18">
+<entry colname="1" guid="_9712d083-9c0b-44ff-837b-2adb75b1e230"
+id="ed-tbl-tblr-oc.18-tble1"><txt break.before="1"><b>2025</b></txt></entry>
+<entry colname="2" guid="_3898f234-350e-4cb2-befe-28bdb7ef088f"
+id="ed-tbl-tblr-oc.18-tble2"><txt break.before="1">No 61</txt></entry>
+<entry colname="3" guid="_0323d6f1-5963-4c9e-9a9d-bae90ec37d9a"
+id="ed-tbl-tblr-oc.18-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Local Court and Bail Legislation
+Amendment Act 2025</i></name></legref>. Assented to 28.10.2025.</txt>
+<txt break.before="1">Date of commencement of Sch 2.11, 28.3.2026, sec 2(b)
+and 2026 (82) LW 13.3.2026.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_9f60946f-b437-4875-8b4a-78151d006ccc"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_286e248b-baf8-4f88-92af-13608bb728fa" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_7ba23f68-2de9-4606-a6a0-260dca371de6" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_ad017222-6230-4afe-ac29-d8fc6e080cdd"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 3</txt></entry>
+<entry colname="2" guid="_274ca2eb-cbaa-476e-9950-e87cd49ce044"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 1987 No 268, Sch 1 (1);
+1998 No 158, Sch 1 [1] [2]; 2007 No 94, Sch 1.11 [1]; 2009 No 13, Sch 2.2 [1];
+2025 No 61, Sch 2.11[1].</txt></entry></row>
+
+
+<row guid="_22ac1eb2-5206-483e-832c-81df71dee490" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_56edea82-cb52-4c8b-be6a-f326116be7ce"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 6</txt></entry>
+<entry colname="2" guid="_a64df2f6-9f54-4195-858e-5602541e6502"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 1987 No 268, Sch 1
+(2). Subst 2009 No 13, Sch 2.2 [2]. Am 2025 No 61, Sch
+2.11[2].</txt></entry></row>
+
+
+<row guid="_b62a0471-a0f6-452c-9e4e-7aa0c8d638b1" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_42dc56c2-4fab-44db-85ee-16d2ffbe1649"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 6A</txt></entry>
+<entry colname="2" guid="_0454340a-b2cb-4fcf-8eb7-0ef9e8da2495"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Ins 2009 No 13, Sch 2.2
+[2]. Am 2010 No 63, Sch 1.5.</txt></entry></row>
+
+
+<row guid="_501c54f0-5e6d-4757-9bd9-c6dda20302f1" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_c95bae6c-68d9-41af-ba01-e25dd40af2a0"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 6B</txt></entry>
+<entry colname="2" guid="_8584afc0-8b0c-45cc-8f9d-ce05b8c71247"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Ins 2009 No 13, Sch 2.2
+[2]. Am 2015 No 2, Sch 3.1; 2025 No 61, Sch 2.11[3].</txt></entry></row>
+
+
+<row guid="_10794074-4041-450e-b82b-822538d03bb8" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_39abe89a-8daa-43ee-83d5-bfd5039d039a"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 7</txt></entry>
+<entry colname="2" guid="_4f073147-3b21-47d6-b044-98b34eef9515"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Am 1987 No 268, Sch 1
+(3) (4); 1998 No 158, Sch 1 [3] [4]; 2000 No 93, Sch 2.6 [1]; 2009 No 13, Sch
+2.2 [3]&#8211;[5]; 2025 No 61, Sch 2.11[2]&#8211;[6].</txt></entry></row>
+
+
+<row guid="_7f2a00d8-0e4f-492f-b112-7ed289db9d44" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_bb02f4f9-1b08-4ce4-bcce-45355f3f2709"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 8</txt></entry>
+<entry colname="2" guid="_1a1ff44f-f3c2-46af-ac68-ad7b171c227b"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Am 1987 No 268, Sch 1
+(3) (5) (6); 1998 No 158, Sch 1 [5]. Rep 2009 No 13, Sch 2.2
+[6].</txt></entry></row>
+
+
+<row guid="_bc790fab-f722-46b8-80aa-5804bd50b4a5" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_79a738aa-0915-4ba4-b073-2d5fd23cee5b"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_5f8dbb9d-2689-46d6-a60a-15c1c06e410d"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Am 1987 No 268, Sch 1
+(3) (6) (7). Rep 2009 No 13, Sch 2.2 [6].</txt></entry></row>
+
+
+<row guid="_56069a05-dd8c-401c-b09f-2cb197244782" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_11613b46-f562-480e-862e-7b76734167a5"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sec 10</txt></entry>
+<entry colname="2" guid="_fb4256e1-de7b-4f65-9e7b-c6a05354693e"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Rep 1998 No 158, Sch 1
+[6].</txt></entry></row>
+
+
+<row guid="_e8c4d39c-8edf-457f-8cc6-c8ff5379e1b1" id="ed-tbl-oc.2-tblr-oc.9">
+<entry colname="1" guid="_f81d5f92-81b2-4d48-836d-aa82d6493179"
+id="ed-tbl-oc.2-tblr-oc.9-tble1"><txt break.before="1">Sec 10A</txt></entry>
+<entry colname="2" guid="_fa56cc8a-6652-4167-b8eb-1feaba4929d8"
+id="ed-tbl-oc.2-tblr-oc.9-tble2"><txt break.before="1">Ins 1998 No 158, Sch 1
+[7]. Am 2000 No 58, Sch 1; 2009 No 13, Sch 2.2 [7]; 2015 No 15, Sch 3.9 [1];
+2025 No 61, Sch 2.11[3].</txt></entry></row>
+
+
+<row guid="_28ade304-5c89-46ff-bdb5-8d2e7e018d5a"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry colname="1" guid="_a59ee108-5ce1-4b3b-8135-8eb1bde9b4a1"
+id="ed-tbl-oc.2-tblr-oc.10-tble1"><txt break.before="1">Sec 11</txt></entry>
+<entry colname="2" guid="_1fed2365-d3d5-4cf5-a632-894cbd3c4c66"
+id="ed-tbl-oc.2-tblr-oc.10-tble2"><txt break.before="1">Am 1987 No 268, Sch 1
+(8); 1998 No 158, Sch 1 [8]; 2015 No 15, Sch 3.9 [2].</txt></entry></row>
+
+
+<row guid="_47e9dcd4-93ae-49cb-b30e-d97bffd51c0e"
+id="ed-tbl-oc.2-tblr-oc.11">
+<entry colname="1" guid="_0e5bddf1-3203-40a8-a809-6b5eeb4bebc5"
+id="ed-tbl-oc.2-tblr-oc.11-tble1"><txt break.before="1">Sec 13</txt></entry>
+<entry colname="2" guid="_340ba8b9-638c-4052-89bb-e1a10bbf5aad"
+id="ed-tbl-oc.2-tblr-oc.11-tble2"><txt break.before="1">Am 1987 No 268, Sch 1
+(3); 1998 No 158, Sch 1 [9]. Subst 2009 No 13, Sch 2.2 [8]. Am 2009 No 77, Sch
+2.5 [1] [2]; 2025 No 61, Sch 2.11[3] [7] [8].</txt></entry></row>
+
+
+<row guid="_8dc39d6b-2bac-4823-a9b3-2f3ce787ec82"
+id="ed-tbl-oc.2-tblr-oc.12">
+<entry colname="1" guid="_510c5f34-922f-4371-9e98-3d7e0efd634f"
+id="ed-tbl-oc.2-tblr-oc.12-tble1"><txt break.before="1">Part 3A</txt></entry>
+<entry colname="2" guid="_41c7c342-4ae7-401d-af9e-626db65ed42a"
+id="ed-tbl-oc.2-tblr-oc.12-tble2"><txt break.before="1">Ins 1998 No 158, Sch 1
+[10].</txt></entry></row>
+
+
+<row guid="_00fb9d8b-5c60-4ccc-9425-0e85f0bd3031"
+id="ed-tbl-oc.2-tblr-oc.13">
+<entry colname="1" guid="_74545f3e-eb11-4285-8570-4b5652e05665"
+id="ed-tbl-oc.2-tblr-oc.13-tble1"><txt break.before="1">Sec 15A</txt></entry>
+<entry colname="2" guid="_f365b7d8-dcb4-4c53-9434-ddc0e34fac52"
+id="ed-tbl-oc.2-tblr-oc.13-tble2"><txt break.before="1">Ins 1998 No 158, Sch 1
+[10]. Am 2009 No 13, Sch 2.2 [9].</txt></entry></row>
+
+
+<row guid="_3939cc3e-a39b-48d9-88d1-5df24d0f925f"
+id="ed-tbl-oc.2-tblr-oc.14">
+<entry colname="1" guid="_5d483fac-1fc1-4384-8a22-385c09779ebc"
+id="ed-tbl-oc.2-tblr-oc.14-tble1"><txt break.before="1">Sec 15B</txt></entry>
+<entry colname="2" guid="_f3b03b36-f82d-422b-8dd5-ce2adb5a7b81"
+id="ed-tbl-oc.2-tblr-oc.14-tble2"><txt break.before="1">Ins 1998 No 158, Sch 1
+[10]. Am 2009 No 13, Sch 2.2 [10].</txt></entry></row>
+
+
+<row guid="_fc5e6073-af64-4071-86ea-992374680dc6"
+id="ed-tbl-oc.2-tblr-oc.15">
+<entry colname="1" guid="_32b0eb24-73ad-47d9-9729-97e832a9013f"
+id="ed-tbl-oc.2-tblr-oc.15-tble1"><txt break.before="1">Sec 16</txt></entry>
+<entry colname="2" guid="_283c8976-60ea-4c47-b73a-dc0464c0cfb5"
+id="ed-tbl-oc.2-tblr-oc.15-tble2"><txt break.before="1">Am 1987 No 268, Sch 1
+(4) (6) (9); 1998 No 158, Sch 1 [11]&#8211;[13]. Subst 2009 No 13, Sch 2.2
+[11]. Am 2013 No 1, Sch 1.5; 2025 No 61, Sch 2.11[2] [3].</txt></entry></row>
+
+
+<row guid="_6f1cf254-4ca2-41b5-bc69-804ccb32c444"
+id="ed-tbl-oc.2-tblr-oc.16">
+<entry colname="1" guid="_8b3207fc-8cda-4c6f-95ff-9de19f85efd6"
+id="ed-tbl-oc.2-tblr-oc.16-tble1"><txt break.before="1">Sec 17</txt></entry>
+<entry colname="2" guid="_fd09f8d7-43c8-4366-a41e-996e09c8578b"
+id="ed-tbl-oc.2-tblr-oc.16-tble2"><txt break.before="1">Am 1987 No 268, Sch 1
+(3) (6) (10); 1998 No 158, Sch 1 [14]. Rep 2009 No 13, Sch 2.2
+[6].</txt></entry></row>
+
+
+<row guid="_957c70c7-40d2-45fc-bf0d-f9e3a08217ed"
+id="ed-tbl-oc.2-tblr-oc.17">
+<entry colname="1" guid="_e4fbfe0b-2ca6-422f-ae7f-580eab20823e"
+id="ed-tbl-oc.2-tblr-oc.17-tble1"><txt break.before="1">Sec 18</txt></entry>
+<entry colname="2" guid="_e8060b2e-efbd-4e33-be68-dc70283d5709"
+id="ed-tbl-oc.2-tblr-oc.17-tble2"><txt break.before="1">Am 1987 No 268, Sch 1
+(6); 2009 No 13, Sch 2.2 [9].</txt></entry></row>
+
+
+<row guid="_0e909b8e-5b4a-462d-9ec3-b70808b5164e"
+id="ed-tbl-oc.2-tblr-oc.18">
+<entry colname="1" guid="_adae3f51-2bcc-4a53-bc4c-f39b515f4530"
+id="ed-tbl-oc.2-tblr-oc.18-tble1"><txt break.before="1">Sec 21</txt></entry>
+<entry colname="2" guid="_8d1145ca-9395-4df9-a862-be2450eb7607"
+id="ed-tbl-oc.2-tblr-oc.18-tble2"><txt break.before="1">Am 1991 No 71, Sch 1;
+2007 No 94, Sch 2.</txt></entry></row>
+
+
+<row guid="_d779bcca-e8c2-4b91-8b0f-bd72fb0ba4ed"
+id="ed-tbl-oc.2-tblr-oc.19">
+<entry colname="1" guid="_8e25971b-5994-421d-8e8a-3a9bfa1b1b1c"
+id="ed-tbl-oc.2-tblr-oc.19-tble1"><txt break.before="1">Sec 22</txt></entry>
+<entry colname="2" guid="_b805fcf7-6166-47f5-a716-a10de92b638d"
+id="ed-tbl-oc.2-tblr-oc.19-tble2"><txt break.before="1">Am 1987 No 268, Sch 1
+(3) (6) (11); 1998 No 158, Sch 1 [15] [16]; 2009 No 13, Sch 2.2 [9]; 2025 No
+61, Sch 2.11[3].</txt></entry></row>
+
+
+<row guid="_67632b00-e089-4064-a58b-d29234f4ccbd"
+id="ed-tbl-oc.2-tblr-oc.20">
+<entry colname="1" guid="_9cb119b8-7ad9-419a-9e26-d903a4e6daf7"
+id="ed-tbl-oc.2-tblr-oc.20-tble1"><txt break.before="1">Sec 22A</txt></entry>
+<entry colname="2" guid="_c466c83d-79f3-489c-9070-2812b040d742"
+id="ed-tbl-oc.2-tblr-oc.20-tble2"><txt break.before="1">Ins 2009 No 13, Sch
+2.2 [12].</txt></entry></row>
+
+
+<row guid="_b1223e49-31c9-4fb7-afad-39721b77dfac"
+id="ed-tbl-oc.2-tblr-oc.21">
+<entry colname="1" guid="_2d487883-1dd9-41e4-b043-34d0091e5033"
+id="ed-tbl-oc.2-tblr-oc.21-tble1"><txt break.before="1">Sec 23</txt></entry>
+<entry colname="2" guid="_27f1213c-1c13-4ef4-99c9-d52beddfcb43"
+id="ed-tbl-oc.2-tblr-oc.21-tble2"><txt break.before="1">Am 1987 No 268, Sch 1
+(4); 2005 No 93, Sch 2; 2017 No 57, Sch 4.2. Subst 2017 No 55, Sch 3.2. Am
+2025 No 61, Sch 2.11[2].</txt></entry></row>
+
+
+<row guid="_b7b8f158-446e-4ff3-a171-0631a62c1795"
+id="ed-tbl-oc.2-tblr-oc.22">
+<entry colname="1" guid="_186138a5-c6c2-4f5a-8bd6-9657747d07ea"
+id="ed-tbl-oc.2-tblr-oc.22-tble1"><txt break.before="1">Secs 23A,
+23B</txt></entry>
+<entry colname="2" guid="_53931850-282a-4260-b56d-2baf0f227237"
+id="ed-tbl-oc.2-tblr-oc.22-tble2"><txt break.before="1">Ins 2009 No 13, Sch
+2.2 [13].</txt></entry></row>
+
+
+<row guid="_2525bd7c-8d1c-45f7-9ea8-a6b22165fc89"
+id="ed-tbl-oc.2-tblr-oc.23">
+<entry colname="1" guid="_569c3d6d-9a9a-4c5a-b951-34f5f53b0c0b"
+id="ed-tbl-oc.2-tblr-oc.23-tble1"><txt break.before="1">Sec 24</txt></entry>
+<entry colname="2" guid="_4933f259-3b25-4a29-90ca-dcdb74ed6297"
+id="ed-tbl-oc.2-tblr-oc.23-tble2"><txt break.before="1">Ins 1998 No 158, Sch 1
+[17].</txt></entry></row>
+
+
+<row guid="_d3bcb2d7-c0ce-42cd-94d2-999835895ad8"
+id="ed-tbl-oc.2-tblr-oc.24">
+<entry colname="1" guid="_ce9d8db8-5d76-41fc-aa77-2148317b28f0"
+id="ed-tbl-oc.2-tblr-oc.24-tble1"><txt break.before="1">Sch 1,
+heading</txt></entry>
+<entry colname="2" guid="_0cbae8f0-b2cf-40ad-81bb-7f1ff090b40c"
+id="ed-tbl-oc.2-tblr-oc.24-tble2"><txt break.before="1">Am 2025 No 61, Sch
+2.11[2].</txt></entry></row>
+
+
+<row guid="_12bda9b9-3cc6-46fc-b834-01ecbf35fca3"
+id="ed-tbl-oc.2-tblr-oc.25">
+<entry colname="1" guid="_218806b2-c7d5-4cee-bae5-47f3179ece7a"
+id="ed-tbl-oc.2-tblr-oc.25-tble1"><txt break.before="1">Sch 1</txt></entry>
+<entry colname="2" guid="_9c7e3bae-b8b9-49b3-a38f-16805b72b951"
+id="ed-tbl-oc.2-tblr-oc.25-tble2"><txt break.before="1">Am 1987 No 268, Sch 1
+(12)&#8211;(16); 1999 No 69, Sch 2.1 [1]; 2007 No 94, Sch 7; 2009 No 13, Sch
+2.2 [14]; 2010 No 135, Sch 5; 2015 No 15, Sch 3.9 [3]; 2025 No 61, Sch 2.11[3]
+[9]&#8211;[12].</txt></entry></row>
+
+
+<row guid="_9bc0a249-f65b-442c-aaf9-dd1ac6c01685"
+id="ed-tbl-oc.2-tblr-oc.26">
+<entry colname="1" guid="_9e104d4f-5393-45c9-90c1-77f94f8a2d27"
+id="ed-tbl-oc.2-tblr-oc.26-tble1"><txt break.before="1">Sch 2</txt></entry>
+<entry colname="2" guid="_1c64b749-17f8-4b61-acb4-13551ec704de"
+id="ed-tbl-oc.2-tblr-oc.26-tble2"><txt break.before="1">Ins 1998 No 158, Sch 1
+[18]. Am 2007 No 94, Sch 1.11 [3]; 2009 No 13, Sch 2.2 [15] [16]; 2009 No 77,
+Sch 2.5 [3]; 2025 No 61, Sch 2.11[13] [14].</txt></entry></row>
+
+
+<row guid="_5dcb6aa8-b5e1-4ffa-89be-ff504ec21604"
+id="ed-tbl-oc.2-tblr-oc.27">
+<entry colname="1" guid="_54fbcbc9-33d7-4505-a045-078945ab0d46"
+id="ed-tbl-oc.2-tblr-oc.27-tble1"><txt break.before="1">Sch 3, heading
+(previously Sch 2, heading)</txt></entry>
+<entry colname="2" guid="_9146fced-0414-4257-a9ba-0e0c6f93c8d2"
+id="ed-tbl-oc.2-tblr-oc.27-tble2"><txt break.before="1">Ins 1999 No 69, Sch
+2.1. [2]. Subst 2000 No 93, Sch 2.6 [2].</txt></entry></row>
+
+
+<row guid="_800327ab-8fbb-4221-924e-d99c5b645f55"
+id="ed-tbl-oc.2-tblr-oc.28">
+<entry colname="1" guid="_d4bc3cf5-bf85-43d2-a966-6f1ee503bb6c"
+id="ed-tbl-oc.2-tblr-oc.28-tble1"><txt break.before="1">Sch 3 (previously Sch
+2)</txt></entry>
+<entry colname="2" guid="_7526f3d8-74ae-41e7-a2dd-fc6530750af8"
+id="ed-tbl-oc.2-tblr-oc.28-tble2"><txt break.before="1">Ins 1999 No 69, Sch
+2.1. [2]. Am 2000 No 93, Sch 2.6 [3].</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

@@ -1,0 +1,4238 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-2000-008"
+title="Electronic Transactions Act 2000"
+year="2000"
+number="8"
+enact.or.made.date="2000-05-03"
+first.valid.date="2026-03-28"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">2000</metacontent>
+<metacontent class="year.assent">2000</metacontent>
+<metacontent class="publication.date">2026-03-28</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2025-061</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-2000-008</metacontent>
+<metacontent
+class="version.desc.id">ef1ffe46-392d-41c0-8181-5a0c9a59fbd8</metacontent>
+<metacontent
+class="version.series.id">e136efdf-fa52-4c60-b23a-8713afb66590</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Electronic Transactions Act 2000"></attrib>
+<attrib name="year.passed" value="2000"></attrib>
+<attrib name="year.assent" value="2000"></attrib>
+<attrib name="no" value="8"></attrib>
+<attrib name="publication.date" value="2026-03-28"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2025-061"></attrib>
+<attrib name="first.valid.date" value="2026-03-28"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="2000-05-03"></attrib>
+<attrib name="id" value="act-2000-008"></attrib>
+<attrib name="version.desc.id"
+value="ef1ffe46-392d-41c0-8181-5a0c9a59fbd8"></attrib>
+<attrib name="version.series.id"
+value="e136efdf-fa52-4c60-b23a-8713afb66590"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata"></content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_605cb255-e7f2-405c-95d2-860a5360a584"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to facilitate electronic transactions; and
+for other purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_e743a565-c1dc-4168-9ca7-c2f4a48f38b2"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_64086e02-2601-48b7-84dc-f9762b5bf3a5"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_880a3e0a-402c-41a0-987f-839998ec0260"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_d687653b-5728-4a7b-ab5f-f0a27bdb8212"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act is the <legref refid="act-2000-008"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Electronic
+Transactions Act 2000</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ff3d1bc8-0b35-453d-bb55-b7dce47fff72"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_342ff20a-3e77-4bcb-88fc-439a7dceec4b"
+id="sec.2-he"><b>Commencement</b></heading></head>
+<block><txt break.before="1">This Act commences on a day or days to be fixed
+by proclamation.</txt></block></level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_31cac1b0-e78b-48f8-a3bf-04b0e7e032f1"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_35faa79f-51dd-4fdb-b783-515458d27002"
+id="sec.3-he"><b>Object</b></heading></head>
+<block><txt break.before="1">The object of this Act is to provide a regulatory
+framework that&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f3ad7b80-11eb-49ac-b02f-bb288cd2c73d" id="sec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">recognises the importance of the information
+economy to the future economic and social prosperity of Australia,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_75b8a817-60ac-4e03-a821-597258467eda" id="sec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">facilitates the use of electronic transactions,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d4a8ebef-edf0-4e70-8336-fc3ba1ab2fcb" id="sec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">promotes business and community confidence in the
+use of electronic transactions, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1616ec9f-5a48-43e7-9c13-fb7b741d8610" id="sec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">enables business and the community to use
+electronic communications in their dealings with
+government.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4ef76e91-b765-49ac-8667-a0a767190bb1"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_768936b4-ec9f-4866-a973-29cc97f3f1e6"
+id="sec.4-he"><b>Simplified outline</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_94224a30-77a4-4cb0-bd34-2c78ca61327c"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The following is a simplified outline of this
+Act&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ca772d47-9f32-466f-bf4a-53b536e31b9b" id="sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">For the purposes of a law of this jurisdiction, a
+transaction is not invalid because it took place by means of one or more
+electronic communications.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d54140bd-b886-4429-9308-7a1f7ae4b8ab" id="sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">The following requirements imposed under a law of
+this jurisdiction can generally be met in electronic form&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8677014a-5cd3-49d4-b13c-d8fdb8a9f900"
+id="sec.4-ssec.1-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">a requirement to give information in
+writing,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8f6643a5-4507-4f43-b057-3c87b83fdd48"
+id="sec.4-ssec.1-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">a requirement to provide a
+signature,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b6360e29-62d9-47c8-bed2-056930b18e2c"
+id="sec.4-ssec.1-para1.b-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">a requirement to produce a
+document,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c3796bca-b5b3-4651-8142-4c9f77c14805"
+id="sec.4-ssec.1-para1.b-para2.iv">
+<no>(iv)</no>
+<block><txt break.before="1">a requirement to record
+information,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6db4abc4-e77b-4840-af23-e5bb61b8e343"
+id="sec.4-ssec.1-para1.b-para2.v">
+<no>(v)</no>
+<block><txt break.before="1">a requirement to retain a
+document.</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_70f46b7b-84bb-4178-9c97-25e131bd82cb" id="sec.4-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">For the purposes of a law of this jurisdiction,
+provision is made for determining the time and place of the dispatch and
+receipt of an electronic communication.</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_08c3f96b-b5cb-4ed1-82d8-40230ba4888d" id="sec.4-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">The purported originator of an electronic
+communication is bound by it for the purposes of a law of this jurisdiction
+only if the communication was sent by the purported originator or with the
+authority of the purported originator.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2bb65f3e-ae48-4c2d-93b8-5545eae63979"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This Act also contains provisions applying to
+contracts involving electronic communications, including provisions (relating
+to the internet in particular) for the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_97618266-ace0-4e8f-839e-b6021d62e3a7" id="sec.4-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">an unaddressed proposal to form a contract is to
+be regarded as an invitation to make offers, rather than as an offer that if
+accepted would result in a contract,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4995936b-63bf-4a84-beea-fe0b40cd4b5c" id="sec.4-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a contract formed automatically is not invalid,
+void or unenforceable because there was no human review or
+intervention,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_79bdff1f-24b4-420a-aeb1-61aad0b01dad" id="sec.4-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a portion of an electronic communication
+containing an input error can be withdrawn in certain
+circumstances,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_172b459d-7d54-4d1e-92bd-6519e5dc7b09" id="sec.4-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the application of certain provisions of Part 2
+to the extent they do not apply of their own force.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 4:</b> Am 2010 No 68,
+Sch 1 [1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_95678c9f-205d-49e4-93e3-a999900dc0fb"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_5988e1ae-5709-4378-93c9-b6604a21b37f"
+id="sec.5-he"><b>Interpretation</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e9f5a216-1b4d-404b-9bab-e4119281ac73"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_c69fdf74-f57a-48b3-9ac4-ae2fd1987cdf"
+id="sec.5-ssec.1-def.addressee"><b><i>addressee</i></b></defterm> of an
+electronic communication means a person who is intended by the originator to
+receive the electronic communication, but does not include a person acting as
+an intermediary with respect to the electronic communication.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_132e4bd5-bc07-49f3-aa5e-5ab47a51a0de"
+id="sec.5-ssec.1-def.automatedmessagesystem"><b><i>automated message
+system</i></b></defterm> means a computer program or an electronic or other
+automated means used to initiate an action or respond to data messages in
+whole or in part, without review or intervention by a natural person each time
+an action is initiated or a response is generated by the
+system.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_21110573-3395-468b-ad0a-c4680e06496d"
+id="sec.5-ssec.1-def.consent"><b><i>consent</i></b></defterm> includes consent
+that can reasonably be inferred from the conduct of the person concerned, but
+does not include consent given subject to conditions unless the conditions are
+complied with.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_13971a70-cab5-405a-84dd-c41adb3671f1"
+id="sec.5-ssec.1-def.data"><b><i>data</i></b></defterm> includes the whole or
+part of a computer program within the meaning of the <legref jurisd="CTH"
+type="act" check="unknown"><name emphasis="yes"><i>Copyright Act
+1968</i></name></legref> of the Commonwealth.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_80c31afb-6c57-437f-a133-99021c3af81a"
+id="sec.5-ssec.1-def.datastoragedevice"><b><i>data storage
+device</i></b></defterm> means any article or material (for example, a disk)
+from which information is capable of being reproduced, with or without the aid
+of any other article or device.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a0682b0f-c64d-453b-8a1a-ea2df013e3bc"
+id="sec.5-ssec.1-def.electroniccommunication"><b><i>electronic
+communication</i></b></defterm> means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7fdc2669-3ff5-4342-b54b-cf291c99a0fe" id="sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a communication of information in the form of
+data, text or images by means of guided or unguided electromagnetic energy, or
+both, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4a7daf02-0a74-4c6c-847e-9b64f2039ea9" id="sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a communication of information in the form of
+sound by means of guided or unguided electromagnetic energy, or both, where
+the sound is processed at its destination by an automated voice recognition
+system.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_09d39c07-d4a9-4d99-a2f4-45d7eea9ab86"
+id="sec.5-ssec.1-def.information"><b><i>information</i></b></defterm> means
+information in the form of data, text, images or sound.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_4a5c19d2-713d-48c1-ae7f-bc253c8e970a"
+id="sec.5-ssec.1-def.informationsystem"><b><i>information
+system</i></b></defterm> means a system for generating, sending, receiving,
+storing or otherwise processing electronic communications.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_cd97b0f9-8666-4bab-80fa-35126d7ba1df"
+id="sec.5-ssec.1-def.informationtechnologyrequirements"><b><i>information
+technology requirements</i></b></defterm> includes software
+requirements.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_4d7f0011-4011-42a8-b17d-c38809b9cb8e"
+id="sec.5-ssec.1-def.lawofthisjurisdiction"><b><i>law of this
+jurisdiction</i></b></defterm> means any law in force in this jurisdiction,
+whether written or unwritten, but does not include a law of the
+Commonwealth.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_52b5853f-e1a6-4fd8-bfd1-cc7f0d1aae1a"
+id="sec.5-ssec.1-def.nonprofitbody"><b><i>non-profit body</i></b></defterm>
+means a body that is not carried on for the purposes of profit or gain to its
+individual members and is, by the terms of the body&#8217;s constitution,
+prohibited from making any distribution, whether in money, property or
+otherwise, to its members.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_be2fb3c8-9a4c-4a78-a1eb-44189de4d890"
+id="sec.5-ssec.1-def.originator"><b><i>originator</i></b></defterm> of an
+electronic communication means a person by whom, or on whose behalf, the
+electronic communication has been sent or generated before storage, if any,
+but does not include a person acting as an intermediary with respect to the
+electronic communication.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_fefb0b99-0125-4845-aa41-b7520364957d"
+id="sec.5-ssec.1-def.performance"><b><i>performance</i></b></defterm> of a
+contract includes non-performance of the contract.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_cae5d752-b322-4426-bc54-8f859f2e15c2"
+id="sec.5-ssec.1-def.placeofbusiness"><b><i>place of
+business</i></b></defterm> means&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9977c232-b68e-4430-b211-9e53cd7414d6" id="sec.5-ssec.1-para1.a-oc.2">
+<no>(a)</no>
+<block><txt break.before="1">in relation to a person, other than an entity
+referred to in paragraph (b)&#8212;a place where the person maintains a
+non-transitory establishment to pursue an economic activity other than the
+temporary provision of goods or services out of a specific location,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_93fe4655-8808-4860-af79-3b0f5d5670b8" id="sec.5-ssec.1-para1.b-oc.2">
+<no>(b)</no>
+<block><txt break.before="1">in relation to a government, an authority of a
+government or a non-profit body&#8212;a place where any operations or
+activities are carried out by that government, authority or
+body.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_02ae4087-4950-4f53-aff0-04801e0abe1f"
+id="sec.5-ssec.1-def.thisjurisdiction"><b><i>this
+jurisdiction</i></b></defterm> means New South Wales.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_952e510a-9277-4958-a7b2-9e9cabd582cb"
+id="sec.5-ssec.1-def.transaction"><b><i>transaction</i></b></defterm>
+includes&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_071e2bba-7143-4b4b-a7ba-f015a8fcd88f" id="sec.5-ssec.1-para1.a-oc.3">
+<no>(a)</no>
+<block><txt break.before="1">any transaction in the nature of a contract,
+agreement or other arrangement, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fe16da38-e95b-428b-8302-a79d3f626e0d" id="sec.5-ssec.1-para1.b-oc.3">
+<no>(b)</no>
+<block><txt break.before="1">any statement, declaration, demand, notice or
+request, including an offer and the acceptance of an offer, that the parties
+are required to make or choose to make in connection with the formation or
+performance of a contract, agreement or other arrangement,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_267d6601-eee9-4e46-a861-b7c56326272a" id="sec.5-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any transaction of a non-commercial
+nature.</txt></block></li></list>
+</block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8b84ff4a-3c69-4c73-a115-ed0bb6ea4ba0"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Notes in the text of this Act do not form part of
+this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 5:</b> Am 2010 No 68,
+Sch 1 [2] [3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_92421081-2e3f-4452-88af-0708d5d1ae64"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_7aab7578-ba7f-4df4-86d6-f6f4cd5d0e07"
+id="sec.6-he"><b>Crown to be bound</b></heading></head>
+<block><txt break.before="1">This Act binds the Crown in right of New South
+Wales and, in so far as the legislative power of Parliament permits, the Crown
+in all its other capacities.</txt></block></level>
+
+
+<level type="clause" id="sec.6A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ce78d23d-caff-4415-aa55-6c4d1e94970f"></attrib>
+<attrib name="id" value="sec.6A"></attrib></parentattributes>
+
+<head>
+<no>6A</no><heading guid="_bc276f00-1515-4aa0-96e0-5462b963c94f"
+id="sec.6A-he"><b>Exemptions</b></heading></head>
+
+<tier type="subclause" id="sec.6A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4586a2b4-9572-49f5-a115-9566415ec51a"></attrib>
+<attrib name="id" value="sec.6A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may provide that all or specified
+provisions of this Act do not apply&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_57d26170-4389-4a2c-9ea3-8825a55a8357" id="sec.6A-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to transactions, requirements, permissions,
+electronic communications or other matters specified, or of classes specified,
+in the regulations for the purposes of this section, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ffc80953-47cd-476b-b664-6228a2aaf2ef" id="sec.6A-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in circumstances specified, or of classes
+specified, in the regulations for the purposes of this
+section.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f4444b7c-56c4-4f79-b4bb-e897d7192af0"></attrib>
+<attrib name="id" value="sec.6A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The regulations may provide that all or specified
+provisions of this Act do not apply to specified laws of this
+jurisdiction.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 6A:</b> Ins 2010 No 68,
+Sch 1 [4].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_c2de55ba-2278-4368-90c4-611f64d7b7e4"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_a74e9bc3-c0f3-4f05-a58e-08dbe0ce0d37"
+id="pt.2-he"><b>Application of legal requirements to electronic
+communications</b></heading></head>
+
+<level type="division" id="pt.2-div.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_5ec68fb6-83c5-4765-8115-895434521bca"></attrib>
+<attrib name="id" value="pt.2-div.1"></attrib></parentattributes>
+
+<head>
+<no><b>Division 1</b></no><heading
+guid="_8d5d5cc8-dee6-4238-8561-65ce8af21f96" id="pt.2-div.1-he"><b>General
+rule about validity of transactions for the purposes of laws of this
+jurisdiction</b></heading></head>
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3ac2eeb2-45a3-4ee2-b594-506745f4eac3"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_4abc8611-d41e-4d3a-b5dd-9a63faa2986d"
+id="sec.7-he"><b>Validity of electronic transactions</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fffa6543-dced-43bc-aba3-16f09968da98"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purposes of a law of this jurisdiction, a
+transaction is not invalid because it took place wholly or partly by means of
+one or more electronic communications.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e706641e-9f34-432d-a154-53268421e5bf"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The general rule in subsection (1) does not apply
+in relation to the validity of a transaction to the extent to which another,
+more specific, provision of this Part deals with the validity of the
+transaction.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_395d4bf7-e0a9-430d-8ce3-49b7b9d0668c"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(3), (4)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 7:</b> Am 2010 No 68,
+Sch 1 [5].</txt></content>
+</level>
+</level>
+
+
+<level type="division" id="pt.2-div.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_74b4b2cb-792a-48ef-8dbc-58fc89239b06"></attrib>
+<attrib name="id" value="pt.2-div.2"></attrib></parentattributes>
+
+<head>
+<no><b>Division 2</b></no><heading
+guid="_8aa6d489-d524-465e-ad56-00f1ccaf22a5"
+id="pt.2-div.2-he"><b>Requirements under laws of this
+jurisdiction</b></heading></head>
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cea5d635-6d4a-457a-88ad-1168c7f99471"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_4c959a44-470e-4871-8414-6f65b7530178"
+id="sec.8-he"><b>Writing</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cf987439-6be2-4a5e-9125-4d5dced9aa75"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If, under a law of this jurisdiction, a person is
+required to give information in writing, that requirement is taken to have
+been met if the person gives the information by means of an electronic
+communication, where&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d9489f6b-9bf5-495a-9401-82ff0c5f4bbb" id="sec.8-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">at the time the information was given, it was
+reasonable to expect that the information would be readily accessible so as to
+be useable for subsequent reference, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b3a1c169-01cb-4e23-8c4b-7ad5ed9b3191" id="sec.8-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the person to whom the information is required to
+be given consents to the information being given by means of an electronic
+communication.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_70214027-5e9c-4a7d-bb72-99b9d9e5ac34"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If, under a law of this jurisdiction, a person is
+permitted to give information in writing, the person may give the information
+by means of an electronic communication, where&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_80ed10b9-5c66-46dc-9b47-15f009cf8356" id="sec.8-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">at the time the information was given, it was
+reasonable to expect that the information would be readily accessible so as to
+be useable for subsequent reference, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e4c68f3a-68f7-468b-9820-25d83f81b85e" id="sec.8-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the person to whom the information is permitted
+to be given consents to the information being given by means of an electronic
+communication.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f003e90b-2408-4e1c-b2db-c3b4ff3b7eed"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">This section does not affect the operation of any
+other law of this jurisdiction that makes provision for or in relation to
+requiring or permitting information to be given, in accordance with particular
+information technology requirements&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2aa437fd-d638-47a9-8877-827a28c36b6b" id="sec.8-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">on a particular kind of data storage device,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4be40ea9-1199-4484-8565-a45d15c85b8b" id="sec.8-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">by means of a particular kind of electronic
+communication.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f2ee897f-e1b0-40e7-bf7d-78aabcbb631b"></attrib>
+<attrib name="id" value="sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">This section applies to a requirement or
+permission to give information, whether the expression <defterm
+type="definition" guid="_04ad4e45-6a27-49f7-b51e-84cb914635bb"
+id="sec.8-ssec.4-def.give"><b><i>give</i></b></defterm>, <defterm
+type="definition" guid="_7bc2f5fd-5301-4afe-8be3-71daf1e6ec24"
+id="sec.8-ssec.4-def.send"><b><i>send</i></b></defterm> or <defterm
+type="definition" guid="_184b7968-6637-4fdc-a3d4-18d76db914d0"
+id="sec.8-ssec.4-def.serve"><b><i>serve</i></b></defterm>, or any other
+expression, is used.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cf8d217c-a0ec-4d88-ab99-e184851abe83"></attrib>
+<attrib name="id" value="sec.8-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">For the purposes of this section, <defterm
+type="definition" guid="_091a7941-e30f-4cbe-9a96-eedf2ece69f7"
+id="sec.8-ssec.5-def.givinginformation"><b><i>giving
+information</i></b></defterm> includes, but is not limited to, the
+following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_64ed6c26-9e04-44da-bd04-88e824db565f" id="sec.8-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">making an application,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c4e6528b-9ee5-4ef2-9d37-9f7d94e2c30b" id="sec.8-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">making or lodging a claim,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_338c0ddb-2858-4674-a6b0-22b17d681a1e" id="sec.8-ssec.5-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">giving, sending or serving a
+notification,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c1b1d3da-5ae3-4656-b2bf-316bfeaca34d" id="sec.8-ssec.5-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">lodging a return,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8baa77c9-31f5-437c-93f1-ab203e47a0de" id="sec.8-ssec.5-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">making a request,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_08ab2cb4-9dc9-4b42-bfe7-17774f9c847d" id="sec.8-ssec.5-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">making a declaration,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_31a42f83-930d-4bfa-b5c0-90eab21a0a6f" id="sec.8-ssec.5-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">lodging or issuing a
+certificate,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fc85386b-056d-4d0a-b8a7-9b968a37014e" id="sec.8-ssec.5-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">making, varying or cancelling an
+election,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0b87c700-7fbd-4497-99d2-510bf96ad043" id="sec.8-ssec.5-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">lodging an objection,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e5126143-2155-4c36-8d91-2ce21e5e74a3" id="sec.8-ssec.5-para1.j">
+<no>(j)</no>
+<block><txt break.before="1">giving a statement of
+reasons.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 8:</b> Am 2010 No 68,
+Sch 1 [6].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_01fda629-b66c-49f2-9dc0-d776883e47fc"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_34867bf9-369e-4560-8adf-422a094f0926"
+id="sec.9-he"><b>Signatures</b></heading></head>
+
+<tier type="subclause" id="sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_75927354-abf0-48a2-9e7f-e4d2c02a4f36"></attrib>
+<attrib name="id" value="sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If, under a law of this jurisdiction, the
+signature of a person is required, that requirement is taken to have been met
+in relation to an electronic communication if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2fb18539-15f5-4f8a-b4e8-a5f88b10efef" id="sec.9-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a method is used to identify the person and to
+indicate the person&#8217;s intention in respect of the information
+communicated, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_81d6aac8-5040-4e9e-a260-66b40fab7738" id="sec.9-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the method used was either&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_465804d7-2d8e-4413-8413-d3383d39b5c6"
+id="sec.9-ssec.1-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">as reliable as appropriate for the purpose for
+which the electronic communication was generated or communicated, in the light
+of all the circumstances, including any relevant agreement,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5e9fea19-fe97-438d-9a45-09cb20341ded"
+id="sec.9-ssec.1-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">proven in fact to have fulfilled the functions
+described in paragraph (a), by itself or together with further evidence,
+and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fa717698-89b1-465e-841d-8a40d320dc9a" id="sec.9-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the person to whom the signature is required to
+be given consents to that requirement being met by way of the use of the
+method mentioned in paragraph (a).</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_05020fd9-040c-40b8-98ab-3ce6cd11378d"></attrib>
+<attrib name="id" value="sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">This section does not affect the operation of any
+other law of this jurisdiction that makes provision for or in relation to
+requiring&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8707c154-0a75-4ddd-be50-5210d8907bcd" id="sec.9-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">an electronic communication to contain an
+electronic signature (however described), or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_80426f6d-c83b-4ed6-9a3d-382a94b317de" id="sec.9-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">an electronic communication to contain a unique
+identification in an electronic form, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0a16f8ed-4301-4fcb-8218-c0e984118304" id="sec.9-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a particular method to be used in relation to an
+electronic communication to identify the originator of the communication and
+to indicate the originator&#8217;s intention in respect of the information
+communicated.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.9-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e9453f1d-bb8b-4993-b061-82fc6dbc15f9"></attrib>
+<attrib name="id" value="sec.9-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The reference in subsection (1) to a law that
+requires a signature includes a reference to a law that provides consequences
+for the absence of a signature.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Am 2010 No 68,
+Sch 1 [7]&#8211;[11].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_966c5fe8-5a99-4d30-bcb0-38af73d22b6e"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_d586e393-ef33-42e8-9c36-0cbf572c41d2"
+id="sec.10-he"><b>Production of document</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f237b9c9-f346-48a8-9f20-9809ee4ea737"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If, under a law of this jurisdiction, a person is
+required to produce a document that is in the form of paper, an article or
+other material, that requirement is taken to have been met if the person
+produces, by means of an electronic communication, an electronic form of the
+document, where&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e54c8998-db96-4076-bcae-5141ad87900f" id="sec.10-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">having regard to all the relevant circumstances
+at the time the communication was sent, the method of generating the
+electronic form of the document provided a reliable means of assuring the
+maintenance of the integrity of the information contained in the document,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_50cc1d88-e8ed-4ab8-ab2b-8b4b03b0b85e" id="sec.10-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">at the time the communication was sent, it was
+reasonable to expect that the information contained in the electronic form of
+the document would be readily accessible so as to be useable for subsequent
+reference, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_91f97f3f-2708-45b1-b2ef-9d099a33d663" id="sec.10-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the person to whom the document is required to be
+produced consents to the production, by means of an electronic communication,
+of an electronic form of the document.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_43a16f90-91b2-4713-8e49-9e0c789051a1"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If, under a law of this jurisdiction, a person is
+permitted to produce a document that is in the form of paper, an article or
+other material, then, instead of producing the document in that form, the
+person may produce, by means of an electronic communication, an electronic
+form of the document, where&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_30da30ef-eafa-4745-a94c-bc26687bdb44" id="sec.10-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">having regard to all the relevant circumstances
+at the time the communication was sent, the method of generating the
+electronic form of the document provided a reliable means of assuring the
+maintenance of the integrity of the information contained in the document,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_63695f61-0ee6-4367-99e4-cfe2ca814fba" id="sec.10-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">at the time the communication was sent, it was
+reasonable to expect that the information contained in the electronic form of
+the document would be readily accessible so as to be useable for subsequent
+reference, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3aa5d6fb-84fd-41a1-9e68-f2134133d25c" id="sec.10-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the person to whom the document is permitted to
+be produced consents to the production, by means of an electronic
+communication, of an electronic form of the
+document.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_aa4203e7-f1e4-44c9-b86d-7f99dc865618"></attrib>
+<attrib name="id" value="sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purposes of this section, the integrity
+of information contained in a document is maintained if, and only if, the
+information has remained complete and unaltered, apart from&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4dae3bc4-6e5d-41e5-acb7-d315f108c13b" id="sec.10-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the addition of any endorsement,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_266f5f1d-ecc4-49f8-8689-2b728f5431a2" id="sec.10-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any immaterial change,</txt></block></li></list>
+
+<txt break.before="1">which arises in the normal course of communication,
+storage or display.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_acadbecb-de8b-45d6-b6a0-32053af4e2b2"></attrib>
+<attrib name="id" value="sec.10-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">This section does not affect the operation of any
+other law of this jurisdiction that makes provision for or in relation to
+requiring or permitting electronic forms of documents to be produced, in
+accordance with particular information technology requirements&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1a2379d8-7b3b-4580-9854-a0814abcdc11" id="sec.10-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">on a particular kind of data storage device,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_62bb104b-aed9-4e0b-9e25-3e4f3c68610c" id="sec.10-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">by means of a particular kind of electronic
+communication.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 10:</b> Am 2010 No 68,
+Sch 1 [12].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_100105d1-f667-4f52-9728-34dde22f8bd0"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_8e8428cb-2385-4845-bb76-2d44ffa26dd4"
+id="sec.11-he"><b>Retention of information and documents</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ac9a1b1f-35a0-47bf-9a80-baca1eae3ceb"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If, under a law of this jurisdiction, a person is
+required to record information in writing, that requirement is taken to have
+been met if the person records the information in electronic form,
+where&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c1ce1af1-4b4d-4a57-895d-89127d27b56e" id="sec.11-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">at the time of the recording of the information,
+it was reasonable to expect that the information would be readily accessible
+so as to be useable for subsequent reference, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_46db3cc7-221e-4c43-97f2-430df39375f6" id="sec.11-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the regulations require that the information
+be recorded on a particular kind of data storage device&#8212;that requirement
+has been met.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e18362f9-d8e9-4c33-bdc2-1e3bc0723b09"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If, under a law of this jurisdiction, a person is
+required to retain, for a particular period, a document that is in the form of
+paper, an article or other material, that requirement is taken to have been
+met if the person retains, or causes another person to retain, an electronic
+form of the document throughout that period, where&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8ae14668-4008-4bbd-b48c-aeee341bbde1" id="sec.11-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">having regard to all the relevant circumstances
+at the time of the generation of the electronic form of the document, the
+method of generating the electronic form of the document provided a reliable
+means of assuring the maintenance of the integrity of the information
+contained in the document, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_96bd0c3c-800a-4911-ad8d-d2d67c9edcd0" id="sec.11-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">at the time of the generation of the electronic
+form of the document, it was reasonable to expect that the information
+contained in the electronic form of the document would be readily accessible
+so as to be useable for subsequent reference, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_56b24ea1-0dab-42a6-8e43-74f16f681b5d" id="sec.11-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">if the regulations require that the electronic
+form of the document be retained on a particular kind of data storage
+device&#8212;that requirement has been met throughout that
+period.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cad6eece-7148-4ff7-aa0b-5bdeca8dda34"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">For the purposes of subsection (2), the integrity
+of information contained in a document is maintained if, and only if, the
+information has remained complete and unaltered, apart from&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_20bf7fa8-1b37-47e2-8879-fdb0e34e91f4" id="sec.11-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the addition of any endorsement,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_afae0072-1021-4940-8c98-45cd43d645f2" id="sec.11-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any immaterial change,</txt></block></li></list>
+
+<txt break.before="1">which arises in the normal course of communication,
+storage or display.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8d1d2bce-359d-4b63-9133-24436832eb7b"></attrib>
+<attrib name="id" value="sec.11-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">If, under a law of this jurisdiction, a person
+(the <defterm type="definition" guid="_15e34b81-a40c-4adf-96c7-73fe2e0fc7f2"
+id="sec.11-ssec.4-def.firstperson"><b><i>first person</i></b></defterm>) is
+required to retain, for a particular period, information that was the subject
+of an electronic communication, that requirement is taken to have been met if
+the first person retains, or causes another person to retain, in electronic
+form, the information throughout that period, where&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7995161a-46ed-4e0e-b4bf-7d69d3068036" id="sec.11-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">at the time of commencement of the retention of
+the information, it was reasonable to expect that the information would be
+readily accessible so as to be useable for subsequent reference,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c126d776-4b2d-41c6-86ce-42fb482219a1" id="sec.11-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">having regard to all the relevant circumstances
+at the time of commencement of the retention of the information, the method of
+retaining the information in electronic form provided a reliable means of
+assuring the maintenance of the integrity of the information contained in the
+electronic communication, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_31e9c522-b162-4b5c-8a72-3bc5d2596fc5" id="sec.11-ssec.4-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">throughout that period, the first person also
+retains, or causes the other person to retain, in electronic form, such
+additional information obtained by the first person as is sufficient to enable
+the identification of the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_087f5a86-ddef-4bd7-b3d0-93dc85414648"
+id="sec.11-ssec.4-para1.c-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">the origin of the electronic
+communication,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_55efba9d-c879-4798-9922-bca8991ca991"
+id="sec.11-ssec.4-para1.c-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the destination of the electronic
+communication,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_99d4e318-e2dd-45c3-b3a9-4dba10ace5d3"
+id="sec.11-ssec.4-para1.c-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">the time when the electronic communication was
+sent,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9e8df364-8e32-4643-9843-1caca0556993"
+id="sec.11-ssec.4-para1.c-para2.iv">
+<no>(iv)</no>
+<block><txt break.before="1">the time when the electronic communication was
+received, and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_15156f32-6723-403c-9279-b455b87a9187" id="sec.11-ssec.4-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">at the time of commencement of the retention of
+the additional information covered by paragraph (c), it was reasonable to
+expect that the additional information would be readily accessible so as to be
+useable for subsequent reference, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4167348a-a656-4d62-95a2-7c0b1f660ac4" id="sec.11-ssec.4-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">if the regulations require that the information
+be retained on a particular kind of data storage device&#8212;that requirement
+has been met throughout that period.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a720ce57-368b-4eae-bcef-9e1db123c323"></attrib>
+<attrib name="id" value="sec.11-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">For the purposes of subsection (4), the integrity
+of information that was the subject of an electronic communication is
+maintained if, and only if, the information has remained complete and
+unaltered, apart from&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_814340b3-8aeb-4a56-a574-b6770e9a3245" id="sec.11-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the addition of any endorsement,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4b1d796c-2730-4d45-b985-0d90302e4db6" id="sec.11-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any immaterial change,</txt></block></li></list>
+
+<txt break.before="1">which arises in the normal course of communication,
+storage or display.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Am 2010 No 68,
+Sch 1 [13].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.12" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_70f148e9-6bf3-4fb5-aa2f-8ea07e3c284e"></attrib>
+<attrib name="id" value="sec.12"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>12</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 12:</b> Rep 2010 No 68,
+Sch 1 [14].</txt></content>
+</level>
+</level>
+
+
+<level type="division" id="pt.2-div.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_86db763a-1ffb-4540-846e-aea0cfb26e43"></attrib>
+<attrib name="id" value="pt.2-div.3"></attrib></parentattributes>
+
+<head>
+<no><b>Division 3</b></no><heading
+guid="_4463b439-ca6b-4e09-9886-daee89f822f9" id="pt.2-div.3-he"><b>Other
+provisions relating to laws of this jurisdiction</b></heading></head>
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_44da60ba-0f86-4f44-a698-55c725993fd1"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_6dcaf37c-e604-42b4-84ee-10df80d93c4a"
+id="sec.13-he"><b>Time of dispatch</b></heading></head>
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2556e2fa-e4e8-4905-ace9-541e08e317d6"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purposes of a law of this jurisdiction,
+unless otherwise agreed between the originator and the addressee of an
+electronic communication, the time of dispatch of the electronic communication
+is&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2c65ed9a-8c9c-4e9f-94b1-4d550324893f" id="sec.13-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the time when the electronic communication leaves
+an information system under the control of the originator or of the party who
+sent it on behalf of the originator, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4067153a-51f4-45a8-8bdd-dd7d5556eda2" id="sec.13-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the electronic communication has not left an
+information system under the control of the originator or of the party who
+sent it on behalf of the originator&#8212;the time when the electronic
+communication is received by the addressee.</txt></block></li></list>
+</block>
+<note type="legtext" guid="_7914e265-6104-40d5-8a03-4344ccd4acc3"
+id="sec.13-ssec.1-note"><heading guid="_39390e24-0910-4cdd-83bd-f86461abb0d6"
+id="sec.13-ssec.1-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">Paragraph (b) would apply to a case where the
+parties exchange electronic communications through the same information
+system.</txt></block></note>
+</tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9e38597a-115f-46bb-851d-bf60c24b6f30"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subsection (1) applies even though the place
+where the information system supporting an electronic address is located may
+be different from the place where the electronic communication is taken to
+have been dispatched under section 13B.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 13:</b> Subst 2010 No
+68, Sch 1 [15].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.13A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_468c13ca-a3dd-40a9-b22b-562a215e2bed"></attrib>
+<attrib name="id" value="sec.13A"></attrib></parentattributes>
+
+<head>
+<no>13A</no><heading guid="_75d99252-0fcc-46c5-b328-7b314db86597"
+id="sec.13A-he"><b>Time of receipt</b></heading></head>
+
+<tier type="subclause" id="sec.13A-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_280ee0fe-c6ec-414e-83e9-fbbd01ab47b5"></attrib>
+<attrib name="id" value="sec.13A-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purposes of a law of this jurisdiction,
+unless otherwise agreed between the originator and the addressee of an
+electronic communication&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7cbbb2f1-b732-4a31-8aaf-7545d4329817" id="sec.13A-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the time of receipt of the electronic
+communication is the time when the electronic communication becomes capable of
+being retrieved by the addressee at an electronic address designated by the
+addressee, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ecf43793-594a-417f-8b4f-c85b4e227279" id="sec.13A-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the time of receipt of the electronic
+communication at another electronic address of the addressee is the time when
+both&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_402f625c-4ffb-488c-9db3-cc97dbb428d3"
+id="sec.13A-ssec.1-para1.b-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">the electronic communication has become capable
+of being retrieved by the addressee at that address, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0d1b2137-371a-4683-bfbb-8dac9e1c464d"
+id="sec.13A-ssec.1-para1.b-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the addressee has become aware that the
+electronic communication has been sent to that
+address.</txt></block></li></list>
+</block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.13A-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4bf81449-c96b-482c-b468-40ef9d2edb16"></attrib>
+<attrib name="id" value="sec.13A-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of subsection (1), unless
+otherwise agreed between the originator and the addressee of the electronic
+communication, it is to be assumed that the electronic communication is
+capable of being retrieved by the addressee when it reaches the
+addressee&#8217;s electronic address.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13A-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f14bd94f-8a3b-4c19-8bd0-adfa44b6429b"></attrib>
+<attrib name="id" value="sec.13A-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Subsection (1) applies even though the place
+where the information system supporting an electronic address is located may
+be different from the place where the electronic communication is taken to
+have been received under section 13B.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 13A:</b> Ins 2010 No
+68, Sch 1 [15].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.13B">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0fabf124-6fce-40ef-ae2b-449136ade080"></attrib>
+<attrib name="id" value="sec.13B"></attrib></parentattributes>
+
+<head>
+<no>13B</no><heading guid="_5ab54bae-4ed4-4ead-aa3f-e5733efd454c"
+id="sec.13B-he"><b>Place of dispatch and place of
+receipt</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.13B-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7c0c4e83-bc12-4f29-82bc-81c1cc93f94c"></attrib>
+<attrib name="id" value="sec.13B-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purposes of a law of this jurisdiction,
+unless otherwise agreed between the originator and the addressee of an
+electronic communication&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_13520552-7b50-48a7-bd17-fd048bcc97b0" id="sec.13B-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the electronic communication is taken to have
+been dispatched at the place where the originator has its place of business,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c6541045-dfb9-4f62-abb8-936815f3fc00" id="sec.13B-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the electronic communication is taken to have
+been received at the place where the addressee has its place of
+business.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.13B-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1604aee3-945e-470a-8cfd-d89af7cc4c33"></attrib>
+<attrib name="id" value="sec.13B-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of the application of subsection
+(1) to an electronic communication&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cdc37f94-e424-4743-b5ee-ea4d0fb4bfba" id="sec.13B-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a party&#8217;s place of business is assumed to
+be the location indicated by that party, unless another party demonstrates
+that the party making the indication does not have a place of business at that
+location, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_534ebbd6-456e-4b28-bd2a-2f9f2ea01abd" id="sec.13B-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if a party has not indicated a place of business
+and has only one place of business, it is to be assumed that that place is the
+party&#8217;s place of business, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0219fbf7-74cd-4a78-a7f9-5970d9e2c5e6" id="sec.13B-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">if a party has not indicated a place of business
+and has more than one place of business, the place of business is that which
+has the closest relationship to the underlying transaction, having regard to
+the circumstances known to or contemplated by the parties at any time before
+or at the conclusion of the transaction, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9ecc014f-e350-4938-8f91-fd9c49cd59e6" id="sec.13B-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">if a party has not indicated a place of business
+and has more than one place of business, but paragraph (c) does not
+apply&#8212;it is to be assumed that the party&#8217;s principal place of
+business is the party&#8217;s only place of business, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ac742856-d2a3-4279-a250-6531bff3e873" id="sec.13B-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">if a party is a natural person and does not have
+a place of business&#8212;it is to be assumed that the party&#8217;s place of
+business is the place of the party&#8217;s habitual
+residence.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.13B-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7df0c24d-4e05-4542-be20-327347f1bdda"></attrib>
+<attrib name="id" value="sec.13B-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A location is not a place of business merely
+because that is&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8bf69b53-333e-42a0-92d1-5a590031cbb5" id="sec.13B-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">where equipment and technology supporting an
+information system used by a party are located, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_833a9810-2e08-4cd4-9fb8-ba35f5ab4b8b" id="sec.13B-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">where the information system may be accessed by
+other parties.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.13B-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_57dab42a-7b51-4984-ba5a-f9332fb74b1c"></attrib>
+<attrib name="id" value="sec.13B-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The sole fact that a party makes use of a domain
+name or electronic mail address connected to a specific country does not
+create a presumption that its place of business is located in that
+country.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 13B:</b> Ins 2010 No
+68, Sch 1 [15].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_07172970-9ba3-4166-b9f3-3ba965c150b0"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_55b4b038-32d7-4031-8598-f166386837e3"
+id="sec.14-he"><b>Attribution of electronic
+communications</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0dbf691e-c01a-48c4-82f1-b87ed235996e"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purposes of a law of this jurisdiction,
+unless otherwise agreed between the purported originator and the addressee of
+an electronic communication, the purported originator of the electronic
+communication is bound by that communication only if the communication was
+sent by the purported originator or with the authority of the purported
+originator.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0d3317b2-28fc-42f9-8cbc-145f2463768f"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subsection (1) does not affect the operation of a
+law of this jurisdiction that makes provision for&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b2dfa55c-1b88-4afc-bf7b-f44074576688" id="sec.14-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">conduct engaged in by a person within the scope
+of the person&#8217;s actual or apparent authority to be attributed to another
+person, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_90ee358a-ac6a-46d0-abf2-d1d26651db3e" id="sec.14-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a person to be bound by conduct engaged in by
+another person within the scope of the other person&#8217;s actual or apparent
+authority.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.3" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4c744324-b888-4757-85cb-0067b0d41807"></attrib>
+<attrib name="id" value="sec.14-ssec.3"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>(3), (4)</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+</tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 14:</b> Am 2010 No 68,
+Sch 1 [16].</txt></content>
+</level>
+</level>
+</level>
+
+
+<level type="part" id="pt.2A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_f47e9bde-4281-4fc8-862c-e98f6877786e"></attrib>
+<attrib name="id" value="pt.2A"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2A</b></no><heading guid="_fde7a437-7176-4218-b150-d348ef115f77"
+id="pt.2A-he"><b>Additional provisions applying to contracts involving
+electronic communications</b></heading></head>
+
+<content type="historynote"><txt break.before="1"><b>pt 2A (ss
+14A&#8211;14E):</b> Ins 2010 No 68, Sch 1 [18]. For information concerning
+Part 2A before the commencement of 2010 No 68, Sch 1 [17] see the historical
+table of amendments in the Legislative history.</txt></content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.14A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dd1e113f-ae0b-4ed8-96bb-e2b722948e69"></attrib>
+<attrib name="id" value="sec.14A"></attrib></parentattributes>
+
+<head>
+<no>14A</no><heading guid="_367b8cde-85f3-477f-87bf-df7c15b27fbb"
+id="sec.14A-he"><b>Application and operation of this
+Part</b></heading></head>
+<block><txt break.before="1">This Part applies to the use of electronic
+communications in connection with the formation or performance of a contract
+between parties where the proper law of the contract is (or would on its
+formation be) the law of this jurisdiction, and so applies&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_70eeb715-50c0-44f7-9688-14d7a1fb6829" id="sec.14A-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">whether some or all of the parties are located
+within Australia or elsewhere, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aa089c79-90e8-4587-be52-251f4b74b464" id="sec.14A-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">whether the contract is for business purposes,
+for personal, family or household purposes, or for other
+purposes.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>pt 2A (ss
+14A&#8211;14E):</b> Ins 2010 No 68, Sch 1 [18]. For information concerning
+Part 2A before the commencement of 2010 No 68, Sch 1 [17] see the historical
+table of amendments in the Legislative history.</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.14B">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e91d825c-f55f-481d-af7a-93bb79ceb5b4"></attrib>
+<attrib name="id" value="sec.14B"></attrib></parentattributes>
+
+<head>
+<no>14B</no><heading guid="_44e9abb1-513a-4eb0-99c0-132d8aa9edfe"
+id="sec.14B-he"><b>Invitation to treat regarding
+contracts</b></heading></head>
+
+<tier type="subclause" id="sec.14B-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c0f9ed30-4cf6-4b5d-9ee6-9695a5423eb6"></attrib>
+<attrib name="id" value="sec.14B-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A proposal to form a contract made through one or
+more electronic communications that&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cc7b8a76-06e3-4031-89bc-63ecd9f032c2" id="sec.14B-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is not addressed to one or more specific parties,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_78bf9db3-543e-4a71-b21f-00ab2f922cb9" id="sec.14B-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is generally accessible to parties making use of
+information systems,</txt></block></li></list>
+
+<txt break.before="1">is to be considered as an invitation to make offers,
+unless it clearly indicates the intention of the party making the proposal to
+be bound in case of acceptance.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14B-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e2e5f438-6d95-4b7f-9cd0-6b14248e2781"></attrib>
+<attrib name="id" value="sec.14B-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subsection (1) extends to proposals that make use
+of interactive applications for the placement of orders through information
+systems.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>pt 2A (ss
+14A&#8211;14E):</b> Ins 2010 No 68, Sch 1 [18]. For information concerning
+Part 2A before the commencement of 2010 No 68, Sch 1 [17] see the historical
+table of amendments in the Legislative history.</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.14C">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_39d582ee-b629-4755-856f-dd9b35481c17"></attrib>
+<attrib name="id" value="sec.14C"></attrib></parentattributes>
+
+<head>
+<no>14C</no><heading guid="_08b96ffd-a7e6-431f-acd1-06171c4cfbeb"
+id="sec.14C-he"><b>Use of automated message systems for contract
+formation&#8212;non-intervention of natural person</b></heading></head>
+<block><txt break.before="1">A contract formed by&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b6d19e04-1e8e-4435-b811-a04c18259801" id="sec.14C-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the interaction of an automated message system
+and a natural person, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4ed13a90-419f-42ed-84ef-3b01bdf8f8bc" id="sec.14C-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the interaction of automated message
+systems,</txt></block></li></list>
+
+<txt break.before="1">is not invalid, void or unenforceable on the sole ground
+that no natural person reviewed or intervened in each of the individual
+actions carried out by the automated message systems or the resulting
+contract.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>pt 2A (ss
+14A&#8211;14E):</b> Ins 2010 No 68, Sch 1 [18]. For information concerning
+Part 2A before the commencement of 2010 No 68, Sch 1 [17] see the historical
+table of amendments in the Legislative history.</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.14D">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2acca4ab-40f3-458c-abbf-ff084b1c7420"></attrib>
+<attrib name="id" value="sec.14D"></attrib></parentattributes>
+
+<head>
+<no>14D</no><heading guid="_d803948f-ecbd-4716-a366-1b769dd76d56"
+id="sec.14D-he"><b>Error in electronic communications regarding
+contracts</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.14D-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_484e84d0-d53a-4f2c-8209-b28993c1a511"></attrib>
+<attrib name="id" value="sec.14D-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This section applies in relation to a statement,
+declaration, demand, notice or request, including an offer and the acceptance
+of an offer, that the parties are required to make or choose to make in
+connection with the formation or performance of a
+contract.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.14D-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d1fbda02-2a0d-4989-9d0d-58b0734f4494"></attrib>
+<attrib name="id" value="sec.14D-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b76dcca9-0deb-45a1-bdaf-538c89c3093a" id="sec.14D-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a natural person makes an input error in an
+electronic communication exchanged with the automated message system of
+another party, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2ed9f4ae-2919-40b2-8f19-ce30a04de4ec" id="sec.14D-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the automated message system does not provide the
+person with an opportunity to correct the error,</txt></block></li></list>
+
+<txt break.before="1">the person, or the party on whose behalf the person was
+acting, has the right to withdraw the portion of the electronic communication
+in which the input error was made if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_24d7e504-9d85-4b95-b5ee-5b84bfb2d8d6" id="sec.14D-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the person, or the party on whose behalf the
+person was acting, notifies the other party of the error as soon as possible
+after having learned of the error and indicates that he or she made an error
+in the electronic communication, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_159201ab-2ad7-412a-8ba1-3e800220b250" id="sec.14D-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the person, or the party on whose behalf the
+person was acting, has not used or received any material benefit or value from
+the goods or services, if any, received from the other
+party.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14D-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4ace6de7-c227-45f1-a6f5-49a91144719e"></attrib>
+<attrib name="id" value="sec.14D-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The right of withdrawal of a portion of an
+electronic communication under this section is not of itself a right to
+rescind or otherwise terminate a contract.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14D-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a6649766-2560-4f53-bb73-c618c72b6592"></attrib>
+<attrib name="id" value="sec.14D-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The consequences (if any) of the exercise of the
+right of withdrawal of a portion of an electronic communication under this
+section are to be determined in accordance with any applicable rule of
+law.</txt></block></tier>
+
+<note type="legtext" guid="_fd830c5d-a601-4a1b-b52a-eed34b631233"
+id="sec.14D-note"><heading guid="_693acda3-7282-441d-8905-c8bca53c0510"
+id="sec.14D-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">In some circumstances the withdrawal of a portion
+of an electronic communication may invalidate the entire communication or
+render it ineffective for the purposes of contract formation (see paragraph
+241 of the UNCITRAL explanatory note for the United Nations Convention on the
+Use of Electronic Communications in International
+Contracts).</txt></block></note>
+
+
+<content type="historynote"><txt break.before="1"><b>pt 2A (ss
+14A&#8211;14E):</b> Ins 2010 No 68, Sch 1 [18]. For information concerning
+Part 2A before the commencement of 2010 No 68, Sch 1 [17] see the historical
+table of amendments in the Legislative history.</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.14E">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_92f42dca-3225-4285-9e87-90d09cf9aa2b"></attrib>
+<attrib name="id" value="sec.14E"></attrib></parentattributes>
+
+<head>
+<no>14E</no><heading guid="_69c1202b-5a6b-4be8-aea0-cafaa7f38e87"
+id="sec.14E-he"><b>Application of Act in relation to
+contracts</b></heading></head>
+
+<tier type="subclause" id="sec.14E-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_30fd3198-b45f-439c-9012-dbdb582b6d70"></attrib>
+<attrib name="id" value="sec.14E-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Subject to subsection (2), the provisions of
+sections 7 and 13&#8211;13B apply to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_50b52363-3879-4495-8f2d-b95b2d1a5945" id="sec.14E-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a transaction constituted by or relating to a
+contract, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_03d31c44-420b-4bf3-9857-6b5939f09275" id="sec.14E-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">an electronic communication relating to the
+formation or performance of a contract,</txt></block></li></list>
+
+<txt break.before="1">in the same way as they apply to a transaction or
+electronic communication referred to in those sections, and so apply as if the
+words &#8220;For the purposes of a law of this jurisdiction&#8221; were
+omitted.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14E-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_75356b89-e6e6-4b01-bb46-3fddb406626c"></attrib>
+<attrib name="id" value="sec.14E-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">However, this Part (including subsection (1))
+does not apply to or in relation to a contract to the extent
+that&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b4ebd684-62b7-46d0-b231-cb965c796e4f" id="sec.14E-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">Part 2 would of its own force have the same
+effect as this Part if this Part applied, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b23e40e8-8ad3-42e1-b730-b9298b5c4852" id="sec.14E-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a law of another State or Territory (that is in
+substantially the same terms as Part 2) would of its own force have the same
+effect as this Part if this Part applied.</txt></block></li></list>
+</block></tier>
+
+<note type="legtext" guid="_49c72690-de56-4de1-83c5-3a2fecd36e36"
+id="sec.14E-note"><heading guid="_f613c2af-3e8b-4e2a-acf2-cad074711cec"
+id="sec.14E-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">This section applies provisions of Part 2 to
+contracts or proposed contracts to the extent (if any) that those provisions
+do not apply merely because they are expressed to apply in relation to a law
+of this jurisdiction. This section also disapplies the provisions of Part 2A
+to the extent that Part 2 would apply of its own force. An example where Part
+2 may not apply of its own force is where a contract is being negotiated in a
+State or Territory from a supplier located overseas.</txt></block></note>
+
+
+<content type="historynote"><txt break.before="1"><b>pt 2A (ss
+14A&#8211;14E):</b> Ins 2010 No 68, Sch 1 [18]. For information concerning
+Part 2A before the commencement of 2010 No 68, Sch 1 [17] see the historical
+table of amendments in the Legislative history.</txt></content>
+</level>
+</content>
+</level>
+
+
+<level type="part" id="pt.2B">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_3348be2a-e060-4ccf-b2ca-32601129f174"></attrib>
+<attrib name="id" value="pt.2B"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2B</b></no><heading guid="_e1098c78-1448-41ee-8a7b-e461bb27f224"
+id="pt.2B-he"><b>Remote witnessing</b></heading></head>
+
+<content type="historynote"><txt break.before="1"><b>pt 2B, hdg:</b> Ins 2020
+No 24, Sch 1.5. Am 2021 No 33, Sch 1[1].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>pt 2B, div 1, hdg:</b>
+Ins 2020 No 24, Sch 1.5. Rep 2021 No 33, Sch 1[2].</txt></content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.14F">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a44c27d5-bd76-4000-a969-d328cd33b3de"></attrib>
+<attrib name="id" value="sec.14F"></attrib></parentattributes>
+
+<head>
+<no>14F</no><heading guid="_a6ad35af-97a8-4bba-bab8-0dee4d6cd808"
+id="sec.14F-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Part&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_7344ea8d-a258-402d-8617-8ca134b29f25"
+id="sec.14F-def.audiovisuallink"><b><i>audio visual link</i></b></defterm>
+means technology that enables continuous and contemporaneous audio and visual
+communication between persons at different places, including video
+conferencing.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6feb2b9d-a57b-4f17-8582-3165480b69a9"
+id="sec.14F-def.document"><b><i>document</i></b></defterm> includes the
+following documents, but does not include a document excluded from this
+definition by the regulations&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3c8acf19-4470-427f-8404-c7d7936f1978" id="sec.14F-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a will,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e2688e2e-6496-4669-af97-274bbfbd2983" id="sec.14F-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a power of attorney or an enduring power of
+attorney,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_aee652ab-73da-4acb-ac54-43adb52c6656" id="sec.14F-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a deed or agreement,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bb5ffd44-5f7b-4ee8-a9a0-3555ff116a1a" id="sec.14F-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">an enduring guardianship
+appointment,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_669034ea-a408-497e-9ab2-0485886287ab" id="sec.14F-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">an affidavit, including an annexure or exhibit to
+the affidavit,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5cfbd5ec-5525-45b2-986a-8f84337be05a" id="sec.14F-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">a statutory
+declaration.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_46266954-b1fe-423b-b80c-3a718e18d957"
+id="sec.14F-def.signatory"><b><i>signatory</i></b></defterm>&#8212;see section
+14G(2)(a).</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a8d33fef-514f-4f32-aff0-5c933954c5ab"
+id="sec.14F-def.witness"><b><i>witness</i></b></defterm>&#8212;see section
+14G(2).</txt></block></deflist>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 14F:</b> Ins 2020 No
+24, Sch 1.5. Am 2021 No 33, Sch 1[3]&#8211;[5].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.14G">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4ce0e237-8a1b-4021-9d31-6d782d11f005"></attrib>
+<attrib name="id" value="sec.14G"></attrib></parentattributes>
+
+<head>
+<no>14G</no><heading guid="_ce1b86fa-1223-44f8-9f8c-0d1c8d7861f9"
+id="sec.14G-he"><b>Witnessing and attestation of documents by audio visual
+link</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.14G-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_92ffda46-4e61-457b-ae84-81fc084f3ea1"></attrib>
+<attrib name="id" value="sec.14G-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Despite any other Act or law&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5dbde989-bca5-4d5e-b59a-fd961ccb7c01" id="sec.14G-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if the signature of a document is required under
+an Act or another law to be witnessed, the signature may be witnessed by audio
+visual link, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5a9d10c7-1cb7-4d3c-888a-cc6374129b66" id="sec.14G-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">arrangements in relation to witnessing signatures
+and the attestation of documents may be performed by audio visual
+link.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.14G-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_737e4a54-80f5-4443-a0fe-b304d5c35353"></attrib>
+<attrib name="id" value="sec.14G-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A person witnessing the signing of a document by
+audio visual link (the <defterm type="definition"
+guid="_ad709cb8-ea1b-4255-930c-2c12d087023a"
+id="sec.14G-ssec.2-def.witness"><b><i>witness</i></b></defterm>)
+must&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_10efefc3-2cda-4369-b160-b4ec7bd18ebe" id="sec.14G-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">observe the person signing the document (the
+<defterm type="definition" guid="_caf93f04-4e30-4df2-90e5-4cbf683e727e"
+id="sec.14G-ssec.2-para1.a-def.signatory"><b><i>signatory</i></b></defterm>)
+sign the document in real time, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2591ad17-da2a-4986-b733-ea921f7e4279" id="sec.14G-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">attest or otherwise confirm the signature was
+witnessed by signing the document or a copy of the document,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_72251c9c-5e14-47a0-ba3d-dcd083bb4d08" id="sec.14G-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">be reasonably satisfied the document the witness
+signs is the same document, or a copy of the document signed by the signatory,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_96aa197b-e17e-402b-9e68-40907bc03ada" id="sec.14G-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">endorse the document, or the copy of the
+document, with a statement&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c838f854-773a-4831-9d35-a79ce06e340a"
+id="sec.14G-ssec.2-para1.d-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">specifying the method used to witness the
+signature of the signatory, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_84a469e0-8e12-4cb1-b0a8-15c6c95ac219"
+id="sec.14G-ssec.2-para1.d-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">that the document was witnessed in accordance
+with this section.</txt></block></li></list>
+</block>
+<note type="legtext" guid="_59e46b9a-7130-402a-8bef-d82d824a61b5"
+id="sec.14G-ssec.2-para1.d-note"><heading
+guid="_647e0c4d-d318-4889-b837-fd997c11113f"
+id="sec.14G-ssec.2-para1.d-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">A document may be endorsed under paragraph (d)
+with a statement, for example, that the document was signed in counterpart and
+witnessed over audio visual link in accordance with section 14G of the <legref
+refid="act-2000-008" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Electronic Transactions Act
+2000</i></name></legref>.</txt></block></note>
+</li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14G-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_75acd715-21f3-4cd1-9592-5ef5da35434c"></attrib>
+<attrib name="id" value="sec.14G-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Without limiting the ways a witness may confirm
+the signature was witnessed, the witness may&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0f4e0187-8b0c-4d4d-b594-4a3b2c93a296" id="sec.14G-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">sign a counterpart of the document as soon as
+practicable after witnessing the signing of the document,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_50d6a69a-a528-4745-99bb-a304d261c18f" id="sec.14G-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the signatory scans and sends a copy of the
+signed document electronically&#8212;countersign the document as soon as
+practicable after witnessing the signing of the
+document.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14G-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_01120757-273b-4010-81f8-8bb871212199"></attrib>
+<attrib name="id" value="sec.14G-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Without limiting subclause (1)(b)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_457bbb8c-b2fb-4fc3-b860-3f3cad75887c" id="sec.14G-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">arrangements in relation to witnessing signatures
+by audio visual link include the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7096f1a6-572e-4ed0-88b2-65d050d68798"
+id="sec.14G-ssec.4-para1.a-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">certification of matters required by an Act or
+another law,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4d66298c-bff7-45e5-9e23-779eb9a58074"
+id="sec.14G-ssec.4-para1.a-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">confirming or verifying the identity of the
+signatory to a document,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_14417e8c-f641-4692-a01f-f33097f8e9bb"
+id="sec.14G-ssec.4-para1.a-para2.iii">
+<no>(iii)</no>
+<block><txt break.before="1">attestation of a signature,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a3af790f-6889-4aac-a575-425d4d05ccec"
+id="sec.14G-ssec.4-para1.a-para2.iv">
+<no>(iv)</no>
+<block><txt break.before="1">swearing or affirming the contents of an
+affidavit,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ce9576e2-e851-42bf-81e7-2c4c7fb89828"
+id="sec.14G-ssec.4-para1.a-para2.v">
+<no>(v)</no>
+<block><txt break.before="1">seeing the face of the signatory,
+and</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a7ab052e-34af-4bae-8db0-6c2d0c7d23ee" id="sec.14G-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a requirement in an Act or another law for the
+presence of a witness, signatory or other person is taken to be satisfied if
+the witness, signatory or other person is present by audio visual
+link.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 14G:</b> Ins 2020 No
+24, Sch 1.5.</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>pt 2B, div 2, hdg:</b>
+Ins 2020 No 24, Sch 1.5. Rep 2021 No 33, Sch 1[6].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.14H">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2b8b5915-63bc-4710-bfc9-3767f9159b66"></attrib>
+<attrib name="id" value="sec.14H"></attrib></parentattributes>
+
+<head>
+<no>14H</no><heading guid="_15ef2375-1440-4c02-9f89-e87bb1d17265"
+id="sec.14H-he"><b>Original document</b></heading></head>
+
+<tier type="subclause" id="sec.14H-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c68b3978-054a-4e47-80d0-067ce648ed04"></attrib>
+<attrib name="id" value="sec.14H-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purposes of another Act or law, the
+original document for a document witnessed under this Part is a document
+that&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_34bbde75-60a0-45bc-9ed9-f4660e2acd2d" id="sec.14H-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">contains every page or part of the document,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ebbd16a3-ecdf-43fe-9997-513f6b226b6c" id="sec.14H-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">contains each signature or mark of the signatory
+and witnesses wherever required in the document, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_bcfcbfee-e9d4-4cae-a790-bed27b502a82" id="sec.14H-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">contains the endorsement required by section
+14G(2)(d), and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_24a1a642-7e9e-42bd-883d-9c63454be642" id="sec.14H-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">if a signature, mark or endorsement was applied
+to the same page or part by persons in different locations&#8212;contains
+duplicates of the page or part so that every signature, mark or endorsement is
+included, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5ee7eac6-7c2a-4bd0-8ba3-59fb7bbfcb89" id="sec.14H-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">for a signature, mark or endorsement written
+physically on a page or part&#8212;contains the actual signature, mark or
+endorsement.</txt>
+<note type="legtext" guid="_e31bf55d-8429-4a4f-8652-696b0c8cae52"
+id="sec.14H-ssec.1-para1.e-note"><heading
+guid="_4524238b-43a3-46b7-95cc-a9b74924a4a0"
+id="sec.14H-ssec.1-para1.e-note-he"><b>Example&#8212;</b></heading>
+<block><txt break.before="1">A signature written by
+hand.</txt></block></note>
+</block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.14H-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5d4ebb04-ad19-4598-9ff4-c6d14f5eda3b"></attrib>
+<attrib name="id" value="sec.14H-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Except as provided by subsection (1)(d), a page
+or part is required to be included in the original document only
+once.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 14H:</b> Ins 2020 No
+24, Sch 1.5. Subst 2021 No 33, Sch 1[6].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.14I">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6d109689-1dc3-42bf-a394-ff7f9ab52d8a"></attrib>
+<attrib name="id" value="sec.14I"></attrib></parentattributes>
+
+<head>
+<no>14I</no><heading guid="_3b3fae30-b380-48fd-b2e5-ca715212059e"
+id="sec.14I-he"><b>Signatory and witness may be outside
+jurisdiction</b></heading></head>
+<block><txt break.before="1">A document may be witnessed under this Part even
+if the signatory or witness, or both, are outside this jurisdiction
+if&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_235e4d84-3c0e-4780-9f0f-9fb791e554af" id="sec.14I-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the document is made, or required to be signed,
+under an Act or law of this jurisdiction, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cc25ead5-b8ce-45c2-844b-a15a9a52aee2" id="sec.14I-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the governing laws for the document are the laws
+of this jurisdiction.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 14I:</b> Ins 2020 No
+24, Sch 1.5. Subst 2021 No 33, Sch 1[6].</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>pt 2B, div 3, hdg:</b>
+Ins 2020 No 24, Sch 1.5. Rep 2021 No 33, Sch 1[6].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.14J">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4bc5fc9c-f977-4e15-a032-1d19852d67c8"></attrib>
+<attrib name="id" value="sec.14J"></attrib></parentattributes>
+
+<head>
+<no>14J</no><heading guid="_614db01c-a2e8-49ac-9e44-87f355610353"
+id="sec.14J-he"><b>Place of execution</b></heading></head>
+
+<tier type="subclause" id="sec.14J-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_61456659-0f56-4e2e-9599-0060beb2e281"></attrib>
+<attrib name="id" value="sec.14J-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">For the purposes of another Act or law, the place
+at which a document witnessed under this Part is executed is the place at
+which the signatory was when the signatory signed the
+document.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14J-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_69c7aa62-f0cd-404d-a7f3-46cc4bff3350"></attrib>
+<attrib name="id" value="sec.14J-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If, because of section 14I, the place of
+execution is outside this jurisdiction, the laws of this jurisdiction are
+taken to apply in relation to the witnessing and execution of the document as
+if the place were in this jurisdiction.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 14J:</b> Ins 2020 No
+24, Sch 1.5. Subst 2021 No 33, Sch 1[6].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.14K">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ec3532be-647e-49f7-b016-7949957adb0d"></attrib>
+<attrib name="id" value="sec.14K"></attrib></parentattributes>
+
+<head>
+<no>14K</no><heading guid="_b26d3a89-80b1-439a-b7bc-16d38b20fd6e"
+id="sec.14K-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The regulations may set out methods, technologies
+or processes that, if used, will be taken to satisfy some or all of the
+requirements of this Part.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 14K:</b> Ins 2020 No
+24, Sch 1.5. Subst 2021 No 33, Sch 1[6].</txt></content>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sec.14L">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c50b4412-6cb3-4837-9727-08aae3fb971d"></attrib>
+<attrib name="id" value="sec.14L"></attrib></parentattributes>
+
+<head>
+<no>14L</no><heading guid="_df498bec-ecc5-4636-98a8-3ff23efefe05"
+id="sec.14L-he"><b>Savings</b></heading></head>
+<block><txt break.before="1">An endorsement that would have been satisfactory
+for the purposes of the <legref refid="sl-2017-0439" jurisd="NSW"
+type="subordleg" check="unknown"><name emphasis="yes"><i>Electronic
+Transactions Regulation 2017</i></name></legref>, Schedule 1, clause
+2(2)(d)(ii) had that paragraph not been repealed, is taken to be satisfactory
+for the purposes of section 14G(2)(d)(ii).</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 14L:</b> Ins 2021 No
+33, Sch 1[6].</txt></content>
+</level>
+</content>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_af828484-ca95-4054-a85f-3bbd43aa1b5b"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_b10e69d7-3725-4852-8004-ab59cf4cd252"
+id="pt.3-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9d66effc-d065-4bd0-be8a-1f1bcae16897"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_afd946b1-d6d5-458f-974f-06568f376b46"
+id="sec.15-he"><b>Regulations</b></heading></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_44490b1c-4a6c-4ecf-a61d-c0043f4df5db"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_2a74df92-f74e-4a39-a00e-67f8102ee296"
+id="sec.16-he"><b>Transitional provisions&#8212;<legref refid="act-2010-068"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Electronic
+Transactions Amendment Act 2010</i></name></legref></b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1a2ea493-e2f9-4776-8197-793de59c94ba"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Regulations made under this Act before the
+commencement of section 6A and in force immediately before that commencement
+have effect as if that section had been in force when they were
+made.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f8a2985e-9b06-4ffc-bae7-8354b82c874b"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Subject to subsection (3)&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8ee1d73b-080c-47e5-81b9-835cc51c0f80" id="sec.16-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">section 14B extends to proposals made before the
+commencement date, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2a2789c7-3b86-4cde-a23f-4d0faeed2005" id="sec.16-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">section 14C extends to actions carried out before
+the commencement date, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b81ef3e2-6c2c-4317-b8a5-71fc945d9188" id="sec.16-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">section 14D extends to statements, declarations,
+demands, notices or requests, including offers and the acceptance of offers,
+made or given before the commencement date.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ff52a3f1-4591-4c7e-9dcc-a214c47fbb54"></attrib>
+<attrib name="id" value="sec.16-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Subsection (2) and Part 2A do not apply in
+relation to contracts formed before the commencement
+date.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dce4efd3-fbdb-40e6-a873-60c594492f6b"></attrib>
+<attrib name="id" value="sec.16-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">In subsections (2) and (3), <defterm
+type="definition" guid="_585d27c1-ec9f-4fbd-9221-45418b3ad0b4"
+id="sec.16-ssec.4-def.commencementdate"><b><i>commencement
+date</i></b></defterm> means the date of commencement of Part 2A, as inserted
+by the <legref refid="act-2010-068" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Electronic Transactions Amendment Act
+2010</i></name></legref>.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 16:</b> Ins 2010 No 68,
+Sch 1 [19].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.4" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_9948c2bb-feae-46fd-aac5-99667ad3ad7b"></attrib>
+<attrib name="id" value="pt.4"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no></head>
+<repealed>
+<repinfo type="clause">17, 18<repealedtxt></repealedtxt></repinfo></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>pt 4:</b> Ins 2020 No 1,
+Sch 2.7. Rep 2000 No 8, sec 18.</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 17:</b> Ins 2020 No 1,
+Sch 2.7. Am 2020 No 4, Sch 1.3[1]&#8211;[8]. Rep 2000 No 8, sec
+18.</txt></content>
+
+
+<content type="historynote"><txt break.before="1"><b>s 18:</b> Ins 2020 No 1,
+Sch 2.7. Rep 2000 No 8, sec 18.</txt></content>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_96030251-d9c4-4427-9535-4f22f0630cc9"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_4eeb2932-55f1-476d-9bf4-f1803bdf3c10"
+id="sch.1-he"><b>Courts&#8212;electronic case management
+systems</b></heading></head>
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e858922b-1334-42f2-91ce-ee209caaef5e"></attrib>
+<attrib name="id" value="sch.1-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_03581d84-8fc1-4cdd-b317-c4760bffe0ad"
+id="sch.1-sec.1-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.1-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f52dfe08-3da3-45cf-be9c-99a93e72d0a3"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Schedule&#8212;</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_b507db67-ff30-410e-abab-d3fa94a9102d"
+id="sch.1-sec.1-ssec.1-def.court"><b><i>court</i></b></defterm> includes any
+person or body that exercises judicial or coronial functions, and includes any
+other person or body that is declared by the regulations to be a court for the
+purposes of this Schedule.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_1a10a914-2e3f-4524-80ec-853d3848a146"
+id="sch.1-sec.1-ssec.1-def.ECMcourt"><b><i>ECM court</i></b></defterm> means a
+court in respect of which the use of an ECM system is authorised pursuant to
+an order in force under clause 3.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_dc5c55d6-9f0c-4ca5-92fb-c7904ef5650b"
+id="sch.1-sec.1-ssec.1-def.ECMsystem"><b><i>ECM system</i></b></defterm> means
+an electronic case management system established under clause
+2.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.1-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_62ca14ed-c718-4df5-9bf0-ca55d4e44514"></attrib>
+<attrib name="id" value="sch.1-sec.1-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In this Schedule, a reference to <defterm
+type="definition" guid="_2b34872e-10b6-4281-b08f-173f7a0ed385"
+id="sch.1-sec.1-ssec.2-def.filing"><b><i>filing</i></b></defterm> a document
+with an ECM court includes a reference to any other method of lodging a
+document with, or otherwise sending a document to, the
+court.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bc2ce191-3267-44f5-8cfa-462c80cf49e4"></attrib>
+<attrib name="id" value="sch.1-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_b6ba35e3-34ab-4daa-ad4c-f6a6cf9e8401"
+id="sch.1-sec.2-he"><b>Establishment of ECM system</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bef71a98-218d-4ae8-8bdc-16aad521bfb0"></attrib>
+<attrib name="id" value="sch.1-sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Attorney General may establish an electronic
+case management system to do any one or more of the following&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e8a9453c-9642-443e-b16d-cb920f5b3b7b" id="sch.1-sec.2-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to enable documents with respect to legal
+proceedings to be created in electronic form,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_98832467-51f6-406d-b189-14294e44659b" id="sch.1-sec.2-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to enable documents with respect to legal
+proceedings to be filed in electronic form,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9081e031-2adf-40f3-8a59-239df555c746" id="sch.1-sec.2-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to enable documents with respect to legal
+proceedings to be issued in electronic form,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_24a4e4d6-6918-4f8a-ba86-7ad4bec0e9dc" id="sch.1-sec.2-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">to enable documents with respect to legal
+proceedings to be used in electronic form,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9eedcdeb-7968-4a2e-83b1-08a4db029ef2" id="sch.1-sec.2-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">to enable documents with respect to legal
+proceedings to be served in electronic form,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_30505281-c9ce-4287-8fb3-042a425828bc" id="sch.1-sec.2-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">to enable parties to legal proceedings to
+communicate in electronic form with other parties to the proceedings and with
+the court before which the proceedings are being taken,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c6dced0f-3a06-4641-aa29-4cf6ae8847f7" id="sch.1-sec.2-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">to enable information concerning the progress of
+legal proceedings to be provided in electronic form to parties to the
+proceedings and to members of the public generally,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dc71bd7c-8b6b-4d77-b3f1-f2b935661604" id="sch.1-sec.2-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">to enable information concerning legal
+proceedings to be exchanged in electronic form between such persons or bodies
+as are prescribed by rules of court.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2d35da3d-c4d5-494c-96d3-6031fb67aaf7"></attrib>
+<attrib name="id" value="sch.1-sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of the <legref
+refid="act-2009-052" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Government Information (Public Access) Act
+2009</i></name></legref>, the <legref refid="act-1998-133" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Privacy and Personal
+Information Protection Act 1998</i></name></legref> and the <legref
+refid="act-1998-017" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>State Records Act 1998</i></name></legref>, information
+contained in the ECM system with respect to proceedings in an ECM court
+(including proceedings that have been finally disposed of) is taken to be
+information concerning the judicial functions of that
+court.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.2-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_16064268-d7f5-4252-9005-44cdd6b3b7fa"></attrib>
+<attrib name="id" value="sch.1-sec.2-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">An order establishing an electronic case
+management system under this clause may be published on the NSW legislation
+website or in such other manner as determined by the Attorney
+General.</txt></block></tier>
+
+<note type="editorial" guid="_fe5561b4-4395-4825-ae26-3e45bc8ff74e"
+id="sch.1-sec.2-note"><heading guid="_dcc63b29-3946-4575-923c-3695dcfadbeb"
+id="sch.1-sec.2-note-he"><b>Editorial note.</b></heading>
+<block><txt break.before="1">For establishment of electronic case management
+systems under this clause see Gazettes No 132 of 28.10.2005, p 9221 and No 75
+of 9.6.2006, p 4246.</txt></block></note>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dc3410e6-2fb7-4b64-acf3-7f69f5d964e4"></attrib>
+<attrib name="id" value="sch.1-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_d96472d1-3fdf-462c-a55b-fba5ce32adc4"
+id="sch.1-sec.3-he"><b>Authorisation of use of ECM system in relation to
+courts</b></heading></head>
+<block><txt break.before="1">The Attorney General may, by order published on
+the NSW legislation website, authorise the use of an ECM system by such
+courts, and for such purposes, as are specified in the
+order.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_13cf9805-2cab-417c-9e57-7cf7bafdf649"></attrib>
+<attrib name="id" value="sch.1-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_86a339e2-8353-4ced-b9eb-3bab764e6cf6"
+id="sch.1-sec.4-he"><b>Requirements for writing</b></heading></head>
+<block><txt break.before="1">Any provision of any law of this jurisdiction
+that requires a document filed with, or issued by, an ECM court to be in
+writing is satisfied if the document is filed or issued by means of the ECM
+system in accordance with rules of court.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d311f036-fad7-4bcc-8535-437f56beb1c1"></attrib>
+<attrib name="id" value="sch.1-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_79fc4ef4-01d5-48f4-b72f-466e9d116b16"
+id="sch.1-sec.5-he"><b>Requirements for signatures or
+seals</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9b7f8500-6a5b-4f35-9295-2fd31c9a2cc1"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Any provision of any law of this jurisdiction
+that requires a document that is filed with, or issued by, an ECM court to be
+signed or sealed is satisfied, in the case of a document that is filed or
+issued by means of the ECM system, if the document&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_71cb56d4-a008-43b1-9d7d-f4a47e7a157b" id="sch.1-sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">is authenticated by means of a facsimile of the
+relevant signature or seal, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b37a2dfd-b813-417a-9b1f-f9549264a40f" id="sch.1-sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">is authenticated in some other manner in
+accordance with rules of court.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_166236f1-7899-4246-8ae0-7808c89a0065"></attrib>
+<attrib name="id" value="sch.1-sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If authenticated as referred to in subclause (1)
+(a) or (b), a document that is filed with, or issued by, an ECM court by means
+of the ECM system has the same effect as a document that has been duly signed
+or sealed.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_060d08eb-142a-427a-aab7-b0af33ccb7b1"></attrib>
+<attrib name="id" value="sch.1-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_dfcea16e-03bd-402e-8cd3-402f896e4ad1"
+id="sch.1-sec.6-he"><b>Requirements for original or certified
+documents</b></heading></head>
+<block><txt break.before="1">Any provision of any law of this jurisdiction
+that requires an original or certified document to be filed with an ECM court
+is satisfied by the filing of a copy of the document by means of the ECM
+system in accordance with rules of court.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_26781edc-aa03-4ec9-b2b3-e9fe7fe05049"></attrib>
+<attrib name="id" value="sch.1-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_f50fbdf1-d423-4d94-9a86-d9dc6606dbcb"
+id="sch.1-sec.7-he"><b>Requirements as to multiple
+copies</b></heading></head>
+<block><txt break.before="1">Any provision of any law of this jurisdiction
+that requires multiple copies of a document to be filed or served does not
+apply to&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_34978148-a72f-49a1-b8ac-70e714e2acc4" id="sch.1-sec.7-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a document that is filed with an ECM court by
+means of the ECM system, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dbada237-b416-4a57-981d-58990a23def7" id="sch.1-sec.7-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a document that, having been filed with an ECM
+court, is served in electronic form, whether by means of the ECM system or
+otherwise.</txt></block></li></list>
+</block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cedf759a-6f6a-4bc4-a6cf-563bfe519e2c"></attrib>
+<attrib name="id" value="sch.1-sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_4618f56e-1691-4635-a975-76a910be6435"
+id="sch.1-sec.8-he"><b>Status of documents created by ECM
+system</b></heading></head>
+<block><txt break.before="1">A document created by means of the ECM
+system&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e1f463e3-4d6e-470e-90ac-a5d3683f6136" id="sch.1-sec.8-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">in the case of a document created by an ECM
+court, being a document that is authorised or required to be issued by the
+court, is taken to have been issued by the court, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_86acda03-03fe-414e-a70a-5dc9593547f4" id="sch.1-sec.8-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in the case of a document created by a party to
+proceedings in an ECM court, being a document that is authorised or required
+to be filed by the party, is taken to have been filed by the
+party.</txt></block></li></list>
+</block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b481768b-02ad-4055-ab4b-0a37a788fffb"></attrib>
+<attrib name="id" value="sch.1-sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_fa2c0289-9356-4851-b9d3-9df2e3080f10"
+id="sch.1-sec.9-he"><b>Use of ECM system for the conduct of certain
+hearings</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.9-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2040a353-945f-43e2-a62c-10aae19ff6b3"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This clause applies to any hearing of proceedings
+before an ECM court, other than a hearing conducted for the purpose of
+receiving oral evidence.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.9-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0c8bd492-cf36-4b60-b436-592144f58589"></attrib>
+<attrib name="id" value="sch.1-sec.9-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A hearing to which this clause applies may be
+conducted by electronic communication sent and received by means of the ECM
+system, but only if the rules of court so provide.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fcc4ac28-6b89-436b-8a42-1bec58f600b9"></attrib>
+<attrib name="id" value="sch.1-sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_b0df1b96-1a98-49fe-bf42-80c09286f540"
+id="sch.1-sec.10-he"><b>Misdirected initiating process</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_eb37c79d-1410-4bba-ab4d-92dce966e251"></attrib>
+<attrib name="id" value="sch.1-sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This clause applies to proceedings&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_580fe87a-b414-44ee-aeb1-b316473cc017"
+id="sch.1-sec.10-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">that are commenced in a court by a document filed
+by means of the ECM system, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6e1e19d8-13f7-42de-a780-ab8f38841a40"
+id="sch.1-sec.10-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">that are remitted to a court under this
+clause.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4331b427-4e04-4662-bbcc-904217f01f66"></attrib>
+<attrib name="id" value="sch.1-sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">On determining that it does not have jurisdiction
+to hear the whole or any part of the proceedings, the court&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1cf5c4be-46ec-4a85-9b82-7bee8cbf1841"
+id="sch.1-sec.10-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">may remit the proceedings to such other court as
+appears to it to have jurisdiction to do so, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1dde397f-6887-4f8b-bdd6-33beb5df64e3"
+id="sch.1-sec.10-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">may make such other orders as it considers
+appropriate in the circumstances.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2f5a47d6-604b-46dc-a0ab-9f98f866f941"></attrib>
+<attrib name="id" value="sch.1-sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Proceedings that are remitted to a court under
+this clause are taken to have been commenced in that court on the date on
+which they were originally commenced.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_db2e6e4c-e547-46d7-a760-05fa91b890a9"></attrib>
+<attrib name="id" value="sch.1-sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_2e53f6b5-6993-407b-ac9e-7e14a7d44e90"
+id="sch.1-sec.11-he"><b>Uniform time</b></heading></head>
+<block><txt break.before="1">For the purpose of ascertaining when it has
+occurred, any transaction effected by means of the ECM system is taken to have
+occurred in Sydney.</txt></block>
+<note type="legtext" guid="_67824450-a884-47ce-9a37-8b040e1ef30f"
+id="sch.1-sec.11-note"><heading guid="_0641eef8-dddb-423d-a06a-1cb4fcd819c7"
+id="sch.1-sec.11-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">Persons accessing the ECM system from within
+Broken Hill or Lord Howe Island will therefore be taken to have done so
+according to New South Wales standard time or New South Wales summer time, as
+the case requires, and not according to standard time or summer time in Broken
+Hill or Lord Howe Island.</txt></block></note>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_63cd0ee1-49b6-4447-8bb7-0ac8e97f6864"></attrib>
+<attrib name="id" value="sch.1-sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_226e8662-d626-4355-9766-93d84e16966b"
+id="sch.1-sec.12-he"><b>Exclusion of liability for disclosures by means of ECM
+system</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_39f9f914-60ac-4864-b2b4-e3c7cfff74a3"></attrib>
+<attrib name="id" value="sch.1-sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">No action for defamation or breach of confidence
+lies against the State or any other person by reason only of the publication,
+by means of the ECM system, of information contained in that
+system.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e69df249-2941-46a9-8b37-f37d74a46fe2"></attrib>
+<attrib name="id" value="sch.1-sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">For the purposes of the law relating to
+defamation and breach of confidence, the granting of access to information
+contained in the ECM system does not constitute an authorisation or approval
+of the publication of the information by the person to whom access is
+granted.</txt></block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bff55dd5-48b3-4f09-8fc5-a2e10ce7e9d7"></attrib>
+<attrib name="id" value="sch.1-sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_a180d07d-332e-483a-a441-bd26b3c8aaab"
+id="sch.1-sec.13-he"><b>Electronic service of documents</b></heading></head>
+<block><txt break.before="1">Any document that (having been filed in, or
+issued by, an ECM court by means of the ECM system) is served electronically,
+whether by means of the ECM system or otherwise&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c3e761fc-6007-4282-abb3-0f45d3035b63" id="sch.1-sec.13-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if served after 5.00pm on any day, is taken
+(subject to paragraph (b)) to have been served on the next day,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ad56867c-c7bb-4dcc-b647-4dacb7f3af57" id="sch.1-sec.13-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if served on a Saturday, Sunday or public
+holiday, is taken to have been served on the next day that is not a Saturday,
+Sunday or public holiday.</txt></block></li></list>
+</block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_10097095-3772-4d8f-b0a7-d2cc450f4025"></attrib>
+<attrib name="id" value="sch.1-sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_c2d0772e-d0d0-474c-bf1d-ba3b391ff064"
+id="sch.1-sec.14-he"><b>Powers to make rules of court and
+regulations</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a34b94ac-29bc-495d-8082-1f283c0a79fa"></attrib>
+<attrib name="id" value="sch.1-sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In the case of an ECM court whose practice and
+procedure are governed by rules of court, the powers of the person or body by
+whom such rules are made include a power to make rules, not inconsistent with
+this Schedule, with respect to ECM matters.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5b2a6f18-651b-4551-a884-f0fe69391c65"></attrib>
+<attrib name="id" value="sch.1-sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In the case of an ECM court whose practice and
+procedure are governed by regulations, the powers of the person or body by
+whom such regulations are made include a power to make regulations, not
+inconsistent with this Schedule, with respect to the ECM
+matters.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.14-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b8154919-063f-4518-a995-b20670ccca0d"></attrib>
+<attrib name="id" value="sch.1-sec.14-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The following matters are <defterm
+type="definition" guid="_7c311e9d-49ce-4946-84fd-724dc302ef9e"
+id="sch.1-sec.14-ssec.3-def.ECMmatters"><b><i>ECM matters</i></b></defterm>
+for the purposes of this clause&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ee1ed502-e1f6-432e-b244-ff35825549dd"
+id="sch.1-sec.14-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the kinds of proceedings in respect of which the
+ECM system may or must be used in relation to a court,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2721aed1-063c-4df4-8cae-b7eb74006f17"
+id="sch.1-sec.14-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the kinds of documents that may or must be filed
+in a court by means of the ECM system,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2088d0a4-d38b-48b1-8c63-2ff7961f5cb5"
+id="sch.1-sec.14-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the kinds of documents that may or must be issued
+by a court by means of the ECM system,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7d4c2440-5429-4f67-9c40-0f4f70bd8777"
+id="sch.1-sec.14-ssec.3-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the practice and procedure to be followed in
+connection with&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f3ac1bac-d9f8-43bb-9d20-3ae94fdc8d9b"
+id="sch.1-sec.14-ssec.3-para1.d-para2.i">
+<no>(i)</no>
+<block><txt break.before="1">documents that are filed in a court, or issued by
+a court, by means of the ECM system, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9e7bd873-8ec1-455a-92df-a79240b54823"
+id="sch.1-sec.14-ssec.3-para1.d-para2.ii">
+<no>(ii)</no>
+<block><txt break.before="1">the conduct of hearings by electronic
+communication sent by means of the ECM system,</txt></block></li></list>
+</block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_40a9ef09-c2a5-47ad-9f00-e689dc18e22e"
+id="sch.1-sec.14-ssec.3-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the persons to whom, the circumstances in which
+and the conditions on which access may be given to information contained on
+the ECM system in relation to the court and proceedings before a
+court,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2f6c9f2a-a11c-4c4c-aff8-8bcf79519e1c"
+id="sch.1-sec.14-ssec.3-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">any other matter with respect to the operation,
+use or control of the ECM system in relation to a court and proceedings before
+a court.</txt></block></li></list>
+</block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0485ce36-4945-4614-9a71-28d24e872306"></attrib>
+<attrib name="id" value="sch.1-sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_0d643902-14ef-4d1e-98a7-0f1093ad267c"
+id="sch.1-sec.15-he"><b>Savings and transitional
+regulations</b></heading></head>
+
+<tier type="subclause" id="sch.1-sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4b18b579-ff75-4c9e-8239-fedd854fcd34"></attrib>
+<attrib name="id" value="sch.1-sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The regulations may contain provisions of a
+savings or transitional nature consequent on the granting or withdrawal of the
+Attorney General&#8217;s authorisation of the use of the ECM system in
+relation to a court by operation of an order under clause
+3.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.1-sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_86130fb1-df94-4606-866a-0c27b2f9b778"></attrib>
+<attrib name="id" value="sch.1-sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">If the regulations so provide, such a provision
+has effect despite anything to the contrary in this or any other Act or law
+with respect to the following matters&#8212;</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c5a6127b-94bb-4b8e-8889-ea3559e5d411"
+id="sch.1-sec.15-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the practice or procedure of a
+court,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_050acc1d-a1f2-4327-8c8f-831a34ca2619"
+id="sch.1-sec.15-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the filing, issue or service of documents in
+connection with proceedings in a court,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e1584edd-5de0-417a-b2ed-881892113ee6"
+id="sch.1-sec.15-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the evidentiary status of documents in
+proceedings before a court.</txt></block></li></list>
+</block></tier>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c185bc99-ac41-45ec-82be-dc66d830592d"></attrib>
+<attrib name="id" value="sch.1-sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_24246a20-6ff4-47a5-9e51-638257b11f2b"
+id="sch.1-sec.16-he"><b>Proceedings originating in non-ECM
+courts</b></heading></head>
+<block><txt break.before="1">This Schedule applies to proceedings that have
+been remitted to an ECM court by a court that is not an ECM court (including a
+court of the Commonwealth or a court of some other State or Territory) in the
+same way as it applies to proceedings that have originated in an ECM
+court.</txt></block></level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a7243ac7-9dba-4c94-9552-50c3566037d7"></attrib>
+<attrib name="id" value="sch.1-sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_86e9f83c-b84b-4a26-90bd-3e930b931d0c"
+id="sch.1-sec.17-he"><b>Proceedings on application for assessment of bill of
+costs</b></heading></head>
+<block><txt break.before="1">For the purposes of this Schedule, proceedings on
+an application for the assessment of costs under the legal costs legislation
+(as defined in section 3A of the <legref refid="act-2014-016" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Legal Profession Uniform
+Law Application Act 2014</i></name></legref>) are taken to be proceedings in
+the Supreme Court.</txt></block>
+<note type="legtext" guid="_0f7a187b-daf1-4a7a-b922-dc8b944bf3cc"
+id="sch.1-sec.17-note"><heading guid="_d5b60806-8d05-4490-ba25-a8d549c1d895"
+id="sch.1-sec.17-note-he"><b>Note.</b></heading>
+<block><txt break.before="1">The ECM system will therefore apply to such
+proceedings when it applies to proceedings before the Supreme Court, and in
+its application to such proceedings will be subject to any rules of the
+Supreme Court that are made under the power conferred by clause
+14.</txt></block></note>
+</level>
+</content>
+
+
+<content type="auto-inserted">
+
+<level type="clause" id="sch.1-sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9c839ec6-3d27-4352-a9e0-c58395bb5c92"></attrib>
+<attrib name="id" value="sch.1-sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_8c68c811-8f79-4e88-890e-9df5b554815b"
+id="sch.1-sec.18-he"><b>Part 2 excluded</b></heading></head>
+<block><txt break.before="1">Part 2 does not apply to matters relating to the
+practice or procedure of a court including, in particular, matters relating to
+the filing, issue or service of documents.</txt></block></level>
+</content>
+
+
+<content type="historynote"><txt break.before="1"><b>sch 1 (previously pt
+2A):</b> Transferred 2010 No 68, Sch 1 [17]. Am 2010 No 68, Sch 1 [17]; 2010
+No 119, Sch 3.5 [1] [2]; 2015 No 7, Sch 2.16; 2025 No 61, Sch
+2.41.</txt></content>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_6cac4496-d1ca-40c9-910a-cf9097846812"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_62a61495-346b-43fb-98c8-e2b435046315"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-2000-008" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Electronic Transactions Act
+2000</i></name> No 8</legref>. Assented to 3.5.2000. Date of commencement,
+7.12.2001, sec 2 and GG No 188 of 7.12.2001, p 9581. This Act has been amended
+by sec 18 of this Act and as follows&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_aa70d6d7-edca-4664-b32a-4afb1ebaa0a2" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_5d399d3f-557e-4c97-81e5-7eb74fb7c2e8" id="ed-tbl-tblr">
+<entry colname="1" guid="_572b80fa-e4a1-4c26-82d1-a321a0cd8021"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>2002</b></txt></entry>
+<entry colname="2" guid="_9a139175-eeb5-49f7-8415-ae922d117c2b"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 99</txt></entry>
+<entry colname="3" guid="_28b3a63f-36a7-4519-83c5-4d9564fa2a21"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref refid="act-2002-099" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Courts Legislation
+Miscellaneous Amendments Act 2002</i></name></legref>. Assented to
+29.11.2002.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 20.12.2002, sec 2 (1) and
+GG No 263 of 20.12.2002, p 10739.</txt></block></entry></row>
+
+
+<row guid="_ddc70a7b-0691-4ba2-91b1-932658b7b9fc" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_40287e39-a4e1-4df7-bac8-0cda74585565"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>2005</b></txt></entry>
+<entry colname="2" guid="_07e5d943-b048-489d-bcf5-cd604191443f"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 28</txt></entry>
+<entry colname="3" guid="_7102315f-4cd9-4104-af51-06178df4ea3c"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref refid="act-2005-028" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Civil Procedure Act
+2005</i></name></legref>. Assented to 1.6.2005.</txt>
+<txt break.before="1">Date of commencement of Sch 5.17 (Sch 5.17 [3]
+excepted), 15.8.2005, sec 2 (1) and GG No 100 of 10.8.2005, p 4205; date of
+commencement of Sch 5.17 [3], 1.10.2005, sec 2 (2) and GG No 105 of 19.8.2005,
+p 4570.</txt></block></entry></row>
+
+
+<row guid="_8e2cb802-2241-4d9d-a8ad-d6b4c6ac62e7" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_8b26400d-2a4e-4e69-9792-9b620dfa2d35"
+id="ed-tbl-tblr-oc.3-tble1"></entry>
+<entry colname="2" guid="_52b8cd7f-e21b-434d-a6bc-369bd5eb803a"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 103</txt></entry>
+<entry colname="3" guid="_2daca0aa-a2b1-4dba-bdb6-3c11c3b2ecc8"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref refid="act-2005-103" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Crimes and Courts
+Legislation Amendment Act 2005</i></name></legref>. Assented to
+1.12.2005.</txt>
+<txt break.before="1">Date of commencement of Sch 4, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_55418858-f562-4782-ba53-f5154b6dff34" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_d7f11f09-06a9-459d-8c7a-88f12870ec52"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>2006</b></txt></entry>
+<entry colname="2" guid="_669cde3e-1e71-4d58-a3e4-2e9a487c6c82"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 107</txt></entry>
+<entry colname="3" guid="_8346e81b-c48e-4e3f-a70c-ed95985f55a6"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref refid="act-2006-107" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Crimes and Courts
+Legislation Amendment Act 2006</i></name></legref>. Assented to
+29.11.2006.</txt>
+<txt break.before="1">Date of commencement of Sch 1.16, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_1a238474-68f8-47aa-b3fb-1b347b67f30e" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_2aedb360-9e5c-4a1b-8015-5025050de887"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>2009</b></txt></entry>
+<entry colname="2" guid="_d38a4924-5fa9-4e75-a5df-765725abf4f9"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 54</txt></entry>
+<entry colname="3" guid="_832c2cec-bdf8-45cd-ba89-ed6313eb9736"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref refid="act-2009-054" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Government Information
+(Public Access) (Consequential Amendments and Repeal) Act
+2009</i></name></legref>. Assented to 26.6.2009.</txt>
+<txt break.before="1">Date of commencement, 1.7.2010, sec 2 and 2010 (248) LW
+18.6.2010.</txt></block></entry></row>
+
+
+<row guid="_e847af49-e0f2-49e9-87b9-a00e37429e20" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_65ca4594-379c-4997-9571-31ac5a4a6c65"
+id="ed-tbl-tblr-oc.6-tble1"><txt break.before="1"><b>2010</b></txt></entry>
+<entry colname="2" guid="_0852327e-bd46-49fe-9e83-a147927b5ba6"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">No 68</txt></entry>
+<entry colname="3" guid="_334b6148-8d26-459a-91e2-3ce03c3eba5b"
+id="ed-tbl-tblr-oc.6-tble3">
+<block><txt break.before="1"><legref refid="act-2010-068" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Electronic Transactions
+Amendment Act 2010</i></name></legref>. Assented to 28.9.2010.</txt>
+<txt break.before="1">Date of commencement, 15.10.2010, sec 2 and 2010 (587)
+LW 15.10.2010.</txt></block></entry></row>
+
+
+<row guid="_508f8232-1eb9-4fd5-98a4-be32d4518476" id="ed-tbl-tblr-oc.7">
+<entry colname="1" guid="_cab54e29-9e78-49d8-9330-60bdd8beb4f0"
+id="ed-tbl-tblr-oc.7-tble1"></entry>
+<entry colname="2" guid="_d93ba9f3-d407-4d7e-945c-1ee99dc4cde4"
+id="ed-tbl-tblr-oc.7-tble2"><txt break.before="1">No 119</txt></entry>
+<entry colname="3" guid="_c8c82641-8f0e-49e9-b382-bc247cc843c9"
+id="ed-tbl-tblr-oc.7-tble3">
+<block><txt break.before="1"><legref refid="act-2010-119" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2010</i></name></legref>. Assented to
+29.11.2010.</txt>
+<txt break.before="1">Date of commencement of Sch 3, 7.1.2011, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_574bd2c9-626e-4820-8c12-06c20a11eb28" id="ed-tbl-tblr-oc.8">
+<entry colname="1" guid="_6c1ab5e5-f4a3-45bf-ad27-5d3c444255c4"
+id="ed-tbl-tblr-oc.8-tble1"><txt break.before="1"><b>2015</b></txt></entry>
+<entry colname="2" guid="_633af787-591b-475a-8cb7-9633d2f21a4f"
+id="ed-tbl-tblr-oc.8-tble2"><txt break.before="1">No 7</txt></entry>
+<entry colname="3" guid="_51c6895f-d76a-438d-b371-603d67728e70"
+id="ed-tbl-tblr-oc.8-tble3">
+<block><txt break.before="1"><legref refid="act-2015-007" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Legal Profession Uniform
+Law Application Legislation Amendment Act 2015</i></name></legref>. Assented
+to 9.6.2015.</txt>
+<txt break.before="1">Date of commencement of Sch 2, 1.7.2015, sec 2 (2) and
+2015 (299) LW 19.6.2015.</txt></block></entry></row>
+
+
+<row guid="_e276ea45-059b-4f09-9058-611136d4f7cc" id="ed-tbl-tblr-oc.9">
+<entry colname="1" guid="_611a9042-729c-4555-a6df-05fad25122ed"
+id="ed-tbl-tblr-oc.9-tble1"><txt break.before="1"><b>2020</b></txt></entry>
+<entry colname="2" guid="_04affc68-2e8c-4783-bd0e-d2280b653f27"
+id="ed-tbl-tblr-oc.9-tble2"><txt break.before="1">No 1</txt></entry>
+<entry colname="3" guid="_cc81b5a2-0bfe-455b-87b0-c2c1d3ffe4c4"
+id="ed-tbl-tblr-oc.9-tble3">
+<block><txt break.before="1"><legref refid="act-2020-001" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>COVID-19 Legislation
+Amendment (Emergency Measures) Act 2020</i></name></legref>. Assented to
+25.3.2020.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_542065ff-3634-4d0f-b0ae-606beb35ff91" id="ed-tbl-tblr-oc.10">
+<entry colname="1" guid="_7fc1a76c-3929-48fe-84c8-59c14face8f8"
+id="ed-tbl-tblr-oc.10-tble1"></entry>
+<entry colname="2" guid="_0c087718-fc8a-4da4-95d5-ba679c22a046"
+id="ed-tbl-tblr-oc.10-tble2"><txt break.before="1">No 4</txt></entry>
+<entry colname="3" guid="_3f678ff7-e6a4-4cb3-813c-fb4a08dd13e9"
+id="ed-tbl-tblr-oc.10-tble3">
+<block><txt break.before="1"><legref refid="act-2020-004" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>COVID-19 Legislation
+Amendment (Emergency Measures&#8212;Attorney General) Act
+2020</i></name></legref>. Assented to 14.5.2020.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_7fa3da84-5f7c-4074-b7bd-30d7e4037ad5" id="ed-tbl-tblr-oc.11">
+<entry colname="1" guid="_fe63e4d1-f585-4956-9fa4-44c73fb9f797"
+id="ed-tbl-tblr-oc.11-tble1"></entry>
+<entry colname="2" guid="_4568d1a5-d239-42b2-bac7-e4bbbb7415b8"
+id="ed-tbl-tblr-oc.11-tble2"><txt break.before="1">No 24</txt></entry>
+<entry colname="3" guid="_be062b4b-b86a-490f-b12c-c1a950a48e2e"
+id="ed-tbl-tblr-oc.11-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Stronger Communities Legislation
+Amendment (Courts and Civil) Act 2020</i></name></legref>. Assented to
+28.9.2020.</txt>
+<txt break.before="1">Date of commencement of Sch 1.5, assent, sec
+2(1).</txt></block></entry></row>
+
+
+<row guid="_63da9c6f-e783-4adb-9eb5-9a32a0e098f0" id="ed-tbl-tblr-oc.12">
+<entry colname="1" guid="_b69efdb9-51d6-46a7-8351-a69fcbccbdff"
+id="ed-tbl-tblr-oc.12-tble1"><txt break.before="1"><b>2021</b></txt></entry>
+<entry colname="2" guid="_f5865c46-697b-4346-9fc7-bbf0e7ef0cce"
+id="ed-tbl-tblr-oc.12-tble2"><txt break.before="1">No 33</txt></entry>
+<entry colname="3" guid="_772a6418-44d5-4a50-a6a5-c89a841b80ac"
+id="ed-tbl-tblr-oc.12-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Electronic Transactions Amendment
+(Remote Witnessing) Act 2021</i></name></legref>. Assented to
+29.11.2021.</txt>
+<txt break.before="1">Date of commencement, assent, sec
+2.</txt></block></entry></row>
+
+
+<row guid="_93a7feb4-31fd-4a03-8612-83bcb58eaead" id="ed-tbl-tblr-oc.13">
+<entry colname="1" guid="_61883d4b-c4aa-444d-814f-c014fcc6e9d3"
+id="ed-tbl-tblr-oc.13-tble1"><txt break.before="1"><b>2025</b></txt></entry>
+<entry colname="2" guid="_e3407bef-c6ac-45e5-bdbd-57dcad710b45"
+id="ed-tbl-tblr-oc.13-tble2"><txt break.before="1">No 61</txt></entry>
+<entry colname="3" guid="_ca26c025-ba51-4c70-a4b1-059c7518ac13"
+id="ed-tbl-tblr-oc.13-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Local Court and Bail Legislation
+Amendment Act 2025</i></name></legref>. Assented to 28.10.2025.</txt>
+<txt break.before="1">Date of commencement of Sch 2.41, 28.3.2026, sec 2(b)
+and 2026 (82) LW 13.3.2026.</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_13bf5758-ecf7-499f-898c-dc9249afb9ad"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_ede70671-309f-4df6-b109-15a16d32b5a1" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_30a34e56-b670-493a-a95c-bdb4da728cd6" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_7e9c112f-e39b-45ce-be1c-e99d664cc82e"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 4</txt></entry>
+<entry colname="2" guid="_83c80345-d180-422e-a39a-e9fc34d012f1"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 2010 No 68, Sch 1
+[1].</txt></entry></row>
+
+
+<row guid="_c3d2e20c-c3d9-4e50-900f-0793a4135137" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_045d7baf-d916-44aa-8ba6-e408584333d2"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 5</txt></entry>
+<entry colname="2" guid="_41e7b4b7-d2a5-43d2-b357-d6b79e21c8e5"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 2010 No 68, Sch 1
+[2] [3].</txt></entry></row>
+
+
+<row guid="_51f13c07-9a78-4f9b-8b70-9e01ee4fc604" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_4fcb25ab-bb19-4042-8600-e7c91ac0461a"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 6A</txt></entry>
+<entry colname="2" guid="_be09b2c7-9eb1-4e77-ac0e-73c946ceaa57"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Ins 2010 No 68, Sch 1
+[4].</txt></entry></row>
+
+
+<row guid="_c04e061d-7871-491d-9eb7-e569a8414500" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_5604602c-9d59-4fac-ae14-d1eeeee84d0a"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 7</txt></entry>
+<entry colname="2" guid="_31014650-cbc7-413e-ba56-ba8fde98d233"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Am 2010 No 68, Sch 1
+[5].</txt></entry></row>
+
+
+<row guid="_431c376c-fe80-4be4-b57a-3eabbd8d8454" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_68c032d6-5f9a-4655-927e-b63c78fbcff3"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 8</txt></entry>
+<entry colname="2" guid="_e47ebcea-4e64-46a7-ad10-0ad310088963"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Am 2010 No 68, Sch 1
+[6].</txt></entry></row>
+
+
+<row guid="_c31daec1-a885-4795-b3c9-c77b24f44082" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_5eb1a8d1-b989-42fd-a625-62b363e56fb7"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_a0fc33d9-dd48-477d-ac53-b28284de0ee3"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Am 2010 No 68, Sch 1
+[7]&#8211;[11].</txt></entry></row>
+
+
+<row guid="_e18826d2-43dc-414a-9766-5157470f14dc" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_a4aae236-0e04-4f50-a86c-e512ff2d492a"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 10</txt></entry>
+<entry colname="2" guid="_aba463a8-e567-4702-977f-f877dc0a7d71"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Am 2010 No 68, Sch 1
+[12].</txt></entry></row>
+
+
+<row guid="_ae2aa1cf-3f7f-4fe7-8e29-50271d138ae8" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_9a57f20f-1149-4a5f-bf6a-bd83e939b433"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sec 11</txt></entry>
+<entry colname="2" guid="_ec5c6b34-cf55-4ab3-925b-4faf0923e005"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Am 2010 No 68, Sch 1
+[13].</txt></entry></row>
+
+
+<row guid="_bec1682c-a6f2-4723-b3d0-c13aa3683e87" id="ed-tbl-oc.2-tblr-oc.9">
+<entry colname="1" guid="_cb6af666-813b-49a5-93a7-9978d7f14d9d"
+id="ed-tbl-oc.2-tblr-oc.9-tble1"><txt break.before="1">Sec 12</txt></entry>
+<entry colname="2" guid="_b0cb7c21-fbb4-4443-acae-39acf2103dd8"
+id="ed-tbl-oc.2-tblr-oc.9-tble2"><txt break.before="1">Rep 2010 No 68, Sch 1
+[14].</txt></entry></row>
+
+
+<row guid="_850f8cb8-d7df-44d8-87f8-a2d6c13cf363"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry colname="1" guid="_edfa9c77-de38-4d6d-a28e-41dab736b3b3"
+id="ed-tbl-oc.2-tblr-oc.10-tble1"><txt break.before="1">Sec 13</txt></entry>
+<entry colname="2" guid="_81bf60a4-9fd5-473d-809d-a47126cd8aad"
+id="ed-tbl-oc.2-tblr-oc.10-tble2"><txt break.before="1">Subst 2010 No 68, Sch
+1 [15].</txt></entry></row>
+
+
+<row guid="_9e7128e6-5dea-45f2-8fb0-0160a1a0916e"
+id="ed-tbl-oc.2-tblr-oc.11">
+<entry colname="1" guid="_a535a794-aced-4414-9a83-a4148b7827ae"
+id="ed-tbl-oc.2-tblr-oc.11-tble1"><txt break.before="1">Secs 13A,
+13B</txt></entry>
+<entry colname="2" guid="_c785036b-bf19-4be3-9396-281118dd366b"
+id="ed-tbl-oc.2-tblr-oc.11-tble2"><txt break.before="1">Ins 2010 No 68, Sch 1
+[15].</txt></entry></row>
+
+
+<row guid="_23f08324-051d-4203-8989-80d7cb5ed862"
+id="ed-tbl-oc.2-tblr-oc.12">
+<entry colname="1" guid="_b2994934-b539-47e1-b01e-d4ac504d60dd"
+id="ed-tbl-oc.2-tblr-oc.12-tble1"><txt break.before="1">Sec 14</txt></entry>
+<entry colname="2" guid="_4a509f2c-cd8d-4a15-a2ce-cd1b5ad2fae4"
+id="ed-tbl-oc.2-tblr-oc.12-tble2"><txt break.before="1">Am 2010 No 68, Sch 1
+[16].</txt></entry></row>
+
+
+<row guid="_8c819803-c8a5-4183-adbc-107388a14406"
+id="ed-tbl-oc.2-tblr-oc.13">
+<entry colname="1" guid="_f21afe9a-e507-4a53-8d65-d4f0fc9d90e7"
+id="ed-tbl-oc.2-tblr-oc.13-tble1"><txt break.before="1">Part 2A (secs
+14A&#8211;14E)</txt></entry>
+<entry colname="2" guid="_1491c521-c58f-4afd-bc7e-cc605ead48f8"
+id="ed-tbl-oc.2-tblr-oc.13-tble2"><txt break.before="1">Ins 2010 No 68, Sch 1
+[18]. For information concerning Part 2A before the commencement of 2010 No
+68, Sch 1 [17] see the historical table of amendments in the Legislative
+history.</txt></entry></row>
+
+
+<row guid="_594135dd-3429-4440-a6ad-5a8e3898c1f4"
+id="ed-tbl-oc.2-tblr-oc.14">
+<entry colname="1" guid="_fed275dc-41f0-4496-8c1b-9934bd6e23a3"
+id="ed-tbl-oc.2-tblr-oc.14-tble1"><txt break.before="1">Part 2B,
+heading</txt></entry>
+<entry colname="2" guid="_f83b4e7d-7829-4b9e-8986-55de8a2418d2"
+id="ed-tbl-oc.2-tblr-oc.14-tble2"><txt break.before="1">Ins 2020 No 24, Sch
+1.5. Am 2021 No 33, Sch 1[1].</txt></entry></row>
+
+
+<row guid="_341f054c-db12-4782-8b75-7a6247444f78"
+id="ed-tbl-oc.2-tblr-oc.15">
+<entry colname="1" guid="_a5522046-73a0-47d8-87eb-cda9a552b9c6"
+id="ed-tbl-oc.2-tblr-oc.15-tble1"><txt break.before="1">Part 2B, Div 1,
+heading</txt></entry>
+<entry colname="2" guid="_3cde52ee-422f-4c48-b704-f605f33eaddd"
+id="ed-tbl-oc.2-tblr-oc.15-tble2"><txt break.before="1">Ins 2020 No 24, Sch
+1.5. Rep 2021 No 33, Sch 1[2].</txt></entry></row>
+
+
+<row guid="_a4f28e6b-8280-469e-89af-1f64c26e6949"
+id="ed-tbl-oc.2-tblr-oc.16">
+<entry colname="1" guid="_c26dbafa-3012-4b75-a726-19a754c12c8a"
+id="ed-tbl-oc.2-tblr-oc.16-tble1"><txt break.before="1">Sec 14F</txt></entry>
+<entry colname="2" guid="_b73f9906-5dad-412b-b5a6-26f92a3ac44e"
+id="ed-tbl-oc.2-tblr-oc.16-tble2"><txt break.before="1">Ins 2020 No 24, Sch
+1.5. Am 2021 No 33, Sch 1[3]&#8211;[5].</txt></entry></row>
+
+
+<row guid="_cebf72c8-a6c7-4f95-831a-746b54a5d54a"
+id="ed-tbl-oc.2-tblr-oc.17">
+<entry colname="1" guid="_d79580f0-b49b-4b85-a091-7cc983acdf79"
+id="ed-tbl-oc.2-tblr-oc.17-tble1"><txt break.before="1">Sec 14G</txt></entry>
+<entry colname="2" guid="_1bc1b91a-b625-45b0-a44e-2fb6e0644748"
+id="ed-tbl-oc.2-tblr-oc.17-tble2"><txt break.before="1">Ins 2020 No 24, Sch
+1.5.</txt></entry></row>
+
+
+<row guid="_1655f15d-4c60-42fa-a18d-0034abe70e5b"
+id="ed-tbl-oc.2-tblr-oc.18">
+<entry colname="1" guid="_b8113882-a1de-4b43-bb25-6ec6b43c483c"
+id="ed-tbl-oc.2-tblr-oc.18-tble1"><txt break.before="1">Part 2B, Div 2,
+heading</txt></entry>
+<entry colname="2" guid="_4960a68c-3b5b-4ea6-b2e9-988c6f54bd7a"
+id="ed-tbl-oc.2-tblr-oc.18-tble2"><txt break.before="1">Ins 2020 No 24, Sch
+1.5. Rep 2021 No 33, Sch 1[6].</txt></entry></row>
+
+
+<row guid="_01437330-1913-4a69-8689-5ea76eb484c9"
+id="ed-tbl-oc.2-tblr-oc.19">
+<entry colname="1" guid="_5a2eab1c-31ba-4bf9-9b0b-8cacc74e366a"
+id="ed-tbl-oc.2-tblr-oc.19-tble1"><txt break.before="1">Secs 14H,
+14I</txt></entry>
+<entry colname="2" guid="_41704362-ddc9-4fde-9257-fd4351b5239f"
+id="ed-tbl-oc.2-tblr-oc.19-tble2"><txt break.before="1">Ins 2020 No 24, Sch
+1.5. Subst 2021 No 33, Sch 1[6].</txt></entry></row>
+
+
+<row guid="_6d9eee73-db37-4b02-9610-d1db35d1d615"
+id="ed-tbl-oc.2-tblr-oc.20">
+<entry colname="1" guid="_1b164e90-cfba-430c-baeb-c4ed75a1fd36"
+id="ed-tbl-oc.2-tblr-oc.20-tble1"><txt break.before="1">Part 2B, Div 3,
+heading</txt></entry>
+<entry colname="2" guid="_16707f20-ce69-4b91-ad52-bf66b6402913"
+id="ed-tbl-oc.2-tblr-oc.20-tble2"><txt break.before="1">Ins 2020 No 24, Sch
+1.5. Rep 2021 No 33, Sch 1[6].</txt></entry></row>
+
+
+<row guid="_cc668ac1-6570-4c19-a134-b4598f3ddc6c"
+id="ed-tbl-oc.2-tblr-oc.21">
+<entry colname="1" guid="_d342ffea-c9cf-4062-ab6d-66f521ce7810"
+id="ed-tbl-oc.2-tblr-oc.21-tble1"><txt break.before="1">Secs 14J,
+14K</txt></entry>
+<entry colname="2" guid="_71554327-43a6-4082-962c-649a5b8a2717"
+id="ed-tbl-oc.2-tblr-oc.21-tble2"><txt break.before="1">Ins 2020 No 24, Sch
+1.5. Subst 2021 No 33, Sch 1[6].</txt></entry></row>
+
+
+<row guid="_08f2703e-48f7-4a6c-976a-7f6a9d3ed76b"
+id="ed-tbl-oc.2-tblr-oc.22">
+<entry colname="1" guid="_9ec68335-1acd-4efb-acfa-1caa8a4b8eff"
+id="ed-tbl-oc.2-tblr-oc.22-tble1"><txt break.before="1">Sec 14L</txt></entry>
+<entry colname="2" guid="_adad8e5b-46bf-4108-93b6-b925b6f10fea"
+id="ed-tbl-oc.2-tblr-oc.22-tble2"><txt break.before="1">Ins 2021 No 33, Sch
+1[6].</txt></entry></row>
+
+
+<row guid="_43aee0a1-98c4-4366-85ed-a9bb40dae17a"
+id="ed-tbl-oc.2-tblr-oc.23">
+<entry colname="1" guid="_6fe2df95-f65d-4905-bc49-1c8c000b27e5"
+id="ed-tbl-oc.2-tblr-oc.23-tble1"><txt break.before="1">Sec 16</txt></entry>
+<entry colname="2" guid="_4cf036ad-af38-4b18-82d4-903902831961"
+id="ed-tbl-oc.2-tblr-oc.23-tble2"><txt break.before="1">Ins 2010 No 68, Sch 1
+[19].</txt></entry></row>
+
+
+<row guid="_c8adbdae-f19f-4b0e-836a-0d1b3eb17f84"
+id="ed-tbl-oc.2-tblr-oc.24">
+<entry colname="1" guid="_6987e4d3-3789-4c6e-a242-1f42fdbb9d89"
+id="ed-tbl-oc.2-tblr-oc.24-tble1"><txt break.before="1">Part 4</txt></entry>
+<entry colname="2" guid="_bf43794c-16b3-41ef-9061-45b711b63f53"
+id="ed-tbl-oc.2-tblr-oc.24-tble2"><txt break.before="1">Ins 2020 No 1, Sch
+2.7. Rep 2000 No 8, sec 18.</txt></entry></row>
+
+
+<row guid="_860a44a9-c950-4efa-a1a2-5b2663cf5b7c"
+id="ed-tbl-oc.2-tblr-oc.25">
+<entry colname="1" guid="_7cbd5afc-e1e2-4bd2-bb2c-f2ce4f1ef6e6"
+id="ed-tbl-oc.2-tblr-oc.25-tble1"><txt break.before="1">Sec 17</txt></entry>
+<entry colname="2" guid="_02722b5f-77a2-436e-a711-30f00f10881c"
+id="ed-tbl-oc.2-tblr-oc.25-tble2"><txt break.before="1">Ins 2020 No 1, Sch
+2.7. Am 2020 No 4, Sch 1.3[1]&#8211;[8]. Rep 2000 No 8, sec
+18.</txt></entry></row>
+
+
+<row guid="_fffeaadd-d431-484b-af4a-1bd0c4a09fc7"
+id="ed-tbl-oc.2-tblr-oc.26">
+<entry colname="1" guid="_ecf31e07-d6b5-48de-b4a4-6aee3c5f6c46"
+id="ed-tbl-oc.2-tblr-oc.26-tble1"><txt break.before="1">Sec 18</txt></entry>
+<entry colname="2" guid="_8caa2a6c-a437-4708-9ad9-d4fc5cd52895"
+id="ed-tbl-oc.2-tblr-oc.26-tble2"><txt break.before="1">Ins 2020 No 1, Sch
+2.7. Rep 2000 No 8, sec 18.</txt></entry></row>
+
+
+<row guid="_6e8571bc-5de6-4d4b-aad2-0ecec4cf8216"
+id="ed-tbl-oc.2-tblr-oc.27">
+<entry colname="1" guid="_e6abf0d5-fc9f-4283-8239-4badc6087085"
+id="ed-tbl-oc.2-tblr-oc.27-tble1"><txt break.before="1">Sch 1 (previously Part
+2A)</txt></entry>
+<entry colname="2" guid="_eac5cccb-2578-4cbc-b8f0-5048d4816f56"
+id="ed-tbl-oc.2-tblr-oc.27-tble2"><txt break.before="1">Transferred 2010 No
+68, Sch 1 [17]. Am 2010 No 68, Sch 1 [17]; 2010 No 119, Sch 3.5 [1] [2]; 2015
+No 7, Sch 2.16; 2025 No 61, Sch 2.41.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_cf591d85-c4c1-4fc5-bd9a-ecf0ed4ba4d1"
+id="ed-he-oc.4"><b>Historical table of amendments</b></heading></head>
+<block><txt break.before="1">Information concerning Part 2A before the
+commencement of 2010 No 68, Sch 1 [17]&#8212;</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_043f48b6-a95d-45e0-b5e7-2f5ebe240b87" id="ed-tbl-oc.3">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_76859adf-7ae3-40fb-ac2e-e46a870590d5" id="ed-tbl-oc.3-tblr">
+<entry colname="1" guid="_45e088b0-4b7b-404f-bc5b-6e6373f3fffe"
+id="ed-tbl-oc.3-tblr-tble1"><txt break.before="1">Part 2A</txt></entry>
+<entry colname="2" guid="_a2b0e8da-6429-4d3b-b178-03089da49a2d"
+id="ed-tbl-oc.3-tblr-tble2"><txt break.before="1">Ins 2002 No 99, Sch 2.1.
+Renumbered 2010 No 68, Sch 1 [17].</txt></entry></row>
+
+
+<row guid="_160f7802-966b-474f-97c9-a4a249829823" id="ed-tbl-oc.3-tblr-oc.2">
+<entry colname="1" guid="_ed166a6e-d61a-4142-a00a-a9bc31892670"
+id="ed-tbl-oc.3-tblr-oc.2-tble1"><txt break.before="1">Sec 14A</txt></entry>
+<entry colname="2" guid="_55b368cb-d3eb-4493-8efd-95e664ad4fe7"
+id="ed-tbl-oc.3-tblr-oc.2-tble2"><txt break.before="1">Ins 2002 No 99, Sch
+2.1. Renumbered 2010 No 68, Sch 1 [17].</txt></entry></row>
+
+
+<row guid="_103a42a1-21a3-4978-aa8b-4036672f2a29" id="ed-tbl-oc.3-tblr-oc.3">
+<entry colname="1" guid="_a0bddf6d-5c8c-4837-8d1b-de41301ad186"
+id="ed-tbl-oc.3-tblr-oc.3-tble1"><txt break.before="1">Sec 14B</txt></entry>
+<entry colname="2" guid="_246a5d52-6f95-4e03-8e78-3cbfb89bca7d"
+id="ed-tbl-oc.3-tblr-oc.3-tble2"><txt break.before="1">Ins 2002 No 99, Sch
+2.1. Am 2005 No 28, Sch 5.17 [1]; 2006 No 107, Sch 1.16; 2009 No 54, Sch 2.18.
+Renumbered 2010 No 68, Sch 1 [17].</txt></entry></row>
+
+
+<row guid="_9154ed81-140a-4c96-b9f1-70df5ace5384" id="ed-tbl-oc.3-tblr-oc.4">
+<entry colname="1" guid="_a007b409-054a-485b-b552-8ce90be92d00"
+id="ed-tbl-oc.3-tblr-oc.4-tble1"><txt break.before="1">Secs
+14C&#8211;14H</txt></entry>
+<entry colname="2" guid="_9aed77f0-1836-49bd-beb8-fa096e97a4ad"
+id="ed-tbl-oc.3-tblr-oc.4-tble2"><txt break.before="1">Ins 2002 No 99, Sch
+2.1. Renumbered 2010 No 68, Sch 1 [17].</txt></entry></row>
+
+
+<row guid="_7368f80f-f654-4915-8dc0-45f9b6cbc94e" id="ed-tbl-oc.3-tblr-oc.5">
+<entry colname="1" guid="_cad17f81-c4f9-4348-a640-ff02c2a76921"
+id="ed-tbl-oc.3-tblr-oc.5-tble1"><txt break.before="1">Sec 14I</txt></entry>
+<entry colname="2" guid="_0f304417-ea42-41f1-8677-57cc0199e852"
+id="ed-tbl-oc.3-tblr-oc.5-tble2"><txt break.before="1">Ins 2002 No 99, Sch
+2.1. Am 2005 No 28, Sch 5.17 [2]; 2005 No 103, Sch 4. Renumbered 2010 No 68,
+Sch 1 [17].</txt></entry></row>
+
+
+<row guid="_20491cd1-7d3e-4c38-abc0-78a8ff80329d" id="ed-tbl-oc.3-tblr-oc.6">
+<entry colname="1" guid="_502e6385-85b5-457b-92c4-cb0ffacbf7a8"
+id="ed-tbl-oc.3-tblr-oc.6-tble1"><txt break.before="1">Secs
+14J&#8211;14P</txt></entry>
+<entry colname="2" guid="_08d1f746-767f-427e-a7a2-3fe35c00b9ef"
+id="ed-tbl-oc.3-tblr-oc.6-tble2"><txt break.before="1">Ins 2002 No 99, Sch
+2.1. Renumbered 2010 No 68, Sch 1 [17].</txt></entry></row>
+
+
+<row guid="_b3115046-e3a0-4995-8dff-4bcad76bbdde" id="ed-tbl-oc.3-tblr-oc.7">
+<entry colname="1" guid="_0981bbdd-4891-4939-bbf2-e4734be63654"
+id="ed-tbl-oc.3-tblr-oc.7-tble1"><txt break.before="1">Sec 14Q</txt></entry>
+<entry colname="2" guid="_34372436-149d-45bf-aee8-96e3a072037f"
+id="ed-tbl-oc.3-tblr-oc.7-tble2"><txt break.before="1">Ins 2002 No 99, Sch
+2.1. Am 2005 No 28, Sch 5.17 [3]. Renumbered 2010 No 68, Sch 1
+[17].</txt></entry></row>
+
+
+<row guid="_072a9e60-b28b-41bb-b832-b6daf7b29ef8" id="ed-tbl-oc.3-tblr-oc.8">
+<entry colname="1" guid="_28509377-befd-445c-aa99-1507e980ccf4"
+id="ed-tbl-oc.3-tblr-oc.8-tble1"><txt break.before="1">Sec 14R</txt></entry>
+<entry colname="2" guid="_421c0489-6055-4984-b3f6-54a1fae5450c"
+id="ed-tbl-oc.3-tblr-oc.8-tble2"><txt break.before="1">Ins 2002 No 99, Sch
+2.1. Renumbered 2010 No 68, Sch 1 [17].</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

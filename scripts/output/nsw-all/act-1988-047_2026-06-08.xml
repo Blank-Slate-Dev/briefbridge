@@ -1,0 +1,1313 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1988-047"
+title="Australian Mutual Provident Society Act 1988"
+year="1988"
+number="47"
+enact.or.made.date="1988-09-06"
+first.valid.date="2003-11-27"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1988</metacontent>
+<metacontent class="year.assent">1988</metacontent>
+<metacontent class="publication.date">2003-11-27</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicspecial</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2003-082</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1988-047</metacontent>
+<metacontent
+class="version.desc.id">43262ee8-27be-4cf6-9c26-f1c5a2982cbf</metacontent>
+<metacontent
+class="version.series.id">e1df9cbc-8f8d-4080-8a5e-892dca45e159</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Australian Mutual Provident Society Act
+1988"></attrib>
+<attrib name="year.passed" value="1988"></attrib>
+<attrib name="year.assent" value="1988"></attrib>
+<attrib name="no" value="47"></attrib>
+<attrib name="publication.date" value="2003-11-27"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicspecial"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2003-082"></attrib>
+<attrib name="first.valid.date" value="2003-11-27"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1988-09-06"></attrib>
+<attrib name="id" value="act-1988-047"></attrib>
+<attrib name="version.desc.id"
+value="43262ee8-27be-4cf6-9c26-f1c5a2982cbf"></attrib>
+<attrib name="version.series.id"
+value="e1df9cbc-8f8d-4080-8a5e-892dca45e159"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_fa131a61-5c2e-4d11-ba90-6b76a316cb9f"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_7ecfee73-4fca-4ce6-af05-6db9b419a936"
+id="cd-status-he"><b>Note&#8212;</b></heading></head>
+<block><txt break.before="1">Section 26 of the <legref refid="act-1997-056"
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Australian
+Mutual Provident Society (Demutualisation and Reconstruction) Act
+1997</i></name> No 56</legref> provides for the later repeal of this and other
+legislation applying to the Society on its registration as a company under the
+<legref refid="sl-1999-0703" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Corporations Law</i></name></legref>. The text of that
+section is reproduced as follows:</txt>
+<fragment format="fromcontext" style="indent">
+
+<level type="clause" id="cd-status-frag-sec.26">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_616055db-413e-4c09-b5a4-0ee49b9c91cb"></attrib>
+<attrib name="id" value="cd-status-frag-sec.26"></attrib></parentattributes>
+
+<head>
+<no>26</no><heading guid="_5115cf70-ad5a-4449-ac49-8176077cb411"
+id="cd-status-frag-sec.26-he"><b>Repeal</b></heading></head>
+<block><txt break.before="1">After AMP has been registered as a company under
+Division 3 of Part 2.2 of the <legref refid="sl-1999-0703" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Corporations
+Law</i></name></legref>, the Governor may, by one or more proclamations,
+repeal all or any specified provisions of either or both of the following
+Acts:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_af082759-c055-48ef-be65-20d99e570f77"
+id="cd-status-frag-sec.26-para1.a">
+<no>(a)</no>
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Australian Mutual Provident
+Society&#8217;s Act 1910</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_429e41f8-1ae7-48a6-8025-1569cc013160"
+id="cd-status-frag-sec.26-para1.b">
+<no>(b)</no>
+<block><txt break.before="1"><legref refid="act-1988-047" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Australian Mutual Provident
+Society Act 1988</i></name></legref>.</txt></block></li></list>
+</block></level>
+</fragment>
+</block></tier>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_79f57415-89fa-4caf-aa4a-6e4a9699c1c3"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to provide for the application of certain
+laws to the Australian Mutual Provident Society.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_60cb891a-9d59-4861-aa9e-bdba32df5b99"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_ce50894a-d825-4942-b41c-4a37329d4cc8"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f3d021e6-8fa2-41eb-b837-e403ebde1c53"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_702d5ce4-e036-49a4-bb22-8491c213ee60"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act may be cited as the <legref
+refid="act-1988-047" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Australian Mutual Provident Society Act
+1988</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_43525c6c-aa53-4ac4-9813-a13bd7652948"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_153bb0ea-7c9c-466a-8c65-c33e7ffcd017"
+id="sec.2-he"><b>Commencement</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_50131c7a-a64d-42e6-9431-197c45782d3a"></attrib>
+<attrib name="id" value="sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Sections 1 and 2 commence on the date of assent
+to this Act.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4754fe62-dde3-4019-8b82-81de19ac26f0"></attrib>
+<attrib name="id" value="sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Except as provided by subsection (1), this Act
+commences on a day or days to be appointed by
+proclamation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c6537b59-66f8-4240-914a-5084243df76c"></attrib>
+<attrib name="id" value="sec.2-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A proclamation shall not be made under this
+section unless:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9f979e39-5621-4e97-b3bb-428231a1fa01" id="sec.2-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">AMP has lodged with the Corporate Affairs
+Commission proposed by-laws that have been approved by the Minister,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_28c02031-3dee-48db-a334-e7788b2c59fb" id="sec.2-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the Corporate Affairs Commission has issued a
+certificate stating that the proposed by-laws have been lodged with
+it.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_28b45449-1c67-4de8-8627-52e38ffc3b96"></attrib>
+<attrib name="id" value="sec.2-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">Subject to section 11 (2) of the <legref
+refid="act-1997-056" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Australian Mutual Provident Society (Demutualisation and
+Reconstruction) Act 1997</i></name></legref>, AMP&#8217;s proposed by-laws
+shall be divided into:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ad1f93b0-926d-4bcc-bf99-2a856e5965ec" id="sec.2-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">Part 1 which contains only matter of a type
+appropriate for inclusion in a memorandum of association,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ef3b6707-d1cc-48ae-b5b4-a4c380edcb52" id="sec.2-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">Part 2 which contains only matter of a type
+appropriate for inclusion in articles of
+association.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_319208fe-19bc-4499-898a-82054667ee07"></attrib>
+<attrib name="id" value="sec.2-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The Corporate Affairs Commission is required to
+accept the proposed by-laws lodged in accordance with this section and to
+issue a certificate for the purposes of this section.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 2:</b> Am 1997 No 56,
+Sch 1 [1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_acc017cb-ce04-4cbe-9923-34d2b998ec43"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_64e4a682-6a29-4149-9ddb-b58cea025e9d"
+id="sec.3-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.3-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_adafeb42-5365-4ba7-823f-d18fe9c1b64a"></attrib>
+<attrib name="id" value="sec.3-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_87391ff3-9f19-43bb-9fbc-0ca0c494d0d9"
+id="sec.3-def.AMP"><b><i>AMP</i></b></defterm> means Australian Mutual
+Provident Society continued as a body corporate by the <legref jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Australian Mutual Provident
+Society&#8217;s Act 1910</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d5aac3db-c1ec-4457-94ae-198b140cc8bd"
+id="sec.3-def.Code"><b><i>Code</i></b></defterm> means the <legref
+jurisd="NSW" type="act" check="unknown"><name emphasis="yes"><i>Companies (New
+South Wales) Code</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_811bccbd-1fd0-4faa-b36b-d56476126f78"
+id="sec.3-def.Coderegulations"><b><i>Code regulations</i></b></defterm> means
+the provisions applying as regulations made under the Code because of section
+7 of the <legref refid="act-1981-122" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Companies (Application of Laws) Act
+1981</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_948c3e7e-af2e-4011-a2c4-4a474027beba"
+id="sec.3-def.member"><b><i>member</i></b></defterm> means a member of
+AMP.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_a8933d0a-e032-4f60-927d-24c0264562e8"
+id="sec.3-def.officer"><b><i>officer</i></b></defterm> has the same meaning as
+it has in the Code.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.3-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5b661539-24c4-417a-9c53-e7a0ea1d8d86"></attrib>
+<attrib name="id" value="sec.3-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In this Act, a reference to the Code or the Code
+regulations is a reference to that Code or those regulations:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_468b06f0-dd5d-4410-9860-20e7a786d535" id="sec.3-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">as in force on the commencement of section 4,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fa436f00-aab7-4096-9b0a-54a7b661a89c" id="sec.3-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the regulations under this Act so provide, as
+in force at a later specified time.</txt></block></li></list>
+</block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_05411438-a267-4a84-8426-c8164452890e"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_7c7089f5-5b82-4a9d-92bb-cb97d82d0123"
+id="pt.2-he"><b>Application of Code</b></heading></head>
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2c9912b4-e63c-48c0-b743-88accb7c3774"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_19ce541a-6a28-4dd5-a6ae-423da62f0403"
+id="sec.4-he"><b>Code to apply generally</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_24ed27b7-c8ab-4146-b3b8-d60d21054975"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Subject to this Act, the Code and the Code
+regulations apply:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_adde8de6-a22a-4e5c-928c-6ca3b8f9d28a" id="sec.4-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to AMP as if it were a company that had been duly
+registered under the name &#8220;Australian Mutual Provident Society&#8221;
+and had been duly incorporated, in each case under the Code and on the
+commencement of this section, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b13470e0-b6d8-4e2f-8231-b891ccefcc7b" id="sec.4-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to the members and officers of AMP as if they
+were members and officers, respectively, of such a
+company.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c71ccbc4-bc2e-4ecf-b56c-f5bb379bbe0f"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Part 80 of the Supreme Court Rules applies to AMP
+and to its members and officers in the same way that the Code and the Code
+regulations apply under subsection (1).</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6e2099f9-fc28-4320-bf6d-15cb602ab31b"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_6aeeb24b-621e-4b44-a0d4-9ca61575a808"
+id="sec.5-he"><b>Provisions of Code that do not apply</b></heading></head>
+<block><txt break.before="1">The provisions of the Code that are listed in
+Schedule 1 do not apply to AMP.</txt></block></level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f000c372-e33a-4378-9198-1ec2bbbc124b"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_4742284f-7d4e-480d-8bad-ff2cea97509b"
+id="sec.6-he"><b>AMP not a company</b></heading></head>
+<block><txt break.before="1">Nothing in this Act is to be taken as
+constituting AMP as a company for the purposes of any law, or previous law, of
+the State relating to companies.</txt></block></level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ae650517-8986-4c33-a762-785b8ee714e9"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_688d5213-da48-49a2-81aa-4655a1489533"
+id="sec.7-he"><b>Conversion and directors</b></heading></head>
+<block type="compare"><txt>(Code ss 69, 226 (9))</txt></block>
+<block><txt break.before="1">Sections 69 and 226 (9) of the Code apply to AMP
+as if it were a company limited by guarantee.</txt></block></level>
+
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bfa15361-bbe3-4b19-a33b-a01872113b2d"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_121b326f-d346-45ca-a033-2dc57258da9a"
+id="sec.8-he"><b>Rights of classes of members</b></heading></head>
+<block type="compare"><txt>(Code s 127)</txt></block>
+<block><txt break.before="1">A member shall not be taken to be in a class of
+members having special rights for the purposes of section 127 of the Code just
+because the member holds a life insurance policy or other policy, annuity or
+contract issued by AMP with terms or conditions that differ from the terms or
+conditions of another life insurance policy or other policy, annuity or
+contract issued by AMP.</txt></block></level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0fedaab0-f4c2-47fd-9a1a-ff4e05f5446e"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_b3645ae2-8448-4c17-aea2-27b6622570d5"
+id="sec.9-he"><b>Annual returns</b></heading></head>
+<block type="compare"><txt>(Code reg 56A)</txt></block>
+<block><txt break.before="1">The only documents regulation 56A (b) (ii) of the
+Code regulations requires to accompany an annual return of AMP are those
+section 52 of the <legref jurisd="CTH" type="act" check="unknown"><name
+emphasis="yes"><i>Life Insurance Act 1945</i></name></legref> of the
+Commonwealth requires to be lodged for the relevant financial
+year.</txt></block></level>
+
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cd4846ea-0081-49fe-8959-38e5b0925a23"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_9736c5b0-6ef1-44ce-b546-ae0005b5eb8e"
+id="sec.10-he"><b>By-laws</b></heading></head>
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_46ce3146-c884-4512-909d-8f8d91a6ab96"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">On and from the commencement of section 4, the
+by-laws of AMP are those by-laws lodged with the Corporate Affairs Commission
+in accordance with section 2, as altered or added to from time to time in
+accordance with this section.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9caada5c-0e40-4c87-8914-44df36501ac0"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Parts 1 and 2 of the by-laws of AMP:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8cdf8fb2-f9a8-4762-8940-7c010c1f1e03" id="sec.10-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">shall, for the purposes of the application of the
+Code and of the Code regulations to AMP and to its members and officers, be
+taken to be the memorandum of association and articles of association,
+respectively, of AMP, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_34925f0d-7f1f-4ba7-9c1b-24b32593e4c0" id="sec.10-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">bind AMP, and the persons who are from time to
+time its members, accordingly.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_25183faa-4970-4cd0-bb23-ccc80d7eb484"></attrib>
+<attrib name="id" value="sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The by-laws (including the by-laws as taken to be
+amended under section 11 (2) of the <legref refid="act-1997-056" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Australian Mutual Provident
+Society (Demutualisation and Reconstruction) Act 1997</i></name></legref>) may
+be altered or added to only in accordance with the Code and the Code
+regulations applying to memoranda and articles of
+association.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 10:</b> Am 1997 No 56,
+Sch 1 [2].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_aedff8fc-7764-4bb4-8542-c41a9682e3ae"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_1b1a82a4-3eb3-4b72-9890-c1e6133dbb48"
+id="pt.3-he"><b>Membership of AMP</b></heading></head>
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_24e5f697-bb15-4f1b-bfc7-0b4bc4403a1c"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_8e61c1aa-3dce-482b-a3f1-82a14c884d61"
+id="sec.11-he"><b>Membership criteria</b></heading></head>
+<block><txt break.before="1">Subject to section 11 (2) and (3) of the <legref
+refid="act-1997-056" jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Australian Mutual Provident Society (Demutualisation and
+Reconstruction) Act 1997</i></name></legref>, membership of AMP shall be in
+accordance with the by-laws of AMP.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 11:</b> Am 1997 No 56,
+Sch 1 [3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_53898495-9d56-4728-b5bd-3cd9c6dcb91c"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_ae7508e7-bcba-4aa7-b50a-750d078a6775"
+id="sec.12-he"><b>Members&#8217; liability</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dfb310b8-e69e-4538-b98e-e86aaf5fea1f"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Subject to subsection (3), if AMP is wound
+up:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_be8d456f-666f-4f5e-b842-b2f293dd1db1" id="sec.12-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a person is not, as a present or past member,
+liable to contribute to the property of AMP for the purposes of payment of
+AMP&#8217;s debts or liabilities or of the costs, charges or expenses of the
+winding up or for the purposes of the adjustment of the rights of such members
+among themselves, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e47fce32-4cfe-4487-9a68-b86adacf6deb" id="sec.12-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the property of AMP alone is liable for those
+purposes.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0211ec94-3f9e-4733-a35a-c6c9fb55b545"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In this section:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_d8d43b48-ede0-43fb-8a10-249baea0c9ae"
+id="sec.12-def.pastmember"><b><i>past member</i></b></defterm> includes a
+person who ceased to be a member before the commencement of section
+4.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d01bfdf1-e28d-405b-b6ed-bd51eacb0ec0"></attrib>
+<attrib name="id" value="sec.12-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Section 360 of the Code applies to every present
+and past member of AMP who holds or has held shares in
+AMP.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 12:</b> Am 1997 No 56,
+Sch 1 [4] [5].</txt></content>
+</level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_38b82e32-4120-44cf-bde6-85384c42bb77"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_0c4cdedd-0339-494d-b6a3-2bc04e82f6de"
+id="pt.4-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_21563db0-d587-4e77-af8e-977c94107c3e"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_183ed9ad-1ccc-41a8-bc39-88c0ece9b101"
+id="sec.13-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d3b7cd42-028f-4708-9580-c12138aabe9a"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_af4a29c1-d523-49cb-aa3a-bb14aafc4921"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Without affecting the generality of subsection
+(1), the regulations may provide that specified provisions of the Code, or the
+Code regulations, do not apply to AMP or to its members or
+officers.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cb115311-bb7f-4684-8786-173f42bf6ee0"></attrib>
+<attrib name="id" value="sec.13-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The <legref refid="act-1989-146" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Subordinate Legislation Act
+1989</i></name></legref> does not apply to the
+regulations.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 13:</b> Am 1996 No 30,
+Sch 1.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.14" status="repealed">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_288f579e-56a9-4d04-9fe6-169f414dab26"></attrib>
+<attrib name="id" value="sec.14"></attrib>
+<attrib name="status" value="repealed"></attrib></parentattributes>
+
+<head>
+<no>14</no></head>
+<repealed><repealedtxt></repealedtxt></repealed>
+
+
+<content type="historynote"><txt break.before="1"><b>s 14:</b> Rep 2003 No 82,
+Sch 3.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_78c46b00-f2e4-4ec5-8124-c51827952e0e"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_5d14192e-3279-4af0-9350-9e8254de29bd"
+id="sec.15-he"><b>Savings and transitional provisions</b></heading></head>
+<block><txt break.before="1">Schedule 2 has effect.</txt></block></level>
+</level>
+</content>
+
+
+<content type="schedules">
+
+<level type="schedule" id="sch.1">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e95dc20d-9f7b-4d07-9e69-1072f37c0860"></attrib>
+<attrib name="id" value="sch.1"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 1</b></no><heading
+guid="_76b08d11-0646-4cde-a296-7564c3d9e760" id="sch.1-he"><b>Provisions that
+do not apply to AMP</b></heading></head>
+<block align="right" type="sourceref"><txt>(Section 5)</txt></block>
+<block><txt break.before="1">Sections 35 (6)&#8211;(9), 37, 39, 82, 217 (1)
+and (2), 274 and 360 of the Code.</txt></block></level>
+
+
+<level type="schedule" id="sch.2">
+<parentattributes>
+<attrib name="type" value="schedule"></attrib>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ba1c8562-8bbe-4c97-a98c-d71e06eb7588"></attrib>
+<attrib name="id" value="sch.2"></attrib></parentattributes>
+
+<head>
+<no><b>Schedule 2</b></no><heading
+guid="_5700f1cc-fb8c-4a19-a93c-6225706d5ed5" id="sch.2-he"><b>Savings and
+transitional provisions</b></heading></head>
+
+<pre type="auto-inserted">
+<block align="right" type="sourceref"><txt>(Section 15)</txt></block></pre>
+
+
+<level type="clause" id="sch.2-sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2592e550-274c-4261-9a94-0292d140380e"></attrib>
+<attrib name="id" value="sch.2-sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_0c588d47-9a8c-49a6-86c0-8e861c581df7"
+id="sch.2-sec.1-he"><b>Definitions</b></heading></head>
+<block><txt break.before="1">In this Schedule:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_113099a5-0d91-4bfb-bdd7-221946a17313"
+id="sch.2-def.commencement"><b><i>commencement</i></b></defterm> means the
+commencement of section 4.</txt></block></deflist>
+</block></level>
+
+
+<level type="clause" id="sch.2-sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b739e7f5-9bff-4376-8419-d4ae442b1bab"></attrib>
+<attrib name="id" value="sch.2-sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_0075123d-1d05-40b9-8283-cd1f3d5f9c5f"
+id="sch.2-sec.2-he"><b>Continuing legal entity</b></heading></head>
+<block><txt break.before="1">Nothing in this Act affects:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2e09a72f-b172-47f7-bb55-8615fe39e1e5" id="sch.2-sec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the identity of AMP, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_96b23fdf-3dfc-4c13-91cb-a025366421c8" id="sch.2-sec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">its continuation as a body corporate by the
+<legref jurisd="NSW" type="act" check="unknown"><name
+emphasis="yes"><i>Australian Mutual Provident Society&#8217;s Act
+1910</i></name></legref>.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sch.2-sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d7e4b6ac-5443-49f8-86ad-8043dd2af93c"></attrib>
+<attrib name="id" value="sch.2-sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_ff3d4633-3fe6-4832-8c4c-4b6d09b8ce26"
+id="sch.2-sec.3-he"><b>Old by-laws of no further effect</b></heading></head>
+<block><txt break.before="1">The by-laws of AMP, as in force immediately
+before the commencement, cease to be by-laws of AMP on the
+commencement.</txt></block></level>
+
+
+<level type="clause" id="sch.2-sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_73900320-19c3-45d2-8613-83ef76390d85"></attrib>
+<attrib name="id" value="sch.2-sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_efeac1c2-6e76-4d32-a214-9d58c812f12e"
+id="sch.2-sec.4-he"><b>Membership of AMP continued</b></heading></head>
+<block><txt break.before="1">Any person who was a member immediately before
+the commencement shall, on the commencement, continue to be a member of AMP,
+but thereafter the person&#8217;s membership and the continuance of that
+membership are subject to the by-laws.</txt></block></level>
+
+
+<level type="clause" id="sch.2-sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e6ebd36f-3add-41d3-a129-9b86d4c688a9"></attrib>
+<attrib name="id" value="sch.2-sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_dd629bc2-26da-49a0-8310-e2071a16393e"
+id="sch.2-sec.5-he"><b>Directors and other officers</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5caa9710-15dd-4378-bed4-623693cae7b8"></attrib>
+<attrib name="id" value="sch.2-sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Any person who:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_70738c21-a16d-4c08-8b43-b219a3ce28b4" id="sch.2-sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">was appointed a director or other officer of AMP
+before the commencement, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6e6290ae-b213-425c-8e58-7de65e089c7f" id="sch.2-sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">held that position immediately before the
+commencement,</txt></block></li></list>
+
+<txt break.before="1">shall be taken to have been appointed in accordance with
+the Code and the by-laws of AMP (as in force on the commencement) as if the
+Code applied to AMP, and the by-laws were in force, at the time of the
+appointment.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_662c81c4-7eb8-45e1-8449-40d672785c6f"></attrib>
+<attrib name="id" value="sch.2-sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such person shall continue to hold that
+position subject to:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1a655df2-05e8-4e61-a79c-0543b617fb70" id="sch.2-sec.5-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Code and the Code regulations,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a0ced56d-2e3a-486d-8f91-a2fa81a5a456" id="sch.2-sec.5-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the by-laws of AMP.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sch.2-sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c7941a94-5318-4d9d-9440-3e090be59f77"></attrib>
+<attrib name="id" value="sch.2-sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_8ceb25ae-fc8b-40fe-a110-96d04938abde"
+id="sch.2-sec.6-he"><b>Auditors</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_328449ba-7085-49d8-82b9-df29b8f2d98c"></attrib>
+<attrib name="id" value="sch.2-sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Any person who:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1b986932-041e-48b5-8f45-d5a10d2a1292" id="sch.2-sec.6-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">was appointed an auditor of AMP before the
+commencement, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_db562dee-f3cb-40e1-a11f-d49a3085e058" id="sch.2-sec.6-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">held that position immediately before the
+commencement,</txt></block></li></list>
+
+<txt break.before="1">shall be taken to have been appointed in accordance with
+the Code and the by-laws of AMP (as in force on the commencement) as if the
+Code applied to AMP, and the by-laws were in force, at the time of the
+appointment.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7fa9ddb5-9c9e-424b-9a58-eef54da2835c"></attrib>
+<attrib name="id" value="sch.2-sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any such person shall continue to hold that
+position subject to:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6b7e04c7-cdcc-4790-bec4-26d305c3831e" id="sch.2-sec.6-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Code and the Code regulations,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a3b67020-d6e1-480c-9f6d-528ca80ce763" id="sch.2-sec.6-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the by-laws of AMP.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sch.2-sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_593d8cd3-4caf-4c71-984f-1fead34d7029"></attrib>
+<attrib name="id" value="sch.2-sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_decb8ffe-e677-443b-8a37-d20935240ceb"
+id="sch.2-sec.7-he"><b>Meetings</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_98ff0e27-4020-4493-a3f6-a73e7511848f"></attrib>
+<attrib name="id" value="sch.2-sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The last annual meeting held before the
+commencement under the by-laws of AMP (as in force at the time of that
+meeting) shall be taken to have been an annual general meeting for the
+purposes of the Code and the by-laws of AMP as in force on the
+commencement.</txt></block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_70031b99-1798-4eff-bdc6-afc045aa7b2b"></attrib>
+<attrib name="id" value="sch.2-sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Any meeting that had been adjourned under the
+by-laws of AMP (as in force at the time of the adjournment) and not reconvened
+before the commencement shall be taken to be an adjourned meeting for the
+purposes of the Code and the by-laws as in force on the
+commencement.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sch.2-sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_675f5bdc-3233-454f-835b-285bfccfe024"></attrib>
+<attrib name="id" value="sch.2-sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_9d83f32f-ea02-4855-b22a-2c7a6396cb7a"
+id="sch.2-sec.8-he"><b>Registered office and office
+hours</b></heading></head>
+
+<tier type="subclause" id="sch.2-sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7d2bc1d0-3f3d-40ef-b34c-1f978832bb5c"></attrib>
+<attrib name="id" value="sch.2-sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">On, or as soon as practicable after, the
+commencement, AMP:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_36bac2ed-a5e8-47e5-b720-fe5f4125b840" id="sch.2-sec.8-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">shall lodge with the Corporate Affairs Commission
+notice of the proposed registered office of AMP, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6d2b9c6a-0726-46b6-84c3-a8243a65f0b7" id="sch.2-sec.8-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">may lodge with the Commission notice of the hours
+(being not less than 3) between 9 am and 5 pm each day (Saturdays, Sundays and
+holidays excepted) during which the registered office of AMP is to be open and
+accessible to the public.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_be69353c-7ba0-411e-9d87-58b505a63325"></attrib>
+<attrib name="id" value="sch.2-sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The notices shall:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3d297d8a-b5f6-4485-b881-00fe306db10b" id="sch.2-sec.8-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">be in the forms prescribed in accordance with the
+Code for the purposes of section 217 (1) and (2) of the Code, respectively,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_337594b3-563c-4549-bf8d-9f3b42f9d550" id="sch.2-sec.8-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">comply with section 530A of the
+Code.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sch.2-sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0bdfdfa0-d173-40f9-b3df-603464190c38"></attrib>
+<attrib name="id" value="sch.2-sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Corporate Affairs Commission is authorised to
+accept notices lodged under this clause.</txt></block></tier>
+</level>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_78f2a52a-44c1-4f44-9865-f0f4358c3656"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_4d3c5aea-4ff6-48af-a569-5b10542b91a6"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref refid="act-1988-047" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Australian Mutual Provident
+Society Act 1988</i></name> No 47</legref>. Assented to 6.9.1988. Date of
+commencement, secs 1 and 2 excepted, 16.9.1988, sec 2 (2) and GG No 145 of
+16.9.1988, p 4834. This Act has been amended as follows:</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_3a3b7efa-6f88-40fc-a805-d8e147e74ff0" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_ca9df6ee-453b-4be0-a244-76490f99f440" id="ed-tbl-tblr">
+<entry colname="1" guid="_d16d1cbb-19c7-4c0d-a89d-dc0300a61fe5"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1996</b></txt></entry>
+<entry colname="2" guid="_22c69268-61be-4845-b798-b98ec2e3f65c"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 30</txt></entry>
+<entry colname="3" guid="_6ad97a82-08c8-4051-8e66-c15a89932f08"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act 1996</i></name></legref>. Assented to 21.6.1996.</txt>
+<txt break.before="1">Date of commencement of the provision of Sch 1 relating
+to the <legref refid="act-1988-047" jurisd="NSW" type="act"
+check="unknown"><name emphasis="yes"><i>Australian Mutual Provident Society
+Act 1988</i></name></legref>, assent, sec 2 (2).</txt></block></entry></row>
+
+
+<row guid="_63ed8b8a-b126-4a49-bb5d-61cddc56b3f1" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_d29c2a30-9f8e-45ea-b5e9-803f5271eae2"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>1997</b></txt></entry>
+<entry colname="2" guid="_dceeeceb-d827-418a-862d-8962c5824a07"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 56</txt></entry>
+<entry colname="3" guid="_98030d47-d9e5-41e9-b460-f5c7dbbbca46"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref refid="act-1997-056" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Australian Mutual Provident
+Society (Demutualisation and Reconstruction) Act 1997</i></name></legref>.
+Assented to 2.7.1997.</txt>
+<txt break.before="1">Date of commencement, 11.8.1997, sec 2 and GG No 88 of
+8.8.1997, p 6087.</txt></block></entry></row>
+
+
+<row guid="_998c31c1-343e-43ac-97be-3e5476113502" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_34e69cc3-e718-4f9c-b527-36c8ef491232"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>2003</b></txt></entry>
+<entry colname="2" guid="_2ef21e3f-f5ef-43b1-9571-0a4f8f9362ea"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 82</txt></entry>
+<entry colname="3" guid="_5235a5f7-23e5-4432-b397-ae461a238d55"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref refid="act-2003-082" jurisd="NSW"
+type="act" check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act (No 2) 2003</i></name></legref>. Assented to
+27.11.2003.</txt>
+<txt break.before="1">Date of commencement of Sch 3, assent, sec 2
+(1).</txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_ee4eed0c-13e8-46e8-b71e-7f58e6191841"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_e5750e01-3cb0-4959-b3e1-e620e69f8ddc" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_d326b4f1-acd0-452b-a419-312e933aae74" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_0679540b-04fa-4520-9534-288a737de598"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 2</txt></entry>
+<entry colname="2" guid="_0b847213-eb1b-48d6-a29b-dae481706ebe"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 1997 No 56, Sch 1
+[1].</txt></entry></row>
+
+
+<row guid="_757b2dfa-ecde-4223-a061-0446c3c96a5a" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_45b6de1d-77e5-4954-baa3-f2392f1a39a8"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 10</txt></entry>
+<entry colname="2" guid="_39f7d02a-f47c-42e3-9e2f-200feecf1aac"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 1997 No 56, Sch 1
+[2].</txt></entry></row>
+
+
+<row guid="_25097f5a-1aab-4d0b-ac10-caf464eb3802" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_7efee203-7ebd-42ac-a89d-6d4e144ca471"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 11</txt></entry>
+<entry colname="2" guid="_aad504f3-7285-4b6d-b102-5633c7ef2cb9"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Am 1997 No 56, Sch 1
+[3].</txt></entry></row>
+
+
+<row guid="_82fb4f53-00e5-4d6e-839e-0a6de7b638ad" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_29dca00b-25a0-4657-99bb-9eaee036b0ca"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 12</txt></entry>
+<entry colname="2" guid="_75c51bbf-5414-4475-89d1-08884d5f2cf2"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Am 1997 No 56, Sch 1
+[4] [5].</txt></entry></row>
+
+
+<row guid="_5c03d0b1-d4ad-402a-8a87-bc958d9971c4" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_96ea97fa-a206-455c-a856-0771874cff81"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 13</txt></entry>
+<entry colname="2" guid="_c80a11d9-b436-44ab-9b31-618944fc504a"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Am 1996 No 30, Sch
+1.</txt></entry></row>
+
+
+<row guid="_b315785d-bfec-466e-b90f-d00e35da99a3" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_95f24814-2699-4d72-8324-2972480cc119"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 14</txt></entry>
+<entry colname="2" guid="_164ddf59-651f-4975-8a1e-af36530397ed"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Rep 2003 No 82, Sch
+3.</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>

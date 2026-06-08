@@ -1,0 +1,2772 @@
+<?xml version="1.0"?>
+<!DOCTYPE exdoc PUBLIC "-//NSWPCO//DTD Ldds Exchange XML//EN" "exchangeXML.dtd">
+
+
+<exdoc
+id="act-1987-196"
+title="Wilderness Act 1987"
+year="1987"
+number="196"
+enact.or.made.date="1987-12-04"
+first.valid.date="2018-07-01"
+source="NSW Parliamentary Counsel"
+doc.class="other"
+source.dtd="-//NSWPCO//DTD Ldds Act//EN"
+>
+
+<metadata class="act">
+<metacontent class="year.passed">1987</metacontent>
+<metacontent class="year.assent">1987</metacontent>
+<metacontent class="publication.date">2025-11-13</metacontent>
+<metacontent class="type">act</metacontent>
+<metacontent class="act.type">publicgeneral</metacontent>
+<metacontent class="print.type">act.reprint</metacontent>
+<metacontent class="last.consol.amend.id">act-2017-017</metacontent>
+<metacontent class="in.force">allinforce</metacontent>
+<metacontent class="id">act-1987-196</metacontent>
+<metacontent
+class="version.desc.id">172fcafe-24da-422b-9922-bfe3b88ee823</metacontent>
+<metacontent
+class="version.series.id">3b83fdda-e3f5-428a-ba35-aaad7115fcea</metacontent>
+<metacontent class="amending">none</metacontent></metadata>
+
+<parentattributes>
+<attrib name="title" value="Wilderness Act 1987"></attrib>
+<attrib name="year.passed" value="1987"></attrib>
+<attrib name="year.assent" value="1987"></attrib>
+<attrib name="no" value="196"></attrib>
+<attrib name="publication.date" value="2025-11-13"></attrib>
+<attrib name="type" value="act"></attrib>
+<attrib name="act.type" value="publicgeneral"></attrib>
+<attrib name="print.type" value="act.reprint"></attrib>
+<attrib name="last.consol.amend.id" value="act-2017-017"></attrib>
+<attrib name="first.valid.date" value="2018-07-01"></attrib>
+<attrib name="in.force" value="allinforce"></attrib>
+<attrib name="assent.date" value="1987-12-04"></attrib>
+<attrib name="id" value="act-1987-196"></attrib>
+<attrib name="version.desc.id"
+value="172fcafe-24da-422b-9922-bfe3b88ee823"></attrib>
+<attrib name="version.series.id"
+value="3b83fdda-e3f5-428a-ba35-aaad7115fcea"></attrib>
+<attrib name="amending" value="none"></attrib></parentattributes>
+
+
+<content type="coverdata">
+
+<tier type="statusrecord" id="cd-status">
+<parentattributes>
+<attrib name="guid" value="_c597f931-8619-44fd-b4be-999be061dcea"></attrib>
+<attrib name="id" value="cd-status"></attrib></parentattributes>
+
+<head><heading guid="_8b55b7f6-d928-4d3d-a20c-5fb089f5c519"
+id="cd-status-he"><b>See also&#8212;</b></heading></head>
+<block><txt break.before="1"><legref type="bill" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Environment and Water Legislation
+Amendment Bill 2025</i></name></legref></txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>whole Act (except s
+2):</b> Am 2010 No 38, Sch 3.14 [1] (&#8220;Director&#8221; omitted wherever
+occurring, &#8220;Director-General&#8221; inserted instead).</txt></content>
+</content>
+
+
+<content type="front">
+
+<tier type="longtitle" id="frnt-lt">
+<parentattributes>
+<attrib name="guid" value="_9392d044-5d4e-4b16-9d31-02ced48d3c6b"></attrib>
+<attrib name="id" value="frnt-lt"></attrib></parentattributes>
+
+<block><txt break.before="1">An Act to provide for the identification of
+wilderness and the protection and management of wilderness areas in the State;
+and for other purposes.</txt></block></tier>
+</content>
+
+
+<content type="body">
+
+<level type="part" id="pt.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_a3ed2643-ea66-4cb5-961c-fc49540e9aa4"></attrib>
+<attrib name="id" value="pt.1"></attrib></parentattributes>
+
+<head>
+<no><b>Part 1</b></no><heading guid="_0ab5f067-593e-40ec-a402-a879935aa3b4"
+id="pt.1-he"><b>Preliminary</b></heading></head>
+
+<level type="clause" id="sec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_128c987a-8f02-42e3-9b3b-96d7c8386dee"></attrib>
+<attrib name="id" value="sec.1"></attrib></parentattributes>
+
+<head>
+<no>1</no><heading guid="_2ba52d60-8a93-4418-9a03-03985a936358"
+id="sec.1-he"><b>Name of Act</b></heading></head>
+<block><txt break.before="1">This Act may be cited as the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1987-196"><name
+emphasis="yes"><i>Wilderness Act
+1987</i></name></legref>.</txt></block></level>
+
+
+<level type="clause" id="sec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7dc8e43c-2bc4-47df-b913-d0f139f74bf0"></attrib>
+<attrib name="id" value="sec.2"></attrib></parentattributes>
+
+<head>
+<no>2</no><heading guid="_6bb17686-1d5d-421e-bdc2-a460f0021f83"
+id="sec.2-he"><b>Definitions</b></heading></head>
+
+<tier type="subclause" id="sec.2-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0ba66b24-ab54-4f9b-807a-e85dbc3017ab"></attrib>
+<attrib name="id" value="sec.2-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In this Act:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_e4bbca6f-49a7-4136-8676-4451d3c4b32f"
+id="sec.2-ssec.1-def.conservationagreement"><b><i>conservation
+agreement</i></b></defterm> has the same meaning as it has in the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1974-080"><name
+emphasis="yes"><i>National Parks and Wildlife Act
+1974</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_90118e2b-445c-47ae-ba18-700c7c82d09f"
+id="sec.2-ssec.1-def.conservationarea"><b><i>conservation
+area</i></b></defterm> has the same meaning as it has in the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1974-080"><name
+emphasis="yes"><i>National Parks and Wildlife Act
+1974</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_7adbcc96-bf9b-4b33-9c3a-af6fde04e9e3"
+id="sec.2-ssec.1-def.Council"><b><i>Council</i></b></defterm> means the
+National Parks and Wildlife Advisory Council constituted under the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1974-080"><name
+emphasis="yes"><i>National Parks and Wildlife Act
+1974</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_21e5c1a9-de8d-4614-a9b6-7ec0a354a780"
+id="sec.2-ssec.1-def.development"><b><i>development</i></b></defterm>, in
+relation to a wilderness area, means:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f4bb895a-0558-4c0a-8909-1b7b91fbd3ef" id="sec.2-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the erection of a building in that
+area,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ae39c94b-7c82-4844-b114-c39ab46686d8" id="sec.2-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the carrying out of a work in, on, over or under
+that area,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0e00254e-5f69-4943-af17-4e4723679e6f" id="sec.2-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the use of that area or of a building or work in
+that area,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6e0f5223-5311-44c2-8892-65ebc8c3472b" id="sec.2-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">the subdivision of that area,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4fd42310-b456-40f6-8a2e-cdc4ead15b5e" id="sec.2-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">the clearing of vegetation in that
+area.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_924b25bd-9bdc-47a3-ba19-fbc730a49f1e"
+id="sec.2-ssec.1-def.DirectorGeneral"><b><i>Director-General</i></b></defterm>
+means the Director-General of the Department of Environment, Climate Change
+and Water.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_73d5f349-9c6e-4d20-9dcc-bd313e4b1c8b"
+id="sec.2-ssec.1-def.statutoryauthority"><b><i>statutory
+authority</i></b></defterm> means:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ec3d1f23-b929-4f73-b0e5-05cf53827f8d" id="sec.2-ssec.1-para1.a-oc.2">
+<no>(a)</no>
+<block><txt break.before="1">a Government Department,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_67aef935-82b0-4067-a1ce-f253c911976a" id="sec.2-ssec.1-para1.b-oc.2"
+status="repealed">
+<no>(b)</no>
+<repealed><repealedtxt></repealedtxt></repealed>
+</li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f8ff9924-141b-48fc-addf-12c619531820" id="sec.2-ssec.1-para1.c-oc.2">
+<no>(c)</no>
+<block><txt break.before="1">a council, a county council or a joint
+organisation within the meaning of the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1993-030"><name emphasis="yes"><i>Local Government
+Act 1993</i></name></legref>, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_05863730-d834-4107-9949-65ef119c062f" id="sec.2-ssec.1-para1.d-oc.2">
+<no>(d)</no>
+<block><txt break.before="1">any other body constituted by or under an
+Act.</txt></block></li></list>
+</block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_6694093c-bb7b-44c2-9f07-64a3674bde50"
+id="sec.2-ssec.1-def.wildernessarea"><b><i>wilderness area</i></b></defterm>
+means lands (including subterranean lands) declared to be a wilderness area
+under this Act or the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1974-080"><name emphasis="yes"><i>National Parks and Wildlife Act
+1974</i></name></legref>.</txt></block>
+<block><txt break.before="1"><defterm type="definition"
+guid="_f848575f-b234-46e4-a261-286dff40dd84"
+id="sec.2-ssec.1-def.wildernessprotectionagreement"><b><i>wilderness
+protection agreement</i></b></defterm> means an agreement entered into under
+section 10.</txt></block></deflist>
+</block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_87125ec1-de57-48f8-b618-44ec1cb9d369"></attrib>
+<attrib name="id" value="sec.2-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A reference in this section:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_3b4d4460-f21e-4c47-b8e9-49c0bf8dfaeb" id="sec.2-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to the erection of a building includes a
+reference to the rebuilding of, the making of structural alterations to, or
+the enlargement or extension of a building or the placing or relocating of a
+building on land,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fa655ce2-4575-44e0-b56d-cecafb45170a" id="sec.2-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to the carrying out of a work includes a
+reference to the rebuilding of, the making of alterations to, or the
+enlargement or extension of, a work, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fc794ca2-8211-48c8-b535-a1919d99e60d" id="sec.2-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to the subdivision of land is a reference to the
+subdivision of land as defined by section 4B of the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1979-203"><name
+emphasis="yes"><i>Environmental Planning and Assessment Act
+1979</i></name></legref>.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.2-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ce12d104-131e-4b5f-be19-a53e568c3e18"></attrib>
+<attrib name="id" value="sec.2-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In this Act:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_20cd4875-7908-439e-b6a4-744ff8976675" id="sec.2-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a reference to a function includes a reference to
+a power, authority and duty, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_270269e0-246d-427e-9d4d-a2a26b397c85" id="sec.2-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">a reference to the exercise of a function
+includes, where the function is a duty, a reference to the performance of the
+duty.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 2:</b> Am 1991 No 55,
+Sch 2 (1); 1995 No 11, Sch 1; 1996 No 139, Sch 2.36 (am 1997 No 55, Sch 2.18
+[1]); 1997 No 152, Sch 4.47; 2009 No 56, Sch 2.77 [1]; 2010 No 38, Sch 3.14
+[2]; 2017 No 65, Sch 2.34.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_baebd7c9-4488-4d05-9f88-8e515bbb7d0f"></attrib>
+<attrib name="id" value="sec.3"></attrib></parentattributes>
+
+<head>
+<no>3</no><heading guid="_220b3e71-624a-4610-aa69-be0c1743165c"
+id="sec.3-he"><b>Objects of Act</b></heading></head>
+<block><txt break.before="1">The objects of this Act are:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9a3ba7f0-2871-428b-92a4-068316f50898" id="sec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to provide for the permanent protection of
+wilderness areas,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0149c07a-64f0-4681-bc30-ea89bac23a24" id="sec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to provide for the proper management of
+wilderness areas, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fdaf2736-90d9-4c57-8a2a-e0b53097c8cf" id="sec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to promote the education of the public in the
+appreciation, protection and management of
+wilderness.</txt></block></li></list>
+</block></level>
+
+
+<level type="clause" id="sec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a97c0a11-ad22-4eb7-9dbe-b9e7463b5efe"></attrib>
+<attrib name="id" value="sec.4"></attrib></parentattributes>
+
+<head>
+<no>4</no><heading guid="_a38fee73-ad70-4569-be29-4235e28602d5"
+id="sec.4-he"><b>Act binds Crown</b></heading></head>
+
+<tier type="subclause" id="sec.4-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_eebc7bf1-64af-487e-a5b9-8f4951de2456"></attrib>
+<attrib name="id" value="sec.4-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This Act binds the Crown in right of New South
+Wales and, in so far as the legislative power of Parliament permits, the Crown
+in all its other capacities.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.4-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ebbf3b6d-d1c7-4cf4-88e9-351d183d5cdf"></attrib>
+<attrib name="id" value="sec.4-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Nothing in this Act renders the Crown liable to
+be prosecuted for an offence.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_2dc867f8-6f54-4874-80f6-c410748d4662"></attrib>
+<attrib name="id" value="pt.2"></attrib></parentattributes>
+
+<head>
+<no><b>Part 2</b></no><heading guid="_af46e1cb-60f9-410c-b912-6f9c43a22cf1"
+id="pt.2-he"><b>Functions of Director-General etc relating to
+wilderness</b></heading></head>
+
+<level type="clause" id="sec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0f680da8-400d-42f1-b6bf-17012a1f19a7"></attrib>
+<attrib name="id" value="sec.5"></attrib></parentattributes>
+
+<head>
+<no>5</no><heading guid="_38a5785a-aea8-4d3d-900a-6c1e6dbe296a"
+id="sec.5-he"><b>Functions of Director-General and
+Service</b></heading></head>
+
+<tier type="subclause" id="sec.5-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e40d59d0-958c-4c6c-901b-1627e8fd2e77"></attrib>
+<attrib name="id" value="sec.5-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Director-General has the following
+functions:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ec06d144-8488-4ad1-ada7-29267de12db3" id="sec.5-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to investigate and identify areas of land that
+are wilderness or are suitable to be declared as wilderness areas or for
+addition to existing wilderness areas,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_760910ca-cbb2-4221-ac60-1f235d9336e5" id="sec.5-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to consider and assess proposals made to the
+Director-General under this Act relating to wilderness, wilderness areas or
+possible wilderness areas,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_633f528f-73b0-4c62-b86c-373c614a81a8" id="sec.5-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to promote such educational activities as the
+Director-General considers necessary in respect of wilderness or wilderness
+areas,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_c79b5ca5-8f09-4356-b38b-8d569e1e0da0" id="sec.5-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">in the case of each wilderness area, but subject
+to the terms of any wilderness protection agreement or conservation agreement
+relating to the area&#8212;to arrange for the carrying out of such works as
+the Director-General considers necessary in connection with the protection,
+management and maintenance of the area,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9825e539-4862-465b-aefa-a11c4ff4d6a1" id="sec.5-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">to undertake such scientific research as the
+Director-General considers necessary in connection with the protection,
+management and use of wilderness areas,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9053727c-3c19-4116-bb9a-92025d5f5da6" id="sec.5-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">to enter into negotiations on behalf of the
+Minister in connection with the protection, management, use or declaration of
+existing or proposed wilderness areas,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_cdeac08b-d499-44fb-be64-8c7669c291e4" id="sec.5-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">to take such other action as the Director-General
+considers necessary in connection with the carrying out of directions by the
+Minister relating to existing or proposed wilderness
+areas.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.5-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_72726e01-cb95-419d-aa39-f42732f56919"></attrib>
+<attrib name="id" value="sec.5-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The National Parks and Wildlife Service shall
+carry out such works and activities as the Minister may direct either
+generally or in any particular case in connection with wilderness
+areas.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8cfd5f99-b2a2-4c8d-95ff-6fa84aedceef"></attrib>
+<attrib name="id" value="sec.6"></attrib></parentattributes>
+
+<head>
+<no>6</no><heading guid="_86adb1a1-dbc3-4d54-9e98-40896b8e43d8"
+id="sec.6-he"><b>Identification of wilderness</b></heading></head>
+
+<tier type="subclause" id="sec.6-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4c46b446-0545-476c-889e-9218c7fb2e4e"></attrib>
+<attrib name="id" value="sec.6-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">An area of land shall not be identified as
+wilderness by the Director-General unless the Director-General is of the
+opinion that:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0799eca9-6133-4dad-8627-53a023ea6f59" id="sec.6-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the area is, together with its plant and animal
+communities, in a state that has not been substantially modified by humans and
+their works or is capable of being restored to such a
+state,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a9aec69e-5532-484e-88be-69e728fc19bb" id="sec.6-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the area is of a sufficient size to make its
+maintenance in such a state feasible, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_46f1d4b8-92be-4fee-a354-61ffea7463da" id="sec.6-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">the area is capable of providing opportunities
+for solitude and appropriate self-reliant
+recreation.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.6-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_9376e23a-65d7-43e4-a186-f64cd2936fcd"></attrib>
+<attrib name="id" value="sec.6-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In forming an opinion under subsection (1) the
+Director-General may consider any relevant circumstance, including:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f98c5fcf-99a5-48a3-9f8b-be610f7d2d49" id="sec.6-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the period of time within which the area of land
+could reasonably be restored to a substantially unmodified
+state,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_539312fa-7019-4d5d-b1d4-cc2c5c899f41" id="sec.6-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">whether, despite development which would
+otherwise render it unsuitable, the area of land is needed for the management
+of an existing or proposed wilderness area, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_043055b1-9011-4f9d-b452-e56afc69fb79" id="sec.6-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any written representations received by the
+Director-General from any person (including a statutory authority) as to
+whether the area of land should be identified as
+wilderness.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_44acfcb4-bd7b-47ab-8869-7e817deedb9e"></attrib>
+<attrib name="id" value="sec.7"></attrib></parentattributes>
+
+<head>
+<no>7</no><heading guid="_4bd2efe7-0618-4521-b334-a8383e697eff"
+id="sec.7-he"><b>Wilderness proposals</b></heading></head>
+
+<tier type="subclause" id="sec.7-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dd31c35a-f850-4735-a682-3583a0ad6aa2"></attrib>
+<attrib name="id" value="sec.7-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Any person, body or organisation (including a
+statutory authority) may submit to the Director-General a written proposal
+that an area of land be identified as wilderness, declared to be a wilderness
+area or added to an existing wilderness area.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_759b0c8e-3fa2-4fa5-b9b9-24dc14bf328b"></attrib>
+<attrib name="id" value="sec.7-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A proposal may be made by a person, body or
+organisation even though it is not the owner of the area of land
+concerned.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cf94b182-e4f7-4d61-bf95-7bd9de1754a9"></attrib>
+<attrib name="id" value="sec.7-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">On receipt of any such proposal that is not made
+by the owner of the area of land concerned, the Director-General shall notify
+the owner of the area.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.7-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_36a98942-412e-4e52-9fef-120f5e01dc07"></attrib>
+<attrib name="id" value="sec.7-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Director-General shall, not later than 2
+years after receiving any such proposal, consider the proposal and advise the
+Minister in relation to the proposal.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="part" id="pt.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_93c2b260-0af4-4f19-98cb-78fe2baaaaab"></attrib>
+<attrib name="id" value="pt.3"></attrib></parentattributes>
+
+<head>
+<no><b>Part 3</b></no><heading guid="_9fdb3596-f2db-4c47-b196-02f17b3fd388"
+id="pt.3-he"><b>Wilderness areas</b></heading></head>
+
+<level type="division" id="pt.3-div.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_58f54da5-ec87-4601-a9e2-df5c24b24952"></attrib>
+<attrib name="id" value="pt.3-div.1"></attrib></parentattributes>
+
+<head>
+<no><b>Division 1</b></no><heading
+guid="_288f11db-cc57-4d1b-b72e-a561bf21e00c" id="pt.3-div.1-he"><b>General
+provisions</b></heading></head>
+
+<level type="clause" id="sec.8">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fe729751-5c3a-48ef-a4e6-f147f1362f24"></attrib>
+<attrib name="id" value="sec.8"></attrib></parentattributes>
+
+<head>
+<no>8</no><heading guid="_7000fff0-1500-489c-9d9c-90278b9661cb"
+id="sec.8-he"><b>Declaration of wilderness areas</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.8-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_83015d72-b3f8-47f7-ad10-64cee3e5a0f1"></attrib>
+<attrib name="id" value="sec.8-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister shall, by notification published in
+the Gazette, declare an area of land (which may, but need not, be restricted
+to land that is wholly or predominantly subterranean land):</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b7097bed-a59c-4ac0-aea9-ffd2b16f68f9" id="sec.8-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">subject to a wilderness protection agreement,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8e206126-b334-4b07-b8c5-7ef5f46b7390" id="sec.8-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">subject to a conservation agreement referred to
+in section 16,</txt></block></li></list>
+
+<txt break.before="1">to be a wilderness area.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.1A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8c859dfc-f99f-45db-886a-6ab2e63b2549"></attrib>
+<attrib name="id" value="sec.8-ssec.1A"></attrib></parentattributes>
+
+<head>
+<no>(1A)</no></head>
+<block><txt break.before="1">The Minister may, by notification published in
+the Gazette, declare any lands reserved or dedicated under the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1974-080"><name
+emphasis="yes"><i>National Parks and Wildlife Act 1974</i></name></legref> to
+be a wilderness area.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.1B">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cbe1ed94-5bc3-4eed-8a6d-ee4fece6339e"></attrib>
+<attrib name="id" value="sec.8-ssec.1B"></attrib></parentattributes>
+
+<head>
+<no>(1B)</no></head>
+<block><txt break.before="1">The Minister may not declare lands referred to in
+subsection (1A) to be a wilderness area unless the Director-General has
+identified those lands as wilderness in accordance with this
+Act.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.8-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_551589b3-e0f2-4c6f-b144-529e567f60be"></attrib>
+<attrib name="id" value="sec.8-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A notification under subsection (1) shall be
+published not later than 28 days after the agreement takes effect or at such
+later time as may be provided by the agreement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_653f4248-f258-4546-a291-bf7be9f9df4b"></attrib>
+<attrib name="id" value="sec.8-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A declaration relating to an area of land subject
+to a wilderness protection agreement may be varied by a further notification
+published in the Gazette but shall not be revoked except by an Act of
+Parliament.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b238abcb-dd59-4ee3-a376-018295798927"></attrib>
+<attrib name="id" value="sec.8-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A declaration relating to a conservation area may
+be varied or revoked by a further notification published in the Gazette and a
+copy of any notification revoking such a declaration shall be laid before each
+House of Parliament within the prescribed time after its
+publication.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.4A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e806eb3a-3c3b-4769-813c-11c5d90e7635"></attrib>
+<attrib name="id" value="sec.8-ssec.4A"></attrib></parentattributes>
+
+<head>
+<no>(4A)</no></head>
+<block><txt break.before="1">A declaration under subsection (1A) may be varied
+by a further notification by the Minister published in the Gazette but must
+not be revoked except by an Act of Parliament.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cc9d52c4-17e0-4d11-ac93-2642c0bea584"></attrib>
+<attrib name="id" value="sec.8-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A declaration under this section does not, except
+as otherwise provided by any agreement under this Act, affect any existing
+interest in the area of land subject to the declaration.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.8-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_86ffe805-06d1-475c-82b8-e6a012aa432e"></attrib>
+<attrib name="id" value="sec.8-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">In this section:</txt>
+<deflist>
+<block><txt break.before="1"><defterm type="definition"
+guid="_409d155d-c14d-4cca-8dfa-fe8d60fa71b3"
+id="sec.8-ssec.6-def.interest"><b><i>interest</i></b></defterm> means any
+authority, authorisation, permit, lease, licence or occupancy, whether or not
+arising under an Act.</txt></block></deflist>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 8:</b> Am 1988 No 20,
+Sch 20; 1990 No 108 Sch 1; 1991 No 55, Sch 2 (2); 2009 No 56, Sch 2.77
+[2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.9">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a2c4db82-15f5-41d8-8588-648b71c3e565"></attrib>
+<attrib name="id" value="sec.9"></attrib></parentattributes>
+
+<head>
+<no>9</no><heading guid="_4c484511-49c2-4530-8e8f-8f5c49d91747"
+id="sec.9-he"><b>Management principles for wilderness
+areas</b></heading></head>
+<block><txt break.before="1">A wilderness area shall be managed so as:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_60ab738b-6f30-4f7a-abf3-cf06d45c04f4" id="sec.9-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to restore (if applicable) and to protect the
+unmodified state of the area and its plant and animal
+communities,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6137b3f4-2ba4-450e-9e55-05a709e73da5" id="sec.9-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to preserve the capacity of the area to evolve in
+the absence of significant human interference, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_770560a9-f67d-4b64-afda-8db79a7722e1" id="sec.9-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">to permit opportunities for solitude and
+appropriate self-reliant recreation (whether of a commercial nature or
+not).</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 9:</b> Am 2010 No 41,
+Sch 2.</txt></content>
+</level>
+</level>
+
+
+<level type="division" id="pt.3-div.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_5bb907b2-0a36-4ba4-b05d-4130893248ab"></attrib>
+<attrib name="id" value="pt.3-div.2"></attrib></parentattributes>
+
+<head>
+<no><b>Division 2</b></no><heading
+guid="_2c0bbc80-7be2-4bcf-8e55-920b4ab68c20" id="pt.3-div.2-he"><b>Wilderness
+protection agreements and conservation agreements</b></heading></head>
+
+<level type="clause" id="sec.10">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cf8457a3-5ac2-4358-bf7e-5f8fd8ebc5e8"></attrib>
+<attrib name="id" value="sec.10"></attrib></parentattributes>
+
+<head>
+<no>10</no><heading guid="_f310f130-2dda-4dd0-8b65-8af54bc425a6"
+id="sec.10-he"><b>Wilderness protection agreements</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.10-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3c8c998d-e95a-4aa7-a169-d3bb8611f7d4"></attrib>
+<attrib name="id" value="sec.10-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may enter into a wilderness
+protection agreement relating to land identified by the Director-General as
+wilderness:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0438d428-b902-4bac-98ed-ec8c2349fa78" id="sec.10-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">if the land is owned by, or (being land owned by
+the Crown) is under the control of, a statutory authority (not being a
+Government Department or Administrative Office)&#8212;with the statutory
+authority, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_533d0907-df0c-4acf-8fa9-bc68c12ee9a5" id="sec.10-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">if the land is owned by the Crown and is under
+the control of a Government Department or Administrative Office&#8212;with the
+responsible Minister.</txt></block></li></list>
+</block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.10-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_bbdffbc7-61a6-482d-bd7a-c82a73e56551"></attrib>
+<attrib name="id" value="sec.10-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister shall not enter into a wilderness
+protection agreement relating to land or an agreement varying such an
+agreement unless:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9724a7b7-938b-43cf-ac9b-8a2aed1462ae" id="sec.10-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">where the land is subject to a residential
+tenancy agreement or other lease, the tenant or the lessee has consented in
+writing to the agreement, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d0cd5566-f066-43ba-9df4-6b370eedcaae" id="sec.10-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">where the land is subject to a mortgage, charge
+or positive covenant, the mortgagee, chargee or person entitled to the benefit
+of the covenant has consented in writing to the
+agreement.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.2A">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8f916ced-04f7-43ec-aeae-b25f29df2a73"></attrib>
+<attrib name="id" value="sec.10-ssec.2A"></attrib></parentattributes>
+
+<head>
+<no>(2A)</no></head>
+<block><txt break.before="1">The Minister must not enter into a wilderness
+protection agreement relating to land owned by a Local Aboriginal Land Council
+unless the New South Wales Aboriginal Land Council has consented in writing to
+the agreement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3d614f21-6e94-40e8-b114-d151cae2aff6"></attrib>
+<attrib name="id" value="sec.10-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A statutory authority or Minister responsible for
+a statutory authority may enter into a wilderness protection agreement, and
+may carry out any functions under the agreement, despite the provisions of any
+Act whether enacted before or after the commencement of this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.10-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_784181b2-3db3-4e68-8391-3786b33735b4"></attrib>
+<attrib name="id" value="sec.10-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A reference in this section to land owned by the
+Crown does not include a reference to land held under the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-2016-058"><name
+emphasis="yes"><i>Crown Land Management Act 2016</i></name></legref> other
+than land so held by a statutory authority.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 10:</b> Am 2009 No 58,
+Sch 2.7; 2017 No 17, Sch 4.110 [1].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.11">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f8d81e31-150b-41b4-8389-ca267c080845"></attrib>
+<attrib name="id" value="sec.11"></attrib></parentattributes>
+
+<head>
+<no>11</no><heading guid="_52c3723f-3762-4d9a-aad9-b537c0967b6c"
+id="sec.11-he"><b>Exhibition of proposed agreements</b></heading></head>
+
+<tier type="subclause" id="sec.11-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_69efceec-46d7-4f11-a29e-6ee6f0532fe2"></attrib>
+<attrib name="id" value="sec.11-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">When a draft wilderness protection agreement has
+been prepared, the Minister shall, before entering into the agreement:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7eb7ca79-fa04-49ac-9c9b-9a46994324d0" id="sec.11-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">give public notice, in a form and manner
+determined by the Director-General, of the places at which, the dates on
+which, and the times during which, the draft agreement may be inspected by the
+public,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_26736f2c-030b-45f5-9c28-ad1fe6931c01" id="sec.11-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">publicly exhibit the draft agreement at the
+places, on the dates and during the times set out in the notice,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_40d3e9f1-4d71-4e23-b066-fd7c88eba523" id="sec.11-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">specify, in the notice, the period during which
+submissions may be made to the Minister.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cdba8350-f3af-41c2-ae02-7b3544c43533"></attrib>
+<attrib name="id" value="sec.11-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister shall cause a copy of the draft
+wilderness protection agreement to be forwarded to the
+Council.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7e43a99b-c1ce-485a-a5af-e259d1940ba1"></attrib>
+<attrib name="id" value="sec.11-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Any person may, during the period referred to in
+subsection (1) (c), make written submissions to the Minister about the draft
+agreement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.11-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_44c71b4e-ed01-4a2f-9c76-63a3afaa18d4"></attrib>
+<attrib name="id" value="sec.11-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Minister shall, before entering into the
+agreement, consider any submissions made under subsection (3) or by the
+Council.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.12">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c5a145a4-9757-43d3-8c44-c53097994283"></attrib>
+<attrib name="id" value="sec.12"></attrib></parentattributes>
+
+<head>
+<no>12</no><heading guid="_64d07696-58ab-4724-a9be-b6589ea9c649"
+id="sec.12-he"><b>Purpose and content of agreements</b></heading></head>
+
+<tier type="subclause" id="sec.12-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2c956149-51a7-4472-89cc-78007d24da00"></attrib>
+<attrib name="id" value="sec.12-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A wilderness protection agreement may contain
+terms, binding on a statutory authority and, if the statutory authority is a
+Government Department or an Administrative Office, on the Crown:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_df8e480a-ac2d-40f8-8196-69a033681f08" id="sec.12-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">restricting the use of the
+area,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_6ec6b451-e3e9-4536-8355-b417dc3e021b" id="sec.12-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">requiring the statutory authority or Crown to
+refrain from or not to permit specified activities in the
+area,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_5f1939a9-2698-47e7-82c1-9656e10bca66" id="sec.12-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">requiring the statutory authority or a person
+representing the Crown to carry out specified activities or to do specified
+things,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4cd55cb5-d52f-4674-99db-99fab120bcf5" id="sec.12-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">requiring the statutory authority or Crown to
+permit access to the area by specified persons,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_7907a7ab-9890-433a-b07c-3948e8754a4c" id="sec.12-ssec.1-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">without affecting the generality of paragraph
+(a), (b), (c) or (d), prohibiting, except where necessary for health or safety
+or essential management reasons or in emergencies, access to the area by motor
+vehicles, motor boats or other forms of transport,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1d4b36fc-4fd3-434c-8c39-4bd278a8d3ea" id="sec.12-ssec.1-para1.f">
+<no>(f)</no>
+<block><txt break.before="1">requiring the statutory authority or Crown to
+contribute towards costs incurred which relate to the area or the carrying out
+of functions under the agreement,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_d05d3150-0e3b-4b27-ba50-e44c30c9c90d" id="sec.12-ssec.1-para1.g">
+<no>(g)</no>
+<block><txt break.before="1">specifying the manner in which any money provided
+to the statutory authority or Crown under the agreement shall be
+applied,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_af63eeb7-5102-48d1-8e78-136afb1ac24f" id="sec.12-ssec.1-para1.h">
+<no>(h)</no>
+<block><txt break.before="1">requiring the statutory authority or Crown to
+repay money paid to it under the agreement if a specified breach of the
+agreement occurs, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_75647528-5f6d-4520-ad94-f5fc8a0f43e1" id="sec.12-ssec.1-para1.i">
+<no>(i)</no>
+<block><txt break.before="1">providing for any other matter relating to the
+protection of the area, including the implementation of any plan of management
+for the area.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_07492c19-aded-49db-a02d-5314d513412a"></attrib>
+<attrib name="id" value="sec.12-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A wilderness protection agreement may contain
+terms, binding on the Minister:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_65d3645b-81a1-477b-96c7-d3246e1e1c41" id="sec.12-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">requiring the Minister to provide financial
+assistance,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ed86132a-dd43-4bf4-8f11-2dfbf464f982" id="sec.12-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">requiring the Minister to provide technical
+advice,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2e736e56-6ec4-4421-b08c-08ae73cbe57c" id="sec.12-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">requiring the Minister to provide other
+assistance,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_52aa3e8e-42da-4e39-ae53-86a6ea86787a" id="sec.12-ssec.2-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">requiring the Minister to carry out specified
+activities or do specified things, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_0991d1c4-f89d-4113-8795-aca0754ad9a1" id="sec.12-ssec.2-para1.e">
+<no>(e)</no>
+<block><txt break.before="1">providing for any other matter relating to the
+protection of the area, including the implementation of any plan of management
+for the area.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.12-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_4b571c22-0235-4c68-9b40-3b38897212f8"></attrib>
+<attrib name="id" value="sec.12-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The terms of a wilderness protection agreement
+shall not be inconsistent with the principles set out in section 9 for the
+management of wilderness areas.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.13">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b8674e55-214d-4240-adcd-4de2edad0604"></attrib>
+<attrib name="id" value="sec.13"></attrib></parentattributes>
+
+<head>
+<no>13</no><heading guid="_86ff64d5-6208-42be-8449-c10a50eba94d"
+id="sec.13-he"><b>Duration and variation of agreements</b></heading></head>
+
+<tier type="subclause" id="sec.13-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e3ec404c-1a8e-49bf-86f4-56bb19226446"></attrib>
+<attrib name="id" value="sec.13-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A wilderness protection agreement shall have
+effect from a day, or on the happening of an event, specified in the
+agreement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0dbabaa6-d025-403a-ba95-a7abae97ad16"></attrib>
+<attrib name="id" value="sec.13-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">An agreement may be varied by a subsequent
+agreement between the parties to the agreement and any such subsequent
+agreement shall be exhibited and be subject to the same procedures as are
+provided for an original agreement by section 11 before it is entered
+into.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.13-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f7ea5ab0-58b6-40eb-a72e-63c63d4261a3"></attrib>
+<attrib name="id" value="sec.13-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">An agreement shall have effect until the
+declaration of the land subject to the agreement as a wilderness area is
+revoked.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.14">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cceaa018-0e41-42af-b010-3da095ba130c"></attrib>
+<attrib name="id" value="sec.14"></attrib></parentattributes>
+
+<head>
+<no>14</no><heading guid="_d3d7536b-9753-49a4-9345-de5dfae6acb2"
+id="sec.14-he"><b>Register of agreements</b></heading></head>
+
+<tier type="subclause" id="sec.14-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_87c2bfec-1419-41af-9d82-4aec8307177e"></attrib>
+<attrib name="id" value="sec.14-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Director-General shall keep a register
+containing copies of wilderness protection agreements as in force from time to
+time.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.14-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_35eca7e6-4f2a-488f-9157-b43313f8ff4a"></attrib>
+<attrib name="id" value="sec.14-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The register shall be open for public inspection
+during ordinary business hours, and copies of or extracts from the register
+shall be available, on payment of the fee fixed by the
+Director-General.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.15">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0e434d7c-54e7-4d1f-94c2-d6bbe1baa4ae"></attrib>
+<attrib name="id" value="sec.15"></attrib></parentattributes>
+
+<head>
+<no>15</no><heading guid="_b8e4fc65-dcb8-4866-a72a-8e56e0707a03"
+id="sec.15-he"><b>Proposals by statutory authorities affecting certain
+wilderness areas</b></heading></head>
+
+<tier type="subclause" id="sec.15-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7b9a606d-d76c-4f8d-a697-682eaf88f531"></attrib>
+<attrib name="id" value="sec.15-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A statutory authority shall not carry out
+development in a wilderness area subject to a wilderness protection agreement
+or a conservation agreement unless:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_94798edc-bcec-4e52-9cfb-fb3b34ca4be6" id="sec.15-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">it has given written notice of the proposed
+development to the Minister, any other party to the agreement, any statutory
+authority on behalf of which the agreement was entered into and, in the case
+of a conservation agreement, any successor in title to the owner who entered
+into the conservation agreement, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_15955bb0-0c5d-40cb-af61-fe909ffce92c" id="sec.15-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">it has received written notice from the Minister
+consenting to the development.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_339cd20d-fed7-4ea3-8a1e-60c45dabaf9a"></attrib>
+<attrib name="id" value="sec.15-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister may consent to the development only
+if:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4a99ee61-7537-4bca-a2a9-8714dd3b5ef6" id="sec.15-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the Minister is of the opinion that the proposed
+development will not adversely affect the area, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_50a33abd-9c09-4616-a57d-9711165b5d78" id="sec.15-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">in the case of an area subject to a wilderness
+protection agreement&#8212;the Minister responsible for the statutory
+authority which entered into the agreement, or on behalf of which the
+agreement was entered into, has consented to the
+development.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.15-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_c38876d2-26a0-45ed-8df4-3eec4060c920"></attrib>
+<attrib name="id" value="sec.15-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">In subsection (1), <defterm type="definition"
+guid="_077a37d3-95f8-4992-b1cb-5adf06a4ebdf"
+id="sec.15-ssec.3-def.statutoryauthority"><b><i>statutory
+authority</i></b></defterm> includes an authorised network operator under the
+<legref type="act" jurisd="NSW" check="unknown" refid="act-2015-005"><name
+emphasis="yes"><i>Electricity Network Assets (Authorised Transactions) Act
+2015</i></name></legref> but does not include the Soil Conservation Service or
+a statutory authority carrying out development in accordance with the terms of
+a wilderness protection agreement.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 15:</b> Am 2015 No 5,
+Sch 8.32.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.16">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7f6c7604-3d27-4dc8-93b9-943c20a4a6d3"></attrib>
+<attrib name="id" value="sec.16"></attrib></parentattributes>
+
+<head>
+<no>16</no><heading guid="_7643de93-089b-4763-a69b-9e1744590983"
+id="sec.16-he"><b>Additional provisions relating to conservation
+agreements</b></heading></head>
+
+<tier type="subclause" id="sec.16-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_14fe6d9b-03b9-4764-9f3b-ca62a5002aea"></attrib>
+<attrib name="id" value="sec.16-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">A conservation agreement may be entered into
+under the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1974-080"><name emphasis="yes"><i>National Parks and Wildlife Act
+1974</i></name></legref> in relation to an area of land identified by the
+Director-General as wilderness.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1cbe99ae-c752-4c85-81bb-40f498d570df"></attrib>
+<attrib name="id" value="sec.16-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In addition to any other terms it may contain, a
+conservation agreement relating to such an area of land may:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_f2cbc8bc-3a2b-4b8c-be84-975b745525bc" id="sec.16-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">prohibit, except where necessary for health or
+safety or essential management reasons or in emergencies, access to the area
+by motor vehicles, motor boats or other forms of transport,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_14263b9b-84c2-44f4-81a1-7bb0c8abd816" id="sec.16-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">provide for any other matter relating to the
+protection of the area.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.16-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_0d557eb0-28af-4987-811c-0345685b04c4"></attrib>
+<attrib name="id" value="sec.16-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The terms of such a conservation agreement shall
+not be inconsistent with the principles set out in section 9 for the
+management of wilderness areas.</txt></block></tier>
+</level>
+</level>
+
+
+<level type="division" id="pt.3-div.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_71f37bc9-3133-41be-ac1c-f325230fd0d0"></attrib>
+<attrib name="id" value="pt.3-div.3"></attrib></parentattributes>
+
+<head>
+<no><b>Division 3</b></no><heading
+guid="_1c8724e8-3aad-4629-98a5-f77290b6eb82" id="pt.3-div.3-he"><b>Plans of
+management for wilderness areas</b></heading></head>
+
+<level type="clause" id="sec.17">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_82bac03b-494a-444a-9eb5-1a0314b56b46"></attrib>
+<attrib name="id" value="sec.17"></attrib></parentattributes>
+
+<head>
+<no>17</no><heading guid="_30d11c71-d76d-49a4-af7e-6d5a0e2693b0"
+id="sec.17-he"><b>Plans of management for land subject to wilderness
+protection agreements</b></heading></head>
+
+<tier type="subclause" id="sec.17-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_fe78ac2b-518d-4ded-87b5-d4b0fe0d4f39"></attrib>
+<attrib name="id" value="sec.17-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Director-General shall from time to time
+cause a plan of management to be prepared for an area of land subject to or
+proposed to be made subject to a wilderness protection
+agreement.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_59a8bd8b-f47f-4f09-a47d-abfcb9ee648c"></attrib>
+<attrib name="id" value="sec.17-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">A plan of management shall not be inconsistent
+with the principles set out in section 9 for the management of wilderness
+areas.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.17-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_15e1ae5c-c3bc-4fed-a5dd-41b4ff036e4d"></attrib>
+<attrib name="id" value="sec.17-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A plan of management is not required to be
+prepared under this Act for an area of land if a plan of management is being
+or has been prepared under the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1974-080"><name emphasis="yes"><i>National Parks and Wildlife Act
+1974</i></name></legref> for that land.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 17:</b> Am 1989 No 85,
+Sch 1 (1).</txt></content>
+</level>
+
+
+<level type="clause" id="sec.18">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_efa59970-77dc-4265-b452-d9255591bbf6"></attrib>
+<attrib name="id" value="sec.18"></attrib></parentattributes>
+
+<head>
+<no>18</no><heading guid="_7b7a48c9-4e1b-4593-baad-ecba22274ca0"
+id="sec.18-he"><b>Adoption etc of plan of management for land subject to
+wilderness protection agreement</b></heading></head>
+
+<tier type="subclause" id="sec.18-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a4a3fdc0-3c40-401e-bd46-9e76b1f9528d"></attrib>
+<attrib name="id" value="sec.18-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">When a plan of management for an area of land
+subject to a wilderness protection agreement has been prepared, the
+Director-General shall refer the plan of management to the Council for its
+consideration and advice.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_caba37fd-82b4-4dee-828a-52dd0fee4f62"></attrib>
+<attrib name="id" value="sec.18-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Director-General shall submit the plan of
+management to the Minister together with any comments or suggestions of the
+Council.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_3b04ab64-2bae-41b6-a9e4-a2013c46f343"></attrib>
+<attrib name="id" value="sec.18-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">The Minister shall, before adopting the plan of
+management, consider any comments or suggestions of the
+Council.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_990ff4e2-4df8-47c0-b40c-29a19646d0b9"></attrib>
+<attrib name="id" value="sec.18-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">The Minister may, with the consent of the other
+party to the agreement, adopt the plan of management without alteration or
+with such alterations as the Minister thinks fit or may refer it back to the
+Director-General and Council for further consideration.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_2ed9f978-b698-46fd-a391-eca65aea7835"></attrib>
+<attrib name="id" value="sec.18-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">The Minister may, on the recommendation of the
+Director-General and with the consent of the other party to the
+agreement:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_568decc7-8cd0-4523-8cf6-04ead8945a3e" id="sec.18-ssec.5-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">alter or amend the plan of management from time
+to time,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_dce092cf-4ea2-4a94-a792-9408fa45b370" id="sec.18-ssec.5-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">cancel the plan, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ed3011d5-6cfe-43c5-9d6f-78eb501c2029" id="sec.18-ssec.5-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">cancel the plan and substitute a new
+plan.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.6">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8c1e9390-08ec-4001-8028-8f8ab284202e"></attrib>
+<attrib name="id" value="sec.18-ssec.6"></attrib></parentattributes>
+
+<head>
+<no>(6)</no></head>
+<block><txt break.before="1">The provisions of section 17 (2) apply to an
+alteration or amendment of any such plan of management.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.18-ssec.7">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8b20c702-ce3d-4ac4-ac76-970076cdd2e2"></attrib>
+<attrib name="id" value="sec.18-ssec.7"></attrib></parentattributes>
+
+<head>
+<no>(7)</no></head>
+<block><txt break.before="1">If the Minister has adopted a plan of management
+for an area of land subject to a wilderness protection agreement, it shall be
+carried out and given effect to by the Director-General and the other party to
+the agreement and (if applicable) the statutory authority on behalf of which
+the agreement was entered into.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.19">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a6bd5f8d-b45e-4080-9e8d-59b6b00ef040"></attrib>
+<attrib name="id" value="sec.19"></attrib></parentattributes>
+
+<head>
+<no>19</no><heading guid="_1f868398-3603-4d5b-810b-0780ac2014d8"
+id="sec.19-he"><b>Plans prepared under the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1974-080"><name emphasis="yes"><i>National Parks
+and Wildlife Act 1974</i></name></legref></b></heading></head>
+<block><txt break.before="1">A plan of management for a wilderness area, or
+for any part of a wilderness area or an area subject to or proposed to be made
+subject to a wilderness protection agreement, that is prepared under the
+<legref type="act" jurisd="NSW" check="unknown" refid="act-1974-080"><name
+emphasis="yes"><i>National Parks and Wildlife Act 1974</i></name></legref>
+shall not be inconsistent with the principles set out in section 9 for the
+management of wilderness areas.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 19:</b> Am 1989 No 85,
+Sch 1 (2).</txt></content>
+</level>
+</level>
+</level>
+
+
+<level type="part" id="pt.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="guid" value="_05a2f186-f26d-4371-8ad2-4bfcb5bd39e4"></attrib>
+<attrib name="id" value="pt.4"></attrib></parentattributes>
+
+<head>
+<no><b>Part 4</b></no><heading guid="_cadd0035-982a-4466-9172-5e73e207643b"
+id="pt.4-he"><b>Miscellaneous</b></heading></head>
+
+<level type="clause" id="sec.20">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b7f3f508-0efa-4ca8-b11c-37d65e9de0d3"></attrib>
+<attrib name="id" value="sec.20"></attrib></parentattributes>
+
+<head>
+<no>20</no><heading guid="_e15cc2d7-6dc3-4d4b-8667-68f141131fa8"
+id="sec.20-he"><b>Provisions relating to Crown land
+leases</b></heading></head>
+
+<tier type="subclause" id="sec.20-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_783ad5ae-fdd7-46ef-bb03-acb55bf5a059"></attrib>
+<attrib name="id" value="sec.20-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">This section applies to land leased under the
+<legref type="act" jurisd="NSW" check="unknown" refid="act-2016-058"><name
+emphasis="yes"><i>Crown Land Management Act 2016</i></name></legref> where the
+land has been identified by the Director-General as wilderness and notice of
+that identification has been given by the Minister to the Minister
+administering the Act under which the land is leased.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.20-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_e6a2367e-cf0e-4140-bbc3-f5e2a037cb30"></attrib>
+<attrib name="id" value="sec.20-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Minister administering the Act under which
+the land is leased shall not under that Act:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_4613e504-749c-44f9-ad48-aba091c2e608" id="sec.20-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">approve any change in use, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_9d727e20-1983-4f1b-a8e7-3793f3b71d6b" id="sec.20-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">approve the conversion, sale or
+disposal,</txt></block></li></list>
+
+<txt break.before="1">of land to which this section applies, without
+consulting the Minister administering this Act.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 20:</b> Am 2017 No 17,
+Sch 4.110 [2].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.21">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_1bf0ad61-fa1e-44ba-8eb5-8bac50c6337e"></attrib>
+<attrib name="id" value="sec.21"></attrib></parentattributes>
+
+<head>
+<no>21</no><heading guid="_d23a48fc-7ab0-49c6-88e2-a5c1f20c5fac"
+id="sec.21-he"><b>Resolution of certain disputes</b></heading></head>
+
+<pre type="auto-inserted">
+
+<tier type="subclause" id="sec.21-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8d40d668-3594-455d-b23f-267a60eba91f"></attrib>
+<attrib name="id" value="sec.21-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">If a dispute arises between the Minister and a
+statutory authority or the Minister responsible for a statutory authority in
+relation to:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2757d2ce-8e48-4f94-939b-d865b92b6a32" id="sec.21-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a wilderness protection agreement or a proposed
+wilderness protection agreement,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ffedc3c1-8bb2-4f44-a54f-81dc0748bc90" id="sec.21-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">land leased under the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-2016-058"><name
+emphasis="yes"><i>Crown Land Management Act
+2016</i></name></legref>,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_452ad817-94a1-4fcc-b642-ffb4b84de13d" id="sec.21-ssec.1-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">a proposal to carry out development in a
+wilderness area, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_ae5f53e3-f04c-4bd3-b693-80fb2a67630e" id="sec.21-ssec.1-para1.d">
+<no>(d)</no>
+<block><txt break.before="1">any other matter arising out of this
+Act,</txt></block></li></list>
+
+<txt break.before="1">a party to the dispute may submit that dispute to the
+Premier for settlement.</txt></block></tier>
+</pre>
+
+
+<tier type="subclause" id="sec.21-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_76c47b4d-fa0a-498a-835d-42ec96a8e413"></attrib>
+<attrib name="id" value="sec.21-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">On the submission of a dispute to the Premier,
+the Premier may:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_a2a45352-5f47-4284-b359-fef2c637789d" id="sec.21-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">appoint a Commissioner of Inquiry to hold an
+inquiry and make a report to the Premier, or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_daba94e0-29de-4761-b8f3-bc5f719c53b4" id="sec.21-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">hold an inquiry into the
+dispute.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7a2379be-315a-468b-a5a0-1769829a2f0f"></attrib>
+<attrib name="id" value="sec.21-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">After the completion of the inquiry, and after
+considering any report, the Premier may make such order with respect to the
+dispute, having regard to the public interest and to the circumstances of the
+case, as the Premier thinks fit.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6989f348-f531-4975-ad90-f39a29ab0d7a"></attrib>
+<attrib name="id" value="sec.21-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">An order made by the Premier may direct the
+payment of any costs or expenses of or incidental to the holding of an
+inquiry.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.21-ssec.5">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d92ca6ee-69b2-495e-a820-338a4520c8b8"></attrib>
+<attrib name="id" value="sec.21-ssec.5"></attrib></parentattributes>
+
+<head>
+<no>(5)</no></head>
+<block><txt break.before="1">A Minister or statutory authority shall comply
+with an order given under this section and shall, despite the provisions of
+any Act, be empowered to comply with any such order.</txt></block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 21:</b> Am 2017 No 17,
+Sch 4.110 [3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.22">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6592a4a3-a165-43a9-9151-caf7bd4e7d7f"></attrib>
+<attrib name="id" value="sec.22"></attrib></parentattributes>
+
+<head>
+<no>22</no><heading guid="_de1d83a6-e3b1-476f-8c5d-17e550d0d924"
+id="sec.22-he"><b>Delegation</b></heading></head>
+
+<tier type="subclause" id="sec.22-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_228d2b59-deb9-40a7-b381-fc21715738fe"></attrib>
+<attrib name="id" value="sec.22-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Minister may delegate to a person any of the
+Minister&#8217;s functions under this Act, other than this power of
+delegation.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.22-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b5f0281b-bc72-43d1-b38c-1c6b1144f189"></attrib>
+<attrib name="id" value="sec.22-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">The Director-General may delegate to a
+person:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b3b147b3-cfbc-4a63-b252-e4a7c18bbf3d" id="sec.22-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">any of the Director-General&#8217;s functions
+under this Act, other than this power of delegation, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_2ce12b1c-a284-4bc6-8d93-6f22e0556458" id="sec.22-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any of the functions delegated to the
+Director-General by the Minister under this Act, subject to any conditions to
+which the delegation to the Director-General is
+subject.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 22:</b> Am 2010 No 38,
+Sch 3.14 [3].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.23">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_b5d21663-70cc-47ea-8d95-b214afe8e956"></attrib>
+<attrib name="id" value="sec.23"></attrib></parentattributes>
+
+<head>
+<no>23</no><heading guid="_93d3b39b-0e67-471b-9ffe-44ec857af6c4"
+id="sec.23-he"><b>Dunphy Wilderness Fund</b></heading></head>
+
+<tier type="subclause" id="sec.23-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_d7d7c81b-c676-4571-be7f-e885a2784eb4"></attrib>
+<attrib name="id" value="sec.23-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">There shall be established in the Special
+Deposits Account in the Treasury a Dunphy Wilderness
+Fund.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_cf957daa-be1c-4884-9480-1b4cbc075857"></attrib>
+<attrib name="id" value="sec.23-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">There shall be paid into the Fund:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_1668c71f-848f-4f8b-85ae-a1d952ef4543" id="sec.23-ssec.2-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">all money provided by Parliament for the purposes
+of this Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8d22225d-b43e-4a27-9e22-e93bb2126043" id="sec.23-ssec.2-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">any money received in connection with wilderness
+areas, including gifts for wilderness purposes received under section 148 of
+the <legref type="act" jurisd="NSW" check="unknown" refid="act-1974-080"><name
+emphasis="yes"><i>National Parks and Wildlife Act 1974</i></name></legref>,
+and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_b8688489-7b74-41d5-b02c-a0fc8b383b8c" id="sec.23-ssec.2-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">any other money received in connection with the
+execution of this Act or authorised by the regulations to be paid into the
+Fund.</txt></block></li></list>
+</block></tier>
+
+
+<tier type="subclause" id="sec.23-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_377037ea-ce02-4ba7-b01e-2463cc6e6f6f"></attrib>
+<attrib name="id" value="sec.23-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">There shall be paid out of the Fund:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_e28c1f2b-7425-494b-884d-6fc8c256a0f4" id="sec.23-ssec.3-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">all amounts required to meet expenditure incurred
+in the execution of this Act,</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_20b32d5d-e1d4-4b6e-8ac2-b4fbc0690bf0" id="sec.23-ssec.3-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">amounts required to be paid in accordance with a
+gift for wilderness purposes, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_519f7cec-c769-45f9-8276-59e43f2fe69c" id="sec.23-ssec.3-para1.c">
+<no>(c)</no>
+<block><txt break.before="1">amounts authorised by the regulations to be paid
+out of the Fund.</txt></block></li></list>
+</block></tier>
+
+
+<content type="historynote"><txt break.before="1"><b>s 23:</b> Am 1997 No 55,
+Sch 1.31.</txt></content>
+</level>
+
+
+<level type="clause" id="sec.24">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_55373ef2-f1b0-4fc6-b790-1adad6f2e44b"></attrib>
+<attrib name="id" value="sec.24"></attrib></parentattributes>
+
+<head>
+<no>24</no><heading guid="_31c6e24e-2bb5-459f-b8c3-817ccc453674"
+id="sec.24-he"><b>Wilderness matters to be included in
+report</b></heading></head>
+<block><txt break.before="1">In preparing the annual report for the National
+Parks and Wildlife Service, the Director-General shall report on the status of
+areas identified as wilderness and on matters relating to wilderness
+areas.</txt></block></level>
+
+
+<level type="clause" id="sec.25">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7cc30d83-77f1-430b-b3d4-1e95ca637b3c"></attrib>
+<attrib name="id" value="sec.25"></attrib></parentattributes>
+
+<head>
+<no>25</no><heading guid="_a31bf4fe-13e9-4632-83e3-1f11642e167d"
+id="sec.25-he"><b>Relationship of Act to <legref type="act" jurisd="NSW"
+check="unknown" refid="act-1974-080"><name emphasis="yes"><i>National Parks
+and Wildlife Act 1974</i></name></legref></b></heading></head>
+<block><txt break.before="1">Except as otherwise provided by this Act, nothing
+in this Act affects the operation of any of the provisions of the <legref
+type="act" jurisd="NSW" check="unknown" refid="act-1974-080"><name
+emphasis="yes"><i>National Parks and Wildlife Act 1974</i></name></legref> in
+relation to land within a wilderness area.</txt></block></level>
+
+
+<level type="clause" id="sec.26">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_6b9fc8c3-aa7b-4ca8-abc8-ef49bc704b46"></attrib>
+<attrib name="id" value="sec.26"></attrib></parentattributes>
+
+<head>
+<no>26</no><heading guid="_0540071f-63ac-4e7d-be7b-437e78404063"
+id="sec.26-he"><b>Effect of Crown lands legislation</b></heading></head>
+<block><txt break.before="1">Nothing in the <legref type="act" jurisd="NSW"
+check="unknown" refid="act-2016-058"><name emphasis="yes"><i>Crown Land
+Management Act 2016</i></name></legref> affects:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_fc42905c-fb44-40bb-9ee0-9c6267a44f73" id="sec.26-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">the operation of section 20,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_222a783b-3b15-49c0-9c48-f130a9336aca" id="sec.26-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the terms of a wilderness protection agreement
+relating to land held under any of those Acts.</txt></block></li></list>
+</block>
+
+<content type="historynote"><txt break.before="1"><b>s 26:</b> Am 2017 No 17,
+Sch 4.110 [4].</txt></content>
+</level>
+
+
+<level type="clause" id="sec.27">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ad0860e3-4515-42d6-88ba-e3c920abbc29"></attrib>
+<attrib name="id" value="sec.27"></attrib></parentattributes>
+
+<head>
+<no>27</no><heading guid="_a37d6103-f44b-47a2-a89d-bf847c7ea2d4"
+id="sec.27-he"><b>Restraint etc of breaches of this Act</b></heading></head>
+
+<tier type="subclause" id="sec.27-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_a581fbf2-a776-4ebc-b391-5526a5422f6c"></attrib>
+<attrib name="id" value="sec.27-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">Any person may bring proceedings in the Land and
+Environment Court for an order to remedy or restrain a breach of this Act,
+whether or not any right of that person has been or may be infringed by or as
+a consequence of that breach.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.27-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dcf49287-c728-4573-abc3-fb4c00161dd9"></attrib>
+<attrib name="id" value="sec.27-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">Proceedings under this section may be brought by
+a person on the person&#8217;s own behalf or on behalf of the person and other
+persons (with their consent), or a body corporate or unincorporated (with the
+consent of its committee or other controlling or governing body), having like
+or common interests in those proceedings.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.27-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_58716a63-0568-4000-9d12-d93e80f7ab6d"></attrib>
+<attrib name="id" value="sec.27-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">Any person on whose behalf proceedings are
+brought is entitled to contribute to or provide for the payment of the legal
+costs and expenses incurred by the person bringing the
+proceedings.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.28">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_dee1ef6b-9619-4cda-b377-d6954f52ef3e"></attrib>
+<attrib name="id" value="sec.28"></attrib></parentattributes>
+
+<head>
+<no>28</no><heading guid="_05329213-8ba9-4ee7-8b69-c993aa656939"
+id="sec.28-he"><b>Evidence of agreements</b></heading></head>
+
+<tier type="subclause" id="sec.28-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_824e907f-6ccb-4dca-81d3-bbebad1f080c"></attrib>
+<attrib name="id" value="sec.28-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">In any legal proceedings, a certificate
+purporting to be signed by the Director-General or an officer of the National
+Parks and Wildlife Service authorised by the Director-General and certifying
+that at a time, or during a period, specified in the certificate:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_890e5ed0-8932-4e90-85e2-e9646bce2d78" id="sec.28-ssec.1-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">a wilderness protection agreement relating to
+land specified in the certificate was in force, and</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_df620000-f652-4f06-8cbb-baa3e5ceb0e9" id="sec.28-ssec.1-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">the agreement contained the terms specified in
+the certificate,</txt></block></li></list>
+
+<txt break.before="1">is prima facie evidence of the matter or matters so
+certified.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.28-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_8370e345-351b-4198-84ca-4225616dfdbf"></attrib>
+<attrib name="id" value="sec.28-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In any legal proceedings, a document purporting
+to be certified by the Director-General as a copy of a wilderness protection
+agreement is prima facie evidence of the agreement.</txt></block></tier>
+</level>
+
+
+<level type="clause" id="sec.29">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5eca6e1c-3d01-4bdb-b2ab-6e5a0f9a4dcb"></attrib>
+<attrib name="id" value="sec.29"></attrib></parentattributes>
+
+<head>
+<no>29</no><heading guid="_947a1a47-a491-439d-8206-72fccb721c00"
+id="sec.29-he"><b>Regulations</b></heading></head>
+
+<tier type="subclause" id="sec.29-ssec.1">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_7e76e930-5955-4f70-a390-6e713cce4bb2"></attrib>
+<attrib name="id" value="sec.29-ssec.1"></attrib></parentattributes>
+
+<head>
+<no>(1)</no></head>
+<block><txt break.before="1">The Governor may make regulations, not
+inconsistent with this Act, for or with respect to any matter that by this Act
+is required or permitted to be prescribed or that is necessary or convenient
+to be prescribed for carrying out or giving effect to this
+Act.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.29-ssec.2">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_ca31d5cf-3bd7-45fe-b834-514f5e9087b9"></attrib>
+<attrib name="id" value="sec.29-ssec.2"></attrib></parentattributes>
+
+<head>
+<no>(2)</no></head>
+<block><txt break.before="1">In particular, the regulations may make provision
+for or with respect to wilderness areas.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.29-ssec.3">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5fae3256-f0df-423c-a2c8-51be56db679f"></attrib>
+<attrib name="id" value="sec.29-ssec.3"></attrib></parentattributes>
+
+<head>
+<no>(3)</no></head>
+<block><txt break.before="1">A regulation may create an offence punishable by
+a penalty not exceeding 5 penalty units.</txt></block></tier>
+
+
+<tier type="subclause" id="sec.29-ssec.4">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_5c7646af-5848-4dde-861f-81f09d14dd3f"></attrib>
+<attrib name="id" value="sec.29-ssec.4"></attrib></parentattributes>
+
+<head>
+<no>(4)</no></head>
+<block><txt break.before="1">A regulation made under this Act applying:</txt>
+<list number.type="default" unnumbered.indent="0">
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_8f10c245-7606-45bd-8d5f-55c35776195f" id="sec.29-ssec.4-para1.a">
+<no>(a)</no>
+<block><txt break.before="1">to a wilderness area under the <legref type="act"
+jurisd="NSW" check="unknown" refid="act-1974-080"><name
+emphasis="yes"><i>National Parks and Wildlife Act
+1974</i></name></legref>&#8212;shall have no effect to the extent to which it
+is inconsistent with a regulation under that Act applying to that area,
+or</txt></block></li>
+<li provision.type="other" affected.by.uncommenced="0"
+guid="_67222923-7d03-4d78-99ff-5b3f1459cf75" id="sec.29-ssec.4-para1.b">
+<no>(b)</no>
+<block><txt break.before="1">to an area subject to a wilderness protection
+agreement or conservation agreement&#8212;shall have no effect to the extent
+to which it is inconsistent with the terms of that
+agreement.</txt></block></li></list>
+</block></tier>
+</level>
+
+
+<level type="clause" id="sec.30">
+<parentattributes>
+<attrib name="affected.by.uncommenced" value="0"></attrib>
+<attrib name="spent.amends" value="0"></attrib>
+<attrib name="provision.type" value="other"></attrib>
+<attrib name="guid" value="_f1c02203-63f9-4db5-ae98-efc0022d4deb"></attrib>
+<attrib name="id" value="sec.30"></attrib></parentattributes>
+
+<head>
+<no>30</no><heading guid="_047dba6b-e941-441e-ac29-33d2c8b16752"
+id="sec.30-he"><b>Proceedings for offences</b></heading></head>
+<block><txt break.before="1">Proceedings for an offence against the
+regulations shall be dealt with summarily before the Local
+Court.</txt></block>
+
+<content type="historynote"><txt break.before="1"><b>s 30:</b> Am 2007 No 94,
+Sch 4.</txt></content>
+</level>
+</level>
+</content>
+
+
+<content type="editorial">
+
+<level type="historicalnotes">
+<head><heading guid="_90fc8d80-90a9-4a65-914b-12b1a440cfeb"
+id="ed-he"><b>Historical notes</b></heading></head>
+
+<level type="tableleg">
+<head><heading guid="_196175b9-4836-47e1-83aa-c9fddb3981f1"
+id="ed-he-oc.2"><b>Table of amending instruments</b></heading></head>
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-1987-196"><name emphasis="yes"><i>Wilderness Act 1987</i></name> No
+196</legref>. Assented to 4.12.1987. Date of commencement, 28 days after
+assent. This Act has been amended as follows:</txt>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_a7a997b1-7d30-4be4-a806-231d2fc5a712" id="ed-tbl">
+
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="2pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="3.5pi"></colspec>
+<colspec colnum="3" colname="3" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_168f0008-6a8e-4e4e-bdd5-1ca06660eda5" id="ed-tbl-tblr">
+<entry colname="1" guid="_16f6aa22-7f2c-4a60-90c2-7ddf07e5b923"
+id="ed-tbl-tblr-tble1"><txt break.before="1"><b>1988</b></txt></entry>
+<entry colname="2" guid="_d6439bb0-f97a-468a-9d2b-76bcbbb78689"
+id="ed-tbl-tblr-tble2"><txt break.before="1">No 20</txt></entry>
+<entry colname="3" guid="_1d1b84a2-c3dc-4686-bf7c-c2be9dc7f52d"
+id="ed-tbl-tblr-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act 1988</i></name></legref>. Assented to 28.6.1988.</txt>
+<txt break.before="1">Date of commencement of the provision of Sch 20 relating
+to the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1987-196"><name emphasis="yes"><i>Wilderness Act
+1987</i></name></legref>, assent, sec 2 (1).</txt></block></entry></row>
+
+
+<row guid="_85b8641e-ca5e-4b5e-8861-4d72955fcf83" id="ed-tbl-tblr-oc.2">
+<entry colname="1" guid="_7ea46767-e1b0-4294-93ba-c8c1b0cf536d"
+id="ed-tbl-tblr-oc.2-tble1"><txt break.before="1"><b>1989</b></txt></entry>
+<entry colname="2" guid="_372de3e4-7ec3-4fc2-8d6e-c03d2080ffe9"
+id="ed-tbl-tblr-oc.2-tble2"><txt break.before="1">No 85</txt></entry>
+<entry colname="3" guid="_3e7676e5-2612-4004-bc21-37612bd46aeb"
+id="ed-tbl-tblr-oc.2-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Wilderness (Plans of Management)
+Amendment Act 1989</i></name></legref>. Assented to 2.6.1989.</txt>
+<txt break.before="1">Date of commencement, 1.7.1989, sec 2 and GG No 78 of
+23.6.1989, p 3615.</txt></block></entry></row>
+
+
+<row guid="_9038d0eb-f5cd-455a-92ce-e144a16e0c75" id="ed-tbl-tblr-oc.3">
+<entry colname="1" guid="_ca0cba91-7458-4bd2-a97e-a68b42f35282"
+id="ed-tbl-tblr-oc.3-tble1"><txt break.before="1"><b>1990</b></txt></entry>
+<entry colname="2" guid="_673b1cbe-59a2-4406-a4b8-8318f2bc95b3"
+id="ed-tbl-tblr-oc.3-tble2"><txt break.before="1">No 108</txt></entry>
+<entry colname="3" guid="_b6cbb8d9-c907-4a66-b57d-2b0e23bda308"
+id="ed-tbl-tblr-oc.3-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act (No 2) 1990</i></name></legref>. Assented to 13.12.1990.</txt>
+<txt break.before="1">Date of commencement of the provisions of Sch 1 relating
+to the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1987-196"><name emphasis="yes"><i>Wilderness Act
+1987</i></name></legref>, assent, sec 2.</txt></block></entry></row>
+
+
+<row guid="_da0cb2dd-cdee-49be-b0e4-d2541cd8b550" id="ed-tbl-tblr-oc.4">
+<entry colname="1" guid="_2e7b2814-e961-45b8-b875-32477d549f51"
+id="ed-tbl-tblr-oc.4-tble1"><txt break.before="1"><b>1991</b></txt></entry>
+<entry colname="2" guid="_99414731-c40a-4322-84e9-2601fb5168e6"
+id="ed-tbl-tblr-oc.4-tble2"><txt break.before="1">No 55</txt></entry>
+<entry colname="3" guid="_89a0922a-75a6-4829-8560-f7cb94ba856b"
+id="ed-tbl-tblr-oc.4-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>National Parks and Wildlife (Karst
+Conservation) Amendment Act 1991</i></name></legref>. Assented to
+11.12.1991.</txt>
+<txt break.before="1">Date of commencement, 14.2.1992, sec 2 and GG No 20 of
+14.2.1992, p 847.</txt></block></entry></row>
+
+
+<row guid="_d2979366-cd4a-414d-900d-05923da12581" id="ed-tbl-tblr-oc.5">
+<entry colname="1" guid="_a6dff6ee-0754-4410-b639-5564d11c845a"
+id="ed-tbl-tblr-oc.5-tble1"><txt break.before="1"><b>1995</b></txt></entry>
+<entry colname="2" guid="_ffa2b32b-7092-45be-b90d-42f3cc7af4b5"
+id="ed-tbl-tblr-oc.5-tble2"><txt break.before="1">No 11</txt></entry>
+<entry colname="3" guid="_c8f37053-3f00-4160-95c4-2aafb9078a72"
+id="ed-tbl-tblr-oc.5-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law Revision (Local
+Government) Act 1995</i></name></legref>. Assented to 9.6.1995.</txt>
+<txt break.before="1">Date of commencement of the provision of Sch 1 relating
+to the <legref type="act" jurisd="NSW" check="unknown"
+refid="act-1987-196"><name emphasis="yes"><i>Wilderness Act
+1987</i></name></legref>, 23.6.1995, sec 2 (1) and GG No 77 of 23.6.1995, p
+3279.</txt></block></entry></row>
+
+
+<row guid="_62356ee0-c78d-4693-a9a9-bc94d3e6742c" id="ed-tbl-tblr-oc.6">
+<entry colname="1" guid="_adf947bf-5e80-4613-9140-39e95640f26d"
+id="ed-tbl-tblr-oc.6-tble1"><txt break.before="1"><b>1996</b></txt></entry>
+<entry colname="2" guid="_de49155d-bd24-4b41-aa80-70915809a7c6"
+id="ed-tbl-tblr-oc.6-tble2"><txt break.before="1">No 139</txt></entry>
+<entry colname="3" guid="_d6d5d626-ebad-409f-b817-28f764e8a532"
+id="ed-tbl-tblr-oc.6-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Strata Schemes Management
+(Miscellaneous Amendments) Act 1996</i></name></legref>. Assented to
+16.12.1996.</txt>
+<txt break.before="1">Date of commencement, 1.7.1997, sec 2 and GG No 68 of
+27.6.1997, p 4770. Amended by <legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act 1997</i></name> No 55</legref>. Assented to 2.7.1997. Date of commencement
+of Sch 2.18, assent, sec 2 (2).</txt></block></entry></row>
+
+
+<row guid="_7a739789-7219-4b6a-9a7c-1cbfb631ed0d" id="ed-tbl-tblr-oc.7">
+<entry colname="1" guid="_8f1479a6-0843-4815-8e8c-be2456f0258b"
+id="ed-tbl-tblr-oc.7-tble1"><txt break.before="1"><b>1997</b></txt></entry>
+<entry colname="2" guid="_c858692c-efa9-4d9d-9a99-740fda3ea8db"
+id="ed-tbl-tblr-oc.7-tble2"><txt break.before="1">No 55</txt></entry>
+<entry colname="3" guid="_ef86d674-8ad3-4689-a002-925e80a82cc9"
+id="ed-tbl-tblr-oc.7-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Statute Law (Miscellaneous Provisions)
+Act 1997</i></name></legref>. Assented to 2.7.1997.</txt>
+<txt break.before="1">Date of commencement of Sch 1.31, assent, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_af1f15b7-4921-4025-96c0-7040695c457a" id="ed-tbl-tblr-oc.8">
+<entry colname="1" guid="_9d7dabc4-0dc2-4801-8494-f73f7cf2ac99"
+id="ed-tbl-tblr-oc.8-tble1"></entry>
+<entry colname="2" guid="_058cbfc6-852e-4dd9-87fc-ee0b5eef1f3a"
+id="ed-tbl-tblr-oc.8-tble2"><txt break.before="1">No 152</txt></entry>
+<entry colname="3" guid="_bb96f978-3957-4d07-84fb-19affa540134"
+id="ed-tbl-tblr-oc.8-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW"
+check="unknown"><name emphasis="yes"><i>Environmental Planning and Assessment
+Amendment Act 1997</i></name></legref>. Assented to 19.12.1997.</txt>
+<txt break.before="1">Date of commencement, 1.7.1998, sec 2 and GG No 101 of
+1.7.1998, p 5119.</txt></block></entry></row>
+
+
+<row guid="_8a2c5e9a-258b-4120-b3d2-9f860abde141" id="ed-tbl-tblr-oc.9">
+<entry colname="1" guid="_566ec496-4f25-4917-806e-42ad1c2d456b"
+id="ed-tbl-tblr-oc.9-tble1"><txt break.before="1"><b>2007</b></txt></entry>
+<entry colname="2" guid="_c7fd01c1-e891-4f22-9f70-c3aa8e3a5fde"
+id="ed-tbl-tblr-oc.9-tble2"><txt break.before="1">No 94</txt></entry>
+<entry colname="3" guid="_b3440e1c-536e-4d25-9e37-8e6908f7c214"
+id="ed-tbl-tblr-oc.9-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2007-094"><name emphasis="yes"><i>Miscellaneous Acts (Local Court)
+Amendment Act 2007</i></name></legref>. Assented to 13.12.2007.</txt>
+<txt break.before="1">Date of commencement of Sch 4, 6.7.2009, sec 2 and 2009
+(314) LW 3.7.2009.</txt></block></entry></row>
+
+
+<row guid="_a1d6efc6-0dbc-4bc5-81bf-d13bafeef6f9" id="ed-tbl-tblr-oc.10">
+<entry colname="1" guid="_38df29e1-2389-467f-a164-cd1c2810c1ce"
+id="ed-tbl-tblr-oc.10-tble1"><txt break.before="1"><b>2009</b></txt></entry>
+<entry colname="2" guid="_8168435f-f6e2-4bbb-98cd-1e333fec07da"
+id="ed-tbl-tblr-oc.10-tble2"><txt break.before="1">No 56</txt></entry>
+<entry colname="3" guid="_eb0a4744-3ce4-4e70-9930-787395c41436"
+id="ed-tbl-tblr-oc.10-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2009-056"><name emphasis="yes"><i>Statute Law (Miscellaneous
+Provisions) Act 2009</i></name></legref>. Assented to 1.7.2009.</txt>
+<txt break.before="1">Date of commencement of Sch 2.77, 17.7.2009, sec 2
+(2).</txt></block></entry></row>
+
+
+<row guid="_c37442b4-4451-4b36-901d-546fd3169d54" id="ed-tbl-tblr-oc.11">
+<entry colname="1" guid="_57780314-60ef-48ff-8b0f-d24a61aa3f06"
+id="ed-tbl-tblr-oc.11-tble1"></entry>
+<entry colname="2" guid="_f181425d-521c-4cde-a142-bc6dd0f666cf"
+id="ed-tbl-tblr-oc.11-tble2"><txt break.before="1">No 58</txt></entry>
+<entry colname="3" guid="_14a5d945-a1d3-45e0-b669-b23256025e05"
+id="ed-tbl-tblr-oc.11-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2009-058"><name emphasis="yes"><i>Aboriginal Land Rights Amendment
+Act 2009</i></name></legref>. Assented to 16.9.2009.</txt>
+<txt break.before="1">Date of commencement, 31.3.2010, sec 2 and 2009 (624) LW
+24.12.2009.</txt></block></entry></row>
+
+
+<row guid="_3bfeafec-17fd-4905-a8cf-af8e826df644" id="ed-tbl-tblr-oc.12">
+<entry colname="1" guid="_65e83f42-7d03-4448-b341-1274a9324054"
+id="ed-tbl-tblr-oc.12-tble1"><txt break.before="1"><b>2010</b></txt></entry>
+<entry colname="2" guid="_e9c60489-b45a-4517-8130-24b37366a481"
+id="ed-tbl-tblr-oc.12-tble2"><txt break.before="1">No 38</txt></entry>
+<entry colname="3" guid="_083a5cd1-8979-44e5-9b58-74ce0715c32f"
+id="ed-tbl-tblr-oc.12-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2010-038"><name emphasis="yes"><i>National Parks and Wildlife
+Amendment Act 2010</i></name></legref>. Assented to 15.6.2010.</txt>
+<txt break.before="1">Date of commencement of Sch 3.14, 2.7.2010, sec 2 and
+2010 (344) LW 2.7.2010.</txt></block></entry></row>
+
+
+<row guid="_8968cdcf-52ac-4c98-8c98-f07bd06bbd5a" id="ed-tbl-tblr-oc.13">
+<entry colname="1" guid="_f50ac9ff-4ed4-49bd-8ac1-60229c62da8c"
+id="ed-tbl-tblr-oc.13-tble1"></entry>
+<entry colname="2" guid="_78e615f4-84f8-4a8a-989c-b85898ad4ae4"
+id="ed-tbl-tblr-oc.13-tble2"><txt break.before="1">No 41</txt></entry>
+<entry colname="3" guid="_58c35d47-f3e6-4b86-aa00-ee411af723dd"
+id="ed-tbl-tblr-oc.13-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2010-041"><name emphasis="yes"><i>National Parks and Wildlife
+Amendment (Visitors and Tourists) Act 2010</i></name></legref>. Assented to
+17.6.2010.</txt>
+<txt break.before="1">Date of commencement, 1.10.2010, sec 2 and 2010 (533) LW
+17.9.2010.</txt></block></entry></row>
+
+
+<row guid="_46f91800-0282-46f5-94a1-fc001a4e5a5b" id="ed-tbl-tblr-oc.14">
+<entry colname="1" guid="_9886ffb5-ce1c-4b58-8ce3-e36a430cf216"
+id="ed-tbl-tblr-oc.14-tble1"><txt break.before="1"><b>2015</b></txt></entry>
+<entry colname="2" guid="_f1c1fe7c-0cb3-438f-b5a8-0335ddd51c18"
+id="ed-tbl-tblr-oc.14-tble2"><txt break.before="1">No 5</txt></entry>
+<entry colname="3" guid="_3f90544c-a369-4cc5-b89a-18e8d5b9599e"
+id="ed-tbl-tblr-oc.14-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2015-005"><name emphasis="yes"><i>Electricity Network Assets
+(Authorised Transactions) Act 2015</i></name></legref>. Assented to
+4.6.2015.</txt>
+<txt break.before="1">Date of commencement of Sch 8, assent, sec 2
+(1).</txt></block></entry></row>
+
+
+<row guid="_7824e481-3705-467b-9229-1fc9e3dc9002" id="ed-tbl-tblr-oc.15">
+<entry colname="1" guid="_b4c5057e-3960-4180-9ddb-0a190ffa8c3b"
+id="ed-tbl-tblr-oc.15-tble1"><txt break.before="1"><b>2017</b></txt></entry>
+<entry colname="2" guid="_a4ced37e-8c63-4359-8358-61e359064f0a"
+id="ed-tbl-tblr-oc.15-tble2"><txt break.before="1">No 17</txt></entry>
+<entry colname="3" guid="_2febe163-9511-43a9-bc5b-002800100ac1"
+id="ed-tbl-tblr-oc.15-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2017-017"><name emphasis="yes"><i>Crown Land Legislation Amendment
+Act 2017</i></name></legref>. Assented to 17.5.2017.</txt>
+<txt break.before="1">Date of commencement of Sch 4, 1.7.2018, sec 2 (1) and
+2018 (225) LW 1.6.2018.</txt></block></entry></row>
+
+
+<row guid="_47a0da17-7adf-4742-96f2-0171480b18dd" id="ed-tbl-tblr-oc.16">
+<entry colname="1" guid="_e99d7756-ee2d-4ec6-916c-ed6d68156307"
+id="ed-tbl-tblr-oc.16-tble1"></entry>
+<entry colname="2" guid="_8d2b5fb9-e3db-4eef-b722-c3878eb46093"
+id="ed-tbl-tblr-oc.16-tble2"><txt break.before="1">No 65</txt></entry>
+<entry colname="3" guid="_504481fb-dede-453c-964a-78771bdd27d5"
+id="ed-tbl-tblr-oc.16-tble3">
+<block><txt break.before="1"><legref type="act" jurisd="NSW" check="unknown"
+refid="act-2017-065"><name emphasis="yes"><i>Local Government Amendment
+(Regional Joint Organisations) Act 2017</i></name></legref>. Assented to
+30.11.2017.</txt>
+<txt break.before="1">Date of commencement, 15.12.2017, sec 2 and 2017 (730)
+LW 15.12.2017.</txt>
+<txt break.before="1"></txt></block></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+
+
+<level type="tableamends">
+<head><heading guid="_b89892b2-bb30-46ec-8036-6a9427a3586a"
+id="ed-he-oc.3"><b>Table of amendments</b></heading></head>
+<block>
+
+<table frame="none" orient="port" heading.align="left" font.size="12.pt"
+guid="_fbaa507f-c6a2-42af-81a9-0bdc3fe84919" id="ed-tbl-oc.2">
+
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colnum="1" colname="1" align="left" colwidth="6pi"></colspec>
+<colspec colnum="2" colname="2" align="left" colwidth="24.5pi"></colspec>
+
+<tbody>
+
+<row guid="_2d9fc18a-f83e-48e1-8c8d-1ff0b57555a9" id="ed-tbl-oc.2-tblr">
+<entry colname="1" guid="_ac0b1282-ae9e-4f2c-afe8-9a89bf420ee0"
+id="ed-tbl-oc.2-tblr-tble1"><txt break.before="1">Sec 2</txt></entry>
+<entry colname="2" guid="_9032b391-c532-4708-b8c7-3388b378949f"
+id="ed-tbl-oc.2-tblr-tble2"><txt break.before="1">Am 1991 No 55, Sch 2 (1);
+1995 No 11, Sch 1; 1996 No 139, Sch 2.36 (am 1997 No 55, Sch 2.18 [1]); 1997
+No 152, Sch 4.47; 2009 No 56, Sch 2.77 [1]; 2010 No 38, Sch 3.14 [2]; 2017 No
+65, Sch 2.34.</txt></entry></row>
+
+
+<row guid="_1764e075-7a4c-4cb2-a21a-af0993f11561" id="ed-tbl-oc.2-tblr-oc.2">
+<entry colname="1" guid="_1f483a83-94c0-440a-a046-ef998f8dfe6f"
+id="ed-tbl-oc.2-tblr-oc.2-tble1"><txt break.before="1">Sec 8</txt></entry>
+<entry colname="2" guid="_9a2e9211-8f1f-44fd-96e9-e3cc6340f531"
+id="ed-tbl-oc.2-tblr-oc.2-tble2"><txt break.before="1">Am 1988 No 20, Sch 20;
+1990 No 108 Sch 1; 1991 No 55, Sch 2 (2); 2009 No 56, Sch 2.77
+[2].</txt></entry></row>
+
+
+<row guid="_e7901b45-1728-4ff8-9b40-6a92e9b0857d" id="ed-tbl-oc.2-tblr-oc.3">
+<entry colname="1" guid="_c133c22b-306b-4a6e-bf3c-1fc8aa1cc0f5"
+id="ed-tbl-oc.2-tblr-oc.3-tble1"><txt break.before="1">Sec 9</txt></entry>
+<entry colname="2" guid="_618c3cde-d240-455e-8550-d83020f23456"
+id="ed-tbl-oc.2-tblr-oc.3-tble2"><txt break.before="1">Am 2010 No 41, Sch
+2.</txt></entry></row>
+
+
+<row guid="_244dfe34-285b-46a3-9380-e5408d780de0" id="ed-tbl-oc.2-tblr-oc.4">
+<entry colname="1" guid="_ffc5d3db-e432-4fcd-be5b-ec047f733898"
+id="ed-tbl-oc.2-tblr-oc.4-tble1"><txt break.before="1">Sec 10</txt></entry>
+<entry colname="2" guid="_6015b34d-ca2a-4bc1-b3d5-09c1e578fdc7"
+id="ed-tbl-oc.2-tblr-oc.4-tble2"><txt break.before="1">Am 2009 No 58, Sch 2.7;
+2017 No 17, Sch 4.110 [1].</txt></entry></row>
+
+
+<row guid="_ea202363-2e42-4d9f-b323-1a03819b14ca" id="ed-tbl-oc.2-tblr-oc.5">
+<entry colname="1" guid="_5f0abf4b-0aa2-4e07-a487-52ae6eb894c5"
+id="ed-tbl-oc.2-tblr-oc.5-tble1"><txt break.before="1">Sec 15</txt></entry>
+<entry colname="2" guid="_a8cfff1b-5f0f-4ed8-a410-663333115f94"
+id="ed-tbl-oc.2-tblr-oc.5-tble2"><txt break.before="1">Am 2015 No 5, Sch
+8.32.</txt></entry></row>
+
+
+<row guid="_bb2fc7cb-0f66-4b46-9579-40f32692720f" id="ed-tbl-oc.2-tblr-oc.6">
+<entry colname="1" guid="_aa6a1b1d-379c-4aac-9d8c-5baa8d6083d1"
+id="ed-tbl-oc.2-tblr-oc.6-tble1"><txt break.before="1">Sec 17</txt></entry>
+<entry colname="2" guid="_b4dfef65-48ea-40fd-82ed-9f623811d926"
+id="ed-tbl-oc.2-tblr-oc.6-tble2"><txt break.before="1">Am 1989 No 85, Sch 1
+(1).</txt></entry></row>
+
+
+<row guid="_5c19097e-9282-45a0-a5fc-28bea719e540" id="ed-tbl-oc.2-tblr-oc.7">
+<entry colname="1" guid="_201f644a-4ce5-4779-9dcf-2792052a8b34"
+id="ed-tbl-oc.2-tblr-oc.7-tble1"><txt break.before="1">Sec 19</txt></entry>
+<entry colname="2" guid="_b717da91-6452-4023-b3aa-7ef006572b38"
+id="ed-tbl-oc.2-tblr-oc.7-tble2"><txt break.before="1">Am 1989 No 85, Sch 1
+(2).</txt></entry></row>
+
+
+<row guid="_2de78050-c419-49a2-8e0f-f0330f827e0a" id="ed-tbl-oc.2-tblr-oc.8">
+<entry colname="1" guid="_4665ff33-62bf-4e65-99d7-994e47a071bf"
+id="ed-tbl-oc.2-tblr-oc.8-tble1"><txt break.before="1">Sec 20</txt></entry>
+<entry colname="2" guid="_ced2bdb7-d9b9-40aa-ac08-6f24b7ee7888"
+id="ed-tbl-oc.2-tblr-oc.8-tble2"><txt break.before="1">Am 2017 No 17, Sch
+4.110 [2].</txt></entry></row>
+
+
+<row guid="_ec65f7b2-27b9-4026-acfd-ba0472be9d78" id="ed-tbl-oc.2-tblr-oc.9">
+<entry colname="1" guid="_395f54ec-eb1b-49eb-af80-cbd78e8f7b3f"
+id="ed-tbl-oc.2-tblr-oc.9-tble1"><txt break.before="1">Sec 21</txt></entry>
+<entry colname="2" guid="_27f336fe-85b5-44f9-bb21-5c8b6994996e"
+id="ed-tbl-oc.2-tblr-oc.9-tble2"><txt break.before="1">Am 2017 No 17, Sch
+4.110 [3].</txt></entry></row>
+
+
+<row guid="_f56c5f08-aac0-46e2-9c9c-f8f1aa1d6f1a"
+id="ed-tbl-oc.2-tblr-oc.10">
+<entry colname="1" guid="_df2e10be-a53d-4989-991a-d3aa0b48a875"
+id="ed-tbl-oc.2-tblr-oc.10-tble1"><txt break.before="1">Sec 22</txt></entry>
+<entry colname="2" guid="_d5c42d36-bbac-4a91-bb6d-36f62c71a586"
+id="ed-tbl-oc.2-tblr-oc.10-tble2"><txt break.before="1">Am 2010 No 38, Sch
+3.14 [3].</txt></entry></row>
+
+
+<row guid="_ba7558be-031c-4331-bc93-2f2e442150c8"
+id="ed-tbl-oc.2-tblr-oc.11">
+<entry colname="1" guid="_09dc00ce-eb53-472b-9d16-3b960e1bb529"
+id="ed-tbl-oc.2-tblr-oc.11-tble1"><txt break.before="1">Sec 23</txt></entry>
+<entry colname="2" guid="_1c0d12b9-9f52-4dff-8784-848866fa03f6"
+id="ed-tbl-oc.2-tblr-oc.11-tble2"><txt break.before="1">Am 1997 No 55, Sch
+1.31.</txt></entry></row>
+
+
+<row guid="_fd634809-85ee-418a-a181-d0cbe2e48994"
+id="ed-tbl-oc.2-tblr-oc.12">
+<entry colname="1" guid="_d6b3410d-1d49-42a9-a6e7-996d68727da5"
+id="ed-tbl-oc.2-tblr-oc.12-tble1"><txt break.before="1">Sec 26</txt></entry>
+<entry colname="2" guid="_15610c00-8694-46e5-bef8-4d33f95d4fee"
+id="ed-tbl-oc.2-tblr-oc.12-tble2"><txt break.before="1">Am 2017 No 17, Sch
+4.110 [4].</txt></entry></row>
+
+
+<row guid="_127ee11e-1d4d-47db-b429-05e47bbe9a54"
+id="ed-tbl-oc.2-tblr-oc.13">
+<entry colname="1" guid="_9f317bfb-bab0-4945-b349-4771f03c88fa"
+id="ed-tbl-oc.2-tblr-oc.13-tble1"><txt break.before="1">Sec 30</txt></entry>
+<entry colname="2" guid="_ae2ef559-1b73-4b55-9b3d-b663ce724c8c"
+id="ed-tbl-oc.2-tblr-oc.13-tble2"><txt break.before="1">Am 2007 No 94, Sch
+4.</txt></entry></row>
+
+
+<row guid="_e88fb37e-ef3b-4836-a97f-e99ad1441d83"
+id="ed-tbl-oc.2-tblr-oc.14">
+<entry colname="1" guid="_323675f0-14e1-4bbe-9103-ab1de1b2b4eb"
+id="ed-tbl-oc.2-tblr-oc.14-tble1"><txt break.before="1">The whole Act (except
+sec 2)</txt></entry>
+<entry colname="2" guid="_65edf35b-ba04-4130-941a-717e1e31b0f6"
+id="ed-tbl-oc.2-tblr-oc.14-tble2"><txt break.before="1">Am 2010 No 38, Sch
+3.14 [1] (&#8220;Director&#8221; omitted wherever occurring,
+&#8220;Director-General&#8221; inserted instead).</txt></entry></row>
+</tbody>
+</tgroup>
+</table>
+</block></level>
+</level>
+</content>
+</exdoc>
