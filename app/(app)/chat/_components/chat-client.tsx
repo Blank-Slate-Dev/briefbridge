@@ -1,24 +1,40 @@
 // app/(app)/chat/_components/chat-client.tsx
 //
-// Standalone /chat page client. After Chunk 5, this is a thin wrapper
-// around the shared StreamingChat component. Adds:
+// Standalone /chat page client. A thin wrapper around the shared
+// StreamingChat component. Adds:
 //   - The full-viewport flex shell with a sticky-bottom input
 //   - The page header ("Research" + "New research" button)
-//   - The welcome screen with example-prompt buttons (only when there
-//     are no messages and no past conversation loaded)
+//   - The welcome screen with example-prompt buttons
 //
-// What changed in Chunk 5:
-//   - Tailwind classes replaced with bb-* cream design system
-//   - "Chat" header → "Research"
-//   - "New conversation" button → "New research"
-//   - Welcome heading unchanged ("How can I help with your research?" was
-//     already on-brand)
-//   - All the streaming/SSE/citation rendering logic now lives in
-//     StreamingChat — this file only handles standalone-specific chrome.
+// NAVIGATION / RESET MODEL (read this before touching the key):
+//   This page has THREE state transitions to keep straight, and the
+//   StreamingChat `key` plus a prop-sync effect handle all three:
+//
+//   1. Fresh /chat, first message -> SSE returns a new conversation id.
+//      onConversationCreated updates the URL via history.replaceState,
+//      which does NOT re-run the server component, so the PROP
+//      initialConversationId stays null. The key is built from the PROP
+//      (not internal state), so it does NOT change -> no remount -> the
+//      streaming answer survives. (The old bug keyed on internal state,
+//      which the SSE mutated mid-stream -> remount -> vanish.)
+//
+//   2. Click a past conversation in the sidebar (-> /chat?conversationId=X).
+//      The server re-fetches and the PROP initialConversationId changes
+//      from null to X. The key changes -> StreamingChat remounts cleanly
+//      with the new conversation. We ALSO re-sync this component's own
+//      conversationId/messages state from the new props (ChatClient holds
+//      its own copy for the header + New research), because props changing
+//      doesn't update useState on its own.
+//
+//   3. "New research" (header button) -> bump resetNonce -> remount to empty.
+//
+//   Key = `${resetNonce}-${initialConversationId ?? 'new'}`. resetNonce
+//   covers the deliberate reset; the prop id covers conversation switches;
+//   neither changes on the mid-stream id arrival.
 
 'use client';
 
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import {
   StreamingChat,
   type InitialMessage,
@@ -33,26 +49,36 @@ export function ChatClient({
   initialMessages,
   initialConversationId,
 }: ChatClientProps) {
-  // We mirror the conversation id from props into local state so the
-  // "New research" button can clear it without prop-flow gymnastics.
-  // StreamingChat reads this via its initialConversationId; the useEffect
-  // in StreamingChat will re-sync to this value when it changes.
+  // Local mirrors of the server props. Used for the header (show/hide the
+  // "New research" button) and to feed StreamingChat. These must re-sync
+  // when the server hands us new props (conversation switch) - see effect.
   const [conversationId, setConversationId] = useState<string | null>(
     initialConversationId,
   );
   const [messages, setMessages] = useState<InitialMessage[]>(initialMessages);
 
-  // Also track whether the user has typed anything during this session, so
-  // the "New research" button only shows when there's actually something
-  // to reset to. We can't introspect StreamingChat's internal message count,
-  // so we mirror the "has-active-session" flag using conversationId + any
-  // server-loaded messages.
-  const hasActiveSession =
-    conversationId !== null || messages.length > 0;
+  // Reset counter - bumped ONLY by "New research" to force a clean remount.
+  const [resetNonce, setResetNonce] = useState(0);
+
+  // Re-sync local state when the server provides new props. This fires when
+  // navigating to a different conversation (?conversationId=X changes), where
+  // the page server-component re-runs and passes down fresh props. Without
+  // this, ChatClient would keep its stale local state and the page wouldn't
+  // update on conversation switch.
+  //
+  // It does NOT fire on the mid-stream id arrival, because that path updates
+  // the URL via history.replaceState (no server re-run, so these props don't
+  // change) - exactly what we want, so the live answer isn't disturbed.
+  useEffect(() => {
+    setConversationId(initialConversationId);
+    setMessages(initialMessages);
+  }, [initialConversationId, initialMessages]);
+
+  // Show the "New research" button only when there's something to reset to.
+  const hasActiveSession = conversationId !== null || messages.length > 0;
 
   // When a brand-new conversation gets an id from SSE, capture it AND update
-  // the URL silently. StreamingChat would do the URL update itself by default,
-  // but we override to keep our local conversationId state in sync.
+  // the URL silently. Does NOT remount - see the key discussion above.
   const handleConversationCreated = useCallback((newId: string) => {
     setConversationId(newId);
     if (typeof window !== 'undefined') {
@@ -62,39 +88,18 @@ export function ChatClient({
     }
   }, []);
 
-  // Reset everything: drop the conversation id, clear messages, clean the URL.
-  // The actual in-flight stream cancellation happens via StreamingChat's
-  // unmount cleanup when its component reinitialises.
+  // Reset everything: drop the conversation id, clear messages, clean the
+  // URL, and bump the reset nonce so StreamingChat remounts fresh.
   function handleNewResearch() {
     setConversationId(null);
     setMessages([]);
+    setResetNonce((n) => n + 1);
     if (typeof window !== 'undefined') {
       const url = new URL(window.location.href);
       url.searchParams.delete('conversationId');
       window.history.replaceState({}, '', url.toString());
     }
   }
-
-  // Welcome screen example prompts — clicking populates the input area.
-  // We can't directly set StreamingChat's input from outside, so we use a
-  // simple URL-param trick: clicking an example sets `?q=` in the URL,
-  // which StreamingChat doesn't read, but the welcome screen unmounts when
-  // there's a query so the user can edit it before sending. Actually, the
-  // simpler approach is to just pre-fill via clipboard suggestion (which
-  // doesn't work) OR to lift the input state up — but that breaks the
-  // StreamingChat encapsulation.
-  //
-  // Pragmatic choice for Chunk 5: example buttons display the prompt for
-  // visual reference but are no-ops. Users can read the prompt and type
-  // their own variant. (A future chunk can add an "input prefill" prop to
-  // StreamingChat if examples become a critical onboarding aid.)
-  //
-  // OR: examples can simply not be interactive — they're static suggestions
-  // shown only on the very first visit. Going with this: keep them as
-  // styled buttons that look clickable but show a hint on hover.
-  // Actually — let's keep them as clickable buttons that DO populate the
-  // input. To wire this without lifting input state, we can use a small
-  // callback prop. Adding that is one more line in StreamingChat; doing it.
 
   const welcomeNode = (
     <div className="bb-chat-welcome">
@@ -111,8 +116,6 @@ export function ChatClient({
             key={ex}
             type="button"
             className="bb-chat-welcome-example"
-            // No-op for now — see commentary above. Static suggestions.
-            // Clicking just focuses the textarea so the user can type.
             onClick={() => focusInput()}
           >
             {ex}
@@ -121,6 +124,11 @@ export function ChatClient({
       </div>
     </div>
   );
+
+  // The remount key. Built from the PROP conversation id (not internal
+  // state) so conversation switches remount but mid-stream id arrivals
+  // don't; resetNonce covers the deliberate "New research" reset.
+  const chatKey = `${resetNonce}-${initialConversationId ?? 'new'}`;
 
   return (
     <div className="bb-standalone-chat">
@@ -138,11 +146,7 @@ export function ChatClient({
       </header>
 
       <StreamingChat
-        // Key forces a re-mount when the user clicks "New research" — this
-        // is how we cleanly reset internal state without exposing a reset
-        // method from StreamingChat. The component remounts with fresh
-        // state, clean message list, no conversation id.
-        key={conversationId ?? 'new'}
+        key={chatKey}
         initialMessages={messages}
         initialConversationId={conversationId}
         onConversationCreated={handleConversationCreated}
@@ -161,9 +165,9 @@ const EXAMPLE_PROMPTS = [
 ];
 
 // Helper to focus the chat input. The textarea lives inside StreamingChat
-// so we reach it via a query selector — not ideal but acceptable for a
-// one-shot focus action on welcome-example click. Stable selector because
-// only one .bb-chat-input textarea exists on the page at any time.
+// so we reach it via a query selector - acceptable for a one-shot focus
+// action on welcome-example click. Stable selector because only one
+// .bb-chat-input textarea exists on the page at any time.
 function focusInput() {
   if (typeof document === 'undefined') return;
   const ta = document.querySelector<HTMLTextAreaElement>('.bb-chat-input textarea');

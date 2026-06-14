@@ -5,6 +5,9 @@
 //   - An inline-editable header (name / client / description) — Chunk 4
 //   - A sidebar with case details, glance stats, quick actions
 //   - The tabbed workspace below
+//   - A collapse toggle for the right-hand sidebar (NEW): slides the
+//     Case Details column out to the right and lets the content widen to
+//     fill. State persists across visits via localStorage.
 //
 // What changed in Chunk 6:
 //   - Accepts `initialFiles` (with tags pre-joined) and `personalTagHistory`
@@ -63,6 +66,10 @@ const NAME_MAX = 200;
 const CLIENT_MAX = 200;
 const DESCRIPTION_MAX = 2000;
 
+// localStorage key for the sidebar collapsed state. Scoped to this feature
+// so it can't collide with anything else stored by the app.
+const SIDEBAR_COLLAPSED_KEY = 'bb:matter-sidebar-collapsed';
+
 // =============================================================================
 // MatterView
 // =============================================================================
@@ -92,6 +99,38 @@ export function MatterView({
   // The name input — referenced from the auto-focus effect AND from the
   // "Edit case details" Quick Action button.
   const nameInputRef = useRef<HTMLInputElement | null>(null);
+
+  // ---- Sidebar collapse state ---------------------------------------------
+  // We seed `false` (expanded) for the server render and the very first
+  // client render so SSR and hydration agree — reading localStorage during
+  // render would cause a hydration mismatch. After mount, an effect reads the
+  // stored preference and applies it. The CSS transition only kicks in on
+  // user toggles, not on this initial sync (see `hasMounted` gate below).
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [hasMounted, setHasMounted] = useState(false);
+
+  useEffect(() => {
+    try {
+      const stored = window.localStorage.getItem(SIDEBAR_COLLAPSED_KEY);
+      if (stored === '1') setSidebarCollapsed(true);
+    } catch {
+      // localStorage can throw in private-mode / blocked-cookie scenarios.
+      // Failing to read the preference is harmless — we just default open.
+    }
+    setHasMounted(true);
+  }, []);
+
+  const toggleSidebar = useCallback(() => {
+    setSidebarCollapsed((prev) => {
+      const next = !prev;
+      try {
+        window.localStorage.setItem(SIDEBAR_COLLAPSED_KEY, next ? '1' : '0');
+      } catch {
+        // Persisting is best-effort; ignore storage failures.
+      }
+      return next;
+    });
+  }, []);
 
   // ?new=1 auto-focus on mount ----------------------------------------------
   // When a brand-new matter is created, the user lands here with `?new=1`
@@ -129,14 +168,54 @@ export function MatterView({
   // Adapter — real Matter → MockMatter for the tabs.
   const adapted = adaptMatter(liveMatter);
 
+  // Build the layout className. `--collapsed` shrinks the sidebar column to
+  // zero and slides the panel out; `--ready` enables the CSS transition only
+  // after the first mount so the localStorage sync doesn't animate on load.
+  const layoutClass = [
+    'bb-matter-layout',
+    sidebarCollapsed ? 'bb-matter-layout--collapsed' : '',
+    hasMounted ? 'bb-matter-layout--ready' : '',
+  ]
+    .filter(Boolean)
+    .join(' ');
+
   return (
     <FilesProvider matterId={liveMatter.id} initialFiles={initialFiles}>
       <main className="bb-matter-main">
-        <Link href="/matters" className="bb-matter-back">
-          ← All cases
-        </Link>
+        <div className="bb-matter-topbar">
+          <Link href="/matters" className="bb-matter-back">
+            ← All cases
+          </Link>
 
-        <div className="bb-matter-layout">
+          {/* Sidebar toggle. Label + arrow direction reflect current state.
+              Lives in the top bar so it's always visible even when the
+              panel itself has slid away. */}
+          <button
+            type="button"
+            className="bb-matter-sidebar-toggle"
+            onClick={toggleSidebar}
+            aria-expanded={!sidebarCollapsed}
+            aria-controls="bb-matter-sidebar"
+          >
+            {sidebarCollapsed ? (
+              <>
+                <span className="bb-matter-sidebar-toggle-arrow" aria-hidden>
+                  ‹
+                </span>
+                Show details
+              </>
+            ) : (
+              <>
+                Hide details
+                <span className="bb-matter-sidebar-toggle-arrow" aria-hidden>
+                  ›
+                </span>
+              </>
+            )}
+          </button>
+        </div>
+
+        <div className={layoutClass}>
           {/* Main column — title + tabs */}
           <div className="bb-matter-content">
             <header className="bb-matter-head">
@@ -173,8 +252,14 @@ export function MatterView({
             />
           </div>
 
-          {/* Sidebar — metadata, sticky on desktop */}
-          <aside className="bb-matter-sidebar">
+          {/* Sidebar — metadata, sticky on desktop. Slides out when collapsed.
+              aria-hidden when collapsed so screen readers skip the offscreen
+              panel; the toggle button remains the way back in. */}
+          <aside
+            id="bb-matter-sidebar"
+            className="bb-matter-sidebar"
+            aria-hidden={sidebarCollapsed}
+          >
             <div className="bb-matter-sidebar-card">
               <h3 className="bb-matter-sidebar-heading">Case details</h3>
               <dl className="bb-matter-sidebar-fields">

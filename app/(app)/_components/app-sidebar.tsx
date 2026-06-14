@@ -1,5 +1,14 @@
 // app/(app)/_components/app-sidebar.tsx
 //
+// What changed in this pass (New research reset fix):
+//   - handleNewResearch previously called only `router.push('/chat')`. When
+//     the user was ALREADY on /chat, that's a no-op to Next's router (same
+//     pathname), so ChatClient kept its existing conversation on screen even
+//     though the URL dropped ?conversationId=. Now we also call
+//     router.refresh() to re-run the /chat server component, which re-seeds
+//     ChatClient with empty initialMessages / null conversation id — a true
+//     fresh start regardless of which page we were on.
+//
 // What changed in Chunk 5:
 //   - PLACEHOLDER_RECENT_CHATS replaced with a `recentResearch` prop fetched
 //     server-side by layout.tsx (real conversation rows from the DB).
@@ -150,8 +159,25 @@ export function AppSidebar({ user, recentResearch }: AppSidebarProps) {
 
   const navId = useId();
 
+  // Start a fresh research session. We navigate to /chat AND refresh the
+  // server component, so this resets the view even when the user is already
+  // on /chat (where router.push alone is a no-op and would leave the old
+  // conversation on screen). router.refresh() re-runs the /chat page server
+  // component, re-seeding ChatClient with empty initialMessages and a null
+  // conversation id. If we're already on /chat we skip the push (it would
+  // be a no-op) and just refresh; otherwise we push then refresh.
   function handleNewResearch() {
-    router.push('/chat');
+    if (pathname === '/chat') {
+      // Already here — clear the query param ourselves, then refresh so the
+      // server re-seeds empty state.
+      if (typeof window !== 'undefined') {
+        window.history.replaceState({}, '', '/chat');
+      }
+      router.refresh();
+    } else {
+      router.push('/chat');
+      router.refresh();
+    }
     setMobileOpen(false);
   }
 

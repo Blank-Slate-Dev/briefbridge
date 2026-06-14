@@ -1,14 +1,14 @@
 // scripts/dump-decision-html.ts
 // Fetches one NSW Caselaw decision page and saves its raw HTML to disk.
 //
-// Currently pointed at a ~1990 NSWCA decision from the pre-2000 Court of
-// Appeal window, where ~3,000 cases are failing wholesale — checking
-// whether these are HTML at all or stubs pointing at scanned documents.
+// Pointed at a 2009-2013 NSWCA case that is failing 100% during retry —
+// a range where the parser is known to work, so checking whether the
+// server is returning a real judgment or a block/challenge page.
 
 import fs from 'node:fs/promises';
 
-const URL = 'https://www.caselaw.nsw.gov.au/decision/549f513630042624639fb1fa';
-const OUT = 'scripts/output/old-decision-4.html';
+const URL = 'https://www.caselaw.nsw.gov.au/decision/549ff6fc3004262463c67e04';
+const OUT = 'scripts/output/check-block.html';
 
 async function main() {
   const res = await fetch(URL, {

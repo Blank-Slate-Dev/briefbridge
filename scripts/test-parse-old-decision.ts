@@ -26,8 +26,17 @@ async function main() {
   console.log('\n=== LOTUS 2003 (Fangupo) ===');
   console.log('citation:       ', fang.citation);
   console.log('paragraphCount: ', fang.paragraphCount, '(expect 38)');
-  console.log('first para:     ', fang.paragraphs[0]?.text.slice(0, 60));
-  console.log('last para num:  ', fang.paragraphs[fang.paragraphs.length - 1]?.number);
+
+  const milillo = parseNswJudgment(
+    await fs.readFile('scripts/output/check-block.html', 'utf8'),
+    'https://www.caselaw.nsw.gov.au/decision/549ff6fc3004262463c67e04',
+  );
+  console.log('\n=== LOTUS 2009 amended (Milillo) — the failing case ===');
+  console.log('citation:       ', milillo.citation);
+  console.log('decisionDate:   ', milillo.decisionDate);
+  console.log('paragraphCount: ', milillo.paragraphCount, '(expect ~133)');
+  console.log('first para:     ', milillo.paragraphs[0]?.text.slice(0, 70));
+  console.log('last para num:  ', milillo.paragraphs[milillo.paragraphs.length - 1]?.number);
 }
 
 main();

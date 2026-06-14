@@ -336,7 +336,7 @@ body:has(.bb-matter-main) {
  * The matter detail page is laid out as a two-column workspace:
  *
  *   ┌─────────────────────────────────┬──────────────────┐
- *   │ ← All cases                     │                  │
+ *   │ ← All cases          Hide details│                  │
  *   │                                 │  Case details    │
  *   │ Client name                     │                  │
  *   │ MATTER TITLE                    │  At a glance     │
@@ -349,7 +349,12 @@ body:has(.bb-matter-main) {
  *   │ └─────────────────────────────┘ │                  │
  *   └─────────────────────────────────┴──────────────────┘
  *
- * On mobile (<900px) the right column stacks underneath the main content.
+ * The right column (Case Details) can be collapsed via the "Hide details"
+ * toggle in the top bar — it slides out to the right and the content column
+ * widens to fill. State persists across visits (localStorage).
+ *
+ * On mobile (<900px) the right column stacks underneath the main content,
+ * and collapsing simply hides it.
  *
  * Visual hierarchy matches the matters list cards: 16px radius, 1px borders
  * in --bb-border, subtle hover lift, Fraunces serif for headings.
@@ -359,6 +364,16 @@ body:has(.bb-matter-main) {
   max-width: 1280px;
   margin: 0 auto;
   padding: 40px 32px 120px;
+}
+
+/* Top bar — holds the "← All cases" link and the Case Details toggle,
+   spread to opposite ends. */
+.bb-matter-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 28px;
 }
 
 /* Back link — the small "← All cases" lozenge at the top */
@@ -371,7 +386,6 @@ body:has(.bb-matter-main) {
   text-decoration: none;
   padding: 6px 12px 6px 8px;
   border-radius: 8px;
-  margin-bottom: 28px;
   margin-left: -8px; /* aligns the arrow flush-left with the title below */
   transition:
     background 0.15s ease,
@@ -383,6 +397,40 @@ body:has(.bb-matter-main) {
   color: var(--bb-ink);
   transform: translateX(-2px);
 }
+/* The topbar owns the bottom spacing now, so neutralise the link's. */
+.bb-matter-topbar .bb-matter-back {
+  margin-bottom: 0;
+}
+
+/* Case Details toggle — pill, matches the research/back-button family. */
+.bb-matter-sidebar-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--bb-ink);
+  background: var(--bb-bg-elevated);
+  border: 1px solid var(--bb-border);
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease;
+}
+.bb-matter-sidebar-toggle:hover {
+  background: var(--bb-bg);
+  border-color: var(--bb-border-strong);
+}
+.bb-matter-sidebar-toggle-arrow {
+  font-size: 14px;
+  line-height: 1;
+  color: var(--bb-muted);
+}
 
 /* Two-column workspace layout */
 .bb-matter-layout {
@@ -390,6 +438,30 @@ body:has(.bb-matter-main) {
   grid-template-columns: minmax(0, 1fr) 320px;
   gap: 40px;
   align-items: start;
+}
+
+/* Enable the collapse transition only after mount (--ready), so a restored
+   "collapsed" preference applies instantly on load instead of animating in. */
+.bb-matter-layout--ready {
+  transition:
+    grid-template-columns 0.28s ease,
+    gap 0.28s ease;
+}
+.bb-matter-layout--ready .bb-matter-sidebar {
+  transition:
+    opacity 0.22s ease,
+    transform 0.28s ease;
+}
+
+/* Collapsed: second column → 0, gap → 0, sidebar slides out right + fades. */
+.bb-matter-layout--collapsed {
+  grid-template-columns: minmax(0, 1fr) 0px;
+  gap: 0;
+}
+.bb-matter-layout--collapsed .bb-matter-sidebar {
+  opacity: 0;
+  transform: translateX(24px);
+  pointer-events: none;
 }
 
 .bb-matter-content {
@@ -402,10 +474,12 @@ body:has(.bb-matter-main) {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  overflow: hidden; /* keep the slide-out from spilling during transition */
 }
 
 @media (max-width: 900px) {
-  .bb-matter-layout {
+  .bb-matter-layout,
+  .bb-matter-layout--collapsed {
     grid-template-columns: 1fr;
     gap: 32px;
   }
@@ -415,6 +489,10 @@ body:has(.bb-matter-main) {
   }
   .bb-matter-content {
     order: 1;
+  }
+  /* On mobile the sidebar stacks; collapsing just hides it (no slide). */
+  .bb-matter-layout--collapsed .bb-matter-sidebar {
+    display: none;
   }
 }
 
@@ -719,6 +797,7 @@ body:has(.bb-matter-main) {
    decide whether this stretches (flex: 1 inside a viewport-filling parent)
    or sizes to content (in-page tab). */
 .bb-chat {
+  position: relative; /* anchor for the floating "jump to latest" button */
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -741,6 +820,64 @@ body:has(.bb-matter-main) {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+/* Jump-to-latest button (scroll pass) — floats above the input when the
+   user has scrolled up during a live answer. */
+.bb-chat-jump {
+  position: absolute;
+  bottom: 96px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 14px 7px 11px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--bb-ink);
+  background: var(--bb-bg-elevated);
+  border: 1px solid var(--bb-border-strong);
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  animation: bb-chat-jump-in 0.18s ease-out;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease,
+    transform 0.1s ease;
+}
+.bb-chat-jump:hover {
+  background: var(--bb-bg);
+  border-color: var(--bb-ink-soft);
+  transform: translateX(-50%) translateY(-1px);
+}
+.bb-chat-jump:active {
+  transform: translateX(-50%) translateY(0);
+}
+.bb-chat-jump-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--bb-ink);
+  color: var(--bb-bg);
+  font-size: 11px;
+  line-height: 1;
+}
+@keyframes bb-chat-jump-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
 }
 
 /* Context banner — "In context · Smith v Jones · 8 files · 23 authorities"
@@ -1046,6 +1183,34 @@ body:has(.bb-matter-main) {
   line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+/* Citation kind label (Statute) for legislation rows */
+.bb-citations-kind {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--bb-muted);
+  background: var(--bb-bg);
+  border: 1px solid var(--bb-border);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+.bb-citations-heading {
+  margin: 6px 0 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--bb-ink);
+}
+.bb-citations-breadcrumb {
+  margin: 4px 0 0;
+  font-size: 11.5px;
+  color: var(--bb-muted-soft);
+}
+.bb-citations-link--legislation,
+.bb-citations-link--file {
+  cursor: default;
 }
 
 /* -----------------------------------------------------------------------------
@@ -2994,4 +3159,84 @@ body:has(.bb-matter-main) {
 .bb-ai-access .bb-button:disabled {
   opacity: 0.5;
   cursor: default;
+}
+
+/* =============================================================================
+ * SCROLLBAR STYLING — palette-matched (cream/navy)
+ * =============================================================================
+ *
+ * Styles scrollbars across the matter + chat surfaces to match the design
+ * system instead of the raw OS default. WebKit (Chrome/Edge/Safari) uses
+ * ::-webkit-scrollbar; Firefox uses scrollbar-width / scrollbar-color.
+ *
+ * Applied to the chat scroll area, the standalone chat, and any inner
+ * scrollers (AI access file list, etc.). We keep it subtle: a slim track
+ * in the elevated background, a thumb in a muted border tone that darkens
+ * on hover.
+ * ============================================================================= */
+
+/* Firefox — applies to the scrollable chat/app containers. */
+.bb-chat-scroll,
+.bb-standalone-chat,
+.bb-ai-access__file-list,
+.bb-matter-main {
+  scrollbar-width: thin;
+  scrollbar-color: var(--bb-border-strong) transparent;
+}
+
+/* WebKit — chat scroll area and inner scrollers. */
+.bb-chat-scroll::-webkit-scrollbar,
+.bb-standalone-chat::-webkit-scrollbar,
+.bb-ai-access__file-list::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.bb-chat-scroll::-webkit-scrollbar-track,
+.bb-standalone-chat::-webkit-scrollbar-track,
+.bb-ai-access__file-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+.bb-chat-scroll::-webkit-scrollbar-thumb,
+.bb-standalone-chat::-webkit-scrollbar-thumb,
+.bb-ai-access__file-list::-webkit-scrollbar-thumb {
+  background: var(--bb-border-strong);
+  border-radius: 999px;
+  /* Inset the thumb so it reads as a slim pill, not a full-width bar.
+     The transparent border + background-clip trick creates the padding. */
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+.bb-chat-scroll::-webkit-scrollbar-thumb:hover,
+.bb-standalone-chat::-webkit-scrollbar-thumb:hover,
+.bb-ai-access__file-list::-webkit-scrollbar-thumb:hover {
+  background: var(--bb-muted);
+  background-clip: padding-box;
+}
+.bb-chat-scroll::-webkit-scrollbar-corner,
+.bb-standalone-chat::-webkit-scrollbar-corner,
+.bb-ai-access__file-list::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Page-level scrollbar on matter pages — slightly more present since it's
+   the whole-window scroller, but still palette-matched. */
+body:has(.bb-matter-main)::-webkit-scrollbar,
+body:has(.bb-matters-main)::-webkit-scrollbar {
+  width: 12px;
+}
+body:has(.bb-matter-main)::-webkit-scrollbar-track,
+body:has(.bb-matters-main)::-webkit-scrollbar-track {
+  background: var(--bb-bg);
+}
+body:has(.bb-matter-main)::-webkit-scrollbar-thumb,
+body:has(.bb-matters-main)::-webkit-scrollbar-thumb {
+  background: var(--bb-border-strong);
+  border-radius: 999px;
+  border: 3px solid var(--bb-bg);
+  background-clip: padding-box;
+}
+body:has(.bb-matter-main)::-webkit-scrollbar-thumb:hover,
+body:has(.bb-matters-main)::-webkit-scrollbar-thumb:hover {
+  background: var(--bb-muted);
+  background-clip: padding-box;
 }

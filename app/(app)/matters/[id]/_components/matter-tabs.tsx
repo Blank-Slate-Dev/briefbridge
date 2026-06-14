@@ -2,6 +2,25 @@
 //
 // Tabbed view inside a matter workspace.
 //
+// What changed in this pass (Research-tab navigation fix):
+//   - The active tab was previously pure useState seeded to 'research',
+//     fully disconnected from the URL. That caused a real bug: clicking
+//     "+ New research" (→ ?compose=1) or opening a past conversation
+//     (→ ?conversationId=X) changed the URL and re-fetched server data,
+//     but if you weren't already looking at the Research tab — or even
+//     sometimes when you were — the view didn't update, because `active`
+//     state survived the navigation and React wasn't forced to reflect
+//     the new conversation.
+//   - Now: when the URL carries ?conversationId= or ?compose=1, the active
+//     tab is FORCED to 'research'. We track whether the user has manually
+//     picked a different tab AFTER the current URL state, so manual tab
+//     switching still works, but any conversation/compose navigation
+//     always lands on (and re-renders) the Research tab.
+//   - The Research tab subtree is given a `key` derived from the URL's
+//     conversation/compose state, so navigating between conversations (or
+//     from a conversation to compose) cleanly remounts it with fresh data
+//     instead of trying to reconcile stale internal state.
+//
 // What changed in Chunk 6:
 //   - The internal FilesTab placeholder (mock data, disabled upload button)
 //     has been REMOVED. The real FilesTab from ./files-tab is rendered
@@ -11,15 +30,9 @@
 //   - The files count badge on the tab AND the fileCount prop passed to
 //     MatterResearchTab are now LIVE — both come from useFiles() so they
 //     reflect uploads and deletes instantly without a page refresh.
-//   - Mojibake characters in comments / JSX strings have been corrected
-//     (· ↔ ⋯ × etc.) — the previous file encoded as Windows-1252 at some
-//     point in its history.
 //
-// What changed in Chunk 5 (unchanged in Chunk 6):
+// What changed in Chunk 5 (unchanged since):
 //   - "Chat" tab and "Conversations" tab merged into a single "Research" tab.
-//     Rationale: under the BriefBridge vocabulary, "Research" is the
-//     lawyer↔AI feature and "Conversations" is reserved for the future
-//     lawyer↔lawyer collaboration feature.
 //   - Count badges hidden when 0.
 //   - The Research tab pulls real DB data via props (conversations +
 //     activeConversation) instead of the old MockMatter.conversations.
@@ -28,7 +41,8 @@
 
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import { useSearchParams } from 'next/navigation';
 import type { Conversation } from '@/lib/db/schema';
 import type { MockMatter } from '../../_data/mock-matters';
 import { MatterResearchTab } from './matter-research-tab';
@@ -71,8 +85,43 @@ export function MatterTabs({
   activeConversation,
   personalTagHistory,
 }: MatterTabsProps) {
-  // Default to the Research tab — most useful entry point.
-  const [active, setActive] = useState<TabKey>('research');
+  const searchParams = useSearchParams();
+  const conversationId = searchParams.get('conversationId');
+  const isComposing = searchParams.get('compose') === '1';
+
+  // A URL that carries a conversation id or compose flag means the user is
+  // doing research — the Research tab MUST be visible and reflect it.
+  const urlForcesResearch = Boolean(conversationId) || isComposing;
+
+  // We keep an explicit "user manually selected a tab" state, but reset it
+  // whenever the research-related URL changes, so a new conversation/compose
+  // navigation always wins over a previously-clicked Files/Authorities tab.
+  const [manualTab, setManualTab] = useState<TabKey | null>(null);
+
+  // Signature of the current research URL state. When it changes, we clear
+  // any manual tab override (so the new navigation lands on Research) and
+  // use it as the remount key for the Research subtree.
+  const researchKey = `${conversationId ?? ''}|${isComposing ? 'compose' : ''}`;
+  const prevResearchKey = useRef(researchKey);
+  useEffect(() => {
+    if (prevResearchKey.current !== researchKey) {
+      prevResearchKey.current = researchKey;
+      if (urlForcesResearch) {
+        // New conversation/compose navigation — drop any manual tab choice
+        // so the Research tab becomes active and re-renders.
+        setManualTab(null);
+      }
+    }
+  }, [researchKey, urlForcesResearch]);
+
+  // Resolve the active tab:
+  //   - If the URL forces research AND the user hasn't manually navigated
+  //     away since this URL state, show Research.
+  //   - Otherwise honour the manual choice, defaulting to Research.
+  const active: TabKey =
+    urlForcesResearch && manualTab === null ? 'research' : manualTab ?? 'research';
+
+  const selectTab = (key: TabKey) => setManualTab(key);
 
   // Live file count from the FilesProvider (which wraps MatterView, so
   // we're inside its scope here). Used for both the tab count badge and
@@ -108,7 +157,7 @@ export function MatterTabs({
               className={`bb-matter-tab ${
                 active === tab.key ? 'bb-matter-tab-active' : ''
               }`}
-              onClick={() => setActive(tab.key)}
+              onClick={() => selectTab(tab.key)}
             >
               {tab.label}
               {count !== null && count > 0 && (
@@ -122,6 +171,9 @@ export function MatterTabs({
       <div className="bb-matter-tabpanel" role="tabpanel">
         {active === 'research' && (
           <MatterResearchTab
+            // Remount on conversation/compose change so the Research tab
+            // always reflects the URL rather than reconciling stale state.
+            key={researchKey}
             matterId={matterId}
             matterName={matterName}
             conversations={conversations}

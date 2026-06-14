@@ -1,0 +1,1650 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html>
+
+	<head>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<link rel="stylesheet" href="/public/css/public.css?202505020137" />
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="robots" content="noindex, nofollow, noarchive">
+<link rel="icon" type="image/png" href="/public/img/icon.png">
+<link rel="apple-touch-icon" href="/public/img/icon-60@2x.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/public/img/icon-60@3x.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/public/img/icon-76.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/public/img/icon-76@2x.png" />
+<link rel="apple-touch-icon" sizes="58x58" href="/public/img/icon-58.png" />
+
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script type="text/javascript" src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="/public/js/lib/commonlibsnojq.min.js?202505020137"></script>
+<![endif]-->
+
+<!--[if lt IE 10]>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/history.js/1.8/native.history.min.js"></script>
+<![endif]-->
+
+
+
+<title>
+	
+
+		
+			
+				Milillo v Konnecke
+			
+			
+		
+
+		-
+
+	
+
+	NSW Caselaw
+
+	
+
+</title>
+
+
+	</head>	
+
+<!--[if lt IE 9]>
+   <body class="ie">
+<![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
+   <body>
+<!--<![endif]-->
+
+		<header>
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar" role="navigation">
+	<div class="container hidden-print">
+
+        <button type="button" class="navbar-toggle collapsed hamburger"
+       		data-toggle="collapse" data-target="#caselaw-menu">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+		<a href="/" class="navbar-brand">
+			<img src="/public/img/caselaw-logo-reverse.png" alt="Caselaw logo" />
+		</a>
+
+        <div class="collapse navbar-collapse" id="caselaw-menu">
+
+			<ul class="nav navbar-nav menu" style="">
+				<li >
+					<a href="/">Home</a>
+				</li>
+				<li >
+					<a href="/browse?display=all">Browse</a>
+				</li>
+				<li >
+					<a href="/about">About</a>
+				</li>
+				<li >
+					<a href="/contact">Contact us</a>
+				</li>
+			</ul>
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" class="visible-sm search-icon">
+  <span class="glyphicon glyphicon-search"></span>
+</a>
+
+<form id="queryForm" class="search-form hidden-print" action="/search" method="GET">
+  <div class="search-wrapper">
+    <label for="query" class="sr-only">Search query</label>
+    <input
+      type="text"
+      id="query"
+      name="query"
+      class="form-control"
+      placeholder="Enter a search term"
+      value=""
+    />
+    <button type="submit" class="btn btn-black">
+      Search
+    </button>
+  </div>
+
+  <input type="hidden" name="pagenumber" value="" />
+</form>
+
+		
+             
+             <div class="advanced-search">
+                    	<a href="/search/advanced" class="advanced-search-link" >Advanced Search</a> 
+                    	&nbsp;|&nbsp;
+                        <a href="javascript:void(0);" id="searchTips" class="advanced-search-link" title="Search Tips" 
+                        	onclick="javascript:window.open('/search-tips', '_search_tips', 'height=800,width=850,toolbar=0,location=0,menubar=0;');">
+                        	Search Tips
+                        </a>
+            </div>
+
+		</div>
+
+
+	</div>
+
+</nav>
+
+<!-- CSS to change font color to white in mobile view -->
+<style>
+/* Mobile view: Change the font color to white for the Advanced Search link */
+@media only screen and (max-width: 768px) {
+	.advanced-search-link {
+		color: white !important;
+		text-decoration: none; /* Force the color change to white */
+	}
+}
+
+@media only screen and (min-width: 769px) {
+	.advanced-search-link {
+		color: #263238;
+		text-decoration: none;
+		line-height: 40px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.advanced-search {
+		width: 0;
+		right: 0;
+		opacity: 0;
+		position: absolute;
+		transition: 0.5s;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.advanced-search {
+		display: block !important;
+        clear: both !important;
+        transition: 0 !important;
+        margin-bottom: 15px !important;
+        margin-left: 10px !important;
+        margin-top: 0 !important;
+        opacity: 1 !important;
+        padding: 0 20px !important;
+        position: static !important;
+        width: auto !important;
+        float: none !important;
+	}
+}
+</style>
+		</header>
+		
+		
+
+		
+
+
+
+<div class="wrapper hidden-print">
+
+	<div class="container">
+
+
+		<a class="btn btn-soft back pull-left">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			<span class="hidden-xs">Back</span>
+		</a>
+
+		<div class="pull-right">
+
+			
+
+			
+				
+					
+				
+				
+			
+
+			<a href="mailto:?subject=[2009] NSWCA 109%20Milillo v Konnecke&amp;body=https://www.caselaw.nsw.gov.au/decision/549ff6fc3004262463c67e04"
+				targe="_blank" class="btn btn-soft">
+				<span class="glyphicon glyphicon-envelope"></span>
+				Email
+			</a>
+
+			
+				
+				
+					
+
+
+
+
+
+
+				
+			
+
+			<a href="/decision/549ff6fc3004262463c67e04/export.pdf" class="btn btn-soft"
+				targe="_blank" >
+				<span class="glyphicon glyphicon-floppy-disk"></span>
+				PDF
+			</a>
+
+			<a href="#" class="btn btn-soft hidden-xs" onclick="window.print()">
+				<span class="glyphicon glyphicon-print"></span>
+				Print
+			</a>
+
+		</div>
+
+	</div>
+
+</div>
+
+<div class="container">
+	
+	<script src="//cdn1.readspeaker.com/script/4696/webReader/webReader.js?pids=wr" type="text/javascript"></script>
+	<div id="readspeaker_button" class="rs_skip rsbtn rs_preserve">
+		<a rel="nofollow" class="rsbtn_play" accesskey="L" title="Listen to this page using ReadSpeaker" 
+			href="//app-oc.readspeaker.com/cgi-bin/rsent?customerid=4696&lang=en_au&readid=webReaderDiv">
+	
+			<span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span> 
+			<span class="rsbtn_right rsimg rsplay rspart"></span>
+		</a>
+	</div>
+	
+	
+		
+			
+
+
+
+
+
+
+
+
+
+<div id="webReaderDiv">
+<div id="decisionDetail" class="public lotus">
+	<div class="judgment">
+
+		
+        
+        
+
+		
+
+		<div class="body">
+
+			
+
+			<table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+ <tbody> 
+  <tr valign="top"> 
+   <td width="23%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e05" border="0" alt="" /></td> 
+   <td width="77%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e07" border="0" alt="" /></td> 
+  </tr> 
+ </tbody> 
+</table> 
+<meta name="robots" content="noindex, nofollow, noarchive" /> 
+<div align="center"> 
+ <img src="/asset/549ff6fc3004262463c67e09" width="159" height="113" alt="State Crest" /> 
+ <br /> 
+ <font size="5" face="Times New Roman">New South Wales</font> 
+ <br /> 
+ <font size="5" face="Times New Roman">Court of Appeal</font> 
+ <br /> 
+ <img src="/asset/549ff6fc3004262463c67e0b" width="630" height="2" /> 
+</div> 
+<br /> 
+<font size="2" color="#0000FF" face="Arial"><br /></font> 
+<font size="2" color="#0000FF" face="Arial"> 
+ <!--start coversheet--></font> 
+<div align="center"></div> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+ <tbody> 
+  <tr valign="top"> 
+   <td width="7%"><font size="2" color="#0000FF" face="Arial"><br /></font></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman">CITATION:</font></b></td> 
+   <td width="63%"><b><font face="Times New Roman">Milillo v Konnecke [2009] NSWCA 109</font></b><br /><b><font face="Times New Roman">This decision has been amended. Please see the end of the judgment for a list of the amendments.</font></b></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e0d" border="0" alt="" /></td> 
+   <td width="30%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e0f" border="0" alt="" /></td> 
+   <td width="63%"><br /></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e11" border="0" alt="" /></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman">HEARING DATE(S):</font></b></td> 
+   <td width="63%"><font face="Times New Roman">3 April 2009</font></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e13" border="0" alt="" /></td> 
+   <td width="30%">&nbsp;<br /><b><font size="2" face="Times New Roman">JUDGMENT DATE:</font></b>&nbsp;</td> 
+   <td width="63%"> 
+    <meta name="judgmentdatestart" /><br /><font face="Times New Roman">15 May 2009</font> 
+    <meta name="judgmentdateend" /></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e15" border="0" alt="" /></td> 
+   <td width="30%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e17" border="0" alt="" /></td> 
+   <td width="63%"><br /></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e19" border="0" alt="" /></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman">JUDGMENT OF:</font></b></td> 
+   <td width="63%"><b><font face="Times New Roman"> </font></b><font face="Times New Roman">Ipp JA at 1; Macfarlan JA at 132; Sackville AJA at 133</font></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e1b" border="0" alt="" /></td> 
+   <td width="30%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e1d" border="0" alt="" /></td> 
+   <td width="63%"><br /></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e1f" border="0" alt="" /></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman">DECISION:</font></b></td> 
+   <td width="63%"><font face="Times New Roman">(a) The appeal is dismissed.<br />(b) Rosa to pay the executors costs of the appeal.<br />(c) The executors are entitled to be reimbursed from the the testator's estate on an indemnity basis for the balance of their costs to the extent to which those costs are not paid by Rosa.<br />(d) No order is made as to the costs of Gina (the intent being that she pay her own costs of the appeal).</font></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e21" border="0" alt="" /></td> 
+   <td width="30%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e23" border="0" alt="" /></td> 
+   <td width="63%"><br /></td> 
+  </tr> 
+ </tbody> 
+</table> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+ <tbody> 
+  <tr valign="top"> 
+   <td width="7%"><font size="2" color="#0000FF" face="Arial"><br /></font></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman">CATCHWORDS:</font></b></td> 
+   <td width="63%"><font face="Times New Roman">SUCCESSION - family provision and maintenance - failure by testator to make sufficient provision for applicant - appeal - small estate - whether provision should be made for portable life estate based upon Crisp v Burns Philp Trustee Company Ltd - whether widow's claim has automatic primacy - whether error in exercise of trial judge's discretion - whether matters of weight in the exercise of discretion may constitute error. - PROCEDURE - costs - separate representation of defendants - where no conflict of interest between defendants.</font></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e25" border="0" alt="" /></td> 
+   <td width="30%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e27" border="0" alt="" /></td> 
+   <td width="63%"><br /></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e29" border="0" alt="" /></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman">LEGISLATION CITED:</font></b></td> 
+   <td width="63%"><font face="Times New Roman">Family Provision Act 1982<br />Supreme Court Rules 1970<br />Uniform Civil Procedure Rules 2005</font></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e2b" border="0" alt="" /></td> 
+   <td width="30%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e2d" border="0" alt="" /></td> 
+   <td width="63%"><br /></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e2f" border="0" alt="" /></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman">CATEGORY:</font></b></td> 
+   <td width="63%"><font face="Times New Roman">Principal judgment</font></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e31" border="0" alt="" /></td> 
+   <td width="30%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e33" border="0" alt="" /></td> 
+   <td width="63%"><br /></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e35" border="0" alt="" /></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman">CASES CITED:</font></b></td> 
+   <td width="63%"><font face="Times New Roman">Barns v Barns [2003] HCA 9; (2003) 214 CLR 169<br />Bladwell v Davis [2004] NSWCA 170<br />Court v Hunt (NSWSC, Young J, 14 September 1987, unreported)<br />Credit Lyonnais Australia Ltd v Darling (1991) 5 ACSR 703<br />Crisp v Burns Philp Trustee Company Ltd (NSWSC, Holland J, 18 December 1979, unreported)<br />Diver v Neal [2009] NSWCA 54<br />Drummond v Drummond [1999] NSWSC 923<br />Foley v Ellis [2008] NSWCA 288<br />Golosky v Golosky [1993] NSWCA 111<br />Gronow v Gronow [1979] HCA 63; (1979) 144 CLR 513<br />Harbin v Masterman [1896] 1 Ch 351<br />House v The King [1936] HCA 40; (1936) 55 CLR 499<br />In re Lyell [1941] VLR 207<br />Lloyd-Williams v Mayfield [2005] NSWCA 189; (2005) 63 NSWLR 1<br />Lovell v Lovell [1950] HCA 52; (1950) 81 CLR 513<br />Macedonian Orthodox Community Church St Petka Inc v His Eminence Petar The Diocesan Bishop of The Macedonian Orthodox Diocese of Australia and New Zealand [2008] HCA 42<br />Mallet v Mallet [1984] HCA 21; (1984) 156 CLR 605 <br />Mulcahy v Weldon [2002] NSWCA 206<br />Queensland Electricity Commission, Re; Ex parte Electrical Trade Union [1987] HCA 27; (1987) 72 ALR 1<br />Re Hodges; Shorter v Hodges (1988) 14 NSWLR 698<br />Richard Brady Franks Ltd v Price [1937] HCA 42; (1937) 48 CLR 112<br />Singer v Berghouse [1994] HCA 40; (1994) 181 CLR 201<br />Stratham v Shephard (No 2) (1974) 23 FLR 244<br />Vigolo v Bostin [2005] HCA 11; (2005) 221 CLR 191</font></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e37" border="0" alt="" /></td> 
+   <td width="30%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e39" border="0" alt="" /></td> 
+   <td width="63%"><br /></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e3b" border="0" alt="" /></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman">PARTIES:</font></b></td> 
+   <td width="63%"><font face="Times New Roman">Rosaria Milillo (Appellant)<br />Angela Konnecke (First Respondent)<br />Vittoria Borazio (Second Resondent)<br />Gina Silvana Borazio (Third Respondent)</font><font face="Times New Roman"> </font></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e3d" border="0" alt="" /></td> 
+   <td width="30%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e3f" border="0" alt="" /></td> 
+   <td width="63%"><br /></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e41" border="0" alt="" /></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman">FILE NUMBER(S):</font></b></td> 
+   <td width="63%"><b><font face="Times New Roman">CA</font></b> <font face="Times New Roman">40395/08</font></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e43" border="0" alt="" /></td> 
+   <td width="30%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e45" border="0" alt="" /></td> 
+   <td width="63%"><br /></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e47" border="0" alt="" /></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman">COUNSEL: </font></b></td> 
+   <td width="63%"><font face="Times New Roman">L J Ellison SC; D Liebhold (Appellant)<br />D M Flaherty (First and Second Respondent)<br />J C Pentelow (Third Respondent)</font></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e49" border="0" alt="" /></td> 
+   <td width="30%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e4b" border="0" alt="" /></td> 
+   <td width="63%"><br /></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e4d" border="0" alt="" /></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman">SOLICITORS: </font></b></td> 
+   <td width="63%"><font face="Times New Roman">Blacktown Legal (Appellant)<br />John R DE. Mattia &amp; Co (First and Second Respondents)<br />Bell Lawyers (Third Respondent)</font><font size="2" color="#0000FF" face="Arial"> </font></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e4f" border="0" alt="" /></td> 
+   <td width="30%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e51" border="0" alt="" /></td> 
+   <td width="63%"><br /></td> 
+  </tr> 
+ </tbody> 
+</table> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+ <tbody> 
+  <tr valign="top"> 
+   <td width="7%"><font size="2" color="#0000FF" face="Arial"><br /></font></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman">LOWER COURT JURISDICTION: </font></b></td> 
+   <td width="63%"><font face="Times New Roman">Supreme Court</font><font face="Times New Roman"> </font></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e53" border="0" alt="" /></td> 
+   <td width="30%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e55" border="0" alt="" /></td> 
+   <td width="63%"><br /></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e57" border="0" alt="" /></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman">LOWER COURT FILE NUMBER(S):</font></b></td> 
+   <td width="63%"><font face="Times New Roman">SC 3428/08; SC 4734/07<br /></font><font size="2" color="#0000FF" face="Arial"> </font></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e59" border="0" alt="" /></td> 
+   <td width="30%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e5b" border="0" alt="" /></td> 
+   <td width="63%"><br /></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e5d" border="0" alt="" /></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman">LOWER COURT</font></b><font size="2" color="#0000FF" face="Arial"> </font><b><font size="2" face="Times New Roman">JUDICIAL OFFICER: </font></b></td> 
+   <td width="63%"><font face="Times New Roman">Young CJ in Eq</font><font size="2" color="#0000FF" face="Arial"> </font></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e5f" border="0" alt="" /></td> 
+   <td width="30%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e61" border="0" alt="" /></td> 
+   <td width="63%"><br /></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e63" border="0" alt="" /></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman"> LOWER COURT DATE OF DECISION:</font></b></td> 
+   <td width="63%"><b><font face="Times New Roman"> </font></b><font face="Times New Roman">7 October 2008</font></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e65" border="0" alt="" /></td> 
+   <td width="30%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e67" border="0" alt="" /></td> 
+   <td width="63%"><br /></td> 
+  </tr> 
+  <tr valign="top"> 
+   <td width="7%"><img width="1" height="1" src="/asset/549ff6fc3004262463c67e69" border="0" alt="" /></td> 
+   <td width="30%"><b><font size="2" face="Times New Roman"> LOWER COURT MEDIUM NEUTRAL CITATION:</font></b></td> 
+   <td width="63%"><b><font face="Times New Roman"> </font></b><font face="Times New Roman">Milillo v Konnecke; Borazio v Konnecke [2008] NSWSC 1069</font></td> 
+  </tr> 
+ </tbody> 
+</table> 
+<div align="center"> 
+ <br /> 
+ <meta endcoversheet="" /> 
+ <!--end coversheet--> 
+ <br /> 
+ <p><br /><br /><img src="/asset/549ff6fc3004262463c67e6b" width="630" height="2" /></p> 
+</div> 
+<br /> 
+<div align="center"> 
+ <font size="2" color="#0000FF" face="Arial"><br /></font> 
+</div> 
+<table border="0"> 
+ <tbody> 
+  <tr> 
+   <td width="20"><img src="/asset/549ff6fc3004262463c67e6d" border="0" alt="spacer image" width="20" /></td> 
+   <td> 
+    <div align="center"></div><br /><b><font face="Times New Roman">IN THE SUPREME COURT</font></b><br /><b><font face="Times New Roman">OF NEW SOUTH WALES</font></b><br /><b><font face="Times New Roman">COURT OF APPEAL</font></b> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <ul> 
+         <ul> 
+          <ul> 
+           <ul> 
+            <ul> 
+             <ul> 
+              <ul> 
+               <ul> 
+                <b><font face="Times New Roman">CA 40395/08</font></b> 
+                <br /> 
+                <b><font face="Times New Roman">SC 4734/07; SC 3248/08</font></b> 
+                <br /> 
+                <br /> 
+                <b><font face="Times New Roman">IPP JA</font></b> 
+                <br /> 
+                <b><font face="Times New Roman">MACFARLAN JA</font></b> 
+                <br /> 
+                <b><font face="Times New Roman">SACKVILLE AJA</font></b> 
+                <br /> 
+                <br /> 
+                <b><font face="Times New Roman">15 May 2009</font></b> 
+               </ul> 
+              </ul> 
+             </ul> 
+            </ul> 
+           </ul> 
+          </ul> 
+         </ul> 
+        </ul> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul> 
+    <div align="center"> 
+     <b><font face="Times New Roman">Rosaria MILILLO v Angela KONNECKE &amp; 3 Ors</font></b> 
+    </div> 
+    <ul> 
+     <ul></ul> 
+    </ul> 
+    <div align="center"> 
+     <b><font face="Times New Roman">Judgment</font></b> 
+    </div> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">1 </font><b><font face="Times New Roman">IPP JA:</font></b><font face="Times New Roman"> </font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">The dispute about adequate and proper maintenance</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">2 This appeal turns on whether the late Luigi Borazio (the “testator”), who died on 14 February 2007, made adequate provision in his last will for the proper maintenance of his widow (and third wife), Rosa Borazio. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">3 For the sake of convenience and without intending any disrespect I shall refer to Mrs Borazio (Rosa) and the other parties involved in this appeal by their first names. Rosa is the appellant in these proceedings and is represented by Mr Ellison SC, together with Mr Liebhold.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">4 The respondents are three of the testator’s four daughters by his first marriage to Marlene De Vere, namely, Angela Konnecke (aged 47 years), Vittoria Borazio (aged 45), and Gina Borazio (aged 42). Angela and Vittoria are executors of the testator’s estate and are represented by Mr Flaherty, of counsel. Gina is represented by Ms Pentelow, of counsel. The testator’s fourth daughter by Marlene is Luisa Sweeney (aged 43 at the time of the trial). Luisa is not a party to the proceedings.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">5 By his last will, the testator left Rosa a life interest in their family home in Blacktown (the “Blacktown home”). She was to pay all outgoings. Rosa was also given $10,000 and the chattels in the Blacktown home. The balance of the estate was given to the testator’s four daughters by Marlene, equally. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">6 Rosa contends that, by giving her merely a life interest in the Blacktown home, the testator did not make adequate provision for her proper maintenance. She brought proceedings for relief under the </font><i><font face="Times New Roman">Family Provision Act</font></i><font face="Times New Roman"> 1982 but Young CJ in Eq dismissed her claim. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">7 There were two sets of proceedings heard concurrently by Young CJ in Eq. The first is the subject of this appeal, namely, Rosa’s claim against the executors. The second was a claim, also for relief under the </font><i><font face="Times New Roman">Family Provision Act</font></i><font face="Times New Roman">, brought by Gina against the executors. Gina, too, alleged that the testator had not made adequate provision for her proper maintenance. There is no appeal against the orders Young CJ in Eq made in Gina’s proceedings.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">8 In dealing with Gina’s claim, his Honour held that the residue of the estate (after the disposal of Rosa’s portion) be split into five shares, with Gina to receive two shares and each of her three sisters one share. His Honour ordered that Gina’s legal costs be paid out of the estate but that those costs be set off against other costs that Gina, previously, had been ordered to pay the executors.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">9 The trial commenced on 27 August 2008 and continued on 7 October 2008, on which date his Honour delivered his reasons for judgment. The matters were then stood over to 21 October 2008 for consideration of short minutes. On that date his Honour made orders in both cases. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">10 Between 7 October 2008 (when reasons were handed down) and 21 October 2008 (when orders were made), the executors gave the following undertaking to the Court:</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“[W]hile … [Rosa] is alive, they will not sell nor attempt to sell or encumber the [Blacktown home] without the written consent of [Rosa].”</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">11 His Honour noted that undertaking and ordered that Rosa’s claim be dismissed with no order as to costs (the intent being that each party pay their own costs). Rosa appeals against these orders. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">12 After Rosa had commenced her appeal, by some process not apparent from the papers before this Court, Gina was made third respondent to the appeal (Angela being the first respondent and Vittoria the second respondent). </font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">The estate</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">13 The estate was presented for probate purposes as consisting of $478,000 made up as follows:</font> 
+    <ul> 
+     <ul> 
+      <table border="1"> 
+       <tbody> 
+        <tr valign="top"> 
+         <td width="373"><font face="Times New Roman">Blacktown home</font></td> 
+         <td width="124"> 
+          <div align="right"> 
+           <font face="Times New Roman">$400,000</font> 
+          </div></td> 
+        </tr> 
+        <tr valign="top"> 
+         <td width="373"><font face="Times New Roman">Interest in family trust</font></td> 
+         <td width="124"> 
+          <div align="right"> 
+           <font face="Times New Roman">64,000</font> 
+          </div></td> 
+        </tr> 
+        <tr valign="top"> 
+         <td width="373"><font face="Times New Roman">Cash </font></td> 
+         <td width="124"> 
+          <div align="right"> 
+           <font face="Times New Roman">10,000</font> 
+          </div></td> 
+        </tr> 
+        <tr valign="top"> 
+         <td width="373"><font face="Times New Roman">Utility vehicle</font></td> 
+         <td width="124"> 
+          <div align="right"> 
+           <font face="Times New Roman">1,000</font> 
+          </div></td> 
+        </tr> 
+        <tr valign="top"> 
+         <td width="373"><font face="Times New Roman">Chattels in Blacktown home</font></td> 
+         <td width="124"> 
+          <div align="right"> 
+           <font face="Times New Roman">3,000</font> 
+          </div></td> 
+        </tr> 
+       </tbody> 
+      </table> 
+      <ul> 
+       <ul></ul> 
+      </ul> 
+      <br /> 
+      <font face="Times New Roman">In addition, joint property of $20,283 passed to Rosa by survivorship.</font> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">14 The “interest” valued at $64,000 represents the testator’s “share” in the Borazio Family Trust. The testator was a beneficiary of the Trust. The other beneficiaries are his four daughters. At the time of the trial, the Trust owned property valued at $330,000 at Callala Beach, New South Wales. The $64,000 represents a one fifth share in that property.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">15 The executors have partially distributed the estate by paying Rosa the $10,000 cash and giving her the chattels in the house.</font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">Rosa</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">16 Rosa was born in Italy. She was aged 58 years at the time of the trial. Her </font><i><font face="Times New Roman">de facto</font></i><font face="Times New Roman"> relationship with the testator began in 1992. They were married in 2002 and the testator died in 2007. Thus, they cohabited for some 15 years. Rosa had been married previously and by that marriage has two adult daughters and a son. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">17 At the time of the trial, Rosa was still living in the Blacktown home. She was in ill health. She had a mastectomy in 1993 and was diagnosed with secondary bone cancer in 2002. According to a medical report dated 15 July 2008 by Professor John Levi, Rosa’s disease was “slowly progressive at the present time”. Professor Levi expressed the opinion that “it would be reasonable to estimate that her anticipated life expectancy would have a 50 percent likelihood of surviving a further year and a 25 percent likelihood of surviving beyond two years”. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">18 Rosa receives a pension of $264.28 per week (through which she obtains secondary benefits such as concessional medical care). Her sole other income is rental of $130 per week from a granny flat in the Blacktown home.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">19 Young CJ in Eq recorded that Rosa’s “final statement of assets” disclosed that she had $250,000 in liquid assets (in a bank or in superannuation), a car worth $35,000, and shares worth $8534. Her assets, accordingly, amount to $293,534. She has no liabilities. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">20 Rosa uses her pension largely to pay living expenses and uses the rent from the granny flat to pay expenses related to the Blacktown home.</font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">The daughters</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">21 Angela, Vittoria and Louisa did not advance a case of any special needs.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">22 Gina is currently unemployed and has not had gainful employment since August 2005. She has an obsessive-compulsive disorder and suffers from depression. She lives a hermit-like existence and feels safer in her own home. Medical evidence suggested that her condition is unlikely to improve. Gina owns her house which she could sell for about $370,000. The house is subject to a mortgage of $188,276. If she sold her house, Gina would be left with about $165,000 after allowing for the expenses of a sale. She has a motor vehicle worth $5000 and about $5000 in the bank. She has other debts of about $20,000, mostly to relatives. She receives a weekly disability support pension of $279.34. Her weekly expenses amount to $376 (these are in addition to her mortgage payments). She has no dependents. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">23 Gina wishes to sell her house in order to pay off her debts and reduce her outgoings. She wishes to purchase a small villa or townhouse. It is estimated that a house of the kind she desires will cost her about $345,000 (that is, $180,000 more than the nett $165,000 to which I have referred).</font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">Factual background to the will</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">24 When the testator separated from Marlene, he and Marlene agreed, as the trial judge noted, that:</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“Marlene would not make the claims against the testator that she might be entitled to make on the basis that the Blacktown house would be devised to her four daughters.” </font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">25 That agreement led to Marlene making concessions to the testator concerning assets that she might otherwise have been able to claim from him. She made those concessions as she believed that, in return, the testator would give the Blacktown home to her daughters. The testator kept his promise to Marlene, at least, subject to Rosa’s right to the Blacktown home during her lifetime.</font><br /><font face="Times New Roman">26 Later, when the testator and Rosa were living together (and before they were married), they agreed that they would keep their own properties separate. They regarded the Blacktown home as more suitable than Rosa’s house and so they lived there. This allowed Rosa to sell her house and give most of the proceeds to her children by her first marriage.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">27 On 17 October 2004, the same day as he made his last will, the testator signed the following document:</font> 
+    <ul> 
+     <ul> 
+      <div align="center"> 
+       <font face="Times New Roman">“TO MY EXECUTORS AND DAUGHTERS</font> 
+      </div> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">I have not left any provision in my will for Rosaria Milillo who I married in 2002, of any asset, but have left her a life estate in our home at … . This is because Rosaria sold her house prior to us marrying and she kept the proceeds from the sale for herself together with her other assets.</font> 
+       </ul> 
+      </ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">In addition to the life estate in (address of house), it is my wish that you will allow Rosaria Milillo to say at our holiday house at … Callala Beach when she wants to.</font> 
+       </ul> 
+      </ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">It is also my wish that our home at … Blacktown always remain in our family and if it must be sold that either one of you buy the others out so that our home always remains in our family.”</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">28 Consistently with her agreement with the testator, when Rosa made a will on 17 March 2004, she provided:</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“IN MAKING THE PROVISIONS OF THIS MY WILL I have given full consideration to the claims on me of my Husband </font> 
+        <b><i><u><font face="Times New Roman">Luigi BORAZIO</font></u></i></b> 
+        <font face="Times New Roman">, however, I have made no provision for him because we have retained separate assets during our lifetime and I have no expectation of receiving any benefit under the Will made by him.”</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">29 Uncontested evidence was led to the effect that, during his lifetime, the testator often stated that he would comply with his agreement with Marlene and devise the Blacktown home to Angela, Vittoria, Luisa and Gina. Rosa did not object when these statements were made. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">30 The agreement between the testator and Rosa that they would keep their property separate conferred material benefits on Rosa and her children. In particular, Rosa became able to make relatively substantial gifts to her children by her first marriage. Young CJ in Eq said in this regard:</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“Rosa has made large gifts to her children. She sold her house to her son it would seem for $340,000 though she says $250,000 and gave a substantial part of the price to her daughters. Most of the proceeds were spent as ‘gifts’. The evidence suggests that she was only able to do this because of her agreement that she would live in the testator’s house and that they would keep their assets separate.”</font> 
+       </ul> 
+      </ul> 
+      <br /> 
+      <b><font face="Times New Roman">Rosa’s objections to the Blacktown home</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">31 Rosa acknowledged that her claim under the </font><i><font face="Times New Roman">Family Provision Act</font></i><font face="Times New Roman"> was contrary to her agreement with the testator. She testified, however, that she could not maintain a reasonable lifestyle without reliance on some of the testator’s assets. Her basic complaint was that the Blacktown house was unsuitable. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">32 Rosa asserted that the house was too big for her but her main complaint concerned the stairs to the entrance. She found these stairs difficult to climb.</font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">The judge’s reasoning</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">33 It was not in dispute that Rosa was an “eligible person” within para (b) of the definition in s 6(1) of the </font><i><font face="Times New Roman">Family Provision Act</font></i><font face="Times New Roman">. Thus, subject to s 9(2) of the Act, the Court, by s 7, was entitled to:</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“order that such provision be made out of the estate … as, in the opinion of the Court, ought, having regard to the circumstances at the time the order is made, to be made for the maintenance, education or advancement in life of the eligible person.”</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">34 Section 9(2) provides that the Court shall not make an order under s 7 unless it is satisfied that the provision (if any) made in favour of the eligible person by the deceased person either during his lifetime or out of his estate: </font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“[I]s, at the time the Court is determining whether or not to make such an order, inadequate for the proper maintenance, education and advance in life of the eligible person.”</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">35 As was appropriate, Young CJ in Eq commenced his enquiry by reference to </font><i><font face="Times New Roman">Singer v Berghouse</font></i><font face="Times New Roman"> [1994] HCA 40; (1994) 181 CLR 201 (at 208-209) where Mason CJ, Deane and McHugh JJ identified the well known two-stage process. </font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“[T]he first stage … calls for a determination of whether the applicant has been left without adequate provision for his or her proper maintenance, education and advancement in life. The second stage, which only arises if that determination be made in favour of the applicant, requires the court to decide what provision ought to be made out of the deceased’s estate for the applicant. The first stage has been described as ‘the jurisdictional question’. That description means no more than that the court’s power to make an order in favour of an applicant under 7 is conditioned upon the Court being satisfied of the state of affairs predicated in 9(2)(a).” (Footnotes omitted.)</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">36 </font><i><font face="Times New Roman">Singer v Berghouse</font></i><font face="Times New Roman"> (at 209-210) requires the following approach:</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“The determination of the first stage in the two stage process calls for an assessment of whether the provision (if any) made was inadequate for what, in all the circumstances, was the proper level of maintenance etc appropriate for the applicant having regard, amongst other things, to the applicant’s financial position, the size and nature of the deceased’s estate, the totality of the relationship between the applicant and the deceased, and the relationship between the deceased and other persons who have legitimate claims upon his or her bounty.”</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">37 Young CJ in Eq proceeded to observe that in an “ordinary case” it would be insufficient for a man to leave his widow with a life estate only in the matrimonial home. His Honour stated (at [65]):</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“At the very least he must make provision for the executors to sell the home and, as the widow ages, provide suitable substitute accommodation.”</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">38 The judge pointed out (at [66]), however, that the case before him was far from ordinary. He said (also at [66]) that there was a strong case against the proposition that a “capital order for the widow” would be a proper provision. The matters that influenced his Honour in this regard were:</font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <font face="Times New Roman">(a) Rosa’s short life expectancy meant that any capital gift to her would probably result in a windfall to her children (who were not beneficiaries under the will and who had no moral claim to any provision from the estate) and would be to the detriment of the testator’s daughters;</font> 
+      <br /> 
+      <br /> 
+      <font face="Times New Roman">(b) any capital gift to Rosa would be contrary to the agreement that the testator had made with Marlene. It would also be contrary to the pre-nuptial agreement the testator had made with Rosa - an agreement that had been implemented to the significant benefit of Rosa and her children;</font> 
+      <br /> 
+      <br /> 
+      <font face="Times New Roman">(c) the estate was small and there were insufficient funds with which all claimants’ needs could be satisfied;</font> 
+      <br /> 
+      <br /> 
+      <font face="Times New Roman">(d) the only way a capital gift to Rosa could be made would be by selling the Blacktown home and using the proceeds for that purpose. But the estate had incurred substantial legal costs. These, together with the transactional costs that would be involved in selling the Blacktown home and acquiring a different property, meant that it would not be not possible to sell the Blacktown home and leave the testator’s daughters with what the testator had intended (and Rosa had agreed) that they should receive, and;</font> 
+      <br /> 
+      <br /> 
+      <font face="Times New Roman">(e) thus, any provision whereby Rosa would receive a significant capital gift would result in her not having the Blacktown home as accommodation and testator’s daughters receiving significantly less than the benefits bequeathed to them under the will. If the legal costs of the other parties had to be paid out of the estate, the position would be exacerbated.</font> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">39 While acknowledging that this was “very much a borderline case”, Young CJ in Eq observed (at [79]) that he was “unable to conclude that in all the circumstances the testator did not make adequate provision for Rosa”.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">40 His Honour went on to state (at [82]) that, if the executors provided an undertaking to the Court that they would not, without Rosa’s consent, seek to sell the Blacktown home while she was still alive, he would dismiss Rosa’s application but not make any order for costs against her. Underlying this approach was the notion that, were that undertaking to be given, the executors would not seek to realise the Blacktown home in order to produce funds to meet the substantial legal costs they had incurred in the proceedings before Young CJ in Eq. On this basis, his Honour was satisfied that Rosa had not established that she had not been given adequate and proper provision under the will. She could continue to reside in the Blacktown home as she had done for many years and, as his Honour implicitly held, any other arrangement would result in an improper level of maintenance having regard to all the relevant circumstances.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">41 His Honour said, however, that were the executors to be unwilling to provide such an undertaking, he would hold that Rosa had surmounted the first stage of the two-stage </font><i><font face="Times New Roman">Singer v Berghouse</font></i><font face="Times New Roman"> test. Underlying this view, was the notion that, were the Blacktown property to be sold to enable the executors to pay legal costs, Rosa would not have an appropriate residence. This consequence would cause his Honour to alter the view to which he had come, referred to in the previous paragraph.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">42 I would pause to note that, in my view, in the difficult circumstances of the case stemming largely from the smallness of the estate, his Honour’s approach, </font><i><font face="Times New Roman">prima facie</font></i><font face="Times New Roman">, appears to have been fair and reasonable to all involved, suitably practical, and in accordance with the </font><i><font face="Times New Roman">Family Provision Act</font></i><font face="Times New Roman">.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">43 As Young CJ in Eq at that stage did not know whether the executors would provide such an undertaking, he went on to consider what provision should be made (were the undertaking not to be provided). He concluded that Rosa’s need for proper accommodation could be secured were she to be given $100,000 towards buying a home referred to in an affidavit to which she had deposed. This, indeed, was the relief that towards the end of the proceedings, Rosa was claiming as her primary position. His Honour noted, however, that the “downside” of providing for such a legacy would be that that sum would pass out of the estate forever and probably eventually benefit Rosa’s children.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">44 After his Honour’s reasons had been handed down, the executors provided the undertaking and his Honour ordered that Rosa’s application be dismissed and that each party pay their own costs.</font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">The grounds of appeal</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">45 Rosa’s amended notice of appeal asserts many grounds of appeal. Several are bald assertions that do not identify a reasoned basis for the contention advanced therein that his Honour erred. Falling into this category are allegations that his Honour erred in finding that Rosa had not satisfied the two-stage test referred to in </font><i><font face="Times New Roman">Singer v Berghouse</font></i><font face="Times New Roman">, in failing to have regard to various matters (to which his Honour in fact expressly referred in his reasons), and in taking into account various matters (which were undoubtedly relevant). </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">46 In the course of oral argument, Mr Ellison identified the following errors on which he relied:</font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <font face="Times New Roman">(a) His Honour erred by not considering a provision in the nature of a “</font> 
+      <i><font face="Times New Roman">Crisp</font></i> 
+      <font face="Times New Roman"> order” (sometimes referred to as a “portable life estate”) in favour of Rosa;</font> 
+      <br /> 
+      <br /> 
+      <font face="Times New Roman">(b) his Honour failed to take into account the fact that suitable substituted accommodation (other than the Blacktown home) could have been provided to the appellant without any capital gift;</font> 
+      <br /> 
+      <br /> 
+      <font face="Times New Roman">(c) his Honour did not take into account the need of Rosa for different accommodation in the foreseeable future, or did not give sufficient weight to that need;</font> 
+      <br /> 
+      <br /> 
+      <font face="Times New Roman">(d) his Honour erred in failing to accord primacy to Rosa’s claim, she being the testator’s widow;</font> 
+      <br /> 
+      <br /> 
+      <font face="Times New Roman">(e) his Honour erred in taking into account the possible windfall of the property to Rosa’s children, or attached too much weight to that factor;</font> 
+      <br /> 
+      <br /> 
+      <font face="Times New Roman">(f) his Honour gave undue weight to the agreements that the testator made with Marlene and with Rosa, and; </font> 
+      <br /> 
+      <br /> 
+      <font face="Times New Roman">(g) his Honour misunderstood the evidence of Professor Levi when, in his reasons, he observed that “the prognosis is that [Rosa’s] life expectancy is rated as a 25% chance of surviving a further two years”.</font> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">47 A </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order is an order of the kind made by Holland J in </font><i><font face="Times New Roman">Crisp v Burns Philp Trustee Company Ltd</font></i><font face="Times New Roman"> (NSWSC, 18 December 1979, unreported). Generally speaking such an order gives a plaintiff an interest for life in real property or in an interest in the property, with the right to it (should the need arise) for the purposes of securing, for the plaintiff’s benefit, more appropriate accommodation. In </font><i><font face="Times New Roman">Court v Hunt</font></i><font face="Times New Roman"> (NSWSC, 14 September 1987, unreported) Young J (as he then was) said that a </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order was intended to provide flexibility, by way of a life estate, the terms of which could be changed to “cover the situation of the plaintiff moving from her own home to retirement village to nursing home to hospital”. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">48 Thus, for example, a </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order may entitle a plaintiff, from time to time, to require the executor of a will to sell a home devised by the will, or otherwise owned by the estate, and to use the proceeds for purposes that may include purchasing another home for the plaintiff’s use and occupation, or providing accommodation for the plaintiff in a retirement village or similar institution, or in like accommodation providing hospitalisation and nursing care. The flexibility provided by such an order underlies the notion that a </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order confers a “portable life interest”.</font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">The relief claimed by Rosa at trial and on appeal</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">49 The arguments advanced on Rosa’s behalf have to be assessed in the light of the relief claimed by Rosa during the trial and on appeal.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">50 In written submissions dated 12 August 2008, which apparently formed the basis of the argument presented on the first day of the hearing (27 August 2008) by counsel then appearing for Rosa, the primary relief claimed on Rosa’s behalf was “a legacy of $350,000”. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">51 According to those submissions, Rosa sought, in the alternative, an order that a half share in the Blacktown home be transferred to her and that the remaining half share be held on trust for her for life “and if [she] should from time to time request, [the executors] shall sell the property and contribute out of the proceeds half the price of, as selected by [Rosa], a home or other residential accommodation … and a half share of such home or other interest shall be held by [the executors] for [Rosa] for life”.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">52 According to the written submissions, Rosa sought an order “tailored to ensure that the provision out of the estate provides suitable housing for [Rosa] for the rest of her life”. This statement, looked at in isolation, may be thought capable of supporting an argument that, in the course of the hearing on 27 August 2008, Rosa made a claim for a pure </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order (that is, without any claim for a share in the ownership of the Blacktown home). But that would be to ignore the context in which the quoted words appear.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">53 The words quoted formed part of a paragraph in the written submissions that concluded with a claim for “a tailored solution which transferred title of half of the home to [Rosa] and allowed the executor to hold the other half as a trustee on portable life tenancy”. Furthermore, that paragraph in the written submissions concluded with a claim for orders that a half share in the Blacktown home be transferred to Rosa and the remaining half share be subject to a </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order. Read as a whole, the written submissions cannot fairly be construed as making a claim for a pure </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order applying to the entire Blacktown home. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">54 Towards the end of the hearing on 27 August 2008, Young CJ in Eq said that he was considering three possible orders that could be made. One of those orders involved the executors selling the Blacktown home and Rosa receiving a legacy of $100,000 plus $28,000 costs. None of the other possible orders mentioned by his Honour involved a </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order. Counsel for Rosa did not, on 27 August 2008, submit that a pure </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order applying to the entire Blacktown home should be made.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">55 At the end of the hearing on 27 August 2008, Young CJ in Eq gave counsel for the parties until 15 September 2008 to respond to the three orders he had suggested “or [to] make any others”. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">56 Rosa responded to his Honour’s invitation by filing an affidavit sworn on 17 September 2008. In that affidavit (which on 7 October 2007, when the hearing was resumed, was admitted into evidence), Rosa stated that, were she to receive a legacy of $100,000, she could - together with her own funds - purchase a home that would be suitable to her. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">57 On 7 October 2007, counsel for Rosa sought an order that Rosa be paid a legacy of $100,000. This, in effect, was the third form of relief that Rosa claimed at the trial. In closing submissions on that date, counsel for Rosa pressed the claim for a legacy of $100,000 and did not claim any form of </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">58 By the amended notice of appeal, Rosa sought an order transferring to her a one half share in the Blacktown home. As to the remaining one half share, Rosa sought an order that this be held on trust for her during her lifetime “and if [she] should from time to time so request, [the executors are] to co-operate in the sale of the property and contribute out of the proceeds of sale half the price of, as selected by [Rosa], a home or other residential accommodation … such half share to be held by the [executors] on trust for life for [Rosa]”. By the amended notice of appeal, Rosa also sought an order that during her lifetime “all of the rates, taxes, insurances and similar outgoings in relation to the property (or other property that the executors might acquire at her request) be paid out of the estate”. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">59 As an alternative claim, in the amended notice of appeal, Rosa sought a </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order in respect of the Blacktown home. This was the first time such an order had been sought.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">60 Finally, in the further alternative, the amended notice of appeal claimed an order that Rosa receive a legacy in the sum of $100,000.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">61 In oral argument on appeal, Mr Ellison maintained the relief claimed in the amended notice of appeal. Principally, however, he concentrated on the claim that Rosa be given a “portable life estate which provides for substitution” (that is, a claim for a </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order). In advancing this claim, Mr Ellison explained:</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“In other words, this property can be sold at the request of the life tenant and the executors can either buy an suitable property in consultation which includes the right to occupy an appropriate retirement village with diminution of capital value.” </font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">62 Mr Ellison submitted that the benefit Rosa would obtain from such an order would be the substitution of the Blacktown home for a smaller house that would provide her with more appropriate accommodation. He submitted that such an order would not work significantly to the detriment of the testator’s daughters as the new property would merely be in substitution for the Blacktown home. </font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">The pure </font></b> 
+      <b><i><font face="Times New Roman">Crisp</font></i></b> 
+      <b><font face="Times New Roman"> order argument</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">63 At the hearing before his Honour, Rosa did not ask for a pure </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order - despite being given every opportunity to submit whatever claim she wished to advance. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">64 In Rosa’s affidavit admitted into evidence on 7 October 2007, she stated that she had found a suitable villa for $285,000. Her affidavit was designed to show that if she received a legacy of $100,000 she could purchase the villa from her own resources without prejudicing her pension entitlements. Her counsel relied on this affidavit in urging his Honour to make an order providing Rosa with the $100,000. This is the relief Rosa chose to claim in closing submissions. The judge was not required to consider any other relief. In any event, Rosa had never claimed a pure </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">65 On this ground alone, this argument fails. His Honour cannot be criticised for failing to take into account an argument that other, substituted, accommodation could have been provided to Rosa without the making of any capital gift, when that argument had never been put to him. He committed no error of principle in this respect and error in discretion on this ground is not established. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">66 There are other grounds which reinforce my conclusion in regard to the argument that a </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order over the entire Blacktown home should have been made. Save for one, I shall deal with these other grounds when discussing the other arguments advanced on Rosa’s behalf.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">67 The other ground with which I shall now mention concerns the absence of evidence supporting the claim for a </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">68 An important factor relied on by Mr Ellison when advancing the </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order argument was Rosa’s need to live in a retirement village or some other like institution, particularly as her disease progresses.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">69 There was, however, no evidence - other than that relating to Rosa’s state of health - that bore on this issue. No doubt this was because, during the hearing, no claim for a pure </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order was put. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">70 Thus, Rosa did not assert in evidence that she wished to live in a retirement village. There was no evidence as to the costs involved in obtaining residence in a retirement village of the kind in which she would wish to live. Nor was there evidence as to the ongoing expenses of living in such a village. No testimony was led as to the benefits that Rosa would receive (and which would appeal to her) were she to live in that kind of accommodation as opposed to the Blacktown home. No evidence was given as to the costs of appropriate nursing care and how Rosa’s accommodation was relevant to such care being made available to her. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">71 Young CJ in Eq made the point (at [46]) that all material necessary to assess the situation should be put before the Court. This, his Honour noted, included full and complete details of Rosa’s needs, including the need for “substitute housing”. Evidence of this kind was not put before his Honour.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">72 On this further ground of lack of requisite evidence, I would not uphold the pure </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order and related arguments. </font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">Rosa’s need for different accommodation </font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">73 It was submitted on Rosa’s behalf that his Honour failed to have regard to the unsuitability of the Blacktown home and Rosa’s need for different accommodation. This proposition, in effect was advanced in support of the pure </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order argument. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">74 I would not uphold this argument. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">75 Young CJ in Eq expressly noted Rosa’s contention that the Blacktown home was unsuitable, that it was too large, and it involved her climbing stairs with which she had difficulty. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">76 Moreover, it is obvious from his Honour’s reasons as a whole that he was acutely conscious of Rosa’s needs and was attempting to do his best to arrive at an appropriate solution having regard to the very difficult situation presented by the small estate, Rosa’s needs, the other claims and the other relevant factual matters. </font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">Does the widow’s claim have automatic primacy?</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">77 Mr Ellison submitted that his Honour erred in not according Rosa’s claim primacy over those of the testator’s daughters. He submitted that the judge erred in failing to appreciate that “giving someone purely a life interest in the 21st century is not proper and adequate”.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">78 Mr Ellison relied on the observation of Kirby P in </font><i><font face="Times New Roman">Golosky v Golosky</font></i><font face="Times New Roman"> [1993] NSWCA 111:</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“A mere right of residence will usually be an unsatisfactory method of providing for a spouse’s accommodation … . This is because a spouse maybe compelled by sickness, age, urgent supervening necessity or otherwise, with good reason, to leave the residence. The spouse … will then be left without the kind of protection which is normally expected will be provided by a testator who is both wise and just.” (Citation omitted.)</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">79 Kirby P made it plain that he was not laying down an absolute proposition. His Honour was discussing, as he stated, what “usually” would be the case. Young CJ in Eq, as I have indicated, acknowledged that in an ordinary case it would be insufficient for a man to provide his widow with a mere right of residence in the family home. His Honour was at pains, as I have pointed out, to explain why he did not regard this as an ordinary case. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">80 I have mentioned that, in grappling with the difficulties that arose in this particular case, Young CJ in Eq stressed that many of the difficulties arose by reason of the smallness of the estate. Bryson JA (with whom Stein AJA and I agreed) in </font><i><font face="Times New Roman">Bladwell v Davis</font></i><font face="Times New Roman"> [2004] NSWCA 170 discussed difficulties of this kind. His Honour said (at [11]):</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“As recurringly happens, it is not possible to meet all the claims on the testator’s bounty which have been shown to exist. Determination whether there is power to make an order under the </font> 
+        <i><font face="Times New Roman">Family Provision Act</font></i> 
+        <font face="Times New Roman"> 1982, and also what order should be made, requires the Court to have regard to the assets available for distribution; and the assets available are not sufficient to satisfy all proved needs and claims on the testator’s bounty. There can be no truly satisfactory outcome for this litigation. No-one with a claim on the testator’s bounty could receive adequate provision in relation to that person’s needs except at the expense of making less than adequate provision available for some other such person.”</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">81 When dealing specifically with claims of widows, his Honour said (at [12]):</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“There have been many statements in judicial decisions, including decisions in the Court of Appeal, generally to the effect that primacy of some kind is accorded to claims of widows for proper maintenance and advancement in life, including continuance of housing arrangement which they enjoyed during the lifetimes of their late husbands. These statements are not altogether uniform in expression, and should be understood as made in each case in relation to the facts under consideration; and those facts vary widely and in truth are unique to each particular case. “Widow takes all” is not a rule which has been or could be established by judicial decisions: the Court cannot resign the functions it has under s 7 of the </font> 
+        <i><font face="Times New Roman">Family Provision Act</font></i> 
+        <font face="Times New Roman"> 1982 in favour of rules of thumb.”</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">82 After reviewing a number of the decided authorities concerning widows (including </font><i><font face="Times New Roman">Golosky v Golosky</font></i><font face="Times New Roman">) Bryson JA went on to say (at [18]-[19]):</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“In my respectful view there is an inconsistency between an approach, in the context of competing claims, for the claims of widows as paramount, and the application to the facts and circumstance of each case of s 7 and the approach established by </font> 
+        <i><font face="Times New Roman">Singer v Berghouse</font></i> 
+        <font face="Times New Roman">. Preconceptions and predispositions are likely to be the source of inadequate consideration of the process required by the </font> 
+        <i><font face="Times New Roman">Family Provision Act</font></i> 
+        <font face="Times New Roman"> 1982.</font> 
+       </ul> 
+      </ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">In the application of the test in s 7 and of the exposition thereof in </font> 
+        <i><font face="Times New Roman">Singer v Berghouse</font></i> 
+        <font face="Times New Roman"> by Mason CJ and Deane and McHugh JJ at 409-411 it would be an error to accord to widows generally primacy over all other applicants regardless of circumstances and regardless of performance of the stages of consideration described in </font> 
+        <i><font face="Times New Roman">Singer v Berghouse</font></i> 
+        <font face="Times New Roman">, in full and with reference to the instant facts. Defeat of the opponents’ claims does not necessarily follow from a demonstration, which the claimant can make, that all her needs … cannot be met if any provision is made for the opponents; indeed she could well demonstrate that even if the provisions of the will took effect without any modification, the provision for her is not adequate. That is not a demonstration that no claim by an eligible person can succeed; the claims and circumstances of the opponents also have to be weighed, and they too have their needs and merits.”</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">83 I would reiterate my agreement with these observations. Young CJ in Eq gave full and careful attention to the competing claims in accordance with the governing principles. He committed no error in not according absolute primacy to Rosa’s claims. He quite properly weighed all relevant factors in the balance in arriving at the orders that he made. </font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">The possible windfall to Rosa’s children and the testator’s agreements with Marlene and Rosa</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">84 Young CJ in Eq took into account the fact that an order in the terms sought by Rosa could well provide her children with an indirect benefit or windfall from the testator’s estate. It was submitted on Rosa’s behalf that his Honour thereby erred.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">85 It is correct that the mere fact that a provision may produce an indirect benefit or windfall for third parties does not prevent that provision being ordered: </font><i><font face="Times New Roman">Lloyd-Williams v Mayfield</font></i><font face="Times New Roman"> [2005] NSWCA 189; (2005) 63 NSWLR 1 (at [39], 11). Nevertheless, the fact that a proposed provision would probably produce a windfall for third parties (Rosa’s children) was a relevant factor that his Honour was entitled to take into account. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">86 His Honour was also entitled to have regard to the fact that the probable windfall would be contrary to that agreement between the testator and Rosa. His Honour quite properly treated as relevant the fact that the agreement allowed the testator and Rosa to conduct their affairs so as to benefit Rosa. This enabled her to pass on a significant part of those benefits to her children, the very parties who stood to receive the windfall. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">87 The rights of Rosa to make a claim under the </font><i><font face="Times New Roman">Family Provision Act</font></i><font face="Times New Roman"> derive from that Act and override the agreements the testator entered into with Marlene and Rosa (see </font><i><font face="Times New Roman">Barns v Barns</font></i><font face="Times New Roman"> [2003] HCA 9; (2003) 214 CLR 169).</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">88 These agreements, nevertheless, were factors to which Young CJ in Eq was entitled to have regard. Submissions to the contrary, made on Rosa’s behalf, must be rejected.</font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">Too much or too little weight</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">89 It was submitted on Rosa’s behalf that his Honour attached too little weight to Rosa’s need for different accommodation and too much weight to the to the claims of the testator’s daughters, the probable windfall to Rosa’s children and to the agreements that the testator had made with Marlene and Rosa.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">90 In </font><i><font face="Times New Roman">Singer v Berghouse</font></i><font face="Times New Roman"> Mason CJ, Deane and McHugh JJ said (at 212) that the principles that govern the appellate review of discretionary decisions should apply when an appellant court considers an appeal from a decision on the first stage of the two-stage test. Intermediate appellate courts are required to adopt this approach when dealing with challenges to such decisions. As Sackville AJA observed in </font><i><font face="Times New Roman">Foley v Ellis</font></i><font face="Times New Roman"> [2008] NSWCA 288 at [83], after noting that this statement in </font><i><font face="Times New Roman">Singer v Berghouse </font></i><font face="Times New Roman">had been followed in </font><i><font face="Times New Roman">Vigolo v Bostin</font></i><font face="Times New Roman"> [2005] HCA 11; (2005) 221 CLR 191 at [5] (197) per Gleeson CJ, at [56] (212-213) per Gummow and Hayne JJ and at [112] (227-228) per Callinan J:</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“The decision can therefore be overturned only if:</font> 
+       </ul> 
+      </ul> 
+      <ul> 
+       <ul> 
+        <ul> 
+         <ul> 
+          <font face="Times New Roman">‘there has been some error of law or mistake of fact, or if some other error appears in the judgment, such as taking into account irrelevant considerations or disregarding relevant considerations, or alternatively if the result of the decision is unreasonable in such a way as to indicate some other latent error in the judgment.’”</font> 
+         </ul> 
+        </ul> 
+        <br /> 
+        <i><font face="Times New Roman">Mulcahy v Weldon </font></i> 
+        <font face="Times New Roman">[2002] NSWCA 206 at [24] per Hodgson JA (with whom Handley JA and Campbell AJA agreed).</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">91 The significance of the weight given by a court at first instance to factors relevant to a discretionary decision has been discussed by the High Court in several cases.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">92 In </font><i><font face="Times New Roman">Gronow v Gronow</font></i><font face="Times New Roman"> [1979] HCA 63; (1979) 144 CLR 513 Stephen J said (at 519-520):</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“When no error of law or mistake of fact is present, to arrive at a different conclusion which does not of itself justify reversal can be due to little else but a difference of view as to weight: it follows that disagreement only on matters of weight by no means necessarily justifies a reversal of the trial judge. Because of this and because the assessment of weight is particularly liable to be effected by seeing and hearing the parties, which only the trial judge can do, an appellant court should be slow to overturn a primary judge’s discretionary decision on grounds which only involve conflicting assessment of matters of weights.”</font> 
+       </ul> 
+      </ul> 
+      <br /> 
+      <font face="Times New Roman">Aickin J (with whom Mason and Wilson JJ agreed) said (at 537-538):</font> 
+      <br /> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“It is however a mistake to suppose that a conclusion that the trial judge has given inadequate or excessive weight to some factors is in itself a sufficient basis for an appellant court to substitute its own discretion for that of the trial judge. As Kitto J said in </font> 
+        <i><font face="Times New Roman">Lovell v Lovell</font></i> 
+        <font face="Times New Roman"> [1950] HCA 52; (1950) 81 CLR 513 at p 533:</font> 
+       </ul> 
+      </ul> 
+      <ul> 
+       <ul> 
+        <ul> 
+         <ul> 
+          <font face="Times New Roman">‘The proposition that the appeal court will consider whether ‘no sufficient weight’ has been given relevant considerations is not inconsistent with the principle that the appeal court does not deal with the appeal as if it were exercising the original jurisdiction; even if it considers that insufficient weight has been given to some relevant consideration, it will still not substitute its judgment for that of the primary judge unless it come clearly to the conclusion for that reason that the discretion has been exercised wrongfully.’</font> 
+         </ul> 
+        </ul> 
+       </ul> 
+      </ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">It is clear that test will not be satisfied merely by reason that the appellant court, considering the matter </font> 
+        <i><font face="Times New Roman">de novo,</font></i> 
+        <font face="Times New Roman"> would itself have arrived at a different result.”</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">93 The approach in </font><i><font face="Times New Roman">Gronow v Gronow</font></i><font face="Times New Roman"> was applied in the joint judgment of Mason CJ, Wilson and Dawson JJ in </font><i><font face="Times New Roman">Queensland Electricity Commission, Re; Ex parte Electrical Trade Union</font></i><font face="Times New Roman"> [1987] HCA 27; (1987) 72 ALR 1. Their Honours stated (at 7):</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“Failure by the Commission to give sufficient weight to a relevant factor in coming to its decision would not establish a constructive refusal to exercise jurisdiction. Indeed, generally speaking, such a failure does not even entitle an appellant court to overturn a discretionary decision of a primary judge.”</font> 
+       </ul> 
+      </ul> 
+      <br /> 
+      <font face="Times New Roman">See also </font> 
+      <i><font face="Times New Roman">Mallet v Mallet</font></i> 
+      <font face="Times New Roman"> [1984] HCA 21; (1984) 156 CLR 605 (at 614 per Gibbs CJ and at 622 per Mason J).</font> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">94 In the course of argument on appeal it was suggested that certain remarks made by Basten JA in </font><i><font face="Times New Roman">Diver v Neal</font></i><font face="Times New Roman"> [2009] NSWCA 54 (at [62]-[63]) (with whom Allsop P and I agreed) were to the effect that, in a discretionary decision, inadequate weight could give rise to appellant intervention. That proposition, however, is not correct. His Honour said:</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“The error of principle thus identified may be see as a cumulative consequence of various assessments as to the weight to be given to particular factors. In determining whether the appellant has established a case for appellant intervention, the critical element is that the primary judge appears to have dismissed the financial circumstances of the appellant on the basis that if further provision were made, it would not assist her personally, but only the creditors. In that way, a critical element in the assessment of adequate provision was given little or no weight. The lack of satisfaction as to the inadequacy of provision should therefore be set aside.”</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">95 Basten JA’s remarks are to the effect that the trial judge’s discretion miscarried because he failed to consider a relevant factor. That is, the trial judge assigned “little or no weight” to a “critical element” of his discretionary tasks. To say that a relevant factor was given “little or no weight” is akin to saying that the relevant factor was not considered at all. That is strictly in accordance with the test for appellant intervention recognised in </font><i><font face="Times New Roman">House v The King</font></i><font face="Times New Roman"> [1936] HCA 40; (1936) 55 CLR 499 (at 504-505 per Dixon, Evatt and McTiernan JJ). </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">96 Thus, in my view, all Rosa’s arguments based on too much or too little weight fail.</font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">Error in regard to Rosa’s life expectancy</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">97 According to the amended notice of appeal, his Honour erred in finding that Rosa’s life expectancy was “rated as a 25 percent chance of surviving a further two years”.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">98 Young CJ in Eq’s remarks in relation to Rosa’s life expectancy suggest that he may have misunderstood the precise import of Professor Levi’s opinion in this regard. Even if his Honour made an error in this respect, however, such error was not material. The point his Honour was making was that Rosa had a short life expectancy that was unlikely to exceed two years by any significant margin. I do not think that Professor Levi was saying anything substantially different.</font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">Transactional costs and the legal costs incurred as at the date of the hearing</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">99 Mr Flaherty submitted that the transactional costs that would be involved in selling the Blacktown home and in acquiring a substitute property, and the large amount of legal costs that the parties incurred at the time of the hearing, supported the conclusion to which his Honour came.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">100 The transactional costs in selling the Blacktown home would be approximately $10,000 (comprising agent’s commission and legal fees). The executors’ legal costs of the hearing before Young CJ in Eq amounted to $55,000. Rosa’s costs “up to and including the date of hearing on 2 July 2008” were more than $27,600. Gina’s costs up to the hearing on 27 August 2008 were $30,500.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">101 I have mentioned that, by his Honour’s orders, Gina’s costs of the trial were to be paid out of the estate, but those costs were first to be set off against other costs ordered to be paid by Gina in other proceedings. There is no evidentiary material that casts any light on the amount, if any, that the estate, after the set off, would have to pay Gina. It is therefore not possible to determine what effect those costs would have on the relief claimed by Rosa.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">102 His Honour carefully crafted orders that allowed Rosa to retain possession of the Blacktown home during her lifetime and, at the same time, allowed the property to be retained for the benefit of Angela, Vittoria, Luisa and Gina (that being the common intention of all relevant parties during the testator’s lifetime). </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">103 By those orders, the executors were required to find the funds to pay their legal costs of the hearing before Young CJ in Eq from other sources. No other costs (save those of Gina to the extent ordered in the proceedings brought by her) had to be paid out of the estate. Were some different order to be made, resulting in the sale of the Blacktown home and the acquisition of another property, there would be nothing to prevent the executors from recovering their $55,000 costs from the proceeds of the sale. In addition, the transactional costs would have to be met out of the sale proceeds and additional costs orders might have to be made. The payment of such costs would be highly significant in the context of this relatively small estate. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">104 Young CJ in Eq was clearly aware of the magnitude of the costs and took them into account. His Honour expressly noted (at [75]) that no party had explored the financing of any proposal involving the mortgaging of the Blacktown home, nor the specific details as to how alternative accommodation could be financed. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">105 His Honour plainly regarded the executors’ costs as a potential impediment to Rosa’s continued occupation of the Blacktown home, let alone to the purchase of some other property that could only be acquired with additional transactional costs (see at [81]). That is the reason why his Honour sought and obtained an undertaking from the executors that they would not dispose of the Blacktown home.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">106 In my opinion, Mr Flaherty’s submissions are correct. The costs were an important and persuasive factor in his Honour’s discretionary decision and he rightly took them into account. </font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">The appeal should be dismissed</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">107 I am not persuaded that, in the light of the matters to which I have referred, his Honour erred in deciding that Rosa had not established that the requirements of the first-stage jurisdictional question had been met. Accordingly, I propose that the appeal be dismissed.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">108 There may be circumstances in which this Court will order the costs of an unsuccessful appellant in proceedings under the </font><i><font face="Times New Roman">Family Provision Act </font></i><font face="Times New Roman">to be paid out of the estate. However, I see no reason why Rosa, having failed in her appeal, should not be ordered to pay the executor’s costs of the appeal. The estate is a small one and Rosa’s unsuccessful application has generated substantial costs that must be borne by the estate and, ultimately, by the deceased’s daughters as the residuary beneficiaries.</font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <br /> 
+      <br /> 
+      <b><font face="Times New Roman">Gina’s costs of the appeal</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">109 In </font><i><font face="Times New Roman">Statham v Shephard (No 2)</font></i><font face="Times New Roman"> (1974) 23 FLR 244 Woodward J examined a number of authorities that discussed the factors governing the award of costs to successful defendants between whom there were no conflicts of interest. His Honour extracted the following principles from these authorities (at 246-247): </font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“[T]he Court will not normally allow two sets of costs to defendants where there is no possible conflict of interest between them in the presentation of their cases. I would add to this basic proposition three provisoes. In the first place, if a conflict of interest appears possible but unlikely, the defendants should make any necessary enquiries from the plaintiff as to the way in which his case is to be put if this would resolve the possibility of conflict between defendants. (See </font> 
+        <i><font face="Times New Roman">In re Lyell</font></i> 
+        <font face="Times New Roman"> [1941] VLR 207).</font> 
+       </ul> 
+      </ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">Secondly, there could be circumstances in which, although the defendants were united in their opposition to the plaintiff, their relationship to each other might be such that they would be acting reasonably in remaining at arms length during the general course of litigation.</font> 
+       </ul> 
+      </ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">Thirdly, even if defendants are acting reasonably in maintaining separate representation for some time or for some purposes, they may still be deprived of part of their costs if they act unreasonably by duplicating costs on any particular matter or at any particular time.”</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">110 </font><i><font face="Times New Roman">Statham v Shephard (No 2)</font></i><font face="Times New Roman"> is consistent with the approach of Kirby P in </font><i><font face="Times New Roman">Credit Lyonnais Australia Ltd v Darling</font></i><font face="Times New Roman"> (1991) 5 ACSR 703. In the latter case, his Honour was inclined to hold that the successful respondents had virtually identical interests and ought not to have been represented separately at the trial and on the appeal. His Honour proposed no order in this regard, however, as he was of the view that the matter should be returned to the Commercial Division. Kirby P noted, nevertheless, that no point as to the parties’ common interests and separate representation had been taken at trial, nor was the point raised before the hearing of the appeal commenced. Kirby P said (at 710) that the proper time to raise such an objection was “in advance of, or at, the hearing.” His Honour considered that in the circumstances of that case it was too late for the matter to affect costs orders for past proceedings.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">111 Kirby P noted that the </font><i><font face="Times New Roman">Supreme Court Rules</font></i><font face="Times New Roman">, as then constituted, made provision for an objection to the costs of separate representation being taken by an appellant. His Honour observed, however, that the Rules did not “limit the powers of the court to act on its own motion”. His Honour referred in this regard to </font><i><font face="Times New Roman">Harbin v Masterman</font></i><font face="Times New Roman"> [1896] 1 Ch 351 (at 364) and </font><i><font face="Times New Roman">Richard Brady Franks Ltd v Price</font></i><font face="Times New Roman"> [1937] HCA 42; (1937) 48 CLR 112 (at 127, 136, 145).</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">112 The equivalent provisions in the </font><i><font face="Times New Roman">Uniform Civil Procedure Rules</font></i><font face="Times New Roman"> 2005 to those to which Kirby P referred in </font><i><font face="Times New Roman">Credit Lyonnais v Darling</font></i><font face="Times New Roman"> are r 51.4(5) and (6). Significantly, r 51.4(7) - unlike the earlier </font><i><font face="Times New Roman">Supreme Court Rules</font></i><font face="Times New Roman"> - provides:</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“The failure by a party to give notice under subrule (5) or (6) does not limit the powers of the Court with respect to the costs of the proceedings.”</font> 
+       </ul> 
+      </ul> 
+      <br /> 
+      <font face="Times New Roman">Thus, the </font> 
+      <i><font face="Times New Roman">Uniform Civil Procedure Rules</font></i> 
+      <font face="Times New Roman"> make it clear (as Kirby P, in any event, observed in </font> 
+      <i><font face="Times New Roman">Credit Lyonnais v Darling</font></i> 
+      <font face="Times New Roman">) that the Court retains the inherent power to act on its motion to make appropriate orders should it decide that costs have been incurred through unnecessary separate representation. </font> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">113 In determining whether the principles expressed in </font><i><font face="Times New Roman">Statham v Shephard (No 2)</font></i><font face="Times New Roman"> should be applied to Gina’s costs, due regard must be had to Kirby P’s statement that the proper time to raise an objection to unnecessary representation is in advance of, or at, the hearing. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">114 When argument on appeal in this case commenced, the Court enquired of Ms Pentelow what interests Gina had in the appeal that were different to those of the executors. Ms Pentelow replied: “There may be a difference in the tests to be applied on the appeal”. Sackville AJA remarked that it was not clear that there ought to be two sets of submissions as Gina, in effect, was advancing the same submissions as the executors. His Honour observed: “[T]here may be issues of costs”. Ms Pentelow did not respond and argument proceeded. The point to be made is that, when the appeal hearing commenced, the Court of its own motion raised the issue of the costs of Gina’s representation. Thus, the requirement noted by Kirby P in </font><i><font face="Times New Roman">Credit Lyonnais v Darling</font></i><font face="Times New Roman"> was met.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">115 Mr Flaherty, for the executors, later submitted that Gina “should not be here”. Mr Ellison made no submissions in this regard. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">116 The situation bears some similarity to the circumstances in </font><i><font face="Times New Roman">Harbin v Masterman</font></i><font face="Times New Roman">. In that case senior counsel for the unsuccessful appellant drew the attention of the Court to the fact that the five residuary legatees, who were respondents in the appeal, appeared by four different sets of counsel. Senior counsel did not, expressly, ask for any particular costs order (see at 362-363). Lindley LJ, said,</font><i><font face="Times New Roman"> arguendo,</font></i><font face="Times New Roman"> to senior counsel for one of the respondents (at 363), “the question is at whose expense [do the different counsel for the respondents] appear”. Senior counsel for the respondents then made submissions to the effect that, the appeal having failed, each was entitled to costs according to the ordinary rule. Lindley LJ (with whom A L Smith LJ and Rigby LJ agreed) however, held (at 364):</font> 
+    <ul> 
+     <ul> 
+      <ul> 
+       <ul> 
+        <font face="Times New Roman">“In these cases there is always a discretion in the Court of Appeal as to the orders it ought to make with reference to the question of costs; and the Court is bound to see that its orders are not necessarily oppressive. It appears to me that in this case there really was no sensible reason for all parties appearing by separate solicitors. … I think it would be oppressive to allow more than one set of costs.”</font> 
+       </ul> 
+      </ul> 
+     </ul> 
+    </ul><font face="Times New Roman">117 I do not discern any material difference between the interests of Gina in resisting the appeal and the interests of the executors. True it is that, by the orders of Young CJ in Eq, Gina is entitled to two-fifths of the residue of the estate and the other daughters one-fifth each. But that does not constitute a relevant difference in interests in the appeal. The executors, in resisting the appeal, would, in protecting their individual interests, protect, in the same way, the interests of Gina. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">118 During argument on the appeal, the Court pressed Ms Pentelow to explain what interests Gina would have that were different to those of the executors. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">119 Ms Pentelow first submitted that the interests of Gina differed from those of her sisters because Gina had “a claim that is different”. The claim differs, however, only to the extent that Gina has a two-fifths share in the residue whereas her sisters have a one-fifth share each. There is only one pool from which their respective shares could be drawn (the residuary estate), and no particular or different order was sought against Gina’s shares. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">120 It was as much in the executors’ interests to defend the appeal as it was in Gina’s interests. That is, in the sense that, should the appeal succeed, each stood to be prejudiced to the extent that the single pool out of which their individual shares were to be paid would be reduced. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">121 It is true that, had Rosa succeeded in her claim, the detriment that Gina would have suffered would have been twice as much as each of her sisters. But that does not constitute a material difference in interests for the purposes of resisting the appeal. The mere fact that Gina stood to lose more than the executors made no difference to their relevant interests as respondents. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">122 There was nothing about Gina’s entitlement to two shares of the estate that afforded her an argument against the appeal that differed in any way from that which the executors could advance. Furthermore, the interests that the executors and Gina had in the estate did not give rise to any difference in the degree to which they were opposed to the appeal. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">123 Ms Pentelow adopted a tentative suggestion from the bench that Gina wished to make sure that any money required to be paid out of the residuary estate would not come out of her shares, whereas the executors might accept a position that any such money would come out of the entire residuary estate. I do not accept this argument. Rosa’s appeal was predicated on the basis that any expense that would result from the relief that she sought, whether it be by reason of her obtaining a half interest in the Blacktown home, a </font><i><font face="Times New Roman">Crisp</font></i><font face="Times New Roman"> order of some kind, or a legacy of $100,000 or any other amount, would be met from the residuary estate as a whole. She drew no distinction between the different interests of the other beneficiaries in the residuary estate. Should any money be payable by reason of Rosa’s appeal succeeding, Gina’s share would be affected proportionately. But for the reasons I have given, that does not give Gina a relevant different interest to that of the executors. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">124 I would add that Gina never argued that, if any order were to be made out of the residuary estate involving a diminution of that estate, that diminution should not come out of her shares. No foundation was laid or advanced for such an argument, and the proposition appears to be untenable. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">125 There was never any suggestion that Rosa, in her claim, sought to differentiate between Gina and the executors. All that Gina needed to do to ensure that she was protected from such a potential claim, was to obtain an undertaking from the executors to inform her immediately if any such claim were to be made. Such a procedure would be in accord with Woodward J’s suggestion in </font><i><font face="Times New Roman">Statham v Shephard (No 2)</font></i><font face="Times New Roman"> that parties in the position that Gina found herself should make any necessary enquiries from the plaintiffs as to the way in which their case was to be put so as to resolve the possibility of conflict of interests. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">126 The small size of the estate was obvious, and the harm that the individual beneficiaries might suffer from the estate becoming liable for unnecessary legal costs was equally obvious. It was incumbent on Gina and her legal representatives to take reasonable steps to avoid the need for duplicated and unnecessary legal representation.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">127 A claim under the </font><i><font face="Times New Roman">Family Provision</font></i><font face="Times New Roman"> </font><i><font face="Times New Roman">Act</font></i><font face="Times New Roman"> is not a vehicle for persons, with like interests to those directly involved as parties, to participate in the proceedings on the basis that they will automatically be entitled to costs out of the estate. The estate does not automatically bankroll the legal costs of every party who wishes to be heard. This needs to be borne in mind by parties who desire to participate in the proceedings but whose interests are already adequately protected..</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">128 It is sufficient to state that, in my view, having regard to the absence of any relevant conflict of interest between the executors and Gina, it would be oppressive were an order for costs to be made in her favour. Thus, I would make no order as to her costs, the intent being that she should pay her own costs.</font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">The costs of the executors </font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">129 I have expressed the view that Rosa should pay the executors’ costs of the appeal. </font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">130 The executors resisted Rosa’s claim in accordance with their duty to defend the will. There is no suggestion that they acted otherwise than honestly and with propriety. An order should be made entitling them to be reimbursed from the estate on an indemnity basis for the balance of their costs to the extent to which those costs are not paid by Rosa. Such an order reflects the general rule in matters of this kind (being probate or trusts or </font><i><font face="Times New Roman">Family Provision Act</font></i><font face="Times New Roman"> claims); see, for example, </font><i><font face="Times New Roman">Macedonian Orthodox Community Church St Petka Inc v His Eminence Petar The Diocesan Bishop of The Macedonian Orthodox Diocese of Australia and New Zealand </font></i><font face="Times New Roman"> [2008] HCA 42 (where a similar order was made), </font><i><font face="Times New Roman">Re Hodges; Shorter v Hodges </font></i><font face="Times New Roman">(1988) 14 NSWLR 698 at 709-710 per Powell J, </font><i><font face="Times New Roman">Drummond v Drummond</font></i><font face="Times New Roman"> [1999] NSWSC 923 per Austin J, </font><i><font face="Times New Roman">Wilson v Knight</font></i><font face="Times New Roman"> [2009] NSWSC 230 per Macready AsJ.</font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <b><font face="Times New Roman">Conclusion</font></b> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">131 I propose the following orders:</font> 
+    <ul> 
+     <ul> 
+      <br /> 
+      <font face="Times New Roman">(a) The appeal is dismissed.</font> 
+      <br /> 
+      <br /> 
+      <font face="Times New Roman">(b) Rosa to pay the executors costs of the appeal.</font> 
+      <br /> 
+      <br /> 
+      <font face="Times New Roman">(c) The executors are entitled to be reimbursed from the testator’s estate on an indemnity basis for the balance of their costs to the extent to which those costs are not paid by Rosa.</font> 
+      <br /> 
+      <br /> 
+      <font face="Times New Roman">(d) No order is made as to the costs of Gina (the intent being that she pay her own costs of the appeal).</font> 
+      <br /> 
+     </ul> 
+    </ul><font face="Times New Roman">132 </font><b><font face="Times New Roman">MACFARLAN JA</font></b><font face="Times New Roman">: I agree with Ipp JA.</font> 
+    <ul> 
+     <ul></ul> 
+    </ul><font face="Times New Roman">133 </font><b><font face="Times New Roman">SACKVILLE AJA:</font></b><font face="Times New Roman"> I agree with Ipp JA.</font> 
+    <ul> 
+     <ul> 
+      <div align="center"> 
+       <b><font face="Times New Roman">*********</font></b> 
+      </div> 
+     </ul> 
+    </ul></td> 
+  </tr> 
+ </tbody> 
+</table> 
+<table border="0"> 
+ <tbody> 
+  <tr> 
+   <td width="20"><img src="/asset/549ff6fc3004262463c67e6f" border="0" alt="spacer image" width="20" /></td> 
+   <td> 
+    <table border="0" cellpadding="5"> 
+     <tbody> 
+      <tr valign="top"> 
+       <td align="center"><font face="Times New Roman" size="3">19/05/2009</font></td> 
+       <td align="center"> - </td> 
+       <td align="left"><font face="Times New Roman" size="3">Incorrect spelling of Mr D Leibold corrected to D Liebhold - Paragraph(s) 3</font></td> 
+      </tr> 
+     </tbody> 
+    </table></td> 
+  </tr> 
+ </tbody> 
+</table> 
+<br /> 
+<font size="2" color="#0000FF" face="Arial"> </font> 
+<br /> 
+<font size="2" color="#0000FF" face="Arial"> </font>
+
+			<div class="endnote-container">
+				
+			</div>
+
+
+			
+
+
+
+
+
+
+
+
+
+
+			 
+
+			
+
+
+
+
+
+
+			<p class="disclaimer">
+				DISCLAIMER - Every effort has been made to comply with suppression orders or statutory provisions prohibiting publication that may apply to this judgment or decision. The onus remains on any person using material in the judgment or decision to ensure that the intended use of that material does not breach any such order or provision. Further enquiries may be directed to the Registry of the Court or Tribunal in which it was generated.
+			</p>
+
+			
+
+		</div>
+
+	</div>
+
+</div>
+</div>
+		
+		
+	
+
+</div>
+
+		
+		<footer>
+			
+
+
+<div class="container hidden-print">
+
+	<div class="logo">
+		<img src="/public/img/footer-crest.png" />
+	</div>
+
+	<ul class="list-unstyled pull-left">
+		<li>
+			<a href="/policy">Policy and Procedures</a>
+		</li>
+		<li>
+			<a href="/accessibility">Accessibility</a>
+		</li>
+		<li>
+			<a href="/contact">Contact Us</a>
+		</li>
+		<li>
+			
+			Website last updated:
+			02 May 2025
+		</li>
+	</ul>
+
+	<!--
+	Build created: 02 May 2025 at 11:37 AM
+	 -->
+
+</div>
+
+
+<script type="text/x-handlebars" id="hb-ie">
+<header class="browser">
+	<div class="container">
+		<div class="row hidden-print">
+			<div class="col-xs-2">
+				<span class="glyphicon glyphicon-warning-sign"></span>
+			</div>
+			<div class="col-xs-7 col-lg-8">
+				<h2>The browser you are using is out of date</h2>
+				<p>
+				This service has been designed for modern browsers. <br />
+				For your security, and to ensure all features of this site work correctly, please update your browser.<br />
+				Modern browsers supported by this site include: Firefox, Chrome, Safari & Internet Explorer 11 or greater.
+				</p>
+			</div>
+			<div class="col-xs-3 col-lg-2 text-right">
+				<form>
+					<a href="#" class="btn btn-default close">Hide this message</a>
+					<br />
+					<br />
+					<label class="checkbox">
+						<input type="checkbox" name="hide" value="true" />
+						<em></em>
+						Hide for 30 days
+					</label>
+				</form>
+			</div>
+		</div>
+	</div>
+</header>
+</script>
+
+		</footer>
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="/public/js/lib/commonlibs.min.js?202505020137"></script>
+
+
+
+
+
+	<script defer src="/public/js/public.min.js?202505020137"></script>
+
+
+
+	<!--
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-2581955-5', 'auto');
+		ga('send', 'pageview');
+	</script>
+	-->
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YES48VN6R4"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-YES48VN6R4');
+	</script>
+
+
+
+	</body>
+
+</html>

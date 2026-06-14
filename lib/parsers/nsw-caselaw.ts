@@ -584,14 +584,35 @@ function parseParagraphsLotus($: CheerioAPI): Paragraph[] {
     appendToCurrent(text);
   };
 
+  // Identify the judgment-flow cell(s). The judgment lives in a large <td>.
+  // Older Lotus pages put the whole judgment in one leaf cell; newer ones
+  // (e.g. amended appellate decisions) embed inner data/Q&A <table>s inside
+  // the judgment cell, so we must NOT reject a cell merely for containing
+  // descendant <td>s. Instead we select the MOST SPECIFIC large cell: a
+  // cell qualifies if its own text is large AND none of its descendant
+  // <td>s is itself large (i.e. it's the innermost big cell on its branch).
+  // Inner data tables are absorbed by the ATOMIC handling above.
+  const MIN_CELL_CHARS = 800;
+  const candidates: any[] = [];
   body.find('td').each((_, td) => {
     const $td = $(td);
-    if ($td.find('td').length > 0) return; // only leaf cells
-    // Judgment flow cells are huge; coversheet label/value cells are tiny.
-    if (clean($td.text()).length < 800) return;
-
-    $td.contents().each((__, node) => processNode(node));
+    if (clean($td.text()).length < MIN_CELL_CHARS) return;
+    // Is any descendant td also large? If so, this is an outer wrapper;
+    // skip it and let the inner one be chosen.
+    let hasLargeDescendant = false;
+    $td.find('td').each((__, inner) => {
+      if (clean($(inner).text()).length >= MIN_CELL_CHARS) {
+        hasLargeDescendant = true;
+        return false;
+      }
+    });
+    if (hasLargeDescendant) return;
+    candidates.push(td);
   });
+
+  for (const td of candidates) {
+    $(td).contents().each((_i, node) => processNode(node));
+  }
 
   // Strip trailing "**********" end markers from the final paragraph(s).
   for (const p of paragraphs) {

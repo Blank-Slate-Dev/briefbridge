@@ -6,7 +6,8 @@
 //   - SSE parsing (conversation, citations, delta, done, error events)
 //   - URL update via history.replaceState when a conversation id arrives
 //   - Citation panel rendering
-//   - Auto-scroll on new messages
+//   - Smart auto-scroll (sticks to bottom only while the user is at the
+//     bottom; a "jump to latest" button appears when they scroll up)
 //   - Auto-resize textarea
 //   - Cancel-on-unmount of in-flight streams
 //
@@ -18,6 +19,13 @@
 // THREE buckets and renders a dedicated LegislationCitationRow for the
 // new variant. Without this change, legislation citations sent by the
 // /api/chat endpoint would be silently dropped by the renderer.
+//
+// SCROLL PASS: the previous version called scrollIntoView on EVERY message
+// change, which fires on every streaming delta — so the view yanked back
+// to the bottom the instant a user tried to scroll up and read. Now we
+// track whether the user is "stuck" to the bottom (an isAtBottomRef driven
+// by a scroll listener) and only auto-scroll when they are. When they've
+// scrolled away during a live answer, a "Jump to latest" button appears.
 //
 // What this file DOESN'T own:
 //   - Outer page shell (full-viewport vs inline scroll — wrappers decide)
@@ -136,9 +144,38 @@ export function StreamingChat({
   const [input, setInput] = useState('');
   const [isStreaming, setIsStreaming] = useState(false);
 
+  // Shows the floating "Jump to latest" button. True when the user has
+  // scrolled away from the bottom of the scroll container.
+  const [showJumpButton, setShowJumpButton] = useState(false);
+
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
   const abortControllerRef = useRef<AbortController | null>(null);
+
+  // Whether the view is currently pinned to the bottom. Updated by the
+  // scroll listener below. We keep it in a ref (not state) because the
+  // streaming auto-scroll effect reads it on every delta and we don't want
+  // those reads to depend on a re-render. "Near" the bottom (within 80px)
+  // counts as pinned, so a slightly-off-bottom position still follows.
+  const isAtBottomRef = useRef(true);
+
+  const BOTTOM_THRESHOLD_PX = 80;
+
+  const computeAtBottom = useCallback((el: HTMLDivElement): boolean => {
+    const distanceFromBottom =
+      el.scrollHeight - el.scrollTop - el.clientHeight;
+    return distanceFromBottom <= BOTTOM_THRESHOLD_PX;
+  }, []);
+
+  const scrollToBottom = useCallback((smooth = true) => {
+    messagesEndRef.current?.scrollIntoView({
+      behavior: smooth ? 'smooth' : 'auto',
+      block: 'end',
+    });
+    isAtBottomRef.current = true;
+    setShowJumpButton(false);
+  }, []);
 
   // Sync local state when server-provided initialMessages or initialConversationId
   // change (e.g. when a wrapper swaps between conversations via URL change without
@@ -159,10 +196,49 @@ export function StreamingChat({
     setConversationId(initialConversationId);
   }, [initialConversationId]);
 
-  // Scroll-to-bottom on new messages.
+  // Watch the scroll container so we know whether the user is pinned to the
+  // bottom. This drives BOTH the auto-scroll decision (via the ref) and the
+  // jump-button visibility (via state). Passive listener; cheap.
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    const el = scrollRef.current;
+    if (!el) return;
+
+    const handleScroll = () => {
+      const atBottom = computeAtBottom(el);
+      isAtBottomRef.current = atBottom;
+      // Only surface the jump button while a stream is in progress — there's
+      // nothing "latest" to jump to when the answer is already complete.
+      setShowJumpButton(!atBottom && isStreaming);
+    };
+
+    el.addEventListener('scroll', handleScroll, { passive: true });
+    return () => el.removeEventListener('scroll', handleScroll);
+  }, [computeAtBottom, isStreaming]);
+
+  // Auto-scroll on message changes — but ONLY when the user is pinned to the
+  // bottom. During streaming this fires on every delta; if the user has
+  // scrolled up to read, isAtBottomRef is false and we leave them alone.
+  useEffect(() => {
+    if (isAtBottomRef.current) {
+      messagesEndRef.current?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'end',
+      });
+    }
   }, [messages]);
+
+  // When a brand-new send starts, the user is (almost always) intending to
+  // watch the new answer — snap to bottom and clear the jump button. This
+  // also re-pins after they'd scrolled up reading a previous answer.
+  // Triggered by isStreaming flipping true.
+  useEffect(() => {
+    if (isStreaming) {
+      scrollToBottom(false);
+    } else {
+      // Stream finished: nothing live to chase, so hide the button.
+      setShowJumpButton(false);
+    }
+  }, [isStreaming, scrollToBottom]);
 
   // Auto-resize textarea up to 200px.
   useEffect(() => {
@@ -357,7 +433,7 @@ export function StreamingChat({
 
   return (
     <div className="bb-chat">
-      <div className="bb-chat-scroll">
+      <div className="bb-chat-scroll" ref={scrollRef}>
         {showWelcome ? (
           emptyState
         ) : (
@@ -375,6 +451,20 @@ export function StreamingChat({
         )}
         <div ref={messagesEndRef} />
       </div>
+
+      {showJumpButton && (
+        <button
+          type="button"
+          className="bb-chat-jump"
+          onClick={() => scrollToBottom(true)}
+          aria-label="Jump to latest"
+        >
+          <span className="bb-chat-jump-arrow" aria-hidden>
+            ↓
+          </span>
+          Jump to latest
+        </button>
+      )}
 
       <form className="bb-chat-input" onSubmit={handleSubmit}>
         <textarea
