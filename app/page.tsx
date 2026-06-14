@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { StickyHeader } from './_components/sticky-header';
+import { HeroPreview } from './_components/hero-preview';
 
 export default function HomePage() {
   return (
@@ -31,53 +32,11 @@ export default function HomePage() {
       </section>
 
       {/* === PRODUCT PREVIEW === */}
+      {/* The inner content is now an animated client component that cycles
+          through real research queries. The outer chrome stays here. */}
       <div className="bb-preview-wrap">
         <div className="bb-preview">
-          <div className="bb-preview-inner">
-            <div className="bb-preview-search">
-              <span className="bb-preview-search-icon" />
-              <span className="bb-preview-search-text">
-                When can costs be deferred until final disposition?
-                <span className="bb-preview-cursor" />
-              </span>
-            </div>
-            <div className="bb-preview-results">
-              <div className="bb-preview-card">
-                <div className="bb-preview-card-head">
-                  <div className="bb-preview-card-title">
-                    Zacharatos v Western Agricultural Co Pty Ltd (No 2)
-                  </div>
-                  <div className="bb-preview-card-cite">[2026] NSWSC 474</div>
-                </div>
-                <div className="bb-preview-card-meta">
-                  Supreme Court of NSW · Parker J · 7 May 2026
-                </div>
-                <div className="bb-preview-card-snippet">
-                  At [18]:{' '}
-                  <mark>
-                    costs of the proceedings should not be determined until all
-                    of the claims in the proceedings had been finally dealt with
-                  </mark>{' '}
-                  — there is always the possibility of differential outcomes…
-                </div>
-              </div>
-              <div className="bb-preview-card">
-                <div className="bb-preview-card-head">
-                  <div className="bb-preview-card-title">
-                    Akierman Holdings Pty Ltd v Akerman (No 3)
-                  </div>
-                  <div className="bb-preview-card-cite">[2021] NSWSC 869</div>
-                </div>
-                <div className="bb-preview-card-meta">
-                  Supreme Court of NSW · cited at [54]–[86]
-                </div>
-                <div className="bb-preview-card-snippet">
-                  Apportionment principles where multiple claims yield
-                  differential outcomes…
-                </div>
-              </div>
-            </div>
-          </div>
+          <HeroPreview />
         </div>
       </div>
 

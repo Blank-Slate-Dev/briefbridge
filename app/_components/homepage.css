@@ -191,6 +191,10 @@ body:has(.bb-hero) {
   max-width: 1100px;
   margin: 80px auto 0;
   padding: 0 32px;
+  /* Fill the available width up to the max so the box is a stable size and
+     never tracks its content. */
+  width: 100%;
+  box-sizing: border-box;
 }
 .bb-preview {
   background: var(--bb-bg-elevated);
@@ -202,13 +206,27 @@ body:has(.bb-hero) {
     0 8px 24px rgba(26, 31, 46, 0.08),
     0 24px 60px rgba(26, 31, 46, 0.06);
   overflow: hidden;
+  /* Fixed full width of the wrap. Content inside can never widen this. */
+  width: 100%;
+  box-sizing: border-box;
 }
 .bb-preview-inner {
   background: #fffdf7;
   border-radius: 10px;
   padding: 32px 40px;
   text-align: left;
-  min-height: 380px;
+  /* Fixed height so the box doesn't pump as queries with different numbers
+     of cards cycle through. Sized for the tallest query (answer line +
+     three source cards). Cards fill from the top; shorter queries leave
+     empty space below. Content overflow is hidden as a safety net, though
+     the height is chosen to clear the tallest cycle. On narrow screens
+     (<=900px) we fall back to min-height so stacked/wrapped cards never
+     clip — see the responsive override below. */
+  height: 440px;
+  /* Fill the container at a stable width so typing text can't widen it. */
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
   position: relative;
 }
 .bb-preview-search {
@@ -220,30 +238,29 @@ body:has(.bb-hero) {
   padding: 14px 18px;
   border-radius: 12px;
   margin-bottom: 28px;
+  /* Lock to the full width of the box so typing text can't make the row
+     (or the box) grow laterally. Text wraps within this fixed width. */
+  width: 100%;
+  box-sizing: border-box;
 }
 .bb-preview-search-icon {
-  width: 16px;
-  height: 16px;
-  border: 1.5px solid var(--bb-muted);
-  border-radius: 50%;
-  position: relative;
+  width: 18px;
+  height: 18px;
   flex-shrink: 0;
-}
-.bb-preview-search-icon::after {
-  content: '';
-  position: absolute;
-  bottom: -5px;
-  right: -5px;
-  width: 7px;
-  height: 1.5px;
-  background: var(--bb-muted);
-  transform: rotate(45deg);
-  transform-origin: left center;
+  color: var(--bb-muted);
+  display: block;
 }
 .bb-preview-search-text {
   color: var(--bb-ink);
   font-size: 15px;
-  flex: 1;
+  /* flex:1 + min-width:0 lets the text fill the available row width and
+     wrap inside it, rather than pushing the row wider as it types. */
+  flex: 1 1 auto;
+  min-width: 0;
+  /* Force wrapping/breaking so a long question can never push the row
+     (and the whole box) wider than its fixed width. */
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 .bb-preview-cursor {
   display: inline-block;
@@ -615,7 +632,14 @@ body:has(.bb-hero) {
     padding: 80px 24px;
   }
   .bb-hero { padding: 80px 24px 60px; }
-  .bb-preview-inner { padding: 20px; }
+  .bb-preview-inner {
+    padding: 20px;
+    /* Narrow screens: cards stack and titles wrap, making content taller.
+       Drop the fixed desktop height and let it grow so nothing clips. */
+    height: auto;
+    min-height: 380px;
+    overflow: visible;
+  }
 }
 @media (max-width: 600px) {
   .bb-footer-inner { grid-template-columns: 1fr; }
@@ -623,5 +647,96 @@ body:has(.bb-hero) {
     flex-direction: column;
     gap: 12px;
     text-align: center;
+  }
+}
+/* === ANIMATED HERO PREVIEW ADDITIONS ===
+ * Appended to homepage.css. New classes for the looping demo in
+ * hero-preview.tsx. Reuses existing .bb-preview-* chrome; these add the
+ * answer line, the "researching" pulse, the card fade-in, and the
+ * statute pill. All use existing design tokens.
+ */
+
+/* One-line summarised answer above the source cards */
+.bb-preview-answer {
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--bb-ink);
+  margin: 0 0 4px;
+  animation: bb-preview-fade-in 0.35s ease both;
+}
+
+/* "Researching across cases…" pulse shown briefly before the answer */
+.bb-preview-researching {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--bb-muted);
+  padding: 8px 2px;
+  animation: bb-preview-fade-in 0.25s ease both;
+}
+.bb-preview-researching-dots {
+  display: inline-flex;
+  gap: 4px;
+}
+.bb-preview-researching-dots span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--bb-muted-soft);
+  animation: bb-preview-pulse 1.2s infinite ease-in-out;
+}
+.bb-preview-researching-dots span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+.bb-preview-researching-dots span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+@keyframes bb-preview-pulse {
+  0%, 80%, 100% { opacity: 0.3; transform: scale(0.85); }
+  40%           { opacity: 1;   transform: scale(1.1); }
+}
+
+/* Source cards fade + rise in, staggered via inline animation-delay */
+.bb-preview-card-enter {
+  animation: bb-preview-card-in 0.4s ease both;
+}
+@keyframes bb-preview-card-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bb-preview-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Small "Statute" pill in a card meta row, to distinguish legislation
+   from case law at a glance. */
+.bb-preview-card-kind {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--bb-ink-soft);
+  background: rgba(201, 184, 138, 0.25);
+  border: 1px solid var(--bb-border-strong);
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-right: 8px;
+  vertical-align: 1px;
+}
+
+/* Honour reduced-motion: no pulsing, no fades, no rise. The component
+   already shows a static first query, but kill any residual animation. */
+@media (prefers-reduced-motion: reduce) {
+  .bb-preview-answer,
+  .bb-preview-researching,
+  .bb-preview-card-enter {
+    animation: none !important;
+  }
+  .bb-preview-cursor {
+    animation: none !important;
   }
 }
