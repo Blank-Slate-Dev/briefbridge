@@ -3971,3 +3971,66 @@ body:has(.bb-matters-main)::-webkit-scrollbar-thumb:hover {
   color: var(--bb-ink-soft);
   font-variant-numeric: tabular-nums;
 }
+
+/* =============================================================================
+   Matters header: title row with a "New case" button on the right
+   =============================================================================
+   APPEND to the bottom of matters.css. Replaces the in-grid new-case tile
+   with a header button. The old .bb-matter-new* rules can stay (now unused)
+   or be removed for tidiness.
+   ========================================================================== */
+
+/* Title block on the left, New-case button on the right, top-aligned. */
+.bb-matters-head-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+/* The header button — pin it so it doesn't stretch, align to the title top. */
+.bb-matters-new-btn {
+  flex: 0 0 auto;
+  margin-top: 4px;
+  white-space: nowrap;
+}
+.bb-matters-new-btn-plus {
+  font-size: 16px;
+  line-height: 1;
+  margin-right: 2px;
+}
+
+/* Empty state — centred prompt with a primary button. */
+.bb-matters-empty {
+  margin-top: 32px;
+  padding: 56px 32px;
+  border: 1px dashed var(--bb-border);
+  border-radius: 16px;
+  background: var(--bb-bg-elevated);
+  text-align: center;
+}
+.bb-matters-empty-title {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--bb-ink);
+  margin: 0 0 8px;
+}
+.bb-matters-empty-text {
+  font-size: 14.5px;
+  color: var(--bb-muted);
+  line-height: 1.55;
+  max-width: 420px;
+  margin: 0 auto 24px;
+}
+
+/* Stack the header on narrow screens so the button drops below the title. */
+@media (max-width: 700px) {
+  .bb-matters-head-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .bb-matters-new-btn {
+    margin-top: 0;
+  }
+}

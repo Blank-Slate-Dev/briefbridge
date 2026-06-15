@@ -44,31 +44,39 @@ export function MattersPageClient({ matters: initialMatters }: MattersPageClient
   return (
     <main className="bb-matters-main">
       <header className="bb-matters-head">
-        <div className="bb-section-eyebrow">Your workspace</div>
-        <h1 className="bb-matters-title">
-          Cases <em>and matters</em>
-        </h1>
-        <p className="bb-matters-sub">
-          Each case keeps your research, files, and conversations in one place.
-          Ask BriefBridge anything in context — your facts, your authorities.
-        </p>
+        <div className="bb-matters-head-row">
+          <div>
+            <div className="bb-section-eyebrow">Your workspace</div>
+            <h1 className="bb-matters-title">
+              Cases <em>and matters</em>
+            </h1>
+            <p className="bb-matters-sub">
+              Each case keeps your research, files, and conversations in one
+              place. Ask BriefBridge anything in context — your facts, your
+              authorities.
+            </p>
+          </div>
+
+          {/* New-case action now lives in the header, not as a grid tile. */}
+          <NewMatterButton />
+        </div>
       </header>
 
-      <section className="bb-matters-grid">
-        <NewMatterCard />
-        {displayMatters.map((m) => (
-          <MatterCard key={m.id} matter={m} />
-        ))}
-      </section>
-
-      {displayMatters.length === 0 && (
-        <div className="bb-matters-mock-banner">
-          <span>Get started</span>
-          <p>
+      {displayMatters.length === 0 ? (
+        <div className="bb-matters-empty">
+          <h2 className="bb-matters-empty-title">No cases yet</h2>
+          <p className="bb-matters-empty-text">
             Create your first case to start a workspace for your research,
             files, and conversations.
           </p>
+          <NewMatterButton variant="empty" />
         </div>
+      ) : (
+        <section className="bb-matters-grid">
+          {displayMatters.map((m) => (
+            <MatterCard key={m.id} matter={m} />
+          ))}
+        </section>
       )}
     </main>
   );
@@ -109,36 +117,37 @@ function MatterCard({ matter }: { matter: Matter }) {
 }
 
 // =============================================================================
-// New matter card — quick-create
+// New matter button — quick-create. Used in the header (default) and in the
+// empty state (variant="empty"). Both fire the same create action.
 // =============================================================================
 
-function NewMatterCard() {
+function NewMatterButton({ variant = 'header' }: { variant?: 'header' | 'empty' }) {
   const [isPending, startTransition] = useTransition();
 
   function handleClick() {
     // Server action handles creation + redirect. We just trigger it.
-    // The redirect from inside the action will navigate the browser; we
-    // don't manage navigation here.
     startTransition(async () => {
       await createNewMatterAction();
     });
   }
 
+  const className =
+    variant === 'empty'
+      ? 'bb-btn bb-btn-primary bb-btn-large'
+      : 'bb-btn bb-btn-primary bb-matters-new-btn';
+
   return (
     <button
       type="button"
-      className="bb-matter-new"
+      className={className}
       onClick={handleClick}
       disabled={isPending}
       aria-label="Create new case"
     >
-      <div className="bb-matter-new-icon">+</div>
-      <div className="bb-matter-new-title">
-        {isPending ? 'Creating…' : 'New case'}
-      </div>
-      <div className="bb-matter-new-sub">
-        Start a workspace for a client matter
-      </div>
+      <span className="bb-matters-new-btn-plus" aria-hidden>
+        +
+      </span>
+      {isPending ? 'Creating…' : 'New case'}
     </button>
   );
 }
