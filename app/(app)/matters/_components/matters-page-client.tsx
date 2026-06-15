@@ -53,8 +53,9 @@ export function MattersPageClient({ matters: initialMatters }: MattersPageClient
             </h1>
             <p className="bb-matters-sub">
               Each case keeps your research, files, and conversations in one
-              place. Ask BriefBridge anything in context — your facts, your
-              authorities.
+              place.
+              <br />
+              Ask BriefBridge anything in context. Your facts, your authorities.
             </p>
           </div>
 
