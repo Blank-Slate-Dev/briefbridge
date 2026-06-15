@@ -1,7 +1,7 @@
 // lib/supabase/middleware.ts
 //
-// Session-refresh helper called by the root middleware.ts on every request
-// that matches the matcher pattern. Two jobs:
+// Session-refresh helper called by the root proxy on every request that
+// matches the matcher pattern. Two jobs:
 //
 //   1. Refresh the user's Supabase session if it's near expiry. JWTs are
 //      short-lived (default 1 hour) and Supabase issues refresh tokens
@@ -22,9 +22,21 @@
 // call to Supabase's auth server, which is the only way to be sure the
 // JWT hasn't been tampered with. The performance cost is small (sub-100ms
 // from Vercel → Supabase Singapore) and the alternative is a security hole.
+//
+// PERSISTENT SESSIONS: every auth cookie we write is stamped with a long
+// max-age (AUTH_COOKIE_MAX_AGE) so it PERSISTS across browser restarts.
+// Without an explicit maxAge, Supabase's cookies default to session cookies,
+// which the browser deletes when it fully closes — logging the user out.
+// 400 days is the maximum a browser will honour (Chrome/Edge cap persistent
+// cookies at 400 days), and because this runs on every request, an active
+// user's cookie is continually re-issued, so they effectively never get
+// logged out.
 
 import { createServerClient } from '@supabase/ssr';
 import { NextResponse, type NextRequest } from 'next/server';
+
+// 400 days in seconds — the browser maximum for a persistent cookie.
+const AUTH_COOKIE_MAX_AGE = 60 * 60 * 24 * 400;
 
 // Routes that require authentication. Order matters only for readability;
 // it's a "starts-with" check.
@@ -57,7 +69,12 @@ export async function updateSession(request: NextRequest) {
           );
           supabaseResponse = NextResponse.next({ request });
           cookiesToSet.forEach(({ name, value, options }) =>
-            supabaseResponse.cookies.set(name, value, options),
+            // Force a long max-age so the auth cookies PERSIST across browser
+            // restarts (see file header for the full rationale).
+            supabaseResponse.cookies.set(name, value, {
+              ...options,
+              maxAge: AUTH_COOKIE_MAX_AGE,
+            }),
           );
         },
       },

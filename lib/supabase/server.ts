@@ -20,12 +20,22 @@
 //     notes in this chunk's accompanying explanation.
 //   - Use in the browser. Use lib/supabase/client.ts for that.
 //
+// PERSISTENT SESSIONS: when this client writes auth cookies, we stamp them
+// with a long max-age (AUTH_COOKIE_MAX_AGE) so they persist across browser
+// restarts. Without an explicit maxAge, Supabase's cookies default to session
+// cookies, which the browser deletes on full close — logging the user out.
+// 400 days is the browser maximum. (The root proxy also re-stamps cookies on
+// every request, so an active user is continually kept signed in.)
+//
 // Note on Next.js 16:
 //   cookies() is async. We must await it. Older tutorials show synchronous
 //   cookies() — those are wrong for Next 15+.
 
 import { createServerClient } from '@supabase/ssr';
 import { cookies } from 'next/headers';
+
+// 400 days in seconds — the browser maximum for a persistent cookie.
+const AUTH_COOKIE_MAX_AGE = 60 * 60 * 24 * 400;
 
 export async function createClient() {
   const cookieStore = await cookies();
@@ -41,17 +51,22 @@ export async function createClient() {
         setAll(cookiesToSet) {
           // The setAll handler can throw when called from a Server Component
           // (Next disallows mutating cookies during render). That's expected
-          // and safe to ignore here — the middleware refreshes sessions on
+          // and safe to ignore here — the proxy refreshes sessions on
           // every request, so we don't need to set cookies during render.
           // We only catch the specific render-time error; anything else
           // propagates so we don't swallow real bugs.
           try {
             cookiesToSet.forEach(({ name, value, options }) =>
-              cookieStore.set(name, value, options),
+              // Force a long max-age so the auth cookies PERSIST across browser
+              // restarts (see file header for the full rationale).
+              cookieStore.set(name, value, {
+                ...options,
+                maxAge: AUTH_COOKIE_MAX_AGE,
+              }),
             );
           } catch {
             // Server Component context — cookies will be refreshed by the
-            // root middleware on the next request.
+            // root proxy on the next request.
           }
         },
       },
