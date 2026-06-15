@@ -623,3 +623,209 @@ export async function resolveFilenames(
     };
   });
 }
+// =============================================================================
+// === MIGRATION 0009 — CONVERSATION FILE VISIBILITY FOR CLAUDE =================
+// =============================================================================
+//
+// Standalone-chat files are AUTO-READ: attaching a file to a /chat IS the
+// consent. So unlike listFilesForAi (matter files), there is NO access-mode
+// gate, NO committed_at check, NO subset/exclusion logic. A file attached to
+// a conversation is readable by Claude, full stop — subject only to the same
+// hard gates that apply everywhere:
+//
+//   1. Not deleted        (deleted_at IS NULL)
+//   2. AI-readable        (ai_readable = true — e.g. PDF <= 100 pages)
+//   3. Not user-blocked   (ai_blocked_by_user = false)
+//
+// ai_excluded_in_matter is IRRELEVANT here (it's a matter-subset concept;
+// conversation files have no matter), so we don't check it.
+//
+// Returns the same FileForAi shape as listFilesForAi so the chat route and
+// files-tool route can treat both sources uniformly.
+
+/**
+ * Returns the files Claude may read for a standalone conversation.
+ *
+ * No access-mode gating (auto-read). Applies the deleted / ai_readable /
+ * ai_blocked_by_user gates only. Sorted most-recent first, capped at
+ * MAX_FILES_IN_SYSTEM_PROMPT (same cap as matters).
+ *
+ * Shape mirrors listFilesForAi's return so the caller can branch on
+ * matter-vs-conversation once and then treat the file list identically.
+ */
+export async function listFilesForConversation(
+  userId: string,
+  conversationId: string,
+): Promise<{
+  files: FileForAi[];
+  /** Always false for conversations — there's no "off" state (auto-read). */
+  isOff: boolean;
+  truncated: boolean;
+  totalAccessible: number;
+}> {
+  const conditions = [
+    eq(files.userId, userId),
+    eq(files.conversationId, conversationId),
+    isNull(files.deletedAt),
+    eq(files.aiReadable, true),
+    eq(files.aiBlockedByUser, false),
+  ];
+
+  // Count total (for the truncation indicator).
+  const totalRows = await db
+    .select({ count: sql<number>`count(*)::int` })
+    .from(files)
+    .where(and(...conditions));
+  const total = totalRows[0]?.count ?? 0;
+
+  // Fetch the capped list, most-recent first.
+  const fileRows = await db
+    .select({
+      id: files.id,
+      filename: files.filename,
+      mimeType: files.mimeType,
+      fileSize: files.fileSize,
+      pageCount: files.pageCount,
+      anthropicFileId: files.anthropicFileId,
+      storagePath: files.storagePath,
+    })
+    .from(files)
+    .where(and(...conditions))
+    .orderBy(sql`${files.updatedAt} desc`)
+    .limit(MAX_FILES_IN_SYSTEM_PROMPT);
+
+  // Bulk-load tags.
+  const fileIds = fileRows.map((r) => r.id);
+  const tagRows =
+    fileIds.length > 0
+      ? await db
+          .select({
+            fileId: fileTags.fileId,
+            tagLabel: fileTags.tagLabel,
+          })
+          .from(fileTags)
+          .where(inArray(fileTags.fileId, fileIds))
+          .orderBy(fileTags.createdAt)
+      : [];
+
+  const tagsByFileId = new Map<string, string[]>();
+  for (const t of tagRows) {
+    const existing = tagsByFileId.get(t.fileId);
+    if (existing) existing.push(t.tagLabel);
+    else tagsByFileId.set(t.fileId, [t.tagLabel]);
+  }
+
+  const resultFiles: FileForAi[] = fileRows.map((r) => ({
+    id: r.id,
+    filename: r.filename,
+    mimeType: r.mimeType,
+    fileSize: r.fileSize,
+    pageCount: r.pageCount,
+    tags: tagsByFileId.get(r.id) ?? [],
+    anthropicFileId: r.anthropicFileId,
+    storagePath: r.storagePath,
+  }));
+
+  return {
+    files: resultFiles,
+    isOff: false,
+    truncated: total > MAX_FILES_IN_SYSTEM_PROMPT,
+    totalAccessible: total,
+  };
+}
+
+// -----------------------------------------------------------------------------
+// resolveConversationFilenames — mirror of resolveFilenames, no access gate
+// -----------------------------------------------------------------------------
+//
+// Used by the files-tool route when Claude calls read_files in a standalone
+// chat. Same exact/ambiguous/not_found contract as resolveFilenames, but
+// scoped to conversation_id and with NO access-mode gating (auto-read).
+
+export async function resolveConversationFilenames(
+  userId: string,
+  conversationId: string,
+  filenames: string[],
+): Promise<FileResolutionResult[]> {
+  const uniqueFilenames = Array.from(new Set(filenames));
+  if (uniqueFilenames.length === 0) return [];
+
+  const conditions = [
+    eq(files.userId, userId),
+    eq(files.conversationId, conversationId),
+    isNull(files.deletedAt),
+    eq(files.aiReadable, true),
+    eq(files.aiBlockedByUser, false),
+    inArray(files.filename, uniqueFilenames),
+  ];
+
+  const matched = await db
+    .select({
+      id: files.id,
+      filename: files.filename,
+      mimeType: files.mimeType,
+      fileSize: files.fileSize,
+      pageCount: files.pageCount,
+      anthropicFileId: files.anthropicFileId,
+      storagePath: files.storagePath,
+    })
+    .from(files)
+    .where(and(...conditions));
+
+  const fileIds = matched.map((r) => r.id);
+  const tagRows =
+    fileIds.length > 0
+      ? await db
+          .select({
+            fileId: fileTags.fileId,
+            tagLabel: fileTags.tagLabel,
+          })
+          .from(fileTags)
+          .where(inArray(fileTags.fileId, fileIds))
+          .orderBy(fileTags.createdAt)
+      : [];
+
+  const tagsByFileId = new Map<string, string[]>();
+  for (const t of tagRows) {
+    const existing = tagsByFileId.get(t.fileId);
+    if (existing) existing.push(t.tagLabel);
+    else tagsByFileId.set(t.fileId, [t.tagLabel]);
+  }
+
+  const matchesByFilename = new Map<string, typeof matched>();
+  for (const m of matched) {
+    const existing = matchesByFilename.get(m.filename);
+    if (existing) existing.push(m);
+    else matchesByFilename.set(m.filename, [m]);
+  }
+
+  return uniqueFilenames.map((filename) => {
+    const matches = matchesByFilename.get(filename) ?? [];
+    if (matches.length === 0) {
+      return { filename, outcome: { kind: 'not_found' as const } };
+    }
+    if (matches.length > 1) {
+      return {
+        filename,
+        outcome: { kind: 'ambiguous' as const, count: matches.length },
+      };
+    }
+    const m = matches[0];
+    return {
+      filename,
+      outcome: {
+        kind: 'ok' as const,
+        file: {
+          id: m.id,
+          filename: m.filename,
+          mimeType: m.mimeType,
+          fileSize: m.fileSize,
+          pageCount: m.pageCount,
+          tags: tagsByFileId.get(m.id) ?? [],
+          anthropicFileId: m.anthropicFileId,
+          storagePath: m.storagePath,
+        },
+      },
+    };
+  });
+}

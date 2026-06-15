@@ -534,3 +534,158 @@ export async function updateFileTags(
 
   return { ok: true, tags: normalised.map((n) => n.tagLabel) };
 }
+// =============================================================================
+// === MIGRATION 0009 — CONVERSATION-SCOPED FILE QUERIES =======================
+// =============================================================================
+//
+// Standalone-chat file attachment. These mirror the matter-scoped queries
+// above (createFile, getCurrentMatterUsage, listFiles) but key on
+// conversation_id instead of matter_id.
+//
+// Single-purpose siblings rather than flexible "accepts either" functions,
+// matching the codebase convention (separate _actions / _actions-ai, etc.).
+// The matter functions above are UNTOUCHED — conversation files are a
+// parallel path.
+//
+// INVARIANT (enforced here at the application layer, not via DB CHECK —
+// see the 0009 migration comment): a conversation file has
+// conversation_id set and matter_id NULL. createConversationFile below
+// sets matterId: null explicitly to maintain this.
+//
+// Same RLS-bypass rule as the rest of this file: every query applies
+// where(eq(files.userId, userId)).
+
+// -----------------------------------------------------------------------------
+// createConversationFile — mirror of createFile, conversation-scoped
+// -----------------------------------------------------------------------------
+
+export interface CreateConversationFileInput {
+  conversationId: string;
+  filename: string; // Will be sanitised here (same as createFile).
+  storagePath: string;
+  mimeType: string;
+  fileSize: number;
+}
+
+/**
+ * Creates a `files` row attached to a CONVERSATION (not a matter).
+ *
+ * Identical contract to createFile, except:
+ *   - matterId is set to NULL
+ *   - conversationId is set to the given value
+ *
+ * Caller responsibilities are the same as createFile (validate MIME, size,
+ * run the quota check via getCurrentConversationUsage, verify conversation
+ * ownership separately). page_count / ai_readable are left to defaults and
+ * set later by the conversation completeUpload action.
+ *
+ * Returns the inserted row (no tags — new files have none).
+ */
+export async function createConversationFile(
+  userId: string,
+  input: CreateConversationFileInput,
+): Promise<FileRow> {
+  const sanitisedFilename = sanitiseFilename(input.filename); // may throw
+
+  const values: NewFile = {
+    userId,
+    matterId: null,
+    conversationId: input.conversationId,
+    filename: sanitisedFilename,
+    storagePath: input.storagePath,
+    mimeType: input.mimeType,
+    fileSize: input.fileSize,
+    // page_count / ai_readable left to defaults (NULL / true)
+  };
+
+  const [inserted] = await db.insert(files).values(values).returning();
+  return inserted;
+}
+
+// -----------------------------------------------------------------------------
+// getCurrentConversationUsage — mirror of getCurrentMatterUsage
+// -----------------------------------------------------------------------------
+
+/**
+ * Sum of non-deleted file_size for a conversation. Used for quota checks
+ * before accepting new standalone-chat uploads.
+ *
+ * Uses the (user_id, conversation_id) index added in migration 0009.
+ * Pure SQL aggregation; does not load file rows into memory.
+ *
+ * Same per-conversation cap as the matter cap (MAX_MATTER_BYTES) is applied
+ * by the caller — we keep one quota number for both scopes for simplicity.
+ */
+export async function getCurrentConversationUsage(
+  userId: string,
+  conversationId: string,
+): Promise<number> {
+  const rows = await db
+    .select({ total: sql<number>`coalesce(sum(${files.fileSize}), 0)::bigint` })
+    .from(files)
+    .where(
+      and(
+        eq(files.userId, userId),
+        eq(files.conversationId, conversationId),
+        isNull(files.deletedAt),
+      ),
+    );
+
+  const total = rows[0]?.total;
+  if (typeof total === 'string') return parseInt(total, 10);
+  return total ?? 0;
+}
+
+// -----------------------------------------------------------------------------
+// listConversationFiles — mirror of the matter-scoped listFiles
+// -----------------------------------------------------------------------------
+
+/**
+ * Lists non-deleted files attached to a conversation, with tags pre-joined.
+ *
+ * Mirror of listFiles({ matterId }) but scoped to conversation_id. Returns
+ * the same FileWithTags shape so the UI can reuse the matter file-row
+ * rendering. Most-recent first.
+ *
+ * (We don't replicate the includeDeleted / limit options here — standalone
+ * chats won't have hundreds of files, and there's no undo-restore UI for
+ * them in v1. If those become needed, add them mirroring ListFilesOptions.)
+ */
+export async function listConversationFiles(
+  userId: string,
+  conversationId: string,
+): Promise<FileWithTags[]> {
+  const fileRows = await db
+    .select()
+    .from(files)
+    .where(
+      and(
+        eq(files.userId, userId),
+        eq(files.conversationId, conversationId),
+        isNull(files.deletedAt),
+      ),
+    )
+    .orderBy(desc(files.createdAt))
+    .limit(500);
+
+  if (fileRows.length === 0) return [];
+
+  const fileIds = fileRows.map((r) => r.id);
+  const tagRows = await db
+    .select()
+    .from(fileTags)
+    .where(inArray(fileTags.fileId, fileIds))
+    .orderBy(fileTags.createdAt);
+
+  const tagsByFileId = new Map<string, string[]>();
+  for (const t of tagRows) {
+    const existing = tagsByFileId.get(t.fileId);
+    if (existing) existing.push(t.tagLabel);
+    else tagsByFileId.set(t.fileId, [t.tagLabel]);
+  }
+
+  return fileRows.map((row) => ({
+    ...row,
+    tags: tagsByFileId.get(row.id) ?? [],
+  }));
+}

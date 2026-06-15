@@ -67,6 +67,35 @@ export function buildStoragePath(
 }
 
 /**
+ * Builds the canonical storage path for a STANDALONE-CHAT file (migration
+ * 0009). These files belong to a conversation, not a matter.
+ *
+ * Format: {user_id}/standalone/{conversation_id}/{file_id}{extension}
+ *
+ * - user_id is STILL the first segment — this is non-negotiable, because
+ *   the storage.objects RLS policy in 0005_files.sql keys on
+ *   (storage.foldername(name))[1] = auth.uid()::text. The policy only
+ *   checks the first segment, so the literal "standalone" second segment
+ *   and the conversation_id third segment are free to differ from the
+ *   matter shape without any RLS change.
+ * - "standalone" is a literal marker distinguishing these from matter
+ *   files (whose second segment is a matter_id). Makes the bucket
+ *   browsable/auditable by eye.
+ * - file_id + extension follow the same convention as buildStoragePath.
+ *
+ * For a file F in conversation C uploaded by user U:
+ *   path = "U/standalone/C/F.pdf"
+ */
+export function buildConversationStoragePath(
+  userId: string,
+  conversationId: string,
+  fileId: string,
+  filename: string,
+): string {
+  return `${userId}/standalone/${conversationId}/${fileId}${getExtension(filename)}`;
+}
+
+/**
  * Returns the lowercased extension WITH the leading dot, or empty string
  * if the filename has no extension.
  *
