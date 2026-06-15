@@ -46,7 +46,11 @@ import {
   appendMessage,
 } from '@/lib/db/queries/conversations';
 import { getMatter } from '@/lib/db/queries/matters';
-import { listFilesForAi, type FileForAi } from '@/lib/db/queries/ai-access';
+import {
+  listFilesForAi,
+  listFilesForConversation,
+  type FileForAi,
+} from '@/lib/db/queries/ai-access';
 import { MAX_READ_TOKENS_PER_TURN } from '@/lib/files/ai-access-types';
 import { CHAT_TOOLS, isReadFilesToolInput } from '@/lib/chat/tool-definitions';
 import {
@@ -511,6 +515,22 @@ export async function POST(request: Request) {
         totalAccessibleFiles: filesAccess.totalAccessible,
       };
     }
+  } else if (conversationId) {
+    // MIGRATION 0009: standalone-chat file attachment. No matter — load
+    // files attached directly to the conversation. These are AUTO-READ
+    // (attaching IS the consent), so listFilesForConversation applies no
+    // access-mode gate; isOff is always false. Everything downstream (the
+    // system-prompt file block, the read_files tool loop) is identical to
+    // the matter path — only the source of the file list differs.
+    const convFiles = await listFilesForConversation(user.id, conversationId);
+    if (convFiles.files.length > 0) {
+      aiAccessOn = true;
+      aiFilesContext = {
+        filesList: convFiles.files,
+        truncated: convFiles.truncated,
+        totalAccessibleFiles: convFiles.totalAccessible,
+      };
+    }
   }
 
   // ---------------------------------------------------------------------------
@@ -674,10 +694,15 @@ export async function POST(request: Request) {
               {
                 method: 'POST',
                 headers: request.headers,
-                body: JSON.stringify({
-                  matterId: resolvedMatterId,
-                  filenames: input.filenames,
-                }),
+                body: JSON.stringify(
+                  // MIGRATION 0009: route the read to the right scope.
+                  // Matter chats send matterId; standalone chats send
+                  // conversationId. The files-tool route resolves against
+                  // whichever is present.
+                  resolvedMatterId
+                    ? { matterId: resolvedMatterId, filenames: input.filenames }
+                    : { conversationId, filenames: input.filenames },
+                ),
               },
             );
             const { POST: filesToolHandler } = await import(

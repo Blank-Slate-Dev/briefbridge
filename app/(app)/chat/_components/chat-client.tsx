@@ -39,6 +39,7 @@ import {
   StreamingChat,
   type InitialMessage,
 } from '../../_components/streaming-chat';
+import { ChatAttachments, type Attachment } from './chat-attachments';
 
 interface ChatClientProps {
   initialMessages: InitialMessage[];
@@ -59,6 +60,12 @@ export function ChatClient({
 
   // Reset counter - bumped ONLY by "New research" to force a clean remount.
   const [resetNonce, setResetNonce] = useState(0);
+
+  // MIGRATION 0009: attached-file state for standalone chat. Lifted here
+  // (rather than inside ChatAttachments) so it survives StreamingChat
+  // remounts and is cleared on "New research". Each item tracks one
+  // attachment's upload status.
+  const [attachments, setAttachments] = useState<Attachment[]>([]);
 
   // Re-sync local state when the server provides new props. This fires when
   // navigating to a different conversation (?conversationId=X changes), where
@@ -88,11 +95,25 @@ export function ChatClient({
     }
   }, []);
 
+  // MIGRATION 0009: when ChatAttachments mints a conversation (attach before
+  // first message), capture the id + update the URL. Same mechanics as
+  // handleConversationCreated. Reusing the same logic keeps the id and URL
+  // in sync no matter which path (send vs attach) creates the conversation.
+  const handleConversationEnsured = useCallback((newId: string) => {
+    setConversationId(newId);
+    if (typeof window !== 'undefined') {
+      const url = new URL(window.location.href);
+      url.searchParams.set('conversationId', newId);
+      window.history.replaceState({}, '', url.toString());
+    }
+  }, []);
+
   // Reset everything: drop the conversation id, clear messages, clean the
   // URL, and bump the reset nonce so StreamingChat remounts fresh.
   function handleNewResearch() {
     setConversationId(null);
     setMessages([]);
+    setAttachments([]);
     setResetNonce((n) => n + 1);
     if (typeof window !== 'undefined') {
       const url = new URL(window.location.href);
@@ -152,6 +173,14 @@ export function ChatClient({
         onConversationCreated={handleConversationCreated}
         emptyState={welcomeNode}
         inputPlaceholder="Ask a question about Australian case law…"
+        attachSlot={
+          <ChatAttachments
+            conversationId={conversationId}
+            onConversationEnsured={handleConversationEnsured}
+            attachments={attachments}
+            setAttachments={setAttachments}
+          />
+        }
       />
     </div>
   );

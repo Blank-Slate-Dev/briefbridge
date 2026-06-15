@@ -103,13 +103,21 @@ export interface StreamingChatProps {
    * "How can I help with your research?" + example prompts; matter shows
    * "Ask a question in this case's context").
    */
-  emptyState: ReactNode;
+    emptyState: ReactNode;
   /**
    * Placeholder text for the input textarea. Wrappers can customise:
    * "Ask a question about Australian case law…" for standalone,
    * "Ask anything about this case…" for in-matter.
    */
   inputPlaceholder?: string;
+  /**
+   * MIGRATION 0009: optional content rendered inside the input form, to the
+   * left of the textarea (e.g. the standalone-chat attach button + attached
+   * file chips). Matter chat passes nothing, so it renders nothing and is
+   * completely unaffected. Purely presentational — StreamingChat owns none
+   * of this slot's state.
+   */
+  attachSlot?: ReactNode;
 }
 
 // =============================================================================
@@ -123,6 +131,7 @@ export function StreamingChat({
   onConversationCreated,
   emptyState,
   inputPlaceholder = 'Ask a question…',
+  attachSlot,
 }: StreamingChatProps) {
   // Seed with server-provided initial messages. After mount all mutations
   // happen client-side.
@@ -467,6 +476,7 @@ export function StreamingChat({
       )}
 
       <form className="bb-chat-input" onSubmit={handleSubmit}>
+        {attachSlot}
         <textarea
           ref={textareaRef}
           value={input}

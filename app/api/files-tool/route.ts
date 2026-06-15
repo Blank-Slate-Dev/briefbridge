@@ -22,7 +22,10 @@
 
 import { NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
-import { resolveFilenames } from '@/lib/db/queries/ai-access';
+import {
+  resolveFilenames,
+  resolveConversationFilenames,
+} from '@/lib/db/queries/ai-access';
 import { ensureAnthropicCopy } from '@/lib/anthropic/file-sync';
 import {
   MAX_READ_TOKENS_PER_TURN,
@@ -77,7 +80,11 @@ export interface FilesToolError {
 // =============================================================================
 
 interface RequestBody {
-  matterId: string;
+  // MIGRATION 0009: exactly one of these is set. matterId for matter chats,
+  // conversationId for standalone chats. The chat route sends whichever
+  // applies; resolution below branches on which is present.
+  matterId?: string;
+  conversationId?: string;
   filenames: string[];
 }
 
@@ -105,13 +112,23 @@ export async function POST(req: Request) {
     );
   }
 
-  if (
-    !body ||
-    typeof body.matterId !== 'string' ||
-    !Array.isArray(body.filenames)
-  ) {
+  if (!body || !Array.isArray(body.filenames)) {
     return NextResponse.json<FilesToolError>(
       { ok: false, error: 'Invalid request shape' },
+      { status: 400 },
+    );
+  }
+
+  // MIGRATION 0009: exactly one scope id must be present.
+  const hasMatter = typeof body.matterId === 'string';
+  const hasConversation = typeof body.conversationId === 'string';
+  if (hasMatter === hasConversation) {
+    // Either neither was provided, or (unexpectedly) both were.
+    return NextResponse.json<FilesToolError>(
+      {
+        ok: false,
+        error: 'Exactly one of matterId or conversationId is required',
+      },
       { status: 400 },
     );
   }
@@ -131,11 +148,18 @@ export async function POST(req: Request) {
   }
 
   // 3. Resolve filenames → files (with all access gates applied).
-  const resolutions = await resolveFilenames(
-    user.id,
-    body.matterId,
-    body.filenames,
-  );
+  //    MIGRATION 0009: branch on scope. Matter resolution applies the
+  //    matter access-mode gate; conversation resolution is auto-read
+  //    (no access-mode gate) but applies the same deleted/readable/blocked
+  //    gates. Both return the identical FileResolutionResult shape, so
+  //    everything below is scope-agnostic.
+  const resolutions = hasMatter
+    ? await resolveFilenames(user.id, body.matterId as string, body.filenames)
+    : await resolveConversationFilenames(
+        user.id,
+        body.conversationId as string,
+        body.filenames,
+      );
 
   const documentBlocks: DocumentBlock[] = [];
   const warnings: string[] = [];

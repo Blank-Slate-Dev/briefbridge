@@ -471,6 +471,14 @@ export async function restoreFileAction(args: {
     return { ok: false, error: 'File not found.', reason: 'not_found' };
   }
 
+  // MIGRATION 0009: restore is a matter-files concept (it rechecks the
+  // matter storage quota). A conversation file has matterId = null, no
+  // matter quota, and no restore UI — so guard the null case. This also
+  // narrows fileRow.matterId to `string` for getCurrentMatterUsage below.
+  if (!fileRow.matterId) {
+    return { ok: false, error: 'File not found.', reason: 'not_found' };
+  }
+
   // Quota recheck. getCurrentMatterUsage excludes deleted files, so we
   // add this file's size to the current usage.
   const currentUsage = await getCurrentMatterUsage(
