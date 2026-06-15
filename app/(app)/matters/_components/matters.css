@@ -3973,25 +3973,62 @@ body:has(.bb-matters-main)::-webkit-scrollbar-thumb:hover {
 }
 
 /* =============================================================================
-   Matters header: title row with a "New case" button on the right
+   MATTERS LIST — WORKSPACE LAYOUT + CARDS  (consolidated)
    =============================================================================
-   APPEND to the bottom of matters.css. Replaces the in-grid new-case tile
-   with a header button. The old .bb-matter-new* rules can stay (now unused)
-   or be removed for tidiness.
+   This single block REPLACES the six stacked/append blocks that previously
+   lived at the end of matters.css (matters-header, workspace-rework,
+   dense-cards, fixed-height, 8-line, clampfix v1 + v2). Same final result,
+   one source of truth per property.
+
+   Replace everything from the original "Matters header: title row…" comment
+   down to the end of the file with this block.
    ========================================================================== */
 
-/* Title block on the left, New-case button on the right, top-aligned. */
-.bb-matters-head-row {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 24px;
+/* -----------------------------------------------------------------------------
+   Header — full-width workspace toolbar: title block left, New-case right.
+   --------------------------------------------------------------------------- */
+.bb-matters-head {
+  max-width: none;
+  margin-bottom: 28px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--bb-border);
 }
 
-/* The header button — pin it so it doesn't stretch, align to the title top. */
+.bb-matters-head-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+/* Text column keeps a readable measure; space-between pushes the button right. */
+.bb-matters-head-row > div:first-child {
+  max-width: 640px;
+  min-width: 0;
+}
+
+.bb-matters-head .bb-section-eyebrow {
+  margin-bottom: 6px;
+}
+
+/* Title at workspace scale (down from the homepage hero clamp). */
+.bb-matters-title {
+  font-size: clamp(28px, 3vw, 36px);
+  margin: 0 0 8px;
+  line-height: 1.1;
+}
+
+.bb-matters-sub {
+  font-size: 15px;
+  line-height: 1.5;
+  max-width: 560px;
+}
+
+/* New-case button — anchored right, vertically centred against the title block. */
 .bb-matters-new-btn {
   flex: 0 0 auto;
-  margin-top: 4px;
+  margin-top: 0;
+  align-self: center;
   white-space: nowrap;
 }
 .bb-matters-new-btn-plus {
@@ -4000,7 +4037,92 @@ body:has(.bb-matters-main)::-webkit-scrollbar-thumb:hover {
   margin-right: 2px;
 }
 
-/* Empty state — centred prompt with a primary button. */
+/* Count line above the grid ("4 cases"). */
+.bb-matters-count {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--bb-muted);
+  margin: 0 0 14px;
+  font-weight: 500;
+}
+
+/* -----------------------------------------------------------------------------
+   Grid
+   --------------------------------------------------------------------------- */
+.bb-matters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+/* -----------------------------------------------------------------------------
+   Card — fixed 280px height so every card lines up whether or not it has a
+   description. Flex column: head (fixed) → description (clamped) → timestamp
+   (pinned bottom via margin-top:auto).
+   --------------------------------------------------------------------------- */
+.bb-matter-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 20px 20px 18px;
+  height: 280px;          /* the ONE height value — change here to resize cards */
+  min-height: 280px;
+  border: 1px solid var(--bb-border);
+  border-radius: 16px;
+  background: var(--bb-bg-elevated);
+  text-decoration: none;
+  color: inherit;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.15s ease;
+}
+.bb-matter-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(26, 31, 46, 0.06);
+  border-color: var(--bb-border-strong);
+}
+
+.bb-matter-card-head {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+/* Description — clamps to 8 lines with a trailing "…". -webkit-line-clamp does
+   BOTH truncation and ellipsis; do NOT add max-height (it clips the box before
+   the ellipsis can render). display:-webkit-box is REQUIRED for the clamp. */
+.bb-matter-card-desc {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+  line-clamp: 8;
+  overflow: hidden;
+  flex: 0 1 auto;
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--bb-muted);
+}
+
+/* Timestamp row pinned to the bottom of the fixed-height card. */
+.bb-matter-card-stats {
+  margin-top: auto;
+  flex: 0 0 auto;
+  padding-top: 8px;
+}
+.bb-matter-card-time {
+  margin-left: auto;
+  font-size: 11.5px;
+  color: var(--bb-muted-soft);
+}
+
+/* -----------------------------------------------------------------------------
+   Empty state (no cases yet)
+   --------------------------------------------------------------------------- */
 .bb-matters-empty {
   margin-top: 32px;
   padding: 56px 32px;
@@ -4024,13 +4146,16 @@ body:has(.bb-matters-main)::-webkit-scrollbar-thumb:hover {
   margin: 0 auto 24px;
 }
 
-/* Stack the header on narrow screens so the button drops below the title. */
+/* -----------------------------------------------------------------------------
+   Narrow screens — stack header, button drops below the title block.
+   --------------------------------------------------------------------------- */
 @media (max-width: 700px) {
   .bb-matters-head-row {
     flex-direction: column;
+    align-items: flex-start;
     gap: 16px;
   }
   .bb-matters-new-btn {
-    margin-top: 0;
+    align-self: flex-start;
   }
 }

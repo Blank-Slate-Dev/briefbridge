@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { StickyHeader } from './_components/sticky-header';
 import { HeroPreview } from './_components/hero-preview';
 import { createClient } from '@/lib/supabase/server';
+import { redirect } from 'next/navigation';
 
 // The homepage is public, but it reads auth state so the header can show
 // "Go to app" to signed-in users instead of "Sign in". getUser() validates
@@ -15,7 +16,14 @@ export default async function HomePage() {
   const supabase = await createClient();
   const {
     data: { user },
-  } = await supabase.auth.getUser();
+} = await supabase.auth.getUser();
+
+  // Logged-in users don't need the marketing homepage — send them straight
+  // to their workspace. Must be outside any try/catch (redirect throws).
+  if (user) {
+    redirect('/matters');
+  }
+
   const isLoggedIn = !!user;
 
   return (

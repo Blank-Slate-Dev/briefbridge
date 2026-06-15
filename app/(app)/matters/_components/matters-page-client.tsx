@@ -40,6 +40,7 @@ export function MattersPageClient({ matters: initialMatters }: MattersPageClient
   // If the provider somehow hasn't been mounted yet (shouldn't happen, but
   // defensive), fall back to the initial server data.
   const displayMatters = matters.length > 0 ? matters : initialMatters;
+  const count = displayMatters.length;
 
   return (
     <main className="bb-matters-main">
@@ -57,12 +58,12 @@ export function MattersPageClient({ matters: initialMatters }: MattersPageClient
             </p>
           </div>
 
-          {/* New-case action now lives in the header, not as a grid tile. */}
+          {/* New-case action lives in the header toolbar, anchored right. */}
           <NewMatterButton />
         </div>
       </header>
 
-      {displayMatters.length === 0 ? (
+      {count === 0 ? (
         <div className="bb-matters-empty">
           <h2 className="bb-matters-empty-title">No cases yet</h2>
           <p className="bb-matters-empty-text">
@@ -72,11 +73,16 @@ export function MattersPageClient({ matters: initialMatters }: MattersPageClient
           <NewMatterButton variant="empty" />
         </div>
       ) : (
-        <section className="bb-matters-grid">
-          {displayMatters.map((m) => (
-            <MatterCard key={m.id} matter={m} />
-          ))}
-        </section>
+        <>
+          <p className="bb-matters-count">
+            {count} {count === 1 ? 'case' : 'cases'}
+          </p>
+          <section className="bb-matters-grid">
+            {displayMatters.map((m) => (
+              <MatterCard key={m.id} matter={m} />
+            ))}
+          </section>
+        </>
       )}
     </main>
   );

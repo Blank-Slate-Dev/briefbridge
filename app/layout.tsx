@@ -29,7 +29,7 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: 'BriefBridge — The legal research partner for Australian lawyers',
+  title: 'BriefBridge | The legal research partner for Australian lawyers',
   description:
     'Search Australian case law by what it means, not what it says. Grounded answers, verifiable citations, paragraph by paragraph.',
 };
