@@ -149,6 +149,12 @@ export function ChatClient({
   // The remount key. Built from the PROP conversation id (not internal
   // state) so conversation switches remount but mid-stream id arrivals
   // don't; resetNonce covers the deliberate "New research" reset.
+  // MIGRATION 0009: only files that finished uploading ('ready') travel with
+  // the sent message. Uploading/failed/rejected chips stay in the input.
+  const readyAttachments = attachments
+    .filter((a) => a.status === 'ready')
+    .map((a) => ({ filename: a.filename }));
+
   const chatKey = `${resetNonce}-${initialConversationId ?? 'new'}`;
 
   return (
@@ -181,6 +187,8 @@ export function ChatClient({
             setAttachments={setAttachments}
           />
         }
+        pendingAttachments={readyAttachments}
+        onAttachmentsConsumed={() => setAttachments([])}
       />
     </div>
   );

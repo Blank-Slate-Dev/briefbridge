@@ -70,6 +70,10 @@ interface ChatMessage {
   citations?: Citation[];
   streaming?: boolean;
   error?: string;
+  // MIGRATION 0009: filenames attached to this (user) message, shown as
+  // chips inside the message bubble. Empty/undefined for messages with no
+  // attachments — i.e. every matter-chat message and every assistant message.
+  attachments?: { filename: string }[];
 }
 
 /** Initial-state message shape (from server-loaded history). */
@@ -110,14 +114,18 @@ export interface StreamingChatProps {
    * "Ask anything about this case…" for in-matter.
    */
   inputPlaceholder?: string;
-  /**
-   * MIGRATION 0009: optional content rendered inside the input form, to the
-   * left of the textarea (e.g. the standalone-chat attach button + attached
-   * file chips). Matter chat passes nothing, so it renders nothing and is
-   * completely unaffected. Purely presentational — StreamingChat owns none
-   * of this slot's state.
-   */
   attachSlot?: ReactNode;
+  /**
+   * MIGRATION 0009: filenames currently attached in the input (ready to send).
+   * On send, these get stamped onto the outgoing user message so they render
+   * inside the message bubble. Matter chat doesn't pass this.
+   */
+  pendingAttachments?: { filename: string }[];
+  /**
+   * MIGRATION 0009: called after a send consumes the pending attachments, so
+   * the parent can clear the input chips. Matter chat doesn't pass this.
+   */
+  onAttachmentsConsumed?: () => void;
 }
 
 // =============================================================================
@@ -132,6 +140,8 @@ export function StreamingChat({
   emptyState,
   inputPlaceholder = 'Ask a question…',
   attachSlot,
+  pendingAttachments,
+  onAttachmentsConsumed,
 }: StreamingChatProps) {
   // Seed with server-provided initial messages. After mount all mutations
   // happen client-side.
@@ -275,6 +285,12 @@ export function StreamingChat({
         id: crypto.randomUUID(),
         role: 'user',
         content: trimmed,
+        // MIGRATION 0009: snapshot the attached files onto this message so
+        // they render in the bubble. Then tell the parent to clear the input.
+        attachments:
+          pendingAttachments && pendingAttachments.length > 0
+            ? pendingAttachments.map((a) => ({ filename: a.filename }))
+            : undefined,
       };
       const assistantMessage: ChatMessage = {
         id: crypto.randomUUID(),
@@ -295,6 +311,11 @@ export function StreamingChat({
       setMessages((prev) => [...prev, userMessage, assistantMessage]);
       setInput('');
       setIsStreaming(true);
+      // MIGRATION 0009: the files are now shown in the sent message; clear
+      // them from the input composer.
+      if (pendingAttachments && pendingAttachments.length > 0) {
+        onAttachmentsConsumed?.();
+      }
 
       const controller = new AbortController();
       abortControllerRef.current = controller;
@@ -424,7 +445,16 @@ export function StreamingChat({
         abortControllerRef.current = null;
       }
     },
-    [input, isStreaming, messages, conversationId, matterId, onConversationCreated],
+    [
+      input,
+      isStreaming,
+      messages,
+      conversationId,
+      matterId,
+      onConversationCreated,
+      pendingAttachments,
+      onAttachmentsConsumed,
+    ],
   );
 
   function handleKeyDown(e: KeyboardEvent<HTMLTextAreaElement>) {
@@ -450,7 +480,7 @@ export function StreamingChat({
             {messages.map((m) => (
               <li key={m.id}>
                 {m.role === 'user' ? (
-                  <UserMessage content={m.content} />
+                  <UserMessage content={m.content} attachments={m.attachments} />
                 ) : (
                   <AssistantMessage message={m} />
                 )}
@@ -507,10 +537,38 @@ export function StreamingChat({
 // Sub-components — all use bb-msg-* / bb-citations-* CSS from matters.css
 // =============================================================================
 
-function UserMessage({ content }: { content: string }) {
+function UserMessage({
+  content,
+  attachments,
+}: {
+  content: string;
+  attachments?: { filename: string }[];
+}) {
   return (
     <div className="bb-msg bb-msg-user">
       <div className="bb-msg-bubble">
+        {attachments && attachments.length > 0 && (
+          <ul className="bb-msg-attachments">
+            {attachments.map((a, i) => (
+              <li key={`${a.filename}-${i}`} className="bb-msg-attachment">
+                <svg
+                  width="13"
+                  height="13"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden
+                >
+                  <path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48" />
+                </svg>
+                <span className="bb-msg-attachment-name">{a.filename}</span>
+              </li>
+            ))}
+          </ul>
+        )}
         <p style={{ whiteSpace: 'pre-wrap', margin: 0 }}>{content}</p>
       </div>
     </div>

@@ -3368,3 +3368,49 @@ body:has(.bb-matters-main)::-webkit-scrollbar-thumb:hover {
 .bb-chat-chip--failed .bb-chat-chip-status {
   color: var(--bb-error, #a8331c);
 }
+
+/* =============================================================================
+   MIGRATION 0009 — File chips inside a sent user message bubble
+   =============================================================================
+   APPEND-ONLY. Add to the bottom of matters.css.
+
+   When a standalone-chat message is sent with attached files, the filenames
+   render as small chips at the top of the user message bubble (above the
+   message text). The bubble is dark navy (--bb-ink) with light text
+   (--bb-bg), so these chips use a translucent-light treatment to sit on it.
+   ========================================================================== */
+
+.bb-msg-attachments {
+  list-style: none;
+  margin: 0 0 8px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.bb-msg-attachment {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  max-width: 220px;
+  padding: 4px 9px;
+  border-radius: 8px;
+  font-size: 12.5px;
+  line-height: 1.2;
+  /* Translucent light pill on the dark navy bubble. */
+  background: rgba(255, 255, 255, 0.14);
+  color: var(--bb-bg);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.bb-msg-attachment svg {
+  flex: 0 0 auto;
+  opacity: 0.85;
+}
+
+.bb-msg-attachment-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
