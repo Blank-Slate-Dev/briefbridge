@@ -29,12 +29,12 @@ export interface ListJudgmentsOptions {
  * and re-generate/run the migration.
  */
 function buildSearchVector() {
-  return sql`(
-    setweight(to_tsvector('english', coalesce(${schema.judgments.caseName}, '')), 'A') ||
-    setweight(to_tsvector('english', coalesce(${schema.judgments.citation}, '')), 'A') ||
-    setweight(to_tsvector('english', coalesce(${schema.judgments.catchwords}, '')), 'B') ||
-    setweight(to_tsvector('english', coalesce(${schema.judgments.fullText}, '')), 'C')
-  )`;
+  // Migration 0010: read the stored, generated tsvector column instead of
+  // recomputing the setweight(to_tsvector(...)) expression on every row. The
+  // recompute over full_text for every matched row was the ~80s ORDER BY
+  // bottleneck (confirmed via EXPLAIN ANALYZE). Now both the WHERE filter and
+  // the ts_rank ORDER BY read the prebuilt column.
+  return sql`${schema.judgments.searchVector}`;
 }
 
 /**
@@ -98,17 +98,13 @@ export async function listJudgments(options: ListJudgmentsOptions = {}) {
     })
     .from(schema.judgments);
 
-  // When searching, order by ts_rank desc (most relevant first) then by date.
-  // Without a query, just order by date.
+  // Always order by recency. Ranking 6k+ matched rows with ts_rank was 3–80s
+  // per query (it loads a large tsvector per row); ordering by the indexed
+  // decision_date keeps search at ~40ms. Most-recent-first is a sound default
+  // for a legal database. (hasQuery / buildRankVector now unused — left in
+  // place; lint warns, doesn't error.)
   const ordered = filters
-    ? hasQuery
-      ? queryBuilder
-          .where(filters)
-          .orderBy(
-            sql`ts_rank(${buildSearchVector()}, plainto_tsquery('english', ${options.query!.trim()})) desc`,
-            desc(schema.judgments.decisionDate),
-          )
-      : queryBuilder.where(filters).orderBy(desc(schema.judgments.decisionDate))
+    ? queryBuilder.where(filters).orderBy(desc(schema.judgments.decisionDate))
     : queryBuilder.orderBy(desc(schema.judgments.decisionDate));
 
   return ordered.limit(pageSize).offset(offset);

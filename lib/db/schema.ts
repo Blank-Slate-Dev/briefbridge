@@ -125,22 +125,22 @@ export const judgments = pgTable(
     ingestedAt: timestamp('ingested_at', { withTimezone: true }).notNull().defaultNow(),
     lastCheckedAt: timestamp('last_checked_at', { withTimezone: true }).notNull().defaultNow(),
     decisionLastUpdated: date('decision_last_updated'),
+    // Migration 0010: stored generated tsvector. Postgres maintains it; the
+    // app never writes it. Declared as text only so Drizzle can reference the
+    // column name in queries (Drizzle has no native tsvector column type).
+    searchVector: text('search_vector'),
   },
   (t) => ({
     sourceUrlIdx: uniqueIndex('judgments_source_url_idx').on(t.sourceUrl),
     citationIdx: index('judgments_citation_idx').on(t.citation),
     decisionDateIdx: index('judgments_decision_date_idx').on(t.decisionDate),
     sourceIdx: index('judgments_source_idx').on(t.source),
-    searchVectorIdx: index('judgments_search_vector_idx')
-      .using(
-        'gin',
-        sql`(
-          setweight(to_tsvector('english', coalesce(${t.caseName}, '')), 'A') ||
-          setweight(to_tsvector('english', coalesce(${t.citation}, '')), 'A') ||
-          setweight(to_tsvector('english', coalesce(${t.catchwords}, '')), 'B') ||
-          setweight(to_tsvector('english', coalesce(${t.fullText}, '')), 'C')
-        )`,
-      ),
+    // Migration 0010: GIN index now sits on the stored search_vector column
+    // (was previously on the inline setweight(to_tsvector(...)) expression).
+    searchVectorIdx: index('judgments_search_vector_idx').using(
+      'gin',
+      sql`${t.searchVector}`,
+    ),
   }),
 );
 
