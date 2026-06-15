@@ -634,11 +634,14 @@ body:has(.bb-hero) {
   .bb-hero { padding: 80px 24px 60px; }
   .bb-preview-inner {
     padding: 20px;
-    /* Narrow screens: cards stack and titles wrap, making content taller.
-       Drop the fixed desktop height and let it grow so nothing clips. */
-    height: auto;
-    min-height: 380px;
-    overflow: visible;
+    /* Narrow screens: cards stack and titles wrap, making content taller,
+       so use a TALLER fixed height than desktop — but keep it FIXED (not
+       auto) so the box never pumps as queries cycle and the page below
+       stays put. Sized for the worst case (3 cards, wrapped titles).
+       overflow hidden clips the rare overshoot rather than shoving the
+       page. */
+    height: 520px;
+    overflow: hidden;
   }
 }
 @media (max-width: 600px) {

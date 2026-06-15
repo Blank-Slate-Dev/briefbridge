@@ -3414,3 +3414,560 @@ body:has(.bb-matters-main)::-webkit-scrollbar-thumb:hover {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+/* =============================================================================
+   MIGRATION 0009 — Attach UX polish: chips-above-input + uploading skeleton
+   =============================================================================
+   APPEND-ONLY. Add to the bottom of matters.css.
+   (If you already pasted an earlier "attach-polish" block, DELETE it and use
+   this one — this is the corrected version.)
+
+   Layout: the paperclip button stays INSIDE the input row (.bb-chat-input),
+   left of the textarea, exactly where it was. When files are attached, the
+   chip list renders on its OWN row ABOVE the input row, inside the new
+   .bb-chat-input-wrap vertical stack. The textarea keeps full width.
+   ========================================================================== */
+
+/* The form is now a vertical stack: [chips row?] then [input row]. */
+.bb-chat-input-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+/* The chips row above the input. .bb-chat-attach-list already exists (from
+   the original attach CSS); here we just make sure it sits comfortably as a
+   standalone row above the input bar. */
+.bb-chat-input-wrap > .bb-chat-attach-list {
+  margin: 0;
+  padding: 0 4px;
+}
+
+/* The paperclip button sits inside the input row. The original .bb-chat-attach
+   had max-width:60% (from when chips lived beside it); now it only holds the
+   button, so let it size to content. */
+.bb-chat-input .bb-chat-attach {
+  max-width: none;
+  flex: 0 0 auto;
+}
+
+/* -----------------------------------------------------------------------------
+   Uploading skeleton — shimmer on a chip while its file is still uploading.
+   Replaces the static "…" feel with a moving gradient like a load skeleton.
+   --------------------------------------------------------------------------- */
+
+.bb-chat-chip--uploading {
+  position: relative;
+  overflow: hidden;
+  color: var(--bb-muted);
+}
+
+.bb-chat-chip--uploading .bb-chat-chip-name {
+  position: relative;
+  z-index: 1;
+}
+
+.bb-chat-chip--uploading::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(201, 161, 74, 0.18) 50%,
+    transparent 100%
+  );
+  transform: translateX(-100%);
+  animation: bb-chip-shimmer 1.1s ease-in-out infinite;
+}
+
+@keyframes bb-chip-shimmer {
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bb-chat-chip--uploading::after {
+    animation: none;
+    background: rgba(201, 161, 74, 0.1);
+    transform: none;
+  }
+}
+
+/* =============================================================================
+   MIGRATION 0009 — Attach chips: file-type icon + instant skeleton (pending)
+   =============================================================================
+   APPEND-ONLY. Add to the bottom of matters.css.
+
+   Adds a file-type icon to each chip and extends the shimmer skeleton to the
+   new 'pending' status (the instant-skeleton state shown the moment a file is
+   picked, before any server round-trip). Previously the shimmer only covered
+   'uploading'.
+   ========================================================================== */
+
+/* Icon sits left of the filename. */
+.bb-chat-chip-icon {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  line-height: 0;
+}
+
+.bb-chat-chip-glyph {
+  color: var(--bb-muted);
+}
+.bb-chat-chip-glyph--pdf {
+  color: var(--bb-error, #a8331c);
+}
+.bb-chat-chip-glyph--doc {
+  color: #2a5db0;
+}
+.bb-chat-chip-glyph--txt {
+  color: var(--bb-muted);
+}
+
+/* While ready, let the icon take its type colour but slightly calmer. */
+.bb-chat-chip--ready .bb-chat-chip-glyph {
+  opacity: 0.9;
+}
+
+/* -----------------------------------------------------------------------------
+   Skeleton shimmer — now covers BOTH 'pending' (instant, pre-upload) and
+   'uploading' (bytes in flight). Same gold shimmer sweep for both.
+   --------------------------------------------------------------------------- */
+
+.bb-chat-chip--pending,
+.bb-chat-chip--uploading {
+  position: relative;
+  overflow: hidden;
+  color: var(--bb-muted);
+}
+
+/* During loading, mute the icon to read as part of the skeleton. */
+.bb-chat-chip--pending .bb-chat-chip-glyph,
+.bb-chat-chip--uploading .bb-chat-chip-glyph {
+  color: var(--bb-muted-soft);
+}
+
+.bb-chat-chip--pending .bb-chat-chip-name,
+.bb-chat-chip--uploading .bb-chat-chip-name {
+  position: relative;
+  z-index: 1;
+}
+
+.bb-chat-chip--pending::after,
+.bb-chat-chip--uploading::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(201, 161, 74, 0.18) 50%,
+    transparent 100%
+  );
+  transform: translateX(-100%);
+  animation: bb-chip-shimmer 1.1s ease-in-out infinite;
+}
+
+/* (bb-chip-shimmer keyframes are defined in the earlier attach-polish block.
+   If that block isn't present, uncomment the keyframes below.) */
+/*
+@keyframes bb-chip-shimmer {
+  to { transform: translateX(100%); }
+}
+*/
+
+@media (prefers-reduced-motion: reduce) {
+  .bb-chat-chip--pending::after,
+  .bb-chat-chip--uploading::after {
+    animation: none;
+    background: rgba(201, 161, 74, 0.1);
+    transform: none;
+  }
+}
+
+/* =============================================================================
+   MIGRATION 0009 — Unified composer: VERTICAL file cards inside the box
+   =============================================================================
+   APPEND-ONLY. Add to the bottom of matters.css.
+
+   IMPORTANT — if you previously pasted an earlier "composer-cards" or
+   "attach-polish" / "attach-chip-icon" block, this supersedes their card
+   styling. The new .bb-chat-card rules below re-declare those classes as a
+   VERTICAL card (icon on top, filename + type stacked), which wins by source
+   order. Leaving the old blocks in place is harmless, but you may delete them
+   for tidiness.
+
+   Structure:
+     form.bb-chat-input            ← bordered composer box, vertical stack
+       ├─ ul.bb-chat-cards         ← attachment cards (only when files present)
+       └─ div.bb-chat-input-row    ← paperclip + textarea + send (horizontal)
+   ========================================================================== */
+
+/* Composer box → vertical stack that grows to contain cards. Keeps its
+   border/background/radius from the original .bb-chat-input rule. */
+.bb-chat-input {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+}
+
+/* Input row: paperclip + textarea + send (what .bb-chat-input used to be). */
+.bb-chat-input-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  width: 100%;
+}
+.bb-chat-input-row .bb-chat-attach {
+  flex: 0 0 auto;
+}
+
+/* -----------------------------------------------------------------------------
+   Cards row — inside the box, above the input row.
+   --------------------------------------------------------------------------- */
+
+.bb-chat-cards {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 6px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 12px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  min-width: 0;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(120, 110, 90, 0.3) transparent;
+}
+.bb-chat-cards::-webkit-scrollbar {
+  height: 6px;
+}
+.bb-chat-cards::-webkit-scrollbar-thumb {
+  background: rgba(120, 110, 90, 0.3);
+  border-radius: 999px;
+}
+.bb-chat-cards::-webkit-scrollbar-thumb:hover {
+  background: rgba(120, 110, 90, 0.5);
+}
+.bb-chat-cards::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* A single VERTICAL file card: icon on top, text stacked below. ~150px wide. */
+.bb-chat-card {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 0 0 220px;
+  width: 220px;
+  min-width: 220px;
+  scroll-snap-align: start;
+  min-height: auto;
+  padding: 12px 12px 10px;
+  border: 1px solid var(--bb-border);
+  border-radius: 12px;
+  background: var(--bb-bg);
+  overflow: hidden;
+  /* Fade/scale the card in on mount — skeleton → loaded feels smooth because
+     both states share this entry; the body content cross-fades (below). */
+  animation: bb-card-in 160ms ease-out;
+}
+
+@keyframes bb-card-in {
+  from { opacity: 0; transform: translateY(3px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Icon tile, top-left. */
+.bb-chat-card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  background: var(--bb-bg-elevated);
+  border: 1px solid var(--bb-border);
+}
+
+.bb-chat-card-glyph {
+  color: var(--bb-muted);
+}
+.bb-chat-card-glyph--pdf {
+  color: var(--bb-error, #a8331c);
+}
+.bb-chat-card-glyph--doc {
+  color: #2a5db0;
+}
+
+/* Text block: filename then type, stacked. */
+.bb-chat-card-body {
+  width: 100%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  /* Cross-fade the loaded text in (skeleton bars don't get this, so the
+     swap reads as the real content fading up over ~150ms). */
+  animation: bb-card-body-in 180ms ease-out;
+}
+
+@keyframes bb-card-body-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.bb-chat-card-name {
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--bb-ink);
+  line-height: 1.25;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bb-chat-card-meta {
+  font-size: 11px;
+  color: var(--bb-muted);
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.bb-chat-card-err {
+  color: var(--bb-error, #a8331c);
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+/* Remove ✕ — floats at the top-right corner. */
+.bb-chat-card-remove {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: var(--bb-bg-elevated);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--bb-muted);
+  border-radius: 6px;
+  opacity: 0;
+  transition: opacity 0.12s ease, color 0.12s ease, background 0.12s ease;
+}
+/* Reveal the remove button on card hover/focus (keeps the card clean). */
+.bb-chat-card:hover .bb-chat-card-remove,
+.bb-chat-card-remove:focus-visible {
+  opacity: 1;
+}
+.bb-chat-card-remove:hover {
+  color: var(--bb-ink);
+  background: var(--bb-border);
+}
+
+/* -----------------------------------------------------------------------------
+   Skeleton bars — sized to mirror the real name + type lines, so the swap
+   from skeleton to loaded text has NO layout jump.
+   --------------------------------------------------------------------------- */
+
+.bb-chat-card-skel {
+  display: block;
+  height: 11px;
+  border-radius: 4px;
+  background: linear-gradient(
+    90deg,
+    rgba(20, 29, 53, 0.06) 0%,
+    rgba(201, 161, 74, 0.18) 50%,
+    rgba(20, 29, 53, 0.06) 100%
+  );
+  background-size: 200% 100%;
+  animation: bb-card-skel 1.2s ease-in-out infinite;
+}
+/* Name line ~75% width; type line short. Mirrors "test1.pdf" / "PDF". */
+.bb-chat-card-skel--name {
+  width: 75%;
+}
+.bb-chat-card-skel--meta {
+  height: 8px;
+  width: 34%;
+  margin-top: 1px;
+}
+
+@keyframes bb-card-skel {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* While loading, mute the icon glyph so the whole card reads as a skeleton. */
+.bb-chat-card--pending .bb-chat-card-glyph,
+.bb-chat-card--uploading .bb-chat-card-glyph {
+  color: var(--bb-muted-soft);
+}
+
+/* Error/rejected cards — red-tinted edge. */
+.bb-chat-card--rejected,
+.bb-chat-card--failed {
+  border-color: var(--bb-error, #a8331c);
+  background: rgba(168, 51, 28, 0.05);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bb-chat-card,
+  .bb-chat-card-body {
+    animation: none;
+  }
+  .bb-chat-card-skel {
+    animation: none;
+    background: rgba(20, 29, 53, 0.08);
+  }
+}
+
+/* =============================================================================
+   Markdown rendering — clean structured answers (headings, quotes, tables…)
+   =============================================================================
+   APPEND-ONLY. Add to the bottom of matters.css.
+
+   These style the block elements emitted by the new FormattedAnswer renderer.
+   All scoped under .bb-msg-prose so they only affect assistant answers, and
+   they use the existing design tokens.
+   ========================================================================== */
+
+/* Headings — capped sizes for chat density (h3/h4/h5 in markup, sized here). */
+.bb-msg-prose .bb-md-h1 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--bb-ink);
+  margin: 20px 0 10px;
+  line-height: 1.25;
+}
+.bb-msg-prose .bb-md-h1:first-child {
+  margin-top: 0;
+}
+.bb-msg-prose .bb-md-h2 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  color: var(--bb-ink);
+  margin: 18px 0 8px;
+  line-height: 1.3;
+}
+.bb-msg-prose .bb-md-h2:first-child {
+  margin-top: 0;
+}
+.bb-msg-prose .bb-md-h3 {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--bb-ink-soft);
+  margin: 16px 0 6px;
+  line-height: 1.3;
+}
+.bb-msg-prose .bb-md-h3:first-child {
+  margin-top: 0;
+}
+
+/* Divider — subtle horizontal rule. */
+.bb-msg-prose .bb-md-divider {
+  border: none;
+  border-top: 1px solid var(--bb-border);
+  margin: 18px 0;
+}
+
+/* Blockquote — for quoted case / file passages. Gold left rule, serif italic. */
+.bb-msg-prose .bb-md-quote {
+  margin: 12px 0;
+  padding: 2px 0 2px 16px;
+  border-left: 3px solid var(--bb-highlight);
+}
+.bb-msg-prose .bb-md-quote p {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-style: italic;
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--bb-ink-soft);
+  margin: 0 0 6px;
+}
+.bb-msg-prose .bb-md-quote p:last-child {
+  margin-bottom: 0;
+}
+
+/* Lists. */
+.bb-msg-prose .bb-md-ul,
+.bb-msg-prose .bb-md-ol {
+  margin: 8px 0 12px;
+  padding-left: 22px;
+}
+.bb-msg-prose .bb-md-ul {
+  list-style: disc;
+}
+.bb-msg-prose .bb-md-ol {
+  list-style: decimal;
+}
+.bb-msg-prose .bb-md-ul li,
+.bb-msg-prose .bb-md-ol li {
+  margin: 0 0 5px;
+  line-height: 1.55;
+  padding-left: 2px;
+}
+.bb-msg-prose .bb-md-ul li::marker,
+.bb-msg-prose .bb-md-ol li::marker {
+  color: var(--bb-muted);
+}
+
+/* Tables — for figures / structured data. Horizontal scroll on narrow screens. */
+.bb-msg-prose .bb-md-table-wrap {
+  margin: 12px 0;
+  overflow-x: auto;
+  border: 1px solid var(--bb-border);
+  border-radius: 10px;
+}
+.bb-msg-prose .bb-md-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 13.5px;
+}
+.bb-msg-prose .bb-md-table th,
+.bb-msg-prose .bb-md-table td {
+  text-align: left;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--bb-border);
+}
+.bb-msg-prose .bb-md-table th {
+  background: var(--bb-bg-elevated);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--bb-muted);
+}
+.bb-msg-prose .bb-md-table tr:last-child td {
+  border-bottom: none;
+}
+.bb-msg-prose .bb-md-table td {
+  color: var(--bb-ink-soft);
+  font-variant-numeric: tabular-nums;
+}

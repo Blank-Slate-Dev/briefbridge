@@ -320,13 +320,25 @@ export async function requestConversationUploadUrls(args: {
 }
 
 // =============================================================================
-// completeConversationUpload — confirm bytes landed + page count + readability
+// completeConversationUpload — FAST PHASE: confirm bytes landed, return ✓
 // =============================================================================
 //
-// Mirror of completeUpload (matter version). Identical logic — verify the
-// object exists, extract PDF page count, compute ai_readable, persist via
-// setFileReadabilityMeta. The ONLY difference from the matter version is
-// there's no invalidateAiAccessOnUpload (auto-read; no consent state).
+// SPEED CHANGE (migration 0009 perf pass): this used to also download the
+// file back from storage and parse it with pdf-lib to count pages — a ~3.5s
+// round-trip that kept the attach chip on "uploading" the whole time. That
+// page-count work is NOT needed for the file to exist or to be readable:
+//
+//   - files.ai_readable defaults to TRUE at row creation, and the read gate
+//     (listFilesForConversation) only requires ai_readable = true. So a file
+//     is readable the instant its object lands.
+//   - Page count is used ONLY to DEMOTE ai_readable to false for PDFs over
+//     MAX_PDF_PAGES_FOR_AI pages — a guard rail, not a prerequisite.
+//
+// So we now return as soon as objectExists passes (chip → ✓ in ~200ms), and
+// the page-count / 100-page guard runs separately in finalizeConversationFileMeta,
+// which the client fires WITHOUT await. The brief window where an over-100-page
+// PDF reads as ai_readable before the guard resolves is acceptable (and the old
+// code was already optimistic — extraction failure left ai_readable = true).
 
 export async function completeConversationUpload(args: {
   fileId: string;
@@ -339,7 +351,9 @@ export async function completeConversationUpload(args: {
     return { ok: false, error: 'File not found.' };
   }
 
-  // Confirm the object actually exists in storage.
+  // Confirm the object actually exists in storage. Defense against a client
+  // that calls complete without actually uploading. This is the only check
+  // that must block "ready" — it's a fast storage HEAD request.
   const exists = await objectExists(existing.storagePath);
   if (!exists) {
     return {
@@ -348,30 +362,60 @@ export async function completeConversationUpload(args: {
     };
   }
 
-  // For PDFs, attempt page count extraction. NEVER fail the upload on
-  // extraction errors — log and continue with pageCount=null.
+  // Return immediately. The page-count guard runs in the deferred phase
+  // (finalizeConversationFileMeta), fired by the client without await.
+  return { ok: true, data: { file: existing } };
+}
+
+// =============================================================================
+// finalizeConversationFileMeta — DEFERRED PHASE: page count + 100-page guard
+// =============================================================================
+//
+// Fired by the client WITHOUT await, right after completeConversationUpload
+// returns ✓. Does the slow work (download bytes, parse PDF, count pages) and
+// demotes ai_readable to false for over-length PDFs. Never blocks the chip.
+//
+// Idempotent and best-effort: a failure here leaves the file ai_readable
+// (the optimistic default), exactly as the old inline code did on extraction
+// failure. Safe to call once per upload; safe to never call (the guard just
+// won't apply, matching prior optimistic behaviour).
+
+export async function finalizeConversationFileMeta(args: {
+  fileId: string;
+}): Promise<ActionResult> {
+  const auth = await requireUser();
+  if (!auth.ok) return { ok: false, error: auth.error };
+
+  const existing = await getFile(auth.userId, args.fileId);
+  if (!existing) {
+    return { ok: false, error: 'File not found.' };
+  }
+
+  // Only PDFs have a page-count guard. Non-PDFs need no finalisation.
+  if (existing.mimeType !== 'application/pdf') {
+    return { ok: true };
+  }
+
   let pageCount: number | null = null;
   let aiReadable = true;
   let aiReadableReason: string | null = null;
 
-  if (existing.mimeType === 'application/pdf') {
-    try {
-      const bytes = await getObjectBytes(existing.storagePath);
-      pageCount = await extractPageCount(bytes, existing.mimeType);
-    } catch (err) {
-      // eslint-disable-next-line no-console
-      console.error(
-        '[chat-files] page count extraction failed for',
-        args.fileId,
-        err,
-      );
-      pageCount = null;
-    }
+  try {
+    const bytes = await getObjectBytes(existing.storagePath);
+    pageCount = await extractPageCount(bytes, existing.mimeType);
+  } catch (err) {
+    // eslint-disable-next-line no-console
+    console.error(
+      '[chat-files] deferred page count extraction failed for',
+      args.fileId,
+      err,
+    );
+    pageCount = null;
+  }
 
-    if (pageCount !== null && pageCount > MAX_PDF_PAGES_FOR_AI) {
-      aiReadable = false;
-      aiReadableReason = `PDF exceeds ${MAX_PDF_PAGES_FOR_AI} pages — too long for AI reading.`;
-    }
+  if (pageCount !== null && pageCount > MAX_PDF_PAGES_FOR_AI) {
+    aiReadable = false;
+    aiReadableReason = `PDF exceeds ${MAX_PDF_PAGES_FOR_AI} pages — too long for AI reading.`;
   }
 
   await setFileReadabilityMeta(auth.userId, args.fileId, {
@@ -380,12 +424,7 @@ export async function completeConversationUpload(args: {
     aiReadableReason,
   });
 
-  const fresh = await getFile(auth.userId, args.fileId);
-  if (!fresh) {
-    return { ok: false, error: 'File disappeared during finalisation.' };
-  }
-
-  return { ok: true, data: { file: fresh } };
+  return { ok: true };
 }
 
 // =============================================================================

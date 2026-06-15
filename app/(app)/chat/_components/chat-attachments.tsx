@@ -5,32 +5,48 @@
 // Owns ALL the upload state and logic for standalone /chat, kept OUT of the
 // shared StreamingChat component (which is also used by matter chat and must
 // stay untouched). ChatClient renders this and passes its output down to
-// StreamingChat via the `attachSlot` prop.
+// StreamingChat via TWO slots:
 //
-// The upload pipeline mirrors the matter Files tab (files-tab.tsx) exactly,
-// so behaviour is identical and proven:
+//   - variant="button" -> the paperclip button. Rendered INSIDE the input
+//     row (attachSlot), left of the textarea.
+//   - variant="chips"  -> the attached-file CARDS. Rendered INSIDE the
+//     composer box (attachChipsSlot), ABOVE the input row, so the composer
+//     grows vertically to contain them — one unified surface, like
+//     Claude/ChatGPT. (Despite the historical "chips" name, these now render
+//     as small rectangular file cards.)
 //
-//   1. User picks files via the attach button.
-//   2. ensureConversation() — mint/confirm a conversation id so files have
-//      something to attach to (a brand-new /chat has no conversation until
-//      the first message; we create it eagerly on first attach).
-//   3. requestConversationUploadUrls() — batch quota-checked signed URLs.
-//   4. For each accepted result: uploadToSignedUrl() via the browser
-//      Supabase client (same bucket, same call as the matter tab).
-//   5. completeConversationUpload() — confirm + page count + readability.
+// Both variants share the SAME lifted state (attachments + setAttachments,
+// owned by ChatClient), so the button's uploads drive the cards' display.
+//
+// INSTANT-SKELETON UX: a card is rendered the INSTANT a file is picked —
+// BEFORE any server round-trip — using a temporary client id and a 'pending'
+// status. This kills the blank gap while ensureConversation +
+// requestConversationUploadUrls run. Once the server returns the real fileId,
+// the temp card is reconciled: its id swaps to the real fileId and its status
+// moves to 'uploading'. The swap is invisible; the skeleton stays put with no
+// layout jump.
+//
+// Status lifecycle for a successful attach:
+//   pending (temp id, instant)  ->  uploading (real fileId)  ->  ready (✓)
+//
+// Pipeline:
+//   1. Pick files -> temp 'pending' skeleton cards appear immediately.
+//   2. ensureConversation() — mint/confirm a conversation id.
+//   3. requestConversationUploadUrls() — batch quota-checked signed URLs;
+//      reconcile each temp card to its real fileId (-> 'uploading').
+//   4. uploadToSignedUrl() via the browser Supabase client.
+//   5. completeConversationUpload() — FAST: confirm object -> 'ready' (✓).
+//   6. finalizeConversationFileMeta() — DEFERRED (fire-and-forget): page count
+//      + 100-page readability guard, in the background, never blocks the card.
 //
 // Auto-read: once a file finishes uploading, it's immediately readable by
 // Claude in this conversation (no consent toggle — attaching IS consent).
-//
-// State shape: a flat list of attachment items, each with a status
-// (uploading | ready | rejected | failed). The chips render from this list.
 
 'use client';
 
 import {
   useCallback,
   useRef,
-  useState,
   type ChangeEvent,
 } from 'react';
 import { createClient } from '@/lib/supabase/client';
@@ -39,11 +55,9 @@ import {
   ensureConversation,
   requestConversationUploadUrls,
   completeConversationUpload,
+  finalizeConversationFileMeta,
 } from '../_actions';
 
-// Same bucket as the matter tab — standalone files live in the same
-// private bucket, just under a different path prefix (see
-// buildConversationStoragePath).
 const STORAGE_BUCKET = 'case-files';
 
 // =============================================================================
@@ -51,163 +65,160 @@ const STORAGE_BUCKET = 'case-files';
 // =============================================================================
 
 export interface Attachment {
-  id: string; // fileId once known, else a temp id for rejects
+  id: string; // real fileId once known; a temp 'temp-…' id before that
   filename: string;
   size: number;
-  status: 'uploading' | 'ready' | 'rejected' | 'failed';
-  // Present when status is 'rejected' or 'failed'.
+  mimeType: string;
+  status: 'pending' | 'uploading' | 'ready' | 'rejected' | 'failed';
   reason?: string;
 }
 
 interface ChatAttachmentsProps {
-  /**
-   * The current conversation id, or null for a brand-new chat. If null, the
-   * first attach will mint one via ensureConversation and report it back
-   * through onConversationEnsured so the parent can bind subsequent sends
-   * to the same conversation.
-   */
+  variant?: 'button' | 'chips';
   conversationId: string | null;
-  /**
-   * Called when a conversation id is established (either confirmed or newly
-   * created). The parent (ChatClient) updates its own id + the URL so the
-   * eventual first message lands in the same conversation the files are in.
-   */
   onConversationEnsured: (conversationId: string) => void;
-  /** The attachment list (lifted to the parent so it can survive re-render). */
   attachments: Attachment[];
-  /** Setter for the attachment list. */
   setAttachments: React.Dispatch<React.SetStateAction<Attachment[]>>;
 }
 
+function tempId(): string {
+  return `temp-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+}
+
 export function ChatAttachments({
+  variant = 'button',
   conversationId,
   onConversationEnsured,
   attachments,
   setAttachments,
 }: ChatAttachmentsProps) {
   const fileInputRef = useRef<HTMLInputElement>(null);
-  const [isBusy, setIsBusy] = useState(false);
+
+  const markFailed = useCallback(
+    (id: string, reason: string) => {
+      setAttachments((prev) =>
+        prev.map((a) =>
+          a.id === id ? { ...a, status: 'failed' as const, reason } : a,
+        ),
+      );
+    },
+    [setAttachments],
+  );
 
   const handleFiles = useCallback(
     async (selected: File[]) => {
       if (selected.length === 0) return;
-      setIsBusy(true);
+
+      // STEP 0 — INSTANT skeleton cards (temp ids), before any server work.
+      const pendingByTempId = new Map<string, File>();
+      const pendingCards: Attachment[] = selected.map((f) => {
+        const id = tempId();
+        pendingByTempId.set(id, f);
+        const tooBig = f.size > MAX_FILE_BYTES;
+        return {
+          id,
+          filename: f.name,
+          size: f.size,
+          mimeType: f.type || 'application/octet-stream',
+          status: tooBig ? ('rejected' as const) : ('pending' as const),
+          reason: tooBig ? 'Over the 10 MB per-file limit.' : undefined,
+        };
+      });
+      setAttachments((prev) => [...prev, ...pendingCards]);
+
+      const eligibleEntries = pendingCards.filter(
+        (c) => c.status === 'pending',
+      );
+      if (eligibleEntries.length === 0) return;
+
+      const failTemp = (tempIdValue: string, reason: string) => {
+        setAttachments((prev) =>
+          prev.map((a) =>
+            a.id === tempIdValue
+              ? { ...a, status: 'failed' as const, reason }
+              : a,
+          ),
+        );
+      };
 
       try {
-        // Pre-flight: reject oversize files immediately (server would too).
-        const tooBig = selected.filter((f) => f.size > MAX_FILE_BYTES);
-        for (const f of tooBig) {
-          setAttachments((prev) => [
-            ...prev,
-            {
-              id: `rejected-${Date.now()}-${Math.random()}`,
-              filename: f.name,
-              size: f.size,
-              status: 'rejected',
-              reason: 'Over the 10 MB per-file limit.',
-            },
-          ]);
-        }
-        const eligible = selected.filter((f) => f.size <= MAX_FILE_BYTES);
-        if (eligible.length === 0) return;
-
-        // Ensure we have a conversation to attach to.
+        // STEP 1 — ensure a conversation.
         const ensured = await ensureConversation({ conversationId });
         if (!ensured.ok) {
-          for (const f of eligible) {
-            setAttachments((prev) => [
-              ...prev,
-              {
-                id: `failed-${Date.now()}-${Math.random()}`,
-                filename: f.name,
-                size: f.size,
-                status: 'failed',
-                reason: ensured.error,
-              },
-            ]);
-          }
+          for (const c of eligibleEntries) failTemp(c.id, ensured.error);
           return;
         }
         const convId = ensured.data.conversationId;
-        // Tell the parent (updates its id + URL) if this is new.
         if (convId !== conversationId) {
           onConversationEnsured(convId);
         }
 
-        // Request signed URLs in one batch.
+        // STEP 2 — request signed URLs.
         const result = await requestConversationUploadUrls({
           conversationId: convId,
-          files: eligible.map((f) => ({
-            filename: f.name,
-            size: f.size,
-            mimeType: f.type || 'application/octet-stream',
+          files: eligibleEntries.map((c) => ({
+            filename: c.filename,
+            size: c.size,
+            mimeType: c.mimeType,
           })),
         });
 
         if (!result.ok) {
-          for (const f of eligible) {
-            setAttachments((prev) => [
-              ...prev,
-              {
-                id: `failed-${Date.now()}-${Math.random()}`,
-                filename: f.name,
-                size: f.size,
-                status: 'failed',
-                reason: result.error,
-              },
-            ]);
-          }
+          for (const c of eligibleEntries) failTemp(c.id, result.error);
           return;
         }
 
-        // Match results back to their byte sources by name.
-        const fileByName = new Map<string, File>();
-        for (const f of eligible) fileByName.set(f.name, f);
+        // Match server results to temp cards by filename (positional for dups).
+        const remainingByName = new Map<string, string[]>();
+        for (const c of eligibleEntries) {
+          const list = remainingByName.get(c.filename) ?? [];
+          list.push(c.id);
+          remainingByName.set(c.filename, list);
+        }
+        const takeTempId = (filename: string): string | undefined => {
+          const list = remainingByName.get(filename);
+          if (!list || list.length === 0) return undefined;
+          return list.shift();
+        };
 
         const supabase = createClient();
 
         for (const r of result.data.results) {
+          const matchedTempId = takeTempId(r.filename);
+
           if (!r.ok) {
-            setAttachments((prev) => [
-              ...prev,
-              {
-                id: `rejected-${Date.now()}-${Math.random()}`,
-                filename: r.filename,
-                size: 0,
-                status: 'rejected',
-                reason: r.message,
-              },
-            ]);
+            if (matchedTempId) {
+              setAttachments((prev) =>
+                prev.map((a) =>
+                  a.id === matchedTempId
+                    ? { ...a, status: 'rejected' as const, reason: r.message }
+                    : a,
+                ),
+              );
+            }
             continue;
           }
 
-          const sourceFile = fileByName.get(r.filename);
-          if (!sourceFile) {
-            setAttachments((prev) => [
-              ...prev,
-              {
-                id: r.fileId,
-                filename: r.filename,
-                size: 0,
-                status: 'failed',
-                reason: 'internal: source file lost',
-              },
-            ]);
+          const sourceFile = matchedTempId
+            ? pendingByTempId.get(matchedTempId)
+            : undefined;
+
+          if (!matchedTempId || !sourceFile) {
+            if (matchedTempId) {
+              failTemp(matchedTempId, 'internal: source file lost');
+            }
             continue;
           }
 
-          // Add the uploading chip.
-          setAttachments((prev) => [
-            ...prev,
-            {
-              id: r.fileId,
-              filename: r.filename,
-              size: sourceFile.size,
-              status: 'uploading',
-            },
-          ]);
+          // RECONCILE: temp id -> real fileId, pending -> uploading.
+          setAttachments((prev) =>
+            prev.map((a) =>
+              a.id === matchedTempId
+                ? { ...a, id: r.fileId, status: 'uploading' as const }
+                : a,
+            ),
+          );
 
-          // Fire the upload (parallel — don't await the IIFE).
           void (async () => {
             try {
               const { error } = await supabase.storage
@@ -230,6 +241,9 @@ export function ChatAttachments({
                 return;
               }
 
+              // ✓ now; page-count guard runs in the background.
+              void finalizeConversationFileMeta({ fileId: r.fileId });
+
               setAttachments((prev) =>
                 prev.map((a) =>
                   a.id === r.fileId ? { ...a, status: 'ready' as const } : a,
@@ -242,22 +256,12 @@ export function ChatAttachments({
             }
           })();
         }
-      } finally {
-        setIsBusy(false);
+      } catch (err) {
+        const msg = err instanceof Error ? err.message : 'unknown error';
+        for (const c of eligibleEntries) failTemp(c.id, msg);
       }
     },
-    [conversationId, onConversationEnsured, setAttachments],
-  );
-
-  const markFailed = useCallback(
-    (fileId: string, reason: string) => {
-      setAttachments((prev) =>
-        prev.map((a) =>
-          a.id === fileId ? { ...a, status: 'failed' as const, reason } : a,
-        ),
-      );
-    },
-    [setAttachments],
+    [conversationId, onConversationEnsured, setAttachments, markFailed],
   );
 
   const onPickerChange = useCallback(
@@ -265,7 +269,7 @@ export function ChatAttachments({
       const list = e.target.files;
       if (!list) return;
       const selected = Array.from(list);
-      e.target.value = ''; // reset so same file re-triggers change
+      e.target.value = '';
       void handleFiles(selected);
     },
     [handleFiles],
@@ -273,27 +277,86 @@ export function ChatAttachments({
 
   const removeChip = useCallback(
     (id: string) => {
-      // Removes the chip from the visible list only. We deliberately do NOT
-      // delete the uploaded file from storage/db here — a "ready" file stays
-      // attached to the conversation and readable by Claude. Removing the
-      // chip just tidies the input. (A future pass could add real detach via
-      // a softDelete on the conversation file.)
       setAttachments((prev) => prev.filter((a) => a.id !== id));
     },
     [setAttachments],
   );
 
+  // ---------------------------------------------------------------------------
+  // CHIPS variant — VERTICAL file CARDS (icon on top, filename + type stacked
+  // below), rendered INSIDE the composer box above the input row. Like the
+  // Claude/ChatGPT attachment preview. Skeleton bars while loading; the loaded
+  // card itself is the "ready" signal (no separate ✓). Remove ✕ floats at the
+  // top-right corner. Renders nothing when empty.
+  // ---------------------------------------------------------------------------
+  if (variant === 'chips') {
+    if (attachments.length === 0) return null;
+    return (
+      <ul className="bb-chat-cards">
+        {attachments.map((a) => {
+          const isLoading = a.status === 'pending' || a.status === 'uploading';
+          const isError = a.status === 'rejected' || a.status === 'failed';
+          const typeLabel = fileTypeLabel(a.mimeType);
+          return (
+            <li
+              key={a.id}
+              className={`bb-chat-card bb-chat-card--${a.status}`}
+              title={a.reason ?? a.filename}
+            >
+              <button
+                type="button"
+                className="bb-chat-card-remove"
+                onClick={() => removeChip(a.id)}
+                aria-label={`Remove ${a.filename}`}
+              >
+                ×
+              </button>
+
+              <span className="bb-chat-card-icon" aria-hidden>
+                <FileTypeGlyph mimeType={a.mimeType} />
+              </span>
+
+              <div className="bb-chat-card-body">
+                {isLoading ? (
+                  <>
+                    <span className="bb-chat-card-skel bb-chat-card-skel--name" />
+                    <span className="bb-chat-card-skel bb-chat-card-skel--meta" />
+                  </>
+                ) : (
+                  <>
+                    <span className="bb-chat-card-name">{a.filename}</span>
+                    <span className="bb-chat-card-meta">
+                      {isError ? (
+                        <span className="bb-chat-card-err">
+                          {a.reason ?? 'failed'}
+                        </span>
+                      ) : (
+                        typeLabel
+                      )}
+                    </span>
+                  </>
+                )}
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+    );
+  }
+
+  // ---------------------------------------------------------------------------
+  // BUTTON variant (default) — paperclip + hidden file input. Lives inside
+  // the input row.
+  // ---------------------------------------------------------------------------
   return (
     <div className="bb-chat-attach">
       <button
         type="button"
         className="bb-chat-attach-btn"
         onClick={() => fileInputRef.current?.click()}
-        disabled={isBusy}
         aria-label="Attach a file"
         title="Attach a PDF, Word document, or text file"
       >
-        {/* paperclip glyph */}
         <svg
           width="18"
           height="18"
@@ -318,33 +381,50 @@ export function ChatAttachments({
         style={{ display: 'none' }}
         aria-hidden
       />
-
-      {attachments.length > 0 && (
-        <ul className="bb-chat-attach-list">
-          {attachments.map((a) => (
-            <li
-              key={a.id}
-              className={`bb-chat-chip bb-chat-chip--${a.status}`}
-              title={a.reason ?? a.filename}
-            >
-              <span className="bb-chat-chip-name">{a.filename}</span>
-              <span className="bb-chat-chip-status" aria-hidden>
-                {a.status === 'uploading' && '…'}
-                {a.status === 'ready' && '✓'}
-                {(a.status === 'rejected' || a.status === 'failed') && '!'}
-              </span>
-              <button
-                type="button"
-                className="bb-chat-chip-remove"
-                onClick={() => removeChip(a.id)}
-                aria-label={`Remove ${a.filename}`}
-              >
-                ×
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
     </div>
+  );
+}
+
+// =============================================================================
+// Helpers
+// =============================================================================
+
+function fileTypeLabel(mimeType: string): string {
+  if (mimeType === 'application/pdf') return 'PDF';
+  if (mimeType.includes('word') || mimeType.includes('officedocument'))
+    return 'Word';
+  if (mimeType === 'text/plain') return 'Text';
+  return 'File';
+}
+
+function FileTypeGlyph({ mimeType }: { mimeType: string }) {
+  const kind =
+    mimeType === 'application/pdf'
+      ? 'pdf'
+      : mimeType.includes('word') || mimeType.includes('officedocument')
+        ? 'doc'
+        : 'txt';
+
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      aria-hidden
+      className={`bb-chat-card-glyph bb-chat-card-glyph--${kind}`}
+    >
+      <path
+        d="M6 2.5h7L19 8v12.5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1Z"
+        fill="currentColor"
+        opacity="0.16"
+      />
+      <path
+        d="M6 2.5h7L19 8v12.5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1Z"
+        stroke="currentColor"
+        strokeWidth="1.4"
+      />
+      <path d="M13 2.5V8h6" stroke="currentColor" strokeWidth="1.4" />
+    </svg>
   );
 }

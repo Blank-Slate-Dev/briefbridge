@@ -11,32 +11,25 @@
 //   - Auto-resize textarea
 //   - Cancel-on-unmount of in-flight streams
 //
+// MARKDOWN PASS: FormattedAnswer now parses the markdown subset Claude emits
+// (headings, blockquotes, dividers, lists, tables) into clean structured
+// HTML, via a line-by-line parser that tolerates partial streamed input and
+// never throws. renderInline (**bold** + [N] citations) is UNCHANGED and runs
+// on the text of every block, so citations stay clickable everywhere.
+//
 // CHUNK 7 CHANGE: StoredCitation became a discriminated union with two
 // variants (caselaw | file).
 //
 // CHUNK 8 CHANGE (visibility pass): StoredCitation now has THREE variants
 // (caselaw | file | legislation). The CitationsPanel below filters into
 // THREE buckets and renders a dedicated LegislationCitationRow for the
-// new variant. Without this change, legislation citations sent by the
-// /api/chat endpoint would be silently dropped by the renderer.
+// new variant.
 //
-// SCROLL PASS: the previous version called scrollIntoView on EVERY message
-// change, which fires on every streaming delta — so the view yanked back
-// to the bottom the instant a user tried to scroll up and read. Now we
-// track whether the user is "stuck" to the bottom (an isAtBottomRef driven
-// by a scroll listener) and only auto-scroll when they are. When they've
-// scrolled away during a live answer, a "Jump to latest" button appears.
+// SCROLL PASS: tracks whether the user is "stuck" to the bottom and only
+// auto-scrolls when they are; a "Jump to latest" button appears otherwise.
 //
-// What this file DOESN'T own:
-//   - Outer page shell (full-viewport vs inline scroll — wrappers decide)
-//   - Welcome screen with example prompts (only standalone wants this)
-//   - Page headers / "New research" buttons (wrappers decide what to show)
-//   - Empty-state copy (matter wants in-context language; standalone wants
-//     generic — wrappers pass their own empty-state node)
-//
-// Styling: uses the bb-msg-* / bb-chat-* / bb-citations-* CSS classes
-// defined in matters.css, plus the legislation-specific extensions in
-// matters-legislation.css.
+// Styling: uses the bb-msg-* / bb-chat-* / bb-citations-* / bb-md-* CSS
+// classes defined in matters.css.
 
 'use client';
 
@@ -116,6 +109,13 @@ export interface StreamingChatProps {
   inputPlaceholder?: string;
   attachSlot?: ReactNode;
   /**
+   * MIGRATION 0009: optional content rendered ABOVE the input row (the
+   * attached-file chips with skeletons). Separate from attachSlot (the
+   * paperclip button, which stays inside the input row). Matter chat passes
+   * neither.
+   */
+  attachChipsSlot?: ReactNode;
+  /**
    * MIGRATION 0009: filenames currently attached in the input (ready to send).
    * On send, these get stamped onto the outgoing user message so they render
    * inside the message bubble. Matter chat doesn't pass this.
@@ -126,6 +126,11 @@ export interface StreamingChatProps {
    * the parent can clear the input chips. Matter chat doesn't pass this.
    */
   onAttachmentsConsumed?: () => void;
+  /**
+   * MIGRATION 0009: true while a file upload is in flight. Disables Send so
+   * a message can't go out mid-upload. Matter chat doesn't pass this.
+   */
+  isUploading?: boolean;
 }
 
 // =============================================================================
@@ -140,8 +145,10 @@ export function StreamingChat({
   emptyState,
   inputPlaceholder = 'Ask a question…',
   attachSlot,
+  attachChipsSlot,
   pendingAttachments,
   onAttachmentsConsumed,
+  isUploading = false,
 }: StreamingChatProps) {
   // Seed with server-provided initial messages. After mount all mutations
   // happen client-side.
@@ -506,24 +513,27 @@ export function StreamingChat({
       )}
 
       <form className="bb-chat-input" onSubmit={handleSubmit}>
-        {attachSlot}
-        <textarea
-          ref={textareaRef}
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={handleKeyDown}
-          placeholder={inputPlaceholder}
-          rows={1}
-          disabled={isStreaming}
-          aria-label="Your question"
-        />
-        <button
-          type="submit"
-          disabled={!input.trim() || isStreaming}
-          className="bb-btn bb-btn-primary"
-        >
-          {isStreaming ? '…' : 'Send'}
-        </button>
+        {attachChipsSlot}
+        <div className="bb-chat-input-row">
+          {attachSlot}
+          <textarea
+            ref={textareaRef}
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            onKeyDown={handleKeyDown}
+            placeholder={inputPlaceholder}
+            rows={1}
+            disabled={isStreaming}
+            aria-label="Your question"
+          />
+          <button
+            type="submit"
+            disabled={!input.trim() || isStreaming || isUploading}
+            className="bb-btn bb-btn-primary"
+          >
+            {isStreaming ? '…' : isUploading ? 'Attaching…' : 'Send'}
+          </button>
+        </div>
       </form>
       <p className="bb-chat-disclaimer">
         BriefBridge can make mistakes. Verify citations against the official
@@ -534,7 +544,7 @@ export function StreamingChat({
 }
 
 // =============================================================================
-// Sub-components — all use bb-msg-* / bb-citations-* CSS from matters.css
+// Sub-components — all use bb-msg-* / bb-citations-* / bb-md-* CSS
 // =============================================================================
 
 function UserMessage({
@@ -619,6 +629,146 @@ function ThinkingIndicator() {
   );
 }
 
+// =============================================================================
+// FormattedAnswer — block-level markdown renderer
+// =============================================================================
+//
+// Parses the markdown subset Claude emits and renders clean structured HTML,
+// while preserving inline handling (**bold** and [N] citation spans) via
+// renderInline — which is UNCHANGED.
+//
+// Handled blocks: #/##/### headings, > blockquote, --- divider, -/* and 1.
+// lists, | a | b | tables (needs a | --- | separator row), else paragraph.
+//
+// STREAMING SAFETY: line-by-line parsing never throws on partial input. A
+// half-arrived table row or unterminated block renders as raw text (via
+// renderInline) until the next token completes it, then re-renders cleanly.
+//
+// CITATIONS: renderInline runs on the text of every block, so [N] citations
+// stay clickable in headings, list items, table cells, quotes, and paragraphs.
+
+type Block =
+  | { type: 'heading'; level: 1 | 2 | 3; text: string }
+  | { type: 'blockquote'; lines: string[] }
+  | { type: 'divider' }
+  | { type: 'ul'; items: string[] }
+  | { type: 'ol'; items: string[] }
+  | { type: 'table'; header: string[]; rows: string[][] }
+  | { type: 'paragraph'; text: string };
+
+const HEADING_RE = /^(#{1,6})\s+(.*)$/;
+const DIVIDER_RE = /^\s*(?:-{3,}|\*{3,}|_{3,})\s*$/;
+const UL_RE = /^\s*[-*]\s+(.*)$/;
+const OL_RE = /^\s*\d+\.\s+(.*)$/;
+const BLOCKQUOTE_RE = /^\s*>\s?(.*)$/;
+const TABLE_ROW_RE = /^\s*\|(.+)\|\s*$/;
+const TABLE_SEP_RE = /^\s*\|?[\s:|-]+\|?\s*$/;
+
+function splitTableRow(line: string): string[] {
+  const inner = line.trim().replace(/^\|/, '').replace(/\|$/, '');
+  return inner.split('|').map((c) => c.trim());
+}
+
+function parseBlocks(content: string): Block[] {
+  const lines = content.replace(/\r\n/g, '\n').split('\n');
+  const blocks: Block[] = [];
+  let i = 0;
+
+  while (i < lines.length) {
+    const line = lines[i];
+
+    if (line.trim() === '') {
+      i++;
+      continue;
+    }
+
+    if (DIVIDER_RE.test(line)) {
+      blocks.push({ type: 'divider' });
+      i++;
+      continue;
+    }
+
+    const h = line.match(HEADING_RE);
+    if (h) {
+      const hashes = h[1].length;
+      const level = (hashes <= 1 ? 1 : hashes === 2 ? 2 : 3) as 1 | 2 | 3;
+      blocks.push({ type: 'heading', level, text: h[2].trim() });
+      i++;
+      continue;
+    }
+
+    if (
+      TABLE_ROW_RE.test(line) &&
+      i + 1 < lines.length &&
+      TABLE_SEP_RE.test(lines[i + 1]) &&
+      lines[i + 1].includes('-')
+    ) {
+      const header = splitTableRow(line);
+      i += 2;
+      const rows: string[][] = [];
+      while (i < lines.length && TABLE_ROW_RE.test(lines[i])) {
+        rows.push(splitTableRow(lines[i]));
+        i++;
+      }
+      blocks.push({ type: 'table', header, rows });
+      continue;
+    }
+
+    if (BLOCKQUOTE_RE.test(line)) {
+      const qlines: string[] = [];
+      while (i < lines.length && BLOCKQUOTE_RE.test(lines[i])) {
+        qlines.push(lines[i].match(BLOCKQUOTE_RE)![1]);
+        i++;
+      }
+      blocks.push({ type: 'blockquote', lines: qlines });
+      continue;
+    }
+
+    if (UL_RE.test(line)) {
+      const items: string[] = [];
+      while (i < lines.length && UL_RE.test(lines[i])) {
+        items.push(lines[i].match(UL_RE)![1]);
+        i++;
+      }
+      blocks.push({ type: 'ul', items });
+      continue;
+    }
+
+    if (OL_RE.test(line)) {
+      const items: string[] = [];
+      while (i < lines.length && OL_RE.test(lines[i])) {
+        items.push(lines[i].match(OL_RE)![1]);
+        i++;
+      }
+      blocks.push({ type: 'ol', items });
+      continue;
+    }
+
+    const paraLines: string[] = [];
+    while (
+      i < lines.length &&
+      lines[i].trim() !== '' &&
+      !DIVIDER_RE.test(lines[i]) &&
+      !HEADING_RE.test(lines[i]) &&
+      !BLOCKQUOTE_RE.test(lines[i]) &&
+      !UL_RE.test(lines[i]) &&
+      !OL_RE.test(lines[i]) &&
+      !TABLE_ROW_RE.test(lines[i])
+    ) {
+      paraLines.push(lines[i]);
+      i++;
+    }
+    if (paraLines.length > 0) {
+      blocks.push({ type: 'paragraph', text: paraLines.join(' ') });
+    } else {
+      blocks.push({ type: 'paragraph', text: lines[i] });
+      i++;
+    }
+  }
+
+  return blocks;
+}
+
 function FormattedAnswer({
   content,
   streaming,
@@ -626,12 +776,82 @@ function FormattedAnswer({
   content: string;
   streaming: boolean;
 }) {
-  const paragraphs = content.split(/\n\n+/);
+  const blocks = parseBlocks(content);
+
   return (
     <>
-      {paragraphs.map((para, i) => (
-        <p key={i}>{renderInline(para)}</p>
-      ))}
+      {blocks.map((block, i) => {
+        switch (block.type) {
+          case 'heading': {
+            const cls =
+              block.level === 1
+                ? 'bb-md-h1'
+                : block.level === 2
+                  ? 'bb-md-h2'
+                  : 'bb-md-h3';
+            const Tag = (
+              block.level === 1 ? 'h3' : block.level === 2 ? 'h4' : 'h5'
+            ) as 'h3' | 'h4' | 'h5';
+            return (
+              <Tag key={i} className={cls}>
+                {renderInline(block.text)}
+              </Tag>
+            );
+          }
+          case 'divider':
+            return <hr key={i} className="bb-md-divider" />;
+          case 'blockquote':
+            return (
+              <blockquote key={i} className="bb-md-quote">
+                {block.lines.map((l, j) => (
+                  <p key={j}>{renderInline(l)}</p>
+                ))}
+              </blockquote>
+            );
+          case 'ul':
+            return (
+              <ul key={i} className="bb-md-ul">
+                {block.items.map((it, j) => (
+                  <li key={j}>{renderInline(it)}</li>
+                ))}
+              </ul>
+            );
+          case 'ol':
+            return (
+              <ol key={i} className="bb-md-ol">
+                {block.items.map((it, j) => (
+                  <li key={j}>{renderInline(it)}</li>
+                ))}
+              </ol>
+            );
+          case 'table':
+            return (
+              <div key={i} className="bb-md-table-wrap">
+                <table className="bb-md-table">
+                  <thead>
+                    <tr>
+                      {block.header.map((c, j) => (
+                        <th key={j}>{renderInline(c)}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {block.rows.map((row, r) => (
+                      <tr key={r}>
+                        {row.map((c, j) => (
+                          <td key={j}>{renderInline(c)}</td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            );
+          case 'paragraph':
+          default:
+            return <p key={i}>{renderInline(block.text)}</p>;
+        }
+      })}
       {streaming && <span className="bb-chat-cursor" aria-hidden />}
     </>
   );
@@ -669,27 +889,8 @@ function renderInline(text: string): React.ReactNode[] {
 }
 
 // =============================================================================
-// CITATION PANEL — Chunk 8: handles caselaw, legislation, AND file citations
+// CITATION PANEL — handles caselaw, legislation, AND file citations
 // =============================================================================
-//
-// StoredCitation is a three-variant discriminated union:
-//   - kind: 'caselaw' (or undefined for pre-Chunk-7 rows) — judgmentId,
-//     caseName, paragraphNumber, paragraphText, similarity, citation
-//   - kind: 'legislation' — legislationId, sectionId, citation,
-//     breadcrumb, heading, text, similarity
-//   - kind: 'file' — fileId, filename, page, quote
-//
-// We narrow on `kind` for each citation before accessing kind-specific
-// fields. Caselaw citations render inside the existing <Link> shape (link
-// to /cases/...). Legislation citations render as a non-link card (no
-// deep-link target yet — flagged for a future pass, possibly to a
-// /legislation/[id]/section/[sectionId] route or to the official source
-// at legislation.gov.au). File citations render as a smaller item without
-// a link (no per-file-page route yet).
-//
-// Helper: isCaselawCitation. We treat missing `kind` as caselaw for
-// backwards compatibility — pre-Chunk-7 rows in the DB don't have a
-// kind field but ARE caselaw shape.
 
 function isCaselawCitation(c: Citation): c is CaselawCitation {
   return c.kind === undefined || c.kind === 'caselaw';
@@ -704,9 +905,6 @@ function isFileCitation(c: Citation): c is FileCitation {
 }
 
 function CitationsPanel({ citations }: { citations: Citation[] }) {
-  // Split into the three kinds so we can present them in distinct sections.
-  // Caselaw is the established pattern. Legislation is new in Chunk 8.
-  // File citations were new in Chunk 7.
   const caselawCitations = citations.filter(isCaselawCitation);
   const legislationCitations = citations.filter(isLegislationCitation);
   const fileCitations = citations.filter(isFileCitation);
@@ -717,8 +915,6 @@ function CitationsPanel({ citations }: { citations: Citation[] }) {
     fileCitations.length;
   if (total === 0) return null;
 
-  // Build the summary breakdown text. Only show breakdown if there's a
-  // mix of kinds — single-kind sets don't need the parenthetical.
   const kindsPresent = [
     caselawCitations.length > 0,
     legislationCitations.length > 0,
@@ -790,10 +986,6 @@ function CaselawCitationRow({ c }: { c: CaselawCitation }) {
 }
 
 function LegislationCitationRow({ c }: { c: LegislationCitation }) {
-  // No deep-link target yet — render as a div, not a Link. Future passes
-  // could route to /legislation/[id]/section/[sectionId] or to the
-  // official version on legislation.gov.au. The sectionId is
-  // captured in the citation so future-us can wire the link in.
   return (
     <li>
       <div className="bb-citations-link bb-citations-link--legislation">
@@ -805,9 +997,7 @@ function LegislationCitationRow({ c }: { c: LegislationCitation }) {
             {(c.similarity * 100).toFixed(0)}%
           </span>
         </div>
-        {c.heading && (
-          <p className="bb-citations-heading">{c.heading}</p>
-        )}
+        {c.heading && <p className="bb-citations-heading">{c.heading}</p>}
         <p className="bb-citations-breadcrumb">{c.breadcrumb}</p>
         {c.text.length > 0 && (
           <p className="bb-citations-snippet">{c.text}</p>
@@ -818,8 +1008,6 @@ function LegislationCitationRow({ c }: { c: LegislationCitation }) {
 }
 
 function FileCitationRow({ c }: { c: FileCitation }) {
-  // No per-file-page route yet — render as a plain div, not a Link.
-  // Future: a /files/[id]?page=N route would make these clickable.
   return (
     <li>
       <div className="bb-citations-link bb-citations-link--file">
