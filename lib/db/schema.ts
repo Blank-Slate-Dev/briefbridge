@@ -443,7 +443,14 @@ export const files = pgTable(
   {
     id: uuid('id').primaryKey().defaultRandom(),
     userId: uuid('user_id').notNull(),
-    matterId: uuid('matter_id').notNull(),
+    // matterId is now NULLABLE (migration 0009): a file belongs to EITHER a
+    // matter (matterId set, conversationId null) OR a conversation
+    // (conversationId set, matterId null). The "exactly one of" invariant is
+    // enforced in the application layer, not a DB CHECK — see 0009 migration.
+    matterId: uuid('matter_id'),
+    // conversationId (migration 0009): set for standalone-chat file
+    // attachments, which have no matter. Null for matter files.
+    conversationId: uuid('conversation_id'),
     filename: text('filename').notNull(),
     storagePath: text('storage_path').notNull(),
     mimeType: text('mime_type').notNull(),
@@ -475,6 +482,11 @@ export const files = pgTable(
     userIdMatterIdIdx: index('files_user_id_matter_id_idx').on(
       t.userId,
       t.matterId,
+    ),
+    // Migration 0009: standalone-chat file-listing hot path.
+    userIdConversationIdIdx: index('files_user_id_conversation_id_idx').on(
+      t.userId,
+      t.conversationId,
     ),
     // Chunk 7: partial index for the AI-readable hot path.
     // Documented in 0006_chunk7.sql.
