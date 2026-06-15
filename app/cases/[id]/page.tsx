@@ -13,6 +13,15 @@
 // The `:target` style highlights the cited paragraph with a soft gold
 // background — gives the lawyer immediate visual confirmation that they
 // landed on the right paragraph.
+//
+// PARTIES/REPRESENTATION DATA-SHAPE FIX: the stored `parties` (and
+// `representation`) value is inconsistent across cases. Most are an object
+// { role: string[] | string }, but some cases store a bare STRING. Calling
+// Object.entries() / Object.keys() on a string enumerates its CHARACTERS
+// ("0"->"N", "1"->"a", …), which rendered the parties one character per line.
+// PartiesBlock and RepresentationBlock now handle string / array / object
+// shapes explicitly, and the sidebar visibility guards no longer treat a
+// bare string as a populated object.
 
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -55,6 +64,10 @@ interface Representation {
   [key: string]: string[] | string | undefined;
 }
 
+// The stored shapes we actually see in the DB for parties/representation.
+type PartiesValue = PartyBlock | string | string[] | null;
+type RepresentationValue = Representation | string | string[] | null;
+
 export default async function CasePage({
   params,
 }: {
@@ -71,8 +84,8 @@ export default async function CasePage({
   const casesCited = (judgment.casesCited as CitedCase[] | null) ?? [];
   const legislationCited =
     (judgment.legislationCited as CitedLegislation[] | null) ?? [];
-  const parties = judgment.parties as PartyBlock | null;
-  const representation = judgment.representation as Representation | null;
+  const parties = judgment.parties as PartiesValue;
+  const representation = judgment.representation as RepresentationValue;
 
   // Group paragraphs into sections by their heading.
   const sections: { heading?: string; paragraphs: Paragraph[] }[] = [];
@@ -257,14 +270,14 @@ export default async function CasePage({
             </dl>
           </div>
 
-          {parties && Object.keys(parties).length > 0 && (
+          {hasPartiesContent(parties) && (
             <div className="bb-case-sidebar-card">
               <h3 className="bb-case-sidebar-heading">Parties</h3>
               <PartiesBlock parties={parties} />
             </div>
           )}
 
-          {representation && Object.keys(representation).length > 0 && (
+          {hasPartiesContent(representation) && (
             <div className="bb-case-sidebar-card">
               <h3 className="bb-case-sidebar-heading">Representation</h3>
               <RepresentationBlock representation={representation} />
@@ -313,9 +326,60 @@ function Field({
   );
 }
 
-function PartiesBlock({ parties }: { parties: PartyBlock }) {
+// Shared visibility guard for parties/representation. Critically, it does NOT
+// use Object.keys() on a bare string (which would count characters and render
+// a non-empty card full of one-char-per-line junk).
+function hasPartiesContent(
+  value: PartiesValue | RepresentationValue,
+): boolean {
+  if (!value) return false;
+  if (typeof value === 'string') return value.trim() !== '';
+  if (Array.isArray(value)) {
+    return value.some((v) => typeof v === 'string' && v.trim() !== '');
+  }
+  // Object: at least one role with a non-empty value.
+  return Object.entries(value).some(
+    ([, v]) => v && (Array.isArray(v) ? v.length > 0 : String(v).trim() !== ''),
+  );
+}
+
+function PartiesBlock({ parties }: { parties: PartiesValue }) {
+  if (!parties) return null;
+
+  // String shape: render as a single line (NOT Object.entries — that splits
+  // the string into characters).
+  if (typeof parties === 'string') {
+    const text = parties.trim();
+    if (text === '') return null;
+    return (
+      <dl className="bb-case-mini-dl">
+        <div>
+          <dd>{text}</dd>
+        </div>
+      </dl>
+    );
+  }
+
+  // Array shape: one line per entry.
+  if (Array.isArray(parties)) {
+    const items = parties.filter(
+      (p) => typeof p === 'string' && p.trim() !== '',
+    );
+    if (items.length === 0) return null;
+    return (
+      <dl className="bb-case-mini-dl">
+        {items.map((p, i) => (
+          <div key={i}>
+            <dd>{p}</dd>
+          </div>
+        ))}
+      </dl>
+    );
+  }
+
+  // Object shape (the expected one): role -> value.
   const entries = Object.entries(parties).filter(
-    ([, v]) => v && (Array.isArray(v) ? v.length > 0 : v.trim() !== ''),
+    ([, v]) => v && (Array.isArray(v) ? v.length > 0 : String(v).trim() !== ''),
   );
   if (entries.length === 0) return null;
 
@@ -334,8 +398,41 @@ function PartiesBlock({ parties }: { parties: PartyBlock }) {
 function RepresentationBlock({
   representation,
 }: {
-  representation: Representation;
+  representation: RepresentationValue;
 }) {
+  if (!representation) return null;
+
+  // String shape: single line.
+  if (typeof representation === 'string') {
+    const text = representation.trim();
+    if (text === '') return null;
+    return (
+      <dl className="bb-case-mini-dl">
+        <div>
+          <dd>{text}</dd>
+        </div>
+      </dl>
+    );
+  }
+
+  // Array shape: one line per entry.
+  if (Array.isArray(representation)) {
+    const items = representation.filter(
+      (p) => typeof p === 'string' && p.trim() !== '',
+    );
+    if (items.length === 0) return null;
+    return (
+      <dl className="bb-case-mini-dl">
+        {items.map((p, i) => (
+          <div key={i}>
+            <dd>{p}</dd>
+          </div>
+        ))}
+      </dl>
+    );
+  }
+
+  // Object shape: role -> value.
   const entries = Object.entries(representation).filter(
     ([, v]) =>
       v &&
