@@ -5,7 +5,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
-export function StickyHeader() {
+// Auth state is resolved on the SERVER (in app/page.tsx via getUser) and
+// passed down as a prop, because this is a Client Component (it needs the
+// scroll listener) and can't call getUser() itself. When isLoggedIn is true
+// we show a single "Go to app" link to /matters; otherwise the "Sign in" CTA.
+export function StickyHeader({ isLoggedIn = false }: { isLoggedIn?: boolean }) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -31,21 +35,21 @@ export function StickyHeader() {
         <div className="bb-nav-links">
           <Link href="#how">How it works</Link>
           <Link href="#coverage">Coverage</Link>
-          <Link href="#">Pricing</Link>
-          <Link href="#">FAQ</Link>
+          <Link href="/cases">Cases</Link>
         </div>
         <div className="bb-nav-cta">
-          {/* Sign in routes straight to /login (signed-in users get
-              redirected away by the middleware automatically). */}
-          <Link href="/login" className="bb-btn bb-btn-ghost">
-            Sign in
-          </Link>
-          {/* "Join waitlist" stays as a hash anchor for the in-page waitlist
-              section. When we ship a real waitlist or open up signup, we
-              can swap this to /login?mode=signup. */}
-          <Link href="#waitlist" className="bb-btn bb-btn-primary">
-            Join waitlist
-          </Link>
+          {isLoggedIn ? (
+            // Signed in: one clear action — into the app.
+            <Link href="/matters" className="bb-btn bb-btn-primary">
+              Go to app →
+            </Link>
+          ) : (
+            // Signed out: route to /login (signed-in users get redirected
+            // away by the proxy automatically).
+            <Link href="/login" className="bb-btn bb-btn-primary">
+              Sign in →
+            </Link>
+          )}
         </div>
       </nav>
     </header>

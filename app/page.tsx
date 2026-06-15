@@ -3,11 +3,24 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { StickyHeader } from './_components/sticky-header';
 import { HeroPreview } from './_components/hero-preview';
+import { createClient } from '@/lib/supabase/server';
 
-export default function HomePage() {
+// The homepage is public, but it reads auth state so the header can show
+// "Go to app" to signed-in users instead of "Sign in". getUser() validates
+// the session against Supabase (not just the cookie), so it's the safe check.
+// force-dynamic because the header now depends on per-request auth state.
+export const dynamic = 'force-dynamic';
+
+export default async function HomePage() {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  const isLoggedIn = !!user;
+
   return (
     <>
-      <StickyHeader />
+      <StickyHeader isLoggedIn={isLoggedIn} />
 
       {/* === HERO === */}
       <section className="bb-hero">
@@ -22,9 +35,15 @@ export default function HomePage() {
           answer is grounded in the source, paragraph by paragraph.
         </p>
         <div className="bb-hero-cta">
-          <Link href="#waitlist" className="bb-btn bb-btn-primary bb-btn-large">
-            Join the waitlist →
-          </Link>
+          {isLoggedIn ? (
+            <Link href="/matters" className="bb-btn bb-btn-primary bb-btn-large">
+              Go to app →
+            </Link>
+          ) : (
+            <Link href="/login" className="bb-btn bb-btn-primary bb-btn-large">
+              Sign in →
+            </Link>
+          )}
           <Link href="#how" className="bb-btn bb-btn-ghost bb-btn-large">
             See how it works
           </Link>
@@ -184,23 +203,38 @@ export default function HomePage() {
       </section>
 
       {/* === CTA === */}
-      <section className="bb-cta-strip" id="waitlist">
+      <section className="bb-cta-strip" id="get-started">
         <div className="bb-cta-strip-inner">
           <h2>
             Join the lawyers <em>building the future</em> of Australian legal
             research.
           </h2>
           <p>
-            We&apos;re letting in a small group of early users to shape the
-            product before public launch. Reserve your spot.
+            BriefBridge is live and growing court by court. Sign in to start
+            researching, or get in touch to shape what we build next.
           </p>
           <div className="bb-hero-cta">
-            <Link href="#" className="bb-btn bb-btn-primary bb-btn-large">
-              Join the waitlist →
-            </Link>
-            <Link href="#" className="bb-btn bb-btn-ghost bb-btn-large">
+            {isLoggedIn ? (
+              <Link
+                href="/matters"
+                className="bb-btn bb-btn-primary bb-btn-large"
+              >
+                Go to app →
+              </Link>
+            ) : (
+              <Link
+                href="/login"
+                className="bb-btn bb-btn-primary bb-btn-large"
+              >
+                Sign in →
+              </Link>
+            )}
+            <a
+              href="mailto:osr9915@gmail.com"
+              className="bb-btn bb-btn-ghost bb-btn-large"
+            >
               Talk to us
-            </Link>
+            </a>
           </div>
         </div>
       </section>
@@ -228,16 +262,13 @@ export default function HomePage() {
             <ul>
               <li><Link href="#how">How it works</Link></li>
               <li><Link href="#coverage">Coverage</Link></li>
-              <li><Link href="#">Pricing</Link></li>
-              <li><Link href="#">Changelog</Link></li>
+              <li><Link href="/cases">Cases</Link></li>
             </ul>
           </div>
           <div className="bb-footer-col">
             <h4>Company</h4>
             <ul>
-              <li><Link href="#">About</Link></li>
-              <li><Link href="#">Contact</Link></li>
-              <li><Link href="#">Careers</Link></li>
+              <li><a href="mailto:osr9915@gmail.com">Contact</a></li>
             </ul>
           </div>
           <div className="bb-footer-col">
