@@ -255,6 +255,7 @@ export const matters = pgTable(
   'matters',
   {
     id: uuid('id').primaryKey().defaultRandom(),
+    firmId: uuid('firm_id'),
     userId: uuid('user_id').notNull(),
     name: text('name').notNull(),
     client: text('client'),
@@ -276,11 +277,50 @@ export const matters = pgTable(
       t.userId,
       t.archivedAt,
     ),
+    firmIdIdx: index('matters_firm_id_idx').on(t.firmId),
   }),
 );
 
 export type Matter = typeof matters.$inferSelect;
 export type NewMatter = typeof matters.$inferInsert;
+
+// =============================================================================
+// === FIRMS + MEMBERSHIPS (firm collaboration) ================================
+// =============================================================================
+
+export type FirmRole = 'owner' | 'admin' | 'lawyer' | 'paralegal';
+export type FirmPlan = 'trial' | 'active' | 'past_due' | 'cancelled';
+
+export const firms = pgTable('firms', {
+  id: uuid('id').primaryKey().defaultRandom(),
+  name: text('name').notNull(),
+  plan: text('plan').$type<FirmPlan>().notNull().default('trial'),
+  seats: integer('seats').notNull().default(1),
+  emailDomain: text('email_domain'),
+  createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
+});
+
+export type Firm = typeof firms.$inferSelect;
+export type NewFirm = typeof firms.$inferInsert;
+
+export const firmMemberships = pgTable(
+  'firm_memberships',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    firmId: uuid('firm_id').notNull(),
+    userId: uuid('user_id').notNull(),
+    role: text('role').$type<FirmRole>().notNull(),
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => ({
+    firmIdIdx: index('firm_memberships_firm_id_idx').on(t.firmId),
+    userIdUnique: uniqueIndex('firm_memberships_user_id_unique').on(t.userId),
+  }),
+);
+
+export type FirmMembership = typeof firmMemberships.$inferSelect;
+export type NewFirmMembership = typeof firmMemberships.$inferInsert;
 
 export const conversations = pgTable(
   'conversations',
