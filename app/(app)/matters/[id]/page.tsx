@@ -24,6 +24,7 @@
 import { notFound, redirect } from 'next/navigation';
 import { createClient } from '@/lib/supabase/server';
 import { getMatter } from '@/lib/db/queries/matters';
+import { userCanAccessMatter } from '@/lib/db/queries/access';
 import {
   listConversations,
   getConversationWithMessages,
@@ -61,6 +62,15 @@ export default async function MatterDetailPage({
   const matter = await getMatter(user.id, matterId);
   if (!matter) {
     notFound();
+  }
+
+  // SLICE 2: gate INSIDE-access on assignment. A firm member can see a
+  // matter's card in the directory, but only assigned members can open it.
+  // You're assigned to all your own matters (backfilled), so this passes for
+  // existing matters; a non-assigned firm member gets bounced to the list.
+  const canAccess = await userCanAccessMatter(user.id, matterId);
+  if (!canAccess) {
+    redirect('/matters');
   }
 
   // Parallel fetches for everything else this page needs:

@@ -322,6 +322,32 @@ export const firmMemberships = pgTable(
 export type FirmMembership = typeof firmMemberships.$inferSelect;
 export type NewFirmMembership = typeof firmMemberships.$inferInsert;
 
+// =============================================================================
+// === MATTER ASSIGNMENTS (who can go INSIDE a matter) =========================
+// =============================================================================
+//
+// A matter belongs to a firm; every firm member can see its CARD. But only
+// users with a row here can go INSIDE (files, AI research, case chat, edit).
+// Composite PK (matterId, userId) — a user is assigned at most once per matter.
+
+export const matterAssignments = pgTable(
+  'matter_assignments',
+  {
+    matterId: uuid('matter_id').notNull(),
+    userId: uuid('user_id').notNull(),
+    assignedBy: uuid('assigned_by'),
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => ({
+    pk: primaryKey({ columns: [t.matterId, t.userId] }),
+    userIdIdx: index('matter_assignments_user_id_idx').on(t.userId),
+    matterIdIdx: index('matter_assignments_matter_id_idx').on(t.matterId),
+  }),
+);
+
+export type MatterAssignment = typeof matterAssignments.$inferSelect;
+export type NewMatterAssignment = typeof matterAssignments.$inferInsert;
+
 export const conversations = pgTable(
   'conversations',
   {
