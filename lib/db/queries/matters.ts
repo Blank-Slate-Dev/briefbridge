@@ -15,6 +15,7 @@
 
 import { and, desc, eq, isNull } from 'drizzle-orm';
 import { db } from '@/lib/db';
+import { withUser } from '@/lib/db/with-user';
 import {
   matters,
   type Matter,
@@ -76,11 +77,18 @@ export async function getMatter(
   userId: string,
   matterId: string,
 ): Promise<Matter | null> {
-  const rows = await db
-    .select()
-    .from(matters)
-    .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
-    .limit(1);
+  // STEP 4 (RLS Path A): run inside withUser so app.user_id is set for the
+  // query's transaction. Today (bypass connection) this is behaviourally
+  // identical to a bare db query; after the connection cutover, RLS enforces
+  // the same access this function's where-clause already enforces.
+  // Note: use `tx` inside the callback, NOT `db`.
+  const rows = await withUser(userId, (tx) =>
+    tx
+      .select()
+      .from(matters)
+      .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
+      .limit(1),
+  );
 
   return rows[0] ?? null;
 }
