@@ -53,11 +53,13 @@ export async function listMattersForUser(
     conditions.push(isNull(matters.archivedAt));
   }
 
-  return db
-    .select()
-    .from(matters)
-    .where(and(...conditions))
-    .orderBy(desc(matters.updatedAt));
+  return withUser(userId, (tx) =>
+    tx
+      .select()
+      .from(matters)
+      .where(and(...conditions))
+      .orderBy(desc(matters.updatedAt)),
+  );
 }
 
 // =============================================================================
@@ -131,7 +133,9 @@ export async function createMatter(
     notes: input.notes ?? null,
   };
 
-  const [inserted] = await db.insert(matters).values(values).returning();
+  const [inserted] = await withUser(userId, (tx) =>
+    tx.insert(matters).values(values).returning(),
+  );
   return inserted;
 }
 
@@ -156,11 +160,13 @@ export async function updateMatterStatus(
   matterId: string,
   status: MatterStatus,
 ): Promise<Matter | null> {
-  const [updated] = await db
-    .update(matters)
-    .set({ status, updatedAt: new Date() })
-    .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
-    .returning();
+  const [updated] = await withUser(userId, (tx) =>
+    tx
+      .update(matters)
+      .set({ status, updatedAt: new Date() })
+      .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
+      .returning(),
+  );
 
   return updated ?? null;
 }
@@ -250,11 +256,13 @@ export async function updateMatterDetails(
 
   updates.updatedAt = new Date();
 
-  const [updated] = await db
-    .update(matters)
-    .set(updates)
-    .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
-    .returning();
+  const [updated] = await withUser(userId, (tx) =>
+    tx
+      .update(matters)
+      .set(updates)
+      .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
+      .returning(),
+  );
 
   return updated ?? null;
 }
@@ -280,11 +288,13 @@ export async function archiveMatter(
   userId: string,
   matterId: string,
 ): Promise<Matter | null> {
-  const [updated] = await db
-    .update(matters)
-    .set({ archivedAt: new Date(), updatedAt: new Date() })
-    .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
-    .returning();
+  const [updated] = await withUser(userId, (tx) =>
+    tx
+      .update(matters)
+      .set({ archivedAt: new Date(), updatedAt: new Date() })
+      .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
+      .returning(),
+  );
 
   return updated ?? null;
 }
@@ -298,11 +308,13 @@ export async function restoreMatter(
   userId: string,
   matterId: string,
 ): Promise<Matter | null> {
-  const [updated] = await db
-    .update(matters)
-    .set({ archivedAt: null, updatedAt: new Date() })
-    .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
-    .returning();
+  const [updated] = await withUser(userId, (tx) =>
+    tx
+      .update(matters)
+      .set({ archivedAt: null, updatedAt: new Date() })
+      .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
+      .returning(),
+  );
 
   return updated ?? null;
 }
