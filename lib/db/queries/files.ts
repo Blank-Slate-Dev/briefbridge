@@ -28,6 +28,7 @@
 
 import { and, eq, inArray, isNull, isNotNull, sql, desc } from 'drizzle-orm';
 import { db } from '@/lib/db';
+import { withUser } from '@/lib/db/with-user';
 import {
   files,
   fileTags,
@@ -173,23 +174,31 @@ export async function listFiles(
     conditions.push(isNull(files.deletedAt));
   }
 
-  // Fetch file rows first (single query, indexed).
-  const fileRows = await db
-    .select()
-    .from(files)
-    .where(and(...conditions))
-    .orderBy(desc(files.createdAt))
-    .limit(limit);
+  // Both reads (files + their tags) run in one withUser transaction so they
+  // share identity context after cutover.
+  const { fileRows, tagRows } = await withUser(userId, async (tx) => {
+    const fileRows = await tx
+      .select()
+      .from(files)
+      .where(and(...conditions))
+      .orderBy(desc(files.createdAt))
+      .limit(limit);
+
+    if (fileRows.length === 0) {
+      return { fileRows, tagRows: [] as (typeof fileTags.$inferSelect)[] };
+    }
+
+    const fileIds = fileRows.map((r) => r.id);
+    const tagRows = await tx
+      .select()
+      .from(fileTags)
+      .where(inArray(fileTags.fileId, fileIds))
+      .orderBy(fileTags.createdAt);
+
+    return { fileRows, tagRows };
+  });
 
   if (fileRows.length === 0) return [];
-
-  // Bulk-fetch tags for the result set in one query (no N+1).
-  const fileIds = fileRows.map((r) => r.id);
-  const tagRows = await db
-    .select()
-    .from(fileTags)
-    .where(inArray(fileTags.fileId, fileIds))
-    .orderBy(fileTags.createdAt);
 
   // Group tags by fileId.
   const tagsByFileId = new Map<string, string[]>();
@@ -214,22 +223,24 @@ export async function getFile(
   userId: string,
   fileId: string,
 ): Promise<FileWithTags | null> {
-  const rows = await db
-    .select()
-    .from(files)
-    .where(and(eq(files.id, fileId), eq(files.userId, userId)))
-    .limit(1);
+  return withUser(userId, async (tx) => {
+    const rows = await tx
+      .select()
+      .from(files)
+      .where(and(eq(files.id, fileId), eq(files.userId, userId)))
+      .limit(1);
 
-  const file = rows[0];
-  if (!file) return null;
+    const file = rows[0];
+    if (!file) return null;
 
-  const tagRows = await db
-    .select()
-    .from(fileTags)
-    .where(eq(fileTags.fileId, file.id))
-    .orderBy(fileTags.createdAt);
+    const tagRows = await tx
+      .select()
+      .from(fileTags)
+      .where(eq(fileTags.fileId, file.id))
+      .orderBy(fileTags.createdAt);
 
-  return { ...file, tags: tagRows.map((t) => t.tagLabel) };
+    return { ...file, tags: tagRows.map((t) => t.tagLabel) };
+  });
 }
 
 /**
@@ -243,16 +254,18 @@ export async function getCurrentMatterUsage(
   userId: string,
   matterId: string,
 ): Promise<number> {
-  const rows = await db
-    .select({ total: sql<number>`coalesce(sum(${files.fileSize}), 0)::bigint` })
-    .from(files)
-    .where(
-      and(
-        eq(files.userId, userId),
-        eq(files.matterId, matterId),
-        isNull(files.deletedAt),
+  const rows = await withUser(userId, (tx) =>
+    tx
+      .select({ total: sql<number>`coalesce(sum(${files.fileSize}), 0)::bigint` })
+      .from(files)
+      .where(
+        and(
+          eq(files.userId, userId),
+          eq(files.matterId, matterId),
+          isNull(files.deletedAt),
+        ),
       ),
-    );
+  );
 
   // sql<number> with ::bigint can return a string in postgres-js; coerce.
   const total = rows[0]?.total;
@@ -272,17 +285,19 @@ export async function listUserTagHistory(
   userId: string,
   limit = 30,
 ): Promise<string[]> {
-  const rows = await db
-    .select({
-      tagLabel: fileTags.tagLabel,
-      uses: sql<number>`count(*)::int`,
-    })
-    .from(fileTags)
-    .innerJoin(files, eq(fileTags.fileId, files.id))
-    .where(eq(files.userId, userId))
-    .groupBy(fileTags.tagLabel)
-    .orderBy(sql`count(*) desc`)
-    .limit(limit);
+  const rows = await withUser(userId, (tx) =>
+    tx
+      .select({
+        tagLabel: fileTags.tagLabel,
+        uses: sql<number>`count(*)::int`,
+      })
+      .from(fileTags)
+      .innerJoin(files, eq(fileTags.fileId, files.id))
+      .where(eq(files.userId, userId))
+      .groupBy(fileTags.tagLabel)
+      .orderBy(sql`count(*) desc`)
+      .limit(limit),
+  );
 
   return rows.map((r) => r.tagLabel);
 }
@@ -620,16 +635,18 @@ export async function getCurrentConversationUsage(
   userId: string,
   conversationId: string,
 ): Promise<number> {
-  const rows = await db
-    .select({ total: sql<number>`coalesce(sum(${files.fileSize}), 0)::bigint` })
-    .from(files)
-    .where(
-      and(
-        eq(files.userId, userId),
-        eq(files.conversationId, conversationId),
-        isNull(files.deletedAt),
+  const rows = await withUser(userId, (tx) =>
+    tx
+      .select({ total: sql<number>`coalesce(sum(${files.fileSize}), 0)::bigint` })
+      .from(files)
+      .where(
+        and(
+          eq(files.userId, userId),
+          eq(files.conversationId, conversationId),
+          isNull(files.deletedAt),
+        ),
       ),
-    );
+  );
 
   const total = rows[0]?.total;
   if (typeof total === 'string') return parseInt(total, 10);
@@ -655,27 +672,35 @@ export async function listConversationFiles(
   userId: string,
   conversationId: string,
 ): Promise<FileWithTags[]> {
-  const fileRows = await db
-    .select()
-    .from(files)
-    .where(
-      and(
-        eq(files.userId, userId),
-        eq(files.conversationId, conversationId),
-        isNull(files.deletedAt),
-      ),
-    )
-    .orderBy(desc(files.createdAt))
-    .limit(500);
+  const { fileRows, tagRows } = await withUser(userId, async (tx) => {
+    const fileRows = await tx
+      .select()
+      .from(files)
+      .where(
+        and(
+          eq(files.userId, userId),
+          eq(files.conversationId, conversationId),
+          isNull(files.deletedAt),
+        ),
+      )
+      .orderBy(desc(files.createdAt))
+      .limit(500);
+
+    if (fileRows.length === 0) {
+      return { fileRows, tagRows: [] as (typeof fileTags.$inferSelect)[] };
+    }
+
+    const fileIds = fileRows.map((r) => r.id);
+    const tagRows = await tx
+      .select()
+      .from(fileTags)
+      .where(inArray(fileTags.fileId, fileIds))
+      .orderBy(fileTags.createdAt);
+
+    return { fileRows, tagRows };
+  });
 
   if (fileRows.length === 0) return [];
-
-  const fileIds = fileRows.map((r) => r.id);
-  const tagRows = await db
-    .select()
-    .from(fileTags)
-    .where(inArray(fileTags.fileId, fileIds))
-    .orderBy(fileTags.createdAt);
 
   const tagsByFileId = new Map<string, string[]>();
   for (const t of tagRows) {

@@ -13,6 +13,7 @@
 
 import { and, asc, desc, eq, isNull } from 'drizzle-orm';
 import { db } from '@/lib/db';
+import { withUser } from '@/lib/db/with-user';
 import {
   conversations,
   messages,
@@ -59,12 +60,14 @@ export async function listConversations(
     conditions.push(eq(conversations.matterId, options.matterId));
   }
 
-  return db
-    .select()
-    .from(conversations)
-    .where(and(...conditions))
-    .orderBy(desc(conversations.updatedAt))
-    .limit(limit);
+  return withUser(userId, (tx) =>
+    tx
+      .select()
+      .from(conversations)
+      .where(and(...conditions))
+      .orderBy(desc(conversations.updatedAt))
+      .limit(limit),
+  );
 }
 
 // =============================================================================
@@ -100,7 +103,9 @@ export async function createConversation(
     title: input.title ?? null,
   };
 
-  const [inserted] = await db.insert(conversations).values(values).returning();
+  const [inserted] = await withUser(userId, (tx) =>
+    tx.insert(conversations).values(values).returning(),
+  );
   return inserted;
 }
 
@@ -131,48 +136,46 @@ export async function appendMessage(
   userId: string,
   input: AppendMessageInput,
 ): Promise<Message> {
-  // Verify conversation ownership first. Using a separate SELECT here is
-  // not the most efficient pattern, but it gives us a clear error path
-  // and keeps the INSERT statement simple.
-  const conversation = await db
-    .select({ id: conversations.id })
-    .from(conversations)
-    .where(
-      and(
-        eq(conversations.id, input.conversationId),
-        eq(conversations.userId, userId),
-      ),
-    )
-    .limit(1);
+  // All three statements (ownership check, insert, updatedAt bump) run in one
+  // withUser transaction: they share the identity context AND become atomic.
+  return withUser(userId, async (tx) => {
+    // Verify conversation ownership first.
+    const conversation = await tx
+      .select({ id: conversations.id })
+      .from(conversations)
+      .where(
+        and(
+          eq(conversations.id, input.conversationId),
+          eq(conversations.userId, userId),
+        ),
+      )
+      .limit(1);
 
-  if (conversation.length === 0) {
-    throw new Error(
-      `appendMessage: conversation ${input.conversationId} not found or not owned by user ${userId}`,
-    );
-  }
+    if (conversation.length === 0) {
+      throw new Error(
+        `appendMessage: conversation ${input.conversationId} not found or not owned by user ${userId}`,
+      );
+    }
 
-  // Insert the message. We're inside an implicit "trust" boundary now —
-  // ownership has been checked.
-  const [inserted] = await db
-    .insert(messages)
-    .values({
-      conversationId: input.conversationId,
-      role: input.role,
-      content: input.content,
-      citations: input.citations ?? null,
-    })
-    .returning();
+    // Insert the message — ownership has been checked.
+    const [inserted] = await tx
+      .insert(messages)
+      .values({
+        conversationId: input.conversationId,
+        role: input.role,
+        content: input.content,
+        citations: input.citations ?? null,
+      })
+      .returning();
 
-  // Bump the conversation's updatedAt. Doing this in a separate statement
-  // keeps the INSERT simple; the two operations don't need to be atomic
-  // (worst case: message inserted but updatedAt didn't bump → conversation
-  // sorts slightly older than it should until next message).
-  await db
-    .update(conversations)
-    .set({ updatedAt: new Date() })
-    .where(eq(conversations.id, input.conversationId));
+    // Bump the conversation's updatedAt.
+    await tx
+      .update(conversations)
+      .set({ updatedAt: new Date() })
+      .where(eq(conversations.id, input.conversationId));
 
-  return inserted;
+    return inserted;
+  });
 }
 
 // =============================================================================
@@ -200,27 +203,29 @@ export async function getConversationWithMessages(
   userId: string,
   conversationId: string,
 ): Promise<ConversationWithMessages | null> {
-  const conversationRows = await db
-    .select()
-    .from(conversations)
-    .where(
-      and(
-        eq(conversations.id, conversationId),
-        eq(conversations.userId, userId),
-      ),
-    )
-    .limit(1);
+  return withUser(userId, async (tx) => {
+    const conversationRows = await tx
+      .select()
+      .from(conversations)
+      .where(
+        and(
+          eq(conversations.id, conversationId),
+          eq(conversations.userId, userId),
+        ),
+      )
+      .limit(1);
 
-  const conversation = conversationRows[0];
-  if (!conversation) return null;
+    const conversation = conversationRows[0];
+    if (!conversation) return null;
 
-  const messageRows = await db
-    .select()
-    .from(messages)
-    .where(eq(messages.conversationId, conversationId))
-    .orderBy(asc(messages.createdAt));
+    const messageRows = await tx
+      .select()
+      .from(messages)
+      .where(eq(messages.conversationId, conversationId))
+      .orderBy(asc(messages.createdAt));
 
-  return { conversation, messages: messageRows };
+    return { conversation, messages: messageRows };
+  });
 }
 
 /**
@@ -231,16 +236,18 @@ export async function getConversation(
   userId: string,
   conversationId: string,
 ): Promise<Conversation | null> {
-  const rows = await db
-    .select()
-    .from(conversations)
-    .where(
-      and(
-        eq(conversations.id, conversationId),
-        eq(conversations.userId, userId),
-      ),
-    )
-    .limit(1);
+  const rows = await withUser(userId, (tx) =>
+    tx
+      .select()
+      .from(conversations)
+      .where(
+        and(
+          eq(conversations.id, conversationId),
+          eq(conversations.userId, userId),
+        ),
+      )
+      .limit(1),
+  );
 
   return rows[0] ?? null;
 }
