@@ -347,7 +347,9 @@ export async function createFile(
     // page_count / ai_readable left to defaults (NULL / true respectively)
   };
 
-  const [inserted] = await db.insert(files).values(values).returning();
+  const [inserted] = await withUser(userId, (tx) =>
+    tx.insert(files).values(values).returning(),
+  );
   return inserted;
 }
 
@@ -367,15 +369,17 @@ export async function setFileReadabilityMeta(
     aiReadableReason: string | null;
   },
 ): Promise<FileRow | null> {
-  const [updated] = await db
-    .update(files)
-    .set({
-      pageCount: meta.pageCount,
-      aiReadable: meta.aiReadable,
-      aiReadableReason: meta.aiReadableReason,
-    })
-    .where(and(eq(files.id, fileId), eq(files.userId, userId)))
-    .returning();
+  const [updated] = await withUser(userId, (tx) =>
+    tx
+      .update(files)
+      .set({
+        pageCount: meta.pageCount,
+        aiReadable: meta.aiReadable,
+        aiReadableReason: meta.aiReadableReason,
+      })
+      .where(and(eq(files.id, fileId), eq(files.userId, userId)))
+      .returning(),
+  );
 
   return updated ?? null;
 }
@@ -394,21 +398,22 @@ export async function softDeleteFile(
   userId: string,
   fileId: string,
 ): Promise<FileRow | null> {
-  const [updated] = await db
-    .update(files)
-    .set({ deletedAt: new Date() })
-    .where(
-      and(
-        eq(files.id, fileId),
-        eq(files.userId, userId),
-        isNull(files.deletedAt), // can't soft-delete an already-deleted row
-      ),
-    )
-    .returning();
+  const [updated] = await withUser(userId, (tx) =>
+    tx
+      .update(files)
+      .set({ deletedAt: new Date() })
+      .where(
+        and(
+          eq(files.id, fileId),
+          eq(files.userId, userId),
+          isNull(files.deletedAt), // can't soft-delete an already-deleted row
+        ),
+      )
+      .returning(),
+  );
 
   return updated ?? null;
 }
-
 /**
  * Un-soft-deletes a file. Sets deleted_at = NULL.
  *
@@ -424,17 +429,19 @@ export async function restoreFile(
   userId: string,
   fileId: string,
 ): Promise<FileRow | null> {
-  const [updated] = await db
-    .update(files)
-    .set({ deletedAt: null })
-    .where(
-      and(
-        eq(files.id, fileId),
-        eq(files.userId, userId),
-        isNotNull(files.deletedAt), // must currently be deleted
-      ),
-    )
-    .returning();
+  const [updated] = await withUser(userId, (tx) =>
+    tx
+      .update(files)
+      .set({ deletedAt: null })
+      .where(
+        and(
+          eq(files.id, fileId),
+          eq(files.userId, userId),
+          isNotNull(files.deletedAt), // must currently be deleted
+        ),
+      )
+      .returning(),
+  );
 
   return updated ?? null;
 }
@@ -454,16 +461,18 @@ export async function hardDeleteFile(
   userId: string,
   fileId: string,
 ): Promise<FileRow | null> {
-  const [deleted] = await db
-    .delete(files)
-    .where(
-      and(
-        eq(files.id, fileId),
-        eq(files.userId, userId),
-        isNotNull(files.deletedAt), // must already be soft-deleted
-      ),
-    )
-    .returning();
+  const [deleted] = await withUser(userId, (tx) =>
+    tx
+      .delete(files)
+      .where(
+        and(
+          eq(files.id, fileId),
+          eq(files.userId, userId),
+          isNotNull(files.deletedAt), // must already be soft-deleted
+        ),
+      )
+      .returning(),
+  );
 
   return deleted ?? null;
 }
@@ -490,17 +499,7 @@ export async function updateFileTags(
   fileId: string,
   tagLabels: string[],
 ): Promise<{ ok: true; tags: string[] } | { ok: false; reason: 'not_found' }> {
-  // Verify ownership.
-  const owned = await db
-    .select({ id: files.id })
-    .from(files)
-    .where(and(eq(files.id, fileId), eq(files.userId, userId)))
-    .limit(1);
-  if (owned.length === 0) {
-    return { ok: false, reason: 'not_found' };
-  }
-
-  // Normalise + dedupe.
+// Normalise + dedupe FIRST (no DB access needed — pure computation).
   const seen = new Set<string>();
   const normalised: Array<{ tag: string; tagLabel: string }> = [];
   for (const label of tagLabels) {
@@ -520,34 +519,43 @@ export async function updateFileTags(
     if (normalised.length >= 10) break;
   }
 
-  // Delete existing tags, then insert new set. We do this in two
-  // statements rather than a transaction because:
-  //   - Worst case if the second statement fails: the file briefly has
-  //     no tags. Annoying but recoverable.
-  //   - Transactions require connection-level state that's awkward with
-  //     the connection-pooled postgres-js driver we're using.
-  await db.delete(fileTags).where(eq(fileTags.fileId, fileId));
+  // All DB work runs in one withUser transaction: ownership check, delete,
+  // insert, and updatedAt bump. (This supersedes the old "two statements,
+  // no transaction" approach — withUser gives us one transaction on one
+  // pooled connection, which the transaction pooler handles fine, and makes
+  // the tag replace atomic as a bonus.)
+  return withUser(userId, async (tx) => {
+    // Verify ownership inside the transaction.
+    const owned = await tx
+      .select({ id: files.id })
+      .from(files)
+      .where(and(eq(files.id, fileId), eq(files.userId, userId)))
+      .limit(1);
+    if (owned.length === 0) {
+      return { ok: false as const, reason: 'not_found' as const };
+    }
 
-  if (normalised.length > 0) {
-    await db.insert(fileTags).values(
-      normalised.map((n) => ({
-        fileId,
-        tag: n.tag,
-        tagLabel: n.tagLabel,
-      })),
-    );
-  }
+    // Replace the tag set: delete existing, insert new.
+    await tx.delete(fileTags).where(eq(fileTags.fileId, fileId));
 
-  // Also bump the file's updated_at so it sorts to the top of the list
-  // after a tag edit. The trigger handles this automatically on any
-  // UPDATE, but we need to actually trigger an update — do a no-op
-  // update on the row.
-  await db
-    .update(files)
-    .set({ updatedAt: new Date() })
-    .where(eq(files.id, fileId));
+    if (normalised.length > 0) {
+      await tx.insert(fileTags).values(
+        normalised.map((n) => ({
+          fileId,
+          tag: n.tag,
+          tagLabel: n.tagLabel,
+        })),
+      );
+    }
 
-  return { ok: true, tags: normalised.map((n) => n.tagLabel) };
+    // Bump the file's updated_at so it sorts to the top after a tag edit.
+    await tx
+      .update(files)
+      .set({ updatedAt: new Date() })
+      .where(eq(files.id, fileId));
+
+    return { ok: true as const, tags: normalised.map((n) => n.tagLabel) };
+  });
 }
 // =============================================================================
 // === MIGRATION 0009 — CONVERSATION-SCOPED FILE QUERIES =======================
@@ -613,7 +621,9 @@ export async function createConversationFile(
     // page_count / ai_readable left to defaults (NULL / true)
   };
 
-  const [inserted] = await db.insert(files).values(values).returning();
+  const [inserted] = await withUser(userId, (tx) =>
+    tx.insert(files).values(values).returning(),
+  );
   return inserted;
 }
 
