@@ -11,9 +11,11 @@
 //      (ai_readable, ai_blocked_by_user, ai_excluded_in_matter) plus the
 //      access mode + committed_at check.
 //
-// Same rule as the rest of queries/: every function takes userId and
-// applies an explicit where(eq(...userId, userId)) clause. Drizzle bypasses
-// RLS.
+// RLS (Slice 3): every function runs its queries through withUser() so that,
+// after the connection cutover to the restricted role, the session-variable
+// RLS policies enforce the same userId scoping at the database level. The
+// explicit where(eq(...userId, userId)) clauses remain as the app-layer first
+// line of defence (belt and braces with RLS).
 //
 // Tests to keep in mind when changing this:
 //   - "Confirming with mode = 'off' should clear committed_at, not set it"
@@ -28,12 +30,11 @@
 //     change.
 
 import { and, eq, inArray, isNull, sql } from 'drizzle-orm';
-import { db } from '@/lib/db';
+import { withUser } from '@/lib/db/with-user';
 import {
   matters,
   files,
   fileTags,
-  type Matter,
   type AiAccessMode,
 } from '@/lib/db/schema';
 import {
@@ -70,54 +71,56 @@ export async function getAiAccessState(
   userId: string,
   matterId: string,
 ): Promise<AiAccessState | null> {
-  // Fetch matter for the mode + committed_at columns.
-  const matterRows = await db
-    .select({
-      id: matters.id,
-      aiAccessMode: matters.aiAccessMode,
-      aiAccessCommittedAt: matters.aiAccessCommittedAt,
-    })
-    .from(matters)
-    .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
-    .limit(1);
+  return withUser(userId, async (tx) => {
+    // Fetch matter for the mode + committed_at columns.
+    const matterRows = await tx
+      .select({
+        id: matters.id,
+        aiAccessMode: matters.aiAccessMode,
+        aiAccessCommittedAt: matters.aiAccessCommittedAt,
+      })
+      .from(matters)
+      .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
+      .limit(1);
 
-  const matter = matterRows[0];
-  if (!matter) return null;
+    const matter = matterRows[0];
+    if (!matter) return null;
 
-  // Fetch excluded file IDs. Only relevant for subset mode but cheap
-  // to fetch always — gives the UI consistent data.
-  const excludedRows = await db
-    .select({ id: files.id })
-    .from(files)
-    .where(
-      and(
-        eq(files.userId, userId),
-        eq(files.matterId, matterId),
-        eq(files.aiExcludedInMatter, true),
-        isNull(files.deletedAt),
-      ),
-    );
+    // Fetch excluded file IDs. Only relevant for subset mode but cheap
+    // to fetch always — gives the UI consistent data.
+    const excludedRows = await tx
+      .select({ id: files.id })
+      .from(files)
+      .where(
+        and(
+          eq(files.userId, userId),
+          eq(files.matterId, matterId),
+          eq(files.aiExcludedInMatter, true),
+          isNull(files.deletedAt),
+        ),
+      );
 
-  const isCommitted = matter.aiAccessCommittedAt !== null;
-  const isActive = isAiAccessActive({
-    aiAccessMode: matter.aiAccessMode,
-    aiAccessCommittedAt: matter.aiAccessCommittedAt,
+    const isCommitted = matter.aiAccessCommittedAt !== null;
+    const isActive = isAiAccessActive({
+      aiAccessMode: matter.aiAccessMode,
+      aiAccessCommittedAt: matter.aiAccessCommittedAt,
+    });
+    const inactiveReason = isActive
+      ? null
+      : whyNotAiAccessActive({
+          aiAccessMode: matter.aiAccessMode,
+          aiAccessCommittedAt: matter.aiAccessCommittedAt,
+        });
+
+    return {
+      matterId: matter.id,
+      mode: matter.aiAccessMode,
+      isCommitted,
+      isActive,
+      inactiveReason,
+      excludedFileIds: excludedRows.map((r) => r.id),
+    };
   });
-  const inactiveReason = isActive
-    ? null
-    : whyNotAiAccessActive({
-        aiAccessMode: matter.aiAccessMode,
-        aiAccessCommittedAt: matter.aiAccessCommittedAt,
-      });
-
-  return {
-    matterId: matter.id,
-    mode: matter.aiAccessMode,
-    isCommitted,
-    isActive,
-    inactiveReason,
-    excludedFileIds: excludedRows.map((r) => r.id),
-  };
 }
 
 // =============================================================================
@@ -125,8 +128,7 @@ export async function getAiAccessState(
 // =============================================================================
 
 /**
- * Updates the AI access mode AND the per-file exclusions atomically (well,
- * in sequence — see transaction note below).
+ * Updates the AI access mode AND the per-file exclusions.
  *
  * Semantics:
  *   - mode = 'off':         All exclusions cleared (cosmetic — they're
@@ -142,14 +144,11 @@ export async function getAiAccessState(
  * lawyer hits Confirm in the UI, mode might be 'all' but committed_at
  * is null — Claude treats that as off.
  *
- * Why we don't wrap in a transaction:
- *   - Drizzle's connection-pooled postgres-js driver makes nested
- *     transactions awkward. Each statement is atomic on its own.
- *   - Worst-case interleaving: a half-applied update leaves some files
- *     with stale exclusion state. The UI re-fetches on every panel open,
- *     so this would self-correct within seconds.
- *   - The alternative (full transaction) is worth it later when we have
- *     time; not blocking for v1.
+ * RLS (Slice 3): all the writes now run in ONE withUser transaction, which
+ * makes the mode-update + exclusion-updates atomic (this supersedes the old
+ * "no transaction, self-corrects on re-fetch" caveat). The final re-fetch
+ * via getAiAccessState runs AFTER this transaction (it opens its own), to
+ * avoid nesting transactions on the pooled connection.
  */
 export async function updateAiAccess(
   userId: string,
@@ -160,85 +159,92 @@ export async function updateAiAccess(
     excludedFileIds?: string[];
   },
 ): Promise<AiAccessState | null> {
-  // Verify ownership first.
-  const owned = await db
-    .select({ id: matters.id })
-    .from(matters)
-    .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
-    .limit(1);
-  if (owned.length === 0) return null;
+  const ok = await withUser(userId, async (tx) => {
+    // Verify ownership first.
+    const owned = await tx
+      .select({ id: matters.id })
+      .from(matters)
+      .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
+      .limit(1);
+    if (owned.length === 0) return false;
 
-  // Step 1: update the matter row.
-  const now = new Date();
-  await db
-    .update(matters)
-    .set({
-      aiAccessMode: input.mode,
-      aiAccessCommittedAt: now,
-      updatedAt: now,
-    })
-    .where(and(eq(matters.id, matterId), eq(matters.userId, userId)));
+    // Step 1: update the matter row.
+    const now = new Date();
+    await tx
+      .update(matters)
+      .set({
+        aiAccessMode: input.mode,
+        aiAccessCommittedAt: now,
+        updatedAt: now,
+      })
+      .where(and(eq(matters.id, matterId), eq(matters.userId, userId)));
 
-  // Step 2: update exclusions.
-  if (input.mode === 'off' || input.mode === 'all') {
-    // Clear all exclusions in this matter.
-    await db
-      .update(files)
-      .set({ aiExcludedInMatter: false })
-      .where(
-        and(
-          eq(files.userId, userId),
-          eq(files.matterId, matterId),
-          eq(files.aiExcludedInMatter, true),
-        ),
-      );
-  } else {
-    // subset mode — set exclusions exactly to the given list.
-    const wanted = new Set(input.excludedFileIds ?? []);
-
-    // Clear exclusions on files NOT in the wanted set.
-    // (Only those that are currently excluded — cheaper.)
-    const currentlyExcluded = await db
-      .select({ id: files.id })
-      .from(files)
-      .where(
-        and(
-          eq(files.userId, userId),
-          eq(files.matterId, matterId),
-          eq(files.aiExcludedInMatter, true),
-        ),
-      );
-    const toUnexclude = currentlyExcluded
-      .map((r) => r.id)
-      .filter((id) => !wanted.has(id));
-    if (toUnexclude.length > 0) {
-      await db
+    // Step 2: update exclusions.
+    if (input.mode === 'off' || input.mode === 'all') {
+      // Clear all exclusions in this matter.
+      await tx
         .update(files)
         .set({ aiExcludedInMatter: false })
         .where(
           and(
             eq(files.userId, userId),
-            inArray(files.id, toUnexclude),
+            eq(files.matterId, matterId),
+            eq(files.aiExcludedInMatter, true),
           ),
         );
-    }
+    } else {
+      // subset mode — set exclusions exactly to the given list.
+      const wanted = new Set(input.excludedFileIds ?? []);
 
-    // Set exclusion on wanted files.
-    if (wanted.size > 0) {
-      await db
-        .update(files)
-        .set({ aiExcludedInMatter: true })
+      // Clear exclusions on files NOT in the wanted set.
+      // (Only those that are currently excluded — cheaper.)
+      const currentlyExcluded = await tx
+        .select({ id: files.id })
+        .from(files)
         .where(
           and(
             eq(files.userId, userId),
             eq(files.matterId, matterId),
-            inArray(files.id, [...wanted]),
+            eq(files.aiExcludedInMatter, true),
           ),
         );
-    }
-  }
+      const toUnexclude = currentlyExcluded
+        .map((r) => r.id)
+        .filter((id) => !wanted.has(id));
+      if (toUnexclude.length > 0) {
+        await tx
+          .update(files)
+          .set({ aiExcludedInMatter: false })
+          .where(
+            and(
+              eq(files.userId, userId),
+              inArray(files.id, toUnexclude),
+            ),
+          );
+      }
 
-  // Re-fetch state to return the updated view.
+      // Set exclusion on wanted files.
+      if (wanted.size > 0) {
+        await tx
+          .update(files)
+          .set({ aiExcludedInMatter: true })
+          .where(
+            and(
+              eq(files.userId, userId),
+              eq(files.matterId, matterId),
+              inArray(files.id, [...wanted]),
+            ),
+          );
+      }
+    }
+
+    return true;
+  });
+
+  if (!ok) return null;
+
+  // Re-fetch state to return the updated view. Separate transaction (its own
+  // withUser) — deliberately NOT nested inside the write transaction above.
   return getAiAccessState(userId, matterId);
 }
 
@@ -266,22 +272,24 @@ export async function invalidateAiAccessOnUpload(
   userId: string,
   matterId: string,
 ): Promise<void> {
-  await db
-    .update(matters)
-    .set({
-      aiAccessCommittedAt: null,
-      // Don't touch updatedAt here — uploading a file isn't an "edit" of
-      // the matter for sort-by-recent purposes. The file's own
-      // updated_at handles that.
-    })
-    .where(
-      and(
-        eq(matters.id, matterId),
-        eq(matters.userId, userId),
-        // Skip if mode is off — no committed_at to invalidate.
-        sql`${matters.aiAccessMode} != 'off'`,
+  await withUser(userId, (tx) =>
+    tx
+      .update(matters)
+      .set({
+        aiAccessCommittedAt: null,
+        // Don't touch updatedAt here — uploading a file isn't an "edit" of
+        // the matter for sort-by-recent purposes. The file's own
+        // updated_at handles that.
+      })
+      .where(
+        and(
+          eq(matters.id, matterId),
+          eq(matters.userId, userId),
+          // Skip if mode is off — no committed_at to invalidate.
+          sql`${matters.aiAccessMode} != 'off'`,
+        ),
       ),
-    );
+  );
 }
 
 // =============================================================================
@@ -301,11 +309,13 @@ export async function setFileAiBlock(
   fileId: string,
   blocked: boolean,
 ): Promise<{ ok: true } | { ok: false; reason: 'not_found' }> {
-  const [updated] = await db
-    .update(files)
-    .set({ aiBlockedByUser: blocked })
-    .where(and(eq(files.id, fileId), eq(files.userId, userId)))
-    .returning({ id: files.id });
+  const [updated] = await withUser(userId, (tx) =>
+    tx
+      .update(files)
+      .set({ aiBlockedByUser: blocked })
+      .where(and(eq(files.id, fileId), eq(files.userId, userId)))
+      .returning({ id: files.id }),
+  );
 
   return updated ? { ok: true } : { ok: false, reason: 'not_found' };
 }
@@ -367,107 +377,109 @@ export async function listFilesForAi(
   /** Total count of accessible files (before cap). For UX text. */
   totalAccessible: number;
 }> {
-  // Read matter to know the access mode.
-  const matterRows = await db
-    .select({
-      id: matters.id,
-      aiAccessMode: matters.aiAccessMode,
-      aiAccessCommittedAt: matters.aiAccessCommittedAt,
-    })
-    .from(matters)
-    .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
-    .limit(1);
+  return withUser(userId, async (tx) => {
+    // Read matter to know the access mode.
+    const matterRows = await tx
+      .select({
+        id: matters.id,
+        aiAccessMode: matters.aiAccessMode,
+        aiAccessCommittedAt: matters.aiAccessCommittedAt,
+      })
+      .from(matters)
+      .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
+      .limit(1);
 
-  const matter = matterRows[0];
-  if (!matter) {
-    // Caller's auth gate should have caught this; defensive empty.
-    return { files: [], isOff: true, truncated: false, totalAccessible: 0 };
-  }
+    const matter = matterRows[0];
+    if (!matter) {
+      // Caller's auth gate should have caught this; defensive empty.
+      return { files: [], isOff: true, truncated: false, totalAccessible: 0 };
+    }
 
-  if (
-    !isAiAccessActive({
-      aiAccessMode: matter.aiAccessMode,
-      aiAccessCommittedAt: matter.aiAccessCommittedAt,
-    })
-  ) {
-    return { files: [], isOff: true, truncated: false, totalAccessible: 0 };
-  }
+    if (
+      !isAiAccessActive({
+        aiAccessMode: matter.aiAccessMode,
+        aiAccessCommittedAt: matter.aiAccessCommittedAt,
+      })
+    ) {
+      return { files: [], isOff: true, truncated: false, totalAccessible: 0 };
+    }
 
-  // Build the WHERE clause respecting all gates.
-  const conditions = [
-    eq(files.userId, userId),
-    eq(files.matterId, matterId),
-    isNull(files.deletedAt),
-    eq(files.aiReadable, true),
-    eq(files.aiBlockedByUser, false),
-  ];
+    // Build the WHERE clause respecting all gates.
+    const conditions = [
+      eq(files.userId, userId),
+      eq(files.matterId, matterId),
+      isNull(files.deletedAt),
+      eq(files.aiReadable, true),
+      eq(files.aiBlockedByUser, false),
+    ];
 
-  // The subset mode also excludes ai_excluded_in_matter files.
-  if (matter.aiAccessMode === 'subset') {
-    conditions.push(eq(files.aiExcludedInMatter, false));
-  }
+    // The subset mode also excludes ai_excluded_in_matter files.
+    if (matter.aiAccessMode === 'subset') {
+      conditions.push(eq(files.aiExcludedInMatter, false));
+    }
 
-  // First, count total (for the truncation indicator).
-  const totalRows = await db
-    .select({ count: sql<number>`count(*)::int` })
-    .from(files)
-    .where(and(...conditions));
-  const total = totalRows[0]?.count ?? 0;
+    // First, count total (for the truncation indicator).
+    const totalRows = await tx
+      .select({ count: sql<number>`count(*)::int` })
+      .from(files)
+      .where(and(...conditions));
+    const total = totalRows[0]?.count ?? 0;
 
-  // Then fetch the capped list, most-recent first.
-  const fileRows = await db
-    .select({
-      id: files.id,
-      filename: files.filename,
-      mimeType: files.mimeType,
-      fileSize: files.fileSize,
-      pageCount: files.pageCount,
-      anthropicFileId: files.anthropicFileId,
-      storagePath: files.storagePath,
-    })
-    .from(files)
-    .where(and(...conditions))
-    .orderBy(sql`${files.updatedAt} desc`)
-    .limit(MAX_FILES_IN_SYSTEM_PROMPT);
+    // Then fetch the capped list, most-recent first.
+    const fileRows = await tx
+      .select({
+        id: files.id,
+        filename: files.filename,
+        mimeType: files.mimeType,
+        fileSize: files.fileSize,
+        pageCount: files.pageCount,
+        anthropicFileId: files.anthropicFileId,
+        storagePath: files.storagePath,
+      })
+      .from(files)
+      .where(and(...conditions))
+      .orderBy(sql`${files.updatedAt} desc`)
+      .limit(MAX_FILES_IN_SYSTEM_PROMPT);
 
-  // Bulk-load tags for these files.
-  const fileIds = fileRows.map((r) => r.id);
-  const tagRows =
-    fileIds.length > 0
-      ? await db
-          .select({
-            fileId: fileTags.fileId,
-            tagLabel: fileTags.tagLabel,
-          })
-          .from(fileTags)
-          .where(inArray(fileTags.fileId, fileIds))
-          .orderBy(fileTags.createdAt)
-      : [];
+    // Bulk-load tags for these files.
+    const fileIds = fileRows.map((r) => r.id);
+    const tagRows =
+      fileIds.length > 0
+        ? await tx
+            .select({
+              fileId: fileTags.fileId,
+              tagLabel: fileTags.tagLabel,
+            })
+            .from(fileTags)
+            .where(inArray(fileTags.fileId, fileIds))
+            .orderBy(fileTags.createdAt)
+        : [];
 
-  const tagsByFileId = new Map<string, string[]>();
-  for (const t of tagRows) {
-    const existing = tagsByFileId.get(t.fileId);
-    if (existing) existing.push(t.tagLabel);
-    else tagsByFileId.set(t.fileId, [t.tagLabel]);
-  }
+    const tagsByFileId = new Map<string, string[]>();
+    for (const t of tagRows) {
+      const existing = tagsByFileId.get(t.fileId);
+      if (existing) existing.push(t.tagLabel);
+      else tagsByFileId.set(t.fileId, [t.tagLabel]);
+    }
 
-  const resultFiles: FileForAi[] = fileRows.map((r) => ({
-    id: r.id,
-    filename: r.filename,
-    mimeType: r.mimeType,
-    fileSize: r.fileSize,
-    pageCount: r.pageCount,
-    tags: tagsByFileId.get(r.id) ?? [],
-    anthropicFileId: r.anthropicFileId,
-    storagePath: r.storagePath,
-  }));
+    const resultFiles: FileForAi[] = fileRows.map((r) => ({
+      id: r.id,
+      filename: r.filename,
+      mimeType: r.mimeType,
+      fileSize: r.fileSize,
+      pageCount: r.pageCount,
+      tags: tagsByFileId.get(r.id) ?? [],
+      anthropicFileId: r.anthropicFileId,
+      storagePath: r.storagePath,
+    }));
 
-  return {
-    files: resultFiles,
-    isOff: false,
-    truncated: total > MAX_FILES_IN_SYSTEM_PROMPT,
-    totalAccessible: total,
-  };
+    return {
+      files: resultFiles,
+      isOff: false,
+      truncated: total > MAX_FILES_IN_SYSTEM_PROMPT,
+      totalAccessible: total,
+    };
+  });
 }
 
 // =============================================================================
@@ -511,118 +523,121 @@ export async function resolveFilenames(
 
   if (uniqueFilenames.length === 0) return [];
 
-  // One query gets all matches across all requested filenames.
-  // Apply the same access gates as listFilesForAi.
-  const matterRows = await db
-    .select({
-      aiAccessMode: matters.aiAccessMode,
-      aiAccessCommittedAt: matters.aiAccessCommittedAt,
-    })
-    .from(matters)
-    .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
-    .limit(1);
+  return withUser(userId, async (tx) => {
+    // One query gets all matches across all requested filenames.
+    // Apply the same access gates as listFilesForAi.
+    const matterRows = await tx
+      .select({
+        aiAccessMode: matters.aiAccessMode,
+        aiAccessCommittedAt: matters.aiAccessCommittedAt,
+      })
+      .from(matters)
+      .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
+      .limit(1);
 
-  const matter = matterRows[0];
-  if (
-    !matter ||
-    !isAiAccessActive({
-      aiAccessMode: matter.aiAccessMode,
-      aiAccessCommittedAt: matter.aiAccessCommittedAt,
-    })
-  ) {
-    // Access not active — every filename is "not found" from Claude's
-    // perspective. (The chat route should have prevented Claude from
-    // calling read_files in this state, but we defense-in-depth here.)
-    return uniqueFilenames.map((f) => ({
-      filename: f,
-      outcome: { kind: 'not_found' as const },
-    }));
-  }
-
-  const conditions = [
-    eq(files.userId, userId),
-    eq(files.matterId, matterId),
-    isNull(files.deletedAt),
-    eq(files.aiReadable, true),
-    eq(files.aiBlockedByUser, false),
-    inArray(files.filename, uniqueFilenames),
-  ];
-  if (matter.aiAccessMode === 'subset') {
-    conditions.push(eq(files.aiExcludedInMatter, false));
-  }
-
-  const matched = await db
-    .select({
-      id: files.id,
-      filename: files.filename,
-      mimeType: files.mimeType,
-      fileSize: files.fileSize,
-      pageCount: files.pageCount,
-      anthropicFileId: files.anthropicFileId,
-      storagePath: files.storagePath,
-    })
-    .from(files)
-    .where(and(...conditions));
-
-  // Bulk-load tags for the matches (for the FileForAi shape).
-  const fileIds = matched.map((r) => r.id);
-  const tagRows =
-    fileIds.length > 0
-      ? await db
-          .select({
-            fileId: fileTags.fileId,
-            tagLabel: fileTags.tagLabel,
-          })
-          .from(fileTags)
-          .where(inArray(fileTags.fileId, fileIds))
-          .orderBy(fileTags.createdAt)
-      : [];
-
-  const tagsByFileId = new Map<string, string[]>();
-  for (const t of tagRows) {
-    const existing = tagsByFileId.get(t.fileId);
-    if (existing) existing.push(t.tagLabel);
-    else tagsByFileId.set(t.fileId, [t.tagLabel]);
-  }
-
-  // Group matches by filename to detect ambiguity.
-  const matchesByFilename = new Map<string, typeof matched>();
-  for (const m of matched) {
-    const existing = matchesByFilename.get(m.filename);
-    if (existing) existing.push(m);
-    else matchesByFilename.set(m.filename, [m]);
-  }
-
-  return uniqueFilenames.map((filename) => {
-    const matches = matchesByFilename.get(filename) ?? [];
-    if (matches.length === 0) {
-      return { filename, outcome: { kind: 'not_found' as const } };
+    const matter = matterRows[0];
+    if (
+      !matter ||
+      !isAiAccessActive({
+        aiAccessMode: matter.aiAccessMode,
+        aiAccessCommittedAt: matter.aiAccessCommittedAt,
+      })
+    ) {
+      // Access not active — every filename is "not found" from Claude's
+      // perspective. (The chat route should have prevented Claude from
+      // calling read_files in this state, but we defense-in-depth here.)
+      return uniqueFilenames.map((f) => ({
+        filename: f,
+        outcome: { kind: 'not_found' as const },
+      }));
     }
-    if (matches.length > 1) {
+
+    const conditions = [
+      eq(files.userId, userId),
+      eq(files.matterId, matterId),
+      isNull(files.deletedAt),
+      eq(files.aiReadable, true),
+      eq(files.aiBlockedByUser, false),
+      inArray(files.filename, uniqueFilenames),
+    ];
+    if (matter.aiAccessMode === 'subset') {
+      conditions.push(eq(files.aiExcludedInMatter, false));
+    }
+
+    const matched = await tx
+      .select({
+        id: files.id,
+        filename: files.filename,
+        mimeType: files.mimeType,
+        fileSize: files.fileSize,
+        pageCount: files.pageCount,
+        anthropicFileId: files.anthropicFileId,
+        storagePath: files.storagePath,
+      })
+      .from(files)
+      .where(and(...conditions));
+
+    // Bulk-load tags for the matches (for the FileForAi shape).
+    const fileIds = matched.map((r) => r.id);
+    const tagRows =
+      fileIds.length > 0
+        ? await tx
+            .select({
+              fileId: fileTags.fileId,
+              tagLabel: fileTags.tagLabel,
+            })
+            .from(fileTags)
+            .where(inArray(fileTags.fileId, fileIds))
+            .orderBy(fileTags.createdAt)
+        : [];
+
+    const tagsByFileId = new Map<string, string[]>();
+    for (const t of tagRows) {
+      const existing = tagsByFileId.get(t.fileId);
+      if (existing) existing.push(t.tagLabel);
+      else tagsByFileId.set(t.fileId, [t.tagLabel]);
+    }
+
+    // Group matches by filename to detect ambiguity.
+    const matchesByFilename = new Map<string, typeof matched>();
+    for (const m of matched) {
+      const existing = matchesByFilename.get(m.filename);
+      if (existing) existing.push(m);
+      else matchesByFilename.set(m.filename, [m]);
+    }
+
+    return uniqueFilenames.map((filename) => {
+      const matches = matchesByFilename.get(filename) ?? [];
+      if (matches.length === 0) {
+        return { filename, outcome: { kind: 'not_found' as const } };
+      }
+      if (matches.length > 1) {
+        return {
+          filename,
+          outcome: { kind: 'ambiguous' as const, count: matches.length },
+        };
+      }
+      const m = matches[0];
       return {
         filename,
-        outcome: { kind: 'ambiguous' as const, count: matches.length },
-      };
-    }
-    const m = matches[0];
-    return {
-      filename,
-      outcome: {
-        kind: 'ok' as const,
-        file: {
-          id: m.id,
-          filename: m.filename,
-          mimeType: m.mimeType,
-          fileSize: m.fileSize,
-          pageCount: m.pageCount,
-          tags: tagsByFileId.get(m.id) ?? [],
-          anthropicFileId: m.anthropicFileId,
-          storagePath: m.storagePath,
+        outcome: {
+          kind: 'ok' as const,
+          file: {
+            id: m.id,
+            filename: m.filename,
+            mimeType: m.mimeType,
+            fileSize: m.fileSize,
+            pageCount: m.pageCount,
+            tags: tagsByFileId.get(m.id) ?? [],
+            anthropicFileId: m.anthropicFileId,
+            storagePath: m.storagePath,
+          },
         },
-      },
-    };
+      };
+    });
   });
 }
+
 // =============================================================================
 // === MIGRATION 0009 — CONVERSATION FILE VISIBILITY FOR CLAUDE =================
 // =============================================================================
@@ -663,75 +678,77 @@ export async function listFilesForConversation(
   truncated: boolean;
   totalAccessible: number;
 }> {
-  const conditions = [
-    eq(files.userId, userId),
-    eq(files.conversationId, conversationId),
-    isNull(files.deletedAt),
-    eq(files.aiReadable, true),
-    eq(files.aiBlockedByUser, false),
-  ];
+  return withUser(userId, async (tx) => {
+    const conditions = [
+      eq(files.userId, userId),
+      eq(files.conversationId, conversationId),
+      isNull(files.deletedAt),
+      eq(files.aiReadable, true),
+      eq(files.aiBlockedByUser, false),
+    ];
 
-  // Count total (for the truncation indicator).
-  const totalRows = await db
-    .select({ count: sql<number>`count(*)::int` })
-    .from(files)
-    .where(and(...conditions));
-  const total = totalRows[0]?.count ?? 0;
+    // Count total (for the truncation indicator).
+    const totalRows = await tx
+      .select({ count: sql<number>`count(*)::int` })
+      .from(files)
+      .where(and(...conditions));
+    const total = totalRows[0]?.count ?? 0;
 
-  // Fetch the capped list, most-recent first.
-  const fileRows = await db
-    .select({
-      id: files.id,
-      filename: files.filename,
-      mimeType: files.mimeType,
-      fileSize: files.fileSize,
-      pageCount: files.pageCount,
-      anthropicFileId: files.anthropicFileId,
-      storagePath: files.storagePath,
-    })
-    .from(files)
-    .where(and(...conditions))
-    .orderBy(sql`${files.updatedAt} desc`)
-    .limit(MAX_FILES_IN_SYSTEM_PROMPT);
+    // Fetch the capped list, most-recent first.
+    const fileRows = await tx
+      .select({
+        id: files.id,
+        filename: files.filename,
+        mimeType: files.mimeType,
+        fileSize: files.fileSize,
+        pageCount: files.pageCount,
+        anthropicFileId: files.anthropicFileId,
+        storagePath: files.storagePath,
+      })
+      .from(files)
+      .where(and(...conditions))
+      .orderBy(sql`${files.updatedAt} desc`)
+      .limit(MAX_FILES_IN_SYSTEM_PROMPT);
 
-  // Bulk-load tags.
-  const fileIds = fileRows.map((r) => r.id);
-  const tagRows =
-    fileIds.length > 0
-      ? await db
-          .select({
-            fileId: fileTags.fileId,
-            tagLabel: fileTags.tagLabel,
-          })
-          .from(fileTags)
-          .where(inArray(fileTags.fileId, fileIds))
-          .orderBy(fileTags.createdAt)
-      : [];
+    // Bulk-load tags.
+    const fileIds = fileRows.map((r) => r.id);
+    const tagRows =
+      fileIds.length > 0
+        ? await tx
+            .select({
+              fileId: fileTags.fileId,
+              tagLabel: fileTags.tagLabel,
+            })
+            .from(fileTags)
+            .where(inArray(fileTags.fileId, fileIds))
+            .orderBy(fileTags.createdAt)
+        : [];
 
-  const tagsByFileId = new Map<string, string[]>();
-  for (const t of tagRows) {
-    const existing = tagsByFileId.get(t.fileId);
-    if (existing) existing.push(t.tagLabel);
-    else tagsByFileId.set(t.fileId, [t.tagLabel]);
-  }
+    const tagsByFileId = new Map<string, string[]>();
+    for (const t of tagRows) {
+      const existing = tagsByFileId.get(t.fileId);
+      if (existing) existing.push(t.tagLabel);
+      else tagsByFileId.set(t.fileId, [t.tagLabel]);
+    }
 
-  const resultFiles: FileForAi[] = fileRows.map((r) => ({
-    id: r.id,
-    filename: r.filename,
-    mimeType: r.mimeType,
-    fileSize: r.fileSize,
-    pageCount: r.pageCount,
-    tags: tagsByFileId.get(r.id) ?? [],
-    anthropicFileId: r.anthropicFileId,
-    storagePath: r.storagePath,
-  }));
+    const resultFiles: FileForAi[] = fileRows.map((r) => ({
+      id: r.id,
+      filename: r.filename,
+      mimeType: r.mimeType,
+      fileSize: r.fileSize,
+      pageCount: r.pageCount,
+      tags: tagsByFileId.get(r.id) ?? [],
+      anthropicFileId: r.anthropicFileId,
+      storagePath: r.storagePath,
+    }));
 
-  return {
-    files: resultFiles,
-    isOff: false,
-    truncated: total > MAX_FILES_IN_SYSTEM_PROMPT,
-    totalAccessible: total,
-  };
+    return {
+      files: resultFiles,
+      isOff: false,
+      truncated: total > MAX_FILES_IN_SYSTEM_PROMPT,
+      totalAccessible: total,
+    };
+  });
 }
 
 // -----------------------------------------------------------------------------
@@ -750,82 +767,84 @@ export async function resolveConversationFilenames(
   const uniqueFilenames = Array.from(new Set(filenames));
   if (uniqueFilenames.length === 0) return [];
 
-  const conditions = [
-    eq(files.userId, userId),
-    eq(files.conversationId, conversationId),
-    isNull(files.deletedAt),
-    eq(files.aiReadable, true),
-    eq(files.aiBlockedByUser, false),
-    inArray(files.filename, uniqueFilenames),
-  ];
+  return withUser(userId, async (tx) => {
+    const conditions = [
+      eq(files.userId, userId),
+      eq(files.conversationId, conversationId),
+      isNull(files.deletedAt),
+      eq(files.aiReadable, true),
+      eq(files.aiBlockedByUser, false),
+      inArray(files.filename, uniqueFilenames),
+    ];
 
-  const matched = await db
-    .select({
-      id: files.id,
-      filename: files.filename,
-      mimeType: files.mimeType,
-      fileSize: files.fileSize,
-      pageCount: files.pageCount,
-      anthropicFileId: files.anthropicFileId,
-      storagePath: files.storagePath,
-    })
-    .from(files)
-    .where(and(...conditions));
+    const matched = await tx
+      .select({
+        id: files.id,
+        filename: files.filename,
+        mimeType: files.mimeType,
+        fileSize: files.fileSize,
+        pageCount: files.pageCount,
+        anthropicFileId: files.anthropicFileId,
+        storagePath: files.storagePath,
+      })
+      .from(files)
+      .where(and(...conditions));
 
-  const fileIds = matched.map((r) => r.id);
-  const tagRows =
-    fileIds.length > 0
-      ? await db
-          .select({
-            fileId: fileTags.fileId,
-            tagLabel: fileTags.tagLabel,
-          })
-          .from(fileTags)
-          .where(inArray(fileTags.fileId, fileIds))
-          .orderBy(fileTags.createdAt)
-      : [];
+    const fileIds = matched.map((r) => r.id);
+    const tagRows =
+      fileIds.length > 0
+        ? await tx
+            .select({
+              fileId: fileTags.fileId,
+              tagLabel: fileTags.tagLabel,
+            })
+            .from(fileTags)
+            .where(inArray(fileTags.fileId, fileIds))
+            .orderBy(fileTags.createdAt)
+        : [];
 
-  const tagsByFileId = new Map<string, string[]>();
-  for (const t of tagRows) {
-    const existing = tagsByFileId.get(t.fileId);
-    if (existing) existing.push(t.tagLabel);
-    else tagsByFileId.set(t.fileId, [t.tagLabel]);
-  }
-
-  const matchesByFilename = new Map<string, typeof matched>();
-  for (const m of matched) {
-    const existing = matchesByFilename.get(m.filename);
-    if (existing) existing.push(m);
-    else matchesByFilename.set(m.filename, [m]);
-  }
-
-  return uniqueFilenames.map((filename) => {
-    const matches = matchesByFilename.get(filename) ?? [];
-    if (matches.length === 0) {
-      return { filename, outcome: { kind: 'not_found' as const } };
+    const tagsByFileId = new Map<string, string[]>();
+    for (const t of tagRows) {
+      const existing = tagsByFileId.get(t.fileId);
+      if (existing) existing.push(t.tagLabel);
+      else tagsByFileId.set(t.fileId, [t.tagLabel]);
     }
-    if (matches.length > 1) {
+
+    const matchesByFilename = new Map<string, typeof matched>();
+    for (const m of matched) {
+      const existing = matchesByFilename.get(m.filename);
+      if (existing) existing.push(m);
+      else matchesByFilename.set(m.filename, [m]);
+    }
+
+    return uniqueFilenames.map((filename) => {
+      const matches = matchesByFilename.get(filename) ?? [];
+      if (matches.length === 0) {
+        return { filename, outcome: { kind: 'not_found' as const } };
+      }
+      if (matches.length > 1) {
+        return {
+          filename,
+          outcome: { kind: 'ambiguous' as const, count: matches.length },
+        };
+      }
+      const m = matches[0];
       return {
         filename,
-        outcome: { kind: 'ambiguous' as const, count: matches.length },
-      };
-    }
-    const m = matches[0];
-    return {
-      filename,
-      outcome: {
-        kind: 'ok' as const,
-        file: {
-          id: m.id,
-          filename: m.filename,
-          mimeType: m.mimeType,
-          fileSize: m.fileSize,
-          pageCount: m.pageCount,
-          tags: tagsByFileId.get(m.id) ?? [],
-          anthropicFileId: m.anthropicFileId,
-          storagePath: m.storagePath,
+        outcome: {
+          kind: 'ok' as const,
+          file: {
+            id: m.id,
+            filename: m.filename,
+            mimeType: m.mimeType,
+            fileSize: m.fileSize,
+            pageCount: m.pageCount,
+            tags: tagsByFileId.get(m.id) ?? [],
+            anthropicFileId: m.anthropicFileId,
+            storagePath: m.storagePath,
+          },
         },
-      },
-    };
+      };
+    });
   });
 }
