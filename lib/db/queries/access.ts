@@ -16,15 +16,12 @@
 // Plus a firm-membership lookup the rest of the app needs.
 //
 // IMPORTANT: these are the application-layer first line of defense. RLS is the
-// second line (Slice 3). Until Slice 3, these helpers are the ONLY thing
-// enforcing firm isolation — so every matter query must use them.
-//
-// These functions are ADDITIVE in this slice. Adding this file changes no
-// behaviour: existing queries still use their old userId filters until we
-// swap them over one at a time.
+// second line (Slice 3). Every query here runs through withUser() so that,
+// after the connection cutover to the restricted role, the session-variable
+// RLS policies enforce the same firm/assignment scoping at the database level.
 
 import { and, eq } from 'drizzle-orm';
-import { db } from '@/lib/db';
+import { withUser } from '@/lib/db/with-user';
 import {
   matters,
   matterAssignments,
@@ -51,14 +48,16 @@ export interface UserFirmMembership {
 export async function getUserFirmMembership(
   userId: string,
 ): Promise<UserFirmMembership | null> {
-  const rows = await db
-    .select({
-      firmId: firmMemberships.firmId,
-      role: firmMemberships.role,
-    })
-    .from(firmMemberships)
-    .where(eq(firmMemberships.userId, userId))
-    .limit(1);
+  const rows = await withUser(userId, (tx) =>
+    tx
+      .select({
+        firmId: firmMemberships.firmId,
+        role: firmMemberships.role,
+      })
+      .from(firmMemberships)
+      .where(eq(firmMemberships.userId, userId))
+      .limit(1),
+  );
 
   return rows[0] ?? null;
 }
@@ -82,12 +81,14 @@ export async function userCanSeeMatterCard(
   userId: string,
   matterId: string,
 ): Promise<boolean> {
-  const rows = await db
-    .select({ matterId: matters.id })
-    .from(matters)
-    .innerJoin(firmMemberships, eq(firmMemberships.firmId, matters.firmId))
-    .where(and(eq(matters.id, matterId), eq(firmMemberships.userId, userId)))
-    .limit(1);
+  const rows = await withUser(userId, (tx) =>
+    tx
+      .select({ matterId: matters.id })
+      .from(matters)
+      .innerJoin(firmMemberships, eq(firmMemberships.firmId, matters.firmId))
+      .where(and(eq(matters.id, matterId), eq(firmMemberships.userId, userId)))
+      .limit(1),
+  );
 
   return rows.length > 0;
 }
@@ -116,16 +117,18 @@ export async function userCanAccessMatter(
   userId: string,
   matterId: string,
 ): Promise<boolean> {
-  const rows = await db
-    .select({ matterId: matterAssignments.matterId })
-    .from(matterAssignments)
-    .where(
-      and(
-        eq(matterAssignments.matterId, matterId),
-        eq(matterAssignments.userId, userId),
-      ),
-    )
-    .limit(1);
+  const rows = await withUser(userId, (tx) =>
+    tx
+      .select({ matterId: matterAssignments.matterId })
+      .from(matterAssignments)
+      .where(
+        and(
+          eq(matterAssignments.matterId, matterId),
+          eq(matterAssignments.userId, userId),
+        ),
+      )
+      .limit(1),
+  );
 
   return rows.length > 0;
 }
