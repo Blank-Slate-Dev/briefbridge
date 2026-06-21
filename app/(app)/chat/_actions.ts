@@ -63,7 +63,7 @@ import {
   isAllowedMimeType,
   type UploadValidationResult,
 } from '@/lib/files/types';
-import { db } from '@/lib/db';
+import { withUser } from '@/lib/db/with-user';
 import { files as filesTable } from '@/lib/db/schema';
 import { eq, and } from 'drizzle-orm';
 
@@ -269,13 +269,19 @@ export async function requestConversationUploadUrls(args: {
     );
 
     // Patch the row with the real storage path.
+    //
+    // RLS (Slice 3): runs through withUser so app.user_id is set for the
+    // update's transaction. Without it, the restricted role's RLS policy
+    // denies the write (no session identity → zero rows / failure).
     try {
-      await db
-        .update(filesTable)
-        .set({ storagePath })
-        .where(
-          and(eq(filesTable.id, fileRow.id), eq(filesTable.userId, auth.userId)),
-        );
+      await withUser(auth.userId, (tx) =>
+        tx
+          .update(filesTable)
+          .set({ storagePath })
+          .where(
+            and(eq(filesTable.id, fileRow.id), eq(filesTable.userId, auth.userId)),
+          ),
+      );
     } catch (err) {
       // eslint-disable-next-line no-console
       console.error('[chat-files] storagePath patch failed:', err);

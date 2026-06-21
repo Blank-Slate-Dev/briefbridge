@@ -24,6 +24,7 @@
 import 'server-only';
 import { and, eq } from 'drizzle-orm';
 import { db } from '@/lib/db';
+import { withUser } from '@/lib/db/with-user';
 import { files } from '@/lib/db/schema';
 import { getObjectBytes } from '@/lib/storage/supabase-storage';
 import {
@@ -72,10 +73,12 @@ export async function ensureAnthropicCopy(args: {
 
   // If we already have an id, mark used and return.
   if (args.currentAnthropicFileId) {
-    await db
-      .update(files)
-      .set({ anthropicLastUsedAt: new Date() })
-      .where(and(eq(files.id, fileId), eq(files.userId, userId)));
+    await withUser(userId, (tx) =>
+      tx
+        .update(files)
+        .set({ anthropicLastUsedAt: new Date() })
+        .where(and(eq(files.id, fileId), eq(files.userId, userId))),
+    );
     return {
       fileId,
       filename,
@@ -105,13 +108,15 @@ export async function ensureAnthropicCopy(args: {
 
   // Persist the new id + used-at timestamp.
   try {
-    await db
-      .update(files)
-      .set({
-        anthropicFileId: uploadResult.anthropicFileId,
-        anthropicLastUsedAt: new Date(),
-      })
-      .where(and(eq(files.id, fileId), eq(files.userId, userId)));
+    await withUser(userId, (tx) =>
+      tx
+        .update(files)
+        .set({
+          anthropicFileId: uploadResult.anthropicFileId,
+          anthropicLastUsedAt: new Date(),
+        })
+        .where(and(eq(files.id, fileId), eq(files.userId, userId))),
+    );
   } catch (err) {
     // The upload succeeded but we couldn't persist. The Anthropic-side
     // file is now an orphan — we don't have a way to find it again. This
@@ -211,11 +216,13 @@ export async function deleteAnthropicCopy(args: {
   }
 
   // Clear the column regardless of API outcome.
-  await db
-    .update(files)
-    .set({
-      anthropicFileId: null,
-      anthropicLastUsedAt: null,
-    })
-    .where(and(eq(files.id, fileId), eq(files.userId, userId)));
+  await withUser(userId, (tx) =>
+    tx
+      .update(files)
+      .set({
+        anthropicFileId: null,
+        anthropicLastUsedAt: null,
+      })
+      .where(and(eq(files.id, fileId), eq(files.userId, userId))),
+  );
 }
