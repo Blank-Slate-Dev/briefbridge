@@ -5,27 +5,21 @@
 // Server Component. Authenticates the user, fetches matters AND recent
 // conversations server-side, then renders the shell (sidebar + main).
 //
+// MULTI-FIRM: also resolves the user's PERSONAL firm id and passes it to the
+// sidebar so it can split matters into "My cases" (personal firm) and "Firm
+// cases" (shared firms). The provider keeps the flat matters list; the bucket
+// split happens at the display layer (sidebar + matters page) using firmId.
+//
 // What changed in Chunk 5:
 //   - Also fetches `listConversations(user.id, { limit: 5 })` for the
 //     sidebar's "Recent research" section.
 //   - Passes the result to AppSidebar as `recentResearch`.
-//
-// IMPORTANT — IF YOUR LOCAL layout.tsx DIFFERS FROM THIS:
-// The Chunk 5 zip includes this drop-in replacement. If your current
-// layout.tsx has additional logic I'm not aware of (e.g. custom providers,
-// extra contexts), MERGE manually: keep your additions, just add the
-// `recentResearch` fetch + prop. The two new lines are:
-//
-//   const recentResearch = await listConversations(user.id, { limit: 5 });
-//   <AppSidebar user={...} recentResearch={recentResearch} />
-//
-// Everything else here should match what you already have. If it doesn't,
-// don't blindly overwrite — diff and merge.
 
 import { redirect } from 'next/navigation';
 import type { ReactNode } from 'react';
 import { createClient } from '@/lib/supabase/server';
 import { listMattersForUser } from '@/lib/db/queries/matters';
+import { getUserPersonalFirmId } from '@/lib/db/queries/access';
 import { listConversations } from '@/lib/db/queries/conversations';
 import { AppSidebar } from './_components/app-sidebar';
 import { MattersProvider } from './matters/_components/matters-provider';
@@ -42,6 +36,10 @@ export default async function AppLayout({ children }: { children: ReactNode }) {
 
   // Fetch matters for the sidebar + MattersProvider's initial state.
   const matters = await listMattersForUser(user.id);
+
+  // Resolve the user's personal firm id so the sidebar can bucket matters into
+  // "My cases" (firmId === personalFirmId) vs "Firm cases" (everything else).
+  const personalFirmId = await getUserPersonalFirmId(user.id);
 
   // Fetch recent conversations for the sidebar's "Recent research" section.
   // Limit 5 — sidebar is narrow and lists more than that get noisy.
@@ -63,6 +61,7 @@ export default async function AppLayout({ children }: { children: ReactNode }) {
             email: user.email ?? '',
             displayName,
           }}
+          personalFirmId={personalFirmId}
           recentResearch={recentResearch}
         />
         <main className="bb-shell-main">{children}</main>

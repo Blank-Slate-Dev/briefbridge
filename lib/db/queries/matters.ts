@@ -2,22 +2,36 @@
 //
 // Query helpers for the `matters` table.
 //
-// CRITICAL: every query in this file applies `where(eq(matters.userId, userId))`.
-// This is the FIRST line of defense — RLS is the second. If you forget the
-// filter, RLS still saves us as long as the query runs as the auth role,
-// but Drizzle connects as the postgres role (bypassing RLS), so the filter
-// is what actually protects user data day-to-day.
+// MULTI-FIRM ACCESS MODEL (replaces the old userId-ownership model):
 //
-// All functions take `userId` as the first argument to make this impossible
-// to forget. If you ever find yourself wanting a "list all matters across
-// all users" function, that's an admin tool and belongs in a separate file
-// with explicit "this bypasses user scoping" comments.
+//   A matter belongs to a FIRM (matters.firm_id), not a single user. Access
+//   is governed by two rings:
+//
+//     Ring 1 (see the card)  — the matter is in a firm the user is a MEMBER of.
+//                              Used for the list + getMatter. Lets a firm
+//                              member SEE a matter exists even if not assigned.
+//
+//     Ring 2 (go inside/edit) — the user is ASSIGNED to the matter
+//                              (matter_assignments row). Used for every MUTATION
+//                              here, and (separately) by the detail page to gate
+//                              opening the matter.
+//
+//   "My cases"  = matters whose firm is the user's PERSONAL firm (is_personal).
+//   "Firm cases"= matters in any SHARED firm the user has joined.
+//   This file returns the flat union (all firms the user is in); the UI buckets
+//   by firm_id. See lib/db/queries/access.ts for getUserPersonalFirmId.
+//
+// IMPORTANT: these are the application-layer first line of defense. RLS is the
+// second. Every query runs through withUser() so the session-variable RLS
+// policies enforce the same firm/assignment scoping at the DB level.
 
-import { and, desc, eq, isNull } from 'drizzle-orm';
-import { db } from '@/lib/db';
+import { and, desc, eq, exists, isNull, sql } from 'drizzle-orm';
 import { withUser } from '@/lib/db/with-user';
 import {
   matters,
+  matterAssignments,
+  firmMemberships,
+  firms,
   type Matter,
   type NewMatter,
   type MatterStatus,
@@ -38,25 +52,46 @@ export interface ListMattersOptions {
 }
 
 /**
- * Returns all of the user's matters, ordered by most-recently-updated first.
+ * Returns all matters across ALL firms the user is a member of (personal +
+ * joined), ordered by most-recently-updated first. This is Ring 1 (card
+ * visibility): a firm member sees every matter in their firms, whether or not
+ * they're assigned to it. The detail page gates INSIDE-access separately via
+ * userCanAccessMatter.
+ *
+ * The UI splits this flat list into "My cases" (firm is the user's personal
+ * firm) and "Firm cases" (shared firms) using matter.firmId — see the matters
+ * page / sidebar.
  *
  * By default, archived matters (archived_at IS NOT NULL) are excluded.
- * Pass `{ includeArchived: true }` to include them (e.g. for an "Archived"
- * tab in the UI down the road).
  */
 export async function listMattersForUser(
   userId: string,
   options: ListMattersOptions = {},
 ): Promise<Matter[]> {
-  const conditions = [eq(matters.userId, userId)];
+  const conditions = [eq(firmMemberships.userId, userId)];
   if (!options.includeArchived) {
     conditions.push(isNull(matters.archivedAt));
   }
 
   return withUser(userId, (tx) =>
     tx
-      .select()
+      .select({
+        id: matters.id,
+        firmId: matters.firmId,
+        userId: matters.userId,
+        name: matters.name,
+        client: matters.client,
+        description: matters.description,
+        status: matters.status,
+        notes: matters.notes,
+        archivedAt: matters.archivedAt,
+        aiAccessMode: matters.aiAccessMode,
+        aiAccessCommittedAt: matters.aiAccessCommittedAt,
+        createdAt: matters.createdAt,
+        updatedAt: matters.updatedAt,
+      })
       .from(matters)
+      .innerJoin(firmMemberships, eq(firmMemberships.firmId, matters.firmId))
       .where(and(...conditions))
       .orderBy(desc(matters.updatedAt)),
   );
@@ -67,28 +102,42 @@ export async function listMattersForUser(
 // =============================================================================
 
 /**
- * Returns a single matter by id, IF it belongs to the given user.
- * Returns null if the matter doesn't exist OR isn't owned by this user.
+ * Returns a single matter by id, IF it's in a firm the user is a member of
+ * (Ring 1 — card visibility). Returns null if the matter doesn't exist OR is
+ * in a firm the user isn't a member of.
  *
- * Note: we don't distinguish "doesn't exist" from "not yours" in the return
- * value. This is deliberate — leaking that distinction lets an attacker
- * probe for the existence of other users' matters by id-guessing. From the
- * caller's perspective, both cases are "404".
+ * This deliberately uses card-visibility (firm membership), NOT assignment, so
+ * the detail page can load the matter and THEN decide inside-access via
+ * userCanAccessMatter (Ring 2). A firm-mate's matter the user isn't assigned to
+ * still returns here (the page then redirects them out).
+ *
+ * Note: we don't distinguish "doesn't exist" from "not in your firm" — both are
+ * a 404 to the caller, to avoid leaking matter existence via id-guessing.
  */
 export async function getMatter(
   userId: string,
   matterId: string,
 ): Promise<Matter | null> {
-  // STEP 4 (RLS Path A): run inside withUser so app.user_id is set for the
-  // query's transaction. Today (bypass connection) this is behaviourally
-  // identical to a bare db query; after the connection cutover, RLS enforces
-  // the same access this function's where-clause already enforces.
-  // Note: use `tx` inside the callback, NOT `db`.
   const rows = await withUser(userId, (tx) =>
     tx
-      .select()
+      .select({
+        id: matters.id,
+        firmId: matters.firmId,
+        userId: matters.userId,
+        name: matters.name,
+        client: matters.client,
+        description: matters.description,
+        status: matters.status,
+        notes: matters.notes,
+        archivedAt: matters.archivedAt,
+        aiAccessMode: matters.aiAccessMode,
+        aiAccessCommittedAt: matters.aiAccessCommittedAt,
+        createdAt: matters.createdAt,
+        updatedAt: matters.updatedAt,
+      })
       .from(matters)
-      .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
+      .innerJoin(firmMemberships, eq(firmMemberships.firmId, matters.firmId))
+      .where(and(eq(matters.id, matterId), eq(firmMemberships.userId, userId)))
       .limit(1),
   );
 
@@ -110,33 +159,106 @@ export interface CreateMatterInput {
   status?: MatterStatus;
   /** Optional. */
   notes?: string | null;
+  /**
+   * Which firm to create the matter in.
+   *   - omitted / undefined → the user's PERSONAL firm ("My cases").
+   *   - a shared firm id    → that firm ("Firm cases").
+   * The caller (server action) decides; the matters page passes a firmId for
+   * "Firm cases", and omits it for the default "+ New case" (My cases) flow.
+   */
+  firmId?: string;
 }
 
 /**
- * Creates a new matter for the given user.
+ * Creates a new matter and AUTO-ASSIGNS the creator to it (so they can open it
+ * immediately). Both the insert and the assignment run in ONE transaction.
  *
- * Returns the inserted row (including the newly-generated id).
+ * Firm resolution:
+ *   - If input.firmId is provided, the matter is created in that firm. (The
+ *     caller is responsible for confirming the user may create there; RLS on
+ *     matters_insert also enforces user_id = the caller.)
+ *   - If omitted, the matter is created in the user's PERSONAL firm (the
+ *     is_personal firm where they are owner). If somehow no personal firm is
+ *     found, we throw — a user should always have one post-signup-bootstrap.
  *
- * The CHECK constraint at the DB level will reject statuses outside the
- * 6 allowed values; the TS type makes that hard to hit by accident.
+ * Returns the inserted matter row (including the newly-generated id).
  */
 export async function createMatter(
   userId: string,
   input: CreateMatterInput,
 ): Promise<Matter> {
-  const values: NewMatter = {
-    userId,
-    name: input.name,
-    client: input.client ?? null,
-    description: input.description ?? null,
-    status: input.status ?? 'active',
-    notes: input.notes ?? null,
-  };
+  return withUser(userId, async (tx) => {
+    // Resolve the target firm.
+    let firmId = input.firmId;
+    if (!firmId) {
+      const personal = await tx
+        .select({ firmId: firmMemberships.firmId })
+        .from(firmMemberships)
+        .innerJoin(firms, eq(firms.id, firmMemberships.firmId))
+        .where(
+          and(
+            eq(firmMemberships.userId, userId),
+            eq(firms.isPersonal, true),
+            eq(firmMemberships.role, 'owner'),
+          ),
+        )
+        .limit(1);
 
-  const [inserted] = await withUser(userId, (tx) =>
-    tx.insert(matters).values(values).returning(),
+      firmId = personal[0]?.firmId;
+      if (!firmId) {
+        throw new Error(
+          `createMatter: no personal firm found for user ${userId}`,
+        );
+      }
+    }
+
+    const values: NewMatter = {
+      firmId,
+      userId,
+      name: input.name,
+      client: input.client ?? null,
+      description: input.description ?? null,
+      status: input.status ?? 'active',
+      notes: input.notes ?? null,
+    };
+
+    const [inserted] = await tx.insert(matters).values(values).returning();
+
+    // Auto-assign the creator so they can immediately open the matter
+    // (Ring 2). Uniform-assignment model: every matter, personal or firm, has
+    // an assignment row for each user who can open it.
+    await tx
+      .insert(matterAssignments)
+      .values({
+        matterId: inserted.id,
+        userId,
+        assignedBy: userId,
+      });
+
+    return inserted;
+  });
+}
+
+// =============================================================================
+// Mutation access guard
+// =============================================================================
+//
+// Every mutation below is gated on ASSIGNMENT (Ring 2): the user may only
+// change a matter they're assigned to. We express this as an EXISTS subquery
+// against matter_assignments in the UPDATE's WHERE clause, so a non-assigned
+// user's update affects zero rows and returns null (the 404-ish signal callers
+// already expect). This replaces the old `matters.user_id = userId` guard.
+
+/**
+ * Drizzle EXISTS predicate: there is a matter_assignments row linking the
+ * given user to the matter being updated.
+ */
+function assignedToMatter(userId: string) {
+  return exists(
+    sql`(select 1 from ${matterAssignments} ma
+         where ma.matter_id = ${matters.id}
+           and ma.user_id = ${userId})`,
   );
-  return inserted;
 }
 
 // =============================================================================
@@ -144,16 +266,12 @@ export async function createMatter(
 // =============================================================================
 
 /**
- * Updates a matter's status. Also bumps updatedAt.
+ * Updates a matter's status (Ring 2 — requires assignment). Bumps updatedAt.
  *
- * Returns the updated row, or null if no matter was updated (because the
- * matter doesn't exist or isn't owned by this user). Callers can use that
- * to detect a 404 case.
+ * Returns the updated row, or null if no matter was updated (doesn't exist, or
+ * the user isn't assigned to it). Callers use null as the 404 case.
  *
- * Note: this does NOT un-archive a matter as a side effect. If a matter is
- * archived (archived_at IS NOT NULL), the status update still applies, but
- * the matter remains hidden from the default list. Use restoreMatter() to
- * unarchive.
+ * Does NOT un-archive as a side effect (see restoreMatter).
  */
 export async function updateMatterStatus(
   userId: string,
@@ -164,7 +282,7 @@ export async function updateMatterStatus(
     tx
       .update(matters)
       .set({ status, updatedAt: new Date() })
-      .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
+      .where(and(eq(matters.id, matterId), assignedToMatter(userId)))
       .returning(),
   );
 
@@ -174,11 +292,6 @@ export async function updateMatterStatus(
 // =============================================================================
 // Update details (name / client / description)
 // =============================================================================
-//
-// Added in Chunk 4 for inline editing. Each field is optional — pass only
-// the fields you want to change. Caller is responsible for client-side
-// validation (non-empty name, length caps); we do the bare-minimum
-// server-side guarding here too as a safety net.
 
 export interface UpdateMatterDetailsInput {
   /** New matter name. Must be non-empty after trimming. */
@@ -190,46 +303,31 @@ export interface UpdateMatterDetailsInput {
 }
 
 /**
- * Updates a matter's name, client, and/or description. Pass only the fields
- * to change; omitted fields are left untouched.
+ * Updates a matter's name/client/description (Ring 2 — requires assignment).
+ * Pass only the fields to change; omitted fields are untouched.
  *
- * Server-side validation:
- *   - If `name` is provided, it must be non-empty after trimming. Empty names
- *     return null (caller treats as "operation rejected").
- *   - Length caps: name 200, client 200, description 2000. Anything longer
- *     gets trimmed to the cap (we don't error — the client should have
- *     prevented it, but if it didn't, silently truncating is friendlier
- *     than rejecting after the user has already typed).
+ * Server-side validation: non-empty name (empty → null/reject), length caps
+ * (name 200, client 200, description 2000; longer is silently truncated).
  *
- * Returns the updated row, or null if:
- *   - The matter doesn't exist OR isn't owned by this user (404 case), OR
- *   - The input failed server-side validation (e.g. empty name after trim).
- *
- * Both are intentionally indistinguishable from the caller's perspective
- * for the same reason as getMatter() — don't leak whether a matter exists.
+ * Returns the updated row, or null if the matter doesn't exist, the user isn't
+ * assigned, or validation rejected. All indistinguishable to the caller.
  */
 export async function updateMatterDetails(
   userId: string,
   matterId: string,
   input: UpdateMatterDetailsInput,
 ): Promise<Matter | null> {
-  // Build the update payload from only the provided fields.
-  // We use a Partial of the column shape so unset fields stay untouched.
   const updates: Partial<NewMatter> = {};
 
   if (input.name !== undefined) {
     const trimmed = input.name.trim();
     if (trimmed.length === 0) {
-      // Reject empty name — return null so caller can handle as 404-ish.
-      // (Client-side validation should have caught this; this is the
-      // server-side backstop.)
       return null;
     }
     updates.name = trimmed.slice(0, 200);
   }
 
   if (input.client !== undefined) {
-    // null or empty-after-trim both clear the field. Otherwise cap at 200.
     if (input.client === null) {
       updates.client = null;
     } else {
@@ -247,9 +345,7 @@ export async function updateMatterDetails(
     }
   }
 
-  // If nothing actually needs updating (caller passed an empty object),
-  // return the current row without touching the DB. Saves a write +
-  // updatedAt bump that would otherwise change sort order unnecessarily.
+  // Nothing to update → return current row without a write.
   if (Object.keys(updates).length === 0) {
     return getMatter(userId, matterId);
   }
@@ -260,7 +356,7 @@ export async function updateMatterDetails(
     tx
       .update(matters)
       .set(updates)
-      .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
+      .where(and(eq(matters.id, matterId), assignedToMatter(userId)))
       .returning(),
   );
 
@@ -272,17 +368,11 @@ export async function updateMatterDetails(
 // =============================================================================
 
 /**
- * Soft-deletes a matter by setting archived_at = now().
+ * Soft-deletes a matter by setting archived_at = now() (Ring 2 — requires
+ * assignment). Returns the updated row, or null (404 case).
  *
- * Returns the updated row, or null if no matter was archived (404 case).
- *
- * The matter is preserved in the DB along with all its conversations and
- * messages — they're just hidden from the default list. This is the
- * legally-appropriate behaviour for a research tool: lawyers should be
- * able to recover work product even after they've "deleted" it.
- *
- * Hard deletion is intentionally NOT exposed as a function here. If we ever
- * need a "permanently delete" feature, add it explicitly and document it.
+ * Conversations and messages are preserved — just hidden from the default
+ * list. Hard deletion is intentionally NOT exposed here.
  */
 export async function archiveMatter(
   userId: string,
@@ -292,7 +382,7 @@ export async function archiveMatter(
     tx
       .update(matters)
       .set({ archivedAt: new Date(), updatedAt: new Date() })
-      .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
+      .where(and(eq(matters.id, matterId), assignedToMatter(userId)))
       .returning(),
   );
 
@@ -300,9 +390,8 @@ export async function archiveMatter(
 }
 
 /**
- * Un-archives a matter — sets archived_at back to NULL.
- *
- * Returns the updated row, or null if no matter was restored (404 case).
+ * Un-archives a matter — sets archived_at back to NULL (Ring 2 — requires
+ * assignment). Returns the updated row, or null (404 case).
  */
 export async function restoreMatter(
   userId: string,
@@ -312,7 +401,7 @@ export async function restoreMatter(
     tx
       .update(matters)
       .set({ archivedAt: null, updatedAt: new Date() })
-      .where(and(eq(matters.id, matterId), eq(matters.userId, userId)))
+      .where(and(eq(matters.id, matterId), assignedToMatter(userId)))
       .returning(),
   );
 

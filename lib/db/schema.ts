@@ -49,6 +49,13 @@
 //
 // CHUNK 2 (judgments / embeddings) — unchanged.
 //
+// FIRM COLLABORATION + MULTI-FIRM:
+//   - firms gains is_personal (true for the firm-of-one created at signup).
+//   - firm_memberships unique index swapped from (user_id) to (firm_id,
+//     user_id): a user may belong to MULTIPLE firms (personal + joined), but
+//     not the same firm twice. Matches DB migration (drop user_id_unique,
+//     create firm_user_unique).
+//
 // =============================================================================
 // FK & RLS patterns — same as Chunks 3, 5, 6, 7
 // =============================================================================
@@ -297,6 +304,10 @@ export const firms = pgTable('firms', {
   plan: text('plan').$type<FirmPlan>().notNull().default('trial'),
   seats: integer('seats').notNull().default(1),
   emailDomain: text('email_domain'),
+  // is_personal — TRUE for the firm-of-one created automatically at signup
+  // (backs "My cases"). FALSE for shared firms a user creates/joins (back
+  // "Firm cases"). Set by the handle_new_user signup trigger.
+  isPersonal: boolean('is_personal').notNull().default(false),
   createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
   updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
 });
@@ -315,7 +326,13 @@ export const firmMemberships = pgTable(
   },
   (t) => ({
     firmIdIdx: index('firm_memberships_firm_id_idx').on(t.firmId),
-    userIdUnique: uniqueIndex('firm_memberships_user_id_unique').on(t.userId),
+    // Multi-firm: unique on (firm_id, user_id) — a user may belong to MANY
+    // firms (personal + joined), but not the same firm twice. (Was previously
+    // unique on user_id alone, which wrongly enforced one-firm-per-user.)
+    firmUserUnique: uniqueIndex('firm_memberships_firm_user_unique').on(
+      t.firmId,
+      t.userId,
+    ),
   }),
 );
 

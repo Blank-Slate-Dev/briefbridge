@@ -1,35 +1,24 @@
 // app/(app)/_components/app-sidebar.tsx
 //
-// What changed in this pass (New research reset fix):
-//   - handleNewResearch previously called only `router.push('/chat')`. When
-//     the user was ALREADY on /chat, that's a no-op to Next's router (same
-//     pathname), so ChatClient kept its existing conversation on screen even
-//     though the URL dropped ?conversationId=. Now we also call
-//     router.refresh() to re-run the /chat server component, which re-seeds
-//     ChatClient with empty initialMessages / null conversation id — a true
-//     fresh start regardless of which page we were on.
+// MULTI-FIRM (My cases / Firm cases):
+//   - New `personalFirmId` prop (from layout.tsx via getUserPersonalFirmId).
+//   - The flat matters list is split into two buckets:
+//       "My cases"   = matters whose firmId === personalFirmId (personal firm).
+//       "Firm cases" = matters in any shared firm the user has joined.
+//   - "Firm cases" only renders when the user actually has firm cases, so solo
+//     users see just "My cases" (clean default). Both appear once collaboration
+//     begins.
+//   - The provider still holds the flat matters list (optimistic-update
+//     machinery unchanged); the split happens here at render via firmId.
 //
 // What changed in Chunk 5:
-//   - PLACEHOLDER_RECENT_CHATS replaced with a `recentResearch` prop fetched
-//     server-side by layout.tsx (real conversation rows from the DB).
-//   - "New chat" button → "New research" (user-facing rename; "Research" is
-//     the lawyer↔AI vocabulary; "Conversations" is reserved for future
-//     lawyer↔lawyer collaboration).
-//   - "Recent chats" section → "Recent research".
-//   - Each recent-research item shows:
-//       title (or "Untitled research" if null)
-//       matter name · relative time   (if conversation has a matter_id)
-//       relative time                 (if standalone /chat conversation)
-//     Matter names are looked up from the existing `matters` prop via a
-//     Map — no extra DB query needed.
-//   - Click navigates to /matters/<matterId>?conversationId=X (in-matter) or
-//     /chat?conversationId=X (standalone).
+//   - `recentResearch` prop fetched server-side by layout.tsx.
+//   - "New chat" → "New research"; "Recent chats" → "Recent research".
 //
 // What DIDN'T change:
 //   - Mobile hamburger / drawer / backdrop logic
-//   - Cases list rendering
 //   - User button at the bottom
-//   - All the focus-management and route-change effects
+//   - Focus-management and route-change effects
 
 'use client';
 
@@ -56,7 +45,7 @@ import {
 } from 'lucide-react';
 import { useMatters } from '../matters/_components/matters-provider';
 import type { MatterStatus } from '../matters/_data/mock-matters';
-import type { Conversation } from '@/lib/db/schema';
+import type { Conversation, Matter } from '@/lib/db/schema';
 import {
   SidebarUserButton,
   SidebarSignInButton,
@@ -72,13 +61,16 @@ export interface AppSidebarProps {
     displayName: string | null;
   } | null;
   /**
+   * The user's PERSONAL firm id (the is_personal firm-of-one). Matters whose
+   * firmId matches this are "My cases"; all others are "Firm cases". May be
+   * null in the unlikely case the user has no personal firm — then everything
+   * falls into "My cases" (safe default).
+   */
+  personalFirmId: string | null;
+  /**
    * Recent conversations (research sessions) across all matters + standalone,
    * most-recently-updated first. Fetched server-side in layout.tsx via
    * listConversations(userId, { limit: 5 }).
-   *
-   * This data is server-fetched on each navigation. Conversations created
-   * mid-session via SSE WON'T appear in the sidebar until next navigation.
-   * Conscious tradeoff for Chunk 5 — see chunk handoff notes.
    */
   recentResearch: Conversation[];
 }
@@ -87,15 +79,17 @@ export interface AppSidebarProps {
 // AppSidebar
 // =============================================================================
 
-export function AppSidebar({ user, recentResearch }: AppSidebarProps) {
+export function AppSidebar({
+  user,
+  personalFirmId,
+  recentResearch,
+}: AppSidebarProps) {
   const pathname = usePathname();
   const router = useRouter();
   const { matters } = useMatters();
 
   // Build a Map<matterId, matterName> for fast lookup when rendering
-  // recent-research items. The matters prop is already client-state from
-  // MattersProvider, so this Map updates live when names change (Chunk 4
-  // inline edits).
+  // recent-research items.
   const matterNameById = useMemo(() => {
     const map = new Map<string, string>();
     for (const m of matters) {
@@ -103,6 +97,24 @@ export function AppSidebar({ user, recentResearch }: AppSidebarProps) {
     }
     return map;
   }, [matters]);
+
+  // Split the flat matters list into My cases / Firm cases by firmId.
+  // A matter is "mine" if its firm is my personal firm. Everything else is a
+  // firm case. If personalFirmId is null, treat all as My cases (safe default).
+  const { myCases, firmCases } = useMemo(() => {
+    const mine: Matter[] = [];
+    const firm: Matter[] = [];
+    for (const m of matters) {
+      if (personalFirmId && m.firmId === personalFirmId) {
+        mine.push(m);
+      } else if (personalFirmId) {
+        firm.push(m);
+      } else {
+        mine.push(m);
+      }
+    }
+    return { myCases: mine, firmCases: firm };
+  }, [matters, personalFirmId]);
 
   const [mobileOpen, setMobileOpen] = useState(false);
   const openedAtRef = useRef(0);
@@ -159,17 +171,9 @@ export function AppSidebar({ user, recentResearch }: AppSidebarProps) {
 
   const navId = useId();
 
-  // Start a fresh research session. We navigate to /chat AND refresh the
-  // server component, so this resets the view even when the user is already
-  // on /chat (where router.push alone is a no-op and would leave the old
-  // conversation on screen). router.refresh() re-runs the /chat page server
-  // component, re-seeding ChatClient with empty initialMessages and a null
-  // conversation id. If we're already on /chat we skip the push (it would
-  // be a no-op) and just refresh; otherwise we push then refresh.
+  // Start a fresh research session (see prior notes on push + refresh).
   function handleNewResearch() {
     if (pathname === '/chat') {
-      // Already here — clear the query param ourselves, then refresh so the
-      // server re-seeds empty state.
       if (typeof window !== 'undefined') {
         window.history.replaceState({}, '', '/chat');
       }
@@ -276,35 +280,14 @@ export function AppSidebar({ user, recentResearch }: AppSidebarProps) {
         </SidebarSection>
 
         <SidebarSection
-          label="Cases"
+          label="My cases"
           action={{
             icon: <FilePlus size={14} strokeWidth={1.75} />,
             href: '/matters',
             ariaLabel: 'View all cases',
           }}
         >
-          <ul className="bb-shell-list">
-            {matters.map((m) => {
-              const active = pathname === `/matters/${m.id}`;
-              return (
-                <li key={m.id}>
-                  <Link
-                    href={`/matters/${m.id}`}
-                    className={`bb-shell-list-item ${active ? 'bb-shell-list-item-active' : ''}`}
-                    title={m.name}
-                  >
-                    <CaseIcon status={m.status} />
-                    <span className="bb-shell-list-item-body">
-                      <span className="bb-shell-list-item-title">{m.name}</span>
-                      <span className="bb-shell-list-item-meta">
-                        {m.client ?? ''}
-                      </span>
-                    </span>
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
+          <CaseList matters={myCases} pathname={pathname} />
           <Link
             href="/matters"
             className="bb-shell-see-all"
@@ -316,6 +299,12 @@ export function AppSidebar({ user, recentResearch }: AppSidebarProps) {
             <span className="bb-shell-see-all-label">View all cases</span>
           </Link>
         </SidebarSection>
+
+        {firmCases.length > 0 && (
+          <SidebarSection label="Firm cases">
+            <CaseList matters={firmCases} pathname={pathname} />
+          </SidebarSection>
+        )}
 
         <div className="bb-shell-bottom">
           <Link
@@ -340,6 +329,50 @@ export function AppSidebar({ user, recentResearch }: AppSidebarProps) {
         </div>
       </aside>
     </>
+  );
+}
+
+// =============================================================================
+// CaseList — renders a list of matter rows. Shared by My cases / Firm cases.
+// =============================================================================
+
+function CaseList({
+  matters,
+  pathname,
+}: {
+  matters: Matter[];
+  pathname: string;
+}) {
+  if (matters.length === 0) {
+    return (
+      <ul className="bb-shell-list">
+        <li className="bb-shell-list-empty">No cases yet</li>
+      </ul>
+    );
+  }
+  return (
+    <ul className="bb-shell-list">
+      {matters.map((m) => {
+        const active = pathname === `/matters/${m.id}`;
+        return (
+          <li key={m.id}>
+            <Link
+              href={`/matters/${m.id}`}
+              className={`bb-shell-list-item ${active ? 'bb-shell-list-item-active' : ''}`}
+              title={m.name}
+            >
+              <CaseIcon status={m.status} />
+              <span className="bb-shell-list-item-body">
+                <span className="bb-shell-list-item-title">{m.name}</span>
+                <span className="bb-shell-list-item-meta">
+                  {m.client ?? ''}
+                </span>
+              </span>
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
   );
 }
 
