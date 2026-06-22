@@ -1,24 +1,21 @@
 // app/(app)/_components/app-sidebar.tsx
 //
 // MULTI-FIRM (My cases / Firm cases):
-//   - New `personalFirmId` prop (from layout.tsx via getUserPersonalFirmId).
-//   - The flat matters list is split into two buckets:
-//       "My cases"   = matters whose firmId === personalFirmId (personal firm).
-//       "Firm cases" = matters in any shared firm the user has joined.
-//   - "Firm cases" only renders when the user actually has firm cases, so solo
-//     users see just "My cases" (clean default). Both appear once collaboration
-//     begins.
+//   - `personalFirmId` prop (from layout.tsx via getUserPersonalFirmId).
+//   - Flat matters list split into "My cases" (firmId === personalFirmId) and
+//     "Firm cases" (shared firms). "Firm cases" only renders when present.
 //   - The provider still holds the flat matters list (optimistic-update
 //     machinery unchanged); the split happens here at render via firmId.
+//
+//   - NEW: `hasSharedFirm` prop. When false, an "Upgrade to a firm" affordance
+//     appears (bottom of sidebar). Clicking it calls upgradeToFirmAction, which
+//     creates a shared firm (5 seats) owned by the user, leaving their personal
+//     firm untouched. After success we router.refresh() so hasSharedFirm flips
+//     and the affordance disappears.
 //
 // What changed in Chunk 5:
 //   - `recentResearch` prop fetched server-side by layout.tsx.
 //   - "New chat" → "New research"; "Recent chats" → "Recent research".
-//
-// What DIDN'T change:
-//   - Mobile hamburger / drawer / backdrop logic
-//   - User button at the bottom
-//   - Focus-management and route-change effects
 
 'use client';
 
@@ -38,6 +35,7 @@ import {
 import {
   ArrowRight,
   Briefcase,
+  Building2,
   FilePlus,
   MessageSquare,
   PenSquare,
@@ -46,6 +44,7 @@ import {
 import { useMatters } from '../matters/_components/matters-provider';
 import type { MatterStatus } from '../matters/_data/mock-matters';
 import type { Conversation, Matter } from '@/lib/db/schema';
+import { upgradeToFirmAction } from '../_actions/firm';
 import {
   SidebarUserButton,
   SidebarSignInButton,
@@ -68,6 +67,12 @@ export interface AppSidebarProps {
    */
   personalFirmId: string | null;
   /**
+   * Whether the user already belongs to a SHARED (non-personal) firm. When
+   * false, the "Upgrade to a firm" affordance is shown. When true, it's hidden
+   * (they've already upgraded).
+   */
+  hasSharedFirm: boolean;
+  /**
    * Recent conversations (research sessions) across all matters + standalone,
    * most-recently-updated first. Fetched server-side in layout.tsx via
    * listConversations(userId, { limit: 5 }).
@@ -82,6 +87,7 @@ export interface AppSidebarProps {
 export function AppSidebar({
   user,
   personalFirmId,
+  hasSharedFirm,
   recentResearch,
 }: AppSidebarProps) {
   const pathname = usePathname();
@@ -99,8 +105,6 @@ export function AppSidebar({
   }, [matters]);
 
   // Split the flat matters list into My cases / Firm cases by firmId.
-  // A matter is "mine" if its firm is my personal firm. Everything else is a
-  // firm case. If personalFirmId is null, treat all as My cases (safe default).
   const { myCases, firmCases } = useMemo(() => {
     const mine: Matter[] = [];
     const firm: Matter[] = [];
@@ -117,6 +121,7 @@ export function AppSidebar({
   }, [matters, personalFirmId]);
 
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [upgrading, setUpgrading] = useState(false);
   const openedAtRef = useRef(0);
 
   function openDrawer(
@@ -183,6 +188,28 @@ export function AppSidebar({
       router.refresh();
     }
     setMobileOpen(false);
+  }
+
+  // Upgrade to a firm: create a shared firm owned by the user, then refresh so
+  // the server re-fetches hasSharedFirm (flips to true) and this affordance
+  // disappears. Guard against double-clicks with `upgrading`.
+  async function handleUpgradeToFirm() {
+    if (upgrading) return;
+    setUpgrading(true);
+    try {
+      const result = await upgradeToFirmAction();
+      if (result.ok) {
+        router.refresh();
+      } else {
+        // eslint-disable-next-line no-console
+        console.error('Upgrade to firm failed:', result.error);
+        setUpgrading(false);
+      }
+    } catch (err) {
+      // eslint-disable-next-line no-console
+      console.error('Upgrade to firm threw:', err);
+      setUpgrading(false);
+    }
   }
 
   return (
@@ -307,6 +334,24 @@ export function AppSidebar({
         )}
 
         <div className="bb-shell-bottom">
+          {!hasSharedFirm && (
+            <button
+              type="button"
+              className="bb-shell-secondary-link bb-shell-upgrade-firm"
+              onClick={handleUpgradeToFirm}
+              disabled={upgrading}
+              title="Start with 5 users, add as many as you like"
+              aria-label="Upgrade to a firm — start with 5 users, add as many as you like"
+            >
+              <span className="bb-shell-secondary-icon" aria-hidden>
+                <Building2 size={16} strokeWidth={1.75} />
+              </span>
+              <span className="bb-shell-secondary-label">
+                {upgrading ? 'Creating firm…' : 'Upgrade to a firm'}
+              </span>
+            </button>
+          )}
+
           <Link
             href="/cases"
             className="bb-shell-secondary-link"
