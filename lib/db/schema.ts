@@ -55,6 +55,7 @@
 //     user_id): a user may belong to MULTIPLE firms (personal + joined), but
 //     not the same firm twice. Matches DB migration (drop user_id_unique,
 //     create firm_user_unique).
+//   - firm_invitations table (migration 0018): pending member invites.
 //
 // =============================================================================
 // FK & RLS patterns — same as Chunks 3, 5, 6, 7
@@ -338,6 +339,42 @@ export const firmMemberships = pgTable(
 
 export type FirmMembership = typeof firmMemberships.$inferSelect;
 export type NewFirmMembership = typeof firmMemberships.$inferInsert;
+
+// =============================================================================
+// === FIRM INVITATIONS (member-invite flow) ===================================
+// =============================================================================
+//
+// Pending invites. Created in migration 0018 (raw SQL); declared here so
+// Drizzle can query it. role is admin|lawyer|paralegal (NOT owner). status is
+// pending|accepted|revoked|expired. token goes in the invite link. RLS on the
+// table (migration 0018) gates create/list/revoke to owner/admin of the firm,
+// plus a self-lookup for the invited user.
+
+export const firmInvitations = pgTable(
+  'firm_invitations',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    firmId: uuid('firm_id').notNull(),
+    email: text('email').notNull(),
+    role: text('role').$type<'admin' | 'lawyer' | 'paralegal'>().notNull(),
+    token: text('token').notNull(),
+    status: text('status')
+      .$type<'pending' | 'accepted' | 'revoked' | 'expired'>()
+      .notNull()
+      .default('pending'),
+    invitedBy: uuid('invited_by'),
+    expiresAt: timestamp('expires_at', { withTimezone: true }).notNull(),
+    acceptedAt: timestamp('accepted_at', { withTimezone: true }),
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => ({
+    firmIdIdx: index('firm_invitations_firm_id_idx').on(t.firmId),
+    tokenIdx: index('firm_invitations_token_idx').on(t.token),
+  }),
+);
+
+export type FirmInvitation = typeof firmInvitations.$inferSelect;
+export type NewFirmInvitation = typeof firmInvitations.$inferInsert;
 
 // =============================================================================
 // === MATTER ASSIGNMENTS (who can go INSIDE a matter) =========================
