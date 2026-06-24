@@ -22,6 +22,7 @@ import { db } from '@/lib/db';
 import { withUser } from '@/lib/db/with-user';
 import {
   firmInvitations,
+  firmMemberships,
   type FirmInvitation,
   type FirmRole,
 } from '@/lib/db/schema';
@@ -225,4 +226,114 @@ export async function acceptInvitation(
     console.error('acceptInvitation failed:', message);
     return { ok: false, reason: 'error' };
   }
+}
+
+// =============================================================================
+// List firm members (with name + email)
+// =============================================================================
+
+export interface FirmMemberRow {
+  userId: string;
+  email: string;
+  fullName: string | null;
+  role: FirmRole;
+  createdAt: Date;
+}
+
+/**
+ * Lists the members of a firm with their email + name, via the
+ * list_firm_members SECURITY DEFINER function (which reads auth.users).
+ *
+ * SECURITY: the function itself does NOT verify the caller is a member of the
+ * firm — that check MUST happen in the calling action (verify membership before
+ * calling this). We pass the firmId the action has already authorised.
+ */
+export async function listFirmMembers(firmId: string): Promise<FirmMemberRow[]> {
+  const rows = await db.execute<{
+    user_id: string;
+    email: string;
+    full_name: string | null;
+    role: FirmRole;
+    created_at: string | Date;
+  }>(sql`select * from list_firm_members(${firmId}::uuid)`);
+
+  const list = Array.isArray(rows) ? rows : [];
+  return list.map((r) => ({
+    userId: r.user_id,
+    email: r.email,
+    fullName: r.full_name,
+    role: r.role,
+    createdAt: r.created_at instanceof Date ? r.created_at : new Date(r.created_at),
+  }));
+}
+
+/**
+ * Returns true if the user is a member of the firm. Used by actions to
+ * authorise firm-scoped reads (e.g. listing members) before calling
+ * definer functions that don't self-check.
+ */
+export async function isFirmMember(
+  userId: string,
+  firmId: string,
+): Promise<boolean> {
+  const rows = await withUser(userId, (tx) =>
+    tx
+      .select({ firmId: firmMemberships.firmId })
+      .from(firmMemberships)
+      .where(
+        and(
+          eq(firmMemberships.firmId, firmId),
+          eq(firmMemberships.userId, userId),
+        ),
+      )
+      .limit(1),
+  );
+  return rows.length > 0;
+}
+
+// =============================================================================
+// Get invitation for the accept screen (firm name + validity)
+// =============================================================================
+
+export interface InvitationForAccept {
+  firmId: string;
+  firmName: string;
+  role: FirmRole;
+  status: 'pending' | 'accepted' | 'revoked' | 'expired';
+  expired: boolean;
+  emailMatches: boolean;
+}
+
+/**
+ * Returns the invite details + firm name for the accept screen, via the
+ * get_invitation_for_accept SECURITY DEFINER function (which can read the firm
+ * name even though the accepting user isn't a member yet). Returns null if the
+ * token doesn't exist.
+ */
+export async function getInvitationForAccept(
+  token: string,
+  userEmail: string,
+): Promise<InvitationForAccept | null> {
+  const rows = await db.execute<{
+    firm_id: string;
+    firm_name: string;
+    role: FirmRole;
+    status: 'pending' | 'accepted' | 'revoked' | 'expired';
+    expired: boolean;
+    email_matches: boolean;
+  }>(
+    sql`select * from get_invitation_for_accept(${token}::text, ${userEmail}::text)`,
+  );
+
+  const list = Array.isArray(rows) ? rows : [];
+  if (list.length === 0) return null;
+  const r = list[0];
+  return {
+    firmId: r.firm_id,
+    firmName: r.firm_name,
+    role: r.role,
+    status: r.status,
+    expired: r.expired,
+    emailMatches: r.email_matches,
+  };
 }

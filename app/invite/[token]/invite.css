@@ -1,0 +1,119 @@
+/* app/invite/[token]/_components/invite.css
+ * (imported from the page via ../_components — see note: page imports
+ *  './invite.css' so this file must sit next to the page. Adjust path if
+ *  needed.)
+ *
+ * Standalone invite-accept screen. Uses the app design tokens (cream/navy/
+ * gold) so it's on-brand, but it's a centered card, no app shell.
+ */
+
+.bb-invite-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  background: var(--bb-bg);
+  padding: 32px;
+}
+
+.bb-invite-brand {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--bb-ink);
+  letter-spacing: -0.01em;
+}
+
+.bb-invite-card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--bb-features-bg);
+  border: 1px solid var(--bb-border);
+  border-radius: 16px;
+  padding: 40px 36px;
+  text-align: center;
+  box-shadow:
+    0 1px 2px rgba(26, 31, 46, 0.04),
+    0 12px 32px rgba(26, 31, 46, 0.08);
+}
+
+.bb-invite-eyebrow {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  color: var(--bb-muted);
+  margin: 0 0 12px;
+}
+
+.bb-invite-firm {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--bb-ink);
+  margin: 0 0 8px;
+  line-height: 1.15;
+}
+.bb-invite-firm-small {
+  font-size: 22px;
+}
+
+.bb-invite-detail {
+  font-size: 15px;
+  color: var(--bb-muted);
+  margin: 0 0 28px;
+  line-height: 1.5;
+}
+.bb-invite-detail strong {
+  color: var(--bb-ink);
+  font-weight: 600;
+}
+
+.bb-invite-button {
+  display: inline-block;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--bb-bg);
+  background: var(--bb-ink);
+  border: 1px solid var(--bb-ink);
+  border-radius: 10px;
+  padding: 12px 28px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.15s ease, transform 0.05s ease;
+}
+.bb-invite-button:hover:not(:disabled) {
+  opacity: 0.88;
+}
+.bb-invite-button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+.bb-invite-button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.bb-invite-button-link {
+  margin-top: 4px;
+}
+
+.bb-invite-accept {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.bb-invite-error {
+  font-size: 13px;
+  color: #b42318;
+  margin: 0;
+}
+
+.bb-invite-signedin {
+  font-size: 12px;
+  color: var(--bb-muted);
+  margin: 20px 0 0;
+}

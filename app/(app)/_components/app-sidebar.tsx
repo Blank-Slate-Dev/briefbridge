@@ -7,11 +7,10 @@
 //   - The provider still holds the flat matters list (optimistic-update
 //     machinery unchanged); the split happens here at render via firmId.
 //
-//   - NEW: `hasSharedFirm` prop. When false, an "Upgrade to a firm" affordance
-//     appears (bottom of sidebar). Clicking it calls upgradeToFirmAction, which
-//     creates a shared firm (5 seats) owned by the user, leaving their personal
-//     firm untouched. After success we router.refresh() so hasSharedFirm flips
-//     and the affordance disappears.
+//   - `hasSharedFirm` prop drives the bottom firm affordance:
+//       false → "Upgrade to a firm" button (creates a shared firm).
+//       true  → "Manage firm" link (to /firm — invite teammates, members).
+//     Mutually exclusive: you've either upgraded or you haven't.
 //
 // What changed in Chunk 5:
 //   - `recentResearch` prop fetched server-side by layout.tsx.
@@ -40,6 +39,7 @@ import {
   MessageSquare,
   PenSquare,
   Scale,
+  Users,
 } from 'lucide-react';
 import { useMatters } from '../matters/_components/matters-provider';
 import type { MatterStatus } from '../matters/_data/mock-matters';
@@ -67,9 +67,8 @@ export interface AppSidebarProps {
    */
   personalFirmId: string | null;
   /**
-   * Whether the user already belongs to a SHARED (non-personal) firm. When
-   * false, the "Upgrade to a firm" affordance is shown. When true, it's hidden
-   * (they've already upgraded).
+   * Whether the user already belongs to a SHARED (non-personal) firm. Drives
+   * the bottom affordance: false → "Upgrade to a firm"; true → "Manage firm".
    */
   hasSharedFirm: boolean;
   /**
@@ -192,7 +191,7 @@ export function AppSidebar({
 
   // Upgrade to a firm: create a shared firm owned by the user, then refresh so
   // the server re-fetches hasSharedFirm (flips to true) and this affordance
-  // disappears. Guard against double-clicks with `upgrading`.
+  // becomes "Manage firm". Guard against double-clicks with `upgrading`.
   async function handleUpgradeToFirm() {
     if (upgrading) return;
     setUpgrading(true);
@@ -334,7 +333,18 @@ export function AppSidebar({
         )}
 
         <div className="bb-shell-bottom">
-          {!hasSharedFirm && (
+          {hasSharedFirm ? (
+            <Link
+              href="/firm"
+              className={`bb-shell-secondary-link ${pathname === '/firm' ? 'bb-shell-list-item-active' : ''}`}
+              title="Manage your firm — members and invites"
+            >
+              <span className="bb-shell-secondary-icon" aria-hidden>
+                <Users size={16} strokeWidth={1.75} />
+              </span>
+              <span className="bb-shell-secondary-label">Manage firm</span>
+            </Link>
+          ) : (
             <button
               type="button"
               className="bb-shell-secondary-link bb-shell-upgrade-firm"

@@ -40,7 +40,7 @@ const AUTH_COOKIE_MAX_AGE = 60 * 60 * 24 * 400;
 
 // Routes that require authentication. Order matters only for readability;
 // it's a "starts-with" check.
-const PROTECTED_PREFIXES = ['/chat', '/matters'];
+const PROTECTED_PREFIXES = ['/chat', '/matters', '/firm'];
 
 // Routes that should redirect AWAY from /login when the user is already
 // signed in. /cases is intentionally NOT here — it's public.
