@@ -1,10 +1,9 @@
-/* app/invite/[token]/_components/invite.css
- * (imported from the page via ../_components — see note: page imports
- *  './invite.css' so this file must sit next to the page. Adjust path if
- *  needed.)
+/* app/invite/[token]/invite.css
  *
  * Standalone invite-accept screen. Uses the app design tokens (cream/navy/
  * gold) so it's on-brand, but it's a centered card, no app shell.
+ *
+ * Sits next to page.tsx (page imports './invite.css').
  */
 
 .bb-invite-page {
@@ -116,4 +115,71 @@
   font-size: 12px;
   color: var(--bb-muted);
   margin: 20px 0 0;
+}
+
+/* =============================================================================
+ * "Joining" state — label + three animated dots
+ *
+ * The dots pulse in sequence (staggered animation-delay) to read as an active
+ * loading state rather than a frozen "Joining…". Disabled-button opacity is
+ * bumped back up here so the joining state stays legible.
+ * =========================================================================== */
+
+.bb-invite-button:disabled {
+  /* Override the generic disabled fade while busy so the dots stay readable. */
+  opacity: 0.85;
+}
+
+.bb-invite-joining {
+  display: inline-flex;
+  align-items: center;
+}
+
+.bb-invite-dots {
+  display: inline-flex;
+  align-items: flex-end;
+  margin-left: 2px;
+  /* Reserve a fixed width so the button doesn't change size as dots animate. */
+  width: 18px;
+  height: 1em;
+}
+
+.bb-invite-dot {
+  width: 3px;
+  height: 3px;
+  margin: 0 1px;
+  border-radius: 50%;
+  background: currentColor;
+  display: inline-block;
+  align-self: center;
+  animation: bb-invite-dot-pulse 1.2s infinite ease-in-out both;
+}
+.bb-invite-dot:nth-child(1) {
+  animation-delay: -0.32s;
+}
+.bb-invite-dot:nth-child(2) {
+  animation-delay: -0.16s;
+}
+.bb-invite-dot:nth-child(3) {
+  animation-delay: 0s;
+}
+
+@keyframes bb-invite-dot-pulse {
+  0%,
+  80%,
+  100% {
+    opacity: 0.25;
+    transform: scale(0.8);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bb-invite-dot {
+    animation: none;
+    opacity: 0.7;
+  }
 }

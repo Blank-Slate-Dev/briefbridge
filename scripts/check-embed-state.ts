@@ -1,4 +1,5 @@
-﻿import { config } from 'dotenv';
+﻿// scripts/check-embed-state.ts
+import { config } from 'dotenv';
 config({ path: '.env.local' });
 import postgres from 'postgres';
 

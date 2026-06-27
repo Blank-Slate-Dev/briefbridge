@@ -26,7 +26,7 @@
 
 import 'dotenv/config';
 import { eq, sql, gte, and, isNull, notExists } from 'drizzle-orm';
-import { db, schema } from '../lib/db';
+import { db, schema } from '../lib/db/script-db';
 import { embed, batchTexts, type VoyageModel } from '../lib/embeddings/voyage';
 
 // =============================================================================
@@ -468,7 +468,9 @@ function compactErrorMessage(err: unknown): string {
 main()
   .then(() => process.exit(0))
   .catch((err) => {
-    // Same compact-message principle here: never dump the full error object.
     console.error('\n[fatal error]', compactErrorMessage(err));
+    console.error('[cause]', err?.cause?.message ?? err?.cause);
+    console.error('[code]', err?.cause?.code);
     process.exit(1);
   });
+  
