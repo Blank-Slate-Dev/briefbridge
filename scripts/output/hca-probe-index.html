@@ -1,0 +1,607 @@
+<!DOCTYPE html><html lang="en" xmlns="http://www.w3.org/1999/xhtml" class="js " xml:lang="en"><head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Solaris version 5.1.24">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="cache-control" content="no-cache">
+  <title>High Court of Australia</title>
+  <link media="screen" rel="stylesheet" href="/css/screen1.css">
+  <link media="print" rel="stylesheet" href="/css/print.css">
+  <meta name="theme-color" content="#ee3224">
+  <meta name="description" content="Australasian Legal Information Institute (AustLII), a joint facility of UTS and UNSW Faculties of Law.">
+  <link rel="icon" sizes="192x192" href="/images/icon-192.png">
+  <link rel="apple-touch-icon-precomposed" href="/images/icon-shortcut.png">
+  <meta name="msapplication-TileColor" content="#ee3224">
+  <meta name="msapplication-TileImage" content="/images/icon/ms.png">
+  <script src="/js/modernizr.min.js">
+  </script>
+</head>
+<body class="results year">
+  <header id="page-header">
+    <div id="primary">
+      <a id="page-logo" href="/" tabindex="1"><img src="/images/logo.svg" alt="AustLII"><span class="title-main">AustLII</span></a> <a class="go-search" href="#">Search</a>
+      <h1 id="page-title"><span>High Court of Australia</span></h1>
+    </div>
+
+
+<!-- Search box
+
+The search box at the top of most pages. Always visible unless the
+'search' variable is set to false, for pages where we don't want
+that box along the top, such as on Advanced Search & LawCite.
+
+'Results' is a class added to database pages, which exposes the ability
+to search just by that database.
+
+'Searchable' is a page variable which indicates the page has checkboxes
+on it - the search box has a radio button for selecting we only search
+the checked areas.
+
+'Extra search' is for those rare extra options found in pages like the
+Aviation Law Association library database.
+-->
+    <form action="/cgi-bin/sinosrch.cgi">
+<input type="hidden" name="meta" value="">
+      <div id="page-search">
+        <h2 class="hide">Search AustLII</h2>
+        <div class="search-box">
+          <a class="search-dropdown" href="javascript:void(0);">▼</a>
+          <fieldset>
+            <legend>Search Options</legend>
+            <ul class="search-options">
+              <li><label for="database-all">All databases <input type="radio" name="mask_path" value="" id="database-all" tabindex="2"></label></li>
+              <li><label for="database-this">This database only <input type="radio" name="mask_path" value="au/cases/cth/HCA" id="database-this" tabindex="3" checked="checked"></label></li>
+              <li><label for="database-full">Full text <input type="radio" name="method" value="auto" id="database-full" method="auto" checked="checked" tabindex="6"></label></li>
+              <li><label for="database-title">Titles only <input type="radio" name="method" value="title" id="database-title" tabindex="7"></label></li>
+              <li class="advanced-search">
+                <a href="/advanced_search.shtml" tabindex="8">Advanced Search…</a>
+              </li>
+            </ul>
+          </fieldset><label for="search-box" class="hide">Search term:</label> <input id="search-box" type="text" name="query" placeholder="Search this database only" tabindex="9"><a href="javascript:void(0);" class="search-box-clear hide">×</a> <input type="submit" value="Search" tabindex="9">
+        </div><a class="go-primary" href="#">Close</a>
+      </div>
+    </form>
+
+
+    <ul id="page-tertiary">
+      <li> <a href="/about.html">About</a> </li>
+      <li> <a href="/contact.html">Contact</a> </li>
+      <li> <a href="/copyright.html">Copyright &amp; Usage</a> </li>
+      <li> <a href="/privacy.html">Privacy</a> </li>
+      <li> <a href="/disclaimers.html">Disclaimers</a> </li>
+      <li> <a href="/feedback.html">Feedback</a> </li>
+      <li> <a href="/help.html">Help</a> </li>
+    </ul>
+  </header>
+
+
+<!-- Ribbons
+
+These are the red bars along the top of each page.
+
+Ribbon is a variable set on most pages; it defaults to an expanded view,
+and can be simplified using variables 'intro' (for home) and 'basic' (for
+search, about pages, etc.)
+-->
+  <nav id="ribbon">
+    <div class="inner">
+      <ul>
+        <li class="ribbon-type"> <a href="#" tabindex="10">Type <span>Cases</span></a> </li>
+        <li class="ribbon-jurisdiction"> <a href="#" tabindex="12">Jurisdiction <span>Cth</span></a> </li>
+        <li class="ribbon-database"> <a href="/au/cases/cth/HCA" tabindex="13">Database <span>High Court of Australia</span></a> </li>
+        <li class="ribbon-year is-selected"> <a href="#" tabindex="14">Year <span>Any</span></a> </li>
+        <li class="ribbon-letter"> <a href="#" tabindex="15">Starts with <span>Any letter</span></a> </li>
+      </ul>
+    </div>
+  </nav> <!-- ribbon -->
+
+
+<!-- Panels
+
+The Panel defaults to 'year' view, which is what the database pages all have,
+it's what search results have, etc.
+
+The selections within if statements below are to visualize the 'is-selected'
+class across the various mock pages in the prototype.
+
+When implementing this, pull out the if statements and simply apply 'is-selected'
+when it's appropriate to that particular page.
+
+The options for the panel include:
+* none: the panel doesn't render
+* closed: the panel is present, but closed, adds 'is-closed' class
+* jurisdiction: jurisdiction is open at page load, adds 'is-jurisdiction' class
+* letter: 'starts with' is open at page load, adds 'is-letter' class
+-->
+  <div id="panels" class="is-year">
+    <div class="inner">
+      <div id="panel-type">
+        <ul>
+          <li class="panel-type-all"> <a href="/databases.html"> <h5>All Databases</h5> <p></p></a> </li>
+          <li class="panel-type-all is-selected"> <a href="/databases.html"> <h5>Cases &amp; Legislation</h5> <p></p></a> </li>
+          <li class="panel-type-all"> <a href="/au/journals/"> <h5>Journals &amp; Scholarship</h5> <p></p></a> </li>
+          <li class="panel-type-all"> <a href="/au/special/lawreform/"> <h5>Law Reform</h5> <p></p></a> </li>
+          <li class="panel-type-all"> <a href="/au/other/dfat/"> <h5>Treaties</h5> <p></p></a> </li>
+          <li class="panel-type-all"> <a href="/database-libraries.html"> <h5>Libraries</h5> <p></p></a> </li>
+          <li class="panel-type-all"> <a href="http://austlii.community/wiki/"> <h5>Communities</h5> <p></p></a> </li>
+          <li class="panel-type-all"> <a href="/lawcite/"> <h5>LawCite</h5> <p></p></a> </li>
+        </ul>
+      </div>
+      <div id="panel-jurisdiction">
+        <ul>
+          <li class="panel-type-all"> <a href="/databases.html"> <h5>Australia</h5></a> </li>
+          <li class="panel-type-all"> <a href="/au/cth/"> <h5>CTH</h5></a> </li>
+          <li class="panel-type-all"> <a href="/au/act/"> <h5>ACT</h5></a> </li>
+          <li class="panel-type-all"> <a href="/au/nsw/"> <h5>NSW</h5></a> </li>
+          <li class="panel-type-all"> <a href="/au/nt/"> <h5>NT</h5></a> </li>
+          <li class="panel-type-all"> <a href="/au/qld/"> <h5>QLD</h5></a> </li>
+          <li class="panel-type-all"> <a href="/au/sa/"> <h5>SA</h5></a> </li>
+          <li class="panel-type-all"> <a href="/au/tas/"> <h5>TAS</h5></a> </li>
+          <li class="panel-type-all"> <a href="/au/vic/"> <h5>VIC</h5></a> </li>
+          <li class="panel-type-all"> <a href="/au/wa/"> <h5>WA</h5></a> </li>
+          <li class="panel-type-all"> <a href="http://www.nzlii.org/databases.html"> <h5>New Zealand</h5></a> </li>
+        </ul>
+      </div>
+      <div id="panel-year">
+        <ul>
+          <li class="panel-type-specific">
+            <div>
+              <h5>Specific Year</h5><a href="#" class="year-specific-dropdown type-specific">Any</a> <select class="type-specific">
+                <option>
+                  2015
+                </option>
+              </select>
+            </div>
+          </li>
+<!--
+          <li class="panel-type-range">
+            <div>
+              <h5>Year Range</h5><a href="#" class="year-range-dropdown-1 type-range-1">1970</a> <select class="type-range-1">
+                <option> 2015 </option>
+              </select> <a href="#" class="year-range-dropdown-2 type-range-2">2015</a> <select class="type-range-2">
+                <option> 2015 </option>
+              </select> <a href="results.html" class="button">Apply</a>
+            </div>
+          </li>
+-->
+        </ul>
+      </div>
+      <div id="panel-letter">
+        <ul>
+          <li class="panel-letter-any"> <a href="#"> <h5>Any</h5></a> </li>
+
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-A.html">A</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-B.html">B</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-C.html">C</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-D.html">D</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-E.html">E</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-F.html">F</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-G.html">G</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-H.html">H</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-I.html">I</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-J.html">J</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-K.html">K</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-L.html">L</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-M.html">M</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-N.html">N</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-O.html">O</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-P.html">P</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-Q.html">Q</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-R.html">R</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-S.html">S</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-T.html">T</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-U.html">U</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-V.html">V</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-W.html">W</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-X.html">X</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-Y.html">Y</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/toc-Z.html">Z</a></h5></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<!-- "Year" dropdowns
+
+These dropdowns should be generated with data as appropriate.
+The data you see here is for presentatioal purposes.
+-->
+  <div class="year-options-list">
+    <div class="year-specific-options year-options">
+      <ul>
+        <li> <h5><a href="./">Any</a></h5> </li>
+<!--
+        <li> <h5><a href="2024/">2024</a></h5> </li>
+-->
+
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1903/">1903</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1904/">1904</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1905/">1905</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1906/">1906</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1907/">1907</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1908/">1908</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1909/">1909</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1910/">1910</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1911/">1911</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1912/">1912</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1913/">1913</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1914/">1914</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1915/">1915</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1916/">1916</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1917/">1917</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1918/">1918</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1919/">1919</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1920/">1920</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1921/">1921</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1922/">1922</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1923/">1923</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1924/">1924</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1925/">1925</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1926/">1926</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1927/">1927</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1928/">1928</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1929/">1929</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1930/">1930</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1931/">1931</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1932/">1932</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1933/">1933</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1934/">1934</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1935/">1935</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1936/">1936</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1937/">1937</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1938/">1938</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1939/">1939</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1940/">1940</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1941/">1941</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1942/">1942</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1943/">1943</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1944/">1944</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1945/">1945</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1946/">1946</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1947/">1947</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1948/">1948</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1949/">1949</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1950/">1950</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1951/">1951</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1952/">1952</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1953/">1953</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1954/">1954</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1955/">1955</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1956/">1956</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1957/">1957</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1958/">1958</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1959/">1959</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1960/">1960</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1961/">1961</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1962/">1962</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1963/">1963</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1964/">1964</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1965/">1965</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1966/">1966</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1967/">1967</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1968/">1968</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1969/">1969</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1970/">1970</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1971/">1971</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1972/">1972</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1973/">1973</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1974/">1974</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1975/">1975</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1976/">1976</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1977/">1977</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1978/">1978</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1979/">1979</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1980/">1980</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1981/">1981</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1982/">1982</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1983/">1983</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1984/">1984</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1985/">1985</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1986/">1986</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1987/">1987</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1988/">1988</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1989/">1989</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1990/">1990</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1991/">1991</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1992/">1992</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1993/">1993</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1994/">1994</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1995/">1995</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1996/">1996</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1997/">1997</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1998/">1998</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/1999/">1999</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2000/">2000</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2001/">2001</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2002/">2002</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2003/">2003</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2004/">2004</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2005/">2005</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2006/">2006</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2007/">2007</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2008/">2008</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2009/">2009</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2010/">2010</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2011/">2011</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2012/">2012</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2013/">2013</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2014/">2014</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2015/">2015</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2016/">2016</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2017/">2017</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2018/">2018</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2019/">2019</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2020/">2020</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2021/">2021</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2022/">2022</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2023/">2023</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2024/">2024</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2025/">2025</a></h5></li>
+<li><h5><a href="/cgi-bin/viewtoc/au/cases/cth/HCA/2026/">2026</a></h5></li>
+
+      </ul>
+    </div> <!-- specific-year -->
+
+<!--
+    <div class="year-range-1-options year-options">
+      <ul>
+        <li> <h5><a href="#">Any</a></h5> </li>
+        <li> <h5><a href="#">2015</a></h5> </li>
+        <li> <h5><a href="#">2014</a></h5> </li>
+        <li> <h5><a href="#">2013</a></h5> </li>
+      </ul>
+    </div> --> <!-- year-range-1 -->
+
+<!--
+    <div class="year-range-2-options year-options">
+      <ul>
+        <li> <h5><a href="#">Any</a></h5> </li>
+        <li> <h5><a href="#">2015</a></h5> </li>
+        <li> <h5><a href="#">2014</a></h5> </li>
+        <li> <h5><a href="#">2013</a></h5> </li>
+      </ul> 
+    </div> --> <!-- year-range-2 -->
+
+  </div> <!-- panels -->
+
+
+  <div id="page-content">
+    <div id="page-main">
+      <div id="page-sort" class="sort-solo">
+        <ul>
+          <li class="sort-item sort-all selected"><a href="#">All</a></li>
+
+          <li class="sort-item" data-sort="2024-02"><a href="#">February 2024</a></li>
+          <li class="sort-item" data-sort="2024-03"><a href="#">March 2024</a></li>
+          <li class="sort-item" data-sort="2024-04"><a href="#">April 2024</a></li>
+          <li class="sort-item" data-sort="2024-05"><a href="#">May 2024</a></li>
+          <li class="sort-item" data-sort="2024-06"><a href="#">June 2024</a></li>
+          <li class="sort-item" data-sort="2024-08"><a href="#">August 2024</a></li>
+          <li class="sort-item" data-sort="2024-09"><a href="#">September 2024</a></li>
+          <li class="sort-item" data-sort="2024-10"><a href="#">October 2024</a></li>
+          <li class="sort-item" data-sort="2024-11"><a href="#">November 2024</a></li>
+          <li class="sort-item" data-sort="2024-12"><a href="#">December 2024</a></li>
+        </ul>
+      </div>
+
+<!-- $content -->
+
+      <div class="all-section" id="2024-02">
+        <h2 class="card-title">February 2024</h2>
+
+          <div class="card">
+            <ul>
+               <li data-count="1."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/1.html">Harvey v Minister for Primary Industry and Resources [2024] HCA 1 (7 February 2024)</a></li>
+               <li data-count="2."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/2.html">Ismail v Minister for Immigration, Citizenship and Multicultural Affairs [2024] HCA 2 (7 February 2024)</a></li>
+               <li data-count="3."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/3.html">The King v Rohan (a pseudonym) [2024] HCA 3 (14 February 2024)</a></li>
+               <li data-count="4."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/4.html">Carmichael Rail Network Pty Ltd v BBC Chartering Carriers GmbH &amp; Co KG [2024] HCA 4 (14 February 2024)</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="all-section" id="2024-03">
+        <h2 class="card-title">March 2024</h2>
+
+          <div class="card">
+            <ul>
+               <li data-count="1."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/5.html">Xerri v The King [2024] HCA 5 (6 March 2024)</a></li>
+               <li data-count="2."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/6.html">Lesianawai v Minister for Immigration, Citizenship and Multicultural Affairs [2024] HCA 6 (6 March 2024)</a></li>
+               <li data-count="3."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/7.html">Redland City Council v Kozik [2024] HCA 7 (13 March 2024)</a></li>
+               <li data-count="4."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/8.html">Hurt v The King; Hurt v The King; Delzotto v The King [2024] HCA 8 (13 March 2024)</a></li>
+               <li data-count="5."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/9.html">The King v Anna Rowan - A Pseudonym [2024] HCA 9 (13 March 2024)</a></li>
+               <li data-count="6."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/10.html">AB (a pseudonym) v Independent Broad-based Anti-corruption Commission [2024] HCA 10 (13 March 2024)</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="all-section" id="2024-04">
+        <h2 class="card-title">April 2024</h2>
+
+          <div class="card">
+            <ul>
+               <li data-count="1."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2025/11.html">The King v Ryan Churchill (a pseudonym) [2025] HCA 11 (2 April 2024)</a></li>
+               <li data-count="2."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/11.html">Minister for Immigration, Citizenship and Multicultural Affairs v McQueen [2024] HCA 11 (10 April 2024)</a></li>
+               <li data-count="3."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/12.html">LPDT v Minister for Immigration, Citizenship, Migrant Services and Multicultural Affairs [2024] HCA 12 (10 April 2024)</a></li>
+               <li data-count="4."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/13.html">Miller v Minister for Immigration, Citizenship and Multicultural Affairs [2024] HCA 13 (17 April 2024)</a></li>
+               <li data-count="5."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/14.html">Director of Public Prosecutions (Cth) v Kola [2024] HCA 14 (17 April 2024)</a></li>
+               <li data-count="6."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/15.html">Director of Public Prosecutions v Benjamin Roder (a pseudonym) [2024] HCA 15 (17 April 2024)</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="all-section" id="2024-05">
+        <h2 class="card-title">May 2024</h2>
+
+          <div class="card">
+            <ul>
+               <li data-count="1."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/16.html">Chief Executive Officer, Aboriginal Areas Protection Authority v Director of National Parks [2024] HCA 16 (8 May 2024)</a></li>
+               <li data-count="2."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/17.html">Cessnock City Council v 123 259 932 Pty Ltd [2024] HCA 17 (8 May 2024)</a></li>
+               <li data-count="3."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/18.html">Obian v The King [2024] HCA 18 (8 May 2024)</a></li>
+               <li data-count="4."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/19.html">ASF17 v Commonwealth of Australia [2024] HCA 19 (10 May 2024)</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="all-section" id="2024-06">
+        <h2 class="card-title">June 2024</h2>
+
+          <div class="card">
+            <ul>
+               <li data-count="1."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/20.html">Godolphin Australia Pty Ltd v Chief Commissioner of State Revenue [2024] HCA 20 (5 June 2024)</a></li>
+               <li data-count="2."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/21.html">Greylag Goose Leasing 1410 Designated Activity Company v P.T. Garuda Indonesia Ltd [2024] HCA 21 (5 June 2024)</a></li>
+               <li data-count="3."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/22.html">Dayney v The King [2024] HCA 22 (12 June 2024)</a></li>
+               <li data-count="4."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/23.html">The King v Hatahet [2024] HCA 23 (12 June 2024)</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="all-section" id="2024-08">
+        <h2 class="card-title">August 2024</h2>
+
+          <div class="card">
+            <ul>
+               <li data-count="1."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/24.html">Tesseract International Pty Ltd v Pascale Construction Pty Ltd [2024] HCA 24 (7 August 2024)</a></li>
+               <li data-count="2."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/25.html">Mallonland Pty Ltd v Advanta Seeds Pty Ltd [2024] HCA 25 (7 August 2024)</a></li>
+               <li data-count="3."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/26.html">Cook (a pseudonym) v The King [2024] HCA 26 (7 August 2024)</a></li>
+               <li data-count="4."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/27.html">Productivity Partners Pty Ltd v Australian Competition and Consumer Commission; Wills v Australian Competition and Consumer Commission [2024] HCA 27 (14 August 2024)</a></li>
+               <li data-count="5."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/28.html">CBI Constructors Pty Ltd v Chevron Australia Pty Ltd [2024] HCA 28 (14 August 2024)</a></li>
+               <li data-count="6."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/29.html">BQ v The King [2024] HCA 29 (14 August 2024)</a></li>
+               <li data-count="7."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/30.html">Steven Moore (a pseudonym) v The King [2024] HCA 30 (14 August 2024)</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="all-section" id="2024-09">
+        <h2 class="card-title">September 2024</h2>
+
+          <div class="card">
+            <ul>
+               <li data-count="1."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/31.html">Attorney-General (Tas) v Casimaty [2024] HCA 31 (11 September 2024)</a></li>
+               <li data-count="2."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/32.html">Director of Public Prosecutions v Smith [2024] HCA 32 (11 September 2024)</a></li>
+               <li data-count="3."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/33.html">Morgan v McMillan Investment Holdings Pty Ltd [2024] HCA 33 (11 September 2024)</a></li>
+               <li data-count="4."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/34.html">Chief Commissioner of Police v Crupi [2024] HCA 34 (11 September 2024)</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="all-section" id="2024-10">
+        <h2 class="card-title">October 2024</h2>
+
+          <div class="card">
+            <ul>
+               <li data-count="1."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/35.html">HBSY Pty Ltd v Lewis [2024] HCA 35 (9 October 2024)</a></li>
+               <li data-count="2."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/36.html">Automotive Invest Pty Limited v Commissioner of Taxation [2024] HCA 36 (16 October 2024)</a></li>
+               <li data-count="3."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/37.html">SkyCity Adelaide Pty Ltd v Treasurer of South Australia [2024] HCA 37 (16 October 2024)</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="all-section" id="2024-11">
+        <h2 class="card-title">November 2024</h2>
+
+          <div class="card">
+            <ul>
+               <li data-count="1."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/38.html">Williams v Toyota Motor Corporation Australia Limited; Toyota Motor Corporation Australia Limited v Williams [2024] HCA 38 (6 November 2024)</a></li>
+               <li data-count="2."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/39.html">Capic v Ford Motor Company of Australia Pty Ltd [2024] HCA 39 (6 November 2024)</a></li>
+               <li data-count="3."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/40.html">YBFZ v Minister for Immigration, Citizenship and Multicultural Affairs [2024] HCA 40 (6 November 2024)</a></li>
+               <li data-count="4."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/41.html">Bird v DP (a pseudonym) [2024] HCA 41 (13 November 2024)</a></li>
+               <li data-count="5."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/42.html">Willmot v Queensland [2024] HCA 42 (13 November 2024)</a></li>
+               <li data-count="6."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/43.html">RC v The Salvation Army (Western Australia) Property Trust [2024] HCA 43 (13 November 2024)</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="all-section" id="2024-12">
+        <h2 class="card-title">December 2024</h2>
+
+          <div class="card">
+            <ul>
+               <li data-count="1."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/44.html">BIF23 v Minister for Immigration, Citizenship and Multicultural Affairs [2024] HCA 44 (4 December 2024)</a></li>
+               <li data-count="2."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/45.html">Fuller v Lawrence [2024] HCA 45 (4 December 2024)</a></li>
+               <li data-count="3."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/46.html">Pearson v Commonwealth of Australia; JZQQ v Minister for Immigration, Citizenship and Multicultural Affairs; Tapiki v Minister for Immigration, Citizenship and Multicultural Affairs; Minister for Home Affairs v Pearson; Minister for Immigration, Citizenship and Multicultural Affairs v Tapiki [2024] HCA 46 (4 December 2024)</a></li>
+               <li data-count="4."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/47.html">Commonwealth of Australia v Sanofi [2024] HCA 47 (11 December 2024)</a></li>
+               <li data-count="5."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/48.html">Kramer v Stone [2024] HCA 48 (11 December 2024)</a></li>
+               <li data-count="6."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/49.html">Pafburn Pty Limited v The Owners - Strata Plan No 84674 [2024] HCA 49 (11 December 2024)</a></li>
+               <li data-count="7."><a href="/cgi-bin/viewdoc/au/cases/cth/HCA/2024/50.html">Elisha v Vision Australia Limited [2024] HCA 50 (11 December 2024)</a></li>
+            </ul>
+          </div>
+      </div>
+
+    </div> <!-- page-main -->
+
+
+<!-- Document Sidebar -->
+    <div id="page-side">
+
+
+
+<!-- insert search-context.tx here when searching -->
+
+
+      <div class="side-element side-download">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 20" enable-background="new 0 0 21 20">
+        <g fill="#C3C3C3">
+          <path d="M12.5.9c1.3.5 1.7 1.5 1.7 2.9-.1 1.6 0 3.3 0 5h3.1c0 .1.1.1.1.2-.2.3-.3.5-.6.8l-5.3 5.3c-.7.6-1 .7-1.6.1-1.9-1.9-3.7-3.7-5.6-5.5-.1-.2-.3-.4-.6-.8H7c0-.4 0-.7.1-.9V3.8C7 2.4 7.4 1.4 8.7.9h3.8zM1.4 14.5h1.4v2.4c0 .9.2 1.1 1 1.1h13.5c.9 0 1-.2 1.1-1.1v-2.4h1.4v3.2c-.3.9-.9 1.4-1.7 1.7h-15c-.9-.3-1.4-.9-1.7-1.7v-3.2z"></path>
+        </g></svg>
+        <h4>Download</h4>
+        <p>No downloadable files available</p>
+      </div> <!-- side-download -->
+
+      <div class="side-element side-cited-by">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 20" enable-background="new 0 0 21 20">
+        <path fill="#C3C3C3" d="M10.2 16.6c-.9-.2-1.8-.3-2.7-.5-1.5-.4-2.9-1.1-4-2.3-3-3-2.9-7.4.4-10.1C6.2 1.7 9 1.1 12 1.4c1.7.2 3.2.8 4.6 1.8 3.1 2.3 4 5.6 2.5 9.2-.8 2-2.3 3.4-4 4.6-2.3 1.5-4.8 2.2-7.4 2.5h-.2c-.1-.1-.2-.1-.4-.2 0-.1 0-.3.2-.3.7-.4 1.4-.7 2-1.1.4-.3.7-.8.9-1.3z"></path></svg>
+        <h4>Cited By</h4>
+        <ul>
+          <li> <a href="/cgi-bin/LawCite?cit=Any"> LawCite records</a> </li>
+          <li> <a href="/cgi-bin/sinosrch.cgi?method=boolean&amp;query="> NoteUp references</a> </li>
+          <!-- li> <a href=""> NoteUp references</a> </li -->
+        </ul>
+      </div> <!-- cited-by -->
+
+
+
+
+
+
+
+      <div class="side-element side-social">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 20" enable-background="new 0 0 21 20">
+        <path fill="#C3C3C3" d="M20.7 3.7c-.7.3-1.5.5-2.4.6.9-.5 1.5-1.3 1.9-2.3-.8.5-1.7.8-2.7 1-.8-.8-1.9-1.3-3.1-1.3-2.3 0-4.2 1.9-4.2 4.2 0 .3 0 .6.1 1C6.9 6.7 3.8 5 1.7 2.5c-.4.6-.6 1.3-.6 2.1 0 1.4.8 2.7 1.9 3.5-.7-.1-1.3-.3-1.9-.6v.1c0 2 1.4 3.7 3.4 4.1-.4.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.7 2.1 2.9 3.9 2.9-1.4 1.1-3.2 1.8-5.2 1.8-.3 0-.7 0-1-.1 1.9 1.2 4.1 1.9 6.4 1.9 7.7 0 11.9-6.4 11.9-11.9v-.5c.8-.6 1.6-1.3 2.1-2.1z"></path></svg>
+        <h4>Join the discussion</h4>
+        <ul>
+          <li> <a href="https://twitter.com/intent/tweet?text=%E2High Court of Australia%E2%80%9D&amp;url=&amp;via=austlii&amp;hashtags=austlii" target="_blank">Tweet this page</a> </li>
+          <li> <a href="https://twitter.com/intent/user?screen_name=AustLII" target="_blank">Follow @AustLII on Twitter</a> </li>
+<!--
+          <li> <a href="https://twitter.com/search?f=tweets&amp;vertical=default&amp;q=austlii" target="_blank">Recent tweets about AustLII</a> </li>
+-->
+        </ul>
+      </div>
+
+
+    </div> <!-- page-side -->
+
+
+
+    <footer class="closing">
+      <div class="inner">
+        <!--<ul class="closing-primary">
+      <li><a href="database-all.html">All Databases</a></li>
+      <li><a href="database-cases.html">Cases &amp; Legislation</a></li>
+      <li><a href="database-journals.html">Journals &amp; Scholarships</a></li>
+      <li><a href="database-treaties.html">Treaties</a></li>
+      <li><a href="database-libraries.html">Libraries</a></li>
+      <li><a href="#">LawCite</a></li>
+    </ul>-->
+        <ul class="closing-tertiary">
+          <li> <a href="/austlii/">About</a> </li>
+          <li> <a href="/austlii/copyright.html">Copyright &amp; Usage</a> </li>
+          <li> <a href="/austlii/privacy.html">Privacy</a> </li>
+          <li> <a href="/austlii/disclaimers.html">Disclaimers</a> </li>
+          <li> <a href="/austlii/help/">Help</a> </li>
+        </ul><small></small>
+      </div>
+    </footer>
+
+  </div> <!-- page-content -->
+
+  <script src="/js/production.min.js">
+  </script>
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;f74b553413eb4a50949f5730dcd56219&quot;,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a15bce89fc156601',t:'MTc4MzE0Mzc0OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; visibility: hidden;"></iframe>
+
+</body></html>

@@ -48,7 +48,7 @@
 
 import 'dotenv/config';
 import { sql, eq, and, isNull, inArray, ne } from 'drizzle-orm';
-import { db, schema } from '../lib/db';
+import { db, schema } from '../lib/db/script-db';
 import { embed, batchTexts, type VoyageModel } from '../lib/embeddings/voyage';
 
 // =============================================================================
