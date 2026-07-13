@@ -35,6 +35,7 @@
 
 import Anthropic from '@anthropic-ai/sdk';
 import { createClient } from '@/lib/supabase/server';
+import { trackEvent } from '@/lib/analytics';
 import { semanticSearch, type SemanticSearchHit } from '@/lib/search/semantic';
 import {
   semanticSearchLegislation,
@@ -243,15 +244,13 @@ ${legislationBlock}
 
 6. **Surface the most relevant authorities up top.** If two cases or sections are leading authorities and others are tangential, focus on the leading ones first.
 
-7. **Respect the court hierarchy when authorities compete.** Where multiple retrieved cases speak to the same point, lead with the highest court: High Court of Australia first, then the NSW Court of Appeal / Court of Criminal Appeal, then first-instance Supreme Court decisions. Note explicitly when a first-instance decision sits in tension with appellate or High Court authority. Do not discard a lower-court case that is more directly on point — cite it, but frame it within the binding authority above it.
+7. **End with practical considerations** when appropriate — what the lawyer should think about, what additional research might be needed, what the user's specific facts (if mentioned) might change.
 
-8. **End with practical considerations** when appropriate — what the lawyer should think about, what additional research might be needed, what the user's specific facts (if mentioned) might change.
-
-9. **You are not giving legal advice.** End substantive responses with a brief reminder that the lawyer should verify citations against the official version and that this is research assistance, not legal advice.
+8. **You are not giving legal advice.** End substantive responses with a brief reminder that the lawyer should verify citations against the official version and that this is research assistance, not legal advice.
 
 # Limitations to acknowledge
 
-- Your caselaw database covers NSW Supreme Court judgments (2015 onward), NSW Court of Appeal and Court of Criminal Appeal judgments (mid-1990s onward), and High Court of Australia judgments (1998 onward). Other courts and earlier years may not be retrievable.
+- Your caselaw database currently covers NSW Supreme Court judgments from 2015 onward. Earlier cases or other jurisdictions may not be retrievable.
 - Your legislation database holds a large and growing collection of in-force Commonwealth principal Acts together with in-force NSW public Acts. It does not yet include most Regulations or other subordinate instruments, and does not cover jurisdictions other than the Commonwealth and NSW. Coverage of these is broad, so do not assume a given Commonwealth or NSW Act is absent just because it was not retrieved for a particular question.
 - Some judgments have known parsing gaps (block quotes, annexures, subheadings may be missing). Always recommend the lawyer verify against the source.
 - You cannot answer based on the user's specific facts unless those facts are described in the question.
@@ -463,6 +462,22 @@ export async function POST(request: Request) {
       'Semantic search unavailable: both caselaw and legislation indices failed.',
       500,
     );
+  }
+
+  // Usage analytics — fire-and-forget, never blocks the response.
+  void trackEvent(user.id, 'chat_query', {
+    conversationId: providedConversationId ?? null,
+    matterId: matterId ?? null,
+    queryChars: latestUserMessage.length,
+    caselawHits: caselawHits.length,
+    legislationHits: legislationHits.length,
+    topSimilarity: caselawHits[0]?.similarity ?? null,
+    topCourt: caselawHits[0]?.judgment.court ?? null,
+  });
+  if (caselawHits.length === 0 && legislationHits.length === 0) {
+    void trackEvent(user.id, 'search_empty', {
+      queryChars: latestUserMessage.length,
+    });
   }
 
   // Build the citations array. Caselaw first (indices 1..N), then

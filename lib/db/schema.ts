@@ -952,3 +952,33 @@ export type LegislationSectionEmbedding =
   typeof legislationSectionEmbeddings.$inferSelect;
 export type NewLegislationSectionEmbedding =
   typeof legislationSectionEmbeddings.$inferInsert;
+// =============================================================================
+// === ANALYTICS — usage events (append to lib/db/schema.ts) ===================
+// =============================================================================
+//
+// MVP usage tracking. NO RLS (same rationale as legislation tables): every
+// write happens server-side in route handlers via the app role, and the
+// dashboard at /admin/analytics is gated in application code to admin
+// emails. Metadata is light JSONB (counts, ids, similarity) — never message
+// content, so client-confidential text is never stored here.
+
+export const analyticsEvents = pgTable(
+  'analytics_events',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    userId: uuid('user_id').notNull(),
+    eventType: text('event_type').notNull(),
+    metadata: jsonb('metadata').notNull().default(sql`'{}'::jsonb`),
+    createdAt: timestamp('created_at', { withTimezone: true })
+      .notNull()
+      .defaultNow(),
+  },
+  (t) => ({
+    userIdIdx: index('analytics_events_user_id_idx').on(t.userId),
+    eventTypeIdx: index('analytics_events_event_type_idx').on(t.eventType),
+    createdAtIdx: index('analytics_events_created_at_idx').on(t.createdAt),
+  }),
+);
+
+export type AnalyticsEvent = typeof analyticsEvents.$inferSelect;
+export type NewAnalyticsEvent = typeof analyticsEvents.$inferInsert;
