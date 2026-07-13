@@ -1,17 +1,11 @@
 // app/(app)/admin/analytics/page.tsx
 //
 // Founder analytics dashboard. Server Component.
+// Gated in code to ADMIN_EMAILS; everyone else redirects to /matters.
 //
-// ACCESS: gated in code to ADMIN_EMAILS. Everyone else is redirected to
-// /matters. The (app) layout has already authenticated the user; we
-// re-fetch here to read the email.
-//
-// Shows the metrics that matter for early validation:
-//   - Totals (events, distinct users, last 7/30 days)
-//   - Queries per user per week (THE retention signal — a lawyer running
-//     10+ queries/week renews; one running 2 then stopping has churned)
-//   - Empty-retrieval rate (queries where nothing came back = product gaps)
-//   - Recent events feed
+// Styling note: all colours are set EXPLICITLY (navy text on cream cards)
+// because the app shell's inherited text colour is light (for the navy
+// sidebar) and disappears on the light content background.
 
 import { redirect } from 'next/navigation';
 import { sql } from 'drizzle-orm';
@@ -19,6 +13,13 @@ import { createClient } from '@/lib/supabase/server';
 import { db } from '@/lib/db';
 
 const ADMIN_EMAILS = ['osr9915@gmail.com'];
+
+const NAVY = '#1a1f2e';
+const NAVY_SOFT = '#3a4256';
+const MUTED = '#8a8577';
+const BORDER = '#e7e0d2';
+const BORDER_SOFT = '#f0ebe0';
+const CARD_BG = '#ffffff';
 
 export const dynamic = 'force-dynamic';
 
@@ -90,8 +91,8 @@ export default async function AnalyticsPage() {
       : '0.0';
 
   return (
-    <div style={{ padding: '2rem', maxWidth: 960 }}>
-      <h1 style={{ fontSize: '1.4rem', marginBottom: '1.5rem' }}>
+    <div style={{ padding: '2rem', maxWidth: 960, color: NAVY }}>
+      <h1 style={{ fontSize: '1.4rem', marginBottom: '1.5rem', color: NAVY }}>
         Usage analytics
       </h1>
 
@@ -103,7 +104,7 @@ export default async function AnalyticsPage() {
         <Stat label="Empty-retrieval rate (30d)" value={`${emptyRate}%`} />
       </section>
 
-      <h2 style={{ fontSize: '1.1rem', margin: '1rem 0 .5rem' }}>
+      <h2 style={{ fontSize: '1.1rem', margin: '1rem 0 .5rem', color: NAVY }}>
         Queries per user per week (8 weeks)
       </h2>
       <table style={{ borderCollapse: 'collapse', width: '100%', marginBottom: '2rem' }}>
@@ -113,6 +114,9 @@ export default async function AnalyticsPage() {
           </tr>
         </thead>
         <tbody>
+          {weeklyRows.length === 0 && (
+            <tr><Td colSpan={3} muted>No query events yet — send a chat message to generate the first one.</Td></tr>
+          )}
           {weeklyRows.map((r, i) => (
             <tr key={i}>
               <Td>{r.week}</Td>
@@ -123,7 +127,7 @@ export default async function AnalyticsPage() {
         </tbody>
       </table>
 
-      <h2 style={{ fontSize: '1.1rem', margin: '1rem 0 .5rem' }}>
+      <h2 style={{ fontSize: '1.1rem', margin: '1rem 0 .5rem', color: NAVY }}>
         Recent events
       </h2>
       <table style={{ borderCollapse: 'collapse', width: '100%' }}>
@@ -133,6 +137,9 @@ export default async function AnalyticsPage() {
           </tr>
         </thead>
         <tbody>
+          {recentRows.length === 0 && (
+            <tr><Td colSpan={4} muted>No events recorded yet.</Td></tr>
+          )}
           {recentRows.map((r, i) => (
             <tr key={i}>
               <Td mono>{r.created_at.slice(0, 19)}</Td>
@@ -149,16 +156,16 @@ export default async function AnalyticsPage() {
 
 function Stat({ label, value }: { label: string; value: number | string }) {
   return (
-    <div style={{ border: '1px solid #e7e0d2', borderRadius: 12, padding: '1rem 1.25rem', minWidth: 150 }}>
-      <div style={{ fontSize: '1.5rem', fontWeight: 600 }}>{value}</div>
-      <div style={{ fontSize: '.8rem', opacity: 0.7 }}>{label}</div>
+    <div style={{ background: CARD_BG, border: `1px solid ${BORDER}`, borderRadius: 12, padding: '1rem 1.25rem', minWidth: 150 }}>
+      <div style={{ fontSize: '1.5rem', fontWeight: 600, color: NAVY }}>{value}</div>
+      <div style={{ fontSize: '.8rem', color: MUTED }}>{label}</div>
     </div>
   );
 }
 
 function Th({ children }: { children: React.ReactNode }) {
   return (
-    <th style={{ textAlign: 'left', borderBottom: '1px solid #e7e0d2', padding: '.4rem .5rem', fontSize: '.8rem' }}>
+    <th style={{ textAlign: 'left', borderBottom: `1px solid ${BORDER}`, padding: '.4rem .5rem', fontSize: '.8rem', color: MUTED, fontWeight: 600 }}>
       {children}
     </th>
   );
@@ -168,18 +175,24 @@ function Td({
   children,
   mono,
   small,
+  muted,
+  colSpan,
 }: {
   children: React.ReactNode;
   mono?: boolean;
   small?: boolean;
+  muted?: boolean;
+  colSpan?: number;
 }) {
   return (
     <td
+      colSpan={colSpan}
       style={{
-        borderBottom: '1px solid #f0ebe0',
+        borderBottom: `1px solid ${BORDER_SOFT}`,
         padding: '.4rem .5rem',
         fontFamily: mono ? 'monospace' : undefined,
         fontSize: small ? '.7rem' : '.85rem',
+        color: muted ? MUTED : NAVY_SOFT,
         verticalAlign: 'top',
       }}
     >

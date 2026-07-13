@@ -33,6 +33,7 @@ import {
 } from 'react';
 import {
   ArrowRight,
+  BarChart3,
   Briefcase,
   Building2,
   FilePlus,
@@ -49,6 +50,11 @@ import {
   SidebarUserButton,
   SidebarSignInButton,
 } from './sidebar-user-button';
+
+// Emails allowed to see the admin Analytics link. Mirrors the gate in
+// app/(app)/admin/analytics/page.tsx — the page redirects non-admins, so
+// this only controls VISIBILITY, not access.
+const ADMIN_EMAILS = ['osr9915@gmail.com'];
 
 // =============================================================================
 // Props
@@ -372,6 +378,19 @@ export function AppSidebar({
             </span>
             <span className="bb-shell-secondary-label">Judgments</span>
           </Link>
+
+          {user && ADMIN_EMAILS.includes(user.email) && (
+            <Link
+              href="/admin/analytics"
+              className={`bb-shell-secondary-link ${pathname === '/admin/analytics' ? 'bb-shell-list-item-active' : ''}`}
+              title="Usage analytics (admin)"
+            >
+              <span className="bb-shell-secondary-icon" aria-hidden>
+                <BarChart3 size={16} strokeWidth={1.75} />
+              </span>
+              <span className="bb-shell-secondary-label">Analytics</span>
+            </Link>
+          )}
 
           {user ? (
             <SidebarUserButton
