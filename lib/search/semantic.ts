@@ -162,7 +162,13 @@ export async function semanticSearch(
   // sequential scan.
   const queryVectorLiteral = `[${queryVector.join(',')}]`;
 
-  const rows = await db.execute<{
+  // HNSW RECALL FIX: same issue proven on the legislation index (see
+  // semantic-legislation.ts) — default ef_search = 40 drops true nearest
+  // neighbours. The judgment index holds ~2.9M vectors, so recall risk is
+  // higher still. 200 comfortably exceeds the max pool size (150).
+  const rows = await db.transaction(async (tx) => {
+    await tx.execute(sql`SET LOCAL hnsw.ef_search = 200`);
+    return tx.execute<{
     paragraph_text: string;
     paragraph_number: string;
     paragraph_index: number;
@@ -189,6 +195,7 @@ export async function semanticSearch(
     ORDER BY e.embedding <=> ${queryVectorLiteral}::vector
     LIMIT ${poolSize}
   `);
+  });
 
   // 3. Map to typed hits, threshold on RAW similarity, apply the boost.
   const pool: SemanticSearchHit[] = [];

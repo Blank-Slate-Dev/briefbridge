@@ -148,7 +148,16 @@ export async function semanticSearchLegislation(
   // The optional jurisdiction filter is applied in the WHERE clause. If
   // present, the query planner uses the legislation_jurisdiction_kind_idx
   // partial index for cheap pre-filtering before the vector scan.
-  const rows = await db.execute<{
+  // HNSW RECALL FIX: pgvector's default hnsw.ef_search = 40 caused severe
+  // recall failures — the true #1 hit (CLA s 5O at 60% for a query about it)
+  // was ABSENT from the top-20 while 46% noise came back. Raising ef_search
+  // restored it to #1 (verified via scripts/diag-legislation-ranking.ts,
+  // 13 Jul 2026). SET LOCAL requires a transaction; on the transaction
+  // pooler each statement otherwise lands on a fresh backend, so the
+  // setting must share the txn with the query.
+  const rows = await db.transaction(async (tx) => {
+    await tx.execute(sql`SET LOCAL hnsw.ef_search = 200`);
+    return tx.execute<{
     section_id: string;
     legislation_id: string;
     level: string;
@@ -184,6 +193,7 @@ export async function semanticSearchLegislation(
     ORDER BY e.embedding <=> ${queryVectorLiteral}::vector
     LIMIT ${limit}
   `);
+  });
 
   // 3. Map to typed hits and apply similarity threshold.
   // Results are ordered by similarity desc, so we break as soon as we
