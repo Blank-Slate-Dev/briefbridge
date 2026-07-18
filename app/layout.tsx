@@ -28,10 +28,40 @@ const fraunces = Fraunces({
   axes: ['opsz'],
 });
 
+// SEO foundation:
+//   - metadataBase makes every relative canonical/OG URL resolve absolutely
+//     against the production domain (required for correct og:url etc).
+//   - title.template gives child pages "Page name — BriefBridge" for free;
+//     child pages just export `title: 'Page name'`.
+//   - openGraph/twitter defaults mean every page has share metadata even
+//     before a page-specific override exists.
 export const metadata: Metadata = {
-  title: 'BriefBridge | The legal research partner for Australian lawyers',
+  metadataBase: new URL('https://briefbridge.ai'),
+  title: {
+    default: 'BriefBridge | The legal research partner for Australian lawyers',
+    template: '%s — BriefBridge',
+  },
   description:
     'Search Australian case law by what it means, not what it says. Grounded answers, verifiable citations, paragraph by paragraph.',
+  openGraph: {
+    type: 'website',
+    siteName: 'BriefBridge',
+    url: 'https://briefbridge.ai',
+    title: 'BriefBridge | The legal research partner for Australian lawyers',
+    description:
+      'Search Australian case law by what it means, not what it says. Grounded answers, verifiable citations, paragraph by paragraph.',
+    images: [{ url: '/logo.png', width: 1024, height: 237, alt: 'BriefBridge' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'BriefBridge | The legal research partner for Australian lawyers',
+    description:
+      'Search Australian case law by what it means, not what it says. Grounded answers, verifiable citations, paragraph by paragraph.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
