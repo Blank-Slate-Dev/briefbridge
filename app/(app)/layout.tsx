@@ -12,9 +12,13 @@
 //   - Both come from access.ts helpers; the provider keeps the flat matters
 //     list and the bucket split happens in the sidebar.
 //
-// What changed in Chunk 5:
-//   - Also fetches `listConversations(user.id, { limit: 5 })` for the
-//     sidebar's "Recent research" section.
+// PERFORMANCE (latency waterfall):
+//   The DB round trip dominates page cost (~110ms/query to Singapore;
+//   ~15ms after the Sydney migration). Every serial "wave" of queries pays
+//   that full round trip again. None of the four data fetches below depend
+//   on each other — only on user.id — so they run in ONE Promise.all wave:
+//     BEFORE: auth → matters → [firm pair] → conversations  (4 waves)
+//     AFTER:  auth → [matters + firmId + memberships + conversations] (2)
 
 import { redirect } from 'next/navigation';
 import type { ReactNode } from 'react';
@@ -38,23 +42,20 @@ export default async function AppLayout({ children }: { children: ReactNode }) {
     redirect('/login');
   }
 
-  // Fetch matters for the sidebar + MattersProvider's initial state.
-  const matters = await listMattersForUser(user.id);
-
-  // Resolve the user's personal firm id (for the My/Firm cases split) and all
-  // their memberships (to derive hasSharedFirm for the Upgrade affordance).
-  const [personalFirmId, memberships] = await Promise.all([
-    getUserPersonalFirmId(user.id),
-    getUserFirmMemberships(user.id),
-  ]);
+  // ONE parallel wave: matters (sidebar + provider), personal firm id +
+  // memberships (My/Firm split + upgrade affordance), and recent
+  // conversations (sidebar "Recent research", limit 5 — lists longer than
+  // that get noisy in a narrow sidebar).
+  const [matters, personalFirmId, memberships, recentResearch] =
+    await Promise.all([
+      listMattersForUser(user.id),
+      getUserPersonalFirmId(user.id),
+      getUserFirmMemberships(user.id),
+      listConversations(user.id, { limit: 5 }),
+    ]);
 
   // hasSharedFirm = the user belongs to at least one NON-personal firm.
   const hasSharedFirm = memberships.some((m) => !m.isPersonal);
-
-  // Fetch recent conversations for the sidebar's "Recent research" section.
-  // Limit 5 — sidebar is narrow and lists more than that get noisy.
-  // No matter filter → returns conversations across all matters + standalone.
-  const recentResearch = await listConversations(user.id, { limit: 5 });
 
   // Pull display name from user metadata or email local-part as fallback.
   const displayName =
