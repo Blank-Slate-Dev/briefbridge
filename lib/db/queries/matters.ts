@@ -407,3 +407,67 @@ export async function restoreMatter(
 
   return updated ?? null;
 }
+
+// =============================================================================
+// PERF: merged fetch + access check
+// =============================================================================
+//
+// getMatter + userCanAccessMatter each cost a full withUser transaction
+// (BEGIN + set_config + query + COMMIT — every statement a DB round trip).
+// Run serially on the matter page they cost two transactions where one
+// query can answer both questions:
+//   - matter visible to this user?  (firm_memberships inner join — same
+//     semantics as getMatter)
+//   - user assigned to the matter?  (matter_assignments left join — same
+//     semantics as userCanAccessMatter; SLICE 2 gate)
+//
+// Returns null if the matter isn't visible at all; otherwise the matter
+// plus an `assigned` flag the caller uses for the inside-access gate.
+
+export interface MatterWithAccess {
+  matter: Matter;
+  /** True iff the user has a matter_assignments row (Slice 2 gate). */
+  assigned: boolean;
+}
+
+export async function getMatterWithAccess(
+  userId: string,
+  matterId: string,
+): Promise<MatterWithAccess | null> {
+  const rows = await withUser(userId, (tx) =>
+    tx
+      .select({
+        id: matters.id,
+        firmId: matters.firmId,
+        userId: matters.userId,
+        name: matters.name,
+        client: matters.client,
+        description: matters.description,
+        status: matters.status,
+        notes: matters.notes,
+        archivedAt: matters.archivedAt,
+        aiAccessMode: matters.aiAccessMode,
+        aiAccessCommittedAt: matters.aiAccessCommittedAt,
+        createdAt: matters.createdAt,
+        updatedAt: matters.updatedAt,
+        assignedMatterId: matterAssignments.matterId,
+      })
+      .from(matters)
+      .innerJoin(firmMemberships, eq(firmMemberships.firmId, matters.firmId))
+      .leftJoin(
+        matterAssignments,
+        and(
+          eq(matterAssignments.matterId, matters.id),
+          eq(matterAssignments.userId, userId),
+        ),
+      )
+      .where(and(eq(matters.id, matterId), eq(firmMemberships.userId, userId)))
+      .limit(1),
+  );
+
+  const row = rows[0];
+  if (!row) return null;
+
+  const { assignedMatterId, ...matter } = row;
+  return { matter: matter as Matter, assigned: assignedMatterId !== null };
+}
