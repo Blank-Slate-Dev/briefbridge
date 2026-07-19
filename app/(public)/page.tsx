@@ -1,8 +1,10 @@
-// app/page.tsx
+// app/(public)/page.tsx
+//
+// Homepage CONTENT only — the sticky header and footer now come from
+// app/(public)/layout.tsx, shared with every public page.
 import Image from 'next/image';
 import Link from 'next/link';
-import { StickyHeader } from './_components/sticky-header';
-import { HeroPreview } from './_components/hero-preview';
+import { HeroPreview } from '../_components/hero-preview';
 import { createClient } from '@/lib/supabase/server';
 import { redirect } from 'next/navigation';
 
@@ -24,12 +26,9 @@ export default async function HomePage() {
     redirect('/matters');
   }
 
-  const isLoggedIn = !!user;
 
   return (
     <>
-      <StickyHeader isLoggedIn={isLoggedIn} />
-
       {/* === HERO === */}
       <section className="bb-hero">
         <div className="bb-hero-eyebrow">Now indexing NSW Supreme Court</div>
@@ -43,15 +42,9 @@ export default async function HomePage() {
           answer is grounded in the source, paragraph by paragraph.
         </p>
         <div className="bb-hero-cta">
-          {isLoggedIn ? (
-            <Link href="/matters" className="bb-btn bb-btn-primary bb-btn-large">
-              Go to app →
-            </Link>
-          ) : (
-            <Link href="/login" className="bb-btn bb-btn-primary bb-btn-large">
-              Sign in →
-            </Link>
-          )}
+          <Link href="/login" className="bb-btn bb-btn-primary bb-btn-large">
+            Sign in →
+          </Link>
           <Link href="#how" className="bb-btn bb-btn-ghost bb-btn-large">
             See how it works
           </Link>
@@ -222,21 +215,12 @@ export default async function HomePage() {
             researching, or get in touch to shape what we build next.
           </p>
           <div className="bb-hero-cta">
-            {isLoggedIn ? (
-              <Link
-                href="/matters"
-                className="bb-btn bb-btn-primary bb-btn-large"
-              >
-                Go to app →
-              </Link>
-            ) : (
-              <Link
-                href="/login"
-                className="bb-btn bb-btn-primary bb-btn-large"
-              >
-                Sign in →
-              </Link>
-            )}
+            <Link
+              href="/login"
+              className="bb-btn bb-btn-primary bb-btn-large"
+            >
+              Sign in →
+            </Link>
             <a
               href="mailto:osr9915@gmail.com"
               className="bb-btn bb-btn-ghost bb-btn-large"
@@ -246,54 +230,6 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* === FOOTER === */}
-      <footer className="bb-footer">
-        <div className="bb-footer-inner">
-          <div className="bb-footer-brand">
-            <Link href="/" className="bb-brand" aria-label="BriefBridge">
-              <Image
-                src="/logo.png"
-                alt="BriefBridge"
-                width={180}
-                height={42}
-                className="bb-brand-logo"
-              />
-            </Link>
-            <p>
-              The legal research partner for Australian lawyers. Built in
-              Newcastle, NSW.
-            </p>
-          </div>
-          <div className="bb-footer-col">
-            <h4>Product</h4>
-            <ul>
-              <li><Link href="#how">How it works</Link></li>
-              <li><Link href="#coverage">Coverage</Link></li>
-              <li><Link href="/cases">Cases</Link></li>
-              <li><Link href="/legislation">Legislation</Link></li>
-            </ul>
-          </div>
-          <div className="bb-footer-col">
-            <h4>Company</h4>
-            <ul>
-              <li><a href="mailto:osr9915@gmail.com">Contact</a></li>
-            </ul>
-          </div>
-          <div className="bb-footer-col">
-            <h4>Legal</h4>
-            <ul>
-              <li><Link href="/privacy">Privacy</Link></li>
-              <li><Link href="/terms">Terms</Link></li>
-              <li><Link href="/legislation">Source attribution</Link></li>
-            </ul>
-          </div>
-        </div>
-        <div className="bb-footer-bottom">
-          <span>© 2026 BriefBridge. All rights reserved.</span>
-          <span>Made in Australia 🇦🇺</span>
-        </div>
-      </footer>
     </>
   );
 }

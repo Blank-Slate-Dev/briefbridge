@@ -8,7 +8,7 @@ import './(app)/matters/_components/matters-legislation.css';
 import './(app)/matters/_components/status-menu.css';
 import './(app)/_components/shell.css';
 import './(app)/_components/sidebar-user-menu.css';
-import './cases/_components/cases.css';
+import './(public)/cases/_components/cases.css';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
