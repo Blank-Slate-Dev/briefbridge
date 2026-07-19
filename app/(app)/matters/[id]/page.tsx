@@ -24,6 +24,7 @@
 import { notFound, redirect } from 'next/navigation';
 import { createClient } from '@/lib/supabase/server';
 import { getMatterWithAccess } from '@/lib/db/queries/matters';
+import { getAiAccessState } from '@/lib/db/queries/ai-access';
 import { } from '@/lib/db/queries/access';
 import {
   listConversations,
@@ -66,7 +67,7 @@ export default async function MatterDetailPage({
   //   - conversation not owned or wrong matter -> silently ignored
   // Previous shape was 3 serial withUser waves after auth (~1.5s of pure
   // round trips to the DB); this is 1.
-  const [access, matterConversations, initialFiles, personalTagHistory, session] =
+  const [access, matterConversations, initialFiles, personalTagHistory, session, initialAiAccess] =
     await Promise.all([
       getMatterWithAccess(user.id, matterId),
       listConversations(user.id, { matterId, limit: 50 }),
@@ -75,6 +76,9 @@ export default async function MatterDetailPage({
       sp.conversationId
         ? getConversationWithMessages(user.id, sp.conversationId)
         : Promise.resolve(null),
+      // Seeds the files panel so it doesn't fetch AI access client-side on
+      // mount (was a ~1.1s server-action round trip, doubled by StrictMode).
+      getAiAccessState(user.id, matterId),
     ]);
 
   if (!access) {
@@ -108,6 +112,7 @@ export default async function MatterDetailPage({
       matterConversations={matterConversations}
       activeConversation={activeConversation}
       initialFiles={initialFiles}
+      initialAiAccess={initialAiAccess}
       personalTagHistory={personalTagHistory}
     />
   );

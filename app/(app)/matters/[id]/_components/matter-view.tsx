@@ -53,6 +53,7 @@ import {
 } from '../../_data/mock-matters';
 import { MatterTabs } from './matter-tabs';
 import { FilesProvider, useFiles } from './files-provider';
+import type { AiAccessState } from '@/lib/db/queries/ai-access';
 import { QuotaIndicator } from './quota-indicator';
 import type { Matter, Conversation } from '@/lib/db/schema';
 import type { InitialMessage } from '../../../_components/streaming-chat';
@@ -79,6 +80,7 @@ export function MatterView({
   matterConversations,
   activeConversation,
   initialFiles,
+  initialAiAccess,
   personalTagHistory,
 }: {
   matter: Matter;
@@ -88,6 +90,8 @@ export function MatterView({
     messages: InitialMessage[];
   } | null;
   initialFiles: FileWithTags[];
+  /** Server-fetched AI access state — seeds the files provider. */
+  initialAiAccess: AiAccessState | null;
   personalTagHistory: string[];
 }) {
   // Prefer the provider's copy of this matter so status changes AND inline
@@ -180,7 +184,7 @@ export function MatterView({
     .join(' ');
 
   return (
-    <FilesProvider matterId={liveMatter.id} initialFiles={initialFiles}>
+    <FilesProvider matterId={liveMatter.id} initialFiles={initialFiles} initialAiAccess={initialAiAccess}>
       <main className="bb-matter-main">
         <div className="bb-matter-topbar">
           <Link href="/matters" className="bb-matter-back">

@@ -46,6 +46,7 @@ import {
   updateFileTagsAction,
 } from '../files/_actions';
 import { useAiAccess, type AiAccessApi } from './use-ai-access';
+import type { AiAccessState } from '@/lib/db/queries/ai-access';
 
 // =============================================================================
 // Local types
@@ -162,12 +163,16 @@ export function FilesProvider({
   children,
   initialFiles,
   matterId,
+  initialAiAccess,
 }: {
   children: ReactNode;
   initialFiles: FileWithTags[];
   // CHUNK 7: new prop. Caller (matter detail page.tsx) passes the
   // matter id it already has.
   matterId: string;
+  /** Server-fetched AI access state — seeds useAiAccess so no client
+   *  fetch runs on mount (saves a ~1.1s server-action round trip). */
+  initialAiAccess: AiAccessState | null;
 }) {
   const [files, setFiles] = useState<FileWithTags[]>(initialFiles);
   const [uploads, setUploads] = useState<UploadingFile[]>([]);
@@ -175,7 +180,7 @@ export function FilesProvider({
 
   // CHUNK 7: AI access state hook. Fetches getAiAccessAction on mount,
   // exposes setAiAccess + invalidateAfterUpload.
-  const aiAccessApi = useAiAccess({ matterId });
+  const aiAccessApi = useAiAccess({ matterId, initialState: initialAiAccess });
 
   // Timer ref so we can cancel the auto-dismiss if the lawyer clicks
   // Undo (or another soft-delete happens that supersedes the toast).
