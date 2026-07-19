@@ -271,6 +271,7 @@ export default async function HomePage() {
               <li><Link href="#how">How it works</Link></li>
               <li><Link href="#coverage">Coverage</Link></li>
               <li><Link href="/cases">Cases</Link></li>
+              <li><Link href="/legislation">Legislation</Link></li>
             </ul>
           </div>
           <div className="bb-footer-col">
@@ -282,9 +283,9 @@ export default async function HomePage() {
           <div className="bb-footer-col">
             <h4>Legal</h4>
             <ul>
-              <li><Link href="#">Privacy</Link></li>
-              <li><Link href="#">Terms</Link></li>
-              <li><Link href="#">Source attribution</Link></li>
+              <li><Link href="/privacy">Privacy</Link></li>
+              <li><Link href="/terms">Terms</Link></li>
+              <li><Link href="/legislation">Source attribution</Link></li>
             </ul>
           </div>
         </div>
