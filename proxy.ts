@@ -1,4 +1,4 @@
-// middleware.ts
+// proxy.ts
 //
 // Root middleware — runs on every request matching the `matcher` config.
 // Currently delegates entirely to the Supabase session helper, which:
