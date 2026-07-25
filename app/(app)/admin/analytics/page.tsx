@@ -11,6 +11,7 @@ import { redirect } from 'next/navigation';
 import { sql } from 'drizzle-orm';
 import { createClient } from '@/lib/supabase/server';
 import { db } from '@/lib/db';
+import { gscQuery, gscTotals, isGscConfigured } from '@/lib/gsc';
 
 const ADMIN_EMAILS = ['osr9915@gmail.com'];
 
@@ -33,7 +34,21 @@ export default async function AnalyticsPage() {
     redirect('/matters');
   }
 
-  const [totalsRows, weeklyRows, recentRows, emptyRows] = await Promise.all([
+  // Search Console data (Google search performance). Fetched in the same
+  // wave as the in-app analytics; each helper returns [] on failure so a
+  // Google outage can't break the dashboard. Data lags ~2 days.
+  const gscEnabled = isGscConfigured();
+  const [
+    totalsRows,
+    weeklyRows,
+    recentRows,
+    emptyRows,
+    gscTotals28,
+    gscDaily,
+    gscPages,
+    gscQueries,
+    gscCountries,
+  ] = await Promise.all([
     db.execute<{
       total_events: number;
       distinct_users: number;
@@ -81,6 +96,11 @@ export default async function AnalyticsPage() {
       FROM analytics_events
       WHERE created_at > now() - interval '30 days'
     `),
+    gscEnabled ? gscTotals(28) : Promise.resolve({ clicks: 0, impressions: 0, ctr: 0, position: 0 }),
+    gscEnabled ? gscQuery({ dimensions: ['date'], days: 28, rowLimit: 1000 }) : Promise.resolve([]),
+    gscEnabled ? gscQuery({ dimensions: ['page'], days: 28, rowLimit: 15 }) : Promise.resolve([]),
+    gscEnabled ? gscQuery({ dimensions: ['query'], days: 28, rowLimit: 15 }) : Promise.resolve([]),
+    gscEnabled ? gscQuery({ dimensions: ['country'], days: 28, rowLimit: 8 }) : Promise.resolve([]),
   ]);
 
   const totals = totalsRows[0];
@@ -103,6 +123,117 @@ export default async function AnalyticsPage() {
         <Stat label="Queries (30d)" value={totals?.events_30d ?? 0} />
         <Stat label="Empty-retrieval rate (30d)" value={`${emptyRate}%`} />
       </section>
+
+      {/* ===================== SEARCH CONSOLE ===================== */}
+      <h2 style={{ fontFamily: 'Georgia, serif', fontSize: '1.25rem', margin: '2.5rem 0 .25rem', color: NAVY }}>
+        Google Search performance
+      </h2>
+      <p style={{ fontSize: '.8rem', color: MUTED, marginBottom: '1rem' }}>
+        Last 28 days · data lags ~2 days · source: Search Console API
+      </p>
+
+      {!gscEnabled ? (
+        <p style={{ fontSize: '.9rem', color: MUTED }}>
+          Not configured — set GSC_CLIENT_EMAIL and GSC_PRIVATE_KEY.
+        </p>
+      ) : (
+        <>
+          <section style={{ display: 'flex', gap: '1rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
+            <Stat label="Clicks" value={gscTotals28.clicks} />
+            <Stat label="Impressions" value={gscTotals28.impressions} />
+            <Stat label="CTR" value={`${(gscTotals28.ctr * 100).toFixed(2)}%`} />
+            <Stat label="Avg position" value={gscTotals28.position.toFixed(1)} />
+          </section>
+
+          <h3 style={{ fontSize: '1rem', margin: '1.25rem 0 .5rem', color: NAVY }}>Daily trend</h3>
+          <table style={{ borderCollapse: 'collapse', width: '100%', marginBottom: '1.5rem' }}>
+            <thead>
+              <tr><Th>Date</Th><Th>Clicks</Th><Th>Impressions</Th><Th>CTR</Th><Th>Position</Th></tr>
+            </thead>
+            <tbody>
+              {gscDaily.length === 0 && (
+                <tr><Td colSpan={5} muted>No data yet.</Td></tr>
+              )}
+              {[...gscDaily].reverse().slice(0, 14).map((r) => (
+                <tr key={r.keys[0]}>
+                  <Td mono>{r.keys[0]}</Td>
+                  <Td>{r.clicks}</Td>
+                  <Td>{r.impressions}</Td>
+                  <Td>{(r.ctr * 100).toFixed(1)}%</Td>
+                  <Td>{r.position.toFixed(1)}</Td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+
+          <h3 style={{ fontSize: '1rem', margin: '1.25rem 0 .5rem', color: NAVY }}>Top pages</h3>
+          <table style={{ borderCollapse: 'collapse', width: '100%', marginBottom: '1.5rem' }}>
+            <thead>
+              <tr><Th>Page</Th><Th>Clicks</Th><Th>Impr.</Th><Th>CTR</Th><Th>Pos.</Th></tr>
+            </thead>
+            <tbody>
+              {gscPages.length === 0 && (
+                <tr><Td colSpan={5} muted>No data yet.</Td></tr>
+              )}
+              {gscPages.map((r) => (
+                <tr key={r.keys[0]}>
+                  <Td small mono>{r.keys[0].replace('https://briefbridge.ai', '')}</Td>
+                  <Td>{r.clicks}</Td>
+                  <Td>{r.impressions}</Td>
+                  <Td>{(r.ctr * 100).toFixed(1)}%</Td>
+                  <Td>{r.position.toFixed(1)}</Td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+
+          <h3 style={{ fontSize: '1rem', margin: '1.25rem 0 .5rem', color: NAVY }}>Top search queries</h3>
+          <table style={{ borderCollapse: 'collapse', width: '100%', marginBottom: '1.5rem' }}>
+            <thead>
+              <tr><Th>Query</Th><Th>Clicks</Th><Th>Impr.</Th><Th>CTR</Th><Th>Pos.</Th></tr>
+            </thead>
+            <tbody>
+              {gscQueries.length === 0 && (
+                <tr><Td colSpan={5} muted>No query data yet — Google withholds queries with very low volume.</Td></tr>
+              )}
+              {gscQueries.map((r) => (
+                <tr key={r.keys[0]}>
+                  <Td small>{r.keys[0]}</Td>
+                  <Td>{r.clicks}</Td>
+                  <Td>{r.impressions}</Td>
+                  <Td>{(r.ctr * 100).toFixed(1)}%</Td>
+                  <Td>{r.position.toFixed(1)}</Td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+
+          <h3 style={{ fontSize: '1rem', margin: '1.25rem 0 .5rem', color: NAVY }}>Countries</h3>
+          <table style={{ borderCollapse: 'collapse', width: '100%', marginBottom: '2.5rem' }}>
+            <thead>
+              <tr><Th>Country</Th><Th>Clicks</Th><Th>Impr.</Th><Th>CTR</Th></tr>
+            </thead>
+            <tbody>
+              {gscCountries.length === 0 && (
+                <tr><Td colSpan={4} muted>No data yet.</Td></tr>
+              )}
+              {gscCountries.map((r) => (
+                <tr key={r.keys[0]}>
+                  <Td mono>{r.keys[0].toUpperCase()}</Td>
+                  <Td>{r.clicks}</Td>
+                  <Td>{r.impressions}</Td>
+                  <Td>{(r.ctr * 100).toFixed(1)}%</Td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </>
+      )}
+
+      {/* ===================== IN-APP USAGE ===================== */}
+      <h2 style={{ fontFamily: 'Georgia, serif', fontSize: '1.25rem', margin: '2.5rem 0 1rem', color: NAVY }}>
+        In-app usage
+      </h2>
 
       <h2 style={{ fontSize: '1.1rem', margin: '1rem 0 .5rem', color: NAVY }}>
         Queries per user per week (8 weeks)
