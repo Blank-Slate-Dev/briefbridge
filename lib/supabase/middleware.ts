@@ -56,12 +56,19 @@ const AUTH_PAGES = ['/login', '/signup'];
  */
 function isPrefetchOrRsc(request: NextRequest): boolean {
   const h = request.headers;
+
+  // Any RSC payload request — Next appends ?_rsc=<hash> to these and sets
+  // the RSC header. Verified in production waterfalls: a logged-in
+  // /matters load fired ~30 of them (one per prefetchable link), each
+  // previously paying a full auth round trip.
+  if (request.nextUrl.searchParams.has('_rsc')) return true;
+  if (h.get('rsc') === '1' || h.get('RSC') === '1') return true;
+
+  // Explicit prefetch signals.
   return (
     h.get('next-router-prefetch') === '1' ||
     h.get('purpose') === 'prefetch' ||
-    h.get('x-middleware-prefetch') === '1' ||
-    // RSC payload request for an already-rendered route tree.
-    (h.get('rsc') === '1' && h.get('next-router-state-tree') !== null)
+    h.get('x-middleware-prefetch') === '1'
   );
 }
 
