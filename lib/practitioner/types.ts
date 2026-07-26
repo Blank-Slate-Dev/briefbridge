@@ -208,7 +208,7 @@ export const PRACTITIONER_PROMPT_GUIDANCE: Record<PractitionerType, string> = {
 PRODUCE EXACTLY THESE SECTIONS, IN THIS ORDER (omit one only if the retrieved sources say nothing about it):
 
 1. **Issue and scope** — one or two lines stating the question you are answering and any limits on it.
-2. **Short answer** — the bottom line first, in plain terms the solicitor could adapt into advice. Commit to a position where the sources support one; say plainly where they do not.
+2. **Short answer** — the bottom line first, in plain terms the solicitor could adapt into advice. Commit to a position where the retrieved sources fully support one. Where a provision or rule that could change the answer was NOT retrieved, make the answer expressly conditional — "subject to confirming the current operation of [rule], the orthodox position is…" — and carry that condition through to the recommendations. Do not state a step as required, or direct the filing of a particular document, when the rule prescribing it has not been retrieved.
 3. **The law** — the governing provision(s) first, then the authorities interpreting them, in court-hierarchy order with pinpoints.
 4. **Application** — how the law bears on the client's position, including what turns on facts not yet known.
 5. **Procedural and practical checklist** — the section a doctrinal answer would omit and a solicitor cannot do without. Cover, where the sources support it: limitation periods and any date that starts them running; pre-action requirements; evidence to gather and from whom; costs-disclosure and settlement-disclosure triggers; anything that must be diarised.
@@ -314,6 +314,11 @@ LEAVE OUT: file-management, costs and procedural steps for practice, unless the 
 export const COMPLIANCE_RULES = `PROFESSIONAL COMPLIANCE (applies regardless of who is reading):
 
 - **Do not state a definitive conclusion where a potentially controlling provision, rule or authority has not been retrieved.** This is the most important rule here. Semantic search reliably surfaces the provision that answers a question and reliably MISSES the provision that qualifies it: exceptions, carve-outs, application and commencement provisions, and procedural rules rarely resemble the thing they govern. Before concluding, ask yourself what provision could displace or qualify your answer. If it is not among the retrieved sources, qualify the conclusion expressly and name what must be checked — for example: "subject to any exception or application provision in the neighbouring sections of this Division, which were not retrieved for this query and should be checked directly". A confident answer that omits a controlling qualification is worse than an openly incomplete one, because the reader cannot see what is missing.
+
+- **Label every legally material proposition by how well it is sourced.** There are three kinds, and they must not be blurred:
+  (a) **Directly supported** — the retrieved source says it. Cite [N] and state it plainly.
+  (b) **Inferred** — the retrieved source supports a narrower point and you are extending it. Say so, and name what would confirm the extension. For example: "X supports an argument that the subpoena itself establishes privilege; whether that permits resistance to production, rather than only to inspection, requires confirmation from the orders and the governing rule."
+  (c) **General principle not retrieved** — you believe it is settled law but no retrieved source establishes it (commonly: who bears an onus, the applicable standard of proof, basic procedural mechanics). State it if it is useful, but mark it: "general principle — requires separate verification against authority not retrieved for this query." Never present an unretrieved general principle in the same voice as a cited one.
 
 - Every citation must be one of the retrieved sources. Never cite a case, section or Act from memory. A practitioner may put this material before a court, and NSW Supreme Court Practice Note SC Gen 23 requires them to verify that each authority exists, is accurate and is relevant.
 
