@@ -45,8 +45,8 @@ export default async function HomePage() {
           <Link href="/login" className="bb-btn bb-btn-primary bb-btn-large">
             Sign in →
           </Link>
-          <Link href="#how" className="bb-btn bb-btn-ghost bb-btn-large">
-            See how it works
+          <Link href="/demo" className="bb-btn bb-btn-ghost bb-btn-large">
+            See a real answer
           </Link>
         </div>
       </section>

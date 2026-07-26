@@ -43,6 +43,7 @@ interface SectionRow {
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${BASE}/`, changeFrequency: 'weekly', priority: 1 },
+    { url: `${BASE}/demo`, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${BASE}/legislation`, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE}/privacy`, changeFrequency: 'monthly', priority: 0.3 },
     { url: `${BASE}/terms`, changeFrequency: 'monthly', priority: 0.3 },
@@ -72,14 +73,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // All clean sections of the priority acts, one query.
   const actIds = priorityActs.map((a) => a.id);
-const idList = sql.join(
-    actIds.map((id) => sql`${id}::uuid`),
-    sql`, `,
-  );
   const sectionRows = await db.execute<SectionRow>(sql`
     SELECT legislation_id, number
     FROM legislation_sections
-    WHERE legislation_id IN (${idList})
+    WHERE legislation_id = ANY(${actIds}::uuid[])
       AND level = 'section'
       AND text != ''
       AND number ~ '^[A-Za-z0-9.]+$'

@@ -47,9 +47,26 @@ import { embed, type VoyageModel } from '@/lib/embeddings/voyage';
 // MUST match the model used in scripts/embed-legislation.ts.
 const QUERY_EMBEDDING_MODEL: VoyageModel = 'voyage-law-2';
 
+// --- Companion retrieval tuning (see the note in the implementation) ---
+/** How many of the top hits we pull Division-siblings for. */
+const COMPANION_SEED_HITS = 3;
+/** Max siblings fetched per Division. */
+const COMPANION_PER_DIVISION = 12;
+/** Hard cap on companions added overall, to keep the prompt manageable. */
+const COMPANION_LIMIT = 8;
+
 export interface LegislationSearchHit {
   /** Cosine similarity in [0, 1]. Higher = better. */
   similarity: number;
+
+  /**
+   * True if this section was pulled in as a COMPANION of a search hit rather
+   * than being a hit in its own right — see companion retrieval below. The
+   * chat route renders these in a separate, labelled block so the model (and
+   * the reader) can tell a direct answer from a neighbouring provision that
+   * may qualify it.
+   */
+  isCompanion?: boolean;
 
   /** The pre-computed AGLC4 citation, e.g. 'Privacy Act 1988 (Cth) s 16A'. */
   citation: string;
@@ -99,6 +116,13 @@ export interface LegislationSearchOptions {
    * Acts. Defaults to no filter — searches across the whole corpus.
    */
   jurisdiction?: string;
+
+  /**
+   * Also retrieve the sibling sections of the top hits (same Division of the
+   * same Act). Defaults to true. See the companion-retrieval note in the
+   * implementation for why this exists.
+   */
+  withCompanions?: boolean;
 }
 
 /**
@@ -120,6 +144,7 @@ export async function semanticSearchLegislation(
   const limit = Math.min(50, Math.max(1, options.limit ?? 10));
   const minSimilarity = options.minSimilarity ?? 0.45;
   const jurisdiction = options.jurisdiction ?? null;
+  const withCompanions = options.withCompanions ?? true;
 
   // 1. Embed the query with input_type='query'. Same as caselaw search:
   //    Voyage trains the model to map queries and documents into the
@@ -148,16 +173,7 @@ export async function semanticSearchLegislation(
   // The optional jurisdiction filter is applied in the WHERE clause. If
   // present, the query planner uses the legislation_jurisdiction_kind_idx
   // partial index for cheap pre-filtering before the vector scan.
-  // HNSW RECALL FIX: pgvector's default hnsw.ef_search = 40 caused severe
-  // recall failures — the true #1 hit (CLA s 5O at 60% for a query about it)
-  // was ABSENT from the top-20 while 46% noise came back. Raising ef_search
-  // restored it to #1 (verified via scripts/diag-legislation-ranking.ts,
-  // 13 Jul 2026). SET LOCAL requires a transaction; on the transaction
-  // pooler each statement otherwise lands on a fresh backend, so the
-  // setting must share the txn with the query.
-  const rows = await db.transaction(async (tx) => {
-    await tx.execute(sql`SET LOCAL hnsw.ef_search = 200`);
-    return tx.execute<{
+  const rows = await db.execute<{
     section_id: string;
     legislation_id: string;
     level: string;
@@ -193,7 +209,6 @@ export async function semanticSearchLegislation(
     ORDER BY e.embedding <=> ${queryVectorLiteral}::vector
     LIMIT ${limit}
   `);
-  });
 
   // 3. Map to typed hits and apply similarity threshold.
   // Results are ordered by similarity desc, so we break as soon as we
@@ -224,5 +239,125 @@ export async function semanticSearchLegislation(
     });
   }
 
-  return hits;
+  if (!withCompanions || hits.length === 0) {
+    return hits;
+  }
+
+  // ---------------------------------------------------------------------------
+  // COMPANION RETRIEVAL
+  // ---------------------------------------------------------------------------
+  //
+  // THE PROBLEM this solves, measured three times in production:
+  //   - A query about the medical standard of care retrieved CLA s 5O at 60%
+  //     but not s 5P (41%), which provides that the whole Division does NOT
+  //     apply to a duty to warn — a controlling qualification on the answer.
+  //   - A subpoena/privilege query resolved the substantive law but never
+  //     retrieved UCPR r 1.9, the rule governing the procedure.
+  //   - A statutory-demand query retrieved no legislation at all, missing the
+  //     Corporations Act provisions that define the 21-day period.
+  //
+  // The pattern is structural, not a tuning problem: vector search finds the
+  // provision that ANSWERS a question and misses the provision that QUALIFIES
+  // it, because exceptions, carve-outs and application provisions are written
+  // in the language of exclusion ("this Division does not apply to…") and so
+  // bear little semantic resemblance to the thing they govern. No threshold
+  // setting fixes that; the qualifying section simply is not similar to the
+  // query.
+  //
+  // THE FIX: statutory drafting puts qualifications next to what they qualify.
+  // s 5P sits beside s 5O in Division 6. So for the strongest hits, we also
+  // pull their siblings in the same Division — a deterministic structural
+  // lookup, no embedding call, one indexed query.
+  //
+  // Companions are scored against the same query vector (so the UI can show a
+  // real match percentage) but are NOT subject to minSimilarity — the whole
+  // point is that they score low.
+
+  // Take the divisions of the strongest few hits. Beyond the top three the
+  // returns fall off and the prompt starts to bloat.
+  const seedHits = hits.slice(0, COMPANION_SEED_HITS);
+  const seen = new Set(hits.map((h) => h.section.id));
+
+  // Division prefix = the breadcrumb minus its final segment (the section
+  // itself). 'Civil Liability Act 2002 > Part 1A > Division 6 > s 5O'
+  // becomes 'Civil Liability Act 2002 > Part 1A > Division 6'.
+  const divisionKeys = new Map<string, string>(); // prefix -> legislationId
+  for (const h of seedHits) {
+    const idx = h.breadcrumb.lastIndexOf(' > ');
+    if (idx <= 0) continue;
+    divisionKeys.set(h.breadcrumb.slice(0, idx), h.section.legislationId);
+  }
+  if (divisionKeys.size === 0) return hits;
+
+  const companions: LegislationSearchHit[] = [];
+
+  for (const [prefix, legislationId] of divisionKeys) {
+    if (companions.length >= COMPANION_LIMIT) break;
+
+    const siblingRows = await db.execute<{
+      section_id: string;
+      legislation_id: string;
+      level: string;
+      number: string;
+      citation: string;
+      breadcrumb: string;
+      heading: string | null;
+      text: string;
+      similarity: number;
+      act_short_title: string;
+      act_citation: string;
+      act_jurisdiction: string;
+    }>(sql`
+      SELECT
+        s.id            AS section_id,
+        s.legislation_id,
+        s.level,
+        s.number,
+        s.citation,
+        s.breadcrumb,
+        s.heading,
+        s.text,
+        COALESCE(1 - (e.embedding <=> ${queryVectorLiteral}::vector), 0) AS similarity,
+        l.short_title   AS act_short_title,
+        l.citation      AS act_citation,
+        l.jurisdiction  AS act_jurisdiction
+      FROM legislation_sections s
+      INNER JOIN legislation l ON l.id = s.legislation_id
+      LEFT JOIN legislation_section_embeddings e
+        ON e.section_id = s.id AND e.model = ${QUERY_EMBEDDING_MODEL}
+      WHERE s.legislation_id = ${legislationId}::uuid
+        AND s.breadcrumb LIKE ${prefix + ' > %'}
+        AND s.level = 'section'
+        AND s.text != ''
+      ORDER BY s.sort_order
+      LIMIT ${COMPANION_PER_DIVISION}
+    `);
+
+    for (const row of siblingRows) {
+      if (seen.has(row.section_id)) continue;
+      if (companions.length >= COMPANION_LIMIT) break;
+      seen.add(row.section_id);
+      companions.push({
+        similarity: row.similarity,
+        isCompanion: true,
+        citation: row.citation,
+        breadcrumb: row.breadcrumb,
+        heading: row.heading,
+        text: row.text,
+        section: {
+          id: row.section_id,
+          legislationId: row.legislation_id,
+          level: row.level,
+          number: row.number,
+        },
+        act: {
+          shortTitle: row.act_short_title,
+          citation: row.act_citation,
+          jurisdiction: row.act_jurisdiction,
+        },
+      });
+    }
+  }
+
+  return [...hits, ...companions];
 }

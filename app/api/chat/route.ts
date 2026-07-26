@@ -220,17 +220,36 @@ function buildSystemPrompt(
           .join('\n\n---\n\n');
 
   const legislationStartIndex = caselawHits.length + 1;
+
+  // Companion sections (Division-siblings of the strongest hits) are rendered
+  // in their own block. They keep the same [N] numbering — they are citable —
+  // but they are labelled so the model does not mistake a neighbouring
+  // provision for a direct answer, and, more importantly, so it CHECKS them
+  // for the exception that qualifies its conclusion. See the companion-
+  // retrieval note in lib/search/semantic-legislation.ts.
+  const directLegislation = legislationHits.filter((h) => !h.isCompanion);
+  const companionLegislation = legislationHits.filter((h) => h.isCompanion);
+
+  const renderLegislation = (hit: LegislationSearchHit, idx: number) => {
+    const headingLine = hit.heading
+      ? `${hit.citation} — ${hit.heading}`
+      : hit.citation;
+    return `[${idx}] ${headingLine}\n(${hit.breadcrumb})\n${hit.text}`;
+  };
+
   const legislationBlock =
-    legislationHits.length === 0
+    directLegislation.length === 0
       ? 'No relevant legislation sections were found in the database for this query.'
-      : legislationHits
-          .map((hit, i) => {
-            const idx = legislationStartIndex + i;
-            const headingLine = hit.heading
-              ? `${hit.citation} — ${hit.heading}`
-              : hit.citation;
-            return `[${idx}] ${headingLine}\n(${hit.breadcrumb})\n${hit.text}`;
-          })
+      : directLegislation
+          .map((hit, i) => renderLegislation(hit, legislationStartIndex + i))
+          .join('\n\n---\n\n');
+
+  const companionStartIndex = legislationStartIndex + directLegislation.length;
+  const companionBlock =
+    companionLegislation.length === 0
+      ? ''
+      : companionLegislation
+          .map((hit, i) => renderLegislation(hit, companionStartIndex + i))
           .join('\n\n---\n\n');
 
   // PRACTITIONER PROFILE — shapes the ANSWER, never the retrieval.
@@ -276,6 +295,17 @@ ${caselawBlock}
 Indexed [${legislationStartIndex}] through [${legislationStartIndex + legislationHits.length - 1}]:
 
 ${legislationBlock}
+${companionBlock ? `
+
+## Neighbouring provisions — CHECK THESE BEFORE CONCLUDING
+
+Indexed [${companionStartIndex}] through [${companionStartIndex + companionLegislation.length - 1}]:
+
+These sections were NOT returned by the search. They sit in the same Division of the same Act as the strongest results above, and are included because statutory qualifications live beside what they qualify. Search finds the provision that answers a question and misses the provision that limits it — an exception is written in the language of exclusion (\"this Division does not apply to…\") and so looks nothing like the query.
+
+Before you state a conclusion, read these for anything that carves out, excludes, defines, or conditions the operation of the provisions above. If one of them qualifies your answer, say so and cite it — that qualification is often the most important thing in the answer. If none of them do, ignore them silently; do not pad the answer by discussing irrelevant neighbours.
+
+${companionBlock}` : ''}
 
 # Who you are writing for — THIS GOVERNS THE SHAPE OF YOUR ANSWER
 
@@ -566,6 +596,7 @@ export async function POST(request: Request) {
     queryChars: latestUserMessage.length,
     caselawHits: caselawHits.length,
     legislationHits: legislationHits.length,
+    companionHits: legislationHits.filter((h) => h.isCompanion).length,
     topSimilarity: caselawHits[0]?.similarity ?? null,
     topCourt: caselawHits[0]?.judgment.court ?? null,
     practitionerType: practitioner.type,
