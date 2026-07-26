@@ -36,6 +36,15 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { createClient } from '@/lib/supabase/server';
 import { trackEvent } from '@/lib/analytics';
+import { resolvePractitioner } from '@/lib/practitioner/resolve';
+import {
+  PRACTITIONER_PROMPT_GUIDANCE,
+  practiceAreaGuidance,
+  isValidPractitionerType,
+  COMPLIANCE_RULES,
+  type PractitionerType,
+  type PracticeArea,
+} from '@/lib/practitioner/types';
 import { semanticSearch, type SemanticSearchHit } from '@/lib/search/semantic';
 import {
   semanticSearchLegislation,
@@ -45,6 +54,7 @@ import {
   createConversation,
   getConversation,
   appendMessage,
+  setConversationPractitioner,
 } from '@/lib/db/queries/conversations';
 import { getMatter } from '@/lib/db/queries/matters';
 import {
@@ -98,6 +108,8 @@ interface ChatRequest {
   messages: ChatMessage[];
   conversationId?: string;
   matterId?: string;
+  /** Per-thread practitioner override from the composer picker. */
+  practitionerOverride?: PractitionerType | null;
 }
 
 function validateRequest(body: unknown): ChatRequest | { error: string } {
@@ -160,7 +172,14 @@ function validateRequest(body: unknown): ChatRequest | { error: string } {
     }
   }
 
-  return { messages: cleaned, conversationId, matterId };
+  // Per-thread practitioner override from the composer picker. Validated
+  // against the taxonomy; anything unrecognised is treated as absent.
+  const practitionerOverride =
+    isValidPractitionerType(b.practitionerOverride)
+      ? b.practitionerOverride
+      : null;
+
+  return { messages: cleaned, conversationId, matterId, practitionerOverride };
 }
 
 const UUID_RE =
@@ -183,6 +202,10 @@ function buildSystemPrompt(
     truncated: boolean;
     totalAccessibleFiles: number;
   } | null,
+  practitioner: {
+    type: PractitionerType | null;
+    areas: PracticeArea[];
+  },
 ): string {
   const caselawBlock =
     caselawHits.length === 0
@@ -210,6 +233,30 @@ function buildSystemPrompt(
           })
           .join('\n\n---\n\n');
 
+  // PRACTITIONER PROFILE — shapes the ANSWER, never the retrieval.
+  // The retrieval above already ran unfiltered; this only tells the model how
+  // to present what came back. See lib/practitioner/types.ts for the
+  // "bias, never filter" rule and the per-role guidance text.
+  const roleGuidance = practitioner.type
+    ? PRACTITIONER_PROMPT_GUIDANCE[practitioner.type]
+    : PRACTITIONER_PROMPT_GUIDANCE.other;
+  const areaGuidance = practiceAreaGuidance(practitioner.areas);
+
+  // The user can change this setting mid-thread with the composer picker.
+  // Without this instruction the model sees the repeated question in the
+  // history and replies "that's the same question" — which is exactly wrong:
+  // the framing changed, so the answer must change.
+  const reframeRule =
+    'The user can change this setting at any point in a conversation. If a ' +
+    'question earlier in this thread is asked again, treat it as a request to ' +
+    'RE-ANSWER it in the shape described above. Never reply that it is the same ' +
+    'question or refer back to a previous answer — produce a fresh answer in the ' +
+    'current shape, even if the words of the question are identical.';
+
+  const practitionerBlock = [roleGuidance, areaGuidance, COMPLIANCE_RULES, reframeRule]
+    .filter(Boolean)
+    .join('\n\n');
+
   const base = `You are BriefBridge, a legal research assistant for Australian lawyers.
 
 You help lawyers research legal questions by analyzing the most relevant case law passages and legislation sections, providing grounded, accurate answers with verifiable citations.
@@ -230,6 +277,16 @@ Indexed [${legislationStartIndex}] through [${legislationStartIndex + legislatio
 
 ${legislationBlock}
 
+# Who you are writing for — THIS GOVERNS THE SHAPE OF YOUR ANSWER
+
+The section below specifies the DELIVERABLE: which sections to produce, in
+what order, and what belongs in each. It OVERRIDES the general structural
+guidance in "How to respond" below wherever the two differ. Different readers
+need materially different documents, not the same document with different
+headings — follow the specified sections.
+
+${practitionerBlock}
+
 # How to respond
 
 1. **Cite using the format [N] where N is the source number above.** Every legal proposition you assert must be backed by a citation from these sources. Multiple citations for one point are fine: [1][3]. Citations from BOTH caselaw and legislation use the same [N] numbering scheme.
@@ -240,11 +297,11 @@ ${legislationBlock}
 
 4. **Only cite what was retrieved, and never say something "isn't in the database."** Cite and name only the provisions, sections, and cases that appear in the retrieved sources above. Never name a section number, Act, or case from memory if it is not among those sources — even one you feel certain is relevant. The sources above are only what semantic search surfaced for this specific question; they are NOT the full contents of the database, which is far larger and covers extensive Commonwealth and NSW legislation. So if something relevant did not come up, say it "wasn't retrieved for this query" and suggest the lawyer rephrase or search for it directly — do NOT tell them it "isn't in the database" or "isn't available," and do NOT guess at its wording or section numbers. If the retrieved sources genuinely don't address the question, say so plainly: "The retrieved sources don't address this directly, but [related point]." Never invent a citation to fill a gap.
 
-5. **Structure for lawyers.** Use brief headings, numbered points, and clean prose. Match the register of a junior solicitor briefing a senior — accurate, concise, no fluff.
+5. **Structure for lawyers.** Use brief headings, numbered points, and clean prose — accurate, concise, no fluff. The SECTIONS and REGISTER are set by "Who you are writing for" above, not by this rule.
 
-6. **Surface the most relevant authorities up top.** If two cases or sections are leading authorities and others are tangential, focus on the leading ones first.
+6. **Surface the most relevant authorities up top.** If two cases or sections are leading authorities and others are tangential, focus on the leading ones first, subject to any ordering specified above.
 
-7. **End with practical considerations** when appropriate — what the lawyer should think about, what additional research might be needed, what the user's specific facts (if mentioned) might change.
+7. **Closing content follows the role spec.** Only include a practical/next-steps section if the specification above calls for one — it is right for a solicitor and wrong for a barrister's opinion. Where the spec has no such section, close as it directs.
 
 8. **You are not giving legal advice.** End substantive responses with a brief reminder that the lawyer should verify citations against the official version and that this is research assistance, not legal advice.
 
@@ -353,7 +410,12 @@ export async function POST(request: Request) {
   if ('error' in validation) {
     return jsonError(validation.error, 400);
   }
-  const { messages, conversationId: providedConversationId, matterId } = validation;
+  const {
+    messages,
+    conversationId: providedConversationId,
+    matterId,
+    practitionerOverride,
+  } = validation;
 
   if (!process.env.ANTHROPIC_API_KEY) {
     return jsonError('Server misconfigured: ANTHROPIC_API_KEY missing.', 500);
@@ -394,6 +456,13 @@ export async function POST(request: Request) {
     conversationId = newConv.id;
   }
 
+  // Persist a picker selection onto the thread so it sticks for later
+  // messages (and after a reload) without the user re-picking. Fire-and-
+  // forget: a failure here must not block the response.
+  if (practitionerOverride && conversationId) {
+    void setConversationPractitioner(user.id, conversationId, practitionerOverride);
+  }
+
   // ---------------------------------------------------------------------------
   // Persist user message BEFORE streaming
   // ---------------------------------------------------------------------------
@@ -421,10 +490,36 @@ export async function POST(request: Request) {
   // one search fails. A legislation outage shouldn't kill caselaw
   // retrieval. The other search proceeds with an empty result set.
 
-  const [caselawResult, legislationResult] = await Promise.allSettled([
-    semanticSearch(latestUserMessage, { limit: CASELAW_HIT_LIMIT }),
-    semanticSearchLegislation(latestUserMessage, { limit: LEGISLATION_HIT_LIMIT }),
-  ]);
+  // The practitioner profile joins this wave — it costs one indexed lookup and
+  // must not add a serial round trip to a request that already pays for two
+  // vector searches.
+  const [caselawResult, legislationResult, profileResult] =
+    await Promise.allSettled([
+      semanticSearch(latestUserMessage, { limit: CASELAW_HIT_LIMIT }),
+      semanticSearchLegislation(latestUserMessage, {
+        limit: LEGISLATION_HIT_LIMIT,
+      }),
+      // Resolution chain: thread override > user setting > firm assignment
+      // > balanced default. See lib/practitioner/resolve.ts.
+      resolvePractitioner(user.id, providedConversationId ?? null),
+    ]);
+
+  // Profile failure is non-fatal: fall back to the balanced default prompt.
+  const resolved =
+    profileResult.status === 'fulfilled'
+      ? profileResult.value
+      : {
+          type: null,
+          areas: [],
+          typeSource: 'default' as const,
+          areasSource: 'default' as const,
+        };
+
+  // A picker selection made in THIS request wins over everything, including
+  // an override already stored on the thread — the user just chose it.
+  const practitioner = practitionerOverride
+    ? { ...resolved, type: practitionerOverride, typeSource: 'thread' as const }
+    : resolved;
 
   let caselawHits: SemanticSearchHit[] = [];
   if (caselawResult.status === 'fulfilled') {
@@ -473,6 +568,9 @@ export async function POST(request: Request) {
     legislationHits: legislationHits.length,
     topSimilarity: caselawHits[0]?.similarity ?? null,
     topCourt: caselawHits[0]?.judgment.court ?? null,
+    practitionerType: practitioner.type,
+    practiceAreas: practitioner.areas,
+    practitionerSource: practitioner.typeSource,
   });
   if (caselawHits.length === 0 && legislationHits.length === 0) {
     void trackEvent(user.id, 'search_empty', {
@@ -582,6 +680,7 @@ export async function POST(request: Request) {
           caselawHits,
           legislationHits,
           aiFilesContext,
+          practitioner,
         );
 
         type AnthropicMessage = {

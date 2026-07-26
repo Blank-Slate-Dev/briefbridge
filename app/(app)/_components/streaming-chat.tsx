@@ -43,6 +43,8 @@ import {
   type ReactNode,
 } from 'react';
 import Link from 'next/link';
+import { ThreadPractitionerPicker } from './thread-practitioner-picker';
+import type { PractitionerType } from '@/lib/practitioner/types';
 import type {
   StoredCitation,
   CaselawCitation,
@@ -131,6 +133,12 @@ export interface StreamingChatProps {
    * a message can't go out mid-upload. Matter chat doesn't pass this.
    */
   isUploading?: boolean;
+  /**
+   * Practitioner profile the resolution chain lands on when this thread has
+   * no override — used to label the "Follow my profile" option. Optional:
+   * without it the picker just shows "Default".
+   */
+  inheritedPractitionerLabel?: string | null;
 }
 
 // =============================================================================
@@ -149,6 +157,7 @@ export function StreamingChat({
   pendingAttachments,
   onAttachmentsConsumed,
   isUploading = false,
+  inheritedPractitionerLabel,
 }: StreamingChatProps) {
   // Seed with server-provided initial messages. After mount all mutations
   // happen client-side.
@@ -175,6 +184,12 @@ export function StreamingChat({
   const [showJumpButton, setShowJumpButton] = useState(false);
 
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+
+  // Per-thread practitioner override. Held locally and sent with each
+  // message; the chat route applies it to that request AND persists it onto
+  // the conversation, so it works before the conversation row exists.
+  const [practitionerOverride, setPractitionerOverride] =
+    useState<PractitionerType | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const abortControllerRef = useRef<AbortController | null>(null);
@@ -332,6 +347,7 @@ export function StreamingChat({
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
+          practitionerOverride,
             messages: conversationForAPI,
             conversationId: conversationId ?? undefined,
             // matterId is sent on EVERY send when set (defensive — the API
@@ -525,6 +541,12 @@ export function StreamingChat({
             rows={1}
             disabled={isStreaming}
             aria-label="Your question"
+          />
+          <ThreadPractitionerPicker
+            value={practitionerOverride}
+            onChange={setPractitionerOverride}
+            inheritedLabel={inheritedPractitionerLabel}
+            disabled={isStreaming}
           />
           <button
             type="submit"

@@ -1,0 +1,165 @@
+/* app/(app)/settings/settings.css
+ *
+ * Styles for the settings page. Follows the same bb-* conventions and design
+ * tokens as matters.css / shell.css. Loaded from app/layout.tsx alongside the
+ * other (app) stylesheets.
+ */
+
+.bb-settings-main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 56px 32px 96px;
+}
+
+.bb-settings-head {
+  margin-bottom: 36px;
+}
+.bb-settings-title {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: clamp(32px, 4vw, 46px);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  color: var(--bb-ink);
+  font-weight: 400;
+  margin: 12px 0 16px;
+}
+.bb-settings-title em {
+  font-style: italic;
+  color: var(--bb-ink-soft);
+}
+.bb-settings-sub {
+  font-size: 15.5px;
+  line-height: 1.6;
+  color: var(--bb-muted);
+  max-width: 640px;
+  margin: 0;
+}
+
+.bb-settings-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bb-settings-card {
+  background: var(--bb-bg-elevated);
+  border: 1px solid var(--bb-border);
+  border-radius: 16px;
+  padding: 26px 28px;
+}
+.bb-settings-card-title {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--bb-ink);
+  margin: 0 0 6px;
+}
+.bb-settings-card-help {
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--bb-muted);
+  margin: 0 0 18px;
+}
+.bb-settings-card-help strong {
+  color: var(--bb-ink-soft);
+  font-weight: 500;
+}
+
+/* Practitioner-type options */
+.bb-settings-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 10px;
+}
+.bb-settings-option {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+  padding: 14px 16px;
+  border: 1px solid var(--bb-border);
+  border-radius: 12px;
+  background: var(--bb-bg);
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.bb-settings-option:hover {
+  border-color: var(--bb-border-strong);
+}
+.bb-settings-option-selected {
+  border-color: var(--bb-highlight);
+  background: rgba(201, 162, 75, 0.08);
+}
+.bb-settings-option-label {
+  font-size: 14.5px;
+  font-weight: 500;
+  color: var(--bb-ink);
+}
+.bb-settings-option-desc {
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--bb-muted);
+}
+
+/* Practice-area chips */
+.bb-settings-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.bb-settings-chip {
+  padding: 8px 14px;
+  border: 1px solid var(--bb-border);
+  border-radius: 999px;
+  background: var(--bb-bg);
+  font-family: inherit;
+  font-size: 13px;
+  color: var(--bb-ink-soft);
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+.bb-settings-chip:hover:not(:disabled) {
+  border-color: var(--bb-border-strong);
+}
+.bb-settings-chip-selected {
+  border-color: var(--bb-highlight);
+  background: rgba(201, 162, 75, 0.12);
+  color: var(--bb-ink);
+  font-weight: 500;
+}
+.bb-settings-chip:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.bb-settings-count {
+  font-size: 12px;
+  color: var(--bb-muted);
+  margin: 14px 0 0;
+}
+
+/* Save row */
+.bb-settings-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-top: 4px;
+}
+.bb-settings-status {
+  font-size: 13px;
+}
+.bb-settings-status-ok {
+  color: var(--bb-muted);
+}
+.bb-settings-status-error {
+  color: #b4453a;
+}
+
+@media (max-width: 700px) {
+  .bb-settings-main {
+    padding: 32px 20px 72px;
+  }
+  .bb-settings-card {
+    padding: 20px;
+  }
+}

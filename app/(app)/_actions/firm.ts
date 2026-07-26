@@ -30,6 +30,14 @@ import {
   type InvitableRole,
   type FirmMemberRow,
 } from '@/lib/db/queries/firm-invitations';
+import {
+  listFirmPractitionerAssignments,
+  setMemberPractitionerAssignment,
+} from '@/lib/db/queries/firm-practitioner';
+import {
+  isValidPractitionerType,
+  sanitisePracticeAreas,
+} from '@/lib/practitioner/types';
 import type { FirmInvitation } from '@/lib/db/schema';
 import { sendInviteEmail } from '@/lib/email/send-invite';
 
@@ -302,5 +310,105 @@ export async function listFirmDataAction(
     // eslint-disable-next-line no-console
     console.error('listFirmDataAction failed:', err);
     return { ok: false, error: 'Could not load firm data.' };
+  }
+}
+
+// =============================================================================
+// Practitioner assignment (firm-assigned defaults)
+// =============================================================================
+//
+// These sit in the RESOLUTION CHAIN as a FALLBACK:
+//   thread override > the member's own setting > firm assignment > default
+// So an owner can onboard a team with sensible defaults without overriding a
+// choice a practitioner has made for themselves. See lib/practitioner/resolve.
+
+/**
+ * Sets the firm-assigned practitioner defaults for one member.
+ *
+ * Authorisation: RLS on firm_memberships is the real gate (owner/admin write
+ * policies from migration 0016). The membership pre-check here only produces
+ * a friendlier error message.
+ */
+export async function setMemberPractitionerAction(
+  firmId: string,
+  memberUserId: string,
+  practitionerType: string | null,
+  practiceAreas: string[],
+): Promise<ActionResult> {
+  const auth = await requireUser();
+  if (!auth.ok) return { ok: false, error: auth.error };
+
+  const member = await isFirmMember(auth.userId, firmId);
+  if (!member) {
+    return { ok: false, error: 'You are not a member of this firm.' };
+  }
+
+  // Validate against the taxonomy — unknown values are dropped rather than
+  // rejected, so a stale client can't hard-fail the save.
+  const cleanType =
+    practitionerType === null || practitionerType === ''
+      ? null
+      : isValidPractitionerType(practitionerType)
+        ? practitionerType
+        : null;
+  const cleanAreas = sanitisePracticeAreas(practiceAreas);
+
+  let updated: boolean;
+  try {
+    updated = await setMemberPractitionerAssignment(auth.userId, {
+      firmId,
+      memberUserId,
+      practitionerType: cleanType,
+      practiceAreas: cleanAreas,
+    });
+  } catch (err) {
+    // eslint-disable-next-line no-console
+    console.error('setMemberPractitionerAction failed:', err);
+    return { ok: false, error: 'Could not update that member.' };
+  }
+
+  if (!updated) {
+    return {
+      ok: false,
+      error: 'Only firm owners and admins can assign practitioner defaults.',
+    };
+  }
+
+  return { ok: true };
+}
+
+/**
+ * Lists the firm-assigned practitioner defaults for every member, so the firm
+ * page can render them beside each member row.
+ */
+export async function listMemberPractitionersAction(
+  firmId: string,
+): Promise<
+  ActionResult<{
+    assignments: Array<{
+      userId: string;
+      practitionerType: string | null;
+      practiceAreas: string[];
+    }>;
+  }>
+> {
+  const auth = await requireUser();
+  if (!auth.ok) return { ok: false, error: auth.error };
+
+  const member = await isFirmMember(auth.userId, firmId);
+  if (!member) {
+    return { ok: false, error: 'You are not a member of this firm.' };
+  }
+
+  try {
+    const assignments = await listFirmPractitionerAssignments(
+      auth.userId,
+      firmId,
+    );
+    return { ok: true, data: { assignments } };
+  } catch (err) {
+    // eslint-disable-next-line no-console
+    console.error('listMemberPractitionersAction failed:', err);
+    return { ok: false, error: 'Could not load practitioner assignments.' };
   }
 }

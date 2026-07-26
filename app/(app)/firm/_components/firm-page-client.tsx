@@ -18,7 +18,7 @@
 'use client';
 
 import './firm.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import type { FirmRole } from '@/lib/db/schema';
 import type {
   FirmMemberRow,
@@ -29,7 +29,18 @@ import {
   createInvitationAction,
   revokeInvitationAction,
   listFirmDataAction,
+  setMemberPractitionerAction,
+  listMemberPractitionersAction,
 } from '../../_actions/firm';
+import {
+  PRACTITIONER_TYPES,
+  PRACTITIONER_TYPE_LABELS,
+  PRACTICE_AREAS,
+  PRACTICE_AREA_LABELS,
+  MAX_PRACTICE_AREAS,
+  type PractitionerType,
+  type PracticeArea,
+} from '@/lib/practitioner/types';
 
 const INVITE_ROLES: InvitableRole[] = ['admin', 'lawyer', 'paralegal'];
 
@@ -75,6 +86,38 @@ export function FirmPageClient({
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [copiedToken, setCopiedToken] = useState<string | null>(null);
+
+  // Firm-assigned practitioner defaults, keyed by userId. A FALLBACK only:
+  // a member who sets their own profile keeps theirs. See the resolution
+  // chain in lib/practitioner/resolve.ts.
+  const [assignments, setAssignments] = useState<
+    Record<string, { type: PractitionerType | null; areas: PracticeArea[] }>
+  >({});
+  const [editingMember, setEditingMember] = useState<string | null>(null);
+
+  // Load assignments once. The member list comes from a SECURITY DEFINER
+  // function that doesn't return these columns, so they're fetched separately.
+  useEffect(() => {
+    let cancelled = false;
+    void (async () => {
+      const result = await listMemberPractitionersAction(firmId);
+      if (cancelled || !result.ok) return;
+      const map: Record<
+        string,
+        { type: PractitionerType | null; areas: PracticeArea[] }
+      > = {};
+      for (const a of result.data.assignments) {
+        map[a.userId] = {
+          type: (a.practitionerType as PractitionerType | null) ?? null,
+          areas: (a.practiceAreas as PracticeArea[]) ?? [],
+        };
+      }
+      setAssignments(map);
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [firmId]);
 
   // Re-pull members + pending invites from the server.
   async function refresh() {
@@ -235,11 +278,189 @@ export function FirmPageClient({
                 <span className="bb-firm-list-meta">
                   {m.email} · {roleLabel(m.role)}
                 </span>
+                <PractitionerSummary assignment={assignments[m.userId]} />
               </div>
+              {canManage && (
+                <button
+                  type="button"
+                  className="bb-firm-assign-btn"
+                  onClick={() =>
+                    setEditingMember(
+                      editingMember === m.userId ? null : m.userId,
+                    )
+                  }
+                >
+                  {editingMember === m.userId ? "Close" : "Set default"}
+                </button>
+              )}
+              {canManage && editingMember === m.userId && (
+                <PractitionerAssigner
+                  firmId={firmId}
+                  memberUserId={m.userId}
+                  initial={assignments[m.userId]}
+                  onSaved={(next) => {
+                    setAssignments((prev) => ({ ...prev, [m.userId]: next }));
+                    setEditingMember(null);
+                  }}
+                />
+              )}
             </li>
           ))}
         </ul>
       </section>
+    </div>
+  );
+}
+
+// =============================================================================
+// Practitioner assignment sub-components
+// =============================================================================
+
+/** Compact read-only line under a member's email showing what's assigned. */
+function PractitionerSummary({
+  assignment,
+}: {
+  assignment?: { type: PractitionerType | null; areas: PracticeArea[] };
+}) {
+  if (!assignment || (!assignment.type && assignment.areas.length === 0)) {
+    return (
+      <span className="bb-firm-list-assign bb-firm-list-assign-empty">
+        No firm default set
+      </span>
+    );
+  }
+  const parts: string[] = [];
+  if (assignment.type) parts.push(PRACTITIONER_TYPE_LABELS[assignment.type]);
+  if (assignment.areas.length > 0) {
+    parts.push(assignment.areas.map((a) => PRACTICE_AREA_LABELS[a]).join(', '));
+  }
+  return (
+    <span className="bb-firm-list-assign">Firm default: {parts.join(' · ')}</span>
+  );
+}
+
+/**
+ * Inline editor for one member's firm-assigned defaults. Owner/admin only
+ * (the parent gates on canManage, and RLS is the real guard).
+ */
+function PractitionerAssigner({
+  firmId,
+  memberUserId,
+  initial,
+  onSaved,
+}: {
+  firmId: string;
+  memberUserId: string;
+  initial?: { type: PractitionerType | null; areas: PracticeArea[] };
+  onSaved: (next: {
+    type: PractitionerType | null;
+    areas: PracticeArea[];
+  }) => void;
+}) {
+  const [type, setType] = useState<PractitionerType | null>(
+    initial?.type ?? null,
+  );
+  const [areas, setAreas] = useState<Set<PracticeArea>>(
+    () => new Set(initial?.areas ?? []),
+  );
+  const [saving, setSaving] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const atLimit = areas.size >= MAX_PRACTICE_AREAS;
+
+  function toggleArea(a: PracticeArea) {
+    setAreas((prev) => {
+      const next = new Set(prev);
+      if (next.has(a)) next.delete(a);
+      else if (next.size < MAX_PRACTICE_AREAS) next.add(a);
+      return next;
+    });
+  }
+
+  async function handleSave() {
+    setSaving(true);
+    setError(null);
+    const result = await setMemberPractitionerAction(
+      firmId,
+      memberUserId,
+      type,
+      Array.from(areas),
+    );
+    setSaving(false);
+    if (result.ok) {
+      onSaved({ type, areas: Array.from(areas) });
+    } else {
+      setError(result.error);
+    }
+  }
+
+  return (
+    <div className="bb-firm-assigner">
+      <p className="bb-firm-assigner-help">
+        A starting point for this member. If they set their own practitioner
+        profile, theirs takes precedence — and any single research thread can
+        still be changed on the fly.
+      </p>
+
+      <div className="bb-firm-assigner-row">
+        <label className="bb-firm-assigner-label" htmlFor={`type-${memberUserId}`}>
+          Practitioner type
+        </label>
+        <select
+          id={`type-${memberUserId}`}
+          className="bb-firm-select"
+          value={type ?? ''}
+          onChange={(e) =>
+            setType(
+              e.target.value === ''
+                ? null
+                : (e.target.value as PractitionerType),
+            )
+          }
+        >
+          <option value="">No default</option>
+          {PRACTITIONER_TYPES.map((t) => (
+            <option key={t} value={t}>
+              {PRACTITIONER_TYPE_LABELS[t]}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      <div className="bb-firm-assigner-row">
+        <span className="bb-firm-assigner-label">
+          Practice areas ({areas.size}/{MAX_PRACTICE_AREAS})
+        </span>
+        <div className="bb-firm-assigner-chips">
+          {PRACTICE_AREAS.map((a) => {
+            const selected = areas.has(a);
+            return (
+              <button
+                key={a}
+                type="button"
+                className={`bb-firm-chip${selected ? ' bb-firm-chip-selected' : ''}`}
+                onClick={() => toggleArea(a)}
+                disabled={!selected && atLimit}
+                aria-pressed={selected}
+              >
+                {PRACTICE_AREA_LABELS[a]}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      <div className="bb-firm-assigner-actions">
+        <button
+          type="button"
+          className="bb-btn bb-btn-primary bb-btn-small"
+          onClick={handleSave}
+          disabled={saving}
+        >
+          {saving ? 'Saving…' : 'Save default'}
+        </button>
+        {error && <span className="bb-firm-error">{error}</span>}
+      </div>
     </div>
   );
 }

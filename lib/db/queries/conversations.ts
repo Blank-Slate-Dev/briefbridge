@@ -22,6 +22,7 @@ import {
   type Message,
   type StoredCitation,
 } from '@/lib/db/schema';
+import type { PractitionerType } from '@/lib/practitioner/types';
 
 // =============================================================================
 // List
@@ -250,4 +251,45 @@ export async function getConversation(
   );
 
   return rows[0] ?? null;
+}
+
+// =============================================================================
+// Per-thread practitioner override
+// =============================================================================
+
+/**
+ * Stores a per-thread practitioner override on a conversation.
+ *
+ * This is the highest-priority link in the resolution chain
+ * (thread > user setting > firm assignment > balanced default) — see
+ * lib/practitioner/resolve.ts. Constrained to the caller's own conversations,
+ * so a mismatched id is simply a no-op.
+ *
+ * Called fire-and-forget from the chat route: a failure here must never block
+ * a response, so errors are swallowed and logged rather than thrown.
+ */
+export async function setConversationPractitioner(
+  userId: string,
+  conversationId: string,
+  practitionerType: PractitionerType | null,
+): Promise<void> {
+  try {
+    await withUser(userId, (tx) =>
+      tx
+        .update(conversations)
+        .set({ practitionerType, updatedAt: new Date() })
+        .where(
+          and(
+            eq(conversations.id, conversationId),
+            eq(conversations.userId, userId),
+          ),
+        ),
+    );
+  } catch (err) {
+    // eslint-disable-next-line no-console
+    console.error(
+      '[conversations] setConversationPractitioner failed:',
+      err instanceof Error ? err.message : String(err),
+    );
+  }
 }

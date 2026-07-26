@@ -87,6 +87,10 @@ import {
   primaryKey,
 } from 'drizzle-orm/pg-core';
 import { sql } from 'drizzle-orm';
+import type {
+  PractitionerType,
+  PracticeArea,
+} from '@/lib/practitioner/types';
 
 // -----------------------------------------------------------------------------
 // auth.users — TYPE-ONLY REFERENCE (unchanged)
@@ -235,11 +239,31 @@ export type MatterStatus =
 
 export type AiAccessMode = 'off' | 'all' | 'subset';
 
+/**
+ * profiles — extended (migration 0019) with the PRACTITIONER PROFILE:
+ *
+ *   practitionerType  solicitor | barrister | in_house | paralegal |
+ *                     student | other. Controls the SHAPE of chat answers
+ *                     (a barrister wants authorities and counter-arguments;
+ *                     a solicitor wants advice framing and next steps).
+ *
+ *   practiceAreas     e.g. ['criminal','family']. Controls EMPHASIS only.
+ *                     Never used to filter retrieval — see the "bias, never
+ *                     filter" rule in lib/practitioner/types.ts.
+ *
+ * Both are nullable/empty by default; the chat route falls back to a balanced
+ * general-purpose prompt when unset. The taxonomy lives in
+ * lib/practitioner/types.ts and is mirrored by a DB CHECK constraint.
+ */
 export const profiles = pgTable('profiles', {
   id: uuid('id').primaryKey(),
   fullName: text('full_name'),
   firmName: text('firm_name'),
   role: text('role'),
+  // --- Migration 0019: practitioner profile ---
+  practitionerType: text('practitioner_type').$type<PractitionerType>(),
+  practiceAreas: text('practice_areas').array().$type<PracticeArea[]>().notNull().default([]),
+  // --------------------------------------------
   createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
   updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
 });
@@ -323,6 +347,14 @@ export const firmMemberships = pgTable(
     firmId: uuid('firm_id').notNull(),
     userId: uuid('user_id').notNull(),
     role: text('role').$type<FirmRole>().notNull(),
+    // --- Migration 0020: firm-assigned practitioner defaults ---
+    // Set by an owner/admin for this member. A FALLBACK in the resolution
+    // chain (thread > user > firm > default) — never a lock: the member can
+    // still set their own, and any thread can override. See
+    // lib/practitioner/resolve.ts.
+    practitionerType: text('practitioner_type').$type<PractitionerType>(),
+    practiceAreas: text('practice_areas').array().$type<PracticeArea[]>().notNull().default([]),
+    // -----------------------------------------------------------
     createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
   },
   (t) => ({
@@ -409,6 +441,16 @@ export const conversations = pgTable(
     userId: uuid('user_id').notNull(),
     matterId: uuid('matter_id'),
     title: text('title'),
+    // --- Migration 0020: per-thread practitioner override ---
+    // "Answer this one thread as a barrister would", without changing the
+    // user's own setting. Highest priority in the resolution chain.
+    //
+    // practiceAreas is NULLABLE here on purpose:
+    //   null → inherit from the chain
+    //   []   → explicitly no areas for this thread
+    practitionerType: text('practitioner_type').$type<PractitionerType>(),
+    practiceAreas: text('practice_areas').array().$type<PracticeArea[]>(),
+    // --------------------------------------------------------
     createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
     updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
   },

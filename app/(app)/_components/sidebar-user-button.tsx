@@ -108,6 +108,16 @@ export function SidebarUserButton({ email, displayName }: SidebarUserButtonProps
             <span className="bb-shell-user-menu-email">{email}</span>
           </div>
           <div className="bb-shell-user-menu-divider" />
+          {/* Practitioner profile — shapes how chat answers are written. */}
+          <Link
+            href="/settings"
+            className="bb-shell-user-menu-item"
+            role="menuitem"
+            onClick={() => setOpen(false)}
+          >
+            Settings
+          </Link>
+          <div className="bb-shell-user-menu-divider" />
           {/* Sign out is a real form POST so it works without JS and is
               CSRF-resistant. The /auth/signout route only accepts POST. */}
           <form action="/auth/signout" method="post" className="bb-shell-user-menu-form">
