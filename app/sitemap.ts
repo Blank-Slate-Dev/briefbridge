@@ -73,10 +73,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // All clean sections of the priority acts, one query.
   const actIds = priorityActs.map((a) => a.id);
+  // NOTE: Drizzle renders a JS array as a (a, b, c) tuple, which Postgres
+  // cannot cast to uuid[] — so ANY(${actIds}::uuid[]) fails at build time with
+  // "cannot cast type record to uuid[]". Build an explicit IN list instead.
+  const idList = sql.join(
+    actIds.map((id) => sql`${id}::uuid`),
+    sql`, `,
+  );
   const sectionRows = await db.execute<SectionRow>(sql`
     SELECT legislation_id, number
     FROM legislation_sections
-    WHERE legislation_id = ANY(${actIds}::uuid[])
+    WHERE legislation_id IN (${idList})
       AND level = 'section'
       AND text != ''
       AND number ~ '^[A-Za-z0-9.]+$'
