@@ -1024,3 +1024,97 @@ export const analyticsEvents = pgTable(
 
 export type AnalyticsEvent = typeof analyticsEvents.$inferSelect;
 export type NewAnalyticsEvent = typeof analyticsEvents.$inferInsert;
+
+// =============================================================================
+// STRIPE BILLING
+// =============================================================================
+//
+// Stripe is the source of truth for billing. These tables are a local mirror,
+// kept in sync by the webhook at app/api/stripe/webhook/route.ts, so that
+// gating a page costs one indexed read instead of a Stripe API call.
+//
+// Neither table has RLS: both are written by the webhook, which runs without a
+// user session and so cannot satisfy a user-scoped policy. Reads always go
+// through server-side queries that constrain on the authenticated user's id.
+
+/** Mirrors Stripe's subscription.status values. */
+export type SubscriptionStatus =
+  | 'trialing'
+  | 'active'
+  | 'past_due'
+  | 'canceled'
+  | 'incomplete'
+  | 'incomplete_expired'
+  | 'unpaid'
+  | 'paused';
+
+export const subscriptions = pgTable(
+  'subscriptions',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    userId: uuid('user_id').notNull().unique(),
+
+    stripeCustomerId: text('stripe_customer_id').notNull(),
+    stripeSubscriptionId: text('stripe_subscription_id').unique(),
+
+    status: text('status').$type<SubscriptionStatus>().notNull(),
+    priceId: text('price_id'),
+
+    /**
+     * End of the paid period. Access is granted up to this instant even after
+     * a cancellation — the user has paid for it.
+     */
+    currentPeriodEnd: timestamp('current_period_end', { withTimezone: true }),
+
+    /** True when cancelled but the paid period hasn't elapsed yet. */
+    cancelAtPeriodEnd: boolean('cancel_at_period_end').notNull().default(false),
+
+    trialEnd: timestamp('trial_end', { withTimezone: true }),
+
+    createdAt: timestamp('created_at', { withTimezone: true })
+      .notNull()
+      .defaultNow(),
+    updatedAt: timestamp('updated_at', { withTimezone: true })
+      .notNull()
+      .defaultNow(),
+  },
+  (t) => ({
+    userIdIdx: index('subscriptions_user_id_idx').on(t.userId),
+    customerIdx: index('subscriptions_stripe_customer_idx').on(
+      t.stripeCustomerId,
+    ),
+    statusIdx: index('subscriptions_status_idx').on(t.status),
+  }),
+);
+
+export type Subscription = typeof subscriptions.$inferSelect;
+export type NewSubscription = typeof subscriptions.$inferInsert;
+
+/**
+ * Cards that have already consumed a free trial.
+ *
+ * Stripe assigns every card a stable `fingerprint`, identical across customers
+ * and payment methods within an account. Recording it at trial start means a
+ * second signup with the same card starts paying immediately instead of
+ * getting another free week. It doesn't stop someone with a second card — it
+ * stops casual account-recycling, which is the realistic abuse.
+ */
+export const trialFingerprints = pgTable(
+  'trial_fingerprints',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    fingerprint: text('fingerprint').notNull().unique(),
+    /** First user to consume a trial with this card — kept for support. */
+    firstUserId: uuid('first_user_id'),
+    createdAt: timestamp('created_at', { withTimezone: true })
+      .notNull()
+      .defaultNow(),
+  },
+  (t) => ({
+    fingerprintIdx: index('trial_fingerprints_fingerprint_idx').on(
+      t.fingerprint,
+    ),
+  }),
+);
+
+export type TrialFingerprint = typeof trialFingerprints.$inferSelect;
