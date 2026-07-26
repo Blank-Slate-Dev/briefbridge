@@ -36,6 +36,10 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { createClient } from '@/lib/supabase/server';
 import { trackEvent } from '@/lib/analytics';
+import {
+  checkEntitlement,
+  entitlementMessage,
+} from '@/lib/billing/require-subscription';
 import { resolvePractitioner } from '@/lib/practitioner/resolve';
 import {
   PRACTITIONER_PROMPT_GUIDANCE,
@@ -427,6 +431,23 @@ export async function POST(request: Request) {
   } = await supabase.auth.getUser();
   if (!user) {
     return jsonError('Not authenticated.', 401);
+  }
+
+  // ENTITLEMENT GATE — before any billable work.
+  //
+  // Every message here costs Anthropic and Voyage credits, so this check sits
+  // ahead of parsing, retrieval and inference rather than at the UI layer. 402
+  // Payment Required is the honest status; the client shows the message and a
+  // link to /billing.
+  const entitlement = await checkEntitlement(user.id);
+  if (!entitlement.allowed) {
+    return new Response(
+      JSON.stringify({
+        error: entitlementMessage(entitlement.access),
+        code: 'subscription_required',
+      }),
+      { status: 402, headers: { 'Content-Type': 'application/json' } },
+    );
   }
 
   let body: unknown;

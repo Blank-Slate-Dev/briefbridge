@@ -145,6 +145,13 @@ export interface StreamingChatProps {
 // Component
 // =============================================================================
 
+/**
+ * Prefix marking an error as the subscription gate rather than a failure.
+ * Kept as a sentinel on the message string because errors travel through the
+ * existing message.error channel; a separate state field would have to be
+ * threaded through the reducer for no real gain.
+ */
+const SUBSCRIPTION_REQUIRED = '__SUBSCRIPTION_REQUIRED__';
 export function StreamingChat({
   initialMessages,
   initialConversationId,
@@ -360,11 +367,19 @@ export function StreamingChat({
 
         if (!response.ok) {
           let errorText = `HTTP ${response.status}`;
+          let code: string | null = null;
           try {
             const errBody = await response.json();
             if (errBody?.error) errorText = errBody.error;
+            if (errBody?.code) code = errBody.code;
           } catch {
             // ignore
+          }
+          // A 402 isn't a fault — it's the subscription gate. Marked with a
+          // sentinel prefix so the renderer shows a billing prompt with a link
+          // rather than a red "something went wrong".
+          if (response.status === 402 || code === 'subscription_required') {
+            throw new Error(`${SUBSCRIPTION_REQUIRED}${errorText}`);
           }
           throw new Error(errorText);
         }
@@ -615,7 +630,56 @@ function AssistantMessage({ message }: { message: ChatMessage }) {
     <div className="bb-msg bb-msg-assistant">
       {showThinking && <ThinkingIndicator />}
 
-      {message.error && (
+      {message.error?.startsWith(SUBSCRIPTION_REQUIRED) && (
+        <div
+          style={{
+            background: '#fff',
+            border: '1px solid #e7e0d2',
+            borderTop: '4px solid #c9a24b',
+            borderRadius: 14,
+            padding: '1.25rem 1.5rem',
+            margin: '10px 0',
+          }}
+        >
+          <p
+            style={{
+              fontFamily: 'var(--font-fraunces), Georgia, serif',
+              fontSize: 16,
+              color: '#1a1f2e',
+              margin: '0 0 6px',
+            }}
+          >
+            Subscription required
+          </p>
+          <p
+            style={{
+              fontSize: 14,
+              lineHeight: 1.6,
+              color: '#3a4256',
+              margin: '0 0 14px',
+            }}
+          >
+            {message.error.replace(SUBSCRIPTION_REQUIRED, '')}
+          </p>
+          <Link
+            href="/billing"
+            style={{
+              display: 'inline-block',
+              background: '#1a1f2e',
+              color: '#f4efe6',
+              padding: '9px 20px',
+              borderRadius: 999,
+              fontSize: 14,
+              fontWeight: 600,
+              textDecoration: 'none',
+            }}
+          >
+            Go to billing →
+          </Link>
+        </div>
+      )}
+
+      {message.error && !message.error.startsWith(SUBSCRIPTION_REQUIRED) && (
         <div className="bb-chat-error">
           <p className="bb-chat-error-title">Something went wrong</p>
           <p className="bb-chat-error-body">{message.error}</p>
