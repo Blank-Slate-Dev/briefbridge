@@ -9,6 +9,12 @@
 // state has had a chance to sync. After hydration, the provider's state
 // becomes the source of truth and any changes (status update, new matter)
 // reflect immediately.
+//
+// PERFORMANCE (July 2026): the matter cards use prefetch={false}. Next.js
+// prefetches every visible <Link> by default, and because /matters/[id] is
+// force-dynamic each prefetch runs a full server render + database round
+// trips — so a 5-case list quietly fired 5 expensive renders nobody asked
+// for. loading.tsx supplies an instant skeleton on the real click instead.
 
 'use client';
 
@@ -99,7 +105,7 @@ function MatterCard({ matter }: { matter: Matter }) {
   // Authorities tracking). For now we show the description, status, and
   // a relative timestamp.
   return (
-    <Link href={`/matters/${matter.id}`} className="bb-matter-card">
+    <Link href={`/matters/${matter.id}`} className="bb-matter-card" prefetch={false}>
       <div className="bb-matter-card-head">
         <div className="bb-matter-card-name-block">
           <h3 className="bb-matter-card-name">{matter.name}</h3>

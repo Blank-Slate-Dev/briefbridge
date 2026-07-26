@@ -15,6 +15,15 @@
 // What changed in Chunk 5:
 //   - `recentResearch` prop fetched server-side by layout.tsx.
 //   - "New chat" → "New research"; "Recent chats" → "Recent research".
+//
+// PERFORMANCE (July 2026) — every <Link> here carries prefetch={false}.
+// Next.js prefetches links on viewport entry by default. Because these routes
+// are force-dynamic, EACH prefetch triggers a full server render plus database
+// round trips. A logged-in /matters load was firing ~30 of these (?_rsc=
+// requests, 300-500ms apiece) — one per sidebar item — swamping the browser's
+// connection pool and the database, and pushing the page past 6s. Disabling
+// prefetch trades a marginally slower first click (covered by loading.tsx
+// skeletons) for a dramatically faster page load.
 
 'use client';
 
@@ -244,7 +253,7 @@ export function AppSidebar({
         aria-label="Workspace navigation"
       >
         <div className="bb-shell-brand">
-          <Link href="/" className="bb-shell-brand-link" aria-label="BriefBridge home">
+          <Link href="/" className="bb-shell-brand-link" aria-label="BriefBridge home" prefetch={false}>
             <Image
               src="/logo.png"
               alt="BriefBridge"
@@ -293,7 +302,7 @@ export function AppSidebar({
                 const meta = matterName ? `${matterName} · ${time}` : time;
                 return (
                   <li key={c.id}>
-                    <Link href={href} className="bb-shell-list-item" title={title}>
+                    <Link href={href} className="bb-shell-list-item" title={title} prefetch={false}>
                       <span className="bb-shell-list-item-icon" aria-hidden>
                         <MessageSquare size={16} strokeWidth={1.5} />
                       </span>
@@ -324,6 +333,7 @@ export function AppSidebar({
             href="/matters"
             className="bb-shell-see-all"
             title="View all cases"
+          prefetch={false}
           >
             <span className="bb-shell-see-all-icon" aria-hidden>
               <ArrowRight size={14} strokeWidth={1.75} />
@@ -344,6 +354,7 @@ export function AppSidebar({
               href="/firm"
               className={`bb-shell-secondary-link ${pathname === '/firm' ? 'bb-shell-list-item-active' : ''}`}
               title="Manage your firm — members and invites"
+            prefetch={false}
             >
               <span className="bb-shell-secondary-icon" aria-hidden>
                 <Users size={16} strokeWidth={1.75} />
@@ -372,6 +383,7 @@ export function AppSidebar({
             href="/cases"
             className="bb-shell-secondary-link"
             title="Search judgments"
+          prefetch={false}
           >
             <span className="bb-shell-secondary-icon" aria-hidden>
               <Scale size={16} strokeWidth={1.75} />
@@ -384,6 +396,7 @@ export function AppSidebar({
               href="/admin/analytics"
               className={`bb-shell-secondary-link ${pathname === '/admin/analytics' ? 'bb-shell-list-item-active' : ''}`}
               title="Usage analytics (admin)"
+            prefetch={false}
             >
               <span className="bb-shell-secondary-icon" aria-hidden>
                 <BarChart3 size={16} strokeWidth={1.75} />
@@ -434,6 +447,7 @@ function CaseList({
               href={`/matters/${m.id}`}
               className={`bb-shell-list-item ${active ? 'bb-shell-list-item-active' : ''}`}
               title={m.name}
+            prefetch={false}
             >
               <CaseIcon status={m.status} />
               <span className="bb-shell-list-item-body">
@@ -489,6 +503,7 @@ function SidebarSection({
             className="bb-shell-section-action"
             aria-label={action.ariaLabel}
             title={action.ariaLabel}
+          prefetch={false}
           >
             {action.icon}
           </Link>
