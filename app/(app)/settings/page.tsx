@@ -1,15 +1,18 @@
 // app/(app)/settings/page.tsx
 //
-// Settings — currently just the practitioner profile, which shapes how chat
-// answers are written (see lib/practitioner/types.ts).
+// Settings — practitioner profile (which shapes how chat answers are written,
+// see lib/practitioner/types.ts) and subscription state.
 //
-// Server Component: authenticates, loads the profile in one query, hands it
-// to the client form as initial state so there is no client fetch on mount.
+// Server Component: authenticates, then loads the profile and the entitlement
+// in ONE parallel wave. Both are single indexed reads; running them serially
+// would add a needless round trip to Singapore on every visit.
 
 import { redirect } from 'next/navigation';
 import { createClient } from '@/lib/supabase/server';
 import { getPractitionerProfile } from '@/lib/db/queries/profile';
+import { getAccessState } from '@/lib/db/queries/subscription';
 import { PractitionerSettingsForm } from './_components/practitioner-settings-form';
+import { SubscriptionCard } from './_components/subscription-card';
 
 export const dynamic = 'force-dynamic';
 
@@ -22,7 +25,10 @@ export default async function SettingsPage() {
     redirect('/login?next=/settings');
   }
 
-  const profile = await getPractitionerProfile(user.id);
+  const [profile, access] = await Promise.all([
+    getPractitionerProfile(user.id),
+    getAccessState(user.id),
+  ]);
 
   return (
     <main className="bb-settings-main">
@@ -43,6 +49,17 @@ export default async function SettingsPage() {
         initialType={profile.practitionerType}
         initialAreas={profile.practiceAreas}
       />
+
+      <div style={{ marginTop: 20 }}>
+        <SubscriptionCard
+          hasAccess={access.hasAccess}
+          status={access.status}
+          isTrialing={access.isTrialing}
+          trialEnd={access.trialEnd?.toISOString() ?? null}
+          currentPeriodEnd={access.currentPeriodEnd?.toISOString() ?? null}
+          cancelAtPeriodEnd={access.cancelAtPeriodEnd}
+        />
+      </div>
     </main>
   );
 }
