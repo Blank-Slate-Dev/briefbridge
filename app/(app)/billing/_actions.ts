@@ -1,20 +1,32 @@
 // app/(app)/billing/_actions.ts
 //
-// Server actions for billing: start a subscription, and open the customer
-// portal.
+// Server actions for billing: start a subscription, cancel, resume, and open
+// the customer portal.
 //
 // 'use server' rule observed throughout this codebase: async function exports
 // ONLY. No type re-exports — Turbopack keeps dangling references to them and
 // they fail at runtime. Result shapes are inlined.
+//
+// CANCEL/RESUME are done here rather than in Stripe's hosted portal because
+// the portal cannot be embedded (it refuses to be iframed), and sending
+// someone off-site to cancel is a poor experience for the one action they are
+// most likely to want. Card updates and invoice history still live in the
+// portal, which is why createPortalSessionAction remains.
 
 'use server';
 
 import { redirect } from 'next/navigation';
+import { revalidatePath } from 'next/cache';
 import { createClient } from '@/lib/supabase/server';
 import { stripe, STRIPE_PRICE_ID, TRIAL_DAYS, appUrl } from '@/lib/stripe';
-import { getSubscription } from '@/lib/db/queries/subscription';
+import {
+  getSubscription,
+  upsertSubscription,
+} from '@/lib/db/queries/subscription';
+import type { SubscriptionStatus } from '@/lib/db/schema';
 
 type ActionResult = { ok: true; url: string } | { ok: false; error: string };
+type MutateResult = { ok: true } | { ok: false; error: string };
 
 /**
  * Creates a Stripe Checkout session and returns its URL.
@@ -96,8 +108,103 @@ export async function createCheckoutSessionAction(): Promise<ActionResult> {
 }
 
 /**
- * Opens the Stripe customer portal, where the user can update their card,
- * see invoices, or cancel. Cheaper and safer than rebuilding any of that.
+ * Cancels at the end of the paid period — NOT immediately.
+ *
+ * Immediate cancellation would take away access the user has already paid
+ * for. `cancel_at_period_end` keeps them entitled until the period elapses,
+ * which is also what getAccessState already understands.
+ *
+ * The local mirror is written here as well as by the webhook. That is
+ * deliberate duplication: the webhook is authoritative, but it can take a
+ * second or two to arrive, and the UI needs to reflect the change on the very
+ * next render. The webhook's later upsert simply agrees.
+ */
+export async function cancelSubscriptionAction(): Promise<MutateResult> {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { ok: false, error: 'Not authenticated.' };
+
+  const sub = await getSubscription(user.id);
+  if (!sub?.stripeSubscriptionId) {
+    return { ok: false, error: 'No active subscription found.' };
+  }
+  if (sub.cancelAtPeriodEnd) {
+    return { ok: true };
+  }
+
+  try {
+    const updated = await stripe.subscriptions.update(
+      sub.stripeSubscriptionId,
+      { cancel_at_period_end: true },
+    );
+
+    await upsertSubscription({
+      userId: user.id,
+      stripeCustomerId: sub.stripeCustomerId,
+      stripeSubscriptionId: updated.id,
+      status: updated.status as SubscriptionStatus,
+      priceId: updated.items.data[0]?.price?.id ?? sub.priceId,
+      currentPeriodEnd: toDate(updated.items.data[0]?.current_period_end),
+      cancelAtPeriodEnd: updated.cancel_at_period_end,
+      trialEnd: toDate(updated.trial_end),
+    });
+
+    revalidatePath('/settings');
+    revalidatePath('/billing');
+    return { ok: true };
+  } catch (err) {
+    // eslint-disable-next-line no-console
+    console.error('[billing] cancelSubscription failed:', err);
+    return { ok: false, error: 'Could not cancel. Please try again.' };
+  }
+}
+
+/** Undoes a pending cancellation, while the period is still running. */
+export async function resumeSubscriptionAction(): Promise<MutateResult> {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { ok: false, error: 'Not authenticated.' };
+
+  const sub = await getSubscription(user.id);
+  if (!sub?.stripeSubscriptionId) {
+    return { ok: false, error: 'No subscription found.' };
+  }
+
+  try {
+    const updated = await stripe.subscriptions.update(
+      sub.stripeSubscriptionId,
+      { cancel_at_period_end: false },
+    );
+
+    await upsertSubscription({
+      userId: user.id,
+      stripeCustomerId: sub.stripeCustomerId,
+      stripeSubscriptionId: updated.id,
+      status: updated.status as SubscriptionStatus,
+      priceId: updated.items.data[0]?.price?.id ?? sub.priceId,
+      currentPeriodEnd: toDate(updated.items.data[0]?.current_period_end),
+      cancelAtPeriodEnd: updated.cancel_at_period_end,
+      trialEnd: toDate(updated.trial_end),
+    });
+
+    revalidatePath('/settings');
+    revalidatePath('/billing');
+    return { ok: true };
+  } catch (err) {
+    // eslint-disable-next-line no-console
+    console.error('[billing] resumeSubscription failed:', err);
+    return { ok: false, error: 'Could not resume. Please try again.' };
+  }
+}
+
+/**
+ * Opens the Stripe customer portal, where the user can update their card or
+ * see invoices. Cancelling no longer needs it (see cancelSubscriptionAction),
+ * but card and invoice handling would mean touching card data, so it stays.
  */
 export async function createPortalSessionAction(): Promise<ActionResult> {
   const supabase = await createClient();
@@ -131,4 +238,8 @@ export async function startCheckoutAction(): Promise<void> {
     redirect(result.url);
   }
   redirect('/billing?error=checkout');
+}
+
+function toDate(unixSeconds: number | null | undefined): Date | null {
+  return typeof unixSeconds === 'number' ? new Date(unixSeconds * 1000) : null;
 }
