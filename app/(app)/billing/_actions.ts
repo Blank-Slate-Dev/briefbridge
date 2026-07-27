@@ -1,17 +1,17 @@
 // app/(app)/billing/_actions.ts
 //
-// Server actions for billing: start a subscription, cancel, resume, and open
-// the customer portal.
+// Server actions for billing: start a subscription (embedded), cancel,
+// resume, and open the customer portal.
 //
 // 'use server' rule observed throughout this codebase: async function exports
 // ONLY. No type re-exports — Turbopack keeps dangling references to them and
 // they fail at runtime. Result shapes are inlined.
 //
-// CANCEL/RESUME are done here rather than in Stripe's hosted portal because
-// the portal cannot be embedded (it refuses to be iframed), and sending
-// someone off-site to cancel is a poor experience for the one action they are
-// most likely to want. Card updates and invoice history still live in the
-// portal, which is why createPortalSessionAction remains.
+// NO REDIRECTS is the goal for this surface. Subscribing uses Stripe's
+// EMBEDDED Checkout, which mounts in an iframe on our own page and returns a
+// client secret rather than a URL. Cancel and resume are plain API calls.
+// The hosted portal remains only for card updates and invoice history, which
+// are the two things Stripe won't let us embed.
 
 'use server';
 
@@ -25,11 +25,43 @@ import {
 } from '@/lib/db/queries/subscription';
 import type { SubscriptionStatus } from '@/lib/db/schema';
 
-type ActionResult = { ok: true; url: string } | { ok: false; error: string };
+type UrlResult = { ok: true; url: string } | { ok: false; error: string };
+type SecretResult =
+  | { ok: true; clientSecret: string }
+  | { ok: false; error: string };
 type MutateResult = { ok: true } | { ok: false; error: string };
+type StatusResult =
+  | { ok: true; status: string; paymentStatus: string }
+  | { ok: false; error: string };
 
 /**
- * Creates a Stripe Checkout session and returns its URL.
+ * Finds or creates this user's Stripe customer.
+ *
+ * Reusing the customer keeps a person's whole billing history on one record
+ * across cancel-and-resubscribe cycles, and it is what lets the trial
+ * fingerprint check see their previous cards.
+ */
+async function resolveCustomerId(
+  userId: string,
+  email: string | null,
+): Promise<string> {
+  const existing = await getSubscription(userId);
+  if (existing?.stripeCustomerId) return existing.stripeCustomerId;
+
+  const customer = await stripe.customers.create({
+    email: email ?? undefined,
+    // The user id travels on the customer so the webhook can map Stripe
+    // events back to our user without a lookup table.
+    metadata: { userId },
+  });
+  return customer.id;
+}
+
+/**
+ * Creates an EMBEDDED Checkout session and returns its client secret.
+ *
+ * The secret is handed to <EmbeddedCheckoutProvider> on the client, which
+ * mounts Stripe's payment form in an iframe on our page. Nothing navigates.
  *
  * TRIAL HANDLING — why the trial is decided here rather than on the price:
  *   Setting a trial on the price in the dashboard would give one to everybody,
@@ -42,10 +74,9 @@ type MutateResult = { ok: true } | { ok: false; error: string };
  *   It has to work that way round because the card doesn't exist yet at this
  *   point — the user hasn't entered it. We can't check a fingerprint we don't
  *   have, so we offer the trial optimistically and revoke it a moment later if
- *   the card turns out to be a repeat. The user sees "7 days free" on the
- *   Stripe page either way; a repeat card simply gets charged today.
+ *   the card turns out to be a repeat.
  */
-export async function createCheckoutSessionAction(): Promise<ActionResult> {
+export async function createEmbeddedCheckoutAction(): Promise<SecretResult> {
   const supabase = await createClient();
   const {
     data: { user },
@@ -57,22 +88,10 @@ export async function createCheckoutSessionAction(): Promise<ActionResult> {
   }
 
   try {
-    // Reuse the Stripe customer if this user has one, so their billing history
-    // stays on a single record across resubscribes.
-    const existing = await getSubscription(user.id);
-    let customerId = existing?.stripeCustomerId;
-
-    if (!customerId) {
-      const customer = await stripe.customers.create({
-        email: user.email ?? undefined,
-        // The user id travels on the customer so the webhook can map Stripe
-        // events back to our user without a lookup table.
-        metadata: { userId: user.id },
-      });
-      customerId = customer.id;
-    }
+    const customerId = await resolveCustomerId(user.id, user.email ?? null);
 
     const session = await stripe.checkout.sessions.create({
+      ui_mode: 'embedded_page',
       mode: 'subscription',
       customer: customerId,
       line_items: [{ price: STRIPE_PRICE_ID, quantity: 1 }],
@@ -86,24 +105,59 @@ export async function createCheckoutSessionAction(): Promise<ActionResult> {
       // tyre-kickers and converts automatically at day 7.
       payment_method_collection: 'always',
 
-      success_url: appUrl('/matters?checkout=success'),
-      cancel_url: appUrl('/billing?checkout=cancelled'),
+      // Embedded sessions don't take a success_url. On completion Stripe
+      // calls onComplete in the browser and the component polls
+      // getCheckoutSessionStatusAction — so the user stays on our page.
+      redirect_on_completion: 'never',
 
       allow_promotion_codes: true,
       client_reference_id: user.id,
     });
 
-    if (!session.url) {
-      return { ok: false, error: 'Stripe did not return a checkout URL.' };
+    if (!session.client_secret) {
+      return { ok: false, error: 'Stripe did not return a client secret.' };
     }
-    return { ok: true, url: session.url };
+    return { ok: true, clientSecret: session.client_secret };
   } catch (err) {
     // eslint-disable-next-line no-console
-    console.error('[billing] createCheckoutSession failed:', err);
+    console.error('[billing] createEmbeddedCheckout failed:', err);
+    return { ok: false, error: 'Could not start checkout. Please try again.' };
+  }
+}
+
+/**
+ * Reads back a completed embedded session.
+ *
+ * The client calls this after Stripe signals completion, so it can show a
+ * confirmed state. It is NOT how entitlement is granted — the webhook does
+ * that, and remains the only trustworthy channel. This is presentation.
+ */
+export async function getCheckoutSessionStatusAction(
+  sessionId: string,
+): Promise<StatusResult> {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { ok: false, error: 'Not authenticated.' };
+
+  try {
+    const session = await stripe.checkout.sessions.retrieve(sessionId);
+
+    // Don't let one user read another's session by guessing an id.
+    if (session.client_reference_id !== user.id) {
+      return { ok: false, error: 'Session not found.' };
+    }
+
     return {
-      ok: false,
-      error: 'Could not start checkout. Please try again.',
+      ok: true,
+      status: session.status ?? 'unknown',
+      paymentStatus: session.payment_status ?? 'unknown',
     };
+  } catch (err) {
+    // eslint-disable-next-line no-console
+    console.error('[billing] getCheckoutSessionStatus failed:', err);
+    return { ok: false, error: 'Could not read the checkout session.' };
   }
 }
 
@@ -202,11 +256,13 @@ export async function resumeSubscriptionAction(): Promise<MutateResult> {
 }
 
 /**
- * Opens the Stripe customer portal, where the user can update their card or
- * see invoices. Cancelling no longer needs it (see cancelSubscriptionAction),
- * but card and invoice handling would mean touching card data, so it stays.
+ * Opens the Stripe customer portal — the ONE remaining redirect.
+ *
+ * Kept for card updates and invoice history only. Both would otherwise mean
+ * handling card data ourselves or rebuilding an invoice list, and Stripe
+ * refuses to let the portal be iframed, so there is no embedded equivalent.
  */
-export async function createPortalSessionAction(): Promise<ActionResult> {
+export async function createPortalSessionAction(): Promise<UrlResult> {
   const supabase = await createClient();
   const {
     data: { user },
@@ -221,7 +277,7 @@ export async function createPortalSessionAction(): Promise<ActionResult> {
   try {
     const session = await stripe.billingPortal.sessions.create({
       customer: sub.stripeCustomerId,
-      return_url: appUrl('/billing'),
+      return_url: appUrl('/settings'),
     });
     return { ok: true, url: session.url };
   } catch (err) {
@@ -231,11 +287,39 @@ export async function createPortalSessionAction(): Promise<ActionResult> {
   }
 }
 
-/** Convenience wrapper: start checkout and redirect straight there. */
+/**
+ * Hosted-checkout fallback, kept for any entry point that still wants a
+ * redirect (and as an escape hatch if the embedded form ever misbehaves).
+ */
 export async function startCheckoutAction(): Promise<void> {
-  const result = await createCheckoutSessionAction();
-  if (result.ok) {
-    redirect(result.url);
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) redirect('/login?next=/billing');
+
+  if (!STRIPE_PRICE_ID) redirect('/billing?error=checkout');
+
+  try {
+    const customerId = await resolveCustomerId(user.id, user.email ?? null);
+    const session = await stripe.checkout.sessions.create({
+      mode: 'subscription',
+      customer: customerId,
+      line_items: [{ price: STRIPE_PRICE_ID, quantity: 1 }],
+      subscription_data: {
+        trial_period_days: TRIAL_DAYS,
+        metadata: { userId: user.id },
+      },
+      payment_method_collection: 'always',
+      success_url: appUrl('/matters?checkout=success'),
+      cancel_url: appUrl('/billing?checkout=cancelled'),
+      allow_promotion_codes: true,
+      client_reference_id: user.id,
+    });
+    if (session.url) redirect(session.url);
+  } catch (err) {
+    // eslint-disable-next-line no-console
+    console.error('[billing] startCheckout failed:', err);
   }
   redirect('/billing?error=checkout');
 }

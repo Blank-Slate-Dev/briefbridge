@@ -2,13 +2,15 @@
 //
 // Server-side Stripe client and billing constants.
 //
-// SERVER ONLY. STRIPE_SECRET_KEY must never reach the browser — importing this
-// from a Client Component will leak it into the bundle. The publishable key
-// (NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY) is the one that's safe client-side, and
-// we don't even need it: Checkout is hosted by Stripe, so we redirect rather
-// than mounting card fields ourselves. That also keeps card data entirely off
-// our infrastructure, which matters when the customers are lawyers asking
-// about your security posture.
+// SERVER ONLY for the `stripe` instance. STRIPE_SECRET_KEY must never reach
+// the browser — importing that binding from a Client Component leaks it into
+// the bundle.
+//
+// The publishable key IS needed client-side now: checkout is mounted inside
+// the app with Stripe's Embedded Checkout rather than redirecting to a hosted
+// page. Card data still never touches our infrastructure — the fields live in
+// a Stripe-origin iframe — which is the part that matters when the customers
+// are lawyers asking about your security posture.
 
 import Stripe from 'stripe';
 
@@ -29,6 +31,16 @@ export const STRIPE_PRICE_ID = process.env.STRIPE_PRICE_ID ?? '';
 
 /** Free trial length, in days, for a card that hasn't had one before. */
 export const TRIAL_DAYS = 7;
+
+/**
+ * Publishable key, safe to ship to the browser.
+ *
+ * Read via the full literal `process.env.NEXT_PUBLIC_...` rather than a
+ * computed key: Next inlines these at build time by static text match, so a
+ * dynamic lookup would come back undefined in the browser bundle.
+ */
+export const STRIPE_PUBLISHABLE_KEY =
+  process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY ?? '';
 
 /** Absolute base URL for Stripe redirect targets. */
 export function appUrl(path = ''): string {
