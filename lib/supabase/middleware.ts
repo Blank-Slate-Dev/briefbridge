@@ -33,6 +33,29 @@
 //      which trusts the cookie blindly. Supabase added this precisely for
 //      middleware/edge use. ~5ms vs ~400ms.
 //
+// =============================================================================
+// REDIRECT LOOP (July 2026) — the cost of local verification, and the fix
+// =============================================================================
+//
+// Local verification has one blind spot: it proves the token was signed by
+// this project and hasn't expired, but NOT that the session still exists.
+// A revoked-but-unexpired token still verifies. When that happened, this
+// file said "signed in" and sent /login → /matters, while the (app) layout
+// called getUser(), got nothing, and sent /matters → /login. The browser
+// ping-ponged until Chrome throttled navigation and rendered a blank page.
+//
+// The root cause was NOT the verification strategy — it was this file
+// resurrecting dead cookies. setAll() stamped AUTH_COOKIE_MAX_AGE on every
+// write, including the EMPTY-VALUED writes Supabase uses to CLEAR the
+// session at sign-out. Sign-out therefore wrote a tombstone cookie and this
+// file handed it a 400-day lifetime. Cookies are now only given a long life
+// when they actually carry a value; a clear stays a clear.
+//
+// As a second line of defence, a page that finds getUser() empty can send
+// the user to /login?stale=1, and the signed-in→app redirect below stands
+// down when it sees that flag. That guarantees the loop terminates even if
+// some future token state fools local verification again.
+//
 // PERSISTENT SESSIONS: every auth cookie we write is stamped with a long
 // max-age (AUTH_COOKIE_MAX_AGE) so it PERSISTS across browser restarts.
 // 400 days is the browser maximum; because this runs on every real
@@ -45,7 +68,7 @@ import { NextResponse, type NextRequest } from 'next/server';
 const AUTH_COOKIE_MAX_AGE = 60 * 60 * 24 * 400;
 
 // Routes that require authentication. "starts-with" check.
-const PROTECTED_PREFIXES = ['/chat', '/matters', '/firm'];
+const PROTECTED_PREFIXES = ['/chat', '/matters', '/firm', '/settings', '/billing'];
 
 // Routes that should redirect AWAY when the user is already signed in.
 const AUTH_PAGES = ['/login', '/signup'];
@@ -95,12 +118,22 @@ export async function updateSession(request: NextRequest) {
             request.cookies.set(name, value),
           );
           supabaseResponse = NextResponse.next({ request });
-          cookiesToSet.forEach(({ name, value, options }) =>
+          cookiesToSet.forEach(({ name, value, options }) => {
+            // A write with an EMPTY value is Supabase clearing the cookie —
+            // sign-out, or a refresh token it has decided is dead. Honour
+            // the options it gave us (which expire the cookie immediately)
+            // rather than overriding them with a 400-day max-age, or the
+            // cookie comes back from the dead and every later local JWT
+            // check believes a session that no longer exists.
+            if (!value) {
+              supabaseResponse.cookies.set(name, value, options);
+              return;
+            }
             supabaseResponse.cookies.set(name, value, {
               ...options,
               maxAge: AUTH_COOKIE_MAX_AGE,
-            }),
-          );
+            });
+          });
         },
       },
     },
@@ -131,16 +164,22 @@ export async function updateSession(request: NextRequest) {
     (prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`),
   );
 
+  // Circuit breaker: a server page found getUser() empty and sent the user
+  // here. Local verification may still say "signed in", so the redirect
+  // below would bounce them straight back. Stand down and let /login render.
+  const staleSession = request.nextUrl.searchParams.get('stale') === '1';
+
   // Not signed in + protected route → /login, preserving intent.
   if (!isAuthenticated && isProtected) {
     const loginUrl = request.nextUrl.clone();
     loginUrl.pathname = '/login';
+    loginUrl.search = '';
     loginUrl.searchParams.set('next', pathname);
     return NextResponse.redirect(loginUrl);
   }
 
   // Signed in + /login → into the app (respecting a safe ?next=).
-  if (isAuthenticated && isAuthPage) {
+  if (isAuthenticated && isAuthPage && !staleSession) {
     const target = request.nextUrl.clone();
     const requestedNext = request.nextUrl.searchParams.get('next');
     target.pathname = isSafeRelativePath(requestedNext)
