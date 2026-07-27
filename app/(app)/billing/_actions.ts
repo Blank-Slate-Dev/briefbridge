@@ -5,7 +5,7 @@
 //
 // 'use server' rule observed throughout this codebase: async function exports
 // ONLY. No type re-exports — Turbopack keeps dangling references to them and
-// they fail at runtime. Result shapes are inlined.
+// they fail at runtime. Result shapes and parameter unions are inlined.
 //
 // NO REDIRECTS is the goal for this surface. Subscribing uses Stripe's
 // EMBEDDED Checkout, which mounts in an iframe on our own page and returns a
@@ -18,7 +18,13 @@
 import { redirect } from 'next/navigation';
 import { revalidatePath } from 'next/cache';
 import { createClient } from '@/lib/supabase/server';
-import { stripe, STRIPE_PRICE_ID, TRIAL_DAYS, appUrl } from '@/lib/stripe';
+import {
+  stripe,
+  STRIPE_PRICE_ID,
+  TRIAL_DAYS,
+  appUrl,
+  priceIdFor,
+} from '@/lib/stripe';
 import {
   getSubscription,
   upsertSubscription,
@@ -58,10 +64,15 @@ async function resolveCustomerId(
 }
 
 /**
- * Creates an EMBEDDED Checkout session and returns its client secret.
+ * Creates an EMBEDDED Checkout session for the chosen billing interval and
+ * returns its client secret.
  *
  * The secret is handed to <EmbeddedCheckoutProvider> on the client, which
  * mounts Stripe's payment form in an iframe on our page. Nothing navigates.
+ *
+ * The interval is validated here rather than trusted: it arrives from the
+ * browser, and mapping it to a price id server-side means a tampered request
+ * can only ever select between the two prices we actually sell.
  *
  * TRIAL HANDLING — why the trial is decided here rather than on the price:
  *   Setting a trial on the price in the dashboard would give one to everybody,
@@ -72,11 +83,12 @@ async function resolveCustomerId(
  *   immediately so billing starts now.
  *
  *   It has to work that way round because the card doesn't exist yet at this
- *   point — the user hasn't entered it. We can't check a fingerprint we don't
- *   have, so we offer the trial optimistically and revoke it a moment later if
- *   the card turns out to be a repeat.
+ *   point — the user hasn't entered it. We offer the trial optimistically and
+ *   revoke it a moment later if the card turns out to be a repeat.
  */
-export async function createEmbeddedCheckoutAction(): Promise<SecretResult> {
+export async function createEmbeddedCheckoutAction(
+  interval: 'month' | 'year',
+): Promise<SecretResult> {
   const supabase = await createClient();
   const {
     data: { user },
@@ -87,6 +99,9 @@ export async function createEmbeddedCheckoutAction(): Promise<SecretResult> {
     return { ok: false, error: 'Billing is not configured.' };
   }
 
+  const safeInterval: 'month' | 'year' = interval === 'year' ? 'year' : 'month';
+  const priceId = priceIdFor(safeInterval);
+
   try {
     const customerId = await resolveCustomerId(user.id, user.email ?? null);
 
@@ -94,7 +109,7 @@ export async function createEmbeddedCheckoutAction(): Promise<SecretResult> {
       ui_mode: 'embedded_page',
       mode: 'subscription',
       customer: customerId,
-      line_items: [{ price: STRIPE_PRICE_ID, quantity: 1 }],
+      line_items: [{ price: priceId, quantity: 1 }],
 
       subscription_data: {
         trial_period_days: TRIAL_DAYS,
@@ -106,8 +121,8 @@ export async function createEmbeddedCheckoutAction(): Promise<SecretResult> {
       payment_method_collection: 'always',
 
       // Embedded sessions don't take a success_url. On completion Stripe
-      // calls onComplete in the browser and the component polls
-      // getCheckoutSessionStatusAction — so the user stays on our page.
+      // calls onComplete in the browser and the component polls for our own
+      // entitlement row — so the user stays on our page.
       redirect_on_completion: 'never',
 
       allow_promotion_codes: true,
@@ -128,7 +143,7 @@ export async function createEmbeddedCheckoutAction(): Promise<SecretResult> {
 /**
  * Reads back a completed embedded session.
  *
- * The client calls this after Stripe signals completion, so it can show a
+ * The client may call this after Stripe signals completion, so it can show a
  * confirmed state. It is NOT how entitlement is granted — the webhook does
  * that, and remains the only trustworthy channel. This is presentation.
  */
@@ -166,7 +181,8 @@ export async function getCheckoutSessionStatusAction(
  *
  * Immediate cancellation would take away access the user has already paid
  * for. `cancel_at_period_end` keeps them entitled until the period elapses,
- * which is also what getAccessState already understands.
+ * which is also what getAccessState already understands. This matters more on
+ * the annual plan, where the remaining period can be most of a year.
  *
  * The local mirror is written here as well as by the webhook. That is
  * deliberate duplication: the webhook is authoritative, but it can take a
@@ -258,8 +274,9 @@ export async function resumeSubscriptionAction(): Promise<MutateResult> {
 /**
  * Opens the Stripe customer portal — the ONE remaining redirect.
  *
- * Kept for card updates and invoice history only. Both would otherwise mean
- * handling card data ourselves or rebuilding an invoice list, and Stripe
+ * Kept for card updates, invoice history, and switching between the monthly
+ * and annual plan. All three would otherwise mean handling card data,
+ * rebuilding an invoice list, or implementing proration logic, and Stripe
  * refuses to let the portal be iframed, so there is no embedded equivalent.
  */
 export async function createPortalSessionAction(): Promise<UrlResult> {
@@ -277,7 +294,7 @@ export async function createPortalSessionAction(): Promise<UrlResult> {
   try {
     const session = await stripe.billingPortal.sessions.create({
       customer: sub.stripeCustomerId,
-      return_url: appUrl('/settings'),
+      return_url: appUrl('/billing'),
     });
     return { ok: true, url: session.url };
   } catch (err) {

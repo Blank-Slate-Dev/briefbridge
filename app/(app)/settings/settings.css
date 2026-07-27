@@ -1,165 +1,1158 @@
 /* app/(app)/settings/settings.css
  *
- * Styles for the settings page. Follows the same bb-* conventions and design
- * tokens as matters.css / shell.css. Loaded from app/layout.tsx alongside the
- * other (app) stylesheets.
+ * SHARED ACCOUNT SURFACE — styles /settings AND /billing.
+ *
+ * Despite the filename (kept so app/layout.tsx doesn't churn), this is the
+ * stylesheet for every account page.
+ *
+ * =============================================================================
+ * ONE SELECTION LANGUAGE, THREE DENSITIES
+ * =============================================================================
+ *
+ * Every "choose from these" control in the app shares a treatment. What
+ * changes between them is DENSITY, scaled to how many options there are and
+ * how much each needs explaining:
+ *
+ *   .bb-plan-card  (2 options)  — full card. Price, tagline, feature list.
+ *                                 Two options can afford the whole page.
+ *   .bb-opt-card   (6 options)  — compact card, two up. Name plus one line.
+ *                                 Six at plan-card size would be a screen and
+ *                                 a half; at this size they are one glance.
+ *   .bb-multi-item (18 options) — checkbox row in a three-up grid. Label
+ *                                 only. Eighteen cards would be absurd.
+ *
+ * ROUND indicators mean "pick one" (radio); SQUARE indicators mean "pick
+ * several" (checkbox). That shape difference is the only signal a user needs
+ * to know whether choosing one thing will unchoose another.
+ *
+ * WHY PRACTICE AREAS ARE NOT PILLS: eighteen pills of varying width wrap into
+ * a ragged block with no alignment anywhere. A fixed grid gives every option
+ * the same box and a straight left edge down each column.
+ *
+ * =============================================================================
+ * WHY THE PLAN CARDS NEED NO HEIGHT RULES
+ * =============================================================================
+ *
+ * An earlier version put a price recap in one card and a pitch in the other,
+ * then tried to force their footers to match with min-height and later a
+ * fixed height. Both fought the real problem: two cards with DIFFERENT
+ * content structures never agree on height, and every rule that forces them
+ * to is fragile the moment copy changes. The plan chooser fixes it
+ * structurally — same sections, same order, differing only in numbers.
+ *
+ * DEPTH ORDER: page is cream (--bb-bg), cards sit ABOVE on --bb-bg-elevated.
+ * ACCENT: --bb-highlight means "selected", and marks one feature card.
+ * TOKENS ONLY: no literal brand hex, so the pages cannot drift apart again.
  */
 
+/* =============================================================================
+   Page frame
+   ============================================================================= */
+
+.bb-account-main,
 .bb-settings-main {
-  max-width: 860px;
+  max-width: 880px;
   margin: 0 auto;
-  padding: 56px 32px 96px;
+  padding: 40px 32px 96px;
 }
 
+.bb-account-head,
 .bb-settings-head {
-  margin-bottom: 36px;
+  margin-bottom: 28px;
 }
+
+.bb-account-title,
 .bb-settings-title {
   font-family: var(--font-fraunces), Georgia, serif;
-  font-size: clamp(32px, 4vw, 46px);
-  line-height: 1.08;
-  letter-spacing: -0.03em;
+  font-size: clamp(26px, 3vw, 34px);
+  line-height: 1.1;
+  letter-spacing: -0.025em;
   color: var(--bb-ink);
-  font-weight: 400;
-  margin: 12px 0 16px;
+  font-weight: 500;
+  margin: 6px 0 10px;
 }
+.bb-account-title em,
 .bb-settings-title em {
   font-style: italic;
+  font-weight: 400;
   color: var(--bb-ink-soft);
 }
+
+.bb-account-sub,
 .bb-settings-sub {
-  font-size: 15.5px;
-  line-height: 1.6;
-  color: var(--bb-muted);
-  max-width: 640px;
-  margin: 0;
-}
-
-.bb-settings-body {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.bb-settings-card {
-  background: var(--bb-bg-elevated);
-  border: 1px solid var(--bb-border);
-  border-radius: 16px;
-  padding: 26px 28px;
-}
-.bb-settings-card-title {
-  font-family: var(--font-fraunces), Georgia, serif;
-  font-size: 19px;
-  font-weight: 500;
-  color: var(--bb-ink);
-  margin: 0 0 6px;
-}
-.bb-settings-card-help {
   font-size: 13.5px;
   line-height: 1.6;
   color: var(--bb-muted);
-  margin: 0 0 18px;
-}
-.bb-settings-card-help strong {
-  color: var(--bb-ink-soft);
-  font-weight: 500;
+  max-width: 600px;
+  margin: 0;
 }
 
-/* Practitioner-type options */
-.bb-settings-options {
+/* =============================================================================
+   Button shape on the account surface
+   ============================================================================= */
+/* Rounded RECTANGLE, not the pill used on the marketing pages and sidebar.
+ *
+ * The pill is right for a landing page: soft, friendly, an invitation. It is
+ * wrong next to dense rows of settings, where every other element — cards at
+ * 10-12px, checkboxes at 4px, status pills at 4px — is a rectangle with a
+ * small radius. One fully-round element among them looks imported.
+ *
+ * Applied to EVERY .bb-btn inside the account pages rather than to the one
+ * button that prompted the change: a single rectangular button among pills
+ * would just be a different inconsistency. The marketing surface keeps its
+ * pills; this surface has its own shape, uniformly. */
+
+.bb-account-main .bb-btn,
+.bb-settings-main .bb-btn,
+.bb-account-modal .bb-btn,
+.bb-savebar .bb-btn {
+  border-radius: 8px;
+}
+
+/* =============================================================================
+   Shared selection indicators
+   ============================================================================= */
+
+/* ROUND = single-select. Used by plan cards, option cards, choice list. */
+.bb-choice-dot {
+  flex: 0 0 auto;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1.5px solid var(--bb-border-strong);
+  background: var(--bb-bg);
+  position: relative;
+  transition:
+    border-color 0.12s ease,
+    background 0.12s ease;
+}
+.bb-plan-card-selected .bb-choice-dot,
+.bb-opt-card-selected .bb-choice-dot,
+.bb-choice-selected .bb-choice-dot {
+  border-color: var(--bb-ink);
+  background: var(--bb-ink);
+}
+.bb-plan-card-selected .bb-choice-dot::after,
+.bb-opt-card-selected .bb-choice-dot::after,
+.bb-choice-selected .bb-choice-dot::after {
+  content: '';
+  position: absolute;
+  inset: 3.5px;
+  border-radius: 50%;
+  background: var(--bb-bg-elevated);
+}
+
+/* SQUARE = multi-select. */
+.bb-check-box {
+  flex: 0 0 auto;
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+  border: 1.5px solid var(--bb-border-strong);
+  background: var(--bb-bg);
+  position: relative;
+  transition:
+    border-color 0.12s ease,
+    background 0.12s ease;
+}
+.bb-multi-item-selected .bb-check-box {
+  border-color: var(--bb-ink);
+  background: var(--bb-ink);
+}
+/* Tick: two borders of a box, rotated. Cheaper than an icon and it renders
+ * crisply at any zoom. */
+.bb-multi-item-selected .bb-check-box::after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 1px;
+  width: 4px;
+  height: 8px;
+  border: solid var(--bb-bg-elevated);
+  border-width: 0 1.75px 1.75px 0;
+  transform: rotate(45deg);
+}
+
+/* =============================================================================
+   Multi-select grid — 18 options
+   ============================================================================= */
+
+.bb-multi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 2px 10px;
+}
+
+.bb-multi-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 7px;
+  background: transparent;
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--bb-ink-soft);
+  text-align: left;
+  cursor: pointer;
+  transition:
+    background 0.12s ease,
+    color 0.12s ease;
+}
+.bb-multi-item:hover:not(:disabled) {
+  background: rgba(26, 31, 46, 0.04);
+}
+.bb-multi-item-selected {
+  color: var(--bb-ink);
+  font-weight: 500;
+}
+.bb-multi-item:disabled {
+  opacity: 0.38;
+  cursor: not-allowed;
+}
+
+/* =============================================================================
+   Plan chooser — 2 options, full cards
+   ============================================================================= */
+
+.bb-plan-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  align-items: stretch;
+  margin-bottom: 24px;
+}
+
+.bb-plan-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: left;
+  padding: 24px;
+  border: none;
+  border-radius: 12px;
+  background: var(--bb-bg-elevated);
+  box-shadow: 0 0 0 1px rgba(26, 31, 46, 0.08);
+  font-family: inherit;
+  cursor: pointer;
+  transition:
+    box-shadow 0.15s ease,
+    background 0.15s ease;
+}
+.bb-plan-card:hover {
+  box-shadow: 0 0 0 1px rgba(26, 31, 46, 0.18);
+}
+/* Selection is a ring, not a colour fill: the card stays readable and the
+ * state is unambiguous at a glance. */
+.bb-plan-card-selected,
+.bb-plan-card-selected:hover {
+  box-shadow: 0 0 0 2px var(--bb-highlight);
+}
+
+.bb-plan-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: 3px 9px;
+  border-radius: 4px;
+  background: rgba(201, 184, 138, 0.4);
+  color: var(--bb-ink);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.bb-plan-head {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 3px;
+}
+.bb-plan-name {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--bb-ink);
+}
+.bb-plan-tagline {
+  display: block;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--bb-muted);
+  margin-bottom: 18px;
+  /* Reserve two lines so a one-line tagline in one card doesn't shift the
+   * price row out of alignment with the other. */
+  min-height: 38px;
+}
+
+.bb-plan-price {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.bb-plan-price-amount {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--bb-ink);
+  font-variant-numeric: tabular-nums;
+}
+.bb-plan-price-unit {
+  font-size: 13px;
+  color: var(--bb-muted);
+}
+
+.bb-plan-detail {
+  display: block;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--bb-muted);
+  min-height: 19px;
+}
+
+.bb-plan-rule {
+  display: block;
+  height: 1px;
+  background: var(--bb-border);
+  margin: 20px 0;
+}
+
+.bb-plan-features {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.bb-plan-feature {
+  position: relative;
+  padding-left: 20px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--bb-ink-soft);
+}
+.bb-plan-feature::before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 8px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--bb-border-strong);
+}
+
+/* Terms + primary action, under the pair. */
+.bb-plan-cta {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding: 20px 24px;
+  border-radius: 12px;
+  background: var(--bb-bg-elevated);
+  box-shadow: 0 0 0 1px rgba(26, 31, 46, 0.08);
+}
+
+.bb-plan-trust {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 20px;
+  padding: 0;
+  margin: 16px 0 0;
+}
+.bb-plan-trust li {
+  position: relative;
+  padding-left: 14px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--bb-muted-soft);
+}
+.bb-plan-trust li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--bb-border-strong);
+}
+
+/* Header of the embedded-checkout step: plan summary left, change-plan right. */
+.bb-checkout-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid var(--bb-border);
+}
+
+/* =============================================================================
+   Option cards — 6 options, compact
+   ============================================================================= */
+
+.bb-opt-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 10px;
 }
-.bb-settings-option {
+
+.bb-opt-card {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  align-items: stretch;
   text-align: left;
-  padding: 14px 16px;
-  border: 1px solid var(--bb-border);
-  border-radius: 12px;
-  background: var(--bb-bg);
+  padding: 13px 15px;
+  border: none;
+  border-radius: 10px;
+  background: var(--bb-bg-elevated);
+  box-shadow: 0 0 0 1px rgba(26, 31, 46, 0.08);
   font-family: inherit;
   cursor: pointer;
-  transition: border-color 0.15s ease, background 0.15s ease;
+  transition: box-shadow 0.12s ease;
 }
-.bb-settings-option:hover {
-  border-color: var(--bb-border-strong);
+.bb-opt-card:hover {
+  box-shadow: 0 0 0 1px rgba(26, 31, 46, 0.18);
 }
-.bb-settings-option-selected {
-  border-color: var(--bb-highlight);
-  background: rgba(201, 162, 75, 0.08);
+.bb-opt-card-selected,
+.bb-opt-card-selected:hover {
+  box-shadow: 0 0 0 2px var(--bb-highlight);
 }
-.bb-settings-option-label {
-  font-size: 14.5px;
-  font-weight: 500;
+
+.bb-opt-head {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 5px;
+}
+.bb-opt-name {
+  font-size: 13.5px;
+  font-weight: 600;
+  letter-spacing: -0.005em;
   color: var(--bb-ink);
 }
-.bb-settings-option-desc {
+.bb-opt-desc {
+  display: block;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--bb-muted);
+  /* Indented to the name, past the indicator, so the text column runs
+   * straight down rather than stepping in and out. */
+  padding-left: 24px;
+}
+
+/* =============================================================================
+   Settings rows
+   ============================================================================= */
+
+.bb-set-list {
+  border-top: 1px solid var(--bb-border);
+}
+
+/* Standard row: a fixed label column beside a control that fills the rest.
+ * Right for controls that NEED the width — the card grid, the checkbox grid. */
+.bb-set-row {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  gap: 36px;
+  padding: 26px 0;
+  border-bottom: 1px solid var(--bb-border);
+  align-items: start;
+}
+
+/* Wide row: label takes the width, control shrinks to its content.
+ *
+ * For rows whose control is just a button or two. In the standard row the
+ * explanation is trapped in a 200px column and wraps three or four lines deep
+ * beside a single small button — a tall block of mostly empty space. Letting
+ * the text run the full width puts it on one line and the row becomes as
+ * short as its content actually warrants.
+ *
+ * align-items: center because with one line of text and one button there is
+ * nothing to top-align to. */
+.bb-set-row-wide {
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: center;
+}
+.bb-set-row-wide .bb-set-label-help {
+  max-width: none;
+}
+
+.bb-set-label {
+  padding-top: 1px;
+}
+.bb-set-label-title {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--bb-ink);
+  margin: 0 0 5px;
+}
+.bb-set-label-help {
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--bb-muted);
+  margin: 0;
+}
+.bb-set-label-help strong {
+  color: var(--bb-ink-soft);
+  font-weight: 500;
+}
+
+.bb-set-control {
+  min-width: 0;
+}
+.bb-set-control-note {
+  font-size: 12px;
+  color: var(--bb-muted-soft);
+  margin: 12px 0 0;
+}
+
+/* Action row inside a settings control, pushed to the RIGHT edge.
+ *
+ * Every other control on the page — the card grid, the checkbox grid — fills
+ * the full width of the control column, so their right edge lands on the
+ * page's right margin. A lone button sitting at the left of that same column
+ * has nothing to align with in either direction: it floats.
+ *
+ * Pushing it right puts it on the same vertical line as everything else, and
+ * matches the save bar, which is right-aligned for the same reason. */
+.bb-set-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Counter aligned to the grid's left edge, not floating under it. */
+.bb-settings-count {
+  font-size: 12px;
+  color: var(--bb-muted-soft);
+  margin: 14px 0 0 10px;
+}
+
+/* =============================================================================
+   Choice list — kept for dense single-select elsewhere
+   ============================================================================= */
+
+.bb-choice-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--bb-border);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--bb-bg);
+}
+
+.bb-choice {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  padding: 11px 14px;
+  border: none;
+  border-bottom: 1px solid var(--bb-border);
+  background: transparent;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.12s ease;
+  width: 100%;
+}
+.bb-choice:last-child {
+  border-bottom: none;
+}
+.bb-choice:hover {
+  background: rgba(26, 31, 46, 0.03);
+}
+.bb-choice-selected {
+  background: rgba(201, 184, 138, 0.16);
+}
+.bb-choice-text {
+  min-width: 0;
+}
+.bb-choice-name {
+  display: block;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--bb-ink);
+  line-height: 1.35;
+}
+.bb-choice-desc {
+  display: block;
   font-size: 12.5px;
   line-height: 1.5;
   color: var(--bb-muted);
+  margin-top: 2px;
 }
 
-/* Practice-area chips */
-.bb-settings-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-.bb-settings-chip {
-  padding: 8px 14px;
-  border: 1px solid var(--bb-border);
-  border-radius: 999px;
-  background: var(--bb-bg);
-  font-family: inherit;
-  font-size: 13px;
-  color: var(--bb-ink-soft);
-  cursor: pointer;
-  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
-}
-.bb-settings-chip:hover:not(:disabled) {
-  border-color: var(--bb-border-strong);
-}
-.bb-settings-chip-selected {
-  border-color: var(--bb-highlight);
-  background: rgba(201, 162, 75, 0.12);
-  color: var(--bb-ink);
-  font-weight: 500;
-}
-.bb-settings-chip:disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
-}
-.bb-settings-count {
-  font-size: 12px;
-  color: var(--bb-muted);
-  margin: 14px 0 0;
-}
+/* =============================================================================
+   Sticky save bar
+   ============================================================================= */
+/* Appears only when something has changed. A permanently visible Save button
+ * gives no signal about whether it needs pressing; this states plainly that
+ * there is unsaved work, and follows the page rather than making the user
+ * scroll back to find it. */
 
-/* Save row */
-.bb-settings-actions {
+.bb-savebar {
+  position: sticky;
+  bottom: 20px;
+  z-index: 20;
   display: flex;
   align-items: center;
-  gap: 14px;
-  padding-top: 4px;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 24px;
+  padding: 12px 12px 12px 20px;
+  background: var(--bb-bg-elevated);
+  border-radius: 10px;
+  box-shadow:
+    0 0 0 1px rgba(26, 31, 46, 0.1),
+    0 8px 28px rgba(26, 31, 46, 0.14);
 }
-.bb-settings-status {
+.bb-savebar-text {
   font-size: 13px;
+  color: var(--bb-ink-soft);
 }
-.bb-settings-status-ok {
+.bb-savebar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bb-savebar-error {
+  font-size: 12.5px;
+  color: #a5503f;
+}
+
+/* =============================================================================
+   Cards
+   ============================================================================= */
+
+.bb-account-body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.bb-account-card {
+  background: var(--bb-bg-elevated);
+  border-radius: 12px;
+  padding: 24px;
+  /* Shadow-as-border: crisper than a 1px border and outside the box model,
+   * so inner content stays on the same grid as everything else. */
+  box-shadow: 0 0 0 1px rgba(26, 31, 46, 0.08);
+}
+
+.bb-account-card-feature {
+  box-shadow:
+    0 0 0 1px rgba(26, 31, 46, 0.08),
+    inset 0 3px 0 0 var(--bb-highlight);
+  padding-top: 27px;
+}
+
+.bb-account-card-title {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--bb-ink);
+  margin: 0 0 4px;
+}
+
+.bb-account-card-help {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--bb-muted);
+  margin: 0 0 16px;
+}
+.bb-account-card-help strong {
+  color: var(--bb-ink-soft);
+  font-weight: 500;
+}
+
+/* Footer strip — bleeds to the card edge and drops back to page cream, so
+ * actions read as a distinct band rather than floating. Right-aligned,
+ * because its occupant is a button. */
+.bb-account-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  margin: 24px -24px -24px;
+  padding: 16px 24px;
+  background: var(--bb-bg);
+  border-top: 1px solid var(--bb-border);
+  border-radius: 0 0 12px 12px;
+}
+.bb-account-card-footer-split {
+  justify-content: space-between;
+}
+.bb-account-card-footer .bb-account-note {
+  margin: 0;
+  max-width: 60%;
+}
+
+/* =============================================================================
+   Status pill
+   ============================================================================= */
+
+.bb-account-pill {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--bb-ink);
+  margin: 0 0 12px;
+}
+.bb-account-pill-trial {
+  background: rgba(201, 184, 138, 0.35);
+}
+.bb-account-pill-active {
+  background: rgba(74, 124, 89, 0.18);
+}
+.bb-account-pill-warn {
+  background: rgba(176, 93, 74, 0.18);
+  color: #8a4436;
+}
+.bb-account-pill-ending {
+  background: rgba(90, 93, 106, 0.14);
   color: var(--bb-muted);
 }
-.bb-settings-status-error {
-  color: #b4453a;
+
+/* Inline variant — sits on the same line as the status text rather than
+ * above it, for the compact subscription row. */
+.bb-account-pill-inline {
+  margin: 0;
+}
+
+/* =============================================================================
+   Fact list — dt/dd pairs
+   ============================================================================= */
+
+.bb-account-facts {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px 20px;
+  margin: 0;
+  font-size: 13px;
+}
+.bb-account-facts dt {
+  color: var(--bb-muted);
+  white-space: nowrap;
+}
+.bb-account-facts dd {
+  margin: 0;
+  color: var(--bb-ink);
+  font-weight: 500;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Inline variant for the settings subscription row. */
+.bb-account-facts-inline {
+  grid-template-columns: auto auto;
+  justify-content: start;
+  gap: 6px 24px;
+}
+.bb-account-facts-inline dd {
+  text-align: left;
+}
+
+/* Status line: pill and one line of fact, side by side. */
+.bb-account-statusline {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--bb-muted);
+  margin: 0;
+}
+.bb-account-statusline strong {
+  color: var(--bb-ink);
+  font-weight: 600;
+}
+
+/* =============================================================================
+   Terms list
+   ============================================================================= */
+
+.bb-account-terms {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.bb-account-terms li {
+  position: relative;
+  padding: 4px 0 4px 20px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--bb-ink-soft);
+}
+.bb-account-terms li::before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 11px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--bb-highlight);
+}
+
+/* =============================================================================
+   Invoice table
+   ============================================================================= */
+
+.bb-invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.bb-invoice-table th {
+  text-align: left;
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--bb-muted-soft);
+  padding: 0 0 8px;
+  border-bottom: 1px solid var(--bb-border);
+}
+.bb-invoice-table td {
+  padding: 11px 0;
+  border-bottom: 1px solid var(--bb-border);
+  color: var(--bb-ink-soft);
+  vertical-align: middle;
+}
+.bb-invoice-table tr:last-child td {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.bb-invoice-amount {
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  color: var(--bb-ink);
+  text-align: right;
+}
+.bb-invoice-num {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 12px;
+  color: var(--bb-muted);
+}
+.bb-invoice-action {
+  text-align: right;
+  white-space: nowrap;
+}
+.bb-invoice-link {
+  font-size: 12.5px;
+  color: var(--bb-ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--bb-border-strong);
+  padding-bottom: 1px;
+}
+.bb-invoice-link:hover {
+  border-bottom-color: var(--bb-ink);
+}
+.bb-invoice-status {
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.bb-invoice-status-paid {
+  background: rgba(74, 124, 89, 0.18);
+  color: #2f5a3c;
+}
+.bb-invoice-status-open {
+  background: rgba(201, 184, 138, 0.35);
+  color: var(--bb-ink);
+}
+.bb-invoice-status-other {
+  background: rgba(90, 93, 106, 0.14);
+  color: var(--bb-muted);
+}
+
+/* =============================================================================
+   Danger zone
+   ============================================================================= */
+/* RESERVED FOR TRULY IRREVERSIBLE ACTIONS — account deletion, and nothing
+ * less. Deliberately NOT used for subscription cancellation: cancelling
+ * destroys nothing (access runs to the end of the paid period, matters and
+ * files stay put, resuming is one click), so framing it as a hazard overstates
+ * the stakes. Cancel is a quiet secondary button with a confirmation modal
+ * instead. Kept here for when account deletion is built. */
+
+.bb-account-danger {
+  margin-top: 24px;
+  border-radius: 10px;
+  padding: 16px 20px;
+  box-shadow: 0 0 0 1px rgba(176, 93, 74, 0.28);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.bb-account-danger-text {
+  flex: 1 1 240px;
+}
+.bb-account-danger-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--bb-ink);
+  margin: 0 0 3px;
+}
+.bb-account-danger-help {
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--bb-muted);
+  margin: 0;
+}
+
+/* =============================================================================
+   Buttons
+   ============================================================================= */
+/* .bb-btn / .bb-btn-primary / .bb-btn-ghost / .bb-btn-large are global
+ * (homepage.css). The radius is overridden for this surface at the top of
+ * this file — see "Button shape on the account surface". */
+
+.bb-account-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.bb-btn-outline {
+  background: transparent;
+  color: var(--bb-ink);
+  border: 1px solid var(--bb-border-strong);
+}
+.bb-btn-outline:hover {
+  background: rgba(26, 31, 46, 0.04);
+  border-color: var(--bb-ink-soft);
+}
+
+/* Quiet destructive action. Cancel is a secondary choice sitting beside a
+ * primary one, so it should not shout — but it must still read as different
+ * from a neutral button, or someone scanning the row won't register what it
+ * does. Muted red text, no fill, no border: visibly distinct, visually
+ * subordinate. The confirmation modal carries the weight. */
+.bb-btn-quiet {
+  color: #a5503f;
+}
+.bb-btn-quiet:hover {
+  background: rgba(176, 93, 74, 0.08);
+}
+
+.bb-btn-danger {
+  background: transparent;
+  color: #a5503f;
+  border: 1px solid rgba(176, 93, 74, 0.4);
+}
+.bb-btn-danger:hover {
+  background: rgba(176, 93, 74, 0.08);
+  border-color: #a5503f;
+}
+
+.bb-btn-danger-solid {
+  background: #a5503f;
+  color: #faf7f0;
+  border: none;
+}
+.bb-btn-danger-solid:hover {
+  background: #8a4436;
+}
+
+.bb-btn-small {
+  padding: 7px 14px;
+  font-size: 13px;
+}
+
+.bb-btn:disabled {
+  opacity: 0.55;
+  cursor: wait;
+  transform: none;
+}
+
+.bb-account-note {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--bb-muted-soft);
+  margin: 12px 0 0;
+}
+
+.bb-account-error {
+  font-size: 12.5px;
+  color: #a5503f;
+  margin: 12px 0 0;
+}
+
+.bb-account-empty {
+  font-size: 13px;
+  color: var(--bb-muted-soft);
+  margin: 0;
+  padding: 8px 0;
+}
+
+/* =============================================================================
+   Embedded Stripe checkout
+   ============================================================================= */
+
+.bb-account-checkout {
+  min-height: 340px;
+}
+
+.bb-account-waiting {
+  padding: 40px 0;
+  text-align: center;
+}
+.bb-account-waiting-title {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--bb-ink);
+  margin: 0 0 6px;
+}
+
+/* =============================================================================
+   Modal
+   ============================================================================= */
+
+.bb-account-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(26, 31, 46, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 100;
+}
+.bb-account-modal {
+  background: var(--bb-bg-elevated);
+  border-radius: 12px;
+  padding: 24px;
+  width: 100%;
+  max-width: 440px;
+  box-shadow:
+    0 0 0 1px rgba(26, 31, 46, 0.1),
+    0 24px 60px rgba(26, 31, 46, 0.24);
+}
+.bb-account-modal-title {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--bb-ink);
+  margin: 0 0 8px;
+}
+.bb-account-modal-body {
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--bb-ink-soft);
+  margin: 0 0 20px;
+}
+.bb-account-modal-body strong {
+  color: var(--bb-ink);
+  font-weight: 600;
+}
+.bb-account-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* =============================================================================
+   Responsive
+   ============================================================================= */
+
+@media (max-width: 780px) {
+  /* Label above control. The two-column row needs real width to work; below
+   * it, stacking is honest rather than squeezing the label column. */
+  .bb-set-row {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding: 22px 0;
+  }
+  .bb-set-row-wide {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+  .bb-opt-grid {
+    grid-template-columns: 1fr;
+  }
+  .bb-multi-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* Stacked, there is no column edge to align to — left reads better under a
+   * left-aligned label. */
+  .bb-set-actions {
+    justify-content: flex-start;
+  }
+  .bb-plan-tagline,
+  .bb-plan-detail {
+    min-height: 0;
+  }
+  .bb-plan-cta {
+    flex-direction: column;
+    align-items: stretch;
+  }
 }
 
 @media (max-width: 700px) {
+  .bb-account-main,
   .bb-settings-main {
-    padding: 32px 20px 72px;
+    padding: 28px 20px 72px;
   }
-  .bb-settings-card {
+  .bb-account-card,
+  .bb-plan-card {
     padding: 20px;
+  }
+  .bb-multi-grid {
+    grid-template-columns: 1fr;
+  }
+  .bb-account-card-footer {
+    margin: 20px -20px -20px;
+    padding: 14px 20px;
+  }
+  .bb-account-card-footer-split {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .bb-account-card-footer .bb-account-note {
+    max-width: 100%;
+  }
+  .bb-savebar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding: 14px;
+  }
+  .bb-savebar-actions {
+    justify-content: flex-end;
   }
 }

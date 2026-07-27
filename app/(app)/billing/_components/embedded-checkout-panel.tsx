@@ -3,14 +3,25 @@
 // Stripe Embedded Checkout, mounted inside our own page.
 //
 // Card fields live in a Stripe-origin iframe, so card data never touches our
-// infrastructure — but the user never leaves BriefBridge, which is the whole
-// point of doing it this way rather than redirecting to the hosted page.
+// infrastructure — but the user never leaves BriefBridge.
 //
-// ENTITLEMENT IS NOT GRANTED HERE. onComplete only tells us the form was
-// submitted successfully. The webhook writes the subscription row, and it can
-// land a second or two later, so this component POLLS for the row to appear
-// before declaring success. That avoids the worst failure mode: telling
-// someone they've subscribed and then showing them a paywall.
+// =============================================================================
+// WHY THE "SETTING UP" STATE EXISTS
+// =============================================================================
+//
+// onComplete tells us the form was submitted. It does NOT mean we have
+// granted access — the webhook writes the subscription row, and Stripe's own
+// documentation warns that webhook delivery can be delayed. Between those two
+// moments a user who was sent straight to the app would see a paywall
+// seconds after paying, which is the single worst outcome on this page.
+//
+// So: hold an honest interim state, refresh the Server Component on a short
+// interval, and let the parent swap us out once entitlement is real. If the
+// webhook still hasn't landed after the timeout, say so plainly and reassure
+// them the payment is safe rather than leaving a spinner running forever.
+//
+// The `interval` prop is part of the KEY on the provider: changing plan must
+// fetch a NEW session, and remounting is the only way to make Stripe do that.
 
 'use client';
 
@@ -21,30 +32,24 @@ import {
   EmbeddedCheckout,
 } from '@stripe/react-stripe-js';
 import { createEmbeddedCheckoutAction } from '../_actions';
-
-const NAVY = '#1a1f2e';
-const SOFT = '#3a4256';
-const MUTED = '#8a8577';
-const DANGER = '#b4453a';
+import { SUPPORT_EMAIL } from '@/lib/billing/copy';
 
 // loadStripe returns a promise that must be created ONCE, outside the
-// component — recreating it on every render remounts the iframe.
+// component — recreating it on render remounts the iframe.
 const stripePromise = loadStripe(
   process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY ?? '',
 );
 
 interface Props {
-  /** Called once entitlement is confirmed in our own database. */
+  interval: 'month' | 'year';
+  /** Called on an interval until the parent re-renders with access granted. */
   onSubscribed: () => void;
 }
 
-// How long to wait for the webhook before giving up and telling the user to
-// refresh. Generous: Stripe usually delivers in well under two seconds, but a
-// cold serverless function on the first hit can add a little.
 const POLL_INTERVAL_MS = 1200;
 const POLL_TIMEOUT_MS = 25000;
 
-export function EmbeddedCheckoutPanel({ onSubscribed }: Props) {
+export function EmbeddedCheckoutPanel({ interval, onSubscribed }: Props) {
   const [error, setError] = useState<string | null>(null);
   const [waiting, setWaiting] = useState(false);
   const [slow, setSlow] = useState(false);
@@ -56,27 +61,22 @@ export function EmbeddedCheckoutPanel({ onSubscribed }: Props) {
     };
   }, []);
 
-  // Stripe calls this to fetch the session. It must return the secret itself,
-  // not a wrapper object.
+  // Stripe calls this to fetch the session. It must resolve to the secret
+  // itself, not a wrapper object.
   const fetchClientSecret = useCallback(async () => {
-    const result = await createEmbeddedCheckoutAction();
+    const result = await createEmbeddedCheckoutAction(interval);
     if (!result.ok) {
       setError(result.error);
       throw new Error(result.error);
     }
     return result.clientSecret;
-  }, []);
+  }, [interval]);
 
-  // Payment form submitted. Now wait for the webhook to write our row.
   const handleComplete = useCallback(() => {
     setWaiting(true);
     const startedAt = Date.now();
 
-    pollTimer.current = setInterval(async () => {
-      // /api/health is not the right probe here — we need OUR entitlement
-      // state, which the billing page re-reads on refresh. Ask the server
-      // directly by re-rendering: a router refresh re-runs the page's
-      // getAccessState. The parent decides what to show.
+    pollTimer.current = setInterval(() => {
       if (Date.now() - startedAt > POLL_TIMEOUT_MS) {
         if (pollTimer.current) clearInterval(pollTimer.current);
         setSlow(true);
@@ -87,33 +87,21 @@ export function EmbeddedCheckoutPanel({ onSubscribed }: Props) {
   }, [onSubscribed]);
 
   if (error) {
-    return (
-      <p style={{ fontSize: 14, color: DANGER, margin: 0 }}>
-        {error}
-      </p>
-    );
+    return <p className="bb-account-error">{error}</p>;
   }
 
   if (waiting) {
     return (
-      <div style={{ padding: '28px 0', textAlign: 'center' }}>
-        <p
-          style={{
-            fontFamily: 'var(--font-fraunces), Georgia, serif',
-            fontSize: 20,
-            color: NAVY,
-            margin: '0 0 8px',
-          }}
-        >
-          Setting up your account&hellip;
-        </p>
-        <p style={{ fontSize: 14, color: SOFT, margin: 0 }}>
+      <div className="bb-account-waiting">
+        <p className="bb-account-waiting-title">Setting up your account…</p>
+        <p className="bb-account-card-help">
           Your payment went through. Confirming with Stripe now.
         </p>
         {slow && (
-          <p style={{ fontSize: 13, color: MUTED, margin: '14px 0 0' }}>
-            This is taking longer than usual. Your payment is safe — refresh
-            the page in a moment, or contact us if it doesn&rsquo;t clear.
+          <p className="bb-account-note">
+            This is taking longer than usual. Your payment is safe and your
+            trial has started — refresh in a moment, or email {SUPPORT_EMAIL}{' '}
+            if it doesn&rsquo;t clear.
           </p>
         )}
       </div>
@@ -121,13 +109,12 @@ export function EmbeddedCheckoutPanel({ onSubscribed }: Props) {
   }
 
   return (
-    <div id="bb-embedded-checkout">
-      <EmbeddedCheckoutProvider
-        stripe={stripePromise}
-        options={{ fetchClientSecret, onComplete: handleComplete }}
-      >
-        <EmbeddedCheckout />
-      </EmbeddedCheckoutProvider>
-    </div>
+    <EmbeddedCheckoutProvider
+      key={interval}
+      stripe={stripePromise}
+      options={{ fetchClientSecret, onComplete: handleComplete }}
+    >
+      <EmbeddedCheckout />
+    </EmbeddedCheckoutProvider>
   );
 }

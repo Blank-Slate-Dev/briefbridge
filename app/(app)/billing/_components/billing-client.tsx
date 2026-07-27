@@ -1,13 +1,29 @@
 // app/(app)/billing/_components/billing-client.tsx
 //
-// Client half of the billing page.
+// Client half of the billing page. ZERO inline styles — every rule comes from
+// settings.css, which is what keeps this page and /settings identical.
 //
-// Subscribing happens IN PLACE: the pitch collapses and Stripe's embedded
-// checkout mounts below it. No redirect, no hosted page.
+// =============================================================================
+// TWO PLANS, TWO IDENTICAL CARDS
+// =============================================================================
 //
-// Inline styles, consistent with the other pages built recently — the app
-// shell's inherited text colour is light (for the navy sidebar) and disappears
-// on the cream content background, so colours are set explicitly.
+// The chooser is two structurally identical cards side by side: same sections
+// in the same order, differing only in the numbers and the badge. That is
+// what makes them the same height without any height rules — matching
+// structure does the work that fixed heights were previously being asked to
+// do, and it keeps doing it when the copy changes.
+//
+// Both plans buy exactly the same product. There is deliberately no feature
+// gating between them: an artificial split to push people onto the annual
+// plan is the kind of thing this audience reads as a tell, and the discount
+// is a good enough reason on its own.
+//
+// The saving is COMPUTED in lib/billing/copy.ts, never typed by hand — a
+// "Save 20%" badge beside prices that actually save 16% is a
+// misrepresentation, and a checkable one.
+//
+// FLOW: choose a plan, then Continue to payment swaps the pair for the
+// embedded Stripe form in place. Nothing navigates.
 
 'use client';
 
@@ -15,12 +31,19 @@ import { useState, useTransition } from 'react';
 import { useRouter } from 'next/navigation';
 import { createPortalSessionAction } from '../_actions';
 import { EmbeddedCheckoutPanel } from './embedded-checkout-panel';
-
-const NAVY = '#1a1f2e';
-const SOFT = '#3a4256';
-const MUTED = '#8a8577';
-const GOLD = '#c9a24b';
-const BORDER = '#e7e0d2';
+import { InvoiceTable } from './invoice-table';
+import type { InvoiceRow } from '@/lib/billing/invoices';
+import {
+  PLAN_FEATURES,
+  PRICE_AUD,
+  PRICE_AUD_YEARLY,
+  formatAuDate,
+  monthlyPlan,
+  trialTerms,
+  trustPoints,
+  yearlyPlan,
+  type PlanCopy,
+} from '@/lib/billing/copy';
 
 interface Props {
   hasAccess: boolean;
@@ -30,24 +53,13 @@ interface Props {
   currentPeriodEnd: string | null;
   cancelAtPeriodEnd: boolean;
   trialDays: number;
+  projectedChargeDate: string;
+  invoices: InvoiceRow[];
+  yearlyAvailable: boolean;
+  /** Stripe price id on the active subscription, for naming the plan. */
+  activePriceId: string | null;
+  yearlyPriceId: string;
 }
-
-function formatDate(iso: string | null): string {
-  if (!iso) return '';
-  return new Date(iso).toLocaleDateString('en-AU', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
-  });
-}
-
-const FEATURES = [
-  'Semantic search across ~57,000 NSW judgments and the High Court',
-  'Every in-force NSW and Commonwealth Act, section by section',
-  'Answers cited to the paragraph, with the source passage shown',
-  'Research shaped for how you practise — solicitor, barrister, in-house',
-  'Matters, files, and firm collaboration',
-];
 
 export function BillingClient({
   hasAccess,
@@ -57,15 +69,20 @@ export function BillingClient({
   currentPeriodEnd,
   cancelAtPeriodEnd,
   trialDays,
+  projectedChargeDate,
+  invoices,
+  yearlyAvailable,
+  activePriceId,
+  yearlyPriceId,
 }: Props) {
   const router = useRouter();
+  const [interval, setInterval] = useState<'month' | 'year'>('month');
   const [checkoutOpen, setCheckoutOpen] = useState(false);
   const [isPending, startTransition] = useTransition();
   const [error, setError] = useState<string | null>(null);
 
   // The webhook has (probably) written the subscription row by now. Re-running
-  // the server component is what actually reveals the change — getAccessState
-  // is read there, not here.
+  // the Server Component is what reveals it — getAccessState is read there.
   function handleSubscribed() {
     router.refresh();
   }
@@ -82,212 +99,207 @@ export function BillingClient({
     });
   }
 
-  // ---------------------------------------------------------------- no plan
+  // ============================================================== no access
   if (!hasAccess) {
-    return (
-      <div>
-        <section
-          style={{
-            background: '#fff',
-            border: `1px solid ${BORDER}`,
-            borderTop: `4px solid ${GOLD}`,
-            borderRadius: 16,
-            padding: '2rem 2.25rem',
-            marginBottom: 20,
-          }}
-        >
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'baseline',
-              gap: 10,
-              marginBottom: 6,
-            }}
-          >
-            <span
-              style={{
-                fontFamily: 'var(--font-fraunces), Georgia, serif',
-                fontSize: 34,
-                color: NAVY,
-              }}
-            >
-              $99
-            </span>
-            <span style={{ fontSize: 14, color: MUTED }}>AUD per month</span>
-          </div>
-          <p style={{ fontSize: 14, color: MUTED, margin: '0 0 22px' }}>
-            {trialDays} days free, then $99/month. Cancel anytime.
-          </p>
+    const chargeDate = formatAuDate(projectedChargeDate);
+    const plans: PlanCopy[] = yearlyAvailable
+      ? [monthlyPlan(), yearlyPlan()]
+      : [monthlyPlan()];
 
-          {!checkoutOpen && (
-            <>
-              <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 26px' }}>
-                {FEATURES.map((f) => (
-                  <li
-                    key={f}
-                    style={{
-                      fontSize: 14.5,
-                      lineHeight: 1.6,
-                      color: SOFT,
-                      padding: '7px 0 7px 24px',
-                      position: 'relative',
-                    }}
-                  >
-                    <span style={{ position: 'absolute', left: 0, color: GOLD }}>
-                      &#10003;
-                    </span>
-                    {f}
-                  </li>
-                ))}
-              </ul>
-
+    if (checkoutOpen) {
+      return (
+        <div className="bb-account-body">
+          <section className="bb-account-card bb-account-card-feature">
+            <div className="bb-checkout-head">
+              <div>
+                <h2 className="bb-account-card-title">
+                  {interval === 'year' ? 'Yearly plan' : 'Monthly plan'}
+                </h2>
+                <p className="bb-account-card-help" style={{ margin: 0 }}>
+                  {trialDays} days free, then A$
+                  {interval === 'year' ? PRICE_AUD_YEARLY : PRICE_AUD} on{' '}
+                  {chargeDate}.
+                </p>
+              </div>
               <button
                 type="button"
-                onClick={() => setCheckoutOpen(true)}
-                style={{
-                  background: NAVY,
-                  color: '#f4efe6',
-                  border: 'none',
-                  padding: '13px 28px',
-                  borderRadius: 999,
-                  font: 'inherit',
-                  fontSize: 15,
-                  fontWeight: 600,
-                  cursor: 'pointer',
-                }}
+                className="bb-btn bb-btn-small bb-btn-ghost"
+                onClick={() => setCheckoutOpen(false)}
               >
-                Start {trialDays}-day free trial &rarr;
+                Change plan
               </button>
-
-              <p style={{ fontSize: 12, color: MUTED, margin: '14px 0 0' }}>
-                Card required. You won&rsquo;t be charged until the trial ends,
-                and you can cancel before then.
-              </p>
-            </>
-          )}
-
-          {checkoutOpen && (
-            <div style={{ marginTop: 4 }}>
-              <EmbeddedCheckoutPanel onSubscribed={handleSubscribed} />
             </div>
-          )}
-        </section>
 
-        {error && <p style={{ fontSize: 13, color: '#b4453a' }}>{error}</p>}
+            <div className="bb-account-checkout">
+              <EmbeddedCheckoutPanel
+                interval={interval}
+                onSubscribed={handleSubscribed}
+              />
+            </div>
+          </section>
+        </div>
+      );
+    }
+
+    return (
+      <div>
+        <div className="bb-plan-grid">
+          {plans.map((plan) => {
+            const selected = interval === plan.interval;
+            return (
+              <button
+                key={plan.interval}
+                type="button"
+                role="radio"
+                aria-checked={selected}
+                className={`bb-plan-card${selected ? ' bb-plan-card-selected' : ''}`}
+                onClick={() => setInterval(plan.interval)}
+              >
+                {plan.badge && (
+                  <span className="bb-plan-badge">{plan.badge}</span>
+                )}
+
+                <span className="bb-plan-head">
+                  <span className="bb-choice-dot" aria-hidden="true" />
+                  <span className="bb-plan-name">{plan.name}</span>
+                </span>
+
+                <span className="bb-plan-tagline">{plan.tagline}</span>
+
+                <span className="bb-plan-price">
+                  <span className="bb-plan-price-amount">{plan.amount}</span>
+                  <span className="bb-plan-price-unit">{plan.unit}</span>
+                </span>
+
+                <span className="bb-plan-detail">{plan.detail}</span>
+
+                <span className="bb-plan-rule" />
+
+                <span className="bb-plan-features">
+                  {PLAN_FEATURES.map((f) => (
+                    <span key={f} className="bb-plan-feature">
+                      {f}
+                    </span>
+                  ))}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+
+        <div className="bb-plan-cta">
+          <ul className="bb-account-terms">
+            {trialTerms(chargeDate, trialDays, interval).map((t) => (
+              <li key={t}>{t}</li>
+            ))}
+          </ul>
+
+          <button
+            type="button"
+            className="bb-btn bb-btn-primary bb-btn-large"
+            onClick={() => setCheckoutOpen(true)}
+          >
+            Continue to payment
+          </button>
+        </div>
+
+        <ul className="bb-plan-trust">
+          {trustPoints().map((t) => (
+            <li key={t}>{t}</li>
+          ))}
+        </ul>
+
+        {error && <p className="bb-account-error">{error}</p>}
       </div>
     );
   }
 
-  // ------------------------------------------------------------ has access
+  // ============================================================= has access
+  const onYearly = Boolean(
+    activePriceId && yearlyPriceId && activePriceId === yearlyPriceId,
+  );
+
+  const pillClass = isTrialing
+    ? 'bb-account-pill-trial'
+    : status === 'past_due'
+      ? 'bb-account-pill-warn'
+      : cancelAtPeriodEnd
+        ? 'bb-account-pill-ending'
+        : 'bb-account-pill-active';
+
+  const pillLabel = isTrialing
+    ? 'Free trial'
+    : status === 'past_due'
+      ? 'Payment failed'
+      : cancelAtPeriodEnd
+        ? 'Ending'
+        : 'Active';
+
+  const nextChargeLabel = isTrialing ? 'First charge' : 'Next charge';
+  const nextChargeDate = isTrialing ? trialEnd : currentPeriodEnd;
+
   return (
-    <div>
-      <section
-        style={{
-          background: '#fff',
-          border: `1px solid ${BORDER}`,
-          borderRadius: 16,
-          padding: '1.75rem 2rem',
-          marginBottom: 20,
-        }}
-      >
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 10,
-            marginBottom: 14,
-          }}
-        >
-          <span
-            style={{
-              display: 'inline-block',
-              padding: '3px 10px',
-              borderRadius: 999,
-              background: isTrialing
-                ? 'rgba(201,162,75,0.18)'
-                : 'rgba(60,140,90,0.14)',
-              color: NAVY,
-              fontSize: 12,
-              fontWeight: 600,
-            }}
+    <div className="bb-account-body">
+      {/* Current plan. */}
+      <section className="bb-account-card">
+        <div className={`bb-account-pill ${pillClass}`}>{pillLabel}</div>
+
+        <dl className="bb-account-facts">
+          <dt>Plan</dt>
+          <dd>{onYearly ? 'Yearly' : 'Monthly'}</dd>
+
+          <dt>Price</dt>
+          <dd>
+            {onYearly ? `A$${PRICE_AUD_YEARLY}/year` : `A$${PRICE_AUD}/month`}
+          </dd>
+
+          {cancelAtPeriodEnd && nextChargeDate ? (
+            <>
+              <dt>Access until</dt>
+              <dd>{formatAuDate(nextChargeDate)}</dd>
+            </>
+          ) : nextChargeDate ? (
+            <>
+              <dt>{nextChargeLabel}</dt>
+              <dd>{formatAuDate(nextChargeDate)}</dd>
+            </>
+          ) : null}
+        </dl>
+
+        {status === 'past_due' && (
+          <p className="bb-account-error">
+            We couldn&rsquo;t process your last payment. Update your card to
+            keep your access.
+          </p>
+        )}
+
+        <div className="bb-account-card-footer bb-account-card-footer-split">
+          <p className="bb-account-note">
+            {cancelAtPeriodEnd
+              ? 'Your subscription is ending. Resume it from Settings.'
+              : 'Cancel or resume from Settings.'}
+          </p>
+          <button
+            type="button"
+            className="bb-btn bb-btn-outline"
+            onClick={openPortal}
+            disabled={isPending}
           >
-            {isTrialing
-              ? 'Free trial'
-              : status === 'past_due'
-                ? 'Payment failed'
-                : 'Active'}
-          </span>
+            {isPending ? 'Opening…' : 'Card, invoices & plan'}
+          </button>
         </div>
 
-        <p
-          style={{
-            fontSize: 15,
-            lineHeight: 1.65,
-            color: SOFT,
-            margin: '0 0 6px',
-          }}
-        >
-          {isTrialing && trialEnd ? (
-            <>
-              Your free trial runs until{' '}
-              <strong style={{ color: NAVY }}>{formatDate(trialEnd)}</strong>.
-              After that it&rsquo;s $99/month unless you cancel.
-            </>
-          ) : cancelAtPeriodEnd && currentPeriodEnd ? (
-            <>
-              Your subscription is cancelled and access continues until{' '}
-              <strong style={{ color: NAVY }}>
-                {formatDate(currentPeriodEnd)}
-              </strong>
-              .
-            </>
-          ) : status === 'past_due' ? (
-            <>
-              We couldn&rsquo;t process your last payment. Update your card to
-              keep your access.
-            </>
-          ) : currentPeriodEnd ? (
-            <>
-              $99/month. Next payment{' '}
-              <strong style={{ color: NAVY }}>
-                {formatDate(currentPeriodEnd)}
-              </strong>
-              .
-            </>
-          ) : (
-            <>$99/month.</>
-          )}
-        </p>
-
-        <p style={{ fontSize: 13, color: MUTED, margin: '14px 0 0' }}>
-          Cancel or resume from{' '}
-          <strong style={{ color: SOFT }}>Settings</strong> — no redirect
-          needed.
-        </p>
+        {error && <p className="bb-account-error">{error}</p>}
       </section>
 
-      <button
-        type="button"
-        onClick={openPortal}
-        disabled={isPending}
-        style={{
-          background: 'transparent',
-          color: NAVY,
-          border: `1px solid ${BORDER}`,
-          padding: '11px 22px',
-          borderRadius: 999,
-          font: 'inherit',
-          fontSize: 14,
-          fontWeight: 500,
-          cursor: isPending ? 'wait' : 'pointer',
-        }}
-      >
-        {isPending ? 'Opening…' : 'Update card or view invoices'}
-      </button>
-
-      {error && (
-        <p style={{ fontSize: 13, color: '#b4453a', marginTop: 12 }}>{error}</p>
-      )}
+      {/* Invoices. */}
+      <section className="bb-account-card">
+        <h2 className="bb-account-card-title">Invoices</h2>
+        <p className="bb-account-card-help">
+          Every payment, with a downloadable tax invoice.
+        </p>
+        <InvoiceTable invoices={invoices} />
+      </section>
     </div>
   );
 }

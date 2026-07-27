@@ -1,22 +1,32 @@
 // app/(app)/billing/page.tsx
 //
-// Billing: subscribe, or manage an existing subscription.
+// Billing. Shares the account surface with /settings (settings.css) so the
+// two read as one product.
 //
-// Deliberately thin. Card details, invoices, plan changes and cancellation all
-// live in Stripe's hosted Checkout and Customer Portal — rebuilding any of
-// that would mean handling card data and reimplementing dunning for no gain.
+// Server Component. Loads entitlement, then invoices — serially, because the
+// invoice lookup needs the Stripe customer id that the first query returns.
+// Both are cheap and only run when someone opens billing.
+//
+// The trial charge date is computed HERE rather than in the client so the
+// figure the user reads is the server's date, not their device clock.
+//
+// Whether the yearly plan is OFFERED is decided here too: if
+// STRIPE_PRICE_ID_YEARLY isn't configured the chooser collapses to a single
+// monthly card rather than showing a plan that can't be bought.
 
 import { redirect } from 'next/navigation';
 import { createClient } from '@/lib/supabase/server';
-import { getAccessState } from '@/lib/db/queries/subscription';
-import { TRIAL_DAYS } from '@/lib/stripe';
+import {
+  getAccessState,
+  getSubscription,
+} from '@/lib/db/queries/subscription';
+import { listInvoices } from '@/lib/billing/invoices';
+import { TRIAL_DAYS, STRIPE_PRICE_ID_YEARLY, hasYearlyPrice } from '@/lib/stripe';
 import { BillingClient } from './_components/billing-client';
 
 export const dynamic = 'force-dynamic';
 
-const NAVY = '#1a1f2e';
-const SOFT = '#3a4256';
-const MUTED = '#8a8577';
+export const metadata = { title: 'Billing' };
 
 export default async function BillingPage() {
   const supabase = await createClient();
@@ -25,34 +35,25 @@ export default async function BillingPage() {
   } = await supabase.auth.getUser();
   if (!user) redirect('/login?next=/billing');
 
-  const access = await getAccessState(user.id);
+  const [access, subscription] = await Promise.all([
+    getAccessState(user.id),
+    getSubscription(user.id),
+  ]);
+  const invoices = await listInvoices(access.stripeCustomerId);
+
+  // What the card would be charged if they started a trial right now.
+  const projectedChargeDate = new Date(
+    Date.now() + TRIAL_DAYS * 24 * 60 * 60 * 1000,
+  ).toISOString();
 
   return (
-    <main style={{ maxWidth: 720, margin: '0 auto', padding: '56px 32px 96px', color: SOFT }}>
-      <div
-        style={{
-          fontSize: 11,
-          letterSpacing: '0.1em',
-          textTransform: 'uppercase',
-          color: MUTED,
-          marginBottom: 12,
-        }}
-      >
-        Billing
-      </div>
-      <h1
-        style={{
-          fontFamily: 'var(--font-fraunces), Georgia, serif',
-          fontSize: 'clamp(30px, 4vw, 42px)',
-          lineHeight: 1.1,
-          letterSpacing: '-0.03em',
-          color: NAVY,
-          fontWeight: 400,
-          margin: '0 0 28px',
-        }}
-      >
-        Your subscription
-      </h1>
+    <main className="bb-account-main">
+      <header className="bb-account-head">
+        <div className="bb-section-eyebrow">Billing</div>
+        <h1 className="bb-account-title">
+          Your <em>subscription</em>
+        </h1>
+      </header>
 
       <BillingClient
         hasAccess={access.hasAccess}
@@ -62,6 +63,11 @@ export default async function BillingPage() {
         currentPeriodEnd={access.currentPeriodEnd?.toISOString() ?? null}
         cancelAtPeriodEnd={access.cancelAtPeriodEnd}
         trialDays={TRIAL_DAYS}
+        projectedChargeDate={projectedChargeDate}
+        invoices={invoices}
+        yearlyAvailable={hasYearlyPrice()}
+        activePriceId={subscription?.priceId ?? null}
+        yearlyPriceId={STRIPE_PRICE_ID_YEARLY}
       />
     </main>
   );

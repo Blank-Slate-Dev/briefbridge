@@ -6,8 +6,8 @@
 // the browser — importing that binding from a Client Component leaks it into
 // the bundle.
 //
-// The publishable key IS needed client-side now: checkout is mounted inside
-// the app with Stripe's Embedded Checkout rather than redirecting to a hosted
+// The publishable key IS needed client-side: checkout is mounted inside the
+// app with Stripe's Embedded Checkout rather than redirecting to a hosted
 // page. Card data still never touches our infrastructure — the fields live in
 // a Stripe-origin iframe — which is the part that matters when the customers
 // are lawyers asking about your security posture.
@@ -26,8 +26,30 @@ export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
   appInfo: { name: 'BriefBridge', url: 'https://briefbridge.ai' },
 });
 
-/** The single subscription price. */
+/** Monthly subscription price. */
 export const STRIPE_PRICE_ID = process.env.STRIPE_PRICE_ID ?? '';
+
+/** Annual subscription price. */
+export const STRIPE_PRICE_ID_YEARLY = process.env.STRIPE_PRICE_ID_YEARLY ?? '';
+
+/**
+ * Resolves a billing interval to its Stripe price id.
+ *
+ * Falls back to monthly if the annual price isn't configured, so a missing
+ * env var degrades to "annual option unavailable" rather than a broken
+ * checkout. Whether to SHOW the annual option is a separate question — see
+ * hasYearlyPrice().
+ */
+export function priceIdFor(interval: 'month' | 'year'): string {
+  if (interval === 'year' && STRIPE_PRICE_ID_YEARLY) {
+    return STRIPE_PRICE_ID_YEARLY;
+  }
+  return STRIPE_PRICE_ID;
+}
+
+export function hasYearlyPrice(): boolean {
+  return Boolean(STRIPE_PRICE_ID_YEARLY);
+}
 
 /** Free trial length, in days, for a card that hasn't had one before. */
 export const TRIAL_DAYS = 7;

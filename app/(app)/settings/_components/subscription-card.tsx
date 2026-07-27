@@ -1,19 +1,60 @@
 // app/(app)/settings/_components/subscription-card.tsx
 //
-// Subscription panel for the settings page, with an in-app manage modal.
+// Subscription status and management, rendered as a COMPACT settings row.
 //
-// NO REDIRECTS: cancelling and resuming are server actions against the Stripe
-// API, so the user never leaves the page. Stripe's hosted portal refuses to be
-// iframed, which rules out embedding it, and sending someone off-site to
-// perform the one action they most want is a poor experience — so cancel is
-// built here instead.
+// =============================================================================
+// WHY THIS ROW IS WIDE, NOT TWO-COLUMN
+// =============================================================================
 //
-// What is NOT here: updating a card, and invoice history. Both would mean
-// either handling card data or building a second surface, and neither is worth
-// it until someone asks. Those still live in the portal.
+// It uses .bb-set-row-wide: the label takes the width and the buttons shrink
+// to their content on the right. The standard two-column row trapped the
+// explanation in a 200px column, where "BriefBridge Research is A$99/month,
+// or A$999/year, with a 7-day free trial" wrapped three lines deep beside a
+// single small button — a tall block of mostly empty space.
 //
-// Cancellation is always at PERIOD END, never immediate — the user has paid
-// for the rest of the period and getAccessState already honours that.
+// The rows below it (role cards, practice-area checkboxes) keep the standard
+// layout, because their controls genuinely need the width. This one doesn't:
+// its control is a button.
+//
+// Status is a single line too — pill and next-charge date side by side rather
+// than a stacked pill above a definition list.
+//
+// =============================================================================
+// WHY THERE IS NO "DANGER ZONE" BOX
+// =============================================================================
+//
+// Cancel used to live in a red-outlined box at the bottom of the page. That
+// is the right pattern for ACCOUNT DELETION — irreversible, destroys data,
+// must be hard to hit by accident. It is the wrong pattern for cancelling a
+// subscription, which destroys nothing: access runs to the end of the paid
+// period, matters and files stay put, and resuming is one click. Dressing it
+// up as a hazard overstates the stakes.
+//
+// Cancel is a quiet secondary button; the confirmation modal prevents
+// accidents.
+//
+// =============================================================================
+// THE CANCEL FLOW, AND WHY IT IS SHORT
+// =============================================================================
+//
+// Two clicks: "Cancel subscription" opens one modal, "Yes, cancel" ends it.
+// No reason field, no phone call, no offer wall. Deliberately against a
+// common pattern, for three reasons:
+//
+//   1. THE AUDIENCE. These are lawyers. A cancellation flow engineered to be
+//      difficult is precisely what this profession notices and resents.
+//
+//   2. THE LAW IS MOVING. Subscription traps and hard-to-exit renewals are
+//      current ACCC compliance priorities, and Treasury is consulting on an
+//      unfair-trading-practices prohibition aimed at conduct that makes
+//      cancellation "practically very difficult".
+//
+//   3. IT IS ALSO GOOD BUSINESS. Australian survey work found the large
+//      majority would buy from a company again if cancelling had been quick.
+//
+// Cancellation is at PERIOD END, never immediate — they have paid for the
+// rest of the period and getAccessState already honours that. This matters
+// more on the annual plan, where that can be most of a year.
 
 'use client';
 
@@ -22,13 +63,7 @@ import {
   cancelSubscriptionAction,
   resumeSubscriptionAction,
 } from '../../billing/_actions';
-
-const NAVY = '#1a1f2e';
-const SOFT = '#3a4256';
-const MUTED = '#8a8577';
-const GOLD = '#c9a24b';
-const BORDER = '#e7e0d2';
-const DANGER = '#b4453a';
+import { PRICE_AUD, PRICE_AUD_YEARLY, formatAuDate } from '@/lib/billing/copy';
 
 interface Props {
   hasAccess: boolean;
@@ -37,15 +72,6 @@ interface Props {
   trialEnd: string | null;
   currentPeriodEnd: string | null;
   cancelAtPeriodEnd: boolean;
-}
-
-function formatDate(iso: string | null): string {
-  if (!iso) return '';
-  return new Date(iso).toLocaleDateString('en-AU', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
-  });
 }
 
 export function SubscriptionCard({
@@ -57,12 +83,12 @@ export function SubscriptionCard({
   cancelAtPeriodEnd,
 }: Props) {
   const [open, setOpen] = useState(false);
-  const [confirming, setConfirming] = useState(false);
   const [isPending, startTransition] = useTransition();
   const [error, setError] = useState<string | null>(null);
-  const [done, setDone] = useState<'cancelled' | 'resumed' | null>(null);
+  const [done, setDone] = useState<'cancelled' | null>(null);
+  const [resumed, setResumed] = useState(false);
 
-  // Escape closes the modal. Registered only while it is open so there is no
+  // Escape closes the modal. Registered only while it is open, so there is no
   // stray listener on a page that isn't showing one.
   useEffect(() => {
     if (!open) return;
@@ -75,7 +101,6 @@ export function SubscriptionCard({
 
   function closeModal() {
     setOpen(false);
-    setConfirming(false);
     setError(null);
     setDone(null);
   }
@@ -86,7 +111,7 @@ export function SubscriptionCard({
       const result = await cancelSubscriptionAction();
       if (result.ok) {
         setDone('cancelled');
-        setConfirming(false);
+        setResumed(false);
       } else {
         setError(result.error);
       }
@@ -98,7 +123,7 @@ export function SubscriptionCard({
     startTransition(async () => {
       const result = await resumeSubscriptionAction();
       if (result.ok) {
-        setDone('resumed');
+        setResumed(true);
       } else {
         setError(result.error);
       }
@@ -109,360 +134,211 @@ export function SubscriptionCard({
     window.location.href = '/billing';
   }
 
-  // ------------------------------------------------------------- no access
+  // ============================================================== no access
   if (!hasAccess) {
     return (
-      <section className="bb-settings-card">
-        <h2 className="bb-settings-card-title">Subscription</h2>
-        <p className="bb-settings-card-help">
-          You don&rsquo;t have an active subscription. BriefBridge research is
-          $99/month AUD, with a 7-day free trial.
-        </p>
-        <button
-          type="button"
-          className="bb-btn bb-btn-primary"
-          onClick={goToBilling}
-        >
-          Go to billing &rarr;
-        </button>
-      </section>
+      <div className="bb-set-list">
+        <div className="bb-set-row bb-set-row-wide">
+          <div className="bb-set-label">
+            <p className="bb-set-label-title">Subscription</p>
+            <p className="bb-set-label-help">
+              BriefBridge Research is A${PRICE_AUD} a month, or A$
+              {PRICE_AUD_YEARLY} a year, with a 7-day free trial.
+            </p>
+          </div>
+          <div className="bb-set-actions">
+            <button
+              type="button"
+              className="bb-btn bb-btn-small bb-btn-primary"
+              onClick={goToBilling}
+            >
+              Start free trial
+            </button>
+          </div>
+        </div>
+      </div>
     );
   }
 
-  // Local optimism: after a successful action the server state has changed but
-  // this component's props are from the previous render. Reflect the new
+  // Local optimism: after a successful action the server state has changed,
+  // but this component's props are from the previous render. Reflect the new
   // position immediately rather than making the user reload.
-  const effectiveCancelAtPeriodEnd =
-    done === 'cancelled' ? true : done === 'resumed' ? false : cancelAtPeriodEnd;
+  const ending = resumed ? false : done === 'cancelled' ? true : cancelAtPeriodEnd;
+
+  const pillClass = isTrialing
+    ? 'bb-account-pill-trial'
+    : status === 'past_due'
+      ? 'bb-account-pill-warn'
+      : ending
+        ? 'bb-account-pill-ending'
+        : 'bb-account-pill-active';
 
   const pillLabel = isTrialing
     ? 'Free trial'
     : status === 'past_due'
       ? 'Payment failed'
-      : effectiveCancelAtPeriodEnd
-        ? 'Cancelling'
+      : ending
+        ? 'Ending'
         : 'Active';
-
-  const pillBackground = isTrialing
-    ? 'rgba(201,162,75,0.18)'
-    : status === 'past_due'
-      ? 'rgba(180,69,58,0.14)'
-      : effectiveCancelAtPeriodEnd
-        ? 'rgba(138,133,119,0.18)'
-        : 'rgba(60,140,90,0.14)';
 
   // The date access actually runs out. During a trial that is the trial end;
   // afterwards it is the end of the paid period.
   const accessUntil = isTrialing ? trialEnd : currentPeriodEnd;
 
-  return (
-    <section className="bb-settings-card">
-      <h2 className="bb-settings-card-title">Subscription</h2>
+  const factLabel = ending
+    ? 'Access until'
+    : isTrialing
+      ? 'First charge'
+      : 'Next charge';
 
-      <div style={{ margin: '0 0 12px' }}>
-        <span
-          style={{
-            display: 'inline-block',
-            padding: '3px 10px',
-            borderRadius: 999,
-            background: pillBackground,
-            color: NAVY,
-            fontSize: 12,
-            fontWeight: 600,
-          }}
-        >
-          {pillLabel}
-        </span>
+  return (
+    <>
+      <div className="bb-set-list">
+        <div className="bb-set-row bb-set-row-wide">
+          <div className="bb-set-label">
+            <p className="bb-set-label-title">Subscription</p>
+            <p className="bb-account-statusline">
+              <span className={`bb-account-pill bb-account-pill-inline ${pillClass}`}>
+                {pillLabel}
+              </span>
+              {accessUntil && (
+                <span>
+                  {factLabel} <strong>{formatAuDate(accessUntil)}</strong>
+                </span>
+              )}
+              <span>Card and invoices on the billing page</span>
+            </p>
+          </div>
+
+          <div className="bb-set-actions">
+            {ending ? (
+              <button
+                type="button"
+                className="bb-btn bb-btn-small bb-btn-primary"
+                onClick={doResume}
+                disabled={isPending}
+              >
+                {isPending ? 'Resuming…' : 'Resume'}
+              </button>
+            ) : (
+              <button
+                type="button"
+                className="bb-btn bb-btn-small bb-btn-ghost bb-btn-quiet"
+                onClick={() => setOpen(true)}
+              >
+                Cancel
+              </button>
+            )}
+
+            <button
+              type="button"
+              className="bb-btn bb-btn-small bb-btn-outline"
+              onClick={goToBilling}
+            >
+              Billing
+            </button>
+          </div>
+        </div>
+
+        {(status === 'past_due' || error) && (
+          <div className="bb-set-row bb-set-row-wide" style={{ paddingTop: 0 }}>
+            <div className="bb-set-label">
+              {status === 'past_due' && (
+                <p className="bb-account-error" style={{ marginTop: 0 }}>
+                  We couldn&rsquo;t process your last payment. Update your card
+                  on the billing page to keep your access.
+                </p>
+              )}
+              {error && (
+                <p className="bb-account-error" style={{ marginTop: 0 }}>
+                  {error}
+                </p>
+              )}
+            </div>
+            <div />
+          </div>
+        )}
       </div>
 
-      <p className="bb-settings-card-help" style={{ marginBottom: 18 }}>
-        {effectiveCancelAtPeriodEnd && accessUntil ? (
-          <>
-            Cancelled. Your access continues until{' '}
-            <strong>{formatDate(accessUntil)}</strong>, and you won&rsquo;t be
-            charged again.
-          </>
-        ) : isTrialing && trialEnd ? (
-          <>
-            Your free trial runs until <strong>{formatDate(trialEnd)}</strong>.
-            You&rsquo;ll be charged $99 on that date unless you cancel before
-            then.
-          </>
-        ) : status === 'past_due' ? (
-          <>
-            We couldn&rsquo;t process your last payment. Update your card to
-            keep your access.
-          </>
-        ) : currentPeriodEnd ? (
-          <>
-            $99/month. Next payment{' '}
-            <strong>{formatDate(currentPeriodEnd)}</strong>.
-          </>
-        ) : (
-          <>$99/month.</>
-        )}
-      </p>
-
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        style={{
-          background: 'transparent',
-          color: NAVY,
-          border: `1px solid ${GOLD}`,
-          padding: '11px 22px',
-          borderRadius: 999,
-          font: 'inherit',
-          fontSize: 14,
-          fontWeight: 500,
-          cursor: 'pointer',
-        }}
-      >
-        Manage subscription
-      </button>
-
-      {/* ------------------------------- modal ------------------------------ */}
+      {/* ------------------------------- modal ---------------------------- */}
       {open && (
         <div
           role="dialog"
           aria-modal="true"
-          aria-label="Manage subscription"
+          aria-label="Cancel subscription"
+          className="bb-account-modal-backdrop"
           onClick={closeModal}
-          style={{
-            position: 'fixed',
-            inset: 0,
-            background: 'rgba(26,31,46,0.45)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            padding: 20,
-            zIndex: 100,
-          }}
         >
-          <div
-            onClick={(e) => e.stopPropagation()}
-            style={{
-              background: '#fff',
-              border: `1px solid ${BORDER}`,
-              borderTop: `4px solid ${GOLD}`,
-              borderRadius: 16,
-              padding: '28px 30px 26px',
-              width: '100%',
-              maxWidth: 460,
-              boxShadow: '0 24px 60px rgba(26,31,46,0.22)',
-            }}
-          >
-            <h3
-              style={{
-                fontFamily: 'var(--font-fraunces), Georgia, serif',
-                fontSize: 22,
-                fontWeight: 400,
-                color: NAVY,
-                margin: '0 0 10px',
-              }}
-            >
+          <div className="bb-account-modal" onClick={(e) => e.stopPropagation()}>
+            <h3 className="bb-account-modal-title">
               {done === 'cancelled'
                 ? 'Subscription cancelled'
-                : done === 'resumed'
-                  ? 'Subscription resumed'
-                  : confirming
-                    ? 'Cancel your subscription?'
-                    : 'Manage subscription'}
+                : 'Cancel your subscription?'}
             </h3>
 
-            <p
-              style={{
-                fontSize: 14.5,
-                lineHeight: 1.65,
-                color: SOFT,
-                margin: '0 0 22px',
-              }}
-            >
+            <p className="bb-account-modal-body">
               {done === 'cancelled' ? (
                 <>
                   You keep full access until{' '}
-                  <strong style={{ color: NAVY }}>
-                    {formatDate(accessUntil)}
-                  </strong>
-                  . Nothing further will be charged.
+                  <strong>{formatAuDate(accessUntil)}</strong>. Nothing further
+                  will be charged, and you can resume any time before then.
                 </>
-              ) : done === 'resumed' ? (
+              ) : isTrialing && accessUntil ? (
                 <>
-                  Your subscription will continue as normal. Next payment{' '}
-                  <strong style={{ color: NAVY }}>
-                    {formatDate(currentPeriodEnd)}
-                  </strong>
-                  .
+                  Your trial runs to <strong>{formatAuDate(accessUntil)}</strong>{' '}
+                  and you won&rsquo;t be charged at all. You keep access until
+                  then.
                 </>
-              ) : confirming ? (
+              ) : accessUntil ? (
                 <>
-                  You&rsquo;ll keep access until{' '}
-                  <strong style={{ color: NAVY }}>
-                    {formatDate(accessUntil)}
-                  </strong>
-                  , then your account reverts to no subscription. You can resume
-                  any time before then.
-                </>
-              ) : effectiveCancelAtPeriodEnd ? (
-                <>
-                  Your subscription is set to end on{' '}
-                  <strong style={{ color: NAVY }}>
-                    {formatDate(accessUntil)}
-                  </strong>
-                  . Resume it to keep your access running.
-                </>
-              ) : isTrialing ? (
-                <>
-                  You&rsquo;re on a free trial until{' '}
-                  <strong style={{ color: NAVY }}>
-                    {formatDate(trialEnd)}
-                  </strong>
-                  . Cancel before then and you won&rsquo;t be charged at all.
+                  You keep access until{' '}
+                  <strong>{formatAuDate(accessUntil)}</strong> — the period
+                  you&rsquo;ve already paid for — then your account reverts to
+                  no subscription. Your matters and files stay where they are.
                 </>
               ) : (
                 <>
-                  $99/month AUD. Cancelling stops future payments and keeps your
-                  access until the end of the period you&rsquo;ve paid for.
+                  You keep access for the rest of the period you&rsquo;ve paid
+                  for. Your matters and files stay where they are.
                 </>
               )}
             </p>
 
-            {error && (
-              <p
-                style={{
-                  fontSize: 13,
-                  color: DANGER,
-                  margin: '0 0 16px',
-                }}
-              >
-                {error}
-              </p>
-            )}
+            {error && <p className="bb-account-error">{error}</p>}
 
-            <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}>
-              {done ? (
+            <div className="bb-account-modal-actions">
+              {done === 'cancelled' ? (
                 <button
                   type="button"
+                  className="bb-btn bb-btn-primary"
                   onClick={closeModal}
-                  style={primaryButton(false)}
                 >
                   Done
                 </button>
-              ) : confirming ? (
-                <>
-                  <button
-                    type="button"
-                    onClick={doCancel}
-                    disabled={isPending}
-                    style={dangerButton(isPending)}
-                  >
-                    {isPending ? 'Cancelling…' : 'Yes, cancel'}
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setConfirming(false)}
-                    disabled={isPending}
-                    style={ghostButton(isPending)}
-                  >
-                    Keep subscription
-                  </button>
-                </>
-              ) : effectiveCancelAtPeriodEnd ? (
-                <>
-                  <button
-                    type="button"
-                    onClick={doResume}
-                    disabled={isPending}
-                    style={primaryButton(isPending)}
-                  >
-                    {isPending ? 'Resuming…' : 'Resume subscription'}
-                  </button>
-                  <button
-                    type="button"
-                    onClick={closeModal}
-                    disabled={isPending}
-                    style={ghostButton(isPending)}
-                  >
-                    Close
-                  </button>
-                </>
               ) : (
                 <>
                   <button
                     type="button"
-                    onClick={() => setConfirming(true)}
-                    style={ghostButton(false)}
+                    className="bb-btn bb-btn-outline"
+                    onClick={closeModal}
+                    disabled={isPending}
                   >
-                    Cancel subscription
+                    Keep subscription
                   </button>
                   <button
                     type="button"
-                    onClick={closeModal}
-                    style={primaryButton(false)}
+                    className="bb-btn bb-btn-danger-solid"
+                    onClick={doCancel}
+                    disabled={isPending}
                   >
-                    Close
+                    {isPending ? 'Cancelling…' : 'Yes, cancel'}
                   </button>
                 </>
               )}
             </div>
-
-            <p style={{ fontSize: 12, color: MUTED, margin: '18px 0 0' }}>
-              Card changes and invoices are handled by Stripe — ask if you want
-              those in here too.
-            </p>
           </div>
         </div>
       )}
-    </section>
+    </>
   );
-}
-
-// =============================================================================
-// Button styles
-// =============================================================================
-//
-// Inline rather than in settings.css, for the same reason as billing-client:
-// the app shell's inherited text colour is tuned for the navy sidebar and
-// disappears against the cream content background, so colours are set
-// explicitly here.
-
-function baseButton(disabled: boolean): React.CSSProperties {
-  return {
-    padding: '11px 22px',
-    borderRadius: 999,
-    font: 'inherit',
-    fontSize: 14,
-    fontWeight: 500,
-    cursor: disabled ? 'wait' : 'pointer',
-    opacity: disabled ? 0.7 : 1,
-  };
-}
-
-function primaryButton(disabled: boolean): React.CSSProperties {
-  return {
-    ...baseButton(disabled),
-    background: NAVY,
-    color: '#f4efe6',
-    border: 'none',
-    fontWeight: 600,
-  };
-}
-
-function ghostButton(disabled: boolean): React.CSSProperties {
-  return {
-    ...baseButton(disabled),
-    background: 'transparent',
-    color: NAVY,
-    border: `1px solid ${BORDER}`,
-  };
-}
-
-function dangerButton(disabled: boolean): React.CSSProperties {
-  return {
-    ...baseButton(disabled),
-    background: DANGER,
-    color: '#fff',
-    border: 'none',
-    fontWeight: 600,
-  };
 }

@@ -16,6 +16,13 @@
 //   - `recentResearch` prop fetched server-side by layout.tsx.
 //   - "New chat" → "New research"; "Recent chats" → "Recent research".
 //
+// SETTINGS (July 2026): a gear sits immediately above the user button. It was
+// previously reachable only by typing the URL — the practitioner profile is
+// the single biggest lever on answer quality, and subscription state lives
+// there too, so it needed a permanent home. Directly above the account button
+// is where people look for it, and it groups with the other account-level
+// items rather than with the case navigation.
+//
 // PERFORMANCE (July 2026) — every <Link> here carries prefetch={false}.
 // Next.js prefetches links on viewport entry by default. Because these routes
 // are force-dynamic, EACH prefetch triggers a full server render plus database
@@ -49,6 +56,7 @@ import {
   MessageSquare,
   PenSquare,
   Scale,
+  Settings,
   Users,
 } from 'lucide-react';
 import { useMatters } from '../matters/_components/matters-provider';
@@ -402,6 +410,25 @@ export function AppSidebar({
                 <BarChart3 size={16} strokeWidth={1.75} />
               </span>
               <span className="bb-shell-secondary-label">Analytics</span>
+            </Link>
+          )}
+
+          {/* Settings sits LAST among the links, directly above the account
+            * button, because it is an account-level concern rather than case
+            * navigation — practitioner profile, practice areas, subscription.
+            * Rendered only when signed in: there is nothing to configure
+            * without an account, and /settings would just bounce to /login. */}
+          {user && (
+            <Link
+              href="/settings"
+              className={`bb-shell-secondary-link ${pathname === '/settings' ? 'bb-shell-list-item-active' : ''}`}
+              title="Settings — your practice profile and subscription"
+              prefetch={false}
+            >
+              <span className="bb-shell-secondary-icon" aria-hidden>
+                <Settings size={16} strokeWidth={1.75} />
+              </span>
+              <span className="bb-shell-secondary-label">Settings</span>
             </Link>
           )}
 
