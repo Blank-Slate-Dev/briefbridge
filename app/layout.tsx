@@ -1,6 +1,8 @@
 // app/layout.tsx
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono, Fraunces } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
+import { PageViewTracker } from './_components/page-view-tracker';
 import './globals.css';
 import './_components/homepage.css';
 import './(app)/matters/_components/matters.css';
@@ -75,7 +77,33 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+
+        {/* TWO TRACKERS, ANSWERING DIFFERENT QUESTIONS.
+          *
+          * Vercel Analytics measures WHO IS ARRIVING — city, referrer, device
+          * — with no cookies and no identity. It is the one that settles "is
+          * this traffic real, or is it me refreshing from Newcastle", which
+          * Search Console cannot answer because GSC only sees Google search
+          * clicks.
+          *
+          * PageViewTracker measures WHICH PAGES GET REACHED, into our own
+          * analytics_events table, so the founder dashboard can put page
+          * views beside chat queries and conversion. It also EXCLUDES signed-
+          * in founder traffic, which Vercel's cannot.
+          *
+          * Both live in the ROOT layout because it is the only one every page
+          * shares — the (app) and (public) groups each have their own, so
+          * mounting in either would miss half the site, including the 12,752
+          * programmatic legislation pages that are the traffic most worth
+          * measuring.
+          *
+          * Neither renders anything, and neither runs in development.
+          */}
+        <Analytics />
+        <PageViewTracker />
+      </body>
     </html>
   );
 }

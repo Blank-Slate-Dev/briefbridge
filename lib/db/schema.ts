@@ -1008,7 +1008,12 @@ export const analyticsEvents = pgTable(
   'analytics_events',
   {
     id: uuid('id').primaryKey().defaultRandom(),
-    userId: uuid('user_id').notNull(),
+    // NULLABLE since migration 0023. Page views mostly come from LOGGED-OUT
+    // visitors — the legislation pages, the homepage, the demo — and those
+    // are the visits most worth measuring. Null means "not signed in", not
+    // "missing data", so every query that groups by user must filter nulls
+    // out explicitly.
+    userId: uuid('user_id'),
     eventType: text('event_type').notNull(),
     metadata: jsonb('metadata').notNull().default(sql`'{}'::jsonb`),
     createdAt: timestamp('created_at', { withTimezone: true })
