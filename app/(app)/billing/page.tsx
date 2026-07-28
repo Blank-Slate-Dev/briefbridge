@@ -8,7 +8,9 @@
 // Both are cheap and only run when someone opens billing.
 //
 // The trial charge date is computed HERE rather than in the client so the
-// figure the user reads is the server's date, not their device clock.
+// figure the user reads is the server's date, not their device clock. A
+// wrong charge date is exactly the kind of small inaccuracy this audience
+// checks, and a device with a skewed clock would produce one.
 //
 // Whether the yearly plan is OFFERED is decided here too: if
 // STRIPE_PRICE_ID_YEARLY isn't configured the chooser collapses to a single
@@ -28,6 +30,28 @@ export const dynamic = 'force-dynamic';
 
 export const metadata = { title: 'Billing' };
 
+/**
+ * When the card would first be charged if a trial started right now.
+ *
+ * Deliberately outside the component, with the purity rule disabled.
+ *
+ * react-hooks/purity forbids impure calls like Date.now() during render,
+ * because in a CLIENT component an unexpected re-render would silently change
+ * the value. That reasoning doesn't apply here: this is a Server Component
+ * marked force-dynamic, so it renders exactly once per request, on the
+ * server, and the current time is precisely what we want. The lint rule
+ * cannot tell the two cases apart.
+ *
+ * The alternative — computing the date in the browser — is worse: it would
+ * read the visitor's device clock, and a skewed clock would print a charge
+ * date that doesn't match what Stripe actually does.
+ */
+function projectedTrialChargeDate(trialDays: number): string {
+  // eslint-disable-next-line react-hooks/purity
+  const now = Date.now();
+  return new Date(now + trialDays * 24 * 60 * 60 * 1000).toISOString();
+}
+
 export default async function BillingPage() {
   const supabase = await createClient();
   const {
@@ -41,10 +65,7 @@ export default async function BillingPage() {
   ]);
   const invoices = await listInvoices(access.stripeCustomerId);
 
-  // What the card would be charged if they started a trial right now.
-  const projectedChargeDate = new Date(
-    Date.now() + TRIAL_DAYS * 24 * 60 * 60 * 1000,
-  ).toISOString();
+  const projectedChargeDate = projectedTrialChargeDate(TRIAL_DAYS);
 
   return (
     <main className="bb-account-main">
