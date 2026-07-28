@@ -8,20 +8,21 @@
 // =============================================================================
 //
 //   Google Search Console — who found us THROUGH GOOGLE. Clicks, impressions,
-//   which queries and which pages. Blind to every other route in: direct,
-//   referral, anything shared in a message.
+//   which queries and which pages. Blind to every other route in.
 //
 //   Site traffic (analytics_events, page_view) — which pages actually get
-//   reached, by anyone, signed in or not. Founder visits are excluded at
-//   write time, so the numbers mean something.
+//   reached, by anyone, signed in or not, AND FROM WHERE. Founder visits are
+//   excluded at write time, so the numbers mean something.
 //
 //   In-app usage (analytics_events, chat_query) — what people DO once here.
 //   The only one of the three that measures the product rather than the
 //   marketing.
 //
-// The gap that matters is between the second and third: plenty of page views
-// with no queries means people arrive and bounce, which is a very different
-// problem from not being found at all.
+// The city table is the one that answers "is this real traffic or me". A
+// column of Newcastle is the founder; a spread of Sydney, Melbourne,
+// Brisbane is lawyers. Vercel's own dashboard shows COUNTRY only unless you
+// pay for Analytics Plus — the city header is free, so we read it ourselves
+// in app/_actions/track.ts.
 //
 // Styling note: all colours are set EXPLICITLY (navy text on cream cards)
 // because the app shell's inherited text colour is light (for the navy
@@ -64,6 +65,7 @@ export default async function AnalyticsPage() {
     emptyRows,
     trafficTotalsRows,
     trafficPagesRows,
+    trafficCitiesRows,
     trafficDailyRows,
     gscTotals28,
     gscDaily,
@@ -122,14 +124,11 @@ export default async function AnalyticsPage() {
     `),
 
     // ---- Site traffic -----------------------------------------------------
-    // signed_in_7d counts views by people with an account, which is the
-    // number that separates "strangers landing on legislation pages" from
-    // "someone actually using the app".
     db.execute<{
       views_7d: number;
       views_30d: number;
       signed_in_7d: number;
-      distinct_paths_30d: number;
+      distinct_cities_30d: number;
     }>(sql`
       SELECT
         count(*) FILTER (WHERE created_at > now() - interval '7 days')::int AS views_7d,
@@ -137,9 +136,9 @@ export default async function AnalyticsPage() {
         count(*) FILTER (
           WHERE created_at > now() - interval '7 days' AND user_id IS NOT NULL
         )::int AS signed_in_7d,
-        count(DISTINCT metadata->>'path') FILTER (
+        count(DISTINCT metadata->>'city') FILTER (
           WHERE created_at > now() - interval '30 days'
-        )::int AS distinct_paths_30d
+        )::int AS distinct_cities_30d
       FROM analytics_events
       WHERE event_type = 'page_view'
     `),
@@ -153,6 +152,28 @@ export default async function AnalyticsPage() {
         AND created_at > now() - interval '30 days'
       GROUP BY 1
       ORDER BY 2 DESC
+      LIMIT 20
+    `),
+    // THE TABLE THAT ANSWERS "IS THIS ME". A wall of Newcastle is the
+    // founder; a spread of capitals is actual interest.
+    db.execute<{
+      city: string | null;
+      region: string | null;
+      country: string | null;
+      views: number;
+      last_seen: string;
+    }>(sql`
+      SELECT
+        metadata->>'city' AS city,
+        metadata->>'region' AS region,
+        metadata->>'country' AS country,
+        count(*)::int AS views,
+        max(created_at)::text AS last_seen
+      FROM analytics_events
+      WHERE event_type = 'page_view'
+        AND created_at > now() - interval '30 days'
+      GROUP BY 1, 2, 3
+      ORDER BY 4 DESC
       LIMIT 20
     `),
     db.execute<{ day: string; views: number }>(sql`
@@ -201,15 +222,38 @@ export default async function AnalyticsPage() {
       </h2>
       <p style={{ fontSize: '.8rem', color: MUTED, marginBottom: '1rem' }}>
         All visits, not just Google · your own signed-in visits are excluded ·
-        city and referrer breakdowns are in Vercel Analytics
+        location resolved at the edge, no IP stored
       </p>
 
       <section style={{ display: 'flex', gap: '1rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
         <Stat label="Page views (7d)" value={traffic?.views_7d ?? 0} />
         <Stat label="Page views (30d)" value={traffic?.views_30d ?? 0} />
         <Stat label="Signed-in views (7d)" value={traffic?.signed_in_7d ?? 0} />
-        <Stat label="Distinct pages (30d)" value={traffic?.distinct_paths_30d ?? 0} />
+        <Stat label="Distinct cities (30d)" value={traffic?.distinct_cities_30d ?? 0} />
       </section>
+
+      <h3 style={{ fontSize: '1rem', margin: '1.25rem 0 .5rem', color: NAVY }}>
+        Cities (30d)
+      </h3>
+      <table style={{ borderCollapse: 'collapse', width: '100%', marginBottom: '1.5rem' }}>
+        <thead>
+          <tr><Th>City</Th><Th>Region</Th><Th>Country</Th><Th>Views</Th><Th>Last seen</Th></tr>
+        </thead>
+        <tbody>
+          {trafficCitiesRows.length === 0 && (
+            <tr><Td colSpan={5} muted>No page views yet — visit a page on production.</Td></tr>
+          )}
+          {trafficCitiesRows.map((r, i) => (
+            <tr key={i}>
+              <Td>{r.city ?? 'Unknown'}</Td>
+              <Td small>{r.region ?? '—'}</Td>
+              <Td mono>{r.country ?? '—'}</Td>
+              <Td>{r.views}</Td>
+              <Td mono small>{r.last_seen.slice(0, 16)}</Td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
 
       <h3 style={{ fontSize: '1rem', margin: '1.25rem 0 .5rem', color: NAVY }}>
         Most-viewed pages (30d)
@@ -220,7 +264,7 @@ export default async function AnalyticsPage() {
         </thead>
         <tbody>
           {trafficPagesRows.length === 0 && (
-            <tr><Td colSpan={3} muted>No page views yet — deploy, then visit a page on production.</Td></tr>
+            <tr><Td colSpan={3} muted>No page views yet.</Td></tr>
           )}
           {trafficPagesRows.map((r, i) => (
             <tr key={i}>
