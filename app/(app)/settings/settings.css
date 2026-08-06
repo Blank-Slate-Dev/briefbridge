@@ -1156,3 +1156,144 @@
     justify-content: flex-end;
   }
 }
+/* ==========================================================================
+   Plan family control + seat stepper
+   Added for the Individual / Firm split. Same tokens as the rest of this
+   file, so the control reads as part of the existing account surface rather
+   than a bolt-on.
+   ========================================================================== */
+
+.bb-seg {
+  display: inline-flex;
+  padding: 4px;
+  margin-bottom: 20px;
+  border-radius: 999px;
+  background: var(--bb-bg);
+  box-shadow: inset 0 0 0 1px rgba(26, 31, 46, 0.08);
+}
+
+.bb-seg-btn {
+  appearance: none;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  color: var(--bb-muted);
+  padding: 8px 22px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+.bb-seg-btn:hover {
+  color: var(--bb-ink);
+}
+.bb-seg-btn-active,
+.bb-seg-btn-active:hover {
+  background: var(--bb-bg-elevated);
+  color: var(--bb-ink);
+  box-shadow: 0 1px 2px rgba(26, 31, 46, 0.1);
+}
+.bb-seg-btn:focus-visible {
+  outline: 2px solid var(--bb-highlight);
+  outline-offset: 2px;
+}
+
+/* ---- seats ---- */
+
+.bb-seats {
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  background: var(--bb-bg-elevated);
+  box-shadow: 0 0 0 1px rgba(26, 31, 46, 0.08);
+}
+
+.bb-seats-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.bb-seats-label {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--bb-ink);
+}
+
+.bb-seats-note {
+  margin: 12px 0 0;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--bb-muted);
+}
+
+.bb-stepper {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  background: var(--bb-bg);
+  box-shadow: inset 0 0 0 1px rgba(26, 31, 46, 0.12);
+}
+
+.bb-stepper-btn {
+  appearance: none;
+  border: none;
+  background: transparent;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--bb-ink);
+  cursor: pointer;
+  transition:
+    background 0.12s ease,
+    opacity 0.12s ease;
+}
+.bb-stepper-btn:hover:not(:disabled) {
+  background: rgba(26, 31, 46, 0.06);
+}
+.bb-stepper-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+.bb-stepper-btn:focus-visible {
+  outline: 2px solid var(--bb-highlight);
+  outline-offset: -2px;
+}
+
+.bb-stepper-input {
+  width: 58px;
+  border: none;
+  background: transparent;
+  text-align: center;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--bb-ink);
+  padding: 0;
+  /* Native spinners duplicate the +/- buttons and are hard to hit. */
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+.bb-stepper-input::-webkit-outer-spin-button,
+.bb-stepper-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+.bb-stepper-input:focus {
+  outline: none;
+}
+.bb-stepper-input:focus-visible {
+  outline: 2px solid var(--bb-highlight);
+  outline-offset: 2px;
+  border-radius: 6px;
+}

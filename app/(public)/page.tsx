@@ -2,9 +2,9 @@
 //
 // Homepage CONTENT only — the sticky header and footer now come from
 // app/(public)/layout.tsx, shared with every public page.
-import Image from 'next/image';
 import Link from 'next/link';
 import { HeroPreview } from '../_components/hero-preview';
+import { PricingSection } from '../_components/pricing-section';
 import { createClient } from '@/lib/supabase/server';
 import { redirect } from 'next/navigation';
 
@@ -18,7 +18,7 @@ export default async function HomePage() {
   const supabase = await createClient();
   const {
     data: { user },
-} = await supabase.auth.getUser();
+  } = await supabase.auth.getUser();
 
   // Logged-in users don't need the marketing homepage — send them straight
   // to their workspace. Must be outside any try/catch (redirect throws).
@@ -26,12 +26,13 @@ export default async function HomePage() {
     redirect('/matters');
   }
 
-
   return (
     <>
       {/* === HERO === */}
       <section className="bb-hero">
-        <div className="bb-hero-eyebrow">Now indexing NSW Supreme Court</div>
+        <div className="bb-hero-eyebrow">
+          NSW Supreme Court, Court of Appeal, CCA and the High Court
+        </div>
         <h1 className="bb-hero-title">
           The legal research partner
           <br />
@@ -87,16 +88,22 @@ export default async function HomePage() {
             <h3>Grounded answers</h3>
             <p>
               Every answer points to the exact paragraph it came from. No
-              invented quotes. No hallucinated citations. Click through and
-              verify in one tap.
+              invented quotes. No hallucinated citations. When there is no
+              authority on point, it says so instead of producing something
+              plausible.
             </p>
           </div>
           <div className="bb-problem-card">
             <div className="bb-problem-num">iii.</div>
             <h3>Australian-first</h3>
+            {/* CLAIM CHECK: this card previously listed Victoria, Queensland
+                and the Federal Court, none of which are in the corpus. It now
+                names only what is actually ingested. The coverage list below
+                is the single place that states what is and isn't live. */}
             <p>
-              NSW, Victoria, Queensland, Federal Court, High Court. Built for
-              Commonwealth jurisdictions — not retrofitted from a US-trained
+              NSW Supreme Court, Court of Appeal and Court of Criminal Appeal,
+              the High Court, and every in-force NSW and Commonwealth Act.
+              Built for Australian law — not retrofitted from a US-trained
               model.
             </p>
           </div>
@@ -147,51 +154,96 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* === PRICING === */}
+      {/* Placed after "how it works" so the number lands once the reader
+          knows what it buys, and before "coverage" so the corpus depth reads
+          as reassurance on the way to the CTA. Moving it is one line. */}
+      <PricingSection />
+
       {/* === COVERAGE === */}
       <section className="bb-section" id="coverage">
         <div className="bb-section-eyebrow">Coverage</div>
         <h2 className="bb-section-title">
-          Starting with NSW. <em>Australia next.</em>
+          NSW and the High Court, in full. <em>Australia next.</em>
         </h2>
         <p className="bb-section-sub">
           We&apos;re building court-by-court, with full text and structured
-          metadata. No black-box scraping — direct ingestion with court
-          permission.
+          metadata — every judgment attributed and linked back to the
+          authoritative version.
         </p>
         <div className="bb-coverage">
           <div className="bb-coverage-list">
-            <CoverageRow name="NSW Supreme Court" status="Live" tone="live" />
+            {/* CLAIM CHECK: statuses below are taken from PRODUCT_ROADMAP.md
+                (13 Jul 2026), which supersedes the older figures. The previous
+                version of this list UNDERSTATED the corpus — it showed the
+                Court of Appeal and the High Court as "this month" when both
+                are ingested and embedded — and OVERSTATED the Federal Court,
+                which has not been started. Confirm before each release. */}
+            <CoverageRow
+              name="NSW Supreme Court (1999–)"
+              status="Live"
+              tone="live"
+            />
             <CoverageRow
               name="NSW Court of Appeal"
-              status="This month"
+              status="Live"
+              tone="live"
+            />
+            <CoverageRow
+              name="NSW Court of Criminal Appeal"
+              status="Live"
+              tone="live"
+            />
+            <CoverageRow
+              name="High Court of Australia (1998–)"
+              status="Live"
+              tone="live"
+            />
+            <CoverageRow
+              name="Commonwealth Acts, in force"
+              status="Live"
+              tone="live"
+            />
+            <CoverageRow
+              name="NSW Acts, in force"
+              status="Live"
+              tone="live"
+            />
+            <CoverageRow
+              name="High Court archive (1903–1997)"
+              status="Next"
               tone="soon"
             />
             <CoverageRow
               name="Federal Court of Australia"
-              status="This month"
-              tone="soon"
-            />
-            <CoverageRow
-              name="High Court of Australia"
-              status="This month"
+              status="Next"
               tone="soon"
             />
             <CoverageRow
               name="VIC, QLD, WA, SA Supreme Courts"
-              status="Q3"
+              status="Planned"
               tone="planned"
             />
             <CoverageRow
               name="Tribunals (NCAT, AAT, VCAT)"
-              status="Q4"
+              status="Planned"
               tone="planned"
             />
           </div>
           <div>
-            <h3 className="bb-coverage-heading">Sourced direct, not scraped.</h3>
+            <h3 className="bb-coverage-heading">
+              Attributed, linked, and checkable.
+            </h3>
+            {/* CLAIM CHECK: the previous copy here said "direct ingestion with
+                court permission". The High Court set is ingested via AustLII
+                rather than from the Court, so that sentence was not one this
+                audience could be asked to take on trust. Reworded to what is
+                demonstrably true — republication policies, attribution,
+                suppression orders — with no claim about permission. Restore a
+                stronger claim only if you can point to the grant. */}
             <p className="bb-coverage-text">
-              BriefBridge ingests judgments directly from court sources under
-              their published republication policies. Every judgment is
+              BriefBridge republishes judgments under the published
+              republication policies that govern them. Every judgment is
               attributed, every source is linked, and suppression orders are
               honoured.
             </p>
@@ -222,7 +274,7 @@ export default async function HomePage() {
               Sign in →
             </Link>
             <a
-              href="mailto:osr9915@gmail.com"
+              href="mailto:oakley@briefbridge.ai"
               className="bb-btn bb-btn-ghost bb-btn-large"
             >
               Talk to us

@@ -20,8 +20,11 @@
 // webhook still hasn't landed after the timeout, say so plainly and reassure
 // them the payment is safe rather than leaving a spinner running forever.
 //
-// The `interval` prop is part of the KEY on the provider: changing plan must
-// fetch a NEW session, and remounting is the only way to make Stripe do that.
+// The plan identity — interval, family AND seat count — is part of the KEY on
+// the provider. Changing any of them must fetch a NEW session, and remounting
+// is the only way to make Stripe do that. Seats matter here as much as the
+// other two: past 20 seats the per-seat rate changes, so a stale session would
+// charge the wrong amount.
 
 'use client';
 
@@ -42,6 +45,9 @@ const stripePromise = loadStripe(
 
 interface Props {
   interval: 'month' | 'year';
+  family?: 'individual' | 'firm';
+  /** Ignored for individual plans; the server forces quantity 1. */
+  seats?: number;
   /** Called on an interval until the parent re-renders with access granted. */
   onSubscribed: () => void;
 }
@@ -49,7 +55,12 @@ interface Props {
 const POLL_INTERVAL_MS = 1200;
 const POLL_TIMEOUT_MS = 25000;
 
-export function EmbeddedCheckoutPanel({ interval, onSubscribed }: Props) {
+export function EmbeddedCheckoutPanel({
+  interval,
+  family = 'individual',
+  seats = 1,
+  onSubscribed,
+}: Props) {
   const [error, setError] = useState<string | null>(null);
   const [waiting, setWaiting] = useState(false);
   const [slow, setSlow] = useState(false);
@@ -64,13 +75,13 @@ export function EmbeddedCheckoutPanel({ interval, onSubscribed }: Props) {
   // Stripe calls this to fetch the session. It must resolve to the secret
   // itself, not a wrapper object.
   const fetchClientSecret = useCallback(async () => {
-    const result = await createEmbeddedCheckoutAction(interval);
+    const result = await createEmbeddedCheckoutAction(interval, family, seats);
     if (!result.ok) {
       setError(result.error);
       throw new Error(result.error);
     }
     return result.clientSecret;
-  }, [interval]);
+  }, [interval, family, seats]);
 
   const handleComplete = useCallback(() => {
     setWaiting(true);
@@ -110,7 +121,7 @@ export function EmbeddedCheckoutPanel({ interval, onSubscribed }: Props) {
 
   return (
     <EmbeddedCheckoutProvider
-      key={interval}
+      key={`${family}:${interval}:${seats}`}
       stripe={stripePromise}
       options={{ fetchClientSecret, onComplete: handleComplete }}
     >

@@ -47,6 +47,7 @@ export function StickyHeader({ isLoggedIn = false }: { isLoggedIn?: boolean }) {
         <div className="bb-nav-links">
           <Link href="/demo">See it work</Link>
           <Link href="/#how">How it works</Link>
+          <Link href="/#pricing">Pricing</Link>
           <Link href="/#coverage">Coverage</Link>
           <Link href="/cases">Cases</Link>
           <Link href="/legislation">Legislation</Link>

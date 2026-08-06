@@ -12,9 +12,14 @@
 // wrong charge date is exactly the kind of small inaccuracy this audience
 // checks, and a device with a skewed clock would produce one.
 //
-// Whether the yearly plan is OFFERED is decided here too: if
-// STRIPE_PRICE_ID_YEARLY isn't configured the chooser collapses to a single
-// monthly card rather than showing a plan that can't be bought.
+// Which plans are OFFERED is decided here too: if STRIPE_PRICE_ID_YEARLY isn't
+// configured the interval chooser collapses to a single monthly card, and if
+// the firm prices aren't configured the Individual/Firm control is hidden
+// entirely. Showing a plan that can't be bought is worse than not showing it.
+//
+// The active subscription's price id is resolved to a family and interval HERE
+// rather than in the client, which keeps all four Stripe price ids out of the
+// browser bundle.
 
 import { redirect } from 'next/navigation';
 import { createClient } from '@/lib/supabase/server';
@@ -23,7 +28,7 @@ import {
   getSubscription,
 } from '@/lib/db/queries/subscription';
 import { listInvoices } from '@/lib/billing/invoices';
-import { TRIAL_DAYS, STRIPE_PRICE_ID_YEARLY, hasYearlyPrice } from '@/lib/stripe';
+import { TRIAL_DAYS, hasYearlyPrice, hasFirmPricing, priceIdMap } from '@/lib/stripe';
 import { BillingClient } from './_components/billing-client';
 
 export const dynamic = 'force-dynamic';
@@ -67,6 +72,13 @@ export default async function BillingPage() {
 
   const projectedChargeDate = projectedTrialChargeDate(TRIAL_DAYS);
 
+  // null when the subscription is on a price id we no longer recognise — an
+  // old price, or one created directly in the dashboard. The client renders a
+  // neutral label rather than asserting something it can't verify.
+  const activePlan = subscription?.priceId
+    ? (priceIdMap()[subscription.priceId] ?? null)
+    : null;
+
   return (
     <main className="bb-account-main">
       <header className="bb-account-head">
@@ -87,8 +99,8 @@ export default async function BillingPage() {
         projectedChargeDate={projectedChargeDate}
         invoices={invoices}
         yearlyAvailable={hasYearlyPrice()}
-        activePriceId={subscription?.priceId ?? null}
-        yearlyPriceId={STRIPE_PRICE_ID_YEARLY}
+        firmAvailable={hasFirmPricing()}
+        activePlan={activePlan}
       />
     </main>
   );

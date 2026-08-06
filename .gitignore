@@ -47,3 +47,7 @@ aic-act-from-db.txt
 privacy-act-from-db*.txt
 parser-debug.log
 parser-diag.log
+
+# outreach list building — contains third parties' personal information,
+# must never enter git history
+scripts/outreach/out/

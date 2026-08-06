@@ -743,3 +743,216 @@ body:has(.bb-hero) {
     animation: none !important;
   }
 }
+/* === PRICING ===
+ * Public pricing section (app/_components/pricing-section.tsx), rendered on
+ * the homepage at #pricing. Reuses .bb-section / .bb-section-title chrome;
+ * everything below is new. All existing design tokens, no new colours.
+ */
+
+.bb-pricing-switch {
+  display: inline-flex;
+  padding: 4px;
+  margin: 44px 0 36px;
+  border-radius: 999px;
+  background: var(--bb-bg-elevated);
+  border: 1px solid var(--bb-border);
+}
+
+.bb-pricing-switch-btn {
+  appearance: none;
+  border: none;
+  background: transparent;
+  font-family: var(--font-geist-sans), sans-serif;
+  font-size: 14.5px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  color: var(--bb-muted);
+  padding: 9px 26px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+.bb-pricing-switch-btn:hover {
+  color: var(--bb-ink);
+}
+.bb-pricing-switch-btn-active,
+.bb-pricing-switch-btn-active:hover {
+  background: var(--bb-ink);
+  color: var(--bb-bg);
+  box-shadow: 0 2px 8px rgba(26, 31, 46, 0.14);
+}
+.bb-pricing-switch-btn:focus-visible {
+  outline: 2px solid var(--bb-highlight);
+  outline-offset: 2px;
+}
+
+.bb-price-grid {
+  display: grid;
+  gap: 24px;
+  align-items: stretch;
+}
+/* One card shouldn't stretch the full 1280px — it reads as an empty page. */
+.bb-price-grid-one {
+  grid-template-columns: minmax(0, 460px);
+}
+.bb-price-grid-two {
+  grid-template-columns: repeat(2, minmax(0, 460px));
+}
+
+.bb-price-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 36px 32px;
+  border: 1px solid var(--bb-border);
+  border-radius: 16px;
+  background: var(--bb-bg-elevated);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.bb-price-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(26, 31, 46, 0.06);
+}
+
+.bb-price-badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: rgba(201, 184, 138, 0.4);
+  color: var(--bb-ink);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.bb-price-name {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--bb-ink);
+  margin-bottom: 6px;
+}
+.bb-price-sub {
+  font-size: 14.5px;
+  color: var(--bb-muted);
+  line-height: 1.5;
+  margin-bottom: 26px;
+}
+
+.bb-price-figure {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 2px 8px;
+  margin-bottom: 10px;
+}
+.bb-price-currency {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 24px;
+  color: var(--bb-muted);
+  align-self: flex-start;
+  padding-top: 6px;
+}
+.bb-price-amount {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--bb-ink);
+  font-variant-numeric: tabular-nums;
+}
+.bb-price-unit {
+  font-size: 14.5px;
+  color: var(--bb-muted);
+}
+
+.bb-price-annual {
+  font-size: 14px;
+  color: var(--bb-muted);
+  margin-bottom: 28px;
+}
+
+/* Pushed to the bottom so both firm cards align their buttons regardless of
+   how the labels above wrap. */
+.bb-price-cta {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.bb-price-includes {
+  margin-top: 48px;
+  padding-top: 36px;
+  border-top: 1px solid var(--bb-border);
+}
+.bb-price-includes-title {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  color: var(--bb-ink);
+  margin-bottom: 18px;
+}
+.bb-price-features {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  max-width: 900px;
+}
+.bb-price-features li {
+  position: relative;
+  padding-left: 22px;
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--bb-muted);
+}
+.bb-price-features li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--bb-highlight);
+}
+.bb-price-note {
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--bb-muted-soft);
+  max-width: 720px;
+}
+
+@media (max-width: 900px) {
+  .bb-price-grid-one,
+  .bb-price-grid-two {
+    grid-template-columns: 1fr;
+  }
+  .bb-price-features {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .bb-price-card {
+    padding: 28px 24px;
+  }
+  .bb-price-amount {
+    font-size: 46px;
+  }
+  .bb-pricing-switch {
+    margin: 32px 0 28px;
+  }
+}

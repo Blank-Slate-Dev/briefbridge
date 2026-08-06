@@ -24,7 +24,9 @@ import {
   TRIAL_DAYS,
   appUrl,
   priceIdFor,
+  hasFirmPricing,
 } from '@/lib/stripe';
+import { clampSeats, FIRM_MIN_SEATS } from '@/lib/billing/copy';
 import {
   getSubscription,
   upsertSubscription,
@@ -64,15 +66,30 @@ async function resolveCustomerId(
 }
 
 /**
- * Creates an EMBEDDED Checkout session for the chosen billing interval and
- * returns its client secret.
+ * Creates an EMBEDDED Checkout session for the chosen plan and returns its
+ * client secret.
  *
  * The secret is handed to <EmbeddedCheckoutProvider> on the client, which
  * mounts Stripe's payment form in an iframe on our page. Nothing navigates.
  *
- * The interval is validated here rather than trusted: it arrives from the
- * browser, and mapping it to a price id server-side means a tampered request
- * can only ever select between the two prices we actually sell.
+ * EVERY INPUT IS RE-VALIDATED HERE, NOT TRUSTED. All three arrive from the
+ * browser. Interval and family are narrowed to their literal unions, so a
+ * tampered request can only ever select a price we actually sell. Seats are
+ * clamped to [FIRM_MIN_SEATS, FIRM_MAX_SEATS] by the same function the stepper
+ * uses, so the UI cannot offer a number the server would reject and a crafted
+ * request cannot create a 10,000-seat subscription.
+ *
+ * The seat minimum is a real commercial rule, not decoration: a firm seat
+ * (A$79) undercuts an individual seat (A$99), so a one-seat firm plan would
+ * just be the individual plan at a discount. Enforcing it here rather than
+ * only in the stepper is the difference between a rule and a suggestion.
+ *
+ * QUANTITY IS FIXED, NOT ADJUSTABLE IN STRIPE'S FORM. Stripe can render a
+ * seat stepper inside checkout (line_items[].adjustable_quantity), but then
+ * the seat count — and, past 20 seats, the per-seat RATE — could change after
+ * the user has read our "Then A$X a month for N people" line. Deciding seats
+ * on our page keeps the number they agreed to and the number they are charged
+ * identical. Seats change later through the portal.
  *
  * TRIAL HANDLING — why the trial is decided here rather than on the price:
  *   Setting a trial on the price in the dashboard would give one to everybody,
@@ -88,6 +105,8 @@ async function resolveCustomerId(
  */
 export async function createEmbeddedCheckoutAction(
   interval: 'month' | 'year',
+  family: 'individual' | 'firm' = 'individual',
+  seats = 1,
 ): Promise<SecretResult> {
   const supabase = await createClient();
   const {
@@ -100,7 +119,25 @@ export async function createEmbeddedCheckoutAction(
   }
 
   const safeInterval: 'month' | 'year' = interval === 'year' ? 'year' : 'month';
-  const priceId = priceIdFor(safeInterval);
+  const safeFamily: 'individual' | 'firm' =
+    family === 'firm' ? 'firm' : 'individual';
+
+  if (safeFamily === 'firm' && !hasFirmPricing()) {
+    return { ok: false, error: 'Firm plans are not available yet.' };
+  }
+
+  const quantity = safeFamily === 'firm' ? clampSeats(seats) : 1;
+  if (safeFamily === 'firm' && quantity < FIRM_MIN_SEATS) {
+    return {
+      ok: false,
+      error: `Firm plans start at ${FIRM_MIN_SEATS} people.`,
+    };
+  }
+
+  const priceId = priceIdFor(safeFamily, safeInterval);
+  if (!priceId) {
+    return { ok: false, error: 'That plan is not available yet.' };
+  }
 
   try {
     const customerId = await resolveCustomerId(user.id, user.email ?? null);
@@ -109,11 +146,18 @@ export async function createEmbeddedCheckoutAction(
       ui_mode: 'embedded_page',
       mode: 'subscription',
       customer: customerId,
-      line_items: [{ price: priceId, quantity: 1 }],
+      line_items: [{ price: priceId, quantity }],
 
       subscription_data: {
         trial_period_days: TRIAL_DAYS,
-        metadata: { userId: user.id },
+        // family and seats travel on the subscription so the webhook can
+        // provision the right number of seats without re-deriving them from
+        // the price id.
+        metadata: {
+          userId: user.id,
+          planFamily: safeFamily,
+          seats: String(quantity),
+        },
       },
 
       // Card required up front even during the trial: it filters out
@@ -182,7 +226,8 @@ export async function getCheckoutSessionStatusAction(
  * Immediate cancellation would take away access the user has already paid
  * for. `cancel_at_period_end` keeps them entitled until the period elapses,
  * which is also what getAccessState already understands. This matters more on
- * the annual plan, where the remaining period can be most of a year.
+ * the annual plan, where the remaining period can be most of a year — and more
+ * again on a firm annual plan, where it can be most of a year for everyone.
  *
  * The local mirror is written here as well as by the webhook. That is
  * deliberate duplication: the webhook is authoritative, but it can take a
@@ -274,10 +319,15 @@ export async function resumeSubscriptionAction(): Promise<MutateResult> {
 /**
  * Opens the Stripe customer portal — the ONE remaining redirect.
  *
- * Kept for card updates, invoice history, and switching between the monthly
- * and annual plan. All three would otherwise mean handling card data,
- * rebuilding an invoice list, or implementing proration logic, and Stripe
- * refuses to let the portal be iframed, so there is no embedded equivalent.
+ * Kept for card updates, invoice history, switching between the monthly and
+ * annual plan, and — now — changing seat count on a firm plan. All of those
+ * would otherwise mean handling card data, rebuilding an invoice list, or
+ * implementing proration logic, and Stripe refuses to let the portal be
+ * iframed, so there is no embedded equivalent.
+ *
+ * For seat changes to appear there, the portal configuration in the Stripe
+ * dashboard needs "Customers can update quantities" enabled on the firm
+ * prices. Without it a firm admin has no self-serve way to add a colleague.
  */
 export async function createPortalSessionAction(): Promise<UrlResult> {
   const supabase = await createClient();
@@ -307,6 +357,9 @@ export async function createPortalSessionAction(): Promise<UrlResult> {
 /**
  * Hosted-checkout fallback, kept for any entry point that still wants a
  * redirect (and as an escape hatch if the embedded form ever misbehaves).
+ *
+ * Individual monthly only, deliberately. This is a safety net, and a safety
+ * net that has to reason about seat counts is not one.
  */
 export async function startCheckoutAction(): Promise<void> {
   const supabase = await createClient();
@@ -325,7 +378,7 @@ export async function startCheckoutAction(): Promise<void> {
       line_items: [{ price: STRIPE_PRICE_ID, quantity: 1 }],
       subscription_data: {
         trial_period_days: TRIAL_DAYS,
-        metadata: { userId: user.id },
+        metadata: { userId: user.id, planFamily: 'individual', seats: '1' },
       },
       payment_method_collection: 'always',
       success_url: appUrl('/matters?checkout=success'),

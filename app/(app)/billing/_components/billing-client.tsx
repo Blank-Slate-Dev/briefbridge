@@ -4,26 +4,30 @@
 // settings.css, which is what keeps this page and /settings identical.
 //
 // =============================================================================
-// TWO PLANS, TWO IDENTICAL CARDS
+// TWO FAMILIES, TWO INTERVALS
 // =============================================================================
 //
-// The chooser is two structurally identical cards side by side: same sections
-// in the same order, differing only in the numbers and the badge. That is
-// what makes them the same height without any height rules — matching
-// structure does the work that fixed heights were previously being asked to
-// do, and it keeps doing it when the copy changes.
+// A segmented control picks the family (Individual or Firm); two structurally
+// identical cards below it pick the interval. Same sections in the same order,
+// differing only in the numbers and the badge — that matching structure is
+// what makes the cards the same height without any height rules, and it keeps
+// doing it when the copy changes.
 //
-// Both plans buy exactly the same product. There is deliberately no feature
-// gating between them: an artificial split to push people onto the annual
-// plan is the kind of thing this audience reads as a tell, and the discount
-// is a good enough reason on its own.
+// Every plan buys exactly the same product. There is deliberately no feature
+// gating between intervals, and none between families either: a firm seat is
+// not a better seat than an individual one, it is the same seat bought in
+// bulk. An artificial split to push people onto the annual or firm plan is the
+// kind of thing this audience reads as a tell, and the discount is a good
+// enough reason on its own.
 //
 // The saving is COMPUTED in lib/billing/copy.ts, never typed by hand — a
 // "Save 20%" badge beside prices that actually save 16% is a
-// misrepresentation, and a checkable one.
+// misrepresentation, and a checkable one. Firm savings are computed at the
+// CURRENT seat count, because past 20 seats the per-seat rate changes.
 //
-// FLOW: choose a plan, then Continue to payment swaps the pair for the
-// embedded Stripe form in place. Nothing navigates.
+// FLOW: pick family → (firm only) set seats → pick interval → Continue to
+// payment swaps the chooser for the embedded Stripe form in place. Nothing
+// navigates.
 
 'use client';
 
@@ -35,14 +39,27 @@ import { InvoiceTable } from './invoice-table';
 import type { InvoiceRow } from '@/lib/billing/invoices';
 import {
   PLAN_FEATURES,
+  FIRM_EXTRAS,
+  FIRM_MIN_SEATS,
+  FIRM_MAX_SEATS,
+  FIRM_PRICE_AUD,
+  FIRM_PRICE_AUD_YEARLY,
+  FIRM_VOLUME_PRICE_AUD,
+  FIRM_VOLUME_PRICE_AUD_YEARLY,
   PRICE_AUD,
   PRICE_AUD_YEARLY,
+  clampSeats,
+  firmSeatPrice,
+  firmTotal,
   formatAuDate,
-  monthlyPlan,
+  formatAuDollars,
+  isFirmVolumeRate,
+  plansFor,
+  seatsToVolumeRate,
   trialTerms,
   trustPoints,
-  yearlyPlan,
   type PlanCopy,
+  type PlanFamily,
 } from '@/lib/billing/copy';
 
 interface Props {
@@ -56,10 +73,17 @@ interface Props {
   projectedChargeDate: string;
   invoices: InvoiceRow[];
   yearlyAvailable: boolean;
-  /** Stripe price id on the active subscription, for naming the plan. */
-  activePriceId: string | null;
-  yearlyPriceId: string;
+  firmAvailable: boolean;
+  /**
+   * Family and interval of the active subscription, resolved from its Stripe
+   * price id on the SERVER. Resolving it there means the four price ids stay
+   * out of the browser bundle.
+   */
+  activePlan: { family: PlanFamily; interval: 'month' | 'year' } | null;
 }
+
+/** Seats a firm chooser opens on — small enough to feel like a real starting point. */
+const DEFAULT_SEATS = 3;
 
 export function BillingClient({
   hasAccess,
@@ -72,10 +96,12 @@ export function BillingClient({
   projectedChargeDate,
   invoices,
   yearlyAvailable,
-  activePriceId,
-  yearlyPriceId,
+  firmAvailable,
+  activePlan,
 }: Props) {
   const router = useRouter();
+  const [family, setFamily] = useState<PlanFamily>('individual');
+  const [seats, setSeats] = useState(DEFAULT_SEATS);
   const [interval, setInterval] = useState<'month' | 'year'>('month');
   const [checkoutOpen, setCheckoutOpen] = useState(false);
   const [isPending, startTransition] = useTransition();
@@ -102,23 +128,29 @@ export function BillingClient({
   // ============================================================== no access
   if (!hasAccess) {
     const chargeDate = formatAuDate(projectedChargeDate);
-    const plans: PlanCopy[] = yearlyAvailable
-      ? [monthlyPlan(), yearlyPlan()]
-      : [monthlyPlan()];
+    const isFirm = family === 'firm';
+    const allPlans: PlanCopy[] = plansFor(family, seats);
+    const plans = yearlyAvailable ? allPlans : allPlans.slice(0, 1);
 
     if (checkoutOpen) {
+      const total = isFirm
+        ? firmTotal(seats, interval)
+        : interval === 'year'
+          ? PRICE_AUD_YEARLY
+          : PRICE_AUD;
+
       return (
         <div className="bb-account-body">
           <section className="bb-account-card bb-account-card-feature">
             <div className="bb-checkout-head">
               <div>
                 <h2 className="bb-account-card-title">
-                  {interval === 'year' ? 'Yearly plan' : 'Monthly plan'}
+                  {isFirm ? 'Firm' : 'Individual'} —{' '}
+                  {interval === 'year' ? 'yearly' : 'monthly'}
                 </h2>
                 <p className="bb-account-card-help" style={{ margin: 0 }}>
-                  {trialDays} days free, then A$
-                  {interval === 'year' ? PRICE_AUD_YEARLY : PRICE_AUD} on{' '}
-                  {chargeDate}.
+                  {trialDays} days free, then {formatAuDollars(total)}
+                  {isFirm ? ` for ${seats} people` : ''} on {chargeDate}.
                 </p>
               </div>
               <button
@@ -133,6 +165,8 @@ export function BillingClient({
             <div className="bb-account-checkout">
               <EmbeddedCheckoutPanel
                 interval={interval}
+                family={family}
+                seats={isFirm ? seats : 1}
                 onSubscribed={handleSubscribed}
               />
             </div>
@@ -141,8 +175,99 @@ export function BillingClient({
       );
     }
 
+    const toVolume = seatsToVolumeRate(seats);
+
     return (
       <div>
+        {/* Family. Hidden entirely when firm prices aren't configured — an
+            option that can't be bought is worse than no option. */}
+        {firmAvailable && (
+          <div
+            className="bb-seg"
+            role="radiogroup"
+            aria-label="Who is this for?"
+          >
+            <button
+              type="button"
+              role="radio"
+              aria-checked={!isFirm}
+              className={`bb-seg-btn${!isFirm ? ' bb-seg-btn-active' : ''}`}
+              onClick={() => setFamily('individual')}
+            >
+              Individual
+            </button>
+            <button
+              type="button"
+              role="radio"
+              aria-checked={isFirm}
+              className={`bb-seg-btn${isFirm ? ' bb-seg-btn-active' : ''}`}
+              onClick={() => setFamily('firm')}
+            >
+              Firm
+            </button>
+          </div>
+        )}
+
+        {/* Seats. Only meaningful for a firm. */}
+        {isFirm && (
+          <div className="bb-seats">
+            <div className="bb-seats-row">
+              <label className="bb-seats-label" htmlFor="bb-seats-input">
+                How many people?
+              </label>
+              <div className="bb-stepper">
+                <button
+                  type="button"
+                  className="bb-stepper-btn"
+                  aria-label="Remove a person"
+                  disabled={seats <= FIRM_MIN_SEATS}
+                  onClick={() => setSeats((n) => clampSeats(n - 1))}
+                >
+                  −
+                </button>
+                <input
+                  id="bb-seats-input"
+                  className="bb-stepper-input"
+                  type="number"
+                  inputMode="numeric"
+                  min={FIRM_MIN_SEATS}
+                  max={FIRM_MAX_SEATS}
+                  value={seats}
+                  onChange={(e) => setSeats(clampSeats(Number(e.target.value)))}
+                />
+                <button
+                  type="button"
+                  className="bb-stepper-btn"
+                  aria-label="Add a person"
+                  disabled={seats >= FIRM_MAX_SEATS}
+                  onClick={() => setSeats((n) => clampSeats(n + 1))}
+                >
+                  +
+                </button>
+              </div>
+            </div>
+
+            <p className="bb-seats-note">
+              {isFirmVolumeRate(seats) ? (
+                <>
+                  Volume rate applied — every seat is A$
+                  {firmSeatPrice(seats, interval)}{' '}
+                  {interval === 'year' ? 'a year' : 'a month'}.
+                </>
+              ) : (
+                <>
+                  {toVolume} more {toVolume === 1 ? 'person' : 'people'} and
+                  every seat drops to A$
+                  {interval === 'year'
+                    ? FIRM_VOLUME_PRICE_AUD_YEARLY
+                    : FIRM_VOLUME_PRICE_AUD}{' '}
+                  {interval === 'year' ? 'a year' : 'a month'}.
+                </>
+              )}
+            </p>
+          </div>
+        )}
+
         <div className="bb-plan-grid">
           {plans.map((plan) => {
             const selected = interval === plan.interval;
@@ -181,6 +306,12 @@ export function BillingClient({
                       {f}
                     </span>
                   ))}
+                  {isFirm &&
+                    FIRM_EXTRAS.map((f) => (
+                      <span key={f} className="bb-plan-feature">
+                        {f}
+                      </span>
+                    ))}
                 </span>
               </button>
             );
@@ -189,9 +320,11 @@ export function BillingClient({
 
         <div className="bb-plan-cta">
           <ul className="bb-account-terms">
-            {trialTerms(chargeDate, trialDays, interval).map((t) => (
-              <li key={t}>{t}</li>
-            ))}
+            {trialTerms(chargeDate, trialDays, interval, family, seats).map(
+              (t) => (
+                <li key={t}>{t}</li>
+              ),
+            )}
           </ul>
 
           <button
@@ -215,9 +348,21 @@ export function BillingClient({
   }
 
   // ============================================================= has access
-  const onYearly = Boolean(
-    activePriceId && yearlyPriceId && activePriceId === yearlyPriceId,
-  );
+  const onFirm = activePlan?.family === 'firm';
+  const onYearly = activePlan?.interval === 'year';
+
+  const planLabel = activePlan
+    ? `${onFirm ? 'Firm' : 'Individual'} — ${onYearly ? 'yearly' : 'monthly'}`
+    : 'Subscription';
+
+  // Per-seat rate for a firm, because the seat count lives in Stripe rather
+  // than in our subscription row — quoting a total we cannot verify would be
+  // worse than pointing at the place that knows.
+  const priceLabel = onFirm
+    ? `From A$${onYearly ? FIRM_PRICE_AUD_YEARLY : FIRM_PRICE_AUD} per person, ${onYearly ? 'per year' : 'per month'}`
+    : onYearly
+      ? `A$${PRICE_AUD_YEARLY}/year`
+      : `A$${PRICE_AUD}/month`;
 
   const pillClass = isTrialing
     ? 'bb-account-pill-trial'
@@ -246,12 +391,10 @@ export function BillingClient({
 
         <dl className="bb-account-facts">
           <dt>Plan</dt>
-          <dd>{onYearly ? 'Yearly' : 'Monthly'}</dd>
+          <dd>{planLabel}</dd>
 
           <dt>Price</dt>
-          <dd>
-            {onYearly ? `A$${PRICE_AUD_YEARLY}/year` : `A$${PRICE_AUD}/month`}
-          </dd>
+          <dd>{priceLabel}</dd>
 
           {cancelAtPeriodEnd && nextChargeDate ? (
             <>
@@ -277,7 +420,9 @@ export function BillingClient({
           <p className="bb-account-note">
             {cancelAtPeriodEnd
               ? 'Your subscription is ending. Resume it from Settings.'
-              : 'Cancel or resume from Settings.'}
+              : onFirm
+                ? 'Add or remove people, and cancel or resume, from Settings.'
+                : 'Cancel or resume from Settings.'}
           </p>
           <button
             type="button"
@@ -285,7 +430,11 @@ export function BillingClient({
             onClick={openPortal}
             disabled={isPending}
           >
-            {isPending ? 'Opening…' : 'Card, invoices & plan'}
+            {isPending
+              ? 'Opening…'
+              : onFirm
+                ? 'Card, invoices, people & plan'
+                : 'Card, invoices & plan'}
           </button>
         </div>
 
